@@ -9,7 +9,7 @@ aliases: []
 tags: [tir-na-nog, celtic-union, boirinn, dryadic, family, season-5]
 description: "Tissadelle Shepherd's mother, keeper of the family flock-holding in Tír na nÓg's Boirinn Uplands, and the last of six generations to hold the Hollow's rule without knowing the reason behind it."
 image: "orla-shepherd.jpg"
-image_alt: "A businesswoman standing confidently at the workplace"
+image_alt: "A weathered woman in a grey wool coat and scarf on a misty rocky upland pasture, shepherd's crook in hand, sheep grazing among lichen-covered volcanic stones behind her"
 ---
 
 Órla Shepherd has spent forty local years keeping a rule she was never given the reason for, and one afternoon in 2831 UCSD, her own daughter gave it to her anyway.

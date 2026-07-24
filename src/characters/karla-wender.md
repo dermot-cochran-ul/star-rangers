@@ -11,7 +11,7 @@ aliases:
 tags: [human, star-rangers, chief-pilot, pilot-section, high-captain, season-1]
 description: "Chief Pilot of the pilot section at the start of Season 1; later known as High Captain Wender."
 image: "karla-wender.jpg"
-image_alt: "A portrait of a female engineer"
+image_alt: "A woman pilot in a navy flight suit seated at a helm station, hands on the control yoke, her face lit by glowing navigation displays, starfield through the canopy behind her"
 ---
 
 The pilot section works in conditions where most navigation instruments fail: boundary-proximate transit, folding-adjacent approach corridors, edge conditions at [Concordant](/star-rangers/glossary/concordant/) overlap zones. Wender commands it.

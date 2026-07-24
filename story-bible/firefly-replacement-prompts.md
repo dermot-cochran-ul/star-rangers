@@ -69,9 +69,10 @@ hands folded, exactly the photograph an institution would frame.*
 Suggested alt: *"An official portrait of a stern grey-haired general in an
 austere slate uniform, unsmiling before a plain dark backdrop"*
 
-### `characters/karla-wender.jpg`
-*Currently: generic corporate headshot; alt text says "engineer." Character:
-Chief Pilot, later High Captain.*
+### `characters/karla-wender.jpg` — ✔ REPLACED 2026-07-24
+*Was: generic corporate headshot with "engineer" alt text. Now: the
+generation below, approved by Dermot — helm station, control yoke, nav
+displays (whose text Firefly rendered legibly for once: "HELM ACTIVE").*
 
 > Cinematic portrait of a confident mid-career woman pilot in a navy flight
 > suit seated at the helm of a spacecraft navigation deck, one hand resting
@@ -99,11 +100,11 @@ causeway rail at dawn.*
 Suggested alt: *"An alert tabby cat with a fine silver implant along one ear,
 sitting upright on a causeway rail above a misty marsh"*
 
-### `characters/orla-shepherd.jpg`
-*Currently: businesswoman in an office. Character: sixth-generation
-flockholder in the Boirinn Uplands.* **Note:** the Boirinn Uplands lore
-images are your Tenerife photography — match that mist-rock-and-green
-palette so she looks like she lives where the lore says she does.
+### `characters/orla-shepherd.jpg` — ✔ REPLACED 2026-07-24
+*Was: businesswoman in an office. Now: the generation below, approved by
+Dermot — wool coat, crook, sheep among lichened volcanic stones, mist off
+the ridge, and a faint glint of settlement lights on the skyline keeping it
+quietly in-universe. Palette sits well beside the Tenerife Boirinn photos.*
 
 > Weathered middle-aged woman in a heavy wool coat and scarf standing on a
 > misty rocky upland pasture, shepherd's crook in hand, a few sheep grazing
