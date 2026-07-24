@@ -151,3 +151,45 @@ definition.
 - **#4 — fixed:** "decades before" in the Twelve Sultans entry; Veritas
   commission now explicitly "nearly a century and a half after the guns went
   quiet," with the delay motivated (records readable without the war's politics).
+
+## Addendum: Copilot-legacy pass (2026-07-24, per Dermot's request)
+
+Dermot's verdict on the baseline tools: "almost nothing else from Sudowrite or
+Copilot can be safely reused." Swept the six files whose last commit was the
+Copilot bot. Findings and actions:
+
+- `glossary/ftl-mechanics.md` — **rewritten.** Out-of-character register ("not
+  canon-valid" — a fourth-wall leak in an in-universe glossary); now in house
+  voice with a worked example. Substance unchanged: two lawful channels only.
+- `timeline/2340-usc-sssa-established.md` — **two canon errors fixed.** (1) USIS
+  "maintained independence through the Coherence Wars" 163 years before they
+  began → now the 2130s–40s CE climate-crisis/coastal-fragmentation decades,
+  which land immediately before the USC's founding and fit the SSSA's
+  independence story better anyway. (2) "UCSD is anchored to the USC's founding"
+  is flatly contradicted by `universal-cosmic-stardate.md` (UCSD = CE + 200,
+  epoch kept, count renamed) → replaced with the correct fact, framed as a
+  misreading the Archive corrects in print.
+- `timeline/pre-usc-cable-warden-programme.md` — **mixed-era dates labeled.**
+  The entry quoted bare years in two different reckonings in one sentence.
+  All years now labeled CE with UCSD equivalents, consistent with
+  `subsea-cable-drones.md` (founding ~2041 CE, releases 2190–2280 CE, final
+  tranche 2724 UCSD). Undefined "Phase A" periodization removed.
+- `timeline/pre-usc-ul-standards-international.md` — **light touch.** The UL
+  lineage and seven-century arithmetic verify correctly under CE+200; years now
+  labeled, undefined "Phase A/B transition" timestamp replaced.
+- `timeline/pre-usc-civilisation-comparison-codified.md` — **chronology
+  impossibility fixed.** Was framed as pre-USC/USC-era scholarship analyzing the
+  29th century (its own future) and "shaping" a 2340 charter with it. Reframed:
+  two-era comparison is USC-era scholarship; the third column is a present-era
+  extension; the SSSA *anticipated* the framework's conclusion in practice and
+  is cited by it retrospectively. Founding-mandate bullet corrected to match.
+  (Filename's "pre-usc-" prefix left as-is to preserve the URL.)
+- `timeline/year-0-survey-team-arrives.md` — **clean.** Content verifies against
+  year-zero lore and the S01 chapters; dry register suits a timeline stub.
+
+**New convention surfaced by this pass, now applied:** bare pre-spaceflight
+years in the pre-USC cluster are CE; institutional-era years are UCSD; where
+both appear, label both (per `universal-cosmic-stardate.md`'s CE+200 rule).
+`subsea-cable-drones.md` and `crisis-centuries-terran-wildlife.md` still use
+bare CE years internally consistent with this reading — fine as-is, but any
+future edit touching them should add labels.

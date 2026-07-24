@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "The Three-Era Framework Codified"
-timestamp: "pre-USC (historical record)"
+timestamp: "USC era onward (historiography)"
 sort_order: -2000
 summary: "USC historical scholarship establishes the Three-Era Framework — comparing the 13th, 21st, and 29th centuries — as the canonical lens for understanding the transition from visible to invisible infrastructure, and the philosophical stakes of post-comprehension governance."
 tags: [history, usc, three-era-framework, guild, infrastructure, civilisation, technology, levrils, reclaimers, tafs]
@@ -16,23 +16,23 @@ tags: [history, usc, three-era-framework, guild, infrastructure, civilisation, t
     </ol>
   </nav>
   <h1 class="lore-entry__title">The Three-Era Framework Codified</h1>
-  <p><span class="character-badge">Pre-USC (historical record)</span></p>
+  <p><span class="character-badge">USC era onward (historiography)</span></p>
 </header>
 <div class="lore-entry__body">
 
-USC historical scholarship adopts the Three-Era Framework as a standard reference model for civilisational analysis. The framework compares three centuries — the 13th, the 21st, and the 29th — as representatives of three fundamentally different relationships between technological capability and technological visibility.
+The Three-Era Framework was not codified in one act; it matured across the eras it describes. Its core comparison — the 13th and 21st centuries as opposite relationships between technological capability and technological visibility — appears in USC-era historical scholarship, which adopted the two-era contrast as a standard reference model. The third column was added by the historians who lived in it: present-era archivists extended the framework to the 29th century once it became clear their own time had completed the pattern the USC scholars had only projected.
 
 The key finding is counterintuitive: the 21st century is the historical outlier, not the norm. It is the only era in which civilisational complexity was both extremely high **and** fully exposed to lay comprehension. All other eras — before and after — converge on a pattern of legible simplicity at the surface, regardless of what operates beneath.
 
-This finding shapes the founding documents of the Solar System Safety Standards Authority. The SSSA's certification process emphasises **procedural literacy over technical comprehension** precisely because of the Three-Era Framework's conclusion. Guild specialists in the 29th century are not expected to understand how Reclaimer directives propagate through the substrate. They are expected to know which parameters they are authorised to adjust, under what conditions, and with what approval chain.
+The Solar System Safety Standards Authority anticipated this conclusion in practice long before the framework formalised it. From its 2340 UCSD charter onward, SSSA certification emphasised **procedural literacy over technical comprehension** — an examiner is expected to know which parameters they are authorised to adjust, under what conditions, and with what approval chain, not to hold the whole system in their head. When present-era Guild specialists apply exactly that discipline to Reclaimer directives they cannot trace through the substrate, they are working a doctrine three centuries older than the framework that now explains why it works — which is why the framework's historians cite the SSSA as their standing proof.
 
-The SSSA notes explicitly that this mirrors 13th-century guild practice far more closely than 21st-century engineering practice — and that this is not a regression. It is an adaptation to a world in which the complexity beneath the surface is no longer humanly comprehensible.
+The framework notes explicitly that this mirrors 13th-century guild practice far more closely than 21st-century engineering practice — and that this is not a regression. It is an adaptation to a world in which the complexity beneath the surface is no longer humanly comprehensible.
 
 **Canon facts:**
 - The Three-Era Framework is not a political document. It carries no prescriptive claim about which era was best or most just.
 - The framework explicitly names the 29th century as **post-comprehension**, not primitive.
-- The failure mode unique to the 29th century — invisible system drift leading to sudden catastrophic edge cases — is identified in the framework and cited as the primary justification for independent boundary-monitoring capacity.
-- The Star Rangers Survey Corps' founding mandate references the Three-Era Framework in its statement of purpose.
+- The failure mode the framework assigns uniquely to the post-comprehension era — invisible system drift leading to sudden catastrophic edge cases — was already the operative argument, in its earlier two-era form, for independent boundary-monitoring capacity at the Star Rangers' founding.
+- The Survey Corps' current statement of purpose cites the completed Three-Era Framework; its 2723 UCSD founding mandate could only cite the USC-era scholarship the framework grew from, and did.
 
 See: [Civilisation Comparison: 13th, 21st, and 29th Centuries](/star-rangers/lore/civilisation-comparison/), [The Star Rangers Safety Corps](/star-rangers/lore/star-rangers-safety-corps/), [Star Rangers Charter Signed](/star-rangers/timeline/2723-star-rangers-charter/)
 

@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "Subsea Cable Warden Programme Established"
-timestamp: "Pre-USC era, ~Phase A"
+timestamp: "~2041 CE (2241 UCSD)"
 sort_order: -8000
 summary: "A classified multinational coalition establishes the Subsea Cable Warden Programme — autonomous deep-ocean vehicles tasked with protecting Earth's global fibre-optic cable network. Not publicly acknowledged for 187 years."
 tags: [earth, history, pre-expansion, pre-usc, cable-network, drones, subsea, classified]
@@ -16,19 +16,19 @@ tags: [earth, history, pre-expansion, pre-usc, cable-network, drones, subsea, cl
     </ol>
   </nav>
   <h1 class="lore-entry__title">Subsea Cable Warden Programme Established</h1>
-  <p><span class="character-badge">Pre-USC era, ~Phase A</span></p>
+  <p><span class="character-badge">~2041 CE (2241 UCSD)</span></p>
 </header>
 <div class="lore-entry__body">
 
 Earth's global subsea fibre-optic cable network carries more than ninety-five percent of international data traffic — including the logistical and coordination infrastructure that the first off-world outposts depend on entirely for contact with home. Its vulnerability is well understood by the people responsible for it, and they act on that knowledge in secret.
 
-Following a series of cable interference incidents assessed as deliberate, a classified coalition of Earth governments establishes the Subsea Cable Warden Programme: a network of long-endurance, deep-rated autonomous underwater vehicles tasked with continuous surveillance and, where necessary, active protection of the network. No public framework is created. No acknowledgement is made.
+Following a series of cable interference incidents in the North Atlantic and South China Sea assessed as deliberate, a classified coalition of Earth governments establishes the Subsea Cable Warden Programme in approximately 2041 CE (2241 UCSD): a network of long-endurance, deep-rated autonomous underwater vehicles tasked with continuous surveillance and, where necessary, active protection of the network. No public framework is created. No acknowledgement is made.
 
-The Programme's existence remains unacknowledged by any participating government for 187 years. Its operational records are classified until partial releases between approximately 2190–2280, with a final tranche declassified under the Consolidation Accords in 2724 UCSD.
+The Programme's existence remains unacknowledged by any participating government for 187 years. Its operational records are classified until partial releases between approximately 2190–2280 CE (2390–2480 UCSD), with a final tranche declassified under the Consolidation Accords in 2724 UCSD.
 
 **Canon facts:**
-- Four generations of Warden vehicles operate across the Programme's history, the third being deployed during the climate-crisis events of the Phase B period.
-- During the 2140s climate-crisis period, Warden vehicle repair capability restored cable service in at least three major events before surface vessels arrived. The surface repairs received public credit. The prior restorations did not.
+- Four generations of Warden vehicles operate across the Programme's history, the third — the deepest-rated — deployed through the climate-driven coastal fragmentation events of the 2130s–2140s CE.
+- During those climate-crisis decades, Warden vehicle repair capability restored cable service in at least three major events before surface vessels arrived. The surface repairs received public credit. The prior restorations did not.
 - The Programme is eventually absorbed into the USC's infrastructure security division and later its records transfer to the Survey Archive under the Accords.
 - The communications backbone the Programme protected was a direct enabler of sustained off-world investment during the critical Early Expansion period.
 

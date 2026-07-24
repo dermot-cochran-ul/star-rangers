@@ -24,7 +24,7 @@ In approximately 2340 UCSD, the Navigation and Trade Accords of 2337 — a worki
 
 The USC's founding act includes chartering the **Solar System Safety Standards Authority (SSSA)**. Rather than building a new institution from scratch, the USC consolidates the scattered landscape of national and commercial safety certification bodies into a single mandatory-jurisdiction authority. United Space Industry Standards is the largest of those absorbed.
 
-That absorption carries more than staff and records. United Space Industry Standards had maintained its independence from political and commercial interference through the Coherence Wars — certifying all sides and refusing directional pressure from any of them. That institutional posture transfers into the SSSA's founding charter as an explicit structural guarantee.
+That absorption carries more than staff and records. United Space Industry Standards had maintained its independence from political and commercial interference through the hardest decades on record — the climate-crisis years and coastal fragmentation events of the 2130s–2140s CE (2330s–2340s UCSD), when former partner states turned adversarial and every certification decision carried someone's national interest behind it. It certified all sides and refused directional pressure from any of them. That institutional posture transfers into the SSSA's founding charter as an explicit structural guarantee.
 
 Three protections are written in: independence from governmental direction on certification decisions; funding through certification fees structured so that approving marginal applications produces no financial benefit; and a prohibition on operational direction from any government or active commercial operator.
 
@@ -32,7 +32,7 @@ Three protections are written in: independence from governmental direction on ce
 - The USC's democratic structure and consensus model will eventually fail under the weight of its own expansion. The Coherence Wars begin in 2503 UCSD.
 - The SSSA survives the Coherence Wars, the Imperium, and the MSC period with its institutional independence largely intact — a record no other USC-era institution can claim.
 - When the Star Rangers are founded in 2723 UCSD, the SSSA's track record of political independence is cited as direct evidence that independent certification is institutionally achievable. The SSSA is absorbed into the Star Rangers and reconstituted as the Safety Corps.
-- The UCSD calendar itself is anchored to the USC's founding, making this event the origin point of the in-universe date system used throughout the Star Rangers record.
+- The UCSD standard is **not** anchored to this event, a misreading common enough that the Survey Archive corrects it in print: UCSD kept the old Common Era epoch and renamed the count (UCSD year = CE year + 200 — see [Universal Cosmic Stardate](/star-rangers/lore/universal-cosmic-stardate/)). The USC's founding falls at ~2340 UCSD (2140 CE); it is the origin of the *institution's* history, not the calendar's.
 
 See: [United Space Consortium](/star-rangers/lore/united-space-consortium/), [The Star Rangers Safety Corps](/star-rangers/lore/star-rangers-safety-corps/).
 
