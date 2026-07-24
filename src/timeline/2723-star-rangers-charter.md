@@ -31,9 +31,10 @@ At the same time as the Survey Corps is created, the **Solar System Safety Stand
 **Canon facts:**
 - The Star Rangers are a post-MSC institution. Their independence from military hierarchy is structural, not incidental.
 - The Star Rangers are neutral: they take no side in political disputes and cannot be used to lend legitimacy to any political claim.
-- The Star Rangers are non-political: their mandate is humanitarian and operational only. They do not govern, legislate, or police.
+- The Star Rangers are non-political: their mandate is humanitarian and operational only. They do not govern, legislate, or police any world where local authority exists — the sole, self-terminating exception being the [Frontier Corps'](/star-rangers/lore/star-rangers-frontier-corps/) caretaker mandate on worlds with no local government or law enforcement of any kind, which ends automatically at a colony's first sworn officer.
 - The Star Rangers are self-funded through data licensing, voluntary contributions, and operational fees — deliberately structured so no government can use funding as leverage.
 - The Star Rangers have zero jurisdiction on planets or within self-governing orbital habitats above the minimum population threshold. They require an explicit invitation to enter and leave when it is withdrawn.
+- The charter forbids the terraforming of any world bearing existing life of any kind — no sapience threshold, no significance test. The Rangers may not conduct, certify, or support such transformation, and a Survey Corps finding of *life present* closes a world to it. Settlement of living worlds proceeds by compatibility and adaptation, not conversion. See [Frontier Transformation Protocols](/star-rangers/lore/frontier-transformation-protocols/).
 - The founding assets include Dr. Pitch's fold-mechanics analysis, the *Constant Margin* navigational data, and eleven years of Eden's anomaly logs.
 - The Survey Corps — the Star Rangers' boundary-monitoring arm — is created at the same time.
 - The Safety Corps — absorbing the SSSA — is created at the same time. Its certified boundary analyst designation becomes the standard for Etheric-layer work at Threshold-class stations.
