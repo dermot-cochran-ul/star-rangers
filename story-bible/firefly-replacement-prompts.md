@@ -31,15 +31,23 @@ cyber-revenant Imperium colonel, self-maintaining since 2631, holding an
 abandoned Belt depot alone for two centuries.*
 
 > Cinematic portrait of a gaunt elderly female officer in an archaic
-> high-collared dark military greatcoat, visible partial cybernetic
-> reconstruction along the jaw and neck, standing rigidly at attention in a
-> derelict industrial fuel depot corridor lit by failing amber emergency
-> lights, dust motes, long undisturbed solitude, dignified and unsettling
-> rather than monstrous, muted cold palette, photorealistic, plain uniform
-> with no insignia lettering. Portrait orientation.
+> high-collared dark military greatcoat with the collar closed to the chin,
+> a single faint seam of silver metal tracing one temple and cheekbone,
+> standing rigidly at attention in a derelict industrial fuel depot corridor
+> lit by failing amber emergency lights, dust motes, long undisturbed
+> solitude, composed and dignified expression, muted cold palette,
+> photorealistic, plain uniform with no insignia lettering. Portrait
+> orientation.
 
-Suggested alt: *"A gaunt officer in an archaic dark greatcoat, part of her
-jaw rebuilt in metal, standing at attention in a derelict depot corridor"*
+Suggested alt: *"A gaunt elderly officer in an archaic dark greatcoat, a
+thin silver seam tracing her temple, standing at attention in a derelict
+depot corridor"*
+
+*(v1 note: the first phrasing — "visible partial cybernetic reconstruction
+along the jaw and neck" — rendered as exposed throat machinery, far too
+grim. The revenant truth stays in the prose; the portrait only hints. If a
+generation still shows machinery, close the collar further: "high sealed
+collar, no skin visible below the jaw.")*
 
 ### `characters/maren-solveig-krast.jpg`
 *Currently: smiling contemporary policewoman. Character: the historical MSC
