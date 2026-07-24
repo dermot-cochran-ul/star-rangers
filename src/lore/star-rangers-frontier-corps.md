@@ -24,6 +24,12 @@ Two boundaries define the work. First, the law they enforce is not the Rangers' 
 
 The Corps is distinct from the Provost track, and Rangers keep the distinction sharp: Provosts police the Rangers. The Frontier Corps polices, temporarily and by invitation, for colonies that cannot yet police themselves.
 
+## Non-Combatants
+
+The Corps' posture is the thing outsiders most consistently misjudge: Frontier Rangers are, in function and in doctrine, **non-combatant peacekeepers**. They carry what a peace officer needs to restrain a suspect and survive a bad night, and nothing that could be honestly called a weapon of war — no heavy arms, no military formations, no capacity to take or hold ground against an armed force, by design rather than by budget. Where peacekeeping means standing between parties, a Frontier Ranger stands there. Where it comes to actual fighting, the doctrine is absolute: the Corps shields civilians, evacuates whom it can, and *documents* — it does not join, win, or pick battles, either side, ever.
+
+What makes that posture work is that a Frontier Ranger's real weapon was never on the belt. It is the record: what a Frontier Ranger witnesses is preserved to Safety Corps evidentiary standard, follows the perpetrator across every jurisdiction the Concordant recognises, and has ended more careers of frontier violence than any armed response on file. Ambitious men on lawless worlds have learned to fear the unarmed officer taking notes more than the armed one taking aim — the armed one can only stop what is happening; the one writing it down decides what it will have been. It is also the posture's answer to the second-landing problem's ugliest accusation: whatever a faction calls the Corps, an occupation conducted by unarmed note-takers who are visibly trying to leave is a difficult story to keep telling.
+
 ## The Second-Landing Problem
 
 The caretaker clause was written for worlds where law has not yet arrived. It has no answer for worlds where law arrived, took root, and then **failed** — a government collapsed into factions, or simply **abandoned** its people, evacuating its officials and leaving the population behind. Frontier Rangers call this the second-landing problem, and it is the Corps' standing dilemma, unresolved by design or by anyone's satisfaction.
@@ -50,6 +56,7 @@ A frontier colony is institution-poor by sequencing, not failure. [Fusion buildo
 - The mandate self-terminates at the first locally constituted authority — a single sworn sheriff or marshal suffices. Termination requires no review and cannot be contested by the Corps.
 - Frontier Rangers enforce the colony's own compact and Concordant baseline standards only; no polity law, no Ranger-invented rules, no fiscal or political functions.
 - Serious cases are preserved to evidentiary standard and handed to the colony's first court, not judged by the Corps.
+- Non-combatant posture: restraint and personal defence only — no heavy weapons, no military formations, no taking or holding ground. In open conflict the Corps shields, evacuates, and documents; it does not fight.
 - Like every specialist corps, the Frontier Corps is guild-governed: its practice standards belong to its own chapter leaders and corps president, not the command ladder. See [Command Hierarchy](/star-rangers/lore/star-rangers-command-hierarchy/).
 
 ## See Also
