@@ -115,9 +115,11 @@ quietly in-universe. Palette sits well beside the Tenerife Boirinn photos.*
 Suggested alt: *"A weathered woman in a wool coat with a crook, on a misty
 rocky pasture with sheep grazing behind her"*
 
-### `hero/atlas-chart.jpg`
-*Currently: a Vedic astrological birth chart.* Text-risk is high here —
-keep annotations illegibly small.
+### `hero/atlas-chart.jpg` — ✔ REPLACED 2026-07-24
+*Was: a Vedic astrological birth chart. Now: the generation below, approved
+by Dermot — vintage gold-ink chart with sextant and dividers under
+lamplight, kept deliberately antiquarian to match the hero set's register
+(vs. a sci-fi hologram alternative, considered and declined).*
 
 > Vintage-style deep space navigation atlas spread across a chart table,
 > constellation lines and plotted fold routes in fine gold ink on dark blue
