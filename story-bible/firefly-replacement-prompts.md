@@ -54,9 +54,10 @@ grim. The revenant truth stays in the prose; the portrait only hints. If a
 generation still shows machinery, close the collar further: "high sealed
 collar, no skin visible below the jaw.")*
 
-### `characters/maren-solveig-krast.jpg`
-*Currently: smiling contemporary policewoman. Character: the historical MSC
-General (2631–2714), the "I would rather be called a tyrant" of the record.*
+### `characters/maren-solveig-krast.jpg` — ✔ REPLACED 2026-07-24
+*Was: smiling contemporary policewoman. Now: the generation below, approved
+by Dermot — archival official portrait with period print border, seated,
+hands folded, exactly the photograph an institution would frame.*
 
 > Formal official military portrait of a stern middle-aged woman general in
 > an austere slate-grey high-collared uniform, iron-grey hair pulled back,

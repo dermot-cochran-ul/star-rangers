@@ -12,9 +12,11 @@ related:
 tags: [avatar, incarnation, cascade, timeless, immanent, kieme, arilon, cosmology]
 ---
 
-An **Avatar** is the one exception to the Cascade's timeless/immanent split: an incarnation of a stratum above the [Celestials](/star-rangers/glossary/celestials/) as a person operating at Celestial level or below — immanent, time-bound, encounterable.
+An **Avatar** is the one crossing between the Cascade's temporal registers: an incarnation of a stratum above the [Celestials](/star-rangers/glossary/celestials/) — whether from the middle strata's conceptual time or from the eternal strata above the Worldwrights — as a person operating at Celestial level or below: immanent, Material-time-bound, encounterable.
 
-The exception is bounded by what an avatar is *not*. It does not carry the full authority, power, or knowledge of its source: it is **like** its source without being **the same person as** its source. And because the avatar is a separate immanent person, the source itself never enters time — incarnating an avatar breaches neither the prohibition on direct dialogue with time-bound entities nor the prohibition on selective intervention. The timeless stratum remains timeless. A limited person exists, whose nature derives from it.
+The crossing is bounded by what an avatar is *not*. It does not carry the full authority, power, or knowledge of its source: it is **like** its source without being **the same person as** its source. And because the avatar is a separate immanent person, the source itself never enters Material time — incarnating an avatar breaches neither the prohibition on direct dialogue with time-bound entities nor the prohibition on selective intervention. The higher stratum remains in its own register. A limited person exists, whose nature derives from it.
+
+For the middle strata, avatars are the working instrument of their hardest duties, not a theoretical case. Doctrine's clearest example: a parent universe's Telearchs exercising [protouniverse](/star-rangers/glossary/noogenic-protouniverse/) jurisdiction from inside — an avatar walking the still-forming universe, ministering to its newly formed [Harmonarchs](/star-rangers/glossary/concordant-principal/) until a Universal Authority stabilizes. What a nascent mind makes of such a visitor depends on the devotional inheritance it carries, and no known avatar has ever corrected the impression.
 
 **Key constraints:**
 - Operates at Celestial level or below, inside time and inside Concordant law.

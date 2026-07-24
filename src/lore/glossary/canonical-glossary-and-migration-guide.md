@@ -34,7 +34,7 @@ Hyperomnium
 → Celestials  
 → Levrils
 
-The listing above is the spine, and it is *mostly* hierarchical — with two matrix exceptions: **Worldwrights and Telearchs are parallel branches under the Archewrights** (creation and continuity, as peers), and the **Dynarchs are co-created**, standing under both the Telearchs and the Concordant Principals. Descent in the Cascade is creative rather than imperative — higher strata create and define the layers beneath them more than they command them — and every stratum above the Celestials is timeless and eternal. See [The Cosmic Cascade](/star-rangers/lore/cosmic-cascade/) for the full treatment.
+The listing above is the spine, and it is *mostly* hierarchical — with two matrix exceptions: **Worldwrights and Telearchs are parallel branches under the Archewrights** (creation and continuity, as peers), and the **Dynarchs are co-created**, standing under both the Telearchs and the Concordant Principals. Descent in the Cascade is creative rather than imperative — higher strata create and define the layers beneath them more than they command them. Time runs in three registers: Material-layer time (Celestials and below), **conceptual time / meta-time** (the middle strata — Dynarchs, Telearchs, Worldwrights, and universes' native authorities), and outright eternity (above the Worldwrights only). See [The Cosmic Cascade](/star-rangers/lore/cosmic-cascade/) for the full treatment.
 
 ### Role Clarifications
 
@@ -44,7 +44,7 @@ The listing above is the spine, and it is *mostly* hierarchical — with two mat
 - **Universal Authorities** (formerly "Concordants" in the governance sense) are the native governance intelligences of each universe, maintaining CEI and systemic balance. They are not supra-universal.
 - **Concordant Principals** (commonly **Harmonarchs** — both canonical, Principal the formal title) are the governing minds of individual Concordant Zones, stewarding each zone's rule-set under the universe's Universal Authority.
 - **Telearchs** coordinate large-scale operational activity inside and across governed systems. They are a Cascade tier, native to no universe — distinct in kind from both Universal Authorities and Concordant Principals, and a parallel branch with the Worldwrights under the Archewrights. See [Who Governs a Universe](/star-rangers/lore/who-governs-a-universe/).
-- **Dynarchs** (formerly "higher celestials") encapsulate and govern physical laws and forces — Gravity, Electromagnetics, Nature. Co-created by both branches of the matrix; ranked between Concordant Principals and Celestials, standing under both the Telearchs and the Principals, with continuity prevailing on conflict.
+- **Dynarchs** (commonly **Exarchs**; formerly "higher celestials") encapsulate and govern physical laws and forces — Gravity, Electromagnetics, Nature. Co-created by both branches of the matrix; ranked between Concordant Principals and Celestials, standing under both the Telearchs and the Principals, with continuity prevailing on conflict. Both names are canonical; "Exarch" is the older devotional form.
 - **Celestials** create or supervise systemic agents.
 - **Levrils** are cosmic functionaries and super-technicians.
 - Levrils divide into two subclasses — **Higher Levrils** and **Dragons** — ranked by seniority. Both hold full Cascade standing.
@@ -108,12 +108,12 @@ The listing above is the spine, and it is *mostly* hierarchical — with two mat
 ### Celestials
 - **Layer:** Supervisory/Agentic
 - **Definition:** Create or supervise systemic agents used for implementation and oversight.
-- **Notes:** The Cascade's temporal threshold — Celestials and below are immanent; every stratum above is timeless and eternal.
+- **Notes:** The Cascade's temporal threshold — Celestials and below are immanent in Material-layer time; the middle strata above them exist in conceptual time; eternity proper begins above the Worldwrights.
 
 ### Avatar (Incarnated)
-- **Layer:** Exception (Timeless/Immanent Crossing)
-- **Definition:** An incarnation of a timeless stratum as a person operating at Celestial level or below, without the full authority, power, or knowledge of its source — like its source, without being the same person as its source.
-- **Notes:** The source remains timeless and unbreached; the avatar is a separate, limited, immanent person. From inside time an avatar's record is indistinguishable from a Champion's.
+- **Layer:** Exception (Temporal-Register Crossing)
+- **Definition:** An incarnation of a higher stratum — conceptual-time or eternal — as a person operating at Celestial level or below, without the full authority, power, or knowledge of its source — like its source, without being the same person as its source.
+- **Notes:** The source remains in its own register, unbreached; the avatar is a separate, limited, immanent person. From inside Material time an avatar's record is indistinguishable from a Champion's. For middle strata this is a working instrument, not a theory: Telearch avatars are how protouniverse jurisdiction is exercised from inside.
 
 ### Levrils
 - **Layer:** Operational Functionaries

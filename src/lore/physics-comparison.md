@@ -23,7 +23,7 @@ The fictional cosmos superficially mimics real-world physics at the Material and
 
 ### Fictional Cosmos
 - Physical constants are selected by Worldwrights to produce stable, fertile [Concordants](/star-rangers/glossary/concordant/).
-- [Dynarchs](/star-rangers/glossary/dynarch/) administer the physical forces themselves; Celestials and Levrils perform ongoing maintenance at the Etheric and Conceptual layers, inside mandates the timeless strata define.
+- [Dynarchs](/star-rangers/glossary/dynarch/) administer the physical forces themselves; Celestials and Levrils perform ongoing maintenance at the Etheric and Conceptual layers, inside mandates defined from the higher strata.
 - Three parallel information channels exist: quantum, thermodynamic, and conceptual.
 - Events near boundary zones or anomalies are subject to meaning-field resonance.
 

@@ -24,7 +24,7 @@ The retired legacy designation **High Celestials** most often meant this tier �
 - Telearchs do not bypass Concordant law.
 - Telearchs must preserve continuity over local preference outcomes.
 - Telearchs cannot revise the hierarchy order.
-- A [Noögenic Protouniverse](/star-rangers/glossary/noogenic-protouniverse/) produced by a mind within one of a parent universe's Concordants remains under that parent universe's Telearch jurisdiction — and the higher Cascade strata reachable through them — until the protouniverse stabilizes a [Universal Authority](/star-rangers/glossary/universal-authority/) of its own.
+- A [Noögenic Protouniverse](/star-rangers/glossary/noogenic-protouniverse/) produced by a mind within one of a parent universe's Concordants remains under that parent universe's Telearch jurisdiction — and the higher Cascade strata reachable through them — until the protouniverse stabilizes a [Universal Authority](/star-rangers/glossary/universal-authority/) of its own. In doctrine, that jurisdiction is exercised from inside: an [Avatar](/star-rangers/glossary/avatar/) of the Telearch walks the forming universe, ministering to its newly formed Harmonarchs directly.
 
 The [Dynarchs](/star-rangers/glossary/dynarch/) — the tier that encapsulates and governs physical forces — are co-created by both branches of the matrix and stand under both the Telearchs and the [Concordant Principals](/star-rangers/glossary/concordant-principal/): zone-local operation runs with the Principal, force-continuity obligations run up the Telearch line, and continuity prevails where the two conflict.
 

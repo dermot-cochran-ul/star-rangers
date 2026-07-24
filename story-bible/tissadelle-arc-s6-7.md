@@ -242,3 +242,24 @@ call, not a fact to look up.
 - Final rank/record status: does Line Captain Shepherd get formally reinstated, does she
   become the series' first on-the-record protouniverse-adjacent case, or does her status stay
   a Codex-only dispute forever (ties to Resolution option chosen above).
+
+## The Saint Aoife of the new universe (Dermot, 2026-07-24 — canon direction)
+
+Settled for the arc's cosmological endgame: **what Tissadelle's protouniverse understands
+as Saint Aoife is the avatar of a Telearch** — the parent universe's jurisdiction exercised
+from inside, ministering to her newly formed baby Harmonarchs as they learn to hold their
+zones. The devotional frame comes from Tissadelle herself: the Aoife devotion she carried
+from the Boirinn Uplands (and that Dock Seven sang over her — see
+`src/codex/baby-universe-ballad.md`, "St. Aoife, find the thread / St. Aoife, stay") is the
+interpretive inheritance her nascent universe applies to its first visitor. The general
+mechanism is now public canon (avatar glossary, Telearch entry, Cascade lore — Telearch
+avatars as the working instrument of protouniverse jurisdiction, "no known avatar has ever
+corrected the impression"); **the Tissadelle-specific identification stays here, unspoiled,
+until the seasons reach it.**
+
+Two notes for the writing: (1) this makes the ballad retroactively *true* — the singers
+asked St. Aoife to stay with her, and something answering to that name did; (2) it deepens,
+without resolving, the original Tír na nÓg question — the codex annotation on the historical
+Aoife's thorn-well vision still leaves Levril vs. something-higher open, and the new
+universe's Aoife being a Telearch avatar is a rhyme, not an answer, per the Arilon file's
+standing discipline: the shape recurs; the shape is not a verdict.
