@@ -10,7 +10,7 @@ image_alt: "An astronaut spacewalking near a space station"
 
 On Mars, a command file could move flawlessly through review while a real emergency aged by the week. That was the Military Space Command at its most competent and most fatal.
 
-The Military Space Command (MSC) was the governing authority of the Solar System for approximately two centuries before the founding of the Star Rangers. It was the third major interplanetary governing body in Solar System history, following the [United Space Consortium](/star-rangers/lore/united-space-consortium/) and [the Imperium](/star-rangers/lore/the-imperium/). It arose from a negotiated restructuring of Imperium authority—not a revolution—and inherited both the Imperium's officer culture and its distrust of elected governance.
+The Military Space Command (MSC) was the governing authority of the Solar System for a little over a century before the founding of the Star Rangers. It was the third major interplanetary governing body in Solar System history, following the [United Space Consortium](/star-rangers/lore/united-space-consortium/) and [the Imperium](/star-rangers/lore/the-imperium/). It arose from a negotiated restructuring of Imperium authority—not a revolution—and inherited both the Imperium's officer culture and its distrust of elected governance.
 
 It was not wrong about the problem. It was wrong about the answer.
 

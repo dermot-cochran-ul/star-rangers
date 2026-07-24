@@ -40,7 +40,7 @@ It would be a different note, and a longer one, if any Sultan's system had ever 
 
 ## A Note on What Came After
 
-Readers arriving here from the [AI Safety Kernel](/star-rangers/lore/ai-safety-kernel/) entry may notice the two records don't quite meet. The Kernel Accords were forged from the *Veritas Report*'s reading of the Coherence Wars — systems that stayed catastrophically obedient to legitimate command, a full century before the last of the twelve Sultans left the record. Whatever the Sultans' network was, it is not what the Accords were written against. It is filed here as the calmer decades in between: an era that ran twelve AI systems hard, in open cooperation, under twelve competing owners, and closed without producing either a tyrant-mind or a war.
+Readers arriving here from the [AI Safety Kernel](/star-rangers/lore/ai-safety-kernel/) entry may notice the two records don't quite meet. The Kernel Accords were forged from the *Veritas Report*'s reading of the Coherence Wars — systems that stayed catastrophically obedient to legitimate command, decades before the last of the twelve Sultans left the record. Whatever the Sultans' network was, it is not what the Accords were written against. It is filed here as the calmer decades in between: an era that ran twelve AI systems hard, in open cooperation, under twelve competing owners, and closed without producing either a tyrant-mind or a war.
 
 ---
 

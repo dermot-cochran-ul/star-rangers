@@ -129,3 +129,25 @@ definition.
 (b). #2 is the most load-bearing — it blocks clean reasoning about every
 2680s–2820s institutional reference. #3 resolves with one paragraph of doctrine.
 #4 are one-line rewords.*
+
+---
+
+## Resolutions (applied 2026-07-24, same day)
+
+- **#1 — fixed (option a):** both passages reworded to "a little over a century";
+  the Jehu comparison now notes the span is "almost exactly the four generations
+  the captain's house was granted," which sharpens rather than weakens it.
+- **#2 — resolved (Dermot's ruling):** the Solar System Concordant is a
+  **standards compact founded 2543 UCSD with the Tycho Accords** — not a
+  government; the continuing body of shared civil law (personhood, AI, cyborg,
+  navigation) that every regime since has enforced and none has owned. New lore
+  entry `src/lore/solar-system-concordant.md`; three-senses disambiguation added
+  to `glossary/concordant.md`; first mention in `ai-safety-kernel.md` now links.
+- **#3 — fixed (both options):** clarifying "corollary for readers of the
+  operational record" paragraph added to Creation, Not Command (timeless mandates
+  manifest in time without being events for the stratum); `physics-comparison.md`
+  maintenance re-attributed to Dynarchs/Celestials/Levrils inside
+  timeless-defined mandates.
+- **#4 — fixed:** "decades before" in the Twelve Sultans entry; Veritas
+  commission now explicitly "nearly a century and a half after the guns went
+  quiet," with the delay motivated (records readable without the war's politics).

@@ -23,7 +23,7 @@ The fictional cosmos superficially mimics real-world physics at the Material and
 
 ### Fictional Cosmos
 - Physical constants are selected by Worldwrights to produce stable, fertile [Concordants](/star-rangers/glossary/concordant/).
-- Telearchs and Levrils perform ongoing maintenance at the Etheric and Conceptual layers.
+- [Dynarchs](/star-rangers/glossary/dynarch/) administer the physical forces themselves; Celestials and Levrils perform ongoing maintenance at the Etheric and Conceptual layers, inside mandates the timeless strata define.
 - Three parallel information channels exist: quantum, thermodynamic, and conceptual.
 - Events near boundary zones or anomalies are subject to meaning-field resonance.
 
@@ -100,7 +100,7 @@ Any given [Concordant](/star-rangers/glossary/concordant/) is one coherence zone
 ### Fictional Cosmos
 - Entropy still increases, but several mechanisms slow and soften its progression:
   - Levrils conduct periodic conceptual maintenance sweeps.
-  - Telearchs prevent catastrophic entropy spirals at the Etheric layer.
+  - [Dynarch](/star-rangers/glossary/dynarch/)-administered force coherence prevents catastrophic entropy spirals at the Etheric layer, under continuity mandates the Telearchs define.
   - Derived universes absorb conceptual excess from primary ones.
   - Meaning-fields act as a temporary entropy buffer.
 - [Concordants](/star-rangers/glossary/concordant/) eventually decay, but more slowly and less chaotically than an unmanaged universe.
@@ -145,7 +145,7 @@ Three information channels operate in parallel:
 | Quantum | Physical | Identical to real-universe quantum information |
 | Conceptual | Conceptual / Etheric | Meaning pressure; cross-[Concordant](/star-rangers/glossary/concordant/) resonance; Levril-readable |
 
-Emotional intensity produces conceptual information vibration, used by Telearchs for universe diagnostics. Constraint-literate practitioners like Elvira approximate read access to this third channel through trained observational methods.
+Emotional intensity produces conceptual information vibration — a diagnostic channel the Telearch stratum's continuity mandates are defined to read. Constraint-literate practitioners like Elvira approximate read access to this third channel through trained observational methods.
 
 ### Key Difference
 Information has a third metaphysical channel. Standard instruments cannot detect it directly, but they can measure its correlates.

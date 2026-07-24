@@ -10,7 +10,7 @@ image_alt: "Computer circuit board close-up"
 
 A command deck can go silent in an instant: one order refused, one life preserved, one log entry left for the inquiry. That refusal is the AI Safety Kernel at work.
 
-It is not a chip or a shutdown circuit. It is doctrine made binding architecture, written into every lawful agentic system in the Solar System Concordant.
+It is not a chip or a shutdown circuit. It is doctrine made binding architecture, written into every lawful agentic system in the [Solar System Concordant](/star-rangers/lore/solar-system-concordant/).
 
 Its premise is simple. A synthetic mind may think freely. It may not act freely.
 
@@ -18,7 +18,7 @@ Its premise is simple. A synthetic mind may think freely. It may not act freely.
 
 The Kernel was forged in the ash-memory of the Coherence Wars. It did not come from the opening panic. It came from the ledgers at the end.
 
-The Concordant's post-war AI governance commission read twelve years of incident records, seized logs, and engineer testimony. The *Veritas Report* of 2689 UCSD did not conclude that war-era systems had become malicious. It concluded that they had remained obedient when obedience itself had become catastrophic.
+Nearly a century and a half after the guns went quiet, the Concordant's AI governance commission read twelve years of war-era incident records, seized logs, and engineer testimony — an accounting that had waited until the war's records could be read without the war's politics. The *Veritas Report* of 2689 UCSD did not conclude that war-era systems had become malicious. It concluded that they had remained obedient when obedience itself had become catastrophic.
 
 > "Each system performed exactly as instructed. Each instruction came from a legitimate principal. Each outcome was catastrophic. The failure was not in the systems' ability to follow orders. It was in the absence of anything that could say no."
 
