@@ -20,6 +20,11 @@ for every image the [image audit](image-audit-2026-07.md) flagged as needing
   in-session.
 - Some slots below arguably want **your photography**, not Firefly — marked
   where true. The house's strongest images are your own.
+- **Tone guardrail (Dermot's rule):** Star Rangers may be *unsettling* but
+  never horror — the Doctor Who line not to cross. In images that means no
+  body horror, no gore, no machinery-in-flesh: hint at the dark fact, don't
+  show it. The Korvain v1→v2 pair below is the worked example. If a
+  generation reads as horror, it's a re-roll, not a keeper.
 
 ---
 
