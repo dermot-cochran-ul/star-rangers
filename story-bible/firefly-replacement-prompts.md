@@ -138,9 +138,14 @@ of Firefly gibberish. Say the word.
 
 ## STYLE — replacements worth making
 
-### `characters/qiren-tal.jpg`
-*Currently: dark-fantasy monster art. Character: a Veyr Basaltborn hull
-systems engineer — a careful specialist, not a creature.*
+### `characters/qiren-tal.jpg` — ✔ REPLACED 2026-07-24
+*Was: dark-fantasy monster art. Now: Dermot's own modified prompt
+("non-humanoid delicate insectlike alien, matte colour…") after the sheet's
+original "stone-textured skin" phrasing produced a golem. The approved
+result reads "Basaltborn" as lava-sheen iridescence on chitin rather than
+rock — character page physiology updated to match (exoskeletal lattice,
+compound eyes). Lesson for the sheet: material-texture words sculpt the
+whole body; name the sheen, not the substance.*
 
 > Photorealistic portrait of a stocky humanoid alien with matte basalt-grey
 > stone-textured skin and small patient amber eyes, wearing a practical
@@ -152,19 +157,30 @@ systems engineer — a careful specialist, not a creature.*
 Suggested alt: *"A stone-skinned alien engineer in a tool harness examining
 a hull plate with a thermal probe"*
 
-### `characters/rook-7.jpg`
+### `characters/rook-7.jpg` — v2 prompt (v1 rejected 2026-07-24)
 *Currently: too sleek/premium. Character: an outdated, deliberately
 understated chassis with non-standard retrofit sensors.*
 
-> Photorealistic portrait of a boxy utilitarian service robot with matte
-> scuffed grey panels, visibly older design, several mismatched retrofit
-> sensor modules bolted near its head unit, seated at a cluttered police
-> station desk under fluorescent light, unassuming and slightly endearing,
-> no sleek surfaces, no glowing accents, documentary style. Portrait
-> orientation.
+*(v1 note: the first generation was charming — "RETIRED?" chalked on its
+chest was accidental gold — but "too boxy" per Dermot, and fatally
+decorated with legible real-world text: NYC POLICE case folders, NYPD
+officers in the background, an Underwood typewriter, and chest stencils
+reading SR-09/UNIT 09 for a character named Rook-7. Lesson: name the
+office as futuristic, ban lettering explicitly, and never let Firefly
+freestyle a police station.)*
 
-Suggested alt: *"A boxy, scuffed service robot with mismatched retrofit
-sensors, seated at a cluttered station desk"*
+> Photorealistic portrait of an aging utilitarian service robot with
+> rounded-edge rectangular panels in matte scuffed grey, softened corners
+> rather than a plain cube, visibly older design, several mismatched
+> retrofit sensor modules and one salvaged camera bolted near its head
+> unit, seated at a cluttered desk in a dim futuristic space-station
+> police office, loose papers and a steel mug on the desk, unassuming and
+> slightly endearing, no sleek surfaces, no glowing accents, no readable
+> text anywhere, no lettering, no insignia, plain unmarked folders and
+> equipment, documentary style, muted palette. Portrait orientation.
+
+Suggested alt: *"An aging, scuffed service robot with mismatched retrofit
+sensors, seated at a cluttered desk in a dim station office"*
 
 ### `characters/nessa.jpg`
 *Currently: polished purebred studio pet photo. Character: a scruffy wild
