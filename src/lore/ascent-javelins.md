@@ -28,6 +28,8 @@ Standard javelins are rated for worlds of Earth gravity and below. The rating is
 
 Heavier worlds are climbable anyway, because **fusion provides the energy chemistry cannot**. High-gravity javelins replace the boost and insertion stages with fusion-thermal drive: reaction mass run through a pulse-fusion core, giving the craft an energy budget no chemical cycle approaches. The physics is generous; the engineering is not. Fusion javelins are heavier, harder to maintain, certified under a stricter regime, and flown by specialist crews — high-gravity ascent work is a named rating in the [Safety Corps](/star-rangers/lore/star-rangers-safety-corps/) certification framework, and holders of it are as close to an aristocracy as flight crew get. On the heaviest settled worlds, ascent is scheduled, weather-gated, and treated with the ceremony a sensible culture reserves for controlled explosions it has decided to ride.
 
+On frontier worlds, the fusion fleet is also the late-arriving one: a fusion-thermal javelin cannot fly until the ground infrastructure that feeds it exists, and [that buildout takes years to decades](/star-rangers/lore/the-fusion-ceiling/) — so a new heavy-world colony can usually land long before it can climb.
+
 ## Constraints
 
 - Standard (chemical-cycle) javelins: rated to ~1g surface gravity. Above that, fusion-thermal variants only.
