@@ -25,10 +25,10 @@ for every image the [image audit](image-audit-2026-07.md) flagged as needing
 
 ## CRITICAL — wrong content
 
-### `characters/ilse-korvain.jpg`
-*Currently: smiling young woman in a real US Army uniform. Character: a
-cyber-revenant Imperium colonel, self-maintaining since 2631, holding an
-abandoned Belt depot alone for two centuries.*
+### `characters/ilse-korvain.jpg` — ✔ REPLACED 2026-07-24
+*Was: smiling young woman in a real US Army uniform. Now: the v2 toned-down
+generation below, approved by Dermot — sealed collar, silver seam at the
+temple, depot corridor.*
 
 > Cinematic portrait of a gaunt elderly female officer in an archaic
 > high-collared dark military greatcoat with the collar closed to the chin,

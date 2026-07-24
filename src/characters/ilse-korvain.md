@@ -10,7 +10,7 @@ aliases:
 tags: [unbroken-command, imperium, cyber-revenant, human]
 description: "An Imperium officer continuously self-maintaining since 2631 UCSD, discovered still holding an abandoned Belt fuel depot under orders no living authority issued or can rescind — the Unbroken Command's most thoroughly documented cyber-revenant case."
 image: "ilse-korvain.jpg"
-image_alt: "A portrait of a soldier outdoors"
+image_alt: "A gaunt elderly officer in an archaic dark greatcoat and garrison cap, collar sealed to the chin, a thin silver seam tracing her temple, standing at attention in a derelict depot corridor"
 ---
 
 Colonel Ilse Korvain has been dead, by any ordinary clinical standard, for longer than the Imperium she still serves was ever alive.
