@@ -1,5 +1,15 @@
 # Pages needing a style/clarity/tone review
 
+> **Downgraded 2026-07-24 (Dermot's decision):** no longer an active review
+> queue. After reading the Cascade-expansion prose, Dermot's verdict on the
+> AI-drafted house voice was that it reads as his own — so the premise of
+> this list (that AI passes may have drifted the tone) is no longer a
+> standing concern. Kept for reference: if a specific page ever reads
+> wrong, this is still the map of where AI touched your words. One item
+> survives the downgrade on other grounds: the `aldera.png` /
+> `karla-wender.jpg` image issues under Characters below are visual, not
+> tonal, and remain on the image audit's flagged list.
+
 Planning note (not built into the site — lives in `story-bible/` like the
 other authorial notes). Built 2026-07-23 from git history: every content
 file where **you (Dermot Cochran / Avalon Hope) wrote or personally edited
