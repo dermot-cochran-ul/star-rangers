@@ -10,7 +10,6 @@ const fs = require("fs");
 const path = require("path");
 const matter = require("gray-matter");
 const { CONTENT_TYPES, TIMELINE_TYPE, CHAPTER_ID_PATTERN, isTimelineEntry, chapterIdFor } = require("../lib/content-schema");
-const { privateThreadForPage } = require("../lib/content-filter");
 const { privateThreadForPage, checkPrivateThreadSignatureTags } = require("../lib/content-filter");
 
 const SRC_DIR = path.join(__dirname, "..", "src");
