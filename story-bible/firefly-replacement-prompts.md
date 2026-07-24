@@ -82,10 +82,11 @@ Chief Pilot, later High Captain.*
 Suggested alt: *"A woman pilot in a navy flight suit at a navigation deck,
 her face lit by holographic displays"*
 
-### `characters/aldera.png` → regenerate as `aldera.jpg`
-*Currently: painterly fantasy forest at 1024×512 — the protagonist's own
-portrait, wrong style, wrong shape, and no cyber-enhancement visible.
-Character: a cyber-enhanced cat, detective agency field observer.*
+### `characters/aldera.png` → `aldera.jpg` — ✔ REPLACED 2026-07-24
+*Was: painterly fantasy forest at 1024×512, a blue-furred cat contradicting
+her own tabby-kitten gallery photos. Now: the generation below, approved by
+Dermot — a tabby matching her field photos, implant traced on one ear,
+causeway rail at dawn.*
 
 > Photorealistic portrait of an alert intelligent tabby cat with subtle
 > sleek cybernetic enhancement — a fine silver implant tracing the edge of
