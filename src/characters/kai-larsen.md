@@ -10,7 +10,7 @@ aliases:
 tags: [human, orbital-five-o, governor, orbital-habitats-compact, commander, season-1, major-character]
 description: "A former Survey Corps officer who resigned over a jurisdictional wall and was hired by the Governor of Orbital Space Habitats to take one down: commander of the task force everyone calls Orbital Five-O."
 image: "kai-larsen.jpg"
-image_alt: "An old-fashioned detective"
+image_alt: "A smiling commander in a navy flight suit standing at an observation-deck window, a modular orbital habitat and Earth behind him, an operations floor busy below"
 ---
 
 Kai Larsen resigned his Survey Corps commission the third time a case died at a self-governing habitat's border — not because the habitat's government refused to help, but because nobody serving under the Solar System Defence Command had the standing to ask. Rangers [have no authority inside self-governing orbital habitats](/star-rangers/lore/military-space-command/); neither, in practice, did anyone else with the training to actually run an investigation.
