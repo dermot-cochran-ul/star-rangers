@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "Church Space"
-description: "The Church Space storyline thread — a parallel narrative written for the church-space.site/.online deployment, carrying explicit Christian and evangelical themes not part of the main published canon."
+description: "The Church Space overlay — an optional devotional commentary layer for the church-space.site/.online deployment, reading the same reality through an explicitly Christian and evangelical lens. Not canon, and not a separate storyline."
 permalink: /threads/church-space/
 threadId: church-space
 ---
@@ -14,7 +14,16 @@ threadId: church-space
 
 <h1 class="page-title">Church Space</h1>
 <p class="page-intro">
-  A parallel storyline with its own cast, written for the church-space.site and church-space.online deployment and carrying explicit Christian and evangelical themes that aren't part of the main published canon. This thread is private — see README.md's cPanel deployment section for how a clone opts into it.
+  An optional overlay, not a separate story. Church Space reads the same reality every other edition of this site
+  shows — the same Cascade, the same boundary zones, the same people — through an explicitly Christian and
+  evangelical lens, concentrated on the spiritual layer of it. The events are not different events. What differs is
+  what the commentary is willing to say about them.
+</p>
+<p class="page-intro">
+  It is not canon: nothing here binds the main published story, and the main story never depends on it. Nor is it
+  Codex, whose entries are each one named in-universe source's account. This is a layer laid over the whole record
+  rather than a document inside it, and it is opt-in by domain — private, in this site's own sense of the word:
+  excluded everywhere unless a build names it in. See README.md's cPanel deployment section for how a clone opts in.
 </p>
 <p class="page-intro">
   See also: <a href="/star-rangers/threads/church-space/faq/">Questions I Ask Myself</a>, an
