@@ -56,9 +56,9 @@ This is a measurement problem and an ethics problem. Evaluation determines wheth
 
 ## Entropy Accounting
 
-\[
-H_{total} = H_{necessary} + H_{contingent}
-\]
+```
+H_total = H_necessary + H_contingent
+```
 
 - **Necessary entropy** — irreducible uncertainty required for learning, adaptation, and creative discovery.
 - **Contingent entropy** — avoidable uncertainty introduced by poor incentives, weak controls, and negligent design.

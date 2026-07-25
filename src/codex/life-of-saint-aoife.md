@@ -26,11 +26,11 @@ In the spring of her thirtieth year, on the eve of Saint Muirenn's own feast, Ao
 
 > *"The air over the water folded as cloth folds, and did not tear where it folded. I saw a shape too great for the well's clearing to hold, and yet the clearing held it. It did not walk toward me. It was already at every distance at once. I knew it for Muirenn, for who else comes to a well on her own eve — and yet I confess that nothing about the shape resembled the good Sister as she is carved above our shrine. It spoke without a voice I could place in my ears. It named things in me I had not named myself. Then the folding reversed, and the clearing was only a clearing, and the water in the well ran warm for three days after, though the well had never once run warm in all the years I tended it."*
 
-The sick she treated with that well-water in the days following recovered at a rate the community still speaks of, when it speaks of her at all. Aoife herself would say only that she had been *shown*, not *healed*, and drew a distinction between the two that Brother Daire confesses he did not, at the time, understand.
+The sick she treated with that well-water in the days following recovered at a rate the community still speaks of, when it speaks of her at all. Aoife herself would say only that she had been *shown*, not *healed*, and drew a distinction between the two that I confess I did not, at the time, understand.
 
 ### Her Later Years
 
-She died in the winter of 1241, having refused three offers to enter a formal religious house, tending the well and its petitioners to the end. Her recognition as a saint followed the slow, informal path common to local devotions of the period: no process from any higher authority, no official decree that survives in any archive Brother Daire's community kept — only a persistence of the title *Saint* in common usage, granted by the townland long before any higher authority troubled itself to confirm or deny it.
+She died in the winter of 1241, having refused three offers to enter a formal religious house, tending the well and its petitioners to the end. Her recognition as a saint followed the slow, informal path common to local devotions of the period: no process from any higher authority, no official decree that survives in any archive this community keeps — only a persistence of the title *Saint* in common usage, granted by the townland long before any higher authority troubled itself to confirm or deny it.
 
 Her feast is kept locally on the anniversary of the vision, not of her death — a choice the community made without recorded debate, as though the answer required none.
 
