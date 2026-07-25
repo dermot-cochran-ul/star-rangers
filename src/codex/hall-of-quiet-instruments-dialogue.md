@@ -32,9 +32,9 @@ image_alt: "Designed cover for Hall of Quiet Instruments: pale violet quotation 
 **Ranger Ilya:** The equation?
 
 **Archivist Sen:**
-\[
-H_{total}=H_{necessary}+H_{contingent}
-\]
+```
+H_total = H_necessary + H_contingent
+```
 
 **Ranger Ilya:** So some suffering is structural, and some is our fault.
 

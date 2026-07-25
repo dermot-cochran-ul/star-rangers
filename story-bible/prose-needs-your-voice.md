@@ -1,5 +1,37 @@
 # Pages needing your own prose
 
+> **Voice and style approved 2026-07-25 (Dermot's decision):** no longer a
+> voice-review queue. After reading the narrative scenes — particularly the
+> multi-POV scene structure, which he singled out for the mystery it
+> creates — Dermot approved the **voice and style** of all existing prose
+> in the repository, including everything listed below. Nothing here is
+> waiting on a tone pass or a rewrite for register.
+>
+> Three things that approval is *not*:
+>
+> - ~~**Not a canon ruling.**~~ **Superseded the same day:** Dermot's
+>   follow-up — "no reason why all seasons would not now be taken as
+>   canon" — ratifies the content too. Every published chapter in every
+>   season, including the six Season 6–7 files below, is canon. Nothing in
+>   `src/seasons/` is provisional any more.
+> - **Not, in itself, the drafting permission.** That came separately and
+>   later the same day: Dermot granted **standing permission to write new
+>   scenes** without being asked, retiring the old "Dermot writes every
+>   narrative first draft" rule. `CLAUDE.md`'s prose-authorship bullet
+>   carries the operative version and its constraints (write to the gaps,
+>   leave deliberate mysteries and reserved seasons alone, match the
+>   scene/POV structure, report what was written). This list stays
+>   accurate under that permission — it just stops being a reproach and
+>   becomes a map of where his own hand is absent.
+> - **Not the end of this list.** It is kept as a **provenance record**: it
+>   still answers "which pages has Dermot never personally written a word
+>   of," which matters for attribution and for knowing where his own voice
+>   is and isn't the base layer.
+>
+> What it *does* establish: the prose in this repository is the reference
+> for the house voice. Draft new work to match it rather than to some
+> other register.
+
 Planning note (not built into the site — lives in `story-bible/` like the
 other authorial notes). Built 2026-07-23 from git history: every content
 file under `src/{seasons,lore,characters,codex,glossary,timeline}/` whose
@@ -12,17 +44,29 @@ This is the front-to-back list. A shorter, separate list —
 `prose-needs-review.md` — covers pages you *did* write, that AI has since
 edited and which may need a tone check.
 
-## Flag first: Season 6 has chapters you may not know exist
+## Resolved: the Season 6–7 chapters
 
 `src/seasons/s06/` and `src/seasons/s07/` contain drafted chapters
 (`s06e01c01/c02/c03.md`, `s07e01c01/c02/c03.md`, dated 2026-07-21) — entirely
-AI-authored, and apparently written *after*
-`story-bible/narrative-gaps-checklist.md` was last updated (2026-07-14),
-which still says "zero chapters exist anywhere in `src/seasons/`" for
-Season 6–7. That checklist is now stale on this point. Given Season 6–7 is
-your climax ("The Last Stand"), this is worth a direct look before anything
-else on this list — it may be draft material to keep as scaffolding, or it
-may be further along than you want an AI tool taking a story this personal.
+AI-authored, and written *after* `story-bible/narrative-gaps-checklist.md`
+last claimed "zero chapters exist anywhere in `src/seasons/`" for
+Season 6–7 (that checklist was corrected on 2026-07-24 and now lists all
+six files by name). This flag originally
+asked for a direct look, since Season 6–7 is the climax ("The Last Stand")
+and these chapters had appeared without one.
+
+**Status 2026-07-25 — closed.** Voice and style approved, and then the
+content ratified with every other season: these six chapters are canon.
+Their `canon_facts` bind, and the arc they describe — Dock Seven, the
+stalled noöseed, the levril at the warm edge, the contested public
+record — is the story's, not a proposal.
+
+Ratification made one arithmetic error load-bearing, so it was fixed the
+same day: `s06e01c02` twice called Threshold's chronometer discrepancy
+"eleven years" old, which is its age in 2826 (S1), not 2831 (S6). Now
+sixteen. Expect more of this — five seasons of drafts written while the
+back half was provisional will have absorbed other numbers that only
+matter once they bind.
 
 ## Season chapters (actual narrative prose — highest priority)
 

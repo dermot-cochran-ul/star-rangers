@@ -56,9 +56,9 @@ Reduce risk while preserving capability:
 
 Partition observed harm:
 
-\[
-H_{total}=H_{necessary}+H_{contingent}
-\]
+```
+H_total = H_necessary + H_contingent
+```
 
 Escalate when the contingent component dominates the trendline.
 

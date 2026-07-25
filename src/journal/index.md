@@ -4,6 +4,12 @@ title: "Journal"
 description: "Notes from behind Star Rangers — the reasoning, wrong turns, and small decisions that don't fit in the story itself."
 ---
 <img class="page-hero-image" src="/star-rangers/images/hero/about-writer.jpg" alt="A writer working at a desk at night" />
+<nav class="chapter-breadcrumb" aria-label="Page location">
+  <ol class="breadcrumb" role="list">
+    <li><a href="/star-rangers/story-engine/">Story Engine</a></li>
+    <li aria-current="page">Journal</li>
+  </ol>
+</nav>
 <h1 class="page-title">Journal</h1>
 <p class="page-intro">
   This is out-of-character. Everything else on this site is Star Rangers' own record of itself — the Journal is
