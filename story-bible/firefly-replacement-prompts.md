@@ -182,11 +182,11 @@ freestyle a police station.)*
 Suggested alt: *"An aging, scuffed service robot with mismatched retrofit
 sensors, seated at a cluttered desk in a dim station office"*
 
-### `characters/nessa.jpg`
-*Currently: polished purebred studio pet photo. Character: a scruffy wild
-cat alone on a tidal island.* **Strong candidate for your own camera** —
-one scruffy farm cat on a grey day would out-house-style any generation.
-Firefly fallback:
+### `characters/nessa.jpg` — ✔ REPLACED 2026-07-24
+*Was: polished purebred studio pet photo. Now: the generation below,
+approved by Dermot — wind-matted, barnacled tideline rock, surf and grey
+cliffs, wary stare, no collar. The "your own camera" note below stands as
+a future upgrade path, but this one earned its place.*
 
 > Documentary wildlife photograph of a thin scruffy wind-ruffled cat
 > standing on wet dark rocks of a tidal island, grey sea and overcast sky
