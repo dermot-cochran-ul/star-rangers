@@ -5,7 +5,7 @@ category: "Species"
 tags: [cerebraun, species, cerebraun-hegemony, multiple-brains, cephalopod-analog]
 description: "A cephalopod-descended, multi-brained species whose distributed cognition and layered inner lives resist easy translation for singly-brained observers — and the founding people of the Cerebraun Hegemony."
 image: "cerebraun.jpg"
-image_alt: "A model head of an alien"
+image_alt: "A vast brutalist assembly hall in cold light and fog, a single robed figure seen from behind at great distance walking toward an immense doorway"
 ---
 
 Ask a Cerebraun a simple question and the answer sometimes arrives in three parts, seconds apart, none of them contradicting the others. Xenolinguists spent a decade assuming this was evasion before admitting it was just how the species thinks.

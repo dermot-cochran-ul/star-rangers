@@ -194,9 +194,17 @@ a future upgrade path, but this one earned its place.*
 > no collar, cold natural light, muted palette, photojournalistic realism.
 > Portrait orientation.
 
-### `lore/cerebraun-hegemony.jpg` (`cerebraun.jpg`)
-*Currently: the literal grey-alien-bust cliché the sibling entry explicitly
-avoids.* Indirection dodges the cliché entirely:
+### `lore/cerebraun.jpg` — ✔ REPLACED 2026-07-24
+*Was: the literal grey-alien-bust cliché the sibling entry explicitly
+avoids. Now: the indirection generation below, approved by Dermot — vast
+brutalist hall, one robed figure from behind at distance. Happy accident:
+a robe conceals eight limbs, so nothing anatomically wrong can show for a
+cephalopod-descended species.*
+
+*File-name correction: the audit's target was `lore/cerebraun.jpg` (the
+**species** entry). `lore/cerebraun-hegemony.jpg` is a different file — an
+on-template designed cover for the **polity** entry — and was deliberately
+left alone.*
 
 > A vast brutalist assembly hall in cold light, a single towering robed
 > figure seen from behind at great distance walking toward an immense
