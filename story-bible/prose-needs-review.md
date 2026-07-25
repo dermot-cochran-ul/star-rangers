@@ -9,6 +9,12 @@
 > survives the downgrade on other grounds: the `aldera.png` /
 > `karla-wender.jpg` image issues under Characters below are visual, not
 > tonal, and remain on the image audit's flagged list.
+>
+> **Confirmed 2026-07-25:** Dermot approved all existing prose in the
+> repository outright, which settles this list as well — it is a
+> provenance record only. Its companion,
+> `prose-needs-your-voice.md`, carries the full wording of that approval
+> and the go-forward rule it does *not* change.
 
 Planning note (not built into the site — lives in `story-bible/` like the
 other authorial notes). Built 2026-07-23 from git history: every content

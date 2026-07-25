@@ -1,5 +1,20 @@
 # Pages needing your own prose
 
+> **Approved 2026-07-25 (Dermot's decision):** no longer an action queue.
+> After reading the narrative scenes — particularly the multi-POV scene
+> structure — Dermot approved *all* existing prose in the repository as it
+> stands, including everything listed below. Nothing here is waiting on a
+> rewrite or a voice pass. The list is kept as a **provenance record**: it
+> still answers "which pages has Dermot never personally written a word
+> of," which matters for attribution and for knowing where his own voice
+> is and isn't the base layer.
+>
+> This approval is retrospective and covers the prose that existed on
+> 2026-07-25. It does **not** change the go-forward rule in `CLAUDE.md`:
+> Dermot writes the narrative first drafts, and unprompted narrative prose
+> is still not wanted. New scenes get drafted at his direction, not on an
+> AI tool's initiative.
+
 Planning note (not built into the site — lives in `story-bible/` like the
 other authorial notes). Built 2026-07-23 from git history: every content
 file under `src/{seasons,lore,characters,codex,glossary,timeline}/` whose
@@ -12,17 +27,18 @@ This is the front-to-back list. A shorter, separate list —
 `prose-needs-review.md` — covers pages you *did* write, that AI has since
 edited and which may need a tone check.
 
-## Flag first: Season 6 has chapters you may not know exist
+## Resolved: the Season 6–7 chapters
 
 `src/seasons/s06/` and `src/seasons/s07/` contain drafted chapters
 (`s06e01c01/c02/c03.md`, `s07e01c01/c02/c03.md`, dated 2026-07-21) — entirely
-AI-authored, and apparently written *after*
-`story-bible/narrative-gaps-checklist.md` was last updated (2026-07-14),
-which still says "zero chapters exist anywhere in `src/seasons/`" for
-Season 6–7. That checklist is now stale on this point. Given Season 6–7 is
-your climax ("The Last Stand"), this is worth a direct look before anything
-else on this list — it may be draft material to keep as scaffolding, or it
-may be further along than you want an AI tool taking a story this personal.
+AI-authored, and written *after* `story-bible/narrative-gaps-checklist.md`
+last claimed "zero chapters exist anywhere in `src/seasons/`" for
+Season 6–7 (that checklist was corrected on 2026-07-24 and now lists all
+six files by name). This flag originally
+asked for a direct look, since Season 6–7 is the climax ("The Last Stand")
+and these chapters had appeared without one. **Resolved 2026-07-25:** they
+fall under the blanket approval above and stand as canon rather than
+scaffolding.
 
 ## Season chapters (actual narrative prose — highest priority)
 
