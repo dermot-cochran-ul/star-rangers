@@ -13,7 +13,7 @@ it requires applying the systems that already exist to one character, under dure
 
 Season 5 established what Line Captain's rank costs Tissadelle: she now answers for the
 Rangers she sends into boundary-proximate deployments, not just for herself
-(`src/seasons/s05/index.md`). Season 5 also planted two threads worth colliding:
+(`src/seasons/s05/index.md`). Season 5 also planted two strands worth colliding:
 
 1. Threshold Station's forty-second chronometer discrepancy has been formally unresolved for
    eleven years (Season 1) and is still an open story question — is it the same phenomenon
@@ -21,8 +21,8 @@ Rangers she sends into boundary-proximate deployments, not just for herself
 2. Tissadelle found an unsurveyed dryadic-type Etheric anchor on her own family's land, and
    chose *not* to file it (S05E02C01, "What the Hill Keeps").
 
-The Season 6-7 arc's inciting event — "the Last Stand" — is the payoff of thread 1, read
-through the lens of thread 2: a command decision made by someone who has already shown she'll
+The Season 6-7 arc's inciting event — "the Last Stand" — is the payoff of strand 1, read
+through the lens of strand 2: a command decision made by someone who has already shown she'll
 choose the harder, more honest path over the administratively convenient one.
 
 **The Last Stand (end of S5 / opening of S6):** Threshold Station's forty-second drift stops
@@ -126,7 +126,7 @@ reason it's dangerous:
 
 ## Season 6 — "What Closes the File" (working title)
 
-**A. The institutional thread (external POVs — Wender, Sen, Rook-7, Syra).**
+**A. The institutional strand (external POVs — Wender, Sen, Rook-7, Syra).**
 Threshold Station logs the Last Stand as a confirmed loss, boundary contained, one Ranger
 unaccounted for and presumed lost in the rupture. The Oversight Council wants a clean incident
 report and a hero's citation — the fastest way to close a file that could otherwise reopen
@@ -141,7 +141,7 @@ that spike in a pattern Rook-7's non-standard sensors flag as familiar. Rook-7 a
 asymmetry/consent-erosion/obligation-loop signatures better than humanoid observers — it's the
 first to suspect a feeding pattern rather than a closed incident.
 
-**B. The interior thread (Tissadelle's POV chapters).**
+**B. The interior strand (Tissadelle's POV chapters).**
 Fragmented, non-chronological, deliberately hard to place in time at first — consistent with
 Phase 4's temporal desynchronization. Early chapters read almost like homecoming material (the
 Uplands, her mother, Wender) before the reader — and eventually Tissadelle herself — starts
@@ -153,7 +153,7 @@ resolve, and resolution is the whole point of a real memory.* She names her own 
 before anyone outside can — consistent with her character (doesn't perform confidence, doesn't
 volunteer an assessment she can't support, but will state one flatly once she can).
 
-**Season 6 endpoint:** the two threads meet. Something Tissadelle does or notices from inside
+**Season 6 endpoint:** the two strands meet. Something Tissadelle does or notices from inside
 (a detail only she could know) surfaces as a real, physically detectable signal the external
 team can correlate against Sen's irregularities and Rook-7's pattern match. Confirmation,
 without rescue: she is not gone. She is also not safe. Nobody yet knows if what's sustaining

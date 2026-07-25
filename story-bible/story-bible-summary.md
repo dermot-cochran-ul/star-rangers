@@ -139,19 +139,48 @@ Plurality — a single body hosting more than one person (headmates, or tulpas w
 
 **Macro level — the season spine.** Tissadelle Shepherd's career (Cadet in S1 → Principal in S3 → Line Captain in S5 → the Last Stand in S6-7) gives the published seasons a chronological throughline, but the season numbering is a slot system, not a strict release sequence: **Season 2 and Season 4 are deliberately unwritten gaps**, reserved for storylines that do not involve Tissadelle at all and do not need to be sequenced relative to her arc. A season number identifies a position in the setting's timeline, not a claim that every season shares a protagonist.
 
-**Micro level — parallel threads within a season.** Within a season, two (occasionally more) storylines run with no shared scenes, no shared POV cast, and no narrative contact until a defined convergence point:
+**Micro level — parallel strands within a season.** Within a season, two (occasionally more) storylines run with no shared scenes, no shared POV cast, and no narrative contact until a defined convergence point. These are **strands**, not threads — see the terminology note below, which exists because this document spent its first year calling both levels "threads":
 
-- **Season 1:** Thread A — the Threshold Station survey team (Galahad, Syra, Rook-7) investigating the forty-second chronometer discrepancy. Thread B — Elvira and Aldera at the Marsh Causeway, working a Court-Fae feeding pattern alone. Convergence: the two threads meet at the causeway, where Galahad's precise vocabulary lets Elvira ask the question Aldera has been waiting to answer, breaking the feeding loop.
-- **Season 6-7 arc treatment** (`story-bible/tissadelle-arc-s6-7.md`): Thread A — the institutional thread (external POVs: Wender, Sen, Rook-7, Syra) working the Last Stand's aftermath from Threshold Station. Thread B — the interior thread (Tissadelle's own POV, fragmented and non-chronological). Convergence: a Season 6 endpoint correlating a detail only Tissadelle could know against the institutional team's physical evidence, resolved in Season 7 by the same naming-defeats-ambiguity mechanic Season 1 established.
-- **Season 3 and Season 5**, as published, each run a single dominant POV (Tissadelle) paired with one contrasting local POV (Sohrel; Órla) rather than two fully independent storylines — noted here as the current exception to the pattern, not a second template. A future S3/S5-position season is free to run a genuinely independent second thread instead, the way S1 and the S6-7 treatment do.
+- **Season 1:** Strand A — the Threshold Station survey team (Galahad, Syra, Rook-7) investigating the forty-second chronometer discrepancy. Strand B — Elvira and Aldera at the Marsh Causeway, working a Court-Fae feeding pattern alone. Convergence: the two strands meet at the causeway, where Galahad's precise vocabulary lets Elvira ask the question Aldera has been waiting to answer, breaking the feeding loop.
+- **Season 6-7 arc treatment** (`story-bible/tissadelle-arc-s6-7.md`): Strand A — the institutional strand (external POVs: Wender, Sen, Rook-7, Syra) working the Last Stand's aftermath from Threshold Station. Strand B — the interior strand (Tissadelle's own POV, fragmented and non-chronological). Convergence: a Season 6 endpoint correlating a detail only Tissadelle could know against the institutional team's physical evidence, resolved in Season 7 by the same naming-defeats-ambiguity mechanic Season 1 established.
+- **Season 3 and Season 5**, as published, each run a single dominant POV (Tissadelle) paired with one contrasting local POV (Sohrel; Órla) rather than two fully independent strands — noted here as the current exception to the pattern, not a second template. A future S3/S5-position season is free to run a genuinely independent second strand instead, the way S1 and the S6-7 treatment do.
 
-**What makes two threads "independent" rather than just alternating scenes:**
+**What makes two strands "independent" rather than just alternating scenes:**
 
 1. Separate POV casts with no scene overlap until the convergence point.
-2. Each thread must be legible and satisfying read in isolation — a reader who only followed Thread A should not feel they were reading half a story.
-3. Threads share a thematic throughline (most often: precise naming is what defeats ambiguity-feeding entities) without sharing plot mechanics or a common villain-of-the-week.
-4. The convergence point is decided before either thread is drafted, even if the season isn't fully written yet — see the "Established future-canon waypoints" and Season 6-7 treatment for examples of convergence points fixed well ahead of the prose.
-5. Convergence merges information or action, not necessarily the cast going forward — characters can separate again after the threads meet.
+2. Each strand must be legible and satisfying read in isolation — a reader who only followed Strand A should not feel they were reading half a story.
+3. Strands share a thematic throughline (most often: precise naming is what defeats ambiguity-feeding entities) without sharing plot mechanics or a common villain-of-the-week.
+4. The convergence point is decided before either strand is drafted, even if the season isn't fully written yet — see the "Established future-canon waypoints" and Season 6-7 treatment for examples of convergence points fixed well ahead of the prose.
+5. Convergence merges information or action, not necessarily the cast going forward — characters can separate again after the strands meet.
+
+### Terminology: thread vs. strand (settled 2026-07-25)
+
+For its first year this document used **thread** for both levels, which made "the two threads meet at the causeway" and "Season 2 belongs to the Orbital Five-O thread" the same word for two structurally different things. They are now separate terms, and a thread is braided from strands, so the metaphor nests rather than collides:
+
+| Term | Level | What it is | Where it lives |
+|---|---|---|---|
+| **Storyline thread** | Macro | An independent storyline that *groups whole seasons*, with an id, a `/threads/` landing page, and a reader who can follow it alone. Currently: Founding Era (S0), Tissadelle Shepherd's Arc (S1/3/5/6/7), Orbital Five-O (S2), Church Space (private). | `lib/storyline-threads.js` — a real registry with engine consequences (`threadForSeason`, season grouping, `deploy.conf`'s `THREADS` narrowing, `private:` hiding) |
+| **Strand** | Micro | One of two (occasionally more) parallel storylines *within a single season* — separate POV cast, no shared scenes, meeting at a fixed convergence point. Strand A / Strand B. | Story bible only. No id, no page, no engine representation. |
+| **Arc** | Neither | The shape of one character's change over time, across whatever seasons carry it. Not a reading path — nobody can "read the Wender arc." | Story bible only |
+
+Rules that follow from the split:
+
+- A season belongs to **exactly one** storyline thread (`threadForSeason` returns the first match, else `UNSORTED_THREAD`) and may contain **any number** of strands.
+- A thread can exist with no prose at all — Orbital Five-O does. A strand cannot; it *is* prose.
+- Deploy-time filtering acts on threads, never on strands or arcs.
+- `tissadelle-arc` is the one thread named after an arc, because her arc is what makes those five seasons one narrative. That is the exception, not the pattern — the other three threads are defined by era, institution, and deployment.
+
+**Migration map (legacy → canonical):**
+
+| Legacy phrasing | Canonical |
+|---|---|
+| Thread A / Thread B (within a season) | Strand A / Strand B |
+| "the two threads meet" (within a season) | "the two strands meet" |
+| "the causeway thread", "the institutional thread", "the interior thread" | "the causeway strand", "the institutional strand", "the interior strand" |
+| "thread 1 / thread 2" (S5's planted pair) | "strand 1 / strand 2" |
+| storyline thread (season grouping) | **unchanged** — still the correct term at the macro level |
+
+Swept across `story-bible-summary.md`, `narrative-gaps-checklist.md`, and `tissadelle-arc-s6-7.md` on 2026-07-25; no reader-facing page or template used "Thread A/B", so nothing under `src/` changed and no URL, id, or `deploy.conf` key moved.
 
 ---
 
@@ -164,11 +193,11 @@ Plurality — a single body hosting more than one person (headmates, or tulpas w
   - **S01E01C01 — "Arrival at the Threshold Station"** (2826 UCSD, Early Autumn, Dawn; Dock Seven). Galahad, Syra, and Rook-7 arrive as new transfers to the boundary survey team; Galahad is unexpectedly team lead. Each POV registers the station's wrongness differently: Galahad reads the incident-report gaps, Syra feels the Concordant edge as a coherence lag, Rook-7 logs the 40-second chronometer disagreement and a stress-fracture anomaly as data points, not yet a threat.
   - **S01E01C02 — "The Forty-Second Discrepancy"** (continues the drift investigation).
 - **Episode 2**
-  - **S01E02C01 — "The Broken Causeway"** (introduces/continues the Elvira/Aldera thread at Marsh Causeway).
-  - (episode 2 contains additional chapters carrying the causeway thread toward convergence)
+  - **S01E02C01 — "The Broken Causeway"** (introduces/continues the Elvira/Aldera strand at Marsh Causeway).
+  - (episode 2 contains additional chapters carrying the causeway strand toward convergence)
 - **Episode 3** — chapter(s) continuing toward the Season 1 convergence point.
 
-**Season 1 endpoint (per site synopsis):** the survey-team thread (Threshold Station) and the causeway thread (Elvira/Aldera/Court-Fae) converge at the Marsh Causeway, where correctly *naming* the threat is what breaks its feeding loop — Aldera already has the identification; Galahad's precise vocabulary is what will let Elvira ask the right question.
+**Season 1 endpoint (per site synopsis):** the survey-team strand (Threshold Station) and the causeway strand (Elvira/Aldera/Court-Fae) converge at the Marsh Causeway, where correctly *naming* the threat is what breaks its feeding loop — Aldera already has the identification; Galahad's precise vocabulary is what will let Elvira ask the right question.
 
 **Established future-canon waypoints (not yet dramatized):**
 - Karla Wender: Chief Pilot → High Captain (progression TBD in-story).

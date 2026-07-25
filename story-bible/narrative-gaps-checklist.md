@@ -17,7 +17,7 @@ What's actually written versus what the story bible and site copy have already c
 
 - [x] E00 (3 ch) — Elvira/Aldera prequel backstory
 - [x] E01 (2 ch) — Galahad/Syra/Rook-7 arrive, discrepancy investigation begins
-- [x] E02 (5 ch) — causeway thread, boundary anomaly, teleport policy formalized
+- [x] E02 (5 ch) — causeway strand, boundary anomaly, teleport policy formalized
 - [x] E03C01 — "The Order of Evacuation" (Pelagos Minor) — published, but a tangent, not the convergence below
 - [x] E03C02 — "The Right Question": Galahad discloses the full survey archive (now including the confirmed station-drift/grove-residue coupling from E02C03), Elvira directly asks Aldera the question no one had asked in three years, Aldera answers, the feeding loop breaks. The season's established endpoint per `story-bible/story-bible-summary.md`'s "Season 1 endpoint (per site synopsis)."
 - [x] E03C03 — "The Root and the Rest of It": the dryadic grove's Etheric root-anchor intervention itself (planned at the end of E02C02 — "Interrupt the coupling... the root" — and explicitly deferred in S01E03C02's closing log). Elvira severs the entity's coupling at the root-plate overlap; the grove's own Etheric rooting is untouched, leaf phase-lag settles from 0.22 s to 0.19 s unexplained, and the entity's destination is deliberately not established. **The chapter's real move is a retraction:** Threshold's forty-second discrepancy does not budge, so Rook-7 withdraws his two-source model and the drift returns to being an open unknown — which keeps the Last Stand's payoff (S5/S6) entirely intact rather than spending it here. Placed after the season's naming endpoint on purpose: E03C02 remains the thematic close, and this is the physical follow-through that chapter's own text promises but declines to do
@@ -40,9 +40,9 @@ What's actually written versus what the story bible and site copy have already c
 ## Season 5 — Line Captain
 
 - [x] E02C01 — "What the Hill Keeps" (Tír na nÓg, personal leave)
-- [x] E02C02 — "A Fraction of a Second": back on duty, a fleet-wide anomaly bulletin (Sen's cross-referencing) matches her family's hillside against the Marsh Causeway grove's dryadic-anchor marker, as an unattributed coordinate. She flags it for survey without disclosing the personal connection; Wender notices and lets it go. Advances both threads below without resolving either — deliberately, per the S6-7 treatment reserving that payoff for the Last Stand.
+- [x] E02C02 — "A Fraction of a Second": back on duty, a fleet-wide anomaly bulletin (Sen's cross-referencing) matches her family's hillside against the Marsh Causeway grove's dryadic-anchor marker, as an unattributed coordinate. She flags it for survey without disclosing the personal connection; Wender notices and lets it go. Advances both strands below without resolving either — deliberately, per the S6-7 treatment reserving that payoff for the Last Stand.
 - [ ] E00/E01 — skipped entirely; only the E02 snapshot exists
-- [ ] The two threads Season 5 explicitly "plants" per `story-bible/tissadelle-arc-s6-7.md`: (1) whether the boundary she finds at her mother's hollow is the same phenomenon as Threshold's eleven-year drift, and (2) what she chose *not* to file about it (S05E02C01) — now connected in Tissadelle's own mind (S05E02C02) but still not resolved; that's reserved for the Last Stand per the treatment
+- [ ] The two strands Season 5 explicitly "plants" per `story-bible/tissadelle-arc-s6-7.md`: (1) whether the boundary she finds at her mother's hollow is the same phenomenon as Threshold's eleven-year drift, and (2) what she chose *not* to file about it (S05E02C01) — now connected in Tissadelle's own mind (S05E02C02) but still not resolved; that's reserved for the Last Stand per the treatment
 
 ## Season 6–7 — "The Last Stand" / "What Closes the File" / "Naming the Line"
 
@@ -62,10 +62,10 @@ Fully outlined in `story-bible/tissadelle-arc-s6-7.md`.
 > **SECOND STALE CLAIM CORRECTED 2026-07-25.** This block went on to say the
 > six files were "drafts occupying the slots, not the outline realized," and
 > kept every box below unticked on that basis. Checked against the files
-> themselves: **that reading was wrong.** Thread A is worked in `s06e01c02`
-> (Wender, Rook-7, Sen, the citation she declines to sign), Thread B in
+> themselves: **that reading was wrong.** Strand A is worked in `s06e01c02`
+> (Wender, Rook-7, Sen, the citation she declines to sign), Strand B in
 > `s06e01c01` and `s06e01c03` (Shepherd's interior, the recursion, the
-> levril at the edge of the clearing), the two threads touch in
+> levril at the edge of the clearing), the two strands touch in
 > `s07e01c03`, and the naming mechanic and the deliberately-contested public
 > record are both there in that chapter's own canon facts. The boxes are
 > ticked below to match what is actually on disk. One is genuinely
@@ -87,8 +87,8 @@ Fully outlined in `story-bible/tissadelle-arc-s6-7.md`.
 > `tissadelle-arc-s6-7.md`, spoiler-safe, not in public lore.
 
 - [ ] **The Last Stand** itself (end of S5 / opening of S6) — Threshold Station's forty-second drift stops; logged as a confirmed loss, boundary contained, one Ranger down. **Still genuinely unwritten.** Every existing S6–7 chapter reaches it backwards, as "Dock Seven": `s06e01c02` opens nineteen days after, and the closure is known only through a citation draft, a residual signal, and Shepherd's own unreliable interior. The event has no chapter and no POV of its own — which is a defensible choice (the arc is *about* the record of the thing, not the thing), so writing it means deciding it should be seen at all
-- [x] Season 6, "What Closes the File" — Thread A in `s06e01c02` (Wender reads the Council's draft citation and declines to sign it; Rook-7's non-standard arrays; Sen's unsigned archivist's notes). Thread B in `s06e01c01` and `s06e01c03` (Shepherd's interior, non-chronological, the morning that keeps happening, the Phase 4 recursion she diagnoses on herself)
-- [x] Season 6 endpoint — the threads meet, though **later than outlined**: the correlation lands in `s07e01c03`, where a detail only Shepherd could know crosses the warm edge in both directions, rather than at Season 6's close. Noted rather than "fixed" — the arc reads as written
+- [x] Season 6, "What Closes the File" — Strand A in `s06e01c02` (Wender reads the Council's draft citation and declines to sign it; Rook-7's non-standard arrays; Sen's unsigned archivist's notes). Strand B in `s06e01c01` and `s06e01c03` (Shepherd's interior, non-chronological, the morning that keeps happening, the Phase 4 recursion she diagnoses on herself)
+- [x] Season 6 endpoint — the strands meet, though **later than outlined**: the correlation lands in `s07e01c03`, where a detail only Shepherd could know crosses the warm edge in both directions, rather than at Season 6's close. Noted rather than "fixed" — the arc reads as written
 - [x] Season 7, "Naming the Line" — `s07e01c03`: named true by the living, on her own terms, via the same naming mechanic Season 1 established
 - [x] Keeps "who gets to name the truth" live rather than settled — `s07e01c03`'s own canon facts hold the Council's citation, the Codex's account, and what Wender privately knows permanently unreconciled; true for the reader, contested in-universe
 
