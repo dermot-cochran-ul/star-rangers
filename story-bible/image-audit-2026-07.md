@@ -1,5 +1,35 @@
 # Image Audit — July 2026
 
+> ## STATUS: mostly resolved 2026-07-24
+>
+> **Eleven images replaced** in one session from Dermot's Firefly generations —
+> every CRITICAL wrong-content item except one, plus four style items. See
+> [firefly-replacement-prompts.md](firefly-replacement-prompts.md) for the
+> per-file ✔ REPLACED notes and the prompts that produced them:
+> `ilse-korvain`, `aldera` (png→jpg), `maren-solveig-krast`, `karla-wender`,
+> `orla-shepherd`, `qiren-tal`, `rook-7`, `nessa`, `lore/cerebraun`,
+> `hero/atlas-chart`, `hero/s01e01-corridor`, plus a `lore/five-layers`
+> upgrade. Alt text rewritten on every one.
+>
+> **CORRECTION — the three-way lore shuffle below was a FALSE POSITIVE.** All
+> three images were verified by eye on 2026-07-24 and each already matches its
+> own alt text: `five-layers.jpg` *was* a blue spiral galaxy, not a sepia
+> skyline; `formation-of-star-rangers.jpg` *is* a vintage city skyline; and
+> `frontier-transformation-protocols.jpg` is a delegate voting console in an
+> empty blue-seated chamber — a loose but genuine match for "the interior of an
+> empty parliament chamber." Git history confirms none of the three has been
+> touched since 2026-07-13, so nothing was ever shuffled or fixed: the original
+> finding was simply wrong, and no fourth image is missing. **Lesson: verify
+> image contents by reading the files, not by reasoning about filenames and
+> alt text.**
+>
+> **Still open:** the technical/quality items, now split out with re-measured
+> dimensions into [manual-photo-edits.md](manual-photo-edits.md) (Lightroom /
+> Photoshop work only Dermot can do — no spot-heal, upscaler, or compositing
+> in-session); `codex/cosmic-limitation-on-evil.jpg` (rebuild as a designed
+> title card — an in-session job, not yet done); and the 13-file stock-headshot
+> style cluster (deferred by choice — deserves its own session).
+
 Planning note (not built into the site — lives in `story-bible/` like
 `portraits-needed.md`). Full visual review of every existing image in the
 repo (~250 files: characters, lore, codex, hero), done by reading each file

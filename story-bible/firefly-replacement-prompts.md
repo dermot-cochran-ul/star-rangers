@@ -224,9 +224,12 @@ deck numbering rather than gibberish, so no blur pass needed.*
 > walking away, documentary realism, desaturated palette, film grain.
 > Landscape orientation.
 
-### `lore/five-layers.jpg` (pending the three-way shuffle untangling)
-The audit suspects the true "blue spiral galaxy" image is missing entirely.
-If so:
+### `lore/five-layers.jpg` — ✔ UPGRADED 2026-07-24 (not a fix)
+*The audit's suspicion that this file held the wrong image was a **false
+positive** — it already was a blue spiral galaxy, matching its alt text. The
+new generation was installed as a genuine upgrade instead: it carries the
+faint translucent layered planes the entry is actually about, which the plain
+galaxy didn't. Old version recoverable from git if the plain one is preferred.*
 
 > A luminous blue spiral galaxy seen face-on against deep black space,
 > faint layered translucent planes of light stacked in front of it
@@ -237,7 +240,27 @@ If so:
 *Currently: a plain text card.* **Your photography slot** — the Knarr Line's
 Nordic-heritage coastal world wants a real cold-coast photograph (harbour,
 gantries, grey water) far more than a generation. Firefly fallback only if
-no photo fits.
+no photo fits. Also listed in [manual-photo-edits.md](manual-photo-edits.md).
+
+---
+
+## Status summary (2026-07-24)
+
+**✔ Replaced this session (11):** `ilse-korvain` (v2 after a horror-tipping
+v1), `aldera` (png→jpg), `maren-solveig-krast`, `karla-wender`,
+`orla-shepherd`, `qiren-tal` (Dermot's own reworked prompt), `rook-7` (v2
+after an NYPD-contaminated v1), `nessa`, `lore/cerebraun`, `hero/atlas-chart`,
+`hero/s01e01-corridor`. Plus `lore/five-layers` upgraded.
+
+**Open, not Firefly's job:** `codex/cosmic-limitation-on-evil.jpg` (designed
+title card, in-session rebuild available); `lore/saltvik.jpg` (Dermot's
+camera); everything in [manual-photo-edits.md](manual-photo-edits.md)
+(Lightroom/Photoshop); the 13-file stock-headshot cluster (deferred).
+
+**Prompt-engineering lessons banked:** name the *sheen*, not the substance
+(stone-texture → golem); ban lettering explicitly (or Firefly delivers the
+NYPD); state the setting's era, or it defaults to contemporary Earth; and
+tone-check every dark subject against the horror line before keeping it.
 
 ---
 

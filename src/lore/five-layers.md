@@ -5,7 +5,7 @@ category: "Cosmology"
 tags: [cosmology, layers, spiritual, conceptual, etheric, physical, material]
 description: "The five ontological layers and their measurable interaction rules in the Star Rangers universe."
 image: "five-layers.jpg"
-image_alt: "A blue spiral galaxy"
+image_alt: "A luminous blue spiral galaxy seen face-on, with faint translucent planes of light layered across it suggesting depth strata"
 ---
 
 A stone falls, a promise lingers, a pattern repeats, and a prayer is mistaken for causality. The Five Layers exist to keep those different kinds of event from being confused with one another.

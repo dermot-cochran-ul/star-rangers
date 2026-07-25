@@ -46,7 +46,29 @@ What's actually written versus what the story bible and site copy have already c
 
 ## Season 6–7 — "The Last Stand" / "What Closes the File" / "Naming the Line"
 
-Fully outlined in `story-bible/tissadelle-arc-s6-7.md`; zero chapters exist anywhere in `src/seasons/`.
+Fully outlined in `story-bible/tissadelle-arc-s6-7.md`.
+
+> **STALE CLAIM CORRECTED 2026-07-24.** This section long read "zero chapters
+> exist anywhere in `src/seasons/`." That is false and has been since at least
+> the 2026-07-23 prose-authorship audit, which flagged the same discrepancy.
+> **Six S6–S7 chapter files exist**, all AI-drafted and none written by Dermot:
+> `s06/e01/s06e01c01` ("First Light, Off the Record"),
+> `s06e01c02` ("What the Instruments Kept"),
+> `s06e01c03` ("The Well Ran Warm Again"),
+> `s07/e01/s07e01c01` ("The Accurate Account"),
+> `s07e01c02` ("Shown, Not Healed"),
+> `s07e01c03` ("Enough Is Enough").
+>
+> They are drafts occupying the slots, not the outline realized — and per
+> Dermot's standing division of labour, S6–7 narrative is his to first-draft.
+> The boxes below therefore stay **unticked on purpose**: the beats they
+> describe are not achieved by the existing files, and whether those files are
+> kept, rewritten, or discarded is his call. See
+> `story-bible/prose-needs-your-voice.md`.
+>
+> Also settled since this list was written: the arc's cosmological endgame —
+> the protouniverse's "Saint Aoife" is a Telearch avatar. Recorded in
+> `tissadelle-arc-s6-7.md`, spoiler-safe, not in public lore.
 
 - [ ] **The Last Stand** itself (end of S5 / opening of S6) — Threshold Station's forty-second drift stops; logged as a confirmed loss, boundary contained, one Ranger down
 - [ ] Season 6, "What Closes the File" (working title) — Thread A: institutional POV (Wender, Sen, Rook-7, Syra) working the Last Stand's aftermath. Thread B: Tissadelle's own interior POV, fragmented/non-chronological
