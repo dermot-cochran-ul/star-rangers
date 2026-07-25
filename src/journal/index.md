@@ -3,7 +3,7 @@ layout: base.njk
 title: "Journal"
 description: "Notes from behind Star Rangers — the reasoning, wrong turns, and small decisions that don't fit in the story itself."
 ---
-<img class="page-hero-image" src="/star-rangers/images/hero/about-writer.jpg" alt="A writer working at a desk at night" />
+<img class="page-hero-image" src="/star-rangers/images/hero/journal-notebook.jpg" alt="An open journal on a wooden desk, headed &quot;Author's Journal&quot; in cursive above a dated handwritten entry, with an ink bottle behind it" />
 <nav class="chapter-breadcrumb" aria-label="Page location">
   <ol class="breadcrumb" role="list">
     <li><a href="/star-rangers/story-engine/">Story Engine</a></li>

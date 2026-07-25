@@ -231,3 +231,40 @@ generator (dissolution ring, `CONTESTED` stamp from the paper's own status).
    `lore/cerebraun.jpg` (the **species** entry), not
    `lore/cerebraun-hegemony.jpg`, which is an on-template designed cover for the
    **polity** entry and was correctly left alone.
+
+---
+
+## Meta-page heroes (2026-07-25)
+
+The out-of-character section — `/story-engine/` and the Journal index under it —
+now has heroes of its own, both chosen from a set of eight generated candidates.
+Three pages (About, Journal, Story Engine) had been opening with the same
+`hero/about-writer.jpg`; About keeps it, the other two no longer share it.
+
+- **`hero/story-engine.jpg`** — a brass machine whose riveted nameplate reads
+  *Story Engine*, gears below, steam rising. On `/story-engine/`. Whimsical
+  brass on a hard-SF site is deliberate and confined to the out-of-character
+  section; nothing in-universe uses it.
+- **`hero/journal-notebook.jpg`** — an open journal headed *Author's Journal*
+  above a handwritten dated entry. On the Journal index.
+
+**Selecting a text-bearing generation.** Six of the eight candidates were
+rejected on lettering, which is the same failure the codex-cover generator
+exists to avoid — an image model cannot spell, so the only safe pick is one
+where every legible word is short and correct. Rejected: a gear array labelled
+`PLOT / CHARACTER / SETTING / CONFLICT` that labelled two different gears
+`PLOT`; a printing press whose scroll read `bd what...` and dissolved into
+gibberish at the bottom; a journal quoting a named real author (attribution the
+site would then be making in a decorative image) and hard-dating itself to 2024;
+a journal spread carrying a pencil-sketched face, which reads as a specific
+character on a page that is explicitly *not* in-universe. The two winners each
+carry one short correctly-spelled phrase and nothing else legible.
+
+**Cropping portrait generations for `.page-hero-image`.** Heroes render at
+`width: 100%; height: 320px; object-fit: cover` in an 1100px column — roughly
+3.4:1 — so CSS keeps only the middle band of whatever it is given. Both sources
+were 768×1152 portraits; each was cropped to 16:9 around a chosen centre and
+upscaled to 1600×900, with the centre picked so that the CSS band lands on the
+lettering (verified by simulating the 1100×320 crop before committing, not
+after). A naive centre crop put the nameplate and the journal's title outside
+the visible band on both. Worth repeating for any portrait-orientation source.
