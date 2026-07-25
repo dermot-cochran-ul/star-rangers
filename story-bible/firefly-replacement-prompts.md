@@ -212,8 +212,11 @@ left alone.*
 > scale, fog and volumetric light, austere and enigmatic, muted cold
 > palette, cinematic photography. Landscape orientation.
 
-### `hero/s01e01-corridor.jpg`
-*Currently: glossy CGI corridor among gritty real-photo episode banners.*
+### `hero/s01e01-corridor.jpg` — ✔ REPLACED 2026-07-24
+*Was: glossy CGI corridor among gritty real-photo episode banners. Now: the
+generation below, approved by Dermot — wet decking, exposed conduit, one
+figure receding under strip lighting. Wall stencils rendered as plausible
+deck numbering rather than gibberish, so no blur pass needed.*
 
 > Gritty photorealistic industrial corridor aboard an aging space station,
 > scuffed deck plating, exposed conduit and pipework, harsh unshaded strip

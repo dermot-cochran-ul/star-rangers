@@ -12,7 +12,7 @@ permalink: /seasons/s01/e01/
   </ol>
 </nav>
 
-<img class="page-hero-image" src="/star-rangers/images/hero/s01e01-corridor.jpg" alt="A sci-fi facility corridor" />
+<img class="page-hero-image" src="/star-rangers/images/hero/s01e01-corridor.jpg" alt="A dim industrial corridor aboard an aging space station, wet scuffed decking and exposed overhead conduit, a single figure walking away under harsh strip lighting" />
 <h1 class="page-title">Season 1 · Episode 1</h1>
 <p class="page-intro">
   The first episode opens on arrival, inspection, and the first hard proof that something at Threshold Station refuses to settle back into order. Read every published chapter for this episode here.
