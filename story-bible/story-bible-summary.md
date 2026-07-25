@@ -182,6 +182,21 @@ Rules that follow from the split:
 
 Swept across `story-bible-summary.md`, `narrative-gaps-checklist.md`, and `tissadelle-arc-s6-7.md` on 2026-07-25; no reader-facing page or template used "Thread A/B", so nothing under `src/` changed and no URL, id, or `deploy.conf` key moved.
 
+### Terminology: visibility and filtering (settled 2026-07-25)
+
+The second cluster of engine terms that gets confused, for the same reason as thread/strand: two mechanisms pointing opposite directions, described with overlapping words.
+
+| Term | Definition |
+|---|---|
+| **Included by default** | The baseline. A build that sets no `CHARACTERS`/`TOPICS`/`THREADS` at all ships every page. Inclusion is not something ordinary content has to earn. |
+| **Narrowed build** | A clone whose `deploy.conf` sets one or more of those keys, trimming an otherwise-full site down to a subset. Subtractive, per-clone, and it can only ever remove. |
+| **Private** | **Opt-in inclusion — the inverse.** Private content is *excluded unless a build names it in*, including on the unfiltered full-site build. The distinguishing case is the no-filter build: with nothing set, an ordinary page ships and a private page still does not. That asymmetry is why privacy cannot be expressed in `deploy.conf`, which can only say "narrow this build", never "off by default everywhere". |
+| **Private thread vs. private page** | Privacy is *declared* only on a thread (`private: true`, `lib/storyline-threads.js`). A **page** acquires it by membership — a chapter via its season, a character/lore/codex/glossary/timeline page via its tags or category, a landing page via an explicit `threadId`. So "private page" is a fair description and never a declaration; there is no per-page `private` front-matter field. |
+| **Excluded page** | What both mechanisms actually produce. Not a missing page: it still builds at its normal URL as an `excluded.njk` placeholder, so no internal link ever 404s. |
+| **Reference domain / `homeDomain`** | Where a placeholder sends the reader. Ordinary excluded pages point at `DEFAULT_REFERENCE_DOMAIN` (the full-site superset). A private thread overrides that with its own `homeDomain`, because the default domain excludes it too — without the override the placeholder would point at a site that also doesn't have the page. |
+
+`church-space` is the only private thread and is intended to stay the only one: it exists because that storyline belongs to one pair of domains, not because privacy is a general per-deploy feature. Every other per-domain difference is narrowing. A second `private: true` thread is a design decision, not configuration.
+
 ---
 
 ## Outline (story so far / structure)
