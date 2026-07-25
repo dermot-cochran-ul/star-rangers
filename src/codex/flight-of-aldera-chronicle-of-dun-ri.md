@@ -17,7 +17,7 @@ image_alt: "Designed cover for The Flight of Aldera: a single candlelit glow han
 
 ---
 
-The light in the walled terrace at Castle Ravana came in low and sideways, dragging long shadows across frost-blackened grass and the last roses, which had no business still blooming. The air tasted of iron. Princess Elvira of Dún Rí moved along the gravel path with the measured tread of someone being watched, her gloved fingers pressing the balustrade at intervals, testing, though she already knew every loose rivet. Her cat moved with her — not following, not leading, but orbiting, as though tethered by something other than loyalty.
+## The Abbey
 
 The Abbey crouched on the hillside above the River Boyne, older than the castles, older than the kings who'd built them. Elvira had braced herself for incense and chanting. Instead, before the gates were even open, the sound found her — not the clang of iron on iron but something below that, a frequency that lived in bone rather than air. Aldera of Dún Rí went rigid in her arms, ears pinned flat, and then, disturbingly, stopped moving altogether.
 
