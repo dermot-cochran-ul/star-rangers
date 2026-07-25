@@ -197,6 +197,44 @@ The second cluster of engine terms that gets confused, for the same reason as th
 
 `church-space` is the only private thread and is intended to stay the only one: it exists because that storyline belongs to one pair of domains, not because privacy is a general per-deploy feature. Every other per-domain difference is narrowing. A second `private: true` thread is a design decision, not configuration.
 
+### Terminology: front-matter fields that get confused (settled 2026-07-25)
+
+Five pairs where the wrong choice is silent — the build passes and the damage shows up later.
+
+| Field | What it is | The confusion to avoid |
+|---|---|---|
+| **`id`** | A chapter's positional identity, `s<NN>e<NN>c<NN>`, *derived* from `season`/`episode`/`chapter`. Validation fails if they disagree or the filename doesn't match. | It names a **slot**, not a piece of writing. Renumber a chapter and its `id` changes, because the slot did. |
+| **`comment_id`** | The permanent identity of a chapter's discussion thread, deliberately decoupled from `id`. Set once by `npm run new -- chapter`; **never** regenerated, including through a renumbering. | It moves with the **content**, not the slot. Regenerating it silently reattaches a live comment thread to different writing — the failure this field exists to prevent. |
+| **`date`** | Real-world publication date, `YYYY-MM-DD`. Drives the Atom feed and `recentChapters` sorting. | Not story time. |
+| **`timestamp`** | In-universe time, free text ("2831 UCSD, Deep Winter — and a morning that has agreed, at last, to stay unfinished"). | Not sortable, and not meant to be. |
+| **`canon_facts`** | World rules a chapter affirms. Chapters only — **codex entries never carry them**, because a codex entry establishes nothing. | Not a summary. A line belongs here when later writing must not contradict it. |
+| **`povs`** | Which characters narrate, as `{id, label}`. Must stay in sync with the `::: pov` blocks actually present. | Drifts silently when a POV block is added or cut without updating it. |
+
+### Terminology: canon status (settled 2026-07-25)
+
+| Term | Meaning |
+|---|---|
+| **Canon** | True in the world, binding on everything written afterward. All published seasons, ratified 2026-07-25 — nothing in `src/seasons/` is provisional. Lore and the Glossary state it directly. |
+| **Valid-for-its-author** | The Codex's standard, and a different promise: an entry is *not* canon, it is a named source's account. It may contradict lore, a chapter, or another entry. What it may not be is arbitrary — the test is "could this person have known this, and would they have written it this way?", not "is this true?". `author` is required for exactly this reason: no source, no viewpoint to be valid from. |
+| **Lore/codex boundary** | Lore and the Glossary stay internally consistent; anything contested, paradoxical, or devotional moves *into* the Codex under somebody's name. When two lore pages disagree, relocate the contested reading — don't pick a winner inside lore. |
+| **House voice** | The prose register of the existing corpus, approved 2026-07-25 as the reference for new work. Approval covered voice and style; the separate ratification covered content. |
+
+### Terminology: craft (settled 2026-07-25)
+
+| Term | Meaning |
+|---|---|
+| **Scene** | A `::::: scene N` block. A chapter with no wrapper is one implicit scene. Five colons by convention — it must out-fence any nested `::: pov`, or markdown-it closes the scene early. |
+| **POV block** | A `::: pov <character-id>` block: one character's viewpoint inside a scene. |
+| **Scene-POV page** | The page generated for every `(chapter, scene, character)` combination by `src/_data/scenePovPages.js`, which parses the token stream rather than rendered HTML. This is what lets a reader follow one viewpoint alone or compare several across the same minutes. |
+| **Convergence point** | Where two strands meet. Decided before either strand is drafted, and it merges information or action — not necessarily the cast, who may separate again. |
+| **Deliberate mystery** | A question the story is holding shut on purpose, not a gap. Currently: the *Patience First* terminus and the 2732 recovery, both reserved for their own season. Never resolve one in passing. |
+| **Reserved season** | A season number left unwritten on purpose for a storyline that doesn't run through the current spine — Seasons 2 and 4. Not a gap to fill by default. |
+| **Gap** | Something the story has committed to and not yet dramatized. Tracked in `narrative-gaps-checklist.md`, which goes stale — re-derive from `src/seasons/` before trusting it. |
+
+### Publication policy for this document (settled 2026-07-25)
+
+`story-bible/` stays **unpublished**, permanently. It is the only place spoilers live — the S6–7 treatment and its cosmological endgame, unwritten beats, the gaps checklist, the canon audit, and the prose-provenance notes. The public `/story-engine/` section is *derived*, never a mirror: it carries craft vocabulary and reasoning that reveal nothing about where the story goes. When adding to the public section, the test is not "is this interesting?" but "does this tell a reader something the story has not told them yet?" If yes, it stays here.
+
 ---
 
 ## Outline (story so far / structure)
