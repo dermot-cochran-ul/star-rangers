@@ -12,10 +12,15 @@
 > - **Not a canon ruling.** It settles how the prose reads, not whether a
 >   given page's events are fixed story. Anything whose *content* is still
 >   open — see the Season 6–7 chapters below — stays open.
-> - **Not a change to the go-forward rule** in `CLAUDE.md`. Dermot writes
->   the narrative first drafts; unprompted narrative prose is still not
->   wanted. New scenes get drafted at his direction, not on an AI tool's
->   initiative.
+> - **Not, in itself, the drafting permission.** That came separately and
+>   later the same day: Dermot granted **standing permission to write new
+>   scenes** without being asked, retiring the old "Dermot writes every
+>   narrative first draft" rule. `CLAUDE.md`'s prose-authorship bullet
+>   carries the operative version and its constraints (write to the gaps,
+>   leave deliberate mysteries and reserved seasons alone, match the
+>   scene/POV structure, report what was written). This list stays
+>   accurate under that permission — it just stops being a reproach and
+>   becomes a map of where his own hand is absent.
 > - **Not the end of this list.** It is kept as a **provenance record**: it
 >   still answers "which pages has Dermot never personally written a word
 >   of," which matters for attribution and for knowing where his own voice

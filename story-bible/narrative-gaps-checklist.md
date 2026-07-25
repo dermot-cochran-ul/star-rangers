@@ -59,11 +59,19 @@ Fully outlined in `story-bible/tissadelle-arc-s6-7.md`.
 > `s07e01c02` ("Shown, Not Healed"),
 > `s07e01c03` ("Enough Is Enough").
 >
-> They are drafts occupying the slots, not the outline realized — and per
-> Dermot's standing division of labour, S6–7 narrative is his to first-draft.
-> The boxes below therefore stay **unticked on purpose**: the beats they
-> describe are not achieved by the existing files, and whether those files are
-> kept, rewritten, or discarded is his call. See
+> They are drafts occupying the slots, not the outline realized. The boxes
+> below therefore stay **unticked on purpose**: the beats they describe are
+> not achieved by the existing files, and whether those files are kept,
+> rewritten, or discarded is Dermot's call.
+>
+> **Updated 2026-07-25.** Two decisions land on this section. Their voice
+> and style are approved, so nothing here needs a rewrite for register. And
+> the old "S6–7 narrative is Dermot's to first-draft" division of labour is
+> retired — there is now standing permission to draft new scenes anywhere
+> (`CLAUDE.md`, prose-authorship). The climax is still the one place to
+> tread carefully: this arc's beats remain unratified, so draft *into* the
+> outline in `tissadelle-arc-s6-7.md` rather than resolving it, and leave
+> the ending as unsettled as the treatment asks for. See
 > `story-bible/prose-needs-your-voice.md`.
 >
 > Also settled since this list was written: the arc's cosmological endgame —
