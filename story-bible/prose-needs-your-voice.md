@@ -9,9 +9,11 @@
 >
 > Three things that approval is *not*:
 >
-> - **Not a canon ruling.** It settles how the prose reads, not whether a
->   given page's events are fixed story. Anything whose *content* is still
->   open — see the Season 6–7 chapters below — stays open.
+> - ~~**Not a canon ruling.**~~ **Superseded the same day:** Dermot's
+>   follow-up — "no reason why all seasons would not now be taken as
+>   canon" — ratifies the content too. Every published chapter in every
+>   season, including the six Season 6–7 files below, is canon. Nothing in
+>   `src/seasons/` is provisional any more.
 > - **Not, in itself, the drafting permission.** That came separately and
 >   later the same day: Dermot granted **standing permission to write new
 >   scenes** without being asked, retiring the old "Dermot writes every
@@ -42,7 +44,7 @@ This is the front-to-back list. A shorter, separate list —
 `prose-needs-review.md` — covers pages you *did* write, that AI has since
 edited and which may need a tone check.
 
-## Partly resolved: the Season 6–7 chapters
+## Resolved: the Season 6–7 chapters
 
 `src/seasons/s06/` and `src/seasons/s07/` contain drafted chapters
 (`s06e01c01/c02/c03.md`, `s07e01c01/c02/c03.md`, dated 2026-07-21) — entirely
@@ -53,12 +55,18 @@ six files by name). This flag originally
 asked for a direct look, since Season 6–7 is the climax ("The Last Stand")
 and these chapters had appeared without one.
 
-**Status 2026-07-25:** the 2026-07-25 approval covers their voice and
-style, so they need no rewrite for register. It does not rule on whether
-their *events* are canon — for the climax of the arc, that is a separate
-call, and it is still open. Read against
-`story-bible/tissadelle-arc-s6-7.md` before treating any beat in them as
-fixed.
+**Status 2026-07-25 — closed.** Voice and style approved, and then the
+content ratified with every other season: these six chapters are canon.
+Their `canon_facts` bind, and the arc they describe — Dock Seven, the
+stalled noöseed, the levril at the warm edge, the contested public
+record — is the story's, not a proposal.
+
+Ratification made one arithmetic error load-bearing, so it was fixed the
+same day: `s06e01c02` twice called Threshold's chronometer discrepancy
+"eleven years" old, which is its age in 2826 (S1), not 2831 (S6). Now
+sixteen. Expect more of this — five seasons of drafts written while the
+back half was provisional will have absorbed other numbers that only
+matter once they bind.
 
 ## Season chapters (actual narrative prose — highest priority)
 

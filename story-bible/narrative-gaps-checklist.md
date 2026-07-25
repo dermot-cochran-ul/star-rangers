@@ -59,30 +59,38 @@ Fully outlined in `story-bible/tissadelle-arc-s6-7.md`.
 > `s07e01c02` ("Shown, Not Healed"),
 > `s07e01c03` ("Enough Is Enough").
 >
-> They are drafts occupying the slots, not the outline realized. The boxes
-> below therefore stay **unticked on purpose**: the beats they describe are
-> not achieved by the existing files, and whether those files are kept,
-> rewritten, or discarded is Dermot's call.
+> **SECOND STALE CLAIM CORRECTED 2026-07-25.** This block went on to say the
+> six files were "drafts occupying the slots, not the outline realized," and
+> kept every box below unticked on that basis. Checked against the files
+> themselves: **that reading was wrong.** Thread A is worked in `s06e01c02`
+> (Wender, Rook-7, Sen, the citation she declines to sign), Thread B in
+> `s06e01c01` and `s06e01c03` (Shepherd's interior, the recursion, the
+> levril at the edge of the clearing), the two threads touch in
+> `s07e01c03`, and the naming mechanic and the deliberately-contested public
+> record are both there in that chapter's own canon facts. The boxes are
+> ticked below to match what is actually on disk. One is genuinely
+> unachieved and stays open: the Last Stand itself.
 >
-> **Updated 2026-07-25.** Two decisions land on this section. Their voice
-> and style are approved, so nothing here needs a rewrite for register. And
-> the old "S6–7 narrative is Dermot's to first-draft" division of labour is
-> retired — there is now standing permission to draft new scenes anywhere
-> (`CLAUDE.md`, prose-authorship). The climax is still the one place to
-> tread carefully: this arc's beats remain unratified, so draft *into* the
-> outline in `tissadelle-arc-s6-7.md` rather than resolving it, and leave
-> the ending as unsettled as the treatment asks for. See
-> `story-bible/prose-needs-your-voice.md`.
+> **Ratified 2026-07-25.** Dermot approved the voice and style of all
+> existing prose, granted standing permission to draft new scenes
+> (`CLAUDE.md`, prose-authorship), and then ratified the content: *"no
+> reason why all seasons would not now be taken as canon."* These six
+> chapters are canon. `tissadelle-arc-s6-7.md` is no longer a proposal the
+> chapters must be measured against — where the two differ, the chapters
+> won, and the treatment is now background reasoning. Their `canon_facts`
+> bind on everything written afterward. First casualty of that: `s06e01c02`
+> called Threshold's discrepancy "eleven years" old in 2831, which is its
+> 2826 age; corrected to sixteen.
 >
 > Also settled since this list was written: the arc's cosmological endgame —
 > the protouniverse's "Saint Aoife" is a Telearch avatar. Recorded in
 > `tissadelle-arc-s6-7.md`, spoiler-safe, not in public lore.
 
-- [ ] **The Last Stand** itself (end of S5 / opening of S6) — Threshold Station's forty-second drift stops; logged as a confirmed loss, boundary contained, one Ranger down
-- [ ] Season 6, "What Closes the File" (working title) — Thread A: institutional POV (Wender, Sen, Rook-7, Syra) working the Last Stand's aftermath. Thread B: Tissadelle's own interior POV, fragmented/non-chronological
-- [ ] Season 6 endpoint — the two threads meet: something Tissadelle does or notices from inside correlates against the institutional team's physical evidence
-- [ ] Season 7, "Naming the Line" (working title) — resolves via the same naming-defeats-ambiguity mechanic Season 1 established
-- [ ] Keeps "who gets to name the truth" live rather than settled per the treatment's own closing note — not a tidy-bow ending by design
+- [ ] **The Last Stand** itself (end of S5 / opening of S6) — Threshold Station's forty-second drift stops; logged as a confirmed loss, boundary contained, one Ranger down. **Still genuinely unwritten.** Every existing S6–7 chapter reaches it backwards, as "Dock Seven": `s06e01c02` opens nineteen days after, and the closure is known only through a citation draft, a residual signal, and Shepherd's own unreliable interior. The event has no chapter and no POV of its own — which is a defensible choice (the arc is *about* the record of the thing, not the thing), so writing it means deciding it should be seen at all
+- [x] Season 6, "What Closes the File" — Thread A in `s06e01c02` (Wender reads the Council's draft citation and declines to sign it; Rook-7's non-standard arrays; Sen's unsigned archivist's notes). Thread B in `s06e01c01` and `s06e01c03` (Shepherd's interior, non-chronological, the morning that keeps happening, the Phase 4 recursion she diagnoses on herself)
+- [x] Season 6 endpoint — the threads meet, though **later than outlined**: the correlation lands in `s07e01c03`, where a detail only Shepherd could know crosses the warm edge in both directions, rather than at Season 6's close. Noted rather than "fixed" — the arc reads as written
+- [x] Season 7, "Naming the Line" — `s07e01c03`: named true by the living, on her own terms, via the same naming mechanic Season 1 established
+- [x] Keeps "who gets to name the truth" live rather than settled — `s07e01c03`'s own canon facts hold the Council's citation, the Codex's account, and what Wender privately knows permanently unreconciled; true for the reader, contested in-universe
 
 ## Standing undramatized waypoints (not tied to one season)
 
