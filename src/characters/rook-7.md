@@ -10,7 +10,7 @@ aliases:
 tags: [robot, police-department, threshold-station, boundary, season-1, major-character]
 description: "A robot with non-standard sensor arrays and an investigative/analytical classification, assigned to the Threshold Station survey."
 image: "rook-7.jpg"
-image_alt: "A female-presenting cyborg or robot"
+image_alt: "An aging scuffed grey service robot with several mismatched retrofit sensor modules bolted around its head unit, seated at a cluttered desk in a dim station office"
 ---
 
 It logs continuously. That is the first thing to know about Rook-7.
@@ -28,6 +28,8 @@ Police robots like Rook-7 carry no formal power of arrest. Their remit is techni
 It does not sit down unless there is a specific reason. This is not protocol. It is preference.
 
 Rook-7 fills the detective function: it notices what others explain away, names patterns before the rest of the team is ready to name them, and accumulates observations without demanding resolution before the data supports it.
+
+Nothing about the chassis explains this. Threshold Station's own management architecture holds vastly more state than Rook-7 ever will and has never once resolved a boundary discrepancy the way Rook-7 routinely does — the difference is a world model built by moving through a place rather than by reading its telemetry. See [Embodied Cognition](/star-rangers/lore/embodied-cognition/) for why the Concordant pairs the two classes of mind instead of choosing between them.
 
 Its current limitation is timing. It can identify the conditions for boundary events and predatory-entity feeding. It cannot yet predict when the feeding will escalate.
 

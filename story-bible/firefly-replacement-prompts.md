@@ -157,7 +157,7 @@ whole body; name the sheen, not the substance.*
 Suggested alt: *"A stone-skinned alien engineer in a tool harness examining
 a hull plate with a thermal probe"*
 
-### `characters/rook-7.jpg` — v2 prompt (v1 rejected 2026-07-24)
+### `characters/rook-7.jpg` — ✔ REPLACED 2026-07-24 (v2)
 *Currently: too sleek/premium. Character: an outdated, deliberately
 understated chassis with non-standard retrofit sensors.*
 
