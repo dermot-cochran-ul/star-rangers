@@ -8,7 +8,7 @@ location: "Survey Archive, Threshold Station — doctrinal working-paper series;
 tags: [cosmology, kieme, evil, suffering, cosmic-debt, cascade, upper-structure, archive-doctrine]
 description: "A Survey Archive doctrinal working paper arguing that the Cosmic Limitation on Evil — every entity that exists in service of evil dissolves once it no longer serves a higher purpose — is the one confirmed exception to the Cascade's no-moral-cosmology rule, and why generations of Archive theorists have never been comfortable with it."
 image: "cosmic-limitation-on-evil.jpg"
-image_alt: "A ghostly cloaked figure in water"
+image_alt: "Designed cover for The Cosmic Limitation on Evil: a ring dissolving round its own circumference on a dark navy background, with a CONTESTED stamp."
 ---
 
 **DOCTRINAL WORKING PAPER — REVISED FILING**
