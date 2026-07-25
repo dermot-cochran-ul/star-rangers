@@ -1,19 +1,29 @@
 # Pages needing your own prose
 
-> **Approved 2026-07-25 (Dermot's decision):** no longer an action queue.
-> After reading the narrative scenes — particularly the multi-POV scene
-> structure — Dermot approved *all* existing prose in the repository as it
-> stands, including everything listed below. Nothing here is waiting on a
-> rewrite or a voice pass. The list is kept as a **provenance record**: it
-> still answers "which pages has Dermot never personally written a word
-> of," which matters for attribution and for knowing where his own voice
-> is and isn't the base layer.
+> **Voice and style approved 2026-07-25 (Dermot's decision):** no longer a
+> voice-review queue. After reading the narrative scenes — particularly the
+> multi-POV scene structure, which he singled out for the mystery it
+> creates — Dermot approved the **voice and style** of all existing prose
+> in the repository, including everything listed below. Nothing here is
+> waiting on a tone pass or a rewrite for register.
 >
-> This approval is retrospective and covers the prose that existed on
-> 2026-07-25. It does **not** change the go-forward rule in `CLAUDE.md`:
-> Dermot writes the narrative first drafts, and unprompted narrative prose
-> is still not wanted. New scenes get drafted at his direction, not on an
-> AI tool's initiative.
+> Three things that approval is *not*:
+>
+> - **Not a canon ruling.** It settles how the prose reads, not whether a
+>   given page's events are fixed story. Anything whose *content* is still
+>   open — see the Season 6–7 chapters below — stays open.
+> - **Not a change to the go-forward rule** in `CLAUDE.md`. Dermot writes
+>   the narrative first drafts; unprompted narrative prose is still not
+>   wanted. New scenes get drafted at his direction, not on an AI tool's
+>   initiative.
+> - **Not the end of this list.** It is kept as a **provenance record**: it
+>   still answers "which pages has Dermot never personally written a word
+>   of," which matters for attribution and for knowing where his own voice
+>   is and isn't the base layer.
+>
+> What it *does* establish: the prose in this repository is the reference
+> for the house voice. Draft new work to match it rather than to some
+> other register.
 
 Planning note (not built into the site — lives in `story-bible/` like the
 other authorial notes). Built 2026-07-23 from git history: every content
@@ -27,7 +37,7 @@ This is the front-to-back list. A shorter, separate list —
 `prose-needs-review.md` — covers pages you *did* write, that AI has since
 edited and which may need a tone check.
 
-## Resolved: the Season 6–7 chapters
+## Partly resolved: the Season 6–7 chapters
 
 `src/seasons/s06/` and `src/seasons/s07/` contain drafted chapters
 (`s06e01c01/c02/c03.md`, `s07e01c01/c02/c03.md`, dated 2026-07-21) — entirely
@@ -36,9 +46,14 @@ last claimed "zero chapters exist anywhere in `src/seasons/`" for
 Season 6–7 (that checklist was corrected on 2026-07-24 and now lists all
 six files by name). This flag originally
 asked for a direct look, since Season 6–7 is the climax ("The Last Stand")
-and these chapters had appeared without one. **Resolved 2026-07-25:** they
-fall under the blanket approval above and stand as canon rather than
-scaffolding.
+and these chapters had appeared without one.
+
+**Status 2026-07-25:** the 2026-07-25 approval covers their voice and
+style, so they need no rewrite for register. It does not rule on whether
+their *events* are canon — for the climax of the arc, that is a separate
+call, and it is still open. Read against
+`story-bible/tissadelle-arc-s6-7.md` before treating any beat in them as
+fixed.
 
 ## Season chapters (actual narrative prose — highest priority)
 
