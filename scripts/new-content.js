@@ -83,6 +83,18 @@ async function scaffoldSimple(rl, typeKey) {
     fields.push(["id", toYamlString(id)]);
   }
 
+  // Anything else the schema marks required (currently a codex entry's
+  // `author`) - prompted the same way, so adding a required field to the
+  // registry can't produce a scaffold that fails validation on creation.
+  const alreadyPrompted = new Set(["title", ...(typeKey === "character" ? ["id"] : [])]);
+  for (const field of type.required) {
+    if (alreadyPrompted.has(field)) continue;
+    const label = field === "author"
+      ? "author (the in-universe source this document is attributed to - a codex entry is that source's account, not settled fact)"
+      : field;
+    fields.push([field, toYamlString(await promptRequired(rl, label))]);
+  }
+
   if (typeKey === "journal") {
     // Real-world publish date, same convention as a chapter's own `date` -
     // today is exactly right for an entry being scaffolded right now, and
