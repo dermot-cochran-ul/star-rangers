@@ -54,13 +54,20 @@ Treat an alt-text mismatch as a defect, not a documentation lapse.
 
 ### The Prismere / Prismeri cluster (11 files)
 
-All eleven are 768x1152, almost certainly Grok output at its default size. The
-original prompts were never recorded. **Content is correct — the immediate fix
-is a Super Resolution upscale, not regeneration.** The prompts below are
-reconstructions from each image's alt text and the lore entries
-(`src/lore/planets/prismere.md`, `src/lore/prismeri.md`), written so the series
-*could* be regenerated at full size if the upscale disappoints, or if the
-repeated jellyfish/crystal-spire motif is ever addressed.
+All eleven are 768x1152, almost certainly Grok output at its default size — 2:3
+is not a ratio Firefly offers as a preset, which is the strongest evidence they
+came from a different tool. The original prompts were never recorded.
+
+**Superseded 26 Jul 2026: these are being regenerated, not upscaled.** Dermot's
+decision — the low-quality originals won't be reused. Working prompts for the
+replacements are in [`firefly-prompts.md`](firefly-prompts.md), written to
+diverge per location rather than preserve the existing look, since the repeated
+motif was the second complaint against the set after resolution.
+
+The reconstructions below are kept as the record of what the *original* eleven
+depicted, rebuilt from each image's alt text and the lore entries
+(`src/lore/planets/prismere.md`, `src/lore/prismeri.md`). They remain the
+fallback if a regeneration ever needs to stay compatible with the old look.
 
 Shared style preamble for all eleven — the series reads as one world because
 these terms were constant:
@@ -225,11 +232,16 @@ Recipes recorded so a future re-edit starts from a known state.
   coastal world. Currently a plain text card while sibling Saltmere entries
   carry two photographs each.
 
-### Character portraits pending Super Resolution
+### Character portraits — regenerating, not upscaling
 `tissadelle-shepherd` (768x1022, do first), `agent-barsik`, `bubochka`,
 `bubochka-alert` (512x1024), `aldera/field-photo-03`, `field-photo-04`
-(512x1120). Content correct, upscale only. Same batch as the Prismere cluster.
-Record the upscaler and settings here once run.
+(512x1120). Prompts in [`firefly-prompts.md`](firefly-prompts.md).
+
+Two cautions carried over there: `tissadelle-shepherd` must not come back as a
+glamour headshot — the 26 Jul attempt did, and the audit rules that register out.
+And the two Aldera frames sit in a gallery beside `field-photo-01`/`-02`, which
+read as real photographs of a real kitten; re-cropping Dermot's own originals
+beats generating replacements that won't match.
 
 ---
 
