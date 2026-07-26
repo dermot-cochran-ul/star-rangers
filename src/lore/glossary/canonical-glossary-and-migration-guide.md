@@ -2,7 +2,7 @@
 layout: lore-entry.njk
 title: "Canonical Glossary and Terminology Migration Guide"
 category: "Reference"
-tags: [glossary, terminology, migration, canon, hierarchy, concordants, worldwrights, telearchs, protouniverse]
+tags: [glossary, terminology, migration, canon, hierarchy, concordants, worldwrights, telearchs, protouniverse, dimensions, compact-dimensions, interval, common-manifold]
 description: "Central canonical glossary for Star Rangers terminology, including migration mappings and plural Universal Authority/collective ascension additions."
 image: "canonical-glossary-and-migration-guide.jpg"
 image_alt: "An open old book"
@@ -151,6 +151,42 @@ Ranked below Celestials, like Levrils, but holding **no Cascade standing** — s
 - **Layer:** Class II — Sapient Monster
 - **Definition:** Sapient meta-dimensional predators that feed on unresolved grief and mourning, prolonging loss rather than allowing it to resolve.
 - **Classification Rule:** Not a Levril. Functionally parallel to Gilded Saints' closure-prevention, but keyed to grief rather than virtue.
+
+---
+
+## Canonical Terms: Dimensional Structure
+
+The word **Etheric** was carrying three jobs at once — a causal layer, a set of spatial dimensions, and the separation between membranes. It keeps the first. The other two are named below. This split follows the same pattern as the Concordant zone-versus-mind resolution: where one term names both a place and a non-place, the place gets the new name.
+
+### Etheric
+- **Layer:** Ontological (Layer 3 of the Five Layers)
+- **Definition:** The rule-template causal mode governing what physical and material expressions can remain coherent. Archetypal templates constrain physical and material admissibility.
+- **Notes:** A causal mode, **not** a location, dimension, region, or plane. Nothing is inside the Etheric. Idiomatic Survey Corps usage — roots reaching "into the Etheric layer," a structure "in the lower Etheric" — is correct in its own register and means *into a mode of constraint*; it is not a geometric claim and does not license treating the Etheric as a storey of space.
+- **Do not use for:** the compact dimensions; the Interval; membranes.
+
+### Compact Dimensions
+- **Layer:** Universe Structure (Local Dimensional Floor)
+- **Definition:** The spatial dimensions of a universe too tightly wound to be traversed or observed at Material scale. The home universe has seven, giving a floor of eleven: three extended, seven compact, one timelike.
+- **Notes:** Ordinary space, not a layer or realm — nothing lives in them and nothing is sent through them. Etheric rule-templates have geometric extent through a Concordant's compact dimensions, which is *where a Layer 3 effect becomes measurable*, not what Layer 3 is made of. The count is a local fact: another Worldwright can author a different split, which changes that universe's admissible particle and force spectrum.
+- **Related Terms:** Etheric, the Common Manifold, Grand Ensemble Multiverse
+
+### The Interval
+- **Layer:** Universe Structure (Inter-Membrane)
+- **Definition:** The separation between two adjacent cosmic membranes, measured across the Common Manifold rather than through either universe's own space.
+- **Notes:** A distance term, not a medium or a place — nothing is native to it, nothing travels through it under its own power, no vessel has been in one. Its one operationally significant property is that it varies: a boundary zone *is* a narrowed Interval, and Membrane Resonance, Intermembrane Bleed, Membrane Shadows and transient gravity tunnels are all consequences of that narrowing. What crosses is field structure, never matter — the sole exception being a transient gravity tunnel.
+- **Related Terms:** Cosmic membrane, Intermembrane Bleed, Membrane Shadow, Boundary Zone
+
+### The Common Manifold (post-11 manifold)
+- **Layer:** Cross-Universe Structure
+- **Definition:** The higher-order spacelike and timelike structure beyond any universe's own dimensional floor, governing cross-Concordant coherence, causality buffering, and fold survivability. Every universe in the Grand Ensemble is seated in it.
+- **Notes:** **Both names are canonical.** "Post-11 manifold" is the Survey Corps working shorthand and stays correct in Corps usage and in-world voice; "Common Manifold" is the formal name. The shorthand is knowingly parochial — eleven is the *home* universe's floor, and analysts elsewhere would count from their own number and mean the same structure. Its bands (Dimensions 12–15 extended spacelike, 16–19 extended timelike, 20+ trans-concordant constraint field) are likewise numbered from the local floor.
+- **Scope rule:** A Concordant's **compact dimensions** carry its templates *at home*, inside its own membrane. The **trans-concordant constraint field** carries templates *across the Interval* to a neighbour. Same layer, two scopes; do not treat either as the geometric home of Etheric effects generally.
+- **Related Terms:** Compact Dimensions, the Interval, cosmic membrane
+
+### Cosmic Membrane
+- **Layer:** Universe Structure
+- **Definition:** The bounded coherence zone a single Concordant occupies within the Common Manifold, with a fixed physics-plus-Etheric rule set set by Worldwright design. **Membrane** for short.
+- **Notes:** "Brane" in older Survey Corps literature is the same term, retired for being misheard as "brain" over a comm channel. Two similar membranes are convergent design or coincidence, never branches of one timeline.
 
 ---
 
@@ -334,6 +370,11 @@ Ranked below Celestials, like Levrils, but holding **no Cascade standing** — s
 | “Beautiful monster” (unqualified) | Beautiful Monster (named Class II type) *or* the collective nickname for Court-Fae/Gilded Saints/Cute Predators (see Predatory Entities) | Ambiguous on its own; qualify with specific-type or collective-nickname context on first use. |
 | “Single-seed-only ascension model” | Includes plural ascension pathways | Add Plural Convergence / Synarch thresholds where applicable. |
 | “Unified singular governance mind only” | Plural Universal Authority / Synarch Mind options | Permit distributed cognition with Consensus Field decisioning. |
+| “Etheric dimensions” / “invisible Etheric space” | Compact dimensions | The seven-dimension sense of *Etheric* is retired. Reserve *Etheric* for the Layer 3 causal mode; name the dimensions themselves compact. |
+| “Etheric” (spatial/region sense — a place reached into or contained in) | Compact dimensions *or* the Interval, per context | Decide which is meant: geometric extent inside one membrane → compact dimensions; separation between membranes → the Interval. Idiomatic “into the Etheric layer” is **not** migrated — it means *into a mode of constraint* and stays. |
+| “manifold distance” / “membrane separation” / “the membrane gap” | the Interval | Name the separation rather than describing it. A boundary zone is a narrowed Interval. |
+| “Post-11 Dimensional Manifold” (as the formal name) | the Common Manifold | Not a deprecation: *post-11 manifold* remains canonical Survey Corps shorthand and correct in-world voice. Use *Common Manifold* where the formal name is wanted, and where the home universe's floor of eleven should not be assumed. |
+| “brane” | cosmic membrane (membrane) | Already migrated in-world; retained only as older Survey Corps literature quoted in character. |
 
 ---
 
@@ -355,3 +396,7 @@ Ranked below Celestials, like Levrils, but holding **no Cascade standing** — s
 - [Noögenic Seeding System](/star-rangers/lore/noogenic-seeding-system/)
 - [Universe Overlap and Folding](/star-rangers/lore/universe-overlap-and-folding/)
 - [Noögenic Protouniverse](/star-rangers/glossary/noogenic-protouniverse/)
+- [The Five Layers of Reality](/star-rangers/lore/five-layers/)
+- [The Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/)
+- [Concordant Membranes and Intermembrane Bleed](/star-rangers/lore/concordant-membranes/)
+- [The Grand Ensemble Multiverse](/star-rangers/lore/ensemble-multiverse/)

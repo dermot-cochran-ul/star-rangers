@@ -7,13 +7,13 @@ short: "The Survey Corps term for measurable Etheric-layer intrusion between adj
 related:
   - "Etheric"
   - "Boundary Zone"
-  - "Post-11 Dimensional Manifold"
+  - "The Common Manifold"
   - "Concordant"
   - "Membrane Shadow"
 tags: [intermembrane-bleed, membrane-resonance, etheric, post-11-manifold, boundary-zone]
 ---
 
-**Intermembrane Bleed** is the Survey Corps' technical term for what boundary-zone workers used to just call "Etheric effects" — the measurable intrusion of one [Concordant](/star-rangers/glossary/concordant/)'s archetypal templates into an adjacent one, carried through the trans-concordant constraint field described in the [Post-11 Dimensional Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/).
+**Intermembrane Bleed** is the Survey Corps' technical term for what boundary-zone workers used to just call "Etheric effects" — the measurable intrusion of one [Concordant](/star-rangers/glossary/concordant/)'s archetypal templates into an adjacent one, carried through the trans-concordant constraint field described in the [The Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/).
 
 Each Concordant sits on its own bounded cosmic membrane within that manifold. At most separations, adjacent membranes stay far enough apart that Etheric templates on one side have no measurable effect on the other. At a [boundary zone](/star-rangers/glossary/boundary-zone/), that separation narrows enough for the two membranes' template fields to interact.
 
@@ -26,4 +26,4 @@ The renaming is not cosmetic. "Etheric effects" described a symptom. "Intermembr
 
 The term specifically names the Etheric-channel signature. The same membrane-proximity event has a Physical-channel counterpart too — see [Membrane Shadow](/star-rangers/glossary/membrane-shadow/) for what it looks like when that channel carries a coherent mass rather than diffuse strain.
 
-See also: [Etheric](/star-rangers/glossary/etheric/), [Boundary Zones and Concordant Edges](/star-rangers/lore/boundary-zones/), [Post-11 Dimensional Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/), [Membrane Shadow](/star-rangers/glossary/membrane-shadow/).
+See also: [Etheric](/star-rangers/glossary/etheric/), [Boundary Zones and Concordant Edges](/star-rangers/lore/boundary-zones/), [The Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/), [Membrane Shadow](/star-rangers/glossary/membrane-shadow/).
