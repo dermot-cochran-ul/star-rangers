@@ -222,7 +222,54 @@ Five pairs where the wrong choice is silent — the build passes and the damage 
 | **Valid-for-its-author** | The Codex's standard, and a different promise: an entry is *not* canon, it is a named source's account. It may contradict lore, a chapter, or another entry. What it may not be is arbitrary — the test is "could this person have known this, and would they have written it this way?", not "is this true?". `author` is required for exactly this reason: no source, no viewpoint to be valid from. |
 | **Lore/codex boundary** | Lore and the Glossary stay internally consistent; anything contested, paradoxical, or devotional moves *into* the Codex under somebody's name. When two lore pages disagree, relocate the contested reading — don't pick a winner inside lore. |
 | **Overlay** | The third status, and the one that had no name until 2026-07-25. An overlay reads the *same* reality the main record shows — same events, same cosmology, same people — through a declared lens, and is optional: opted into per domain, never load-bearing for the story it comments on. `church-space` is the only one. It is **not canon** (nothing in it binds the published seasons, and they never depend on it) and **not Codex** (a codex entry is one named source's account filed *inside* the record; an overlay is a layer laid *across* it). Note the near-collision: **overlay** is craft vocabulary, the in-universe **Overfold** is something else entirely. |
+| **Chartered** | The fourth status (settled 2026-07-26), for approved derivative work by another hand — above a fan work, below canon. One rule governs it: **canon binds it; it does not bind canon.** It must be consistent with canon as it stood at approval; later canon may contradict it freely, and when that happens the chartered work is *superseded*, not retconned or withdrawn. The main story may never depend on it, and it carries **no `canon_facts`** — same reason the Codex doesn't: it establishes nothing. Distinct from the other three by *who wrote it and where they stand*: Codex is in-universe authorship (a named source inside the world), Overlay is a lens across the same events, Chartered is **new events by another hand, out-of-universe, endorsed**. None exist yet. |
 | **House voice** | The prose register of the existing corpus, approved 2026-07-25 as the reference for new work. Approval covered voice and style; the separate ratification covered content. |
+
+### Chartered works: register, not host (settled 2026-07-26)
+
+**The repo lists chartered works; it does not carry them.** A chartered work stays
+wherever its author publishes, and this repository holds only a register entry
+pointing at it.
+
+The reason is rights, not tidiness. `CONTENT-LICENSE.md` scopes CC BY-NC-ND 4.0
+over `src/seasons/`, `src/characters/`, `src/lore/` and the rest as *Dermot's*
+content, against an MIT engine — a split `FORKING.md` and the README are careful
+to keep legible. A third party's work has a different rights holder, and filing
+it under `src/` would put content in the CC BY-NC-ND scope that Dermot cannot
+license on those terms. A register avoids the problem entirely and is cheap to
+reverse if hosting ever becomes worth it.
+
+The register becomes a **published** page when a first chartered work exists —
+readers are the people who need to know what's official. It is deliberately not
+created empty; there is nothing to list yet.
+
+Three axes stay separate, and conflating them is the trap this section exists to
+prevent:
+
+| Axis | Question | Where it is decided |
+|---|---|---|
+| **Licence** | May it exist at all? | `CONTENT-LICENSE.md`. Fan works have a *standing blanket* exception; a chartered work needs an **individual grant**, and a commercial one needs a real licence — the standing exception is non-commercial only. |
+| **Canon force** | Does it bind future writing? | The canon-status table above. For chartered works: no, one-directionally. |
+| **Visibility** | Does the official site point at it? | The referencing rule below. Independent of the other two — a fan work can be linked without becoming chartered, and a chartered work needn't be linked. |
+
+### Referencing fan images and music (settled 2026-07-26)
+
+Fan-made images and music **may be linked from the site where appropriate**, under
+a standing formula: **referenced, not endorsed.**
+
+The wording matters because of a real collision. The Fan Works Policy requires a
+fan work be *"clearly labeled as unofficial … and not implying endorsement by
+Dermot R. Cochran"* — and an official-site link is, on its face, a mild
+endorsement. The neutral formula resolves this without touching the licence: a
+link is a pointer, not approval, and the fan work's own unofficial labelling
+still stands.
+
+The alternative considered and **not** taken was "featured with permission,"
+which is genuine endorsement and would have required a carve-out in the Fan Works
+Policy. Available later if Dermot wants to champion specific pieces; it is a
+licence change, not a wording preference.
+
+Referencing a fan work does **not** make it chartered. The axes are independent.
 
 ### Terminology: craft (settled 2026-07-25)
 
