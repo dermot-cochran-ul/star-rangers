@@ -52,7 +52,7 @@ Avalon Hope authorship at all.
 `entropy-horizon`, `etheric`, `ftl-mechanics` (last touched by the Copilot
 bot, not Claude — oldest of this batch), `gilded-saints`, `high-celestials`,
 `inner-world-depth-iwd`, `kieme`, `naiad`, `noogenic-seed-potential-nsp`,
-`noogenic-seeding-law`, `nooseed`, `predictive-closure`, `telerarch`,
+`noogenic-seeding-law`, `nooseed`, `predictive-closure`, `telearch`,
 `universe-fertility-index-ufi`, `worldwright`.
 
 ## Timeline (8 files)

@@ -36,7 +36,7 @@ One thing a Universal Authority is not: supra-universal. Its writ ends at its ow
 
 ### Telearchs
 
-A [Telearch](/star-rangers/glossary/telerarch/) is neither of the above, and the difference is one of kind, not degree. Telearchs are not native to any universe. They are a tier of the Cascade itself — supervisory agents responsible for continuity *across* zones and *across* universes, allocating enforcement scope and continuity budgets, and delegating enforcement action downward to [Celestials](/star-rangers/glossary/celestials/). A Telearch supervises from outside the thing it supervises. It does not bypass Concordant law, does not displace a Universal Authority, and does not govern anything in the resident sense; it makes sure that what the residents govern stays reconciled with everything adjacent.
+A [Telearch](/star-rangers/glossary/telearch/) is neither of the above, and the difference is one of kind, not degree. Telearchs are not native to any universe. They are a tier of the Cascade itself — supervisory agents responsible for continuity *across* zones and *across* universes, allocating enforcement scope and continuity budgets, and delegating enforcement action downward to [Celestials](/star-rangers/glossary/celestials/). A Telearch supervises from outside the thing it supervises. It does not bypass Concordant law, does not displace a Universal Authority, and does not govern anything in the resident sense; it makes sure that what the residents govern stays reconciled with everything adjacent.
 
 The protouniverse case shows the seam clearly. A [Noögenic Protouniverse](/star-rangers/glossary/noogenic-protouniverse/) has no Universal Authority yet — that is what makes it *proto* — so continuity oversight defaults upward to the parent universe's Telearchs until the young universe stabilizes an Authority of its own. Jurisdiction fills the vacancy from outside; it does not become the office.
 
@@ -56,6 +56,6 @@ Local, universal, cross — in that order, with no office able to do another's j
 
 - [The Cosmic Cascade](/star-rangers/lore/cosmic-cascade/) — the full hierarchy
 - [Canonical Glossary and Terminology Migration Guide](/star-rangers/lore/glossary/canonical-glossary-and-migration-guide/) — the terminology law and legacy mappings
-- [Concordant](/star-rangers/glossary/concordant/), [Universal Authority](/star-rangers/glossary/universal-authority/), [Concordant Principal](/star-rangers/glossary/concordant-principal/), [Telearch](/star-rangers/glossary/telerarch/), [Dynarch](/star-rangers/glossary/dynarch/), [Worldwright](/star-rangers/glossary/worldwright/)
+- [Concordant](/star-rangers/glossary/concordant/), [Universal Authority](/star-rangers/glossary/universal-authority/), [Concordant Principal](/star-rangers/glossary/concordant-principal/), [Telearch](/star-rangers/glossary/telearch/), [Dynarch](/star-rangers/glossary/dynarch/), [Worldwright](/star-rangers/glossary/worldwright/)
 - [Universe Overlap and Folding](/star-rangers/lore/universe-overlap-and-folding/) — how secondary universes arise
 - [Noögenic Seeding System](/star-rangers/lore/noogenic-seeding-system/) — how new universes are seeded, and why their governance starts vacant

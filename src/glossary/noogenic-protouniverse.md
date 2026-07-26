@@ -20,7 +20,7 @@ It is not yet a fully governed universe. A protouniverse has not stabilized enou
 
 ## Jurisdiction
 
-A Noögenic Protouniverse remains under the jurisdiction of the [Telearchs](/star-rangers/glossary/telerarch/) — and the higher Cascade strata reachable through them — of its parent universe. This is a continuation of existing authority, not a new grant: the parent universe's Telearchs already hold cross-Concordant continuity governance, and a protouniverse is treated as an unstabilized extension of that scope rather than a sovereign jurisdiction of its own.
+A Noögenic Protouniverse remains under the jurisdiction of the [Telearchs](/star-rangers/glossary/telearch/) — and the higher Cascade strata reachable through them — of its parent universe. This is a continuation of existing authority, not a new grant: the parent universe's Telearchs already hold cross-Concordant continuity governance, and a protouniverse is treated as an unstabilized extension of that scope rather than a sovereign jurisdiction of its own.
 
 **Constraints:**
 - A protouniverse does not receive a new Worldwright; per [Worldwright](/star-rangers/glossary/worldwright/) canon, only primary universes carry that authority.

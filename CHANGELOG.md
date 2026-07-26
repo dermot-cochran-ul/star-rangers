@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Fixed
+
+- **Telearch glossary URL misspelling** — the entry's title has always read "Telearch", but its filename and `id` were `telerarch` (transposed letters), so the page shipped at `/glossary/telerarch/`. Nothing was broken — all 12 inbound links used the misspelling consistently, and `related:` terms resolve by *title* rather than slug, so they were unaffected — but the typo was visible to any reader looking at the address bar. Renamed to `src/glossary/telearch.md` with `id: telearch`, and swept every reference in `src/` and `story-bible/`. **This changes the page's URL**, which for a non-chapter page also changes its giscus discussion mapping (comments map by pathname). Any existing thread on the old path becomes orphaned rather than deleted — it stays in the comments repo, just unlinked. The Discussions API isn't reachable from the tooling used here, so whether such a thread exists was not verified; a glossary entry for a Cascade tier is an unlikely place to have drawn comments, and the misspelling was judged worth correcting against that risk. Contrast the Journal URLs, which were deliberately *not* re-parented for exactly this reason — there the threads were known to exist.
+
 ## [1.6.0] - 2026-07-26
 
 First release cut deliberately, rather than reconstructed after the fact. Versions 1.0.0–1.5.0 were written retroactively in one sitting on 2026-07-09; `package.json` went straight from 1.0.0 to 1.5.0 in a single commit, so 1.1.0–1.4.0 never existed as states of the repository. See the note under 1.5.0.

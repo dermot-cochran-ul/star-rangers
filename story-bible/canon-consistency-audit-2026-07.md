@@ -76,7 +76,7 @@ give Telearchs ongoing, sequential activity:
   (l.103); "used by Telearchs for universe **diagnostics**" (l.148).
 - `src/lore/cosmic-cascade.md` (Telearch effects): "**Delayed** but consistent
   correction of illegal cross-boundary manipulations."
-- `src/glossary/telerarch.md`: Telearchs "**coordinate responses**."
+- `src/glossary/telearch.md`: Telearchs "**coordinate responses**."
 
 These predate the timeless doctrine. Options: (a) add one clarifying sentence to
 the "Creation, Not Command" section — e.g. a timeless stratum's "activity"
