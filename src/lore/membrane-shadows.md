@@ -10,7 +10,7 @@ A figure can stand between a boundary-zone observer and the light, throw a full,
 
 ## The Phenomenon
 
-A Membrane Shadow is the locally observable gravitational imprint cast by a coherent mass on the far side of a narrowed [Interval](/star-rangers/glossary/interval/). It is not a creature, not a visitor, and not something that has crossed the boundary at all. The mass responsible for it — most often a living being, moving under its own will — can remain entirely within its own [Concordant](/star-rangers/glossary/concordant/), on its own membrane, for the imprint's whole duration. What reaches this side of the gap is not the being. It is the being's gravity.
+A Membrane Shadow is the locally observable gravitational imprint cast by a coherent mass on the far side of a narrowed [Interval](/star-rangers/glossary/interval/) — which is to say, in a *neighbouring universe*. Membranes are universes, so this effect has no intra-universe form: two Concordant Zones of the same universe share an ordinary internal edge with no Interval across it, and cast no shadows into each other. It is not a creature, not a visitor, and not something that has crossed the boundary at all. The mass responsible for it — most often a living being, moving under its own will — can remain entirely within its own universe, on its own membrane, for the imprint's whole duration. What reaches this side of the gap is not the being. It is the being's gravity.
 
 ## Mechanism: The Physical Channel of Intermembrane Bleed
 

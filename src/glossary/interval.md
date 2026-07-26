@@ -12,7 +12,9 @@ related:
 tags: [interval, common-manifold, concordant-membranes, boundary-zone, cosmology]
 ---
 
-The **Interval** is the separation between one [cosmic membrane](/star-rangers/lore/concordant-membranes/) and the next — manifold separation, measured across [the Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/) rather than through any universe's own space. Two Concordants can be adjacent across a narrow Interval while being unreachably far apart by every ordinary measure of distance either one has.
+The **Interval** is the separation between one [cosmic membrane](/star-rangers/lore/concordant-membranes/) and the next — that is, between two **primary universes** — measured across [the Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/) rather than through either universe's own space. Two universes can be adjacent across a narrow Interval while being unreachably far apart by every ordinary measure of distance either one has.
+
+**The Interval exists only between membranes.** A [Concordant Zone](/star-rangers/glossary/concordant/) is a region *inside* a universe, so two adjacent zones are separated by an ordinary internal edge and no Interval at all. Everything below is therefore inter-universe by definition.
 
 **It is not a place.** Nothing is native to the Interval, nothing lives in it, and nothing travels through it under its own power. No vessel has been in one. It is a distance term, not a medium — closer in kind to a gap between two pages than to the space between two stars.
 

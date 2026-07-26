@@ -13,6 +13,8 @@ tags: [boundary, concordant, cosmology]
 
 A **boundary zone** is the region where two adjacent [Concordants](/star-rangers/glossary/concordant/) meet. Each Concordant maintains slightly different physical and Etheric conditions; their shared edge is where those differences become measurable.
 
+The term covers two mechanisms that are easily confused. An **intra-universe** boundary zone is an internal edge between two Concordant Zones of the same universe: instrument drift, timebase mismatch, lawful disagreement. An **inter-membrane** boundary zone is a narrowing of the [Interval](/star-rangers/glossary/interval/) between two whole universes, and is the only kind that can produce [Intermembrane Bleed](/star-rangers/glossary/intermembrane-bleed/) or a [Membrane Shadow](/star-rangers/glossary/membrane-shadow/).
+
 The practical result: instruments placed on either side of a boundary disagree. Time, distance, and local physical constants may differ across the zone. The instruments are not broken — they are each accurately measuring their immediate environment. The environment itself is inconsistent.
 
 Boundary zones are not acutely hazardous to life, but extended exposure has documented effects: fine instrument calibration degrades, Etheric-based practices such as ritual work become unreliable, and high-activity events can affect direct sensory perception.

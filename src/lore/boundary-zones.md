@@ -12,6 +12,8 @@ At a boundary station, two clocks can disagree by seconds and both still be tell
 
 A boundary zone is the region where two adjacent [Concordants](/star-rangers/glossary/concordant/) meet. [Concordance](/star-rangers/glossary/concordant/) is the plural form of [Concordant](/star-rangers/glossary/concordant/). At the edge, each [Concordant](/star-rangers/glossary/concordant/) remains locally valid while global agreement begins to fray.
 
+**Two different edges wear this name, and they are not the same phenomenon.** An *intra-universe* boundary zone is the ordinary case documented on this page: two Concordant Zones inside one universe, separated by an internal edge, producing instrument drift and lawful disagreement. An *inter-membrane* boundary zone is where the [Interval](/star-rangers/glossary/interval/) between two whole universes narrows — a different mechanism entirely, graded by the Boundary-State Classes and capable of [Intermembrane Bleed](/star-rangers/glossary/intermembrane-bleed/), [Membrane Shadows](/star-rangers/lore/membrane-shadows/) and transient gravity tunnels, none of which an internal zone edge can produce. Threshold Station sits on the second kind. See [Concordant Membranes](/star-rangers/lore/concordant-membranes/).
+
 ## Definition
 
 Boundary zones are transition domains with coupled but non-identical physics+Etheric constraints.
