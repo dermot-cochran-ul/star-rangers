@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Added
+
+- **`scripts/check-related-terms.js`** — a local authoring check (like `check-internal-links.js`; not wired into `npm test` or CI, exits non-zero so it can be) that verifies every front-matter `related:` term matches a real page title. This covers a gap all three existing checks structurally miss: `glossaryUrl` in `.eleventy.js` resolves a related term against page *titles* and falls back to `/glossary/` on a miss rather than erroring, so a stale term still renders a perfectly valid link to the wrong place — schema validation passes (related terms are free text), the Eleventy build passes, and the link checker passes (the emitted URL is real). Retitling a single lore or glossary page silently degrades every `related:` list naming it, which is exactly what the Common Manifold rename could have done. Matching is exact — case, punctuation and leading articles included — so misses print near-miss suggestions. Also warns, without failing, on duplicated page titles where only the first is reachable; it currently reports two long-standing glossary/lore title pairs (`FTL Mechanics`, `Allocation Units of Cognition (AUC)`), left as they are since the glossary entry winning is the sensible resolution.
+
 ### Fixed
 
 - **`npm test` restored on `main`** — `scripts/validate-content.js` declared `privateThreadForPage` twice after the private-thread-boundary merge, so schema validation crashed before checking a single file. Collapsed to one import.
