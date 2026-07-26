@@ -45,6 +45,8 @@ See:
 
 ## Governance: Role of Archons (Static Synod)
 
+**Archon** is Threnos-Ω's own word for a Harmonarch, and its **Council of Archons** is that universe's [Council of Harmonarchs](/star-rangers/glossary/universal-authority/) — the deliberative body of its [Universal Authority](/star-rangers/glossary/universal-authority/), under a local name. The vocabulary is native to Threnos-Ω rather than a legacy Solar System term: nothing requires separately-authored universes to have arrived at the same words for the same offices, and this one did not. Read *Archon* as *Harmonarch* wherever Threnos-Ω records use it, and do not carry the word outward — elsewhere in the corpus it belongs to nothing in the Cascade at all.
+
 In Threnos-Ω, the Council of Archons persists as a **Static Synod**:
 - policy variance is minimal,
 - intervention doctrine is conservation-first,

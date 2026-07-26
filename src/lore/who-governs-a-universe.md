@@ -28,7 +28,17 @@ A **Concordant Principal** — commonly, a **Harmonarch** — is the governing m
 
 ### Universal Authorities
 
-A **Universal Authority** is the native governance intelligence of a universe as a whole. Authorities maintain universe-level balance — [CEI](/star-rangers/glossary/creative-entropy-index-cei/) regulation, entropy behavior, continuity constraints, the systemic health of the whole vessel — and the Concordant Principals within a universe answer to its Authority. An Authority may be a single mind or a plural one; the plural forms (Synarch Minds, Consensus Fields) are documented in the [Canonical Glossary](/star-rangers/lore/glossary/canonical-glossary-and-migration-guide/).
+A **Universal Authority** is the native governance intelligence of a universe as a whole. Authorities maintain universe-level balance — [CEI](/star-rangers/glossary/creative-entropy-index-cei/) regulation, entropy behavior, continuity constraints, the systemic health of the whole vessel.
+
+Here the second distinction nearly collapses back into the first, and it is worth slowing down. **A Universal Authority is not a fourth being standing above the Principals. It is the Principals, in council, plus one presiding seat.**
+
+- **The Council of Harmonarchs** — every Concordant Principal in the universe, sitting together.
+- **The founder** in that presiding seat, where the universe has one: its originating **seed mind**, in a universe raised by [noögenic seeding](/star-rangers/lore/noogenic-seeding-system/).
+- **A lead Harmonarch** in that seat instead, drawn from the Council, where the universe has no founder.
+
+That composition answers the question the previous paragraph raises. If the Principals answer to the Authority, and the Authority *is* the Principals, what exactly is being obeyed? A council — which is an ordinary enough thing to obey. The Council's remit is universe-wide where any single Harmonarch's ends at a zone boundary, and a Harmonarch outvoted in council is bound by the decision inside its own zone regardless. The body holds powers no member holds alone. That is the whole point of constituting one.
+
+It also disposes of an apparent oddity in the record: Authorities described sometimes as single minds and sometimes as plural ones, with Synarch Minds and Consensus Fields documented in the [Canonical Glossary](/star-rangers/lore/glossary/canonical-glossary-and-migration-guide/). Both descriptions are of the same institution. A Consensus Field is how the Council decides; a founder is who presides while it does. A plural formation descended from a seed mind takes the presiding seat as one member, not as a second council.
 
 One thing a Universal Authority is not: supra-universal. Its writ ends at its own universe's edge as surely as a Principal's ends at a zone boundary.
 
@@ -38,7 +48,7 @@ One thing a Universal Authority is not: supra-universal. Its writ ends at its ow
 
 A [Telearch](/star-rangers/glossary/telearch/) is neither of the above, and the difference is one of kind, not degree. Telearchs are not native to any universe. They are a tier of the Cascade itself — supervisory agents responsible for continuity *across* zones and *across* universes, allocating enforcement scope and continuity budgets, and delegating enforcement action downward to [Celestials](/star-rangers/glossary/celestials/). A Telearch supervises from outside the thing it supervises. It does not bypass Concordant law, does not displace a Universal Authority, and does not govern anything in the resident sense; it makes sure that what the residents govern stays reconciled with everything adjacent.
 
-The protouniverse case shows the seam clearly. A [Noögenic Protouniverse](/star-rangers/glossary/noogenic-protouniverse/) has no Universal Authority yet — that is what makes it *proto* — so continuity oversight defaults upward to the parent universe's Telearchs until the young universe stabilizes an Authority of its own. Jurisdiction fills the vacancy from outside; it does not become the office.
+The protouniverse case shows the seam clearly, and the composition above explains why it is a seam at all. A [Noögenic Protouniverse](/star-rangers/glossary/noogenic-protouniverse/) has no Universal Authority yet — that is what makes it *proto* — because it has no Concordants stabilized, and therefore no Harmonarchs to seat. Its founder has arrived; its Council has not. **A founder without a Council is not an Authority**, which is exactly why a seeded universe does not simply inherit governance on the day its seed mind lands. Continuity oversight defaults upward to the parent universe's Telearchs until the zones settle and the Council forms around the seat already waiting. Jurisdiction fills the vacancy from outside; it does not become the office.
 
 ### A Note on the Dynarchs
 
@@ -50,7 +60,9 @@ The Archive teaches it in one line, and the line survives because it is true:
 
 > *The Principal keeps a zone's rules running. The Authority keeps a universe in balance. The Telearch keeps the neighbours reconciled.*
 
-Local, universal, cross — in that order, with no office able to do another's job. Asteria's sigh was fair: the Cascade is a long ladder. But the two distinctions above are where to begin, because they are where everyone else went wrong first.
+Local, universal, cross — in that order, with no office able to do another's job. Note that the first two are not different beings: they are the same Harmonarchs, seated differently. Only the Telearch is from somewhere else, which is why it is the one that has to be explained twice.
+
+Asteria's sigh was fair: the Cascade is a long ladder. But the two distinctions above are where to begin, because they are where everyone else went wrong first.
 
 ## See Also
 
