@@ -161,8 +161,9 @@ The word **Etheric** was carrying three jobs at once — a causal layer, a set o
 ### Etheric
 - **Layer:** Ontological (Layer 3 of the Five Layers)
 - **Definition:** The rule-template causal mode governing what physical and material expressions can remain coherent. Archetypal templates constrain physical and material admissibility.
-- **Notes:** A causal mode, **not** a location, dimension, region, or plane. Nothing is inside the Etheric. Idiomatic Survey Corps usage — roots reaching "into the Etheric layer," a structure "in the lower Etheric" — is correct in its own register and means *into a mode of constraint*; it is not a geometric claim and does not license treating the Etheric as a storey of space.
-- **Do not use for:** the compact dimensions; the Interval; membranes.
+- **Notes:** A causal mode, **not** a location, dimension, region, or plane. Nothing is inside the Etheric.
+- **Register rule:** Idiomatic spatial usage — roots reaching "into the Etheric layer," a structure "in the lower Etheric" — is working jargon and is **not** a migration target. It means *into a mode of constraint*. Which register is speaking decides whether looseness is a fault: **chapters, characters, and Codex sources are voices**, where imprecise field vocabulary is characterization and needs no correction; **lore and glossary pages are the Archive**, where the term is held to its definition and a page asserting the Etheric *is* a place has made a mistake. Same principle already applied to in-world "magic," and the reason [the Overfold](/star-rangers/glossary/overfold/) is not ranked below Etheric.
+- **Do not use for:** the compact dimensions; the Interval; membranes — in Archive voice. In a character's or Codex source's voice, imprecision here is theirs to have.
 
 ### Compact Dimensions
 - **Layer:** Universe Structure (Local Dimensional Floor)
