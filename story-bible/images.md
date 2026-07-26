@@ -33,6 +33,16 @@ than depicting it. A cyber-revenant portrait showing exposed throat machinery
 was rejected on exactly this line; the approved version sealed the collar and
 left one silver seam at the temple.
 
+**Art is illustrative; the prose is canon.** Lore images are impressions of a
+place, not schematics of it, and they are allowed to be technically wrong where
+the entry is right — `lore/the-imperium.jpg` is a real modern skyscraper
+standing in for a monolithic tower, and the New London render (see Open work 4)
+shows rings that could not rotate as drawn. When art and entry disagree, **the
+entry wins and the art stays**: don't rewrite settled prose to match a picture,
+and don't file the divergence as a defect. The one hard requirement is
+unchanged — `image_alt` describes what the file actually shows, so an
+impressionistic image gets impressionistic alt text rather than the spec.
+
 ### Tools
 
 ```powershell
@@ -195,6 +205,34 @@ Line's Nordic-heritage coastal world wants a real cold-coast frame.
   `lore/the-imperium.jpg` (a real modern skyscraper standing in for a monolithic
   tower), the `prismere-*` series repeating one jellyfish/crystal-spire motif
   across distinct named locations.
+
+### 4. Awaiting a file: New London Space Habitat (2026-07-26)
+
+`src/lore/new-london-space-habitat.md` ships with **no image**, deliberately —
+there is no asset for it yet. Target path when one arrives:
+`src/images/lore/new-london-space-habitat.jpg`.
+
+A candidate render exists but was supplied in conversation rather than committed,
+so it never reached the repo. It shows a horizontal ring carrying an open
+cityscape (St Paul's dome, a Westminster-style tower, Tower Bridge, parkland, a
+river with boats), two further rings canted steeply across it, a tall central
+spire on spokes, a Union-flag tram, and Earth and the Moon behind.
+
+**Dermot's ruling: the image is impressionist and not technically correct, and
+that is fine.** Two known divergences from the entry, both accepted rather than
+open questions:
+
+- Three rings in *different planes* cannot all rotate about one axis for gravity.
+  The entry's three co-rotating Stanford tori are the canon; the art is not a
+  schematic of them.
+- A Stanford torus interior is enclosed — the far side of the ring curves
+  overhead rather than opening onto stars. The render's open city face is a
+  visual choice.
+
+Do **not** rewrite the entry's geometry to match a future image, and do not
+treat these as errors to fix. Write `image_alt` to describe what the render
+actually shows, per the standing rule, without implying it is a cutaway or a
+specification.
 
 ---
 
