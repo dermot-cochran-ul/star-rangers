@@ -6,6 +6,12 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [1.7.0] - 2026-07-26
+
+A cosmology release. Four structural questions about the Cascade were settled in one sitting — what a Universal Authority is made of, what a Dynarch actually is, what scale a membrane is, and which of two mechanisms "boundary zone" names — and in three of the four the answer resolved a contradiction the corpus was already carrying rather than adding new ground.
+
+**Not yet tagged.** `v1.7.0` needs cutting from a local clone at the merge commit for this release; the automation path used here cannot publish `refs/tags/*`.
+
 ### Changed
 
 - **A membrane is a universe, not a zone** (settled 2026-07-26) — resolving a contradiction the corpus was already carrying. `concordant-membranes.md` said "each **Concordant** occupies its own bounded cosmic membrane", while `tir-tairngire.md` describes "a **primary universe** whose membrane sits close enough to Tír na nÓg's own Concordant" — comparing a universe's membrane to a zone's in one sentence. The scale is now fixed: **a membrane is a primary universe**, a Concordant Zone is a region *inside* one, and **a single Worldwright authors many primary membranes** (consistent with "Worldwrights create primary universe *sets*", already canonical).
@@ -33,7 +39,7 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 First release cut deliberately, rather than reconstructed after the fact. Versions 1.0.0–1.5.0 were written retroactively in one sitting on 2026-07-09; `package.json` went straight from 1.0.0 to 1.5.0 in a single commit, so 1.1.0–1.4.0 never existed as states of the repository. See the note under 1.5.0.
 
-**This repository has no git tags.** Cutting them is a manual step — `v1.6.0` at this release, and optionally `v1.0.0` and `v1.5.0` at `a0ca09a` and `45f72f3`, the only two historical versions with a real commit behind them.
+**Tagged** — `v1.6.0` at this release, plus `v1.0.0` and `v1.5.0` cut retroactively at `a0ca09a` and `45f72f3`, the only two historical versions with a real commit behind them. Tags are pushed from a local clone; the automation path used for these releases cannot publish `refs/tags/*`.
 
 ### Added
 
