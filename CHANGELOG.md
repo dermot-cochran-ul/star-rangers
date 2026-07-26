@@ -8,7 +8,9 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [1.6.0] - 2026-07-26
 
-First release cut since the changelog was introduced, and the first that is also a **git tag**. Versions 1.0.0–1.5.0 were written retroactively in one sitting on 2026-07-09 and were never tagged; `package.json` went straight from 1.0.0 to 1.5.0 in a single commit, so 1.1.0–1.4.0 never existed as states of the repository and are not tagged now. See the note under 1.5.0.
+First release cut deliberately, rather than reconstructed after the fact. Versions 1.0.0–1.5.0 were written retroactively in one sitting on 2026-07-09; `package.json` went straight from 1.0.0 to 1.5.0 in a single commit, so 1.1.0–1.4.0 never existed as states of the repository. See the note under 1.5.0.
+
+**This repository has no git tags.** Cutting them is a manual step — `v1.6.0` at this release, and optionally `v1.0.0` and `v1.5.0` at `a0ca09a` and `45f72f3`, the only two historical versions with a real commit behind them.
 
 ### Added
 
@@ -210,7 +212,7 @@ First release cut since the changelog was introduced, and the first that is also
 
 ## [1.5.0] - 2026-07-09
 
-> **Note on 1.0.0–1.5.0.** These six entries were written in one sitting, in the commit that introduced this changelog (`45f72f3`, "Add theme generator, 4 standard themes, and a real changelog/semver"). They reconstruct development phases rather than record releases that were cut at the time: `package.json` held 1.0.0 from the first content commit (`a0ca09a`, 2026-05-27) until that commit set it directly to 1.5.0, so **1.1.0, 1.2.0, 1.3.0 and 1.4.0 never existed as states of this repository**. Only 1.0.0 and 1.5.0 correspond to a commit, and only those two have been tagged retroactively. The history below is still accurate about *what changed*; it is not a record of *when it shipped*.
+> **Note on 1.0.0–1.5.0.** These six entries were written in one sitting, in the commit that introduced this changelog (`45f72f3`, "Add theme generator, 4 standard themes, and a real changelog/semver"). They reconstruct development phases rather than record releases that were cut at the time: `package.json` held 1.0.0 from the first content commit (`a0ca09a`, 2026-05-27) until that commit set it directly to 1.5.0, so **1.1.0, 1.2.0, 1.3.0 and 1.4.0 never existed as states of this repository**. Only 1.0.0 and 1.5.0 correspond to a real commit (`a0ca09a` and `45f72f3`); the other four are not taggable and should not be given tags pointing at stand-in commits. The history below is still accurate about *what changed*; it is not a record of *when it shipped*.
 
 ### Added
 
