@@ -41,8 +41,8 @@ The listing above is the spine, and it is *mostly* hierarchical — with two mat
 - **Archewrights** define archetypes and possibility spaces.
 - **Worldwrights** create primary universe sets. The universe is the unit of creation; the Concordant Zone is the unit of consistency within it.
 - **Concordant Zones** (Concordants) are bounded regions within a universe where one internally consistent rule-set holds. They are places, not minds.
-- **Universal Authorities** (formerly "Concordants" in the governance sense) are the native governance intelligences of each universe, maintaining CEI and systemic balance. They are not supra-universal.
-- **Concordant Principals** (commonly **Harmonarchs** — both canonical, Principal the formal title) are the governing minds of individual Concordant Zones, stewarding each zone's rule-set under the universe's Universal Authority.
+- **Universal Authorities** (formerly "Concordants" in the governance sense) are the native governance intelligences of each universe, maintaining CEI and systemic balance. They are not supra-universal, and they are **not a separate tier**: an Authority is the universe's **Council of Harmonarchs** plus a presiding **founder** (its seed mind) or, failing one, a **lead Harmonarch**.
+- **Concordant Principals** (commonly **Harmonarchs** — both canonical, Principal the formal title) are the governing minds of individual Concordant Zones, stewarding each zone's rule-set under the universe's Universal Authority — which is the council they themselves sit in. Every Harmonarch holds two seats: its own zone, and the Council.
 - **Telearchs** coordinate large-scale operational activity inside and across governed systems. They are a Cascade tier, native to no universe — distinct in kind from both Universal Authorities and Concordant Principals, and a parallel branch with the Worldwrights under the Archewrights. See [Who Governs a Universe](/star-rangers/lore/who-governs-a-universe/).
 - **Dynarchs** (commonly **Exarchs**; formerly "higher celestials") encapsulate and govern physical laws and forces — Gravity, Electromagnetics, Nature. Co-created by both branches of the matrix; ranked between Concordant Principals and Celestials, standing under both the Telearchs and the Principals, with continuity prevailing on conflict. Both names are canonical; "Exarch" is the older devotional form.
 - **Celestials** create or supervise systemic agents.
@@ -81,13 +81,33 @@ The listing above is the spine, and it is *mostly* hierarchical — with two mat
 
 ### Universal Authorities
 - **Layer:** Governance (Universe-Level)
-- **Definition:** The native governance intelligence of a universe as a whole, regulating CEI, entropy behavior, and continuity constraints. May be a singular or plural mind.
-- **Notes:** Formerly recorded as "Concordants" in the governance sense — that usage is deprecated. Universal Authorities are not supra-universal: their writ ends at their own universe's edge.
+- **Definition:** The native governance intelligence of a universe as a whole, regulating CEI, entropy behavior, and continuity constraints.
+- **Composition (settled 2026-07-26):** A **body**, not a separate mind installed above the zones — the **Council of Harmonarchs** (every Concordant Principal in the universe, sitting together) plus a presiding seat held by the universe's **founder**, its originating **seed mind** where the universe was noögenically seeded. Where there is no founder, the Council seats a **lead Harmonarch** from among its own members. Same office; different occupant.
+- **Notes:** This resolves the "singular or plural mind" phrasing in earlier records — both describe one institution. A Consensus Field is *how the Council decides*; a founder is *who presides while it does*. A plural formation descended from a seed mind (a Synarch Mind among them) occupies the presiding seat as one member, not as a second council. Formerly recorded as "Concordants" in the governance sense — that usage is deprecated. Universal Authorities are not supra-universal: their writ ends at their own universe's edge.
+- **Consequence:** An Authority cannot predate its universe's zones. No Concordants → no Harmonarchs → no Council → no Authority, which is precisely what makes a Noögenic Protouniverse *proto*: **a founder without a Council is not an Authority.**
+- **On "answer to":** Principals answer to their universe's Authority, and that Authority is the body they sit in — subordination to a council, not to a superior being. The Council's writ is universe-wide where a Principal's ends at its zone boundary, and a Harmonarch outvoted in council is bound by the decision inside its own zone regardless.
+
+### Council of Harmonarchs
+- **Layer:** Governance (Universe-Level)
+- **Definition:** All of a universe's Concordant Principals sitting together as the deliberative body of its Universal Authority.
+- **Notes:** Not a separate tier in the Cascade — the same beings as the Principals, in their second seat. Decisions are reached through a Consensus Field rather than by vote-counting. Compare the Star Rangers' own Council of High Captains: every serving High Captain sitting together, holding authority none holds alone.
+
+### Lead Harmonarch
+- **Layer:** Governance (Universe-Level)
+- **Definition:** The Concordant Principal holding the presiding seat of a Council of Harmonarchs in a universe with no founder.
+- **Notes:** A seat, not a rank — a lead Harmonarch is not senior to other Principals in their own zones, and holds no zone-level authority beyond its own. Structurally interchangeable with a founder; the difference is origin, not power.
+
+### Founder (Universal Authority)
+- **Layer:** Governance (Universe-Level)
+- **Definition:** A universe's originating seed mind, holding the presiding seat of its Universal Authority once a Council of Harmonarchs has formed around it.
+- **Notes:** Only universes raised by noögenic seeding have one. The seat exists from transference, but the office does not: an Authority requires both parts.
+- **Related Terms:** Seed Mind Lifecycle, Noögenic Protouniverse, Synarch Mind
 
 ### Concordant Principals (Harmonarchs)
 - **Layer:** Governance (Zone-Level)
 - **Definition:** The governing mind of a single Concordant Zone, administering the zone's rule-set day to day under the universe's Universal Authority. Commonly called a **Harmonarch**; both names are canonical, with "Concordant Principal" the formal office title.
 - **Notes:** Stewards, not legislators — the rules they administer are the Worldwright's design. A Principal's writ ends at its zone's boundary. Together with the Telearch line, Principals co-define the Dynarchs of their zone's forces.
+- **Two seats:** every Harmonarch governs its own zone *and* sits on the **Council of Harmonarchs** that constitutes its universe's Universal Authority. The Authority a Principal answers to is that council — the body it is a member of — not a separate mind above it. Being outvoted there still binds it at home.
 
 ### Telearchs
 - **Layer:** Coordination
@@ -376,6 +396,8 @@ The word **Etheric** was carrying three jobs at once — a causal layer, a set o
 | “manifold distance” / “membrane separation” / “the membrane gap” | the Interval | Name the separation rather than describing it. A boundary zone is a narrowed Interval. |
 | “Post-11 Dimensional Manifold” (as the formal name) | the Common Manifold | Not a deprecation: *post-11 manifold* remains canonical Survey Corps shorthand and correct in-world voice. Use *Common Manifold* where the formal name is wanted, and where the home universe's floor of eleven should not be assumed. |
 | “brane” | cosmic membrane (membrane) | Already migrated in-world; retained only as older Survey Corps literature quoted in character. |
+| “Archon” / “Council of Archons” (Threnos-Ω records) | Harmonarch / Council of Harmonarchs | **Not a deprecation.** *Archon* is Threnos-Ω's own native word for the office and stays in that universe's records. Read it as *Harmonarch*; do not carry it into Solar System or Cascade-general usage, where the word names nothing. Separately-authored universes are not required to share vocabulary. |
+| “Universal Authority” as a singular mind above the Principals | the Council of Harmonarchs plus its presiding seat | The Authority *is* the Principals in council, not a fourth being over them. Rephrase "answers to the Authority" as answering to the council it sits in. |
 
 ---
 
