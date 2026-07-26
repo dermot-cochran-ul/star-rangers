@@ -26,13 +26,17 @@ These live in `scripts/` but are **not** run by `npm test`, the build, or CI. Th
 
 ```bash
 node scripts/check-internal-links.js    # verify every internal /star-rangers/ link resolves (cross-platform; exits non-zero on failure, so it can be added to npm test if wanted)
+node scripts/check-related-terms.js     # verify every front-matter `related:` term matches a real page title (same conventions)
 ```
 ```powershell
 .\scripts\import-image.ps1 -In "$env:USERPROFILE\Downloads\x.png" -Out src\images\characters\y.jpg -MaxEdge 1200
 .\scripts\make-codex-cover.ps1 -TitleLines "TITLE","LINE TWO" -Category "SURVEY RECORDS" -Subtitle "..." -Institution "..." -Author "..." -Stamp "OFFICIAL" -Motif rules -Out src\images\codex\z.jpg
 ```
 
-The two `.ps1` tools are Windows-only (System.Drawing/GDI+), matching the author's environment; `check-internal-links.js` runs anywhere. `check-internal-links.js` catches the failure mode `npm test` structurally cannot: front-matter validation and the Eleventy dry run both pass while a cross-link points at a page that was renamed or never written.
+The two `.ps1` tools are Windows-only (System.Drawing/GDI+), matching the author's environment; both `.js` checks run anywhere. Each catches a failure mode `npm test` structurally cannot:
+
+- `check-internal-links.js` — front-matter validation and the Eleventy dry run both pass while a cross-link points at a page that was renamed or never written.
+- `check-related-terms.js` — a `related:` term is resolved by `glossaryUrl` (`.eleventy.js`) against page **titles**, and on a miss it falls back to `/glossary/` rather than erroring. So a stale term still renders a valid link to the wrong place: schema validation passes (related terms are free text), the build passes, and the link checker passes (the emitted URL is real). Retitling one lore or glossary page silently degrades every `related:` list naming it. Matching is exact — case, punctuation and leading articles included — so the script prints near-miss suggestions. It also warns (without failing) on duplicated page titles, where only the first is reachable.
 
 There is no separate unit-test framework or linter script beyond `npm test`, which is two checks: `scripts/validate-content.js` (front-matter schema validation across all Markdown content) and an Eleventy dry-run (catches template/build errors without writing `_site/`). CI (`.github/workflows/ci.yml`) runs `npm test` plus `shellcheck` on `scripts/cpanel-deploy.sh` and `scripts/ensure-node.sh` on every PR.
 
