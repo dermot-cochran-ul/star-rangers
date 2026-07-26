@@ -9,6 +9,7 @@ related:
   - "Constraint Literacy"
   - "Concordant"
   - "Cosmic Cascade"
+  - "Compact Dimensions"
 tags: [etheric, five-layers, cosmology, templates]
 ---
 
@@ -26,5 +27,14 @@ Its mechanism is structural: archetypal templates constrain physical and materia
 - Boundary zones produce Etheric divergence as well as physical divergence.
 
 **Example:** Elvira's boundary work applies the Etheric layer directly: chalk lines and threaded knots do nothing on their own, but they mark and stabilise Etheric templates already present, letting a physical structure hold a shape the underlying pattern would otherwise let drift.
+
+## What the Etheric Is Not
+
+The word has historically been asked to carry more than one job, and two of them have since been given their own names. The Etheric is a **causal mode** — one of five ways an event can be caused — and not a location, a dimension, or a region anything can be inside.
+
+- It is **not** the seven [compact dimensions](/star-rangers/glossary/compact-dimensions/). Those are ordinary space, part of the home universe's dimensional floor. Etheric templates have geometric extent *through* them, which is where a Layer 3 effect becomes measurable; that is not the same as the layer being made of them.
+- It is **not** the gap between two [cosmic membranes](/star-rangers/lore/concordant-membranes/). That is [the Interval](/star-rangers/glossary/interval/), and its narrowing is what produces [Intermembrane Bleed](/star-rangers/glossary/intermembrane-bleed/) — an Etheric *signature*, carried across the Interval by the trans-concordant constraint field.
+
+Longstanding Survey Corps and boundary-practitioner usage speaks of structures reaching "into the Etheric layer" — dryadic root systems most often. That phrasing is idiomatic and correct in its own register: what reaches in reaches into a mode of constraint, not down into a lower storey of space.
 
 See the [Lore article on the Five Layers](/star-rangers/lore/five-layers/) for the full ontological framework.

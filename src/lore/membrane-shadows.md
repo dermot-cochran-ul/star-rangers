@@ -3,14 +3,14 @@ layout: lore-entry.njk
 title: "Membrane Shadows: Gravitational Imprints from Adjacent Membranes"
 category: "Cosmology"
 tags: [membrane-shadows, gravitational-bleed, concordant-membranes, intermembrane-bleed, boundary-zone, post-11-manifold, shadow-beings]
-description: "Not every dark, person-shaped anomaly at a boundary zone has crossed over. A Membrane Shadow is gravitational bleed-through from a coherent mass on the far side of a narrowed membrane gap — the imprint of a being that never leaves its own universe to cast it."
+description: "Not every dark, person-shaped anomaly at a boundary zone has crossed over. A Membrane Shadow is gravitational bleed-through from a coherent mass on the far side of a narrowed Interval — the imprint of a being that never leaves its own universe to cast it."
 ---
 
 A figure can stand between a boundary-zone observer and the light, throw a full, edge-lit silhouette, and never once have crossed into that observer's universe to do it. Survey Corps calls the shape a **Membrane Shadow**. Nothing about the name is a metaphor.
 
 ## The Phenomenon
 
-A Membrane Shadow is the locally observable gravitational imprint cast by a coherent mass on the far side of a narrowed [cosmic membrane](/star-rangers/lore/concordant-membranes/) gap. It is not a creature, not a visitor, and not something that has crossed the boundary at all. The mass responsible for it — most often a living being, moving under its own will — can remain entirely within its own [Concordant](/star-rangers/glossary/concordant/), on its own membrane, for the imprint's whole duration. What reaches this side of the gap is not the being. It is the being's gravity.
+A Membrane Shadow is the locally observable gravitational imprint cast by a coherent mass on the far side of a narrowed [Interval](/star-rangers/glossary/interval/). It is not a creature, not a visitor, and not something that has crossed the boundary at all. The mass responsible for it — most often a living being, moving under its own will — can remain entirely within its own [Concordant](/star-rangers/glossary/concordant/), on its own membrane, for the imprint's whole duration. What reaches this side of the gap is not the being. It is the being's gravity.
 
 ## Mechanism: The Physical Channel of Intermembrane Bleed
 
@@ -52,4 +52,4 @@ Nothing rules out the possibility that a shape coherent enough to read as a bein
 - **Cross-membrane gravimeters**, not the optical/thermal detection loop used for Class II/III meta-dimensional beings, are the only instruments that register a Membrane Shadow directly as a mass anomaly.
 - A Membrane Shadow can be photographed — the light bending around it is real and physical — but returns nothing on infrared or motion-mass sensors, which is itself diagnostic: a shape with an optical signature and no thermal or mass signature is a Membrane Shadow, not a Class III shadow being, almost by definition.
 
-See also: [Concordant Membranes and Intermembrane Bleed](/star-rangers/lore/concordant-membranes/), [Boundary Zones and Concordant Edges](/star-rangers/lore/boundary-zones/), [Post-11 Dimensional Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/), [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/), [The Grand Ensemble Multiverse](/star-rangers/lore/ensemble-multiverse/).
+See also: [Concordant Membranes and Intermembrane Bleed](/star-rangers/lore/concordant-membranes/), [Boundary Zones and Concordant Edges](/star-rangers/lore/boundary-zones/), [The Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/), [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/), [The Grand Ensemble Multiverse](/star-rangers/lore/ensemble-multiverse/).
