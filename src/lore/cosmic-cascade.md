@@ -133,11 +133,13 @@ Telearchs allocate enforcement scope and continuity budgets across multiple Conc
 Force-governance tier between the Telearchs and the Celestials: beings that encapsulate and govern physical laws and forces — Gravity, Electromagnetics, Nature (biological life), and the other force-domains. The legacy designation "higher celestials" referred to this tier; that term was retired as ambiguous with "High Celestials" (Telearchs). See [High Celestials](/star-rangers/glossary/high-celestials/) for the disambiguation rule.
 
 ### Mechanism
-Each Dynarch embodies one force-domain and administers its lawful operation across Concordant Zones, including across the boundaries where zone rule-sets differ. Dynarchs are **co-created** — defined jointly by both branches of the Cascade matrix rather than by a single parent tier — and stand under both the [Concordant Principals](/star-rangers/glossary/concordant-principal/) and the Telearchs: zone-local operation of a force runs with the zone's Principal, continuity of that force across zones and universes runs up the Telearch line. See the Matrix Exceptions above.
+**A Dynarch is a proxy Telearch** — the Telearch line acting inside a universe, scoped to one force-domain. Telearchs supervise from outside and are native to no universe; a force has to be administered from within the thing it runs through, and this tier is how that reach is made.
+
+Each Dynarch embodies one force-domain and administers its lawful operation across Concordant Zones, including across the boundaries where zone rule-sets differ. Dynarchs are **co-created** — the Telearch line supplying what a Dynarch *is*, the [Concordant Principal](/star-rangers/glossary/concordant-principal/) line supplying the zone-scoping that gives it somewhere to act, which is two parents of different kind rather than one parent tier. They stand under both: zone-local operation of a force runs with the zone's Principal, continuity of that force across zones and universes runs up the Telearch line. See the Matrix Exceptions above.
 
 ### Constraints
 - Govern the operation of forces, not their design: rule-sets remain the Worldwright's, and no Dynarch can rewrite a zone's physics.
-- Dual obligation to Principal and Telearch; where the two conflict, continuity prevails.
+- Dual obligation to Principal and Telearch; where the two conflict, continuity prevails — because continuity is what a Dynarch substantially is, not because a rule says so.
 - Do not perform enforcement actions; rule-integrity intervention remains Celestial work.
 
 ### Observable Effects on Time-Bound Entities
