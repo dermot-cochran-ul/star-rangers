@@ -20,6 +20,21 @@ Conditions:
 
 Anything outside this fan-works exception — commercial use, or redistributing the original canon text verbatim as your own — is still governed by the unmodified licence below.
 
+### Referencing fan works
+
+Fan-made images and music may be linked from this site where appropriate, on a standing basis: **referenced, not endorsed.** A link is a pointer to something worth seeing, not approval of it and not a claim that it is official. The conditions above are unaffected — a linked fan work is still a fan work, still unofficial, and still carries its own labelling. Being referenced here confers no status.
+
+## Chartered Works
+
+Separately from fan works, Dermot R. Cochran may **individually approve** a derivative work by another creator — a story, a comic, a game, a recording. An approved work of this kind is called a **chartered work**, and the term covers two different things that should not be confused:
+
+- **Permission.** The No-Derivatives term still applies, and the standing fan-works exception does *not* cover this: a chartered work needs its own explicit grant. Where the work is commercial, the fan-works exception does not reach it at all and a real licence is required. Nothing on this page grants chartered status to anyone in advance.
+- **Standing in the story.** A chartered work is endorsed but **not canon**. One rule governs it: *canon binds it; it does not bind canon.* It must be consistent with the published story as it stood when approved, and if the published story later contradicts it, the published story wins and the chartered work is superseded rather than withdrawn. The main story never depends on one.
+
+Chartered works are **registered here, not hosted here** — the work stays with its own author and rights holder, and this repository lists it. Nothing in this repository's CC BY-NC-ND scope is another creator's property, and that is deliberate.
+
+**No chartered works exist at the time of writing.** This section states the policy in advance so the first one does not have to invent it.
+
 ---
 
 Attribution-NonCommercial-NoDerivatives 4.0 International
