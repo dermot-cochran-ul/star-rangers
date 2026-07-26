@@ -1,7 +1,7 @@
 ---
 layout: glossary-entry.njk
 title: "Telearch"
-id: telerarch
+id: telearch
 category: "Cosmic Cascade"
 short: "The Cascade tier between Worldwrights and the Dynarchs/Celestials, responsible for cross-Concordant continuity and enforcement delegation. Commonly meant by the retired legacy term High Celestials."
 related:
@@ -11,7 +11,7 @@ related:
   - "Concordant"
   - "Cosmic Cascade"
   - "Noögenic Protouniverse"
-tags: [telearch, telerarch, cascade, enforcement, cosmology, continuity]
+tags: [telearch, telearch, cascade, enforcement, cosmology, continuity]
 ---
 
 **Telearch** (pronounced: **TEL-ee-ark**; plural: **Telearchs**) is the Cascade tier above the [Dynarchs](/star-rangers/glossary/dynarch/) and [Celestials](/star-rangers/glossary/celestials/). Though the Cascade spine lists Telearchs after the Worldwrights, the two are **parallel branches under the Archewrights** — continuity and creation respectively, created and defined as peer functions: a Telearch does not derive from a Worldwright.

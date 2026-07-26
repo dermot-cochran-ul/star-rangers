@@ -88,4 +88,4 @@ AUC relation:
 - [Seed Mind Lifecycle](/star-rangers/lore/seed-mind-lifecycle/)
 - [Threnos-Ω: Post-Entropy Universe](/star-rangers/lore/universes/threnos-omega/)
 - [Noögenic Protouniverse](/star-rangers/glossary/noogenic-protouniverse/)
-- [Telearch](/star-rangers/glossary/telerarch/)
+- [Telearch](/star-rangers/glossary/telearch/)

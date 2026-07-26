@@ -20,7 +20,7 @@ The office is stewardship, not legislation. The rules a Principal administers ar
 
 **Key constraints:**
 - A Principal's writ ends at its zone's boundary — which is why boundary zones between Concordants fall to no single Principal's tidy jurisdiction.
-- Subordinate to the Universal Authority of its universe; distinct in kind from [Telearchs](/star-rangers/glossary/telerarch/), who supervise continuity from outside the universe rather than governing within it.
+- Subordinate to the Universal Authority of its universe; distinct in kind from [Telearchs](/star-rangers/glossary/telearch/), who supervise continuity from outside the universe rather than governing within it.
 - Co-defines, with the Telearch line, the [Dynarchs](/star-rangers/glossary/dynarch/) of its zone's forces: zone-local operation of a force runs with the Principal, while continuity across boundaries runs up the Telearch line and prevails where the two conflict.
 
 **Example:** When a zone's Etheric coupling drifts out of tolerance, restoring it is Principal work. When the drift starts affecting the neighbouring zone across a boundary, it stops being any one Principal's problem — the Universal Authority balances it, and if it crosses universes, Telearch supervision takes over.

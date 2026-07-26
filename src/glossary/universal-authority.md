@@ -20,7 +20,7 @@ An Authority may be a single mind or a plural one; plural forms (Synarch Minds, 
 **Key constraints:**
 - A Universal Authority is not supra-universal: its writ ends at its own universe's edge.
 - It administers within the Worldwright's design; it does not author or revise the universe's founding rule-sets.
-- It does not displace, and is not displaced by, [Telearch](/star-rangers/glossary/telerarch/) supervision, which operates from outside the universe.
+- It does not displace, and is not displaced by, [Telearch](/star-rangers/glossary/telearch/) supervision, which operates from outside the universe.
 
 **Legacy usage:** older records use the bare word "Concordant" for this office as well as for the zones. That governance sense is deprecated; in current canon *Concordant* names the [zone](/star-rangers/glossary/concordant/), *Universal Authority* names the universe-level governing mind.
 

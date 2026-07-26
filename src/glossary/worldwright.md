@@ -16,7 +16,7 @@ tags: [worldwright, cascade, concordant, cosmology]
 
 Worldwright authority is bounded: it exists only in primary universes. Secondary and subsequent universes are derived from primary ones and do not receive a new Worldwright.
 
-Though the Cascade spine lists them in sequence, Worldwrights and [Telearchs](/star-rangers/glossary/telerarch/) are **parallel branches under the Archewrights** — creation and continuity respectively, created and defined as peer functions with neither subordinated to the other.
+Though the Cascade spine lists them in sequence, Worldwrights and [Telearchs](/star-rangers/glossary/telearch/) are **parallel branches under the Archewrights** — creation and continuity respectively, created and defined as peer functions with neither subordinated to the other.
 
 Key constraints:
 - Adjacent [Concordants](/star-rangers/glossary/concordant/) can differ; the boundary zones between them cannot be made globally uniform by Material-layer technology.
