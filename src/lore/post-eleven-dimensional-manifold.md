@@ -12,7 +12,7 @@ When the local dimensions explain the injury but not why the clocks keep disagre
 
 The **Common Manifold** is the higher-order spacelike and timelike structure that lies beyond any single universe's own dimensional floor, governing cross-[Concordant](/star-rangers/glossary/concordant/) coherence, causality buffering, and fold survivability. Every universe in the [Grand Ensemble](/star-rangers/lore/ensemble-multiverse/) is seated in it. It is the one piece of architecture they demonstrably share.
 
-Within it, each Concordant occupies its own bounded [cosmic membrane](/star-rangers/lore/concordant-membranes/), separated from its neighbours by the [Interval](/star-rangers/glossary/interval/) — manifold separation, measured across the Common Manifold rather than through any universe's own space.
+Within it, each **primary universe** occupies its own bounded [cosmic membrane](/star-rangers/lore/concordant-membranes/), separated from its neighbours by the [Interval](/star-rangers/glossary/interval/) — manifold separation, measured across the Common Manifold rather than through either universe's own space. Concordant Zones are regions *inside* a membrane, not membranes themselves.
 
 ## Why Survey Corps Says "Post-11"
 
@@ -32,7 +32,7 @@ Three bands are distinguished, numbered here from the home universe's floor of e
 
 These dimensions are not directly navigable by Material beings. They are inferred through lawful observables: persistent instrument drift, boundary resonance asymmetry, and stable anomaly recurrence windows.
 
-Note the division of labour with the local floor, since the two are easily confused: a Concordant's own [compact dimensions](/star-rangers/glossary/compact-dimensions/) are where its [Etheric](/star-rangers/glossary/etheric/) templates have geometric extent *at home*, inside one membrane. The trans-concordant constraint field is what lets one membrane's templates become readable *in another* when the Interval narrows. Same layer, two scopes — local extent and cross-membrane reach — and they are not the same dimensions.
+Note the division of labour with the local floor, since the two are easily confused: a universe's own [compact dimensions](/star-rangers/glossary/compact-dimensions/) are where its [Etheric](/star-rangers/glossary/etheric/) templates have geometric extent *at home*, inside one membrane. The trans-concordant constraint field is what lets one membrane's templates become readable *in another* when the Interval narrows. Same layer, two scopes — local extent and cross-membrane reach — and they are not the same dimensions.
 
 ## Operational Consequences
 

@@ -14,7 +14,7 @@ tags: [common-manifold, post-11-manifold, dimensions, cosmology, cascade]
 
 The **Common Manifold** is the higher-order spacelike and timelike structure lying beyond any single universe's dimensional floor. It governs cross-[Concordant](/star-rangers/glossary/concordant/) coherence, causality buffering, and fold survivability, and every universe in the [Grand Ensemble](/star-rangers/lore/ensemble-multiverse/) is seated in it — which is what the name records. Universes that agree on nothing about their own dimensional structure still meet here.
 
-Each Concordant occupies its own bounded [cosmic membrane](/star-rangers/lore/concordant-membranes/) within the manifold, separated from its neighbours by [the Interval](/star-rangers/glossary/interval/).
+Each **primary universe** occupies its own bounded [cosmic membrane](/star-rangers/lore/concordant-membranes/) within the manifold, separated from its neighbours by [the Interval](/star-rangers/glossary/interval/). A Concordant Zone is a region *inside* a membrane, never a membrane in its own right, and one Worldwright authors many primary membranes.
 
 **Why Survey Corps says "post-11."** Our home universe's floor is eleven — three extended dimensions, seven [compact](/star-rangers/glossary/compact-dimensions/), one of time — and the manifold begins where that floor ends, so the Corps has always written it as the **post-11 manifold**. Both terms are canonical: "post-11" is the working shorthand and remains correct in Survey Corps usage, "Common Manifold" is the formal name.
 
