@@ -206,17 +206,32 @@ Line's Nordic-heritage coastal world wants a real cold-coast frame.
   tower), the `prismere-*` series repeating one jellyfish/crystal-spire motif
   across distinct named locations.
 
-### 4. Awaiting a file: New London Space Habitat (2026-07-26)
+### 4. New London Space Habitat — delivered, with two recorded defects (2026-07-26)
 
-`src/lore/new-london-space-habitat.md` ships with **no image**, deliberately —
-there is no asset for it yet. Target path when one arrives:
-`src/images/lore/new-london-space-habitat.jpg`.
+**Resolved.** `src/images/lore/new-london-space-habitat.jpg` landed in #177 and is
+wired into the entry. This item is kept rather than deleted because the defects
+below are known and accepted, and a future audit will otherwise re-flag them.
 
-A candidate render exists but was supplied in conversation rather than committed,
-so it never reached the repo. It shows a horizontal ring carrying an open
-cityscape (St Paul's dome, a Westminster-style tower, Tower Bridge, parkland, a
-river with boats), two further rings canted steeply across it, a tall central
-spire on spokes, a Union-flag tram, and Earth and the Moon behind.
+The render shows a horizontal ring carrying an open cityscape (a St Paul's-like
+dome, a Westminster-style clock tower, Tower Bridge, parkland, a waterway with
+boats), two further rings canted steeply across it, a tall central spire on
+spokes, a Union-flag tram, and Earth and the Moon behind.
+
+**Two generator defects, recorded not fixed** (full detail in
+`firefly-prompts.md`):
+
+1. **1408×768, under the ~1600px lore standard** — `eden-space-habitat.jpg` is
+   1600×900 for comparison. Not upscaled: interpolation would add pixels, not
+   detail, and the file is honest at its native size. Fix by regenerating larger
+   if it ever matters.
+2. **Garbled pseudo-text on the outer ring hull**, lower left and lower right —
+   faint glyphs, low-contrast at full view. Add *text, lettering, signage,
+   writing* to the negative prompt on any regeneration.
+
+One accuracy point worth keeping: **Earth renders roughly four times the Moon's
+apparent diameter, which is correct.** L4/L5 are equilateral points, so the
+habitat sits one lunar distance from *both* bodies, and 12,742 km / 3,475 km
+gives 3.67 — Earth ≈1.9° across, the Moon ≈0.52°. The render got this right.
 
 **Dermot's ruling: the image is impressionist and not technically correct, and
 that is fine.** Two known divergences from the entry, both accepted rather than
@@ -230,9 +245,14 @@ open questions:
   visual choice.
 
 Do **not** rewrite the entry's geometry to match a future image, and do not
-treat these as errors to fix. Write `image_alt` to describe what the render
-actually shows, per the standing rule, without implying it is a cutaway or a
-specification.
+treat these as errors to fix.
+
+`image_alt` was rewritten after merge to describe what the render actually
+shows — the landmarks especially, since a domed cathedral, a gothic clock tower
+and a twin-towered bridge are the most distinctive thing in the frame and the
+whole point of the habitat. The version that shipped in #177 named the location
+("at Earth-Moon L5") and asserted motion ("turning"), neither of which a viewer
+can see; per the standing rule, alt text describes the file, not the entry.
 
 ---
 
