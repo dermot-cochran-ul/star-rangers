@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [1.6.0] - 2026-07-26
+
+First release cut since the changelog was introduced, and the first that is also a **git tag**. Versions 1.0.0–1.5.0 were written retroactively in one sitting on 2026-07-09 and were never tagged; `package.json` went straight from 1.0.0 to 1.5.0 in a single commit, so 1.1.0–1.4.0 never existed as states of the repository and are not tagged now. See the note under 1.5.0.
+
 ### Added
 
 - **A fourth canon status: Chartered** (settled 2026-07-26) — for approved derivative work by another hand, above a fan work and below canon, a gap the three existing statuses left open. One rule governs it: **canon binds it; it does not bind canon.** It must be consistent with canon as it stood at approval; when later canon contradicts it, the chartered work is *superseded* rather than retconned or withdrawn; the main story may never depend on one; and it carries **no `canon_facts`**, for the same reason the Codex doesn't — it establishes nothing. What separates the four statuses is who wrote the thing and where they stand: Codex is in-universe authorship, Overlay is a lens across the same events, Chartered is new events by another hand, out-of-universe and endorsed. **None exist yet** — the policy is written in advance so the first one doesn't have to invent it. Recorded in `story-bible-summary.md`'s canon-status table, `CLAUDE.md`, and `CONTENT-LICENSE.md`.
@@ -205,6 +209,8 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 - `ADMIN_EMAIL` deploy.conf key now defaults to `admin@<DOMAIN>` instead of staying unset, so every cPanel clone gets deploy-log notifications out of the box without needing its own `deploy.conf` entry for it.
 
 ## [1.5.0] - 2026-07-09
+
+> **Note on 1.0.0–1.5.0.** These six entries were written in one sitting, in the commit that introduced this changelog (`45f72f3`, "Add theme generator, 4 standard themes, and a real changelog/semver"). They reconstruct development phases rather than record releases that were cut at the time: `package.json` held 1.0.0 from the first content commit (`a0ca09a`, 2026-05-27) until that commit set it directly to 1.5.0, so **1.1.0, 1.2.0, 1.3.0 and 1.4.0 never existed as states of this repository**. Only 1.0.0 and 1.5.0 correspond to a commit, and only those two have been tagged retroactively. The history below is still accurate about *what changed*; it is not a record of *when it shipped*.
 
 ### Added
 
