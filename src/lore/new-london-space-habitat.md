@@ -7,6 +7,8 @@ description: "Three Stanford torus rings at Earth–Moon L5, built as a refuge f
 galaxy: "Milky Way"
 system: "Sol System"
 locationType: "Habitat"
+image: "new-london-space-habitat.jpg"
+image_alt: "Three interconnected rings holding a preserved city, turning around a central spire at Earth-Moon L5, with Earth and the Moon beyond"
 ---
 
 New London was built because the British Isles were drowning. It is still here, at full occupancy, three centuries after they stopped.

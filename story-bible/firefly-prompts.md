@@ -31,6 +31,28 @@ locations, and that was the second complaint against it after resolution.
 
 ---
 
+# Recorded generations
+
+## new-london-space-habitat.jpg — 26 Jul 2026
+- **Type:** generation
+- **Tool:** Adobe Firefly, widescreen preset — output 1408x768
+- **Prompt (partial):** the delivered filename preserves only the opening —
+  *"New London Space Habitat orbits at Lagrange point L5, positioned in the
+  Earth-Moon sy…"*. **The full prompt was not captured.** Dermot to paste the
+  remainder here; this is exactly the gap this file exists to close.
+- **Canon accuracy:** good. Three interconnected rings, central spire, water
+  running through the rings, recognisable London landmarks inside them, and
+  Earth roughly four times the Moon's apparent diameter — which is right for
+  Earth-Moon L5, where both bodies are one lunar distance away.
+- **Two known defects, both from the generator:**
+  1. **1408x768, under the 1600px lore standard.** `eden-space-habitat.jpg`,
+     its nearest sibling, is exactly 1600x900. Regenerate larger or upscale.
+  2. **Garbled pseudo-text on the outer ring hull** (lower left, faint glyphs
+     reading as "R & ▨▨E"). Add *text, lettering, signage, writing* to the
+     negative prompt on any regeneration — see the house rule below.
+
+---
+
 # A. Prismere — eight locations, eight distinct looks
 
 The point of this set is that Prismere's biosphere makes its own light. Each
