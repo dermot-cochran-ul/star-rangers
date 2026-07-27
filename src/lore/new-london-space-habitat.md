@@ -45,6 +45,18 @@ The flow direction is not arbitrary either. Water moving with the ring's rotatio
 
 The bridges over it have become the habitat's civic landmarks and its default meeting places — the addresses people give when they do not want to name a building.
 
+## The Weather Indoors
+
+Nothing about the interior is accidental, and very little of it is efficient. New London's architecture sets neo-Victorian frontage against space-age structure without apology — narrow cobblestone streets winding between plainly modern buildings, opening into intimate courtyards that no habitat engineer would have laid out from first principles. The effect is a city that behaves like an old one: hard to see across, easy to get lost in, full of corners.
+
+The sky is a decision. Ring lighting holds a perpetual soft overcast, the flat grey-white of the weather the founders left behind, and on a schedule nobody publishes in advance it rains — real water, briefly, running off the streets into the Thames Canal, which is where the habitat's circulation wanted it to go anyway. The air carries tea, damp stone, and roses off the Royal Gardens. Temperature is held between sixteen and eighteen degrees, cool enough that visiting habitat staff comment on it and cool enough to keep the islanders' layered dressing a practical habit rather than a costume.
+
+The sound is recorded. Hidden arrays carry an ambient wash of pre-collapse London: bells at a distance, the murmur of crowds that are not there, birdsong from species the rings do not host. On the central promenade, holographic projections of landmarks stand where the buildings themselves could not be brought — monuments, explicitly, to what was lost rather than reconstructions of it.
+
+At night the rings dim to a warm amber pitched at gaslight, and the transparent ceiling sections show stars arranged to match the constellations as they stood over Britain before the collapse — not as they fall from L5, which is a different sky entirely.
+
+All of which sits awkwardly beside the fact that the Crown-in-Parliament below it passes real legislation. New London is at once the most theatrical and the most functional thing in Earth orbit, and it does not experience the two as a contradiction: the birdsong is a recording and the bills are law, and the habitat's own answer, when pressed, is that a culture is entitled to decide which of its inheritances it keeps working and which it keeps merely present.
+
 ## Population and Governance
 
 New London houses approximately **180,000 residents**, some sixty thousand to a ring, most of them descended from the British evacuation programmes. Immigration policy was restrictive for most of the habitat's history and has relaxed considerably in recent decades, a shift that tracks the slow argument above about what the place is now for.
