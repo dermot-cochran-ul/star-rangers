@@ -32,6 +32,23 @@ Much later: the same pattern-detection fired on an online friend and was
 was not that the instinct had improved. It was that this time it could be
 **verified**.
 
+And the shape of that verification is the whole lesson in miniature. What the
+instinct actually registered was an asymmetry: she would ask about his day, but
+never once showed initiative or real curiosity about his writing — only a
+superficial interest in the photographs. That is a *reading*, and readings of
+this kind are exactly what the twenty-two-year-old got wrong. Someone can be
+shy, or busy, or simply not a reader. On its own it proves nothing.
+
+What settled it was not the reading. It was a **checkable factual claim**: her
+pets turned out to be fake. The instinct pointed; a fact confirmed. Note that
+the fact had nothing to do with the original signal — the tell was not that she
+was uninterested, it was that something adjacent and verifiable was false.
+
+That is the practical form of the whole thing. An instinct is a prompt to go
+looking, not a verdict. It earns its keep when it directs attention toward
+something that can be checked — and the thing that can be checked is usually
+not the thing that triggered the feeling.
+
 And a third case, which completes the shape: the instinct fired **correctly**
 and was **ignored anyway**, because other people said otherwise. Not a detector
 failure at all — an override.
