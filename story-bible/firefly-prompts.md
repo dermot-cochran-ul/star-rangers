@@ -31,6 +31,32 @@ locations, and that was the second complaint against it after resolution.
 
 ---
 
+# Recorded composites
+
+## trigrian-triple-sunset.jpg — 26 Jul 2026
+- **Type:** composite from Dermot's own photographs (no generator involved)
+- **Source:** `F:\122KENYA` — base `DSC_7768`, sun discs lifted from `DSC_7770`
+  and `DSC_7778`. Amboseli, October 2025.
+- **Recipe:** the base already carries one low orange sun setting behind the
+  ridge. A second orange sun is composited beside it at 0.92 scale, and a
+  smaller, whiter companion at 0.66 scale higher and trailing — matching the
+  entry's own astronomy: *a tight central pair of orange suns... and a smaller,
+  whiter companion on a wide, eccentric outer orbit*, descending together
+  toward the hills.
+- **Technique that matters:** lift the **sun disc only**, not the sky around it.
+  Patch radius ~58px at 1600px wide, circular alpha mask with the falloff
+  starting at 72%, blended `lighten`. A first attempt at 110px haloed every sun
+  — because `lighten` takes the brighter pixel, so wherever the donor frame's
+  sky was brighter than the base's, the whole patch disc lifted. Same failure
+  mode as the dust-spot heal: match brightness, or keep the patch tight.
+- **Rejected approach:** a naive `lighten` blend of four whole frames. The
+  sequence is handheld, so the framing drifts and the tree comes out as three
+  overlapping ghosts.
+- **Note:** composites are welcome here. They are *not* welcome on the
+  photography site, which carries only Dermot's own unaltered photographs.
+
+---
+
 # Recorded generations
 
 ## new-london-space-habitat.jpg — 26 Jul 2026
