@@ -28,6 +28,10 @@ The engineering: the content-schema validation that fails the build on a malform
 
 And historically, some prose. The early Codex passages were worked over in Sudowrite; the early scaffolding leaned on Copilot. I've said that elsewhere and it stays true.
 
+That chapter is now closed. I have pulled the last of the Sudowrite material across — the ideas worth keeping — and archived the rest. The licence runs out and I won't renew it; it was a sunk cost that did its job, which was getting started. From here it is me, my photographs, and Firefly for the art that isn't photographic, with Claude Code working against the repository.
+
+Salvaging that last batch was instructive in a way I did not plan. Almost everything in it that clashed had drifted for the same reason the two copies drifted: it had been written *beside* the repository instead of against it. A whole star system turned up describing a world the repo had already given to somewhere else. A band I had deliberately kept small came back famous. Nothing in there was wrong when it was written. It had just stopped being reconciled, and nobody noticed, because nothing forces you to notice until you go looking.
+
 ## Where the line actually falls
 
 Not at "who typed it." At **who decided**.
