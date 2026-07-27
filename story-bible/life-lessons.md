@@ -67,9 +67,22 @@ available — no way to work out which error you are more prone to, and therefor
 which way to lean the next time the instinct fires. That is exactly why this is
 wisdom rather than a rule. A rule would need the numbers.
 
-For a character, that is the useful trap: not that they lack judgement, but that
-they cannot audit their own. Every correction they make is guesswork about
-which of two invisible costs was larger.
+**Nor can the success be safely credited.** The most recent case did the least
+damage — but it is genuinely unclear whether that was better judgement or simply
+the instinct landing at a moment when it *could* be checked and acted on.
+Circumstances allowed verification. They had not, thirty years earlier. Attribute
+it to skill and you will over-trust the instinct next time; attribute it to luck
+and you will under-trust it. There is no way to settle which.
+
+For a character, that is the useful trap, and it is a harder one than the usual
+version: not that they lack judgement, but that **they cannot audit their own**.
+The failures hide their costs, the two failures cannot be compared, and even the
+win may have been timing. Every correction is guesswork.
+
+Which is the honest content of *Discernment comes from experience, not advice*.
+Experience does not hand over clean lessons. It hands over ambiguous ones, and
+the discernment is in carrying them anyway — acting without the confirmation
+that would make acting comfortable.
 
 The override case is different again, and worth keeping separate. It is not a
 problem of discernment but of nerve, and it belongs beside *Technical excellence
