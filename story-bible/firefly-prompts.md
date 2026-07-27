@@ -62,10 +62,37 @@ locations, and that was the second complaint against it after resolution.
 ## new-london-space-habitat.jpg — 26 Jul 2026
 - **Type:** generation
 - **Tool:** Adobe Firefly, widescreen preset — output 1408x768
-- **Prompt (partial):** the delivered filename preserves only the opening —
-  *"New London Space Habitat orbits at Lagrange point L5, positioned in the
-  Earth-Moon sy…"*. **The full prompt was not captured.** Dermot to paste the
-  remainder here; this is exactly the gap this file exists to close.
+- **Prompt (complete — supplied by Dermot 26 Jul 2026):**
+
+  > New London Space Habitat orbits at Lagrange point L5, positioned in the
+  > Earth-Moon system to maintain stable distance from both bodies. Constructed
+  > in the late 22nd century as a refuge following the great environmental
+  > collapse that rendered much of the British Isles uninhabitable, it serves as
+  > humanity's largest preservation project for British cultural heritage.
+  >
+  > The habitat consists of three interconnected Stanford torus rings, each 1.5
+  > kilometers in diameter, rotating to provide Earth-standard gravity. The
+  > rings are named Westminster, City, and Crown, reflecting the traditional
+  > divisions of historical London. These connect to a central non-rotating hub
+  > called "The Spire" which houses administration, docking facilities, and
+  > zero-gravity manufacturing.
+  >
+  > New London houses approximately 180,000 residents, primarily descendants of
+  > British evacuation programs, though immigration policies have relaxed in
+  > recent decades. The habitat maintains formal diplomatic ties with Eden Space
+  > Habitat and other major orbital settlements, while operating under a
+  > constitutional monarchy governance structure that preserves British
+  > parliamentary traditions.
+  >
+  > The habitat's most distinctive geographical feature is the Thames Canal — a
+  > water system that flows through all three rings, serving both practical
+  > water circulation needs and symbolic connection to Old London. Bridges
+  > spanning this canal have become important cultural landmarks and meeting
+  > places within the habitat.
+
+  Note the prompt is essentially the lore entry compressed — which is the
+  method working as intended: the entry is the prompt, and the alt text is the
+  short form of it.
 - **Canon accuracy:** good. Three interconnected rings, central spire, water
   running through the rings, recognisable London landmarks inside them, and
   Earth roughly four times the Moon's apparent diameter — which is right for
