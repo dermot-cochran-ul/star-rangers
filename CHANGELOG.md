@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Added
+
+- **Character: Sorcha** (`src/characters/sorcha.md`) — an itinerant, institutionally unaffiliated healer who works boundary-proximate settlements, carrying ordinary medicine in one half of her satchel and chalk, thread and a notebook in the other. **Constraint-literate in the same self-taught tradition as [Elvira](src/characters/elvira.md), with one difference: Elvira reads Etheric structure expressed through a *place*, Sorcha reads it as expressed through a *person*.** Three canon decisions worth recording: **(1)** she explicitly does **not** heal "the spirit" — Layer 1 is an origin condition without agency or intervention semantics, so nothing there can be treated; her work sits at the Conceptual and Etheric layers, and the page says so while allowing that the people she treats call it whatever they like (the register rule, applied). **(2)** Her reason for going toward pain is mechanical rather than sentimental: unresolved grief is a *feeding condition* for [Threnes and Gilded Saints](src/lore/meta-dimensional-beings.md), whose whole method is closure-prevention — so a closure practitioner is in direct functional opposition to a class of meta-dimensional predator. She does not know this, has no Survey Corps record, and needs neither to work. **(3)** No origin, training, homeworld or season placement is asserted; those are left open rather than invented. Portrait added at `src/images/characters/sorcha.jpg`.
+
 ## [1.7.0] - 2026-07-26
 
 A cosmology release. Four structural questions about the Cascade were settled in one sitting — what a Universal Authority is made of, what a Dynarch actually is, what scale a membrane is, and which of two mechanisms "boundary zone" names — and in three of the four the answer resolved a contradiction the corpus was already carrying rather than adding new ground.
