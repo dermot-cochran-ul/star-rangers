@@ -7,8 +7,8 @@ role: Itinerant Healer
 status: Active
 aliases:
   - "the Quiet Woman (local usage, several settlements)"
-tags: [healer, constraint-literacy, boundary, etheric, conceptual-layer, itinerant, threnes]
-description: "An itinerant healer who works boundary-proximate settlements, treating the body by ordinary medicine and the pattern by constraint-literate craft. She is not a mystic; she is precise about which of the two she is doing."
+tags: [healer, constraint-literacy, boundary, etheric, conceptual-layer, itinerant, threnes, central-fatigue, medical]
+description: "An itinerant healer who works boundary-proximate settlements, treating the body by ordinary medicine and the pattern by constraint-literate craft. She is not a mystic, she is precise about which of the two she is doing, and she is running down a reserve nobody is screening."
 image: "sorcha.jpg"
 image_alt: "A woman with long silver-fair hair, in homespun wrapped robes, kneeling in a candlelit stone room with one hand resting on a blanketed figure and a worn leather satchel at her hip"
 ---
@@ -41,10 +41,24 @@ She wants the truth, and she is exact about why. Not for justice, and never for 
 
 Her gentleness is not softness. She has stood between an armed man and a frightened one and not raised her voice, on the working theory that whoever escalates first has agreed to be the problem. It has failed at least once. She does not talk about that.
 
+## The Cost
+
+Her weakness is **central fatigue**, and the word is exact rather than figurative.
+
+The Medical Corps already screens for it. [Teleportation Constraints](/star-rangers/lore/teleportation-limitations/) documents it as a consequence of repeated jump exposure; [Dr. Iona Vale](/star-rangers/characters/dr-iona-vale/) gates jumps on it at Threshold Station — *if the crew member shows unresolved central fatigue markers, the jump does not happen* — and her clinical case is blunt about the arithmetic: repeated exposure burns through central fatigue reserves faster than any rest cycle replaces them. It is not tiredness. It is a nervous system spending down a reserve, measurably, on a curve.
+
+Sorcha runs the same deficit from a different cause. Reading Etheric structure as it expresses through a distressed person is sustained perceptual work, and hers has no off switch — she has never learned to hold a case at arm's length, and by now it is not obvious the skill would still be available to her if she tried. Caring is not incidental to her method. It is the instrument. So the instrument is what wears.
+
+**Nobody screens her.** The protocol Iona Vale fought a room to establish covers Rangers, and Sorcha is not one, has no certification, and answers to no medical officer anywhere. The measure exists, the thresholds exist, the mandatory intake exists — and the one practitioner in the setting whose entire method is a sustained draw on that reserve is outside every last one of them. She keeps her own notebook. It records what she treated. It does not record what it cost her, because she has never thought to make that column.
+
+What this looks like from outside is a woman who works until she is grey and then works the next case. What it looks like from inside is not documented anywhere, by anyone, including her.
+
 ## Open Threads
 
 **She has no institutional standing at all.** No Survey Corps certification, no guild, no charter, no chain of command. This makes her useful in places those institutions cannot reach and completely unprotected in every other respect. Nothing has yet tested what happens when her practice meets an authority that wants an accounting from her.
 
 **She has never been told what she is counter to.** She has read enough boundary literature to have a working model of Etheric expression, and none at all of the entities that profit from it. What happens the first time something she is starving notices her is unwritten.
+
+**The two facts above multiply, and nothing in the record has tested it.** Her practice starves a class of predator that feeds on prevented closure. Her practice also spends down a reserve that rest does not fully replace. Which means the hours when she is least able to read what is in a room are, precisely, the hours she has earned by working — and a thing that feeds on unresolved grief has every reason to prefer a closure practitioner who has run herself empty. Whether anything has ever waited for that is not established. Only that the arithmetic permits it.
 
 **Where she is from is not established here**, deliberately. She works boundary-proximate settlements across more than one world, and no page yet places her origin, her training, or her arrival.
