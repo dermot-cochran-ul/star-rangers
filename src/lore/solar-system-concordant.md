@@ -12,9 +12,17 @@ Governments of the Solar System have risen, hardened, and been negotiated out of
 
 ## Origin
 
-The Tycho Accords ended the Coherence Wars, but the officers who imposed them understood something the wars had taught at the price of three billion lives: whoever governed next, and however badly, certain standards had to sit deeper than any government's reach. What a person is. What a machine may be ordered to do. How a ship identifies itself in the dark. The Accords therefore established, alongside the political settlement, a standing compact of shared law — and named it, aspirationally, for the cosmological unit the Solar System occupies: a [Concordant](/star-rangers/glossary/concordant/), a zone where the rules hold.
+The Tycho Accords ended the Coherence Wars, but the officers who imposed them understood something the wars had taught at the price of three billion lives: whoever governed next, and however badly, certain standards had to sit deeper than any government's reach. What a person is. What a machine may be ordered to do. How a ship identifies itself in the dark. The Accords therefore established, alongside the political settlement, a standing compact of shared law — and borrowed its name, deliberately and far beyond its station, from cosmology: a [Concordant](/star-rangers/glossary/concordant/), a zone where the rules hold.
 
-The name was chosen as a promise. Whatever else changed, inside this system the rules would hold.
+## The Name Is Not a Claim
+
+It is worth being exact about this, because the name invites a misreading that the Survey Corps has spent centuries correcting in footnotes.
+
+**The Solar System is not a Concordant Zone, and nothing this small could be one.** A true Concordant is a bounded region of consistency spanning the visible universe — the unit at which physical and Etheric law hold together, governed by a [Concordant Principal](/star-rangers/glossary/concordant-principal/) under a universe's [Universal Authority](/star-rangers/glossary/universal-authority/). Set against that, a single star and its planets is not a small Concordant. It is not a fraction of one worth expressing. The Solar System sits *inside* a Concordant Zone in the way a room sits inside a country, and the compact named here has no more cosmological standing than a room does.
+
+The signatories knew it. Borrowing the word was the point. They took the largest available term for *a region where the rules do not change* and fastened it to a body of civil law that had, at the time, no enforcement mechanism and no guarantee of surviving the decade. The name was chosen as a promise, and the scale of the overreach was the promise: whatever else changed, inside this system the rules would hold.
+
+Two consequences follow from the real scale, and both matter operationally. Because Concordants are that vast, a universe holds very few of them — so a true **boundary zone**, where two of them meet, is a genuinely rare thing to stand in, which is why [Threshold Station](/star-rangers/lore/boundary-zones/) is remarkable rather than routine. **Higher-dimensional folds are not rare at all**: they occur within a single Concordant, in their thousands, which is why [fold transit](/star-rangers/lore/ftl-mechanics/) is ordinary infrastructure with staging protocols and scheduling, while a boundary discrepancy is still an open file eleven years on.
 
 ## Character
 
