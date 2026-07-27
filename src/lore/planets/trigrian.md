@@ -25,6 +25,8 @@ The violence of the cycle is also the engine of the planet's fertility. Ash from
 
 For a stretch of tendays whose timing shifts with the outer companion's approach, Trígrian's geometry brings all three suns into the same quarter of the sky, and at dusk they go down together: the close pair side by side, the white companion trailing them to the horizon. Atmospheric dust stretches the event into a slow amber descent that survey crews have been known to schedule shore rotations around, and which the first report's author — in a document otherwise composed entirely in survey register — called *worth the transit on its own*.
 
+![Three suns descending together toward a ridge through heavy amber dust, the largest already half behind the hills, with grazing herd animals silhouetted on the plain below](/star-rangers/images/lore/trigrian-triple-sunset.jpg)
+
 The beauty is a warning. Three suns in one sky is the planet's insolation maximum: the triple sunset opens the burning season, when the combined heat load cures the grasslands to tinder, the dry storms arrive, and continent-scale fires redraw the map. The herd species read the same sky the survey does and are already moving before the suns converge; the predators move with them. The second survey rotation learned the planet's calendar the hard way — a field camp sited on good summer ground that stopped being ground at all inside a tenday — and every rotation since has kept the station's fire-break perimeter as its first standing maintenance task.
 
 ## A Lioness That Isn't
