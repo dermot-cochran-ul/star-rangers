@@ -12,6 +12,9 @@
 - A signal needs a baseline. You cannot read a deviation from normal without first knowing the person's normal.
 - The failure mode of youth is not generating the innocent explanation at all.
 - Some lessons are not available until much later, when something unrelated triggers the memory and you finally see what happened.
+- A detector can fail three ways: firing wrongly, being overridden, or being right and ignored because other people said otherwise.
+- The cost of a false alarm is a door you never learn was open. The cost of a suppressed true alarm is whatever you were being warned about.
+- You learn from the times the instinct was right, because those are the only ones that give you feedback.
 
 ### On the instinct that cuts both ways
 
@@ -29,13 +32,49 @@ Much later: the same pattern-detection fired on an online friend and was
 was not that the instinct had improved. It was that this time it could be
 **verified**.
 
+And a third case, which completes the shape: the instinct fired **correctly**
+and was **ignored anyway**, because other people said otherwise. Not a detector
+failure at all — an override.
+
+So there are three failure modes and only one success:
+
+| | Instinct | Outcome | Cost |
+|---|---|---|---|
+| At twenty-two | Fired wrongly | Believed, untested | A relationship, possibly a marriage |
+| The online friend | Fired correctly | Verified, acted on | Saved considerable time and money |
+| The third case | Fired correctly | Overridden by other people | Whatever the warning was about |
+
 The useful shape for fiction is that the instinct is not the virtue and not the
 flaw. It is a detector with no error-checking built in, and everything depends
 on what surrounds it: a baseline to compare against, an alternative explanation
-worth considering, and some way to test the reading before acting on it. Which
-makes this the working definition of the judgement an older protagonist has and
-a younger one does not — see [[the-older-hero]] and *Discernment comes from
-experience, not advice*.
+worth considering, some way to test the reading — and enough standing to act on
+it once tested. Which makes this the working definition of the judgement an
+older protagonist has and a younger one does not — see [[the-older-hero]] and
+*Discernment comes from experience, not advice*.
+
+**The cruellest part is the asymmetry of feedback.** A correct reading that you
+verify teaches you something. A false alarm you act on teaches you nothing,
+because you never find out what the other road held — the cost is a door you
+never learn was open. That is why the twenty-two-year-old error took decades to
+surface while the recent success was legible immediately, and it means the
+instinct's apparent track record is always flattering. You remember the times it
+was right. The times it was wrong are, by construction, invisible.
+
+**And the two failures cannot be weighed against each other.** Believing a false
+alarm cost a relationship that never happened. Overriding a true one cost
+whatever it cost. Neither figure is knowable, so there is no arithmetic
+available — no way to work out which error you are more prone to, and therefore
+which way to lean the next time the instinct fires. That is exactly why this is
+wisdom rather than a rule. A rule would need the numbers.
+
+For a character, that is the useful trap: not that they lack judgement, but that
+they cannot audit their own. Every correction they make is guesswork about
+which of two invisible costs was larger.
+
+The override case is different again, and worth keeping separate. It is not a
+problem of discernment but of nerve, and it belongs beside *Technical excellence
+is insufficient without trust* — being right is not the same as being able to
+act on being right when the room disagrees.
 
 It also sits deliberately against *Some problems are not communication
 problems*. Both are true. Knowing which one you are looking at is the whole
