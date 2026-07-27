@@ -1,5 +1,24 @@
 ## Life Lessons To Explore In Fiction
 
+**How real experience is allowed to enter the work: generalise, then fictionalise.**
+Take the *structure* of what happened — the mechanism, the asymmetry, the cost —
+and leave the circumstances behind. Never write the stereotypical bad author's
+book, the one whose characters are recognisably the writer's friends and
+relatives with the names changed. That fails twice over: it is unfair to people
+who did not consent to being material, and it produces worse fiction, because a
+character built to resemble someone real is constrained by facts that serve no
+story purpose.
+
+The test is whether the lesson still works once every identifying particular is
+stripped out. If it does, the particulars were never carrying it. If it doesn't,
+it isn't a lesson yet — it's an anecdote.
+
+Notes in this file are written to that standard: no names, no institutions, no
+dates, and specifics generalised wherever they would let someone recognise
+themselves.
+
+---
+
 - Every virtue has a liability point.
 - Wisdom is resource allocation under uncertainty.
 - Intelligence without judgment is dangerous.
@@ -33,16 +52,17 @@ was not that the instinct had improved. It was that this time it could be
 **verified**.
 
 And the shape of that verification is the whole lesson in miniature. What the
-instinct actually registered was an asymmetry: she would ask about his day, but
-never once showed initiative or real curiosity about his writing — only a
-superficial interest in the photographs. That is a *reading*, and readings of
-this kind are exactly what the twenty-two-year-old got wrong. Someone can be
-shy, or busy, or simply not a reader. On its own it proves nothing.
+instinct actually registered was an asymmetry of attention — warmth on the
+surface, no real curiosity underneath, and interest that arrived only where it
+cost nothing. That is a *reading*, and readings of this kind are exactly what
+the twenty-two-year-old got wrong. Someone can be shy, or busy, or simply
+elsewhere. On its own it proves nothing.
 
-What settled it was not the reading. It was a **checkable factual claim**: her
-pets turned out to be fake. The instinct pointed; a fact confirmed. Note that
-the fact had nothing to do with the original signal — the tell was not that she
-was uninterested, it was that something adjacent and verifiable was false.
+What settled it was not the reading at all. It was a **checkable factual claim
+about her circumstances that turned out to be false**. The instinct pointed; a
+fact confirmed. And note the fact had nothing to do with the original signal —
+the tell was not the absence of interest, it was that something adjacent and
+verifiable did not hold up.
 
 That is the practical form of the whole thing. An instinct is a prompt to go
 looking, not a verdict. It earns its keep when it directs attention toward
