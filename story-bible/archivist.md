@@ -18,15 +18,11 @@ Insights
 
 Perhaps an ancient explorer, scientist, or ranger who realizes that civilizations repeatedly lose their wisdom while preserving their knowledge.
 
-That theme connects:
-
 mentorship,
 aging,
 discernment,
 wisdom,
-and your interest in long-term civilization building.
-
-If I were prioritizing ideas most likely not to have been captured in technical worldbuilding prompts, I'd put these at the top:
+long-term civilization building.
 
 Every virtue has a limit beyond which it becomes a liability.
 The older protagonist whose superpower is judgment.
