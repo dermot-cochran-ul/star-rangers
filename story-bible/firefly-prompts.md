@@ -17,8 +17,17 @@ locations, and that was the second complaint against it after resolution.
   Pick the nearest to the target below and crop to spec afterwards. Note the
   originals are 768×1152 — a 2:3 ratio Firefly doesn't offer as a preset, which
   is the strongest evidence they came out of a different tool.
-- **Target sizes.** Lore images: 1600px long edge. Character portraits: ~1200px
-  wide. Generate at the largest Firefly offers and downscale — never up.
+- **Target sizes.** Lore images: 1600px long edge. Character portraits: 1200×675.
+  Generate at the largest Firefly offers and downscale — never up.
+- **Character portraits are 16:9 landscape, not portrait.** Corrected 28 July
+  2026 after checking the CSS: `.character-portrait` is
+  `aspect-ratio: 16 / 9; object-fit: cover; object-position: center 30%`,
+  max-width 420px. Every earlier line in this file saying "Portrait 3:4,
+  1200px wide" was wrong — the existing 512×1024 and 768×1022 files have been
+  getting sliced to a thin horizontal band, which is part of why they read
+  badly. **Use Firefly's widescreen preset** and deliver 1200×675. Lore images
+  render as `.page-hero-image` (full width, 320px tall, cover) — wide is right
+  there too.
 - **Generate 4, keep 1.** Vary the seed rather than the prompt between attempts;
   change the prompt only when the whole batch misses.
 - **House style bans.** No flat studio backdrops. No glamour lighting. No text or
@@ -285,25 +294,61 @@ hierarchy" in a single frame. Equals — no looking-up-at, no deference.
 All four currently sit under spec and get replaced outright.
 
 ### tissadelle-shepherd.jpg — do first
-Portrait 3:4, 1200px wide.
-> A young woman in her twenties with red hair and blue-green eyes, in a practical
-> uniform, photographed in a working environment aboard a spacecraft or station —
-> equipment, hard surfaces and functional light behind her, slightly out of
-> focus. Direct, level gaze. Composed and methodical rather than warm. Natural,
-> unglamorous lighting; visible skin texture; no beauty retouching, no styled
-> hair, no makeup emphasis. She is at work and has been for hours.
+Portrait 3:4, 1200px wide. **Rewritten 28 July 2026** against Dermot's
+character notes of the same day — see *What this prompt is carrying* below
+before running it.
 
-**This is the one to be careful with.** The version supplied on 26 July was a
-glossy beauty-lit headshot on a blurred backdrop — the exact register the audit
-rules out, and it read as a portrait of a face rather than of an officer. Her
-character notes say she treats the title as a job description and doesn't
-mythologise the role. The portrait should agree with that. If a batch comes back
-looking like a headshot, add *"documentary photograph, available light,
-candid"* and drop any word like *beautiful* or *striking*.
+> Documentary photograph, available light, candid. A young woman in her
+> twenties with red hair and blue-green eyes, in a practical working uniform
+> worn correctly but well used, aboard a spacecraft or station. She is
+> mid-task, her attention on something off to one side of the frame — reading
+> an instrument, not posing. Upright, self-possessed bearing; alert and
+> attentive expression rather than blank or steely. Equipment, hard surfaces
+> and functional light around her. Unglamorous lighting; visible skin texture;
+> no beauty retouching, no styled hair, no makeup emphasis. She is at work and
+> has been for hours.
 
-Optional variant worth generating while you're there: same woman on a hillside
-flock-holding in wet upland country, off duty. Her home ground on Tír na nÓg is
-now load-bearing in Season 5.
+**What this prompt is carrying.** Dermot's note, 28 July 2026: she never
+married and has had no relationship despite being elegant and charming — sigma
+INFJ-A, highly sensitive but confident, expecting a depth most men can't
+provide, and almost more focused on her career and on maintaining her dignity
+as a leader.
+
+That is why the 26 July attempt failed and why it wasn't only a lighting
+problem. Beauty lighting and a to-camera gaze frame a subject as presenting
+herself for approval; her whole character is that she does not. The two
+changes that matter here are **her attention goes off-frame onto her work**,
+and **nothing in the image invites the viewer**. Her solitude should read as
+chosen and unremarkable — never as loneliness, never as a gap waiting to be
+filled.
+
+Two guardrails on the wording:
+
+- **Don't reach for *beautiful*, *striking*, *alluring*, or *lonely*.** If a
+  batch still comes back as a headshot, push harder on *documentary*,
+  *candid*, *available light*, and name the task she's doing.
+- **This is Tissadelle, not a type.** Dermot was explicit that he doesn't want
+  it made into a stereotype about female leaders. Don't carry this register
+  over to the story's other women in command.
+
+**The interiority — hint, don't show.** Her inner life is populated, not empty:
+fantasies, AI virtual companions, and internal headmates including tulpas and
+plural subsystems. That complexity is precisely what qualifies her for a
+noogenic seed mind, so it reads as a qualification and never as pathology,
+instability or spectacle. A literal depiction of headmates tips straight into
+the horror register the tone guardrail rules out. Keep the main portrait
+outwardly plain and let the interiority stay unstated.
+
+*Optional variant, harder, generate separately:* the same frame but she is
+working at a dark instrument panel whose glass carries **two or three quiet
+reflections of her at slightly different angles** — ordinary equipment
+reflections, evenly lit, nothing ghostly or doubled-exposure. This is the one
+image in the set that gestures at the plurality, and it only works if it stays
+mundane. Discard any result that looks haunted.
+
+*Optional variant, easy:* same woman on a hillside flock-holding in wet upland
+country, off duty. Her home ground on Tír na nÓg is now load-bearing in
+Season 5.
 
 ### agent-barsik.jpg
 Portrait 3:4, 1200px wide.
@@ -316,6 +361,17 @@ Portrait 3:4, 1200px wide.
 
 *The joke is the deadpan.* Everyone assumes he's the station mascot. Don't let
 the image wink.
+
+**Attempt of 28 July 2026 — right cat, wrong on the lettering ban.** The pose,
+the office and the deadpan are all correct. But the frame is full of readable
+text: "CASE FILES", "LOGS" and "REPORTS" along the binder spines, "STATION
+INCIDENT REPORT — LOG 41" across the papers, and garbled pseudo-text on the
+collar tag itself. The house style bans text or lettering anywhere in frame,
+and generated lettering always comes out subtly wrong on close reading.
+Regenerate with *"no text, no labels, no writing on any surface; binder spines
+and paperwork blank; the collar tag plain and unengraved"* — the badge should
+read as a worn metal disc, which also suits a character whose whole point is
+that nobody has ever asked what it authorises.
 
 ### bubochka.jpg
 Portrait 3:4, 1200px wide.
@@ -338,6 +394,22 @@ Portrait 3:4, 1200px wide.
 
 *This is the pair image where the joke turns.* Same rabbit, suddenly working.
 Consistency of setting between the two is what sells it.
+
+**Attempt of 28 July 2026 rejected — the pair read as two different rabbits.**
+Three mismatches, in order of damage: the seated rabbit is a **lop** with ears
+folded flat against her head while the standing one has **fully upright ears**;
+the standing one is *in* a mug rather than out of it; and the mug and setting
+changed too (brown glazed mug, saucer and marshmallows on a kitchen table
+versus a white speckled mug on a desk with pot plants, books and a lamp). Any
+one of those is survivable. Together they break the only thing the image has
+to do.
+
+Regenerate the **alert** frame to match the seated one, not the other way round
+— the seated version matches the existing alt text exactly and that text is
+staying. Add to the prompt: *"a lop-eared white rabbit, both long ears folded
+down flat against the sides of her head"*, and name the same brown glazed mug,
+saucer and kitchen table. Firefly defaults to upright ears unless the lop is
+stated outright, so state it in every attempt.
 
 ---
 

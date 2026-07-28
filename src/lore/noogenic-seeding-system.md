@@ -5,7 +5,7 @@ category: "Cosmology"
 tags: [noogenic-seeding, noogenic-law, iwd, nsp, ufi, nooseed, universe-reproduction, auc, cei, protouniverse, telearch]
 description: "Canon model in which universes reproduce through information-rich minds that compress into noögenic seeds."
 image: "noogenic-seeding-system.jpg"
-image_alt: "A colourful universe and constellation with a million stars"
+image_alt: "A deep star field above towering rust-and-gold nebula cliffs, thick with bright stars, and at the centre a small glowing circuit-like structure of concentric squares embedded in the gas — a seed mind set into the material of a young universe"
 ---
 
 Some universes leave behind stone, radiation, and ruins. Others, if they are fertile enough, leave behind minds dense enough to begin again. The Noögenic Seeding System describes that second inheritance.
