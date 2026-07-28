@@ -8,7 +8,7 @@ status: Active
 aliases:
   - "Shepherd"
   - "Tiss"
-tags: [human, star-rangers, cadet, line-captain, celtic-union, tir-na-nog, sentinel, meridian, halyx-system, season-1, season-5, major-character]
+tags: [human, star-rangers, cadet, line-captain, celtic-union, tir-na-nog, sentinel, meridian, halyx-system, season-1, season-5, major-character, plural-mind, tobble]
 description: "Star Ranger cadet at the start of Season 1; earns the rank of Line Captain by Season 5."
 image: tissadelle-shepherd.jpg
 image_alt: "Tissadelle Shepherd early in her career, a young woman with red hair tied back and blue-green eyes, in a worn blue coverall, working at an instrument panel in a cramped equipment bay aboard a station; her hand is on a control and her attention is on something outside the frame, with another crew member at work behind her"
@@ -44,6 +44,18 @@ Shepherd does not mythologise the Rangers or the role. She treats the title as a
 She is aware that some situations do not have clearly available solutions. She handles this by continuing to work.
 
 Her relationship to Karla Wender develops across the early seasons from distant chain-of-command awareness to direct operational contact.
+
+## Tobble
+
+Shepherd is plural. Tobble is a headmate — a distinct person sharing one body with her, on the ordinary terms Concordant personhood standards have recognised for well over a century. See [Plural Minds](/star-rangers/glossary/plural-minds/) for how little the cosmology has ever had to make of this.
+
+Tobble is a ginger cat. Not a costume, a coping image, or a figure Shepherd invented to make something easier — a nonhuman member, whose own identity is simply not the species of the body they share. Asked during cadet intake why a cat, Tobble's answer went onto the record as *because that is what I am*, and the reviewing officer, to their credit, wrote it down and moved on to the next item.
+
+The obvious mistake gets made constantly. The [Smart Pet](/star-rangers/glossary/smart-pet/) programme is established enough that a Ranger who mentions a cat is assumed to be mentioning an animal, and the assumption holds right up to the moment it is applied to a person. [Agent Barsik](/star-rangers/characters/agent-barsik/)'s file is the study in how useful it is to be underestimated in that direction. Tobble's is the other half of it: being addressed as somebody's animal is only tradecraft when you chose it.
+
+Shepherd corrects it once, precisely, and does not raise it again — the same economy she brings to a misread instrument. She does not explain the arrangement to a room that has not asked, and she does not treat it as a disclosure she owes anyone. What she will not do is let it pass uncorrected in front of Tobble, which is a different matter from minding on her own account, and is the distinction most people who get it wrong never notice her making.
+
+Her file carries a plural registration and nothing further. Reviewers who go looking for a welfare concern in it find a mind with more people in it than the form has boxes for, all of them stable, none of them a symptom, and no finding to write.
 
 ## The Sentinel Signal
 
