@@ -1,6 +1,13 @@
 # Deny directory browsing
 Options -Indexes
 
+# Moved pages. mod_alias Redirect is resolved before the filesystem lookup, so
+# these win over the equivalent meta-refresh stubs built into _site/ - the stubs
+# exist for hosts without .htaccess (GitHub Pages), and a real 301 is better
+# wherever it is available. Paths are root-relative because cpanel-deploy.sh
+# strips the /star-rangers/ prefix from the built output before rsync.
+Redirect 301 /lore/solar-system-concordant/ /lore/solar-system-concord/
+
 # Prevent content-type sniffing
 <IfModule mod_headers.c>
   Header always set X-Content-Type-Options "nosniff"
