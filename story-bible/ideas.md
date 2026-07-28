@@ -33,3 +33,12 @@
 - Civilizations as engineered systems.
 - Social structures as feedback loops.
 - Maintenance versus innovation.
+
+## The Archive and the Memory
+- A record remembers in more detail than the person who made it.
+- Memory keeps the meaning and loses the particulars.
+- The archive keeps the particulars and never knew the meaning.
+- Recollection drifts silently. Only a record catches it drifting.
+- Preferring your memory to your archive feels like judgment. Usually it is only confidence.
+- The one who made the record is not automatically its best reader.
+- An archive answers what happened. It cannot answer what it was worth.
