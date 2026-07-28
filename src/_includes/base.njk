@@ -6,6 +6,11 @@
   <meta name="description" content="{{ description | default(site.description) }}" />
   <title>{% if title %}{{ title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="stylesheet" href="/star-rangers/css/main.css?v={{ build.assetVersion }}" />
+
+  <link rel="icon" href="/star-rangers/images/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/star-rangers/images/icons/favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="icon" href="/star-rangers/images/icons/favicon-16.png" sizes="16x16" type="image/png" />
+  <link rel="apple-touch-icon" href="/star-rangers/images/icons/favicon-180.png" />
   <link rel="alternate" type="application/atom+xml" title="{{ site.name }} — New Episodes" href="{{ '/feed/feed.xml' | absoluteUrl(site.url) }}" />
 
   <meta property="og:site_name" content="{{ site.name }}" />
