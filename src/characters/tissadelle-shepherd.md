@@ -11,7 +11,7 @@ aliases:
 tags: [human, star-rangers, cadet, line-captain, celtic-union, tir-na-nog, sentinel, meridian, halyx-system, season-1, season-5, major-character]
 description: "Star Ranger cadet at the start of Season 1; earns the rank of Line Captain by Season 5."
 image: tissadelle-shepherd.jpg
-image_alt: "Portrait of Tissadelle Shepherd, Star Ranger, with red hair and blue-green eyes"
+image_alt: "Tissadelle Shepherd early in her career, a young woman with red hair tied back and blue-green eyes, in a worn blue coverall, working at an instrument panel in a cramped equipment bay aboard a station; her hand is on a control and her attention is on something outside the frame, with another crew member at work behind her"
 known_codex: [star-rangers-anthem, ballad-of-the-stars]
 ---
 
