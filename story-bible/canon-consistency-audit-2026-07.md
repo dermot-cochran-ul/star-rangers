@@ -143,6 +143,14 @@ definition.
   navigation) that every regime since has enforced and none has owned. New lore
   entry `src/lore/solar-system-concordant.md`; three-senses disambiguation added
   to `glossary/concordant.md`; first mention in `ai-safety-kernel.md` now links.
+  **Superseded 2026-07-28 — the name went instead of the disambiguation.** Keeping
+  the borrowed word meant keeping the ambiguity and managing it in prose forever,
+  which is the thing the canonical glossary exists to stop. The compact is now the
+  **Solar System Concord**, restyled in-universe in 2790 UCSD; the entry moved to
+  `src/lore/solar-system-concord.md`, and *Concordant* is once again the zone and
+  nothing else. Pre-2790 documents keep the founding name by date rather than by
+  exception — the 2723 charter preamble in `formation-of-star-rangers.md` is the
+  one such instance in the corpus, and is deliberate.
 - **#3 — fixed (both options):** clarifying "corollary for readers of the
   operational record" paragraph added to Creation, Not Command (timeless mandates
   manifest in time without being events for the stratum); `physics-comparison.md`

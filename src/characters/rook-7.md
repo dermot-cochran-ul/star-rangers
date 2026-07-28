@@ -29,7 +29,7 @@ It does not sit down unless there is a specific reason. This is not protocol. It
 
 Rook-7 fills the detective function: it notices what others explain away, names patterns before the rest of the team is ready to name them, and accumulates observations without demanding resolution before the data supports it.
 
-Nothing about the chassis explains this. Threshold Station's own management architecture holds vastly more state than Rook-7 ever will and has never once resolved a boundary discrepancy the way Rook-7 routinely does — the difference is a world model built by moving through a place rather than by reading its telemetry. See [Embodied Cognition](/star-rangers/lore/embodied-cognition/) for why the Concordant pairs the two classes of mind instead of choosing between them.
+Nothing about the chassis explains this. Threshold Station's own management architecture holds vastly more state than Rook-7 ever will and has never once resolved a boundary discrepancy the way Rook-7 routinely does — the difference is a world model built by moving through a place rather than by reading its telemetry. See [Embodied Cognition](/star-rangers/lore/embodied-cognition/) for why the Concord pairs the two classes of mind instead of choosing between them.
 
 Its current limitation is timing. It can identify the conditions for boundary events and predatory-entity feeding. It cannot yet predict when the feeding will escalate.
 

@@ -11,7 +11,7 @@ image: "redline-protocol.jpg"
 image_alt: "Designed cover for Redline Protocol: a formal document-style cover with ruled lines and an OFFICIAL stamp on a dark navy background."
 ---
 
-**CONCORDANT GOVERNANCE ARCHIVE**
+**CONCORD GOVERNANCE ARCHIVE**
 **PROTOCOL: REDLINE — VARIABILITY GOVERNANCE**
 **Drafting Officer:** Dr. Kwame Reyes-Osei, Contingency Division, AI Governance Commission
 **Issued under:** [Exploration Budget (EB) Doctrine](/star-rangers/codex/exploration-budget-doctrine/)

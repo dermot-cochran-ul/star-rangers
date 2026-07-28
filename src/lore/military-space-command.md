@@ -22,7 +22,7 @@ That argument was not false. The [USC](/star-rangers/lore/united-space-consortiu
 
 What the argument omitted was memory. The USC had failed in a specific democratic architecture that granted legacy interests structural veto power. The Imperium's answer had been six decades of punitive rule over outer settlements. The MSC learned that consultative mechanisms improved authoritarianism. It did not learn that consultation is not the same thing as accountability.
 
-One reform did outlast the rhetoric around it. Imperium-era military [cyborg](/star-rangers/glossary/cyborg/) augmentation programs were wound down under the MSC and replaced with a certification regime — the MSC's own contribution to a standard that every government since has tightened rather than loosened, until cyborg modification became one of the most heavily regulated categories of technology in the Concordant.
+One reform did outlast the rhetoric around it. Imperium-era military [cyborg](/star-rangers/glossary/cyborg/) augmentation programs were wound down under the MSC and replaced with a certification regime — the MSC's own contribution to a standard that every government since has tightened rather than loosened, until cyborg modification became one of the most heavily regulated categories of technology in the Concord.
 
 ## Character
 

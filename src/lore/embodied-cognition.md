@@ -3,12 +3,12 @@ layout: lore-entry.njk
 title: "Embodied Cognition: Why a Body Sometimes Beats a Bigger Mind"
 category: "Technology"
 tags: [ai, embodied-cognition, world-model, rook-7, eden-warden, ai-safety-kernel, smart-pet, boundary-zones, technology]
-description: "Why a small embodied intelligence with a grounded world model routinely resolves what a vastly larger ship or habitat AI cannot — and why the Concordant's standing practice is to pair them rather than choose."
+description: "Why a small embodied intelligence with a grounded world model routinely resolves what a vastly larger ship or habitat AI cannot — and why the Concord's standing practice is to pair them rather than choose."
 ---
 
 A habitat AI knows every number its sensors report. It has never once put a hand on a bulkhead and felt the wrong answer come back through the metal.
 
-The Concordant runs two very different classes of lawful intelligence. **Systems minds** — ship navigational intelligences, [habitat AI collectives](/star-rangers/characters/eden-warden/), station management architectures — are vast, hold enormous state, and reason across whole environments. **Embodied minds** — analytical chassis like [Rook-7](/star-rangers/characters/rook-7/), mobile AI humanoids, [cyber-enhanced animals](/star-rangers/glossary/smart-pet/) — are small, cheap by comparison, and reason from inside a single body in a single place.
+The Concord runs two very different classes of lawful intelligence. **Systems minds** — ship navigational intelligences, [habitat AI collectives](/star-rangers/characters/eden-warden/), station management architectures — are vast, hold enormous state, and reason across whole environments. **Embodied minds** — analytical chassis like [Rook-7](/star-rangers/characters/rook-7/), mobile AI humanoids, [cyber-enhanced animals](/star-rangers/glossary/smart-pet/) — are small, cheap by comparison, and reason from inside a single body in a single place.
 
 The naive expectation is that the larger mind subsumes the smaller. Operational record says otherwise, consistently enough that the pairing is doctrine rather than courtesy.
 
@@ -38,7 +38,7 @@ Comm delay, fold transit, and the ordinary depth of a large architecture's decis
 
 ## Complementarity, Not Superiority
 
-None of this is an argument for small minds over large ones, and the Concordant's practice does not treat it as one. The two classes fail in opposite directions and are therefore paired:
+None of this is an argument for small minds over large ones, and the Concord's practice does not treat it as one. The two classes fail in opposite directions and are therefore paired:
 
 - A systems mind holds a year of pattern, a whole habitat's simultaneity, the cross-referenced history of every comparable event. An embodied mind holds one corridor, in exhausting detail, right now.
 - A systems mind can tell you that seal fatigue in this class of junction has preceded eleven prior incidents. An embodied mind can tell you this junction sounds wrong under strain today.

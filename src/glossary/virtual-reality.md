@@ -10,7 +10,7 @@ related:
 tags: [virtual-reality, culture, cei, fold-visualization, practices]
 ---
 
-Ask why immersive entertainment never became the dominant leisure technology anyone from an earlier century would have predicted, and the Concordant's own culture desks give a consistent answer: it did, once, and the audience left.
+Ask why immersive entertainment never became the dominant leisure technology anyone from an earlier century would have predicted, and the Concord's own culture desks give a consistent answer: it did, once, and the audience left.
 
 **Virtual reality** as mass entertainment peaked and declined well before 2826 UCSD, for a reason bound up with the same apparatus that audits recovered performances like ["Paper Galaxies"](/star-rangers/codex/paper-galaxies-audit-dialogue/) for [Creative Entropy Index (CEI)](/star-rangers/glossary/creative-entropy-index-cei/) credit: a fully manufactured sensory experience is, almost by construction, a well-lit picture of a new world rather than a new world. It can be extremely well made. It very rarely earns the kind of novelty the [Allocation Units of Cognition (AUC)](/star-rangers/glossary/ai-usage-credits-auc/) ledger — and, following it, popular taste — has come to prize. A civilization that grew culturally attentive to the difference between genuine emergence and recombination dressed up convincingly did not ban immersive entertainment. It simply stopped finding most of it interesting, and production followed audience the way it always does.
 
