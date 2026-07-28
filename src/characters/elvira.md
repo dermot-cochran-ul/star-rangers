@@ -31,8 +31,10 @@ Her identification of a "Court thing" at the causeway is partially correct. She 
 
 ## Before the Causeway
 
-[Season 1, Episode 0](/star-rangers/seasons/s01/e00/) covers her years as warden-heir of Dún Rí, roughly four years before her arrival at the outpost: her first uncertain attempt at a working of her own, guided by the household sage, and the night her cat chose the garden gate over the terrace and did not come back. It establishes where her self-taught vocabulary began, without resolving what she is.
+[Season 1, Episode 0](/star-rangers/seasons/s01/e00/) covers her last months as warden-heir of Dún Rí, in the autumn of Year -4 — roughly half a year before her arrival at the outpost the following spring: her first uncertain attempt at a working of her own, guided by the household sage, and the night her cat chose the garden gate over the terrace and did not come back. It establishes where her self-taught vocabulary began, without resolving what she is.
 
 ## Open Thread
 
 What is Elvira? Her classification is contested within the story. She is clearly a person, clearly capable of fine-grained boundary work, and clearly not human in the standard sense. Her species and origin are live questions. They are not resolved by external insertion — only by story events.
+
+[S01E03C04](/star-rangers/seasons/s01/e03/s01e03c04/) adds the first data point and resolves nothing: Galahad Thorne met her at Dún Rí in 2806 UCSD, sixteen years before any other record places her there, and says she has not changed since. His memory is the only source — no image, instrument reading, or third-party record corroborates it, and he has entered none of it in the survey file. Whether she remembers him is not established.

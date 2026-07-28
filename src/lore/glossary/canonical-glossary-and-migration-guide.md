@@ -77,6 +77,7 @@ The listing above is the spine, and it is *mostly* hierarchical — with two mat
 ### Concordant Zones
 - **Layer:** Universe Structure (In-Universe)
 - **Definition:** Bounded regions within a universe where one internally consistent physical and Etheric rule-set holds. *Concordance* is the plural; *Concordant* alone always means the zone.
+- **Synonyms, by register (settled 2026-07-28):** **Coherent cosmic region** — the Survey Corps' plain-language gloss, for first mention and cross-species records; exact, and clumsy in running prose. **Megaexpanse** — popular, non-specialist, and imprecise: it names the scale and drops the internal consistency, which is the whole content of the term. Both are legitimate in the mouths of the people who use them; neither replaces *Concordant Zone*, and the Archive's own voice uses the canonical term.
 - **Notes:** Places, not minds. A Concordant Zone exists only inside a universe a Worldwright made.
 
 ### Solar System Concord (settled 2026-07-28)
@@ -397,6 +398,7 @@ The word **Etheric** was carrying three jobs at once — a causal layer, a set o
 | “Concordant” (governance-intelligence sense) | Universal Authority | Reserve “Concordant” / “Concordant Zone” for the bounded region; name the universe-level governance mind a Universal Authority. |
 | “Concordants above universes” | Universal Authorities within universes | Reframe the governance intelligences as in-universe Universal Authorities; they are not supra-universal. |
 | “Plural Concordant” / “Concordant Plurality” | Plural Universal Authority | Same rename applied to the plural-ascension pathway. |
+| “megaexpanse” / “coherent cosmic region” in Archive voice | Concordant Zone | Not deprecations — both are live words with declared registers (popular and Survey-Corps-plain respectively). Migrate only when the *Archive itself* is speaking; leave them standing in dialogue, popular sources, and first-mention glosses. |
 | “Solar System Concordant” (present-day usage) | Solar System Concord | Restyled 2790 UCSD. Pre-2790 documents keep the founding name and are quoted as written — the 2723 charter preamble is the standing example; the date, not the spelling, decides. |
 | “Concordant-wide” / “the Concordant period” / “the Concordant” (civil or civilizational sense) | Concord-wide / the Concord period / the Concord | The compact and the era it names both follow the 2790 restyling. Reserve *Concordant* for the cosmological zone alone. |
 | “Concordant-equivalent governance” (protouniverse) | independent Universal Authority | A protouniverse leaves parental Telearch jurisdiction when it stabilizes its own Universal Authority. |
