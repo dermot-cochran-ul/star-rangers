@@ -263,3 +263,67 @@ without resolving, the original Tír na nÓg question — the codex annotation o
 Aoife's thorn-well vision still leaves Levril vs. something-higher open, and the new
 universe's Aoife being a Telearch avatar is a rhyme, not an answer, per the Arilon file's
 standing discipline: the shape recurs; the shape is not a verdict.
+
+---
+
+## Continuity: Tobble changes this arc (added 28 July 2026)
+
+Tobble became canon on 28 July 2026 — a nonhuman member of Tissadelle's plural
+collective, a ginger cat, on her character page and in the `plural-minds`
+glossary. The treatment above was written before that and does not account for
+it. Two consequences, one helpful and one that needs a decision.
+
+### It strengthens the NSP mechanism, and the glossary says so almost word for word
+
+The treatment justifies her high Noögenic Seed Potential from her temperament —
+holding contradictory commitments without collapsing them. That still stands,
+but the plurality is a far more direct qualification than the treatment knew it
+had. `inner-world-depth-iwd.md` defines the high-IWD mind by example:
+
+> One holds a single coherent self-model and discards contradiction on contact;
+> the other **maintains several nested models of itself at once** and can sit
+> with an unresolved paradox without collapsing it. The second is the
+> higher-IWD mind, and the more promising Noöseed candidate.
+
+A collective is that case in its least metaphorical form. This is what Dermot
+meant on 28 July by *"this complexity is what makes her suitable for a noögenic
+seed mind."* Worth using: nobody in the story needs to have noticed, and an
+assessor who screened her file for NSP would have had the answer sitting in the
+plural registration all along, unread because nobody thought to look for a
+qualification in a diversity field.
+
+**Do not let this tip into "her plurality is a superpower."** The glossary
+frames plurality as ordinary and lawful, and the whole point of the entry is
+that it is not a disorder *or* a distinction. High IWD is a consequence, not a
+purpose. Tobble is a person, not an upgrade.
+
+### It undercuts the interior strand's central question, unless it's used
+
+The Season 6 interior chapters turn on isolation — *can I trust this memory, is
+this the first time or the tenth, **is there anyone left to confirm anything I
+remember***. Tobble is, by definition, someone else in there. So one of these
+has to be true, and the arc changes shape depending on which:
+
+1. **Tobble is present throughout.** The isolation premise weakens; the horror
+   becomes two people losing time together, and a second perspective that can
+   sometimes corroborate and sometimes contradicts her. Warmer, less bleak,
+   and it gives the interior chapters a voice to be in dialogue with rather
+   than pure recursion.
+2. **Tobble is lost or unreachable in the compression.** The isolation premise
+   survives intact and gets much sharper — she is not merely alone, she is
+   alone *in a mind that had someone else in it*, which is a specific and
+   worse thing. Risk: killing a headmate to raise the stakes is exactly the
+   disposable-plural-character move the glossary's whole framing argues
+   against, and it would need to be handled as the loss of a person.
+3. **Tobble survives and she doesn't.** Inverts the arc entirely — the member
+   who was never on the org chart is what completes the transference.
+
+My read is **1**, with a stretch in mid-S6 where she genuinely cannot tell
+whether Tobble is present or reconstructed — which is the cognitive-horror
+question the arc already wants, asked about a person rather than about a
+memory. But this is a narrative choice, not a research finding.
+
+Either way the S6 chapters cannot simply not mention Tobble, so this needs
+settling before they are drafted.
+
+**Tobble's pronouns are not yet set** — they/them everywhere so far.
