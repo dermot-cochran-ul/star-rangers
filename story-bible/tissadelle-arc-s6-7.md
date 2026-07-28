@@ -327,3 +327,267 @@ Either way the S6 chapters cannot simply not mention Tobble, so this needs
 settling before they are drafted.
 
 **Tobble's pronouns are not yet set** — they/them everywhere so far.
+
+---
+
+## Karla Wender in Seasons 6-7 — an independent arc (added 28 July 2026)
+
+**The problem this fixes.** In the treatment above, Wender, Sen and Rook-7 are
+all detection instruments pointed at an absent Tissadelle. None of them has a
+stake in these seasons that would survive if the Last Stand had never happened.
+Dermot's call, 28 July 2026: give Wender one that does.
+
+Nothing below requires new canon. It is built entirely from what her character
+page already says she is, and from the one open slot on it — her rank
+progression between Chief Pilot and High Captain is explicitly still to be
+established in story.
+
+### Her stake: the doctrine is hers, and it is what sent Tissadelle in
+
+Wender's defining competence is already on the page:
+
+> She knows the difference between orders that can be executed and orders that
+> only look executable on a map. She acts on this knowledge without apology.
+
+Now put that beside the reason Tissadelle held the boundary open:
+
+> She holds it because it's the only order that's actually executable, and
+> giving an order she can't defend is the one thing she's never done.
+
+**Tissadelle applied Wender's doctrine, correctly, and it killed her.** That is
+Wender's problem and nobody else's. It exists the moment the order is given,
+independent of whether Tissadelle turns out to be recoverable, alive as a
+stalled noöseed, or gone. If the arc resolves with a full recovery, Wender's
+problem is unchanged.
+
+Note the trap this sets. The Oversight Council's clean report is not merely
+convenient — it is *doctrinally flattering*. It reads the Last Stand as the
+system working exactly as designed: a Ranger correctly assessed an executable
+order and executed it. Signing that is the easiest thing Wender will ever be
+offered, and it is the thing that makes her complicit in the closure-prevention
+the arc is indicting. To refuse it she has to attack her own doctrine, which is
+also the basis of her rank.
+
+### What her doctrine has no word for
+
+Executable, correct, and it consumes the person who executes it.
+
+Her framework sorts orders into can-be-done and only-looks-like-it-can. It has
+no third category, and the Last Stand is the case that proves it needs one. This
+is the season's real doctrinal question and it is hers to answer — a
+counterpart to Tissadelle's interior arc rather than a service to it, and a
+direct echo of Season 1's core mechanic: precise vocabulary is the weapon. Sen
+corrects the record. Rook-7 names the feeding pattern. **Wender has to invent
+the term the doctrine is missing**, and every draft of it she writes is also a
+confession.
+
+Useful shape for S7: what she eventually writes is not a heroic clause. It is
+something narrow, procedural and unglamorous — the kind of line that appears in
+a standing order and stops one specific thing happening again. The
+understatement is the point.
+
+### Get her hands back on the controls
+
+The treatment currently has Wender doing institutional refusal — memos,
+councils, records. She is a **pilot**, and her expertise is boundary-proximate
+transit and folding-adjacent approach corridors. If Dock Seven is a live,
+unstable overlap rupture, she is the one person in the cast who can actually fly
+it.
+
+Give her at least one sequence where the work is physical and hers: an approach
+nobody else is rated for, made on her own assessment, at the edge of what her
+own doctrine says is executable. It also puts the doctrinal question in her
+hands in the most literal way available — she has to decide, in the cockpit,
+whether the order she is about to give herself is one she could defend giving
+to somebody else.
+
+### Rank
+
+Her progression between Chief Pilot and High Captain is unestablished, so it is
+free. Two options worth weighing, neither requiring a retcon:
+
+1. **She is offered advancement on the strength of the Last Stand** — the
+   citation, the clean report, the promotion that comes with endorsing them —
+   and declines it, or accepts it and has to live inside it. Either is a
+   stronger scene than a rank granted offstage.
+2. **She is already High Captain by S6** (as the treatment assumes) and the
+   question is what she does with the seat rather than how she reached it. The
+   simpler option, and it keeps the focus on doctrine.
+
+### What this does not do
+
+It does not make her a second protagonist, and it should not. She gets a
+problem of her own that runs in parallel, intersects Tissadelle's twice, and
+resolves on its own terms. Roughly a third of the external-strand material,
+not half.
+
+**Open for Dermot:** whether her missing doctrinal category gets a name in the
+text, and whether the reader is shown her drafting it or only ever sees the
+final line quoted from a standing order years later. The second is more in the
+series' register; the first gives an actor something to play.
+
+---
+
+## The protouniverse is centred on Tobble (Dermot, 28 July 2026 — canon direction)
+
+**Settled.** What completes transference and founds the
+[Noögenic Protouniverse](/star-rangers/glossary/noogenic-protouniverse/) is
+**Tobble**, not Tissadelle as a whole system. Tobble is the originating seed
+mind and therefore, per the canonical glossary, holds the **founder's presiding
+seat** on the new universe's Universal Authority once it seats a Council of
+Harmonarchs.
+
+This supersedes the three-way resolution list in "Season 7 — Naming the Line"
+above, and answers the Tobble question raised in the continuity note: option 3.
+
+### Why it is the right call
+
+It fixes the gravity problem in one move. The arc no longer ends in an
+apotheosis for its own protagonist. The founder of a universe is the member
+nobody ever put on an org chart, whose personhood the paperwork could not
+record, and whom half the Corps assumed was somebody's Smart Pet. The setting
+has been arguing since the `plural-minds` entry that the forms are wrong and
+the people are real. This is that argument's payoff, delivered structurally
+rather than stated.
+
+It also frees Tissadelle. If she is not the founder, she can come back — the
+extraction ending becomes available without cheapening anything, because the
+cosmological stakes were met by someone else.
+
+### The mechanism (needs to be exact, or it reads as a twist)
+
+Compression does not select the most important member. It selects the one with
+generative structure left.
+
+Tissadelle is the one holding the boundary. She is fronting, bearing the
+paradox load deliberately, spending exactly the interior structure that Phase 6
+saturation consumes. Tobble is not load-bearing at that moment — and so, when
+the compression completes, Tobble is what is left with enough intact structure
+to keep generating. **The member who was not holding the line is the one who
+survives with something to build from.**
+
+That is not a cheat. It is the same NSP logic already in canon, applied to a
+collective instead of a single mind: the qualification was always the
+collective's high [Inner World Depth](/star-rangers/glossary/inner-world-depth-iwd/),
+and a collective's depth is not owned by whichever member happens to be fronting.
+It is also a quiet indictment of the martyrdom narrative the arc is already
+fighting — the sacrifice did not produce the transcendence. It nearly prevented
+it.
+
+### Saint Aoife still works
+
+The 24 July direction holds without amendment. The devotional frame is
+inherited through a shared life, not through founding — Tobble was present for
+every year of the Boirinn Uplands devotion, having shared the body that carried
+it. A Telearch avatar ministering to Tobble's baby Harmonarchs is understood as
+Saint Aoife for exactly the reason already recorded, and
+`src/codex/baby-universe-ballad.md` stays retroactively true. Dock Seven sang
+*St. Aoife, stay* over a body with two people in it.
+
+### Guardrails
+
+- **Not a vessel.** Tobble is not a receptacle Tissadelle's greatness passed
+  through, and no character should be allowed to frame it that way without
+  being wrong on the page.
+- **Not the joke.** A cat holding a presiding seat is funny once. Play it
+  absolutely straight thereafter; the deadpan is the register, per Barsik.
+- **Consent is the live question, and it is Tobble's.** The arc's stated ethic
+  is that nobody else gets to decide what a survivor's story means. That now
+  applies to a person institutions never managed to record correctly, who is
+  handed the highest office the cosmology has, without being asked. **This is
+  the best material the ending has.** Do not resolve it quickly.
+
+### Open for Dermot
+
+- Does Tissadelle come back? The extraction ending is now clean, but "she
+  returns and the person she shared a body with is a founder she can no longer
+  reach" is a harder and better ending than reunion.
+- Does Tobble want it? Declining is a real option the cosmology permits — a
+  founder without a Council is not an Authority, so a founder who refuses to
+  seat one leaves a protouniverse permanently *proto*.
+- Tobble's pronouns are still unset. They/them everywhere so far.
+
+---
+
+## Sen as near-narrator (Dermot, 28 July 2026 — structural direction)
+
+**The brief:** Sen becomes almost the narrator of Seasons 6-7, and is never
+omniscient. The second half is the load-bearing one.
+
+### The device
+
+The external strand is framed by Sen's archival apparatus — the unsigned
+marginal annotations already established as this desk's signature
+(`src/characters/sen.md`: *"an archivist's note, added during the 2826 UCSD
+archive pass" has appeared, unsigned, at the bottom of more incident reports
+than anyone in the Survey Corps has ever traced to one desk*). Chapters open
+or close on the record rather than the scene: what was filed, what the
+instruments logged, what a later pass noticed did not agree.
+
+This makes the reader's access to Seasons 6-7 *archival*. We do not see Dock
+Seven. We see what Dock Seven's file says, and then we see the note somebody
+added underneath it eleven months later.
+
+### The limit, which is the whole point
+
+**Sen knows what reached a file. Sen does not know what happened.** That gap is
+the series' central question — who gets to name the truth — and putting the
+narrator inside the gap means the form argues the theme without anyone stating
+it.
+
+Three failure modes to use deliberately, not apologise for:
+
+1. **Not filed.** Whole passages of the arc are simply unavailable to Sen. The
+   interior chapters are the obvious case: Sen has no access to Tissadelle's
+   inner world and never will. When the two strands finally correlate, Sen is
+   reading a *signal*, not a mind.
+2. **Filed wrong.** Sen inherits every error, omission and press-office gloss
+   in the record, and can only correct what Sen can prove. The Oversight
+   Council's clean report is, from Sen's desk, simply the document. Attacking
+   it requires evidence Sen does not yet have.
+3. **Chose not to annotate.** Sen has judgment and exercises it. A note Sen
+   declined to write is invisible to the reader as an absence — and can be
+   revealed later as the most consequential thing in the season.
+
+**Hard rule for whoever drafts these:** if Sen appears to know something
+interior, it is because *somebody filed it*, and the interesting question
+immediately becomes who talked. Never let the annotation see further than the
+paperwork can carry.
+
+### The near-narrator is three people
+
+Sen is plural — Cael verifies, Wyn holds what the dry record leaves out, Sen
+fronts and signs. So the framing voice is not one voice. Trained across a
+season, the reader learns to tell a **Cael** note (re-derived, distrustful of
+tidiness, reopening what closed too cleanly) from a **Wyn** note (naming who
+paid for a closure) from a **Sen** note (flat, procedural, load-bearing
+precisely because it declines to editorialise).
+
+This is a genuinely unusual narrator and it costs nothing to build — it is
+already canon. It also rhymes with Tobble without repeating him: two plural
+collectives at opposite ends of the arc, one keeping the record and one
+founding a universe, and neither treated as remarkable by the setting.
+
+### Sen's own stake — independent of Tissadelle
+
+Sen's method is anonymity. Eleven years of unsigned marginal corrections that
+work *because* nobody traces them to a desk, and because an unsigned note
+provokes no institutional defence.
+
+The Last Stand is the file that method cannot fix. A martyrdom narrative the
+whole Corps wants to keep is not corrected by a note somebody might read in a
+decade. To move it, **Sen has to sign something** — step out of the margin,
+become a named party to a dispute, and lose the exact quality that made two
+decades of quiet corrections possible.
+
+That is Sen's arc and it exists whether or not Tissadelle is recoverable: what
+does an archivist owe a record that will not be corrected quietly, and what is
+spent when they stop being invisible to fix it. Marginalia is the pressure
+point — the one voice that says the true thing to whichever of the three is
+fronting, and the only witness to what signing costs.
+
+### Open for Dermot
+
+- Does Sen sign? Refusing is a real ending, and a bleak one.
+- Whether the reader is ever told which of the three wrote a given note, or
+  only ever learns to guess. Guessing is stronger, and harder.
