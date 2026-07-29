@@ -32,6 +32,8 @@ Earth's own orbital population has an obvious founding cause, and it generalises
 
 **Because of what the line itself buys.** A settlement above the threshold cannot be boarded by a Ranger cutter on the Rangers' own initiative. For a community with something to protect — a language, a doctrine, a trade practice, a set of books nobody else keeps — that is not a technicality. It is the whole reason to build up rather than out.
 
+What the line does not supply is anything to do next. Crossing it removes other people's authority from a settlement's decks and puts nothing in its place: a polity above the threshold still has neighbours, still needs traffic agreements and clearances and somewhere to send a complaint, and has forfeited the shared administrative ceiling that would otherwise have handled all three. This is why the settlements above the line tend to acquire something else instead — [the Commonwealth](/star-rangers/lore/the-commonwealth/) in New London's case, the Thing in the Belt's. Sovereignty is a wall, not a telephone, and every polity that builds the wall discovers it needs the telephone.
+
 ## Where the Concentrations Are
 
 Three patterns are documented, and they are governed very differently.
