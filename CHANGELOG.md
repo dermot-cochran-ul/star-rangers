@@ -16,7 +16,7 @@ The other half of the release is **expand, don't replace**, made explicit: `cano
 
 `MINOR` per the changelog's own rule: the release is additive surface area — one chapter, four codex entries, two lore entries, and front-matter insertions. Nothing was removed, renamed or moved, so nothing 404s and no `deploy.conf` key, theme or build output changed.
 
-**Tagging gap closed.** `v1.7.0`, `v1.8.0` and `v1.9.0` were all cut from a local clone at their respective release commits and pushed together — the "not yet tagged" notes under `[1.7.0]` and `[1.8.0]` are superseded and left in place as the record of why they were late. The GitHub-automation path used for most changes here still cannot publish `refs/tags/*`; tagging remains a local step.
+**Tagging gap closed.** `v1.7.0` and `v1.8.0` were cut from a local clone at their release commits (`3577221` and `9f69f24`) and pushed, clearing a backlog both of those release notes had recorded as pending; `v1.9.0` was cut at this release's own merge commit, which is why it could not go up with them. The "not yet tagged" notes under `[1.7.0]` and `[1.8.0]` are superseded, and are **left in place deliberately** as the record of why those two were late rather than edited away. The GitHub-automation path used for most changes here still cannot publish `refs/tags/*` — tagging remains a local step, and the backlog is what happens when no local clone is in the loop.
 
 ### Added
 
