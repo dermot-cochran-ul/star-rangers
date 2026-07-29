@@ -113,6 +113,27 @@ locations, and that was the second complaint against it after resolution.
      reading as "R & ▨▨E"). Add *text, lettering, signage, writing* to the
      negative prompt on any regeneration — see the house rule below.
 
+## dorian-calloway.jpg — 29 Jul 2026
+- **Type:** generation (replaces a stock-headshot-register portrait)
+- **Tool:** Adobe Firefly, widescreen preset — output 1408×768, centre-cropped to
+  1365×768 and resized to 1200×675
+- **Prompt:** the § C entry, quoted there in full.
+- **Result:** correct on the first batch. No uniform; business dress worn like a
+  long day, jacket open and one sleeve turned back, a small plain lapel pin as
+  the only mark of office. The coordination floor carries the breadth of the
+  remit — orbital ring diagrams, telemetry traces and a schematic floor plan
+  across the wall displays, working clutter and a melting iced drink below.
+- **Lettering check passed.** This was the risk the prompt was written against,
+  since status boards invite the failure that killed the 28 July Agent Barsik
+  attempt. Inspected at 4× on both the left display stack and the desk
+  printouts: the text-like rows resolve to blur with no legible glyphs anywhere,
+  which is the intended outcome — the *suggestion* of dense readouts without any
+  actual writing. **Worth checking the same way on any future frame that puts
+  screens or paper near the camera**, rather than judging it at page size.
+- **Alt text updated** at `src/characters/dorian-calloway.md` — it previously
+  read "A mature businessman portrait", which named a stock category rather than
+  describing a frame.
+
 ## bubochka-alert.jpg — 29 Jul 2026
 - **Type:** generation (replaces the rejected 28 July attempt)
 - **Tool:** Adobe Firefly, widescreen preset — output 1408×768, centre-cropped to
