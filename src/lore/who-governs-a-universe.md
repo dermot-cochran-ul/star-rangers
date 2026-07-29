@@ -28,7 +28,7 @@ A **Concordant Principal** — commonly, a **Harmonarch** — is the governing m
 
 ### Universal Authorities
 
-A **Universal Authority** is the native governance intelligence of a universe as a whole. Authorities maintain universe-level balance — [CEI](/star-rangers/glossary/creative-entropy-index-cei/) regulation, entropy behavior, continuity constraints, the systemic health of the whole vessel.
+A **Universal Authority** is the native governance **body** of a universe as a whole — its Concordant Principals in council, plus a presiding seat. Authorities maintain universe-level balance — [CEI](/star-rangers/glossary/creative-entropy-index-cei/) regulation, entropy behavior, continuity constraints, the systemic health of the whole vessel.
 
 Here the second distinction nearly collapses back into the first, and it is worth slowing down. **A Universal Authority is not a fourth being standing above the Principals. It is the Principals, in council, plus one presiding seat.**
 
@@ -42,7 +42,7 @@ It also disposes of an apparent oddity in the record: Authorities described some
 
 One thing a Universal Authority is not: supra-universal. Its writ ends at its own universe's edge as surely as a Principal's ends at a zone boundary.
 
-**A terminology caution.** Legacy records use the bare word "Concordant" for these governance minds as well as for the zones — one word, two offices. That usage is deprecated. In current canon, *Concordant* (or *Concordant Zone*) names the region; *Universal Authority* names the universe-level governing mind; *Concordant Principal* names the zone-level one. Migrating a legacy document? The [migration guide](/star-rangers/lore/glossary/canonical-glossary-and-migration-guide/) has the mapping.
+**A terminology caution.** Legacy records use the bare word "Concordant" for these governance minds as well as for the zones — one word, two offices. That usage is deprecated. In current canon, *Concordant* (or *Concordant Zone*) names the region; *Universal Authority* names the universe-level governing **body**; *Concordant Principal* names the zone-level governing mind. Note the asymmetry, because it is the point: a Principal is a mind, and the Authority those minds constitute is not a larger mind but a council. Migrating a legacy document? The [migration guide](/star-rangers/lore/glossary/canonical-glossary-and-migration-guide/) has the mapping.
 
 ### Telearchs
 

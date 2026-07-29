@@ -16,7 +16,9 @@ The [Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/) — 
 
 Within that manifold, each **primary universe** occupies its own bounded **cosmic membrane** (**membrane** for short — the word "brane" in older Survey Corps literature is the same term, since shortened out of use for being too easily misheard as "brain" over a comm channel): the whole vessel, with its physics-plus-Etheric envelope set by Worldwright design.
 
-**The structure nests, and getting the scale right is the commonest correction Survey Corps makes to its own older filings.** A membrane is a universe. A [Concordant Zone](/star-rangers/glossary/concordant/) is a region *inside* one — a universe holds many, and none of them is a membrane in its own right. A single [Worldwright](/star-rangers/glossary/worldwright/) authors many primary membranes, since the unit of creation is the universe set rather than the single world; the zones inside each are the unit of consistency, not of authorship.
+**The structure nests, and getting the scale right is the commonest correction Survey Corps makes to its own older filings.** A membrane is **universe-scale** — the bounded region one primary universe occupies, and never anything smaller. A [Concordant Zone](/star-rangers/glossary/concordant/) is a region *inside* one — a universe holds many, and none of them is a membrane in its own right. A single [Worldwright](/star-rangers/glossary/worldwright/) authors many primary membranes, since the unit of creation is the universe set rather than the single world; the zones inside each are the unit of consistency, not of authorship.
+
+**Universe and membrane name the same object, and which word is right depends on which way you are facing.** *Universe* is the thing from inside — what it contains, and the authority that governs it. *Membrane* is that same object as the Common Manifold sees it: bounded, with neighbours, and an Interval between. Inside-facing statements take the first; anything measured across takes the second. This is why a Concordant Zone sits inside a *universe* while a bleed event happens between *membranes* — one boundary, two jobs for the word.
 
 The distinction is not pedantry, because it decides which effects can happen where:
 
@@ -75,5 +77,31 @@ An ordinary Class III Shear Event resolves as either Intermembrane Bleed (Etheri
 A transient gravity tunnel is not engineered, not Lagrange-anchored, and not stable enough to hold open on purpose. It forms and collapses on its own schedule, lasts seconds to minutes at most, and — in every documented case — closes with no warning Survey Corps instrumentation has ever caught early enough to act on. It should never be described as a "natural fold route" the way [Eden Space Habitat's](/star-rangers/lore/eden-space-habitat/) is: Eden's route is stable enough to schedule transit through, and a transient gravity tunnel is not stable enough to schedule anything. No confirmed account exists of a transit caught mid-tunnel at collapse resolving safely on either end.
 
 Two documented cases exist, at opposite ends of how predictable the underlying strain-distribution is: [Tír Tairngire](/star-rangers/lore/universes/tir-tairngire/), where the tunnel recurs on a rhythm regular enough to correlate with Tír na nÓg's own Conjunction, and [Sí Gaoithe](/star-rangers/lore/universes/si-gaoithe/), where it does not correlate with anything Survey Corps has measured yet.
+
+## What Crosses the Interval, and Why
+
+Three phenomena above cross a gap that nothing physical crosses, and they are not three exceptions. They are one rule.
+
+**A thing reaches across the Interval exactly to the extent that a band of the [Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/) carries it.** The manifold has three, and each carries one thing:
+
+| Band | Carries | Observed as |
+|---|---|---|
+| **12–15** — extended spacelike lattice | geometric strain | **gravity**: Membrane Shadows, transient gravity tunnels |
+| **16–19** — extended timelike channels | causal timing | timebase disagreement between overlapping frames |
+| **20+** — trans-concordant constraint field | Etheric archetypal templates | Membrane Resonance, Intermembrane Bleed |
+
+Everything else is membrane-confined. Matter, ships, beings, and the other force-domains — **electromagnetics, Nature** — have no band and therefore no reach: they stop at their own membrane and always have. This is why "nothing crosses the gap" and "the far side's mass is measurable here" are both true statements about the same event, and not a contradiction.
+
+**Gravity is the case where the rule becomes visible.** Its band is the geometric one, and gravity *is* geometry — so where two membranes draw close, gravity is the force whose trans-membrane term stops being structural and starts being an instrument reading. Not a special property of gravity so much as the one force whose nature matches what the between is made of.
+
+### Why this is a Telearch matter
+
+The governance has the same shape as the physics, and not by coincidence.
+
+The 20+ band encodes the nonlocal boundary conditions that **Worldwright and Telearch operations must satisfy** — which places the [Telearch](/star-rangers/glossary/telearch/) line squarely in the region where trans-membrane structure lives. Telearchs are native to no universe; the continuity branch is the only tier that is *itself* trans-membrane.
+
+So every force-domain divides the same way its physics does. **Local operation** — a force behaving ordinarily inside one membrane — runs with the zone's [Concordant Principal](/star-rangers/glossary/concordant-principal/). **Continuity** — that same force holding across boundaries and across universes — runs up the Telearch line, because a trans-membrane fact can only be held by a trans-membrane office.
+
+That is what a [Dynarch](/star-rangers/glossary/dynarch/)'s dual obligation *is*, restated from the physics side rather than the governance side: a proxy Telearch, scoped to one force-domain, administering from within a membrane the thing whose continuity is maintained from without. And it is why continuity prevails where the two conflict — the local aspect is the one that stops at the edge.
 
 See also: [Intermembrane Bleed](/star-rangers/glossary/intermembrane-bleed/), [Etheric](/star-rangers/glossary/etheric/), [The Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/), [Boundary Zones and Concordant Edges](/star-rangers/lore/boundary-zones/), [The Cosmic Cascade](/star-rangers/lore/cosmic-cascade/), [Membrane Shadows: Gravitational Imprints from Adjacent Membranes](/star-rangers/lore/membrane-shadows/), [Tír Tairngire: The Harmonic Membrane](/star-rangers/lore/universes/tir-tairngire/), [Sí Gaoithe: The Discordant Membrane](/star-rangers/lore/universes/si-gaoithe/).
