@@ -16,7 +16,7 @@ image_alt: "A woman pilot in a navy flight suit seated at a helm station, hands 
 
 The pilot section works in conditions where most navigation instruments fail: boundary-proximate transit, folding-adjacent approach corridors, edge conditions at [Concordant](/star-rangers/glossary/concordant/) overlap zones. Wender commands it.
 
-She begins Season 1 holding the rank of Chief Pilot — the working title carried by a [Chief](/star-rangers/lore/star-rangers-command-hierarchy/) on the piloting and navigation track, commanding the pilot section, and a senior operational rank carrying command authority over Rangers within the section's scope. The later rank of High Captain is part of her arc across the series. The full progression between them — including whether she passed through Starwarden, Starwarden First Officer, Line Captain, and Star Captain, or was advanced out of turn — remains to be established in story.
+She begins Season 1 holding the rank of Chief Pilot — the working title carried by a [Chief](/star-rangers/lore/star-rangers-command-hierarchy/) on the piloting and navigation track, commanding the pilot section, and a senior operational rank carrying command authority over Rangers within the section's scope. The later rank of High Captain is part of her arc across the series. The full progression between them — including whether she passed through Starwarden, Archwarden (styled Starwarden First Officer for the whole of the period in question), Line Captain, and Star Captain, or was advanced out of turn — remains to be established in story.
 
 She does not perform authority. She carries it. These are different postures. Rangers who mistake quietness for uncertainty about her tend to correct that reading quickly and once.
 

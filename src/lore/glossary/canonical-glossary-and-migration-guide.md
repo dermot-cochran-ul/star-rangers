@@ -2,7 +2,7 @@
 layout: lore-entry.njk
 title: "Canonical Glossary and Terminology Migration Guide"
 category: "Reference"
-tags: [glossary, terminology, migration, canon, hierarchy, concordants, worldwrights, telearchs, protouniverse, dimensions, compact-dimensions, interval, common-manifold]
+tags: [glossary, terminology, migration, canon, hierarchy, ranks, archwarden, concordants, worldwrights, telearchs, protouniverse, dimensions, compact-dimensions, interval, common-manifold]
 description: "Central canonical glossary for Star Rangers terminology, including migration mappings and plural Universal Authority/collective ascension additions."
 image: "canonical-glossary-and-migration-guide.jpg"
 image_alt: "An open old book"
@@ -86,6 +86,13 @@ The listing above is the spine, and it is *mostly* hierarchical — with two mat
 - **The name:** Founded as the **Solar System Concordant**, borrowing the cosmological word as a deliberate overreach — a promise that inside this system the rules would hold. Restyled the **Solar System Concord** in **2790 UCSD**, giving the word back. Same institution; no clause, commission or signatory changed.
 - **Notes:** This is why *Concordant* now has exactly one live sense. The compact is the **Concord**; its era and civilization take the same word (**Concord-wide**, **the Concord period**); the zone above keeps **Concordant**. Do not write "Solar System Concordant" for present-day usage.
 - **Dating rule:** Pre-2790 documents carry the founding name correctly and are quoted as written, not corrected — the Star Rangers' 2723 charter preamble ("the limits of Solar System Concordant coherence") is the standing example. Post-2790 usage of the old name is an error.
+
+### Archwarden (settled 2026-07-29)
+- **Layer:** Rank (In-Universe, Star Rangers)
+- **Definition:** The Star Rangers rank one rung **above Starwarden** and one **below Line Captain**, held by a vessel's second-in-command. Reader-facing entry: [Rank and the Chain of Command](/star-rangers/lore/star-rangers-command-hierarchy/).
+- **The name:** Restyled **Archwarden** in **2833 UCSD**, from **Starwarden First Officer** — also written **Starwarden First Class** and **Executive Starwarden First Class**. Three written forms for one rank, all three of them misleading in the same way: *First Officer* named the post (first officer **of a vessel**) and never meant first officer *to* a Starwarden, but that is how it read, and the two ranks are consecutive rungs rather than a commander and a deputy. *Archwarden* says senior warden, which is what the rank is.
+- **Notes:** A restyling, not a reorganisation — **the rank's seniority, duties and place on the ladder are unchanged**, and an Archwarden is nobody's deputy. The retitling amended every regulation naming the rank, the **Field Triumvirate** clause included, where the old style was most costly: that clause names a warden-rank and a Starwarden in one breath, so the old wording implied a chain of command between them that does not exist.
+- **Dating rule:** Pre-2833 records carry the older styles correctly and are read as written, not corrected — the **Dock Seven** Field Triumvirate convening of 2831 is the standing example, and `s05e02c03` is right as published. Post-2833 usage of the old styles is an error. Note the contrast with the *Dynarch → Mediarch* row below, which is an Archive terminology correction with **no** dating rule: this one is an institution renaming its own rank on a date, so both names are correct, each for its period.
 
 ### Universal Authorities
 - **Layer:** Governance (Universe-Level)
@@ -428,6 +435,7 @@ The word **Etheric** was carrying three jobs at once — a causal layer, a set o
 | “Archewright-created universe(s)” | Worldwright-created primary universe set(s) | Replace direct creation language; keep Archewrights as archetype/possibility authors. |
 | “High Celestials” (coordination/jurisdiction context) | Telearchs | The commoner sense of the retired term. |
 | “higher celestials” (force/law governance context) | Mediarchs | The force-governing sense of the retired term. If context cannot disambiguate, flag rather than guess. Note this term has now been migrated twice: “higher celestials” → *Dynarch* → *Mediarch*, and the destination is the current name. |
+| “Starwarden First Officer” / “Starwarden First Class” / “Executive Starwarden First Class” (present-day usage) | Archwarden | Restyled 2833 UCSD. **A rank retitling with no change of seniority, duties or position** — above Starwarden, below Line Captain, a vessel's second-in-command throughout. Pre-2833 records keep the older styles and are read as written; the 2831 Dock Seven Field Triumvirate convening is the standing example, and the date, not the style, decides. Unlike *Dynarch → Mediarch*, this is an institution renaming its own rank rather than the Archive correcting its own vocabulary, so the old styles stay **correct for their period** instead of naming nothing. |
 | “Dynarch” / “Dynarchs” | Mediarch / Mediarchs | Retired 2026-07-29. A pure rename with **no change of meaning, rank, or property** — every statement filed about a Dynarch stands unaltered about a Mediarch, so migrate on sight and do not reopen the substance. *Dynamis* named the tier for the forces, which are the Worldwright's design and the one thing the tier cannot alter; *medius* names the mediating office the 2026-07-26 proxy settlement established. Unlike the Concordant senses, nothing is left behind holding the old word: *Dynarch* now names nothing. **No in-universe register keeps it** — devotional and provincial records use *Exarch*, which is unaffected and stays canonical — so there is no quoted-as-written exception here of the kind the Solar System Concord row carries. |
 | “Concordant” (governance-intelligence sense) | Universal Authority | Reserve “Concordant” / “Concordant Zone” for the bounded region; name the universe-level governance mind a Universal Authority. |
 | “Concordants above universes” | Universal Authorities within universes | Reframe the governance offices as in-universe Universal Authorities; they are not supra-universal. |
