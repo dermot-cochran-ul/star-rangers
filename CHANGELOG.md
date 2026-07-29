@@ -6,6 +6,16 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+*Nothing yet.*
+
+## [1.8.0] - 2026-07-28
+
+A cosmology-and-canon release, and the largest single sweep of Cascade terminology the project has done. Its spine is one recurring defect rather than a theme: **each of the 2026-07-26 Cascade settlements had been recorded where it was decided and never carried to the term on the other side of it.** Four instances turned up, and chasing them exposed two questions the corpus had been implying without answering — what crosses the Interval, and why physical law is reliable at all.
+
+Also here: the Solar System Concordant becomes the **Solar System Concord**, retiring the last collision on that word; a new Season 1 chapter; and the first codex entry written to read a settled mechanism devotionally without contradicting it.
+
+**Not yet tagged**, and neither is its predecessor — see the note under `[1.7.0]`. **`v1.7.0` and `v1.8.0` both need cutting from a local clone**, at each release's merge commit; the automation path used here cannot publish `refs/tags/*`.
+
 ### Added
 
 - **Character: Sorcha** (`src/characters/sorcha.md`) — an itinerant, institutionally unaffiliated healer who works boundary-proximate settlements, carrying ordinary medicine in one half of her satchel and chalk, thread and a notebook in the other. **Constraint-literate in the same self-taught tradition as [Elvira](src/characters/elvira.md), with one difference: Elvira reads Etheric structure expressed through a *place*, Sorcha reads it as expressed through a *person*.** Three canon decisions worth recording: **(1)** she explicitly does **not** heal "the spirit" — Layer 1 is an origin condition without agency or intervention semantics, so nothing there can be treated; her work sits at the Conceptual and Etheric layers, and the page says so while allowing that the people she treats call it whatever they like (the register rule, applied). **(2)** Her reason for going toward pain is mechanical rather than sentimental: unresolved grief is a *feeding condition* for [Threnes and Gilded Saints](src/lore/meta-dimensional-beings.md), whose whole method is closure-prevention — so a closure practitioner is in direct functional opposition to a class of meta-dimensional predator. She does not know this, has no Survey Corps record, and needs neither to work. **(3)** No origin, training, homeworld or season placement is asserted; those are left open rather than invented. Portrait added at `src/images/characters/sorcha.jpg`.
