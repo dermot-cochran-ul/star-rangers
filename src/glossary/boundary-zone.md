@@ -3,7 +3,7 @@ layout: glossary-entry.njk
 title: "Boundary Zone"
 id: boundary-zone
 category: "Cosmology"
-short: "A region where two adjacent Concordants meet, producing measurable instrument drift and physical anomalies."
+short: "A region where two regions of differing physical and Etheric conditions meet, producing measurable instrument drift; in operational use, almost always a local narrowing of the Interval between two universes."
 related:
   - "Concordant"
   - "Instrument Drift"
@@ -11,11 +11,15 @@ related:
 tags: [boundary, concordant, cosmology]
 ---
 
-A **boundary zone** is the region where two adjacent [Concordants](/star-rangers/glossary/concordant/) meet. Each Concordant maintains slightly different physical and Etheric conditions; their shared edge is where those differences become measurable.
+A **boundary zone** is a region where two sets of physical and Etheric conditions meet and neither wholly governs. Where that happens, the difference between them becomes measurable.
 
-The term covers two mechanisms that are easily confused. An **intra-universe** boundary zone is an internal edge between two Concordant Zones of the same universe: instrument drift, timebase mismatch, lawful disagreement. An **inter-membrane** boundary zone is a narrowing of the [Interval](/star-rangers/glossary/interval/) between two whole universes, and is the only kind that can produce [Intermembrane Bleed](/star-rangers/glossary/intermembrane-bleed/) or a [Membrane Shadow](/star-rangers/glossary/membrane-shadow/).
+**The term covers two mechanisms, and only one of them is somewhere anybody has ever stood.**
 
-The practical result: instruments placed on either side of a boundary disagree. Time, distance, and local physical constants may differ across the zone. The instruments are not broken — they are each accurately measuring their immediate environment. The environment itself is inconsistent.
+An **inter-membrane** boundary zone is a local narrowing of the [Interval](/star-rangers/glossary/interval/) between two universes, produced where a **flexure** — a standing bend in a [membrane's](/star-rangers/lore/concordant-membranes/) own geometry, not a [higher-dimensional fold](/star-rangers/lore/universe-overlap-and-folding/) and not anything anyone built — carries a patch of it toward its neighbour. The narrowing is local because the flexure is, which is why such a zone has ordinary coordinates and can be occupied, monitored and docked at. It is also the only kind that can produce [Intermembrane Bleed](/star-rangers/glossary/intermembrane-bleed/) or a [Membrane Shadow](/star-rangers/glossary/membrane-shadow/). **In operational usage — Survey Corps postings, monitoring charters, everything below — "boundary zone" means this one.**
+
+An **intra-universe** boundary zone is an internal edge between two [Concordant Zones](/star-rangers/glossary/concordant/) of the same universe. It is real, and it is not a place: a Concordant Zone spans the visible universe, so the edge between two of them lies beyond any observer's horizon and no instrument has ever been placed on both sides of one. The category is sound and the Survey Archive keeps it for completeness. Nothing is stationed there, and nothing could be.
+
+The practical result, at the kind that can be visited: instruments placed on either side of a boundary disagree. Time, distance, and local physical constants may differ across the zone. The instruments are not broken — they are each accurately measuring their immediate environment. The environment itself is inconsistent.
 
 Boundary zones are not acutely hazardous to life, but extended exposure has documented effects: fine instrument calibration degrades, Etheric-based practices such as ritual work become unreliable, and high-activity events can affect direct sensory perception.
 

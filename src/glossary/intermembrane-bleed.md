@@ -17,7 +17,7 @@ tags: [intermembrane-bleed, membrane-resonance, etheric, post-11-manifold, bound
 
 Each **primary universe** sits on its own bounded cosmic membrane within that manifold; a [Concordant Zone](/star-rangers/glossary/concordant/) is a region inside one, never a membrane itself. At most separations, adjacent membranes stay far enough apart that Etheric templates on one side have no measurable effect on the other. Where the [Interval](/star-rangers/glossary/interval/) between them narrows, the two membranes' template fields begin to interact.
 
-**Bleed is inter-universe only.** There is no Interval inside a universe, so two adjacent Concordant Zones of the same universe cannot produce it however sharply their rule-sets differ — that internal edge gives the ordinary [boundary-zone](/star-rangers/glossary/boundary-zone/) effects (instrument drift, timebase mismatch) and nothing in the Etheric channel.
+**Bleed is inter-universe only.** There is no Interval inside a universe, so two adjacent Concordant Zones of the same universe cannot produce it however sharply their rule-sets differ — that internal edge would give drift and timebase mismatch and nothing in the Etheric channel. The distinction is theoretical rather than practical: a Concordant Zone spans the visible universe, so nothing has ever been stationed at such an edge, and every [boundary zone](/star-rangers/glossary/boundary-zone/) on the Survey Corps' books is the inter-membrane kind.
 
 **Graduated terminology, mapped to existing Boundary-State Classes:**
 
