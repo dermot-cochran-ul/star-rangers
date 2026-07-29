@@ -68,6 +68,12 @@ The asymmetry with translation is worth stating plainly, because it is why the t
 
 Its own account of how things end is entropic rather than eschatological: the [Creative Entropy](/star-rangers/lore/creative-entropy-framework/) horizon, and universes like [Threnos-Ω](/star-rangers/lore/universes/threnos-omega/) that outlive their own capacity for novelty. The Archive has cosmology for running down. It has no last day — and does not offer that absence as a finding.
 
+The [Fellowship of Light](/star-rangers/lore/fellowship-of-light/) reads the general resurrection the way its contemplative chapters read most inherited language: as pointing at something real that the available vocabulary cannot hold. Its comparative archive files the doctrine beside the [Overfold](/star-rangers/glossary/overfold/) — a word those chapters went on using long after the instruments arrived, on the grounds that the people who coined it had been right about something before anyone could measure it.
+
+On that reading the doctrine is a metaphor, and calling it one concedes nothing. **A metaphor for something deeper, more profound and possibly inconceivable is not a smaller claim than a literal event. It is a larger one** — made by people who noticed that the literal version would be the easier thing to believe.
+
+The Fellowship does not press this reading on traditions that hold the doctrine plainly, in keeping with a comparative archive that catalogues accounts rather than ranking them; its own chapters differ among themselves. The Archive files the disagreement and adds nothing to it.
+
 **This is not [Conceptual Conservation](/star-rangers/glossary/conceptual-conservation/), and the two must not be run together.** Conservation is universal, unconditional and structural: every coherent mind is retained at the Conceptual layer, without election, without selection, and with nobody deciding anything. Translation as the codex describes it is elective, discretionary, selective, and at a different layer entirely. One is a property of how reality is built; the other is an act attributed to a person. A reader who collapses them arrives at either a mechanical afterlife or a chosen conservation, and the record supports neither.
 
 ## Mostly Hierarchical: The Matrix Exceptions
