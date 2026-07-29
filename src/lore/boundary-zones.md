@@ -14,6 +14,10 @@ A boundary zone is the region where two adjacent [Concordants](/star-rangers/glo
 
 **Two different edges wear this name, and they are not the same phenomenon.** An *intra-universe* boundary zone is the ordinary case documented on this page: two Concordant Zones inside one universe, separated by an internal edge, producing instrument drift and lawful disagreement. An *inter-membrane* boundary zone is where the [Interval](/star-rangers/glossary/interval/) between two whole universes narrows — a different mechanism entirely, graded by the Boundary-State Classes and capable of [Intermembrane Bleed](/star-rangers/glossary/intermembrane-bleed/), [Membrane Shadows](/star-rangers/lore/membrane-shadows/) and transient gravity tunnels, none of which an internal zone edge can produce. Threshold Station sits on the second kind. See [Concordant Membranes](/star-rangers/lore/concordant-membranes/).
 
+**One consequence of that second mechanism catches nearly every reader once, and most first-tour survey officers too.** The [Interval](/star-rangers/glossary/interval/) is manifold separation, measured across the Common Manifold rather than through either universe's own space — so how near two membranes lie to each other has nothing whatever to do with how far apart anything is inside either of them. *How far is this station from the boundary* is therefore not a question with a large answer. It is a question with no answer, because the separation is not measured along any line a ship could fly.
+
+That does not make the zone unlocated, and the distinction matters. Membranes have higher-dimensional shape; where a fold carries one patch of a membrane toward its neighbour, the Interval narrows over that patch and nowhere else — which is precisely why one station's chronometers can disagree while the rest of its system keeps ordinary time. An inter-membrane boundary zone has coordinates in an ordinary sky. What it does not have is a distance to the thing it is a boundary with. See [Concordant Membranes](/star-rangers/lore/concordant-membranes/) for the geometry.
+
 ## Definition
 
 Boundary zones are transition domains with coupled but non-identical physics+Etheric constraints.
@@ -50,6 +54,8 @@ Rapid discontinuity growth with high instrumentation disagreement.
 ## Threshold Station and Marsh Causeway
 
 Threshold Station and Marsh Causeway are linked by the same kind of edge behavior. Their anomalies are lawful expressions of [Concordant](/star-rangers/glossary/concordant/) interference, not supernatural exceptions.
+
+Both documented sites lie within the Solar System, which reads as an improbable concentration until the selection effect is named. The Survey Archive's standing annotation is that this says nothing about where boundary zones are and a great deal about where instruments are: Threshold's forty-second chronometer discrepancy was found because it was compared against several centuries of continuously maintained Solar System timekeeping, and a comparable narrowing over unwatched space would produce the same physics and no record of it whatsoever. The two sites on the books are not the two that exist. They are the two that could be stood on.
 
 Boundary monitoring at Threshold-class stations is handled by the Survey Corps, a specialist operational branch within the Star Rangers.
 

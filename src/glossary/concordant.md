@@ -28,4 +28,6 @@ Concordants are produced under Worldwright authority in primary universes and ma
 
 Adjacent Concordants can meet at boundary zones while retaining distinct local rule sets. The difference between neighbouring Concordants is what makes boundary zones measurable and instrumentally distinctive.
 
-**Example:** Threshold Station sits at the meeting point of two Concordants. Standard time, gravity, and instrument calibration hold reliably within each — but neither set of readings is "correct" for the other side. The station's operating protocols exist specifically to manage the fact that two internally consistent rule sets meet at its physical location.
+**Example:** at a station on such an edge, standard time, gravity, and instrument calibration hold reliably within each adjacent zone — but neither set of readings is "correct" for the other side, and the station's operating protocols exist specifically to manage the fact that two internally consistent rule sets meet at its physical location.
+
+**Threshold Station is not this case**, despite being the example most often reached for. It stands at an *inter-universe* [Interval](/star-rangers/glossary/interval/) rather than an internal edge between two zones of this universe — a different mechanism, and the reason its discrepancy behaves as it does. See [Concordant Membranes](/star-rangers/lore/concordant-membranes/) and [Boundary Zones](/star-rangers/lore/boundary-zones/).

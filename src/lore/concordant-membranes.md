@@ -35,6 +35,12 @@ Two membranes belonging to independently-authored primary universes can end up r
 
 An **inter-membrane boundary zone** is where the Interval narrows. (See [Boundary Zones](/star-rangers/lore/boundary-zones/) for the ordinary intra-universe kind, which is a different thing sharing a name.)
 
+**The Interval varies across a membrane, not only between one membrane and the next — and that is what gives a boundary zone an address.** A membrane is not a flat sheet held at uniform separation from its neighbours. It has higher-dimensional shape, and [folding](/star-rangers/lore/universe-overlap-and-folding/) is a lawful geometry operation performed on exactly that shape. Where a fold carries one patch of a membrane toward its neighbour, the Interval narrows over that patch alone, while the rest of both membranes remain adjacent and functionally inert to each other.
+
+The extended spacelike lattice is doing visible work here. Dimensions 12–15 distribute the resulting geometric strain and prevent *local* metric tearing, and **local** is the operative word: the strain has somewhere to be. Without that, the model would predict something the record flatly contradicts — a narrowing would narrow everywhere at once, and every instrument in a universe would drift together, instead of one station's chronometers disagreeing by forty-two seconds while the rest of its system keeps ordinary time.
+
+So two questions that sound alike have different standing. *How far is a boundary zone from a given star* has no answer, because manifold separation is not measured along any line a ship could fly. *Which patch of the membrane does the fold bring close* has one — and that patch has coordinates in an ordinary sky, which is the only reason a station can be built on it.
+
 This is an instrument model, not a claim about what the Etheric layer fundamentally is. The [Five Layers](/star-rangers/lore/five-layers/) remain causal modes, not spatial planes, and the Etheric's rule-template mechanism does not reduce to geometry. What the manifold's dimensional bands give Survey Corps is a *where and when it becomes measurable*, not a *what it is made of*.
 
 ## Two Effects, One Cause
