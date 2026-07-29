@@ -7,6 +7,8 @@ description: "The address read aloud to a Fellowship novice on the night of thei
 author: "Traditional — no chapter claims first authorship; this text as set down for novice instruction"
 institution: "Fellowship of Light — contemplative chapters"
 location: "Read aloud, not issued in writing to the novice. No single archival master; copies held by contemplative houses on several worlds"
+image: "the-reading-before-a-first-vigil.jpg"
+image_alt: "Designed cover for The Reading Before a First Vigil: four faint ruled lines across the upper half of a dark blue-black gradient, a tilted DEVOTIONAL stamp at the top right, and the title in pale serif capitals below a short divider — a document card, not a photograph."
 ---
 
 **FELLOWSHIP OF LIGHT — CONTEMPLATIVE CHAPTERS**
