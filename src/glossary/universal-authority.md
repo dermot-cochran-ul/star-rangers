@@ -3,10 +3,11 @@ layout: glossary-entry.njk
 title: "Universal Authority"
 id: universal-authority
 category: "Cosmology"
-short: "The native governance intelligence of a universe as a whole: the Council of Harmonarchs plus the universe's founding seed mind, or a lead Harmonarch where there is none. Formerly recorded as 'Concordant' in the governance sense."
+short: "The native governance body of a universe as a whole: the Council of Harmonarchs plus the universe's founding seed mind, or a lead Harmonarch where there is none. Formerly recorded as 'Concordant' in the governance sense."
 related:
   - "Concordant"
   - "Concordant Principal"
+  - "Council of Harmonarchs"
   - "Telearch"
   - "Worldwright"
   - "Noögenic Protouniverse"
@@ -14,13 +15,13 @@ related:
 tags: [universal-authority, governance, cosmology, cascade, concordant]
 ---
 
-A **Universal Authority** is the native governance intelligence of a universe as a whole. It maintains universe-level balance — CEI regulation, entropy behavior, continuity constraints, systemic health.
+A **Universal Authority** is the native governance **body** of a universe as a whole — its Concordant Principals in council, plus a presiding seat. It maintains universe-level balance — CEI regulation, entropy behavior, continuity constraints, systemic health.
 
 ## What It Is Made Of
 
 A Universal Authority is not a separate mind installed above a universe's zones. It is a **body**, and it has two parts:
 
-- **The Council of Harmonarchs** — every [Concordant Principal](/star-rangers/glossary/concordant-principal/) in the universe, sitting together. Each governs one zone alone; in council they govern the universe.
+- **[The Council of Harmonarchs](/star-rangers/glossary/council-of-harmonarchs/)** — every [Concordant Principal](/star-rangers/glossary/concordant-principal/) in the universe, sitting together. Each governs one zone alone; in council they govern the universe.
 - **The founder**, where the universe has one — its originating **seed mind**, in a universe raised by [noögenic seeding](/star-rangers/lore/noogenic-seeding-system/). The founder holds the presiding seat.
 
 Where there is no founder, the Council seats a **lead Harmonarch** from among its own members instead. The office is the same either way; only its occupant's origin differs.
@@ -35,6 +36,6 @@ This is why the Authority's plural and singular forms are both ordinary rather t
 - It does not displace, and is not displaced by, [Telearch](/star-rangers/glossary/telearch/) supervision, which operates from outside the universe.
 - It cannot exist before the universe has zones to seat. A universe with no stabilized Concordants has no Council, and therefore no Authority.
 
-**Legacy usage:** older records use the bare word "Concordant" for this office as well as for the zones. That governance sense is deprecated; in current canon *Concordant* names the [zone](/star-rangers/glossary/concordant/), *Universal Authority* names the universe-level governing mind.
+**Legacy usage:** older records use the bare word "Concordant" for this office as well as for the zones. That governance sense is deprecated; in current canon *Concordant* names the [zone](/star-rangers/glossary/concordant/), *Universal Authority* names the universe-level governing **body**. Those older records also tend to write the Authority as a single mind standing over the Principals, which is the same error in a second form — it is the Principals in council, not a fourth being above them.
 
 **Example:** A [Noögenic Protouniverse](/star-rangers/glossary/noogenic-protouniverse/) is *proto* precisely because it has no Universal Authority yet — and the composition above says why. Its seed mind has arrived, so the presiding seat has an occupant in waiting, but the universe has not yet stabilized Concordants, so there are no Harmonarchs to seat around it. A founder without a Council is not an Authority. Until the zones settle and the Council forms, continuity oversight defaults upward to the parent universe's Telearchs — jurisdiction filling the vacancy from outside, not becoming the office.

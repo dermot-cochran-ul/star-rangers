@@ -3,7 +3,7 @@ layout: glossary-entry.njk
 title: "Telearch"
 id: telearch
 category: "Cosmic Cascade"
-short: "The Cascade tier between Worldwrights and the Dynarchs/Celestials, responsible for cross-Concordant continuity and enforcement delegation. Commonly meant by the retired legacy term High Celestials."
+short: "The Cascade's continuity branch — a Worldwright peer under the Archewrights, native to no universe, responsible for cross-Concordant continuity and enforcement delegation. Reaches inside a universe through the Dynarchs, which are its proxies. Commonly meant by the retired legacy term High Celestials."
 related:
   - "Celestials"
   - "Dynarch"
@@ -26,6 +26,16 @@ The retired legacy designation **High Celestials** most often meant this tier �
 - Telearchs cannot revise the hierarchy order.
 - A [Noögenic Protouniverse](/star-rangers/glossary/noogenic-protouniverse/) produced by a mind within one of a parent universe's Concordants remains under that parent universe's Telearch jurisdiction — and the higher Cascade strata reachable through them — until the protouniverse stabilizes a [Universal Authority](/star-rangers/glossary/universal-authority/) of its own. In doctrine, that jurisdiction is exercised from inside: an [Avatar](/star-rangers/glossary/avatar/) of the Telearch walks the forming universe, ministering to its newly formed Harmonarchs directly.
 
-The [Dynarchs](/star-rangers/glossary/dynarch/) — the tier that encapsulates and governs physical forces — are co-created by both branches of the matrix and stand under both the Telearchs and the [Concordant Principals](/star-rangers/glossary/concordant-principal/): zone-local operation runs with the Principal, force-continuity obligations run up the Telearch line, and continuity prevails where the two conflict.
+## How a Telearch Reaches Inside a Universe
+
+A Telearch is native to no universe and supervises from outside, which leaves a problem: a force has to be administered from *within* the thing it runs through. The Cascade answers it twice, at different depths.
+
+**The standing answer is the [Dynarch](/star-rangers/glossary/dynarch/) tier. A Dynarch is a proxy Telearch** — the Telearch line acting inside a universe, scoped to a single force-domain. This is the Dynarch tier's substance rather than a resemblance, and it turns three otherwise-bare assertions about that tier into consequences:
+
+- **Co-creation** is not two parents of equal kind. The Telearch line supplies what a Dynarch *is*; the [Concordant Principal](/star-rangers/glossary/concordant-principal/) line supplies the zone-scoping that gives it somewhere to act — substance and jurisdiction, not a merger.
+- **Continuity prevails on conflict** is not an arbitration rule imposed from above. Continuity is what a Dynarch substantially is, and a proxy cannot rule against the office it proxies for.
+- **The dual obligation** is not divided loyalty. Zone-local operation of a force runs with the zone's Principal; that force's continuity across boundaries and universes runs up the Telearch line. A proxy answering locally for local matters and to its own principal for everything else is an ordinary arrangement.
+
+**The exceptional answer is an [Avatar](/star-rangers/glossary/avatar/)** — a separate limited person, crossing a temporal register into Material time at Celestial level or below, sent for a particular duty (see the protouniverse constraint above). A Dynarch, by contrast, stays in conceptual time above the Celestials and is a standing office rather than a person sent down. Two answers to one problem: one permanent and structural, one occasional and personal.
 
 **Example:** When a boundary-zone anomaly begins affecting three adjacent Concordants at once, coordinating the Celestial response across all three is Telearch work — allocating enforcement scope and continuity budget across a scale no single Concordant's Celestials could manage alone.

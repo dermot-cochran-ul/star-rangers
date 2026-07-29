@@ -7,6 +7,7 @@ short: "The governing mind of a single Concordant Zone — commonly called a Har
 related:
   - "Concordant"
   - "Universal Authority"
+  - "Council of Harmonarchs"
   - "Telearch"
   - "Dynarch"
   - "Worldwright"

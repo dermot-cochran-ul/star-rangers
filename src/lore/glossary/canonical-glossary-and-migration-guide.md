@@ -41,7 +41,7 @@ The listing above is the spine, and it is *mostly* hierarchical — with two mat
 - **Archewrights** define archetypes and possibility spaces.
 - **Worldwrights** create primary universe sets. The universe is the unit of creation; the Concordant Zone is the unit of consistency within it.
 - **Concordant Zones** (Concordants) are bounded regions within a universe where one internally consistent rule-set holds. They are places, not minds.
-- **Universal Authorities** (formerly "Concordants" in the governance sense) are the native governance intelligences of each universe, maintaining CEI and systemic balance. They are not supra-universal, and they are **not a separate tier**: an Authority is the universe's **Council of Harmonarchs** plus a presiding **founder** (its seed mind) or, failing one, a **lead Harmonarch**.
+- **Universal Authorities** (formerly "Concordants" in the governance sense) are the native governance **bodies** of each universe, maintaining CEI and systemic balance. They are not supra-universal, and they are **not a separate tier**: an Authority is the universe's **Council of Harmonarchs** plus a presiding **founder** (its seed mind) or, failing one, a **lead Harmonarch**.
 - **Concordant Principals** (commonly **Harmonarchs** — both canonical, Principal the formal title) are the governing minds of individual Concordant Zones, stewarding each zone's rule-set under the universe's Universal Authority — which is the council they themselves sit in. Every Harmonarch holds two seats: its own zone, and the Council.
 - **Telearchs** coordinate large-scale operational activity inside and across governed systems. They are a Cascade tier, native to no universe — distinct in kind from both Universal Authorities and Concordant Principals, and a parallel branch with the Worldwrights under the Archewrights. See [Who Governs a Universe](/star-rangers/lore/who-governs-a-universe/).
 - **Dynarchs** (commonly **Exarchs**; formerly "higher celestials") encapsulate and govern physical laws and forces — Gravity, Electromagnetics, Nature. Co-created by both branches of the matrix; ranked between Concordant Principals and Celestials, standing under both the Telearchs and the Principals, with continuity prevailing on conflict. Both names are canonical; "Exarch" is the older devotional form.
@@ -89,7 +89,7 @@ The listing above is the spine, and it is *mostly* hierarchical — with two mat
 
 ### Universal Authorities
 - **Layer:** Governance (Universe-Level)
-- **Definition:** The native governance intelligence of a universe as a whole, regulating CEI, entropy behavior, and continuity constraints.
+- **Definition:** The native governance **body** of a universe as a whole — its Concordant Principals in council, plus a presiding seat — regulating CEI, entropy behavior, and continuity constraints. **Not an "intelligence" or a mind:** the Principals who constitute it are minds, and the body they constitute is not a larger one. Earlier definitions read "the native governance intelligence," which is the singular-mind reading this term's own migration row retires (phrasing corrected 2026-07-28).
 - **Composition (settled 2026-07-26):** A **body**, not a separate mind installed above the zones — the **Council of Harmonarchs** (every Concordant Principal in the universe, sitting together) plus a presiding seat held by the universe's **founder**, its originating **seed mind** where the universe was noögenically seeded. Where there is no founder, the Council seats a **lead Harmonarch** from among its own members. Same office; different occupant.
 - **Notes:** This resolves the "singular or plural mind" phrasing in earlier records — both describe one institution. A Consensus Field is *how the Council decides*; a founder is *who presides while it does*. A plural formation descended from a seed mind (a Synarch Mind among them) occupies the presiding seat as one member, not as a second council. Formerly recorded as "Concordants" in the governance sense — that usage is deprecated. Universal Authorities are not supra-universal: their writ ends at their own universe's edge.
 - **Consequence:** An Authority cannot predate its universe's zones. No Concordants → no Harmonarchs → no Council → no Authority, which is precisely what makes a Noögenic Protouniverse *proto*: **a founder without a Council is not an Authority.**
@@ -97,7 +97,7 @@ The listing above is the spine, and it is *mostly* hierarchical — with two mat
 
 ### Council of Harmonarchs
 - **Layer:** Governance (Universe-Level)
-- **Definition:** All of a universe's Concordant Principals sitting together as the deliberative body of its Universal Authority.
+- **Definition:** All of a universe's Concordant Principals sitting together as the deliberative body of its Universal Authority. Reader-facing entry: [Council of Harmonarchs](/star-rangers/glossary/council-of-harmonarchs/).
 - **Notes:** Not a separate tier in the Cascade — the same beings as the Principals, in their second seat. Decisions are reached through a Consensus Field rather than by vote-counting. Compare the Star Rangers' own Council of High Captains: every serving High Captain sitting together, holding authority none holds alone.
 
 ### Lead Harmonarch
@@ -119,8 +119,10 @@ The listing above is the spine, and it is *mostly* hierarchical — with two mat
 
 ### Telearchs
 - **Layer:** Coordination
-- **Definition:** Coordinate large-scale operations across governed systems and synchronize interventions.
-- **Notes:** Hold continuing jurisdiction over any Noögenic Protouniverse seeded from within their parent universe until it stabilizes independent governance.
+- **Definition:** Coordinate large-scale operations across governed systems and synchronize interventions. The Cascade's **continuity branch** — a parallel branch with the Worldwrights under the Archewrights (continuity and creation as peers), not descended from them.
+- **Native to no universe:** distinct in kind from both Universal Authorities and Concordant Principals, which are a universe's own resident governance. A Telearch supervises from outside.
+- **Reach inside (settled 2026-07-26, recorded here 2026-07-28):** because they are native to nowhere, Telearchs reach into a universe by two routes. The standing one is the **Dynarch** tier — **a Dynarch is a proxy Telearch**, the line acting inside a universe scoped to one force-domain; see that entry, where the consequences of this are worked out. The occasional one is an **Avatar**: a separate limited person crossing into Material time at Celestial level or below.
+- **Notes:** Hold continuing jurisdiction over any Noögenic Protouniverse seeded from within their parent universe until it stabilizes independent governance — exercised from inside, by Avatar.
 
 ### Noögenic Protouniverse
 - **Layer:** Universe Architecture (Noögenic, Pre-Governance)
@@ -397,7 +399,7 @@ The word **Etheric** was carrying three jobs at once — a causal layer, a set o
 | “High Celestials” (coordination/jurisdiction context) | Telearchs | The commoner sense of the retired term. |
 | “higher celestials” (force/law governance context) | Dynarchs | The force-governing sense of the retired term. If context cannot disambiguate, flag rather than guess. |
 | “Concordant” (governance-intelligence sense) | Universal Authority | Reserve “Concordant” / “Concordant Zone” for the bounded region; name the universe-level governance mind a Universal Authority. |
-| “Concordants above universes” | Universal Authorities within universes | Reframe the governance intelligences as in-universe Universal Authorities; they are not supra-universal. |
+| “Concordants above universes” | Universal Authorities within universes | Reframe the governance offices as in-universe Universal Authorities; they are not supra-universal. |
 | “Plural Concordant” / “Concordant Plurality” | Plural Universal Authority | Same rename applied to the plural-ascension pathway. |
 | “megaexpanse” / “coherent cosmic region” in Archive voice | Concordant Zone | Not deprecations — both are live words with declared registers (popular and Survey-Corps-plain respectively). Migrate only when the *Archive itself* is speaking; leave them standing in dialogue, popular sources, and first-mention glosses. |
 | “Solar System Concordant” (present-day usage) | Solar System Concord | Restyled 2790 UCSD. Pre-2790 documents keep the founding name and are quoted as written — the 2723 charter preamble is the standing example; the date, not the spelling, decides. |
