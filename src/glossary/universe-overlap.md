@@ -3,7 +3,7 @@ layout: glossary-entry.njk
 title: "Universe Overlap"
 id: universe-overlap
 category: "Physics"
-short: "A temporary interaction window where adjacent Concordants share measurable domain without rule-set merger."
+short: "A temporary interaction window where two adjacent universes share a measurable domain without rule-set merger, bounded by the footprint of the fold that brought them close."
 related:
   - "Boundary Zone"
   - "Concordant"
@@ -12,9 +12,11 @@ related:
 tags: [universe-overlap, concordant, boundary, physics]
 ---
 
-**Universe Overlap** (pronounced: **YOO-nih-vurs OH-ver-lap**) is a temporary coupling state between adjacent [Concordants](/star-rangers/glossary/concordant/).
+**Universe Overlap** (pronounced: **YOO-nih-vurs OH-ver-lap**) is a temporary coupling state between two adjacent universes, arising where a fold has narrowed the [Interval](/star-rangers/glossary/interval/) between their [membranes](/star-rangers/lore/concordant-membranes/) into coupling range. Two [Concordant Zones](/star-rangers/glossary/concordant/) of the same universe cannot overlap: there is no Interval between them to narrow.
 
-During overlap, measurable interaction across the shared boundary becomes possible while distinct local rule sets are preserved on each side. The Concordants do not merge — their respective constraints remain in effect — but their edge conditions interact.
+During overlap, measurable interaction across the shared boundary becomes possible while distinct local rule sets are preserved on each side. The two do not merge — their respective constraints remain in effect — but their edge conditions interact.
+
+**Extent is set by the fold, not by the mechanism.** An overlap window reaches as far as the Interval stays inside coupling range and no further, which is the footprint of the fold itself. Readings are correspondingly local: dual-valid measurements come from instruments a short distance apart, and constants stay position-dependent within the window because the fold's profile varies across it. No figure is quoted in the survey record, each fold having its own. A station can sit inside an overlap domain; a civilisation does not.
 
 Overlap is lawful geometry behaviour. It is not magical convergence.
 
