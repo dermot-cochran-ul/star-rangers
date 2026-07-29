@@ -40,6 +40,24 @@ Coherence patterns form admissible concept states.
 ### Observable Effects
 - Stable meaning-pattern recurrence across distinct cultures.
 
+### Conservation
+
+**No coherent mind is lost.** An identity structure that once achieved coherence remains an admissible concept state at this layer, and the record describes no mechanism by which one is deleted, degraded or overwritten. The layer conserves. It has no disposal.
+
+**Conservation is not continuation, and that distinction is the whole of it.** What persists is the structure, in the mode this layer holds — *before embodiment*. Nothing here extends an embodied life, resumes one, or carries experience forward. A conserved mind takes no action, initiates nothing, and cannot be addressed, since Layer 2 permits no direct physical action without lower-layer coupling. It is retained. It does not continue.
+
+### Who Can Read It
+
+Direct reading of the Conceptual layer, and of the Spiritual layer above it, is a [Cascade](/star-rangers/lore/cosmic-cascade/) capability belonging to the higher strata — those that reason in conceptual time rather than Material-layer time. Nothing at Material layer reads either directly. No instrument reaches them, and no practice, devotional or technical, has ever been shown to.
+
+What Material-layer observers get instead is the observable named above: stable meaning-pattern recurrence across cultures with no contact between them. That is what conservation looks like from below — not a message, not a presence, and nobody's voice.
+
+### What the Archive Does Not Say
+
+Whether that conservation is what devotional traditions mean by the **soul**, and whether anything about it answers to what they mean by an **afterlife**, is not a question instruments reach. Neither word is Survey Corps vocabulary, and the Archive uses neither for a mechanism. It also does not rule on what they name.
+
+Two accounts stand over one observable. *The structures persist.* *You persist.* The Archive is positioned to state the first, and has never claimed the standing to deny the second.
+
 ## Layer 3 — Etheric
 
 ### Definition
