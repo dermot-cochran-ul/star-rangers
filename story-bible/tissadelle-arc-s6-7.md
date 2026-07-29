@@ -743,12 +743,28 @@ undo its own section 3 — including the selectivity by *registry*, which no
 strain model can make a physical property. The Institute is wrong and it is not
 dishonest, and a reader who takes it for a fool has been set up to.
 
-**Open for Dermot: is the Institute also an overlay thread?** It is written as
-an ordinary in-universe institution, which it needs to be either way. Making it
-a domain-level *lens* opposite `church-space` is a separate and larger call —
-`CLAUDE.md` treats a second `private: true` thread as a design decision rather
-than configuration, and church-space is meant to be the only one. A non-private
-`THREADS` entry is the cheaper option if a secular-lens edition is wanted.
+**Settled (Dermot, 29 July 2026): the Institute does not need a private thread.**
+It stays what it was written as — an ordinary in-universe institution, lore like
+any other, visible on every build. Nothing to add to `lib/storyline-threads.js`,
+no `THREADS` key, no `homeDomain`, no theme.
+
+This keeps `church-space` the only `private: true` thread, which is what
+`CLAUDE.md` says it is meant to stay, and it avoids reaching for engine
+machinery to express something the corpus already expresses on its own.
+
+**The consequence is worth stating, because it is the better outcome and not
+merely the cheaper one.** A private thread would have made the sceptical reading
+an *edition* — something a reader opts into, or doesn't, at the domain level.
+Left public, it ships everywhere: every build of this site carries the Institute
+saying the dragons were discharge and the Rangers were quoting. The dissent is
+not a variant of the record. It is *in* the record, on the same page as
+everything it disputes, which is the arrangement the whole arc argues for.
+
+Note the asymmetry with church-space, which is the reason only one of them is a
+thread. An **overlay** is a lens laid across the same events and is opted into
+per domain. The Institute is not a lens — it is a *party*, inside the setting,
+with a name, a method, a funding model and a published position that other
+parties argue with. Parties go in lore. Only lenses need threads.
 
 ### Why the Rangers survived — three accounts, and the useful irony
 
@@ -822,7 +838,7 @@ three newsnets printed it whole, and it is the second half that gets quoted.
 
 ### Still open
 
-- Whether the Institute becomes an overlay/thread (above).
+- ~~Whether the Institute becomes an overlay/thread~~ — settled 29 July 2026: no. See above.
 - Whether Wender's missing doctrinal category ever gets a *name*, as this file
   asks earlier. The address gets her to the position without naming it, which
   leaves that beat intact.
