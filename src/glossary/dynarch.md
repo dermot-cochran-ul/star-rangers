@@ -29,6 +29,16 @@ This is what the tier's other properties are consequences of, rather than rules 
 
 Dynarchs rank between Concordant Principals (Harmonarchs) and [Celestials](/star-rangers/glossary/celestials/). In the Cascade, higher strata create and define the layers beneath them more than they command them — a Dynarch's dual obligation is written into what it *is*, not imposed on it order by order.
 
+## Why Physical Law Is Predictable
+
+Physical law is predictable and verifiable because the tier that administers it does not vary — and **a Dynarch's stability is a design property, not an achievement.** The Worldwright designs the rule-sets *and* the office that keeps them, stability included; a Dynarch is built to be invariant in the same sense a constant is.
+
+The proxy structure leaves no room for it to be otherwise. Continuity is what a Dynarch substantially *is*, so there is no separate faculty of reliability that could fail on its own while the rest of the office continued. Drift is not forbidden to a Dynarch. It is undefined for one.
+
+**The consequence is that physics inside a universe is indistinguishable from physics in a universe with no Dynarchs at all**, and that indistinguishability is the design working rather than an embarrassment to it. Constants measure as constant. Experiments repeat. Nothing in a laboratory result points upward, and nothing needs to.
+
+Boundary anomalies are not counterexamples. [Boundary zones produce lawful disagreement, not law failure](/star-rangers/lore/five-layers/) — instruments disagreeing across an edge are two rule-sets meeting, not a force behaving unfaithfully. Threshold Station's forty-second discrepancy has stood unexplained for eleven years without once implying that gravity, electromagnetics or Nature did anything other than what they do.
+
 ## Every Force Divides the Same Way
 
 The dual obligation above is not an administrative arrangement laid over the forces. It is the shape the forces already have.

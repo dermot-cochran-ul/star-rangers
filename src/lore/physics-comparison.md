@@ -47,6 +47,8 @@ Physical constants are engineered, not merely unexplained. Some events carry a f
 ### Key Difference
 Causal structure is maintained rather than merely emergent. Flexion exists; violation does not.
 
+*Maintained* implies a maintainer, and the record names one: the [Dynarchs](/star-rangers/glossary/dynarch/), who administer each force-domain's lawful operation. This adds nothing a physicist could measure. **A Dynarch's stability is a design property** — the Worldwright designs the rule-sets and the office that keeps them, invariance included — so the maintained case and the merely-emergent case produce identical laboratory results, which is why the distinction is cosmological rather than experimental. Constants measure as constant either way. That is the design working, not a gap in it.
+
 ---
 
 ## 3. Probability and Quantum Behavior
