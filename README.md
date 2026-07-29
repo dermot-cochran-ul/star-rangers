@@ -99,13 +99,13 @@ Grouped by storyline thread — see [Site sections](#site-sections) and `lib/sto
 
 ## Release notes
 
-Current version: **1.9.0**. See [`CHANGELOG.md`](./CHANGELOG.md) for the full version history — lore/canon changes, deployment features, and fixes are all tracked there under [Semantic Versioning](https://semver.org/).
+Current version: **1.10.0**. See [`CHANGELOG.md`](./CHANGELOG.md) for the full version history — lore/canon changes, deployment features, and fixes are all tracked there under [Semantic Versioning](https://semver.org/).
 
 ### Cutting a release
 
 This line has gone stale twice (it read `1.5.0` through both the 1.6.0 and 1.7.0 releases), so the steps are written down rather than remembered:
 
-1. Bump `"version"` in `package.json`.
+1. Bump the version with `npm version X.Y.Z --no-git-tag-version`, which updates `package.json` **and both `version` fields in `package-lock.json`**. Doing it by hand in `package.json` alone is how the lockfile sat at `1.8.0` through the 1.9.0 release.
 2. In `CHANGELOG.md`, rename `[Unreleased]` to `[X.Y.Z] - YYYY-MM-DD`, add a short summary paragraph, and open a fresh empty `[Unreleased]` above it.
 3. **Update the "Current version" line above** — this is the step that gets missed.
 4. Merge, then **tag from a local clone** at the release's merge commit: `git tag vX.Y.Z <sha> && git push origin --tags`. The GitHub-automation path used for most changes here cannot publish `refs/tags/*`, so tagging is always a local step.

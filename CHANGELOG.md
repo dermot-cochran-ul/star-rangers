@@ -6,6 +6,18 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [1.10.0] - 2026-07-29
+
+The naming release. Every substantive change in it is about a name rather than a fact: a Cascade tier renamed, a Ranger rank restyled, a second rank finally recorded under its full style, one charter clause rewritten so its rank floor cannot be misread, and a journal entry about the single tell the whole set had in common.
+
+**That tell is the release's actual content**, so it belongs at the top. Each entry touched here carried a paragraph whose only job was explaining what its own name did *not* mean. `Dynarch` named a tier after the forces it is least able to alter — the rule-sets are the Worldwright's — and the entry spent a section on the gap. `Starwarden First Officer` named a rank after a relationship it does not have, and its own bullet admitted so in its opening clause. In both cases the explanation was *good*, which is exactly why it survived for months. A well-argued defence of a bad name is a decent piece of writing and a permanent tax on every reader who arrives after it.
+
+**The two renames needed opposite machinery, which is this release's one genuinely load-bearing distinction.** `Dynarch → Mediarch` is the Archive correcting its own vocabulary: no in-universe register ever used the word, so once retired it names nothing, migrates on sight, and takes no dating rule. `Starwarden First Officer → Archwarden` is an institution renaming its own rank in **2833 UCSD**, so both styles are correct for their own periods and pre-2833 records are read as written rather than corrected. The consequence worth having in the record: **not one word of canon prose was altered anywhere in this release.** The two migration rows now sit next to each other in the canonical glossary making opposite claims about the past, and each points at the other so neither can be applied with the wrong rule.
+
+**`MINOR`, and this is the first release where that classification needed an argument.** Earlier entries could justify it with "nothing was removed, renamed or moved" — this one renames two things and moves a page's URL, which reads like that criterion failing. It isn't. `MAJOR` in this project has always concerned the **engine's compatibility surface** — `deploy.conf` keys, themes, build outputs, defaults — and none of those changed. The single moved URL keeps a redirect stub at its old address, and the retired `dynarch` tag is deliberately retained on the renamed entry so any clone narrowing by that topic keeps matching it. Nothing 404s and no configuration breaks, which is the substance the older phrasing was reaching for.
+
+**Tagging.** `v1.10.0` is cut at this release's own merge commit, which does not exist until the release merges — so the tag is always the last step and always separate from this file. The GitHub-automation path used for most changes here cannot publish `refs/tags/*`; where no local clone is in the loop, that is where the backlog recorded under `[1.7.0]` and `[1.8.0]` came from.
+
 ### Changed
 
 - **The rank above Deputy and below Senior is recorded as `Field Officer`** (settled 2026-07-29) — the ladder entry previously gave only the short form **Officer** and described the rank without naming it in full. Same rung, same duties, no reordering: full field-qualified rank, the first tier that can act and be posted independently.
@@ -42,6 +54,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 - **Title card for [The Reading Before a First Vigil](src/codex/the-reading-before-a-first-vigil.md)** — the one codex entry shipped without one, closing the loop opened when it merged. Same designed template as the rest of `src/images/codex/`: `DOCTRINAL RECORD` category line, `rules` motif, a tilted `DEVOTIONAL` stamp, and *Fellowship of Light · Contemplative Chapters* under the title.
   - **Rendered from a faithful port of `make-codex-cover.ps1`, not by an image generator** — same 1600×1600 canvas, same gradient stack and alphas, same coordinates, same tracking rules, same auto-fit title (landed at 106px). The `.ps1` is GDI+ and Windows-only, so it cannot run in a Linux session; the port reproduces its geometry exactly and the text is still font-rendered, which is the property that matters — the template exists precisely because generators cannot spell.
   - **One deliberate deviation, worth knowing before regenerating:** Georgia and Consolas are Windows fonts and are not available here. Georgia was substituted with **Gelasio**, which is metric-compatible, so the auto-fit title geometry lands where Georgia's would; Consolas was substituted with **DejaVu Sans Mono**, for which no metric clone exists, so the small tracked lines differ very slightly in width. Re-running the `.ps1` on Windows will produce a near-identical card with the true faces.
+
+### Fixed
+
+- **`package-lock.json`'s version had drifted to `1.8.0`.** The 1.9.0 release bumped `package.json` and the README's "Current version" line but not the lockfile, whose two `version` fields sit outside the README's release checklist and so were never part of the step that "gets missed" — they were never part of any step. Both now read `1.10.0`, bumped with `npm version --no-git-tag-version` rather than edited by hand so the two files cannot disagree, and **the checklist's first step now names the lockfile** so this does not silently recur. Found while cutting this release, which is the only moment anyone ever looks.
 
 ## [1.9.0] - 2026-07-29
 
