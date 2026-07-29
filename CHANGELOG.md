@@ -6,7 +6,9 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
-*Nothing yet.*
+### Fixed
+
+- **The `church-space` registry comment under-listed its own thread** ([`lib/storyline-threads.js`](lib/storyline-threads.js)) — it enumerated the overlay's contents as "lore, codex entries, characters, and an author's FAQ" and omitted the tagged journal entry (`softening-the-real-cosmos-side`), which is excluded from every public build like the rest of the thread. Corrected, and **rewritten so it cannot go stale the same way again**: the list is now explicitly a shape rather than an inventory, with the authoritative query recorded in its place — every page in the thread carries the `church-space` tag except the two under `src/threads/church-space/`, which acquire membership from their `threadId` via `privateThreadForPage`. The one durable claim, that no chapters are among them, is kept.
 
 ## [1.8.0] - 2026-07-28
 
