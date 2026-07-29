@@ -40,6 +40,22 @@ It is also, on the surviving instrument record, not what happened. The Rangers w
 
 The Corps has never publicly disputed the Institute's version. That silence is itself a matter of some interest, and the Institute has said so.
 
+## On dragons, and on the Rangers who talk about them
+
+The Institute's standing position on dragons is not that the Star Rangers are lying. It is that they are quoting.
+
+Dragon-talk in the Corps, on this reading, is **inherited devotional vocabulary carrying no observational content** — a contemplative order's imagery, absorbed wholesale by the operational chapter that grew out of it, and mistaken by its own inheritors for a field report. The Institute is careful to note that the Rangers did not coin any of it: the [Fellowship](/star-rangers/lore/fellowship-of-light/) had the vocabulary first, the ecumenical repertoire the Corps sings at its memorials was inherited rather than commissioned, and even the word *warden* was picked up from older guardianship traditions rather than invented. An institution that borrowed its liturgy, the Institute observes, may reasonably be asked whether it also borrowed its ontology.
+
+**What it grants, and it grants a great deal.** The Institute holds Ranger dragon-tradition to be one of the most effective safety heuristics ever developed, and says so in the fold-transit courses it writes. Read as metaphor it is very nearly exact: higher-dimensional space punishes overconfidence; fold drift accumulates silently and bites without warning; an aperture held open past its business is not a resource but a thing that will eventually turn on the operator. A crew taught to imagine something enormous and patient on the far side of a held aperture will treat that aperture with precisely the caution the physics warrants, and will do it faster than a crew taught the tensor equations. *Dragons* is what a working intuition about the danger of higher-dimensional space looks like once it has been compressed for people who have to act on it at speed.
+
+So the Institute files the tradition as **superstition in form and wisdom in content** — a false ontology wrapped around a true operational fact, of the kind every dangerous profession generates and few generate this well.
+
+**Where this is strong, and where it is not.** It is strong on the inheritance, which is simply true and documented: the vocabulary is older than the Corps and came in from the contemplative side. It is weak in the step it takes next, which is to treat an inherited word as evidence that its referent is unreal. A tradition can hand you a word for a thing that is also there.
+
+And it sits awkwardly against the Corps' actual doctrine, as the Rangers have occasionally pointed out without ever making an issue of it. Ranger practice is to name only what can be supported; the officer at Dock Seven refused to make a finding she could not defend, the analyst on the boundary desk refused to name a mechanism she had no evidence for, and the field analyst who logged the event declined to record the flattering explanation of it. It is a strange charge of mythologising to bring against a body whose whole discipline is declining to say more than it knows — brought, moreover, by an institution whose own paper on the same event [prints four observations it cannot account for](/star-rangers/codex/dock-seven-material-account/) and calls the finding complete anyway.
+
+The Institute's reply to this, offered without heat, is that it can live with an unexplained instrument reading indefinitely, and that a body which cannot is the one that ends up with dragons.
+
 ## Standing
 
 The Institute holds no charter authority, commands nothing, and cannot compel a filing. Its influence is entirely a function of being cited, which it has arranged to be very good at.
