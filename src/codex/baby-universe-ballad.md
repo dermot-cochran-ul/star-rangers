@@ -11,7 +11,7 @@ location: "No archival master. This capture is one of several that surfaced in t
 
 **RECOVERED RECORDING — AUDIO + TRANSCRIPTION**
 **Performing credit:** none carried with the recording
-**Surfaced:** In the seasons after the [Last Stand at Dock Seven](/star-rangers/seasons/s06/e01/s06e01c02/), first among Celtic Union charter-world crews, then across Ranger stations
+**Surfaced:** In the seasons after the [Last Stand at Dock Seven](/star-rangers/seasons/s05/e02/s05e02c03/), first among Celtic Union charter-world crews, then across Ranger stations
 **Current standing:** No charter status. Not sung at musters and never officially adopted or disclaimed — this one gets played, quietly, usually by someone who does not believe "confirmed loss" was the whole of it.
 
 <video controls preload="none" style="width:100%;max-width:40rem;display:block;margin:1.5rem 0;background:#000">

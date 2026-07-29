@@ -17,6 +17,8 @@ tags: [celestials, frenar, cascade, enforcement]
 
 Their function is concrete: Celestials maintain Concordant-boundary integrity through lawful enforcement actions, acting within the scope delegated to them by Telearchs.
 
+**Scope attaches to the process, not to the persons.** An enforcement action addresses the unlawful operation and reaches exactly as far as that operation does. Anything not part of it falls outside the action's scope and is left untouched — spared *structurally*, rather than assessed and found worthy. A Celestial no more adjudicates worth than a Levril does; what it establishes is the boundary of a process, and everything the process does not include is simply not included. Material-layer witnesses to an enforcement action routinely read the distinction backwards, concluding that whoever survived was judged to deserve it. Nothing in the Cascade has ever been obliged to correct them.
+
 **Frenar** is a legacy designation for this same tier. In all current canon, Celestial and Frenar are synonymous. Historical records may use either term.
 
 **Example:** When an unauthorised Higher-Dimensional Folding attempt threatens to breach a Concordant boundary, it is a Celestial enforcement action — not a Telearch or a Champion — that intervenes. The Celestial's authority to act comes from delegation; it does not originate the law it enforces.

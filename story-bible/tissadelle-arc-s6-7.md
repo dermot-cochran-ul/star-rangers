@@ -591,3 +591,116 @@ fronting, and the only witness to what signing costs.
 - Does Sen sign? Refusing is a real ending, and a bleak one.
 - Whether the reader is ever told which of the three wrote a given note, or
   only ever learns to guess. Guessing is stronger, and harder.
+
+---
+
+## The Last Stand — what actually happened (Dermot, 29 July 2026 — canon direction)
+
+**Settled, and now written.** The direction as given:
+
+> Tissadelle sacrificed herself and her ship after evacuating the crew via
+> shuttles and courier ships. She protected overfold fauna from a rogue
+> hyperfold conglomerate that was harvesting them. The dragons struck back
+> hard destroying the rogue corporation but sparing the Star Rangers.
+> Tissadelle fell into the overfold. Her body and mind fragmented, but Tobble
+> stabilised a tiny noogenic membrane using the remnants of the ship and saved
+> some of Tissadelle's inner world.
+
+Dramatized as **S05E02C03, "What Came Off the Ship"** — 2831 UCSD Mid-Autumn,
+nineteen days before `s06e01c02`, appended to the existing episode with no
+renumbering and a freshly generated `comment_id`. Five POVs, none of which can
+name what they saw.
+
+### The supersession, stated loudly so it is not re-derived later
+
+The Premise section at the top of this file says Dock Seven was *secondary
+universe emergence* — "something has been quietly gestating there for eleven
+years, and it's being born." **That framing is superseded.** It is not what
+happened and it is not where the protouniverse comes from.
+
+The reconciliation, which costs nothing and keeps every planted strand:
+
+- The sixteen-year drift marked a **real narrowed Interval**. That much stands,
+  and Season 1's open question was pointing at something after all.
+- A licensed commercial concern **located it and worked it industrially**,
+  holding a fold aperture open for four months to reach what was on the far side.
+- **Industrial unauthorised folding is what pushed a decade-and-a-half-stable
+  anomaly into a shear rupture.** Nothing gestated. Something was worked until
+  it tore.
+- The protouniverse is **Tobble's**, founded *after* the rupture from the
+  wrecked vessel's archival stores — not something the dock was incubating.
+
+No published chapter uses the gestation framing, so nothing broke.
+
+### The seven rulings, with their canon basis
+
+1. **Expand, don't replace.** Dock Seven stays. The six published chapters keep
+   every word; four gained `canon_facts` and nothing else.
+2. **"Fell into the overfold" is a voice, not a claim.** The Overfold is a
+   condition, not a region (`src/glossary/metafold.md`, `src/glossary/etheric.md`).
+   The **Register rule** in `canonical-glossary-and-migration-guide.md` already
+   licenses this: chapters and characters are voices where imprecise field
+   vocabulary is characterisation; lore and glossary are the Archive.
+   **No glossary change, no migration row, no corpus sweep. This is deliberate —
+   do not "fix" it in a later pass.**
+3. **"Hyperfold" is a trade name, not physics.** Recorded as a section in
+   `src/glossary/metafold.md`, where the misnomer already lives. The distinction
+   kept there is worth preserving: the journalist writing *metafold* is guessing
+   in good faith; a concern that puts *hyperfold* on a hull chose a word that
+   cannot be held to a meaning, and chose it on advice. **No new canonical term.**
+4. **Witnesses saw dragons; what acted was a Celestial enforcement action**
+   under Telearch delegation. `src/glossary/celestials.md` already carried the
+   exact trigger — unauthorised Higher-Dimensional Folding breaching a Concordant
+   boundary. Levrils were present only in canon-permitted roles (detection,
+   containment, perimeter isolation — the `threnos-omega.md` precedent).
+   - **Precision trap, flagged so nobody over-corrects later:** the constraint is
+     that levrils did not *initiate or execute this enforcement*, and cannot
+     complete another mind's process. It is **not** "levrils never act unbidden"
+     — one arrives at the warm edge unbidden in three published chapters. Never
+     write that fact.
+5. **The trigger is structural, and so is the sparing.** Added to
+   `celestials.md`: scope attaches to the process, not the persons. Bystanders
+   are spared structurally, never assessed and found worthy. Master Roon's line
+   in the codex loss adjustment is the whole of it — *there is a difference
+   between being spared and being no part of the thing.*
+6. **No taxonomy change for the fauna.** They stay Class III: non-sapient,
+   "predatory, entropic, or ecologically disruptive," no Cascade standing and no
+   protection from it. Shepherd died defending creatures the Archive files as a
+   hazard, and **the classification was not revised afterward.** That is the
+   point, and it rhymes with the plural-minds argument that the forms are wrong
+   and the beings are real. Deliberate; do not soften it into a reclassification.
+7. **The membrane is universe-scale**, which is the only reason "tiny" is legal:
+   `concordant-membranes.md` holds that a membrane is never anything smaller than
+   a universe. A tiny membrane is lawful *because the thing really is a whole,
+   very young universe.* Survey Corps' commonest self-correction is people calling
+   sub-universe things membranes; here, for once, the small thing genuinely is one.
+
+### Held back from the page, deliberately
+
+`canon_facts` render on the published chapter, so the chapter states the
+**scaffold and the remnant** and stops there. The identification — **the membrane
+is the [Noögenic Protouniverse](/star-rangers/glossary/noogenic-protouniverse/),
+Tobble is its founder, and Tissadelle's saved inner world is inside it** — stays
+in this file, under the same discipline as the Saint Aoife note above, until the
+seasons reach it.
+
+What the published chapters now do say is that the Boirinn Uplands interior was
+**preserved by Tobble rather than generated by the stall, and only partly
+preserved** (`s06e01c01`). That is the largest reframing in the set and it was
+done entirely in front matter.
+
+### Open for Dermot
+
+- **A lore entry for the Hyperfold Yield Combine** was deliberately not written.
+  The chapter explains it in full — licence, product, market, the closed loop
+  where stabiliser makes apertures cheaper and cheaper apertures make more stock
+  reachable — and a Factions page for a concern that no longer exists would
+  restate it in a second place. Worth adding only if the Combine's parent
+  interests are going to matter later.
+- **The Combine's investor prospectus** is the obvious second codex entry and
+  the perfect tone-rule instrument: a glossy document can describe a supply chain
+  at length without ever saying what the product is. Deferred, not rejected.
+- **Wender does not fly in this chapter**, on purpose — she is eleven hours away
+  and signs nothing, which keeps her Season 6 position clean. The cockpit
+  sequence this file asks for elsewhere still wants its own chapter.
+- Tobble's pronouns remain unset. They/them throughout.
