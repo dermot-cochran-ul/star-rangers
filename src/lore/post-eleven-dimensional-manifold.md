@@ -12,7 +12,7 @@ When the local dimensions explain the injury but not why the clocks keep disagre
 
 The **Common Manifold** is the higher-order spacelike and timelike structure that lies beyond any single universe's own dimensional floor, governing cross-[Concordant](/star-rangers/glossary/concordant/) coherence, causality buffering, and fold survivability. Every universe in the [Grand Ensemble](/star-rangers/lore/ensemble-multiverse/) is seated in it. It is the one piece of architecture they demonstrably share.
 
-Within it, each **primary universe** occupies its own bounded [cosmic membrane](/star-rangers/lore/concordant-membranes/), separated from its neighbours by the [Interval](/star-rangers/glossary/interval/) — manifold separation, measured across the Common Manifold rather than through either universe's own space. Concordant Zones are regions *inside* a membrane, not membranes themselves.
+Within it, each **coherent universe** occupies its own bounded [cosmic membrane](/star-rangers/lore/concordant-membranes/) — whatever its origin, coherence rather than authorship being the criterion — separated from its neighbours by the [Interval](/star-rangers/glossary/interval/) — manifold separation, measured across the Common Manifold rather than through either universe's own space. Concordant Zones are regions *inside* a membrane, not membranes themselves.
 
 ## Why Survey Corps Says "Post-11"
 
