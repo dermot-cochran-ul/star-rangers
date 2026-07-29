@@ -62,6 +62,12 @@ What the devotional material describes is this: that **Kieme** may, at Kieme's o
 
 **Rewards and judgements belong to the devotional register.** Traditions differ, sometimes sharply, on what the election means and what it is for. The Archive files those accounts as devotional and does not rank them, and it will not restate any of them as mechanism — since the one feature common to every version is that the deciding is Kieme's and the reasoning is not disclosed.
 
+**Eschatology is out of scope rather than adjudicated.** The Archive's method here is invariant-only inference: it reads what persists across every Concordant. A claim about a singular event at the end of Material time is not an invariant and could not be made into one, so the method has nothing to say about it — including about a **general resurrection**, which several traditions hold and which the Archive does not attempt to place.
+
+The asymmetry with translation is worth stating plainly, because it is why the two cannot be filed together. Translation is invisible *by nature*: no instrument is shaped to reach it and none ever will be. A general resurrection would be visible *by definition* — a universal, Material-layer event of exactly the kind instruments exist to record — and the record contains none. The Archive draws no conclusion from that, having no way to tell a thing that has not happened yet from a thing that does not happen.
+
+Its own account of how things end is entropic rather than eschatological: the [Creative Entropy](/star-rangers/lore/creative-entropy-framework/) horizon, and universes like [Threnos-Ω](/star-rangers/lore/universes/threnos-omega/) that outlive their own capacity for novelty. The Archive has cosmology for running down. It has no last day — and does not offer that absence as a finding.
+
 **This is not [Conceptual Conservation](/star-rangers/glossary/conceptual-conservation/), and the two must not be run together.** Conservation is universal, unconditional and structural: every coherent mind is retained at the Conceptual layer, without election, without selection, and with nobody deciding anything. Translation as the codex describes it is elective, discretionary, selective, and at a different layer entirely. One is a property of how reality is built; the other is an act attributed to a person. A reader who collapses them arrives at either a mechanical afterlife or a chosen conservation, and the record supports neither.
 
 ## Mostly Hierarchical: The Matrix Exceptions
