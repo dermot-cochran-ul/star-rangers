@@ -39,6 +39,10 @@ Mineral analogues to fungal towers — Prismeri call them **lumenspires** — ri
 
 ![A colony of glowing, amber-lit lumenspire towers rising from a crystalline grove, with a jellyfish-like aerial creature drifting past](/star-rangers/images/lore/prismere-luminous-towers.jpg)
 
+Where the root-mat crosses standing water it surfaces, and the network that feeds an entire lumenspire colony becomes visible as a single continuous line of light — the most photographed sight on the world after the Lattice itself.
+
+![A branching, glowing root-mat network tracing the floor of a crystalline grove and threading through a still pool, with translucent glass spires and luminous flowering growths rising on either side](/star-rangers/images/lore/prismere-root-mat-network.jpg)
+
 Taller, lattice-veined structures of fused silica — locally called **glass spires** — rise from Prismere's higher elevations independent of any glasswood grove. Survey botanists still debate whether glass spires are a wholly separate crystalline organism or an extreme adult growth form of glasswood; the two do not currently interbreed by any confirmed mechanism, but their internal mineral structure is close enough that the question remains open.
 
 ![Tall, translucent glass spire structures against a night sky showing a visible spiral galaxy, with crystalline reef-like fauna at ground level](/star-rangers/images/lore/prismere-glass-spires.jpg)
