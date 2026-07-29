@@ -443,10 +443,11 @@ down flat against the sides of her head"*, and name the same brown glazed mug,
 saucer and kitchen table. Firefly defaults to upright ears unless the lop is
 stated outright, so state it in every attempt.
 
-### dorian-calloway.jpg — Chief Commissioner, Orbital Habitats Compact
-Landscape 16:9, 1200×675. Currently 1200×800 at 44 KB, so it is both off-spec
-(sliced by `object-fit: cover`) and under-quality. One of the thirteen files in
-the contemporary-stock-headshot cluster in `images.md` § 3.
+### dorian-calloway.jpg — Chief Commissioner, Orbital Habitats Compact — DONE 29 Jul 2026
+Landscape 16:9, 1200×675. Was 1200×800 at 44 KB — both off-spec (sliced by
+`object-fit: cover`) and under-quality. One of the thirteen files in the
+contemporary-stock-headshot cluster in `images.md` § 3, and the first of that
+cluster to be replaced.
 
 > Documentary photograph, available light, candid. A man in his late fifties,
 > senior civil administrator, standing on the coordination floor of an orbital
