@@ -443,6 +443,52 @@ down flat against the sides of her head"*, and name the same brown glazed mug,
 saucer and kitchen table. Firefly defaults to upright ears unless the lop is
 stated outright, so state it in every attempt.
 
+### dorian-calloway.jpg — Chief Commissioner, Orbital Habitats Compact
+Landscape 16:9, 1200×675. Currently 1200×800 at 44 KB, so it is both off-spec
+(sliced by `object-fit: cover`) and under-quality. One of the thirteen files in
+the contemporary-stock-headshot cluster in `images.md` § 3.
+
+> Documentary photograph, available light, candid. A man in his late fifties,
+> senior civil administrator, standing on the coordination floor of an orbital
+> habitat administration centre, half-turned from a bank of wall-mounted status
+> displays as though interrupted mid-shift. Business dress worn like a long day
+> rather than a photocall — jacket open, tie loosened, sleeves turned back, a
+> small plain metal pin at the lapel. Composed, unhurried, faintly tired;
+> attention still partly on the displays. Behind him the displays show abstract
+> orbital ring diagrams, engineering telemetry traces and schematic floor plans
+> as pure graphics — shapes, curves and line work only. Working clutter on the
+> desks below: printouts, cabling, a cooling drink. Functional overhead light,
+> natural skin texture, no retouching, shallow depth of field.
+
+**Negative:** text, lettering, numerals, labels, signage, writing on any screen
+or surface, uniform, military uniform, police uniform, epaulettes, rank
+insignia, badge with visible engraving, flat studio backdrop, glamour lighting,
+corporate headshot, posed to camera.
+
+**Why no uniform** — settled 29 July 2026. The post is *administrative rather
+than operational by design* and Calloway explicitly cannot direct a habitat
+Commissioner's policing decisions; a service uniform would assert command
+authority the character page spends its length denying. His remit also spans
+engineering operations, public safety *and* law enforcement, and each has its
+own uniform tradition — any one of them narrows him to a third of the job and
+invites the "top cop" misreading. The surrounding cast already carries this:
+Voss, Wayland and Petrakis are civilian, Oyelaran is plainclothes, and Larsen's
+navy flight suit is the single uniform in the cluster, marking him as the
+operational one. There is also no Compact uniform in canon —
+`src/lore/rank-insignia-and-uniform.md` covers Star Rangers only — so inventing
+one is new canon that would have to cascade to all five habitat Commissioners.
+Let the *room* carry the breadth instead of a costume.
+
+**Watch the lettering.** Putting him in front of status boards invites exactly
+the failure that killed the 28 July Agent Barsik attempt. State the
+graphics-only requirement in the body as well as the negative, and reject any
+frame with readable glyphs on a display.
+
+**Alt text to use if the frame matches:**
+"Chief Commissioner Dorian Calloway on a habitat coordination floor, jacket
+open and sleeves turned back, half-turned from a bank of displays showing
+orbital diagrams and engineering telemetry."
+
 ---
 
 # D. Aldera gallery — field-photo-03 and -04
