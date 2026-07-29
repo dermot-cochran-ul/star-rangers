@@ -82,8 +82,21 @@ AUC relation:
 2. Seed transfer cannot violate higher-tier cosmological governance constraints.
 3. Failed compression events may produce nonviable shadow-seeds and local ontological disturbance.
 
+## Not a Salvation
+
+This page describes a mechanism of universe reproduction. It rewards nothing and saves nobody, and the commonest misreading of it is that it does.
+
+**Every coherent mind is preserved.** [Conservation at the Conceptual layer](/star-rangers/lore/five-layers/) is unconditional and takes no account of depth: a mind that never approached viability is conserved exactly as completely as one that seeded a universe. A seed mind therefore receives nothing that is not already true of everybody. **Preservation is universal and unearned. Fertility is neither.**
+
+IWD and NSP measure which minds can compress into a structure capable of bootstrapping a new substrate. That is a fact about compressibility, not about worth, and nothing in the measures ranks a life. A mind of modest depth loses nothing that a seed mind keeps.
+
+**Nor is transference a continuation of the person.** What NSP measures the survival of is *novelty-bearing structure* — not biography, not identity, not experience. A successor universe inherits structure from its parent. It does not inherit anybody, and no one wakes up in it.
+
+The devotional reading — that a sufficiently deep life is carried forward into a new world, and that this is what becoming a seed means — is old, widespread, and not what the record describes. The Archive's objection to it is not that it is a comforting story. It is that it has the mechanism backwards: **seeding is not how minds are kept, because minds are kept anyway.**
+
 ## Cross-References
 
+- [The Five Layers of Reality](/star-rangers/lore/five-layers/)
 - [Creative Entropy Framework](/star-rangers/lore/creative-entropy-framework/)
 - [Seed Mind Lifecycle](/star-rangers/lore/seed-mind-lifecycle/)
 - [Threnos-Ω: Post-Entropy Universe](/star-rangers/lore/universes/threnos-omega/)

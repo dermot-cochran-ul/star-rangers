@@ -52,6 +52,30 @@ There is a third thing in this file, and the Archive records it last because it 
 
 The Archive keeps the description without resolving it. Devotional material names this influence with a confidence the Archive does not share; the Archive's honest position is that a timeless stratum's influence inside time is precisely the kind of thing its invariant-only inference method would be structurally unable to detect — which is an admission of the method's limits, not evidence in either direction.
 
+### Translation
+
+A fourth thing sits beside the influence, and the codex record treats the two as one family.
+
+What the devotional material describes is this: that **Kieme** may, at Kieme's own volition and discretion, elect to translate the essence of a person — or of any other sapient being — into the [Spiritual layer](/star-rangers/lore/five-layers/) after that being's death, choosing in doing so precisely which aspects are carried and which are not. The election is Kieme's alone. No Cascade stratum performs it, petitions for it, or is consulted, which makes it one of the few acts attributed to Kieme that is **not mediated through the Cascade at all** and places it outside the hierarchy the rest of this page describes. In that unmediated character it resembles the subtle influence above, and the codex material treats them as the same kind of thing.
+
+**The process is invisible to the Physical and Material layers.** Nothing about it registers, and nothing about its absence would register either. The claim is accordingly neither testable nor falsifiable in the sense the Survey Corps means by those words — not unproven pending better instruments, but outside what any instrument is shaped to reach. It is nonetheless a firm and central belief of many traditions, held with a confidence the Archive does not share and does not dispute.
+
+**Rewards and judgements belong to the devotional register.** Traditions differ, sometimes sharply, on what the election means and what it is for. The Archive files those accounts as devotional and does not rank them, and it will not restate any of them as mechanism — since the one feature common to every version is that the deciding is Kieme's and the reasoning is not disclosed.
+
+**Eschatology is out of scope rather than adjudicated.** The Archive's method here is invariant-only inference: it reads what persists across every Concordant. A claim about a singular event at the end of Material time is not an invariant and could not be made into one, so the method has nothing to say about it — including about a **general resurrection**, which several traditions hold and which the Archive does not attempt to place.
+
+The asymmetry with translation is worth stating plainly, because it is why the two cannot be filed together. Translation is invisible *by nature*: no instrument is shaped to reach it and none ever will be. A general resurrection would be visible *by definition* — a universal, Material-layer event of exactly the kind instruments exist to record — and the record contains none. The Archive draws no conclusion from that, having no way to tell a thing that has not happened yet from a thing that does not happen.
+
+Its own account of how things end is entropic rather than eschatological: the [Creative Entropy](/star-rangers/lore/creative-entropy-framework/) horizon, and universes like [Threnos-Ω](/star-rangers/lore/universes/threnos-omega/) that outlive their own capacity for novelty. The Archive has cosmology for running down. It has no last day — and does not offer that absence as a finding.
+
+The [Fellowship of Light](/star-rangers/lore/fellowship-of-light/) reads the general resurrection the way its contemplative chapters read most inherited language: as pointing at something real that the available vocabulary cannot hold. Its comparative archive files the doctrine beside the [Overfold](/star-rangers/glossary/overfold/) — a word those chapters went on using long after the instruments arrived, on the grounds that the people who coined it had been right about something before anyone could measure it.
+
+On that reading the doctrine is a metaphor, and calling it one concedes nothing. **A metaphor for something deeper, more profound and possibly inconceivable is not a smaller claim than a literal event. It is a larger one** — made by people who noticed that the literal version would be the easier thing to believe.
+
+The Fellowship does not press this reading on traditions that hold the doctrine plainly, in keeping with a comparative archive that catalogues accounts rather than ranking them; its own chapters differ among themselves. The Archive files the disagreement and adds nothing to it.
+
+**This is not [Conceptual Conservation](/star-rangers/glossary/conceptual-conservation/), and the two must not be run together.** Conservation is universal, unconditional and structural: every coherent mind is retained at the Conceptual layer, without election, without selection, and with nobody deciding anything. Translation as the codex describes it is elective, discretionary, selective, and at a different layer entirely. One is a property of how reality is built; the other is an act attributed to a person. A reader who collapses them arrives at either a mechanical afterlife or a chosen conservation, and the record supports neither.
+
 ## Mostly Hierarchical: The Matrix Exceptions
 
 The spine above reads as a single chain, and for most tiers it is one. Two places in the structure are matrixed rather than linear:
