@@ -6,6 +6,12 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Added
+
+- **Title card for [The Reading Before a First Vigil](src/codex/the-reading-before-a-first-vigil.md)** — the one codex entry shipped without one, closing the loop opened when it merged. Same designed template as the rest of `src/images/codex/`: `DOCTRINAL RECORD` category line, `rules` motif, a tilted `DEVOTIONAL` stamp, and *Fellowship of Light · Contemplative Chapters* under the title.
+  - **Rendered from a faithful port of `make-codex-cover.ps1`, not by an image generator** — same 1600×1600 canvas, same gradient stack and alphas, same coordinates, same tracking rules, same auto-fit title (landed at 106px). The `.ps1` is GDI+ and Windows-only, so it cannot run in a Linux session; the port reproduces its geometry exactly and the text is still font-rendered, which is the property that matters — the template exists precisely because generators cannot spell.
+  - **One deliberate deviation, worth knowing before regenerating:** Georgia and Consolas are Windows fonts and are not available here. Georgia was substituted with **Gelasio**, which is metric-compatible, so the auto-fit title geometry lands where Georgia's would; Consolas was substituted with **DejaVu Sans Mono**, for which no metric clone exists, so the small tracked lines differ very slightly in width. Re-running the `.ps1` on Windows will produce a near-identical card with the true faces.
+
 ## [1.9.0] - 2026-07-29
 
 The Dock Seven release. The event every Season 6–7 chapter reaches backwards for had no chapter and no POV of its own — `narrative-gaps-checklist.md` had it as the one genuinely unwritten item in the whole Tissadelle arc — and it has both now, in **Season 5** rather than at the S5/S6 seam, appended with no renumbering.
