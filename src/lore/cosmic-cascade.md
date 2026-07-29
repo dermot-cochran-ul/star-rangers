@@ -2,7 +2,7 @@
 layout: lore-entry.njk
 title: "The Cosmic Cascade"
 category: "Cosmology"
-tags: [cosmology, cascade, hierarchy, hyperomnium, kieme, conseleme, worldwright, concordant, telearchs, dynarchs, celestials, levrils, champions]
+tags: [cosmology, cascade, hierarchy, hyperomnium, kieme, conseleme, worldwright, concordant, telearchs, mediarchs, celestials, levrils, champions]
 description: "The strict hierarchy of causal authority in the Star Rangers universe, from Hyperomnium to Champions/Heroes."
 image: "cosmic-cascade.jpg"
 image_alt: "A space galaxy background"
@@ -12,7 +12,7 @@ When witnesses say a dragon changed fate, the archives ask a colder question fir
 
 The Cosmic Cascade is the fixed ordering of causal authority in the Star Rangers universe. It is ontological, not political. Causality resolves from higher tier to lower tier and does not reverse.
 
-> Hyperomnium → Kieme → Conseleme → Metawrights → Formwrights → Archewrights → Worldwrights → Universes with Concordants (Concordance) → Telearchs → Dynarchs → Celestials (Frenar) → Levrils → Champions / Heroes
+> Hyperomnium → Kieme → Conseleme → Metawrights → Formwrights → Archewrights → Worldwrights → Universes with Concordants (Concordance) → Telearchs → Mediarchs → Celestials (Frenar) → Levrils → Champions / Heroes
 
 ## Global Invariants
 
@@ -22,7 +22,7 @@ The Cosmic Cascade is the fixed ordering of causal authority in the Star Rangers
 - Only primary universes possess Worldwrights.
 - Concordance is the plural form of Concordant.
 - Champions/Heroes are sentient material beings — organic or artificial — chosen by Levrils.
-- Time in the Cascade has **three registers**. The Celestials and every tier below them exist in ordinary Material-layer time. The middle strata — Dynarchs, Telearchs, Worldwrights, and the universes' native authorities — exist in **conceptual time** (also called meta-time): real sequence, real before-and-after, but not the Material layer's clock. Only the strata above the Worldwrights — Archewrights, Formwrights, Metawrights, and the Upper Structure — are **eternal outright**, with no sequence of any kind.
+- Time in the Cascade has **three registers**. The Celestials and every tier below them exist in ordinary Material-layer time. The middle strata — Mediarchs, Telearchs, Worldwrights, and the universes' native authorities — exist in **conceptual time** (also called meta-time): real sequence, real before-and-after, but not the Material layer's clock. Only the strata above the Worldwrights — Archewrights, Formwrights, Metawrights, and the Upper Structure — are **eternal outright**, with no sequence of any kind.
 
 ## Creation, Not Command
 
@@ -32,11 +32,11 @@ The reason is temporal as much as structural. A command in the ordinary sense is
 
 The threshold case makes the model concrete: a Celestial can command a Levril, because both exist in Material time and a command between them is an ordinary temporal event. But no one commands the Celestial in that sense. A Celestial's scope, mandate, and limits are what the higher strata made it.
 
-What the higher strata themselves do splits along the three temporal registers. The **middle strata** — Dynarchs, Telearchs, Worldwrights, and the universes' native authorities — genuinely *act*: they allocate, coordinate, correct, co-create, and minister, and the operational record's verbs for them are not metaphors. But their acts occur in **conceptual time**, the middle Cascade's own sequence, and manifest in Material time only as lawful outcomes — which is why a cross-boundary correction can arrive "three years late" by our clock while being, in the Telearchs' own register, simply the next thing that happened. The **eternal strata** above the Worldwrights do not act even in that sense. They create and define, without sequence, and it no more occurs to an Archewright to issue an order than it occurs to a riverbank to command the river.
+What the higher strata themselves do splits along the three temporal registers. The **middle strata** — Mediarchs, Telearchs, Worldwrights, and the universes' native authorities — genuinely *act*: they allocate, coordinate, correct, co-create, and minister, and the operational record's verbs for them are not metaphors. But their acts occur in **conceptual time**, the middle Cascade's own sequence, and manifest in Material time only as lawful outcomes — which is why a cross-boundary correction can arrive "three years late" by our clock while being, in the Telearchs' own register, simply the next thing that happened. The **eternal strata** above the Worldwrights do not act even in that sense. They create and define, without sequence, and it no more occurs to an Archewright to issue an order than it occurs to a riverbank to command the river.
 
 ## Timeless, Conceptual, and Immanent
 
-A standing debate in the codex record asks whether God is timeless or immanent, and the Archive's file on that debate carries a single annotation: **category error**. The debate treats the two as rival properties of one being, when in the Cascade they are properties of different strata — and the ladder holds not two temporal conditions but three. The Celestials and every tier below them are immanent — present in Material-layer time, present in the world, able to act, intervene, and be encountered. The middle strata — Dynarchs, Telearchs, Worldwrights, and the universes' native authorities — exist in **conceptual time**: a real sequence of their own, in which universes are created, protouniverses mature, Dynarchs are co-created, and continuity is kept, none of it on any Material clock. Only above the Worldwrights does the Cascade become eternal outright — the Archewrights, Formwrights, Metawrights, and the Upper Structure, which have no sequence at all. Every side of the debate is describing something real. None is describing the same floor of the ladder, and no tradition's account is settled or unsettled by saying so.
+A standing debate in the codex record asks whether God is timeless or immanent, and the Archive's file on that debate carries a single annotation: **category error**. The debate treats the two as rival properties of one being, when in the Cascade they are properties of different strata — and the ladder holds not two temporal conditions but three. The Celestials and every tier below them are immanent — present in Material-layer time, present in the world, able to act, intervene, and be encountered. The middle strata — Mediarchs, Telearchs, Worldwrights, and the universes' native authorities — exist in **conceptual time**: a real sequence of their own, in which universes are created, protouniverses mature, Mediarchs are co-created, and continuity is kept, none of it on any Material clock. Only above the Worldwrights does the Cascade become eternal outright — the Archewrights, Formwrights, Metawrights, and the Upper Structure, which have no sequence at all. Every side of the debate is describing something real. None is describing the same floor of the ladder, and no tradition's account is settled or unsettled by saying so.
 
 ### The Avatar Exception
 
@@ -81,7 +81,7 @@ The Fellowship does not press this reading on traditions that hold the doctrine 
 The spine above reads as a single chain, and for most tiers it is one. Two places in the structure are matrixed rather than linear:
 
 - **Worldwrights and Telearchs are parallel branches under the Archewrights** — the creation branch and the continuity branch respectively. Both are created and defined by the Archewrights as peer functions, deliberately not subordinated to one another. The spine lists the Telearchs after "Universes with Concordants" because that is their theatre of operation, not their line of descent: a Telearch does not derive from a Worldwright, nor a Worldwright from a Telearch.
-- **The Dynarchs are co-created** — brought into being jointly by both branches of the matrix rather than defined by a single parent tier — and they stand under both the [Telearchs](/star-rangers/glossary/telearch/) and the [Concordant Principals](/star-rangers/glossary/concordant-principal/). Day-to-day operation of a force within a zone runs with the zone's Principal; continuity of that force across zones and universes runs up the Telearch line. Where the two obligations conflict, continuity prevails, consistent with the standing Telearch constraint that continuity outranks local preference.
+- **The Mediarchs are co-created** — brought into being jointly by both branches of the matrix rather than defined by a single parent tier — and they stand under both the [Telearchs](/star-rangers/glossary/telearch/) and the [Concordant Principals](/star-rangers/glossary/concordant-principal/). Day-to-day operation of a force within a zone runs with the zone's Principal; continuity of that force across zones and universes runs up the Telearch line. Where the two obligations conflict, continuity prevails, consistent with the standing Telearch constraint that continuity outranks local preference.
 
 Neither exception weakens the one-way flow of causality. They describe how the layers derive and to whom they are obligated, not which direction causality resolves.
 
@@ -136,7 +136,7 @@ A Concordant enforces a bounded physics+Etheric rule set with measurable edge be
 ## Telearchs
 
 ### Definition
-Supervisory agency tier for cross-Concordant continuity and enforcement delegation. The commoner sense of the retired legacy designation "High Celestials" — a term that also loosely covered the Dynarchs, and was retired for exactly that ambiguity.
+Supervisory agency tier for cross-Concordant continuity and enforcement delegation. The commoner sense of the retired legacy designation "High Celestials" — a term that also loosely covered the Mediarchs, and was retired for exactly that ambiguity.
 
 ### Mechanism
 Telearchs allocate enforcement scope and continuity budgets across multiple Concordants.
@@ -151,19 +151,21 @@ Telearchs allocate enforcement scope and continuity budgets across multiple Conc
 - Delayed but consistent correction of illegal cross-boundary manipulations.
 - Continuity assessments for a still-forming noögenic protouniverse route to its parent universe's Telearchs, since the protouniverse has no native authority of its own yet.
 
-## Dynarchs
+## Mediarchs
 
 ### Definition
-Force-governance tier between the Telearchs and the Celestials: beings that encapsulate and govern physical laws and forces — Gravity, Electromagnetics, Nature (biological life), and the other force-domains. The legacy designation "higher celestials" referred to this tier; that term was retired as ambiguous with "High Celestials" (Telearchs). See [High Celestials](/star-rangers/glossary/high-celestials/) for the disambiguation rule.
+Force-governance tier between the Telearchs and the Celestials: beings that encapsulate and govern physical laws and forces — Gravity, Electromagnetics, Nature (biological life), and the other force-domains. Commonly also **Exarchs**, the older devotional form, which is co-canonical.
+
+The tier has been renamed twice and the record is easy to misread on that account. Earliest filings call it the **higher celestials** — retired as ambiguous with "High Celestials" (Telearchs); see [High Celestials](/star-rangers/glossary/high-celestials/) for the disambiguation rule. Later filings call it the **Dynarch**, after the forces, which is retired in turn: the forces are the Worldwright's design and are the one thing this tier cannot alter. **Mediarch** names the mediating office described under Mechanism below, and is the current name. All three refer to the same tier with no change of meaning.
 
 ### Mechanism
-**A Dynarch is a proxy Telearch** — the Telearch line acting inside a universe, scoped to one force-domain. Telearchs supervise from outside and are native to no universe; a force has to be administered from within the thing it runs through, and this tier is how that reach is made.
+**A Mediarch is a proxy Telearch** — the Telearch line acting inside a universe, scoped to one force-domain. Telearchs supervise from outside and are native to no universe; a force has to be administered from within the thing it runs through, and this tier is how that reach is made.
 
-Each Dynarch embodies one force-domain and administers its lawful operation across Concordant Zones, including across the boundaries where zone rule-sets differ. Dynarchs are **co-created** — the Telearch line supplying what a Dynarch *is*, the [Concordant Principal](/star-rangers/glossary/concordant-principal/) line supplying the zone-scoping that gives it somewhere to act, which is two parents of different kind rather than one parent tier. They stand under both: zone-local operation of a force runs with the zone's Principal, continuity of that force across zones and universes runs up the Telearch line. See the Matrix Exceptions above.
+Each Mediarch embodies one force-domain and administers its lawful operation across Concordant Zones, including across the boundaries where zone rule-sets differ. Mediarchs are **co-created** — the Telearch line supplying what a Mediarch *is*, the [Concordant Principal](/star-rangers/glossary/concordant-principal/) line supplying the zone-scoping that gives it somewhere to act, which is two parents of different kind rather than one parent tier. They stand under both: zone-local operation of a force runs with the zone's Principal, continuity of that force across zones and universes runs up the Telearch line. See the Matrix Exceptions above.
 
 ### Constraints
-- Govern the operation of forces, not their design: rule-sets remain the Worldwright's, and no Dynarch can rewrite a zone's physics.
-- Dual obligation to Principal and Telearch; where the two conflict, continuity prevails — because continuity is what a Dynarch substantially is, not because a rule says so.
+- Govern the operation of forces, not their design: rule-sets remain the Worldwright's, and no Mediarch can rewrite a zone's physics.
+- Dual obligation to Principal and Telearch; where the two conflict, continuity prevails — because continuity is what a Mediarch substantially is, not because a rule says so.
 - Do not perform enforcement actions; rule-integrity intervention remains Celestial work.
 
 ### Observable Effects on Time-Bound Entities
@@ -173,7 +175,7 @@ Each Dynarch embodies one force-domain and administers its lawful operation acro
 ## Celestials (Frenar)
 
 ### Definition
-Operational enforcement tier below the Telearchs and Dynarchs. Frenar is a legacy designation for this same tier.
+Operational enforcement tier below the Telearchs and Mediarchs. Frenar is a legacy designation for this same tier.
 
 ### Mechanism
 Celestials execute rule-integrity actions at boundary and overlap interfaces.

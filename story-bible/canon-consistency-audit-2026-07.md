@@ -82,10 +82,10 @@ These predate the timeless doctrine. Options: (a) add one clarifying sentence to
 the "Creation, Not Command" section — e.g. a timeless stratum's "activity"
 *manifests in* time as lawful correction without being a sequence of events *for*
 the stratum (the river-and-banks reading, extended); (b) re-attribute the
-Etheric-layer maintenance work in `physics-comparison.md` downward to Dynarchs
-and Celestials, who are nearer the temporal threshold (Dynarchs) or inside it
-(Celestials). Note `physics-comparison.md` predates the Dynarch tier entirely and
-never mentions it — force/entropy maintenance is arguably now Dynarch work by
+Etheric-layer maintenance work in `physics-comparison.md` downward to Mediarchs
+and Celestials, who are nearer the temporal threshold (Mediarchs) or inside it
+(Celestials). Note `physics-comparison.md` predates the Mediarch tier entirely and
+never mentions it — force/entropy maintenance is arguably now Mediarch work by
 definition.
 
 ## 4. Soft chronology flags
@@ -109,7 +109,7 @@ definition.
   "Telerarch" spelling, "plural Concordant," "Concordant-equivalent governance,"
   governance-sense "Concordant."
 - **Hierarchy chain:** all three canonical renderings (lore Cascade, glossary
-  Cascade, migration guide) agree, Dynarchs included.
+  Cascade, migration guide) agree, Mediarchs included.
 - **Dragon classification:** every dragon reference corpus-wide correctly treats
   dragons as Levrils, never monsters (incl. `turquoise-dove.md`'s Higher
   Levril/Dragon rank distinction, used correctly).
@@ -154,7 +154,7 @@ definition.
 - **#3 — fixed (both options):** clarifying "corollary for readers of the
   operational record" paragraph added to Creation, Not Command (timeless mandates
   manifest in time without being events for the stratum); `physics-comparison.md`
-  maintenance re-attributed to Dynarchs/Celestials/Levrils inside
+  maintenance re-attributed to Mediarchs/Celestials/Levrils inside
   timeless-defined mandates.
 - **#4 — fixed:** "decades before" in the Twelve Sultans entry; Veritas
   commission now explicitly "nearly a century and a half after the guns went

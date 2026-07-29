@@ -30,7 +30,7 @@ Several promotions land each season rather than one — Shepherd's climb is comp
 - **Season 1:** Cadet → Deputy → Officer (general operations track)
 - **Season 2:** Officer → Senior → Principal, rotated onto the Survey Corps track — the posting that puts her on Hegemony telemetry duty during the Sentinel Signal, below
 - **Season 3:** Principal → Section Lead → **Chief Ranger**, rotated back onto general operations rather than staying Survey-track
-- **Season 4:** Chief Ranger → Starwarden → Starwarden First Officer → Line Captain
+- **Season 4:** Chief Ranger → Starwarden → Archwarden (then styled Starwarden First Officer) → Line Captain
 - **Season 5 (opening):** Line Captain
 
 See [Rank and the Chain of Command](/star-rangers/lore/star-rangers-command-hierarchy/) for what each rank on that ladder carries.
