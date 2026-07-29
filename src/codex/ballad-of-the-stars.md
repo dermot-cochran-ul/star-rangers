@@ -92,3 +92,25 @@ image_alt: "Designed album cover for 'Ballad of the Stars': gold serif title ove
 ---
 
 *Archivist's note (S., Survey Archive): "One of us burned all night trying to fix the broken clock" gets flagged to me every time someone new transcribes this. No, I don't think it's about Threshold Station's forty-second discrepancy. I also don't think that's not what it's about. Filed as unresolved, the same way we file everything else that scans a little too well.*
+
+---
+
+## Addendum: the second reading (filed 2832 UCSD)
+
+**The song did not change. What it is about did.**
+
+After the [loss at Dock Seven](/star-rangers/seasons/s05/e02/s05e02c03/), the surviving members of Slipwave — the ones named in Verse 2, who had not been in a room together in years — reissued the recording with a written reading of their own attached, and it is the only time any of them has ever explained a lyric in public. Their statement is short enough to reproduce whole:
+
+> We wrote it when she left. *She went to the stars* meant she had gone off to the Rangers and we were the ones staying, and we were not being noble about it. It was a leaving song and we were sore.
+>
+> It means both things now. We are not going to choose. She went to the stars twice and the second time is not more true than the first, and anybody who tells you the song was always about this is selling you something.
+
+That is the whole of the reinterpretation and the Archive files it as offered: **not a claim that the song foresaw anything.** The band is explicit that it did not. What they assert is narrower and considerably more durable — that a leaving song written in 2826 and an elegy sung in 2832 are the same forty-one lines, and that the reason the second reading fits so exactly is that the two departures were the same act performed twice by the same person.
+
+Three consequences the Archive notes without resolving:
+
+- **The chorus is now unfileable.** *And we still sing her back* was a complaint about a friend who had enlisted. Sung after the Last Stand, at a station where a structured signal was iterating at the failure point, it is either a figure of speech or it is not, and no instrument distinguishes the two.
+- **Verse 2 is confirmed audio and predates everything.** The three surviving members are described in it, in the present tense, by a woman who is now the subject of the song. They have declined every request to say which of them is which.
+- **The reading is theirs, and it is not the Corps'.** The Oversight Council's citation, [the Institute's material account](/star-rangers/lore/the-institute/), the [ballad that came after](/star-rangers/codex/baby-universe-ballad/), and this addendum do not reconcile, and this Archive has stopped expecting them to.
+
+*Second archivist's note (S.): I was asked whether reissuing it counts as the same closure-prevention the doctrine warns about, given what the later ballad is flagged for. I do not think so, and the distinction is the band's own. A story kept open because nobody will say what happened is one thing. A song that its authors say means two things, and who then decline to pick, is a record with two entries in it. That is not vagueness. That is the most precise thing anybody has filed about her.*

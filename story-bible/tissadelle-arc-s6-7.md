@@ -326,7 +326,7 @@ memory. But this is a narrative choice, not a research finding.
 Either way the S6 chapters cannot simply not mention Tobble, so this needs
 settling before they are drafted.
 
-**Tobble's pronouns are not yet set** — they/them everywhere so far.
+**Tobble's pronouns are settled (Dermot, 29 July 2026): he/him.** Swept across `src/` the same day; the they/them used before that date is superseded.
 
 ---
 
@@ -505,7 +505,7 @@ Saint Aoife for exactly the reason already recorded, and
 - Does Tobble want it? Declining is a real option the cosmology permits — a
   founder without a Council is not an Authority, so a founder who refuses to
   seat one leaves a protouniverse permanently *proto*.
-- Tobble's pronouns are still unset. They/them everywhere so far.
+- Tobble's pronouns are settled (29 July 2026): **he/him**.
 
 ---
 
@@ -703,4 +703,129 @@ done entirely in front matter.
 - **Wender does not fly in this chapter**, on purpose — she is eleven hours away
   and signs nothing, which keeps her Season 6 position clean. The cockpit
   sequence this file asks for elsewhere still wants its own chapter.
-- Tobble's pronouns remain unset. They/them throughout.
+- Tobble's pronouns are settled (29 July 2026): **he/him**.
+
+---
+
+## The aftermath, and the competing accounts (Dermot, 29 July 2026 — canon direction, second batch)
+
+Given in one message shortly after the Last Stand direction above. All of it is
+now written; what follows records what was decided and what is still open.
+
+### Tobble uses he/him — settled
+
+Swept the same day across `src/characters/tissadelle-shepherd.md` (which now
+states it outright, since being mis-recorded is his whole institutional
+situation), `src/glossary/plural-minds.md`, `s05e02c03`, and the three places in
+this file that said the pronouns were unset. **The they/them used before 29 July
+2026 is superseded, not an alternative.**
+
+### The Institute — the secular counterpoint
+
+New institution: `src/lore/the-institute.md`. Secular, sceptical, **not
+atheist** — its published position is that no claim about meaning, intention or
+moral order has survived an instrument, and it declines the Cascade rather than
+denying it. Dismissive of moral and spiritual claims specifically, which it
+holds to be methodologically inadmissible rather than merely unproven.
+
+**Built deliberately so it is not a strawman, and the reason matters.** Its
+Dock Seven reading — dimensional instability from overused and miscalibrated
+fold equipment held against an already-anomalous boundary — **is correct about
+the mechanism.** That is exactly what tore the boundary. The Institute takes a
+correct account of a cause and treats it as a complete account of an event,
+which is the only thing wrong with it, and it says up front that this is what
+it will always do.
+
+Its house rule is the good part and should be protected: **it publishes what it
+failed to find**, at the same length as the finding. `src/codex/dock-seven-material-account.md`
+is the paper, and its section 4 prints, unhedged, the four observations that
+undo its own section 3 — including the selectivity by *registry*, which no
+strain model can make a physical property. The Institute is wrong and it is not
+dishonest, and a reader who takes it for a fool has been set up to.
+
+**Open for Dermot: is the Institute also an overlay thread?** It is written as
+an ordinary in-universe institution, which it needs to be either way. Making it
+a domain-level *lens* opposite `church-space` is a separate and larger call —
+`CLAUDE.md` treats a second `private: true` thread as a design decision rather
+than configuration, and church-space is meant to be the only one. A non-private
+`THREADS` entry is the cheaper option if a secular-lens edition is wanted.
+
+### Why the Rangers survived — three accounts, and the useful irony
+
+- **What happened:** enforcement scoped to a process, not a party. They were not
+  spared; they were not included. Master Roon says exactly this in the Guild
+  loss adjustment and cannot get anybody who was not there to accept it.
+- **What the Institute says:** superior safety protocols and practical boundary
+  knowledge. Careful, generous, secular, and **wrong**.
+- **What this bought:** the Institute's version is what established the Corps'
+  reputation as neutral, safe and trusted. **So the reputation rests on an
+  account of their competence that the instrument record does not support** —
+  while the competence itself is entirely real and shown on the page four hours
+  earlier. Recorded in `fellowship-of-light.md`'s neutral-broker section. The
+  Corps has never publicly disputed the Institute, and the Institute has
+  publicly noticed the silence.
+
+The rivals' claims that failed are the ones already in canon: Farline's
+commercial-neutrality case and the SSDC's parallel channels. The sharpest
+detail is that **the Guild's own claims file undercuts the Guild's own
+argument** — a vessel master came when a Ranger asked and negotiated the rate
+afterward, and the adjuster wrote it down against interest.
+
+### Not everyone believes in the Cascade
+
+Added as a "Who Accepts This Model" section to `src/lore/cosmic-cascade.md`,
+which had been stating the framework without ever saying how widely it is held.
+Four positions recorded (sceptical, contemplative, devotional, and no position
+at all — the majority), plus two consequences: a cosmology with no virtue,
+reward or punishment **has nothing to console anybody with**, which limits its
+spread independently of whether it is right; and disagreement here is not error
+to be corrected, since the Partial Observation rule cuts both ways.
+
+This is a statement about *reception*, not about truth, so lore stays internally
+consistent and the canon/record split holds.
+
+### The Ballad of the Stars — reinterpreted, not rewritten
+
+**No retcon was needed.** The entry already had Tissadelle on vocals
+*pre-enlistment*, so the song predates everything. The surviving members of
+Slipwave reissued it in 2832 with a reading attached: *she went to the stars*
+first meant she left the band for the Rangers, and now means both, and **they
+explicitly decline to choose.** They are equally explicit that the song foresaw
+nothing and that anyone claiming otherwise is selling something.
+
+Two things this protects: it is not a prophecy, and it is not the
+closure-prevention the later `baby-universe-ballad` is flagged for — a document
+with two entries in it is precise, not vague. Sen makes that distinction in the
+addendum's second note.
+
+### Wender's funeral address
+
+`src/codex/wender-funeral-address.md`. 2832 Mid-Autumn, about eleven months
+after Dock Seven, which places it just before `s07e01c01`.
+
+**The load-bearing choice: she gives the eulogy having never signed the
+citation, and says so from the podium.** The Council held the funeral anyway, as
+it was entitled to; she accepted within the hour. So the document grieves
+without once conceding the death it is held to mark, and states the distinction
+that runs the whole arc — *no body* is not a synonym for *gone*, it is a synonym
+for *we did not get everything back.*
+
+She refuses both consolations, in the same breath: she will not say Shepherd is
+dead and will not say she is out there, because she has a finding for neither.
+Then she holds both, unresolved, and notes that Shepherd taught her how. That
+is her doctrinal arc paid off in public and at cost, and it is the answer to
+"what her doctrine has no word for" that this file has been asking for since
+28 July.
+
+The ceremonial record stops at "forty-one minutes" and omits the second half;
+three newsnets printed it whole, and it is the second half that gets quoted.
+
+### Still open
+
+- Whether the Institute becomes an overlay/thread (above).
+- Whether Wender's missing doctrinal category ever gets a *name*, as this file
+  asks earlier. The address gets her to the position without naming it, which
+  leaves that beat intact.
+- Whether the Institute's section 4.5 — a Ranger field analyst offered an
+  account and was never asked for it again — is ever followed up. That is
+  Rook-7, and it is a loose thread deliberately left loose.
