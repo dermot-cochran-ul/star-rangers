@@ -60,11 +60,11 @@ Temporary coexistence window in which two adjacent universes share a measurable 
 
 ### Extent
 
-An overlap window is bounded by the region in which the [Interval](/star-rangers/glossary/interval/) sits inside coupling range — which is to say, by the footprint of the fold that brought the two membranes close in the first place. Nothing about the mechanism reaches further than the geometry does.
+An overlap window is bounded by the region in which the [Interval](/star-rangers/glossary/interval/) sits inside coupling range — which is to say, by the footprint of the flexure that brought the two membranes close in the first place. Nothing about the mechanism reaches further than the geometry does.
 
-That is why the effects are sampled the way they are. Dual-valid readings come from instruments a short distance apart, not from observatories on opposite sides of a sky, and constants remain *position-dependent* within the window because the fold's own profile varies across it — deepest where the narrowing is tightest, tailing off to nothing at the edges, with no sharp line anywhere for a surveyor to mark.
+That is why the effects are sampled the way they are. Dual-valid readings come from instruments a short distance apart, not from observatories on opposite sides of a sky, and constants remain *position-dependent* within the window because the flexure's own profile varies across it — deepest where the narrowing is tightest, tailing off to nothing at the edges, with no sharp line anywhere for a surveyor to mark.
 
-The survey record quotes no figure and the Archive has declined to supply one, on the grounds that the footprint is a property of each individual fold rather than a constant of the mechanism. What can be stated is the order of magnitude it is *not*: an overlap domain is a feature of a locality, not of a universe. A station can sit inside one. A civilisation does not.
+The survey record quotes no figure and the Archive has declined to supply one, on the grounds that the footprint is a property of each individual flexure rather than a constant of the mechanism. What can be stated is the order of magnitude it is *not*: an overlap domain is a feature of a locality, not of a universe. A station can sit inside one. A civilisation does not.
 
 ## Higher-Dimensional Folding
 
@@ -78,6 +78,7 @@ Localised topology rewrite of distance metrics while preserving global causality
 
 ### Constraints
 - Folding is not equivalent to universe overlap.
+- **A fold is not a flexure.** Folding is what this section describes: engineered transit, scaffolded and transient, operating *inside* one Concordant — the long-range channel, with [quantum space harmonic wave](/star-rangers/lore/ftl-mechanics/) carrying the medium-range traffic where no suitable fold exists. A **flexure** is a standing bend in a membrane's own geometry that carries a patch of it toward a neighbouring membrane; it is nobody's work, it is not transit, and nothing moves along it. The two share a shape and nothing else. See [Concordant Membranes](/star-rangers/lore/concordant-membranes/).
 - Folding cannot rewrite primary-universe Worldwright authority.
 - Repeated folding in unstable boundary zones accumulates coherence debt.
 - Local gravitational gradient is the primary physical variable governing scaffold stability. High curvature introduces aperture shear and shortens safe transit windows. Low-gradient regions — in particular the stable [Lagrange points](/star-rangers/lore/lagrange-fold-points/) (L4 and L5) of any two-body orbital system — are the preferred scaffolding sites because their near-zero net gradient allows wider apertures and cleaner collapse sequences.
