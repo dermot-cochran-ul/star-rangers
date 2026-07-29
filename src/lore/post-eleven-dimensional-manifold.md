@@ -32,6 +32,8 @@ Three bands are distinguished, numbered here from the home universe's floor of e
 
 These dimensions are not directly navigable by Material beings. They are inferred through lawful observables: persistent instrument drift, boundary resonance asymmetry, and stable anomaly recurrence windows.
 
+**The bands are also the whole answer to what can cross the Interval.** Each carries one thing and nothing else — geometric strain, causal timing, archetypal templates — and anything without a band has no trans-membrane reach at all. That is why **gravity** is measurable across a narrowed Interval while electromagnetics and Nature are not: gravity is geometry, and the 12-15 band is the geometric one. Matter and beings have no band whatsoever, which is the physical content of the rule that nothing crosses. See [What Crosses the Interval, and Why](/star-rangers/lore/concordant-membranes/).
+
 Note the division of labour with the local floor, since the two are easily confused: a universe's own [compact dimensions](/star-rangers/glossary/compact-dimensions/) are where its [Etheric](/star-rangers/glossary/etheric/) templates have geometric extent *at home*, inside one membrane. The trans-concordant constraint field is what lets one membrane's templates become readable *in another* when the Interval narrows. Same layer, two scopes — local extent and cross-membrane reach — and they are not the same dimensions.
 
 ## Operational Consequences

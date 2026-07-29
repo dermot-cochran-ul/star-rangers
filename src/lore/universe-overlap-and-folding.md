@@ -27,6 +27,16 @@ A **secondary universe** (and all subsequent derived universes) arises from the 
 - Derived universes are structurally subordinate: their physics is a function of their source primaries' [Concordant](/star-rangers/glossary/concordant/) constraints.
 - A derived universe that becomes stable enough to support [Concordants](/star-rangers/glossary/concordant/) does so under inherited, not original, Worldwright authority.
 
+### Noögenic descent is a different axis
+
+**Primary / secondary / derived classifies a universe by how it was *made*. Noögenic descent describes who it came *from*, and the two are independent.** A universe raised by [noögenic seeding](/star-rangers/lore/noogenic-seeding-system/) is neither primary (it receives no Worldwright) nor derived (it does not arise from the interaction of primaries) — it is not a third entry on this list at all, because it is not answering this list's question.
+
+Both ends of the relation are free. **A parent universe may itself be primary, secondary, or derived** — seeding requires a mind capable of it, not a pedigree. And a matured noögenic universe's own standing is not set by its parent's.
+
+The distinction that matters is what maturity does. A derived universe is **permanently subordinate**: its physics remains a function of its source primaries' Concordant constraints, and it never stops running on inherited authority. A [Noögenic Protouniverse](/star-rangers/glossary/noogenic-protouniverse/) is subordinate only *while unfinished* — parent Telearch jurisdiction holds until it stabilizes a [Universal Authority](/star-rangers/glossary/universal-authority/) of its own, and then that jurisdiction ends.
+
+**What it becomes is the adult child of its parent.** Grown, independent, and answerable to it in nothing — its own Council of Harmonarchs, its own founder in the presiding seat, its own continuity to keep. The kinship is permanent and carries no authority whatsoever; the authority was temporary and is gone. Neither fact modifies the other, and neither makes the child a copy of the parent.
+
 ## Universe Overlap
 
 ### Definition

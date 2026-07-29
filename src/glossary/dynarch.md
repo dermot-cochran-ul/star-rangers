@@ -29,6 +29,16 @@ This is what the tier's other properties are consequences of, rather than rules 
 
 Dynarchs rank between Concordant Principals (Harmonarchs) and [Celestials](/star-rangers/glossary/celestials/). In the Cascade, higher strata create and define the layers beneath them more than they command them — a Dynarch's dual obligation is written into what it *is*, not imposed on it order by order.
 
+## Every Force Divides the Same Way
+
+The dual obligation above is not an administrative arrangement laid over the forces. It is the shape the forces already have.
+
+Each force-domain has a **local** aspect — the force behaving ordinarily inside one membrane, which is where a zone's Principal governs it — and a **continuity** aspect: that same force holding across boundaries and across universes, which runs up the Telearch line because only a trans-membrane office can hold a trans-membrane fact.
+
+**Gravity is the domain where the second aspect is measurable rather than merely structural.** Gravity is geometry, and geometric strain is exactly what the Common Manifold's 12–15 band carries between membranes — so a coherent mass registers across a narrowed [Interval](/star-rangers/glossary/interval/) as a [Membrane Shadow](/star-rangers/glossary/membrane-shadow/), and at the Class III extreme as a transient gravity tunnel. Electromagnetics and Nature have no band and no reach; their continuity is real and never shows up on an instrument as a far-side effect. See [What Crosses the Interval, and Why](/star-rangers/lore/concordant-membranes/).
+
+This is also why continuity prevails where the two aspects conflict: the local aspect is the one that stops at the edge.
+
 **Key constraints:**
 - Dynarchs govern the *operation* of a force, not its design: the rule-sets are the Worldwright's, and a Dynarch cannot rewrite a zone's physics.
 - Dual obligation to Principal and Telearch; where zone-local preference and cross-boundary continuity conflict, continuity prevails.

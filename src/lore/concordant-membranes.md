@@ -78,4 +78,30 @@ A transient gravity tunnel is not engineered, not Lagrange-anchored, and not sta
 
 Two documented cases exist, at opposite ends of how predictable the underlying strain-distribution is: [Tír Tairngire](/star-rangers/lore/universes/tir-tairngire/), where the tunnel recurs on a rhythm regular enough to correlate with Tír na nÓg's own Conjunction, and [Sí Gaoithe](/star-rangers/lore/universes/si-gaoithe/), where it does not correlate with anything Survey Corps has measured yet.
 
+## What Crosses the Interval, and Why
+
+Three phenomena above cross a gap that nothing physical crosses, and they are not three exceptions. They are one rule.
+
+**A thing reaches across the Interval exactly to the extent that a band of the [Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/) carries it.** The manifold has three, and each carries one thing:
+
+| Band | Carries | Observed as |
+|---|---|---|
+| **12–15** — extended spacelike lattice | geometric strain | **gravity**: Membrane Shadows, transient gravity tunnels |
+| **16–19** — extended timelike channels | causal timing | timebase disagreement between overlapping frames |
+| **20+** — trans-concordant constraint field | Etheric archetypal templates | Membrane Resonance, Intermembrane Bleed |
+
+Everything else is membrane-confined. Matter, ships, beings, and the other force-domains — **electromagnetics, Nature** — have no band and therefore no reach: they stop at their own membrane and always have. This is why "nothing crosses the gap" and "the far side's mass is measurable here" are both true statements about the same event, and not a contradiction.
+
+**Gravity is the case where the rule becomes visible.** Its band is the geometric one, and gravity *is* geometry — so where two membranes draw close, gravity is the force whose trans-membrane term stops being structural and starts being an instrument reading. Not a special property of gravity so much as the one force whose nature matches what the between is made of.
+
+### Why this is a Telearch matter
+
+The governance has the same shape as the physics, and not by coincidence.
+
+The 20+ band encodes the nonlocal boundary conditions that **Worldwright and Telearch operations must satisfy** — which places the [Telearch](/star-rangers/glossary/telearch/) line squarely in the region where trans-membrane structure lives. Telearchs are native to no universe; the continuity branch is the only tier that is *itself* trans-membrane.
+
+So every force-domain divides the same way its physics does. **Local operation** — a force behaving ordinarily inside one membrane — runs with the zone's [Concordant Principal](/star-rangers/glossary/concordant-principal/). **Continuity** — that same force holding across boundaries and across universes — runs up the Telearch line, because a trans-membrane fact can only be held by a trans-membrane office.
+
+That is what a [Dynarch](/star-rangers/glossary/dynarch/)'s dual obligation *is*, restated from the physics side rather than the governance side: a proxy Telearch, scoped to one force-domain, administering from within a membrane the thing whose continuity is maintained from without. And it is why continuity prevails where the two conflict — the local aspect is the one that stops at the edge.
+
 See also: [Intermembrane Bleed](/star-rangers/glossary/intermembrane-bleed/), [Etheric](/star-rangers/glossary/etheric/), [The Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/), [Boundary Zones and Concordant Edges](/star-rangers/lore/boundary-zones/), [The Cosmic Cascade](/star-rangers/lore/cosmic-cascade/), [Membrane Shadows: Gravitational Imprints from Adjacent Membranes](/star-rangers/lore/membrane-shadows/), [Tír Tairngire: The Harmonic Membrane](/star-rangers/lore/universes/tir-tairngire/), [Sí Gaoithe: The Discordant Membrane](/star-rangers/lore/universes/si-gaoithe/).
