@@ -6,6 +6,18 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [1.9.0] - 2026-07-29
+
+The Dock Seven release. The event every Season 6–7 chapter reaches backwards for had no chapter and no POV of its own — `narrative-gaps-checklist.md` had it as the one genuinely unwritten item in the whole Tissadelle arc — and it has both now, in **Season 5** rather than at the S5/S6 seam, appended with no renumbering.
+
+Its spine is that **the event is written once and then refracted through every institution that had to account for it**, none of which can see all of it: a claims adjuster who can write *dragons* in the box marked Proximate Cause because settling a bill requires no cosmology, an Institute paper whose section 4 prints the four observations that undo its own section 3, a lawful commercial concern that was never charged with anything, a comparative cross-reference withdrawn before submission, and a eulogy that declines to concede the death it is held to mark. The Corps' reputation ends up resting on a generous, secular, entirely wrong account of why its people survived — while the competence itself is real and on the page four hours earlier.
+
+The other half of the release is **expand, don't replace**, made explicit: `canon_facts` were added to four published S6–7 chapters and **not one word of prose was altered**, so the six chapters stay canon exactly as written and now carry the *why* that was never written under them. Three deliberate non-changes are recorded as decisions rather than left to look like oversights, so a later pass doesn't "fix" them.
+
+`MINOR` per the changelog's own rule: the release is additive surface area — one chapter, four codex entries, two lore entries, and front-matter insertions. Nothing was removed, renamed or moved, so nothing 404s and no `deploy.conf` key, theme or build output changed.
+
+**Tagging gap closed.** `v1.7.0` and `v1.8.0` were cut from a local clone at their release commits (`3577221` and `9f69f24`) and pushed, clearing a backlog both of those release notes had recorded as pending; `v1.9.0` was cut at this release's own merge commit, which is why it could not go up with them. The "not yet tagged" notes under `[1.7.0]` and `[1.8.0]` are superseded, and are **left in place deliberately** as the record of why those two were late rather than edited away. The GitHub-automation path used for most changes here still cannot publish `refs/tags/*` — tagging remains a local step, and the backlog is what happens when no local clone is in the loop.
+
 ### Added
 
 - **Chapter: [S05E02C03, "What Came Off the Ship"](src/seasons/s05/e02/s05e02c03.md)** — **the Last Stand, written.** `narrative-gaps-checklist.md` had it as the one genuinely unwritten item in the whole Tissadelle arc: every S6–7 chapter reaches it backwards as "Dock Seven", and the event had no chapter and no POV of its own. It has one now, in **Season 5** rather than "end of S5 / opening of S6" — 2831 Mid-Autumn, nineteen days before `s06e01c02`, appended to the existing episode with **no renumbering** and a freshly generated `comment_id`.
