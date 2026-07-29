@@ -113,6 +113,35 @@ locations, and that was the second complaint against it after resolution.
      reading as "R & ▨▨E"). Add *text, lettering, signage, writing* to the
      negative prompt on any regeneration — see the house rule below.
 
+## prismere-root-mat-network.jpg — 29 Jul 2026
+- **Type:** generation
+- **Tool:** Adobe Firefly — output 848×1264, downscaled to 773×1152 via
+  `scripts/import-image.ps1 -MaxEdge 1152`
+- **Prompt (complete — supplied by Dermot 29 Jul 2026):**
+
+  > Silicate-carbon biosphere, living tissue built from glass and crystal.
+  > Bioluminescent throughout, the world producing its own light. Translucent
+  > crystalline forms, soft shifting colour washes, dense particulate haze in the
+  > air. Painterly science-fiction concept art, high detail, no visible text or
+  > figures in human dress. Aspect 2:3, portrait.
+
+- **Placement:** `src/lore/planets/prismere.md`, under *Glasswood and the
+  Luminous Biosphere*, illustrating the shared root-mat network that feeds a
+  lumenspire colony — described in the entry since it was written, never shown.
+  Added in #217 along with a one-sentence lead-in.
+- **Note — this used the wrong preamble.** The text above is the *legacy*
+  shared preamble from `image-prompts.md` §1, which exists to reconstruct what
+  the original eleven depicted. The current replacement preamble is in section A
+  below, and differs: it adds *"naturalistic rather than decorative"* and drops
+  the fixed 2:3 aspect. The consequence is visible in the result — crystal
+  spires and the same palette as the old set, which is a faithful continuation
+  of exactly the repeated motif the replacement series is meant to break from.
+  Not a defect in the image, which is good, but it is not a step toward the
+  eight-distinct-looks goal either.
+- **Known defect:** 773×1152, under the 1600px lore standard — the same problem
+  as the rest of the Prismere cluster. It should be regenerated with the section
+  A preamble whenever that set is done, rather than upscaled on its own.
+
 ---
 
 # A. Prismere — eight locations, eight distinct looks
@@ -253,7 +282,8 @@ placement, same number of limbs.
 > full or three-quarter figure, in an environment. No text.
 
 ### prismeri-first-wings.jpg
-Portrait 3:4, 1200px wide.
+Portrait 3:4, 1600px tall. (Lore image, not a character portrait — the 16:9
+`.character-portrait` rule below does not apply to it.)
 > Slender, light-boned winged figure with translucent gossamer wing membranes and
 > a soft, matte, still-hardening exoskeleton in grey and violet tones. Built for
 > agility in tight spaces rather than power — narrow frame, long limbs, low
@@ -262,7 +292,9 @@ Portrait 3:4, 1200px wide.
 > composed, competent, unhurried.
 
 ### prismeri-full-wings.jpg
-Portrait 3:4, 1200px wide.
+Portrait 3:4, 1600px tall. (Lore image. Also the hero of `src/lore/prismeri.md`,
+so it is additionally cropped to `.page-hero-image` — keep the subject clear of
+the top and bottom thirds.)
 > The same species after an irreversible metamorphosis: hardened gold-and-blue
 > chitin plating in place of soft exoskeleton, heavier and broader through the
 > shoulders, with strong load-bearing wings built for sustained high-altitude
@@ -294,7 +326,7 @@ hierarchy" in a single frame. Equals — no looking-up-at, no deference.
 All four currently sit under spec and get replaced outright.
 
 ### tissadelle-shepherd.jpg — do first
-Portrait 3:4, 1200px wide. **Rewritten 28 July 2026** against Dermot's
+Landscape 16:9, 1200×675. **Rewritten 28 July 2026** against Dermot's
 character notes of the same day — see *What this prompt is carrying* below
 before running it.
 
@@ -351,7 +383,7 @@ country, off duty. Her home ground on Tír na nÓg is now load-bearing in
 Season 5.
 
 ### agent-barsik.jpg
-Portrait 3:4, 1200px wide.
+Landscape 16:9, 1200×675.
 > A black cat seated squarely on a untidy stack of printed paperwork on an office
 > desk, wearing a small worn metal badge on his collar. Institutional station
 > office behind him — filing, terminals, fluorescent light. He is looking
@@ -374,7 +406,7 @@ read as a worn metal disc, which also suits a character whose whole point is
 that nobody has ever asked what it authorises.
 
 ### bubochka.jpg
-Portrait 3:4, 1200px wide.
+Landscape 16:9, 1200×675.
 > A fluffy white rabbit sitting inside a large brown ceramic mug filled with pink
 > and white marshmallows, more marshmallows scattered on the plate beneath.
 > Absurdly, disarmingly cute. Photographic, soft natural window light, shallow
@@ -385,7 +417,7 @@ Portrait 3:4, 1200px wide.
 the comedy depends on the specificity.
 
 ### bubochka-alert.jpg
-Portrait 3:4, 1200px wide.
+Landscape 16:9, 1200×675.
 > The same white rabbit, out of the mug, standing bolt upright on her hind legs
 > with both ears fully raised, staring intently at something outside the frame.
 > Body tense, absolutely still, caught mid-alert. Same office environment and
