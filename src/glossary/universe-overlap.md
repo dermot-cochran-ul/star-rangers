@@ -18,4 +18,6 @@ During overlap, measurable interaction across the shared boundary becomes possib
 
 Overlap is lawful geometry behaviour. It is not magical convergence.
 
-**Example:** During an overlap window at a boundary zone, instruments on each side can briefly detect activity from the other Concordant — a ship's transponder, a light source — without either side's physical constants shifting to match the other. When the window closes, the interaction stops; neither Concordant was altered by it.
+**Example:** During an overlap window at a boundary zone, instruments can briefly register activity originating in the neighbouring universe — a signal, a light source — without either side's physical constants shifting to match the other. When the window closes, the interaction stops; neither universe was altered by it.
+
+*(Older filings write "the other Concordant" here. That is the loose period usage in which "Concordant" stood for a whole universe; overlap and folding operate between membranes, and the current term is the one used above.)*
