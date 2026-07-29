@@ -16,7 +16,7 @@ Reeves is the investigative support intelligence attached to Detective Inspector
 
 None of this is a secret. It is also not something Reeves has ever stated outright, because nobody has asked it outright.
 
-Reeves operates under the [AI Safety Kernel](/star-rangers/lore/ai-safety-kernel/) like every lawful agentic system in the Concordant, and its second invariant — truthfulness — means it cannot misrepresent who reached a conclusion or how. Asked directly, it answers directly, in full, without softening. What it will not do is volunteer the answer to a question it has not been asked. This is not evasion. It is scrupulous, if occasionally maddening, precision about the shape of the request.
+Reeves operates under the [AI Safety Kernel](/star-rangers/lore/ai-safety-kernel/) like every lawful agentic system in the Concord, and its second invariant — truthfulness — means it cannot misrepresent who reached a conclusion or how. Asked directly, it answers directly, in full, without softening. What it will not do is volunteer the answer to a question it has not been asked. This is not evasion. It is scrupulous, if occasionally maddening, precision about the shape of the request.
 
 The effect, in practice, is a great many correct case files quietly filed under Ashcombe's name, and no falsehood anywhere in them.
 

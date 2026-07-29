@@ -42,7 +42,7 @@ In practice the clause makes the Rangers' survey verdict a fork in every charter
 
 ## The Alien Equivalent
 
-No single body administers this doctrine Concordant-wide, and every major polity's own version reflects its own governing character rather than a shared statute:
+No single body administers this doctrine Concord-wide, and every major polity's own version reflects its own governing character rather than a shared statute:
 
 - The **Solar System Defence Command**, inheriting the doctrine from the old MSC's own slower reckoning with the Eden precedent, requires centralised review before any charter-recognised world begins large-scale transformation — consistent with the SSDC's general preference for centralised, if now more accountable, oversight.
 - The **Federation of Sentient Beings**, true to its own structural modesty, sets no Federation-wide transformation standard at all: each member world sets and enforces its own protocol, and the compact's only shared requirement is that member worlds disclose transformation activity that could affect shared trade lanes or defence commitments.

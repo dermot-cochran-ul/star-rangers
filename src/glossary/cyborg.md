@@ -3,7 +3,7 @@ layout: glossary-entry.njk
 title: "Cyborg"
 id: cyborg
 category: "Society"
-short: "A living being — human or animal — carrying physical cybernetic modification to the body itself, distinct from a Smart Pet's purely cognitive AI subsystem. Heavily regulated since the Imperium's military cyborg programs; today one of the most tightly controlled categories of augmentation in the Concordant."
+short: "A living being — human or animal — carrying physical cybernetic modification to the body itself, distinct from a Smart Pet's purely cognitive AI subsystem. Heavily regulated since the Imperium's military cyborg programs; today one of the most tightly controlled categories of augmentation in the Concord."
 related:
   - "Smart Pet"
   - "The AI Safety Kernel"
@@ -20,7 +20,7 @@ Cyborg technology saw its widest and least restrained deployment under [the Impe
 
 ## Regulation
 
-Cyborg augmentation has been heavily regulated ever since — first by the Military Space Command, which wound down the Imperium's military programs and replaced them with a certification regime, and by every government since, each of which has tightened the standard rather than loosened it. Cyborg modification now sits among the most tightly controlled categories of technology in the Concordant, certified independently of — and in addition to — any AI cognitive subsystem the same individual might also carry under [the AI Safety Kernel](/star-rangers/lore/ai-safety-kernel/)'s Kernel Accords.
+Cyborg augmentation has been heavily regulated ever since — first by the Military Space Command, which wound down the Imperium's military programs and replaced them with a certification regime, and by every government since, each of which has tightened the standard rather than loosened it. Cyborg modification now sits among the most tightly controlled categories of technology in the Concord, certified independently of — and in addition to — any AI cognitive subsystem the same individual might also carry under [the AI Safety Kernel](/star-rangers/lore/ai-safety-kernel/)'s Kernel Accords.
 
 Where a cyber-enhanced animal is posted to an [Orbital Habitats Compact](/star-rangers/lore/orbital-habitats-compact/) member habitat, a standing local welfare authority — at Eden, [the Eden Warden](/star-rangers/characters/eden-warden/)'s Custos persona — holds jurisdiction specifically because the animal is cyber-enhanced, a remit that does not automatically extend to a Smart Pet who carries no physical modification at all.
 

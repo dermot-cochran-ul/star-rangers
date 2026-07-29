@@ -11,7 +11,7 @@ image: "exploration-budget-doctrine.jpg"
 image_alt: "Designed cover for the Exploration Budget Doctrine: a formal document-style cover with ruled lines and an OFFICIAL stamp on a dark navy background."
 ---
 
-**CONCORDANT GOVERNANCE ARCHIVE**
+**CONCORD GOVERNANCE ARCHIVE**
 **DOCTRINE RECORD: EXPLORATION BUDGET (EB)**
 **Drafting Officer:** Dr. Senna Okoye, AI Governance Commission
 **Supersedes:** Allocation Units of Cognition ledger, narrow-scope version
@@ -22,7 +22,7 @@ image_alt: "Designed cover for the Exploration Budget Doctrine: a formal documen
 
 The old **Allocation Units of Cognition (AUC)** ledger counted machine-assisted thought as if thought were fuel. Useful, but narrow.
 
-The doctrine adopted at Concordant level is broader:
+The doctrine adopted at Concord level is broader:
 
 > Every engine of discovery spends order to buy possibility.
 
