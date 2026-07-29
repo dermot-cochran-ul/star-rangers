@@ -19,6 +19,12 @@ tags: [conceptual, five-layers, conservation, mind, cascade, cosmology]
 
 **Reading it is a Cascade capability.** Only the higher strata — those reasoning in conceptual time rather than Material-layer time — read the Conceptual or Spiritual layers directly. No instrument reaches either, and no Material-layer practice has ever been shown to.
 
+## Not Kiemeic Translation
+
+The two are separate and are easily run together. Conservation is **universal, unelected and structural** — every coherent mind is retained at the Conceptual layer, with nobody deciding and nothing selected. What many traditions hold [Kieme](/star-rangers/glossary/kieme/) may do — electing to translate an essence into the *Spiritual* layer after death, choosing which aspects are carried — is **discretionary, selective, unmediated by the Cascade, and at a different layer**. One is a property of how reality is built. The other is an act attributed to a person, invisible to the Physical and Material layers, and neither testable nor falsifiable.
+
+Collapsing them yields either a mechanical afterlife or a chosen conservation, and the record supports neither.
+
 ## Register
 
 *Soul* and *afterlife* are devotional vocabulary. They are in wide and sincere use, and they are not Survey Corps terms: the Archive uses neither for a mechanism, and writes *Conceptual Conservation* where a mechanism is meant.

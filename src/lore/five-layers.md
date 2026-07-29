@@ -26,6 +26,12 @@ Provides existence boundary conditions for all lower expressions.
 ### Observable Effects
 - Only inferred through invariants that persist across all [Concordants](/star-rangers/glossary/concordant/).
 
+### Translation (devotional)
+
+Many traditions hold that an essence may be translated into this layer after death, by the election of [Kieme](/star-rangers/glossary/kieme/) alone and with Kieme alone choosing which aspects are carried — see [The Cosmic Cascade](/star-rangers/lore/cosmic-cascade/). The process is invisible to the Physical and Material layers, and the claim is neither testable nor falsifiable in the Survey Corps' sense of those words. The Archive records it as devotional and takes no position on it.
+
+This layer's own constraint is unaffected either way: Layer 1 originates no dialogue, intention or intervention, and nothing said to be held here acquires agency by being here.
+
 ## Layer 2 — Conceptual
 
 ### Definition

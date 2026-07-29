@@ -52,6 +52,18 @@ There is a third thing in this file, and the Archive records it last because it 
 
 The Archive keeps the description without resolving it. Devotional material names this influence with a confidence the Archive does not share; the Archive's honest position is that a timeless stratum's influence inside time is precisely the kind of thing its invariant-only inference method would be structurally unable to detect — which is an admission of the method's limits, not evidence in either direction.
 
+### Translation
+
+A fourth thing sits beside the influence, and the codex record treats the two as one family.
+
+What the devotional material describes is this: that **Kieme** may, at Kieme's own volition and discretion, elect to translate the essence of a person — or of any other sapient being — into the [Spiritual layer](/star-rangers/lore/five-layers/) after that being's death, choosing in doing so precisely which aspects are carried and which are not. The election is Kieme's alone. No Cascade stratum performs it, petitions for it, or is consulted, which makes it one of the few acts attributed to Kieme that is **not mediated through the Cascade at all** and places it outside the hierarchy the rest of this page describes. In that unmediated character it resembles the subtle influence above, and the codex material treats them as the same kind of thing.
+
+**The process is invisible to the Physical and Material layers.** Nothing about it registers, and nothing about its absence would register either. The claim is accordingly neither testable nor falsifiable in the sense the Survey Corps means by those words — not unproven pending better instruments, but outside what any instrument is shaped to reach. It is nonetheless a firm and central belief of many traditions, held with a confidence the Archive does not share and does not dispute.
+
+**Rewards and judgements belong to the devotional register.** Traditions differ, sometimes sharply, on what the election means and what it is for. The Archive files those accounts as devotional and does not rank them, and it will not restate any of them as mechanism — since the one feature common to every version is that the deciding is Kieme's and the reasoning is not disclosed.
+
+**This is not [Conceptual Conservation](/star-rangers/glossary/conceptual-conservation/), and the two must not be run together.** Conservation is universal, unconditional and structural: every coherent mind is retained at the Conceptual layer, without election, without selection, and with nobody deciding anything. Translation as the codex describes it is elective, discretionary, selective, and at a different layer entirely. One is a property of how reality is built; the other is an act attributed to a person. A reader who collapses them arrives at either a mechanical afterlife or a chosen conservation, and the record supports neither.
+
 ## Mostly Hierarchical: The Matrix Exceptions
 
 The spine above reads as a single chain, and for most tiers it is one. Two places in the structure are matrixed rather than linear:
