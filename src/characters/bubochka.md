@@ -18,7 +18,7 @@ She reports, in the sense that matters, to [Agent Barsik](/star-rangers/characte
 
 Bubochka's training exercises so far have mostly involved sitting very still in places a working agent has no business being ignored in — a supply mug, a windowsill, the exact centre of someone's afternoon marshmallow break — and cataloguing who walks past without looking twice. She has not yet filed a report anyone upstream has needed to act on. Barsik has told her, once, that this is the correct rate of progress.
 
-![Bubochka standing bolt upright, ears fully raised, watching something off-frame](/star-rangers/images/characters/bubochka-alert.jpg)
+![Bubochka standing bolt upright on her hind legs on a kitchen table, lop ears hanging flat against her head, watching something off-frame, with the mug and scattered marshmallows beside her](/star-rangers/images/characters/bubochka-alert.jpg)
 
 ## Character Notes
 
