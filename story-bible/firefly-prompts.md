@@ -113,6 +113,21 @@ locations, and that was the second complaint against it after resolution.
      reading as "R & ▨▨E"). Add *text, lettering, signage, writing* to the
      negative prompt on any regeneration — see the house rule below.
 
+## bubochka-alert.jpg — 29 Jul 2026
+- **Type:** generation (replaces the rejected 28 July attempt)
+- **Tool:** Adobe Firefly, widescreen preset — output 1408×768, centre-cropped to
+  1365×768 and resized to 1200×675 (the preset is 1.833, the spec is 16:9 =
+  1.778, so a 21px trim each side is needed — `import-image.ps1` scales but does
+  not crop, so this needed a crop-then-resize pass)
+- **Prompt:** the rewritten version in § C, quoted there in full.
+- **Result:** correct on the first batch. Lop ears folded flat, standing bolt
+  upright on the hind legs, same brown speckled mug and saucer, same
+  marshmallows, same linen cloth, same warm kitchen and window light. The pair
+  now reads as one animal photographed twice, which is the only thing the image
+  had to do.
+- **Alt text updated** at `src/characters/bubochka.md` — it previously read
+  "ears fully raised", inherited from the faulty prompt and impossible for a lop.
+
 ## prismere-root-mat-network.jpg — 29 Jul 2026
 - **Type:** generation
 - **Tool:** Adobe Firefly — output 848×1264, downscaled to 773×1152 via
@@ -416,16 +431,40 @@ Landscape 16:9, 1200×675.
 *Keep the existing alt text's scene exactly.* It's already well described and
 the comedy depends on the specificity.
 
-### bubochka-alert.jpg
-Landscape 16:9, 1200×675.
-> The same white rabbit, out of the mug, standing bolt upright on her hind legs
-> with both ears fully raised, staring intently at something outside the frame.
-> Body tense, absolutely still, caught mid-alert. Same office environment and
-> lighting as the seated portrait so the two read as one animal photographed
-> twice. Photographic and unstyled.
+### bubochka-alert.jpg — DONE 29 Jul 2026
+Landscape 16:9, 1200×675. **Prompt rewritten 29 July 2026** — the version that
+stood here until then asked for *"both ears fully raised"*, which a lop
+physically cannot do, and was itself the cause of the mismatch recorded below.
+The prompt that worked:
+
+> Documentary-style photograph, available light, candid. A pure white lop-eared
+> dwarf rabbit standing bolt upright on her hind legs on a warm honey-toned
+> rustic wooden kitchen table, body stretched tall and narrow, front paws tucked
+> to her chest, absolutely still and tense, staring intently at something outside
+> the frame. The rabbit: dense pure white fur, soft and fluffy; both long lop
+> ears hanging down flat against the sides of her head, pale pink inner ear
+> showing, never upright; one large round near-black eye in three-quarter view;
+> small pink nose; long fine white whiskers. Beside her on the table, a brown
+> speckled reactive-glaze ceramic mug and matching saucer, empty, with pink and
+> white mini marshmallows spilling across the saucer and scattered over the wood.
+> A tall glass of milk behind. A crumpled pale linen cloth to the left. Bright
+> window to the right casting soft directional daylight; blurred warm kitchen
+> interior behind. Shallow depth of field, warm natural colour. Played completely
+> straight — a real photograph of a real rabbit, not an illustration.
+
+**Negative:** upright ears, erect ears, pointed ears, standing ears, rabbit
+inside the mug, text, lettering, watermark, illustration, cartoon, studio
+backdrop, glamour lighting.
 
 *This is the pair image where the joke turns.* Same rabbit, suddenly working.
 Consistency of setting between the two is what sells it.
+
+**The general lesson — Firefly has no memory between generations.** "The same
+rabbit" is meaningless to it; continuity has to be carried as literal attributes
+in every prompt. Anything a companion image establishes — coat, ear carriage,
+eye colour, crockery, surface, light direction — must be re-stated in full, and
+any trait the model defaults against (here, lop ears) belongs in the negative
+prompt as well as the body. Applies to every paired or series image in this file.
 
 **Attempt of 28 July 2026 rejected — the pair read as two different rabbits.**
 Three mismatches, in order of damage: the seated rabbit is a **lop** with ears
