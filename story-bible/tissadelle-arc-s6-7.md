@@ -326,7 +326,7 @@ memory. But this is a narrative choice, not a research finding.
 Either way the S6 chapters cannot simply not mention Tobble, so this needs
 settling before they are drafted.
 
-**Tobble's pronouns are not yet set** — they/them everywhere so far.
+**Tobble's pronouns are settled (Dermot, 29 July 2026): he/him.** Swept across `src/` the same day; the they/them used before that date is superseded.
 
 ---
 
@@ -505,7 +505,7 @@ Saint Aoife for exactly the reason already recorded, and
 - Does Tobble want it? Declining is a real option the cosmology permits — a
   founder without a Council is not an Authority, so a founder who refuses to
   seat one leaves a protouniverse permanently *proto*.
-- Tobble's pronouns are still unset. They/them everywhere so far.
+- Tobble's pronouns are settled (29 July 2026): **he/him**.
 
 ---
 
@@ -591,3 +591,257 @@ fronting, and the only witness to what signing costs.
 - Does Sen sign? Refusing is a real ending, and a bleak one.
 - Whether the reader is ever told which of the three wrote a given note, or
   only ever learns to guess. Guessing is stronger, and harder.
+
+---
+
+## The Last Stand — what actually happened (Dermot, 29 July 2026 — canon direction)
+
+**Settled, and now written.** The direction as given:
+
+> Tissadelle sacrificed herself and her ship after evacuating the crew via
+> shuttles and courier ships. She protected overfold fauna from a rogue
+> hyperfold conglomerate that was harvesting them. The dragons struck back
+> hard destroying the rogue corporation but sparing the Star Rangers.
+> Tissadelle fell into the overfold. Her body and mind fragmented, but Tobble
+> stabilised a tiny noogenic membrane using the remnants of the ship and saved
+> some of Tissadelle's inner world.
+
+Dramatized as **S05E02C03, "What Came Off the Ship"** — 2831 UCSD Mid-Autumn,
+nineteen days before `s06e01c02`, appended to the existing episode with no
+renumbering and a freshly generated `comment_id`. Five POVs, none of which can
+name what they saw.
+
+### The supersession, stated loudly so it is not re-derived later
+
+The Premise section at the top of this file says Dock Seven was *secondary
+universe emergence* — "something has been quietly gestating there for eleven
+years, and it's being born." **That framing is superseded.** It is not what
+happened and it is not where the protouniverse comes from.
+
+The reconciliation, which costs nothing and keeps every planted strand:
+
+- The sixteen-year drift marked a **real narrowed Interval**. That much stands,
+  and Season 1's open question was pointing at something after all.
+- A licensed commercial concern **located it and worked it industrially**,
+  holding a fold aperture open for four months to reach what was on the far side.
+- **Industrial unauthorised folding is what pushed a decade-and-a-half-stable
+  anomaly into a shear rupture.** Nothing gestated. Something was worked until
+  it tore.
+- The protouniverse is **Tobble's**, founded *after* the rupture from the
+  wrecked vessel's archival stores — not something the dock was incubating.
+
+No published chapter uses the gestation framing, so nothing broke.
+
+### The seven rulings, with their canon basis
+
+1. **Expand, don't replace.** Dock Seven stays. The six published chapters keep
+   every word; four gained `canon_facts` and nothing else.
+2. **"Fell into the overfold" is a voice, not a claim.** The Overfold is a
+   condition, not a region (`src/glossary/metafold.md`, `src/glossary/etheric.md`).
+   The **Register rule** in `canonical-glossary-and-migration-guide.md` already
+   licenses this: chapters and characters are voices where imprecise field
+   vocabulary is characterisation; lore and glossary are the Archive.
+   **No glossary change, no migration row, no corpus sweep. This is deliberate —
+   do not "fix" it in a later pass.**
+3. **"Hyperfold" is a trade name, not physics.** Recorded as a section in
+   `src/glossary/metafold.md`, where the misnomer already lives. The distinction
+   kept there is worth preserving: the journalist writing *metafold* is guessing
+   in good faith; a concern that puts *hyperfold* on a hull chose a word that
+   cannot be held to a meaning, and chose it on advice. **No new canonical term.**
+4. **Witnesses saw dragons; what acted was a Celestial enforcement action**
+   under Telearch delegation. `src/glossary/celestials.md` already carried the
+   exact trigger — unauthorised Higher-Dimensional Folding breaching a Concordant
+   boundary. Levrils were present only in canon-permitted roles (detection,
+   containment, perimeter isolation — the `threnos-omega.md` precedent).
+   - **Precision trap, flagged so nobody over-corrects later:** the constraint is
+     that levrils did not *initiate or execute this enforcement*, and cannot
+     complete another mind's process. It is **not** "levrils never act unbidden"
+     — one arrives at the warm edge unbidden in three published chapters. Never
+     write that fact.
+5. **The trigger is structural, and so is the sparing.** Added to
+   `celestials.md`: scope attaches to the process, not the persons. Bystanders
+   are spared structurally, never assessed and found worthy. Master Roon's line
+   in the codex loss adjustment is the whole of it — *there is a difference
+   between being spared and being no part of the thing.*
+6. **No taxonomy change for the fauna.** They stay Class III: non-sapient,
+   "predatory, entropic, or ecologically disruptive," no Cascade standing and no
+   protection from it. Shepherd died defending creatures the Archive files as a
+   hazard, and **the classification was not revised afterward.** That is the
+   point, and it rhymes with the plural-minds argument that the forms are wrong
+   and the beings are real. Deliberate; do not soften it into a reclassification.
+7. **The membrane is universe-scale**, which is the only reason "tiny" is legal:
+   `concordant-membranes.md` holds that a membrane is never anything smaller than
+   a universe. A tiny membrane is lawful *because the thing really is a whole,
+   very young universe.* Survey Corps' commonest self-correction is people calling
+   sub-universe things membranes; here, for once, the small thing genuinely is one.
+
+### Held back from the page, deliberately
+
+`canon_facts` render on the published chapter, so the chapter states the
+**scaffold and the remnant** and stops there. The identification — **the membrane
+is the [Noögenic Protouniverse](/star-rangers/glossary/noogenic-protouniverse/),
+Tobble is its founder, and Tissadelle's saved inner world is inside it** — stays
+in this file, under the same discipline as the Saint Aoife note above, until the
+seasons reach it.
+
+What the published chapters now do say is that the Boirinn Uplands interior was
+**preserved by Tobble rather than generated by the stall, and only partly
+preserved** (`s06e01c01`). That is the largest reframing in the set and it was
+done entirely in front matter.
+
+### Open for Dermot
+
+- **A lore entry for the Hyperfold Yield Combine** was deliberately not written.
+  The chapter explains it in full — licence, product, market, the closed loop
+  where stabiliser makes apertures cheaper and cheaper apertures make more stock
+  reachable — and a Factions page for a concern that no longer exists would
+  restate it in a second place. Worth adding only if the Combine's parent
+  interests are going to matter later.
+- **The Combine's investor prospectus** is the obvious second codex entry and
+  the perfect tone-rule instrument: a glossy document can describe a supply chain
+  at length without ever saying what the product is. Deferred, not rejected.
+- **Wender does not fly in this chapter**, on purpose — she is eleven hours away
+  and signs nothing, which keeps her Season 6 position clean. The cockpit
+  sequence this file asks for elsewhere still wants its own chapter.
+- Tobble's pronouns are settled (29 July 2026): **he/him**.
+
+---
+
+## The aftermath, and the competing accounts (Dermot, 29 July 2026 — canon direction, second batch)
+
+Given in one message shortly after the Last Stand direction above. All of it is
+now written; what follows records what was decided and what is still open.
+
+### Tobble uses he/him — settled
+
+Swept the same day across `src/characters/tissadelle-shepherd.md` (which now
+states it outright, since being mis-recorded is his whole institutional
+situation), `src/glossary/plural-minds.md`, `s05e02c03`, and the three places in
+this file that said the pronouns were unset. **The they/them used before 29 July
+2026 is superseded, not an alternative.**
+
+### The Institute — the secular counterpoint
+
+New institution: `src/lore/the-institute.md`. Secular, sceptical, **not
+atheist** — its published position is that no claim about meaning, intention or
+moral order has survived an instrument, and it declines the Cascade rather than
+denying it. Dismissive of moral and spiritual claims specifically, which it
+holds to be methodologically inadmissible rather than merely unproven.
+
+**Built deliberately so it is not a strawman, and the reason matters.** Its
+Dock Seven reading — dimensional instability from overused and miscalibrated
+fold equipment held against an already-anomalous boundary — **is correct about
+the mechanism.** That is exactly what tore the boundary. The Institute takes a
+correct account of a cause and treats it as a complete account of an event,
+which is the only thing wrong with it, and it says up front that this is what
+it will always do.
+
+Its house rule is the good part and should be protected: **it publishes what it
+failed to find**, at the same length as the finding. `src/codex/dock-seven-material-account.md`
+is the paper, and its section 4 prints, unhedged, the four observations that
+undo its own section 3 — including the selectivity by *registry*, which no
+strain model can make a physical property. The Institute is wrong and it is not
+dishonest, and a reader who takes it for a fool has been set up to.
+
+**Settled (Dermot, 29 July 2026): the Institute does not need a private thread.**
+It stays what it was written as — an ordinary in-universe institution, lore like
+any other, visible on every build. Nothing to add to `lib/storyline-threads.js`,
+no `THREADS` key, no `homeDomain`, no theme.
+
+This keeps `church-space` the only `private: true` thread, which is what
+`CLAUDE.md` says it is meant to stay, and it avoids reaching for engine
+machinery to express something the corpus already expresses on its own.
+
+**The consequence is worth stating, because it is the better outcome and not
+merely the cheaper one.** A private thread would have made the sceptical reading
+an *edition* — something a reader opts into, or doesn't, at the domain level.
+Left public, it ships everywhere: every build of this site carries the Institute
+saying the dragons were discharge and the Rangers were quoting. The dissent is
+not a variant of the record. It is *in* the record, on the same page as
+everything it disputes, which is the arrangement the whole arc argues for.
+
+Note the asymmetry with church-space, which is the reason only one of them is a
+thread. An **overlay** is a lens laid across the same events and is opted into
+per domain. The Institute is not a lens — it is a *party*, inside the setting,
+with a name, a method, a funding model and a published position that other
+parties argue with. Parties go in lore. Only lenses need threads.
+
+### Why the Rangers survived — three accounts, and the useful irony
+
+- **What happened:** enforcement scoped to a process, not a party. They were not
+  spared; they were not included. Master Roon says exactly this in the Guild
+  loss adjustment and cannot get anybody who was not there to accept it.
+- **What the Institute says:** superior safety protocols and practical boundary
+  knowledge. Careful, generous, secular, and **wrong**.
+- **What this bought:** the Institute's version is what established the Corps'
+  reputation as neutral, safe and trusted. **So the reputation rests on an
+  account of their competence that the instrument record does not support** —
+  while the competence itself is entirely real and shown on the page four hours
+  earlier. Recorded in `fellowship-of-light.md`'s neutral-broker section. The
+  Corps has never publicly disputed the Institute, and the Institute has
+  publicly noticed the silence.
+
+The rivals' claims that failed are the ones already in canon: Farline's
+commercial-neutrality case and the SSDC's parallel channels. The sharpest
+detail is that **the Guild's own claims file undercuts the Guild's own
+argument** — a vessel master came when a Ranger asked and negotiated the rate
+afterward, and the adjuster wrote it down against interest.
+
+### Not everyone believes in the Cascade
+
+Added as a "Who Accepts This Model" section to `src/lore/cosmic-cascade.md`,
+which had been stating the framework without ever saying how widely it is held.
+Four positions recorded (sceptical, contemplative, devotional, and no position
+at all — the majority), plus two consequences: a cosmology with no virtue,
+reward or punishment **has nothing to console anybody with**, which limits its
+spread independently of whether it is right; and disagreement here is not error
+to be corrected, since the Partial Observation rule cuts both ways.
+
+This is a statement about *reception*, not about truth, so lore stays internally
+consistent and the canon/record split holds.
+
+### The Ballad of the Stars — reinterpreted, not rewritten
+
+**No retcon was needed.** The entry already had Tissadelle on vocals
+*pre-enlistment*, so the song predates everything. The surviving members of
+Slipwave reissued it in 2832 with a reading attached: *she went to the stars*
+first meant she left the band for the Rangers, and now means both, and **they
+explicitly decline to choose.** They are equally explicit that the song foresaw
+nothing and that anyone claiming otherwise is selling something.
+
+Two things this protects: it is not a prophecy, and it is not the
+closure-prevention the later `baby-universe-ballad` is flagged for — a document
+with two entries in it is precise, not vague. Sen makes that distinction in the
+addendum's second note.
+
+### Wender's funeral address
+
+`src/codex/wender-funeral-address.md`. 2832 Mid-Autumn, about eleven months
+after Dock Seven, which places it just before `s07e01c01`.
+
+**The load-bearing choice: she gives the eulogy having never signed the
+citation, and says so from the podium.** The Council held the funeral anyway, as
+it was entitled to; she accepted within the hour. So the document grieves
+without once conceding the death it is held to mark, and states the distinction
+that runs the whole arc — *no body* is not a synonym for *gone*, it is a synonym
+for *we did not get everything back.*
+
+She refuses both consolations, in the same breath: she will not say Shepherd is
+dead and will not say she is out there, because she has a finding for neither.
+Then she holds both, unresolved, and notes that Shepherd taught her how. That
+is her doctrinal arc paid off in public and at cost, and it is the answer to
+"what her doctrine has no word for" that this file has been asking for since
+28 July.
+
+The ceremonial record stops at "forty-one minutes" and omits the second half;
+three newsnets printed it whole, and it is the second half that gets quoted.
+
+### Still open
+
+- ~~Whether the Institute becomes an overlay/thread~~ — settled 29 July 2026: no. See above.
+- Whether Wender's missing doctrinal category ever gets a *name*, as this file
+  asks earlier. The address gets her to the position without naming it, which
+  leaves that beat intact.
+- Whether the Institute's section 4.5 — a Ranger field analyst offered an
+  account and was never asked for it again — is ever followed up. That is
+  Rook-7, and it is a loose thread deliberately left loose.

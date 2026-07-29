@@ -66,6 +66,26 @@ The Safety Corps' mandate covers four domains.
 
 **Incident investigation.** When an operational incident occurs — equipment failure, boundary-zone exceedance, life-support anomaly, fold-transit deviation — the Safety Corps has independent authority to investigate. Its findings are not subject to review by Star Rangers command before publication. This independence is considered non-negotiable. The institutional memory of what happens to safety culture when investigation findings can be amended by the people being investigated is long.
 
+## The Voluntary Standard
+
+Everything above binds the Star Rangers. Outside the Corps, it binds nobody at all — and it is, nonetheless, the standard almost everyone works to.
+
+The Star Rangers are the **de facto regulator of boundary-proximate and fold-adjacent operations across settled space, and the regulation is entirely voluntary.** No treaty makes them one. The charter forbids the role in the terms most people would recognise it: the Rangers do not govern, legislate, police or administer, hold no jurisdiction on planets or within self-governing habitats, and command nothing in open space beyond their own hulls. They cannot fine, suspend, board, compel a filing, or revoke anybody's anything.
+
+What they can do is publish, and be believed.
+
+**The mechanism is the founding one, unchanged in seven centuries.** Underwriters Laboratories had no legal power over any manufacturer in 1894. It had independence and a method, and insurers who wanted evidence rather than assurances treated its certification as the evidence they wanted; from there the market did the rest. The Safety Corps occupies the identical position at a larger scale. Underwriters price boundary-proximate risk off Safety Corps certification because there is nothing better to price it off. Port and charter authorities write it into their own conditions because drafting an equivalent from scratch is expensive and inviting an argument. Counterparties ask for it because asking costs nothing and not asking looks like a decision.
+
+The Corps' [neutrality and self-funding](/star-rangers/lore/formation-of-star-rangers/) are what make this work, and they are not incidental to it. A standards body with a commercial interest is a competitor with a rulebook; a standards body funded by the operators it certifies is an argument waiting to be made. The Safety Corps has no stake in who wins, cannot be leveraged by anyone who might, and does not need the market's goodwill to keep its lights on. So its findings are trusted for the same structural reason its couriers are.
+
+**Local governments and corporations remain fully autonomous, and this is not a technicality.** A world governs itself and may invite the Rangers or not. A licensed concern in open space answers to whatever authority issued its licence, which is generally not anybody in this building. Safety Corps standards apply to such an operator exactly to the extent it chooses to adopt them, and an operator who declines has broken no law, defied no order, and owes no explanation. The Corps' entire leverage is that declining is conspicuous and expensive. Against an operator willing to be both, it has none.
+
+The Corps declines the word *regulator* when it is offered, and the refusal is doctrinal rather than modest. To accept the title would be to accept an authority the charter forbids, and the charter forbids it because the outer-station delegations of 2723 would not vote for a boundary-operations body with compulsory power over anyone — having concluded, reasonably, that such a body would simply be the MSC under better branding.
+
+**What this costs is known, and was paid in 2831.** A voluntary standard is one that the single operator who most needs it can simply decline, and the [Hyperfold Yield Combine](/star-rangers/lore/hyperfold-yield-combine/) declined it. It held no Safety Corps certification, was under no obligation to hold one, and could not have been made to. The Corps had the expertise to identify what the Combine was doing and no power to stop it; the authority that had the power had neither the expertise nor a reason to look. That gap is not an oversight in the design. It *is* the design, accepted at founding with the argument for it fully aired, and Dock Seven is the bill.
+
+The Safety Corps has not proposed amending the charter. Asked why, its president's published answer runs to one sentence: *a corps that acquires the power to prevent this acquires, in the same motion, the power to permit it.*
+
 ## Institutional Character
 
 Within the Star Rangers, the Safety Corps is the organisation most likely to tell seasoned field personnel that they cannot do what they are about to do — and most likely to be right.

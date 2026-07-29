@@ -207,3 +207,20 @@ Cross-Concordant readings can produce contradictory reports that are simultaneou
 
 ### Misclassification Control
 Start with mechanism-level diagnostics. Resist moral, theological, or magical explanations.
+
+## Who Accepts This Model
+
+Nothing above is majority opinion, and this entry should not be read as though it were.
+
+The Cascade is the framework the Survey Corps files against and the one this Archive states in, which makes it the settled account *here* and says nothing about how widely it is held. Across settled space it is one position among several, and by headcount it is not obviously the leading one:
+
+- **Sceptical traditions** decline the hierarchy entirely, on the grounds that no boundary observation has ever been produced that requires a governing tier rather than a geometry. [The Institute](/star-rangers/lore/the-institute/) is the organised form of this position and the most-cited body in settled space on boundary phenomena. It does not deny the Cascade; it declines to use it, which is a harder position to dislodge.
+- **Contemplative traditions** long predate the model and have never needed it. A [Fellowship](/star-rangers/lore/fellowship-of-light/) chapter that has said [Overfold](/star-rangers/glossary/overfold/) for eight centuries is not withholding assent from the Cascade so much as working in a vocabulary that was already sufficient.
+- **Devotional traditions** accept a great deal of it and reorder the emphasis, reading intention into structures the model describes as constraint propagation.
+- **Most people**, on most worlds, hold no position at all, and encounter the vocabulary only when a boundary event is in the newsnets.
+
+Two things follow, and both matter more than they look.
+
+**First, the model's own invariants make it hard to preach.** A cosmology with no virtue, no reward, no punishment, and no intercession offers nothing that a tradition can console anybody with. It explains and it does not comfort, which limits its spread in a way its accuracy does not affect.
+
+**Second, disagreement here is not error to be corrected.** Partial Observation above cuts both ways: an observer seeing part of the stack infers agency that isn't there, and an observer committed to seeing no stack at all reads agency out of places it is. The Archive states this model because it is the one the evidence available to the Archive supports. It does not hold that everyone who reads the same evidence differently has made a mistake, and where a competing account is better supported on the instruments — as the sceptical reading of a great many boundary events is — the Archive's practice is to file both and say which is which.
