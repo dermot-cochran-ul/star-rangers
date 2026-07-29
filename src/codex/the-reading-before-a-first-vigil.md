@@ -2,7 +2,7 @@
 layout: codex.njk
 title: "The Reading Before a First Vigil"
 category: "Doctrinal Record"
-tags: [fellowship-of-light, exarch, dynarch, overfold, thin-places, contemplative, doctrinal-record, boundary-zone]
+tags: [fellowship-of-light, exarch, mediarch, overfold, thin-places, contemplative, doctrinal-record, boundary-zone]
 description: "The address read aloud to a Fellowship novice on the night of their first vigil at a thin place: why the world holds, said in the older devotional vocabulary, and deliberately not argued against the surveyors."
 author: "Traditional — no chapter claims first authorship; this text as set down for novice instruction"
 institution: "Fellowship of Light — contemplative chapters"
@@ -16,7 +16,7 @@ image_alt: "Designed cover for The Reading Before a First Vigil: four faint rule
 
 ---
 
-*Archive note: submitted to the comparative archive by four chapters independently, on three worlds, with wording differences a Survey Archive cataloguer described as "smaller than the differences between two recitations in the same house on consecutive nights." Filed as a doctrinal record of the Fellowship rather than as a statement of the Archive's own. The Fellowship's older vocabulary is preserved as spoken: **Exarch** for the tier the current record calls a [Dynarch](/star-rangers/glossary/dynarch/), and **Overfold** for what the Survey Corps files as boundary-zone [Etheric](/star-rangers/glossary/etheric/) phenomena.*
+*Archive note: submitted to the comparative archive by four chapters independently, on three worlds, with wording differences a Survey Archive cataloguer described as "smaller than the differences between two recitations in the same house on consecutive nights." Filed as a doctrinal record of the Fellowship rather than as a statement of the Archive's own. The Fellowship's older vocabulary is preserved as spoken: **Exarch** for the tier the current record calls a [Mediarch](/star-rangers/glossary/mediarch/), and **Overfold** for what the Survey Corps files as boundary-zone [Etheric](/star-rangers/glossary/etheric/) phenomena.*
 
 ---
 
