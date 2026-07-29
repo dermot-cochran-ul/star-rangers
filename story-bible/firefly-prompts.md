@@ -113,6 +113,27 @@ locations, and that was the second complaint against it after resolution.
      reading as "R & ▨▨E"). Add *text, lettering, signage, writing* to the
      negative prompt on any regeneration — see the house rule below.
 
+## dorian-calloway.jpg — 29 Jul 2026
+- **Type:** generation (replaces a stock-headshot-register portrait)
+- **Tool:** Adobe Firefly, widescreen preset — output 1408×768, centre-cropped to
+  1365×768 and resized to 1200×675
+- **Prompt:** the § C entry, quoted there in full.
+- **Result:** correct on the first batch. No uniform; business dress worn like a
+  long day, jacket open and one sleeve turned back, a small plain lapel pin as
+  the only mark of office. The coordination floor carries the breadth of the
+  remit — orbital ring diagrams, telemetry traces and a schematic floor plan
+  across the wall displays, working clutter and a melting iced drink below.
+- **Lettering check passed.** This was the risk the prompt was written against,
+  since status boards invite the failure that killed the 28 July Agent Barsik
+  attempt. Inspected at 4× on both the left display stack and the desk
+  printouts: the text-like rows resolve to blur with no legible glyphs anywhere,
+  which is the intended outcome — the *suggestion* of dense readouts without any
+  actual writing. **Worth checking the same way on any future frame that puts
+  screens or paper near the camera**, rather than judging it at page size.
+- **Alt text updated** at `src/characters/dorian-calloway.md` — it previously
+  read "A mature businessman portrait", which named a stock category rather than
+  describing a frame.
+
 ## bubochka-alert.jpg — 29 Jul 2026
 - **Type:** generation (replaces the rejected 28 July attempt)
 - **Tool:** Adobe Firefly, widescreen preset — output 1408×768, centre-cropped to
@@ -481,6 +502,53 @@ staying. Add to the prompt: *"a lop-eared white rabbit, both long ears folded
 down flat against the sides of her head"*, and name the same brown glazed mug,
 saucer and kitchen table. Firefly defaults to upright ears unless the lop is
 stated outright, so state it in every attempt.
+
+### dorian-calloway.jpg — Chief Commissioner, Orbital Habitats Compact — DONE 29 Jul 2026
+Landscape 16:9, 1200×675. Was 1200×800 at 44 KB — both off-spec (sliced by
+`object-fit: cover`) and under-quality. One of the thirteen files in the
+contemporary-stock-headshot cluster in `images.md` § 3, and the first of that
+cluster to be replaced.
+
+> Documentary photograph, available light, candid. A man in his late fifties,
+> senior civil administrator, standing on the coordination floor of an orbital
+> habitat administration centre, half-turned from a bank of wall-mounted status
+> displays as though interrupted mid-shift. Business dress worn like a long day
+> rather than a photocall — jacket open, tie loosened, sleeves turned back, a
+> small plain metal pin at the lapel. Composed, unhurried, faintly tired;
+> attention still partly on the displays. Behind him the displays show abstract
+> orbital ring diagrams, engineering telemetry traces and schematic floor plans
+> as pure graphics — shapes, curves and line work only. Working clutter on the
+> desks below: printouts, cabling, a cooling drink. Functional overhead light,
+> natural skin texture, no retouching, shallow depth of field.
+
+**Negative:** text, lettering, numerals, labels, signage, writing on any screen
+or surface, uniform, military uniform, police uniform, epaulettes, rank
+insignia, badge with visible engraving, flat studio backdrop, glamour lighting,
+corporate headshot, posed to camera.
+
+**Why no uniform** — settled 29 July 2026. The post is *administrative rather
+than operational by design* and Calloway explicitly cannot direct a habitat
+Commissioner's policing decisions; a service uniform would assert command
+authority the character page spends its length denying. His remit also spans
+engineering operations, public safety *and* law enforcement, and each has its
+own uniform tradition — any one of them narrows him to a third of the job and
+invites the "top cop" misreading. The surrounding cast already carries this:
+Voss, Wayland and Petrakis are civilian, Oyelaran is plainclothes, and Larsen's
+navy flight suit is the single uniform in the cluster, marking him as the
+operational one. There is also no Compact uniform in canon —
+`src/lore/rank-insignia-and-uniform.md` covers Star Rangers only — so inventing
+one is new canon that would have to cascade to all five habitat Commissioners.
+Let the *room* carry the breadth instead of a costume.
+
+**Watch the lettering.** Putting him in front of status boards invites exactly
+the failure that killed the 28 July Agent Barsik attempt. State the
+graphics-only requirement in the body as well as the negative, and reject any
+frame with readable glyphs on a display.
+
+**Alt text to use if the frame matches:**
+"Chief Commissioner Dorian Calloway on a habitat coordination floor, jacket
+open and sleeves turned back, half-turned from a bank of displays showing
+orbital diagrams and engineering telemetry."
 
 ---
 
