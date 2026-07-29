@@ -32,6 +32,8 @@ New London sits outside the [Orbital Habitats Compact](/star-rangers/lore/orbita
 
 So the two structures are not rivals, because they do not do the same thing. The Compact administers. The Commonwealth convenes. Where they touch — traffic and clearance at L5, archive exchange, the movement of people between a Compact habitat and a sovereign neighbour — the instrument is always a negotiated one, because there is no framework above both to appeal to.
 
+Seen from the other direction, the association answers a question the [habitat threshold](/star-rangers/lore/habitat-threshold/) raises and does not settle. A settlement above the line is unboardable and unadministered from outside, which is the point of being above it — but it still has neighbours, and the charter that keeps other people's officers off its decks does nothing whatever to help it deal with them. Sovereignty is a wall, not a telephone. What a polity above the threshold needs is somewhere to talk that is not a chain of command, and the Commonwealth is New London's.
+
 Its other function is duller and probably more important: it is a standing archive-sharing arrangement. Members hold fragments of the same wrecked record, and the Commonwealth is the mechanism by which a genetic archive on Earth, a parish register at L5, and a diaspora community's oral chronicle get compared against each other at all.
 
 ## The Celtic Union's Absence
@@ -44,4 +46,4 @@ The reason is not a quarrel. The Union's founders were cultural custodians who l
 
 Both are preservation projects. They disagree, fundamentally and without much heat, about whether the thing worth preserving is the forms or the languages — and the Commonwealth's standing invitation, renewed and unanswered for generations, has become a piece of protocol both sides find comfortable exactly as it is.
 
-See also: [New London Space Habitat](/star-rangers/lore/new-london-space-habitat/), [The Orbital Habitats Compact](/star-rangers/lore/orbital-habitats-compact/), [The Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/), [The Crisis Centuries](/star-rangers/lore/crisis-centuries-terran-wildlife/).
+See also: [New London Space Habitat](/star-rangers/lore/new-london-space-habitat/), [The Habitat Threshold](/star-rangers/lore/habitat-threshold/), [The Orbital Habitats Compact](/star-rangers/lore/orbital-habitats-compact/), [The Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/), [The Crisis Centuries](/star-rangers/lore/crisis-centuries-terran-wildlife/).
