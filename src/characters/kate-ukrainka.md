@@ -27,8 +27,20 @@ This is the point on which certification people lose patience with her. In the b
 
 Her answer has been consistent and is on the record in her author's note: she is not describing the hardware, she is describing what it is like to carry it, and she is not going to teach a child that the animal in front of them is a device with an animal wrapped round it. Whether that is a defensible position or a sentimental one is a live argument on Eden — and it is a fair summary of why her books are filed in the [Codex](/star-rangers/codex/) as one author's account rather than anywhere the record states fact.
 
+## Wendell
+
+She and [Detective Inspector Wendell Albercombe](/star-rangers/characters/wendell-albercombe/) were together for a few months, some years ago now. It was not a disaster and there is no story in it, which is the difficulty with telling it: their interests diverged, they lost touch, and both of those sentences are true and neither is what happened.
+
+What happened is that the replies got slower. She noticed the first time and told herself it was the caseload, because it was the caseload. She noticed the fourth time and told herself the same thing, with less of it left. Somewhere after that she worked out that she had begun writing messages calculated to be easy to answer — short ones, ones that asked nothing, ones a tired man could clear in a line — and that she had been doing it for a while without having decided to.
+
+She stopped. Not as a test, and not in anger; she simply reached the end of what she was willing to make small. He did not write to ask why, and she has never held that against him with any conviction, on the grounds that a man who was going to ask would have asked considerably earlier.
+
+She does not want him back and has never made any move suggesting otherwise. What she took out of it is professional and slightly unfair, and she is aware of both: an eye for the exact moment a person begins asking for less than they need in order to keep something easy for somebody else. It is all over the Smart Pet books. Every animal in them is trying to say something to somebody who is busy, and every one of them is being adored instead of heard.
+
 ## Character Notes
 
-She writes in the Deck 7 galley in the mornings, at the table nearest the warm-air vent, and has done for years. What has passed through that doorway in that time, and what she has and has not put in a book about it, is not a question anyone has yet thought to ask her.
+She writes in the Deck 7 galley in the mornings, at the table nearest the warm-air vent, and has done for years. Albercombe's caseload takes him through Deck 7 about twice a month. In several years this has produced no conversation at all, and neither of them has arranged for it to.
 
-See also: [The Cat Who Would Not Say](/star-rangers/codex/the-cat-who-would-not-say/), [The Domovyk Who Stayed](/star-rangers/codex/the-domovyk-who-stayed/), [Bramble and the Backwards Key](/star-rangers/codex/bramble-and-the-backwards-key/), [Smart Pet](/star-rangers/glossary/smart-pet/).
+What has passed through that doorway in that time, and what she has and has not put in a book about it, is not a question anyone has yet thought to ask her.
+
+See also: [The Cat Who Would Not Say](/star-rangers/codex/the-cat-who-would-not-say/), [The Domovyk Who Stayed](/star-rangers/codex/the-domovyk-who-stayed/), [Detective Inspector Wendell Albercombe](/star-rangers/characters/wendell-albercombe/), [Bramble and the Backwards Key](/star-rangers/codex/bramble-and-the-backwards-key/), [Smart Pet](/star-rangers/glossary/smart-pet/).
