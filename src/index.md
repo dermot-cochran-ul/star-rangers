@@ -5,10 +5,20 @@ description: "Star Rangers — an interactive science-fantasy novel grounded in 
 ---
 {%- set heroCharacters = collections.characters | charactersByIds(edition.heroCharacterIds) -%}
 <section class="home-hero">
+  {#- The slideshow is per-edition (lib/editions.js) AND per-deploy: its cast is
+      resolved against the FILTERED characters collection, so a narrowed clone
+      (deploy.conf's CHARACTERS/TOPICS/THREADS) can drop some hero characters -
+      or, if none of the edition's ids survive its filter, all of them. That
+      last case used to render nothing at all, leaving the one page every reader
+      lands on first with no image on it. The site's own fallback hero stands in
+      instead; it is the same file this page already advertises as its
+      og:image, so a card and the page now agree. -#}
   {%- if heroCharacters.length %}
   <div class="home-hero__slideshow home-hero__slideshow--n{{ heroCharacters.length }}" aria-hidden="true">{% for character in heroCharacters %}
     <img class="home-hero__slide" src="/star-rangers/images/characters/{{ character.data.image }}" alt="" />{% endfor %}
   </div>
+  {%- else %}
+  <img class="page-hero-image" src="/star-rangers{{ ogImage }}" alt="{{ ogImageAlt }}" />
   {%- endif %}
   <h1 class="home-hero__title">✦ Star Rangers</h1>
   <p class="home-hero__subtitle">

@@ -647,9 +647,20 @@ a:focus {
    fade-IN window (the outgoing slide fades out over [slot, slot+fade] while
    the incoming one fades in over the same interval) so the transition is a
    true crossfade rather than a dip to the background between portraits.
-   Two keyframe variants exist because the slot width is a function of slide
-   count (100/N%) - only 5 (pets theme) and 6 (every other theme) are ever
-   used, see src/index.md's heroCharacterIds. */
+
+   ONE KEYFRAME VARIANT PER SLIDE COUNT, and the range deliberately runs wider
+   than the two counts lib/editions.js currently lists (6 by default, 5 for
+   undercover-pets.com). The count is not a property of the edition: src/index.md
+   resolves heroCharacterIds against the FILTERED characters collection, so a
+   narrowed deploy (deploy.conf's CHARACTERS/TOPICS/THREADS) drops any hero
+   character its filter excludes, and one missing tag on one character page
+   silently changes N. With a rule only for 5 and 6, any other N left every
+   slide with no animation-name at all - so all of them kept the `opacity: 0`
+   below and the whole hero went blank, losing every image rather than the one
+   character that was filtered out. That is the opposite of the graceful
+   degradation lib/editions.js's heroCharacterIds comment promises, and it fails
+   on the domain most likely to hit it. The :first-child fallback below covers
+   N beyond this range: one still portrait rather than an empty box. */
 .home-hero__slideshow {
   position: relative;
   display: block;
@@ -672,6 +683,21 @@ a:focus {
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
+/* Shows the first portrait when no --nN rule matches: a single slide, or a
+   count past the range below. Overridden by the animation whenever one runs,
+   since an animated value beats the declared one for the whole active period
+   (delay 0s + infinite iteration = always, for :first-child). */
+.home-hero__slide:first-child {
+  opacity: 1;
+}
+.home-hero__slideshow--n8 .home-hero__slide {
+  animation-name: home-hero-crossfade-8;
+  animation-duration: 48s;
+}
+.home-hero__slideshow--n7 .home-hero__slide {
+  animation-name: home-hero-crossfade-7;
+  animation-duration: 42s;
+}
 .home-hero__slideshow--n6 .home-hero__slide {
   animation-name: home-hero-crossfade-6;
   animation-duration: 36s;
@@ -680,12 +706,40 @@ a:focus {
   animation-name: home-hero-crossfade-5;
   animation-duration: 30s;
 }
+.home-hero__slideshow--n4 .home-hero__slide {
+  animation-name: home-hero-crossfade-4;
+  animation-duration: 24s;
+}
+.home-hero__slideshow--n3 .home-hero__slide {
+  animation-name: home-hero-crossfade-3;
+  animation-duration: 18s;
+}
+.home-hero__slideshow--n2 .home-hero__slide {
+  animation-name: home-hero-crossfade-2;
+  animation-duration: 12s;
+}
 .home-hero__slide:nth-child(1) { animation-delay: 0s; }
 .home-hero__slide:nth-child(2) { animation-delay: 6s; }
 .home-hero__slide:nth-child(3) { animation-delay: 12s; }
 .home-hero__slide:nth-child(4) { animation-delay: 18s; }
 .home-hero__slide:nth-child(5) { animation-delay: 24s; }
 .home-hero__slide:nth-child(6) { animation-delay: 30s; }
+.home-hero__slide:nth-child(7) { animation-delay: 36s; }
+.home-hero__slide:nth-child(8) { animation-delay: 42s; }
+@keyframes home-hero-crossfade-8 {
+  0% { opacity: 0; }
+  2.08% { opacity: 1; }
+  12.5% { opacity: 1; }
+  14.58% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes home-hero-crossfade-7 {
+  0% { opacity: 0; }
+  2.38% { opacity: 1; }
+  14.29% { opacity: 1; }
+  16.67% { opacity: 0; }
+  100% { opacity: 0; }
+}
 @keyframes home-hero-crossfade-6 {
   0% { opacity: 0; }
   2.78% { opacity: 1; }
@@ -698,6 +752,27 @@ a:focus {
   3.33% { opacity: 1; }
   20% { opacity: 1; }
   23.33% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes home-hero-crossfade-4 {
+  0% { opacity: 0; }
+  4.17% { opacity: 1; }
+  25% { opacity: 1; }
+  29.17% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes home-hero-crossfade-3 {
+  0% { opacity: 0; }
+  5.56% { opacity: 1; }
+  33.33% { opacity: 1; }
+  38.89% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes home-hero-crossfade-2 {
+  0% { opacity: 0; }
+  8.33% { opacity: 1; }
+  50% { opacity: 1; }
+  58.33% { opacity: 0; }
   100% { opacity: 0; }
 }
 @media (prefers-reduced-motion: reduce) {
