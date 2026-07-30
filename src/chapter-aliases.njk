@@ -1,0 +1,90 @@
+---
+pagination:
+  data: collections.allChapters
+  size: 1
+  alias: chapter
+permalink: "/c/{{ chapter.data.comment_id }}/"
+eleventyExcludeFromCollections: true
+---
+{#-
+  PERMANENT CITATION ALIASES. One redirect stub per chapter at
+  /c/<comment_id>/, pointing at wherever that chapter currently lives.
+
+  THE PROBLEM THIS SOLVES. A chapter's URL is not permanent. Episodes get
+  renumbered in place to keep story chronology in order, which reassigns a URL
+  like /seasons/s00/e02/s00e02c01/ to entirely different content - and it has
+  already happened once, when a new chapter took over S00E02C01's old slot. An
+  external wiki, blog or citation pointing at that URL does not 404 afterwards;
+  it silently starts pointing at something else, which is strictly worse,
+  because nothing signals the breakage to either side.
+
+  WHY comment_id IS THE RIGHT KEY, AND WHY NOTHING NEW HAD TO BE INVENTED. The
+  repo already solved this problem once, for giscus discussions, and the answer
+  is sitting in every chapter's front matter. `comment_id` is required on every
+  chapter (lib/content-schema.js), permanent by policy - never regenerated, even
+  when a chapter is renumbered - carried forward by hand with the CONTENT rather
+  than the slot, and unique by build-time check: scripts/validate-content.js
+  fails the build on any collision. That is precisely the set of properties a
+  citable identifier needs. All 35 are also plain lowercase slugs, so they need
+  no escaping in a URL.
+
+  WHY STATIC STUBS RATHER THAN SERVER REDIRECTS. An .htaccess rewrite would be
+  tidier on cPanel and does not exist at all on GitHub Pages, and this repo
+  deploys to both. A generated HTML stub works identically everywhere and needs
+  no host configuration. Same pattern, and the same head, as the two existing
+  rename stubs (src/glossary/dynarch.njk, src/lore/solar-system-concordant.njk).
+
+  WHY noindex + canonical HERE, when base.njk deliberately avoids that pairing
+  for excluded placeholders: for a REDIRECT the two agree rather than conflict.
+  canonical names the real page, noindex keeps the alias itself out of the index
+  so it never competes with the chapter for the same content. That is the
+  conventional treatment of a redirect stub, and the opposite of a placeholder,
+  which has no canonical target worth naming.
+
+  SCENE-POV PAGES GET NO ALIAS, deliberately. Their comment_ids are derived
+  (<chapter>-scene-N-<character>) and they are derivative views of a chapter
+  rather than the citable unit; ~92 more stubs would earn nothing. A citation
+  wanting a specific POV can cite the chapter alias and name the scene.
+
+  Built from the UNFILTERED allChapters collection (see .eleventy.js), so the
+  alias resolves on every domain - including one that hides this chapter, where
+  it lands on the excluded.njk placeholder that points onward to a domain which
+  has it. An alias that disappeared on the narrowing clones would break the very
+  links it exists to preserve.
+-#}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ chapter.data.title }} — permanent link</title>
+<link rel="canonical" href="/star-rangers{{ chapter.url }}">
+<meta name="robots" content="noindex, follow">
+<meta http-equiv="refresh" content="0; url=/star-rangers{{ chapter.url }}">
+<style>
+  :root { color-scheme: dark light; }
+  body {
+    margin: 0; min-height: 100vh; display: grid; place-items: center;
+    padding: 2rem; background: #12151b; color: #e8e6e1;
+    font-family: Georgia, "Times New Roman", serif; line-height: 1.6;
+  }
+  main { max-width: 34rem; text-align: center; }
+  h1 { font-size: 1.5rem; font-weight: normal; margin: 0 0 1rem; }
+  p { margin: 0 0 1rem; }
+  a { color: #9db8d8; }
+  .note { font-size: 0.9rem; opacity: 0.7; }
+</style>
+</head>
+<body>
+<main>
+  <h1>{{ chapter.data.title }}</h1>
+  <p>This is the permanent citation link for
+    <strong>S{{ chapter.data.season | zeroPad }}E{{ chapter.data.episode | zeroPad }}C{{ chapter.data.chapter | zeroPad }} — {{ chapter.data.title }}</strong>.
+    It stays valid even if the chapter is renumbered, so it is the address to
+    quote in a wiki, a citation, or anywhere else you need a link that will not
+    quietly come to mean something else.</p>
+  <p><a href="/star-rangers{{ chapter.url }}">Continue to the chapter</a></p>
+  <p class="note">If you are not redirected automatically, follow the link above.</p>
+</main>
+</body>
+</html>

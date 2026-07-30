@@ -958,6 +958,36 @@ a:focus {
   font-size: 0.9rem;
   color: var(--color-text-muted);
 }
+/* Borrows the .canon-facts box treatment deliberately: a reader who has met
+   one of those on a chapter already reads this shape as "the Archive talking
+   about the text rather than in it". */
+.codex-entry__status {
+  margin: var(--spacing-md) 0;
+  padding: var(--spacing-md);
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-accent);
+  border-radius: var(--radius-lg);
+  max-width: var(--max-prose);
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+.codex-entry__status p { margin: 0; }
+.codex-entry__status strong { color: var(--color-text); }
+/* Permanent citation link at the foot of a chapter. Quiet by design - it is
+   reference apparatus for someone who came to cite, not something to compete
+   with the prose. */
+.chapter-permalink {
+  margin: var(--spacing-lg) 0 0;
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--color-border);
+  max-width: var(--max-prose);
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+.chapter-permalink code { font-size: 0.95em; }
 .codex-entry__body {
   max-width: var(--max-prose);
 }

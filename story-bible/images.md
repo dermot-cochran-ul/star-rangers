@@ -261,56 +261,93 @@ enumerated the **lore** entries with no `image` at all. Nineteen do (excluding
 `lore/index.md` and the canonical-glossary reference doc, which has one). None
 blocks a build — `lore-entry.njk` guards the image with `{% if image %}`.
 
-**Two different jobs, and it matters which.** The existing lore corpus already
-uses both conventions, so the split below is descriptive, not new policy:
+**Two different jobs, and it matters which.** Nine of the nineteen are
+institutions or factions and want a designed **title card**; the other ten are
+places, phenomena, technology or cosmology and want a **generated image**.
 
-- **Institutions and factions → designed emblem cards**, via
-  `scripts/make-codex-cover.ps1`, not an image model. Precedent:
-  `cerebraun-hegemony`, `celtic-union-of-planets`, `orbital-habitats-compact`,
-  `federation-of-sentient-beings`, `united-space-consortium`, `levrils` — all
-  ringed-seal emblem cards, all readable, all spelled correctly. Nine of the
-  nineteen belong here. An image model cannot letter a seal and there is no
-  reason to make it try.
+> **Correction, 2026-07-30 — this section shipped with a false claim, now fixed.**
+> It originally said the four existing lore cards (`cerebraun-hegemony`,
+> `celtic-union-of-planets`, `orbital-habitats-compact`, `levrils`) were made
+> with `scripts/make-codex-cover.ps1`, and named
+> `federation-of-sentient-beings` and `united-space-consortium` alongside them
+> as more of the same. **Both halves were wrong**, and the error came from
+> reasoning about `image_alt` strings instead of opening the files — the exact
+> failure this file already warns about two sections up. Reading them settles it:
+>
+> - The four cards are **1600×900 landscape**, individually tinted (Cerebraun's
+>   is green-teal), and carry a device inside a ringed seal. `make-codex-cover.ps1`
+>   emits **square 1600×1600** in one fixed blue palette and has no emblem motif
+>   at all — only `rules`, `dissolution`, `none`. It cannot have produced them.
+> - `federation-of-sentient-beings` (1200×1509) and `united-space-consortium`
+>   (1200×800) are **photographs**, not cards.
+>
+> **The emblem-card recipe is therefore unrecorded and currently unreproducible.**
+> All four landed in Release 1.7.0 (#187) with no entry in `image-prompts.md`,
+> which is precisely the rule that file exists to enforce and precisely the
+> failure mode the Prismere cluster prompted it over. A fifth card in the same
+> family is referenced from `uniforms-and-insignia.md` ("a blue chevron insignia
+> emblem in a ringed seal"). **Recovering or re-deriving that recipe is open
+> work in its own right** — see the note at the end of this section.
+
+So the split below is *descriptive of what can be built today*, not a claim about
+how the shipped cards were built:
+
+- **Institutions and factions → generator title cards** via
+  `scripts/make-lore-cards.ps1` (a batch driver over `make-codex-cover.ps1`,
+  added 2026-07-30, nine cards in one command). The generator letters text with
+  a font engine, so titles come out sharp and correctly spelled — which an image
+  model cannot be trusted to do. **These will read as codex-style cards, not
+  like the four 1.7.0 lore cards**, and that inconsistency is unresolved: it is
+  Dermot's call whether to accept it, extend the generator with a
+  landscape/emblem mode first, or drop the batch.
 - **Places, phenomena, technology and cosmology → generated images**, prompts
-  below. Ten of the nineteen.
+  below.
 
 Prompts are written to the standing rules: era stated, lettering banned, sheen
 named rather than substance, unsettling permitted and horror not. Add
 `image`/`image_alt` after generating, and per "Alt text is the prompt of record"
 above, write the alt text from what the file actually shows rather than pasting
-the prompt back in.
+the prompt back in. For a title card that means describing the card's layout and
+text, not the prose of the entry it fronts.
 
-**Emblem cards (generator, not image model)**
+**Title cards (generator, not image model)**
 
-Nine pages, all `Institutions` or `Factions`. Suggested `-Category` /
-`-Motif rules` unless noted; each needs a title line and a subtitle drawn from
-the entry's own first sentence.
+Nine pages. The table lives in `scripts/make-lore-cards.ps1` rather than here, so
+there is one copy of it and it is the copy that runs; `-List` prints it. Notes
+below cover only the choices that needed a reason. Two constraints learned from
+reading the generator: subtitles are **not** auto-fitted (only titles are), so
+keep them under ~34 characters; and `Institution`/`Author` are left empty on
+every row, because codex covers carry them for a named in-universe source and
+lore is the Archive's own voice with no author to name.
 
-- `communion-of-the-called.jpg` — a network of congregations Rangers belong to
-  off-duty; no rank inside it. Motif `rules`; subtitle from "the Communion's
-  only qualification for belonging is showing up."
-- `solar-system-concord.jpg` — continuing civil law, founded 2543 UCSD as the
-  Solar System Concordant, restyled 2790. Worth carrying **both** names on the
-  card, since the rename is the entry's whole point.
-- `the-commonwealth.jpg` — voluntary association anchored at New London;
-  deliberately thin. Motif `rules`.
-- `star-rangers-frontier-corps.jpg` — caretaker law enforcement whose mandate is
-  designed to end. Subtitle from "measures itself by how soon it can leave."
-- `star-rangers-science-corps.jpg` — guild-independent research body; pairs with
-  the existing Survey Corps material.
-- `the-institute.jpg` — secular sceptical research body, no fixed world. Motif
-  `dissolution` fits the register better than `rules`; the entry's stance is
-  that nothing has been established beyond the disagreement.
-- `hyperfold-yield-combine.jpg` — a defunct commercial concern. This one wants a
-  **corporate** card rather than an institutional seal, and reading as a lawful
-  trading entity is the point: everything about it was licensed. Stamp
-  `DISSOLVED` rather than `OFFICIAL`.
-- `habitat-threshold.jpg` — the charter population line. Abstract for a seal;
-  consider instead deferring this one, or a plain rules-motif card carrying the
-  station/habitat distinction.
-- `eden-ring-rail.jpg` — see below; could go either way, but a transit-line
-  diagram card would serve the entry better than a photograph. Ring line plus
-  radial spokes, no station lettering.
+Only three rows involved a judgement worth recording:
+
+- `the-institute.jpg` — motif `dissolution` rather than `rules`, because the
+  entry's stance is that nothing has been established beyond the disagreement
+  between instruments. The fading ring says that; ruled lines say the opposite.
+- `hyperfold-yield-combine.jpg` — the one row with a `Stamp`, and it reads
+  `DISSOLVED` rather than anything accusatory. Reading as a lawful trading
+  entity is the entry's whole point: everything about the Combine was licensed
+  right up to the moment it was destroyed. The stamp records its end, not a
+  verdict on it.
+- `habitat-threshold.jpg` — the weakest candidate of the nine. A charter
+  population line is abstract even for a title card, and deferring it is a
+  defensible outcome; it is in the batch because the card costs nothing to
+  generate and can be dropped after looking at it.
+
+The other six are straightforward: title, category, a subtitle under the length
+limit, `rules`.
+
+**Still open after this: the emblem-card recipe.** Nothing here recovers how the
+four 1.7.0 lore cards were made, and until that is settled the corpus has two
+visual languages for the same job — those four in landscape with a ringed seal,
+and anything `make-lore-cards.ps1` produces in square codex style. Three ways
+out, none of them started: find the original tool or prompt and record it in
+`image-prompts.md` at last; extend `make-codex-cover.ps1` with `-Aspect`,
+palette and an emblem/seal motif so one generator covers both looks (note that
+every positioning constant in it is tuned for 1600×1600, so this is more than a
+parameter); or accept the codex look for lore and treat the four as legacy.
+Worth deciding before generating nine cards, not after.
 
 **Generated images (ten pages)**
 

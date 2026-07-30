@@ -42,6 +42,16 @@ commentsCategory: episodes
       {% endfor %}
     </ul>
     {% endif %}
+
+    {#- Optional, and no chapter has one yet - the field exists so a chapter
+        can carry its own Open Graph preview instead of falling back to the
+        site hero (see OG_IMAGE_DIRS in .eleventy.js). Rendered here on the
+        same pattern as lore-entry.njk / codex.njk so the file a card shows is
+        the file a reader sees, rather than a preview-only asset nobody on the
+        page can check against its own alt text. -#}
+    {% if image %}
+    <img class="entry-image" src="/star-rangers/images/chapters/{{ image }}" alt="{{ image_alt | default(title) }}" />
+    {% endif %}
   </header>
 
   {% if povs and povs.length %}
@@ -116,4 +126,22 @@ commentsCategory: episodes
     </a>
     {% endif %}
   </nav>
+
+  {#- Surfaces the permanent citation alias (src/chapter-aliases.njk). Without
+      this the aliases exist and nobody knows, which is no use to the wiki
+      editor or blogger they were built for. Deliberately says WHY the address
+      differs from the one in the address bar - "permanent link" alone invites
+      the reasonable assumption that the visible URL is already permanent, and
+      it is not: renumbering reassigns a chapter's URL to different content.
+      data-pagefind-ignore because 35 copies of the same sentence would
+      otherwise crowd search results. -#}
+  {% if comment_id %}
+  <p class="chapter-permalink" data-pagefind-ignore>
+    <strong>Citing this chapter?</strong> Use
+    <a href="/star-rangers/c/{{ comment_id }}/"><code>/c/{{ comment_id }}/</code></a>.
+    Chapters get renumbered as the story's chronology settles, which changes the
+    address above — this one follows the chapter instead of the slot, so it stays
+    pointing at these words.
+  </p>
+  {% endif %}
 </article>

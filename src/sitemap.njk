@@ -4,8 +4,17 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{#-
+  Two exclusions, and they are two because this site hides a page in two
+  different ways. Most content is hidden by swapping its layout to
+  excluded.njk (see .eleventy.js's eleventyComputed), which the first test
+  catches. Scene-POV pages don't use that mechanism - they keep their own
+  layout and gate their body on `item.included`, set per character in
+  _data/scenePovPages.js - so without the second test a narrowed clone
+  advertised its hidden POV placeholders as real content.
+-#}
 {%- for entry in collections.all %}
-{%- if entry.data.layout != "excluded.njk" and entry.outputPath and entry.outputPath.endsWith(".html") %}
+{%- if entry.data.layout != "excluded.njk" and (not entry.data.item or entry.data.item.included) and entry.outputPath and entry.outputPath.endsWith(".html") %}
   <url><loc>{{ entry.url | absoluteUrl(site.url) }}</loc></url>
 {%- endif %}
 {%- endfor %}

@@ -1,6 +1,8 @@
+const path = require("path");
 const { DateTime } = require("luxon");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const { createMarkdownRenderer } = require("./lib/markdown-containers");
+const { imageSize } = require("./lib/image-size");
 const {
   getContentFilter,
   isCharacterIncluded,
@@ -12,6 +14,7 @@ const {
   getRelatedContentUrls
 } = require("./lib/content-filter");
 const { threadForSeason, DEFAULT_REFERENCE_DOMAIN } = require("./lib/storyline-threads");
+const { getEdition, validateEditions } = require("./lib/editions");
 
 // Classifies a content file by where it LIVES (its inputPath), not by its
 // `layout` front-matter field. `layout` is itself one of the eleventyComputed
@@ -91,7 +94,8 @@ const OG_IMAGE_DIRS = {
   character: "characters",
   lore: "lore",
   codex: "codex",
-  glossary: "glossary"
+  glossary: "glossary",
+  chapter: "chapters"
 };
 
 // Site-wide fallback for any page with no page-specific image (chapters,
@@ -100,6 +104,14 @@ const OG_IMAGE_DIRS = {
 // substitutes for `undefined`, not `null`, and would otherwise silently
 // pass a null image straight through to the absoluteUrl filter.
 const DEFAULT_OG_IMAGE = "/images/hero/home-launch.jpg";
+
+// Describes the fallback hero itself, not the site - it is what a card
+// actually shows whenever a page has no image of its own. Written from the
+// file (the standing rule in story-bible/images.md), which is why it says
+// the planet is *behind* the craft rather than the one being launched from:
+// it is a distant crescent in the background, not the surface below.
+const DEFAULT_OG_IMAGE_ALT =
+  "A shuttle-style spacecraft climbing on a bright exhaust plume and billowing cloud, against a starfield with a blue-and-green crescent planet behind it";
 
 // `included` is threaded through explicitly (rather than relying on
 // eleventyComputed's own dependency resolution already having swapped
@@ -112,6 +124,28 @@ function computeOgImage(data, included) {
   if (!included) return DEFAULT_OG_IMAGE;
   const dir = OG_IMAGE_DIRS[classifyContentPath(data.page && data.page.inputPath)];
   return dir && data.image ? `/images/${dir}/${data.image}` : DEFAULT_OG_IMAGE;
+}
+
+// Alt text for whatever computeOgImage settled on, so a card has a text
+// alternative for the same reason the on-page <img> does. Follows the image
+// itself rather than the page: once the fallback hero is in use, the page's
+// own `image_alt` describes a file that is not in the card, and reusing it
+// would caption the wrong picture - the failure mode the July 2026 audit
+// found on-page and story-bible/images.md now has a standing rule against.
+function computeOgImageAlt(data, ogImage) {
+  if (ogImage === DEFAULT_OG_IMAGE) return DEFAULT_OG_IMAGE_ALT;
+  return data.image_alt || data.title || undefined;
+}
+
+// og:image:width / og:image:height, read from the file itself (lib/image-size.js).
+// Worth the read: a platform that knows the dimensions can lay the card out
+// before fetching the image. Returns undefined when the file can't be parsed,
+// and base.njk then omits both tags - a guessed dimension is worse than none,
+// since the platform reserves a box the image doesn't fill.
+function computeOgImageSize(ogImage) {
+  if (!ogImage) return undefined;
+  const size = imageSize(path.join(__dirname, "src", ogImage));
+  return size || undefined;
 }
 
 // Drives the eleventyComputed "ogType" override below: "article" for an
@@ -153,6 +187,21 @@ module.exports = function(eleventyConfig) {
   // Falls back to "default" for any build that never sets THEME (local
   // dev, CI, GitHub Pages).
   eleventyConfig.addGlobalData("theme", String(process.env.THEME || "default").trim().toLowerCase());
+
+  // Per-domain copy and flourishes (lib/editions.js). Separate from `theme`
+  // above, which is now only a palette name again: `theme` was carrying both
+  // jobs, and several domains share one palette, so it could not express a
+  // per-domain tagline. Resolved from EDITION, falling back to THEME so the
+  // untracked deploy.conf on every live clone keeps working unchanged - see
+  // that file's MIGRATION SAFETY note before renaming any id.
+  // Throws on a duplicate id or a themeAudio file that isn't in src/audio/ -
+  // see validateEditions for why those two in particular need checking here
+  // rather than by check-internal-links.js.
+  validateEditions({
+    audioDir: path.join(__dirname, "src", "audio"),
+    cssDir: path.join(__dirname, "src", "css")
+  });
+  eleventyConfig.addGlobalData("edition", getEdition());
 
   // Same pattern as THEME above, but a plain on/off switch: lets a build
   // suppress the giscus comment widget entirely (see src/_includes/base.njk)
@@ -362,6 +411,33 @@ module.exports = function(eleventyConfig) {
       )
   );
 
+  // Every chapter, UNFILTERED - the one chapter collection that ignores
+  // CHARACTERS/TOPICS/THREADS and private threads alike. Feeds the permanent
+  // citation aliases in src/chapter-aliases.njk and nothing else.
+  //
+  // It has to be unfiltered so an external citation of /c/<comment_id>/ never
+  // 404s on a narrowed clone. That is the same promise excluded.njk already
+  // makes at a chapter's ordinary URL: the page still builds, as a placeholder
+  // pointing at a domain that does have it. An alias that vanished on the
+  // domains which narrow would break exactly the links this feature exists to
+  // keep alive. It discloses nothing new either - the placeholder already sits
+  // at the chapter's normal URL on every domain.
+  //
+  // Filtered by inputPath rather than by `layout`, because layout is rewritten
+  // to "excluded.njk" for a hidden chapter (see the comment at the top of this
+  // file); testing it here would silently drop precisely the chapters this
+  // collection exists to cover.
+  eleventyConfig.addCollection("allChapters", (collectionApi) =>
+    collectionApi
+      .getAll()
+      .filter((item) => classifyContentPath(item.inputPath) === "chapter")
+      .sort((a, b) =>
+        Number(a.data.season) - Number(b.data.season) ||
+        Number(a.data.episode) - Number(b.data.episode) ||
+        Number(a.data.chapter) - Number(b.data.chapter)
+      )
+  );
+
   // Same "chapters" set, newest real-world `date` first rather than story
   // order - what the Atom feed (src/feed.njk) actually wants to announce.
   eleventyConfig.addCollection("recentChapters", (collectionApi) =>
@@ -417,12 +493,31 @@ module.exports = function(eleventyConfig) {
     // second placeholder string in the page's own meta tags.
     description: (data) => (isContentIncluded(data, contentFilter) ? data.description : undefined),
     ogImage: (data) => computeOgImage(data, isContentIncluded(data, contentFilter)),
+    ogImageAlt: (data) =>
+      computeOgImageAlt(data, computeOgImage(data, isContentIncluded(data, contentFilter))),
+    ogImageSize: (data) =>
+      computeOgImageSize(computeOgImage(data, isContentIncluded(data, contentFilter))),
     ogType: (data) => computeOgType(data),
     // Only read by excluded.njk (see computeReferenceDomain) - the domain a
     // reader is sent to for a page this build hides. A private thread's
     // excluded page points at its own homeDomain instead of the default
     // reference domain, so it never loops back to another placeholder.
-    referenceDomain: (data) => computeReferenceDomain(data)
+    referenceDomain: (data) => computeReferenceDomain(data),
+    // A hidden page still returns HTTP 200 with a real placeholder body -
+    // that IS the design, so no cross-link ever 404s - which means without
+    // this a narrowed clone publishes up to a few hundred indexable "Not
+    // included in this edition" pages. sitemap.xml already omits them (it
+    // filters on layout != "excluded.njk"), but a crawler following the
+    // internal links the placeholders exist to keep alive never consults a
+    // sitemap. `follow` rather than `nofollow` deliberately: the one useful
+    // thing on a placeholder is its link out to the reference domain, and
+    // that should still be traversed. Emitted by base.njk only when set, so
+    // an ordinary page gets no robots tag at all and any page may still opt
+    // in via its own `robots` front matter. Driven off isContentIncluded
+    // rather than data.layout for the reason documented at the top of this
+    // file - by the time this evaluator runs, data.layout may already read
+    // "excluded.njk" for an INCLUDED page's sibling and cannot be trusted.
+    robots: (data) => (isContentIncluded(data, contentFilter) ? data.robots : "noindex, follow")
   });
 
   return {
