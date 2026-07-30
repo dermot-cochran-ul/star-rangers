@@ -21,6 +21,13 @@ module.exports = function () {
     description: "The stars call us forward with hope; to protect what is good and to see what is true. An interactive science-fantasy novel grounded in speculative cosmology — one canonical history across the Five Layers, multiple Concordants, and multiple points of view.",
     url: `https://${domain}/`,
     author: "Star Rangers",
-    language: "en"
+    language: "en",
+    // Open Graph wants a full locale rather than the bare language code above.
+    // en_GB rather than en_US because the prose is consistently British/Irish
+    // spelling ("licence", "unauthorised", "colour"), and rather than en_IE
+    // because the major scrapers' supported-locale lists reliably include
+    // en_GB and do not reliably include en_IE - a locale a platform doesn't
+    // recognise is worse than the nearest one it does.
+    ogLocale: "en_GB"
   };
 };

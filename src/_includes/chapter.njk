@@ -42,6 +42,16 @@ commentsCategory: episodes
       {% endfor %}
     </ul>
     {% endif %}
+
+    {#- Optional, and no chapter has one yet - the field exists so a chapter
+        can carry its own Open Graph preview instead of falling back to the
+        site hero (see OG_IMAGE_DIRS in .eleventy.js). Rendered here on the
+        same pattern as lore-entry.njk / codex.njk so the file a card shows is
+        the file a reader sees, rather than a preview-only asset nobody on the
+        page can check against its own alt text. -#}
+    {% if image %}
+    <img class="entry-image" src="/star-rangers/images/chapters/{{ image }}" alt="{{ image_alt | default(title) }}" />
+    {% endif %}
   </header>
 
   {% if povs and povs.length %}

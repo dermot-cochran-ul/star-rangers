@@ -961,6 +961,23 @@ a:focus {
   font-size: 0.9rem;
   color: var(--color-text-muted);
 }
+/* Borrows the .canon-facts box treatment deliberately: a reader who has met
+   one of those on a chapter already reads this shape as "the Archive talking
+   about the text rather than in it". */
+.codex-entry__status {
+  margin: var(--spacing-md) 0;
+  padding: var(--spacing-md);
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-accent);
+  border-radius: var(--radius-lg);
+  max-width: var(--max-prose);
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+.codex-entry__status p { margin: 0; }
+.codex-entry__status strong { color: var(--color-text); }
 .codex-entry__body {
   max-width: var(--max-prose);
 }

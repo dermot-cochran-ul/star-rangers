@@ -1,6 +1,8 @@
+const path = require("path");
 const { DateTime } = require("luxon");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const { createMarkdownRenderer } = require("./lib/markdown-containers");
+const { imageSize } = require("./lib/image-size");
 const {
   getContentFilter,
   isCharacterIncluded,
@@ -91,7 +93,8 @@ const OG_IMAGE_DIRS = {
   character: "characters",
   lore: "lore",
   codex: "codex",
-  glossary: "glossary"
+  glossary: "glossary",
+  chapter: "chapters"
 };
 
 // Site-wide fallback for any page with no page-specific image (chapters,
@@ -100,6 +103,14 @@ const OG_IMAGE_DIRS = {
 // substitutes for `undefined`, not `null`, and would otherwise silently
 // pass a null image straight through to the absoluteUrl filter.
 const DEFAULT_OG_IMAGE = "/images/hero/home-launch.jpg";
+
+// Describes the fallback hero itself, not the site - it is what a card
+// actually shows whenever a page has no image of its own. Written from the
+// file (the standing rule in story-bible/images.md), which is why it says
+// the planet is *behind* the craft rather than the one being launched from:
+// it is a distant crescent in the background, not the surface below.
+const DEFAULT_OG_IMAGE_ALT =
+  "A shuttle-style spacecraft climbing on a bright exhaust plume and billowing cloud, against a starfield with a blue-and-green crescent planet behind it";
 
 // `included` is threaded through explicitly (rather than relying on
 // eleventyComputed's own dependency resolution already having swapped
@@ -112,6 +123,28 @@ function computeOgImage(data, included) {
   if (!included) return DEFAULT_OG_IMAGE;
   const dir = OG_IMAGE_DIRS[classifyContentPath(data.page && data.page.inputPath)];
   return dir && data.image ? `/images/${dir}/${data.image}` : DEFAULT_OG_IMAGE;
+}
+
+// Alt text for whatever computeOgImage settled on, so a card has a text
+// alternative for the same reason the on-page <img> does. Follows the image
+// itself rather than the page: once the fallback hero is in use, the page's
+// own `image_alt` describes a file that is not in the card, and reusing it
+// would caption the wrong picture - the failure mode the July 2026 audit
+// found on-page and story-bible/images.md now has a standing rule against.
+function computeOgImageAlt(data, ogImage) {
+  if (ogImage === DEFAULT_OG_IMAGE) return DEFAULT_OG_IMAGE_ALT;
+  return data.image_alt || data.title || undefined;
+}
+
+// og:image:width / og:image:height, read from the file itself (lib/image-size.js).
+// Worth the read: a platform that knows the dimensions can lay the card out
+// before fetching the image. Returns undefined when the file can't be parsed,
+// and base.njk then omits both tags - a guessed dimension is worse than none,
+// since the platform reserves a box the image doesn't fill.
+function computeOgImageSize(ogImage) {
+  if (!ogImage) return undefined;
+  const size = imageSize(path.join(__dirname, "src", ogImage));
+  return size || undefined;
 }
 
 // Drives the eleventyComputed "ogType" override below: "article" for an
@@ -417,6 +450,10 @@ module.exports = function(eleventyConfig) {
     // second placeholder string in the page's own meta tags.
     description: (data) => (isContentIncluded(data, contentFilter) ? data.description : undefined),
     ogImage: (data) => computeOgImage(data, isContentIncluded(data, contentFilter)),
+    ogImageAlt: (data) =>
+      computeOgImageAlt(data, computeOgImage(data, isContentIncluded(data, contentFilter))),
+    ogImageSize: (data) =>
+      computeOgImageSize(computeOgImage(data, isContentIncluded(data, contentFilter))),
     ogType: (data) => computeOgType(data),
     // Only read by excluded.njk (see computeReferenceDomain) - the domain a
     // reader is sent to for a page this build hides. A private thread's

@@ -28,6 +28,28 @@ commentsCategory: lore
     {% if location %}
     <p class="codex-entry__byline">Physical record: <strong>{{ location }}</strong></p>
     {% endif %}
+    {#-
+      Says out loud, on the entry itself, what the Codex index only implies to
+      a reader who arrived through it - and most don't: a search result, a
+      cross-link from a lore page, or an external citation all land here
+      directly. The four canon statuses are the easiest thing on this site to
+      flatten, and flattening them turns a named source's account into the
+      Archive stating fact. `author` is required on every codex entry for this
+      exact reason (lib/content-schema.js), so the notice can always name
+      someone to attribute the claims to.
+    -#}
+    {#- data-pagefind-ignore for the same reason the breadcrumb and footer
+        carry it: identical boilerplate on all 32 codex entries would
+        otherwise put 32 indistinguishable hits behind a search for
+        "primary source" or "canon". -#}
+    <aside class="codex-entry__status" aria-label="How to read this document" data-pagefind-ignore>
+      <p><strong>A primary source, not the Archive's own voice.</strong>
+      This document is canon <em>for its author</em>: it records what
+      {% if author %}{{ author }}{% else %}its author{% endif %} set down, by their own lights and with their own
+      blind spots. It may be partial, self-serving, or contradicted by
+      <a href="/star-rangers/lore/">settled lore</a>, by a chapter, or by
+      another codex entry. Cite it as an account, not as established fact.</p>
+    </aside>
     {% if tags and tags.length %}
     <ul class="chapter-tags" aria-label="Tags" role="list">
       {% for tag in tags %}
