@@ -123,6 +123,10 @@ If you fork this repo to run your own **original** interactive fiction site, rep
 
 See **[`FORKING.md`](./FORKING.md)** for the full step-by-step guide either way — rebranding, the `/star-rangers/` path prefix, setting up your own comments repo, and deployment.
 
+## Contributing and support
+
+Forks are welcome and need no permission; **third-party pull requests aren't accepted**, and forks are unsupported. Reader and fan questions are welcome in the [discussion forum](#discussion-forum-giscus), triaged as time allows. See **[`CONTRIBUTING.md`](./CONTRIBUTING.md)** for the reasoning and the details.
+
 ## Local development
 
 ```bash

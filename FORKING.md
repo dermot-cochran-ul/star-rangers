@@ -2,6 +2,8 @@
 
 This repo is built to be forked two different ways. Pick one before you start replacing content — it changes what you keep.
 
+Forking needs no permission and is actively encouraged. The one condition, and the reasoning behind it, is in [`CONTRIBUTING.md`](./CONTRIBUTING.md): a fork must be self-contained, because this project can't take on pull requests or support forks.
+
 ## The two licences (read this part first)
 
 - **Engine** (`.eleventy.js`, `lib/`, `src/_includes/`, `src/css/`, `src/js/`, `scripts/`): **MIT** — see [`LICENSE`](./LICENSE). Reuse it for anything, including a wholly original story with no connection to Star Rangers.
