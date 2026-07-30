@@ -66,7 +66,16 @@ DEPLOY_SUBJECT_PREFIX="[star-rangers deploy]"
 # fixed variable names, since the set of alt domains is dynamic.
 # ---------------------------------------------------------------------------
 CPANEL_USER="sciencef"
-THEME="default"
+# Empty, not "default", since 2026-07-30: these keys can now be filled in from
+# lib/editions.js by domain, and that requires being able to tell "this clone
+# did not set it" from "this clone set it to the default value". Normalised to
+# their real defaults after resolution, further down.
+THEME=""
+# Optional explicit override. Normally left unset and resolved from DOMAIN via
+# lib/editions.js; set it when a domain should take an edition that isn't the
+# one registered for it, or to preview a branded edition from an unregistered
+# host. Independent of THEME on purpose - see lib/editions.js.
+EDITION=""
 CHARACTERS=""
 TOPICS=""
 THREADS=""
@@ -76,7 +85,9 @@ SITE_NAME=""
 SITE_TITLE=""
 CUSTOM_LORE_FILE=""
 CUSTOM_CSS_FILE=""
-COMMENTS_ENABLED="true"
+# Empty for the same reason as THEME above; normalised to "true" after
+# resolution.
+COMMENTS_ENABLED=""
 GISCUS_PROFILE=""
 GISCUS_REPO=""
 GISCUS_REPO_ID=""
@@ -93,6 +104,98 @@ DEPLOY_PRIMARY="true"
 # clone gets a deploy-log notification out of the box without needing its
 # own deploy.conf entry.
 [ -z "$ADMIN_EMAIL" ] && ADMIN_EMAIL="admin@$DOMAIN"
+
+# ---------------------------------------------------------------------------
+# resolve_edition(): fills in whatever deploy.conf left unset, from
+# lib/editions.js, keyed by domain. Added 2026-07-30 so a minimum viable
+# deploy.conf is CPANEL_USER + DOMAIN (+ ALT_DOMAINS) and nothing else.
+#
+# PRECEDENCE IS DELIBERATE AND ONE WAY: deploy.conf wins wherever it set a
+# value, and the registry only fills gaps. Two reasons. It means this change
+# cannot alter any existing clone's behaviour - deploy.conf is untracked and
+# lives on this account, so live configs cannot be migrated from the repo, and
+# a registry that overrode them would silently re-skin a live domain. And the
+# registry's own alt-domain entries were inferred from sample-deploy.conf's
+# commented examples rather than read from the real thing, so they are the less
+# trustworthy source until confirmed.
+#
+# Every filled key is logged with its provenance for exactly that reason. Read
+# the [edition] lines on the first deploy after this lands and check them
+# against what each domain actually sets; correct lib/editions.js, not this.
+#
+# Usage: resolve_edition <domain> <var-prefix>
+#   Reads the registry for <domain> and, for each key, sets <prefix>_<KEY> only
+#   if it is currently empty. Echoes one provenance line per key.
+# ---------------------------------------------------------------------------
+resolve_edition() {
+  # Scratch vars are local; the RESOLVED_* ones deliberately are not, since the
+  # caller reads them straight after.
+  local re_domain re_label re_output
+  re_domain="$1"; re_label="$2"
+  # Clear EVERY resolved key, not just the id. main() calls this once per
+  # domain in a loop, so a value left over from the previous domain would be
+  # filled into this one - and if that previous domain was registered and this
+  # one is not, it would inherit a theme and a THREADS filter belonging to
+  # somebody else. Same class of leak the custom-lore RETURN trap guards
+  # against further down, and it was a live bug before this line existed.
+  RESOLVED_EDITION=""
+  RESOLVED_THEME=""
+  RESOLVED_THREADS=""
+  RESOLVED_CHARACTERS=""
+  RESOLVED_TOPICS=""
+  RESOLVED_SITE_NAME=""
+  RESOLVED_SITE_TITLE=""
+  RESOLVED_GISCUS_PROFILE=""
+  RESOLVED_COMMENTS_ENABLED=""
+  # An unreadable or malformed registry must not take the deploy down: the
+  # build itself validates lib/editions.js (see validateEditions in it), so a
+  # failure here means something is wrong with node or the file, and the right
+  # response is to carry on with deploy.conf's own values and say so.
+  re_output=$(node "$REPOSITORY_ROOT/scripts/resolve-edition.js" --domain "$re_domain" 2>/dev/null) || {
+    echo "--- [$re_label] edition: registry lookup failed, using deploy.conf values only ---"
+    return 0
+  }
+  eval "$re_output"
+  if [ -z "$RESOLVED_EDITION" ]; then
+    echo "--- [$re_label] edition: '$re_domain' is not registered in lib/editions.js; using deploy.conf values only ---"
+    return 0
+  fi
+  echo "--- [$re_label] edition: '$re_domain' -> '$RESOLVED_EDITION' (lib/editions.js) ---"
+}
+
+# fill_from_registry <var-name> <resolved-value> <label> <key-name>
+# Sets <var-name> to <resolved-value> only when it is currently empty, and says
+# which source won either way.
+fill_from_registry() {
+  # Assigns into the CALLER's variable by name. Works for both the top-level
+  # globals (THEME) and main()'s own locals (alt_theme) because bash scoping is
+  # dynamic: a local in a calling function is visible, and assignable, here.
+  local ffr_var ffr_value ffr_label ffr_key ffr_current
+  ffr_var="$1"; ffr_value="$2"; ffr_label="$3"; ffr_key="$4"
+  eval "ffr_current=\${$ffr_var}"
+  if [ -n "$ffr_current" ]; then
+    echo "---   [$ffr_label] $ffr_key='$ffr_current' (deploy.conf)"
+  elif [ -n "$ffr_value" ]; then
+    eval "$ffr_var=\$ffr_value"
+    echo "---   [$ffr_label] $ffr_key='$ffr_value' (edition)"
+  fi
+}
+
+resolve_edition "$DOMAIN" "primary"
+fill_from_registry EDITION "$RESOLVED_EDITION" primary EDITION
+fill_from_registry THEME "$RESOLVED_THEME" primary THEME
+fill_from_registry THREADS "$RESOLVED_THREADS" primary THREADS
+fill_from_registry CHARACTERS "$RESOLVED_CHARACTERS" primary CHARACTERS
+fill_from_registry TOPICS "$RESOLVED_TOPICS" primary TOPICS
+fill_from_registry SITE_NAME "$RESOLVED_SITE_NAME" primary SITE_NAME
+fill_from_registry SITE_TITLE "$RESOLVED_SITE_TITLE" primary SITE_TITLE
+fill_from_registry GISCUS_PROFILE "$RESOLVED_GISCUS_PROFILE" primary GISCUS_PROFILE
+fill_from_registry COMMENTS_ENABLED "$RESOLVED_COMMENTS_ENABLED" primary COMMENTS_ENABLED
+
+# Normalise the two keys whose pre-set defaults had to become empty above, so
+# everything downstream sees exactly the values it always saw.
+THEME="${THEME:-default}"
+COMMENTS_ENABLED="${COMMENTS_ENABLED:-true}"
 
 # ---------------------------------------------------------------------------
 # alt_id_valid() / alt_get(): helpers for reading ALT_<id>_<suffix> keys out
@@ -176,6 +279,14 @@ build_and_deploy() {
   # spirit as the CUSTOM_LORE_FILE/CUSTOM_CSS_FILE "missing file" checks
   # further down.
   local COMMENTS_ENABLED="true"
+  # EDITION must be threaded through and exported separately from THEME, not
+  # derived from it. lib/editions.js falls back to THEME when EDITION is unset,
+  # which covers a clone that predates the registry - but the entire point of
+  # the registry is that the two are now independent axes. A domain whose
+  # edition id differs from its palette (EDITION=my-site THEME=sepia) would
+  # otherwise have its copy resolved as editionFor("sepia"), find nothing, and
+  # silently ship the default tagline.
+  local EDITION=""
   local GISCUS_PROFILE="" GISCUS_REPO="" GISCUS_REPO_ID="" GISCUS_CATEGORY_CHARACTERS_ID="" \
         GISCUS_CATEGORY_LORE_ID="" GISCUS_CATEGORY_EPISODES_ID="" GISCUS_CATEGORY_JOURNAL_ID=""
   local b_kv b_kv_name b_kv_value
@@ -184,6 +295,7 @@ build_and_deploy() {
     b_kv_value="${b_kv#*=}"
     case "$b_kv_name" in
       COMMENTS_ENABLED) COMMENTS_ENABLED="$b_kv_value" ;;
+      EDITION) EDITION="$b_kv_value" ;;
       GISCUS_PROFILE) GISCUS_PROFILE="$b_kv_value" ;;
       GISCUS_REPO) GISCUS_REPO="$b_kv_value" ;;
       GISCUS_REPO_ID) GISCUS_REPO_ID="$b_kv_value" ;;
@@ -212,6 +324,7 @@ build_and_deploy() {
   # Eleventy just discovers them as ordinary files.
   local CHARACTERS="$b_characters" TOPICS="$b_topics" THREADS="$b_threads" THEME="$b_theme" \
         SITE_NAME="$b_site_name" SITE_TITLE="$b_site_title" SITE_DOMAIN="$b_site_domain"
+  export EDITION
   export CHARACTERS TOPICS THREADS THEME SITE_NAME SITE_TITLE SITE_DOMAIN COMMENTS_ENABLED \
     GISCUS_PROFILE GISCUS_REPO GISCUS_REPO_ID GISCUS_CATEGORY_CHARACTERS_ID GISCUS_CATEGORY_LORE_ID \
     GISCUS_CATEGORY_EPISODES_ID GISCUS_CATEGORY_JOURNAL_ID
@@ -403,6 +516,7 @@ main() {
     if build_and_deploy "primary" "/home/$CPANEL_USER/public_html/" \
          "$THEME" "$CHARACTERS" "$TOPICS" "$THREADS" "$SITE_NAME" "$SITE_TITLE" "$DOMAIN" \
          "$CUSTOM_LORE_FILE" "$CUSTOM_CSS_FILE" "COMMENTS_ENABLED=$COMMENTS_ENABLED" \
+         "EDITION=$EDITION" \
          "GISCUS_PROFILE=$GISCUS_PROFILE" \
          "GISCUS_REPO=$GISCUS_REPO" "GISCUS_REPO_ID=$GISCUS_REPO_ID" \
          "GISCUS_CATEGORY_CHARACTERS_ID=$GISCUS_CATEGORY_CHARACTERS_ID" \
@@ -463,11 +577,16 @@ main() {
       continue
     fi
 
-    local alt_theme alt_characters alt_topics alt_threads alt_site_name alt_site_title \
+    local alt_edition alt_theme alt_characters alt_topics alt_threads alt_site_name alt_site_title \
           alt_custom_lore alt_custom_css alt_comments_enabled \
           alt_giscus_repo alt_giscus_repo_id alt_giscus_cat_characters alt_giscus_cat_lore alt_giscus_cat_episodes \
           alt_giscus_cat_journal
-    alt_theme=$(alt_get "$id" THEME); alt_theme="${alt_theme:-default}"
+    # Read deploy.conf's ALT_<id>_* values first, WITHOUT defaulting - the
+    # ${:-default} that used to be on THEME here would have made every alt
+    # domain look like it had set THEME explicitly, and the registry would
+    # never have filled anything in. Defaults are applied after resolution.
+    alt_edition=$(alt_get "$id" EDITION)
+    alt_theme=$(alt_get "$id" THEME)
     alt_characters=$(alt_get "$id" CHARACTERS)
     alt_topics=$(alt_get "$id" TOPICS)
     alt_threads=$(alt_get "$id" THREADS)
@@ -475,7 +594,7 @@ main() {
     alt_site_title=$(alt_get "$id" SITE_TITLE)
     alt_custom_lore=$(alt_get "$id" CUSTOM_LORE_FILE)
     alt_custom_css=$(alt_get "$id" CUSTOM_CSS_FILE)
-    alt_comments_enabled=$(alt_get "$id" COMMENTS_ENABLED); alt_comments_enabled="${alt_comments_enabled:-true}"
+    alt_comments_enabled=$(alt_get "$id" COMMENTS_ENABLED)
     alt_giscus_profile=$(alt_get "$id" GISCUS_PROFILE)
     alt_giscus_repo=$(alt_get "$id" GISCUS_REPO)
     alt_giscus_repo_id=$(alt_get "$id" GISCUS_REPO_ID)
@@ -484,9 +603,25 @@ main() {
     alt_giscus_cat_episodes=$(alt_get "$id" GISCUS_CATEGORY_EPISODES_ID)
     alt_giscus_cat_journal=$(alt_get "$id" GISCUS_CATEGORY_JOURNAL_ID)
 
+    # Fill the gaps from lib/editions.js, keyed by this alt domain's own DOMAIN,
+    # then apply the same defaults the pre-registry version applied inline.
+    resolve_edition "$alt_domain" "$id"
+    fill_from_registry alt_edition "$RESOLVED_EDITION" "$id" EDITION
+    fill_from_registry alt_theme "$RESOLVED_THEME" "$id" THEME
+    fill_from_registry alt_threads "$RESOLVED_THREADS" "$id" THREADS
+    fill_from_registry alt_characters "$RESOLVED_CHARACTERS" "$id" CHARACTERS
+    fill_from_registry alt_topics "$RESOLVED_TOPICS" "$id" TOPICS
+    fill_from_registry alt_site_name "$RESOLVED_SITE_NAME" "$id" SITE_NAME
+    fill_from_registry alt_site_title "$RESOLVED_SITE_TITLE" "$id" SITE_TITLE
+    fill_from_registry alt_giscus_profile "$RESOLVED_GISCUS_PROFILE" "$id" GISCUS_PROFILE
+    fill_from_registry alt_comments_enabled "$RESOLVED_COMMENTS_ENABLED" "$id" COMMENTS_ENABLED
+    alt_theme="${alt_theme:-default}"
+    alt_comments_enabled="${alt_comments_enabled:-true}"
+
     if build_and_deploy "$id" "$alt_dest" "$alt_theme" "$alt_characters" "$alt_topics" "$alt_threads" \
          "$alt_site_name" "$alt_site_title" "$alt_domain" "$alt_custom_lore" "$alt_custom_css" \
          "COMMENTS_ENABLED=$alt_comments_enabled" \
+         "EDITION=$alt_edition" \
          "GISCUS_PROFILE=$alt_giscus_profile" \
          "GISCUS_REPO=$alt_giscus_repo" "GISCUS_REPO_ID=$alt_giscus_repo_id" \
          "GISCUS_CATEGORY_CHARACTERS_ID=$alt_giscus_cat_characters" \

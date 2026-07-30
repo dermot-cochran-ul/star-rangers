@@ -1,0 +1,47 @@
+{
+  "_comment": [
+    "TEMPLATE. Copy to editions.local.json in the repo root and edit. That file is",
+    "gitignored, so your own domains never collide with an upstream merge - the same",
+    "arrangement as deploy.conf and giscus.local.json.",
+    "",
+    "WHAT THIS IS FOR: hosting this site on your own domain WITHOUT maintaining a",
+    "fork. lib/editions.js is the tracked registry of Dermot's own domains; this",
+    "file adds yours, or re-points an existing edition, without editing a tracked",
+    "engine file and re-resolving a conflict every time you pull upstream.",
+    "",
+    "An entry whose `id` matches one in lib/editions.js OVERRIDES it, field by",
+    "field. A new `id` is added alongside. `domains` is what scripts/cpanel-deploy.sh",
+    "matches on, so a bare host is enough - scheme, www., port and path are ignored.",
+    "",
+    "WHAT YOU CANNOT DO HERE, BY DESIGN: add story content. There is no field for a",
+    "lore page, a chapter, or a glossary entry, because canon is centralised and",
+    "every per-domain variation is non-canonical. That protects you as much as the",
+    "record: nothing you put in this file can be mistaken for this story's canon.",
+    "Story content stays CC BY-NC-ND 4.0 (see CONTENT-LICENSE.md); the engine is MIT.",
+    "",
+    "Remove this _comment key or leave it - it is ignored either way."
+  ],
+
+  "editions": [
+    {
+      "id": "my-site",
+      "label": "My Star Rangers mirror",
+      "domains": ["example.com", "www.example.com"],
+
+      "theme": "sepia",
+
+      "threads": [],
+      "characters": [],
+      "topics": [],
+
+      "siteName": "Example Reader",
+      "siteTitle": "Example Reader — Star Rangers",
+
+      "commentsEnabled": false,
+
+      "heroSubtitle": "Your own front-of-house line. Plain HTML is allowed here; inline links must be absolute paths under /star-rangers/ and must resolve, or scripts/check-internal-links.js will say so.",
+      "heroCharacterIds": ["aldera", "elvira", "rook"],
+      "themeAudio": { "label": "Celtic ambient", "file": "celtic-theme.wav" }
+    }
+  ]
+}

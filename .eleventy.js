@@ -197,7 +197,10 @@ module.exports = function(eleventyConfig) {
   // Throws on a duplicate id or a themeAudio file that isn't in src/audio/ -
   // see validateEditions for why those two in particular need checking here
   // rather than by check-internal-links.js.
-  validateEditions(path.join(__dirname, "src", "audio"));
+  validateEditions({
+    audioDir: path.join(__dirname, "src", "audio"),
+    cssDir: path.join(__dirname, "src", "css")
+  });
   eleventyConfig.addGlobalData("edition", getEdition());
 
   // Same pattern as THEME above, but a plain on/off switch: lets a build

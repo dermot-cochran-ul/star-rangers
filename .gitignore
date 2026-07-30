@@ -4,5 +4,10 @@ _site/
 *.log
 deploy.conf
 giscus.local.json
+# An independent host's own edition registry - see sample-editions.local.json.
+# Gitignored for the same reason as the two above: it lets someone run this site
+# on their own domain without maintaining a fork, and without their config
+# conflicting on every upstream merge.
+editions.local.json
 deploy-logs/
 src/lore/custom/
