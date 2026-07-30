@@ -42,6 +42,12 @@ The Celtic Union worlds remained functionally unknown to Solar System authoritie
 
 Diplomatic relations remain new, cautious, and cordial. The Union has so far declined full integration into Solar System Defence Command's jurisdiction, citing the same founding wariness of centralised authority that shaped its charter, but has entered into a standing information-sharing agreement with the Star Rangers' Survey Corps on boundary-zone matters.
 
+### What that caution looks like in practice
+
+The Union's charter wariness is not rhetoric kept for the council chamber, and the clearest illustration of it is deliberately undramatic. Under the [2723 Charter](/star-rangers/lore/formation-of-star-rangers/) the Rangers hold no jurisdiction on a planet at all and may act there only by invitation, and only for the matter the invitation covers — so a Line Captain delivering a boundary data exchange to [Tír na nÓg](/star-rangers/lore/planets/tir-na-nog/) under the standing agreement is inside her authority for exactly that errand and outside it the moment the errand ends. Union protocol then does something both scrupulously courteous and entirely unmistakable: it assigns a Highland Guard honour escort to any Star Ranger on personal leave in Union territory, from the moment she is met until she reaches Ranger-cleared transit off-world.
+
+The escort is a courtesy the Union owes its own charter rather than a comment on the officer, and it is offered as one. It also makes plain, without a word of it needing to be said, whose planet this remains. [What the Hill Keeps (S05E02C01)](/star-rangers/seasons/s05/e02/s05e02c01/) follows that arrangement from both ends — an officer going home to her mother's holding, and the guard detail that walks her back out.
+
 ## Member Worlds
 
 Six worlds hold Union charter membership. Most remain undocumented outside Union records. The flagship and most populous is [Tír na nÓg](/star-rangers/lore/planets/tir-na-nog/), the only surveyed world on record naturally compatible with unmodified human atmosphere and gravity — a standing scientific anomaly as much as it is the Union's cultural and diplomatic capital.
@@ -56,4 +62,4 @@ By 2826 UCSD, wildlife preserves across Earth's remaining unmanaged biomes are h
 
 ![A leopard resting in grassland on Earth, photographed in 2826 UCSD](/star-rangers/images/lore/earth-leopard-grassland.jpg)
 
-See also: [Tír na nÓg](/star-rangers/lore/planets/tir-na-nog/), [United Space Consortium](/star-rangers/lore/united-space-consortium/), [The Imperium](/star-rangers/lore/the-imperium/), [Eden Space Habitat](/star-rangers/lore/eden-space-habitat/).
+See also: [Tír na nÓg](/star-rangers/lore/planets/tir-na-nog/), [United Space Consortium](/star-rangers/lore/united-space-consortium/), [The Imperium](/star-rangers/lore/the-imperium/), [Eden Space Habitat](/star-rangers/lore/eden-space-habitat/), [Saint Aoife](/star-rangers/lore/saint-aoife/) — devotion carried off Earth as living observance rather than archive, [What the Hill Keeps (S05E02C01)](/star-rangers/seasons/s05/e02/s05e02c01/) — the invitation-only jurisdiction and the honour escort, from both ends.

@@ -43,6 +43,8 @@ Alternating dominance windows with periodic chronometry divergence.
 ### Class III — Shear Event
 Rapid discontinuity growth with high instrumentation disagreement.
 
+**A Class II example, in the numbers.** Threshold Station's chronometer discrepancy is the best-documented case on the books, and it is worth quoting as a figure rather than a category: forty seconds, present for at least eleven years by 2826 UCSD, and carried for most of that period as a calibration fault rather than a boundary reading. That is what Class II looks like from inside — not an alarm, but a small stable wrongness that survives every attempt to correct it, because the drift is not an error in the instrument and there is nothing in the instrument to correct. [The Forty-Second Discrepancy (S01E01C02)](/star-rangers/seasons/s01/e01/s01e01c02/) is the meeting where the station's own record is read back in that light for the first time.
+
 ## Operational Constraints
 
 - Recalibration alone cannot remove Class II/III drift.
@@ -63,4 +65,14 @@ Both documented sites lie within the Solar System, which reads as an improbable 
 
 Boundary monitoring at Threshold-class stations is handled by the Survey Corps, a specialist operational branch within the Star Rangers.
 
+The link between the two sites was not deduced from theory. It was found by overlaying three unrelated-looking traces on one table — station chronometer drift, ritual residue from the causeway, and a signal from the oldest tree in the [dryadic grove](/star-rangers/lore/dryadic-trees/) — and noticing that they shared phase families and recurrence intervals at a 3:7 coupling. [The Broken Causeway (S01E02C01)](/star-rangers/seasons/s01/e02/s01e02c01/) and [The Grove at the Fault Line (S01E02C02)](/star-rangers/seasons/s01/e02/s01e02c02/) cover the fieldwork; [Harmonic Debrief (S01E02C03)](/star-rangers/seasons/s01/e02/s01e02c03/) is where one problem replaces two, and where the practical consequence lands — that a station carrying an unexplained Class II interface is also a station whose transit margins are not what its published tables say.
+
 Teleportation executed at or through an active interface carries its own documented aftermath, distinct from ordinary jump fatigue: see [Post-Teleport Ascension Stress Disorder](/star-rangers/lore/post-teleport-ascension-stress-disorder/).
+
+## See Also
+
+- [Arrival at the Threshold Station (S01E01C01)](/star-rangers/seasons/s01/e01/s01e01c01/) — the interface as a place people live and work
+- [The Forty-Second Discrepancy (S01E01C02)](/star-rangers/seasons/s01/e01/s01e01c02/) — eleven years of drift read as a boundary reading rather than a fault
+- [The Grove at the Fault Line (S01E02C02)](/star-rangers/seasons/s01/e02/s01e02c02/) — the Etheric side of the same edge
+- [Concordant Membranes](/star-rangers/lore/concordant-membranes/) — the geometry behind the Interval
+- [Membrane Shadows](/star-rangers/lore/membrane-shadows/) — what an inter-membrane narrowing can carry across

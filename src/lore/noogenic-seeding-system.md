@@ -64,6 +64,8 @@ Transference (Phase 7 of the Seed Mind Lifecycle) does not hand a successor univ
 
 A noögenic protouniverse remains under the jurisdiction of the Telearchs — and the higher Cascade strata reachable through them — of its parent universe until it stabilizes independent governance. This is not a special exception: it is the same continuity authority those Telearchs already hold over their parent universe's existing Concordants, extended to cover an unstabilized region that hasn't yet produced governance of its own. Jurisdiction only passes out of the parent universe's Cascade strata once the protouniverse's originating seed mind (or a plural formation descended from it) matures into a [Universal Authority](/star-rangers/glossary/universal-authority/) in its own right.
 
+The practical shape of that jurisdiction, in the one case documented at close range, is a set of things nobody could do. A [levril](/star-rangers/lore/levrils/) may hold a channel open to a seed and mentor constraint literacy through it; it cannot complete a transference, and it cannot overrule Telearch scope. No institution outside could close the file, and none could open the seed. See [Enough Is Enough (S07E01C03)](/star-rangers/seasons/s07/e01/s07e01c03/) — a case in which the entire external cast had authority over the record and none whatever over the process.
+
 ## Interaction with CEI and AUC
 
 Noögenic seeding is coupled to [Creative Entropy Framework](/star-rangers/lore/creative-entropy-framework/):
@@ -91,6 +93,8 @@ This page describes a mechanism of universe reproduction. It rewards nothing and
 IWD and NSP measure which minds can compress into a structure capable of bootstrapping a new substrate. That is a fact about compressibility, not about worth, and nothing in the measures ranks a life. A mind of modest depth loses nothing that a seed mind keeps.
 
 **Nor is transference a continuation of the person.** What NSP measures the survival of is *novelty-bearing structure* — not biography, not identity, not experience. A successor universe inherits structure from its parent. It does not inherit anybody, and no one wakes up in it.
+
+One distinction has to be held firmly here, because the two states are easy to conflate and the difference is the whole point. A **completed** transference carries no person. A **stalled** seed — past Saturation, short of finished Crystallization — is a different situation entirely: it has enough interior structure to go on generating a self, and no external grounding and no confirmation that transference will ever finish. Somebody is in there. That is not an exception to the paragraph above; it is the state *before* the paragraph above applies. See [the stall](/star-rangers/lore/seed-mind-lifecycle/) in the lifecycle model, and, for what it is like from inside, [First Light, Off the Record (S06E01C01)](/star-rangers/seasons/s06/e01/s06e01c01/).
 
 The devotional reading — that a sufficiently deep life is carried forward into a new world, and that this is what becoming a seed means — is old, widespread, and not what the record describes. The Archive's objection to it is not that it is a comforting story. It is that it has the mechanism backwards: **seeding is not how minds are kept, because minds are kept anyway.**
 

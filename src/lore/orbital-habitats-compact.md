@@ -20,6 +20,14 @@ The chain runs, top to bottom:
 - **Detective Superintendent**, one per member habitat — [Rasa Oyelaran](/star-rangers/characters/rasa-oyelaran/) at Eden, answering to that habitat's Commissioner and running the habitat's own civil detective bureau.
 - **Habitat AI Collective**, one per member habitat — [the Eden Warden](/star-rangers/characters/eden-warden/) at Eden, reporting jointly to that habitat's Mayor and Commissioner and holding general standards authority over the habitat's mobile AI humanoids, plus welfare responsibility for its cyber-enhanced animals. This line runs beside the Superintendent's chain, not through it: a mobile AI humanoid attached to the detective bureau answers to the Superintendent operationally and to the Habitat AI Collective on any question of its own standing or treatment.
 
+## The Gap the Chain Has
+
+Read the chain downward and it looks complete. Read it sideways and the hole is obvious: a habitat's Detective Superintendent has jurisdiction over that habitat alone, and nothing in the Compact's ordinary chain can follow a case across habitat lines. Five competent bureaus, five hard edges, and any offence organised to cross an edge is an offence none of them can finish investigating.
+
+That is the specific gap Orbital Five-O was commissioned to close, and it is why the unit takes its taskings from the Governor rather than through the Chief Commissioner's office — a case that has to move between habitats cannot wait on a consultative council. The limit is real in both directions: Five-O's authority runs to the five member habitats and not one metre further.
+
+[The Desk That Called First (S02E01C01)](/star-rangers/seasons/s02/e01/s02e01c01/) is the gap being hit from the bottom of the chain, in the form it usually takes — a boring Eden compliance referral that turns out to touch a supply line no single habitat can trace. [The Office That Reads Everything (S02E01C02)](/star-rangers/seasons/s02/e01/s02e01c02/) is the same case reaching the coordination layer, and the reason Calloway's habit of reading all five Commissioners' reports personally rather than delegating the first pass matters operationally rather than as a character note: he is the only place in the structure where five separately-filed curiosities sit in front of one pair of eyes.
+
 ## Eden's Two Chains
 
 Eden Space Habitat is a member of the Compact for civil administration and ordinary policing — the chain above. It is, separately, a Class I Fold-Proximate Research Platform under joint Star Rangers Survey Corps and Solar System Defence Command oversight for anything touching the [Eden Passage](/star-rangers/lore/eden-space-habitat/) itself. The two chains run in parallel and rarely need to consult each other: one governs the habitat, the other governs the fold route the habitat happens to sit beside.
@@ -33,3 +41,6 @@ A third, unofficial chain also runs through Eden's civil bureau without appearin
 - [Commander Kai Larsen](/star-rangers/characters/kai-larsen/)
 - [Agent Barsik](/star-rangers/characters/agent-barsik/)
 - [The Ring-Rail](/star-rangers/lore/eden-ring-rail/)
+- [The Habitat Threshold](/star-rangers/lore/habitat-threshold/) — the population line that puts these habitats out of Ranger reach in the first place
+- [The Desk That Called First (S02E01C01)](/star-rangers/seasons/s02/e01/s02e01c01/) — the cross-habitat gap, from a habitat bureau's desk
+- [The Office That Reads Everything (S02E01C02)](/star-rangers/seasons/s02/e01/s02e01c02/) — the coordination layer doing the one thing only it can do

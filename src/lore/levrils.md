@@ -74,3 +74,21 @@ Meta-dimensional beings with no sapience. Purely predatory, entropic, or ecologi
 - "Levrils are moral judges." (False: enforcement tiers are structural, not moral.)
 - "All higher-dimensional beings are Levrils." (False: monsters and shadow beings are also meta-dimensional but lack Cascade standing.)
 - "A Levril appearing in Material space is a miracle." (False: it is dimensional translation with measurable field effects.)
+
+## Two Occasions, One Constraint
+
+The operational limits above are easier to trust once they have been watched holding under two very different pressures, because the pair together rules out the reading that a Levril simply does what circumstances allow.
+
+At [Dock Seven](/star-rangers/lore/hyperfold-yield-combine/) in 2831 UCSD, levrils stood an enforcement perimeter around a boundary-integrity violation. They performed detection, containment and perimeter isolation, which are their permitted roles. They did not adjudicate, and they did not reach into the rupture. Every material witness present recorded what answered the intrusion as dragons, and no Ranger present was told anything at all. See [What Came Off the Ship (S05E02C03)](/star-rangers/seasons/s05/e02/s05e02c03/).
+
+Years later a single levril held a channel open to a mind stalled inside its own interior and could not reach in to end the stall — could teach the mind to read the constraints it was under, and could refuse to leave the edge of the clearing, and could do nothing else. See [The Well Ran Warm Again (S06E01C03)](/star-rangers/seasons/s06/e01/s06e01c03/) and [Shown, Not Healed (S07E01C02)](/star-rangers/seasons/s07/e01/s07e01c02/).
+
+The lesson the Archive draws from setting those two side by side is stated plainly in the closing record of the second: the inability to reach in is a tier constraint, not a local circumstance. What differed between the two occasions was what was *permitted*, never what was possible — which is also the sharpest available answer to the mentorship question. A levril offers constraint literacy, not rescue, and the distinction is not modesty about its powers. It is the boundary of them.
+
+## See Also
+
+- [What Came Off the Ship (S05E02C03)](/star-rangers/seasons/s05/e02/s05e02c03/) — levrils on an enforcement perimeter, recorded as dragons
+- [The Well Ran Warm Again (S06E01C03)](/star-rangers/seasons/s06/e01/s06e01c03/) — constraint-literacy mentorship at its actual limit
+- [Enough Is Enough (S07E01C03)](/star-rangers/seasons/s07/e01/s07e01c03/) — a channel held, a process not completed
+- [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/) — the tiers without Cascade standing
+- [Saint Aoife](/star-rangers/lore/saint-aoife/) — a thirteenth-century encounter read against this taxonomy
