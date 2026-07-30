@@ -31,9 +31,10 @@ node scripts/check-related-terms.js     # verify every front-matter `related:` t
 ```powershell
 .\scripts\import-image.ps1 -In "$env:USERPROFILE\Downloads\x.png" -Out src\images\characters\y.jpg -MaxEdge 1200
 .\scripts\make-codex-cover.ps1 -TitleLines "TITLE","LINE TWO" -Category "SURVEY RECORDS" -Subtitle "..." -Institution "..." -Author "..." -Stamp "OFFICIAL" -Motif rules -Out src\images\codex\z.jpg
+.\scripts\make-lore-cards.ps1 -List          # batch driver over make-codex-cover.ps1; -List to preview, -Force to overwrite
 ```
 
-The two `.ps1` tools are Windows-only (System.Drawing/GDI+), matching the author's environment; both `.js` checks run anywhere. Each catches a failure mode `npm test` structurally cannot:
+The three `.ps1` tools are Windows-only (System.Drawing/GDI+), matching the author's environment; both `.js` checks run anywhere. `make-lore-cards.ps1` carries its own card table inline (nine lore entries lacking an image) and skips files that already exist unless `-Force`, so a re-run can't clobber a card replaced by hand. Note what it does *not* do: `make-codex-cover.ps1` emits a square 1600×1600 card in one fixed blue palette with no emblem, so these read as codex-style cards and **not** like the four existing landscape ringed-seal lore cards, whose recipe is unrecorded — see `story-bible/images.md` Open work 5 before running it. Each catches a failure mode `npm test` structurally cannot:
 
 - `check-internal-links.js` — front-matter validation and the Eleventy dry run both pass while a cross-link points at a page that was renamed or never written.
 - `check-related-terms.js` — a `related:` term is resolved by `glossaryUrl` (`.eleventy.js`) against page **titles**, and on a miss it falls back to `/glossary/` rather than erroring. So a stale term still renders a valid link to the wrong place: schema validation passes (related terms are free text), the build passes, and the link checker passes (the emitted URL is real). Retitling one lore or glossary page silently degrades every `related:` list naming it. Matching is exact — case, punctuation and leading articles included — so the script prints near-miss suggestions. It also warns (without failing) on duplicated page titles, where only the first is reachable.
