@@ -1,0 +1,214 @@
+# The Cascade: structure, and what creation-by-specification commits us to
+
+Authorial notes. **Not canon.** Nothing here is published, and nothing here goes
+into `src/lore/` or `src/glossary/` until it is settled and rewritten in
+in-universe terms — see "Keeping the scaffolding out of the setting" at the
+bottom, which is the constraint that matters most in this file.
+
+Three things are settled. The rest are open questions with the consequences
+worked out, so they can be decided rather than drifted into.
+
+---
+
+## Settled: creation is by specification, not by sight (2026-07-30)
+
+A Worldwright creates a primary universe by **defining** it — physics envelope,
+Etheric coupling, interaction regime, internal zone structure — not by
+perceiving it whole. `src/glossary/worldwright.md` already implies this
+("creates primary universes — the whole vessel at once"), and it is now the
+explicit position.
+
+Everything below follows from that choice. Under creation-by-sight none of it
+would apply, which is why it was worth settling first.
+
+---
+
+## Settled: free will operates within the specification (2026-07-30)
+
+The direct consequence of the above, and the reason it was worth settling.
+
+A Worldwright specifies **laws, not outcomes**. Because the specification does
+not entail every truth of the universe built on it, the course of that universe
+is not written into it. **Predestination-by-specification is ruled out**: no
+tier holds a derivation of what its creatures will do, because no such
+derivation exists to hold. Creation is lawful and agency is real, and those two
+are not in tension — the second is a consequence of how the first works.
+
+Fatalism fails for the same reason. A fated world is one whose outcomes are
+fixed at the founding; here the founding fixes the rules and the rules do not
+reach the outcomes.
+
+**One honest limit, so nobody over-claims it later.** This rules out
+predestination *by specification*. It does not, on its own, establish that
+choice is undetermined — a world can run deterministically and still not be
+derivable from its founding rules. If the setting wants agency in the stronger
+sense, that is a further claim and should be made deliberately rather than
+smuggled in on the back of this one. What is settled today is the negative: no
+tier has the script, because there is no script to have.
+
+**What it does for the theology.** The Cosmic Limitation on Evil
+(`src/codex/cosmic-limitation-on-evil.md`) reads differently under this. A
+boundary condition constraining how far harm can propagate is a coherent thing
+to design into a world whose inhabitants choose. A *script* preventing harm
+would make the choosing decorative. The Limitation is the first kind, and now
+has a reason to be.
+
+It also sharpens the Levrils choosing Champions, and the whole
+constraint-literacy theme: if outcomes were entailed, learning the constraints
+would be a spectator's hobby. Under specification-creation it is the actual
+mechanism by which people act well or badly.
+
+---
+
+## 1. A created universe outruns its specification
+
+This is the substantive consequence, and it is not a flaw in any Worldwright.
+
+Any universe rich enough to contain counting, and beings who can reason about
+counting, contains true facts that its founding specification does not entail
+and no derivation from that specification can reach. Not because the
+specification was careless or incomplete in the ordinary sense — because *no*
+specification of that strength can be complete. Adding clauses does not fix it;
+a richer specification has its own unreachable truths.
+
+**What it gives the setting.** It explains, without anyone being negligent, why
+the tiers above do not simply know everything below them. A Worldwright can hold
+the complete rule-set of a universe and still not hold everything true within
+it. Knowledge from above is real but derivational, and derivation has a horizon.
+
+**What it forbids.** Any scene resting on "a higher tier must already know this,
+because it made the place" is now unsound. That was always a slightly lazy move;
+it is now ruled out on stated grounds.
+
+**Where it already fits.** `src/lore/the-institute.md` has an institution taking
+a *correct account of a mechanism* for a *complete account of an event*, and its
+house rule guarantees it will always do so. That is this same shape, one tier
+down and in narrative form: a sound derivation mistaken for an exhaustive one.
+The Institute is not simply wrong; it is doing the only thing its method can.
+
+**Open question.** Does any tier have non-derivational access — seeing rather
+than deriving? The Trinity are "inferable only through invariants", which reads
+like the opposite, but it is not decided. If the answer is yes for the top three
+and no below, that is a real structural claim and belongs in lore eventually.
+
+---
+
+## 2. The Cascade is a partial order, and the glossary nearly says so
+
+`src/glossary/cosmic-cascade.md` calls it "the fixed ordering of causal
+authority", then immediately concedes it is "mostly, not purely, hierarchical":
+Worldwrights and Telearchs are parallel branches under the Archewrights, peers
+with neither subordinated, and Mediarchs are co-created under both the Telearchs
+and the Concordant Principals.
+
+So the chain is already not a chain. Two entities can stand in a fourth relation
+to one another — neither above, below, nor equivalent, but *incomparable*, with
+no fact of the matter about precedence between them. Right now the text presents
+this as an exception it has to excuse. It could be the general case, with strict
+ranking as the special one that happens to hold along most of the spine.
+
+**Why it is worth the change.** "Incomparable" is a stronger and more useful
+idea than "equal". Two peers who cannot be ranked cannot appeal to a common
+superior *between* themselves; they can only both appeal upward to the tier that
+created them both. That is a governance fact with story in it — and it makes the
+Field Triumvirate clause in `star-rangers-command-hierarchy.md` look less like a
+procedural oddity and more like the Cascade's own shape reproduced at Corps
+scale.
+
+**Open question.** Is incomparability rare (the two documented cases) or
+pervasive? Pervasive is more interesting and much larger a change.
+
+---
+
+## 3. No tier can certify itself
+
+A sufficiently strong, consistent system cannot establish its own consistency
+from inside. Transposed onto the Cascade: **no tier can validate its own
+coherence** — validation comes from above, which terminates at the Hyperomnium,
+whose coherence can be assumed but never demonstrated, by anyone, including
+itself.
+
+This sits well with what is already written: the top three tiers are
+non-anthropomorphic origin conditions, not witnesses, "inferable only through
+invariants that hold across every Concordant". Inference from invariants is
+precisely what you are left with when demonstration is unavailable.
+
+It also gives the devotional and Archive positions a real disagreement rather
+than a tonal one. The Archive holds that Kieme is inferred from absence and
+never witnessed. Church-space tradition holds Kieme watches and sometimes acts.
+If self-certification is impossible, **neither position can be settled from
+inside the setting**, which is a better reason for the disagreement to persist
+than either side lacking evidence.
+
+---
+
+## 4. Not every tradition accepts it (2026-07-30)
+
+The settled items above are how creation *works*. They are not what everyone in
+the setting believes about it, and **some devotional traditions reject the free-will
+reading outright.**
+
+The dissent is not stupid, and should never be written as though it were. It has
+a coherent route: hold that the Trinity's knowledge is **direct rather than
+derivational** — that the origin conditions do not derive the future but behold
+it, standing outside the sequence the derivation is trapped in. Grant that, and
+foreknowledge returns, and with it a defensible predestination. The open question
+left in section 1 — whether any tier sees rather than derives — is exactly the
+hinge these traditions turn on, and they answer it *yes* for the Trinity.
+
+**Why this is worth having.** Section 3 says no tier can certify its own
+coherence, so the setting cannot resolve the question from inside. That makes the
+disagreement **permanently unsettleable in-world** — not because the evidence is
+missing and might turn up in Season 8, but because the kind of demonstration that
+would settle it does not exist. A theological dispute that cannot be closed is far
+better material than one waiting for a revelation to end it, and it means neither
+tradition is a placeholder for the author's view.
+
+**Where it lives.** In the Codex, argued by named sources, per the lore/codex
+boundary — never in `src/lore/`, which states settled fact and would be asserting
+one side. Natural homes: the church-space thread and the Fellowship of Light
+material, which already carry explicit devotional framing; an Institute paper that
+declines the whole question as unaskable by instrument; an Archive note recording
+that it holds no position.
+
+**Guardrail.** Same rule the Institute got: strongest available version of each
+side. The predestinarian tradition should be able to state its case in a way a
+sympathetic reader finds hard to answer, and the free-will side should not be
+written as obviously modern and correct. The setting's canonical position is
+structural — no tier holds a script — and a tradition can dispute that without
+being foolish, because from inside the world it cannot be shown either way.
+
+---
+
+## 5. Speculative: how far a tier can reach
+
+Sketch only, and the weakest item here. If each tier's creative authority has a
+characteristic reach — how much structure it can specify before it must appeal
+upward — then those reaches are ordered and could be compared. That would give
+"Archewrights define archetypes and possibility space, Worldwrights instantiate
+within it" a precise sense: not merely a division of labour, but a difference in
+how far each can specify unaided.
+
+Not proposed for canon. Recorded so it is not reinvented.
+
+---
+
+## Keeping the scaffolding out of the setting
+
+The reasoning behind this file is out-of-universe mathematics. **None of that
+vocabulary may appear in `src/`.** No in-universe document names a theorem, and
+no character reasons in its terms. What may appear is what the setting's own
+people would observe and say:
+
+- that a world holds truths its founding rules do not reach
+- that two authorities can be genuinely unrankable rather than merely equal
+- that the origin conditions cannot be demonstrated from within, only inferred
+
+If any of this graduates, it graduates as observation and doctrine — Archive
+finding, Institute paper, devotional claim — argued by people who cannot see the
+whole. Per the lore/codex boundary, contested versions belong in
+`src/codex/`; only what is settled and internally consistent belongs in
+`src/lore/`.
+
+**Status:** creation-by-specification, free will within it, and the existence of dissenting devotional traditions all settled 2026-07-30. Sections 1-3 and 5 carry open questions, flagged inline, awaiting Dermot.
+Nothing here binds any published chapter, and nothing here is a `canon_fact`.
