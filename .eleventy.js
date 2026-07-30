@@ -159,6 +159,22 @@ function computeOgType(data) {
   return ARTICLE_KINDS.has(classifyContentPath(data.page && data.page.inputPath)) ? "article" : "website";
 }
 
+// Filing key for a glossary term: its title with any leading article
+// dropped, so "The Interval" sorts and files under I rather than T. Standard
+// printed-glossary practice, and the reason it is worth the small oddity of
+// a heading letter that doesn't match the first character on screen: a
+// reader scanning for "Interval" looks under I.
+//
+// Deliberately NOT used for anything but presentation. `related:` terms
+// resolve through glossaryUrl by exact title match (see CLAUDE.md on
+// check-related-terms.js: matching is exact, leading articles included), so
+// stripping an article here cannot affect which page a related link reaches.
+const GLOSSARY_LEADING_ARTICLE = /^(?:the|a|an)\s+/i;
+
+function glossaryAlphaKey(title) {
+  return String(title || "").replace(GLOSSARY_LEADING_ARTICLE, "").trim();
+}
+
 // Drives the eleventyComputed "referenceDomain" override below: the bare
 // domain the "Not included in this edition" placeholder (excluded.njk)
 // links a reader to for a page THIS build excludes. Defaults to the
@@ -314,6 +330,14 @@ module.exports = function(eleventyConfig) {
     }
     return [...seen].sort((a, b) => a - b);
   });
+
+  // The letter a glossary term files under, for src/glossary/index.md's A-Z
+  // jump bar and letter headings. Shares glossaryAlphaKey with the collection
+  // sort above so the heading a term appears under is always the letter it
+  // was sorted by.
+  eleventyConfig.addFilter("glossaryAlphaLetter", (title) =>
+    (glossaryAlphaKey(title).charAt(0) || "").toUpperCase()
+  );
 
   eleventyConfig.addFilter("glossaryUrl", function(term, glossaryCollection, loreCollection) {
     const match =
@@ -472,10 +496,32 @@ module.exports = function(eleventyConfig) {
       .sort((a, b) => a.date - b.date)
   );
 
+  // Alphabetical by title, with leading articles ignored: "The Interval"
+  // files under I, where a reader looks for it, rather than under T. Both
+  // the order and the letter headings come from glossaryAlphaKey (see its
+  // definition above) so they cannot disagree - which they did before this
+  // sort existed, and visibly. src/glossary/index.md builds an A-Z jump bar
+  // and a letter heading per group by walking this collection and emitting a
+  // heading whenever the first letter changes from the previous entry. That
+  // is correct for a sorted list and nonsense for an unsorted one: the
+  // collection inherited getAll()'s own order, so letters alternated back
+  // and forth (44 headings for 53 terms, 13 letters appearing more than
+  // once) and the jump bar - which is deduplicated - anchored each letter to
+  // its FIRST occurrence, leaving every later group unreachable from it.
+  // Four of the five N terms could not be reached by clicking N.
+  //
+  // Only this page depends on the order; the other two consumers use
+  // `| length` (src/llms.njk) and a title lookup (glossaryUrl), both
+  // order-independent.
   eleventyConfig.addCollection("glossary", (collectionApi) =>
     collectionApi.getAll()
       .filter((item) => item.data.layout === "glossary-entry.njk")
       .filter((item) => isRelatedTopicPageIncluded(item.data, contentFilter, item.url))
+      .sort((a, b) =>
+        glossaryAlphaKey(a.data.title).localeCompare(
+          glossaryAlphaKey(b.data.title), "en", { sensitivity: "base" }
+        )
+      )
   );
 
   eleventyConfig.addCollection("timelineEvents", (collectionApi) =>
