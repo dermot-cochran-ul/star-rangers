@@ -5,7 +5,7 @@ into `src/lore/` or `src/glossary/` until it is settled and rewritten in
 in-universe terms — see "Keeping the scaffolding out of the setting" at the
 bottom, which is the constraint that matters most in this file.
 
-Three things are settled. The rest are open questions with the consequences
+Four things are settled. The rest are open questions with the consequences
 worked out, so they can be decided rather than drifted into.
 
 ---
@@ -20,6 +20,39 @@ explicit position.
 
 Everything below follows from that choice. Under creation-by-sight none of it
 would apply, which is why it was worth settling first.
+
+---
+
+## Settled: the limit is constitutive, not designed (2026-07-30)
+
+Important framing, and it governs how everything below may be written.
+
+The incompleteness of a specification is **not a law any tier chose, and not a
+constant any tier set.** No Worldwright installed it, the Trinity did not decide
+on it, and it could not have been specified otherwise. It is a condition on what
+specifying *is* — the reason a rule-set cannot reach every truth of what it
+builds is not that someone capped it, but that reaching-every-truth is not a
+thing a rule-set does.
+
+So it is not a limit on power being exercised. Asking why the Hyperomnium does
+not lift it is like asking why it does not make a thing both so and not so: there
+is no withheld capability there, only a description that fails to describe
+anything.
+
+**This is exactly what the Five Layers call the Spiritual layer** — "origin
+condition, no agency; only inferred through invariants persisting across all
+Concordants". An invariant holding in every Concordant, in every era, that no
+tier authored and none can alter, is that description word for word. Which also
+explains how anyone in the setting could come to suspect it: not by being told,
+but by noticing it never fails anywhere.
+
+**The contrast worth keeping sharp.** The Cosmic Limitation on Evil *is*
+Archive-credited to Kieme as a design — a chosen boundary condition, contested
+precisely because a designer is claimed for it. This is the opposite kind of
+thing, and the setting should never let the two blur. One is architecture; the
+other is what architecture is made of. A devotional tradition that credits a
+designer for *this* has made a category error rather than a rival claim — and
+that is a distinction worth someone in-world getting wrong on the page.
 
 ---
 
@@ -210,5 +243,5 @@ whole. Per the lore/codex boundary, contested versions belong in
 `src/codex/`; only what is settled and internally consistent belongs in
 `src/lore/`.
 
-**Status:** creation-by-specification, free will within it, and the existence of dissenting devotional traditions all settled 2026-07-30. Sections 1-3 and 5 carry open questions, flagged inline, awaiting Dermot.
+**Status:** the constitutive nature of the limit, creation-by-specification, free will within it, and the existence of dissenting devotional traditions all settled 2026-07-30. Sections 1-3 and 5 carry open questions, flagged inline, awaiting Dermot.
 Nothing here binds any published chapter, and nothing here is a `canon_fact`.
