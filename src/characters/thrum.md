@@ -38,4 +38,6 @@ Nothing in Eden's welfare framework covers a vessik. It carries no cognitive sub
 
 This is the same gap that leaves Barsik's and Bubochka's welfare formally outside the Warden's habitat-level authority, one step further out. Nobody has asked anyone positioned to answer.
 
-See also: [Agent Barsik](/star-rangers/characters/agent-barsik/), [Bubochka](/star-rangers/characters/bubochka/), [Chthonari](/star-rangers/lore/chthonari/), [Smart Pet](/star-rangers/glossary/smart-pet/), [Predatory Entities](/star-rangers/lore/predatory-entities/).
+One consequence is worth stating plainly, because it is the only clean measurement anyone on Deck 7 has. Where a Smart Pet's non-response to [Muffin](/star-rangers/characters/muffin/) is a refusal, and can be argued about, Thrum's is not a response at all. Nothing is attempted on it and nothing is recorded — which makes it, in a file otherwise built entirely out of what people did not do, the one entry that could never have gone the other way.
+
+See also: [Agent Barsik](/star-rangers/characters/agent-barsik/), [Bubochka](/star-rangers/characters/bubochka/), [Muffin](/star-rangers/characters/muffin/), [Chthonari](/star-rangers/lore/chthonari/), [Smart Pet](/star-rangers/glossary/smart-pet/), [Predatory Entities](/star-rangers/lore/predatory-entities/).
