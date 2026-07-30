@@ -12,6 +12,8 @@ The Tycho Accords ended the war, but they did not restore consent. They left beh
 
 The Imperium was the governing authority of the Solar System from approximately 2543 to 2609 UCSD. It arose from the military consolidation that ended the Coherence Wars, was ruled by a succession of Administrators-Supreme drawn from the combined officer corps of the Inner System Defence Fleet, and regarded elected governance as a demonstrated failure that it existed to prevent from returning.
 
+**It had no emperor, and never claimed one.** The name is the most misleading thing about it: the Imperium's apex was an office held by a serving officer, filled from the fleet's own seniority and answerable to the argument that had produced it rather than to a bloodline. No coronation, no succession by descent, no throne. What it had instead was a chain of command that happened to reach all the way to the top of a civilization, which is a different thing and, on the outer stations' account, not a gentler one.
+
 It was not subtle about this position.
 
 ## Origins
@@ -52,9 +54,17 @@ The Imperium's structural weakness mirrored the USC's in inverted form. The USC 
 
 Every significant decision climbed a command hierarchy that concentrated authority at the top. The final Administrator-Supreme was administratively capable but politically exhausted, caught between outer-system resentment that had been growing since the Tycho Accords and a Reform Movement that now had sympathizers inside the officer corps.
 
-The transition to the Military Space Command was not a revolution. It was a negotiated restructuring among Imperium hardliners, Reform-aligned officers, and outer-station representatives who had gained provisional consultative status in the Imperium's final decade.
+### The High Council
 
-The MSC kept the Imperium's technocratic character and officer-corps culture. It added advisory councils, civilian input mechanisms, and formal protocols for outer-station representation. Those additions were genuine. They were also designed by people raised inside Imperium assumptions, most of whom still believed qualified officers knew better than elected representatives.
+That exhaustion produced the Imperium's one structural concession, and it came late — the **High Council**, convened in the final decade, chaired by a **Convenor** drawn from its own membership. It seated senior officers, the technical directorates, and, for the first time, outer-station representatives holding provisional consultative status.
+
+**It did not displace the Administrator-Supreme, and was never meant to.** The Council advised; the office decided. No Council resolution ever bound an Administrator-Supreme, no Convenor ever issued an order, and the charter was not amended to say otherwise. What the Council did was spread the *appearance* of responsibility at exactly the point where the reality of it had become unbearable to hold alone — which is why the outer stations read it, not unfairly, as a body built to be consulted rather than heeded.
+
+Its significance is what it admitted rather than what it achieved. A government founded on the proposition that consultation is how the Coherence Wars started had built itself a consulting chamber, and staffed it partly with the settlements it had spent two generations punishing. The Convenor's chair is the first seat in Solar System governance since the Consortium's collapse that a civilian could occupy without a service record — a fact the Reform Movement made considerably more of than the Imperium had intended.
+
+The transition to the Military Space Command was not a revolution. It was a negotiated restructuring among Imperium hardliners, Reform-aligned officers, and the outer-station representatives the High Council had already brought to the table.
+
+The MSC kept the Imperium's technocratic character and officer-corps culture. It added advisory councils, civilian input mechanisms, and formal protocols for outer-station representation. Those additions were genuine. They were also designed by people raised inside Imperium assumptions, most of whom still believed qualified officers knew better than elected representatives — and they were modelled, closely, on the High Council. The MSC inherited both the form and the flaw: a chamber that could be consulted and an executive that need not listen. Sixty years later the Outer Stations Consolidation Hearing spent three months establishing that the MSC's own advisory architecture could not compel a decision either, which the outer stations regarded as the same finding arriving late.
 
 General Krast's line at the Outer Stations Consolidation Hearing — *"We tried democracy. The result was forty years of the Coherence Wars and three billion dead"* — was not a new thesis. It was the Imperium's thesis surviving its own name.
 

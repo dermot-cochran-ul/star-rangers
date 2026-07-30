@@ -87,6 +87,13 @@ The listing above is the spine, and it is *mostly* hierarchical — with two mat
 - **Notes:** This is why *Concordant* now has exactly one live sense. The compact is the **Concord**; its era and civilization take the same word (**Concord-wide**, **the Concord period**); the zone above keeps **Concordant**. Do not write "Solar System Concordant" for present-day usage.
 - **Dating rule:** Pre-2790 documents carry the founding name correctly and are quoted as written, not corrected — the Star Rangers' 2723 charter preamble ("the limits of Solar System Concordant coherence") is the standing example. Post-2790 usage of the old name is an error.
 
+### Imperium High Council / Convenor (settled 2026-07-30)
+- **Layer:** Institution and office (In-Universe, Material — historical)
+- **Definition:** The **High Council** is the advisory chamber convened in the [Imperium's](/star-rangers/lore/the-imperium/) final decade, seating senior officers, the technical directorates, and outer-station representatives holding provisional consultative status. The **Convenor** chairs it, drawn from its own membership.
+- **The point of it:** Advisory, not executive. It never displaced the **Administrator-Supreme**, the Imperium's actual apex office throughout its span — no Council resolution bound one, and no Convenor ever issued an order. Both terms are additions to the record, not replacements: nothing about Administrator-Supreme changes, and [The Unbroken Command](/star-rangers/lore/the-unbroken-command/) still turns on a stand-down order only an Administrator-Supreme could have given.
+- **Dating rule:** Late Imperium only, roughly the final decade before 2609 UCSD. There is no High Council in the Imperium's founding or middle period, and writing one into 2543–2599 is an error. The Convenor's chair matters because it is the first seat in Solar System governance since the Consortium's collapse that a civilian could hold without a service record.
+- **Notes:** **The Imperium had no emperor and never claimed one** — the name is the misleading part. No coronation, no succession by descent, no throne; the apex was a serving officer's office filled from fleet seniority. The MSC's own advisory councils were modelled on the High Council and inherited its flaw: a chamber that may be consulted and an executive that need not listen.
+
 ### Archwarden (settled 2026-07-29)
 - **Layer:** Rank (In-Universe, Star Rangers)
 - **Definition:** The Star Rangers rank one rung **above Starwarden** and one **below Line Captain**, held by a vessel's second-in-command. Reader-facing entry: [Rank and the Chain of Command](/star-rangers/lore/star-rangers-command-hierarchy/).
