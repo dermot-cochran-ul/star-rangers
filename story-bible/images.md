@@ -254,6 +254,127 @@ whole point of the habitat. The version that shipped in #177 named the location
 ("at Earth-Moon L5") and asserted motion ("turning"), neither of which a viewer
 can see; per the standing rule, alt text describes the file, not the entry.
 
+### 5. Missing lore illustrations (19 pages) — audited 2026-07-30
+
+An unrecorded gap. Open work 1 covers character portraits; nothing here had ever
+enumerated the **lore** entries with no `image` at all. Nineteen do (excluding
+`lore/index.md` and the canonical-glossary reference doc, which has one). None
+blocks a build — `lore-entry.njk` guards the image with `{% if image %}`.
+
+**Two different jobs, and it matters which.** The existing lore corpus already
+uses both conventions, so the split below is descriptive, not new policy:
+
+- **Institutions and factions → designed emblem cards**, via
+  `scripts/make-codex-cover.ps1`, not an image model. Precedent:
+  `cerebraun-hegemony`, `celtic-union-of-planets`, `orbital-habitats-compact`,
+  `federation-of-sentient-beings`, `united-space-consortium`, `levrils` — all
+  ringed-seal emblem cards, all readable, all spelled correctly. Nine of the
+  nineteen belong here. An image model cannot letter a seal and there is no
+  reason to make it try.
+- **Places, phenomena, technology and cosmology → generated images**, prompts
+  below. Ten of the nineteen.
+
+Prompts are written to the standing rules: era stated, lettering banned, sheen
+named rather than substance, unsettling permitted and horror not. Add
+`image`/`image_alt` after generating, and per "Alt text is the prompt of record"
+above, write the alt text from what the file actually shows rather than pasting
+the prompt back in.
+
+**Emblem cards (generator, not image model)**
+
+Nine pages, all `Institutions` or `Factions`. Suggested `-Category` /
+`-Motif rules` unless noted; each needs a title line and a subtitle drawn from
+the entry's own first sentence.
+
+- `communion-of-the-called.jpg` — a network of congregations Rangers belong to
+  off-duty; no rank inside it. Motif `rules`; subtitle from "the Communion's
+  only qualification for belonging is showing up."
+- `solar-system-concord.jpg` — continuing civil law, founded 2543 UCSD as the
+  Solar System Concordant, restyled 2790. Worth carrying **both** names on the
+  card, since the rename is the entry's whole point.
+- `the-commonwealth.jpg` — voluntary association anchored at New London;
+  deliberately thin. Motif `rules`.
+- `star-rangers-frontier-corps.jpg` — caretaker law enforcement whose mandate is
+  designed to end. Subtitle from "measures itself by how soon it can leave."
+- `star-rangers-science-corps.jpg` — guild-independent research body; pairs with
+  the existing Survey Corps material.
+- `the-institute.jpg` — secular sceptical research body, no fixed world. Motif
+  `dissolution` fits the register better than `rules`; the entry's stance is
+  that nothing has been established beyond the disagreement.
+- `hyperfold-yield-combine.jpg` — a defunct commercial concern. This one wants a
+  **corporate** card rather than an institutional seal, and reading as a lawful
+  trading entity is the point: everything about it was licensed. Stamp
+  `DISSOLVED` rather than `OFFICIAL`.
+- `habitat-threshold.jpg` — the charter population line. Abstract for a seal;
+  consider instead deferring this one, or a plain rules-motif card carrying the
+  station/habitat distinction.
+- `eden-ring-rail.jpg` — see below; could go either way, but a transit-line
+  diagram card would serve the entry better than a photograph. Ring line plus
+  radial spokes, no station lettering.
+
+**Generated images (ten pages)**
+
+- **`arilon.jpg`** — not a person: the Fellowship's comparative-archive name for
+  a recurring pattern (a witness who names a boundary truth, is discredited, and
+  is vindicated only after departing). Must **not** read as a portrait of one
+  figure, which is the whole misreading the entry exists to prevent.
+  > Abstract archival composition suggesting many separate accounts of the same recurring figure: overlapping translucent layers of indistinct robed silhouettes at different scales, none in focus and none dominant, receding into a pale ground, no face resolvable, muted parchment and grey-blue palette, contemplative rather than mystical, no readable text or lettering of any kind, science-fiction archive aesthetic. Landscape orientation.
+
+- **`ascent-javelins.jpg`** — winged craft launched near-vertically, almost like
+  a missile, surface to orbit. State the era or this defaults to a Shuttle photo.
+  > A slender winged orbital ascent craft climbing near-vertically from a planetary launch cradle into high thin atmosphere, seen from below and behind, exhaust plume tight and blue-white, distant curve of the horizon already visible above, far-future science-fiction spaceport infrastructure on the ground beneath, cold clear daylight, functional engineering aesthetic rather than sleek styling, no readable markings or insignia lettering. Landscape orientation.
+
+- **`embodied-cognition.jpg`** — a small embodied mind resolving what a vast
+  systems mind cannot; the doctrine is to *pair* them, so the image should show
+  both scales in one frame rather than choosing.
+  > A small utilitarian analytical robot chassis with one manipulator resting flat against a corridor bulkhead, foreground and sharply lit; behind and above it the vast dim architecture of a station management intelligence rendered as banks of quiet data surfaces stretching out of focus, far-future science-fiction interior, cool blue ambient glow against one warm working light on the robot, no human figures, no face, no readable text or labels. Landscape orientation.
+
+- **`membrane-shadows.jpg`** — gravitational bleed-through: a full, edge-lit
+  person-shaped silhouette cast by a mass that never crossed over. **Tone line
+  applies hard here** — this must read as an unexplained physical imprint, not a
+  threat approaching. Nothing is coming through.
+  > A tall humanoid silhouette standing in a boundary-observation chamber, rendered as an absence of light rather than an object — edges cleanly lit from behind, interior featureless and without detail, the shape casting no reflection and disturbing no dust, calm instrument-lit far-future science-fiction interior, cold blue-grey palette, still and unremarkable rather than menacing, no face, no eyes, no readable text. Landscape orientation.
+
+- **`the-fusion-ceiling.jpg`** — fusion is the top of the lawful energy ladder,
+  and the frontier caveat is the interesting half: a rationed imported core
+  running a water plant beside hand tools and draft animals. That contrast is a
+  better image than a reactor hall, and it is the thing observers misread as
+  poverty when it is sequencing.
+  > A compact sealed fusion power core on a concrete pad at the edge of an early frontier settlement, humming and immaculate, cables running to a modest water-treatment building; in the same frame, hand tools leaning against a fence and a working draft animal in a muddy paddock, low sun, far-future science-fiction colony at an early stage of buildout, muted earth palette, dignified and matter-of-fact rather than impoverished, no readable signage or lettering. Landscape orientation.
+
+- **`who-governs-a-universe.jpg`** — a map, not a place: primary universe versus
+  the Concordant Zones inside it, and three kinds of authority.
+  > Abstract diagrammatic cosmological illustration: one large luminous bounded volume containing several nested translucent regions of differing tint, with three distinct tiers of influence indicated by scale and elevation rather than by arrows or labels, dark field beyond, restrained gold-and-indigo palette, clean and schematic rather than nebulous, no readable text, numbers, or lettering anywhere. Landscape orientation.
+
+- **`things-that-are-made.jpg`** — church-space overlay. The entry's argument is
+  that the Archive uses the language of authorship and then disclaims the author.
+  Avoid religious iconography; the register is *evidence of intent*, not worship.
+  > An immense structure of evident deliberate design seen at a scale that makes its purpose unreadable — vast regular geometry receding into mist, precise and unweathered, clearly built and clearly not by anyone present, a single small observing figure at great distance for scale, cold pale light, far-future science-fiction, restrained grey and bone palette, awed and sober rather than devotional, no symbols, no iconography, no readable text. Landscape orientation.
+
+- **`kieme-visible-hand.jpg`** — church-space overlay. Devotional tradition
+  claims to *see* the ledger kept; the entry's images are the harm that stops
+  short, the door that holds. Depict the limit, not the harm.
+  > A heavy sealed pressure door holding, seen from the safe side, with visible damage stopping cleanly at its frame and none beyond it, one figure standing back from it unharmed and looking at it, far-future science-fiction station interior, low emergency lighting warming to normal at the edges of frame, quiet aftermath rather than crisis, no visible injury, no readable text or signage. Landscape orientation.
+
+- **`universes/si-gaoithe.jpg`** — a second, unrelated membrane; high
+  creative-entropy, **no predictable interval**, barely keeps a shape. The
+  contrast with Tír Tairngire's regularity is the point, so this should look
+  irregular where that one looks periodic. Existing file
+  `lore/threnos-omega.jpg` is the precedent for a membrane portrait.
+  > An unstable universe-membrane visualised as a churning irregular field of shifting translucent surfaces with no repeating structure, folds forming and collapsing at different scales at once, sudden localised eddies of luminous air, deep field beyond, restless green-grey and pale gold palette, cosmological scale, no horizon and no recognisable objects, no readable text. Landscape orientation.
+
+- **`universes/tir-tairngire.jpg`** — the one boundary neighbour on record that
+  *keeps time*: a transient gravity tunnel opening on a predictable rhythm.
+  Regularity is the whole finding.
+  > A universe-membrane seen across a narrowed gap, its surface carrying a smooth regular periodic swell like a slow standing wave, and at one point a clean transient tunnel of clear space open through the interval, edges sharply defined and stable, deep cosmological field, warm gold light on the far side against cool blue on the near, orderly and rhythmic rather than turbulent, no figures, no readable text. Landscape orientation.
+
+**Also worth noting from the same audit:** two lore pages carry alt text that is
+thin rather than wrong and would fail the "describes what the file shows" test if
+tightened — `predatory-entities.jpg` (*"Blurry human arms"*) and
+`teleportation-limitations.jpg` (*"Defocused luminous colour stripes"*). Both are
+accurate as far as they go; neither is a defect. Flagged so a future audit
+doesn't re-derive them.
+
 ---
 
 ## History (2026-07-24)

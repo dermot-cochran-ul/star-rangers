@@ -50,6 +50,8 @@ Operationally:
 - Safe dwell time in corridor decreases.
 - Forced drop-out probability rises.
 
+The figures behind those three lines are worth stating concretely, because the difference is not marginal. In a stable zone, lock tolerance gives a vessel minutes. At Threshold Station with boundary overlap active, it gives seconds before ambiguity climbs — which is the whole reason drop-out risk spikes at boundary stations rather than being distributed evenly across the route map. [Harmonic Debrief (S01E02C03)](/star-rangers/seasons/s01/e02/s01e02c03/) is where that comparison is put in front of a team lead with ships due through the sector in two days, in the form Syra chose for it: *your safety margins become fiction.*
+
 ## Failure Signatures
 
 Three signatures are considered canonical:
@@ -60,8 +62,21 @@ Three signatures are considered canonical:
 
 These signatures are measurable and auditable in station records.
 
+## A Worked Case: The Threshold Coupling
+
+The clearest documented instance of harmonics being read across layers rather than within one is the Threshold Station coupling of 2826 UCSD. Three traces were overlaid on one operations table: eleven years of station chronometer drift, a residue pattern captured that week at the Marsh Causeway, and a signal taken from the oldest tree in a [dryadic grove](/star-rangers/lore/dryadic-trees/) at a 0.22-second leaf phase-lag baseline. They did not line up point-for-point. They lined up in phase families and recurrence intervals, which was enough to stop three problems being filed as three problems.
+
+The coupling ratio was 3:7 — band coupling, not numerology, the causeway residue sitting in the same harmonic family as the station drift and offset by layer. What the finding cost the station was the comfortable position: one anomaly had been carried as instrumentation error and the other as local folklore, and neither classification survived the overlay. The practical yield was a forecasting capability rather than a fix — high-risk lock windows became predictable some eighteen to twenty-six minutes ahead of decoherence threshold crossing, depending on sensor quality and local volatility, which is short of prevention and long enough for a traffic-control advisory.
+
 ## Canon Continuity Constraints
 
 - Every transit event must declare Quantum Space Harmonic Wave or Higher-Dimensional Folding.
 - A declared harmonic transit must include lock state, tolerance margin, and re-sync status in mission logs.
 - Stories may present uncertainty in interpretation, but not uncertainty in the underlying physical rules.
+
+## See Also
+
+- [Harmonic Debrief (S01E02C03)](/star-rangers/seasons/s01/e02/s01e02c03/) — the coupling explained in operational terms
+- [Teleportation Constraints](/star-rangers/lore/teleportation-limitations/) — the same coherence law at intra-station range
+- [Boundary Zones and Concordant Edges](/star-rangers/lore/boundary-zones/) — why lock quality degrades where it does
+- [Dryadic Trees](/star-rangers/lore/dryadic-trees/) — the Etheric side of the Threshold coupling
