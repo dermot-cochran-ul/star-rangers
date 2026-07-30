@@ -5,7 +5,7 @@ into `src/lore/` or `src/glossary/` until it is settled and rewritten in
 in-universe terms — see "Keeping the scaffolding out of the setting" at the
 bottom, which is the constraint that matters most in this file.
 
-Thirteen things are settled, plus a teaching analogy recorded with its limits, and a conflict register at the foot records what they disturb. The rest are open questions with the consequences
+Fifteen things are settled, plus a teaching analogy recorded with its limits, and a conflict register at the foot records what they disturb. The rest are open questions with the consequences
 worked out, so they can be decided rather than drifted into.
 
 ---
@@ -229,9 +229,10 @@ Consequences worth having:
   Archewrights.** Nothing in the intervening structure can settle it, because
   there is nothing there that stands above both. Disputes of that kind must be
   escalated, endured, or negotiated — never adjudicated locally.
-- It matches the Worldwright/Telearch peership exactly, which makes
-  incomparability the Cascade's normal shape at every seam rather than a special
-  exception granted twice.
+- It matches the Worldwright/Telearch peership exactly. **It does not
+  generalise beyond that** — see the settled note in section 2: incomparability
+  holds at the documented seams and nowhere else, so this is a second named
+  exception rather than evidence of a pattern.
 - It sharpens the Field Triumvirate parallel in
   `star-rangers-command-hierarchy.md`: a body convened because no single
   authority present can settle a question is the Corps reproducing, at its own
@@ -334,36 +335,43 @@ interchangeable or the second is a formality retained out of respect. A characte
 using them loosely may be careless — or may belong to a tradition that holds the
 looseness is correct, and the reader should not always be able to tell which.
 
-### The live tension, for Dermot to settle
+### Settled: beholding is atemporal and necessitates nothing (2026-07-30)
 
-Beholding sits awkwardly beside the prophecy decision, and I would rather name it
-than let it pass.
+The last live tension in this file, and it is closed in the direction that costs
+nothing already decided.
 
-The prophecy section rules out foreknowledge by the parents-must-meet argument:
-knowing who will be born means knowing every choice behind them, which unmakes
-those choices. But that argument is about **derivation**. Beholding is not
-derivation — and the dissenting traditions' strongest move was precisely "the
-Trinity beholds rather than derives." **That move is now correct about the
-Hyperomnium.** They are closer to right than the earlier section allows, and the
-note should not pretend otherwise.
+**The Hyperomnium beholds the whole as it is, and the beholding causes nothing
+and fixes nothing.** A choice seen is still a choice made. Seeing is not making,
+and being seen is not being determined — the sequence is not a schedule being
+read off, and there is nothing standing outside it arranging what comes next.
 
-Two coherent ways to settle it, with different costs:
+This is reinforced by the tier's own nature, settled above: it is beyond agency
+and beyond existence, so there is no mind somewhere holding a completed account.
+The picture that makes foreknowledge feel like a cage requires a knower with a
+plan. There is no knower here. What remains is that **nothing is hidden** — a
+claim about openness, not about fixity.
 
-1. **Beholding is atemporal and does not necessitate.** The Hyperomnium sees the
-   whole as it is, the way one sees a completed thing rather than a schedule; the
-   seeing causes nothing and fixes nothing, and a choice seen is still a choice
-   made. This is the classical settlement, it preserves everything decided today,
-   and it hands the predestinarians a genuinely strong argument they still cannot
-   convert into a proof — since nobody in-world can interrogate the Hyperomnium.
-2. **Beholding extends only to what is settled.** The Hyperomnium sees everything
-   that *is*, and what has not been chosen is not yet among what is. This
-   protects the prophecy decision at full strength, but it qualifies "sees
-   everything", and someone will eventually notice the qualification.
+**Everything decided today survives intact:** prophecy as declared intent, free
+will within the specification, destiny as openness, and the weaker version in
+which the range of options is unequal and political.
 
-I would take (1): it costs nothing already decided, it makes the dissent
-formidable instead of merely sympathetic, and "the seeing causes nothing" is
-sayable in-world without any scaffolding showing. But it is a real choice with
-real consequences for how prophecy scenes read, and it is yours.
+**What the dissenting traditions get, and it is a great deal.** They are right
+that beholding is not deriving. They are right that nothing is hidden. They are
+right that the argument from parents-meeting is an argument about derivation and
+does not touch sight. Their whole case reduces to one inference — from *seen* to
+*settled* — and that inference cannot be tested from inside the world, because
+the tier in question cannot be addressed, interrogated or observed. They are
+wrong, and no one alive in the setting can demonstrate it.
+
+**How the counter is said in-world**, without any scaffolding showing: *the
+seeing causes nothing*. That is the whole answer, it is four words, and it will
+not convince anyone who has already made the inference — which is exactly the
+texture a real theological dispute has.
+
+**Guard for the page.** Nobody wins this argument in a scene. The setting's
+position is structural rather than rhetorical, and a character who "defeats" a
+predestinarian in dialogue has been given an advantage the cosmology does not
+supply. Write the disagreement as permanent, because it is.
 
 ---
 
@@ -503,8 +511,28 @@ Field Triumvirate clause in `star-rangers-command-hierarchy.md` look less like a
 procedural oddity and more like the Cascade's own shape reproduced at Corps
 scale.
 
-**Open question.** Is incomparability rare (the two documented cases) or
-pervasive? Pervasive is more interesting and much larger a change.
+**These two facts do not pull against each other**, and the confusion is worth
+naming because it is easy to have. Calling the Strata a *partial* order says only
+that comparability is not *guaranteed* for every pair — not that many pairs are
+incomparable. An order with exactly two incomparable pairs and strict ranking
+everywhere else is a partial order in perfectly good standing. "Partial" is a
+statement about what the structure does not promise, not a quota it has to fill.
+
+**Settled 2026-07-30: rare, at the documented seams only.** Incomparability is
+the exception, not the shape of the thing. It holds where the corpus says it
+holds — Worldwrights with Telearchs, and Telearchs with Universal Authorities —
+and everywhere else the ranking is strict.
+
+That is the conservative reading and the better one. A Cascade of mostly
+unrankable peers would not be a cascade; the ordering has to do real work for
+"causality resolves top-down and does not reverse" to mean anything. Keeping
+incomparability to named seams also keeps each instance *significant*: where it
+occurs, it is telling you something specific about those two tiers, rather than
+being the background condition.
+
+**Consequence for new material.** A writer may not infer incomparability between
+any other pair. If a scene needs two tiers to be unrankable, that is a new seam
+and needs deciding here first, not assuming on the page.
 
 ---
 
