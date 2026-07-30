@@ -5,7 +5,7 @@ into `src/lore/` or `src/glossary/` until it is settled and rewritten in
 in-universe terms — see "Keeping the scaffolding out of the setting" at the
 bottom, which is the constraint that matters most in this file.
 
-Twelve things are settled. The rest are open questions with the consequences
+Twelve things are settled, and a conflict register at the foot records what they disturb. The rest are open questions with the consequences
 worked out, so they can be decided rather than drifted into.
 
 ---
@@ -189,7 +189,19 @@ That answers the open question in section 2 in the more interesting direction:
 rank is genuine wherever it holds, and its holding everywhere was never the
 claim.
 
-### ⚠ This contradicts a published glossary entry — needs your call
+### Resolved on inspection: canon already made this distinction
+
+`src/glossary/worldwright.md` line 19 reads: **"Though the Cascade spine lists
+them in sequence, Worldwrights and Telearchs are parallel branches under the
+Archewrights."** Canon therefore already separates *position in the spine* from
+*authority*, and has since that page was written.
+
+So "Telearchs rank above the Harmonarchs and below the Worldwrights" is a
+statement about spine position, and the peer claim about authority stands
+untouched. **No page needs editing.** I flagged this as a contradiction before
+reading closely enough; it is not one.
+
+### ⚠ The real conflict: the Harmonarchs are not a Cascade tier
 
 `src/glossary/cosmic-cascade.md` currently states that Worldwrights and Telearchs
 are **"parallel branches under the Archewrights — creation and continuity
@@ -197,28 +209,27 @@ respectively, created and defined as peer functions with neither subordinated to
 the other."** `src/glossary/worldwright.md` says the same. "Telearchs rank below
 Worldwrights" is the opposite of that, and both pages are canon today.
 
-Three ways to read it, and only you can pick:
+`src/glossary/council-of-harmonarchs.md` line 18 states it flatly: **"It is not a
+Cascade tier. There is no separate class of being called a Harmonarch-in-council
+— it is the same minds in their second seat, which is why the Council appears
+nowhere in the spine."**
 
-1. **The peer statement is superseded.** Telearchs are genuinely subordinate, and
-   both glossary entries need editing plus a sweep for anything relying on the
-   peer reading.
-2. **Two different orderings are being confused.** Worldwrights precede Telearchs
-   in the spine's sequence — creation before continuity — without that sequence
-   being authority. Then "above/below" here means position, and the peer claim
-   about *authority* stands untouched. This is the reading that costs nothing.
-3. **The peer relation holds only within their shared scope** — neither can
-   override the other where both apply — while Worldwrights outrank Telearchs
-   elsewhere. Coherent, but it needs the scopes stated, or it will read as
-   equivocation.
+Ranking a tier against the Harmonarchs is therefore a category error by canon's
+own lights: it ranks a class of being against a *seat*. Three ways out:
 
-I have not edited either page. Until this is settled, treat the peer statement as
-canon, since it is the published one.
-
-**Where the Harmonarchs sit** is meanwhile new information not currently in
-`cosmic-cascade.md`'s spine at all — the Council of Harmonarchs has its own
-glossary entry but no stated Cascade position. Placing them below the Telearchs
-is an addition, not a correction, and can go in cleanly once the above is
-resolved.
+1. **You mean the Concordant Principals** — the minds who sit in Council, in
+   their first seat, which *is* a Cascade position. Then the statement is
+   "Telearchs rank above Concordant Principals", it needs no page edited, and it
+   sits comfortably beside `src/glossary/mediarch.md`'s existing claim that
+   Mediarchs stand under both the Telearchs and the Principals. **This is the
+   reading I would take.**
+2. **The Council does have a spine position**, and the "not a Cascade tier"
+   sentence is superseded. That costs a load-bearing distinction the entry
+   defends explicitly, and would need `universal-authority.md` re-checked, since
+   the Council-plus-seat structure is built on it.
+3. **"Harmonarchs" is being used loosely** for the beings rather than the seat.
+   Harmless in conversation, but it should not reach the page in that sense, or
+   the distinction the glossary protects will erode by usage.
 
 ---
 
@@ -550,3 +561,45 @@ whole. Per the lore/codex boundary, contested versions belong in
 
 **Status:** creation-by-specification, the constitutive nature of the limit, free will within it, prophecy as declared intent, destiny as openness, and the existence of dissenting devotional traditions all settled 2026-07-30. Sections 1-3 and 5 carry open questions, flagged inline, awaiting Dermot.
 Nothing here binds any published chapter, and nothing here is a `canon_fact`.
+
+---
+
+## Conflict register (checked against the pages, 2026-07-30)
+
+What today's decisions do and do not disturb, verified by reading the entries
+rather than recalling them.
+
+**Not a conflict — canon already handled it.** Telearchs ranking below
+Worldwrights in the spine sits fine beside the peer claim, because
+`worldwright.md` already separates spine sequence from authority in as many
+words. No edit needed.
+
+**Real conflict — the Harmonarchs.** `council-of-harmonarchs.md` says the Council
+is *not* a Cascade tier and appears nowhere in the spine. See the three options
+above; the recommended reading is that the ranking is against the Concordant
+Principals in their first seat, which needs no page changed.
+
+**Tension, not conflict — the Hyperomnium.** `hyperomnium.md` calls it "the
+highest tier in the fixed Cosmic Cascade" and records that "no account exists of
+Hyperomnium acting, speaking, or intervening anywhere". Beyond-agency is
+therefore already the published position in substance. Two frictions remain:
+
+- The Cascade is defined as an *ordering of causal authority*, and something
+  beyond existence exerting causal authority needs care. Cleanest fix: the top
+  position marks the **ground** of the ordering, not a first cause acting within
+  it — which the "origin condition" language already supports.
+- **Beholding is a new positive claim** on a page that is deliberately apophatic
+  about everything except invariants. It should be added, if at all, in the same
+  register: not "it sees" but that nothing is hidden from it, with the analogical
+  caveat kept.
+
+**Additions rather than corrections**, none contradicting anything found:
+Harmonarch/Principal placement, prophecy-as-intent, destiny-as-openness, the
+weaker version of free will, Levrils influencing rather than compelling, and the
+sight/agency split. Each is new material the corpus does not currently address.
+
+**Sweep still needed before any of this graduates.** Nothing has been checked for
+existing prophetic or fatalistic phrasing in `src/seasons/` or `src/codex/` — if a
+published chapter has a character treat a prophecy as a prediction of fixed
+future, that now reads as a tradition's position rather than the setting's, and
+should be verified as intentional rather than left ambiguous.
