@@ -29,6 +29,8 @@ What actually happened is simpler and less flattering than "diverged," and he kn
 
 He feels slightly guilty. Not much, and not often — a small snag rather than a wound, the kind that catches when her name comes up in a habitat bulletin or one of her books turns up in an evidence box belonging to somebody's child. He has no wish whatever to pick it up again; that is not what the guilt is about. It is about being a man who is genuinely good at noticing what a silence means in a witness statement, and who let one run for the better part of a year in his own messages without once treating it as evidence of anything.
 
+He remembers the name of one of her cats and could not, asked cold, produce the other's — which is exactly the sort of asymmetry he would flag in somebody else's statement inside four seconds, and has never once turned on the statement he would give about himself.
+
 She writes her mornings in the Deck 7 galley. His caseload takes him through Deck 7 perhaps twice a month. In several years this has not produced a conversation, and neither of them has arranged for it to.
 
 ## Orbital Five-O

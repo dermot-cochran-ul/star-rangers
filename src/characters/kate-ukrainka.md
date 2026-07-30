@@ -21,6 +21,18 @@ The subject of the Smart Pet books is not the subsystem. It is the position: wha
 
 She is not interested in the technology and has never pretended otherwise. Asked, in one of the two interviews she has given since arriving, how a cognitive subsystem actually works, she answered that she had looked it up twice, understood it both times for about a day, and did not think a six-year-old was owed the diagram. What a six-year-old was owed, she said, was the truth about the animal.
 
+## The Cats
+
+She loves cats. She has never once managed to keep one.
+
+Marusya went into the service voids off Deck 4 in her first year aboard and did not come out; the voids on that deck run three levels and were surveyed properly by nobody. Zirka moved four doors along to a family with better hours and more lap between them, and lived there in evident contentment for six years in full view of Kate's own door, about which Kate maintains she was fine. The grey one left with a rotation — a family posted off-habitat packed it in perfect good faith, having spent two years assuming it was theirs, and by the time the apology came back down the relay the ship was six weeks gone and everybody was very sorry.
+
+Every one of those is an ordinary thing that happens on a habitat, and each has a boring explanation that is almost certainly the true one. That is precisely what makes the set difficult to look at: there is no pattern in it, only a woman who has had three cats and kept none of them. Nobody has ever laid the three side by side, including her. The first two happened years before she ever moved her mornings to Deck 7, which forecloses the tidiest explanation anyone reaching for one would reach for first.
+
+There is a cat in her quarters now. It has been there five weeks. She has not named it yet, and she has caught herself not naming it, and she does not care for what that appears to mean about her.
+
+She does not write cats that die, and she has never once written a cat that is not found by the end of the book. A reviewer on Threshold called this the sentimental weakness of an otherwise unsentimental writer. It is the only note she has ever been given that she declined to discuss.
+
 ## The Objection, and Her Answer
 
 This is the point on which certification people lose patience with her. In the books, a Smart Pet's subsystem is *a small quiet friend who lives behind the eyes* — a second presence, kindly, separate, sometimes asleep. That is not what a certified cognitive subsystem is. It is not a person, it does not have a view, and the entire regulatory architecture around a Smart Pet exists precisely because a subsystem is a governed component and not a companion. Welfare inspectors have written to her about it. She keeps the letters.
