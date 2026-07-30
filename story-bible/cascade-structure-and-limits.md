@@ -201,7 +201,37 @@ statement about spine position, and the peer claim about authority stands
 untouched. **No page needs editing.** I flagged this as a contradiction before
 reading closely enough; it is not one.
 
-### ⚠ The real conflict: the Harmonarchs are not a Cascade tier
+### Resolved: it is the Council/Authority distinction doing the work (2026-07-30)
+
+**Telearchs do not outrank the Universal Authority.** Set beside "Telearchs rank
+above the Harmonarchs", that is not a contradiction — it is the glossary's own
+load-bearing distinction being used exactly as intended:
+
+- **The Council of Harmonarchs alone** — the same minds in their second seat,
+  explicitly *not* a Cascade tier — sits below the Telearchs.
+- **A Universal Authority** — the Council **plus a presiding seat**, and
+  `universal-authority.md` insists neither part is an Authority on its own — is
+  **not** outranked by them.
+
+So the presiding seat is what changes the standing. That is a genuinely
+interesting claim: authority here is not a property of the beings, it is a
+property of the *constituted body*. The same minds, differently seated, stand in
+different relations to the same tier.
+
+**One thing left to pin down.** "Do not outrank" is precise, and it stops short
+of the converse. Two readings:
+
+1. **Incomparable** — neither outranks the other, in the partial-order sense used
+   throughout this file. Elegant, consistent with the Worldwright/Telearch
+   peership, and it means a dispute between a Telearch and an Authority has no
+   arbiter below the Archewrights.
+2. **The Authority is above them** — a strict ranking in the other direction.
+   Simpler, but it needs saying, since "do not outrank" does not say it.
+
+I would take (1), and it makes the Field Triumvirate parallel sharper still. But
+it is your call, and the note stays neutral until you make it.
+
+### ~~The real conflict: the Harmonarchs are not a Cascade tier~~ — see above
 
 `src/glossary/cosmic-cascade.md` currently states that Worldwrights and Telearchs
 are **"parallel branches under the Archewrights — creation and continuity
@@ -574,10 +604,12 @@ Worldwrights in the spine sits fine beside the peer claim, because
 `worldwright.md` already separates spine sequence from authority in as many
 words. No edit needed.
 
-**Real conflict — the Harmonarchs.** `council-of-harmonarchs.md` says the Council
-is *not* a Cascade tier and appears nowhere in the spine. See the three options
-above; the recommended reading is that the ranking is against the Concordant
-Principals in their first seat, which needs no page changed.
+**Resolved — the Harmonarchs.** `council-of-harmonarchs.md` says the Council
+is *not* a Cascade tier. Settled the same day: the Council alone sits below the
+Telearchs, while a Universal Authority - Council plus presiding seat - is not
+outranked by them. No page needs changing; one question remains, on whether that
+
+is incomparability or a ranking the other way.
 
 **Tension, not conflict — the Hyperomnium.** `hyperomnium.md` calls it "the
 highest tier in the fixed Cosmic Cascade" and records that "no account exists of
