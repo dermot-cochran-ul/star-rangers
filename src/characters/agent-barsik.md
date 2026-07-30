@@ -8,6 +8,7 @@ status: Active
 aliases: []
 tags: [detective-agency, cat, eden, undercover-pets.com]
 description: "A detective agency field agent embedded at Eden Space Habitat, working undercover among its civilian research staff."
+known_codex: [filing-of-the-galley-door-specimen]
 image: agent-barsik.jpg
 image_alt: "Agent Barsik, a black cat wearing an agency badge, seated on paperwork at Eden Space Habitat"
 ---

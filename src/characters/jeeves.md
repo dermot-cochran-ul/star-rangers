@@ -6,7 +6,7 @@ species: AI (Domestic-Companion Kernel)
 role: Assigned Household Intelligence, Eden Space Habitat Welfare Program
 status: Active
 aliases: []
-tags: [ai, kernel-compliant, eden, domestic, comedy-of-manners, orbital-five-o]
+tags: [ai, kernel-compliant, eden, domestic, comedy-of-manners, orbital-five-o, undercover-pets.com]
 description: "A domestic-companion intelligence assigned to keep Detective Inspector Wendell Albercombe fed, rested, and connected to a habitat he mostly sees through case files — and who solves more of his 'boring' referrals from the kitchen than the bureau ever manages from its own channels."
 ---
 

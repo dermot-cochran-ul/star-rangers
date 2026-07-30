@@ -6,7 +6,7 @@ species: AI (Kernel-Compliant Investigative Intelligence)
 role: Detective Assistant, Eden Space Habitat Civil Detective Bureau
 status: Active
 aliases: []
-tags: [ai, kernel-compliant, investigative, eden, orbital-habitats-compact]
+tags: [ai, kernel-compliant, investigative, eden, orbital-habitats-compact, undercover-pets.com]
 description: "Eden Space Habitat's Detective Assistant Reeves: investigative support intelligence to Superintendent Oyelaran's bureau, and a separate deployment from Threshold Station's Reeves despite sharing a model and a name."
 ---
 
