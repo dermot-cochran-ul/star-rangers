@@ -6,7 +6,7 @@ species: Human
 role: Mayor, Eden Space Habitat
 status: Active
 aliases: []
-tags: [human, eden, mayor, orbital-habitats-compact]
+tags: [human, eden, mayor, orbital-habitats-compact, undercover-pets.com]
 description: "Eden Space Habitat's elected Mayor, and one half of the dual reporting line Space Commissioner Zara Wayland answers to — the half accountable to the habitat's own residents rather than to the wider Compact."
 image: "imogen-petrakis.jpg"
 image_alt: "A young businesswoman posing for a portrait"

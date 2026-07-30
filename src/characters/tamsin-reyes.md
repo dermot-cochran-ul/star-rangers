@@ -6,7 +6,7 @@ species: Human
 role: Field Investigator, Eden Civil Investigations Unit
 status: Active
 aliases: []
-tags: [human, eden, investigations, junior-detective, season-1]
+tags: [human, eden, investigations, junior-detective, season-1, undercover-pets.com]
 description: "Eden Civil Investigations Unit's undercover specialist, who can become whoever a room needs her to be for exactly as long as the job requires it, and not one conversation longer."
 ---
 

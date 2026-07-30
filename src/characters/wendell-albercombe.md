@@ -7,7 +7,7 @@ role: Detective Inspector, Eden Space Habitat
 status: Active
 aliases:
   - "DI Albercombe"
-tags: [human, eden, detective, inspector, orbital-habitats-compact, orbital-five-o]
+tags: [human, eden, detective, inspector, orbital-habitats-compact, orbital-five-o, undercover-pets.com]
 description: "Eden Space Habitat's Detective Inspector, carrying Superintendent Oyelaran's ordinary caseload — and quietly closing more of it than the bureau's own instruments would explain, care of an off-the-books arrangement he has stopped trying to justify on paper."
 ---
 
