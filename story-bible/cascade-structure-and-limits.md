@@ -603,3 +603,36 @@ existing prophetic or fatalistic phrasing in `src/seasons/` or `src/codex/` — 
 published chapter has a character treat a prophecy as a prediction of fixed
 future, that now reads as a tradition's position rather than the setting's, and
 should be verified as intentional rather than left ambiguous.
+
+---
+
+## Policy: interesting conflicts become Codex entries (settled 2026-07-30)
+
+When a decision here collides with something already written, or with a position
+a tradition in the setting would hold, the alternative does not get discarded and
+does not get argued away in lore. **It gets published as a Codex entry, in the
+voice of a named source who holds it.**
+
+This is the lore/codex boundary doing exactly what it exists for. Lore states
+what is settled; the Codex carries accounts that are valid-for-their-author and
+may be wrong. A rejected reading written up as a considered position by someone
+with a reason to hold it is worth more to the setting than the same reading
+deleted — it becomes evidence about that source, their institution and their era,
+rather than a loose end.
+
+Candidates already identified in this file:
+
+- **Predestinarian devotional tradition** — beholding is not deriving; the future
+  is seen and therefore settled. Its strongest form, argued by someone who has
+  thought about it.
+- **The no-practical-difference tradition** — Hyperomnium and Kieme are one in
+  everything that could matter to a worshipper; the distinction is scholastic.
+- **A tradition that credits a designer for the constitutive limit** — a category
+  error rather than a rival claim, and interesting precisely because the person
+  making it is otherwise careful.
+- **An Institute paper declining the whole question** as unanswerable by
+  instrument, which is its house position and its characteristic blind spot.
+
+Each stays non-canonical by construction: `author` is required on every codex
+entry, none carry `canon_facts`, and nothing in lore has to be softened to make
+room for them.
