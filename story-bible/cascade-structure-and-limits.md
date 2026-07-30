@@ -5,7 +5,7 @@ into `src/lore/` or `src/glossary/` until it is settled and rewritten in
 in-universe terms — see "Keeping the scaffolding out of the setting" at the
 bottom, which is the constraint that matters most in this file.
 
-Nine things are settled. The rest are open questions with the consequences
+Twelve things are settled. The rest are open questions with the consequences
 worked out, so they can be decided rather than drifted into.
 
 ---
@@ -178,9 +178,65 @@ place in it has no ceiling inside its own.
 
 ---
 
+## Settled: the Strata are ranked, but not a strict chain (2026-07-30)
+
+The ordering is real. **Telearchs rank above the Harmonarchs and below the
+Worldwrights**, and comparable statements can be made across the Strata — but
+the order is a ranking, not a line. Incomparable pairs exist; they are not
+failures of the scheme.
+
+That answers the open question in section 2 in the more interesting direction:
+rank is genuine wherever it holds, and its holding everywhere was never the
+claim.
+
+### ⚠ This contradicts a published glossary entry — needs your call
+
+`src/glossary/cosmic-cascade.md` currently states that Worldwrights and Telearchs
+are **"parallel branches under the Archewrights — creation and continuity
+respectively, created and defined as peer functions with neither subordinated to
+the other."** `src/glossary/worldwright.md` says the same. "Telearchs rank below
+Worldwrights" is the opposite of that, and both pages are canon today.
+
+Three ways to read it, and only you can pick:
+
+1. **The peer statement is superseded.** Telearchs are genuinely subordinate, and
+   both glossary entries need editing plus a sweep for anything relying on the
+   peer reading.
+2. **Two different orderings are being confused.** Worldwrights precede Telearchs
+   in the spine's sequence — creation before continuity — without that sequence
+   being authority. Then "above/below" here means position, and the peer claim
+   about *authority* stands untouched. This is the reading that costs nothing.
+3. **The peer relation holds only within their shared scope** — neither can
+   override the other where both apply — while Worldwrights outrank Telearchs
+   elsewhere. Coherent, but it needs the scopes stated, or it will read as
+   equivocation.
+
+I have not edited either page. Until this is settled, treat the peer statement as
+canon, since it is the published one.
+
+**Where the Harmonarchs sit** is meanwhile new information not currently in
+`cosmic-cascade.md`'s spine at all — the Council of Harmonarchs has its own
+glossary entry but no stated Cascade position. Placing them below the Telearchs
+is an addition, not a correction, and can go in cleanly once the above is
+resolved.
+
+---
+
 ## Settled: only the Hyperomnium beholds (2026-07-30)
 
 This answers the question left open in section 1, and it is the keystone.
+
+**And "beholds" is said of it only by analogy.** The Hyperomnium is *above and
+beyond the concepts of agency and of existence* — not a being that happens to
+lack agency, but something of which "exists" and "acts" are the wrong kind of
+words, in the way "loud" is the wrong kind of word for a number. Every verb
+attached to it here is a concession to language.
+
+This matters for the tension below, and it settles it further than I had it.
+There is no mind somewhere holding a completed schedule — the picture that makes
+foreknowledge feel like a cage requires a knower with a plan, and there is no
+such knower at this tier. What remains is that nothing is hidden, which is a very
+different claim from anything being fixed.
 
 **The Hyperomnium sees. It does not specify.** Every other tier that brings
 something into being does so by specifying it, and specification is what cannot
@@ -203,6 +259,30 @@ constraining sight.
 
 It also gives the Trinity an internal structure rather than three names for one
 thing: sight, agency, and — for the Conseleme — coherence.
+
+### Not every tradition draws the distinction (2026-07-30)
+
+The sight/agency split is structural. **It is not universally believed, and some
+traditions deny it makes any practical difference at all.**
+
+Their case is strong, and it is not laziness. If the Hyperomnium is beyond
+existence and agency, then nothing about it can be observed, addressed, or
+distinguished from within the world; and the one tier that *does* act,
+unlimitedly, is the Kieme. A tradition can reasonably conclude that whatever
+this distinction is, it changes nothing anyone will ever encounter — and
+therefore worship, address and speak of the two as one. Some will hold the split
+is a scholastic artefact; others that it is real but pastorally irrelevant, which
+is a subtler and more defensible position.
+
+The Archive cannot refute them. The distinction is inferable only through
+invariants, and invariants do not tell you how many things stand behind them.
+
+**Consequences for the page.** Two devotional vocabularies exist and should not
+be flattened into one house style: traditions that name the Kieme and the
+Hyperomnium separately and mean it, and traditions for whom the terms are
+interchangeable or the second is a formality retained out of respect. A character
+using them loosely may be careless — or may belong to a tradition that holds the
+looseness is correct, and the reader should not always be able to tell which.
 
 ### The live tension, for Dermot to settle
 
