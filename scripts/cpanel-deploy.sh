@@ -163,6 +163,80 @@ resolve_edition() {
   echo "--- [$re_label] edition: '$re_domain' -> '$RESOLVED_EDITION' (lib/editions.js) ---"
 }
 
+# ---------------------------------------------------------------------------
+# check_custom_css_powers(): warns when a CUSTOM_CSS_FILE uses CSS for more
+# than styling. Never fails the deploy.
+#
+# WHY THIS EXISTS. This key was documented as "cosmetic" and as unable to
+# "assert a fact". That was wrong. CSS here can inject text (`content:` on a
+# pseudo-element is prose delivered by stylesheet), hide the codex non-canon
+# notice, hide the licence attribution, reorder what a human reads relative to
+# the DOM, and pull in third-party hosts. Nothing restrains it: there is no CSP
+# on the site, and this file is appended LAST so it overrides the theme.
+#
+# WHY IT WARNS RATHER THAN FAILING. Two reasons. `content: ""` is ordinary
+# pseudo-element decoration, so a hard failure would block legitimate CSS on a
+# false positive - and a blocked deploy is worse than a log line. And the
+# realistic risk is not sabotage but forgetting: hiding one of these boxes
+# months from now while tidying up something you no longer recognise. A warning
+# names the thing you forgot; it does not need to stop you.
+#
+# What limits the damage in every case is that these affect RENDERING only. The
+# DOM is untouched, so crawlers, chatbots, screen readers, reader mode, the Atom
+# feed and llms.txt all still get the real content. The canon rule therefore
+# holds structurally and leaks only perceptually, for a sighted human on one
+# domain.
+# ---------------------------------------------------------------------------
+check_custom_css_powers() {
+  local ccp_file ccp_label ccp_hits
+  ccp_file="$1"; ccp_label="$2"
+  ccp_hits=0
+
+  # `content:` with something other than an empty string. Matches content: "x"
+  # or content: 'x'; deliberately does not match content: "" or content: ''.
+  if grep -Eqi "content[[:space:]]*:[[:space:]]*[\"'][^\"']" "$ccp_file"; then
+    echo "WARN [$ccp_label]: CUSTOM_CSS_FILE uses content: with a non-empty string - CSS can inject prose onto a page." >&2
+    ccp_hits=$((ccp_hits + 1))
+  fi
+
+  # Hiding something that carries canon status, provenance or the licence.
+  # Matched loosely on the selector appearing anywhere alongside a hiding
+  # declaration, because properly parsing CSS in shell is not worth it for a
+  # warning - a false positive here costs one log line.
+  if grep -Eqi "(display[[:space:]]*:[[:space:]]*none|visibility[[:space:]]*:[[:space:]]*hidden)" "$ccp_file"; then
+    # Report only the elements actually mentioned. A warning that explains
+    # something you did not do is a warning that gets skimmed next time.
+    local ccp_sel ccp_named=0
+    for ccp_sel in \
+      "codex-entry__status:the 'this is not canon, cite it as an account' notice on every codex entry" \
+      "canon-facts:a chapter's canon-facts box" \
+      "site-footer:the CC BY-NC-ND attribution and licence link" \
+      "excluded-notice:the 'not included in this edition' placeholder and its link to the domain that has the page"
+    do
+      if grep -qi "${ccp_sel%%:*}" "$ccp_file"; then
+        if [ "$ccp_named" -eq 0 ]; then
+          echo "WARN [$ccp_label]: CUSTOM_CSS_FILE hides something and mentions:" >&2
+          ccp_named=1
+        fi
+        echo "WARN [$ccp_label]:   .${ccp_sel%%:*} - ${ccp_sel#*:}. Check you meant to." >&2
+      fi
+    done
+    [ "$ccp_named" -eq 1 ] && ccp_hits=$((ccp_hits + 1))
+  fi
+
+  # Third-party fetches. No CSP exists to stop these.
+  if grep -Eqi "@import|url\([[:space:]]*[\"']?(https?:)?//" "$ccp_file"; then
+    echo "WARN [$ccp_label]: CUSTOM_CSS_FILE reaches an external host (@import or an absolute url()) - a privacy and availability dependency." >&2
+    ccp_hits=$((ccp_hits + 1))
+  fi
+
+  if [ "$ccp_hits" -gt 0 ]; then
+    echo "WARN [$ccp_label]:   These change what a human sees, never the record - the DOM is untouched, so crawlers," >&2
+    echo "WARN [$ccp_label]:   chatbots, screen readers and the feed still get the real content. Not blocking the deploy." >&2
+  fi
+  return 0
+}
+
 # fill_from_registry <var-name> <resolved-value> <label> <key-name>
 # Sets <var-name> to <resolved-value> only when it is currently empty, and says
 # which source won either way.
@@ -384,7 +458,10 @@ build_and_deploy() {
     #
     # Replacement: lib/editions.js for per-domain copy and flourishes (in
     # repo, versioned, non-canonical by construction). CUSTOM_CSS_FILE is
-    # unaffected and not deprecated - it is cosmetic and cannot assert a fact.
+    # unaffected and not deprecated: it cannot change the RECORD, only what a
+    # human sees rendered. That is a narrower claim than "it is cosmetic", which
+    # is what this comment used to say and is not true - see
+    # check_custom_css_powers() above.
     echo "WARN [$label]: CUSTOM_LORE_FILE is DEPRECATED and will be removed." >&2
     echo "WARN [$label]:   It writes into src/lore/, which is canon, and canon is centralised -" >&2
     echo "WARN [$label]:   per-domain variants must be non-canonical. Move this content to" >&2
@@ -440,6 +517,7 @@ build_and_deploy() {
   # theme-<name>.css living in the shared repo.
   if [ -n "$b_custom_css_file" ]; then
     if [ -f "$b_custom_css_file" ]; then
+      check_custom_css_powers "$b_custom_css_file" "$label"
       { printf '\n/* --- CUSTOM_CSS_FILE: %s --- */\n' "$b_custom_css_file"; cat "$b_custom_css_file"; } \
         >> "$REPOSITORY_ROOT/_site/css/main.css" \
         || { echo "FAIL [$label]: could not append CUSTOM_CSS_FILE ($b_custom_css_file)" >&2; return 1; }
