@@ -14,7 +14,7 @@ description: "Definitions of every term, name, and concept used in Star Rangers.
 <nav class="glossary-alpha" aria-label="Alphabetical index">
   {% set letters = [] %}
   {% for term in terms %}
-    {% set firstLetter = term.data.title[0] | upper %}
+    {% set firstLetter = term.data.title | glossaryAlphaLetter %}
     {% if firstLetter not in letters %}
       {% set letters = letters.concat([firstLetter]) %}
       <a href="#letter-{{ firstLetter }}">{{ firstLetter }}</a>
@@ -25,7 +25,7 @@ description: "Definitions of every term, name, and concept used in Star Rangers.
 <dl class="glossary-list">
   {% set currentLetter = "" %}
   {% for term in terms %}
-    {% set firstLetter = term.data.title[0] | upper %}
+    {% set firstLetter = term.data.title | glossaryAlphaLetter %}
     {% if firstLetter != currentLetter %}
       {% set currentLetter = firstLetter %}
       <div class="glossary-letter-anchor" id="letter-{{ currentLetter }}">
