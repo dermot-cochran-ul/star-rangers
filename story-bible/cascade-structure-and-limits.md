@@ -511,6 +511,13 @@ Field Triumvirate clause in `star-rangers-command-hierarchy.md` look less like a
 procedural oddity and more like the Cascade's own shape reproduced at Corps
 scale.
 
+**These two facts do not pull against each other**, and the confusion is worth
+naming because it is easy to have. Calling the Strata a *partial* order says only
+that comparability is not *guaranteed* for every pair — not that many pairs are
+incomparable. An order with exactly two incomparable pairs and strict ranking
+everywhere else is a partial order in perfectly good standing. "Partial" is a
+statement about what the structure does not promise, not a quota it has to fill.
+
 **Settled 2026-07-30: rare, at the documented seams only.** Incomparability is
 the exception, not the shape of the thing. It holds where the corpus says it
 holds — Worldwrights with Telearchs, and Telearchs with Universal Authorities —
