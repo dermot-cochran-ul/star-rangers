@@ -5,7 +5,7 @@ into `src/lore/` or `src/glossary/` until it is settled and rewritten in
 in-universe terms — see "Keeping the scaffolding out of the setting" at the
 bottom, which is the constraint that matters most in this file.
 
-Four things are settled. The rest are open questions with the consequences
+Six things are settled. The rest are open questions with the consequences
 worked out, so they can be decided rather than drifted into.
 
 ---
@@ -45,6 +45,16 @@ Concordants". An invariant holding in every Concordant, in every era, that no
 tier authored and none can alter, is that description word for word. Which also
 explains how anyone in the setting could come to suspect it: not by being told,
 but by noticing it never fails anywhere.
+
+**How to say this in-world.** It is the same kind of statement as *the Kieme
+does not lie*, or *the Conseleme cannot be incoherent*. Neither of those reports
+a restriction someone imposed, or a power held in reserve. They say what the
+thing is: lying is a defect rather than a capability, and an incoherent
+Conseleme is not a constrained Conseleme but a phrase that has stopped
+referring. This limit is that sort of statement, and it should be phrased that
+way on the page — as a remark about what creation is, never as a rule that binds
+a creator. That formulation also keeps the out-of-universe scaffolding out of
+sight, since the setting's own devotional register already carries it.
 
 **The contrast worth keeping sharp.** The Cosmic Limitation on Evil *is*
 Archive-credited to Kieme as a design — a chosen boundary condition, contested
@@ -90,6 +100,87 @@ It also sharpens the Levrils choosing Champions, and the whole
 constraint-literacy theme: if outcomes were entailed, learning the constraints
 would be a spectator's hobby. Under specification-creation it is the actual
 mechanism by which people act well or badly.
+
+---
+
+## Settled: prophecy is declared intent, not prediction (2026-07-30)
+
+Dermot's position, and it decides how every prophetic text in the setting must
+be read.
+
+**The argument.** Foreknowledge of a person requires foreknowledge of that
+person's parents meeting, and of every choice that put them in the same room, and
+of the choices behind those. Knowing who will be born is therefore knowing the
+entire chain of free acts leading to them — which is either a chain that was
+never free, or knowledge of a thing that has not been settled. Predestination
+does not so much conflict with agency as consume it: pull on any predicted birth
+and the whole causal history comes with it.
+
+**So a prophecy declares an intent.** It binds the one who declares it, not the
+future. "This will happen" is a commitment by a power to bring something about,
+and its authority is the authority of the declarer, not a window onto a fixed
+sequence. That is why a prophecy can be conditional, deferred, or withdrawn
+without its source having lied — an intent may be revised, where a prediction
+could only have been wrong.
+
+**Consequences for the page.**
+
+- A fulfilled prophecy shows someone *acted*, not that the future was on rails.
+- An unfulfilled one is not a failure of sight. It is a changed intent, an
+  unmet condition, or a declaration that was always conditional and heard as
+  absolute — and the last of those is the most human way for it to happen.
+- Nobody in the setting can distinguish these from inside, which keeps the
+  interpretive fight alive rather than settling it.
+
+**And this is precisely the fault line with the dissenting traditions.** They
+read the same texts as predictions — as descriptions of a settled future beheld
+from outside time. Their strongest form is that beholding is not deriving, so
+the argument above (which is about derivation) does not touch it. The counter is
+the one made here: what is beheld had to become settled somehow, and every route
+to its becoming settled runs through choices that were then not choices.
+
+Neither side can win that from inside the world, per the self-certification
+section below. Write it as a real argument between people who have each thought
+about it, with the author's own position — that predestination consumes agency
+rather than coexisting with it — being the structural truth of the setting, not
+the obviously-correct view held by the sympathetic characters.
+
+---
+
+## Settled: destiny is openness, not narrowing (2026-07-30)
+
+The word survives in the setting, with its usual meaning inverted.
+
+**A destiny is not a track laid down in front of someone. It is a
+susceptibility — an openness to levrilic influence.** Having one means more is
+available to you, not that fewer things are. Nothing is closed off by it, and
+nothing is compelled; what changes is what can reach you.
+
+This falls straight out of what the Cascade already says. Descent through the
+tiers is **creative rather than imperative** — the layers above create and define
+what lies beneath more than they command it. An influence that enlarges what a
+person can do is the only kind that ordering permits. A destiny that removed
+options would be a tier issuing orders downward, which the Cascade does not do.
+
+**Consequences.**
+
+- Being chosen by a Levril is an enabling, not a conscription. The Champion who
+  is chosen keeps every option they had and gains reach they did not have.
+- Openness can be declined, and can be cultivated. That makes it continuous with
+  **constraint literacy** — the setting's existing idea that people fare well or
+  badly according to how well they read the rules they live under — rather than
+  a separate mystical channel.
+- A character who speaks of their destiny as a doom closing in is **misdescribing
+  their situation**, and can be shown to be. That is a characterisation tool: the
+  fatalist is not reporting the cosmology, they are reporting their own despair.
+- Tragedy stays available and gets better, because the door was open. Nobody was
+  ever pushed through it, and nobody was ever locked out of it.
+
+**Against the dissenting reading.** The predestinarian traditions can hold that
+destiny narrows — that being marked means a path fixed in advance. They are
+wrong about the structure, and they cannot be shown to be wrong from inside the
+world. Their version has real pastoral appeal, too: a fixed path is a comfort
+when the open one is frightening. Write it with that appeal intact.
 
 ---
 
@@ -243,5 +334,5 @@ whole. Per the lore/codex boundary, contested versions belong in
 `src/codex/`; only what is settled and internally consistent belongs in
 `src/lore/`.
 
-**Status:** the constitutive nature of the limit, creation-by-specification, free will within it, and the existence of dissenting devotional traditions all settled 2026-07-30. Sections 1-3 and 5 carry open questions, flagged inline, awaiting Dermot.
+**Status:** creation-by-specification, the constitutive nature of the limit, free will within it, prophecy as declared intent, destiny as openness, and the existence of dissenting devotional traditions all settled 2026-07-30. Sections 1-3 and 5 carry open questions, flagged inline, awaiting Dermot.
 Nothing here binds any published chapter, and nothing here is a `canon_fact`.
