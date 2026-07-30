@@ -5,7 +5,7 @@ into `src/lore/` or `src/glossary/` until it is settled and rewritten in
 in-universe terms — see "Keeping the scaffolding out of the setting" at the
 bottom, which is the constraint that matters most in this file.
 
-Six things are settled. The rest are open questions with the consequences
+Seven things are settled. The rest are open questions with the consequences
 worked out, so they can be decided rather than drifted into.
 
 ---
@@ -88,6 +88,41 @@ derivable from its founding rules. If the setting wants agency in the stronger
 sense, that is a further claim and should be made deliberately rather than
 smuggled in on the back of this one. What is settled today is the negative: no
 tier has the script, because there is no script to have.
+
+**The weaker version, which is the one the setting holds (settled 2026-07-30).**
+Freedom here is not a uniform endowment. It is a *range of available options*,
+and that range differs enormously between people. A servant or a bonded worker
+may have almost none. Two distinct things are being claimed, and they should
+never be collapsed:
+
+- **No one is scripted.** This is cosmological, universal, and unaffected by
+  circumstance. The Imperium's most disposable labourer is exactly as unwritten
+  as an Administrator-Supreme.
+- **How much anyone can actually do** is material and political, distributed by
+  institutions, wealth, rank and force, and often close to nothing.
+
+The cosmology guarantees the first and says nothing whatever about the second.
+It is not a promise that everyone can act; it is a statement that nobody's acts
+were decided for them in advance.
+
+**The guard, and it matters.** Nothing in this setting may use the first fact to
+excuse the second. "You are free regardless" is a cruelty when said to someone
+with two options and no exit, and any character who says it should be understood
+as saying something monstrous or thoughtless — often sincerely, which is worse.
+The Archive's own neutrality is vulnerable here. Institutions that narrow other
+people's options while affirming their metaphysical freedom are doing something
+the setting should show clearly, not sermonise about.
+
+**What this buys narratively.** It makes constraint literacy unevenly available:
+reading the rules well helps most when you have moves to make, and the people
+with fewest moves are usually the ones given least chance to learn them. It also
+gives the levrilic openness its sharpest meaning — an influence that *enlarges*
+what is available matters most exactly where least is available, which is a
+better reason for Levrils to reach the people they reach than merit would be.
+
+And it explains the pull of the predestinarian traditions without patronising
+them. A fixed path is a genuine comfort when the open one is barred to you.
+People with no options lose little by believing there were none to have.
 
 **What it does for the theology.** The Cosmic Limitation on Evil
 (`src/codex/cosmic-limitation-on-evil.md`) reads differently under this. A
