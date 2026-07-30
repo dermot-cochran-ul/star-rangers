@@ -5,7 +5,7 @@ into `src/lore/` or `src/glossary/` until it is settled and rewritten in
 in-universe terms — see "Keeping the scaffolding out of the setting" at the
 bottom, which is the constraint that matters most in this file.
 
-Thirteen things are settled, and a conflict register at the foot records what they disturb. The rest are open questions with the consequences
+Thirteen things are settled, plus a teaching analogy recorded with its limits, and a conflict register at the foot records what they disturb. The rest are open questions with the consequences
 worked out, so they can be decided rather than drifted into.
 
 ---
@@ -677,3 +677,52 @@ Candidates already identified in this file:
 Each stays non-canonical by construction: `author` is required on every codex
 entry, none carry `canon_facts`, and nothing in lore has to be softened to make
 room for them.
+
+---
+
+## Teaching analogy: Corps ranks (weak, and useful anyway)
+
+Dermot's, with his own assessment attached: **the analogy is weak but may help.**
+It is a way of feeling the shape of the relations, never a claim about what the
+tiers are, and it must not reach `src/` in any form.
+
+| Cascade | Corps analogue |
+|---|---|
+| Archewrights | High Captains |
+| Worldwrights | Line Captains |
+| Telearchs | Guild / Corps presidents |
+
+**What it conveys well.** A Line Captain and a Guild president are not ranked
+against each other. One runs the line, the other runs the institution; neither
+can overrule the other in the other's domain, and a dispute between them goes
+*up* rather than sideways. That is exactly the incomparability settled above, and
+it is much easier to feel from the Corps example than from the abstract
+statement.
+
+It also carries the scoping. Nobody in a working service thinks a senior rank
+converts into authority over every question — which is the same intuition as
+"unlimited within scope" and "authority is a property of the constituted body".
+
+**Where it breaks, and the break is instructive.**
+
+- **Rank versus competence.** A High Captain would not overrule a specific medical
+  decision in normal circumstances. Not because the surgeon outranks them — they
+  do not — but because the decision is not theirs to make; expertise sits with the
+  person holding it, and authority declines to travel there. Human hierarchies
+  routinely separate rank from competence.
+- **The Archewrights do not have that separation.** They would have a *deep
+  technical understanding* of what is at stake below them. Their standing is not
+  merely positional; they define the archetypes and possibility space the tiers
+  beneath work inside, and they understand what they defined. The Corps analogy
+  cannot represent that, which is its main failure.
+- **But understanding is not omniscience, and the distinction matters here more
+  than anywhere.** Deep technical grasp of the space one defined is entirely
+  compatible with the created world outrunning the specification, per the first
+  section of this file. An Archewright understands the possibility space
+  thoroughly and still does not hold every truth of what gets built inside it.
+  Anyone using this analogy should be watched for sliding from "understands
+  deeply" to "knows everything", which the file has already ruled out.
+
+**Usable summary.** Take the analogy for the *shape* of authority — scoped,
+non-overruling, escalating rather than adjudicating — and drop it the moment the
+subject turns to knowledge, where it misleads in both directions at once.
