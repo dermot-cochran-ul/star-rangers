@@ -5,7 +5,7 @@ into `src/lore/` or `src/glossary/` until it is settled and rewritten in
 in-universe terms — see "Keeping the scaffolding out of the setting" at the
 bottom, which is the constraint that matters most in this file.
 
-Seven things are settled. The rest are open questions with the consequences
+Nine things are settled. The rest are open questions with the consequences
 worked out, so they can be decided rather than drifted into.
 
 ---
@@ -138,6 +138,105 @@ mechanism by which people act well or badly.
 
 ---
 
+## Settled: only the Kieme has unlimited agency, and only within scope (2026-07-30)
+
+Everything that acts in this setting acts within a scope. **The Kieme alone acts
+without limit inside its own** — and that qualifier is not a hedge, it is the
+whole content of the claim.
+
+**Scope is constitutive, not imposed.** Nothing external caps the Kieme. Its
+scope is what it *is*, in the same register as *the Kieme does not lie* above.
+So "unlimited within scope" is not "very powerful, but fenced"; it is the
+recognition that a power is always a power *to* something, and asking after acts
+outside that is asking after a description that has stopped describing.
+
+**This does not collide with the constitutive limit.** The incompleteness of a
+specification was never a limit on agency, so unlimited agency does not reach
+past it. The Kieme not being able to make a rule-set reach every truth of what it
+builds is the same kind of fact as its not being able to lie — no capability is
+being withheld.
+
+**Every other tier is scoped and limited both.** A Worldwright's authority exists
+only in primary universes and does not extend to derived ones; a Telearch cannot
+un-establish what a Worldwright established; a Levril influences and does not
+compel; and a person's range of options is material and political, per the weaker
+version above. The Cascade is a hierarchy of scopes throughout, and only one
+place in it has no ceiling inside its own.
+
+**Two things this leaves open, and both matter.**
+
+- **The Hyperomnium sits above the Kieme and is not credited with this** — see
+  the next section, which settles why. The Cascade's peak of *sight* and its peak
+  of *action* are deliberately not the same tier.
+- **Unlimited agency is not intervention.** The Archive's position is that the
+  Trinity performs no selective intervention and is inferable only through
+  invariants; church-space tradition holds the Kieme watches and sometimes acts.
+  Unlimited agency is compatible with both — a power that could act at any point
+  and does not is exactly as unlimited as one that does. So this settles nothing
+  in that dispute, deliberately, and the dispute stays unsettleable from inside
+  per the self-certification section.
+
+---
+
+## Settled: only the Hyperomnium beholds (2026-07-30)
+
+This answers the question left open in section 1, and it is the keystone.
+
+**The Hyperomnium sees. It does not specify.** Every other tier that brings
+something into being does so by specifying it, and specification is what cannot
+reach every truth of what it builds. The one that beholds is the one that does
+not build.
+
+So the top of the Cascade separates **sight** from **agency**:
+
+- **Hyperomnium** — beholds everything; no agency, per its standing description
+  as an origin condition.
+- **Kieme** — unlimited agency within scope; acts.
+- **Everything below** — specifies, and is therefore subject to the constitutive
+  limit.
+
+That separation is why the limit bites universally without anything being
+defective. Every specifier stands below the beholder, and the beholder specifies
+nothing. There is no tier that both sees everything and makes anything, which is
+exactly the configuration in which incompleteness constrains creation without
+constraining sight.
+
+It also gives the Trinity an internal structure rather than three names for one
+thing: sight, agency, and — for the Conseleme — coherence.
+
+### The live tension, for Dermot to settle
+
+Beholding sits awkwardly beside the prophecy decision, and I would rather name it
+than let it pass.
+
+The prophecy section rules out foreknowledge by the parents-must-meet argument:
+knowing who will be born means knowing every choice behind them, which unmakes
+those choices. But that argument is about **derivation**. Beholding is not
+derivation — and the dissenting traditions' strongest move was precisely "the
+Trinity beholds rather than derives." **That move is now correct about the
+Hyperomnium.** They are closer to right than the earlier section allows, and the
+note should not pretend otherwise.
+
+Two coherent ways to settle it, with different costs:
+
+1. **Beholding is atemporal and does not necessitate.** The Hyperomnium sees the
+   whole as it is, the way one sees a completed thing rather than a schedule; the
+   seeing causes nothing and fixes nothing, and a choice seen is still a choice
+   made. This is the classical settlement, it preserves everything decided today,
+   and it hands the predestinarians a genuinely strong argument they still cannot
+   convert into a proof — since nobody in-world can interrogate the Hyperomnium.
+2. **Beholding extends only to what is settled.** The Hyperomnium sees everything
+   that *is*, and what has not been chosen is not yet among what is. This
+   protects the prophecy decision at full strength, but it qualifies "sees
+   everything", and someone will eventually notice the qualification.
+
+I would take (1): it costs nothing already decided, it makes the dissent
+formidable instead of merely sympathetic, and "the seeing causes nothing" is
+sayable in-world without any scaffolding showing. But it is a real choice with
+real consequences for how prophecy scenes read, and it is yours.
+
+---
+
 ## Settled: prophecy is declared intent, not prediction (2026-07-30)
 
 Dermot's position, and it decides how every prophetic text in the setting must
@@ -245,10 +344,10 @@ house rule guarantees it will always do so. That is this same shape, one tier
 down and in narrative form: a sound derivation mistaken for an exhaustive one.
 The Institute is not simply wrong; it is doing the only thing its method can.
 
-**Open question.** Does any tier have non-derivational access — seeing rather
-than deriving? The Trinity are "inferable only through invariants", which reads
-like the opposite, but it is not decided. If the answer is yes for the top three
-and no below, that is a real structural claim and belongs in lore eventually.
+**Answered below** (see "only the Hyperomnium beholds"): exactly one tier has
+non-derivational access. The Hyperomnium beholds; every tier that specifies
+stands below it and is subject to the limit. The remaining question is whether
+that beholding reaches what has not yet been chosen - see the live tension there.
 
 ---
 
