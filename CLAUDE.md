@@ -8,6 +8,39 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 The site is built from Markdown content with Nunjucks (`.njk`) layouts, rendered by Eleventy 3, and deployed to several independently-branded production domains (plus GitHub Pages) from one codebase — see "Multi-domain deployment" below.
 
+## Authority and review boundary
+
+Dermot is the author; this file's other sections grant a lot of standing permission, and this section says where that permission stops. It exists because the boundary was operating tacitly — the external half is now written down in `CONTRIBUTING.md` (no third-party PRs, forks unsupported), and this is the internal half. Work in the first tier, propose in the second, and don't do the third without being asked in the session you're in.
+
+**Proceed and merge when CI is green** — open a PR as usual, merge it once checks pass, no wait required:
+
+- Engine and tooling: `.eleventy.js`, `lib/`, `scripts/`, `.github/`, dependencies, the deploy scripts, CI.
+- Documentation and templates: `README.md`, `FORKING.md`, this file, `sample-*.conf` / `sample-*.json`, and `CHANGELOG.md` entries recording work already done.
+- Mechanical content fixes that assert nothing new: broken internal links, stale `related:` terms, an `image_alt` corrected to match what the image actually shows, typos, and terminology sweeps that apply an already-settled rename from the canonical glossary's migration map.
+- Technical or restorative image work: resizing/recompressing to the conventions above, regenerating a codex title card with `scripts/make-codex-cover.ps1`.
+
+**Draft it and stop** — open a PR, describe what it commits the story to, and leave it for Dermot:
+
+- Anything that asserts a fact about the world: new or changed `src/lore/`, `src/glossary/`, `src/codex/`, `src/timeline/` entries, and any `canon_facts`.
+- Narrative prose. The 2026-07-25 standing permission covers *drafting* without being asked; it does not cover merging. Every draft is a proposal.
+- New character portraits, and any new image that reads as a depiction of a character or place.
+- Policy, licence and promise-making documents — `CONTRIBUTING.md`, `CONTENT-LICENSE.md`, `FORKING.md`'s terms, the About page's commitments. These bind him to other people.
+- Registering or re-pointing a domain or edition in `lib/editions.js`. An edition entry is a decision about a live site, which is exactly why it moved into the repo.
+
+**Never without an explicit instruction in the current session:**
+
+- Rewriting published git history. Roughly 200 old commits carry real email addresses; that was reviewed and deliberately left as-is — don't re-propose a rewrite.
+- Force-pushing `main`, deleting branches or tags anyone else may hold, or cutting a release tag.
+- Turning a private thread on or off for a domain. `THREADS=church-space` is an opt-in about who sees what, not a config tweak.
+- Taking published content off a production domain, or changing a live domain's identity.
+
+Two things that make the line land where it does:
+
+- **The gates prove structure, not judgement.** `validate-content.js`, the Eleventy dry run, `check-internal-links.js` and `check-related-terms.js` can show that a page is well-formed, uniquely identified and fully resolved. Nothing in the toolchain can show that a sentence is *true in this world*, in the house voice, or safe to be bound by later. So mechanical correctness is delegable and assertions about the world are not — that is the whole rule, and the tiers above are just its consequences.
+- **Merging is publication-adjacent.** Production clones deploy from this branch, so a merge is the last reviewable moment before content reaches live domains — one reason the second tier stops at the PR rather than at the commit.
+
+And in every tier: **say what you did.** A session that drafts narrative, changes canon, or touches a live domain's configuration reports it plainly, so nothing lands by default because nobody noticed it.
+
 ## Commands
 
 ```bash
