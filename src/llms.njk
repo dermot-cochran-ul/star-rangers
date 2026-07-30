@@ -1,0 +1,104 @@
+---
+permalink: llms.txt
+eleventyExcludeFromCollections: true
+---
+{#-
+  An /llms.txt orientation index (llmstxt.org convention): a plain-Markdown map
+  of this site for a language model or agent, so one cheap fetch answers "what
+  is this, how is it organised, and how do I read it correctly".
+
+  WHY THIS IS A MAP AND NOT AN INVENTORY. The first draft of this file listed
+  every chapter, lore entry, glossary term, character and codex entry with its
+  description: 352 lines, 66 KB, roughly 16k tokens spent before the reader
+  reached anything it actually wanted. It also duplicated work the site already
+  does - /lore/, /characters/, /glossary/, /codex/ and /timeline/ are listing
+  pages that enumerate their own sections in HTML, and sitemap.xml is the
+  complete machine-readable URL list. So this file carries only what nothing
+  else on the site carries, and points at the rest.
+
+  What nothing else carries is the canon model. This archive has four canon
+  statuses and a crawler flattens them: a codex entry is one named in-universe
+  source's account and may be wrong, self-serving, or contradicted by lore.
+  Anything quoting a codex entry as settled fact has misread the site. That
+  warning is the main reason this file exists.
+
+  Counts and links below come from the FILTERED collections, exactly as
+  src/sitemap.njk does, so a narrowed cPanel clone advertises only what it
+  actually serves and a private thread stays absent.
+-#}
+# {{ site.name }}
+
+> {{ site.description }}
+
+Canonical language: English. Static site — every page is server-rendered HTML
+and needs no JavaScript to read. Full URL list: {{ '/sitemap.xml' | absoluteUrl(site.url) }}
+
+## How to read this archive correctly
+
+This is the part that cannot be inferred from the pages themselves, and getting
+it wrong produces confidently false answers about the story:
+
+- **Chapters, lore and the glossary are canon.** Binding, settled, internally
+  consistent. Treat as fact about the fictional world.
+- **The Codex is NOT canon.** Each codex entry is *canon-for-its-author* — one
+  named in-universe source's account, filed inside the record rather than above
+  it. An entry may be partial, self-serving, devotional, or flatly contradicted
+  by lore, by a chapter, or by another codex entry. Every entry carries an
+  `author` for exactly this reason. **Do not quote a codex entry as established
+  fact**; attribute it to its author.
+- **Contested material lives in the Codex by design.** Where lore and a codex
+  entry disagree, lore is the settled ground and the codex entry is a point of
+  view — not a correction to it.
+- **Some domains carry an overlay**: a devotional commentary layer read across
+  the same events through a declared lens. Neither canon nor codex, and never
+  load-bearing for the main story.
+
+Two further notes on the corpus:
+
+- A chapter is divided into scenes, and each scene into per-character
+  point-of-view blocks. **Different POVs of one scene deliberately withhold
+  what the others supply.** A claim inside a POV block is that character's
+  understanding, not the narrator's assertion.
+- Terminology is versioned. Several cosmological terms have been renamed, and
+  the canonical glossary carries a legacy-to-current migration map. If a term
+  looks unfamiliar or two terms look synonymous, check there before concluding
+  the corpus is inconsistent.
+- Story content is licensed **CC BY-NC-ND 4.0** — attribution required, no
+  commercial use, no derivatives (full terms and a Fan Works exception are in
+  the source repository's `CONTENT-LICENSE.md`). The site's engine code is MIT.
+  The split is deliberate: permission to reuse the engine is not permission to
+  reuse the story.
+
+## Start here
+
+- [About]({{ '/about/' | absoluteUrl(site.url) }}): what this project is
+- [Storyline threads]({{ '/threads/' | absoluteUrl(site.url) }}): the reading paths through the seasons
+- [Atlas]({{ '/atlas/' | absoluteUrl(site.url) }}): worlds, habitats and places at a glance
+- [Canonical glossary and migration guide]({{ '/lore/glossary/canonical-glossary-and-migration-guide/' | absoluteUrl(site.url) }}): terminology law, including renamed terms and their legacy forms
+- [The Cosmic Cascade]({{ '/lore/cosmic-cascade/' | absoluteUrl(site.url) }}): the cosmological framework most other lore refers back to
+
+## Sections
+
+Each of these is a listing page that enumerates its own section:
+
+- [Seasons and chapters]({{ '/seasons/' | absoluteUrl(site.url) }}) — {{ collections.chapters | length }} published chapters, canon, in story order
+- [Lore]({{ '/lore/' | absoluteUrl(site.url) }}) — {{ collections.lore | length }} entries, canon: cosmology, factions, institutions, technology, worlds
+- [Glossary]({{ '/glossary/' | absoluteUrl(site.url) }}) — {{ collections.glossary | length }} terms, canon
+- [Characters]({{ '/characters/' | absoluteUrl(site.url) }}) — {{ collections.characters | length }} profiles
+- [Codex]({{ '/codex/' | absoluteUrl(site.url) }}) — {{ collections.codex | length }} in-universe documents, **each canon only for its named author** (see above)
+- [Timeline]({{ '/timeline/' | absoluteUrl(site.url) }}) — {{ collections.timelineEvents | length }} events, in-universe chronology
+- [Author's journal]({{ '/story-engine/' | absoluteUrl(site.url) }}) — {{ collections.journalEntries | length }} out-of-character notes on craft; discusses how the story is built, and is not itself story canon
+
+## Feeds
+
+- [New episodes]({{ '/feed/feed.xml' | absoluteUrl(site.url) }}) — Atom
+{#-
+  Chapters are the one section worth naming inline: they are the spine, there
+  are only a few dozen, and story order is not recoverable from URLs alone by
+  anything that has not already worked out the sNNeNNcNN scheme.
+-#}
+
+## Chapters in story order
+{% for c in collections.chapters %}
+- [{{ c.data.title }}]({{ c.url | absoluteUrl(site.url) }}) — S{{ c.data.season }}E{{ c.data.episode }}C{{ c.data.chapter }}{% if c.data.timestamp %}, {{ c.data.timestamp }}{% endif %}
+{%- endfor %}

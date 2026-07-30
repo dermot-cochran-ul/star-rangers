@@ -13,4 +13,17 @@ eleventyComputed:
   # this page's own pathname - so a discussion started here stays attached
   # to this exact scene/POV even if the parent chapter is later renumbered.
   comment_id: "{{ item.chapterCommentId }}-scene-{{ item.sceneNumber }}-{{ item.character.id }}"
+  # A hidden POV page still returns HTTP 200 with a placeholder body - see the
+  # `{% raw %}{% if item.included %}{% endraw %}` branch in _includes/scene-pov.njk - so it needs the
+  # same `noindex, follow` the global override in .eleventy.js gives every
+  # excluded.njk page. It cannot get it from there, and the reason is worth
+  # stating because it is the same blind spot twice: these pages are generated
+  # from THIS template, so classifyContentPath() sees inputPath
+  # "src/scene-pov.njk", matches none of its content dirs, returns null, and
+  # isContentIncluded() passes them straight through as included. Scene-POV
+  # pages opt out of the layout-swap convention entirely and gate on
+  # `item.included` instead (set per character in _data/scenePovPages.js), so
+  # anything keyed to the swapped layout misses them. Empty string rather than
+  # a value when included, because base.njk only emits the tag when truthy.
+  robots: "{% if not item.included %}noindex, follow{% endif %}"
 ---

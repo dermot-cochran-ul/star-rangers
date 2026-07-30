@@ -422,7 +422,22 @@ module.exports = function(eleventyConfig) {
     // reader is sent to for a page this build hides. A private thread's
     // excluded page points at its own homeDomain instead of the default
     // reference domain, so it never loops back to another placeholder.
-    referenceDomain: (data) => computeReferenceDomain(data)
+    referenceDomain: (data) => computeReferenceDomain(data),
+    // A hidden page still returns HTTP 200 with a real placeholder body -
+    // that IS the design, so no cross-link ever 404s - which means without
+    // this a narrowed clone publishes up to a few hundred indexable "Not
+    // included in this edition" pages. sitemap.xml already omits them (it
+    // filters on layout != "excluded.njk"), but a crawler following the
+    // internal links the placeholders exist to keep alive never consults a
+    // sitemap. `follow` rather than `nofollow` deliberately: the one useful
+    // thing on a placeholder is its link out to the reference domain, and
+    // that should still be traversed. Emitted by base.njk only when set, so
+    // an ordinary page gets no robots tag at all and any page may still opt
+    // in via its own `robots` front matter. Driven off isContentIncluded
+    // rather than data.layout for the reason documented at the top of this
+    // file - by the time this evaluator runs, data.layout may already read
+    // "excluded.njk" for an INCLUDED page's sibling and cannot be trusted.
+    robots: (data) => (isContentIncluded(data, contentFilter) ? data.robots : "noindex, follow")
   });
 
   return {
