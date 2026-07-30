@@ -73,7 +73,11 @@ description: "About Dermot R. Cochran, creator of Star Rangers."
   <a href="https://dermot-r-cochran.github.io/star-rangers/">GitHub Pages</a>. Separately,
   cPanel-hosted clones of the site pull updates via cPanel's Git Version Control feature,
   driven by <code>.cpanel.yml</code> and <code>scripts/cpanel-deploy.sh</code>, which build
-  the site with Eleventy and copy it into <code>public_html</code>. Each cPanel clone reads
-  its own untracked <code>deploy.conf</code> to choose a CSS theme and, optionally, narrow
-  the deployed content to a subset of characters or topics.
+  the site with Eleventy and copy it into <code>public_html</code>. Each clone's identity —
+  its palette, its wording, and whether it narrows the content to a subset — is resolved
+  from a registry in the repository by domain name, so a clone's own untracked
+  <code>deploy.conf</code> need only name the account and the domain. What that registry
+  may hold is deliberately limited: it carries framing, never facts. The lore, the
+  glossary and the chapters are identical on every domain, and a narrowed clone shows a
+  subset of one record rather than a variant of it.
 </p>

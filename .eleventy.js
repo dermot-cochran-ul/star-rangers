@@ -228,7 +228,17 @@ module.exports = function(eleventyConfig) {
   if (sitePathPrefix && sitePathPrefix !== "/star-rangers/") {
     eleventyConfig.addTransform("rewriteSitePathPrefix", function (content, outputPath) {
       if (outputPath && /\.(html|css|js|xml|txt)$/.test(outputPath)) {
-        return content.split("/star-rangers/").join(sitePathPrefix);
+        // Only where /star-rangers/ is a ROOT-RELATIVE path - preceded by a
+        // quote or an opening paren, which is how every href, src, srcset and
+        // CSS url() begins. This was an unanchored split/join, and that is a
+        // bug with a real precedent: the identical pattern in
+        // scripts/cpanel-deploy.sh rewrote the substring inside an ABSOLUTE
+        // url too, so the About page's link to
+        // https://dermot-r-cochran.github.io/star-rangers/ was served as
+        // https://dermot-r-cochran.github.io/ on every cPanel domain. The
+        // character before /star-rangers/ in an absolute url belongs to the
+        // host; anchoring on the delimiter is what tells the two apart.
+        return content.replace(/(["'(])\/star-rangers\//g, `$1${sitePathPrefix}`);
       }
       return content;
     });

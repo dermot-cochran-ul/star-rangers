@@ -487,9 +487,24 @@ build_and_deploy() {
   test -d "$REPOSITORY_ROOT/_site" \
     || { echo "FAIL [$label]: _site/ was not produced by eleventy" >&2; return 1; }
 
+  # Only rewrites /star-rangers/ where it is a ROOT-RELATIVE path - that is,
+  # where it is preceded by a quote or an opening paren, which is every place a
+  # link, src, srcset or CSS url() begins. The pattern used to be an unanchored
+  # s#/star-rangers/#/#g, and that was a real bug on the live site: it also
+  # rewrote the substring inside ABSOLUTE urls, so the About page's link to
+  # https://dermot-r-cochran.github.io/star-rangers/ was served as
+  # https://dermot-r-cochran.github.io/ - a broken link to the wrong place,
+  # created by the deploy rather than present in the source.
+  #
+  # Anchoring on the delimiter is what distinguishes the two cases: a
+  # root-relative path always begins right after " ' or (, while in an absolute
+  # url the character before /star-rangers/ is part of the host. Deliberately
+  # does NOT match bare occurrences in prose, which is the safe direction to
+  # fail - rewriting a path a reader is meant to see as text would be worse than
+  # leaving it.
   echo "--- [$label 4/6] rewrite /star-rangers/ prefix ---"
   find "$REPOSITORY_ROOT/_site" -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" \) \
-    -exec sed -i 's#/star-rangers/#/#g' {} + \
+    -exec sed -i 's#\(["'"'"'(]\)/star-rangers/#\1/#g' {} + \
     || { echo "FAIL [$label]: prefix rewrite (sed)" >&2; return 1; }
 
   # Runs the same pagefind indexing step as `npm run build` (package.json's
