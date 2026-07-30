@@ -14,6 +14,32 @@
   <link rel="icon" href="/star-rangers/images/icons/favicon-32.png" sizes="32x32" type="image/png" />
   <link rel="icon" href="/star-rangers/images/icons/favicon-16.png" sizes="16x16" type="image/png" />
   <link rel="apple-touch-icon" href="/star-rangers/images/icons/favicon-180.png" />
+  {#- SELF-canonical: every domain declares itself the canonical home of its own
+      URLs, rather than pointing at sciencefiction.site.
+
+      That is the right answer here specifically BECAUSE the domains are meant
+      to diverge. A cross-domain canonical says "this page is a copy, rank the
+      other one" - which consolidates ranking signals into one host and, in
+      exchange, asks search engines not to rank the independently-branded
+      domains at all. That trade is worth making for duplicates and is exactly
+      wrong for editions that carry their own framing, cast and copy.
+
+      Built from page.url + site.url, so it matches og:url above exactly and
+      picks up SITE_DOMAIN per clone with no per-domain configuration.
+
+      Deliberately NOT emitted on a page this build hides. `robots` is set to
+      "noindex, follow" precisely then (see .eleventy.js for the layout-swapped
+      pages and src/scene-pov.njk for the POV ones), and noindex plus canonical
+      is contradictory signalling: one says don't index this, the other says
+      index this URL instead. A placeholder has nothing worth canonicalising -
+      the reader-facing pointer to the domain that does have the page is the
+      link in its body. The two redirect stubs (glossary/dynarch.njk,
+      lore/solar-system-concordant.njk) are unaffected: they hand-write their
+      own head and keep canonical + noindex, which is the conventional pairing
+      for a redirect rather than for a placeholder. -#}
+  {%- if not robots or "noindex" not in robots %}
+  <link rel="canonical" href="{{ page.url | absoluteUrl(site.url) }}" />
+  {%- endif %}
   <link rel="alternate" type="application/atom+xml" title="{{ site.name }} — New Episodes" href="{{ '/feed/feed.xml' | absoluteUrl(site.url) }}" />
 
   <meta property="og:site_name" content="{{ site.name }}" />
