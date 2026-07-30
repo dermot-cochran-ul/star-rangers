@@ -5,7 +5,7 @@ into `src/lore/` or `src/glossary/` until it is settled and rewritten in
 in-universe terms — see "Keeping the scaffolding out of the setting" at the
 bottom, which is the constraint that matters most in this file.
 
-Twelve things are settled, and a conflict register at the foot records what they disturb. The rest are open questions with the consequences
+Thirteen things are settled, and a conflict register at the foot records what they disturb. The rest are open questions with the consequences
 worked out, so they can be decided rather than drifted into.
 
 ---
@@ -218,18 +218,27 @@ interesting claim: authority here is not a property of the beings, it is a
 property of the *constituted body*. The same minds, differently seated, stand in
 different relations to the same tier.
 
-**One thing left to pin down.** "Do not outrank" is precise, and it stops short
-of the converse. Two readings:
+**Settled 2026-07-30: they are incomparable.** Neither outranks the other, in
+the partial-order sense used throughout this file. A Telearch does not outrank a
+Universal Authority, and an Authority does not outrank a Telearch — there is no
+fact of the matter about precedence between them.
 
-1. **Incomparable** — neither outranks the other, in the partial-order sense used
-   throughout this file. Elegant, consistent with the Worldwright/Telearch
-   peership, and it means a dispute between a Telearch and an Authority has no
-   arbiter below the Archewrights.
-2. **The Authority is above them** — a strict ranking in the other direction.
-   Simpler, but it needs saying, since "do not outrank" does not say it.
+Consequences worth having:
 
-I would take (1), and it makes the Field Triumvirate parallel sharper still. But
-it is your call, and the note stays neutral until you make it.
+- **A dispute between a Telearch and an Authority has no arbiter below the
+  Archewrights.** Nothing in the intervening structure can settle it, because
+  there is nothing there that stands above both. Disputes of that kind must be
+  escalated, endured, or negotiated — never adjudicated locally.
+- It matches the Worldwright/Telearch peership exactly, which makes
+  incomparability the Cascade's normal shape at every seam rather than a special
+  exception granted twice.
+- It sharpens the Field Triumvirate parallel in
+  `star-rangers-command-hierarchy.md`: a body convened because no single
+  authority present can settle a question is the Corps reproducing, at its own
+  scale, the structure it exists inside.
+
+The presiding seat therefore does not raise the Council *above* the Telearchs. It
+lifts it out of the ranking with them.
 
 ### ~~The real conflict: the Harmonarchs are not a Cascade tier~~ — see above
 
@@ -607,9 +616,9 @@ words. No edit needed.
 **Resolved — the Harmonarchs.** `council-of-harmonarchs.md` says the Council
 is *not* a Cascade tier. Settled the same day: the Council alone sits below the
 Telearchs, while a Universal Authority - Council plus presiding seat - is not
-outranked by them. No page needs changing; one question remains, on whether that
+outranked by them - the two are incomparable, neither outranking the other. No
 
-is incomparability or a ranking the other way.
+page needs changing.
 
 **Tension, not conflict — the Hyperomnium.** `hyperomnium.md` calls it "the
 highest tier in the fixed Cosmic Cascade" and records that "no account exists of
