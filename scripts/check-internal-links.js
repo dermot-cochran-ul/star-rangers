@@ -21,6 +21,14 @@ const REPO = path.join(__dirname, "..");
 const SRC = path.join(REPO, "src");
 const PREFIX = "/star-rangers/";
 
+// Repo files outside src/ that nonetheless carry internal /star-rangers/ links
+// in authored content, and so need checking too. lib/editions.js holds the
+// per-domain hero copy that used to live inline in src/index.md; moving it
+// there took its links out of this script's walk of src/, which silently
+// dropped them from coverage until they were added back here. Anything else
+// that ends up holding authored links outside src/ belongs in this list.
+const EXTRA_FILES = ["lib/editions.js"];
+
 const ASSET_DIRS = ["images/", "audio/", "video/", "css/", "js/", "static/"];
 const ASSET_EXT = /\.(jpg|jpeg|png|gif|svg|webp|ico|m4a|wav|mp3|mp4|webm|css|js|xml|json|pdf|txt)$/i;
 
@@ -54,8 +62,12 @@ const problems = [];
 let checked = 0;
 let skipped = 0;
 
-for (const file of allFiles) {
-  if (!/\.(md|njk|html)$/.test(file)) continue;
+const extraFiles = EXTRA_FILES.map((f) => path.join(REPO, f)).filter((f) => fs.existsSync(f));
+
+for (const file of [...allFiles, ...extraFiles]) {
+  // The extension filter applies to the src/ walk only; EXTRA_FILES are named
+  // explicitly and are scanned whatever they are.
+  if (!/\.(md|njk|html)$/.test(file) && !extraFiles.includes(file)) continue;
   const text = fs.readFileSync(file, "utf8");
   const where = path.relative(REPO, file).replace(/\\/g, "/");
   let m;

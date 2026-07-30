@@ -252,6 +252,31 @@ build_and_deploy() {
 
   echo "--- [$label 1/6] custom lore injection (CUSTOM_LORE_FILE=${b_custom_lore_file:-none}) ---"
   if [ -n "$b_custom_lore_file" ]; then
+    # DEPRECATED 2026-07-30. Still honoured, deliberately: deploy.conf is
+    # untracked and lives on this account, so a live domain relying on this
+    # key cannot be migrated from the repo, and failing the build here would
+    # silently drop that domain's page. It warns instead.
+    #
+    # Two reasons it is going away, and the second is the binding one:
+    #   1. It puts story prose OUTSIDE the repo - unversioned, unreviewable,
+    #      invisible to npm test, check-internal-links.js and
+    #      check-related-terms.js, outside the CC BY-NC-ND scope
+    #      CONTENT-LICENSE.md describes, and gone if this account is lost.
+    #   2. It injects into src/lore/, and lore is CANON. Per-domain canon is
+    #      exactly what the settled policy forbids: canon is centralised, and
+    #      any per-domain variation is non-canonical. This key is the only
+    #      mechanism in the whole system that could make two domains disagree
+    #      about a fact rather than merely show different subsets of one
+    #      record - CHARACTERS/TOPICS/THREADS only ever subtract.
+    #
+    # Replacement: lib/editions.js for per-domain copy and flourishes (in
+    # repo, versioned, non-canonical by construction). CUSTOM_CSS_FILE is
+    # unaffected and not deprecated - it is cosmetic and cannot assert a fact.
+    echo "WARN [$label]: CUSTOM_LORE_FILE is DEPRECATED and will be removed." >&2
+    echo "WARN [$label]:   It writes into src/lore/, which is canon, and canon is centralised -" >&2
+    echo "WARN [$label]:   per-domain variants must be non-canonical. Move this content to" >&2
+    echo "WARN [$label]:   lib/editions.js (in-repo, versioned) and unset CUSTOM_LORE_FILE." >&2
+    echo "WARN [$label]:   See lib/editions.js and sample-deploy.conf for the migration." >&2
     if [ -f "$b_custom_lore_file" ]; then
       mkdir -p "$REPOSITORY_ROOT/src/lore/custom" \
         || { echo "FAIL [$label]: could not create src/lore/custom/" >&2; return 1; }

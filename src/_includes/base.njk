@@ -134,35 +134,12 @@
 
   <footer class="site-footer" role="contentinfo">
     <div class="site-footer__inner">
-      {% if theme == "fellowship" %}
       <div class="site-theme-audio">
-        <span class="site-theme-audio__label">Site theme — Orchestral fantasy</span>
-        <audio class="site-theme-audio__player" src="/star-rangers/audio/fellowship-theme.wav" controls loop preload="none">
+        <span class="site-theme-audio__label">Site theme — {{ edition.themeAudio.label }}</span>
+        <audio class="site-theme-audio__player" src="/star-rangers/audio/{{ edition.themeAudio.file }}" controls loop preload="none">
           Your browser does not support the audio element.
         </audio>
       </div>
-      {% elif theme == "starquest" %}
-      <div class="site-theme-audio">
-        <span class="site-theme-audio__label">Site theme — Sci-fi ambient</span>
-        <audio class="site-theme-audio__player" src="/star-rangers/audio/starquest-theme.wav" controls loop preload="none">
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-      {% elif theme == "pets" %}
-      <div class="site-theme-audio">
-        <span class="site-theme-audio__label">Site theme — Playful ukulele</span>
-        <audio class="site-theme-audio__player" src="/star-rangers/audio/pets-theme.wav" controls loop preload="none">
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-      {% else %}
-      <div class="site-theme-audio">
-        <span class="site-theme-audio__label">Site theme — Celtic ambient</span>
-        <audio class="site-theme-audio__player" src="/star-rangers/audio/celtic-theme.wav" controls loop preload="none">
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-      {% endif %}
       <p>
         <span>{{ site.name }}</span> — Interactive Fiction.
         Copyright © {{ build.copyrightYears }} Dermot R. Cochran.

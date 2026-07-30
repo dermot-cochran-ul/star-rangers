@@ -14,6 +14,7 @@ const {
   getRelatedContentUrls
 } = require("./lib/content-filter");
 const { threadForSeason, DEFAULT_REFERENCE_DOMAIN } = require("./lib/storyline-threads");
+const { getEdition, validateEditions } = require("./lib/editions");
 
 // Classifies a content file by where it LIVES (its inputPath), not by its
 // `layout` front-matter field. `layout` is itself one of the eleventyComputed
@@ -186,6 +187,18 @@ module.exports = function(eleventyConfig) {
   // Falls back to "default" for any build that never sets THEME (local
   // dev, CI, GitHub Pages).
   eleventyConfig.addGlobalData("theme", String(process.env.THEME || "default").trim().toLowerCase());
+
+  // Per-domain copy and flourishes (lib/editions.js). Separate from `theme`
+  // above, which is now only a palette name again: `theme` was carrying both
+  // jobs, and several domains share one palette, so it could not express a
+  // per-domain tagline. Resolved from EDITION, falling back to THEME so the
+  // untracked deploy.conf on every live clone keeps working unchanged - see
+  // that file's MIGRATION SAFETY note before renaming any id.
+  // Throws on a duplicate id or a themeAudio file that isn't in src/audio/ -
+  // see validateEditions for why those two in particular need checking here
+  // rather than by check-internal-links.js.
+  validateEditions(path.join(__dirname, "src", "audio"));
+  eleventyConfig.addGlobalData("edition", getEdition());
 
   // Same pattern as THEME above, but a plain on/off switch: lets a build
   // suppress the giscus comment widget entirely (see src/_includes/base.njk)
