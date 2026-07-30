@@ -170,7 +170,9 @@ These production domains are hosted on [iFastNet](https://ifastnet.com/portal/af
 
 ### Setup
 
-1. In your local clone, copy the tracked template into place: `cp sample-deploy.conf deploy.conf` (the copy is untracked/gitignored, since it's specific to one clone/domain — never commit a real `deploy.conf`).
+1. In your local clone, copy one of the two tracked templates into place (the copy is untracked/gitignored, since it's specific to one clone/domain — never commit a real `deploy.conf`):
+   - `cp sample-deploy-minimal.conf deploy.conf` — the two-line form: `CPANEL_USER` and `DOMAIN`. For a domain registered in [`lib/editions.js`](./lib/editions.js) that's the whole configuration, since everything that makes up the domain's identity (`THEME`/`EDITION`, `CHARACTERS`/`TOPICS`/`THREADS`, `SITE_NAME`/`SITE_TITLE`, `COMMENTS_ENABLED`, `GISCUS_PROFILE`) is resolved from that registry by domain for any key the file leaves unset.
+   - `cp sample-deploy.conf deploy.conf` — the full template, documenting every key inline. Copy this one if the clone needs the keys that stay machine-side and are never resolved from the registry (`ADMIN_EMAIL`, the raw `GISCUS_*_ID` values, `CUSTOM_CSS_FILE`, `DEPLOY_PRIMARY`, and `ALT_DOMAINS` with its `ALT_<id>_*` keys), or needs to override what the registry would otherwise fill in.
 2. Edit `deploy.conf` with values for that clone. Every key is optional; a commented-out or missing key falls back to its default. Example, showing every key at once:
 
 ```bash
