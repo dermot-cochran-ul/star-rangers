@@ -411,6 +411,33 @@ module.exports = function(eleventyConfig) {
       )
   );
 
+  // Every chapter, UNFILTERED - the one chapter collection that ignores
+  // CHARACTERS/TOPICS/THREADS and private threads alike. Feeds the permanent
+  // citation aliases in src/chapter-aliases.njk and nothing else.
+  //
+  // It has to be unfiltered so an external citation of /c/<comment_id>/ never
+  // 404s on a narrowed clone. That is the same promise excluded.njk already
+  // makes at a chapter's ordinary URL: the page still builds, as a placeholder
+  // pointing at a domain that does have it. An alias that vanished on the
+  // domains which narrow would break exactly the links this feature exists to
+  // keep alive. It discloses nothing new either - the placeholder already sits
+  // at the chapter's normal URL on every domain.
+  //
+  // Filtered by inputPath rather than by `layout`, because layout is rewritten
+  // to "excluded.njk" for a hidden chapter (see the comment at the top of this
+  // file); testing it here would silently drop precisely the chapters this
+  // collection exists to cover.
+  eleventyConfig.addCollection("allChapters", (collectionApi) =>
+    collectionApi
+      .getAll()
+      .filter((item) => classifyContentPath(item.inputPath) === "chapter")
+      .sort((a, b) =>
+        Number(a.data.season) - Number(b.data.season) ||
+        Number(a.data.episode) - Number(b.data.episode) ||
+        Number(a.data.chapter) - Number(b.data.chapter)
+      )
+  );
+
   // Same "chapters" set, newest real-world `date` first rather than story
   // order - what the Atom feed (src/feed.njk) actually wants to announce.
   eleventyConfig.addCollection("recentChapters", (collectionApi) =>
