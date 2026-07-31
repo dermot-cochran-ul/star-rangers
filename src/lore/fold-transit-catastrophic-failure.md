@@ -22,13 +22,13 @@ The cost of that rigour is not hypothetical, and the Corps's critics are not wro
 
 ## Two certificates, not one
 
-A lawful transit requires two, issued by different bodies against different objects. **The Safety Corps certifies the hull. The Navigational Corps certifies the route.**
+A lawful transit requires two, issued by different bodies against different objects. **The Safety Corps certifies the hull. The Navigation Corps certifies the route.**
 
-The division is not administrative tidiness. A fold route is not a fixed feature of anything — adjacency is a relation that holds for a while and then does not, and a corridor verified as safe is verified *as of a date*. The Navigational Corps' work is the continuous re-survey of **drift routes**: passages whose usable geometry moves, slowly and lawfully, away from the survey that certified them. A route certificate therefore carries an expiry in a way a hull certificate does not, and a great deal of the Corps' effort goes on the unglamorous business of establishing how fast a given corridor is drifting and how long that leaves.
+The division is not administrative tidiness. A fold route is not a fixed feature of anything — adjacency is a relation that holds for a while and then does not, and a corridor verified as safe is verified *as of a date*. The Navigation Corps' work is the continuous re-survey of **drift routes**: passages whose usable geometry moves, slowly and lawfully, away from the survey that certified them. A route certificate therefore carries an expiry in a way a hull certificate does not, and a great deal of the Corps' effort goes on the unglamorous business of establishing how fast a given corridor is drifting and how long that leaves.
 
 This produces a third failure class, and the one that embarrasses everybody:
 
-- **A properly certified hull on a lapsed route.** Both certificates genuine, both issued by bodies that did their work correctly, and the loss occurs anyway because the corridor moved and nobody re-surveyed it in time. Nothing was evaded. The Navigational Corps files these as its own rather than the operator's wherever the re-survey interval was its to schedule, which is a practice its counterparts elsewhere have never adopted and its underwriters have never enjoyed.
+- **A properly certified hull on a lapsed route.** Both certificates genuine, both issued by bodies that did their work correctly, and the loss occurs anyway because the corridor moved and nobody re-surveyed it in time. Nothing was evaded. The Navigation Corps files these as its own rather than the operator's wherever the re-survey interval was its to schedule, which is a practice its counterparts elsewhere have never adopted and its underwriters have never enjoyed.
 
 ## The certification gap
 

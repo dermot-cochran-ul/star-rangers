@@ -64,9 +64,22 @@ For this reason:
 
 The order of magnitude is on record: the Threshold rescue pulse drew twenty-two per cent of local ring reserve in 1.8 seconds, which is why the honest answer to *how much does this cost us* was that life support would notice a second one. A station does not ration jumps because the draw is theoretically large. It rations them because the draw competes, in the same minute, with the systems keeping everyone else breathing.
 
+## Why Gravity Is the Whole Difference
+
+Teleportation and [Quantum Space Harmonic Wave](/star-rangers/glossary/quantum-space-harmonic-wave/) transit run on the same physics, and their safety records have nothing whatever in common. The variable is gravity.
+
+A relocation lock is held against the local harmonic field, and a gravity gradient is a continuous distortion of that field. Every item in the constraint set above follows from it. The power draw is what it costs to hold coherent matter-state remapping open across a gradient. The sightline rule is unforgiving because a distorted field leaves no margin for inferred geometry. And the clinical picture — the electroconvulsive comparison, the cumulative cost, the enforced recovery — is what a body records after being remapped through one.
+
+QSHW transit does none of this in a well. A vessel phase-locks in free fall or close to it, where the field is quiet enough that a corridor either resolves or does not, and a failed lock produces a lawful abort rather than a survivable injury. That is the whole of why interstellar transit is routine commercial infrastructure while a two-metre jump across a containment door is a Medical Corps event.
+
+The clearest demonstration is the one every generation of engineering students rediscovers and the constraints file has never moved on: a surface-to-orbit jump fails all three conditions simultaneously — see [Ascent Javelins](/star-rangers/lore/ascent-javelins/), and note that bulk ascent by jump has never been certified anywhere in the Concord.
+
+The rule the Medical Corps teaches from this is deliberately blunt, because the intuitive version is backwards. **Distance is not what makes a jump dangerous. Standing on something massive is.**
+
 ## Continuity Constraints
 
 - Teleportation always relies on quantum space harmonics; there is no separate mystical teleport mechanism.
+- Gravity is the safety variable, not distance. A jump made in a well is expensive and physiologically costly; the same physics in free fall is ordinary FTL infrastructure. Stories may not invert this.
 - Stories may show disagreement about policy, but not about these physical constraints.
 - Any chapter featuring teleport use must identify sightline status, energy state, and post-jump condition.
 
