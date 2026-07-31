@@ -21,6 +21,8 @@ An **archecluster** is the set of universes that trace to a single Archewright â
 
 **It is not adjacency.** Cosmic membranes and the Interval between them describe physical separation; an archecluster describes common origin. Two universes on neighbouring membranes need not share an Archewright, and two universes in one cluster may sit nowhere near each other in the manifold.
 
+**And the manifold is not part of one.** Seating and descent are separate axes, so the [Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/) belongs to no cluster and never could: it is not a universe, it traces to no Archewright, and every cluster is seated in the same one. A cluster is a set of universes related by authorship. What they are all sitting in is an Upper Structure condition, fixed above the tier that authors anything.
+
 Where a cluster has a **reference universe**, that too is a matter of provenance: the primary universe whose record the others are read against, because it is the one holding the whole of it. It is a place to look things up, not a seat.
 
 **Example:** A derived universe whose physics has drifted well away from its parent's is still in the same archecluster â€” the archetypes it was drawn from don't stop being the archetypes it was drawn from. No one in the parent universe gains any say over it on that account, and no Worldwright is dispatched to correct the drift.
