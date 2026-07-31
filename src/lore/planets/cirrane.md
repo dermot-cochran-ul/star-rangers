@@ -11,11 +11,13 @@ locationType: "Gas Giant"
 
 The Ollune have no name for Cirrane. Not a disputed one, not several — none. A world is a thing you can stand off from and look at, and no one born inside a permanent overcast, with no ground beneath and no clear sky above, has ever been in a position to see one. *Cirrane* is a Federation survey catalogue entry. The people who live there were told what they live in, and have taken the news with reasonable grace.
 
+What they do have a name for is **Freyari**, and it is not a name for the planet. Freyari is the band of habitable air wrapped around it — the whole of the world as anyone born inside it encounters the world. Ollune translators are firm that the two words do not denote the same object, in a way Federation cartography has never quite accommodated: Cirrane is a body some tens of thousands of kilometres deep, of which all but a sliver is irrelevant to every living thing on it, and Freyari is the sliver. In ordinary Ollune usage the word also does duty for *everywhere*.
+
 **Cirrane** is the fourth planet of the **Vantine System**: a banded gas giant of unremarkable mass, no rings worth the mention, and a moon system Federation survey has catalogued and largely ignored. It is a member world of the [Federation of Sentient Beings](/star-rangers/lore/federation-of-sentient-beings/) on account of the one thing about it that is not unremarkable, which is that it is inhabited.
 
 ## The Temperate Shell
 
-Cirrane has no surface. Descending through its atmosphere, pressure and temperature climb without interruption until hydrogen stops behaving like a gas, and there is no depth at which anything a Federation survey would call ground begins. What Cirrane has instead is a **temperate shell**: a band of altitude, some tens of kilometres thick, where pressure, temperature and photochemistry happen to sit within the range life can work in.
+Cirrane has no surface. Descending through its atmosphere, pressure and temperature climb without interruption until hydrogen stops behaving like a gas, and there is no depth at which anything a Federation survey would call ground begins. What Cirrane has instead is a **temperate shell** — Freyari, to the people in it: a band of altitude, some tens of kilometres thick, where pressure, temperature and photochemistry happen to sit within the range life can work in.
 
 Everything alive on Cirrane lives in that shell, and the whole of the [Ollune](/star-rangers/lore/ollune/) civilisation is inside it. Above, the air thins past the point a body can generate lift from it. Below, the descent is not survivable, and the Ollune do not treat the lower atmosphere as a frontier, an underworld, or a place at all. It is simply the direction in which things stop.
 
