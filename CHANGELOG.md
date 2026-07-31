@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Changed
+
+- **The work is retitled *Drithane*** (2026-07-31, #247). A trademark/prior-art search turned up three collisions on *Star Rangers* as a title — Andre Norton's 1953 novel of the same name (still in print), a 1987–88 comic with an uncomfortably similar premise, and assorted unrelated media reusing the phrase — so the site would have been permanently second in search for its own name. *Drithane* is a coinage from Irish *drithle* (spark, glimmer) with no exact match in any medium. **Front-of-house branding only:** site name/title/description, homepage H1, theme-generator labels, and prose/frontmatter lines naming the work's title all changed. **Deliberately unchanged:** the Star Rangers remain the in-universe corps throughout (~298 occurrences, including the Charter, the Anthem and the founding history), plus the repo slug, the `/star-rangers/` URL prefix, the alias domains, and the giscus comment repos — see `CLAUDE.md`'s opening note on telling the two senses apart.
+
 ### Added
 
 - **Three Eden characters and a second Kate Ukrainka codex story, all pointed at the Smart Pet material** (drafted 2026-07-30 at Dermot's direction — **proposals, not settled canon**).
