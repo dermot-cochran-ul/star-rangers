@@ -12,9 +12,17 @@ Nothing has ever been lost inside a fold. Things are lost at the two ends of one
 
 This matters because an aperture tolerance is an engineering specification. It can be written down, tested against, and certified. It can also be written down badly, tested against cheaply, and certified by somebody with an interest in the answer.
 
+## How the Corps certifies, and what it costs
+
+The [Star Rangers Safety Corps](/star-rangers/lore/star-rangers-safety-corps/) maintains the strictest fold-transit standard in settled space. It is not, on the whole, admired for it. The Corps is conservative to the point of obstruction and slow in a way its own officers decline to apologise for, and the complaint filed against it by operators for six centuries has never really changed: that it treats every application as though the building were already on fire.
+
+What it has, and what nothing else in settled space has, is a false-certification rate that rounds to zero. A hull the Safety Corps has passed is almost never a hull that should not have passed. **Almost** is load-bearing and the Corps is the party that insists on it — the certifications that failed are carried in its own loss-adjustment record, at length, with the reasoning that produced them intact. A body that files its own bad calls is a body whose good ones can be weighed.
+
+The cost of that rigour is not hypothetical, and the Corps's critics are not wrong about it. A certification queue measured in years is a commercial fact, and an operator facing one has a lawful alternative in every direction: a registry whose standard is weaker and whose answer comes by return. **The care that makes a Safety Corps certificate worth holding is the same care that sends tonnage to registries willing to issue one on request.** The Corps has understood this for a century, has never found a way to move faster that survived its own review board, and regards the trade as settled rather than comfortable.
+
 ## The certification gap
 
-The [Star Rangers Safety Corps](/star-rangers/lore/star-rangers-safety-corps/) maintains the strictest fold-transit standard in settled space, and the loss statistics are unambiguous about what that is worth: hulls certified against it are lost at a rate the rest of the record does not approach.
+The loss statistics are unambiguous about what the standard is worth: hulls certified against it are lost at a rate the rest of the record does not approach.
 
 The Safety Corps also has no power whatsoever to make anyone use it.
 
@@ -47,7 +55,7 @@ A body of scholarship disputes neither the physics nor the theology, but the tra
 
 It is the least popular of the three positions and the one most often left out of the argument entirely. The Archive keeps it because it is the only one of the three that can be tested against something: the record itself, which is the Archive's own object.
 
-All three are on file. None is adjudicated. What the file does record, and repeats in the margin of every revision, is the one finding all three readings are compatible with and none is required to explain: the losses fall where the certification is weakest, and they have never once failed to.
+All three are on file. None is adjudicated. What the file does record, and repeats in the margin of every revision, is the one finding all three readings are compatible with and none is required to explain: the losses fall where the certification is weakest. There are exceptions. They sit in the Safety Corps' own loss-adjustment record, they are few enough to be named individually, and every party to the argument has at some point tried to make one of them carry more weight than it will bear.
 
 ## See also
 
