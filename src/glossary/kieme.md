@@ -17,6 +17,10 @@ Like all Upper Structure tiers, Kieme is non-anthropomorphic. It establishes ori
 
 The legacy name for this tier is *Holy Triumvirate* — sometimes rendered, in older devotional Archive material, as the **Most Holy Triumvirate**. In all current canon, Kieme and Holy Triumvirate are synonymous, but the name is not just an honorific: Kieme is itself understood to be threefold in nature, distinct from — and nested one level below — [the Trinity](/star-rangers/lore/cosmic-cascade/), the broader grouping of Hyperomnium, Kieme, and Conseleme. What exactly Kieme's three internal aspects are is not something the invariant-only inference method this glossary insists on can settle; devotional material fills the gap with a confidence the Archive does not share.
 
+The name is older than the tier's current definition, and it carries a claim. Devotional Archive material reads *Kieme* as *ruler of the Spiritual layer*, taking the **-eme** ending as a ruler-marker — the same element behind [Conseleme](/star-rangers/glossary/conseleme/), glossed there as *ruler of the Conceptual layer*. The derivation is well attested. The reading is not: a ruler decides, and the Upper Structure is defined by constraint rather than decision.
+
+The two are not as far apart as they look, which is why the Archive keeps the gloss on record rather than striking it. The traditions that read the name this way are the same ones holding that Kieme may elect to translate an essence into the Spiritual layer after death — an election, a decision, a ruler's act, at exactly the layer the etymology names. Doctrine and derivation stand or fall together, and both sit precisely where invariant-only inference cannot reach. The Archive notes what the name would mean if taken structurally, declines to take it that way, and stops there.
+
 **Key constraints:**
 - No direct dialogue with time-bound entities.
 - No selective intervention at the Material layer.
