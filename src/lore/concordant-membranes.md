@@ -29,6 +29,20 @@ The distinction is not pedantry, because it decides which effects can happen whe
 | Two Concordant Zones **inside one membrane** | An ordinary internal edge — no Interval | Instrument drift, timebase mismatch, lawful disagreement without law failure |
 | Two **membranes** — two universes | The **[Interval](/star-rangers/glossary/interval/)** | Membrane Resonance, Intermembrane Bleed, Membrane Shadows, transient gravity tunnels |
 
+### The interior fits together
+
+Seen from the tiers that author membranes rather than from inside one, a membrane's interior is not a scattering of lawful regions in some neutral medium that happens to lie between them. **The Concordant Zones tile it** — an infinite jigsaw, every piece internally lawful, every piece meeting its neighbours edge to edge with nothing whatever in between.
+
+The nothing-in-between is the load-bearing part, and it is the same fact the table above records from the other direction. Membranes are separated by the Interval. Zones are separated by nothing at all; they abut. A jigsaw is the right picture for the inside of a membrane precisely because its pieces touch, and it is exactly the wrong picture for two membranes, which never do.
+
+Two consequences are worth stating, because both get assumed the other way round.
+
+**There is no unclaimed interior.** Every volume inside a membrane lies within some Concordant Zone. There is no neutral space between zones for a vessel to be in, no third condition a region can occupy, and nothing a survey could file as belonging to no zone — only the question of which zone, which at horizon scale is very rarely a live question for anybody.
+
+**A zone's extent is not a property it owns.** In a jigsaw no piece's shape is independent of its neighbours, and the same holds here: an internal edge is where two rule sets meet and disagree lawfully, not a wall either zone built and neither a limit either one could shift alone. This is why the edge produces instrument drift and timebase mismatch rather than a failure — both sets are holding, and the disagreement is what holding looks like from the seam.
+
+**None of which the Archive can confirm.** [Concordant](/star-rangers/glossary/concordant/) declines to answer how many zones a universe holds and gives the reason plainly: a handful of unbounded zones and endlessly many merely vast ones look identical from anywhere inside either, since one zone already exceeds everything an observer can see. That has not changed and is not weakened by anything above. The tiling is the **design account**, filed as such — it comes from the strata that author membranes, not from anyone who has stood at an edge, and no survey now or later is shaped to check it. It is a jigsaw no one has ever seen a single edge of, described by the only parties in a position to have seen the whole picture.
+
 Everything graded by the Boundary-State Classes below belongs to the **second** row. There is no Interval inside a universe, so a zone edge cannot produce a bleed event however sharply the two rule-sets differ.
 
 What separates one membrane from the next is the **[Interval](/star-rangers/glossary/interval/)** — manifold separation, measured across the Common Manifold rather than through either universe's own space. The Interval is not a place and not a medium anything travels through under its own power; no ship has ever been in it, and no being is native to it. It is the distance term in every inter-membrane measurement Survey Corps takes, and its only operationally interesting property is that it varies. Under a wide Interval, one universe's [Etheric](/star-rangers/glossary/etheric/) archetypal templates have no measurable reach into its neighbour. The two membranes are real, adjacent, and functionally inert to each other.
