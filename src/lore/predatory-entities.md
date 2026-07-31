@@ -3,7 +3,7 @@ layout: lore-entry.njk
 title: "Predatory Entities: Court-Fae, Gilded Saints, and Cute Predators"
 category: "Entities"
 tags: [court-fae, gilded-saints, cute-predators, predatory-entities, ambiguity, consent, sapient-monsters, meta-dimensional]
-description: "The three principal classes of predatory meta-dimensional entity in the Drithane universe, classified by sapience and feeding method."
+description: "The three principal classes of predatory meta-dimensional entity in the Drithane multiverse, classified by sapience and feeding method."
 image: "predatory-entities.jpg"
 image_alt: "Blurry human arms"
 ---
