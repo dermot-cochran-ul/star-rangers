@@ -18,6 +18,7 @@ The Cosmic Cascade is the fixed ordering of causal authority in the Drithane mul
 
 - No moral cosmology: the Cascade does not encode virtue, sin, reward, or punishment — with one contested exception. See [The Cosmic Limitation on Evil](/star-rangers/codex/cosmic-limitation-on-evil/), a law Archive material credits Kieme with designing, which Archive theorists have never fully reconciled with this invariant.
 - No magic: all effects are lawful outcomes of higher-dimensional physics, universe overlap/folding, and archetypal interference.
+- **No literal theophany.** No stratum above the Levrils appears, speaks, or manifests to a time-bound witness as itself. Two standing exceptions exist and neither breaches the rule. An [Avatar](/star-rangers/glossary/avatar/) is a limited person — proceeding from a stratum without being the same person as it, and leaving a record indistinguishable from a Champion's. A [Levril](/star-rangers/glossary/levril/) acting as representative of a higher stratum is still a Levril, encountered as one, whatever authority it carries. So the record never holds an unmediated appearance: every documented case is either someone who can be mistaken for a Champion, or someone who can be identified as a Levril. Accounts asserting otherwise are claims about interpretation, not evidence of a category the Cascade admits.
 - Dragons are low-ranking Levrils.
 - Only primary universes possess Worldwrights.
 - Concordance is the plural form of Concordant.

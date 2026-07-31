@@ -6,13 +6,14 @@ category: "Cosmic Cascade"
 short: "Every universe tracing to one Archewright, sharing that Archewright's archetypes and possibility space. A fact of authorship, not a chain of command."
 related:
   - "Cosmic Cascade"
+  - "Formcluster"
   - "Worldwright"
   - "Concordant"
   - "Noögenic Protouniverse"
 tags: [archecluster, archewright, cascade, cosmology]
 ---
 
-An **archecluster** is the set of universes that trace to a single Archewright — every primary universe built inside that Archewright's archetypes and possibility space, together with the derived universes descended from them. [Archewrights define archetypes and possibility space](/star-rangers/lore/worldwrights/competing-designs/); [Worldwrights](/star-rangers/glossary/worldwright/) instantiate primary universes within it. The cluster is therefore a fact about *authorship*, one tier above the vessels themselves.
+An **archecluster** is the set of universes that trace to a single Archewright — every primary universe built inside that Archewright's archetypes and possibility space, together with the derived universes descended from them. One tier up, the [formcluster](/star-rangers/glossary/formcluster/) is the set of archeclusters whose archetypes were drawn from a single Formwright's lawful templates. [Archewrights define archetypes and possibility space](/star-rangers/lore/worldwrights/competing-designs/); [Worldwrights](/star-rangers/glossary/worldwright/) instantiate primary universes within it. The cluster is therefore a fact about *authorship*, one tier above the vessels themselves.
 
 **It is not a Worldwright's universe set.** A Worldwright design like Kaelor Virex's three coupled universes (RTS-9) or Soryth Valen's single primary line (MCS-1) is one architecture *inside* an archecluster; a cluster can contain many such designs, competing and incompatible with one another, all still drawn from the same archetype vocabulary. Two universes can share an Archewright and share almost nothing else.
 
