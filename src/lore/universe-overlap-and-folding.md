@@ -99,7 +99,7 @@ Localised topology rewrite of distance metrics while preserving global causality
 Fold operations near active boundary zones require stricter aperture limits.
 
 ### Lagrange-Site Folding
-Fold operations initiated from L4 or L5 Lagrange positions are classified Tier 1 by Survey Corps navigation protocol. These sites require minimal station-keeping during scaffold generation and produce the lowest coherence-debt profile of any available departure geometry. See [Lagrange Points and Fold-Space Transit](/star-rangers/lore/lagrange-fold-points/) for the full treatment.
+Fold operations initiated from L4 or L5 Lagrange positions are classified Tier 1 by Navigation Corpson protocol. These sites require minimal station-keeping during scaffold generation and produce the lowest coherence-debt profile of any available departure geometry. See [Lagrange Points and Fold-Space Transit](/star-rangers/lore/lagrange-fold-points/) for the full treatment.
 
 ### Overlap Without Transit
 Overlap windows can occur without vehicle translation and still generate measurable drift.

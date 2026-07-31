@@ -845,3 +845,104 @@ three newsnets printed it whole, and it is the second half that gets quoted.
 - Whether the Institute's section 4.5 — a Ranger field analyst offered an
   account and was never asked for it again — is ever followed up. That is
   Rook-7, and it is a loose thread deliberately left loose.
+
+## The Tír na nÓg expulsion (Dermot, 31 July 2026 — canon direction)
+
+**Kept out of public lore and off both character pages on purpose.** Too much of a
+spoiler for either. What *is* published is the general case, with no names on it:
+`src/lore/shore-leave-and-neutrality.md`, which sets out the dilemma an active-duty
+officer faces on personal leave and why the Rangers have never written a rule
+against it. That entry exists so this incident has somewhere to land later without
+needing to be explained from scratch.
+
+**What happened.** On her last visit to Tír na nÓg, Tissadelle was expelled from the
+Celtic Union for what the Union characterised as meddling in its politics. She was
+not meddling. She was trying to help Órla, and she asked too many awkward questions.
+
+**Why that is the whole point.** Nothing about it requires her to have taken a side,
+and the arc should refuse to let her have taken one. The Ranger habits are the
+mechanism: ask precisely, separate the confirmed from the assumed, notice a rule
+nobody can give a reason for. `orla-shepherd.md` already establishes both halves of
+this in place — Órla reads her daughter's sentences "the way she reads weather" and
+has tracked every letter since Tissadelle stopped saying *I think* and started
+saying *I haven't confirmed that yet*; and the 2831 visit has Tissadelle telling her
+mother what the Hollow's rule actually protects against, "off any Ranger record, as
+family rather than as report."
+
+So the expulsion is the same exactness, pointed at the same croft, one visit later —
+and in a small polity with long memory there is no register in which "why does this
+rule exist" is merely a technical question. It is inseparable from who benefits from
+it existing. She is helping her mother. The room is watching a Star Ranger take an
+interest.
+
+**Institutional consequences, already load-bearing elsewhere.**
+
+- The Celtic Union still recognises the Star Rangers. Recognition is extended to the
+  institution; hospitality is extended to the person, and it is the person's to lose.
+  Recorded in `star-rangers-navigation-corps.md` and `shore-leave-and-neutrality.md`.
+- **The Rangers will not contest it.** No representations, no diplomatic protest —
+  the same discipline as the Cerebraun Hegemony's withdrawn invitation. Their whole
+  standing beyond the Concord rests on the limit being honoured when it is
+  inconvenient. If the arc wants her defended, the cost of defending her is the
+  charter, and somebody senior has to say so out loud.
+- Tír na nÓg is her home world and the Union's flagship world. Expulsion bars her
+  from the croft, from Órla, and from the Hollow — which is a personal catastrophe
+  wearing the clothes of an administrative decision.
+- **The mechanism is the immunity itself** (Dermot, 31 July 2026). Ranger status
+  works like diplomatic accreditation, and its exact reciprocal is the power to
+  declare an individual holder unwelcome. She cannot be an accredited neutral and a
+  citizen with an unconditional right of return at the same time - the status
+  displaces the citizenship. So she loses more than entry: standing in property and
+  inheritance, a voice in Union decisions, the plain right to be present at a family
+  matter without anyone's permission. **The croft is six generations of Shepherd
+  women and she is now the first with no legal standing in it.** Set out generally,
+  with no names on it, in `src/lore/shore-leave-and-neutrality.md`.
+- That also forecloses the obvious rescue. The Rangers cannot contest an expulsion
+  without asserting that Ranger status confers rights *against* a polity - which is
+  the claim the charter exists to disclaim, and the claim that would dissolve the
+  recognition the immunity is made of. Anyone in the arc who proposes fighting it is
+  proposing to spend the institution to save one officer, and should be answered in
+  exactly those terms.
+
+**The beat that carries it** (Dermot, 31 July 2026 - canon direction). Immediately
+after the expulsion order is announced, Orla crosses to Tissadelle and holds her -
+a deep, unhurried embrace, given in the knowledge that she may never see her
+daughter again.
+
+Four things make it work, and a scene that drops any of them loses it:
+
+1. **It is literal, not melodrama.** Orla has never left Tir na nOg and has no
+   interest in doing so; `orla-shepherd.md` is explicit and both women have long
+   since stopped arguing about it. Tissadelle is barred from returning. Neither will
+   cross the gap, so "might never see her again" is a plain reading of the logistics
+   rather than a feeling either of them is indulging.
+2. **Orla is not demonstrative, which is the whole force of it.** Her register is
+   practicality and understatement - the Hollow's customs are "a habit worth keeping
+   regardless", she reads people the way she reads weather. An embrace of that length
+   from her is the largest thing she owns, and it costs her visibly to give it in
+   front of whoever is in the room.
+3. **It answers a line already on the page.** `orla-shepherd.md` ends its character
+   notes with: she has told herself, *with only partial success, that exactness is
+   not the same as distance*. The hug is the reply to that sentence, and it arrives
+   at the exact moment the distance stops being a worry and becomes an
+   administrative fact. Do not restate the line in the scene. Let it be answered.
+4. **Tissadelle does not break. Orla moves.** Her composure holds - she is an officer
+   receiving an order, in public, and that self-possession is load-bearing to her
+   whole characterisation. The mother crosses the floor to the daughter. Writing this
+   the other way round, with Tissadelle collapsing into Orla, would be easier and
+   would be wrong.
+
+Note the framing that follows for free: the order is an administrative instrument
+and the embrace is the only thing in the room that is not procedural. Nobody present
+has any authority to stop either one.
+
+**Open — deliberately not decided here.**
+
+1. **When.** Órla's page is tagged season-5 and its scene is 2831 UCSD. "Her last
+   visit" is later, but whether that puts the expulsion inside S6, between seasons,
+   or in the S7 back-half changes what it is doing in the arc.
+2. **What the questions were about.** The Hollow's rule is the obvious candidate and
+   would tie the expulsion to the arc's own central mystery. It is not the only
+   option and nothing above requires it.
+3. **Whether Órla knows** the expulsion followed from being helped, and whether
+   Tissadelle would ever let her find out.

@@ -23,7 +23,7 @@ Levrils sit below Celestials (Frenar) and above Champions/Heroes in the fixed Ca
 
 Levrils **select Champions** from sentient material beings — organic or artificial — based on constraint literacy and causal relevance. This selection is a bounded, lawful assessment, not supernatural favour.
 
-Levrils may also choose to mentor mortals in [constraint literacy](/star-rangers/glossary/constraint-literacy/). This is the closest thing to "teaching magic" that occurs in the Drithane universe, and it is emphatically not magic.
+Levrils may also choose to mentor mortals in [constraint literacy](/star-rangers/glossary/constraint-literacy/). This is the closest thing to "teaching magic" that occurs in the Drithane multiverse, and it is emphatically not magic.
 
 **Example:** A Levril does not need to test a candidate directly to select them as a Champion. Observing sustained, competent action under constraint — the kind of pattern a seasoned survey team lead displays across repeated boundary-station postings — is itself sufficient evidence of the causal relevance a Levril looks for.
 

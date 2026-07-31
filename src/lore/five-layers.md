@@ -3,7 +3,7 @@ layout: lore-entry.njk
 title: "The Five Layers of Reality"
 category: "Cosmology"
 tags: [cosmology, layers, spiritual, conceptual, etheric, physical, material]
-description: "The five ontological layers and their measurable interaction rules in the Drithane universe."
+description: "The five ontological layers and their measurable interaction rules: the upper two multiverse-wide, the lower three local to this universe."
 image: "five-layers.jpg"
 image_alt: "A luminous blue spiral galaxy seen face-on, with faint translucent planes of light layered across it suggesting depth strata"
 ---
@@ -11,6 +11,12 @@ image_alt: "A luminous blue spiral galaxy seen face-on, with faint translucent p
 A stone falls, a promise lingers, a pattern repeats, and a prayer is mistaken for causality. The Five Layers exist to keep those different kinds of event from being confused with one another.
 
 Reality is expressed through five layers. These layers are causal modes, not metaphorical planes.
+
+The five do not all reach equally far. Layers 1 and 2 are multiverse-wide — neither is confined to a single universe — which is why the [Upper Structure](/star-rangers/lore/cosmic-cascade/) tiers named for them, [Kieme](/star-rangers/glossary/kieme/) and [Conseleme](/star-rangers/glossary/conseleme/), sit above the Worldwrights who author individual universes. Layers 3 to 5 do not travel. Etheric extent runs through this universe's compact dimensions, Physical law runs under local [Concordant](/star-rangers/glossary/concordant/) boundary conditions, and the Material layer is local by definition; all three are shaped by a dimensional structure the [Grand Ensemble](/star-rangers/lore/ensemble-multiverse/) treats as a local fact rather than a cosmic constant.
+
+Multiverse-wide is not the same as uniform, and Layer 2 is where that distinction bites. The Conceptual layer divides into **conceptual realms**: each [Metawright](/star-rangers/lore/cosmic-cascade/) holds one, and settles within it its own system of mathematical axioms and foundations — bounded by the existence constraints Conseleme sets, but not determined by them. Conseleme fixes what any mathematics must satisfy; a Metawright settles which mathematics there is. Two universes authored beneath different Metawrights therefore do not merely run on different physical law. They differ in what can be proved.
+
+The consequence for the Survey Archive is unglamorous and daily, and it has three settings rather than two. A Layer 1 invariant may be quoted as universal. A Layer 2 invariant may be quoted only as far as its own conceptual realm extends — further than one universe, and a great deal less than everywhere. A Layer 3 or lower invariant may not be quoted past this universe's boundary at all, however many Concordants agree.
 
 ## Layer 1 — Spiritual
 
