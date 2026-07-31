@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "Lore"
-description: "World-building articles about the Five Layers, the Cosmic Cascade, factions, and the rules of the Star Rangers universe."
+description: "World-building articles about the Five Layers, the Cosmic Cascade, factions, and the rules of the Drithane universe."
 comments: true
 commentsCategory: lore
 ---

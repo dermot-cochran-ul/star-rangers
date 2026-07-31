@@ -10,7 +10,7 @@ image_alt: "Defocused luminous colour stripes"
 
 A legal jump is over before a witness can finish a breath, but the body remembers it longer. That aftershock is part of the rule, not an accident.
 
-Teleportation in Star Rangers canon is not magic and not unconstrained instant movement.
+Teleportation in Drithane canon is not magic and not unconstrained instant movement.
 It is a short-range harmonic relocation event that depends on the same lawful field behavior as **Quantum Space Harmonic Wave** transit.
 
 ## Core Limitation Set

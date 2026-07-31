@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "Season 3"
-description: "Episodes and chapters in Season 3 of Star Rangers."
+description: "Episodes and chapters in Season 3 of Drithane."
 permalink: /seasons/s03/
 ---
 <nav class="chapter-breadcrumb" aria-label="Season location">

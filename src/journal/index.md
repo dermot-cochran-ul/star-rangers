@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "Journal"
-description: "Notes from behind Star Rangers — the reasoning, wrong turns, and small decisions that don't fit in the story itself."
+description: "Notes from behind Drithane — the reasoning, wrong turns, and small decisions that don't fit in the story itself."
 ---
 <img class="page-hero-image" src="/star-rangers/images/hero/journal-notebook.jpg" alt="An open journal on a wooden desk, headed &quot;Author's Journal&quot; in cursive above a dated handwritten entry, with an ink bottle behind it" />
 <nav class="chapter-breadcrumb" aria-label="Page location">
@@ -12,7 +12,7 @@ description: "Notes from behind Star Rangers — the reasoning, wrong turns, and
 </nav>
 <h1 class="page-title">Journal</h1>
 <p class="page-intro">
-  This is out-of-character. Everything else on this site is Star Rangers' own record of itself — the Journal is
+  This is out-of-character. Everything else on this site is Drithane' own record of itself — the Journal is
   Dermot R. Cochran's, about it: naming decisions, worldbuilding rationale, and the odd fragment of process worth
   keeping in public rather than only in a private notes file. If you're looking for the story, start with
   <a href="/star-rangers/seasons/">Seasons</a> instead.

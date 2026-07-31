@@ -12,15 +12,20 @@ module.exports = function () {
   // <title> tag's own suffix (see src/_includes/base.njk) - kept separate so
   // a clone can put a longer/different string in the tab title than in its
   // on-page branding without needing two unrelated overrides.
-  const name = process.env.SITE_NAME || "Star Rangers";
-  const title = process.env.SITE_TITLE || "Star Rangers";
+  // The WORK is titled "Drithane"; the Star Rangers are an organisation
+  // INSIDE it. Retitled 2026-07-31 to clear Andre Norton's 1953 novel "Star
+  // Rangers" (and a 1987 comic of the same name) - the corps keeps its name in
+  // the fiction, and the /star-rangers/ URL paths and alias domains are
+  // deliberately unchanged, so only front-of-house branding moved.
+  const name = process.env.SITE_NAME || "Drithane";
+  const title = process.env.SITE_TITLE || "Drithane";
 
   return {
     name,
     title,
-    description: "The stars call us forward with hope; to protect what is good and to see what is true. An interactive science-fantasy novel grounded in speculative cosmology — one canonical history across the Five Layers, multiple Concordants, and multiple points of view.",
+    description: "Drithane is an interactive science-fantasy novel: a station clock forty seconds wrong, and the Star Rangers ordered to measure the drift and guard the public record. The stars call us forward with hope; to protect what is good and to see what is true. One canonical history across the Five Layers and multiple Concordants.",
     url: `https://${domain}/`,
-    author: "Star Rangers",
+    author: "Drithane",
     language: "en",
     // Open Graph wants a full locale rather than the bare language code above.
     // en_GB rather than en_US because the prose is consistently British/Irish

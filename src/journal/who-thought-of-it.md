@@ -2,11 +2,11 @@
 layout: journal-entry.njk
 title: "Who Thought of It"
 date: "2026-07-26"
-description: "A more precise accounting than 'written with AI' — which parts of Star Rangers are my ideas, which are the machine's work, and why the honest line isn't drawn where people expect."
+description: "A more precise accounting than 'written with AI' — which parts of Drithane are my ideas, which are the machine's work, and why the honest line isn't drawn where people expect."
 tags: [process, editorial, authorship]
 ---
 
-I've already written about [which tools built this site](/star-rangers/journal/two-copies-forty-seconds-apart/). This is the harder question, and the one people actually mean when they ask: how much of *Star Rangers* did I think of?
+I've already written about [which tools built this site](/star-rangers/journal/two-copies-forty-seconds-apart/). This is the harder question, and the one people actually mean when they ask: how much of *Drithane* did I think of?
 
 The short answer is all of it, and that answer is doing more work than it looks like. So here is the long one.
 

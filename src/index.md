@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "Home"
-description: "Star Rangers — an interactive science-fantasy novel grounded in speculative cosmology. One canonical history across the Five Layers, multiple Concordants, and multiple points of view."
+description: "Drithane — an interactive science-fantasy novel grounded in speculative cosmology. One canonical history across the Five Layers, multiple Concordants, and multiple points of view."
 ---
 {%- set heroCharacters = collections.characters | charactersByIds(edition.heroCharacterIds) -%}
 <section class="home-hero">
@@ -20,7 +20,7 @@ description: "Star Rangers — an interactive science-fantasy novel grounded in 
   {%- else %}
   <img class="page-hero-image" src="/star-rangers{{ ogImage }}" alt="{{ ogImageAlt }}" />
   {%- endif %}
-  <h1 class="home-hero__title">✦ Star Rangers</h1>
+  <h1 class="home-hero__title">✦ Drithane</h1>
   <p class="home-hero__subtitle">
     {{ edition.heroSubtitle | safe }}
     {% if latestLore %} Newest from the record: <a href="/star-rangers{{ latestLore.url }}">{{ latestLore.title }}</a> — {{ latestLore.excerpt }}{% endif %}
@@ -67,7 +67,7 @@ description: "Star Rangers — an interactive science-fantasy novel grounded in 
   <h2>Licence</h2>
   <p>Copyright © {{ build.copyrightYears }} Dermot R. Cochran. Some rights reserved.</p>
   <p>
-    The text and world-building content of <em>Star Rangers</em> is licensed under the
+    The text and world-building content of <em>Drithane</em> is licensed under the
     <strong>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</strong>
     (<strong>CC BY-NC-ND 4.0</strong>) licence. You are free to share this material — copy and
     redistribute it in any medium or format — for non-commercial purposes only, provided you give

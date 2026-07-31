@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "About the Author"
-description: "About Dermot R. Cochran, creator of Star Rangers."
+description: "About Dermot R. Cochran, creator of Drithane."
 ---
 <img class="page-hero-image" src="/star-rangers/images/hero/about-writer.jpg" alt="A writer working at a desk at night" />
 <h1 class="page-title">About the Author</h1>
@@ -11,7 +11,7 @@ description: "About Dermot R. Cochran, creator of Star Rangers."
 
 <h2>How this site is built</h2>
 <p>
-  Star Rangers is a static site built with <a href="https://www.11ty.dev/">Eleventy</a>.
+  Drithane is a static site built with <a href="https://www.11ty.dev/">Eleventy</a>.
   Content lives as Markdown and Nunjucks templates in this repository's <code>src/</code>
   directory; <code>npm run build</code> runs Eleventy to compile it into the static
   <code>_site/</code> output, <code>npm run start</code> serves it locally with live
@@ -37,10 +37,10 @@ description: "About Dermot R. Cochran, creator of Star Rangers."
 
 <h2 id="fan-works">Fan fiction</h2>
 <p>
-  Want to write your own stories in the Star Rangers universe? Post them on
+  Want to write your own stories in the Drithane universe? Post them on
   <a href="https://archiveofourown.org/">Archive of Our Own</a> or
   <a href="https://www.wattpad.com/">Wattpad</a> rather than here — tag them
-  something like "Star Rangers (Dermot R. Cochran)" so other readers can find
+  something like "Drithane (Dermot R. Cochran)" so other readers can find
   them, and feel free to link your work in the
   <a href="https://github.com/Star-Rangers/sciencefiction-site-comments/discussions">comments</a>'
   Fan Creations category.

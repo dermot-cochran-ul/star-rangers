@@ -1,12 +1,12 @@
-# Star Rangers
+# Drithane
 
 The stars call us forward with hope: protect what is good, and learn what is true.
 
-*Star Rangers* is an Eleventy-powered interactive science-fantasy novel. It begins with a station clock that has held a false reading for eleven years. From there, the project opens into a contested history of memory, duty, institutions, and the fragile civic lights that survive at the edge of the known world.
+*Drithane* is an Eleventy-powered interactive science-fantasy novel. It begins with a station clock that has held a false reading for eleven years. From there, the project opens into a contested history of memory, duty, institutions, and the fragile civic lights that survive at the edge of the known world.
 
 ## Synopsis
 
-Threshold Station keeps logging the same impossible discrepancy, and the people sent to investigate it do not agree on what the record means. *Star Rangers* follows navigators, wardens, witnesses, analysts, and guardians as they try to keep public order intact while old archives, folded space, and living memory refuse to align.
+Threshold Station keeps logging the same impossible discrepancy, and the people sent to investigate it do not agree on what the record means. *Drithane* follows navigators, wardens, witnesses, analysts, and guardians as they try to keep public order intact while old archives, folded space, and living memory refuse to align.
 
 The story moves across stations, causeways, archives, and boundary zones in the long afterlight of empire. As viewpoints converge, the question sharpens: who gets to name the truth when history itself has started to slip?
 

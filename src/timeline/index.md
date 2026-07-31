@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "Timeline"
-description: "The canonical sequence of events in Star Rangers — one fixed history."
+description: "The canonical sequence of events in Drithane — one fixed history."
 ---
 <img class="page-hero-image" src="/star-rangers/images/hero/timeline-clock.jpg" alt="A vintage clock face" />
 <h1 class="page-title">Timeline</h1>

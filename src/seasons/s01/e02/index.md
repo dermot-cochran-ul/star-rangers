@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "Episode 2"
-description: "Chapters in Season 1, Episode 2 of Star Rangers."
+description: "Chapters in Season 1, Episode 2 of Drithane."
 permalink: /seasons/s01/e02/
 ---
 <nav class="chapter-breadcrumb" aria-label="Episode location">

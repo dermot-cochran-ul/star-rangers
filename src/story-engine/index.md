@@ -1,13 +1,13 @@
 ---
 layout: base.njk
 title: "Story Engine"
-description: "How Star Rangers is built — the out-of-character section: the Journal's process notes, and the working vocabulary behind seasons, threads, scenes, and the Codex."
+description: "How Drithane is built — the out-of-character section: the Journal's process notes, and the working vocabulary behind seasons, threads, scenes, and the Codex."
 permalink: /story-engine/
 ---
 <img class="page-hero-image" src="/star-rangers/images/hero/story-engine.jpg" alt="A brass machine with a riveted nameplate reading &quot;Story Engine&quot;, gears turning below it and steam rising from its stacks" />
 <h1 class="page-title">Story Engine</h1>
 <p class="page-intro">
-  Everything else on this site is <em>Star Rangers</em>' record of itself, written from inside its own world.
+  Everything else on this site is <em>Drithane</em>' record of itself, written from inside its own world.
   This section is not. The Story Engine is where the machinery shows: how the story is put together, what its
   working words mean, and why particular decisions went the way they did. If you came for the story, start with
   <a href="/star-rangers/seasons/">Seasons</a> — nothing here is needed to read it.
