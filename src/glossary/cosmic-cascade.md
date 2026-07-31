@@ -3,7 +3,7 @@ layout: glossary-entry.njk
 title: "Cosmic Cascade"
 id: cosmic-cascade
 category: "Cosmology"
-short: "The fixed hierarchy of causal authority in the Star Rangers universe, from Hyperomnium down to Champions/Heroes. Ontological, not political."
+short: "The fixed hierarchy of causal authority in the Drithane universe, from Hyperomnium down to Champions/Heroes. Ontological, not political."
 related:
   - "Hyperomnium"
   - "Telearch"
@@ -15,7 +15,7 @@ related:
 tags: [cosmic-cascade, hierarchy, cosmology, causality]
 ---
 
-The **Cosmic Cascade** is the fixed ordering of causal authority in the Star Rangers universe. It is ontological, not political — a structural description of how causality resolves, not a claim about which tier is most virtuous.
+The **Cosmic Cascade** is the fixed ordering of causal authority in the Drithane universe. It is ontological, not political — a structural description of how causality resolves, not a claim about which tier is most virtuous.
 
 Causality resolves from higher tier to lower tier and does not reverse.
 

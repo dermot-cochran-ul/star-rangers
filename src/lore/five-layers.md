@@ -3,7 +3,7 @@ layout: lore-entry.njk
 title: "The Five Layers of Reality"
 category: "Cosmology"
 tags: [cosmology, layers, spiritual, conceptual, etheric, physical, material]
-description: "The five ontological layers and their measurable interaction rules in the Star Rangers universe."
+description: "The five ontological layers and their measurable interaction rules in the Drithane universe."
 image: "five-layers.jpg"
 image_alt: "A luminous blue spiral galaxy seen face-on, with faint translucent planes of light layered across it suggesting depth strata"
 ---

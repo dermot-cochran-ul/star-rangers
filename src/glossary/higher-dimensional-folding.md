@@ -13,7 +13,7 @@ related:
 tags: [ftl, folding, higher-dimensional, topology]
 ---
 
-**Higher-Dimensional Folding** (pronounced: **HYE-er di-MEN-shun-ul FOHL-ding**) is one of the two canonical faster-than-light channels in the Star Rangers universe.
+**Higher-Dimensional Folding** (pronounced: **HYE-er di-MEN-shun-ul FOHL-ding**) is one of the two canonical faster-than-light channels in the Drithane universe.
 
 The mechanism: the channel temporarily brings distant regions into fold adjacency, transfers matter through stable aperture conditions, then collapses the fold. Transit is geometrically lawful — it compresses topological distance without violating causality or bypassing hierarchy constraints.
 
