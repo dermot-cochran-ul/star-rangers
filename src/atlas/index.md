@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "Atlas"
-description: "A hierarchical map of every documented galaxy, star system, and world in Star Rangers canon."
+description: "A hierarchical map of every documented galaxy, star system, and world in Drithane canon."
 ---
 <img class="page-hero-image" src="/star-rangers/images/hero/atlas-chart.jpg" alt="A vintage deep-space navigational atlas in gold ink on blue paper, spread across a chart table with sextant, compass, and drafting dividers under lamplight" />
 <h1 class="page-title">Atlas</h1>

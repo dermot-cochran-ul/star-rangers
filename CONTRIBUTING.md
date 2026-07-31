@@ -2,7 +2,7 @@
 
 Short version: **fork it freely, but don't send it back here.**
 
-*Star Rangers* is written and maintained by one person. This file exists so nobody spends an evening on something that was never going to be merged, and so it's clear up front what this project can and can't sustain. None of it is a complaint about anyone's work — it's a statement of capacity.
+*Drithane* is written and maintained by one person. This file exists so nobody spends an evening on something that was never going to be merged, and so it's clear up front what this project can and can't sustain. None of it is a complaint about anyone's work — it's a statement of capacity.
 
 ## Pull requests aren't accepted
 

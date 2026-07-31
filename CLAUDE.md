@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-*Star Rangers* is an Eleventy (11ty)-powered interactive science-fantasy novel site. The repo is both the publishing engine (MIT-licensed) and the story content itself (CC BY-NC-ND 4.0, with a Fan Works exception — see `CONTENT-LICENSE.md`). Content and code are deliberately separated so the engine can be forked without implying rights over the story; see `FORKING.md` and the License section of `README.md` for the exact path split.
+*Drithane* is an Eleventy (11ty)-powered interactive science-fantasy novel site. The repo is both the publishing engine (MIT-licensed) and the story content itself (CC BY-NC-ND 4.0, with a Fan Works exception — see `CONTENT-LICENSE.md`).
+
+**The work is titled *Drithane*; the Star Rangers are an organisation inside it.** Retitled 2026-07-31 to clear Andre Norton's 1953 novel *Star Rangers* and a 1987 comic of the same name. Only front-of-house branding moved: the corps keeps its name throughout the fiction, and the repo slug (`star-rangers`), the `/star-rangers/` URL prefix, the alias domains and the giscus comment repos are all deliberately unchanged. When editing, ask which sense a given "Star Rangers" carries — the work's title (rename) or the in-universe corps (leave alone). Content and code are deliberately separated so the engine can be forked without implying rights over the story; see `FORKING.md` and the License section of `README.md` for the exact path split.
 
 The site is built from Markdown content with Nunjucks (`.njk`) layouts, rendered by Eleventy 3, and deployed to several independently-branded production domains (plus GitHub Pages) from one codebase — see "Multi-domain deployment" below.
 

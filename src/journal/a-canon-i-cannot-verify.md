@@ -2,7 +2,7 @@
 layout: journal-entry.njk
 title: "A Canon I Can't Verify in Another Language"
 date: "2026-07-18"
-description: "On why Star Rangers won't ship official translations, and how English-as-canon, browser translation, and translations-as-fan-works together are the honest version of multilingual reach."
+description: "On why Drithane won't ship official translations, and how English-as-canon, browser translation, and translations-as-fan-works together are the honest version of multilingual reach."
 tags: [process, editorial, i18n, licensing]
 ---
 
