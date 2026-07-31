@@ -21,6 +21,8 @@ An **archecluster** is the set of universes that trace to a single Archewright �
 
 **It is not adjacency.** Cosmic membranes and the Interval between them describe physical separation; an archecluster describes common origin. Two universes on neighbouring membranes need not share an Archewright, and two universes in one cluster may sit nowhere near each other in the manifold.
 
+**And the manifold is not part of one.** Seating and descent are separate axes, so the [Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/) belongs to no archecluster and never could: it is not a universe, and it traces to no Archewright. It is instantiated one tier higher, as a [Formwright's formtype](/star-rangers/glossary/formcluster/) — which is why every archecluster inside a formcluster is seated in the same manifold, and why two universes of one archecluster may nonetheless sit nowhere near each other in it. **Descent is an Archewright fact; position is a Formwright one**, and no amount of shared ancestry has ever moved anything closer to anything.
+
 Where a cluster has a **reference universe**, that too is a matter of provenance: the primary universe whose record the others are read against, because it is the one holding the whole of it. It is a place to look things up, not a seat.
 
 **Example:** A derived universe whose physics has drifted well away from its parent's is still in the same archecluster — the archetypes it was drawn from don't stop being the archetypes it was drawn from. No one in the parent universe gains any say over it on that account, and no Worldwright is dispatched to correct the drift.

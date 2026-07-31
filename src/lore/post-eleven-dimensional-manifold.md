@@ -36,6 +36,32 @@ These dimensions are not directly navigable by Material beings. They are inferre
 
 Note the division of labour with the local floor, since the two are easily confused: a universe's own [compact dimensions](/star-rangers/glossary/compact-dimensions/) are where its [Etheric](/star-rangers/glossary/etheric/) templates have geometric extent *at home*, inside one membrane. The trans-concordant constraint field is what lets one membrane's templates become readable *in another* when the Interval narrows. Same layer, two scopes — local extent and cross-membrane reach — and they are not the same dimensions.
 
+## Nobody Made It
+
+The question comes up as soon as anyone learns the Cascade has authoring tiers in it: who built the manifold? The answer is that the question has the wrong shape, and the entry above already contains the reason.
+
+**No [Worldwright](/star-rangers/glossary/worldwright/) makes it.** A Worldwright creates a primary universe — the whole vessel at once, physics envelope, Etheric coupling, interaction regime and internal zone structure — which is one vessel. The manifold is what every vessel of every [archecluster](/star-rangers/glossary/archecluster/) and every [formcluster](/star-rangers/glossary/formcluster/) is seated in, shared regardless of dimensional floor and regardless of origin. It is also, in its 20+ band, what encodes the nonlocal boundary conditions **Worldwright and Telearch operations must satisfy** — and a condition something must satisfy is not a thing it built.
+
+**So which tier does make it?** Three are involved, and separating them is the whole of the answer.
+
+[**Conseleme**](/star-rangers/glossary/conseleme/) fixes that **seating obtains** — that coherent universes are distinct, that they are separated, and that the separation can carry what the Cascade requires it to carry: geometric strain, causal timing disagreement, archetypal template propagation. That is a condition, not an object. It settles that there must be a manifold, and nothing at all about which.
+
+A [**Metawright**](/star-rangers/lore/cosmic-cascade/) settles the mathematics a manifold could be expressed in. A manifold is a mathematical object, and mathematics is a conceptual realm's business — so no manifold is describable, let alone instantiable, until some realm has supplied the terms.
+
+A [**Formwright**](/star-rangers/glossary/formcluster/) instantiates the manifold itself, as a **formtype**: a lawful template built from that realm's mathematics, satisfying Conseleme's condition, and standing as the arena everything downstream is seated in. This is the tier the object belongs to. Archewrights draw archetypes and possibility space *within* it; Worldwrights seat universes *in* it.
+
+The ladder is the same one the Conceptual layer already follows, extended by one rung: Conseleme fixes what any mathematics must satisfy and a Metawright settles which there is; Conseleme fixes that seating must obtain and a **Formwright settles which manifold there is.**
+
+**So a different manifold is not merely conceivable — it is what other formclusters have.** Each is a different formtype, possibly in different mathematics, satisfying the same Conseleme condition and answering to nothing else. Which means a [formcluster](/star-rangers/glossary/formcluster/) is not only a common origin but a **common seating**: the universes that share templates share the arena those templates are laid out in. That is the deeper reason a shared formcluster explains why two universes are commensurable at all, and it is why [archecluster](/star-rangers/glossary/archecluster/) membership remains orthogonal to adjacency — descent is an Archewright fact, position is a Formwright one.
+
+**Which makes the entry's own title parochial twice over.** *Post-11* records where the Corps was standing when it started counting. ***Common*** records how far the Corps can see — every universe it has ever reached is seated in this manifold, and that is a statement about the Corps' reach rather than about the Grand Ensemble. The Archive has kept the word and stopped defending it.
+
+This sharpens the operational warning accordingly. The three bands above are one formtype's structure, not a census. A boundary event whose far side belongs to a different formcluster is not merely calibrated to a different dimensional floor; it may not be describable in bands at all, a band being an artefact of the template doing the describing. The record holds no confirmed case of anything crossing between manifolds — all documented Interval traffic is within one. Whether that is a limit of observation or a limit of the thing, the Archive declines to say, and notes it would expect the record to look identical either way.
+
+**What a Worldwright does make, and what comes with it.** Creating the universe creates the membrane, because a membrane is what a universe occupies by virtue of being one — there is no second act in which a skin is fitted to a finished vessel. Note the consequence that follows: membrane-hood is **not** a Worldwright privilege. Derived universes receive no Worldwright and occupy membranes regardless, exactly as coherence-not-authorship predicts.
+
+**And nothing can be moved.** If seating is an Upper Structure condition, then no Worldwright, Telearch or Universal Authority can shift its universe relative to another, closer or further, ever. Membrane proximity is something that **happens to** universes rather than something anyone does to them. That is the structural reason a boundary event is discovered rather than caused, and why the record has never once produced a party to hold responsible for one — not because the investigation failed, but because the category of responsible party does not apply at this tier.
+
 ## Operational Consequences
 
 - Fold operations that ignore the manifold's timelike channels produce unstable re-entry clocks.
