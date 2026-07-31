@@ -20,15 +20,25 @@ What it has, and what nothing else in settled space has, is a false-certificatio
 
 The cost of that rigour is not hypothetical, and the Corps's critics are not wrong about it. A certification queue measured in years is a commercial fact, and an operator facing one has a lawful alternative in every direction: a registry whose standard is weaker and whose answer comes by return. **The care that makes a Safety Corps certificate worth holding is the same care that sends tonnage to registries willing to issue one on request.** The Corps has understood this for a century, has never found a way to move faster that survived its own review board, and regards the trade as settled rather than comfortable.
 
+## Two certificates, not one
+
+A lawful transit requires two, issued by different bodies against different objects. **The Safety Corps certifies the hull. The Navigational Corps certifies the route.**
+
+The division is not administrative tidiness. A fold route is not a fixed feature of anything — adjacency is a relation that holds for a while and then does not, and a corridor verified as safe is verified *as of a date*. The Navigational Corps' work is the continuous re-survey of **drift routes**: passages whose usable geometry moves, slowly and lawfully, away from the survey that certified them. A route certificate therefore carries an expiry in a way a hull certificate does not, and a great deal of the Corps' effort goes on the unglamorous business of establishing how fast a given corridor is drifting and how long that leaves.
+
+This produces a third failure class, and the one that embarrasses everybody:
+
+- **A properly certified hull on a lapsed route.** Both certificates genuine, both issued by bodies that did their work correctly, and the loss occurs anyway because the corridor moved and nobody re-surveyed it in time. Nothing was evaded. The Navigational Corps files these as its own rather than the operator's wherever the re-survey interval was its to schedule, which is a practice its counterparts elsewhere have never adopted and its underwriters have never enjoyed.
+
 ## The certification gap
 
-The loss statistics are unambiguous about what the standard is worth: hulls certified against it are lost at a rate the rest of the record does not approach.
+The loss statistics are unambiguous about what the standards are worth: hulls and routes certified against them are lost at a rate the rest of the record does not approach.
 
 The Safety Corps also has no power whatsoever to make anyone use it.
 
 Certification is a matter for the polity registering the vessel. A great many polities have adopted the Safety Corps standard outright. Others maintain their own, written by bodies of varying independence, and a working minority of the fold-capable tonnage in settled space carries no meaningful certification at all — registered where registration is a fee rather than an inspection, and operating perfectly lawfully on that basis. The losses concentrate there with a consistency that has embarrassed everyone who has ever tried to argue it away.
 
-Two failure classes account for most of it:
+Two further failure classes account for most of the remainder, and unlike the lapsed route, both involve something having been evaded:
 
 - **Uncertified transit.** No aperture tolerance was established, so none was exceeded. The Safety Corps' own phrasing for this in loss adjustment is that the vessel was operating outside a standard rather than against one, which is not a distinction its underwriters have ever accepted.
 - **Certification against a weaker standard.** More common, far harder to prosecute, and the reason the Safety Corps spends more of its budget on comparative standards work than on inspection. A hull can be fully, honestly, verifiably certified — to a standard whose aperture-stability margin the Safety Corps rejected two centuries ago as an economy taken at the wrong end.
