@@ -46,7 +46,7 @@ There is a nicer consequence, too. Now that the book is *Drithane*, "Star Ranger
 
 ## The part that rhymes
 
-The site is a hundred and forty thousand words about people who will not close a file on a forty-second discrepancy that everyone else has agreed to live with. The Survey Archive exists because one record has to be the record. The Institute publishes what it failed to find. The Safety Corps files its own bad calls at length.
+The site is around one hundred and forty thousand words about people who will not close a file on a forty-second discrepancy that everyone else has agreed to live with. The Survey Archive exists because one record has to be the record. The Institute publishes what it failed to find. The Safety Corps files its own bad calls at length.
 
 And I found out my book had the wrong name on it because an out-of-date copy of a page disagreed with a current one, and instead of clearing the cache and moving on, I read the older one.
 
