@@ -6,6 +6,14 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Added
+
+- **Journal: [The Name Was Never Mine](src/journal/the-name-was-never-mine.md)** (2026-07-31, #260) — the out-of-character account of the retitle, beside [A Name You Have to Argue With](src/journal/a-name-you-have-to-argue-with.md). Records the reusable part of the method: OR-ing candidate names into one query produces false negatives, because a name with modest presence vanishes behind one with none — which is how two already-taken names were both cleared before individual exact-phrase searches caught them. Also settles publicly what *Drithane* means, and that it means nothing in-story: **a spark and a drift, no character has said the word, and it is not going in the glossary**, because a title that stays outside the story gets to be about all of it. And why the corps kept its name while the book did not.
+
+### Changed
+
+- **The giscus welcome-post drafts carry the new title** (2026-07-31, #259). Three occurrences in `scripts/giscus-welcome-posts.md` still named the work *Star Rangers*, one of them wrapped across a line break — which is why the retitle sweep's grep missed it. Three of the four drafted starter posts have never been posted, so leaving these would have reintroduced the old name into a public forum whenever they went up. The one live post, in **Fan Creations**, was corrected directly on GitHub: Discussions sit outside the repo, so no sweep could reach it, and it had been telling fan authors to tag work `Star Rangers (Dermot R. Cochran)` while the About page said `Drithane (Dermot R. Cochran)`.
+
 ## [1.11.0] - 2026-07-31
 
 The retitle release, and the one that pinned down the top of the Cascade.
