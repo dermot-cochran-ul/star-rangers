@@ -904,6 +904,38 @@ interest.
   proposing to spend the institution to save one officer, and should be answered in
   exactly those terms.
 
+**The beat that carries it** (Dermot, 31 July 2026 - canon direction). Immediately
+after the expulsion order is announced, Orla crosses to Tissadelle and holds her -
+a deep, unhurried embrace, given in the knowledge that she may never see her
+daughter again.
+
+Four things make it work, and a scene that drops any of them loses it:
+
+1. **It is literal, not melodrama.** Orla has never left Tir na nOg and has no
+   interest in doing so; `orla-shepherd.md` is explicit and both women have long
+   since stopped arguing about it. Tissadelle is barred from returning. Neither will
+   cross the gap, so "might never see her again" is a plain reading of the logistics
+   rather than a feeling either of them is indulging.
+2. **Orla is not demonstrative, which is the whole force of it.** Her register is
+   practicality and understatement - the Hollow's customs are "a habit worth keeping
+   regardless", she reads people the way she reads weather. An embrace of that length
+   from her is the largest thing she owns, and it costs her visibly to give it in
+   front of whoever is in the room.
+3. **It answers a line already on the page.** `orla-shepherd.md` ends its character
+   notes with: she has told herself, *with only partial success, that exactness is
+   not the same as distance*. The hug is the reply to that sentence, and it arrives
+   at the exact moment the distance stops being a worry and becomes an
+   administrative fact. Do not restate the line in the scene. Let it be answered.
+4. **Tissadelle does not break. Orla moves.** Her composure holds - she is an officer
+   receiving an order, in public, and that self-possession is load-bearing to her
+   whole characterisation. The mother crosses the floor to the daughter. Writing this
+   the other way round, with Tissadelle collapsing into Orla, would be easier and
+   would be wrong.
+
+Note the framing that follows for free: the order is an administrative instrument
+and the embrace is the only thing in the room that is not procedural. Nobody present
+has any authority to stop either one.
+
 **Open — deliberately not decided here.**
 
 1. **When.** Órla's page is tagged season-5 and its scene is 2831 UCSD. "Her last
