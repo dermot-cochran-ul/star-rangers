@@ -1,6 +1,6 @@
 {
   "name": "star-rangers",
-  "version": "1.11.0",
+  "version": "1.12.0",
   "description": "Drithane — an interactive science-fantasy novel. The stars call us forward with hope; to protect what is good and to see what is true.",
   "main": "index.js",
   "scripts": {
