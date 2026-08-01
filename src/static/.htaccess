@@ -8,6 +8,29 @@ Options -Indexes
 # strips the /star-rangers/ prefix from the built output before rsync.
 Redirect 301 /lore/solar-system-concordant/ /lore/solar-system-concord/
 
+# Legacy WordPress permalinks: 410 Gone, not a soft 200.
+#
+# sciencefiction.site ran WordPress under a previous occupant, and Google still
+# holds that site's URLs. A static server ignores query strings, so every stale
+# permalink - /?p=417, /?cat=3, /?m=202001 - resolves 200 and serves the
+# homepage. To a crawler those URLs still work and now show unrelated content,
+# which is a soft-404 pattern that keeps a dead site alive in the index long
+# after its files are gone. It is the likeliest reason Google still classifies
+# this domain as the WordPress site it used to be.
+#
+# 410 rather than 404 is the point. 404 means "not found, maybe later" and gets
+# retried for months; 410 means "permanently gone" and is dropped far faster.
+#
+# Scoped to `^$` - the site root only - and to numeric values, so it can match
+# nothing this site serves. Every real URL here is a path (/lore/..., /seasons/
+# ...), and no page takes any of these parameters. Pagefind's search UI is not
+# affected: it is client-side and does not use these names.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{QUERY_STRING} (^|&)(p|page_id|cat|m|author)=[0-9]+
+  RewriteRule ^$ - [G,L]
+</IfModule>
+
 # Prevent content-type sniffing
 <IfModule mod_headers.c>
   Header always set X-Content-Type-Options "nosniff"
