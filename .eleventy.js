@@ -274,6 +274,13 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/video": "video" });
   eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
   eleventyConfig.addPassthroughCopy({ "src/static/.htaccess": ".htaccess" });
+  // /favicon.ico at the site root, in addition to the <link rel="icon"> tags in
+  // base.njk. Browsers honour those tags; Google's favicon crawler, feed
+  // readers, link-preview generators and bookmark managers request the
+  // conventional root path first or as a fallback, and were getting a 404 -
+  // which leaves a stale cached icon with nothing to be replaced by. Multi-size
+  // ICO (16/32/48) embedding the same PNG bytes src/images/icons already ships.
+  eleventyConfig.addPassthroughCopy({ "src/static/favicon.ico": "favicon.ico" });
   // robots.txt is no longer a static passthrough file - src/robots.njk
   // renders it so its Sitemap line can carry the right absolute domain
   // per deploy target (see src/_data/site.js and scripts/cpanel-deploy.sh).
