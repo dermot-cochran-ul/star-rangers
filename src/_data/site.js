@@ -13,7 +13,7 @@ module.exports = function () {
   // a clone can put a longer/different string in the tab title than in its
   // on-page branding without needing two unrelated overrides.
   // The WORK is titled "Drithane"; the Star Rangers are an organisation
-  // INSIDE it. Retitled 2026-07-31 to clear Andre Norton's 1953 novel "Star
+  // INSIDE it. Retitled 2026-08-01 to clear Andre Norton's 1953 novel "Star
   // Rangers" (and a 1987 comic of the same name) - the corps keeps its name in
   // the fiction, and the /star-rangers/ URL paths and alias domains are
   // deliberately unchanged, so only front-of-house branding moved.
