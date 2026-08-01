@@ -1,7 +1,7 @@
 ---
 layout: journal-entry.njk
 title: "The Name Was Never Mine"
-date: "2026-07-31"
+date: "2026-08-01"
 description: "I found out this site had the wrong title because a stale cache disagreed with a live page and I bothered to open the older one — which is, more or less, the plot."
 tags: [editorial, naming, retitle, drithane, process, research]
 ---
