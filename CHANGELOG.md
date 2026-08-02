@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Changed
+
+- **The legacy name *Grand Demiurge* is retired; Conseleme's devotional name is now the Everlasting Ground** (2026-08-02, #274). The old name contradicted the entry carrying it: `conseleme.md` defines the tier as "an origin condition, not a character or moral authority," while a demiurge is precisely a character with intentions, and the term drags a body of old-Earth speculation behind it that no reading of Conseleme supports. The replacement keeps the pattern of an older devotional name beside the structural one, as Kieme keeps *Holy Triumvirate* — **the Everlasting Ground** ties directly into the Unfounded (patterns nothing underwrites): the ground is what any mathematics and any time must satisfy, named by the traditions centuries before the Archive formalised what it grounds. Recorded in the canonical glossary's migration map with the standard dating rule — pre-retirement filings read as written, no new usage. *Frenar*, a coinage with no external freight, was considered and deliberately kept.
+
 ### Fixed
 
 - **Journal entries are now filtered per edition, like the Codex** (2026-08-02, #271). `classifyContentPath` already classified journal pages, but `isContentIncluded` had no branch for them, so journal entries fell through to the unconditional `return true` — every branded edition published all of them regardless of its own `TOPICS`/`CHARACTERS`/`THREADS` filters. Journal entries are out-of-character notes about *making* the work, not the work itself, so the branded doors have no reason to carry them. The gap was visible in search: a query for the book's name surfaced the naming journal entry on `fellowshipoflight.org`, a narrower-audience edition, ahead of the unbranded site. Filtered with the same one line used for codex entries. Worth noting for future checks: excluded pages render as the stub rather than disappearing, so the file count is identical either way and a count-based check alone won't catch a gap like this one.
