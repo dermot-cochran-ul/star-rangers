@@ -77,6 +77,15 @@ function isContentIncluded(data, filter) {
     return isRelatedTopicPageIncluded(data, filter, url);
   }
   if (kind === "codex") return isTopicPageIncluded(data, filter);
+  // Journal entries are out-of-character author notes about making the work,
+  // not the work. They were falling through to the unconditional `return true`
+  // below, so every branded edition published them regardless of its filters -
+  // which meant a search for the book's own name could land a reader on the
+  // Fellowship of Light or Undercover Pets framing of an essay about naming
+  // decisions. Filtered like codex: on a narrowed edition an entry appears only
+  // if its tags match, and on the unbranded full site `filter.active` is false
+  // so all of them still appear.
+  if (kind === "journal") return isTopicPageIncluded(data, filter);
   // A thread's own standalone landing page (src/threads/<id>/index.md)
   // opts into this system via a `threadId` front-matter field, since it's
   // otherwise just a hand-written base.njk page outside the content dirs
