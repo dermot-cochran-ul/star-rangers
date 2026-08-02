@@ -87,7 +87,31 @@ time). Results, so none of it is re-walked:
   newsletter (Derry Jail 1943, revived in the 1970s USA), and it is an ability
   name in the game *Another Eden*. Same class of hit that killed Caldreth and
   Eirath.
-- **Drithlin** — **current front-runner.** Attested Irish (*drithlín* — a
+- **Overfold** (added 3 August 2026) — a different kind of candidate: not
+  a coinage but a real dictionary word (OED 1883, geology — an overturned
+  fold, strata forced past 90° so younger rock lies beneath older; after
+  German *Überfaltung*), and already a canon glossary term (the
+  Fellowship's contemplative name for boundary-zone Etheric phenomena).
+  Scoring against the three gates: exact match *not* empty but occupied
+  only by vocabulary — no work, brand or product holds it, the softest
+  failure of any candidate vetted; edit distance — **watch *overload***,
+  2 edits away and high-volume, mitigated by "overfold" being a real
+  indexed word (engines suggest rather than silently correct dictionary
+  words), but an early "did you mean overload" tax is plausible; **radio
+  test — passes cleanly, the only candidate on this shelf that does.**
+  One obvious spelling, recoverable from sound. The geology collision is
+  resonant rather than embarrassing — layers pressed over layers — and
+  reads as deliberate scientific loan-vocabulary, like "membrane".
+  Placement: **title tier, not umbrella.** In-world the Overfold is one
+  tradition's term for one phenomenon, so "the Overfold universe" would
+  name the continuity after the Fellowship's lens on boundaries —
+  narrower than GEM, which names everything. As a *title* it is resonant
+  rather than definitional (folds run through the cosmology from transit
+  to Metafold to *Protectors of the Fold*), which is the side of the
+  title-stays-outside-the-story line the settled exceptions live on. It
+  does breach the strict form of that rule — it is a defined in-story
+  term — so adopting it would be a knowing exception, not an oversight.
+- **Drithlin** — **strongest coinage.** Attested Irish (*drithlín* — a
   tingle, a thrill of joy: still on-theme), 4 edits from Dithane and 4 from
   Drythane, ends in "-lin" rather than "-thane". Exact-phrase search returns
   only Irish dictionary entries, and the h-dropped neighbour *dritlean/dritlin*
