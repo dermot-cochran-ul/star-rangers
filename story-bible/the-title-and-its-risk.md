@@ -30,6 +30,15 @@ Google currently **silently corrects** a search for *Drithane* to **Dithane** �
 mancozeb fungicide brand from UPL and Corteva, EPA-registered, sold globally for
 over fifty years. It is **one character away**: delete the `r`.
 
+**Found 2 August 2026: a second edit-distance-1 neighbour.** **Drythane**
+(`i`→`y`) is a live polyurethane waterproofing brand — a 100%-solids coating
+system from Amchem Products, with both drythane.com and drythane.in active. So
+the title sits one edit from two chemical-industry brands on opposite sides,
+and the reason is structural: **"-thane" is the polyurethane/alkane chemical
+suffix** (methane, ethane, urethane, Dithane, Drythane). Any name keeping that
+tail stays in the neighbourhood. A replacement, if one is ever needed, must
+change the *ending*, not the front of the word.
+
 **Why it is probably temporary.** Search engines correct to a high-frequency term
 when the queried string has near-zero index presence. Drithane had none: the site
 went live under the name that day. Statistically, at that moment, it *was* a typo
@@ -56,13 +65,41 @@ That is an earlier and better signal than eyeballing a search box.
 
 ### If the test goes badly
 
-The direction that keeps the etymology and adds edit distance is the Irish
-diminutive *drithleán* — anglicised **Drithlean**, three edits from Dithane
-rather than one. **Verify the Irish before committing to it**, and search it
-individually as an exact phrase.
+**Fallback vetting done 2–3 August 2026** (exact-phrase search per candidate,
+plus near-homograph checks — the two lessons below, actually applied this
+time). Results, so none of it is re-walked:
+
+- **The Irish first: *drithleán* is not attested.** The forms the dictionaries
+  actually give for *drithle* are the diminutives **drithleog** and
+  **drithlín**, and the plural *drithleanna*. An earlier version of this note
+  proposed *drithleán* as "the Irish diminutive"; treat any use of *Drithlean*
+  as a coinage in the style of one, not a real word.
+- **Drithlean** — viable but weakened. The exact string is unoccupied (only
+  Gaelic dictionary hits), it exits the -thane tail, and it is 4 edits from
+  Dithane and 4 from Drythane (the "three edits" a previous version of this
+  note claimed was an undercount). But its h-dropped neighbourhood has
+  distance-2 clutter — *Drilean* (a small Brazilian leather-goods brand on
+  Instagram) and *Dritlein* (an NFL player's surname). Neither is a
+  high-volume term with autocorrect gravity, so this fails no test the note
+  sets; it is just muddier than it first looked, and the Irish behind it is
+  invented.
+- **Drithleog** — dead. *An Drithleog* ("The Spark") was a republican prison
+  newsletter (Derry Jail 1943, revived in the 1970s USA), and it is an ability
+  name in the game *Another Eden*. Same class of hit that killed Caldreth and
+  Eirath.
+- **Drithlin** — **current front-runner.** Attested Irish (*drithlín* — a
+  tingle, a thrill of joy: still on-theme), 4 edits from Dithane and 4 from
+  Drythane, ends in "-lin" rather than "-thane". Exact-phrase search returns
+  only Irish dictionary entries, and the h-dropped neighbour *dritlean/dritlin*
+  is also unoccupied — the nearest entities are bare "Drit" (a tablet, an FMEA
+  software product, a music act), all shorter strings with no pull on an
+  8-letter query. The only nearby chemical is Dithranol (a psoriasis drug) at
+  a comfortable distance. Passes both the exact-match test and the
+  near-homograph test that Drithane itself failed.
 
 Do not rename twice on a pre-indexing result. The journal entry, the 1.11.0
-release, the tags and any domain would all have to move.
+release, the tags and any domain would all have to move. This vetting sharpens
+the fallback; the September test still decides whether a fallback is needed.
 
 ### Domain, deliberately deferred
 
@@ -103,3 +140,14 @@ architecture, skin anatomy and yoga), *Star Wardens* (a D&D subclass, a Warhamme
 (municipal election officials, a New Jersey fishing charter), and the invented
 *Caldreth*, *Eirath* and *Aveldrin*, all three already in World of Warcraft,
 Final Fantasy XIV, Forgotten Realms and World Anvil.
+
+Added 3 August 2026, from vetting the *drift-* direction as a Drithane
+variant: ***Drifthane* / *Driftane* / *Driptane*** — the whole cluster is
+dead. *Driftane* is an active e-liquids/e-cigarette brand (driftaneplaza.com)
+and an ambient-music YouTube channel (@driftane); *Driptane* is a
+pharmaceutical carried on multiple drug-information sites; *Drifthane* would
+sit one edit from the first, two from the second, and still end in the
+"-thane" chemical suffix that produced the Dithane and Drythane collisions in
+the first place. The front of the word (*dri-*, *drif-*, *drit-*) is a dense
+commercial and pharmaceutical phonetic cluster; the tail is a chemical suffix;
+a workable variant keeps the *drithle* root and changes the tail.
