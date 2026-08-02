@@ -117,23 +117,28 @@ week's vetting kept converging on:
   clean multi-word phrase beats a compromised single word, and passes the
   radio test almost automatically.
 - **Setting umbrella** — the Cosmere-style name for the whole continuity.
-  **Grand Ensemble Multiverse**, in exactly that canon form (the lore
-  page's own title), is the designated reserve if one is ever needed. The
-  "title stays outside the story" rule does not bind here — an umbrella
-  naming the cosmology in-world is the established pattern — and the full
-  phrase is unowned; its neighbours (grand canonical ensemble, Tegmark's
-  ensemble multiverse) read as intended hard-SF register, not confusion.
-  Do not coin variants ("Grand Ensemble Universe"): one canon form.
-  Its known cost: it names the stage, not the corps — and the work is as
-  much about the Star Rangers. That doesn't disqualify it (Cosmere names
-  no character either; a container holds the work rather than describing
-  it), but it does fix the order of preference: **the title itself is the
-  first-choice umbrella** ("the Drithane universe") if it survives
-  September, GEM is the reserve, and a corps-flavoured umbrella ("Star
-  Rangers Universe") is off the table — the corps keeps its name inside
-  the fiction, and an umbrella is front-of-house, so that would quietly
-  reverse the 2026-08-01 retitle. Ranger emphasis belongs one tier down,
-  in the tagline (*The Edges Hold* is already the corps' phrase).
+  **Adopted 3 August 2026: Grand Ensemble Multiverse**, in exactly that
+  canon form (the lore page's own title), is the working umbrella —
+  **explicitly interim, until a shorter word or phrase is found** that
+  passes the three gates above. The "title stays outside the story" rule
+  does not bind here — an umbrella naming the cosmology in-world is the
+  established pattern — and the full phrase is unowned; its neighbours
+  (grand canonical ensemble, Tegmark's ensemble multiverse) read as
+  intended hard-SF register, not confusion. Do not coin variants ("Grand
+  Ensemble Universe"): one canon form. Its known cost, accepted at
+  adoption: it names the stage, not the corps — and the work is as much
+  about the Star Rangers. Candidates to shorten to, when the time comes:
+  the title itself ("the Drithane universe") if it survives September, or
+  a new find. A corps-flavoured umbrella ("Star Rangers Universe") stays
+  off the table — the corps keeps its name inside the fiction, and an
+  umbrella is front-of-house, so that would quietly reverse the
+  2026-08-01 retitle. Ranger emphasis belongs one tier down, in the
+  tagline: *The Edges Hold* is already the corps' phrase, and **Rangers
+  of the Grand Ensemble Multiverse** is vetted available as a subtitle
+  (collision-free by inheritance from GEM; unites corps and stage;
+  Golden-Age-serial register, warmer than the house voice — a deliberate
+  choice if used; too long to be the spoken handle, which stays the
+  title).
 - **Tagline/descriptor** — three-word out-of-story phrases, cheap to vet
   (one exact-phrase search; no autocorrect gravity at three words).
   Vetted available 3 August 2026: *Sparks Between Worlds* (unowned; busy
