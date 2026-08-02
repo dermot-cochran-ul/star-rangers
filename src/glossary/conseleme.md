@@ -3,7 +3,7 @@ layout: glossary-entry.njk
 title: "Conseleme"
 id: conseleme
 category: "Cosmic Cascade"
-short: "The third tier of the Cosmic Cascade; a non-anthropomorphic origin condition completing the Upper Structure. Legacy name: Grand Demiurge."
+short: "The third tier of the Cosmic Cascade; a non-anthropomorphic origin condition completing the Upper Structure. Devotional name: the Everlasting Ground."
 related:
   - "Hyperomnium"
   - "Kieme"
@@ -15,7 +15,7 @@ tags: [conseleme, cascade, upper-structure, cosmology]
 
 Like all Upper Structure tiers, Conseleme is non-anthropomorphic. It is an origin condition, not a character or moral authority. Its function is to set nonlocal existence constraints that all Design Structure tiers — Metawrights, Formwrights, Archewrights — and every tier below must satisfy.
 
-The legacy name for this tier is *Grand Demiurge*. In all current canon, Conseleme and Grand Demiurge are synonymous.
+The devotional name for this tier is **the Everlasting Ground**. In all current canon the two names are synonymous, and the devotional one is older: what any mathematics must satisfy, what any time must satisfy, what the [Unfounded](/star-rangers/glossary/unfounded/) conspicuously lack — the traditions were calling it the ground centuries before the Archive formalised what it grounds. An earlier legacy name, *Grand Demiurge*, is **retired** (2026): a demiurge is a character with intentions, which is precisely what this entry's own definition rules out, and the term drags a body of old-Earth speculation behind it that no reading of Conseleme supports. Pre-retirement filings carry the old name correctly and are read as written.
 
 *Conseleme* is read in the same devotional register as *ruler of the Conceptual layer*, on the **-eme** ruler-marker that also gives [Kieme](/star-rangers/glossary/kieme/) its name one tier above. The Archive's position is identical in both entries: the derivation is sound, the agency it implies is not attested. Nothing on record shows Conseleme governing Layer 2 in any sense stronger than the constraint that layer already obeys, and a constraint requires nobody to enforce it.
 
