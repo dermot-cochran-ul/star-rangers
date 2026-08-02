@@ -6,7 +6,7 @@ In scope: `src/seasons/`, `src/threads/`, `src/characters/`, `src/timeline/`, `s
 
 ## Fan Works Policy
 
-The full licence below includes a No-Derivatives term. Notwithstanding that term, Dermot R. Cochran explicitly permits non-commercial fan works based on the Drithane characters, setting, and lore — this is a standing exception to No-Derivatives specifically for fan creativity, not a change to the licence's other terms. This covers:
+The full licence below includes a No-Derivatives term. Notwithstanding that term, Dermot R. Cochran explicitly permits non-commercial fan works based on the Drithane characters, setting, and lore — this is a standing exception to No-Derivatives specifically for fan creativity, not a change to the licence's other terms. The exception is **additive only**: it covers writing your own stories alongside the existing canon or building out new corners of the setting. It does **not** extend to altering existing entries, chapters, or lore and republishing them in modified form — republishing this content changed, while presenting it as this work, remains a derivative use the licence does not permit. This covers:
 
 - **Fan fiction and fan art**, hosted wherever you like (AO3, Wattpad, etc. — see the site's About page for the pointer given to readers).
 - **Translations** into other languages. English is the canonical text, so a translation is a derivative reading rather than authoritative canon; it's welcome as a non-commercial fan work under the same conditions, and should be clearly labeled an unofficial translation.
