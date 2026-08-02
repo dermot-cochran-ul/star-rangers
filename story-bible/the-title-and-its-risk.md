@@ -117,7 +117,25 @@ Undercover Pets — are correctly named for their framings and need nothing.
 
 ## The vetting lesson, for whoever names the next thing
 
-Two failures, both worth avoiding deliberately.
+First, the scope of the regime below: **it applies to titles, domains and
+front-of-house branding — not to in-universe vocabulary.** The note already
+draws this line for Star Rangers ("the collision was on a title; an
+organisation inside a story is not one"), and a sweep on 3 August 2026
+confirmed it generalises: *Levril* is an Italian intimate-hygiene product
+line (Horus Salus) and, separately, a character in an unrelated Fandom
+fiction — "The Fellowship of the Light of Christ" wiki — whose universe also
+independently contains a *Frenar*; *frenat* is the everyday Catalan word for
+"braked" plus an Aragonese water company; *Kieme* is the ordinary German noun
+for "gill". None of that matters, and chasing term-level uniqueness would be
+chasing the unattainable — every pronounceable coinage is a word somewhere or
+a small brand somewhere else (the invented-name graveyard below proved the
+same thing from the other side). A title is the front door and gets searched
+bare, so it needs edit-distance safety from high-volume terms. A term is met
+and searched in context, where a foreign gel or a fish organ is no
+competition. The term-level bar is only: no *high-volume or embarrassing*
+homograph, no trademark exposure, and instant disambiguation in context.
+
+For the title tier, two failures, both worth avoiding deliberately.
 
 **Search each candidate individually, as an exact phrase.** A combined `"A" OR
 "B"` query reports on the loudest member of the set and hides the rest. Two names
