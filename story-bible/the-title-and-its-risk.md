@@ -101,6 +101,36 @@ Do not rename twice on a pre-indexing result. The journal entry, the 1.11.0
 release, the tags and any domain would all have to move. This vetting sharpens
 the fallback; the September test still decides whether a fallback is needed.
 
+### The naming tiers, and the umbrella (3 August 2026)
+
+Three tiers, three different rules — keeping them distinct is what this
+week's vetting kept converging on:
+
+- **Title of the work** — out-of-story word, strict vetting regime below.
+  *Drithane*, pending the September test. If a replacement single word is
+  ever hunted, it must pass **three gates**, not one: empty exact match;
+  edit distance ≥2 (ideally 3) from any high-volume term; and the **radio
+  test** — the spelling must be recoverable from sound alone. Drithane
+  fails the third quietly: *Drithane* and *Drythane* are homophones, so a
+  spoken recommendation can land a typed search on the waterproofing brand
+  with no autocorrect involved. A clean single word beats everything; a
+  clean multi-word phrase beats a compromised single word, and passes the
+  radio test almost automatically.
+- **Setting umbrella** — the Cosmere-style name for the whole continuity.
+  **Grand Ensemble Multiverse**, in exactly that canon form (the lore
+  page's own title), is the designated reserve if one is ever needed. The
+  "title stays outside the story" rule does not bind here — an umbrella
+  naming the cosmology in-world is the established pattern — and the full
+  phrase is unowned; its neighbours (grand canonical ensemble, Tegmark's
+  ensemble multiverse) read as intended hard-SF register, not confusion.
+  Do not coin variants ("Grand Ensemble Universe"): one canon form.
+- **Tagline/descriptor** — three-word out-of-story phrases, cheap to vet
+  (one exact-phrase search; no autocorrect gravity at three words).
+  Vetted available 3 August 2026: *Sparks Between Worlds* (unowned; busy
+  generic-fantasy neighbourhood), *The Edges Hold* (unowned; one indie
+  album permutation-neighbour, *Hold the Edges*), *Chorus of Worlds*
+  (one art print). None adopted; recorded so they aren't re-vetted.
+
 ### Domain, deliberately deferred
 
 No `drithane` domain has been bought, and that is a decision rather than an
