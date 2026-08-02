@@ -70,6 +70,20 @@ Whether that conservation is what devotional traditions mean by the **soul**, an
 
 Two accounts stand over one observable. *The structures persist.* *You persist.* The Archive is positioned to state the first, and has never claimed the standing to deny the second.
 
+### What Is Recorded Is Not What Is Founded
+
+The Conceptual layer conserves structure, and it does not audit what it conserves. Every coherent pattern that has ever held remains an admissible concept state here — including the patterns of harm. A predatory strategy, once instantiated anywhere, is a real structure at Layer 2 and persists like any other. It can recur, be recognised, and be classified, which is precisely why the [predatory entities](/star-rangers/lore/predatory-entities/) sort into classes at all rather than arriving each time as something new.
+
+What such a pattern never acquires is Layer 1.
+
+The Spiritual layer holds **origin conditions**, and a parasitic pattern has no origin — it has a host. That is a category fact rather than a moral one, and the distinction matters, because it is what keeps this consistent with the Cascade's [no-moral-cosmology invariant](/star-rangers/lore/cosmic-cascade/). Nothing is being weighed and found wanting. Evil is simply not the kind of thing an origin condition can be: it is a shape that collapse takes, and a shape needs something to be the shape *of*.
+
+Two consequences the record leans on heavily.
+
+**It is why the cute predators are what they are.** Class III, non-sapient, feeding on micro-consent collapses — patterns rather than persons, which is exactly what a Layer-2-only existence produces. They can be catalogued and they cannot be addressed, because there is nobody in there to address. Every attempt in the record to negotiate with one has failed in the same way: not refused, simply unanswered.
+
+**And it gives [the Cosmic Limitation on Evil](/star-rangers/codex/cosmic-limitation-on-evil/) its mechanism.** That law holds that an entity existing in service of evil dissolves and fades once it no longer serves a higher purpose, and it has always been recorded as a finding without an explanation. This is the explanation: such an entity never had grounding of its own. Its structure was borrowed against a host's purpose, and when the purpose goes, the structure has nothing left to be the shape of. It does not die. It stops being instantiated, which is a different thing and looks the same from outside.
+
 ## Layer 3 — Etheric
 
 ### Definition
