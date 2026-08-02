@@ -163,6 +163,14 @@ week's vetting kept converging on:
   Golden-Age-serial register, warmer than the house voice — a deliberate
   choice if used; too long to be the spoken handle, which stays the
   title).
+  **Scope of the adoption (settled 3 August 2026): planning-tier only.**
+  The site title and description are *not* Grand Ensemble Multiverse and
+  do not change with this decision — `SITE_NAME`/`SITE_TITLE` stay
+  "Drithane" and the meta description keeps leading with the title
+  (`src/_data/site.js`). Surfacing GEM anywhere front-of-house — site
+  chrome, an `editions.js` tagline, About copy, metadata — is its own
+  future decision requiring its own instruction, not a consequence of
+  this one.
 - **Tagline/descriptor** — three-word out-of-story phrases, cheap to vet
   (one exact-phrase search; no autocorrect gravity at three words).
   Vetted available 3 August 2026: *Sparks Between Worlds* (unowned; busy
