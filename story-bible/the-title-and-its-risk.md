@@ -153,7 +153,28 @@ week's vetting kept converging on:
   adoption: it names the stage, not the corps — and the work is as much
   about the Star Rangers. Candidates to shorten to, when the time comes:
   the title itself ("the Drithane universe") if it survives September, or
-  a new find. A corps-flavoured umbrella ("Star Rangers Universe") stays
+  a new find.
+  **On the shelf for that succession (recorded 3 August 2026):
+  Fianilchruinne** — *fian* (the warrior-band, the Fianna) + *ilchruinne*
+  (the real modern Irish word for multiverse): literally "the multiverse
+  Fianna", i.e. Rangers of the Grand Ensemble Multiverse compressed into
+  one Irish word. The only candidate of the August vetting that unites
+  corps and stage in a single term, repairing GEM's stage-not-corps cost,
+  and shorter than GEM as the interim decision asked. Scoring: exact
+  match empty (nothing anywhere; nearest neighbours are the Fianna
+  themselves); no high-volume edit-distance neighbour, so no autocorrect
+  predator — once indexed, an exact search is a fortress; **radio test —
+  hardest fail of any candidate vetted**, thirteen letters of Irish
+  orthography no anglophone can spell from sound, survivable only at
+  this tier because an umbrella is navigated by link and branding rather
+  than by ear, with *Drithane* as the radio-friendly front door covering
+  for it. Spelling is settled as **Fianilchruinne** (double n — *cruinne*
+  is the Irish; the single-n form first proposed was a misspelling).
+  Before any adoption: verify the compound's formation against
+  Teanglann/Téarma (including whether it wants a hyphen,
+  *Fian-ilchruinne*), and let it sit — a name this committed deserves a
+  deliberate yes, not a same-day one. Not adopted; GEM remains the
+  working umbrella. A corps-flavoured umbrella ("Star Rangers Universe") stays
   off the table — the corps keeps its name inside the fiction, and an
   umbrella is front-of-house, so that would quietly reverse the
   2026-08-01 retitle. Ranger emphasis belongs one tier down, in the
