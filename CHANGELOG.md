@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Added
+
+- **Journal: [Almost Despaired](src/journal/almost-despaired.md)** (2026-08-03) — the companion piece to *The Name Was Never Mine*: that entry was about losing the book's name, this one is about finding the setting's. The public account of the Fian-ilchruinne naming day — the drift-cluster collisions, the term-level discoveries (*Kieme* is German for gill; an unrelated fan wiki independently coined both a Levril and a Frenar), the turn from coining to compounding Irish, and the "almost" in the title doing the entry's real work. Deliberately silent on the title tier's own open risk file, which stays in the story bible.
+
 ## [1.13.0] - 2026-08-03
 
 A grounding, and a naming. The canon half of this release closes a loop the cosmology had left open since the Cosmic Limitation on Evil was first filed: the Layer 1/2 distinction now *grounds* the predator taxonomy instead of sitting beside it — the Unfounded are patterns nothing underwrites, the False Dragon is the counterfeit of the largest founded thing, and Conseleme's devotional name stopped implying the one thing its definition denies.
