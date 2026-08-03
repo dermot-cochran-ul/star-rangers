@@ -99,16 +99,17 @@ Grouped by storyline thread — see [Site sections](#site-sections) and `lib/sto
 
 ## Release notes
 
-Current version: **1.10.0**. See [`CHANGELOG.md`](./CHANGELOG.md) for the full version history — lore/canon changes, deployment features, and fixes are all tracked there under [Semantic Versioning](https://semver.org/).
+Current version: **1.13.0**. See [`CHANGELOG.md`](./CHANGELOG.md) for the full version history — lore/canon changes, deployment features, and fixes are all tracked there under [Semantic Versioning](https://semver.org/).
 
 ### Cutting a release
 
-This line has gone stale twice (it read `1.5.0` through both the 1.6.0 and 1.7.0 releases), so the steps are written down rather than remembered:
+The "Current version" line above went stale twice by hand (it read `1.5.0` through both the 1.6.0 and 1.7.0 releases) and then again through 1.11.0, 1.12.0 and 1.13.0, despite this list previously calling it out as "the step that gets missed". **It is no longer a step** — `scripts/sync-version.js` writes it from `package.json`, and `npm test` fails if the two disagree. What remains:
 
-1. Bump the version with `npm version X.Y.Z --no-git-tag-version`, which updates `package.json` **and both `version` fields in `package-lock.json`**. Doing it by hand in `package.json` alone is how the lockfile sat at `1.8.0` through the 1.9.0 release.
+1. Bump the version with `npm version X.Y.Z --no-git-tag-version`. This updates `package.json`, **both `version` fields in `package-lock.json`**, and — via the `version` lifecycle hook — the "Current version" line above. Editing `package.json` by hand skips all of that; it is how the lockfile sat at `1.8.0` through the 1.9.0 release.
 2. In `CHANGELOG.md`, rename `[Unreleased]` to `[X.Y.Z] - YYYY-MM-DD`, add a short summary paragraph, and open a fresh empty `[Unreleased]` above it.
-3. **Update the "Current version" line above** — this is the step that gets missed.
-4. Merge, then **tag from a local clone** at the release's merge commit: `git tag vX.Y.Z <sha> && git push origin --tags`. The GitHub-automation path used for most changes here cannot publish `refs/tags/*`, so tagging is always a local step.
+3. Merge, then **tag from a local clone** at the release's merge commit: `git tag vX.Y.Z <sha> && git push origin --tags`. The GitHub-automation path used for most changes here cannot publish `refs/tags/*`, so tagging is always a local step.
+
+If the README is ever restructured so the "Current version" line no longer matches `Current version: **X.Y.Z**`, `sync-version.js` **fails loudly in both modes** rather than passing on a line it can no longer find — a check that silently succeeds once its anchor moves is worse than no check. Retire the script and its two `package.json` hooks together, or restore the line.
 
 `MINOR` covers backward-compatible additions (a new chapter, lore or glossary entry, a new `deploy.conf` key, a new theme); `PATCH` covers fixes with no new surface area. Nothing has yet required a `MAJOR` bump.
 
