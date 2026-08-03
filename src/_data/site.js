@@ -17,17 +17,20 @@ module.exports = function () {
   // Rangers" (and a 1987 comic of the same name) - the corps keeps its name in
   // the fiction, and the /star-rangers/ URL paths and alias domains are
   // deliberately unchanged, so only front-of-house branding moved.
-  // "Fian-ilchruinne" is the setting umbrella, adopted 2026-08-03 as the
-  // default browser-title brand: the header keeps the work's title, the tab
-  // carries the setting. Old Irish fian (the warrior-band) + ilchruinne
-  // (Irish for multiverse) - "the multiverse Fianna". Spelling is settled
-  // exactly as written, hyphen included; the fused, single-n and fiann-
+  // "Fian-ilchruinne" is the setting umbrella, adopted 2026-08-03 and now
+  // the default brand in BOTH slots: the tab carries the settled hyphenated
+  // form, the header/footer/homepage-heading carry "Fian Ilchruinne" - the
+  // spaced, capitalised display variant Dermot chose for on-page branding
+  // the same day. Old Irish fian (the warrior-band) + ilchruinne (Irish for
+  // multiverse) - "the multiverse Fianna"; the fused, single-n and fiann-
   // variants are all superseded (story-bible/the-title-and-its-risk.md has
-  // the full path). It names the front of house only: "Grand Ensemble
-  // Multiverse" remains the canon in-universe name of the multiverse
-  // (src/lore/ensemble-multiverse.md), which is why the description below
-  // still says it.
-  const name = process.env.SITE_NAME || "Drithane";
+  // the full path). The work is still titled "Drithane" - that name now
+  // reaches the default build via the description below and the OG author,
+  // not the header. Front of house only: "Grand Ensemble Multiverse"
+  // remains the canon in-universe name of the multiverse
+  // (src/lore/ensemble-multiverse.md), which is why the description still
+  // says it.
+  const name = process.env.SITE_NAME || "Fian Ilchruinne";
   const title = process.env.SITE_TITLE || "Fian-ilchruinne";
 
   return {
