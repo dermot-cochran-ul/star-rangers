@@ -10,6 +10,7 @@ tags: [detective-agency, rabbit, eden, undercover-pets.com, trainee]
 description: "A trainee rabbit assigned to Agent Barsik at Eden Space Habitat, still learning the agency's oldest lesson: the best cover is being too adorable to interrogate."
 image: bubochka.jpg
 image_alt: "Bubochka, a fluffy white rabbit, sitting inside a large brown mug filled with pink and white marshmallows, surrounded by more marshmallows on the plate below."
+known_codex: [deck-rounds-and-first-tunnel-survey]
 ---
 
 Eden's civil detective bureau has Bubochka on its books as a filing-room courtesy animal, on loan from the station's small-livestock allowance and tolerated by the Detective Superintendent's office on the grounds that nobody objects to a rabbit. The paperwork is accurate as far as it goes. It does not go very far.
