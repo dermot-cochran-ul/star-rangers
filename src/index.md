@@ -20,7 +20,7 @@ description: "Drithane — an interactive science-fantasy novel grounded in spec
   {%- else %}
   <img class="page-hero-image" src="/star-rangers{{ ogImage }}" alt="{{ ogImageAlt }}" />
   {%- endif %}
-  <h1 class="home-hero__title">✦ Drithane</h1>
+  <h1 class="home-hero__title">✦ {{ site.name }}</h1>
   <p class="home-hero__subtitle">
     {{ edition.heroSubtitle | safe }}
     {% if latestLore %} Newest from the record: <a href="/star-rangers{{ latestLore.url }}">{{ latestLore.title }}</a> — {{ latestLore.excerpt }}{% endif %}

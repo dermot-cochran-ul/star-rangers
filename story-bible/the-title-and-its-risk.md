@@ -141,10 +141,33 @@ week's vetting kept converging on:
   clean multi-word phrase beats a compromised single word, and passes the
   radio test almost automatically.
 - **Setting umbrella** — the Cosmere-style name for the whole continuity.
-  **Adopted 3 August 2026: Grand Ensemble Multiverse**, in exactly that
-  canon form (the lore page's own title), is the working umbrella —
-  **explicitly interim, until a shorter word or phrase is found** that
-  passes the three gates above. The "title stays outside the story" rule
+  **ADOPTED (final, 3 August 2026): Fian-ilchruinne** — succeeding
+  *Grand Ensemble Multiverse*, which was adopted as the working umbrella
+  earlier the same day, explicitly interim until a shorter word was
+  found; Fian-ilchruinne is that word, and Dermot adopted it
+  deliberately, the sit-with-it advice noted and waived. Two scope
+  boundaries on the adoption: (a) **the lore is untouched** — "Grand
+  Ensemble Multiverse" remains the canon in-universe name of the
+  multiverse (`src/lore/ensemble-multiverse.md`); Fian-ilchruinne is the
+  front-of-house umbrella brand, not a terminology change, and no
+  glossary migration is implied. (b) **Site surfacing — decided later
+  the same day**: `SITE_TITLE`'s repo default is now **"Fian-ilchruinne"**
+  (`src/_data/site.js`), superseding the "Grand Ensemble Multiverse" tab
+  title that #278 shipped for a few hours. The meta description
+  deliberately keeps "…of the Grand Ensemble Multiverse…" — that is the
+  canon in-universe name and the description speaks in-world; the tab
+  speaks front-of-house. `SITE_NAME` (header/footer, homepage `<h1>`)
+  stays "Drithane", and per-edition overrides are unaffected. **Domain (decided 3 August 2026): go
+  for it.** Register BOTH forms — `fianilchruinne.com` (fused: what
+  people will actually type, since typed domains drop hyphens) and
+  `fian-ilchruinne.com` (matching the settled spelling) — with one
+  301-redirecting to the other; fused as primary is the
+  radio-test-consistent choice. Neither resolves in DNS as of this date
+  and the string has zero global search presence, so availability is
+  near-certain; the registrar confirms at purchase. The
+  drithane.com-deferral logic does NOT apply here — that deferral
+  existed to keep the September title test unbiased, and the umbrella
+  has no pending test. The "title stays outside the story" rule
   does not bind here — an umbrella naming the cosmology in-world is the
   established pattern — and the full phrase is unowned; its neighbours
   (grand canonical ensemble, Tegmark's ensemble multiverse) read as
@@ -153,7 +176,62 @@ week's vetting kept converging on:
   adoption: it names the stage, not the corps — and the work is as much
   about the Star Rangers. Candidates to shorten to, when the time comes:
   the title itself ("the Drithane universe") if it survives September, or
-  a new find. A corps-flavoured umbrella ("Star Rangers Universe") stays
+  a new find.
+  **On the shelf for that succession (recorded 3 August 2026):
+  Fian-ilchruinne** — *fian* (the warrior-band, the Fianna) + *ilchruinne*
+  (the real modern Irish word for multiverse): literally "the multiverse
+  Fianna", i.e. Rangers of the Grand Ensemble Multiverse compressed into
+  one Irish word. The only candidate of the August vetting that unites
+  corps and stage in a single term, repairing GEM's stage-not-corps cost,
+  and shorter than GEM as the interim decision asked. Scoring: exact
+  match empty (nothing anywhere; nearest neighbours are the Fianna
+  themselves); no high-volume edit-distance neighbour, so no autocorrect
+  predator — once indexed, an exact search is a fortress; **radio test —
+  hardest fail of any candidate vetted**, thirteen letters of Irish
+  orthography no anglophone can spell from sound, survivable only at
+  this tier because an umbrella is navigated by link and branding rather
+  than by ear, with *Drithane* as the radio-friendly front door covering
+  for it. Spelling is settled as **Fian-ilchruinne** (final, decided by
+  Dermot, 3 August 2026): Old Irish *fian-*, hyphen, *ilchruinne* —
+  chosen as the most elegant of the forms considered. The full path, so
+  it isn't re-walked: *Fianilchruine* (misspelled *cruinne*) →
+  *Fianilchruinne* (fused, archaic *fían-*) → *Fiannilchruinne* (fused,
+  modern *fiann-*, briefly settled) → **Fian-ilchruinne** (final: the
+  hyphen shows the seam, and the archaic *fian-* matches the word's
+  older register throughout). The fused forms were exact-phrase vetted
+  empty; hyphenation changes no ownership — hyphenated and fused read
+  as the same unowned string to search.
+  **Irish verified 3 August 2026** (via dictionary content in search
+  snippets; teanglann.ie and tearma.ie are blocked from the session
+  environment): *cruinne* ✓ (f., double n, "universe/globe", from
+  *cruinn* "round"); *il-* + lenition → *ilchruinne* ✓ well-formed and
+  genuinely attested as Irish for "multiverse"; the vowel-initial
+  junction needs no mutation, so a hyphen (*Fian-ilchruinne*) is
+  optional clarity, not a requirement. Two points arose in verification,
+  both since resolved by Dermot: (1) the **modern** headword is *fiann*
+  (f., gs. *féinne*, pl. *fianna*) — *fían* is the Old Irish spelling.
+  **Resolved finally: archaic *fian-* kept, with the hyphen** — the
+  modern *fiann-* was briefly chosen and then set aside for elegance;
+  the older-register consistency (archaic *fian-* front,
+  superseded-but-preferred *ilchruinne* behind) carried the day, and
+  the genitive-phrase escape (*Fiann na hIlchruinne*) stays passed
+  over. (2) **resolved by Dermot's direct check, 3 August 2026**:
+  téarma.ie does list *ilchruinne* (recognized, so the base is real
+  attested Irish) but marks it **superseded**, and Dermot judged the
+  current replacement term less elegant and chose to keep *ilchruinne*
+  anyway. Recorded as a deliberate authorial choice, not an oversight —
+  coining from the older form that sounds right over the current one
+  that doesn't is a legitimate move. The compound itself is in no
+  database, which is the correct state for a coinage: a compound the
+  terminology database already held would be a word someone else owns.
+  With both spelling questions closed by decision — archaic *fian-* on
+  the front, superseded-but-preferred *ilchruinne* behind it, hyphen at
+  the seam — the word's file is complete: **Fian-ilchruinne**, unique,
+  well-formed, one consistently older-register word, every choice made
+  with eyes open. **Adopted 3 August 2026** — the deliberate yes was
+  given the same day, sit-with-it advice noted and waived; see the
+  umbrella bullet above for the adoption's scope and the domain
+  decision. A corps-flavoured umbrella ("Star Rangers Universe") stays
   off the table — the corps keeps its name inside the fiction, and an
   umbrella is front-of-house, so that would quietly reverse the
   2026-08-01 retitle. Ranger emphasis belongs one tier down, in the
