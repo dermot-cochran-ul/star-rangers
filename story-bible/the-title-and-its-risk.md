@@ -184,13 +184,17 @@ week's vetting kept converging on:
   oldest thing in the word); the fully modern *Fiannilchruinne* is
   correct but uglier at the *-nnil-* seam; the idiomatic escape is the
   genitive phrase *Fiann na hIlchruinne*, real syntax but three words
-  again. (2) *ilchruinne* appears **marked superseded on téarma.ie**,
-  successor term not determinable from the blocked session — a
-  thirty-second browser check (tearma.ie → "multiverse") before any
-  adoption. Even if superseded it remains attested real Irish, and a
-  coinage built on it is defensible. Let it sit — a name this committed
-  deserves a deliberate yes, not a same-day one. Not adopted; GEM
-  remains the working umbrella. A corps-flavoured umbrella ("Star Rangers Universe") stays
+  again. (2) **resolved by Dermot's direct check, 3 August 2026**:
+  *ilchruinne* IS recognized on téarma.ie — the "superseded" reading
+  came from a search snippet and the direct check overrides it.
+  *Fian-ilchruinne* is not in the database, which is the correct state
+  for a coinage: a compound the terminology database already held would
+  be a word someone else owns. Unrecognized-but-well-formed is the
+  target. So the base is current standard Irish, the compound is
+  unique, and the only remaining choice is (1) above — archaic *fian-*
+  versus modern *fiann-*. Let it sit — a name this committed deserves a
+  deliberate yes, not a same-day one. Not adopted; GEM remains the
+  working umbrella. A corps-flavoured umbrella ("Star Rangers Universe") stays
   off the table — the corps keeps its name inside the fiction, and an
   umbrella is front-of-house, so that would quietly reverse the
   2026-08-01 retitle. Ranger emphasis belongs one tier down, in the
