@@ -141,10 +141,30 @@ week's vetting kept converging on:
   clean multi-word phrase beats a compromised single word, and passes the
   radio test almost automatically.
 - **Setting umbrella** — the Cosmere-style name for the whole continuity.
-  **Adopted 3 August 2026: Grand Ensemble Multiverse**, in exactly that
-  canon form (the lore page's own title), is the working umbrella —
-  **explicitly interim, until a shorter word or phrase is found** that
-  passes the three gates above. The "title stays outside the story" rule
+  **ADOPTED (final, 3 August 2026): Fian-ilchruinne** — succeeding
+  *Grand Ensemble Multiverse*, which was adopted as the working umbrella
+  earlier the same day, explicitly interim until a shorter word was
+  found; Fian-ilchruinne is that word, and Dermot adopted it
+  deliberately, the sit-with-it advice noted and waived. Two scope
+  boundaries on the adoption: (a) **the lore is untouched** — "Grand
+  Ensemble Multiverse" remains the canon in-universe name of the
+  multiverse (`src/lore/ensemble-multiverse.md`); Fian-ilchruinne is the
+  front-of-house umbrella brand, not a terminology change, and no
+  glossary migration is implied. (b) **Site surfacing is a separate
+  decision** — `SITE_TITLE` currently ships "Grand Ensemble Multiverse"
+  (merged in #278); whether the tab title, description, or any copy
+  moves to Fian-ilchruinne is its own front-of-house call, not a
+  consequence of this adoption. **Domain (decided 3 August 2026): go
+  for it.** Register BOTH forms — `fianilchruinne.com` (fused: what
+  people will actually type, since typed domains drop hyphens) and
+  `fian-ilchruinne.com` (matching the settled spelling) — with one
+  301-redirecting to the other; fused as primary is the
+  radio-test-consistent choice. Neither resolves in DNS as of this date
+  and the string has zero global search presence, so availability is
+  near-certain; the registrar confirms at purchase. The
+  drithane.com-deferral logic does NOT apply here — that deferral
+  existed to keep the September title test unbiased, and the umbrella
+  has no pending test. The "title stays outside the story" rule
   does not bind here — an umbrella naming the cosmology in-world is the
   established pattern — and the full phrase is unowned; its neighbours
   (grand canonical ensemble, Tegmark's ensemble multiverse) read as
@@ -205,9 +225,10 @@ week's vetting kept converging on:
   the front, superseded-but-preferred *ilchruinne* behind it, hyphen at
   the seam — the word's file is complete: **Fian-ilchruinne**, unique,
   well-formed, one consistently older-register word, every choice made
-  with eyes open. Let it sit — a name this committed
-  deserves a deliberate yes, not a same-day one. Not adopted; GEM
-  remains the working umbrella. A corps-flavoured umbrella ("Star Rangers Universe") stays
+  with eyes open. **Adopted 3 August 2026** — the deliberate yes was
+  given the same day, sit-with-it advice noted and waived; see the
+  umbrella bullet above for the adoption's scope and the domain
+  decision. A corps-flavoured umbrella ("Star Rangers Universe") stays
   off the table — the corps keeps its name inside the fiction, and an
   umbrella is front-of-house, so that would quietly reverse the
   2026-08-01 retitle. Ranger emphasis belongs one tier down, in the
