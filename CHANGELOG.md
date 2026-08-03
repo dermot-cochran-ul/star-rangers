@@ -6,6 +6,12 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [1.13.0] - 2026-08-03
+
+A grounding, and a naming. The canon half of this release closes a loop the cosmology had left open since the Cosmic Limitation on Evil was first filed: the Layer 1/2 distinction now *grounds* the predator taxonomy instead of sitting beside it — the Unfounded are patterns nothing underwrites, the False Dragon is the counterfeit of the largest founded thing, and Conseleme's devotional name stopped implying the one thing its definition denies.
+
+The front-of-house half is the naming day. The setting umbrella was hunted, vetted, and adopted in a single sitting — through the Drythane and Driftane collisions, a term-level sweep that exempted *levril* and *Kieme*, an interim *Grand Ensemble Multiverse* tab title that lasted a few hours, and four spellings of one Irish compound — landing on **Fian-ilchruinne**: the multiverse Fianna. The tab now carries the setting, the header keeps the work's title, and each branded edition finally shows its own name over its own door. The full vetting doctrine — three naming tiers, three gates including the new radio test — is recorded in the story bible so none of it is ever re-walked.
+
 ### Added
 
 - **Lore: what Layer 2 records, Layer 1 does not found** (2026-08-02, #270). The Conceptual layer conserves structure without auditing it, so patterns of harm persist there like any others — which is why predatory entities sort into *classes* rather than arriving each time as something new. What such a pattern never acquires is Layer 1: the Spiritual layer holds origin conditions, and a parasitic pattern has no origin, only a host. Written as a **category fact rather than a moral one**, which keeps it consistent with the no-moral-cosmology invariant — evil is a shape collapse takes, and a shape needs something to be the shape *of*. Two consequences the record now leans on: it explains why cute predators are patterns rather than persons (catalogued but unaddressable — every attempt to negotiate fails *unanswered*, not refused), and it finally gives [the Cosmic Limitation on Evil](src/codex/cosmic-limitation-on-evil.md) its mechanism: an entity in service of evil never had grounding of its own, so when the borrowed purpose goes it does not die — **it stops being instantiated**, which looks identical from outside.
