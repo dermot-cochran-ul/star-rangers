@@ -8,7 +8,7 @@ status: Active
 aliases:
   - "Galahad"
   - "Thorne"
-tags: [human, survey, threshold-station, season-1, major-character]
+tags: [human, survey, threshold-station, season-1]
 description: "Senior boundary surveyor assigned to lead the new team at Threshold Station."
 image: "galahad-thorne.jpg"
 image_alt: "Designed cover for Sir Galahad Thorne: a blue compass/surveying emblem in a ringed seal, on a dark background, evoking his boundary-survey role."

@@ -7,7 +7,7 @@ role: Transit Safety Officer, Harmonic Operations
 status: Active
 aliases:
   - "Dr. Vale"
-tags: [human, teleportation, quantum-space-harmonics, threshold-station, season-1, major-character]
+tags: [human, teleportation, quantum-space-harmonics, threshold-station, season-1]
 description: "Clinical transit specialist assigned to Threshold Station to supervise high-risk teleport operations."
 image: "dr-iona-vale.jpg"
 image_alt: "Designed cover for Dr. Iona Vale: an orange warning-triangle emblem in a ringed seal, on a dark background, evoking her authority to halt transit jumps."
