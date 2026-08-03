@@ -184,12 +184,25 @@ week's vetting kept converging on:
   people will actually type, since typed domains drop hyphens) and
   `fian-ilchruinne.com` (matching the settled spelling) — with one
   301-redirecting to the other; fused as primary is the
-  radio-test-consistent choice. Neither resolves in DNS as of this date
-  and the string has zero global search presence, so availability is
-  near-certain; the registrar confirms at purchase. The
+  radio-test-consistent choice. The
   drithane.com-deferral logic does NOT apply here — that deferral
   existed to keep the September title test unbiased, and the umbrella
-  has no pending test. The "title stays outside the story" rule
+  has no pending test.
+  **PURCHASED, 3 August 2026:** `fianilchruinne.com` is registered and
+  resolving (to 31.22.4.67 as of purchase day). `fian-ilchruinne.com`
+  shows no DNS — if it wasn't bought, the both-forms recommendation
+  stands as cheap insurance, but the fused canonical form is the one
+  that matters and it is secured. **Wiring is the open decision, not
+  yet made:** whether fianilchruinne.com becomes (a) an alias of
+  sciencefiction.site (serving its docroot, self-canonical consolidates
+  to the target — the star-rangers.space pattern), or (b) the default
+  edition's canonical domain, *replacing* sciencefiction.site as the
+  unbranded full site's identity — the strong case sketched for
+  drithane.com before the retitle, transferred here. (b) is a
+  live-domain identity change: registry edit in `lib/editions.js`
+  (draft-and-stop), a cPanel clone/addon with its own deploy.conf, and
+  a canonical/redirect plan for sciencefiction.site's existing index
+  presence. Do neither by default; each is its own instruction. The "title stays outside the story" rule
   does not bind here — an umbrella naming the cosmology in-world is the
   established pattern — and the full phrase is unowned; its neighbours
   (grand canonical ensemble, Tegmark's ensemble multiverse) read as
