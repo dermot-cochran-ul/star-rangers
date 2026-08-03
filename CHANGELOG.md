@@ -8,6 +8,9 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Changed
 
+- **The deploy log now warns loudly when `ADMIN_EMAIL` is a guess** (2026-08-03). A defaulted `admin@<DOMAIN>` only notifies anyone if that address actually exists on the server — the local MTA accepts mail for a hosted domain and silently discards it for a nonexistent address, which the script cannot detect. That is exactly how a failed deploy on the freshly-canonicalised domain went unexplained: no forwarder existed yet for the new `admin@`, so the FAILURE email carrying the log went nowhere (the log itself was in `deploy-logs/`, as always). The script's logged output now states when the default is in use and what it requires, and the README's `ADMIN_EMAIL` row documents the create-the-forwarder-first rule for domain changes.
+
+
 - **The structural site pages are now edition-aware** (2026-08-03, follow-up to the Story Engine change). A sweep of hardcoded "Drithane" references, judged by the retitle's own rule — which sense does each carry. The *site/door* sense now follows `site.name`: the section-index descriptions (Atlas, Characters, Codex, Glossary, Lore, Timeline, Journal, Threads, Seasons and all 19 season/episode indexes, via `eleventyComputed`) and the Journal and Threads intro lines (both also carrying the same stray apostrophe the Story Engine had). The excluded-page placeholder now names **Fian Ilchruinne** hardcoded — it refers to the reference site the placeholder links to, where the local `site.name` would name the wrong door on a branded edition. The *work's title* sense stays **Drithane** on purpose: About, Official Editions and Forking (policy pages), the homepage description and licence line, canon lore/glossary text, dated journal entries, and the per-edition hero taglines.
 
 
