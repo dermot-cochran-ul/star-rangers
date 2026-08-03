@@ -33,9 +33,12 @@ description: "The complete list of official Drithane deployments. If the address
 
 <h2>Alias addresses</h2>
 <p>
-  Two older addresses serve existing editions rather than sites of their own:
-  <strong>star-rangers.space</strong> (an alias of sciencefiction.site) and
-  <strong>star-rangers.site</strong> (an alias of starquest.site).
+  These addresses serve existing editions rather than sites of their own:
+  <strong>star-rangers.space</strong> (an alias of sciencefiction.site),
+  <strong>star-rangers.site</strong> (an alias of starquest.site), and —
+  all aliases of fianilchruinne.com — <strong>fian-ilchruinne.com</strong>,
+  <strong>fianilchruinne.site</strong>, <strong>fianilchruinne.space</strong>,
+  <strong>fianilchruinne.online</strong> and <strong>fianilchruinne.net</strong>.
 </p>
 
 <h2>About forks</h2>
