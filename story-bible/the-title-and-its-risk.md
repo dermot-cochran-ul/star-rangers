@@ -170,11 +170,27 @@ week's vetting kept converging on:
   than by ear, with *Drithane* as the radio-friendly front door covering
   for it. Spelling is settled as **Fianilchruinne** (double n — *cruinne*
   is the Irish; the single-n form first proposed was a misspelling).
-  Before any adoption: verify the compound's formation against
-  Teanglann/Téarma (including whether it wants a hyphen,
-  *Fian-ilchruinne*), and let it sit — a name this committed deserves a
-  deliberate yes, not a same-day one. Not adopted; GEM remains the
-  working umbrella. A corps-flavoured umbrella ("Star Rangers Universe") stays
+  **Irish verified 3 August 2026** (via dictionary content in search
+  snippets; teanglann.ie and tearma.ie are blocked from the session
+  environment): *cruinne* ✓ (f., double n, "universe/globe", from
+  *cruinn* "round"); *il-* + lenition → *ilchruinne* ✓ well-formed and
+  genuinely attested as Irish for "multiverse"; the vowel-initial
+  junction needs no mutation, so a hyphen (*Fian-ilchruinne*) is
+  optional clarity, not a requirement. Two open points, both judgement
+  rather than error: (1) the **modern** headword is *fiann* (f., gs.
+  *féinne*, pl. *fianna*) — *fían* is the Old Irish spelling, so
+  "Fianilchruinne" pairs an archaic first element with a modern second.
+  Keeping it is a defensible deliberate archaism (the Fianna are the
+  oldest thing in the word); the fully modern *Fiannilchruinne* is
+  correct but uglier at the *-nnil-* seam; the idiomatic escape is the
+  genitive phrase *Fiann na hIlchruinne*, real syntax but three words
+  again. (2) *ilchruinne* appears **marked superseded on téarma.ie**,
+  successor term not determinable from the blocked session — a
+  thirty-second browser check (tearma.ie → "multiverse") before any
+  adoption. Even if superseded it remains attested real Irish, and a
+  coinage built on it is defensible. Let it sit — a name this committed
+  deserves a deliberate yes, not a same-day one. Not adopted; GEM
+  remains the working umbrella. A corps-flavoured umbrella ("Star Rangers Universe") stays
   off the table — the corps keeps its name inside the fiction, and an
   umbrella is front-of-house, so that would quietly reverse the
   2026-08-01 retitle. Ranger emphasis belongs one tier down, in the
