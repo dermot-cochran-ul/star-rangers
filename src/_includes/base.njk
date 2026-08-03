@@ -6,6 +6,10 @@
   <meta name="description" content="{{ description | default(site.description) }}" />
   {%- if robots %}
   <meta name="robots" content="{{ robots }}" />
+  {%- elif site.noindex %}
+  {#- SITE_NOINDEX=true: a testing/staging domain noindexes every page,
+      belt to robots.txt's Disallow braces. -#}
+  <meta name="robots" content="noindex, nofollow" />
   {%- endif %}
   <title>{% if title %}{{ title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="stylesheet" href="/star-rangers/css/main.css?v={{ build.assetVersion }}" />
@@ -37,7 +41,7 @@
       lore/solar-system-concordant.njk) are unaffected: they hand-write their
       own head and keep canonical + noindex, which is the conventional pairing
       for a redirect rather than for a placeholder. -#}
-  {%- if not robots or "noindex" not in robots %}
+  {%- if (not robots or "noindex" not in robots) and not site.noindex %}
   <link rel="canonical" href="{{ page.url | absoluteUrl(site.url) }}" />
   {%- endif %}
   <link rel="alternate" type="application/atom+xml" title="{{ site.name }} — New Episodes" href="{{ '/feed/feed.xml' | absoluteUrl(site.url) }}" />

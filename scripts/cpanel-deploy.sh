@@ -87,6 +87,14 @@ ADMIN_EMAIL=""
 DOMAIN="fianilchruinne.com"
 SITE_NAME=""
 SITE_TITLE=""
+# SITE_NOINDEX=true builds a domain that asks not to be indexed at all:
+# robots.txt becomes Disallow: /, every page carries a noindex,nofollow
+# robots meta, and no canonicals are emitted. For testing/staging
+# (sub)domains, which would otherwise serve the full site, self-canonicalise
+# and compete with fianilchruinne.com in search. deploy.conf-only on
+# purpose - a testing domain is exactly the kind that should NOT be
+# registered in lib/editions.js.
+SITE_NOINDEX=""
 CUSTOM_LORE_FILE=""
 CUSTOM_CSS_FILE=""
 # Empty for the same reason as THEME above; normalised to "true" after
@@ -366,7 +374,7 @@ build_and_deploy() {
   # Unrecognized names fail loudly rather than being exported blindly, same
   # spirit as the CUSTOM_LORE_FILE/CUSTOM_CSS_FILE "missing file" checks
   # further down.
-  local COMMENTS_ENABLED="true"
+  local COMMENTS_ENABLED="true" SITE_NOINDEX=""
   # EDITION must be threaded through and exported separately from THEME, not
   # derived from it. lib/editions.js falls back to THEME when EDITION is unset,
   # which covers a clone that predates the registry - but the entire point of
@@ -383,6 +391,7 @@ build_and_deploy() {
     b_kv_value="${b_kv#*=}"
     case "$b_kv_name" in
       COMMENTS_ENABLED) COMMENTS_ENABLED="$b_kv_value" ;;
+      SITE_NOINDEX) SITE_NOINDEX="$b_kv_value" ;;
       EDITION) EDITION="$b_kv_value" ;;
       GISCUS_PROFILE) GISCUS_PROFILE="$b_kv_value" ;;
       GISCUS_REPO) GISCUS_REPO="$b_kv_value" ;;
@@ -414,6 +423,7 @@ build_and_deploy() {
         SITE_NAME="$b_site_name" SITE_TITLE="$b_site_title" SITE_DOMAIN="$b_site_domain"
   export EDITION
   export CHARACTERS TOPICS THREADS THEME SITE_NAME SITE_TITLE SITE_DOMAIN COMMENTS_ENABLED \
+    SITE_NOINDEX \
     GISCUS_PROFILE GISCUS_REPO GISCUS_REPO_ID GISCUS_CATEGORY_CHARACTERS_ID GISCUS_CATEGORY_LORE_ID \
     GISCUS_CATEGORY_EPISODES_ID GISCUS_CATEGORY_JOURNAL_ID
 
@@ -629,6 +639,7 @@ main() {
     if build_and_deploy "primary" "/home/$CPANEL_USER/public_html/" \
          "$THEME" "$CHARACTERS" "$TOPICS" "$THREADS" "$SITE_NAME" "$SITE_TITLE" "$DOMAIN" \
          "$CUSTOM_LORE_FILE" "$CUSTOM_CSS_FILE" "COMMENTS_ENABLED=$COMMENTS_ENABLED" \
+         "SITE_NOINDEX=$SITE_NOINDEX" \
          "EDITION=$EDITION" \
          "GISCUS_PROFILE=$GISCUS_PROFILE" \
          "GISCUS_REPO=$GISCUS_REPO" "GISCUS_REPO_ID=$GISCUS_REPO_ID" \
@@ -691,7 +702,7 @@ main() {
     fi
 
     local alt_edition alt_theme alt_characters alt_topics alt_threads alt_site_name alt_site_title \
-          alt_custom_lore alt_custom_css alt_comments_enabled \
+          alt_custom_lore alt_custom_css alt_comments_enabled alt_site_noindex \
           alt_giscus_repo alt_giscus_repo_id alt_giscus_cat_characters alt_giscus_cat_lore alt_giscus_cat_episodes \
           alt_giscus_cat_journal
     # Read deploy.conf's ALT_<id>_* values first, WITHOUT defaulting - the
@@ -708,6 +719,7 @@ main() {
     alt_custom_lore=$(alt_get "$id" CUSTOM_LORE_FILE)
     alt_custom_css=$(alt_get "$id" CUSTOM_CSS_FILE)
     alt_comments_enabled=$(alt_get "$id" COMMENTS_ENABLED)
+    alt_site_noindex=$(alt_get "$id" SITE_NOINDEX)
     alt_giscus_profile=$(alt_get "$id" GISCUS_PROFILE)
     alt_giscus_repo=$(alt_get "$id" GISCUS_REPO)
     alt_giscus_repo_id=$(alt_get "$id" GISCUS_REPO_ID)
@@ -734,6 +746,7 @@ main() {
     if build_and_deploy "$id" "$alt_dest" "$alt_theme" "$alt_characters" "$alt_topics" "$alt_threads" \
          "$alt_site_name" "$alt_site_title" "$alt_domain" "$alt_custom_lore" "$alt_custom_css" \
          "COMMENTS_ENABLED=$alt_comments_enabled" \
+         "SITE_NOINDEX=$alt_site_noindex" \
          "EDITION=$alt_edition" \
          "GISCUS_PROFILE=$alt_giscus_profile" \
          "GISCUS_REPO=$alt_giscus_repo" "GISCUS_REPO_ID=$alt_giscus_repo_id" \

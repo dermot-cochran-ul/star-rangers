@@ -33,9 +33,17 @@ module.exports = function () {
   const name = process.env.SITE_NAME || "Fian Ilchruinne";
   const title = process.env.SITE_TITLE || "Fian-ilchruinne";
 
+  // SITE_NOINDEX=true (deploy.conf, threaded per-domain by
+  // scripts/cpanel-deploy.sh) marks this build as a testing/staging domain
+  // that must not be indexed: robots.txt flips to Disallow: /, every page
+  // carries a noindex,nofollow meta, and canonicals are suppressed
+  // (see src/robots.njk and src/_includes/base.njk).
+  const noindex = String(process.env.SITE_NOINDEX || "").toLowerCase() === "true";
+
   return {
     name,
     title,
+    noindex,
     description: "Drithane is an interactive science-fantasy novel of the Grand Ensemble Multiverse: a station clock forty seconds wrong, and the Star Rangers ordered to measure the drift and guard the public record. The stars call us forward with hope; to protect what is good and to see what is true. One canonical history across the Five Layers and multiple Concordants.",
     url: `https://${domain}/`,
     author: "Drithane",
