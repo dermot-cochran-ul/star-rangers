@@ -10,7 +10,7 @@ location: "Agency case file, Eden posting — copy lodged with the Survey Archiv
 ---
 
 **UNDERCOVER PETS DETECTIVE AGENCY — JOINT FIELD LOG**
-*Training exercise record. Not a hazard finding. Not submitted to Eden's compliance framework. Filed to have been written down.*
+*Watch of record: 2826 UCSD, Early Winter. Training exercise record. Not a hazard finding. Not submitted to Eden's compliance framework. Filed to have been written down.*
 
 ---
 
@@ -53,7 +53,7 @@ She has now filed a report someone upstream may eventually need to act on. I hav
 
 ---
 
-*Verification Desk annotation, Survey Archive: lodged at the authors' request rather than through any institution's submission channel, and held on that basis, as with the same posting's earlier paper on the galley door specimen. Of that earlier paper this desk observed that the trainee appeared only as a record — not named, not asked what she concluded. She appears here as a witness and an author, over her own signature, with her senior's countersign subordinate to her section rather than the reverse. The desk records the correction without claiming credit for it.*
+*Verification Desk annotation, Survey Archive: lodged at the authors' request rather than through any institution's submission channel, and held on that basis, as with the same posting's earlier-lodged paper on the galley door specimen. The log itself is dated five years before its lodging; the authors offer no account of the interval, and the Archive requires none — what a working agency keeps in its own files and what it chooses to place on an archive's record are different decisions, made at different times, for reasons the record does not need in order to hold the document. Of that earlier paper this desk observed that the trainee appeared only as a record — not named, not asked what she concluded. She appears here as a witness and an author, over her own signature, with her senior's countersign subordinate to her section rather than the reverse. The desk records the correction without claiming credit for it.*
 
 *On the substance the Archive takes no position. It notes only that a survey which finds one door too many and proposes to open nothing, and a dual-valid reading filed with its calibration certificate already attached, are both documents written by someone who expects to be disbelieved slowly — and that on this habitat, on the record, that expectation has never yet been wrong.*
 
