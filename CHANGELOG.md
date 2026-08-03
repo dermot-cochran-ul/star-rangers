@@ -29,6 +29,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 - **Journal: [Almost Despaired](src/journal/almost-despaired.md)** (2026-08-03) — the companion piece to *The Name Was Never Mine*: that entry was about losing the book's name, this one is about finding the setting's. The public account of the Fian-ilchruinne naming day — the drift-cluster collisions, the term-level discoveries (*Kieme* is German for gill; an unrelated fan wiki independently coined both a Levril and a Frenar), the turn from coining to compounding Irish, and the "almost" in the title doing the entry's real work. Deliberately silent on the title tier's own open risk file, which stays in the story bible.
 
+### Fixed
+
+- **Excluded-page placeholders no longer pollute site search** (2026-08-03). Every "Not included in this edition" stub sat inside `data-pagefind-body`, so a narrowed edition's Pagefind index carried dozens-to-hundreds of identical placeholder results (matching "archive", and latterly "Fian Ilchruinne"), and even the full site indexed its church-space placeholders. One attribute on `src/_includes/excluded.njk` (`data-pagefind-ignore`) empties them out of the index: the full build drops 444 → 434 indexed pages, a `TOPICS=undercover-pets.com` build drops to 159 — only genuinely included pages. Real excluded titles never leaked (only the generic stub text was indexed), so this is de-noising, not a privacy fix.
+
 ## [1.13.0] - 2026-08-03
 
 A grounding, and a naming. The canon half of this release closes a loop the cosmology had left open since the Cosmic Limitation on Evil was first filed: the Layer 1/2 distinction now *grounds* the predator taxonomy instead of sitting beside it — the Unfounded are patterns nothing underwrites, the False Dragon is the counterfeit of the largest founded thing, and Conseleme's devotional name stopped implying the one thing its definition denies.

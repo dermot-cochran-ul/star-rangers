@@ -1,7 +1,12 @@
 ---
 layout: base.njk
 ---
-<article class="excluded-notice">
+{# data-pagefind-ignore: without it every placeholder is indexed (the stub
+   sits inside base.njk's data-pagefind-body), so a narrowed edition's
+   search for "archive" or "Fian Ilchruinne" returned dozens of identical
+   "Not included in this edition" results. Real excluded titles never
+   leaked - only this generic text - so this is de-noising, not privacy. #}
+<article class="excluded-notice" data-pagefind-ignore>
   <h1 class="page-title">Not included in this edition</h1>
   {# "Fian Ilchruinne" is deliberately hardcoded, NOT site.name: this sentence
      names the reference site the link below points at, and on a branded
