@@ -6,7 +6,8 @@
   "scripts": {
     "build": "eleventy && pagefind --site _site",
     "start": "eleventy --serve",
-    "test": "node scripts/validate-content.js && eleventy --dryrun",
+    "test": "node scripts/validate-content.js && node scripts/sync-version.js --check && eleventy --dryrun",
+    "version": "node scripts/sync-version.js",
     "new": "node scripts/new-content.js",
     "generate-themes": "node scripts/generate-themes.js",
     "fetch-giscus-ids": "node scripts/fetch-giscus-ids.js"
