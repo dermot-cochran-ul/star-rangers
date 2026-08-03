@@ -150,11 +150,14 @@ week's vetting kept converging on:
   Ensemble Multiverse" remains the canon in-universe name of the
   multiverse (`src/lore/ensemble-multiverse.md`); Fian-ilchruinne is the
   front-of-house umbrella brand, not a terminology change, and no
-  glossary migration is implied. (b) **Site surfacing is a separate
-  decision** — `SITE_TITLE` currently ships "Grand Ensemble Multiverse"
-  (merged in #278); whether the tab title, description, or any copy
-  moves to Fian-ilchruinne is its own front-of-house call, not a
-  consequence of this adoption. **Domain (decided 3 August 2026): go
+  glossary migration is implied. (b) **Site surfacing — decided later
+  the same day**: `SITE_TITLE`'s repo default is now **"Fian-ilchruinne"**
+  (`src/_data/site.js`), superseding the "Grand Ensemble Multiverse" tab
+  title that #278 shipped for a few hours. The meta description
+  deliberately keeps "…of the Grand Ensemble Multiverse…" — that is the
+  canon in-universe name and the description speaks in-world; the tab
+  speaks front-of-house. `SITE_NAME` (header/footer, homepage `<h1>`)
+  stays "Drithane", and per-edition overrides are unaffected. **Domain (decided 3 August 2026): go
   for it.** Register BOTH forms — `fianilchruinne.com` (fused: what
   people will actually type, since typed domains drop hyphens) and
   `fian-ilchruinne.com` (matching the settled spelling) — with one
