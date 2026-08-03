@@ -1,7 +1,8 @@
 ---
 layout: base.njk
 title: "Codex"
-description: "In-universe documents, edicts, logs, and annotated records from Drithane."
+eleventyComputed:
+  description: "In-universe documents, edicts, logs, and annotated records from {{ site.name }}."
 ---
 <img class="page-hero-image" src="/star-rangers/images/hero/codex-documents.jpg" alt="A stack of official documents in files" />
 <h1 class="page-title">Codex</h1>

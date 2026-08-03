@@ -1,7 +1,8 @@
 ---
 layout: base.njk
 title: "Founding Era"
-description: "The prequel Founding Era of Drithane — the events that led to the founding of the Star Rangers, told from the perspectives of those who built it and those who resisted."
+eleventyComputed:
+  description: "The prequel Founding Era of {{ site.name }} — the events that led to the founding of the Star Rangers, told from the perspectives of those who built it and those who resisted."
 permalink: /seasons/s00/
 ---
 <nav class="chapter-breadcrumb" aria-label="Season location">

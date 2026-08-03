@@ -1,7 +1,8 @@
 ---
 layout: base.njk
 title: "Episode 1"
-description: "Chapters in Season 6, Episode 1 of Drithane."
+eleventyComputed:
+  description: "Chapters in Season 6, Episode 1 of {{ site.name }}."
 permalink: /seasons/s06/e01/
 ---
 <nav class="chapter-breadcrumb" aria-label="Episode location">

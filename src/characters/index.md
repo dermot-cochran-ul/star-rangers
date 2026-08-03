@@ -1,7 +1,8 @@
 ---
 layout: base.njk
 title: "Characters"
-description: "Profiles of every named character, being, and entity in Drithane."
+eleventyComputed:
+  description: "Profiles of every named character, being, and entity in {{ site.name }}."
 ---
 <img class="page-hero-image" src="/star-rangers/images/hero/characters-astronaut.jpg" alt="An astronaut in orbit near a space station" />
 <h1 class="page-title">Characters</h1>
