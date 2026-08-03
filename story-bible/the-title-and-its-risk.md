@@ -218,12 +218,27 @@ week's vetting kept converging on:
   fallbacks, the Official Editions page, and the README all name it;
   sciencefiction.site stays a registered domain of the same edition
   at its original address, consolidating to the canonical once the
-  clone redeploys. **Server-side remainder (Dermot's):** set
-  `DOMAIN=fianilchruinne.com` in the default clone's deploy.conf (or
-  delete its DOMAIN line to inherit the new fallback) and redeploy,
-  so canonicals, robots.txt and sitemap.xml flip to the new address;
-  until that deploy, the served pages still canonicalise to
-  sciencefiction.site. The "title stays outside the story" rule
+  clone redeploys. **Deployed 3 August 2026:** fianilchruinne.com
+  serves from its own new cPanel account (`fianilch`, its own clone,
+  `DOMAIN=fianilchruinne.com`, explicit ADMIN_EMAIL on a working
+  address) — live and self-canonical after a first-deploy saga worth
+  its scars: a "system cannot deploy" git-state blocker cured by
+  recreating the clone, and the ADMIN_EMAIL-forwarder lesson now
+  hardened into the deploy script.
+  **Two open loose ends, recorded 3 August 2026, neither urgent:**
+  (1) **sciencefiction.site's posture.** Both domains currently serve
+  the full site and each self-canonicalises — duplicate content
+  competing in search. Fix is one of: (a) set the sciencef clone's
+  deploy.conf to `DOMAIN=fianilchruinne.com`, so pages served at the
+  old address carry canonicals naming the new one (consolidation
+  while still serving pages), or (b) a cPanel 301 redirect from
+  sciencefiction.site to fianilchruinne.com — the stronger signal for
+  transferring the old domain's index equity, and what SEO orthodoxy
+  picks. Dermot's call; do neither by default.
+  (2) **Search Console for fianilchruinne.com** — claim the property
+  and submit the sitemap. The 1.12.0 Safe Browsing saga proved
+  claiming early pays, and the September title re-test reads better
+  with Search Console data flowing for the new canonical too. The "title stays outside the story" rule
   does not bind here — an umbrella naming the cosmology in-world is the
   established pattern — and the full phrase is unowned; its neighbours
   (grand canonical ensemble, Tegmark's ensemble multiverse) read as
