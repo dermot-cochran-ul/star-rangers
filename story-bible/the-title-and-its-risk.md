@@ -163,14 +163,16 @@ week's vetting kept converging on:
   Golden-Age-serial register, warmer than the house voice — a deliberate
   choice if used; too long to be the spoken handle, which stays the
   title).
-  **Scope of the adoption (settled 3 August 2026): planning-tier only.**
-  The site title and description are *not* Grand Ensemble Multiverse and
-  do not change with this decision — `SITE_NAME`/`SITE_TITLE` stay
-  "Drithane" and the meta description keeps leading with the title
-  (`src/_data/site.js`). Surfacing GEM anywhere front-of-house — site
-  chrome, an `editions.js` tagline, About copy, metadata — is its own
-  future decision requiring its own instruction, not a consequence of
-  this one.
+  **Scope of the adoption (revised later on 3 August 2026 — supersedes
+  the planning-tier-only reading briefly recorded here):** GEM is now
+  front-of-house by default. `SITE_TITLE`'s repo default is **"Grand
+  Ensemble Multiverse"** (the browser-tab brand) and the default meta
+  description reads "…an interactive science-fantasy novel *of the Grand
+  Ensemble Multiverse*…" (`src/_data/site.js`). `SITE_NAME` — the header
+  and footer brand — stays **"Drithane"**: the header carries the work's
+  title, the tab carries the setting. Clones still override both via
+  `deploy.conf`/`lib/editions.js`, so branded editions are unaffected
+  unless they inherit the default.
 - **Tagline/descriptor** — three-word out-of-story phrases, cheap to vet
   (one exact-phrase search; no autocorrect gravity at three words).
   Vetted available 3 August 2026: *Sparks Between Worlds* (unowned; busy

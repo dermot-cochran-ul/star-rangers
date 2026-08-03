@@ -17,13 +17,18 @@ module.exports = function () {
   // Rangers" (and a 1987 comic of the same name) - the corps keeps its name in
   // the fiction, and the /star-rangers/ URL paths and alias domains are
   // deliberately unchanged, so only front-of-house branding moved.
+  // "Grand Ensemble Multiverse" is the setting umbrella (the canonical name
+  // of the whole continuity, per src/lore/ensemble-multiverse.md), adopted
+  // 2026-08-03 as the default browser-title brand: the header keeps the
+  // work's title, the tab carries the setting. Use exactly this canon form -
+  // no variants ("Grand Ensemble Universe" is wrong).
   const name = process.env.SITE_NAME || "Drithane";
-  const title = process.env.SITE_TITLE || "Drithane";
+  const title = process.env.SITE_TITLE || "Grand Ensemble Multiverse";
 
   return {
     name,
     title,
-    description: "Drithane is an interactive science-fantasy novel: a station clock forty seconds wrong, and the Star Rangers ordered to measure the drift and guard the public record. The stars call us forward with hope; to protect what is good and to see what is true. One canonical history across the Five Layers and multiple Concordants.",
+    description: "Drithane is an interactive science-fantasy novel of the Grand Ensemble Multiverse: a station clock forty seconds wrong, and the Star Rangers ordered to measure the drift and guard the public record. The stars call us forward with hope; to protect what is good and to see what is true. One canonical history across the Five Layers and multiple Concordants.",
     url: `https://${domain}/`,
     author: "Drithane",
     language: "en",
