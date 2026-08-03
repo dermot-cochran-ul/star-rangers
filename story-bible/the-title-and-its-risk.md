@@ -151,13 +151,20 @@ week's vetting kept converging on:
   multiverse (`src/lore/ensemble-multiverse.md`); Fian-ilchruinne is the
   front-of-house umbrella brand, not a terminology change, and no
   glossary migration is implied. (b) **Site surfacing — decided later
-  the same day**: `SITE_TITLE`'s repo default is now **"Fian-ilchruinne"**
-  (`src/_data/site.js`), superseding the "Grand Ensemble Multiverse" tab
-  title that #278 shipped for a few hours. The meta description
-  deliberately keeps "…of the Grand Ensemble Multiverse…" — that is the
-  canon in-universe name and the description speaks in-world; the tab
-  speaks front-of-house. `SITE_NAME` (header/footer, homepage `<h1>`)
-  stays "Drithane", and per-edition overrides are unaffected. **Domain (decided 3 August 2026): go
+  the same day, in two steps**: `SITE_TITLE`'s repo default is
+  **"Fian-ilchruinne"** (settled hyphenated form, superseding the "Grand
+  Ensemble Multiverse" tab title #278 shipped for a few hours), and
+  `SITE_NAME`'s repo default is **"Fian Ilchruinne"** — the spaced,
+  capitalised **display variant** Dermot chose for on-page branding
+  (header logo, footer, homepage `<h1>`), replacing "Drithane" there.
+  That display form is a deliberate variant of the settled spelling, for
+  the name's on-page face only — the hyphenated form remains canonical
+  everywhere the word is *referred to*. Drithane thereby leaves the
+  default header: the work's title now reaches the default build via
+  the meta description and OG author. The description deliberately
+  keeps "…of the Grand Ensemble Multiverse…" — the canon in-universe
+  name; the description speaks in-world, the chrome speaks
+  front-of-house. Per-edition overrides are unaffected. **Domain (decided 3 August 2026): go
   for it.** Register BOTH forms — `fianilchruinne.com` (fused: what
   people will actually type, since typed domains drop hyphens) and
   `fian-ilchruinne.com` (matching the settled spelling) — with one
