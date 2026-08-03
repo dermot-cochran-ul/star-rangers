@@ -238,7 +238,23 @@ week's vetting kept converging on:
   (2) **Search Console for fianilchruinne.com** — claim the property
   and submit the sitemap. The 1.12.0 Safe Browsing saga proved
   claiming early pays, and the September title re-test reads better
-  with Search Console data flowing for the new canonical too. The "title stays outside the story" rule
+  with Search Console data flowing for the new canonical too.
+  **Why loose end (1) applies here and not to the other edition
+  families** (asked and answered 2026-08-03): the duplication is the
+  same phenomenon everywhere — the four fellowshipoflight TLDs, the
+  two starquest and two church-space domains, and GitHub Pages all
+  serve identical builds that each self-canonicalise, and search
+  engines quietly elect one winner per family on their own. That is
+  tolerable there because no equity is at stake and nobody cares which
+  TLD wins; it stopped being tolerable for
+  sciencefiction.site → fianilchruinne.com because that pair has a
+  *designated* winner and real accumulated index equity to transfer.
+  Degree, not kind. If the families are ever tidied the same way, the
+  recipe is: pick one primary per family (fellowshipoflight.org,
+  starquest.site), convert the rest to cPanel aliases of it — the
+  mechanism star-rangers.space/star-rangers.site already use — and
+  update the registry's ALIAS DOMAINS block to match. Indefinitely
+  deferrable. The "title stays outside the story" rule
   does not bind here — an umbrella naming the cosmology in-world is the
   established pattern — and the full phrase is unowned; its neighbours
   (grand canonical ensemble, Tegmark's ensemble multiverse) read as
