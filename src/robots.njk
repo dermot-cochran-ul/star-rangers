@@ -2,6 +2,12 @@
 permalink: robots.txt
 eleventyExcludeFromCollections: true
 ---
+{% if site.noindex -%}
+# SITE_NOINDEX=true: this is a testing/staging domain. Nothing here should
+# be crawled or indexed - the canonical site is what search should carry.
+User-agent: *
+Disallow: /
+{%- else -%}
 User-agent: *
 Allow: /
 
@@ -27,3 +33,4 @@ User-agent: CCBot
 Allow: /
 
 Sitemap: {{ site.url }}sitemap.xml
+{%- endif %}
