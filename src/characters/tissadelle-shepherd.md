@@ -8,7 +8,7 @@ status: Active
 aliases:
   - "Shepherd"
   - "Tiss"
-tags: [human, star-rangers, cadet, line-captain, celtic-union, tir-na-nog, sentinel, meridian, halyx-system, season-1, season-5, major-character, plural-mind, tobble]
+tags: [human, star-rangers, cadet, line-captain, celtic-union, tir-na-nog, sentinel, meridian, halyx-system, season-1, season-5, plural-mind, tobble]
 description: "Star Ranger cadet at the start of Season 1; earns the rank of Line Captain by Season 5 — by way of rotations through almost every branch of every specialist corps, a generalist's route that ends, deliberately, on the command path."
 image: tissadelle-shepherd.jpg
 image_alt: "Tissadelle Shepherd early in her career, a young woman with red hair tied back and blue-green eyes, in a worn blue coverall, working at an instrument panel in a cramped equipment bay aboard a station; her hand is on a control and her attention is on something outside the frame, with another crew member at work behind her"

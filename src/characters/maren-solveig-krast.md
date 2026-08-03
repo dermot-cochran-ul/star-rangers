@@ -7,7 +7,7 @@ role: General, Military Space Command; Solar Command, Mars (b. 2631 UCSD – d. 
 status: Historical
 aliases:
   - "General Krast"
-tags: [msc, mars, sol-system, solar-command, history, human, major-character]
+tags: [msc, mars, sol-system, solar-command, history, human]
 description: "The Military Space Command general whose defence of technocratic rule at the Outer Stations Consolidation Hearing became the institution's most-quoted line — taught inside the MSC as doctrine, and repeated outside it as a warning."
 image: "maren-solveig-krast.jpg"
 image_alt: "An archival official portrait of a stern grey-haired general in an austere high-collared slate uniform, seated with hands folded at a table, against a plain dark backdrop"
