@@ -155,7 +155,7 @@ week's vetting kept converging on:
   the title itself ("the Drithane universe") if it survives September, or
   a new find.
   **On the shelf for that succession (recorded 3 August 2026):
-  Fianilchruinne** — *fian* (the warrior-band, the Fianna) + *ilchruinne*
+  Fian-ilchruinne** — *fian* (the warrior-band, the Fianna) + *ilchruinne*
   (the real modern Irish word for multiverse): literally "the multiverse
   Fianna", i.e. Rangers of the Grand Ensemble Multiverse compressed into
   one Irish word. The only candidate of the August vetting that unites
@@ -168,12 +168,16 @@ week's vetting kept converging on:
   orthography no anglophone can spell from sound, survivable only at
   this tier because an umbrella is navigated by link and branding rather
   than by ear, with *Drithane* as the radio-friendly front door covering
-  for it. Spelling is settled as **Fiannilchruinne** (decided by Dermot,
-  3 August 2026): modern *fiann-* + *ilchruinne*, both elements double-n.
-  The single-n *Fianilchruine* first proposed misspelled *cruinne*; the
-  intermediate *Fianilchruinne* used the Old Irish *fían-* form and is
-  superseded by this decision. "Fiannilchruinne" was exact-phrase vetted
-  on settling: empty, same ancient-names neighbourhood, no owner.
+  for it. Spelling is settled as **Fian-ilchruinne** (final, decided by
+  Dermot, 3 August 2026): Old Irish *fian-*, hyphen, *ilchruinne* —
+  chosen as the most elegant of the forms considered. The full path, so
+  it isn't re-walked: *Fianilchruine* (misspelled *cruinne*) →
+  *Fianilchruinne* (fused, archaic *fían-*) → *Fiannilchruinne* (fused,
+  modern *fiann-*, briefly settled) → **Fian-ilchruinne** (final: the
+  hyphen shows the seam, and the archaic *fian-* matches the word's
+  older register throughout). The fused forms were exact-phrase vetted
+  empty; hyphenation changes no ownership — hyphenated and fused read
+  as the same unowned string to search.
   **Irish verified 3 August 2026** (via dictionary content in search
   snippets; teanglann.ie and tearma.ie are blocked from the session
   environment): *cruinne* ✓ (f., double n, "universe/globe", from
@@ -183,9 +187,12 @@ week's vetting kept converging on:
   optional clarity, not a requirement. Two points arose in verification,
   both since resolved by Dermot: (1) the **modern** headword is *fiann*
   (f., gs. *féinne*, pl. *fianna*) — *fían* is the Old Irish spelling.
-  **Resolved: modern *fiann-* chosen** (hence the settled spelling
-  above); the archaic *fian-* and the genitive-phrase escape (*Fiann na
-  hIlchruinne*) were considered and passed over. (2) **resolved by Dermot's direct check, 3 August 2026**:
+  **Resolved finally: archaic *fian-* kept, with the hyphen** — the
+  modern *fiann-* was briefly chosen and then set aside for elegance;
+  the older-register consistency (archaic *fian-* front,
+  superseded-but-preferred *ilchruinne* behind) carried the day, and
+  the genitive-phrase escape (*Fiann na hIlchruinne*) stays passed
+  over. (2) **resolved by Dermot's direct check, 3 August 2026**:
   téarma.ie does list *ilchruinne* (recognized, so the base is real
   attested Irish) but marks it **superseded**, and Dermot judged the
   current replacement term less elegant and chose to keep *ilchruinne*
@@ -194,10 +201,11 @@ week's vetting kept converging on:
   that doesn't is a legitimate move. The compound itself is in no
   database, which is the correct state for a coinage: a compound the
   terminology database already held would be a word someone else owns.
-  With both spelling questions closed by decision — modern *fiann-* on
-  the front, superseded-but-preferred *ilchruinne* behind it — the
-  word's file is complete: **Fiannilchruinne**, unique, well-formed,
-  every choice made with eyes open. Let it sit — a name this committed
+  With both spelling questions closed by decision — archaic *fian-* on
+  the front, superseded-but-preferred *ilchruinne* behind it, hyphen at
+  the seam — the word's file is complete: **Fian-ilchruinne**, unique,
+  well-formed, one consistently older-register word, every choice made
+  with eyes open. Let it sit — a name this committed
   deserves a deliberate yes, not a same-day one. Not adopted; GEM
   remains the working umbrella. A corps-flavoured umbrella ("Star Rangers Universe") stays
   off the table — the corps keeps its name inside the fiction, and an
