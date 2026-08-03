@@ -74,6 +74,17 @@ permalink: /story-engine/
   straight through, or one character at a time, or the same scene compared across everyone who was standing in it.
   What one viewpoint leaves out is usually the point.
 </p>
+<p>
+  The versions differ in voice as well as in content. Each is written in the register of the mind holding it —
+  its temperament, what it is in a position to know, and what kind of mind it is at all. A character formed by an
+  institution renders the scene as a filed document, classifications and all. One with no institution behind it
+  tells you the same minutes the way somebody would afterward, plainly and out of order. An intelligence built for
+  measurement withholds every word that would claim more than its instruments support, and its restraint reads as
+  cold until you notice what it is being careful about. None of that is decoration: <em>how</em> a viewpoint
+  withholds is part of what it is withholding, and two versions of one scene set against each other are meant to
+  show the difference between not knowing a thing, not being able to say it, and not having the kind of mind that
+  would have noticed it.
+</p>
 
 <h3>Lore, Glossary, and Codex — three different promises</h3>
 <p>
