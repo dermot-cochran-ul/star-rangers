@@ -289,13 +289,20 @@ Every POV block is written in the register of the mind holding it. The axes,
 in the order they do work:
 
 1. **What kind of mind it is** — sapience level and substrate. But this is
-   *not* the whole story, and the corpus proves it: **Aldera and Tobble are
-   both cats and share almost nothing.**
+   *not* the whole story, and the corpus proves it: **Aldera and Tobble both
+   present as cats and share almost nothing** — and they are not even the
+   same kind of being. Aldera is an animal: a Smart Pet, cyber-enhanced,
+   carrying a certified subsystem. Tobble is a **person** — a nonhuman
+   headmate sharing Shepherd's body, whose identity is a ginger cat and who
+   has no subsystem at all. (See the trap recorded in the canon-intent note
+   below. Do not write "the two cats" in a craft note; that is the exact
+   conflation the lore warns about.)
 2. **Institutional formation** — what format the mind was trained into.
    Aldera files an agency document, headers and status lines, humans reduced
    to case notation ("Subject B (Thorne, G., human, survey)"); Tobble, formed
    by no institution at all, narrates plainly, retrospectively and
-   aphoristically. Same species, opposite registers.
+   aphoristically. Same presentation, opposite registers, and different
+   orders of being underneath.
 3. **Epistemic position** — what it is in a position to know *at that
    moment*, which changes scene to scene for one character.
 
@@ -352,15 +359,28 @@ Agency's own stated reason for preferring them is that a Smart Pet "registers
 asymmetry before it reaches for an explanation," and that property is the
 animal's, not the subsystem's.
 
-Tobble is the worked example already in the corpus: "Tobble had been a cat,
-sitting somewhere warm, thirty-one years… He did what a cat does in a
-collapsing house," using a scaffold he "did not know what a scaffold was
-for." Cat competence, running with no analytical layer doing the work.
+**There is no worked example in the corpus, and one particular non-example
+must not be used.** A first draft of this note reached for Tobble's POV
+block in S05E02C03 — "Tobble had been a cat, sitting somewhere warm,
+thirty-one years… He did what a cat does in a collapsing house" — as a cat
+operating with no analytical layer. **That is wrong, and it is wrong in
+exactly the way canon predicts.** Tobble is not an animal and not a Smart
+Pet: he is a **nonhuman headmate**, a person sharing Shepherd's body whose
+own identity is a ginger cat (`plural-minds.md`,
+`characters/tissadelle-shepherd.md`). He has no subsystem to lose. The lore
+names this trap in advance — "the Smart Pet programme has trained everyone
+to hear 'cat' and think *animal*… The obvious mistake gets made constantly"
+— and it caught a drafting pass on 2026-08-03, which is why it is recorded
+here rather than quietly fixed. **Check which kind of cat before citing any
+cat.** The corpus currently has: Aldera and Barsik and Bubochka (animals,
+Smart Pets), and Tobble (a person). Only the first group has a harness at
+all.
 
-Open, if it ever wants writing: nothing states the *welfare* consequence of
+Open, if either ever wants writing: nothing dramatizes a Smart Pet operating
+with its subsystem down, and nothing states the *welfare* consequence of
 prolonged harness failure — whether a Smart Pet accustomed to the subsystem
 experiences its loss as bereavement rather than mere reduction. Deliberately
-unanswered here; it is a story question, not a spec question.
+unanswered here; that is a story question, not a spec question.
 
 ### Publication policy for this document (settled 2026-07-25)
 
