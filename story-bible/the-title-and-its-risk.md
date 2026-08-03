@@ -189,10 +189,14 @@ week's vetting kept converging on:
   existed to keep the September title test unbiased, and the umbrella
   has no pending test.
   **PURCHASED, 3 August 2026:** `fianilchruinne.com` is registered and
-  resolving (to 31.22.4.67 as of purchase day). `fian-ilchruinne.com`
-  shows no DNS — if it wasn't bought, the both-forms recommendation
-  stands as cheap insurance, but the fused canonical form is the one
-  that matters and it is secured. **Wiring is the open decision, not
+  resolving (to 31.22.4.67 as of purchase day). Later the same day the
+  full protective fleet followed: **fian-ilchruinne.com** (the
+  hyphenated settled spelling — resolving), plus
+  **fianilchruinne .site / .space / .online / .net** (registered per
+  Dermot, DNS still propagating at time of recording) — all wired in
+  cPanel as aliases of fianilchruinne.com. **fianilchruinne.ie is not
+  applied for yet** — the open item if the Irish flag is ever wanted;
+  Dermot qualifies for .ie. **Wiring is the open decision, not
   yet made:** whether fianilchruinne.com becomes (a) an alias of
   sciencefiction.site (serving its docroot, self-canonical consolidates
   to the target — the star-rangers.space pattern), or (b) the default
