@@ -145,7 +145,22 @@ week's vetting kept converging on:
   *Grand Ensemble Multiverse*, which was adopted as the working umbrella
   earlier the same day, explicitly interim until a shorter word was
   found; Fian-ilchruinne is that word, and Dermot adopted it
-  deliberately, the sit-with-it advice noted and waived. Two scope
+  deliberately, the sit-with-it advice noted and waived.
+  **The rationale, stated by Dermot at adoption:** the name is **never
+  used in story** — no character says it, no lore page defines it — so
+  it satisfies the original title-tier principle ("a name that stays
+  outside the story gets to be about all of it") rather than needing
+  the umbrella tier's in-world exemption. From outside, it *points*
+  without quoting: at the Star Rangers (*fian*, the sworn band), the
+  Celtic Union and Tissadelle's Irish ancestry (the language itself),
+  the Grand Ensemble Multiverse (*ilchruinne*), and the corpus's wider
+  Irish register (Tír na nÓg, Sí Gaoithe, *drithle*). Gesturing, not
+  defining — which is what distinguishes it from Overfold (a defined
+  in-story term, usable only as a knowing exception) and from GEM
+  itself (canon vocabulary). Keep it that way: **do not introduce
+  Fian-ilchruinne into lore, glossary, or narrative** — its
+  outside-the-story position is a property worth protecting, and the
+  moment a page defines it, it narrows. Two scope
   boundaries on the adoption: (a) **the lore is untouched** — "Grand
   Ensemble Multiverse" remains the canon in-universe name of the
   multiverse (`src/lore/ensemble-multiverse.md`); Fian-ilchruinne is the
