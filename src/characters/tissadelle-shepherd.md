@@ -47,6 +47,8 @@ She is aware that some situations do not have clearly available solutions. She h
 
 Her relationship to Karla Wender develops across the early seasons from distant chain-of-command awareness to direct operational contact.
 
+The other standing figure in her career is [Chief Ranger Galen Kane](/star-rangers/characters/galen-kane/) of the [Frontier Corps](/star-rangers/lore/star-rangers-frontier-corps/), whose circuit she rode as the second of a pair during the early Frontier certification rotation her Rank Progression section undercounts. The mentorship never formally closed; it reversed direction. From Starwarden onward, Kane has been the advisor she trusts most — an officer with no place in her chain of command, no boundary certification, and no stake in anything she decides, which is, on her reading, the entire qualification. What she takes to him is never the science. It is the question his corps spends whole careers on and hers almost none: when leaving is the correct order.
+
 ## Tobble
 
 Shepherd is plural. Tobble is a headmate — a distinct person sharing one body with her, on the ordinary terms Concord personhood standards have recognised for well over a century. See [Plural Minds](/star-rangers/glossary/plural-minds/) for how little the cosmology has ever had to make of this.
