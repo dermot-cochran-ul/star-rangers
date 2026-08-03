@@ -13,7 +13,8 @@ description: "The complete list of official Drithane deployments. If the address
 
 <h2>The full site</h2>
 <ul>
-  <li><strong>sciencefiction.site</strong> — the unbranded full edition, and the canonical address.</li>
+  <li><strong>fianilchruinne.com</strong> — the unbranded full edition, and the canonical address.</li>
+  <li><strong>sciencefiction.site</strong> — the same edition at its original address.</li>
   <li><strong>dermot-r-cochran.github.io/star-rangers</strong> — the same edition on GitHub Pages, built from the public repository.</li>
 </ul>
 

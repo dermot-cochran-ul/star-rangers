@@ -80,7 +80,11 @@ CHARACTERS=""
 TOPICS=""
 THREADS=""
 ADMIN_EMAIL=""
-DOMAIN="sciencefiction.site"
+# fianilchruinne.com replaced sciencefiction.site as the canonical address of
+# the default edition on 2026-08-03; a conf-less clone now claims the
+# canonical. sciencefiction.site still serves the same edition and a clone
+# can keep saying so explicitly via deploy.conf's DOMAIN.
+DOMAIN="fianilchruinne.com"
 SITE_NAME=""
 SITE_TITLE=""
 CUSTOM_LORE_FILE=""
