@@ -1,7 +1,8 @@
 ---
 layout: base.njk
 title: "Glossary"
-description: "Definitions of every term, name, and concept used in Drithane."
+eleventyComputed:
+  description: "Definitions of every term, name, and concept used in {{ site.name }}."
 ---
 <img class="page-hero-image" src="/star-rangers/images/hero/glossary-book.jpg" alt="An open old book" />
 <h1 class="page-title">Glossary</h1>

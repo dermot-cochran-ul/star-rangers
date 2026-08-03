@@ -1,7 +1,8 @@
 ---
 layout: base.njk
 title: "Lore"
-description: "World-building articles about the Five Layers, the Cosmic Cascade, factions, and the rules of Drithane."
+eleventyComputed:
+  description: "World-building articles about the Five Layers, the Cosmic Cascade, factions, and the rules of {{ site.name }}."
 comments: true
 commentsCategory: lore
 ---

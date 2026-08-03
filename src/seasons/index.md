@@ -1,7 +1,8 @@
 ---
 layout: base.njk
 title: "Seasons"
-description: "All seasons and episodes of Drithane, grouped by storyline thread."
+eleventyComputed:
+  description: "All seasons and episodes of {{ site.name }}, grouped by storyline thread."
 permalink: /seasons/
 ---
 <img class="page-hero-image" src="/star-rangers/images/hero/seasons-orbit.jpg" alt="A space station orbiting a planet against the backdrop of the universe" />
