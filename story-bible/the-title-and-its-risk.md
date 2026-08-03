@@ -202,7 +202,24 @@ week's vetting kept converging on:
   live-domain identity change: registry edit in `lib/editions.js`
   (draft-and-stop), a cPanel clone/addon with its own deploy.conf, and
   a canonical/redirect plan for sciencefiction.site's existing index
-  presence. Do neither by default; each is its own instruction. The "title stays outside the story" rule
+  presence. Do neither by default; each is its own instruction.
+  **DECIDED, 3 August 2026: (b) — canonical.** The path here had a
+  kink worth recording: (a) was chosen first and wired for about an
+  hour (registry comment, cPanel alias), then Dermot corrected it —
+  "my mistake, fianilchruinne.com is now the canonical edition" — and
+  the alias arrangement was reworked unmerged. Final state:
+  fianilchruinne.com is the default edition's canonical address,
+  first in its `domains` list in `lib/editions.js`;
+  `DEFAULT_REFERENCE_DOMAIN` (excluded-page placeholders), the deploy
+  fallbacks, the Official Editions page, and the README all name it;
+  sciencefiction.site stays a registered domain of the same edition
+  at its original address, consolidating to the canonical once the
+  clone redeploys. **Server-side remainder (Dermot's):** set
+  `DOMAIN=fianilchruinne.com` in the default clone's deploy.conf (or
+  delete its DOMAIN line to inherit the new fallback) and redeploy,
+  so canonicals, robots.txt and sitemap.xml flip to the new address;
+  until that deploy, the served pages still canonicalise to
+  sciencefiction.site. The "title stays outside the story" rule
   does not bind here — an umbrella naming the cosmology in-world is the
   established pattern — and the full phrase is unowned; its neighbours
   (grand canonical ensemble, Tegmark's ensemble multiverse) read as

@@ -182,9 +182,9 @@ These production domains are hosted on [iFastNet](https://ifastnet.com/portal/af
 ```bash
 CPANEL_USER=sciencef
 THEME=default
-DOMAIN=sciencefiction.site
-SITE_NAME=Star Rangers
-SITE_TITLE=Star Rangers
+DOMAIN=fianilchruinne.com
+SITE_NAME=Fian Ilchruinne
+SITE_TITLE=Fian-ilchruinne
 CHARACTERS=aldera,elvira
 TOPICS=boundary,detective-agency
 THREADS=tissadelle-arc
@@ -202,9 +202,9 @@ COMMENTS_ENABLED=true
 |---|---|---|
 | `CPANEL_USER` | `sciencef` | Deployment destination: `/home/<CPANEL_USER>/public_html/`. |
 | `THEME` | `default` | CSS theme — see "Available themes" below. |
-| `DOMAIN` | `sciencefiction.site` | Bare domain this clone serves (no scheme, no path, no trailing slash — e.g. `undercover-pets.com`). |
-| `SITE_NAME` | `Star Rangers` | Brand name shown in the header logo and footer. |
-| `SITE_TITLE` | `Star Rangers` | Text used in every page's browser `<title>` tag. |
+| `DOMAIN` | `fianilchruinne.com` | Bare domain this clone serves (no scheme, no path, no trailing slash — e.g. `undercover-pets.com`). |
+| `SITE_NAME` | `Fian Ilchruinne` | Brand name shown in the header logo, footer, and homepage heading. |
+| `SITE_TITLE` | `Fian-ilchruinne` | Text used in every page's browser `<title>` tag. |
 | `CHARACTERS` | *(unset — full site)* | Comma-separated character `id`s that narrow the deployed content. |
 | `TOPICS` | *(unset — full site)* | Comma-separated tag/category values that narrow the deployed content. |
 | `THREADS` | *(unset — full site)* | Comma-separated storyline thread `id`s (see [`lib/storyline-threads.js`](./lib/storyline-threads.js)) that narrow the deployed content to the seasons those threads cover. |
@@ -212,7 +212,7 @@ COMMENTS_ENABLED=true
 | `CUSTOM_LORE_FILE` | *(unset — no extra page)* | Path to a clone-exclusive lore markdown file. |
 | `CUSTOM_CSS_FILE` | *(unset — no extra CSS)* | Path to a clone-exclusive CSS file, appended after the theme. |
 | `COMMENTS_ENABLED` | `true` | Set `false` to build this clone with the [giscus comment widget](#discussion-forum-giscus) turned off entirely (e.g. a staging/preview domain). |
-| `GISCUS_PROFILE` | *(unset — `default` profile)* | Select one of the project's own registered comment repos (`GISCUS_PROFILES` in `src/_data/giscus.js`) with one key instead of the six below: `default` (sciencefiction.site, starquest.*) or `church-space` (church-space.site/.online + the Fellowship of Light addon domains). An unknown name fails the build. |
+| `GISCUS_PROFILE` | *(unset — `default` profile)* | Select one of the project's own registered comment repos (`GISCUS_PROFILES` in `src/_data/giscus.js`) with one key instead of the six below: `default` (fianilchruinne.com/sciencefiction.site, starquest.*) or `church-space` (church-space.site/.online + the Fellowship of Light addon domains). An unknown name fails the build. |
 | `GISCUS_REPO` | *(unset — profile's repo)* | Third-party escape hatch: point this clone's comment widget at a repo that isn't a registered profile — see [A second, separate forum for one domain](#a-second-separate-forum-for-one-domain). Overrides just this field of the selected profile. |
 | `GISCUS_REPO_ID` | *(unset — profile's repo ID)* | That repo's numeric ID, from `fetch-giscus-ids.js --repo` or the giscus.app wizard. Required if `GISCUS_REPO` is set. |
 | `GISCUS_CATEGORY_CHARACTERS_ID` | *(unset — shared default's ID)* | That repo's "Characters" category ID. Required if `GISCUS_REPO` is set. |
@@ -221,7 +221,7 @@ COMMENTS_ENABLED=true
 | `GISCUS_CATEGORY_JOURNAL_ID` | *(unset — shared default's ID)* | That repo's "Journal" category ID. Required if `GISCUS_REPO` is set. |
 | `DEPLOY_PRIMARY` | `true` | Set `false` to skip deploying to `/home/<CPANEL_USER>/public_html/` entirely — for an account whose `public_html` is reserved for something else (or left parked) and should only serve one or more `ALT_DOMAINS` below. |
 
-If `deploy.conf` is missing entirely, every key falls back to its default above — that's `CPANEL_USER=sciencef`, `THEME=default`, `DOMAIN=sciencefiction.site`, `SITE_NAME`/`SITE_TITLE` both `Star Rangers`, the full unfiltered site (no `CHARACTERS`/`TOPICS`/`THREADS` narrowing), a deploy-log email to `admin@sciencefiction.site`, no custom lore/CSS, comments on, and the shared default giscus repo.
+If `deploy.conf` is missing entirely, every key falls back to its default above — that's `CPANEL_USER=sciencef`, `THEME=default`, `DOMAIN=fianilchruinne.com`, `SITE_NAME=Fian Ilchruinne`/`SITE_TITLE=Fian-ilchruinne`, the full unfiltered site (no `CHARACTERS`/`TOPICS`/`THREADS` narrowing), a deploy-log email to `admin@fianilchruinne.com`, no custom lore/CSS, comments on, and the shared default giscus repo.
 
 ### `ALT_DOMAINS` — deploying more than one domain from one clone
 
@@ -296,10 +296,10 @@ Comma-separated, case-insensitive lists that narrow the deployed site to content
 - `CHARACTERS` matches character page `id`s and chapter POV character `id`s.
 - `TOPICS` matches page `tags` (and `category`, where present), across every content type including character pages.
 - `THREADS` matches a storyline thread `id` from the registry in [`lib/storyline-threads.js`](./lib/storyline-threads.js) — currently `founding-era`, `tissadelle-arc`, and `church-space` (see the site's own [Threads](src/threads/) section, which groups seasons the same way). A chapter is included if its `season` front matter falls under a listed thread's seasons; a thread `id` also participates in tag matching, so a lore/timeline/glossary/codex entry can opt in by carrying the thread `id` as a tag.
-- A thread registered with `private: true` (currently just `church-space`) is the exception to "leaving all three unset deploys the full, unfiltered site" below: it stays hidden — its chapters, any character/lore/codex/glossary/timeline entry tagged with its id, its own `/threads/<id>/` landing page, and its entry in the `/threads/` listing — on **every** build, including the unfiltered one, unless that build's own `CHARACTERS`/`TOPICS`/`THREADS` explicitly names it. It's for content meant for one domain (or a few) rather than every production clone — `church-space` is written for church-space.site/.online and carries explicit Christian and evangelical themes not part of the main published canon, so it never appears on sciencefiction.site, GitHub Pages, or any other clone that doesn't ask for it by setting `THREADS=church-space` (see `sample-deploy.conf`'s church-space example block). A private thread also carries a `homeDomain` (e.g. `church-space.site`) naming the clone that *does* opt it in — used only by the "not included" placeholder below, so an excluded private-thread page links to a domain that actually has it rather than back to the reference domain (which hides it too). Visibility across the boundary is **one-way**: a private-thread page may link out to public pages freely, but a public page must not hardcode a link *into* a private-thread page (on any build that hasn't opted the thread in, that target is just the placeholder) — `npm test` enforces this and fails on any public→private link.
+- A thread registered with `private: true` (currently just `church-space`) is the exception to "leaving all three unset deploys the full, unfiltered site" below: it stays hidden — its chapters, any character/lore/codex/glossary/timeline entry tagged with its id, its own `/threads/<id>/` landing page, and its entry in the `/threads/` listing — on **every** build, including the unfiltered one, unless that build's own `CHARACTERS`/`TOPICS`/`THREADS` explicitly names it. It's for content meant for one domain (or a few) rather than every production clone — `church-space` is written for church-space.site/.online and carries explicit Christian and evangelical themes not part of the main published canon, so it never appears on fianilchruinne.com, sciencefiction.site, GitHub Pages, or any other clone that doesn't ask for it by setting `THREADS=church-space` (see `sample-deploy.conf`'s church-space example block). A private thread also carries a `homeDomain` (e.g. `church-space.site`) naming the clone that *does* opt it in — used only by the "not included" placeholder below, so an excluded private-thread page links to a domain that actually has it rather than back to the reference domain (which hides it too). Visibility across the boundary is **one-way**: a private-thread page may link out to public pages freely, but a public page must not hardcode a link *into* a private-thread page (on any build that hasn't opted the thread in, that target is just the placeholder) — `npm test` enforces this and fails on any public→private link.
 - `CHARACTERS` also participates in tag matching, since tags conventionally embed character slugs (e.g. a timeline entry tagged `aldera`) — so a page is included if it matches `CHARACTERS`, `TOPICS`, or `THREADS` by any of the above.
 - `CHARACTERS` also pulls in any lore, timeline, or glossary entry that an included character's own bio links to directly, even if nothing tags it for that character — a character's bio is already the site's record of which background matters for understanding them, so a `CHARACTERS`-filtered deploy carries that background along automatically instead of requiring every relevant entry to be tagged by hand.
-- Excluded pages still build at their normal URL as a minimal "not included in this edition" placeholder, instead of being omitted, so links to them never 404. The placeholder links the reader to the same path on the domain that actually has the page: the full-site reference domain (`sciencefiction.site`, the `DEFAULT_REFERENCE_DOMAIN` in [`lib/storyline-threads.js`](./lib/storyline-threads.js)) for ordinary excluded pages, or a private thread's own `homeDomain` for its pages — since the reference domain excludes a private thread too, and linking there would just loop back to another placeholder.
+- Excluded pages still build at their normal URL as a minimal "not included in this edition" placeholder, instead of being omitted, so links to them never 404. The placeholder links the reader to the same path on the domain that actually has the page: the full-site reference domain (`fianilchruinne.com`, the `DEFAULT_REFERENCE_DOMAIN` in [`lib/storyline-threads.js`](./lib/storyline-threads.js)) for ordinary excluded pages, or a private thread's own `homeDomain` for its pages — since the reference domain excludes a private thread too, and linking there would just loop back to another placeholder.
 - Section index/listing pages (Characters, Lore, Codex, Glossary, Timeline, Seasons/Episodes, Threads) always build, just with fewer items listed.
 - Leaving all three unset/empty deploys the full, unfiltered site (the default).
 

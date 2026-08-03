@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Changed
+
+- **fianilchruinne.com is the canonical address of the default edition** (2026-08-03), replacing sciencefiction.site — which remains a registered, served domain of the same edition at its original address, consolidating to the canonical once its clone redeploys. The change reaches everything that names the canonical: first position in the default edition's `domains` (`lib/editions.js`, label now "Fian Ilchruinne (canonical full site)"), `DEFAULT_REFERENCE_DOMAIN` in `lib/storyline-threads.js` (where narrowed clones' excluded-page placeholders point), the conf-less deploy fallbacks (`scripts/cpanel-deploy.sh`, `.cpanel.yml`), the [Official Editions page](src/official/index.md), and the README's key tables — whose `SITE_NAME`/`SITE_TITLE` default columns also caught up with the umbrella branding they'd missed since the retitle. An alias arrangement was briefly wired the same day and corrected to canonical within the hour; the story bible records the kink.
+
 ### Added
 
 - **Journal: [Almost Despaired](src/journal/almost-despaired.md)** (2026-08-03) — the companion piece to *The Name Was Never Mine*: that entry was about losing the book's name, this one is about finding the setting's. The public account of the Fian-ilchruinne naming day — the drift-cluster collisions, the term-level discoveries (*Kieme* is German for gill; an unrelated fan wiki independently coined both a Levril and a Frenar), the turn from coining to compounding Irish, and the "almost" in the title doing the entry's real work. Deliberately silent on the title tier's own open risk file, which stays in the story bible.
