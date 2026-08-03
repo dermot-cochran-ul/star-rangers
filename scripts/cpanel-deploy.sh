@@ -106,8 +106,18 @@ DEPLOY_PRIMARY="true"
 
 # ADMIN_EMAIL defaults to admin@<DOMAIN> rather than staying unset, so every
 # clone gets a deploy-log notification out of the box without needing its
-# own deploy.conf entry.
-[ -z "$ADMIN_EMAIL" ] && ADMIN_EMAIL="admin@$DOMAIN"
+# own deploy.conf entry. The flag feeds a loud warning inside main()'s
+# logged output: a defaulted address only works if it actually EXISTS on
+# the server (cPanel forwarder or mailbox), and a guessed address that
+# doesn't is the one failure mode this script's notifications cannot
+# detect - `mail` hands the message to the local MTA successfully and the
+# MTA quietly discards it. That is exactly how a failed deploy on a
+# freshly-canonicalised domain went unexplained on 2026-08-03: ADMIN_EMAIL
+# defaulted to admin@<new domain>, no forwarder existed yet, and the
+# FAILURE email carrying the log went nowhere. (The log itself was still
+# in deploy-logs/, as always.)
+ADMIN_EMAIL_DEFAULTED=""
+[ -z "$ADMIN_EMAIL" ] && { ADMIN_EMAIL="admin@$DOMAIN"; ADMIN_EMAIL_DEFAULTED="yes"; }
 
 # ---------------------------------------------------------------------------
 # resolve_edition(): fills in whatever deploy.conf left unset, from
@@ -581,6 +591,12 @@ build_and_deploy() {
 # log cleanup below.
 # ---------------------------------------------------------------------------
 main() {
+  if [ -n "$ADMIN_EMAIL_DEFAULTED" ]; then
+    echo "--- notifications: ADMIN_EMAIL not set in deploy.conf; defaulted to $ADMIN_EMAIL ---"
+    echo "--- WARNING: that address must actually exist on this server (cPanel forwarder or mailbox)."
+    echo "---          If it does not, success AND failure emails silently go nowhere - set ADMIN_EMAIL"
+    echo "---          explicitly, or create the forwarder. Full logs always persist in deploy-logs/. ---"
+  fi
   echo "--- shared setup: ensure-node + npm ci ---"
   # shellcheck disable=SC1091
   . "$REPOSITORY_ROOT/scripts/ensure-node.sh" \

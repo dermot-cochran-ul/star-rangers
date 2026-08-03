@@ -208,7 +208,7 @@ COMMENTS_ENABLED=true
 | `CHARACTERS` | *(unset — full site)* | Comma-separated character `id`s that narrow the deployed content. |
 | `TOPICS` | *(unset — full site)* | Comma-separated tag/category values that narrow the deployed content. |
 | `THREADS` | *(unset — full site)* | Comma-separated storyline thread `id`s (see [`lib/storyline-threads.js`](./lib/storyline-threads.js)) that narrow the deployed content to the seasons those threads cover. |
-| `ADMIN_EMAIL` | `admin@<DOMAIN>` | Address notified after every deploy attempt, success or failure. |
+| `ADMIN_EMAIL` | `admin@<DOMAIN>` | Address notified after every deploy attempt, success or failure. **The defaulted address must actually exist on the server** (cPanel forwarder or mailbox) — the local MTA accepts mail for a hosted domain and silently discards it if the address doesn't exist, which is undetectable from the script, so a wrong guess means failures go unreported. When changing a clone's `DOMAIN`, create the forwarder for the new `admin@` first or set `ADMIN_EMAIL` explicitly. The deploy log warns when the default is in use; full logs always persist in `deploy-logs/` regardless. |
 | `CUSTOM_LORE_FILE` | *(unset — no extra page)* | Path to a clone-exclusive lore markdown file. |
 | `CUSTOM_CSS_FILE` | *(unset — no extra CSS)* | Path to a clone-exclusive CSS file, appended after the theme. |
 | `COMMENTS_ENABLED` | `true` | Set `false` to build this clone with the [giscus comment widget](#discussion-forum-giscus) turned off entirely (e.g. a staging/preview domain). |
