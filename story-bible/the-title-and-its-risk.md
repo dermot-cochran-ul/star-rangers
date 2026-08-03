@@ -168,40 +168,38 @@ week's vetting kept converging on:
   orthography no anglophone can spell from sound, survivable only at
   this tier because an umbrella is navigated by link and branding rather
   than by ear, with *Drithane* as the radio-friendly front door covering
-  for it. Spelling is settled as **Fianilchruinne** (double n — *cruinne*
-  is the Irish; the single-n form first proposed was a misspelling).
+  for it. Spelling is settled as **Fiannilchruinne** (decided by Dermot,
+  3 August 2026): modern *fiann-* + *ilchruinne*, both elements double-n.
+  The single-n *Fianilchruine* first proposed misspelled *cruinne*; the
+  intermediate *Fianilchruinne* used the Old Irish *fían-* form and is
+  superseded by this decision. "Fiannilchruinne" was exact-phrase vetted
+  on settling: empty, same ancient-names neighbourhood, no owner.
   **Irish verified 3 August 2026** (via dictionary content in search
   snippets; teanglann.ie and tearma.ie are blocked from the session
   environment): *cruinne* ✓ (f., double n, "universe/globe", from
   *cruinn* "round"); *il-* + lenition → *ilchruinne* ✓ well-formed and
   genuinely attested as Irish for "multiverse"; the vowel-initial
   junction needs no mutation, so a hyphen (*Fian-ilchruinne*) is
-  optional clarity, not a requirement. Two open points, both judgement
-  rather than error: (1) the **modern** headword is *fiann* (f., gs.
-  *féinne*, pl. *fianna*) — *fían* is the Old Irish spelling, so
-  "Fianilchruinne" pairs an archaic first element with a modern second.
-  Keeping it is a defensible deliberate archaism (the Fianna are the
-  oldest thing in the word); the fully modern *Fiannilchruinne* is
-  correct but uglier at the *-nnil-* seam; the idiomatic escape is the
-  genitive phrase *Fiann na hIlchruinne*, real syntax but three words
-  again. (2) **resolved by Dermot's direct check, 3 August 2026**:
+  optional clarity, not a requirement. Two points arose in verification,
+  both since resolved by Dermot: (1) the **modern** headword is *fiann*
+  (f., gs. *féinne*, pl. *fianna*) — *fían* is the Old Irish spelling.
+  **Resolved: modern *fiann-* chosen** (hence the settled spelling
+  above); the archaic *fian-* and the genitive-phrase escape (*Fiann na
+  hIlchruinne*) were considered and passed over. (2) **resolved by Dermot's direct check, 3 August 2026**:
   téarma.ie does list *ilchruinne* (recognized, so the base is real
   attested Irish) but marks it **superseded**, and Dermot judged the
   current replacement term less elegant and chose to keep *ilchruinne*
   anyway. Recorded as a deliberate authorial choice, not an oversight —
   coining from the older form that sounds right over the current one
-  that doesn't is a legitimate move, and it even rhymes with the word's
-  own structure: an archaic-leaning *fian-* on the front, a
-  slightly-dated *ilchruinne* behind it, one consistently
-  older-register word. *Fian-ilchruinne* itself is in no database,
-  which is the correct state for a coinage: a compound the terminology
-  database already held would be a word someone else owns. So the
-  compound is unique, the base is chosen with eyes open, and the one
-  remaining choice is (1) above — archaic *fian-* versus modern
-  *fiann-*, where the same older-register logic now argues for keeping
-  *fian-*. Let it sit — a name this committed deserves a deliberate
-  yes, not a same-day one. Not adopted; GEM remains the working
-  umbrella. A corps-flavoured umbrella ("Star Rangers Universe") stays
+  that doesn't is a legitimate move. The compound itself is in no
+  database, which is the correct state for a coinage: a compound the
+  terminology database already held would be a word someone else owns.
+  With both spelling questions closed by decision — modern *fiann-* on
+  the front, superseded-but-preferred *ilchruinne* behind it — the
+  word's file is complete: **Fiannilchruinne**, unique, well-formed,
+  every choice made with eyes open. Let it sit — a name this committed
+  deserves a deliberate yes, not a same-day one. Not adopted; GEM
+  remains the working umbrella. A corps-flavoured umbrella ("Star Rangers Universe") stays
   off the table — the corps keeps its name inside the fiction, and an
   umbrella is front-of-house, so that would quietly reverse the
   2026-08-01 retitle. Ranger emphasis belongs one tier down, in the
