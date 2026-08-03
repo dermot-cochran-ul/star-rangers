@@ -8,6 +8,9 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Changed
 
+- **The Unfounded now names the False Dragon as its limiting case** (2026-08-03). The glossary entry's class list — demons, threnes, beautiful monsters, cute predators — gains the False Dragon, with the modal care the record requires: it belongs **by definition rather than by observation**. The Archive holds no file on any such being; the doctrinal position (per [the codex paper](src/codex/the-false-dragon.md)) is that if one existed, even as metaphor, it could only be an Unfounded pattern wearing a Levril's shape. "The term therefore covers it without asserting it: a classification with a standing member slot, filled only in the traditions' own tellings."
+
+
 - **The deploy log now warns loudly when `ADMIN_EMAIL` is a guess** (2026-08-03). A defaulted `admin@<DOMAIN>` only notifies anyone if that address actually exists on the server — the local MTA accepts mail for a hosted domain and silently discards it for a nonexistent address, which the script cannot detect. That is exactly how a failed deploy on the freshly-canonicalised domain went unexplained: no forwarder existed yet for the new `admin@`, so the FAILURE email carrying the log went nowhere (the log itself was in `deploy-logs/`, as always). The script's logged output now states when the default is in use and what it requires, and the README's `ADMIN_EMAIL` row documents the create-the-forwarder-first rule for domain changes.
 
 
