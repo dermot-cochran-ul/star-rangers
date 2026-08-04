@@ -445,3 +445,36 @@ sit one edit from the first, two from the second, and still end in the
 the first place. The front of the word (*dri-*, *drif-*, *drit-*) is a dense
 commercial and pharmaceutical phonetic cluster; the tail is a chemical suffix;
 a workable variant keeps the *drithle* root and changes the tail.
+
+---
+
+## Checked and kept, so it is not re-litigated
+
+Names below were run through the same collision checks as the graveyard's and
+**deliberately kept**. The graveyard records what failed; this records what
+passed and why — a name re-questioned without new evidence should be answered
+from here.
+
+**Kieme** — checked 4 August 2026, prompted by the Drithane retirement; kept.
+The collisions found, in full: German ***die Kieme* = "gill"** (the fish
+organ — a common noun in a major language, confirmed across Collins,
+Cambridge, Wiktionary and Langenscheidt); a rare surname/given name (fewer
+than five a year per names.org); Lithuanian *kieme*, locative of *kiemas*,
+"in the yard"; and **no brand, product or trademark** — the nearest commercial
+neighbour is *Kemei*, a Chinese grooming-appliance brand with a different
+spelling that brand-flavoured searches drift toward, while a plain search for
+*Kieme* returns German dictionary entries rather than silently correcting
+away. Why none of it clears the bar: the Dithane failure mode was a **title**
+— a front-of-house string whose whole job is discoverability — being silently
+replaced in results by a commercial term. Kieme is an in-universe glossary
+term with zero discoverability burden; readers reach it through the site,
+never through a search engine (the same logic that frees Drithane for
+in-universe reuse). A cosmological tier a German reader parses as "gill" is
+mildly comic, not vulgar or tonally destructive, and common-noun homographs
+in *some* language are near-unavoidable in invented naming. Against that, the
+rename cost is steep: second tier of the Cosmic Cascade, morphologically
+paired with Conseleme via the *-eme* ruler-marker etymology the glossary
+entry itself analyses, one completed migration already behind it (Holy
+Triumvirate → Kieme), and load-bearing in the church-space doctrinal
+material. Verdict: **keep**; revisit only if a *brand* named Kieme appears or
+a German-market edition ever becomes front-of-house.
