@@ -4,6 +4,7 @@ title: "Smart Pet"
 id: smart-pet
 category: "Species"
 short: "An animal carrying a certified AI cognitive subsystem — a status the Undercover Pets Detective Agency prefers for field work, and one of the most tightly regulated animal-welfare categories in the Concord."
+plain: "A Smart Pet is an animal — a cat, say, or a rabbit — that carries a small, certified AI computer working alongside its own mind. The animal's body is not changed at all, so a Smart Pet is not a cyborg. Strict laws protect the animal and control how the AI part may be built. Most people simply think Smart Pets are clever and cute. A few of them are also quietly working as detectives."
 related:
   - "The AI Safety Kernel"
   - "Cyborg"

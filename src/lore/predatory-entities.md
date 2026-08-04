@@ -4,6 +4,7 @@ title: "Predatory Entities: Court-Fae, Gilded Saints, and Cute Predators"
 category: "Entities"
 tags: [court-fae, gilded-saints, cute-predators, predatory-entities, ambiguity, consent, sapient-monsters, meta-dimensional]
 description: "The three principal classes of predatory meta-dimensional entity in the Drithane multiverse, classified by sapience and feeding method."
+plain: "Some beings from outside our universe feed on feelings instead of food. Court-Fae feed on confusion and unfinished business; asking a clear question, and insisting on a clear answer, breaks their hold. Gilded Saints pretend to be worthy causes and feed on hard moral effort and on sadness that is never allowed to end. Cute Predators are small and not intelligent; they feed on the little 'yes' you say when saying 'no' feels rude. None of the three can be bargained with. Being clear and honest is the best protection against all of them."
 image: "predatory-entities.jpg"
 image_alt: "Blurry human arms"
 ---

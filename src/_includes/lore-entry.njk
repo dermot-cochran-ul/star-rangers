@@ -30,6 +30,13 @@ commentsCategory: lore
     {% endif %}
   </header>
 
+  {% if plain %}
+  <aside class="plain-summary">
+    <h2 class="plain-summary__heading">In short</h2>
+    <p class="plain-summary__text">{{ plain }}</p>
+  </aside>
+  {% endif %}
+
   <div class="lore-entry__body">
     {{ content | safe }}
   </div>
