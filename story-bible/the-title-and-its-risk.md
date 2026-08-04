@@ -32,6 +32,14 @@ them as history, not as open work.
   *drithle* (spark, glimmer) etymology and the attested Irish forms below
   (*drithleog*, *drithlín*, *drithleanna*) remain good material for that
   reuse. Until Dermot names it into canon, it means nothing in-world.
+  **Exercised the same day:** Dermot chose the planet, and
+  `src/lore/planets/drithane.md` drafts it — the fifth documented Celtic
+  Union charter world (filling one of the two by-name-only slots the
+  Union's Member Worlds section always held open), a cold clear-skied
+  world in the Bríd System named in-world for the *drithle*: silent
+  sparks crossing its sky twice an orbit as the planet passes through a
+  debris band. The retired title becomes the planet's name by the same
+  root, and the naming journey stays out-of-universe where it always was.
 - **drithane.com was never purchased** (the deferral below did its job), so
   there is no domain to unwind. The journal entries recording the Drithane
   chapter of the naming journey stay as published history.
