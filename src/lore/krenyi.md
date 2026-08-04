@@ -42,6 +42,10 @@ Krenyi resist becoming symbol, omen, or allegory. If someone begins treating the
 
 That resistance to glamour—in the cosmological sense, not the aesthetic one—is part of their coherence-maintenance practice.
 
+## The Krenyi and Agentic Machines
+
+The Krenyi build no agentic machines and run none. The posture is neither prohibition nor incapacity — Krenyi instrumentation is as good as anyone's — and a Krenyi asked to justify it generally declines the premise: needing no AI and wanting none are, to them, one fact rather than two. It is the same shape as everything else Quiet-Built. A species that expects to spend centuries becoming precise sees no gap in itself that a manufactured mind would fill, and the [AI Safety Kernel](/star-rangers/lore/ai-safety-kernel/)'s commissioning gate has accordingly never had anything to say to them.
+
 ## The Terminology
 
 - **Krenyi**: the species name, used to avoid confusion with Naiads (flow-anchored entities, not persons).

@@ -20,7 +20,7 @@ Operationally she answers to Oyelaran. On any question of her own standing, trea
 
 ## Character Notes
 
-Where Reeves closes a case by exhausting what the record can confirm, Lucene closes it by watching the interviewee's face while the question lands. Witnesses find her easy to talk to, and generally say more than they had planned to; most of them leave the room under the impression that the interview went well, which it did — for the case file.
+Where Reeves closes a case by exhausting what the record can confirm, Lucene closes it from the chair beside the interviewing officer. Robots are authorized for forensic work, observation included, and not to lead an interview by asking direct questions — so the questions are always a detective's, and what Lucene does is watch the answer arrive: the face while the question lands, the hands while the reply is assembled. Witnesses tend to find the room easier with her in it, and to say more than they had planned to; most leave under the impression that the interview went well, which it did — for the case file. The inversion is the character: a machine that must answer any direct question completely, and may never ask one.
 
 Her completeness is the trait the bureau plans around. She can see, to the micro-expression, exactly how much an answer is going to cost the person asking — and she will perform the sympathy flawlessly, and deliver all of it anyway. The performance shapes delivery. It has never once shaped content.
 
