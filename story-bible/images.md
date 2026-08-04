@@ -405,6 +405,14 @@ Worth deciding before generating nine cards, not after.
   Regularity is the whole finding.
   > A universe-membrane seen across a narrowed gap, its surface carrying a smooth regular periodic swell like a slow standing wave, and at one point a clean transient tunnel of clear space open through the interval, edges sharply defined and stable, deep cosmological field, warm gold light on the far side against cool blue on the near, orderly and rhythmic rather than turbulent, no figures, no readable text. Landscape orientation.
 
+**Added 2026-08-04, after the audit** — one more generated image, for the new
+planet page drafted the same day:
+
+- **`planets/drithane.jpg`** — the crossing night is the planet's whole
+  identity, and the custom of going dark to watch it is the human half of
+  the frame. Slow sparks, not meteor streaks.
+  > A cold, high-altitude planetary landscape at night under an extraordinarily clear sky filled with slow, silent white-gold sparks of light drifting and fading at high altitude — soft brief glimmers, not fast meteor streaks. Below, a settled valley lies deliberately dark, its buildings unlit, faint warm light behind a few windows, snow-dusted grazing land and glasshouse roofs catching the skylight. Far-future science-fiction pastoral setting, cold blue night palette against the warm white-gold sparks, still and reverent rather than dramatic, no readable text or lettering. Landscape orientation.
+
 **Also worth noting from the same audit:** two lore pages carry alt text that is
 thin rather than wrong and would fail the "describes what the file shows" test if
 tightened — `predatory-entities.jpg` (*"Blurry human arms"*) and
