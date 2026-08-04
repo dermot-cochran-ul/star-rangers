@@ -12,22 +12,25 @@ module.exports = function () {
   // <title> tag's own suffix (see src/_includes/base.njk) - kept separate so
   // a clone can put a longer/different string in the tab title than in its
   // on-page branding without needing two unrelated overrides.
-  // The WORK is titled "Drithane"; the Star Rangers are an organisation
-  // INSIDE it. Retitled 2026-08-01 to clear Andre Norton's 1953 novel "Star
-  // Rangers" (and a 1987 comic of the same name) - the corps keeps its name in
-  // the fiction, and the /star-rangers/ URL paths and alias domains are
-  // deliberately unchanged, so only front-of-house branding moved.
-  // "Fian-ilchruinne" is the setting umbrella, adopted 2026-08-03 and now
-  // the default brand in BOTH slots: the tab carries the settled hyphenated
-  // form, the header/footer/homepage-heading carry "Fian Ilchruinne" - the
-  // spaced, capitalised display variant Dermot chose for on-page branding
-  // the same day. Old Irish fian (the warrior-band) + ilchruinne (Irish for
-  // multiverse) - "the multiverse Fianna"; the fused, single-n and fiann-
-  // variants are all superseded (story-bible/the-title-and-its-risk.md has
-  // the full path). The work is still titled "Drithane" - that name now
-  // reaches the default build via the description below and the OG author,
-  // not the header. Front of house only: "Grand Ensemble Multiverse"
-  // remains the canon in-universe name of the multiverse
+  // The WORK is titled "Fian Ilchruinne"; the Star Rangers are an
+  // organisation INSIDE it. Title history, in brief: "Star Rangers" was
+  // retitled to "Drithane" 2026-08-01 to clear Andre Norton's 1953 novel
+  // "Star Rangers" (and a 1987 comic of the same name); "Fian-ilchruinne"
+  // was adopted 2026-08-03 as the setting umbrella; and on 2026-08-04
+  // Dermot retired "Drithane" entirely (Google silently corrects it to
+  // "Dithane", a fungicide - not unique enough), leaving Fian Ilchruinne
+  // as both umbrella and work title. The corps keeps its name in the
+  // fiction, and the /star-rangers/ URL paths and alias domains are
+  // deliberately unchanged - only front-of-house branding has ever moved.
+  // The tab carries the settled hyphenated form "Fian-ilchruinne"; the
+  // header/footer/homepage-heading carry "Fian Ilchruinne", the spaced,
+  // capitalised display variant Dermot chose for on-page branding. Old
+  // Irish fian (the warrior-band) + ilchruinne (Irish for multiverse) -
+  // "the multiverse Fianna"; the fused, single-n and fiann- variants are
+  // all superseded (story-bible/the-title-and-its-risk.md has the full
+  // path, including Drithane's retirement and its possible in-universe
+  // reuse). Front of house only: "Grand Ensemble Multiverse" remains the
+  // canon in-universe name of the multiverse
   // (src/lore/ensemble-multiverse.md), which is why the description still
   // says it.
   const name = process.env.SITE_NAME || "Fian Ilchruinne";
@@ -44,9 +47,9 @@ module.exports = function () {
     name,
     title,
     noindex,
-    description: "Drithane is an interactive science-fantasy novel of the Grand Ensemble Multiverse: a station clock forty seconds wrong, and the Star Rangers ordered to measure the drift and guard the public record. The stars call us forward with hope; to protect what is good and to see what is true. One canonical history across the Five Layers and multiple Concordants.",
+    description: "Fian Ilchruinne is an interactive science-fantasy novel of the Grand Ensemble Multiverse: a station clock forty seconds wrong, and the Star Rangers ordered to measure the drift and guard the public record. The stars call us forward with hope; to protect what is good and to see what is true. One canonical history across the Five Layers and multiple Concordants.",
     url: `https://${domain}/`,
-    author: "Drithane",
+    author: "Fian Ilchruinne",
     language: "en",
     // Open Graph wants a full locale rather than the bare language code above.
     // en_GB rather than en_US because the prose is consistently British/Irish

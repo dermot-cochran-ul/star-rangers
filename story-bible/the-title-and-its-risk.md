@@ -1,16 +1,48 @@
 # The title, and the one risk still open
 
-**Status: open decision, not settled canon.** The retitle itself is done and
-public — see `src/journal/the-name-was-never-mine.md` for the account a reader
-gets. This file holds what is *not* public: the risk that survived the rename,
-the test that decides it, and the fallback if the test goes badly.
+**Status: RESOLVED, 4 August 2026.** The risk this file was tracking ended the
+way its own test predicted it might: **Drithane is retired as the work's
+title, displaced by Fian Ilchruinne** — Dermot's call, stated as "Drithane was
+not unique enough," which is the Dithane silent-correction problem below
+conceded early rather than waited out. The September test is **moot**. The
+sections below are kept as the record of how the decision was reached; read
+them as history, not as open work.
+
+## Resolution (4 August 2026)
+
+- **The work's title is Fian Ilchruinne** — the setting umbrella (adopted
+  3 August) now does double duty as the work's title; the two naming tiers
+  have collapsed into one name. Everything the umbrella adoption settled
+  still holds, above all: **Fian-ilchruinne stays out of lore, glossary and
+  narrative** — never used in story, never defined in-world.
+- **The retitle sweep ran the same day**: README, CLAUDE.md,
+  CONTENT-LICENSE.md, CONTRIBUTING.md, FORKING.md, package.json, the
+  homepage/about/official/forking pages, `site.js` (description and OG
+  author), the four edition taglines in `lib/editions.js`, the giscus
+  welcome posts, and the theme labels. The ~12 lore/glossary pages that said
+  "the Drithane multiverse/universe/canon" as editorial framing now say
+  **"the Grand Ensemble Multiverse"** (the canon in-universe term) or
+  neutral phrasing — deliberately *not* Fian-ilchruinne, per the
+  outside-the-story rule above.
+- **"Drithane" is now a free name, reserved for possible in-universe reuse**
+  — a planet or a character, at Dermot's choosing. It was never used
+  in-story and never defined in-world, so canon has no claims on it; the
+  Dithane search collision that killed it as a *title* is irrelevant to an
+  in-universe name (nobody finds the site by searching a planet). The
+  *drithle* (spark, glimmer) etymology and the attested Irish forms below
+  (*drithleog*, *drithlín*, *drithleanna*) remain good material for that
+  reuse. Until Dermot names it into canon, it means nothing in-world.
+- **drithane.com was never purchased** (the deferral below did its job), so
+  there is no domain to unwind. The journal entries recording the Drithane
+  chapter of the naming journey stay as published history.
 
 ---
 
-## Settled
+## Settled (as of 1 August 2026; title since displaced — see Resolution above)
 
-The work is **Drithane**. From the Irish *drithle* — a spark, a glimmer — and it
-happens to look like *drift*, which was not planned and is being kept.
+The work was retitled **Drithane**. From the Irish *drithle* — a spark, a
+glimmer — and it happens to look like *drift*, which was not planned and was
+being kept.
 
 It means **nothing in-story**. No character says it, it is not in the glossary,
 and it is not going in. A title that stays outside the story gets to be about all

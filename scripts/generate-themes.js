@@ -33,7 +33,7 @@ const THEMES = {
   // values below are unchanged from before this script existed - only
   // the surrounding structure is now guaranteed in sync with main.css) ---
   fellowship: {
-    label: 'Drithane — "Fellowship of Light" Theme',
+    label: 'Fian Ilchruinne — "Fellowship of Light" Theme',
     description: "Warm, luminous re-skin for the fellowship-of-light domain.",
     root: {
       "--color-bg": "#fbf8f0",
@@ -61,7 +61,7 @@ const THEMES = {
     statusActive: "#6a9c5f"
   },
   pets: {
-    label: 'Drithane — "Pets" Theme (undercover-pets.com)',
+    label: 'Fian Ilchruinne — "Pets" Theme (undercover-pets.com)',
     description: "Warm, friendly re-skin.",
     root: {
       "--color-bg": "#fdf6ec",
@@ -88,7 +88,7 @@ const THEMES = {
     statusActive: "#7fa872"
   },
   starquest: {
-    label: "Drithane — \"Starquest\" Theme",
+    label: "Fian Ilchruinne — \"Starquest\" Theme",
     description: "Deep-space, neon-accent re-skin for the starquest domain.",
     root: {
       "--color-bg": "#060714",
@@ -115,7 +115,7 @@ const THEMES = {
     statusActive: "#7cf58a"
   },
   "church-space": {
-    label: 'Drithane — "Church Space" Theme (church-space.site/.online)',
+    label: 'Fian Ilchruinne — "Church Space" Theme (church-space.site/.online)',
     description: "Candlelit stone and stained-glass re-skin for the private church-space domain.",
     root: {
       "--color-bg": "#f7f2e6",
@@ -147,7 +147,7 @@ const THEMES = {
   // options any deploy.conf's THEME can pick, independent of narrative
   // branding. See sample-deploy.conf for a one-line summary of each. ---
   light: {
-    label: "Drithane — Light Theme",
+    label: "Fian Ilchruinne — Light Theme",
     description: "Standard light/day mode - the site's only non-dark option.",
     root: {
       "--color-bg": "#f7f8fc",
@@ -174,7 +174,7 @@ const THEMES = {
     statusActive: "#2f7a3c"
   },
   "high-contrast": {
-    label: "Drithane — High-Contrast Theme",
+    label: "Fian Ilchruinne — High-Contrast Theme",
     description: "Maximal-contrast black/white/yellow, for low-vision accessibility.",
     root: {
       "--color-bg": "#000000",
@@ -201,7 +201,7 @@ const THEMES = {
     statusActive: "#00ff66"
   },
   sepia: {
-    label: "Drithane — Sepia Theme",
+    label: "Fian Ilchruinne — Sepia Theme",
     description: "Warm parchment/e-reader tone for long reading sessions.",
     root: {
       "--color-bg": "#f4ecd8",
@@ -229,7 +229,7 @@ const THEMES = {
     statusActive: "#4c7a3d"
   },
   solarized: {
-    label: "Drithane — Solarized Theme",
+    label: "Fian Ilchruinne — Solarized Theme",
     description: "Ethan Schoonover's Solarized Dark palette, for the developer-familiar reader.",
     root: {
       "--color-bg": "#002b36",

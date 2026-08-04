@@ -12,7 +12,7 @@ related:
 tags: [auc, economics, computation, novelty]
 ---
 
-**Allocation Units of Cognition (AUC)** are the allocation unit for intelligent computation capacity in Drithane — the canonical measure of how much cognitive work can be authorised and performed.
+**Allocation Units of Cognition (AUC)** are the allocation unit for intelligent computation capacity — the canonical measure of how much cognitive work can be authorised and performed.
 
 Both humans and AIs receive AUC compensation for validated novelty contribution: work that demonstrably increases creative entropy throughput earns credit. Work that recombines or repeats without generating genuine novelty does not.
 

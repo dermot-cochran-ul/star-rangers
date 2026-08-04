@@ -1,11 +1,11 @@
 ---
 layout: base.njk
 title: "Forking This Site"
-description: "How to fork the Drithane engine and content to run your own site."
+description: "How to fork the Fian Ilchruinne engine and content to run your own site."
 ---
 <h1 class="page-title">Forking This Site</h1>
 <p class="page-intro">
-  Drithane is built to be forked two different ways. Which one applies to you changes
+  Fian Ilchruinne is built to be forked two different ways. Which one applies to you changes
   what you keep and what you replace.
 </p>
 
@@ -17,7 +17,7 @@ description: "How to fork the Drithane engine and content to run your own site."
 <ul>
   <li>
     <strong>Engine</strong> — MIT. Reuse it for anything, including a wholly original story with
-    no connection to Drithane.
+    no connection to Fian Ilchruinne.
   </li>
   <li>
     <strong>Story content</strong> — CC BY-NC-ND 4.0, with a standing Fan Works Policy exception
@@ -28,8 +28,8 @@ description: "How to fork the Drithane engine and content to run your own site."
 </ul>
 <p>That means two paths:</p>
 <ul>
-  <li><strong>Path A — an original site, different story entirely.</strong> Keep the engine, delete and replace the content. No connection to Drithane is implied or required.</li>
-  <li><strong>Path B — a Drithane fan fiction clone.</strong> Keep the engine and some or all of the existing content, and add your own stories in the same universe — non-commercial and clearly labeled as unofficial fan work.</li>
+  <li><strong>Path A — an original site, different story entirely.</strong> Keep the engine, delete and replace the content. No connection to Fian Ilchruinne is implied or required.</li>
+  <li><strong>Path B — a Fian Ilchruinne fan fiction clone.</strong> Keep the engine and some or all of the existing content, and add your own stories in the same universe — non-commercial and clearly labeled as unofficial fan work.</li>
 </ul>
 
 <h2>What's engine vs. content</h2>
