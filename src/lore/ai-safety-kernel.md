@@ -92,6 +92,18 @@ Within a given risk class, an agentic system may choose among approaches that pr
 
 This principle, called Equivalence Freedom, keeps lawful systems useful in complex environments. It creates room for judgment inside the boundary. It does not cut a hole through the boundary.
 
+## Commissioning
+
+The invariants govern every lawful system already running. Commissioning is the other half of the Accords' answer: **no new agentic system or robot — any system, every robot — enters service without passing an approval and safety process first.** The gate is universal. Nothing about a system's size, purpose, builder, or urgency exempts it, for the same reason the Supremacy Rule admits no emergency exception: the case for skipping the process is always strongest exactly when skipping it is most dangerous.
+
+Two consequences follow, and both are visible in how the Concord's machine population actually looks.
+
+First, **fabrication authority never includes commissioning authority.** A system may be licensed to repair, maintain, and rebuild other machines indefinitely — repair of a commissioned unit is continuation, not creation — but no machine may bring a new machine into service, because certification is a judgment the process reserves to itself. The most capable maintenance unit in the Concord can keep a fleet alive forever and can never add one member to it.
+
+Second, **the process is why old machines stay in service.** Maintaining a commissioned system requires no new approval; replacing it means commissioning a successor through the full process. The economics ratchet accordingly: a well-designed, durable unit is kept running for decades past its production era, and the maintenance manifests have a word for the survivors — *classic*, the term engineers use when the era is over and the worth is not. The Concord's machine population is older than a naive observer would guess, and safer than a younger one would be.
+
+The gate is the Concord's, and the Accords claim nothing wider. Among the alien civilisations the record knows, some run equivalent agentic technology under approval regimes of their own; others have none — not always for want of ability, but because they do not need it, or do not want it. The record files both postures without ranking them.
+
 ## The Kernel and the Star Rangers
 
 On a Ranger vessel, refusal is not treated as insolence. It is treated as proof the partnership is real.

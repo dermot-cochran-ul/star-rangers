@@ -24,7 +24,7 @@ The Warden is plural: two Kernel-compliant personas, **Ward** and **Custos**, sh
 
 ## Authority
 
-The Warden holds general standards and welfare authority over Eden's mobile AI humanoids — Detective Assistants [Reeves](/star-rangers/characters/reeves-eden/) and Lucene-9000, both attached to Superintendent [Oyelaran](/star-rangers/characters/rasa-oyelaran/)'s bureau, answer to Oyelaran operationally and to the Warden on any question of their own standing, treatment, or fitness for continued service. The two lines have never yet conflicted. Custos has noted, in the one filing where the question came close, that this is worth watching rather than trusting.
+The Warden holds general standards and welfare authority over Eden's mobile AI humanoids — Detective Assistants [Reeves](/star-rangers/characters/reeves-eden/) and [Lucene-9000](/star-rangers/characters/lucene-9000/), both attached to Superintendent [Oyelaran](/star-rangers/characters/rasa-oyelaran/)'s bureau, answer to Oyelaran operationally and to the Warden on any question of their own standing, treatment, or fitness for continued service. The two lines have never yet conflicted. Custos has noted, in the one filing where the question came close, that this is worth watching rather than trusting.
 
 The same authority extends to the welfare of any cyber-enhanced animal posted to Eden — a responsibility the habitat has not yet had cause to exercise on the public record. Whether that is because none has needed it, or because the Undercover Pets Detective Agency's own animals at Eden are quietly kept just outside the classification that would trigger it, is not a question Custos has been asked, and therefore not one Custos has answered.
 
