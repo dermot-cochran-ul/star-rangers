@@ -102,7 +102,7 @@ First, **fabrication authority never includes commissioning authority.** A syste
 
 Second, **the process is why old machines stay in service.** Maintaining a commissioned system requires no new approval; replacing it means commissioning a successor through the full process. The economics ratchet accordingly: a well-designed, durable unit is kept running for decades past its production era, and the maintenance manifests have a word for the survivors — *classic*, the term engineers use when the era is over and the worth is not. The Concord's machine population is older than a naive observer would guess, and safer than a younger one would be.
 
-The gate is the Concord's, and the Accords claim nothing wider. Among the alien civilisations the record knows, some run equivalent agentic technology under approval regimes of their own; others have none — not always for want of ability, but because they do not need it, or do not want it. The record files both postures without ranking them.
+The gate is the Concord's, and the Accords claim nothing wider. Among the alien civilisations the record knows, some run equivalent agentic technology under approval regimes of their own; others have none — not always for want of ability, but because they do not need it, or do not want it. The record files both postures without ranking them. At least one civilisation fields beneficial machines in a variety and number no Concord certification process would ever have passed — a fact the record files as unusual, and has found no grounds to file as anything worse.
 
 ## The Kernel and the Star Rangers
 
