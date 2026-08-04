@@ -280,7 +280,7 @@ Referencing a fan work does **not** make it chartered. The axes are independent.
 | **Scene-POV page** | The page generated for every `(chapter, scene, character)` combination by `src/_data/scenePovPages.js`, which parses the token stream rather than rendered HTML. This is what lets a reader follow one viewpoint alone or compare several across the same minutes. |
 | **Convergence point** | Where two strands meet. Decided before either strand is drafted, and it merges information or action — not necessarily the cast, who may separate again. |
 | **Deliberate mystery** | A question the story is holding shut on purpose, not a gap. Currently: the *Patience First* terminus and the 2732 recovery, both reserved for their own season. Never resolve one in passing. |
-| **Reserved season** | A season number left unwritten on purpose for a storyline that doesn't run through the current spine — Seasons 2 and 4. Not a gap to fill by default. |
+| **Reserved season** | A season number left unwritten on purpose for a storyline that doesn't run through the current spine — now only Season 4. (Season 2 was claimed by Orbital Five-O and has published chapters; this row said "Seasons 2 and 4" until 2026-08-04.) Not a gap to fill by default. |
 | **Gap** | Something the story has committed to and not yet dramatized. Tracked in `narrative-gaps-checklist.md`, which goes stale — re-derive from `src/seasons/` before trusting it. |
 
 ### Craft: POV voice and the three axes (settled 2026-08-03)
@@ -319,6 +319,44 @@ show the difference between not knowing a thing, not being able to say it,
 and not having the kind of mind that would have noticed it. A spoiler-free
 statement of this is public in `/story-engine/`'s "Scenes and points of
 view"; the named examples above stay here.
+
+### Craft: POV block length targets by audience tier (settled 2026-08-04)
+
+Three of the story's registers are aimed at three different readerships, and
+each gets its own length target. The unit is the **POV block**, not the scene:
+`src/_data/scenePovPages.js` renders every `(chapter, scene, character)` block
+as its own standalone page, so a child following only Agent Barsik sees one
+block at a time — which is exactly what lets one chapter serve three audiences
+at once (S02E02C01 already mixes a pet block, a Five-O block and a Tissadelle
+block). Targets are guidance for new prose, not a retrofit mandate; blocks
+predating this note stand as written.
+
+| Tier | Target | Ceiling | Why |
+|---|---|---|---|
+| **Undercover Pets** (children ~8–12) | 300–500 words | ~600 | 2–4 minutes at a child's reading pace, and one comfortable read-aloud sitting. The constraint is completability: a block a child can finish builds the confidence to click the next one, and the scene-POV navigation rewards exactly that. Sentence length matters as much as word count here. |
+| **Orbital Five-O** (young adult) | 500–800 words | ~900 | Where Season 2's Larsen/Calloway blocks already sit (487–735 words) — this ratifies existing practice rather than changing it. |
+| **Church Space** (adult, cerebral) | 800–1,200 words | ~1,500 | Length earned only by reflective work. ~1,200 is roughly where a contemplative scene stops rewarding density; Tissadelle's 1,164-word block in S02E02C01 — the corpus's longest — is a good feel for the practical ceiling. |
+
+Everything else defaults to the corpus norm: roughly 400–700 words, corpus
+median around 450–500 as of 2026-08-04.
+
+Notes that keep the tiers honest:
+
+- **Length is the easy half of "readable by children."** The binding
+  constraint is the standing tone rule (unsettling, never horror), which
+  already does the heavy lifting; the pet POVs' mascot-comedy register is
+  naturally child-safe. Watch instead for **self-containment**: a child
+  reading only the pet blocks must be able to follow what happened without
+  the adult blocks — which is also just the "each POV withholds what the
+  others supply" structure doing its job.
+- Barsik's one existing block (S02E02C01, 624 words) predates this note and
+  sits above the child target. It stands; new pet blocks aim shorter.
+- **Church Space's target is prospective.** The thread has no chapters —
+  `seasons: []` in `lib/storyline-threads.js`, deliberately; its content is
+  lore, codex, a character and a journal entry. Giving it chapters means
+  assigning it a season in that registry, which is a design decision for
+  Dermot, not a default. The target is recorded now so the first chapter
+  isn't drafted to the wrong scale.
 
 ### Canon intent: Smart Pets are not cyborgs, and outlive their harness (settled 2026-08-03)
 
