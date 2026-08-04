@@ -30,6 +30,10 @@ That same intuition is why Chthonari individuals are disproportionately represen
 
 No Chthonari is assigned to the Engineering Corps, and no Federation compact requires it — the charter's insistence that Ranger service be individual and apolitical applies to Chthonari exactly as it applies to every other recruit. The overrepresentation is a career choice made by a great many individuals who happen to be unusually good at the work, not a species quota, and Chthonari recruiters are, by several accounts, tired of explaining the difference to visiting press.
 
+## Machines in the Work
+
+Chthonari engineering incorporates agentic systems as a matter of course — not as colleagues standing beside the work, in the Concord's manner, but as members *of* it: a monitoring intelligence built into a scaffold or a burrow the way another culture would build in a load-bearing rib. Within Concord jurisdiction the practice runs under the [AI Safety Kernel](/star-rangers/lore/ai-safety-kernel/) like everyone else's; the instinct is older than the compliance. To a people who read structures by listening to them, a structure that can also listen is not a novelty. It is a completion.
+
 ## Low-Gravity Sport: the Long Skitter
 
 Where the Undersong Belt's negligible gravity shapes Chthonari engineering, it also shaped Chthonari sport. **The Long Skitter** — a competitive tunnel-transit race run through a deliberately unpredictable burrow course, scored on speed, structural finesse, and how cleanly a competitor reads the course's own resonance to anticipate turns before they're visible — has spread, as a novelty spectator event, to several off-world venues with low-gravity arenas built to host it. Off-world audiences mostly come for the speed. Chthonari spectators watch for something else entirely: whether a given racer is actually listening to the tunnel, or just memorizing the course like everyone assumes an off-world competitor has to.
