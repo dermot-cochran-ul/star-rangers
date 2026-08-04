@@ -608,6 +608,41 @@ a:focus {
   color: var(--color-accent);
   text-decoration: underline;
 }
+.scene-pov-switch__link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+.scene-pov-switch__portrait {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  border: 1px solid var(--color-border);
+}
+
+/* Scene-POV heading: the POV character's portrait beside their name, a
+   visual anchor for whose viewpoint the page holds. Renders only when the
+   character page exists and carries an image - no portrait, no gap. */
+.scene-pov-heading {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+.scene-pov-heading__portrait {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  border: 2px solid var(--color-border);
+  display: block;
+}
+.scene-pov-heading__portrait-link {
+  flex-shrink: 0;
+  line-height: 0;
+}
 
 /* --- Chapter Pagination --- */
 .chapter-pagination {

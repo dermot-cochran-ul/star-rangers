@@ -19,7 +19,14 @@ commentsCategory: episodes
       <span class="chapter-label">Scene {{ item.sceneNumber }}</span>
     </div>
 
-    <h1 class="chapter-title">{{ item.character.label }}</h1>
+    <div class="scene-pov-heading">
+      {% if item.character.image %}
+      <a class="scene-pov-heading__portrait-link" href="/star-rangers{{ item.character.url }}">
+        <img class="scene-pov-heading__portrait" src="/star-rangers/images/characters/{{ item.character.image }}" alt="{{ item.character.imageAlt | default('Portrait of ' + item.character.label) }}" width="72" height="72" loading="lazy" />
+      </a>
+      {% endif %}
+      <h1 class="chapter-title">{{ item.character.label }}</h1>
+    </div>
 
     <dl class="chapter-details">
       {% if item.timestamp %}
@@ -48,7 +55,11 @@ commentsCategory: episodes
       {% for character in item.sceneCharacters %}
       {% if character.id != item.character.id %}
       <li>
-        <a href="/star-rangers/seasons/s{{ item.season }}/e{{ item.episode }}/{{ item.chapterId }}/scene-{{ item.sceneNumber }}/{{ character.id }}/">{{ character.label }}</a>
+        <a class="scene-pov-switch__link" href="/star-rangers/seasons/s{{ item.season }}/e{{ item.episode }}/{{ item.chapterId }}/scene-{{ item.sceneNumber }}/{{ character.id }}/">
+          {%- if character.image -%}
+          <img class="scene-pov-switch__portrait" src="/star-rangers/images/characters/{{ character.image }}" alt="" width="32" height="32" loading="lazy" />
+          {%- endif -%}
+          {{ character.label }}</a>
       </li>
       {% endif %}
       {% endfor %}

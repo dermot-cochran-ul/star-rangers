@@ -15,7 +15,28 @@ const { createMarkdownRenderer } = require("../../lib/markdown-containers");
 const { getContentFilter, isCharacterPovIncluded } = require("../../lib/content-filter");
 
 const SEASONS_DIR = path.join(__dirname, "..", "seasons");
+const CHARACTERS_DIR = path.join(__dirname, "..", "characters");
 const CHAPTER_FILENAME = /^s(\d\d)e(\d\d)c(\d\d)\.md$/;
+
+// Maps character front-matter `id` (the key :::pov blocks use) to that
+// character's portrait and page URL. Keyed by `id` rather than filename
+// because the two differ (id "tissadelle" lives in tissadelle-shepherd.md),
+// and a POV id with no character page - or a page with no portrait - simply
+// yields no portrait, which the layout renders as nothing.
+function loadCharacterPortraits() {
+  const map = new Map();
+  for (const entry of fs.readdirSync(CHARACTERS_DIR)) {
+    if (!entry.endsWith(".md") || entry === "index.md") continue;
+    const { data } = matter(fs.readFileSync(path.join(CHARACTERS_DIR, entry), "utf8"));
+    if (!data.id) continue;
+    map.set(String(data.id).toLowerCase(), {
+      image: data.image || null,
+      imageAlt: data.image_alt || null,
+      url: `/characters/${entry.replace(/\.md$/, "")}/`
+    });
+  }
+  return map;
+}
 
 function findChapterFiles(dir) {
   let results = [];
@@ -75,7 +96,19 @@ function extractScenes(md, body) {
 module.exports = function() {
   const md = createMarkdownRenderer();
   const filter = getContentFilter();
+  const portraits = loadCharacterPortraits();
   const entries = [];
+
+  function characterInfo(id, label) {
+    const portrait = portraits.get(id.toLowerCase()) || {};
+    return {
+      id,
+      label,
+      image: portrait.image || null,
+      imageAlt: portrait.imageAlt || null,
+      url: portrait.url || null
+    };
+  }
 
   for (const filePath of findChapterFiles(SEASONS_DIR)) {
     const [, season, episode, chapter] = path.basename(filePath).match(CHAPTER_FILENAME);
@@ -86,10 +119,9 @@ module.exports = function() {
 
     const scenes = extractScenes(md, content);
     for (const scene of scenes) {
-      const sceneCharacters = scene.povs.map((p) => ({
-        id: p.id,
-        label: povLabels.get(p.id.toLowerCase()) || p.id
-      }));
+      const sceneCharacters = scene.povs.map((p) =>
+        characterInfo(p.id, povLabels.get(p.id.toLowerCase()) || p.id)
+      );
 
       const sceneImages = data.scene_images || {};
       const sceneImageAlts = data.scene_image_alts || {};
@@ -110,7 +142,7 @@ module.exports = function() {
           sceneCharacters,
           image: sceneImages[scene.number] || null,
           imageAlt: sceneImageAlts[scene.number] || `Scene ${scene.number} of "${data.title}"`,
-          character: { id: pov.id, label: povLabels.get(pov.id.toLowerCase()) || pov.id },
+          character: characterInfo(pov.id, povLabels.get(pov.id.toLowerCase()) || pov.id),
           included,
           html: included ? pov.html : null,
           url: `/seasons/s${season}/e${episode}/${data.id}/scene-${scene.number}/${pov.id}/`
