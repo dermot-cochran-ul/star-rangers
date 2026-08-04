@@ -7,7 +7,7 @@ role: Boundary Analyst
 status: Active
 aliases:
   - "Nai Syra"
-tags: [krenyi, boundary, threshold-station, season-1, major-character]
+tags: [krenyi, boundary, threshold-station, season-1]
 description: "A Krenyi boundary analyst, approximately 150 years old, assigned to the Threshold Station survey team."
 image: "syra.jpg"
 image_alt: "Designed cover for Syra: an elegant pale humanoid silhouette on a dark starfield background, matching her Krenyi species rather than a grey alien."

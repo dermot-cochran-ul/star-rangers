@@ -7,7 +7,7 @@ role: Commander, Orbital Five-O (Governor's Investigative Task Force)
 status: Active
 aliases:
   - "Commander Larsen"
-tags: [human, orbital-five-o, governor, orbital-habitats-compact, commander, season-1, major-character]
+tags: [human, orbital-five-o, governor, orbital-habitats-compact, commander, season-1]
 description: "A former Survey Corps officer who resigned over a jurisdictional wall and was hired by the Governor of Orbital Space Habitats to take one down: commander of the task force everyone calls Orbital Five-O."
 image: "kai-larsen.jpg"
 image_alt: "A smiling commander in a navy flight suit standing at an observation-deck window, a modular orbital habitat and Earth behind him, an operations floor busy below"

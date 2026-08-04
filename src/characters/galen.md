@@ -5,7 +5,7 @@ id: galen
 species: Human
 role: "Ranger Liaison Officer, Tír na nÓg Gateway"
 status: Active
-tags: [human, star-rangers, tir-na-nog, celtic-union, season-5, minor-character]
+tags: [human, star-rangers, tir-na-nog, celtic-union, season-5]
 description: "The Star Rangers' standing liaison at the Union shuttle gate on Tír na nÓg — the last friendly face a Ranger sees before Union escort ends and the last one before it begins again."
 ---
 

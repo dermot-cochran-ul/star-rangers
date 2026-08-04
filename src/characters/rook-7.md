@@ -7,7 +7,7 @@ role: Field Analyst, Threshold Station Police Department
 status: Active
 aliases:
   - "Rook"
-tags: [robot, police-department, threshold-station, boundary, season-1, major-character]
+tags: [robot, police-department, threshold-station, boundary, season-1]
 description: "A robot with non-standard sensor arrays and an investigative/analytical classification, assigned to the Threshold Station survey."
 image: "rook-7.jpg"
 image_alt: "An aging scuffed grey service robot with several mismatched retrofit sensor modules bolted around its head unit, seated at a cluttered desk in a dim station office"
