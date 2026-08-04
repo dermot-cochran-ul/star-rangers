@@ -356,6 +356,40 @@ Notes that keep the tiers honest:
   Dermot, not a default. The target is recorded now so the first chapter
   isn't drafted to the wrong scale.
 
+### Craft: plain-animal POV (settled 2026-08-04)
+
+Ratified with S02E04C01 (*The Undersong of the Drithle*): **a POV block needs
+a mind, not a language.** An ordinary animal — no personhood, no subsystem,
+no speech — may hold a viewpoint, and Thrum's two blocks are the reference
+implementation. The rules that made it work, now binding on any future use:
+
+- **The register is the animal's sensorium and nothing else.** Thrum's
+  blocks are substrate-only: no colour (eyes "were never the main thing"),
+  no names (beings exist as signatures — tread, weight, warmth, "the tall
+  two-foot who kept this hill"), no perceived speech, no social reasoning
+  beyond the animal's kind. Narration is third-limited English *rendering*
+  non-verbal experience — never inner monologue, never a human mind in a
+  fur suit. Write a different animal from its own sensorium: a collie POV
+  would be built on placement and motion, not vibration.
+- **This completes the kind-of-mind ladder the three-axes note started.**
+  Check which kind of animal before writing any animal (the Tobble trap,
+  extended): a **person** whose identity is an animal (Tobble) narrates as
+  a person; a **Smart Pet** (Barsik, Bubochka) has a language layer and
+  narrates in full register; a **plain animal** (Thrum) gets sensation
+  only. Three registers, three orders of mind, one presentation.
+- **The hard boundary: no POV for a disputed mind.** Muffin may not hold a
+  viewpoint block, ever, while its Class II/III filing stays contested — a
+  POV would settle canon the story deliberately keeps open (recorded at
+  the time in #310, generalised here). The same bar applies to any future
+  being whose kind-of-mind is itself the question.
+- **Restraint is part of the licence.** A plain-animal POV is for when the
+  animal's sense is the only witness that matters — Thrum was the only
+  resident who could *hear* the crossing. It is not garnish: the collies
+  in S02E03C02 stayed object-of-view, and that was the right call there.
+- **Expect it to run short.** The register naturally lands in the
+  children's band (Thrum: 318/308 words) — sensation doesn't pad. Don't
+  inflate one to hit a longer tier's target.
+
 ### Canon intent: Smart Pets are not cyborgs, and outlive their harness (settled 2026-08-03)
 
 Both halves are already derivable from `src/glossary/smart-pet.md`,
