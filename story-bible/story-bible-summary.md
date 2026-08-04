@@ -283,6 +283,105 @@ Referencing a fan work does **not** make it chartered. The axes are independent.
 | **Reserved season** | A season number left unwritten on purpose for a storyline that doesn't run through the current spine — Seasons 2 and 4. Not a gap to fill by default. |
 | **Gap** | Something the story has committed to and not yet dramatized. Tracked in `narrative-gaps-checklist.md`, which goes stale — re-derive from `src/seasons/` before trusting it. |
 
+### Craft: POV voice and the three axes (settled 2026-08-03)
+
+Every POV block is written in the register of the mind holding it. The axes,
+in the order they do work:
+
+1. **What kind of mind it is** — sapience level and substrate. But this is
+   *not* the whole story, and the corpus proves it: **Aldera and Tobble both
+   present as cats and share almost nothing** — and they are not even the
+   same kind of being. Aldera is an animal: a Smart Pet, cyber-enhanced,
+   carrying a certified subsystem. Tobble is a **person** — a nonhuman
+   headmate sharing Shepherd's body, whose identity is a ginger cat and who
+   has no subsystem at all. (See the trap recorded in the canon-intent note
+   below. Do not write "the two cats" in a craft note; that is the exact
+   conflation the lore warns about.)
+2. **Institutional formation** — what format the mind was trained into.
+   Aldera files an agency document, headers and status lines, humans reduced
+   to case notation ("Subject B (Thorne, G., human, survey)"); Tobble, formed
+   by no institution at all, narrates plainly, retrospectively and
+   aphoristically. Same presentation, opposite registers, and different
+   orders of being underneath.
+3. **Epistemic position** — what it is in a position to know *at that
+   moment*, which changes scene to scene for one character.
+
+Rook-7 is the third pole and the clearest case of axis 1: epistemic hygiene
+as prose rhythm — files the discrepancy before the interpretation, refuses
+"interference" because that would be a claim about a mechanism it has none
+for, says "four discrete somethings" rather than name what it cannot
+identify.
+
+**The load-bearing rule: *how* a viewpoint withholds is part of *what* it is
+withholding.** Rook-7 withholds by refusing unwarranted claims, Aldera by
+classifying, Tobble by remembering. Two versions of one scene are meant to
+show the difference between not knowing a thing, not being able to say it,
+and not having the kind of mind that would have noticed it. A spoiler-free
+statement of this is public in `/story-engine/`'s "Scenes and points of
+view"; the named examples above stay here.
+
+### Canon intent: Smart Pets are not cyborgs, and outlive their harness (settled 2026-08-03)
+
+Both halves are already derivable from `src/glossary/smart-pet.md`,
+`src/glossary/cyborg.md` and `src/lore/embodied-cognition.md`. Recorded here
+because the second half is implied by canon rather than stated in it, and
+should not get re-derived differently later.
+
+**Not cyborgs — category, not degree.** *Cyborg* is physical modification of
+the body: replaced limbs, sensory hardware, neural interfacing wired into
+tissue. *Smart Pet* is a certified AI cognitive subsystem running
+**alongside** an unmodified biological body. Separate statuses, separately
+certified, separate regulatory lineages (cyborg regulation descends from the
+Imperium's military programs; Smart Pet regulation is animal welfare plus the
+Kernel Accords). Barsik and Bubochka carry no physical modification at all.
+Aldera is both — and canon is deliberately emphatic that this is "two
+separate designations layered on the same cat rather than one implying the
+other." The jurisdictional gap proves the categories are real rather than
+pedantic: Custos's remit covers *cyber-enhanced* animals, which is exactly
+why Barsik's and Bubochka's welfare falls outside the Warden's authority.
+
+**Why the animal survives the harness going offline.** The harness is not
+where the cat's mind lives. Per `embodied-cognition.md`, the animal *is* the
+embodied mind: a world model built from prediction and consequence, every
+term paid for against physical reality by a body moving in a place. That
+model is in the cat — senses, proprioception, motor competence, memory,
+instinct, a working life of being corrected by the world. The subsystem adds
+the systems-mind layer on top: language and report-generation, database
+access, comms, analytical scaffolding. Take the harness away and you remove
+the *report-writer*, not the *sensor*.
+
+Hence the asymmetry, and it is the whole answer: for a **cyborg**, subsystem
+failure is organ failure — the hardware is *in the tissue*, so losing it is
+injury. For a **Smart Pet**, subsystem failure is losing a tool: the cat is
+suddenly a cat, which is a thing a cat already knows how to be. Diminished in
+reach, undiminished in life, and still the better sensor in the room — the
+Agency's own stated reason for preferring them is that a Smart Pet "registers
+asymmetry before it reaches for an explanation," and that property is the
+animal's, not the subsystem's.
+
+**There is no worked example in the corpus, and one particular non-example
+must not be used.** A first draft of this note reached for Tobble's POV
+block in S05E02C03 — "Tobble had been a cat, sitting somewhere warm,
+thirty-one years… He did what a cat does in a collapsing house" — as a cat
+operating with no analytical layer. **That is wrong, and it is wrong in
+exactly the way canon predicts.** Tobble is not an animal and not a Smart
+Pet: he is a **nonhuman headmate**, a person sharing Shepherd's body whose
+own identity is a ginger cat (`plural-minds.md`,
+`characters/tissadelle-shepherd.md`). He has no subsystem to lose. The lore
+names this trap in advance — "the Smart Pet programme has trained everyone
+to hear 'cat' and think *animal*… The obvious mistake gets made constantly"
+— and it caught a drafting pass on 2026-08-03, which is why it is recorded
+here rather than quietly fixed. **Check which kind of cat before citing any
+cat.** The corpus currently has: Aldera and Barsik and Bubochka (animals,
+Smart Pets), and Tobble (a person). Only the first group has a harness at
+all.
+
+Open, if either ever wants writing: nothing dramatizes a Smart Pet operating
+with its subsystem down, and nothing states the *welfare* consequence of
+prolonged harness failure — whether a Smart Pet accustomed to the subsystem
+experiences its loss as bereavement rather than mere reduction. Deliberately
+unanswered here; that is a story question, not a spec question.
+
 ### Character prominence: no tier taxonomy (settled 2026-08-03)
 
 There is deliberately **no major/supporting/minor character hierarchy**. Three tier tags briefly existed (`major-character` on nine pages, `minor-character` on one, `supporting-character` on one — 11 of 59 character pages, never defined anywhere, with Wender and Sen untagged) and were removed 2026-08-03. They had exactly one consumer, found only when its check failed: `validate-content.js` required every chapter's resolved POVs to include a `major-character`-tagged page. That rule was retired with the tags — it was precisely the kind of global writing guidance the thread-relative point argues against, and it could only ever measure the tag, not the prominence. The 2-POV-minimum rule is separate and stays. The reason is structural, not tidiness: **prominence is a property of a (character, thread) pair** — major in one arc is supporting or minor in another — **and a front-matter tag is global by construction**, so it cannot hold a thread-relative answer without flattening it. Where "who matters here" legitimately lives: per-domain emphasis is the editions' hero cast in `lib/editions.js` (non-canonical by design); planning weight is re-derived by counts when needed (page length, named-in-N-files, chapters appeared in — see intake-2026-07-28 §6) rather than stored as labels that go stale; and a character page's own prose and `description` carry its narrative weight. Don't reintroduce tier tags.
