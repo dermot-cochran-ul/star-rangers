@@ -4,6 +4,7 @@ title: "The Ring-Rail"
 category: "Technology"
 tags: [eden, ring-rail, orbital-habitats-compact, transit, infrastructure, eden-warden, technology]
 description: "Eden Space Habitat's circumferential commuter line — the ordinary, AI-scheduled way most residents actually move around the ring, and the one everyday system that quietly touches both of Eden's separate chains of authority."
+plain: "The Ring-Rail is the train line that runs all the way around Eden Space Habitat's spinning ring, the way a subway runs through a city. Most residents ride it every day. It is scheduled by the Eden Warden, an AI, who often notices something is wrong on Eden just from the trains running oddly. One short stretch of track, near the fold-route monitoring stations, needs a special clearance that an ordinary ticket does not give."
 ---
 
 Most visitors to Eden never think about the Ring-Rail until they miss it. It is not the fold route, not the Compact, not any of the things that get a habitat's name into a Star Rangers briefing — it is the commuter line that gets a dockworker from the outer residential arc to a shift change on time, and it runs so reliably that residents mostly notice it by complaining when it doesn't.

@@ -4,6 +4,7 @@ title: "Meta-Dimensional Beings: Classification"
 category: "Entities"
 tags: [meta-dimensional, levrils, monsters, shadow-beings, sapient-monsters, court-fae, gilded-saints, demons, beautiful-monsters, threnes, cute-predators, higher-dimensional, boundary]
 description: "A classification of all meta-dimensional beings in the Drithane multiverse: sapient Cascade-ranked Levrils, sapient monsters, and non-sapient shadow beings."
+plain: "Some beings exist in more dimensions than the four we can reach, and they sometimes cross into our space at boundary zones. The record sorts them into three classes. Class I, the Levrils, are intelligent and follow the laws of the Cosmic Cascade, so they can be lawfully dealt with. Class II beings are intelligent but follow no such law, which makes them dangerous. Class III beings are not intelligent at all — they act on instinct, like animals. Knowing the class tells you whether talking is even possible."
 image: "meta-dimensional-beings.jpg"
 image_alt: "A hooded figure against a black background"
 ---

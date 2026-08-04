@@ -322,7 +322,7 @@ view"; the named examples above stay here.
 
 ### Craft: POV block length targets by audience tier (settled 2026-08-04)
 
-Three of the story's registers are aimed at three different readerships, and
+Four of the story's registers are aimed at four different readerships, and
 each gets its own length target. The unit is the **POV block**, not the scene:
 `src/_data/scenePovPages.js` renders every `(chapter, scene, character)` block
 as its own standalone page, so a child following only Agent Barsik sees one
@@ -335,10 +335,8 @@ predating this note stand as written.
 |---|---|---|---|
 | **Undercover Pets** (children ~8–12) | 300–500 words | ~600 | 2–4 minutes at a child's reading pace, and one comfortable read-aloud sitting. The constraint is completability: a block a child can finish builds the confidence to click the next one, and the scene-POV navigation rewards exactly that. Sentence length matters as much as word count here. |
 | **Orbital Five-O** (young adult) | 500–800 words | ~900 | Where Season 2's Larsen/Calloway blocks already sit (487–735 words) — this ratifies existing practice rather than changing it. |
-| **Church Space** (adult, cerebral) | 800–1,200 words | ~1,500 | Length earned only by reflective work. ~1,200 is roughly where a contemplative scene stops rewarding density; Tissadelle's 1,164-word block in S02E02C01 — the corpus's longest — is a good feel for the practical ceiling. |
-
-Everything else defaults to the corpus norm: roughly 400–700 words, corpus
-median around 450–500 as of 2026-08-04.
+| **Star Rangers (general)** — Founding Era, the Tissadelle arc, and any thread not named in this table | 500–900 words | ~1,100 | The main corpus's tier, one register up from Five-O: adult general readership. The band overlaps Five-O's at the bottom deliberately — the boundary between them is register and complexity, not a length cliff; what the extra headroom buys is the denser block when a scene earns it (Tissadelle's 1,164-word block in S02E02C01 is the corpus's longest and shows the ceiling being used). Recent practice (S6–S7 medians 486–653) sits comfortably inside; Season 1's shorter early blocks (median 383) predate the guideline and stand. |
+| **Church Space** (adult, contemplative) | 800–1,200 words | ~1,500 | Length earned only by reflective work. ~1,200 is roughly where a contemplative scene stops rewarding density even for a willing adult reader. |
 
 Notes that keep the tiers honest:
 

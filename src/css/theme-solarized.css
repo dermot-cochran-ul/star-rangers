@@ -611,6 +611,41 @@ a:focus {
   color: var(--color-accent);
   text-decoration: underline;
 }
+.scene-pov-switch__link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+.scene-pov-switch__portrait {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  border: 1px solid var(--color-border);
+}
+
+/* Scene-POV heading: the POV character's portrait beside their name, a
+   visual anchor for whose viewpoint the page holds. Renders only when the
+   character page exists and carries an image - no portrait, no gap. */
+.scene-pov-heading {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+.scene-pov-heading__portrait {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  border: 2px solid var(--color-border);
+  display: block;
+}
+.scene-pov-heading__portrait-link {
+  flex-shrink: 0;
+  line-height: 0;
+}
 
 /* --- Chapter Pagination --- */
 .chapter-pagination {
@@ -1494,6 +1529,30 @@ a:focus {
   font-size: 0.85rem;
 }
 .glossary-related__list a:hover { text-decoration: underline; }
+
+/* Plain-language "In short" summary block, shared by lore and glossary
+   entry pages - rendered only when the entry sets `plain` front matter. */
+.plain-summary {
+  margin-bottom: var(--spacing-lg);
+  padding: var(--spacing-md);
+  background: var(--color-surface-2);
+  border-left: 3px solid var(--color-accent);
+  border-radius: var(--radius-lg);
+  max-width: var(--max-prose);
+}
+.plain-summary__heading {
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin-bottom: var(--spacing-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.plain-summary__text {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
 
 /* --- Lore --- */
 .lore-category-section {
