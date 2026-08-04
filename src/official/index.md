@@ -1,11 +1,11 @@
 ---
 layout: base.njk
 title: "Official Editions"
-description: "The complete list of official Drithane deployments. If the address you are reading is not on this list, you are not reading an official copy."
+description: "The complete list of official Fian Ilchruinne deployments. If the address you are reading is not on this list, you are not reading an official copy."
 ---
 <h1 class="page-title">Official Editions</h1>
 <p class="page-intro">
-  This page is the authority on where <em>Drithane</em> is officially published.
+  This page is the authority on where <em>Fian Ilchruinne</em> is officially published.
   Every address below is deployed by the author from the same source repository.
   <strong>If the address you are reading is not on this list, you are not reading
   an official copy</strong> — see the note on forks at the end.
@@ -46,7 +46,7 @@ description: "The complete list of official Drithane deployments. If the address
   The engine behind this site is MIT-licensed and forking it is
   <a href="/star-rangers/forking/">actively welcomed</a> — an original story on
   this engine, or a clearly-labelled non-commercial fan clone, is exactly what
-  the licence invites. But no fork is an official copy of <em>Drithane</em>,
+  the licence invites. But no fork is an official copy of <em>Fian Ilchruinne</em>,
   and the story content's licence does not permit republishing existing entries
   in altered form. If you find a site presenting modified versions of this
   work's canon as though they were the original, it is not mine — this list is

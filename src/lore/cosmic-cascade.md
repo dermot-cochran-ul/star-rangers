@@ -3,14 +3,14 @@ layout: lore-entry.njk
 title: "The Cosmic Cascade"
 category: "Cosmology"
 tags: [cosmology, cascade, hierarchy, hyperomnium, kieme, conseleme, worldwright, concordant, telearchs, mediarchs, celestials, levrils, champions]
-description: "The strict hierarchy of causal authority in the Drithane multiverse, from Hyperomnium to Champions/Heroes."
+description: "The strict hierarchy of causal authority in the Grand Ensemble Multiverse, from Hyperomnium to Champions/Heroes."
 image: "cosmic-cascade.jpg"
 image_alt: "A space galaxy background"
 ---
 
 When witnesses say a dragon changed fate, the archives ask a colder question first: *which tier acted, and under what constraint?* That question leads into the Cascade.
 
-The Cosmic Cascade is the fixed ordering of causal authority in the Drithane multiverse. It is ontological, not political. Causality resolves from higher tier to lower tier and does not reverse.
+The Cosmic Cascade is the fixed ordering of causal authority in the Grand Ensemble Multiverse. It is ontological, not political. Causality resolves from higher tier to lower tier and does not reverse.
 
 > Hyperomnium → Kieme → Conseleme → Metawrights → Formwrights → Archewrights → Worldwrights → Universes with Concordants (Concordance) → Telearchs → Mediarchs → Celestials (Frenar) → Levrils → Champions / Heroes
 

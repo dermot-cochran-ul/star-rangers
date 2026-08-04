@@ -6,13 +6,13 @@ Forking needs no permission and is actively encouraged. The one condition, and t
 
 ## The two licences (read this part first)
 
-- **Engine** (`.eleventy.js`, `lib/`, `src/_includes/`, `src/css/`, `src/js/`, `scripts/`): **MIT** — see [`LICENSE`](./LICENSE). Reuse it for anything, including a wholly original story with no connection to Drithane.
+- **Engine** (`.eleventy.js`, `lib/`, `src/_includes/`, `src/css/`, `src/js/`, `scripts/`): **MIT** — see [`LICENSE`](./LICENSE). Reuse it for anything, including a wholly original story with no connection to Fian Ilchruinne.
 - **Story content** (`src/seasons/`, `src/threads/`, `src/characters/`, `src/timeline/`, `src/lore/`, `src/glossary/`, `src/codex/`, `story-bible/`, `prompts/`): **CC BY-NC-ND 4.0**, with an explicit **Fan Works Policy** exception for non-commercial fan fiction, fan art, and fan fiction clones of this site — see [`CONTENT-LICENSE.md`](./CONTENT-LICENSE.md) for the exact conditions.
 
 That means:
 
-- **Path A — an original site, different story entirely.** Keep the engine, delete/replace the content. No connection to Drithane is implied or required.
-- **Path B — a Drithane fan fiction clone.** Keep the engine *and* some or all of the existing content, and add your own stories in the same universe. Must stay non-commercial and clearly labeled as unofficial fan work — see `CONTENT-LICENSE.md`'s Fan Works Policy for the full conditions.
+- **Path A — an original site, different story entirely.** Keep the engine, delete/replace the content. No connection to Fian Ilchruinne is implied or required.
+- **Path B — a Fian Ilchruinne fan fiction clone.** Keep the engine *and* some or all of the existing content, and add your own stories in the same universe. Must stay non-commercial and clearly labeled as unofficial fan work — see `CONTENT-LICENSE.md`'s Fan Works Policy for the full conditions.
 
 Both paths start the same way below; they only diverge at "replace or extend the content."
 

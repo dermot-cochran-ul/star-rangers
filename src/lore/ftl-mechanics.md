@@ -3,7 +3,7 @@ layout: lore-entry.njk
 title: "FTL Mechanics"
 category: "Physics"
 tags: [ftl, quantum-space-harmonic-wave, higher-dimensional-folding, concordant, navigation]
-description: "Canonical faster-than-light transit channels and their constraints in the Drithane universe."
+description: "Canonical faster-than-light transit channels and their constraints in the Grand Ensemble Multiverse."
 image: "ftl-mechanics.jpg"
 image_alt: "A quantum computer technology concept"
 ---

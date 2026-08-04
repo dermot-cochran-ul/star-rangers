@@ -26,7 +26,7 @@ Claude to seed the thread.
 
 **Body:**
 
-Welcome to the Drithane discussion board! This is the spot for anything
+Welcome to the Fian Ilchruinne discussion board! This is the spot for anything
 that doesn't fit neatly into Characters, Lore, Episodes, or Journal comments
 below — general chat about the story, the site, or just introducing
 yourself.
@@ -40,7 +40,7 @@ A few things that might help:
 - Have a theory about where the story's going? There's a dedicated
   **Theories & Predictions** category for that.
 - Got a question about how something works, in-universe or out? Try **Q&A**.
-- Made something inspired by Drithane? **Fan Creations** is the place to
+- Made something inspired by Fian Ilchruinne? **Fan Creations** is the place to
   share a link and talk about it.
 
 Feel free to introduce yourself below — what drew you to the Five Layers?
@@ -97,7 +97,7 @@ site owner to seed the thread.)*
 
 **Body:**
 
-Made art, music, a playlist, a map, or anything else inspired by Drithane? Share a link and tell us about it here.
+Made art, music, a playlist, a map, or anything else inspired by Fian Ilchruinne? Share a link and tell us about it here.
 
 Note that this category is for links and discussion, not hosting: full fan
 fiction belongs on [AO3](https://archiveofourown.org/) or

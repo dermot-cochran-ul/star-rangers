@@ -14,7 +14,7 @@ The **Grand Ensemble Multiverse** is the infinite collection of universes produc
 
 ## Our Local Universe
 
-The universe that contains Velmora, Threshold Station, and every [Concordant](/star-rangers/glossary/concordant/) in the Drithane setting has a fixed dimensional structure:
+The universe that contains Velmora, Threshold Station, and every [Concordant](/star-rangers/glossary/concordant/) in the setting has a fixed dimensional structure:
 
 - **Three dimensions of visible physical space** — the ordinary spatial extent measured at the [Physical layer](/star-rangers/lore/five-layers/) (Layer 4).
 - **Seven [compact dimensions](/star-rangers/glossary/compact-dimensions/)** — spatial, real, and too tightly wound to be traversed or observed directly at Material scale.
