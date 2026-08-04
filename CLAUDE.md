@@ -62,6 +62,7 @@ These live in `scripts/` but are **not** run by `npm test`, the build, or CI. Th
 ```bash
 node scripts/check-internal-links.js    # verify every internal /star-rangers/ link in src/ AND lib/ resolves (cross-platform; exits non-zero on failure, so it can be added to npm test if wanted)
 node scripts/check-related-terms.js     # verify every front-matter `related:` term matches a real page title (same conventions)
+node scripts/list-canon-facts.js        # aggregate every chapter's canon_facts in story order; optional term filter (e.g. `-- rescue`) for the spoiler test — informational, never a gate
 ```
 ```powershell
 .\scripts\import-image.ps1 -In "$env:USERPROFILE\Downloads\x.png" -Out src\images\characters\y.jpg -MaxEdge 1200
@@ -81,6 +82,8 @@ There is no separate unit-test framework or linter script beyond `npm test`, whi
 There's no way to "run a single test" — `validate-content.js` always scans every content file, and `eleventy --dryrun` always builds every page. To iterate on one content file, use `npm run start` and visit that page directly.
 
 ## Architecture
+
+**The site stays static, with no accounts and no logins — settled 2026-08-04.** Any reader-side state (a read-progress marker, a "continue reading" link) may only ever be client-local, e.g. localStorage per domain, and degrades to nothing without complaint; anything requiring accounts, sessions, or server-side per-reader state is out of scope by design, not by omission. Comments are the one stateful feature and they deliberately live in GitHub's account system via giscus, not the site's. Don't propose accounts as the fix for a tracking or personalisation problem.
 
 ### Content pipeline
 
