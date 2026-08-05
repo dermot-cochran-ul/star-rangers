@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "Called, Permitted, Forbidden"
 category: "Doctrinal Record"
+library: "Survey Archive, Threshold Station"
 author: "Theorist Emrys Kade, Doctrinal Division"
 institution: "Survey Archive — Doctrinal Division"
 location: "Survey Archive, Threshold Station — doctrinal working-paper series; filed 2824 UCSD"

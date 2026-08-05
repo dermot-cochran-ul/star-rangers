@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "Codex: Exploration Budget (EB) Doctrine"
 category: "Institutional Doctrine"
+library: "Earth Institutional Archives"
 tags: [exploration-budget, entropy, auc, cei, doctrine, governance, kernel-accords]
 description: "The doctrine superseding the original Allocation Units of Cognition ledger, reframing novelty generation as an accounted trade between entropy, variability, and risk."
 author: "Dr. Senna Okoye"

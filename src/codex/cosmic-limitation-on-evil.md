@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "The Cosmic Limitation on Evil"
 category: "Doctrinal Record"
+library: "Survey Archive, Threshold Station"
 author: "Theorist Emrys Kade, Doctrinal Division"
 institution: "Survey Archive — Doctrinal Division"
 location: "Survey Archive, Threshold Station — doctrinal working-paper series; current revision filed 2822 UCSD"

@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "The Star Rangers Anthem (Slipwave Recording)"
 category: "Cultural Record"
+library: "Eden Space Habitat Collections"
 tags: [slipwave, anthem, tissadelle-shepherd, eden, cadet, star-rangers, music, culture]
 description: "Transcribed lyrics of 'Half-Light Causeway,' the Eden Space Habitat recording by the band Slipwave that Star Rangers cadet cohorts informally adopted as their anthem."
 author: "Slipwave (vocals: Tissadelle Shepherd, pre-enlistment)"

@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "Bramble and the Backwards Key"
 category: "Cultural Record"
+library: "Survey Archive, Threshold Station"
 tags: [smart-pet, bramble, childrens-literature, culture, cultural-record, undercover-pets.com]
 description: "A picture-book excerpt from the Bramble series — the best-loved Smart Pet children's franchise in the Concord, and the reason half a generation of kids have asked their own family Smart Pet whether it's 'as clever as Bramble.'"
 author: "Ottoline Farr"

@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "The Life of Saint Aoife"
 category: "Hagiography"
+library: "Celtic Union Archives"
 tags: [saint-aoife, brother-daire, celtic-union, hagiography, levril, boundary-zone, culture]
 description: "Brother Daire's 1216 AD account of Saint Aoife's life and her vision at the thorn well — the founding text of a devotion the Celtic Union's Currach Fleet ancestors carried off Earth, and which Union scholars now read as an early, unrecognised Levril encounter."
 author: "Brother Daire, of the community at Cill Aoife"

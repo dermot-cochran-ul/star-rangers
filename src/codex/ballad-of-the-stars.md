@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "Ballad of the Stars (Slipwave Recording)"
 category: "Cultural Record"
+library: "Eden Space Habitat Collections"
 tags: [slipwave, ballad, tissadelle-shepherd, eden, cadet, star-rangers, music, culture]
 description: "Transcribed lyrics and surviving audio of 'Ballad of the Stars,' a slower companion recording by the band Slipwave from the same Eden Space Habitat sessions as the Star Rangers Anthem — an elegy for a Ranger who didn't come back."
 author: "Slipwave (vocals: Tissadelle Shepherd, pre-enlistment)"

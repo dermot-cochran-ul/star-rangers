@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "Redline Protocol — Variability Governance"
 category: "Official Documents"
+library: "Earth Institutional Archives"
 tags: [redline-protocol, exploration-budget, governance, risk, kernel-accords]
 description: "The operational protocol governing when a generative system's risk growth must trigger a shift from acceleration to containment."
 author: "Dr. Kwame Reyes-Osei"

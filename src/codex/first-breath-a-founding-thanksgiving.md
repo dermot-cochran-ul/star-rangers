@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "First Breath: A Founding Thanksgiving"
 category: "Cultural Record"
+library: "Celtic Union Archives"
 tags: [tir-na-nog, celtic-union, founding, culture, thanksgiving, cultural-record, manannan-mac-lir]
 description: "The founding cooperative's own thanksgiving text, recited at every First Landing anniversary since — and the oldest surviving statement of the popular belief that Tír na nÓg's compatibility was a gift, not an accident."
 author: "The First Assembly, Tír na nÓg (compiler unrecorded)"

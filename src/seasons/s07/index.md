@@ -14,7 +14,10 @@ permalink: /seasons/s07/
 
 <h1 class="page-title">Season 7</h1>
 <p class="page-intro">
-  Naming the Line. The climax is not a fight. It is Wender, Syra, and Shepherd — from inside, once contact holds — naming precisely what happened at Dock Seven, because precision is the only thing that starves a story kept open on purpose. What reaches Shepherd across the boundary is not a rescue and not a miracle: it reads, to every instrument pointed at it, as a levril — working strictly inside the limits its kind has always worked inside — and it echoes, without ever quite proving, the something a holy woman met at a thorn well eight centuries ago and was honest enough never to fully name. Season 7 follows what help looks like when nobody is allowed to decide what her story means except her.
+  The file Season 6 could not close comes due. The climax is not a fight, and this page will not tell you what it is instead — only that precision, not force, is the instrument everything turns on. Season 7 follows what help looks like when nobody is allowed to decide what a person's story means except her.
+</p>
+<p class="page-intro">
+  The final published season, and the one this site works hardest not to spoil: read Seasons 5 and 6 first, and ideally Season 1 before those. Expect every register the series has used — procedural, testimonial, and something older — asked to hold together at once, and an ending that keeps the record's first promise: one history, many witnesses, and nobody's meaning assigned for them.
 </p>
 <p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (7 | threadForSeason).id }}/">{{ (7 | threadForSeason).name }}</a></p>
 

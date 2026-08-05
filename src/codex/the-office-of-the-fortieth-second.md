@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "The Office of the Fortieth Second"
 category: "Devotional Record"
+library: "Cnoc na mBeach"
 tags: [church-space, cnoc-na-mbeach, devotional, contemplative]
 description: "A night meditation from Brother Fintan's commonplace book at Cnoc na mBeach — a retired instrument-keeper reading Threshold's forty-second discrepancy as a call to watchfulness, and closing every vigil with forty seconds of silence."
 author: "Brother Fintan"

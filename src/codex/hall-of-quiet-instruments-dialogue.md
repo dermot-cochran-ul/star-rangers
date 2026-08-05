@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "Recovered Dialogue: Hall of Quiet Instruments"
 category: "Archived Dialogue"
+library: "Survey Archive, Threshold Station"
 tags: [dialogue, exploration-budget, entropy, redline-protocol, archive]
 description: "An archived exchange on why some suffering is treated as structural, and some as negligence, under Exploration Budget doctrine."
 author: "Archivist Sen (speakers; transcription unattributed)"

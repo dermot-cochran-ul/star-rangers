@@ -16,6 +16,9 @@ permalink: /seasons/s04/
 <p class="page-intro">
   The Compact's five habitats each police themselves competently — and any offence organised to cross a habitat line is an offence none of them can finish. Season 4 follows Commander Kai Larsen's Orbital Five-O: the Governor's task force that works the seams between five perfect ledgers, in the open, raven included.
 </p>
+<p class="page-intro">
+  A procedural season that stands alone: notifications filed in advance, jurisdiction enforced from the inside, and cases that live in the gaps between honest records. No prior season required — though readers of the main line will recognise the habitats, and readers of Season 2 may recognise a working method from the other end of the telescope.
+</p>
 <p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (4 | threadForSeason).id }}/">{{ (4 | threadForSeason).name }}</a></p>
 
 {% set seasonNumber = "4" %}

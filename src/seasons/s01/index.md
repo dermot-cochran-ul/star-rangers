@@ -17,6 +17,9 @@ permalink: /seasons/s01/
 <p class="page-intro">
   Threshold Station is already living with a false reading when Season 1 begins. Browse the published episodes, then follow how each chapter tests civic duty against damaged memory and disputed evidence.
 </p>
+<p class="page-intro">
+  This is where the main line starts: Cadet Tissadelle Shepherd's first posting, the Survey Corps' discipline of measurement, and a station whose smallest wrong number refuses to stay small. Expect procedure over spectacle, and disagreement between honest witnesses as the engine of everything. Every chapter can be read in any available character's viewpoint — switch freely; each path is complete on its own.
+</p>
 <p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (1 | threadForSeason).id }}/">{{ (1 | threadForSeason).name }}</a></p>
 
 {% set seasonNumber = "1" %}

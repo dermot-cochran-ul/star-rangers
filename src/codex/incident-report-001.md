@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "Incident Report 001 — Dock Seven Chronometer Discrepancy"
 category: "Survey Records"
+library: "Threshold Station Offices"
 tags: [threshold-station, instrument-drift, incident-report, survey-corps]
 description: "The first official incident report documenting the Dock Seven chronometer discrepancy. Classified as a calibration issue and closed without resolution."
 author: "Sub-officer Pren Halvard"
