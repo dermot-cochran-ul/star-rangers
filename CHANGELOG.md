@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Changed
+
+- **Domains front reading tiers** (2026-08-05, Dermot's direction) — the audience-tier ladder (children → young adult → general → contemplative) now has a recorded domain mapping: **starquest.site/.online** focus on Orbital Five-O and the **young adult** tier; the **church-space** and **fellowshipoflight** domain families focus on the **contemplative** tier. In [`lib/editions.js`](lib/editions.js) this confirms the fellowship edition's previously-inferred `threads: ["church-space"]` (the last inferred value in the registry — every `threads` value is now confirmed) and records the tier intent on the starquest and church-space entries; the story bible's audience-tier table gains the domain mapping as a note. No functional filter changes beyond what #317 already made.
+
 ### Added
 
 - **Character: [Alala](src/characters/alala.md)** (2026-08-05, drafted for review) — **Orbital Five-O's aerial observer**: a Smart Pet raven carried on the task force's public establishment by name, service number and leg band. The page's load-bearing note is the institutional inversion — the detective agency stations its animals where nobody looks twice; Five-O fields its raven **overtly**, on Larsen's own jurisdictional principle that an observer nobody knows about is exactly the kind of quiet he resigned over — plus the welfare consequence of a five-habitat posting (five local authorities, five house styles, one raven). Named for the ʻalalā, the island crow of old Earth, in a nod to the unit's own nickname. New assertions: Alala herself, Five-O's fly-notification practice, and that the roster carries a non-human observer.

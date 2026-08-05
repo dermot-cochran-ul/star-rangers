@@ -355,6 +355,20 @@ Notes that keep the tiers honest:
   assigning it a season in that registry, which is a design decision for
   Dermot, not a default. The target is recorded now so the first chapter
   isn't drafted to the wrong scale.
+- **Domains front tiers (settled 2026-08-05, Dermot's direction).** Each
+  tier's thread now has a domain family that focuses on it, recorded in
+  `lib/editions.js` (the registry is authoritative; this note is the intent
+  behind it): **undercover-pets.com** → children tier (the undercover-pets
+  thread, which owns Season 2); **starquest.site/.online** → young adult
+  tier (the orbital-five-o thread, season-less until its first chapter);
+  **church-space.site/.online and the four fellowshipoflight domains** →
+  contemplative tier (the church-space thread — this confirmed the
+  fellowship editions' previously-inferred thread opt-in); and the
+  general tier remains the full record on fianilchruinne.com,
+  sciencefiction.site and GitHub Pages, unfiltered. Dermot has also said
+  the precise domain *names* matter less than the focus — the association
+  is by thread id, never by domain string, so a rebrand or re-pointing
+  moves nothing here.
 
 ### Craft: plain-animal POV (settled 2026-08-04)
 
