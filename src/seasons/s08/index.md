@@ -1,24 +1,25 @@
 ---
 layout: base.njk
-title: "Season 2"
+title: "Season 8"
+threadId: church-space
 eleventyComputed:
-  description: "Episodes and chapters in Season 2 of {{ site.name }}."
-permalink: /seasons/s02/
+  description: "Episodes and chapters in Season 8 of {{ site.name }}."
+permalink: /seasons/s08/
 ---
 <nav class="chapter-breadcrumb" aria-label="Season location">
   <ol class="breadcrumb" role="list">
     <li><a href="/star-rangers/seasons/">Seasons</a></li>
-    <li aria-current="page">Season 2</li>
+    <li aria-current="page">Season 8</li>
   </ol>
 </nav>
 
-<h1 class="page-title">Season 2</h1>
+<h1 class="page-title">Season 8</h1>
 <p class="page-intro">
-  Away from Threshold Station and the Marsh Causeway, Eden Space Habitat runs on paperwork — and the Undercover Pets Detective Agency reads it first. Season 2 follows Agent Barsik, trainee Bubochka, and the small warm things the record cannot classify, from Eden's service tunnels to Drithane's dark-down.
+  The same record, kept at a different hour. Season 8 is the Church Space storyline — the watchers the wider record files under other headings: keepers, vigils, and the discipline of attending to a small steady wrongness without requiring it to explain itself. The events are the events every other season shares; this is the reading kept beside them.
 </p>
-<p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (2 | threadForSeason).id }}/">{{ (2 | threadForSeason).name }}</a></p>
+<p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (8 | threadForSeason).id }}/">{{ (8 | threadForSeason).name }}</a></p>
 
-{% set seasonNumber = "2" %}
+{% set seasonNumber = "8" %}
 {% set hasSeasonChapters = false %}
 {% set currentEpisode = "" %}
 {% for chapter in collections.chapters %}
@@ -30,7 +31,7 @@ permalink: /seasons/s02/
       {% set currentEpisode = episodeValue %}
       <div class="season-block">
         <h2 class="season-block__title">
-          <a href="/star-rangers/seasons/s02/e{{ chapter.data.episode | zeroPad }}/">Episode {{ chapter.data.episode }}</a>
+          <a href="/star-rangers/seasons/s08/e{{ chapter.data.episode | zeroPad }}/">Episode {{ chapter.data.episode }}</a>
         </h2>
         <ul class="chapter-list" role="list">
     {% endif %}

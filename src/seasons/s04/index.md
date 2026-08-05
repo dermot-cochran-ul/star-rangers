@@ -1,24 +1,24 @@
 ---
 layout: base.njk
-title: "Season 2"
+title: "Season 4"
 eleventyComputed:
-  description: "Episodes and chapters in Season 2 of {{ site.name }}."
-permalink: /seasons/s02/
+  description: "Episodes and chapters in Season 4 of {{ site.name }}."
+permalink: /seasons/s04/
 ---
 <nav class="chapter-breadcrumb" aria-label="Season location">
   <ol class="breadcrumb" role="list">
     <li><a href="/star-rangers/seasons/">Seasons</a></li>
-    <li aria-current="page">Season 2</li>
+    <li aria-current="page">Season 4</li>
   </ol>
 </nav>
 
-<h1 class="page-title">Season 2</h1>
+<h1 class="page-title">Season 4</h1>
 <p class="page-intro">
-  Away from Threshold Station and the Marsh Causeway, Eden Space Habitat runs on paperwork — and the Undercover Pets Detective Agency reads it first. Season 2 follows Agent Barsik, trainee Bubochka, and the small warm things the record cannot classify, from Eden's service tunnels to Drithane's dark-down.
+  The Compact's five habitats each police themselves competently — and any offence organised to cross a habitat line is an offence none of them can finish. Season 4 follows Commander Kai Larsen's Orbital Five-O: the Governor's task force that works the seams between five perfect ledgers, in the open, raven included.
 </p>
-<p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (2 | threadForSeason).id }}/">{{ (2 | threadForSeason).name }}</a></p>
+<p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (4 | threadForSeason).id }}/">{{ (4 | threadForSeason).name }}</a></p>
 
-{% set seasonNumber = "2" %}
+{% set seasonNumber = "4" %}
 {% set hasSeasonChapters = false %}
 {% set currentEpisode = "" %}
 {% for chapter in collections.chapters %}
@@ -30,7 +30,7 @@ permalink: /seasons/s02/
       {% set currentEpisode = episodeValue %}
       <div class="season-block">
         <h2 class="season-block__title">
-          <a href="/star-rangers/seasons/s02/e{{ chapter.data.episode | zeroPad }}/">Episode {{ chapter.data.episode }}</a>
+          <a href="/star-rangers/seasons/s04/e{{ chapter.data.episode | zeroPad }}/">Episode {{ chapter.data.episode }}</a>
         </h2>
         <ul class="chapter-list" role="list">
     {% endif %}
