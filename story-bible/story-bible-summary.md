@@ -363,12 +363,18 @@ Notes that keep the tiers honest:
   tier (the orbital-five-o thread, season-less until its first chapter);
   **church-space.site/.online and the four fellowshipoflight domains** →
   contemplative tier (the church-space thread — this confirmed the
-  fellowship editions' previously-inferred thread opt-in); and the
-  general tier remains the full record on fianilchruinne.com,
-  sciencefiction.site and GitHub Pages, unfiltered. Dermot has also said
-  the precise domain *names* matter less than the focus — the association
-  is by thread id, never by domain string, so a rebrand or re-pointing
-  moves nothing here.
+  fellowship editions' previously-inferred thread opt-in);
+  **sciencefiction.site** → general tier (founding-era + the tissadelle
+  arc, in its own edition entry since 2026-08-05 — a *narrowed* domain
+  now, not a second full site); and **fianilchruinne.com** (with GitHub
+  Pages) holds everything — the full record, which still excludes the
+  church-space overlay, since a private thread is opt-in on every build
+  including the canonical one. Dermot has also said the precise domain
+  *names* matter less than the focus — the association is by thread id,
+  never by domain string, so a rebrand or re-pointing moves nothing here.
+  One maintenance duty falls out: THREADS can't express "everything
+  except", so each future general-tier thread must be added to the
+  sciencefiction edition's list when registered, or it won't ship there.
 
 ### Craft: plain-animal POV (settled 2026-08-04)
 
