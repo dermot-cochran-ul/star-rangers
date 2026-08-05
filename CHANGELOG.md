@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Fixed
+
+- **GitHub-Pages-shaped URLs now redirect on the custom domains, and dead addresses get a real 404 page** (2026-08-05). A `/star-rangers/…` path pasted onto a cPanel domain — from an old bookmark or a link copied off github.io — hit Apache's default error, with a second "404 while handling the 404" note because cPanel's stock `ErrorDocument` pointed at a file this site never shipped. Two additions to `src/static/.htaccess`: a wholesale `RedirectMatch 301` forwarding the `/star-rangers/` namespace to the same path at the root (nothing legitimate lives under the prefix on those domains, so the whole namespace can be forwarded), and an `ErrorDocument` pointing at a new `src/404.md` — which explains the likeliest cause (retired chapter addresses from renumbering), points at the permanent `/c/…/` citation form, and offers the search box and section indexes. GitHub Pages picks the same `404.html` up by convention. Found while verifying the citation aliases: all 43 `/c/…/` links check out at 200 on `fianilchruinne.com`; the prefix URL was the one shape that didn't.
+
 ## [1.15.0] - 2026-08-05
 
 One chapter, and the principle it exists to prove. Season 5 opens with **Refusal to Certify** — Line Captain Shepherd's first dispute in rank, solved by empathy where six weeks of genuine confidence had failed — dramatising the day's sixth settled principle: *true inner confidence is compatible with true empathy*, because certainty that can stand alone can afford to listen. Qiren Tal makes their first chapter appearance; the refusal ends the affair credited as the station's most sensitive instrument. Drafted for review and approved by Dermot in-session on 2026-08-05.
