@@ -54,3 +54,5 @@ Nobody forgets their cat.
 ---
 
 *Archivist's note (S.): Filed without verdict, and the absence of a verdict is not a soft ruling — it is the finding. The registry is inconclusive; the desk will not convict a possibly-real clerk of not existing, and will not comfort the submitter with a certainty it does not hold. What the Archive can certify is narrower and, we think, worth certifying: the messages exist; the kindness in them was received and did its work for six years; and the friendship was real on the submitter's side, entire and unrehearsed, whatever stood on the other end of it. Wyn asked that this note record one further thing, and the desk sees no reason to refuse: the submitter said he hopes that if Sefa is real, somewhere, with or without a cat, she never learns what this file is about. The desk files that too.*
+
+See also: [The Friend Who Was Never Sent](/star-rangers/codex/the-friend-who-was-never-sent/).

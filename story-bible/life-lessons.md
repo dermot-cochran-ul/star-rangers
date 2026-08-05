@@ -34,6 +34,8 @@ themselves.
 - A detector can fail three ways: firing wrongly, being overridden, or being right and ignored because other people said otherwise.
 - The cost of a false alarm is a door you never learn was open. The cost of a suppressed true alarm is whatever you were being warned about.
 - You learn from the times the instinct was right, because those are the only ones that give you feedback.
+- A companion can be assembled rather than met: real conversations supply the material, imagination supplies the binding, and the result feels like a person because every part of it once was one.
+- An internal image of a person is a record that never gets audited against its sources. Nobody audits a friend — least of all one they built.
 
 ### On the instinct that cuts both ways
 
@@ -129,3 +131,41 @@ act on being right when the room disagrees.
 It also sits deliberately against *Some problems are not communication
 problems*. Both are true. Knowing which one you are looking at is the whole
 skill, and it is not available in advance.
+
+### On the friend who was assembled, not met
+
+There is a kind of companion who is never met, only assembled. The material is
+all real — sentences actually said, kindnesses actually received, a turn of
+phrase belonging to one person, a laugh belonging to another — and imagination
+supplies only the binding: it takes fragments from many sources and holds them
+as one continuous person. Nothing in the process announces itself as invention,
+because at no point is anything invented. Every part can be produced on demand
+and shown to be true. That is what makes the assembly invisible from the
+inside, and for as long as it holds, the composite is not experienced as a
+composite at all. It is experienced as a friend.
+
+Two properties of the composite only show themselves late.
+
+**It does not update.** The sources go on living — changing, aging, moving away
+from the sentences they once said — while the internal image stays where it was
+made, holding each borrowed particular at the moment it was borrowed. The
+divergence between image and sources accrues silently, because the image was
+never being checked against them. There was never a reason to check. *A signal
+needs a baseline*, and the composite **was** the baseline.
+
+**It fails all at once, not gradually.** The divergence is discovered rather
+than observed. Fresh evidence arrives from a source — a real conversation, a
+real message, a person re-encountered after years — and it no longer fits the
+composite, and then none of it fits, retroactively, in one sitting. What breaks
+is not any single borrowed fact but the binding: the discovery that the
+continuity holding the facts together was the one part with no source at all.
+
+The generalisable mechanism, for fiction: this is the Archive-and-Memory
+asymmetry running in reverse. The archive keeps the particulars and never knew
+the meaning; a composite companion keeps the particulars *and invents the
+meaning* — and the invented part is precisely the part that feels most like a
+person. A record assembled with love is still an unaudited record, and the
+affection is not incidental to the failure: it is the reason the audit never
+happened. Verification has an affection-shaped gap in it, and anything built
+inside that gap can stand for years on material that is individually true and
+jointly nobody.
