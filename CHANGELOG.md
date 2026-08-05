@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Changed
+
+- **Tissadelle Shepherd's apparent weakness is stated on her page** (2026-08-05, drafted for review). What outsiders misread as self-doubt or hesitancy gets two paragraphs in Character Notes making the shape of it explicit: the confidence is real and it is the *performance* she withholds, so the misreading is a pattern in other people's records, not in her — and the genuine enduring cost (slower belief, paid every time, in rooms that grade on projection) is named as the nearest thing she has to a weakness. Extends the existing "does not perform confidence she does not have" line and the instructors-misread precedent; asserts no new events. Settled in conversation with Dermot: her humility is an *apparent* weakness to people who do not know her well, never an inner wobble — the counterfeit versions (underclaiming, self-diminishment) remain deliberately not hers.
+
 ## [1.13.0] - 2026-08-05
 
 The naming release, and the week the story widened. The work found its title twice in seven days and kept the second: ***Fian Ilchruinne*** — the multiverse Fianna — with `fianilchruinne.com` as the canonical address, an **Official Editions** page stating which addresses are official at all, and *Drithane* retired to the reserve shelf. In the fiction: Season 2 became the **Undercover Pets** thread in earnest with five new chapters, Seasons 4 and 8 each opened, six characters joined the roster, Sen's three-disciplines codex family rendered the author's own engineering repos in-world, timekeeping entered the reader-facing record, and the cosmology settled the Unfounded, the Arilonian stream, the False Dragon and the Everlasting Ground. Entries marked *drafted for review* record how they arrived — drafted under the 2026-07-25 standing permission — and the marks stay as provenance.
