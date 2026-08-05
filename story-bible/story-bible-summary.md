@@ -137,7 +137,7 @@ Plurality — a single body hosting more than one person (headmates, or tulpas w
 
 *Star Rangers* runs independent storylines at two nested levels. This is a structural rule, not an emergent accident — it should be treated as load-bearing when planning new seasons or arc treatments.
 
-**Macro level — the season spine.** Tissadelle Shepherd's career (Cadet in S1 → Principal in S3 → Line Captain in S5 → the Last Stand at the close of S5, and its aftermath through S6-7 — the *event* is `s05e02c03`, written 2026-07-29; the seasons after it work the record of it) gives the published seasons a chronological throughline, but the season numbering is a slot system, not a strict release sequence: **Season 2 and Season 4 are deliberately unwritten gaps**, reserved for storylines that do not involve Tissadelle at all and do not need to be sequenced relative to her arc. A season number identifies a position in the setting's timeline, not a claim that every season shares a protagonist.
+**Macro level — the season spine.** Tissadelle Shepherd's career (Cadet in S1 → Principal in S3 → Line Captain in S5 → the Last Stand at the close of S5, and its aftermath through S6-7 — the *event* is `s05e02c03`, written 2026-07-29; the seasons after it work the record of it) gives the published seasons a chronological throughline, but the season numbering is a slot system, not a strict release sequence: **Seasons 2 and 4 were reserved for storylines that do not involve Tissadelle at all**, and both are now assigned (2026-08-05) — Season 2 carries the Undercover Pets thread, Season 4 Orbital Five-O — with **Season 8 created the same day for Church Space** under Dermot's create-additional-seasons-as-needed direction. A season number identifies a slot in the record, not a claim that every season shares a protagonist — see the season-ordering note below for exactly how much chronology the number does and does not carry.
 
 **Micro level — parallel strands within a season.** Within a season, two (occasionally more) storylines run with no shared scenes, no shared POV cast, and no narrative contact until a defined convergence point. These are **strands**, not threads — see the terminology note below, which exists because this document spent its first year calling both levels "threads":
 
@@ -152,6 +152,39 @@ Plurality — a single body hosting more than one person (headmates, or tulpas w
 3. Strands share a thematic throughline (most often: precise naming is what defeats ambiguity-feeding entities) without sharing plot mechanics or a common villain-of-the-week.
 4. The convergence point is decided before either strand is drafted, even if the season isn't fully written yet — see the "Established future-canon waypoints" and Season 6-7 treatment for examples of convergence points fixed well ahead of the prose.
 5. Convergence merges information or action, not necessarily the cast going forward — characters can separate again after the strands meet.
+
+### Season ordering: total as an index, partial in time, no branches (settled 2026-08-05)
+
+Prompted by Dermot's question — are the seasons partially ordered, or do
+they branch, and would that add too many dimensions of indexing? The
+settled answer, in three parts:
+
+- **The season number is a total order as an index.** `sNNeNNcNN` sorts
+  the entire corpus (the `chapters` collection's story order), and that
+  flat integer is the only ordering machinery the engine has or needs.
+  Every chapter has exactly one slot; no two threads share a season.
+- **In-universe time is only partially ordered by it.** Within a thread,
+  seasons run chronologically. Across threads, seasons run in *parallel*
+  and may overlap in date — Season 2 (pets) spans 2826–29 while Season 6
+  opens in 2826, and Season 4 (Five-O) sits at 2827 beside both. The
+  in-universe date lives in the free-text `timestamp` field, never in
+  the season number, so a "later" number does not mean a later year —
+  Season 8's vigil is contemporary with Season 2's exercises.
+- **No branches, by design.** Branching would mean alternate histories,
+  and the record's thesis excludes it: *one canonical history, many
+  witnesses*. The multiverse is in-universe geography (the Grand
+  Ensemble Multiverse), never narrative branching. A new storyline gets
+  a new season number and a thread registration; it never forks an
+  existing one.
+
+Consequence for the engine: **add no ordering metadata.** The three
+existing pieces — flat season number, thread grouping in
+`lib/storyline-threads.js`, free-text `timestamp` — already express the
+partial order completely, and any extra dimension (branch ids, machine-
+readable chronology fields, cross-thread sequencing) would be indexing
+machinery with no consumer. If two threads' relative chronology ever
+matters to a *reader*, that is timeline-page content (`src/timeline/`),
+not front matter.
 
 ### Terminology: thread vs. strand (settled 2026-07-25)
 
