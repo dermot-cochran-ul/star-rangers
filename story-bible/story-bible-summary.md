@@ -448,6 +448,38 @@ implementation. The rules that made it work, now binding on any future use:
   children's band (Thrum: 318/308 words) — sensation doesn't pad. Don't
   inflate one to hit a longer tier's target.
 
+### Muffin: a character page about a disputed mind (settled 2026-08-05)
+
+Prompted by Dermot's question — is Muffin a character or a phenomenon?
+The settled answer: **both, on different axes, and the ambiguity is
+load-bearing canon**, not an oversight awaiting cleanup.
+
+- **Mechanically, Muffin is a character.** It has a page in
+  `src/characters/`, appears in chapters as object-of-view (the S02E03
+  transit arc), has codex entries filed about it, and participates in
+  tags and deploy filtering like any other page. "Character" here is an
+  indexing fact about the site, not an ontological claim.
+- **Ontologically, the record refuses to decide — and that refusal is
+  the fact.** The species line reads "filed Class III (lamb-mask);
+  filing disputed"; the role line reads "None. Resident hazard." The
+  Archive's inability to classify Muffin is not a gap in canon; it *is*
+  the canon. A character page about something whose characterhood is
+  the open question is exactly what the page is for.
+- **The consequences are already binding elsewhere; gathered here:**
+  no POV block, ever, while the Class II/III filing stays contested
+  (the plain-animal POV note's hard boundary, recorded at #310 and
+  generalised above) — a viewpoint requires a kind of mind, and what
+  kind of mind Muffin is *is the question*. Chapters log both readings
+  without deciding (Barsik's file practice: behaviour "reading equally
+  well as an animal decompressing and as nothing of the kind"). Codex
+  accounts may take positions, because codex is valid-for-its-author —
+  their disagreement is part of the design, not a contradiction to fix.
+- **Drafting rule going forward:** write Muffin as object-of-view only,
+  and treat anything that would force the classification — a lore entry
+  stating what it is, a POV block, a `canon_facts` line naming its
+  nature — as reserved ground, shut until Dermot opens it in a season
+  of its own.
+
 ### Canon intent: Smart Pets are not cyborgs, and outlive their harness (settled 2026-08-03)
 
 Both halves are already derivable from `src/glossary/smart-pet.md`,
