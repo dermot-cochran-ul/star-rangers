@@ -87,6 +87,13 @@ The listing above is the spine, and it is *mostly* hierarchical — with two mat
 - **Notes:** This is why *Concordant* now has exactly one live sense. The compact is the **Concord**; its era and civilization take the same word (**Concord-wide**, **the Concord period**); the zone above keeps **Concordant**. Do not write "Solar System Concordant" for present-day usage.
 - **Dating rule:** Pre-2790 documents carry the founding name correctly and are quoted as written, not corrected — the Star Rangers' 2723 charter preamble ("the limits of Solar System Concordant coherence") is the standing example. Post-2790 usage of the old name is an error.
 
+### Universal Concord Standard Date (UCSD) (settled 2026-08-05)
+- **Layer:** Standard (In-Universe, Material)
+- **Definition:** The Concord's civil dating standard, and the common spine the public record converts to. Continuous with old Earth's common-era count — which is why `1216 AD` and `2543 UCSD` sit on one number line with no conversion table between them — and applied retroactively to dates that precede its adoption, as calendar reforms always are. The epoch itself is deliberately unstated in canon.
+- **What it is not:** Not the timeline (one shared history, many notations — other civilisations' reckonings are converted, never replaced, and a document is filed in its author's own notation with the UCSD conversion noted beside); not instantaneous (no faster-than-light communication, so time is carried — courier synchronisation, transit-lagged archives); not perfectly uniform (relativistic dilation between regions is real, minimal at civil scale, and corrected as routine).
+- **Dating rule:** Use `AD` for pre-spaceflight historical dates in sources that would write them so (Saint Aoife, Brother Daire); use `UCSD` for the space era. A dilation effect is never a valid explanation for a date arithmetic error in the corpus — an inconsistency between two dates is a mistake to fix.
+- **Notes:** Reader-facing entries: [Universal Concord Standard Date (UCSD)](/star-rangers/glossary/ucsd/) and [Timekeeping and the Common Record](/star-rangers/lore/timekeeping-and-the-common-record/). No migration row — the abbreviation was always UCSD; the expansion is new, nothing is renamed.
+
 ### Imperium High Council / Convenor (settled 2026-07-30)
 - **Layer:** Institution and office (In-Universe, Material — historical)
 - **Definition:** The **High Council** is the advisory chamber convened in the [Imperium's](/star-rangers/lore/the-imperium/) final decade, seating senior officers, the technical directorates, and outer-station representatives holding provisional consultative status. The **Convenor** chairs it, drawn from its own membership.
