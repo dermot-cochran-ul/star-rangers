@@ -35,6 +35,25 @@ description: "About Dermot R. Cochran, creator of Fian Ilchruinne."
   <a href="/star-rangers/journal/two-copies-forty-seconds-apart/">Journal</a>.
 </p>
 
+<h2>The engineering behind the record</h2>
+<p>
+  Three of the author's public engineering projects ask, in code, the questions this story asks in
+  fiction — and the resemblance is lineage, not coincidence.
+  <a href="https://github.com/dermot-r-cochran/swarm">EPISTEME (swarm)</a> is an epistemic
+  architecture in which beliefs are explicit objects with confidence and lifecycle state, evidence
+  is validated before it may influence them, and every revision is kept in an auditable history —
+  the same discipline this site practices as its canon statuses, its Codex of sourced accounts,
+  and its Survey Archive of reconciliation binders.
+  <a href="https://github.com/dermot-r-cochran/Voting">Voting</a> is a deterministic,
+  invariant-preserving allocation engine whose creed — exact arithmetic, conservation asserted at
+  every phase boundary, a loud stop preferred to a silent error — is also the creed of this
+  repository's validators.
+  And the <a href="https://github.com/dermot-r-cochran/architecture-definition-model">Architecture
+  Definition Model (ADM)</a> is a framework for keeping the architecture of generative-AI systems
+  explicit, human-owned, and auditable; the working agreement that governs how this site is
+  written and reviewed is a live instance of it, and appears in that repository as a case study.
+</p>
+
 <h2 id="fan-works">Fan fiction</h2>
 <p>
   Want to write your own stories in the Fian Ilchruinne universe? Post them on
