@@ -19,6 +19,7 @@ eleventyComputed:
   { name: "Survey Archive, Threshold Station", blurb: "The record's own working library, kept under Senior Archivist Sen — general holdings, the doctrinal working-paper series, the verification case files, and the reconciliation binders beside the Dock Seven incident file." },
   { name: "Threshold Station Offices", blurb: "The station's other filings: the Records Vault, the Maintenance Division, the Operations Annex, and the ceremonial record." },
   { name: "Eden Space Habitat Collections", blurb: "The habitat's library shelf and audio stock, and the chapter house's own correspondence." },
+  { name: "Compact Administration", blurb: "The Orbital Habitats Compact's registry of standing instruments — the documents five habitats govern themselves by, posted in every member habitat's civic office." },
   { name: "Earth Institutional Archives", blurb: "The homeworld's institutions: the AI Governance Commission, the Police Department Central Archive, the Survey Corps Standards Office." },
   { name: "Celtic Union Archives", blurb: "Union cultural holdings — the Cultural Archive on Tír na nÓg and the Ceridwen Archive on Aethelrock." },
   { name: "Cnoc na mBeach", blurb: "The Keeper's own pages, and the hill's circulating records." }
