@@ -186,6 +186,28 @@ machinery with no consumer. If two threads' relative chronology ever
 matters to a *reader*, that is timeline-page content (`src/timeline/`),
 not front matter.
 
+**Addendum: one timeline, many notations; dilation minimal (Dermot,
+2026-08-05).** The single shared timeline above is the *timeline*, not
+any notation for it. UCSD is the human Concord's own dating system, and
+alien civilisations keep their own notations for the same history — a
+Krenyi or Cerebraun source dating an event in its own calendar names
+the same moment a UCSD date names, and converting between them is
+bookkeeping, not cosmology. Relativistic time dilation across different
+regions of the galaxy is real physics and may surface as small
+reconciliation discrepancies between far-separated records, **but it is
+minimal by authorial decision**: never large enough to reorder events
+at the scale the story tells, so it can supply texture (a calibration
+note, an archivist's conversion table, a discrepancy politely footnoted)
+and never structure — it cannot fork chronology, excuse a contradiction,
+or stand in for the branching the note above rules out. Drafting
+consequences: an in-universe document may date itself in its author's
+own notation (that is voice, and codex-appropriate); the Archive's
+spine stays UCSD; don't coin precise conversion factors casually — each
+one is a canon fact the corpus must then keep consistent — and an
+arithmetic error between two dates is an error to fix, never a dilation
+effect to invoke (the S6/S7 elapsed-time warning above already covers
+where those hide).
+
 ### Terminology: thread vs. strand (settled 2026-07-25)
 
 For its first year this document used **thread** for both levels, which made "the two threads meet at the causeway" and "Season 2 belongs to the Orbital Five-O thread" the same word for two structurally different things. They are now separate terms, and a thread is braided from strands, so the metaphor nests rather than collides:
