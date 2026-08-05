@@ -8,6 +8,20 @@ Options -Indexes
 # strips the /star-rangers/ prefix from the built output before rsync.
 Redirect 301 /lore/solar-system-concordant/ /lore/solar-system-concord/
 
+# GitHub-Pages-shaped URLs. On github.io this site lives under /star-rangers/,
+# so links copied from there (or old bookmarks) carry the prefix; the cPanel
+# domains serve the same pages at the root, so nothing legitimate ever lives
+# under /star-rangers/ here and the whole namespace can be forwarded wholesale.
+RedirectMatch 301 ^/star-rangers/(.*)$ /$1
+RedirectMatch 301 ^/star-rangers$ /
+
+# Custom 404. Without this, a dead address surfaces Apache's default error -
+# and, because cPanel's stock config points ErrorDocument at a file this site
+# never shipped, a second "404 while handling the 404" note under it. The page
+# is built by src/404.md at the site root on every target; GitHub Pages picks
+# the same file up by convention.
+ErrorDocument 404 /404.html
+
 # Legacy WordPress permalinks: 410 Gone, not a soft 200.
 #
 # sciencefiction.site ran WordPress under a previous occupant, and Google still
