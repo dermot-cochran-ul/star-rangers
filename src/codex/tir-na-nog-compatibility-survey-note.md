@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "Survey Note: On the Origins of Tír na nÓg's Compatibility"
 category: "Survey Records"
+library: "Survey Archive, Threshold Station"
 tags: [tir-na-nog, celtic-union, survey, levrils, anomaly, culture, survey-records]
 description: "A Survey Corps xenobiology office review of the six theories in circulation for Tír na nÓg's compatibility — from convergent evolution through a wild, unproven theory of an ancient lost fold gate and a more physically grounded one involving the planet's own moons — and why 'Levrilic influence or divine providence,' the most popular opinion among the Union's own public, is not even the least credible of the six."
 author: "Field Xenobiologist R. Kestrel-Aonghas, Survey Corps Xenobiology Office"

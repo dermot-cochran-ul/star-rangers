@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "Address at the Official Funeral of Line Captain T. Shepherd"
 category: "Official Documents"
+library: "Threshold Station Offices"
 author: "High Captain Karla Wender, Star Rangers"
 institution: "Star Rangers — Threshold Station, Oversight Council ceremonial record"
 description: "The address High Captain Wender gave at Shepherd's official funeral, almost a year after Dock Seven. It is the most-quoted thing she ever said in public, and she gave it having declined to sign the citation that made the funeral possible — a document that grieves without once conceding the death it is held to mark."

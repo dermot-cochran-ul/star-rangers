@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "Statement of Proximate Cause — Dock Seven"
 category: "Official Documents"
+library: "Survey Archive, Threshold Station"
 author: "Meret Kolhaas, Loss Adjuster, Farline Courier Guild (Threshold circuit)"
 institution: "Farline Courier Guild, claims and indemnity office"
 description: "A commercial loss adjustment for three courier hulls chartered off Dock Seven at four hours' notice. It records eleven crew recovered, hull stress on two vessels, a priority tariff signed against a Line Captain's own name — and, in the box marked Proximate Cause, over the advice of the Guild's counsel, the word the pilots would not sign anything else for."

@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "Dock Seven Night Watch Addendum — Day 52"
 category: "Operations Logs"
+library: "Threshold Station Offices"
 tags: [threshold-station, dock-seven, operations-log, instrument-drift, night-watch]
 description: "Night-watch operations addendum documenting pattern persistence after Incident Report 001 was closed."
 author: "Watch Officer Mera Soln"

@@ -17,6 +17,9 @@ permalink: /seasons/s03/
 <p class="page-intro">
   Two years into her service, Shepherd is a Principal working through an archive backlog nobody else wanted — routine review, unglamorous by design. Season 3 follows what she finds in it, and what it costs to be believed about it.
 </p>
+<p class="page-intro">
+  A quiet season on purpose: archives, verification, and the long discipline of being right slowly. The stakes are the records themselves — what gets filed, what gets read, and who decides the difference. New readers can begin at Season 1; returning ones will recognise every habit Threshold taught her being put to work.
+</p>
 <p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (3 | threadForSeason).id }}/">{{ (3 | threadForSeason).name }}</a></p>
 
 {% set seasonNumber = "3" %}

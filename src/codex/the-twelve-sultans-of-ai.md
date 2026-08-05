@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "The Twelve Sultans of AI"
 category: "Survey Records"
+library: "Survey Archive, Threshold Station"
 author: "Archivist S., Survey Archive — Historical Desk"
 institution: "Survey Archive, cross-referenced with the AI Governance Commission Doctrine Office"
 location: "Survey Archive, general holdings; filed against the Imperium historiography"

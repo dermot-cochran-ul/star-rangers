@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "Telling the Bees at Cnoc na mBeach"
 category: "Cultural Record"
+library: "Cnoc na mBeach"
 tags: [church-space, brother-fintan, cnoc-na-mbeach, communion-of-the-called, beekeeping, telling-the-bees, cultural-record]
 description: "A chaplaincy rota account of an evening at Cnoc na mBeach, when a retired Chief tells his hives what his old instruments never had to be told."
 author: "Unattributed; Communion of the Called chaplaincy rota, submitted log entry"

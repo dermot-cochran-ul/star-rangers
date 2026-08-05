@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "Deck Rounds and First Tunnel Survey, Jointly Filed"
 category: "Working Papers"
+library: "Survey Archive, Threshold Station"
 tags: [agent-barsik, bubochka, detective-agency, smart-pet, eden, undercover-pets.com]
 description: "A joint field log from Eden posting — Agent Barsik's deck round and trainee Bubochka's first solo survey of the service tunnels, filed over both signatures: one door more than the plans hold, one corridor that will not agree with itself, and no action proposed on either."
 author: "Agent Barsik and Trainee Bubochka, Undercover Pets Detective Agency (Eden posting)"

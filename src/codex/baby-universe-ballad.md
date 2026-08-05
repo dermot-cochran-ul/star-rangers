@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "Baby Universe (Circulating Ballad)"
 category: "Cultural Record"
+library: "Survey Archive, Threshold Station"
 tags: [ballad, tissadelle-shepherd, dock-seven, threshold-station, noogenic, protouniverse, saint-aoife, levril, music, culture]
 description: "Recovered audio and lyrics of 'Baby Universe,' an unattributed ballad that began circulating about Line Captain Shepherd after the Last Stand at Dock Seven — sung as elegy, and flagged by the Survey Archive as exactly the kind of beautiful, unfinished story the doctrine warns about."
 author: "Unattributed — no credited performer; circulates hand to hand"

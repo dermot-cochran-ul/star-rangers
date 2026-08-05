@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "The Cat Who Would Not Say"
 category: "Cultural Record"
+library: "Eden Space Habitat Collections"
 tags: [kate-ukrainka, smart-pet, childrens-literature, culture, cultural-record, eden, undercover-pets.com]
 description: "A children's story from Kate Ukrainka's Small Quiet Friends — about a Smart Pet who knows something is wrong by the kitchen door, has no way of saying it, and a child who works out what question to ask."
 author: "Kate Ukrainka"

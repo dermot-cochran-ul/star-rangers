@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "Maintenance Log Extract — Dock Seven Chronometers, Day 49"
 category: "Maintenance Records"
+library: "Threshold Station Offices"
 tags: [threshold-station, maintenance-log, chronometers, dock-seven, boundary-anomaly]
 description: "Survey maintenance extract from Day 49 documenting the return of the Dock Seven chronometer discrepancy."
 author: "Technician N. Isern"

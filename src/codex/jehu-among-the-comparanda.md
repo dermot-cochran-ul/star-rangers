@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "Jehu Among the Comparanda"
 category: "Comparative Study"
+library: "Eden Space Habitat Collections"
 author: "Sister Ione Marrec, comparative-archive correspondent"
 institution: "Fellowship of Light, contemplative chapter — comparative archive"
 location: "Cross-chapter correspondence series; current filing held at the Eden chapter house, 2831 UCSD"

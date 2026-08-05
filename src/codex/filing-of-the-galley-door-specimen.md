@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "On the Filing of the Galley Door Specimen"
 category: "Working Papers"
+library: "Survey Archive, Threshold Station"
 tags: [agent-barsik, muffin, cute-predators, predatory-entities, eden, detective-agency, smart-pet, undercover-pets.com]
 description: "Agent Barsik's working paper disputing Eden's Class III filing of the Deck 7 galley door specimen — an argument that the thing is about as clever as he is, made by the only available instrument for measuring that, who is aware of the problem."
 author: "Agent Barsik, Undercover Pets Detective Agency (Eden posting)"

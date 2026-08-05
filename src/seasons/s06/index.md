@@ -14,7 +14,10 @@ permalink: /seasons/s06/
 
 <h1 class="page-title">Season 6</h1>
 <p class="page-intro">
-  Threshold Station logs the Last Stand as a confirmed loss: boundary contained, one Line Captain unaccounted for. The Oversight Council wants a clean incident report and a hero's citation. High Captain Wender wants the version Shepherd would have accepted. And somewhere the station's instruments can register but not name, a stalled thing that used to be a person keeps generating a self out of the only material it has left. Season 6 follows what closes a file, and what refuses to.
+  Threshold Station is trying to close a file on the event the whole Corps already calls the Last Stand. The Oversight Council wants a clean incident report and a citation to go with it. High Captain Wender wants the version that would survive its own subject's review. Season 6 follows what closes a file, and what refuses to.
+</p>
+<p class="page-intro">
+  This is the aftermath season, and it spoils Season 5 by existing — read that first. Beyond the premise above, this page keeps the file shut: expect the series' questions about evidence and testimony turned up to their full weight, and the station's instruments registering exactly one thing more than the official report has room for.
 </p>
 <p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (6 | threadForSeason).id }}/">{{ (6 | threadForSeason).name }}</a></p>
 

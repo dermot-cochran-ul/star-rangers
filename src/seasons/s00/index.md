@@ -17,6 +17,9 @@ permalink: /seasons/s00/
 <p class="page-intro">
   Here is the fracture before the oath. The Founding Era follows the years that made the Star Rangers both necessary and possible, from 2712 to 2723 UCSD under the last stretch of Military Space Command rule.
 </p>
+<p class="page-intro">
+  These chapters are the record's own prehistory: the arguments, failures and stubborn people out of which the Charter was written. Read them first for how the Rangers became necessary — or after Season 1, for why Threshold Station's habits run as deep as they do. Each chapter offers several characters' viewpoints on the same scenes; no prior reading is assumed.
+</p>
 <p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (0 | threadForSeason).id }}/">{{ (0 | threadForSeason).name }}</a></p>
 
 {% set seasonNumber = "0" %}

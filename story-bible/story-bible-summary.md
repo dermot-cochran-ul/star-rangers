@@ -349,12 +349,37 @@ Notes that keep the tiers honest:
   others supply" structure doing its job.
 - Barsik's one existing block (S02E02C01, 624 words) predates this note and
   sits above the child target. It stands; new pet blocks aim shorter.
-- **Church Space's target is prospective.** The thread has no chapters —
-  `seasons: []` in `lib/storyline-threads.js`, deliberately; its content is
-  lore, codex, a character and a journal entry. Giving it chapters means
-  assigning it a season in that registry, which is a design decision for
-  Dermot, not a default. The target is recorded now so the first chapter
-  isn't drafted to the wrong scale.
+- **Church Space's target is no longer prospective** (2026-08-05): Dermot
+  directed additional seasons be created as needed, and the thread now
+  owns **Season 8**, opened by S08E01C01 (*The Night Office*) — drafted to
+  the contemplative band. The overlay rules hold for its chapters: they
+  are devotional narrative kept beside the shared record, never
+  load-bearing, and carry no `canon_facts` (empty list), the same
+  establishes-nothing posture as the Codex. Season membership is what
+  hides them (season → thread → private), so no per-chapter tagging is
+  needed; the s08 index pages carry `threadId` instead, having no season
+  front matter of their own.
+- **Domains front tiers (settled 2026-08-05, Dermot's direction).** Each
+  tier's thread now has a domain family that focuses on it, recorded in
+  `lib/editions.js` (the registry is authoritative; this note is the intent
+  behind it): **undercover-pets.com** → children tier (the undercover-pets
+  thread, which owns Season 2); **starquest.site/.online** → young adult
+  tier (the orbital-five-o thread, which owns Season 4 as of 2026-08-05 —
+  the second of the two slots reserved for non-Tissadelle storylines);
+  **church-space.site/.online and the four fellowshipoflight domains** →
+  contemplative tier (the church-space thread — this confirmed the
+  fellowship editions' previously-inferred thread opt-in);
+  **sciencefiction.site** → general tier (founding-era + the tissadelle
+  arc, in its own edition entry since 2026-08-05 — a *narrowed* domain
+  now, not a second full site); and **fianilchruinne.com** (with GitHub
+  Pages) holds everything — the full record, which still excludes the
+  church-space overlay, since a private thread is opt-in on every build
+  including the canonical one. Dermot has also said the precise domain
+  *names* matter less than the focus — the association is by thread id,
+  never by domain string, so a rebrand or re-pointing moves nothing here.
+  One maintenance duty falls out: THREADS can't express "everything
+  except", so each future general-tier thread must be added to the
+  sciencefiction edition's list when registered, or it won't ship there.
 
 ### Craft: plain-animal POV (settled 2026-08-04)
 

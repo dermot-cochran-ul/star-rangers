@@ -14,7 +14,10 @@ permalink: /seasons/s02/
 
 <h1 class="page-title">Season 2</h1>
 <p class="page-intro">
-  Away from Threshold Station and the Marsh Causeway, the Orbital Habitats Compact runs its own ordinary business — until an "ordinary" referral turns out to need a task force built for exactly this. Season 2 follows Commander Kai Larsen's Orbital Five-O.
+  Away from Threshold Station and the Marsh Causeway, Eden Space Habitat runs on paperwork — and the Undercover Pets Detective Agency reads it first. Season 2 follows Agent Barsik, trainee Bubochka, and the small warm things the record cannot classify, from Eden's service tunnels to Drithane's dark-down.
+</p>
+<p class="page-intro">
+  This season stands alone and runs gentler in register than the main line: mascot-comedy on the surface, patient observation underneath, and nothing on the page a young reader shouldn't meet. Its shortest viewpoint blocks are written for exactly that reader — the same events, kept simple, never simplified. Adults are advised the cat has already read their file.
 </p>
 <p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (2 | threadForSeason).id }}/">{{ (2 | threadForSeason).name }}</a></p>
 

@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "Shepherd Among the Comparanda"
 category: "Comparative Study"
+library: "Eden Space Habitat Collections"
 author: "Sen, Senior Archivist, Survey Archive — prepared, and withdrawn before submission"
 institution: "Star Rangers Survey Archive, Threshold Station; intended for the Fellowship of Light comparative archive"
 description: "A comparative-archive submission cross-referencing Line Captain T. Shepherd against the Arilon file. The match is established on all five elements of the pattern, at length. It was never sent, and the second half of the document is the archivist explaining, in three voices, why not."

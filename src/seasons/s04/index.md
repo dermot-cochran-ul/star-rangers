@@ -1,27 +1,27 @@
 ---
 layout: base.njk
-title: "Season 7"
+title: "Season 4"
 eleventyComputed:
-  description: "Episodes and chapters in Season 7 of {{ site.name }}."
-permalink: /seasons/s07/
+  description: "Episodes and chapters in Season 4 of {{ site.name }}."
+permalink: /seasons/s04/
 ---
 <nav class="chapter-breadcrumb" aria-label="Season location">
   <ol class="breadcrumb" role="list">
     <li><a href="/star-rangers/seasons/">Seasons</a></li>
-    <li aria-current="page">Season 7</li>
+    <li aria-current="page">Season 4</li>
   </ol>
 </nav>
 
-<h1 class="page-title">Season 7</h1>
+<h1 class="page-title">Season 4</h1>
 <p class="page-intro">
-  The file Season 6 could not close comes due. The climax is not a fight, and this page will not tell you what it is instead — only that precision, not force, is the instrument everything turns on. Season 7 follows what help looks like when nobody is allowed to decide what a person's story means except her.
+  The Compact's five habitats each police themselves competently — and any offence organised to cross a habitat line is an offence none of them can finish. Season 4 follows Commander Kai Larsen's Orbital Five-O: the Governor's task force that works the seams between five perfect ledgers, in the open, raven included.
 </p>
 <p class="page-intro">
-  The final published season, and the one this site works hardest not to spoil: read Seasons 5 and 6 first, and ideally Season 1 before those. Expect every register the series has used — procedural, testimonial, and something older — asked to hold together at once, and an ending that keeps the record's first promise: one history, many witnesses, and nobody's meaning assigned for them.
+  A procedural season that stands alone: notifications filed in advance, jurisdiction enforced from the inside, and cases that live in the gaps between honest records. No prior season required — though readers of the main line will recognise the habitats, and readers of Season 2 may recognise a working method from the other end of the telescope.
 </p>
-<p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (7 | threadForSeason).id }}/">{{ (7 | threadForSeason).name }}</a></p>
+<p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (4 | threadForSeason).id }}/">{{ (4 | threadForSeason).name }}</a></p>
 
-{% set seasonNumber = "7" %}
+{% set seasonNumber = "4" %}
 {% set hasSeasonChapters = false %}
 {% set currentEpisode = "" %}
 {% for chapter in collections.chapters %}
@@ -33,7 +33,7 @@ permalink: /seasons/s07/
       {% set currentEpisode = episodeValue %}
       <div class="season-block">
         <h2 class="season-block__title">
-          <a href="/star-rangers/seasons/s07/e{{ chapter.data.episode | zeroPad }}/">Episode {{ chapter.data.episode }}</a>
+          <a href="/star-rangers/seasons/s04/e{{ chapter.data.episode | zeroPad }}/">Episode {{ chapter.data.episode }}</a>
         </h2>
         <ul class="chapter-list" role="list">
     {% endif %}

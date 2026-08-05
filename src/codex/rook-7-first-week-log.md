@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "Field Log: Rook-7, First Week at Threshold Station"
 category: "Field Logs"
+library: "Earth Institutional Archives"
 tags: [rook-7, threshold-station, boundary, field-log, police-department]
 description: "Rook-7's compiled log from the first week at Threshold Station. Classified by the police department as a preliminary site assessment."
 author: "Rook-7"

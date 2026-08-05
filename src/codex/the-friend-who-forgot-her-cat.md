@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "The Friend Who Forgot Her Cat"
 category: "Survey Records"
+library: "Survey Archive, Threshold Station"
 author: "Archivist S., Survey Archive — Verification Desk"
 institution: "Survey Archive, Threshold Station"
 location: "Verification case files, correspondence series; filed 2826 UCSD"

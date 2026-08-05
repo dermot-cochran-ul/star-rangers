@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "The Captain Who Drove Furiously"
 category: "Cultural Record"
+library: "Eden Space Habitat Collections"
 author: "Recorded from Sister Ione Marrec, at the Eden cadet commissioning"
 institution: "Fellowship of Light, contemplative chapter — transcribed by the Eden chapter house"
 location: "Spoken at the Eden Space Habitat commissioning, 2831 UCSD; transcription held at the Eden chapter house"

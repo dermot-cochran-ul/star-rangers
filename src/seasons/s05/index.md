@@ -15,7 +15,10 @@ permalink: /seasons/s05/
 <img class="page-hero-image" src="/star-rangers/images/hero/season-05-explorers.jpg" alt="Explorers in space suits" />
 <h1 class="page-title">Season 5</h1>
 <p class="page-intro">
-  Four seasons of operational service stand between the cadet who arrived in Season 1 and the Line Captain who opens Season 5. Tissadelle Shepherd now answers for boundary-proximate deployments in her own right — and for the Rangers she sends into them. Season 5 follows what that rank costs, on duty and off it — and closes on the four hours off Dock Seven that the record has never managed to file straight.
+  Four seasons of operational service stand between the cadet who arrived in Season 1 and the Line Captain who opens Season 5. Tissadelle Shepherd now answers for boundary-proximate deployments in her own right — and for the Rangers she sends into them. Season 5 follows what that rank costs, on duty and off it.
+</p>
+<p class="page-intro">
+  Command is the season's subject: the distance between signing an order and standing where it lands. Expect the fullest cast of the series so far, and an ending the rest of the record will spend a long time trying to file straight — which is all this page will say about it.
 </p>
 <p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (5 | threadForSeason).id }}/">{{ (5 | threadForSeason).name }}</a></p>
 

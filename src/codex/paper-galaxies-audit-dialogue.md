@@ -2,6 +2,7 @@
 layout: codex.njk
 title: "Recovered Dialogue: The Paper Galaxy Audit"
 category: "AUC Ledger Review"
+library: "Survey Archive, Threshold Station"
 tags: [dialogue, cei, iwd, auc, creative-entropy, noogenic, archive]
 description: "An AUC Ledger Office audit dialogue over a recovered transmission called 'Paper Galaxies' — and whether its swirling backdrop and its singer earn novelty credit, or only resemble it."
 author: "Archivist Sen (speakers; transcription unattributed)"
