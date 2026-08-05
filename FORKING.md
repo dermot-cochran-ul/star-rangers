@@ -16,6 +16,20 @@ That means:
 
 Both paths start the same way below; they only diverge at "replace or extend the content."
 
+## What each path may do
+
+One principle governs every way this site reaches a domain that isn't this project's own. A **fork** may *add* content, *hide* content, and *adjust the presentation layer* — but never alter the existing record. A **deployment** (one of this project's registered domains, or an independent host using `editions.local.json` — see "Taking an edition to your own domain" below) may *filter* what's shown and *adjust presentation* — nothing else.
+
+| | Fan-work fork (Path B) | Deployment / independent host |
+|---|---|---|
+| **Add content** | Yes — your own stories alongside the record, non-commercial and clearly labeled unofficial ([`CONTENT-LICENSE.md`](./CONTENT-LICENSE.md)'s Fan Works Policy). Nothing added is ever this story's canon. | No — there is deliberately no key or field that can add a page. |
+| **Hide content** | Yes — omit what you don't use, or use the same filtering the engine ships with. | Yes — `CHARACTERS`/`TOPICS`/`THREADS` narrowing; excluded pages render placeholders, never 404s. |
+| **Alter existing content** | No — the ND in CC BY-NC-ND: no derivatives of the record. | No — every domain serves the same record; a deployment has no lever that could change it. |
+| **Adjust presentation** | Freely — the engine (layouts, CSS, JS) is MIT. | Yes — theme palette, edition branding and copy, `CUSTOM_CSS_FILE`. |
+| **Enforced by** | The content licence. A fork holds the full text, so the constraint is legal, not mechanical. | The engine itself. The constraint is structural — a deployment can't break it even by mistake. |
+
+Two notes on scope. A **Path A fork** (original story) sits outside this table: it deletes the content wholesale and keeps only the MIT engine, which is not altering the record but not using it. And "add" always means *add alongside*: fork-added stories enter as fan work — or as a chartered work, if approved — which canon binds and which never binds canon.
+
 ## What's engine vs. content
 
 | Keep (engine) | Replace (Path A) or extend (Path B) |
