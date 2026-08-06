@@ -9,6 +9,7 @@ related:
   - "The AI Safety Kernel"
   - "Cyborg"
   - "Krenyi"
+  - "Heritable Modification Protocols"
 tags: [smart-pet, animal-welfare, ai, kernel-compliant, detective-agency, species, undercover-pets.com]
 ---
 

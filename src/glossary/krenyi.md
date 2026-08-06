@@ -3,7 +3,7 @@ layout: glossary-entry.njk
 title: "Krenyi"
 id: krenyi
 category: "Species"
-short: "Long-lived humanoids defined by clarity, coherence, and structural resistance to fear, fury, enslavement, and mythification. Also called 'Quiet-Built' or 'Nai'."
+short: "Long-lived humanoids defined by clarity, coherence, and structural resistance to fear, fury, enslavement, mythification, and grief-predation — with an origin unrecorded by their own design. Also called 'Quiet-Built' or 'Nai'."
 related:
   - "Naiad"
   - "Court-Fae"
