@@ -56,3 +56,4 @@ No single body administers this doctrine Concord-wide, and every major polity's 
 - [Kernowek Reach](/star-rangers/lore/planets/kernowek-reach/)
 - [Aspenar](/star-rangers/lore/planets/aspenar/)
 - [Environmental Technology Design](/star-rangers/lore/environmental-technology-design/)
+- [Heritable Modification Protocols](/star-rangers/lore/heritable-modification-protocols/) — the same doctrine for lineages rather than worlds
