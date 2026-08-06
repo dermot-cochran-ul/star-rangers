@@ -42,6 +42,12 @@ Krenyi resist becoming symbol, omen, or allegory. If someone begins treating the
 
 That resistance to glamour—in the cosmological sense, not the aesthetic one—is part of their coherence-maintenance practice.
 
+## Resistance to Grief-Predation
+
+The same structural bound that governs Krenyi fear and fury governs grief, and it is what makes them mostly immune to a [threne](/star-rangers/lore/meta-dimensional-beings/)'s feeding. A threne prospers on despair prevented from closing — the self-doubt that will not settle, the self-loathing kept warm, the useless regret that circles a loss without ever setting it down. The Krenyi do not withhold grief; they mourn, and their mourning is real, and it *resolves*. What they do not do is hold it open. The feeding condition a threne needs is grief that cannot finish, and in a Krenyi it finishes, so the condition never forms.
+
+The mechanism is the one that resists glamour generally. A threne's offer is [counterfeit](/star-rangers/glossary/unfounded/) — a sorrow that presents as deserved with no founded thing beneath it — and the Krenyi read the membership rather than the shape: the despair stops matching its stated terms, registers as pattern drift, and they withdraw relevance from it rather than argue it down. It is not absolute, and *mostly* is the honest word — a Krenyi worn thin, or grieving something the pattern can keep genuinely live, can be reached at the edges. But they make poor provisioning. Where a threne fattens on a settlement that cannot finish mourning, a Krenyi is ground the predator crosses and finds nothing laid in.
+
 ## An Origin the Record Doesn't Hold
 
 The cross-species record carries no Krenyi homeworld. No survey filed it, no charter names it, no timeline entry places their emergence — and the gap is not the ordinary kind, the sort left where a fact is simply missing because no one has yet gone and found it. A Krenyi asked where their people come from answers the material part without hesitation — that they are long-lived, that they cannot interbreed with any other species, that they keep their own reckoning of time — and declines the rest, because *where are you from*, asked as a way to explain them, is the same move as treating them as symbol or omen: it makes a person the product of a place and reads them backward from it. That is precisely the category the Quiet-Built are built to refuse. They do not answer it, and — honest by disposition — they do not offer a false one in its place.
