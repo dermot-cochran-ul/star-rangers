@@ -3,7 +3,7 @@ layout: glossary-entry.njk
 title: "Higher-Dimensional Folding"
 id: higher-dimensional-folding
 category: "Physics"
-short: "One of two canonical FTL channels, using temporary topological distance compression."
+short: "One of two canonical FTL channels: the long-range one — a slow, preparation-heavy higher-dimensional drift that briefly folds distant regions into adjacency so a vessel can cross."
 related:
   - "FTL Mechanics"
   - "Quantum Space Harmonic Wave"
@@ -15,7 +15,7 @@ tags: [ftl, folding, higher-dimensional, topology]
 
 **Higher-Dimensional Folding** (pronounced: **HYE-er di-MEN-shun-ul FOHL-ding**) is one of the two canonical faster-than-light channels in the Grand Ensemble Multiverse.
 
-The mechanism: the channel temporarily brings distant regions into fold adjacency, transfers matter through stable aperture conditions, then collapses the fold. Transit is geometrically lawful — it compresses topological distance without violating causality or bypassing hierarchy constraints.
+The mechanism: the channel temporarily brings distant regions into fold adjacency, transfers matter through stable aperture conditions, then collapses the fold. Transit is geometrically lawful — it compresses topological distance without violating causality or bypassing hierarchy constraints. It is also slow in the way flying is slow: the crossing is a genuine shortcut, but staging the fold and certifying hull and route routinely take longer than the brief drift through it. Folding is an independent mechanism from the [quantum space harmonic wave](/star-rangers/glossary/quantum-space-harmonic-wave/), the medium-range channel — the two share neither physics nor route map, and neither is a fallback for the other.
 
 Folding cannot be used for retrocausal editing. It permits distance traversal, not timeline revision.
 

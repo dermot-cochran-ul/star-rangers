@@ -39,6 +39,10 @@ Navigation guilds map statistical recurrence windows, then revise them continuou
 
 That is why a corridor can be known for decades and still fail to open on a given departure cycle.
 
+## Range and Pace
+
+Quantum space harmonics are a **medium-range** channel. Averaged across a route's recurrence windows, a corridor advances a vessel on the order of a light-year a day — quick enough to make interstellar traffic ordinary, and too slow for the longest crossings. It is a mechanism in its own right, unrelated to [higher-dimensional folding](/star-rangers/lore/ftl-mechanics/): the two share neither physics nor route map, and a harmonic corridor is never a substitute for a fold, nor a fold for a corridor.
+
 ## Boundary Interaction Rules
 
 Quantum space harmonics do not bypass [Concordant](/star-rangers/glossary/concordant/) constraints.

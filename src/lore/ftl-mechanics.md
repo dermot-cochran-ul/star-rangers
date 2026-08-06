@@ -10,7 +10,7 @@ image_alt: "A quantum computer technology concept"
 
 At a lawful departure site, a ship waits before it moves. Crews watch lock margins, gravity gradients, and exit conditions, because faster-than-light travel begins with discipline, not spectacle.
 
-Faster-than-light transit is limited to two lawful channels. No other method is canon-valid.
+Faster-than-light transit is limited to two lawful channels. No other method is canon-valid. The two are independent mechanisms, not two settings of one — they share neither physics nor a common route map, and neither is a fallback for the other. What separates them in practice is range and pace: the harmonic wave is the medium-range workhorse, and folding is the long-range channel and the slow one.
 
 ## Allowed Channel 1: Quantum Space Harmonic Waves
 
@@ -27,6 +27,9 @@ Wave-locked transit along pre-admissible quantum harmonic corridors.
 - Harmonic phase error above tolerance causes forced drop-out.
 - Transit cannot bypass [Concordant](/star-rangers/glossary/concordant/) boundary conditions.
 
+### Range and Pace
+Medium-range. Averaged over a route's recurrence windows, a harmonic corridor advances a vessel on the order of one light-year per day — quick enough to make interstellar traffic routine, and too slow for the longest crossings.
+
 ### Observable Effects on Time-Bound Entities
 - Apparent non-linear arrival order across distant observers.
 - Short-lived sensor aliasing near entry/exit windows.
@@ -40,6 +43,9 @@ Topological distance compression via controlled higher-dimensional fold geometry
 - Two spacetime regions are temporarily brought into fold adjacency.
 - Vessel translation occurs while adjacency remains stable.
 - Fold is collapsed after transfer to prevent persistence drift.
+
+### Range and Pace
+Long-range, and slow in the way an aeroplane journey is slow. A fold still folds distant regions into adjacency — the crossing is a genuine shortcut — but the drift through the fold is the least of it: staging at a low-gradient site, generating the scaffold, and certifying hull and route routinely take longer than the transit they enable. Folding reaches the farthest destinations in settled space, and it is chosen when the distance justifies the preparation, never when speed does.
 
 ### Constraints
 - Fold duration and aperture are strictly bounded.
