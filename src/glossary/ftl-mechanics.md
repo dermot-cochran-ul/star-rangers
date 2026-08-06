@@ -14,10 +14,10 @@ tags: [ftl, physics, transit, concordant]
 
 Faster-than-light transit in the documented universe runs through exactly two lawful channels, and every certified drive ever flown has used one of them:
 
-1. **Quantum Space Harmonic Wave** — wave-locked transit along pre-admissible harmonic corridors.
-2. **Higher-Dimensional Folding** — topological distance compression via controlled fold geometry.
+1. **Quantum Space Harmonic Wave** — wave-locked transit along pre-admissible harmonic corridors; the medium-range channel, about a light-year a day.
+2. **Higher-Dimensional Folding** — the long-range channel: a slow, preparation-heavy higher-dimensional drift that folds distant regions into brief adjacency so a vessel can cross.
 
-Neither channel grants immunity to causality, and neither permits an operator to bypass Concordant law or Cascade constraint. A drive is a way of crossing distance, not a way out of the rules.
+Neither channel grants immunity to causality, and neither permits an operator to bypass Concordant law or Cascade constraint. A drive is a way of crossing distance, not a way out of the rules. The two channels are independent mechanisms, not tiers of one — they share neither physics nor route map, and neither stands in for the other; what divides them is range and pace.
 
 No third method has ever been demonstrated, certified, or credibly recorded. Proposals surface every generation — inertialess drives, tachyonic signalling, "shortcuts" through boundary zones — and every one has died in review, usually at the same clause: it would require the transit to outrank the physics it travels through.
 

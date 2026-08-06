@@ -42,7 +42,7 @@ The 21st century is the anomaly. It is the **only era in which very high complex
 | Environment | Locally degraded | Globally stressed but managed | Biosphere-optimised, actively maintained |
 | Social structure | Feudal | Nation-state and corporate | Guild–parameter-based governance |
 | Infrastructure | Physical, visible | Massive and visible (roads, grids, data centres) | Embedded, extradimensional, unseen |
-| Transportation | Slow, local | Fast, global | Instant or field-based (ascent, folding, harmonics) |
+| Transportation | Slow, local | Fast, global | Field-based, range-tiered (short-range ascent, medium-range harmonics, long-range fold-drift) |
 | Failure mode | Famine, war, plague | System collapse, climate disruption, supply shocks | Invisible system drift → sudden catastrophic edge cases |
 
 ---
