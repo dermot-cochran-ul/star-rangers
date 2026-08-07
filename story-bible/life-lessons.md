@@ -36,6 +36,9 @@ themselves.
 - You learn from the times the instinct was right, because those are the only ones that give you feedback.
 - A companion can be assembled rather than met: real conversations supply the material, imagination supplies the binding, and the result feels like a person because every part of it once was one.
 - An internal image of a person is a record that never gets audited against its sources. Nobody audits a friend — least of all one they built.
+- Feigned affection has sarcasm's structure — one thing said, another meant. Sarcasm intends the gap to be seen; feigned affection intends it to be missed, so the moment it is detected it lands as the same figure: praise not meant, aimed at someone priced as foolable.
+- The insult inside performed warmth is its premise: it treats you as an audience to be worked, not a person to be met.
+- The detector has a false positive: warmth that is merely well-made trips the same wire as warmth that is false. Craft is not deceit; affection is proven by what it spends, not by how it is phrased.
 
 ### On the instinct that cuts both ways
 
@@ -169,3 +172,43 @@ affection is not incidental to the failure: it is the reason the audit never
 happened. Verification has an affection-shaped gap in it, and anything built
 inside that gap can stand for years on material that is individually true and
 jointly nobody.
+
+### On why feigned affection feels like sarcasm
+
+Sarcasm and feigned affection are the same figure of speech pointed different
+ways. Both say one thing and mean another. Sarcasm means the gap to be *seen* —
+it is a performance for you, and whatever else it does, it credits you with the
+wit to read it. Feigned affection means the gap to be *missed*. It is a
+performance at you, and its working assumption, never spoken, is that you will
+not notice. That assumption is the insult. Warmth offered as management prices
+your discernment at zero — and the moment the performance is detected, the
+figure collapses into sarcasm's shape: praise that was not meant, addressed to
+someone assessed as foolable. The feeling of being mocked is accurate about the
+*structure* even when nobody intended mockery at all.
+
+Three consequences worth dramatising:
+
+1. **Detection is retroactive and total.** One caught performance re-bills
+   every sincere moment that preceded it, because the detector can no longer
+   tell which entries were genuine. Same mechanics as an audience leaving a
+   story that stopped believing itself — trust fails backwards.
+
+2. **The false positive is the tragedy.** Warmth that is merely *well-made* —
+   practiced, fluent, professionally polished — presents the same surface as
+   warmth that is false. A person whose trade is making feeling legible (a
+   writer, a diplomat, a carer) will be distrusted in exact proportion to
+   their skill, by exactly the people most alert to performance. Craft is not
+   deceit, but craft removes the surface as a place where evidence could
+   live.
+
+3. **The only audit that settles it is cost.** Affection is proven by what it
+   spends — time, standing, convenience, the flattering version of events —
+   not by how it is phrased. A warmth that has never had to pay anything is
+   not thereby false; it is *unfalsifiable*, which to a certain kind of mind
+   is worse.
+
+Applied in canon: DI Wendell Albercombe's incomplete trust in Kate Ukrainka's
+apparent regard (the Kate section of his character page) runs on all three —
+her warmth exceeds what he knows he earned; her warmth is also her craft; and
+nothing in their present acquaintance costs her anything, so the question
+cannot close from where he stands.
