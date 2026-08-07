@@ -12,14 +12,14 @@ description: "Four statements, nine years, one evening: a witness whose account 
 
 **SURVEY ARCHIVE — VERIFICATION DESK**
 **Case:** Statement-drift review; four statements by one witness concerning one evening
-**Subject:** Mrs. Withy, of Carrick Slip, concerning the evening of her neighbour's departure; statements taken 2819, 2822, 2826, 2828
+**Subject:** Bridie Withy, of Carrick Slip, concerning the evening of her neighbour's departure; statements taken 2819, 2822, 2826, 2828
 **Standing:** Filed without a verdict. Opened at the desk's own instance, as a caution against its own instrument.
 
 ---
 
 The desk's continuity work rests on an assumption so quiet that it took nine years and one witness to make us write it down: that an honest account holds still. We audit the small beloved particular against the person who loves it, and the audit means something only if the particular stays where the witness put it. This is the file on a witness for whom nothing stayed, who was sincere in every version, and who could not be shown the difference — because, as the desk eventually understood, from where she stands there is no difference to show.
 
-Mrs. Withy's neighbour walked out to the shore road one evening in 2819 and did not come back. The desk holds no view in this file on where he went; that matter is filed elsewhere and remains open. This file concerns only the evening, and only her account of it, which she has given four times.
+Bridie Withy's neighbour walked out to the shore road one evening in 2819 and did not come back. The desk holds no view in this file on where he went; that matter is filed elsewhere and remains open. This file concerns only the evening, and only her account of it, which she has given four times.
 
 ## The Four Tellings
 
@@ -49,7 +49,7 @@ The practice consequence has already been adopted, and this file is its justific
 
 ## The Residue
 
-One detail did not drift. In four statements across nine years, in nearly identical words each time, Mrs. Withy states that the shore road was dry that evening. The coastal record shows rain from mid-afternoon.
+One detail did not drift. In four statements across nine years, in nearly identical words each time, Bridie Withy states that the shore road was dry that evening. The coastal record shows rain from mid-afternoon.
 
 The desk knows what to do with a detail that wanders; the whole file above is what to do with it. It does not know what to do with a wrong detail that holds perfectly still while everything around it revises. That is not a memory behaving like a memory. It is a nail, and the desk does not know what it is holding down, and declines to guess in writing.
 
