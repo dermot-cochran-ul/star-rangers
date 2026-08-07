@@ -11,7 +11,7 @@ There is one history, and there are many ways of writing its dates. The record's
 
 ## The Common Spine
 
-[Universal Concord Standard Date](/star-rangers/glossary/ucsd/) is the civil standard the public record converts to: continuous with old Earth's common-era count, adopted within [the Solar System Concord](/star-rangers/lore/solar-system-concord/)'s framework, and applied retroactively to the dates that preceded it. A conversion target is all it claims to be. The spine exists so that two filings can be laid side by side, not so that every filing must be born speaking it.
+[Universal Concord Standard Date](/star-rangers/glossary/ucsd/) is the civil standard the public record converts to: continuous with old Earth's common-era count, adopted within [the Solar System Concord](/star-rangers/lore/solar-system-concord/)'s framework, and applied retroactively to the dates that preceded it. A conversion target is all it claims to be. The spine exists so that two filings can be laid side by side, not so that every filing must be born speaking it. How the spine itself is kept — the unit, the ensemble of clocks, the loop-closing — is its own article: [Count and Calibration](/star-rangers/lore/universal-cosmic-stardate/).
 
 ## Many Notations, One History
 
