@@ -39,3 +39,7 @@ None of this was designed from the analogy — each rule solved a local problem 
 The Survey Archive exists because somebody declined to close the file on a forty-second discrepancy. The audience is that somebody. They notice; they hold the file open longer than anyone sensible would; and how the story treats their discrepancy decides everything that follows. Acknowledge it, and they will follow the story anywhere — the impossible included. Tell them they imagined it, and they will leave without a scene, and they will not come back.
 
 Suspension of disbelief is not the audience agreeing to believe. It is the audience agreeing to keep watching while the story proves it believes itself.
+
+---
+
+*Companion entry: [The Borrowed Ledger](/star-rangers/journal/the-borrowed-ledger/), on the adaptation case — what a story owes to a record it didn't write.*
