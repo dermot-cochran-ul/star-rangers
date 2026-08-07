@@ -32,7 +32,7 @@ Three protections are written in: independence from governmental direction on ce
 - The USC's democratic structure and consensus model will eventually fail under the weight of its own expansion. The Coherence Wars begin in 2503 UCSD.
 - The SSSA survives the Coherence Wars, the Imperium, and the MSC period with its institutional independence largely intact — a record no other USC-era institution can claim.
 - When the Star Rangers are founded in 2723 UCSD, the SSSA's track record of political independence is cited as direct evidence that independent certification is institutionally achievable. The SSSA is absorbed into the Star Rangers and reconstituted as the Safety Corps.
-- The UCSD standard is **not** anchored to this event, a misreading common enough that the Survey Archive corrects it in print: UCSD kept the old Common Era epoch and renamed the count (UCSD year = CE year + 200 — see [Universal Cosmic Stardate](/star-rangers/lore/universal-cosmic-stardate/)). The USC's founding falls at ~2340 UCSD (2140 CE); it is the origin of the *institution's* history, not the calendar's.
+- The UCSD standard is **not** anchored to this event, a misreading common enough that the Survey Archive corrects it in print: UCSD kept the old Common Era count and renumbered it (UCSD year = CE year + 200 — see [Universal Concord Standard Date: Count and Calibration](/star-rangers/lore/universal-cosmic-stardate/)). The USC's founding falls at ~2340 UCSD (2140 CE); it is the origin of the *institution's* history, not the calendar's.
 
 See: [United Space Consortium](/star-rangers/lore/united-space-consortium/), [The Star Rangers Safety Corps](/star-rangers/lore/star-rangers-safety-corps/).
 

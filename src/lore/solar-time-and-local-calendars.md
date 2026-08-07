@@ -14,7 +14,7 @@ Ask a dockhand what day it is and the honest answer depends entirely on which wo
 
 ## Why Two More Systems Exist
 
-Solar time works perfectly for a single world and fails immediately the moment two worlds need to agree on when something happened. That failure is why [Universal Cosmic Stardate](/star-rangers/lore/universal-cosmic-stardate/) and [Galactic Stardate](/star-rangers/lore/galactic-stardate/) exist at all — not to replace solar time, which nobody could enforce even if they wanted to, but to sit above it for the records that have to survive contact with more than one sky.
+Solar time works perfectly for a single world and fails immediately the moment two worlds need to agree on when something happened. That failure is why [Universal Concord Standard Date](/star-rangers/lore/universal-cosmic-stardate/) and [Galactic Stardate](/star-rangers/lore/galactic-stardate/) exist at all — not to replace solar time, which nobody could enforce even if they wanted to, but to sit above it for the records that have to survive contact with more than one sky.
 
 - **Solar time** — local, civil, personal. What a season, a birthday, or a harvest means on a given world.
 - **UCSD** — administrative. What a Survey Corps log, a Codex entry, or a cross-Concordant archive uses to keep mixed-species records in the same sequence.

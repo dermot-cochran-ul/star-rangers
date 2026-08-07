@@ -31,6 +31,16 @@ He feels slightly guilty. Not much, and not often — a small snag rather than a
 
 He remembers the name of one of her cats and could not, asked cold, produce the other's — which is exactly the sort of asymmetry he would flag in somebody else's statement inside four seconds, and has never once turned on the statement he would give about himself.
 
+Her regard for him, at the range the habitat enforces — a deck bulletin, an inquest list, the accounts of people who know them both, Eden being Eden — is by everything he can observe entirely warm: unhurried, faintly amused, without a grievance in it anywhere that anyone has managed to find. He does not fully trust it, and because he is who he is, he has worked the distrust the way he would work a statement, and filed the result with everything else he cannot close.
+
+Part of it is arithmetic. He knows what that warmth would have to be built over, because he was there when the foundation went in — the replies that came later and later, the silence he let run, the stop he never asked about. Regard he had earned would not puzzle him. Regard in excess of the record is exactly the class of entry his trade exists to query, and kindness aimed at the man who did what he did has, whether she intends it or not, the shape of gentle irony: praise that outruns the evidence always reads as commentary on the evidence. He knows the feeling from interview rooms — it is what being handled feels like from the inside. It is also, and this is the part he cannot resolve, what being forgiven feels like, and at a distance the two are indistinguishable.
+
+Part of it is her trade. Warmth is what she makes. Every animal in her books is adored by strangers who will never meet it; she can build affection that works, and a thing she can build is a thing he cannot verify by inspecting the finish. He would be the first to say the craft is not evidence of anything — that is precisely the trouble. It removes the surface as a place where evidence could live.
+
+And the part he likes least he has assembled entirely secondhand, having never opened one of her books: that what the books keep being about, on the testimony of everyone who quotes them at him, is the exact moment a person begins asking for less than they need in order to keep something easy for somebody else. He can date that moment in her messages to him without consulting anything. He supplied the somebody else. Warmth from the author of that shelf may be kindness, and it may be a specimen jar, and being read is not the same as being cared for — and asking her which it is would tell her more than any answer could tell him.
+
+None of this is a finding against her, and he knows that too. Affection is proven by what it spends, and nothing in their present acquaintance costs her anything — so the question cannot close, and it sits where every unclosable thing in his files sits: open, dated, and never quite worked on.
+
 She writes her mornings in the Deck 7 galley. His caseload takes him through Deck 7 perhaps twice a month. In several years this has not produced a conversation, and neither of them has arranged for it to.
 
 ## Orbital Five-O

@@ -16,4 +16,4 @@ Reeves is one of two investigative support intelligences — alongside [Lucene-9
 
 Operationally, Reeves answers to Oyelaran. On any question of its own standing, treatment, or fitness for continued service, it answers instead to [the Eden Warden](/star-rangers/characters/eden-warden/) — a line drawn under the [AI Safety Kernel](/star-rangers/lore/ai-safety-kernel/) that Eden's bureau has never yet had reason to test.
 
-See also: [Reeves (Threshold Station)](/star-rangers/characters/reeves/), [Superintendent Rasa Oyelaran](/star-rangers/characters/rasa-oyelaran/), [The Eden Warden](/star-rangers/characters/eden-warden/), [Detective Inspector Wendell Albercombe](/star-rangers/characters/wendell-albercombe/).
+See also: [Reeves (Threshold Station)](/star-rangers/characters/reeves/), [Superintendent Rasa Oyelaran](/star-rangers/characters/rasa-oyelaran/), [The Eden Warden](/star-rangers/characters/eden-warden/), [Detective Inspector Wendell Albercombe](/star-rangers/characters/wendell-albercombe/), [Sylvie Harrow](/star-rangers/characters/sylvie-harrow/).

@@ -26,4 +26,4 @@ Whether Oyelaran's office has noticed her most unremarkable detective's suspicio
 
 Jeeves has no more standing with [Commander Kai Larsen](/star-rangers/characters/kai-larsen/)'s task force than Albercombe does, and considers this entirely appropriate — Five-O's cases are not the sort a household intelligence has any business closing from a kitchen. He has, on the rare occasion Five-O's liaison came through Albercombe's door instead of the bureau's, made sure there was tea.
 
-See also: [Superintendent Rasa Oyelaran](/star-rangers/characters/rasa-oyelaran/), [Wendell Albercombe](/star-rangers/characters/wendell-albercombe/), [Orbital Habitats Compact](/star-rangers/lore/orbital-habitats-compact/).
+See also: [Superintendent Rasa Oyelaran](/star-rangers/characters/rasa-oyelaran/), [Wendell Albercombe](/star-rangers/characters/wendell-albercombe/), [Sylvie Harrow](/star-rangers/characters/sylvie-harrow/), [Orbital Habitats Compact](/star-rangers/lore/orbital-habitats-compact/).
