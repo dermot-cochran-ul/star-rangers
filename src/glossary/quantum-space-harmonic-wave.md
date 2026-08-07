@@ -3,7 +3,7 @@ layout: glossary-entry.njk
 title: "Quantum Space Harmonic Wave"
 id: quantum-space-harmonic-wave
 category: "Physics"
-short: "One of two canonical FTL channels, based on phase-locked harmonic corridor transit."
+short: "One of two canonical FTL channels, based on phase-locked harmonic corridor transit; the medium-range one, roughly a light-year a day."
 related:
   - "FTL Mechanics"
   - "Higher-Dimensional Folding"
@@ -15,6 +15,8 @@ tags: [ftl, quantum, harmonic, transit]
 **Quantum Space Harmonic Wave** (pronounced: **KWON-tum SPAYS har-MON-ik wayv**) is one of the two canonical faster-than-light channels in the Grand Ensemble Multiverse.
 
 Transit occurs by phase-locking to an admissible harmonic corridor and exiting through [Concordant](/star-rangers/glossary/concordant/) re-synchronisation. The corridor must be pre-admissible — not every harmonic path is lawful, and channel lock failure results in a lawful abort or forced drop-out rather than uncontrolled transit.
+
+As interstellar infrastructure it is a **medium-range** method: averaged over a corridor's recurrence windows it advances a vessel about a light-year a day — enough to make interstellar traffic ordinary, and short of what the longest crossings need. It is a channel in its own right, unrelated to [higher-dimensional folding](/star-rangers/glossary/higher-dimensional-folding/); the two are not tiers of one system.
 
 It is a physics channel, not a magical pathway.
 
