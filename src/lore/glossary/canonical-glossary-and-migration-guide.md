@@ -266,6 +266,13 @@ The word **Etheric** was carrying three jobs at once — a causal layer, a set o
 - **Notes:** This is the deepest form of the two-channel independence rule: the channels share neither physics nor route map because they are not facts at the same tier. Scope states where a mechanism is *defined*, not where a transit is *performed* — a fold operation still runs inside a single universe, so the flexure entry's "inside a single Concordant" line stands unchanged. Outside its cluster a channel does not fail; it fails to refer: a neighbouring archecluster in the same formcluster folds by the local rules and need not admit harmonic corridors at all, and across a formcluster boundary there is no shared arena and no measured separation to fold.
 - **Related Terms:** the Common Manifold, Archecluster, Formcluster, Flexure
 
+### Generalised Quantum Mechanics (settled 2026-08-08)
+- **Layer:** Physical, with lawful Etheric coupling
+- **Definition:** The one theory the cosmos's probability, coherence and information physics belongs to, in two registered parts. The **quantum kernel** is standard quantum mechanics preserved exactly — identical in every surveyed universe, with every laboratory no-go theorem intact. The **Etheric extension** is the lawful coupling structure laid over it: the Etheric texture on randomness, meaning-field overlays, the conceptual information channel, the boundary-zone decoherence channel, and the harmonic admissibility vocabulary corridor transit runs on.
+- **Notes:** The governing rule is **extension, not deformation** — couplings are added, permissions are not; no extension term signals faster than transit, edits an outcome, or amends a kernel rule. Where the extension vanishes (quiet, boundary-remote, unminded contexts) the full theory *is* the kernel as an exact restriction, which is what "identical at base" has always rested on. Scope follows the Cascade: the kernel is common to the surveyed record; the extension's vocabulary is archecluster-local (see FTL Channel Scope). Whether the kernel is uniquely necessary or the local formcluster's template is closed by structure, not by answer.
+- **Do not use for:** any claim that the Etheric layer breaks, overrides, or outranks quantum law — the frame exists to state the opposite.
+- **Related Terms:** FTL Channel Scope, Archecluster, Formcluster, Etheric
+
 ### Conceptual Conservation (settled 2026-07-29)
 - **Layer:** Conceptual (Layer 2)
 - **Definition:** No coherent mind is lost. An identity structure that once cohered remains an admissible concept state at the Conceptual layer; nothing deletes, degrades or overwrites one.

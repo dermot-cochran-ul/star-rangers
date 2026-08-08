@@ -69,6 +69,8 @@ Tiny probability corrections — such as Rook-7 adjusting a sensor sweep angle b
 ### Key Difference
 Randomness is real, but it carries a faint Etheric texture that can be sculpted within strict bounds.
 
+*Identical at base* and *textured at the margin* are one theory, not a tension — the kernel and extension of [a generalisation of quantum mechanics](/star-rangers/lore/generalised-quantum-mechanics/).
+
 ---
 
 ## 4. Dimensional Topology

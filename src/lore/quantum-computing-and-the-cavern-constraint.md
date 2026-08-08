@@ -51,6 +51,7 @@ The technology is fast, not oracular. It does not read the future, cannot brute-
 ## See Also
 
 - [Physics Comparison: Real Cosmos vs. The Fictional Cosmos](/star-rangers/lore/physics-comparison/) — the base quantum layer and the "no time travel" causality rule this entry builds on
+- [A Generalisation of Quantum Mechanics](/star-rangers/lore/generalised-quantum-mechanics/) — the kernel/extension frame in which both decoherence channels are one theory's predictions
 - [Universe Overlap and Folding](/star-rangers/lore/universe-overlap-and-folding/) — the boundary-zone turbulence that supplies the second decoherence channel, and the multiverse that is not a set of timelines
 - [Quantum-Space Harmonics](/star-rangers/lore/quantum-space-harmonics/) — the fold medium the name is often confused with
 - [Threnos-Ω](/star-rangers/lore/universes/threnos-omega/) — forecastability as a property of a universe, not of a machine
