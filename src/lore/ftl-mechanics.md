@@ -10,7 +10,7 @@ image_alt: "A quantum computer technology concept"
 
 At a lawful departure site, a ship waits before it moves. Crews watch lock margins, gravity gradients, and exit conditions, because faster-than-light travel begins with discipline, not spectacle.
 
-Faster-than-light transit is limited to two lawful channels. No other method is canon-valid. The two are independent mechanisms, not two settings of one — they share neither physics nor a common route map, and neither is a fallback for the other. What separates them in practice is range and pace: the harmonic wave is the medium-range workhorse, and folding is the long-range channel and the slow one.
+Faster-than-light transit is limited to two lawful channels. No other method is canon-valid. The two are independent mechanisms, not two settings of one — they share neither physics nor a common route map, and neither is a fallback for the other. What separates them in practice is range and pace: the harmonic wave is the medium-range workhorse, and folding is the long-range channel and the slow one. What separates them in principle is the tier of the [Cosmic Cascade](/star-rangers/lore/cosmic-cascade/) each is defined at: the harmonic wave is specific to and defined within the local [archecluster](/star-rangers/glossary/archecluster/), and folding is specific to and defined within the local [formcluster](/star-rangers/glossary/formcluster/) — see Cascade Scope below.
 
 ## Allowed Channel 1: Quantum Space Harmonic Waves
 
@@ -69,6 +69,16 @@ Gravitational flatness sufficient for a fold scaffold is not exclusive to Lagran
 ### Observable Effects on Time-Bound Entities
 - Simultaneous visual traces at origin and destination during fold peak.
 - Temporal perception lag in nearby biological observers.
+
+## Cascade Scope: Where Each Channel Is Defined
+
+The independence of the two channels is not an accident of engineering. They are defined at different tiers of the [Cosmic Cascade](/star-rangers/lore/cosmic-cascade/), and neither is a universal fact.
+
+**Quantum space harmonics are specific to, and defined within, the local [archecluster](/star-rangers/glossary/archecluster/).** The wave rides quantum law, and the base quantum layer is identical everywhere — but corridor admissibility is not. Which harmonic paths are lawful is a fact drawn from the local Archewright's archetypes and possibility space, so the corridor structure travels exactly as far as that vocabulary runs and no further. In a neighbouring archecluster the term does not fail; it fails to refer — universes built from a different archetype vocabulary may admit no harmonic corridors at all, or something no chart of ours would recognise as one.
+
+**Fold transit is specific to, and defined within, the local [formcluster](/star-rangers/glossary/formcluster/).** Fold geometry is a property of the [Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/) — the Formwright's formtype every membrane of the cluster is seated in. Any two regions seated in that arena can in principle be brought into fold adjacency by the same lawful mechanism; across a formcluster boundary there is no shared arena, hence no measured separation, and nothing for a fold to compress. A fold operation still runs *inside* one universe — the scope claim states where the mechanism is defined, not where a given transit is performed.
+
+One consequence is the rule stated above in its deepest form: the two channels share neither physics nor route map because they are not facts at the same tier. And the asymmetry is real — a neighbouring archecluster in this formcluster folds by exactly the rules in this article, the manifold being common to both, and need not have harmonic corridors at all.
 
 ## Prohibited Interpretations
 

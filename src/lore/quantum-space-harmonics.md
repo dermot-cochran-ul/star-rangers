@@ -43,6 +43,10 @@ That is why a corridor can be known for decades and still fail to open on a give
 
 Quantum space harmonics are a **medium-range** channel. Averaged across a route's recurrence windows, a corridor advances a vessel on the order of a light-year a day — quick enough to make interstellar traffic ordinary, and too slow for the longest crossings. It is a mechanism in its own right, unrelated to [higher-dimensional folding](/star-rangers/lore/ftl-mechanics/): the two share neither physics nor route map, and a harmonic corridor is never a substitute for a fold, nor a fold for a corridor.
 
+## Cluster Scope
+
+Corridor structure is an [archecluster](/star-rangers/glossary/archecluster/) fact. The wave rides quantum law, and the base quantum layer is identical everywhere — but which harmonic paths are *admissible* is drawn from the local Archewright's archetypes and possibility space. Quantum space harmonics are therefore specific to, and defined within, the local archecluster: every route on every guild chart is a fact about this cluster's vocabulary, and in a neighbouring cluster the term does not fail so much as fail to refer. Fold transit is scoped one tier higher — to the local [formcluster](/star-rangers/glossary/formcluster/), whose Common Manifold it is a property of — which is the deepest form of the rule that the two channels share neither physics nor route map. See [FTL Mechanics](/star-rangers/lore/ftl-mechanics/).
+
 ## Boundary Interaction Rules
 
 Quantum space harmonics do not bypass [Concordant](/star-rangers/glossary/concordant/) constraints.

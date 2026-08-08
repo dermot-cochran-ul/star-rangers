@@ -7,15 +7,18 @@ short: "One of two canonical FTL channels: the long-range one — a slow, prepar
 related:
   - "FTL Mechanics"
   - "Quantum Space Harmonic Wave"
+  - "Formcluster"
   - "Universe Overlap"
   - "Concordant"
   - "Metafold"
-tags: [ftl, folding, higher-dimensional, topology]
+tags: [ftl, folding, higher-dimensional, topology, formcluster]
 ---
 
 **Higher-Dimensional Folding** (pronounced: **HYE-er di-MEN-shun-ul FOHL-ding**) is one of the two canonical faster-than-light channels in the Grand Ensemble Multiverse.
 
 The mechanism: the channel temporarily brings distant regions into fold adjacency, transfers matter through stable aperture conditions, then collapses the fold. Transit is geometrically lawful — it compresses topological distance without violating causality or bypassing hierarchy constraints. It is also slow in the way flying is slow: the crossing is a genuine shortcut, but staging the fold and certifying hull and route routinely take longer than the brief drift through it. Folding is an independent mechanism from the [quantum space harmonic wave](/star-rangers/glossary/quantum-space-harmonic-wave/), the medium-range channel — the two share neither physics nor route map, and neither is a fallback for the other.
+
+Fold geometry is a property of the [Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/) — the local Formwright's formtype — so the channel is specific to, and defined within, the local [formcluster](/star-rangers/glossary/formcluster/): any two regions seated in the manifold can lawfully be brought into fold adjacency, and across a formcluster boundary there is no shared arena and no measured separation to fold. A fold operation still runs *inside* one universe; the scope states where the mechanism is defined, not where a transit is performed. The harmonic wave is scoped one tier lower, to the local [archecluster](/star-rangers/glossary/archecluster/) — the deepest form of the independence rule above.
 
 Folding cannot be used for retrocausal editing. It permits distance traversal, not timeline revision.
 
