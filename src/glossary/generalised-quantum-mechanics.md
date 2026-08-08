@@ -14,7 +14,7 @@ tags: [quantum, physics, etheric, cascade, coherence]
 
 **Generalised quantum mechanics** is the record's name for the one theory the cosmos's probability, coherence and information physics belongs to. It has two parts with different scopes.
 
-The **quantum kernel** is standard quantum mechanics, preserved exactly — superposition, interference, entanglement, decoherence, and every no-go theorem the laboratory theory proves. The kernel is identical in every surveyed universe, and where nothing couples to it the full theory *is* the kernel, as an exact restriction rather than an approximation.
+The **quantum kernel** is standard quantum mechanics, preserved exactly — superposition, interference, entanglement, decoherence, and every no-go theorem the laboratory theory proves. The kernel is identical to real-universe quantum information throughout the local [archecluster](/star-rangers/glossary/archecluster/) — an archecluster-scoped fact, not a universal one — and where nothing couples to it the full theory *is* the kernel, as an exact restriction rather than an approximation.
 
 The **Etheric extension** is the lawful coupling structure laid over the kernel: the faint texture on quantum randomness, meaning-field overlays, the conceptual information channel, the boundary-zone decoherence channel, and the harmonic admissibility vocabulary that [corridor transit](/star-rangers/glossary/quantum-space-harmonic-wave/) and relocation locks run on. Extension terms vary by position and context, and their vocabulary is [archecluster](/star-rangers/glossary/archecluster/)-local — the kernel is common to the whole surveyed record, the extension's vocabulary is not.
 

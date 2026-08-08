@@ -10,7 +10,7 @@ image_alt: "An abstract glowing swirling halo of light"
 
 A sensor at Threshold Station can report ordinary physics and impossible drift in the same hour. The contradiction is only apparent. The fictional cosmos keeps the familiar lower down and changes the architecture above it.
 
-The fictional cosmos superficially mimics real-world physics at the Material and Physical layers within any given [Concordant](/star-rangers/glossary/concordant/). The differences emerge from the Etheric layer upward: conceptual fields, multiversal overlap, and ongoing cosmic maintenance produce a richer and sometimes perceivable physics.
+The fictional cosmos superficially mimics real-world physics at the Material and Physical layers within any given [Concordant](/star-rangers/glossary/concordant/). The differences emerge from the Etheric layer upward: conceptual fields, multiversal overlap, and ongoing cosmic maintenance produce a richer and sometimes perceivable physics. Every claim in the fictional column below carries a [scope](/star-rangers/lore/the-scope-of-physical-law/) — a realm, a zone, a membrane, a cluster, or a mathematical regime — and none is universal.
 
 ---
 
@@ -60,7 +60,7 @@ Causal structure is maintained rather than merely emergent. Flexion exists; viol
 ### Fictional Cosmos
 Probability operates across three layers:
 
-1. **Quantum randomness** — identical to the real universe at base.
+1. **Quantum randomness** — identical to the real universe at base, an [archecluster-scoped](/star-rangers/lore/the-scope-of-physical-law/) identity.
 2. **Macro-probability fields** — emergent statistical gradients.
 3. **Meaning-field overlays** — partially readable and minutely adjustable by Levrils.
 
@@ -146,7 +146,7 @@ Three information channels operate in parallel:
 | Channel | Layer | Properties |
 |---|---|---|
 | Thermodynamic | Physical / Material | Identical to real-universe thermodynamics |
-| Quantum | Physical | Identical to real-universe quantum information |
+| Quantum | Physical | Identical to real-universe quantum information, within the local archecluster |
 | Conceptual | Conceptual / Etheric | Meaning pressure; cross-[Concordant](/star-rangers/glossary/concordant/) resonance; Levril-readable |
 
 Emotional intensity produces conceptual information vibration — a diagnostic channel the Telearch stratum's continuity mandates are defined to read. Constraint-literate practitioners like Elvira approximate read access to this third channel through trained observational methods.
