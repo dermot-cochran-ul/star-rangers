@@ -1,6 +1,28 @@
 # Deny directory browsing
 Options -Indexes
 
+# Force HTTPS with a real 301.
+#
+# Search Console's 2026-08-08 coverage report showed Google crawling http://
+# page URLs and filing them as "Alternative page with proper canonical tag" -
+# not an error (the self-canonical in base.njk already points every http
+# duplicate at its https URL, and Google indexes the https version), but it
+# means the server was answering plain-http requests with a 200 and a full
+# page, leaving a duplicate of the whole site one scheme away. A 301 is the
+# stronger, cheaper signal: crawlers stop fetching the http copies at all,
+# and every link or bookmark that still says http:// lands on the URL the
+# canonicals, sitemap and feed already claim.
+#
+# /.well-known/ is exempt because cPanel AutoSSL's domain-control validation
+# fetches its check file over plain http; redirecting that path can fail the
+# renewal of the very certificate the redirect depends on.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{REQUEST_URI} !^/\.well-known/
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</IfModule>
+
 # Moved pages. mod_alias Redirect is resolved before the filesystem lookup, so
 # these win over the equivalent meta-refresh stubs built into _site/ - the stubs
 # exist for hosts without .htaccess (GitHub Pages), and a real 301 is better
