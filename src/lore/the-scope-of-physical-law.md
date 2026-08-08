@@ -3,7 +3,7 @@ layout: lore-entry.njk
 title: "The Scope of Physical Law"
 category: "Physics"
 tags: [physics, scope, cascade, mediarch, concordant, membrane, archecluster, formcluster, cosmology]
-description: "Every physical fact in the record is scoped to one of six levels — mediarch realm, Concordant, membrane, archecluster, formcluster, or mathematical regime — and a physics claim is well-formed only at its level. Nothing physical is universal."
+description: "Every physical fact in the record is scoped to one of six levels — mediarch realm, Concordant, membrane, archecluster, formcluster, or mathematical regime — and a physics claim is well-formed only at its level. Nothing physical is Ensemble-wide."
 plain: "Physics facts come in sizes. Some are true about one force, some about one region, one universe, one family of universes, or the mathematics behind all of them. This page says which size each kind of fact is, so nothing gets called true 'everywhere' when the record only knows it is true here. Even the most basic quantum physics is a 'here' fact — true across our whole family of universes — not an 'everywhere' fact."
 ---
 
@@ -31,7 +31,9 @@ From narrowest subject to widest ground:
 
 ## Deeper Facts, Wider Scopes
 
-The ladder has an order worth stating: the deeper the fact, the wider its scope. Constants are membrane-narrow; the quantum kernel is cluster-wide; seating is formcluster-wide; provability is regime-wide. What the order buys is the ceiling: **nothing physical is universal.** Past its scope a fact is not false but unformulable — a corridor chart in another archecluster fails to refer, a separation across formclusters cannot be measured, and a proof carried between regimes arrives as an assertion. The widest thing physics can say is a statement about one mathematical regime, and the record says nothing wider on any page.
+The ladder has an order worth stating: the deeper the fact, the wider its scope. Constants are membrane-narrow; the quantum kernel is cluster-wide; seating is formcluster-wide; provability is regime-wide. What the order buys is the ceiling: **nothing physical is Ensemble-wide.** Past its scope a fact is not false but unformulable — a corridor chart in another archecluster fails to refer, a separation across formclusters cannot be measured, and a proof carried between regimes arrives as an assertion. The widest thing physics can say is a statement about one mathematical regime, and the [Grand Ensemble Multiverse](/star-rangers/lore/ensemble-multiverse/) holds many.
+
+A word on *universal*, because the ladder retires its loose use. The word has exactly two lawful senses in Archive voice: **universe-wide**, which is membrane scope by another name — the sense in which a [Universal Authority](/star-rangers/glossary/universal-authority/)'s writ runs to its universe's edge and no further — and **Ensemble-wide**, spanning the Grand Ensemble Multiverse, which no physical fact attains. A physics claim written "universal" in the second sense is ill-formed; one written in the first is just a membrane-scoped claim wearing an older word. Proper names keep their words: a *Universal Authority* is named in the first sense by definition, and the *Universal Concord Standard Date* is an institution's name, not a scope claim.
 
 There is also a practical floor under the archecluster scope: no instrument has ever operated outside it. Transit — corridor and fold alike — runs inside a universe; cross-universe contact is boundary observation, not travel. Every laboratory, every archive, every calibrated second in the record sits inside the local archecluster, which is why cluster-scoped facts and "confirmed by every measurement ever made" pick out exactly the same set.
 

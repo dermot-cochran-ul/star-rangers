@@ -11,7 +11,7 @@ Every quantum laboratory in the Concord confirms the same textbook, to the last 
 
 ## The Kernel
 
-Standard quantum mechanics — superposition, interference, entanglement, decoherence, the whole information-theoretic apparatus — is preserved **exactly**, throughout the local [archecluster](/star-rangers/glossary/archecluster/), as the kernel of a larger theory. Not approximately: [the record's standing comparison](/star-rangers/lore/physics-comparison/) says *identical at base*, and this entry states what that phrase has always been resting on — and states [its scope](/star-rangers/lore/the-scope-of-physical-law/): the kernel is an archecluster fact, not a universal one, and the whole calibrated record sits inside the cluster. Nothing in the larger theory amends a kernel rule anywhere in it, ever. A physicist who never leaves a quiet region will never need the rest of this article.
+Standard quantum mechanics — superposition, interference, entanglement, decoherence, the whole information-theoretic apparatus — is preserved **exactly**, throughout the local [archecluster](/star-rangers/glossary/archecluster/), as the kernel of a larger theory. Not approximately: [the record's standing comparison](/star-rangers/lore/physics-comparison/) says *identical at base*, and this entry states what that phrase has always been resting on — and states [its scope](/star-rangers/lore/the-scope-of-physical-law/): the kernel is an archecluster fact, not an Ensemble-wide one, and the whole calibrated record sits inside the cluster. Nothing in the larger theory amends a kernel rule anywhere in it, ever. A physicist who never leaves a quiet region will never need the rest of this article.
 
 ## The Extension
 

@@ -72,7 +72,7 @@ Gravitational flatness sufficient for a fold scaffold is not exclusive to Lagran
 
 ## Cascade Scope: Where Each Channel Is Defined
 
-The independence of the two channels is not an accident of engineering. They are defined at different tiers of the [Cosmic Cascade](/star-rangers/lore/cosmic-cascade/), and neither is a universal fact.
+The independence of the two channels is not an accident of engineering. They are defined at different tiers of the [Cosmic Cascade](/star-rangers/lore/cosmic-cascade/), and neither is an Ensemble-wide fact.
 
 **Quantum space harmonics are specific to, and defined within, the local [archecluster](/star-rangers/glossary/archecluster/).** The wave rides the cluster's own [quantum kernel](/star-rangers/lore/generalised-quantum-mechanics/) — identical, throughout the cluster, to real-universe quantum law — and corridor admissibility is the cluster's finer vocabulary within it. Which harmonic paths are lawful is a fact drawn from the local Archewright's archetypes and possibility space, so the corridor structure travels exactly as far as that vocabulary runs and no further. In a neighbouring archecluster the term does not fail; it fails to refer — universes built from a different archetype vocabulary may admit no harmonic corridors at all, or something no chart of ours would recognise as one.
 

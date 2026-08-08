@@ -3,7 +3,7 @@ layout: glossary-entry.njk
 title: "Scope of Physical Law"
 id: scope-of-physical-law
 category: "Physics"
-short: "Every physical fact is scoped to one of six levels — mediarch realm, Concordant, membrane, archecluster, formcluster, or mathematical regime — and is well-formed only at its level. Nothing physical is universal."
+short: "Every physical fact is scoped to one of six levels — mediarch realm, Concordant, membrane, archecluster, formcluster, or mathematical regime — and is well-formed only at its level. Nothing physical is Ensemble-wide."
 related:
   - "Cosmic Cascade"
   - "Generalised Quantum Mechanics"
@@ -22,6 +22,6 @@ Every physical fact in the record has a **scope**: the widest structure it is a 
 5. **[Formcluster](/star-rangers/glossary/formcluster/)** — Common Manifold seating, fold geometry, the Interval, and commensurability itself.
 6. **Mathematical regime** — the Metawright-settled axioms and what can be proved in them; the widest scope any lawful statement carries.
 
-The order carries the doctrine: deeper facts have wider scopes, and **nothing physical is universal** — past its scope a fact is not false but unformulable. A physics claim in Archive voice is well-formed only with its scope stated or plain; looser registers speak as people do.
+The order carries the doctrine: deeper facts have wider scopes, and **nothing physical is Ensemble-wide** — past its scope a fact is not false but unformulable. *Universal* accordingly carries only two senses in Archive voice: **universe-wide** (membrane scope by another name, as in a [Universal Authority](/star-rangers/glossary/universal-authority/)'s writ) and **Ensemble-wide** (the whole Grand Ensemble Multiverse — a height physics never reaches). A physics claim in Archive voice is well-formed only with its scope stated or plain; looser registers speak as people do.
 
 See the [Lore article](/star-rangers/lore/the-scope-of-physical-law/) for the full statement and worked examples.
