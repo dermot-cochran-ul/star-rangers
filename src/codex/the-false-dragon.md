@@ -27,3 +27,5 @@ Two consequences are worth the filing.
 **And the imagery itself is evidence of nothing.** That the old scriptures reached for a dragon says what imagery always says: that the writers took the largest real thing their tradition remembered and borrowed its silhouette. The Archive registers the borrowing. It does not mistake the silhouette for a census.
 
 The Doctrinal Division notes, as it must, that this entire question sits where invariant-only inference cannot reach. The Arilonian traditions that hold the adversary to be real, personal, and no metaphor at all are not refuted by this paper, and know themselves not to be; one of their own annotations on an earlier revision reads, in full, *"You have proven that if he existed he would be a liar. We had noticed."*
+
+*Companion filing: [The House on the Sand](/star-rangers/codex/the-house-on-the-sand/).*
