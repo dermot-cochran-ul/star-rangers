@@ -23,7 +23,7 @@ Adoption was not universal on the day it was declared. Communities that lost con
 
 ## The Unit
 
-The second is realized from atomic frequency standards, and this is the layer where the standard's neutrality is physics rather than rhetoric: the [base quantum layer is identical everywhere](/star-rangers/lore/physics-comparison/), so any archive, any species, on any world can grow the same second from first principles. No artifact has to be visited; no planet owns the unit.
+The second is realized from atomic frequency standards, and this is the layer where the standard's neutrality is physics rather than rhetoric: the [base quantum layer is identical](/star-rangers/lore/physics-comparison/) throughout the local [archecluster](/star-rangers/glossary/archecluster/) — and every archive that has ever realised the unit sits inside it — so any archive, any species, on any world in the record can grow the same second from first principles. No artifact has to be visited; no planet owns the unit.
 
 The *year* is then a fixed conventional multiple of seconds — inherited from the world the count started on, and avowedly conventional. It is the standard's one openly kept piece of Earth, retained because a unit needs no neutrality, only stability, and because renaming it would have changed nothing but the paperwork.
 

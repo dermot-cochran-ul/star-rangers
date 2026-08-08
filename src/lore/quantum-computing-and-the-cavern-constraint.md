@@ -15,7 +15,7 @@ A quantum computer and a fold corridor fail the same way: a maintained coherence
 
 ## What a Quantum Computer Is Here
 
-At base, quantum information in this cosmos is [identical to the real one](/star-rangers/lore/physics-comparison/): superposition, interference, and decoherence behave exactly as they do in an ordinary laboratory. So a quantum computer here is what it is anywhere — a machine that solves a narrow class of problems by holding a coherent superposition and letting interference do the work. On those problems it beats any classical machine; on everything else it does not, and the Concord builds one only for the narrow set where it wins.
+At base, quantum information in this cosmos is [identical to the real one](/star-rangers/lore/physics-comparison/) throughout the local [archecluster](/star-rangers/glossary/archecluster/) — which holds every laboratory there is: superposition, interference, and decoherence behave exactly as they do in an ordinary laboratory. So a quantum computer here is what it is anywhere — a machine that solves a narrow class of problems by holding a coherent superposition and letting interference do the work. On those problems it beats any classical machine; on everything else it does not, and the Concord builds one only for the narrow set where it wins.
 
 It is not an FTL drive. The [quantum space harmonic wave](/star-rangers/lore/quantum-space-harmonics/) — the medium-range transit channel that shares the word *quantum* and nothing else — moves vessels between the stars; this computes, and never leaves its vault. The collision of names is old and unfortunate, and the Archive keeps the two entries apart on purpose.
 
@@ -51,6 +51,7 @@ The technology is fast, not oracular. It does not read the future, cannot brute-
 ## See Also
 
 - [Physics Comparison: Real Cosmos vs. The Fictional Cosmos](/star-rangers/lore/physics-comparison/) — the base quantum layer and the "no time travel" causality rule this entry builds on
+- [A Generalisation of Quantum Mechanics](/star-rangers/lore/generalised-quantum-mechanics/) — the kernel/extension frame in which both decoherence channels are one theory's predictions
 - [Universe Overlap and Folding](/star-rangers/lore/universe-overlap-and-folding/) — the boundary-zone turbulence that supplies the second decoherence channel, and the multiverse that is not a set of timelines
 - [Quantum-Space Harmonics](/star-rangers/lore/quantum-space-harmonics/) — the fold medium the name is often confused with
 - [Threnos-Ω](/star-rangers/lore/universes/threnos-omega/) — forecastability as a property of a universe, not of a machine
