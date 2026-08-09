@@ -2,8 +2,8 @@
 layout: lore-entry.njk
 title: "Tír Tairngire: The Harmonic Membrane"
 category: "Universes"
-tags: [tir-tairngire, tir-na-nog, membrane-resonance, gravity-tunnel, meta-dimensional, celtic-union, conjunction]
-description: "A primary universe whose membrane sits close enough to Tír na nÓg's own Concordant to open a transient gravity tunnel on a predictable rhythm — and whose native sapients cross during the window, which the Celtic Union has quietly called the Good People long before Survey Corps had a mechanism for any of it."
+tags: [tir-tairngire, tir-na-nog, filinesse, membrane-resonance, gravity-tunnel, meta-dimensional, celtic-union, conjunction]
+description: "A primary universe whose membrane sits close enough to Tír na nÓg's own Concordant to open a transient gravity tunnel on a predictable rhythm — whose native sapients cross during the window, which the Celtic Union has quietly called the Good People long before Survey Corps had a mechanism for any of it — and whose interior, glimpsed through that window, is the peaceful fields of light of Filinesse, where sound and light harmonize."
 ---
 
 Every boundary zone Survey Corps has ever certified drifts, sooner or later, into something irregular. Tír na nÓg's neighbor across the gap is the one exception on record that keeps time instead.
@@ -24,12 +24,26 @@ Beings native to Tír Tairngire's own Concordant cross bodily during the window 
 
 Descriptions across four centuries of Union contact agree closely enough to be treated as one population rather than several: tall, unhurried, and subtly wrong in a way witnesses struggle to name more precisely than "the proportions are correct and the correctness is the problem." Survey Corps' working explanation is structural, not aesthetic — a being built to a neighboring Concordant's own Etheric archetypal templates will read, to a human observer calibrated on this side's templates, as almost exactly right and never quite right, the same mismatch a Membrane Shadow's rim-lit silhouette produces optically, expressed here in a body instead of an imprint.
 
+## The Interior: Filinesse
+
+No instrument has ever crossed, so everything known of Tír Tairngire's inside comes through two apertures: what witnesses have seen through the open tunnel during a Conjunction window, and the little, across four centuries of contact, that the Good People have let stand about their home. Both are thin. This section records only what they agree on.
+
+What the window shows, in every account Survey has taken seriously, is light lying on the land the way water lies on ours: **fields of light** — level, slow, and calm, brightening and dimming in long overlapping swells rather than casting from a source to a shadow. Witnesses four centuries apart, with no access to one another's accounts, reach for the same word for it, and the word is not *beautiful*, though they grant that too. It is *peaceful*.
+
+The Archive's model is stated at membrane scope, and [the scope ladder](/star-rangers/lore/the-scope-of-physical-law/) is what lets it be stated at all: Tír Tairngire's Worldwright authored an envelope in which the acoustic and electromagnetic modes are lawfully coupled. Sound and light there are not the strangers they are here — where one needs a medium, the other refuses one, and nothing relates their phases — so a sustained tone shapes the light that falls through it, and the fields answer a voice the way a still pool answers a dropped stone. It is the first documented case of another membrane's admissible spectrum differing from our own in a way an unaided eye can see: not stranger physics — a different lawful selection.
+
+**Filinesse** is the name the contact record preserves for the country beyond the window — the Union's rendering of the only thing resembling an answer the Good People have ever given to *where*. Every Union source that glosses it at all glosses it the same way: *where sound and light harmonize*. Union linguists hear *filí* — the poets — in the name, and have filed that resonance where it belongs: as the Union hearing its own language inside a foreign word, an etymology of the listener rather than of the name.
+
+One consequence for the record's own vocabulary is worth a line. Survey named this the Harmonic Membrane for its boundary rhythm — the cycle regular enough to set a calendar by. The interior makes the name truer than the namers knew: outside, it keeps time; inside, it keeps tune.
+
+A field seen through a window is a view, not a survey. The Archive extrapolates nothing from Filinesse's peace — not the extent of it, not the terms of it, and not whether *peaceful* describes the whole membrane or only the one country whose people cross to look at ours.
+
 ## Why "Secret"
 
 Nothing about the crossing is concealed by technology or intent. Union First Landing records already show an early, informal contact doctrine — don't follow, don't detain, don't publish the timing — adopted within a generation of the first confirmed sighting and never seriously revisited since. The Good People, in every telling the Union's own oral history has kept, prefer not to be found; the Union, for reasons its own founding cooperatives never fully wrote down, has always obliged. What reads from outside as "secret" is, on the record, closer to a two-century standing agreement neither side has ever needed to renegotiate.
 
 ## Open Questions
 
-Why the resonance correlates with the Conjunction at all, whether the correlation runs in the other direction (Tír Tairngire's own geometry driving Tír na nÓg's tide pattern rather than the reverse), and what, if anything, is exchanged during a crossing beyond presence itself — no confirmed account describes an object, a message, or a request passing either way. Survey Corps has never had an instrumented team on-site during a confirmed Conjunction; the joint survey note recommending that instrumentation for the compatibility anomaly would settle this question too, if it is ever funded.
+Why the resonance correlates with the Conjunction at all, whether the correlation runs in the other direction (Tír Tairngire's own geometry driving Tír na nÓg's tide pattern rather than the reverse), what, if anything, is exchanged during a crossing beyond presence itself — no confirmed account describes an object, a message, or a request passing either way — and what Filinesse is to its own people: a country, a season, or something the rendering flattens. Survey Corps has never had an instrumented team on-site during a confirmed Conjunction; the joint survey note recommending that instrumentation for the compatibility anomaly would settle this question too, if it is ever funded.
 
 See also: [Tír na nÓg](/star-rangers/lore/planets/tir-na-nog/), [Concordant Membranes and Intermembrane Bleed](/star-rangers/lore/concordant-membranes/), [Membrane Shadows: Gravitational Imprints from Adjacent Membranes](/star-rangers/lore/membrane-shadows/), [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/), [Sí Gaoithe: The Discordant Membrane](/star-rangers/lore/universes/si-gaoithe/), [The Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/), [Survey Note: On the Origins of Tír na nÓg's Compatibility](/star-rangers/codex/tir-na-nog-compatibility-survey-note/).
