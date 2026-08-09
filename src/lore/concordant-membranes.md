@@ -116,6 +116,8 @@ Three phenomena above cross a gap that nothing physical crosses, and they are no
 
 Everything else is membrane-confined. Matter, ships, beings, and the other force-domains — **electromagnetics, Nature** — have no band and therefore no reach: they stop at their own membrane and always have. This is why "nothing crosses the gap" and "the far side's mass is measurable here" are both true statements about the same event, and not a contradiction.
 
+Instruments are not the 20+ band's only detectors. A mind carries lawful Etheric coupling, and what a dreaming mind near a narrowed Interval can register of a neighbour's bled templates — and under what conditions it can *read* them — is filed at [Dreams Across the Interval](/star-rangers/lore/dreams-across-the-interval/).
+
 **Gravity is the case where the rule becomes visible.** Its band is the geometric one, and gravity *is* geometry — so where two membranes draw close, gravity is the force whose trans-membrane term stops being structural and starts being an instrument reading. Not a special property of gravity so much as the one force whose nature matches what the between is made of.
 
 ### Why this is a Telearch matter
