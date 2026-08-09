@@ -214,6 +214,12 @@ Ranked below Celestials, like Levrils, but holding **no Cascade standing** — s
 - **Definition:** Sapient meta-dimensional predators that feed on unresolved grief and mourning, prolonging loss rather than allowing it to resolve.
 - **Classification Rule:** Not a Levril. Functionally parallel to Gilded Saints' closure-prevention, but keyed to grief rather than virtue.
 
+### Angel (register rule, settled 2026-08-08)
+- **Register:** the word **Angel** appears only in the Codex and in overlay layers (currently `church-space`) — never in Archive voice. Lore, glossary and timeline pages do not use it: the Archive holds no classification and no file under the name, and this entry is a rule about the word, not an entry about a being.
+- **What a source means by it:** within the limits the record already keeps, a source writing *angel* can be referring to exactly two real kinds of thing. **(1) A Levril** — a founded Cascade being with genuine standing and agency, most often encountered on duty at enforcement, maintenance, or boundary interfaces; the being answers, as the founded do. **(2) A messenger from another membrane** — and here the record's limits bind hard: matter crosses only through a transient gravity tunnel, so a messenger in the literal sense is a bodily crosser at one of the rare documented sites, and the dream-and-vision channel carries no dispatch at all — an angel *seen in a dream* is, on the record's terms, not a messenger, because nothing sent it.
+- **The source may be wrong, and the Codex may say so honestly.** Valid-for-its-author covers a witness who names an Unfounded counterfeit an angel — the record's classifications for things that merely wear a founded shape are unchanged, and the one field test is unchanged too: the founded one can answer you.
+- **Practice:** prospective rule; the word currently appears nowhere in the corpus, so there is no migration to run. Devotional traditions keep their own vocabulary and are not obliged to adopt the Archive's — this rule governs the Archive's voice, not theirs.
+
 ---
 
 ## Canonical Terms: Dimensional Structure
