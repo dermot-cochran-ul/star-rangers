@@ -29,7 +29,7 @@ The domes make no attempt to look natural. Composite decking, visible power cond
 
 ## Orbital Habitats
 
-A ring of orbital habitats above Aspenar handles what the surface domes can't: bulk ore refining too hazardous for dome proximity, zero-gravity fabrication runs, and housing for residents — human and Federation alike — who simply prefer vacuum-side to gravity-side living. Refined material moves down to the surface domes only when a buyer needs it in dome-finished form; everything else ships directly from orbit, since there's no operational reason to land it first.
+A ring of orbital habitats above Aspenar handles what the surface domes can't: bulk ore refining too hazardous for dome proximity, zero-gravity fabrication runs, and housing for residents — human and Federation alike — who simply prefer vacuum-side to gravity-side living. The ring also carries one of settled space's largest [orbital compute complexes](/star-rangers/lore/orbital-compute-complexes/), linked by shielded telecommunications to the quantum compute centre in the deep crust below — Aspenar's dense, stable rock being exactly what the [cavern constraint](/star-rangers/lore/quantum-computing-and-the-cavern-constraint/) asks for. Refined material moves down to the surface domes only when a buyer needs it in dome-finished form; everything else ships directly from orbit, since there's no operational reason to land it first.
 
 ## Economy and Role in the Federation
 
