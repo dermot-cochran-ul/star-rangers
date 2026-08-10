@@ -43,3 +43,5 @@ Suspension of disbelief is not the audience agreeing to believe. It is the audie
 ---
 
 *Companion entry: [The Borrowed Ledger](/star-rangers/journal/the-borrowed-ledger/), on the adaptation case — what a story owes to a record it didn't write.*
+
+*Companion entry: [Where the Record Lives](/star-rangers/journal/where-the-record-lives/), on the illustration case — why the photographs are mine and the pictures of an invented world are not.*
