@@ -4,6 +4,8 @@ title: "Embodied Cognition: Why a Body Sometimes Beats a Bigger Mind"
 category: "Technology"
 tags: [ai, embodied-cognition, world-model, rook-7, eden-warden, ai-safety-kernel, smart-pet, boundary-zones, technology]
 description: "Why a small embodied intelligence with a grounded world model routinely resolves what a vastly larger ship or habitat AI cannot — and why the Concord's standing practice is to pair them rather than choose."
+image: "embodied-cognition.jpg"
+image_alt: "A small tracked robot chassis resting against a corridor bulkhead in the lit foreground, with racks of equipment receding into blue shadow behind it"
 ---
 
 A habitat AI knows every number its sensors report. It has never once put a hand on a bulkhead and felt the wrong answer come back through the metal.

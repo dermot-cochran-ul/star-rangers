@@ -9,6 +9,8 @@ aliases:
   - "The Wanderer"
 tags: [freelance, explorer, independent, captain, frontier, fold-corridors]
 description: "An unaffiliated freelance captain who charts unclaimed fold corridors and sells the survey data to whoever pays first — Survey Corps included, when the price and the politics both work out."
+image: "lorien-the-wanderer.jpg"
+image_alt: "A weathered woman in a worn flight jacket seated at the controls of a cluttered cockpit, lit amber by the instrument panels, with a starfield beyond the canopy"
 ---
 
 Lorien holds no commission from the Star Rangers, no charter from the Survey Corps, and no seat on any Compact or Union register. She flies the *Restless Verge*, a stripped-down long-range courier hull refitted for solo operation, and she answers to whichever contract she signed last.

@@ -4,6 +4,8 @@ title: "Arilon"
 category: "Culture"
 tags: [arilon, fellowship-of-light, cosmic-cascade, levrils, champions, culture, religion, ecumenical]
 description: "Not a person. A name the Fellowship of Light's comparative archive gives to a recurring pattern — a teacher, witness, or wanderer who names a boundary truth no local authority will name first — found independently across cultures that never had contact with one another."
+image: "arilon.jpg"
+image_alt: "Overlapping translucent silhouettes of robed figures at different scales on a pale parchment ground, none of them in focus and none dominant"
 ---
 
 Ask the Fellowship of Light which world Arilon was born on, and a chapter archivist will ask you back which account you mean. There are dozens on file. None of them agree on a birthplace, a language, or a century. The Fellowship has stopped treating that as a problem to solve.
