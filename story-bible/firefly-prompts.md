@@ -1,8 +1,46 @@
-# Firefly prompts — replacements for the unsuitable images
+# Replacement prompts — for the under-spec and unsuitable images
 
-For regeneration in the Firefly web app at firefly.adobe.com. Claude Code has no
-text-to-image tool, so these have to be run by hand; hand the outputs back and
-they'll be resized, renamed and PR'd.
+> **Superseded in part, 10 August 2026. Read this box before using anything below.**
+>
+> **1. Generation is no longer manual.** The opening line of this file used to
+> say Claude Code has no text-to-image tool. It has one now:
+> `scripts/image-prompts.js --generate` runs prompts against the Gemini API
+> unattended, and `scripts/image-file.ps1` resizes and files the results. The
+> runbook is in [`images.md`](images.md). Adobe's Firefly Services API turned
+> out to be an enterprise contract and stayed shut, so the app-specific
+> instructions in "Running these" below apply only if you are working by hand
+> in a browser.
+>
+> **2. The tooling cannot see these prompts.** It parses `images.md` only, and
+> only bullets of the form ``- **`file.jpg`**`` with the prompt in a blockquote
+> beneath. Everything here is in a different shape, in a different file, so
+> roughly twenty already-written prompts are invisible to the pipeline. Moving
+> one into `images.md` Open work 1 or 5 is what makes it runnable — and because
+> an entry counts as *done* while its target file exists, a moved prompt stays
+> dormant until the old file is deleted. That deletion is the decision.
+>
+> **3. Which decision is open.** This file says **replace** the Prismere
+> cluster and the four under-spec portraits; `images.md` Open work 2 lists the
+> same files under **Super Resolution**, i.e. upscale. Two remedies for one
+> problem, and the twenty prompts wait on which one wins. See the case made
+> immediately below — it is a real argument, not an oversight, and it may well
+> be right.
+>
+> **4. One instruction below was wrong and is now fixed everywhere.** The
+> "Character portraits are 16:9, not portrait" note in "Running these" is
+> correct and was the only place it was written down. It has since been
+> promoted into `images.md`'s conventions table, into a comment beside the CSS
+> rule itself, and into the generator — which had been producing 3:4 portraits
+> until 10 August precisely because this file was the only witness.
+>
+> **What still lives here and nowhere else:** the *Recorded composites* and
+> *Recorded generations* sections, which are provenance rather than pending
+> work. Those belong with [`image-prompts.md`](image-prompts.md), the
+> prompt-of-record file, and should move there rather than being deleted.
+
+For regeneration in an image app, or via the pipeline once a prompt has been
+moved into `images.md`. Hand the outputs back and they'll be resized, renamed
+and PR'd.
 
 **These replace rather than upscale.** The earlier plan was Super Resolution on
 the under-spec files. That's off — the low-quality originals aren't being reused,
