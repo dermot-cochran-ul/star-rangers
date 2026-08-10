@@ -126,3 +126,12 @@ a Kate Ukrainka children's book about a monster the children correctly love —
 her existing "adored instead of heard" machinery pointed at the predator
 question. Codex-first for all of these; only kind 1 needs a lore decision
 (extending the feeding taxonomy) before anything canonical can cite it.
+
+**Ruling gating the survey above (2026-08-10, Dermot's direction):** no
+mythical creatures unless biologically valid within their local Concordant.
+Every instance drafted from this list must therefore be one of exactly three
+things — lawful biology under its home Concordant's own conditions (scoped
+physics makes the shapes negotiable; the mechanisms never are), a
+meta-dimensional classification (ecology of another layer, not a creature),
+or codex-filed folklore with an author attached. Nothing runs on wishes,
+including the cute ones.
