@@ -53,36 +53,53 @@ impressionistic image gets impressionistic alt text rather than the spec.
 Codex covers go through the generator, never an image model — the font engine
 spells correctly and image models do not. Motifs: `rules`, `dissolution`, `none`.
 
-**Generating the Open-work prompts in bulk.** `scripts/firefly-generate.js`
-parses *this file* for prompts and generates them against the Adobe Firefly
-Services API; `scripts/firefly-file.ps1` then resizes the chosen variation to
-convention and files it. Both are local authoring tools — not in the build,
-not run by CI — and need credentials the repository must never contain (it is
-public); see `scripts/firefly.local.json.sample`.
+**Working through the Open-work prompts.** Two local authoring tools — not in
+the build, not run by CI — that remove everything around the generating:
 
 ```bash
-node scripts/firefly-generate.js                       # dry run — parse and list, no API calls
-node scripts/firefly-generate.js --go --only arilon    # generate one
-node scripts/firefly-generate.js --go                  # everything still missing
+node scripts/firefly-prompts.js            # status of all 23: done / served / pending
+node scripts/firefly-prompts.js --next     # next prompt -> clipboard, with its aspect ratio
 ```
+*paste into Firefly, generate, download — then repeat `--next`*
 ```powershell
-.\scripts\firefly-file.ps1 -Pick "lore-arilon=2"       # file variation 2, on a new branch
+.\scripts\firefly-file.ps1 -WhatIf         # show how downloads pair to targets
+.\scripts\firefly-file.ps1                 # resize, file under the right name, branch
 ```
 
-**This file stays the source of truth** — the script parses it and never
-writes to it, and there is deliberately no separate queue file to drift out of
-sync. Edit a prompt here and re-run. An entry is picked up only if it is a
-bullet naming a `` `file.jpg` `` in bold with the prompt in a blockquote under
-it, which is how the nine generator title cards below exclude themselves
-without being listed anywhere.
+**This file stays the source of truth** — the scripts parse it and never write
+to it, and there is deliberately no separate queue file to drift out of sync.
+Edit a prompt here and re-run. An entry is picked up only if it is a bullet
+naming a `` `file.jpg` `` in bold with the prompt in a blockquote under it,
+which is how the nine generator title cards below exclude themselves without
+being listed anywhere.
 
-Four variations are generated per prompt because **choosing between them is
-the judgement the tooling exists to leave to a person.** Neither script writes
-front matter: `image_alt` describes what the file *actually shows* and cannot
-be derived from the prompt that asked for it. Neither merges anything — new
-portraits and lore images are the repo's *draft it and stop* tier. Seeds are
-recorded in the run manifest, so a generation worth keeping can be reproduced
-and one worth re-rolling can be re-rolled deliberately.
+`--next` records what it served, in order, to `firefly-out/progress.json`
+(gitignored); `firefly-file.ps1` zips that against your downloads oldest-first.
+**Run it with `-WhatIf` first** — a re-roll you downloaded twice, or a prompt
+you skipped, puts the pairing off by one from that point on. `-Map` overrides
+any pair that is wrong.
+
+### Firefly app settings that the prompt cannot set
+
+- **Aspect ratio is a dropdown and defaults to Auto.** The orientation
+  sentence at the end of each prompt does *not* drive it. `--next` prints
+  which to choose; set it before pasting or a portrait comes back landscape.
+- **Generate large.** `import-image.ps1` resizes on the way in (~1200px
+  portraits, ~1600px lore), so a 4K generation costs nothing and leaves room
+  to crop.
+- **Reference images (up to 6)** are the only lever for making a *set* look
+  like a set. Worth using for the character portraits, where eleven separately
+  generated faces otherwise share no house style.
+- **Check which model is selected.** The panel offers partner models
+  (Gemini/Nano Banana) alongside Adobe's own. They differ in what they are
+  trained on and in the terms attached to their output, and these images get
+  published on public domains under `CONTENT-LICENSE.md` — so it is a decision,
+  not a default to accept.
+
+Neither script writes front matter: `image_alt` describes what the file
+*actually shows* and cannot be derived from the prompt that asked for it.
+Neither merges anything — new portraits and lore images are the repo's *draft
+it and stop* tier.
 
 ### Prompt craft (learned the hard way)
 
