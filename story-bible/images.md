@@ -53,6 +53,81 @@ impressionistic image gets impressionistic alt text rather than the spec.
 Codex covers go through the generator, never an image model — the font engine
 spells correctly and image models do not. Motifs: `rules`, `dissolution`, `none`.
 
+**Working through the Open-work prompts.** Two local authoring tools — not in
+the build, not run by CI — that remove everything around the generating.
+`scripts/image-prompts.js` reads the prompts out of *this file*;
+`scripts/image-file.ps1` resizes and files the results.
+
+**The generated path** (preferred — unattended):
+
+```bash
+export GEMINI_API_KEY=…                                  # aistudio.google.com/apikey
+node scripts/image-prompts.js --generate --only arilon    # always try one first
+node scripts/image-prompts.js --generate                  # then the rest
+```
+```powershell
+.\scripts\image-file.ps1 -WhatIf                          # then file them
+.\scripts\image-file.ps1 -Pick "lore-arilon=2"            # variation 2 for one of them
+```
+
+**The clipboard path**, for the one image worth nudging by hand in an app — a
+browser will always beat an API for that:
+
+```bash
+node scripts/image-prompts.js --next     # next prompt -> clipboard, with its aspect ratio
+```
+*paste, generate, download — then `--next` again*
+```powershell
+.\scripts\image-file.ps1 -From "$env:USERPROFILE\Downloads" -WhatIf
+```
+
+**Why Gemini and not Firefly Services.** Adobe sells API access to Firefly as
+an enterprise contract; the Developer Console disables it outright without the
+entitlement (*"Your organization does not have a license to access this
+API"*), and the Firefly app bundled with Creative Cloud has no multi-prompt
+batch mode. Gemini sells the same class of model self-serve — and Nano Banana
+is one of the models the Firefly app itself offers — so the unattended path is
+available without an enterprise agreement. The key is gitignored and must stay
+that way; this repo is public. See `scripts/gemini.local.json.sample`.
+
+**This file stays the source of truth** — the scripts parse it and never write
+to it, and there is deliberately no separate queue file to drift out of sync.
+Edit a prompt here and re-run. An entry is picked up only if it is a bullet
+naming a `` `file.jpg` `` in bold with the prompt in a blockquote under it,
+which is how the nine generator title cards below exclude themselves without
+being listed anywhere.
+
+In the generated path there is nothing to pair: every image lands under a key
+naming its target, and `-Pick` chooses the variation. In the clipboard path
+pairing is **positional** — `--next` records the order it served, and
+downloads are taken oldest-first — so **run `-WhatIf` first**: a re-roll you
+saved twice, or a prompt you skipped, puts the pairing off by one from that
+point on. `-Map` overrides any pair that is wrong.
+
+### Settings the prompt text cannot set
+
+- **Aspect ratio is a request field, not prose.** The orientation sentence at
+  the end of each prompt does *not* drive it — in the Firefly app it is a
+  dropdown defaulting to Auto, which will happily return a landscape portrait.
+  The scripts set it from the prompt's stated orientation (3:4 portraits,
+  16:9 lore, matching the four 1600×900 lore images already in the repo), and
+  `--next` prints which to choose by hand.
+- **Generate large.** `import-image.ps1` resizes on the way in (~1200px
+  portraits, ~1600px lore), so 2K costs nothing and leaves room to crop. 4K
+  only costs more.
+- **Reference images** are the only lever for making a *set* look like a set —
+  worth reaching for on the character portraits, where twelve separately
+  generated faces otherwise share no house style. The Firefly app takes up to
+  six; the scripts do not use them yet.
+- **Model choice is a decision, not a default.** Models differ in what they
+  are trained on and in the terms attached to their output, and these images
+  publish on public domains under `CONTENT-LICENSE.md`.
+
+Neither script writes front matter: `image_alt` describes what the file
+*actually shows* and cannot be derived from the prompt that asked for it.
+Neither merges anything — new portraits and lore images are the repo's *draft
+it and stop* tier.
+
 ### Prompt craft (learned the hard way)
 
 - **Name the sheen, not the substance.** "Stone-textured skin" for a Basaltborn

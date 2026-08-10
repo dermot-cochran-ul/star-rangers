@@ -1,0 +1,14 @@
+{
+  "_comment": [
+    "Copy to scripts/gemini.local.json and fill in apiKey. The copy is",
+    "gitignored and must stay that way: this repository is public.",
+    "",
+    "Get a key, self-serve, at https://aistudio.google.com/apikey - no",
+    "enterprise contract, unlike Adobe Firefly Services. The free tier covers",
+    "a run of twenty-three comfortably; beyond it, image generation is billed",
+    "per image.",
+    "",
+    "GEMINI_API_KEY in the environment wins over this file."
+  ],
+  "apiKey": ""
+}

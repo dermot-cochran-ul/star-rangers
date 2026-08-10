@@ -1,0 +1,454 @@
+#!/usr/bin/env node
+//
+// scripts/image-prompts.js
+//
+// Works through the image prompts already written in story-bible/images.md,
+// either by generating them (Gemini API) or by serving them one at a time to
+// the clipboard for pasting into an image app by hand.
+//
+// LOCAL AUTHORING TOOL - not part of the build, not run by `npm test`, not
+// touched by CI. Same standing as scripts/make-lore-cards.ps1.
+//
+// images.md STAYS THE SOURCE OF TRUTH. This script parses it and never writes
+// to it. There is deliberately no separate queue file to drift out of sync -
+// edit a prompt there and re-run.
+//
+// TWO BACKENDS, ONE PARSER
+//
+//   --generate   Calls the Gemini API and writes the images. Unattended: all
+//                twenty-three in one command. Needs GEMINI_API_KEY.
+//   --next       Puts the next pending prompt on the clipboard for pasting
+//                into an image app by hand, and records what it served.
+//
+// WHY BOTH. The first version of this script called Adobe's Firefly Services
+// API. That path is closed: Firefly Services is an enterprise contract, and
+// the Developer Console disables the API outright without the entitlement
+// ("Your organization does not have a license to access this API"). The
+// Firefly app bundled with Creative Cloud is a different product with no
+// multi-prompt batch mode, so the clipboard loop was the fallback. Gemini
+// sells the same class of model self-serve - and Nano Banana is one of the
+// models the Firefly app itself offers - so --generate restores the
+// unattended path the entitlement wall took away. The clipboard loop stays,
+// because an app in a browser will always beat an API for the one image you
+// want to nudge by hand.
+//
+// THE GENERATE LOOP
+//   export GEMINI_API_KEY=...          (or scripts/gemini.local.json)
+//   node scripts/image-prompts.js --generate --only arilon    # try one first
+//   node scripts/image-prompts.js --generate                  # the rest
+//   .\scripts\image-file.ps1 -WhatIf                          # then file them
+//
+// THE CLIPBOARD LOOP
+//   node scripts/image-prompts.js --next
+//   <paste, generate, download>  … repeat
+//   .\scripts\image-file.ps1 -From "$env:USERPROFILE\Downloads" -WhatIf
+//
+// USAGE
+//   node scripts/image-prompts.js [--list]        # status of every entry
+//   node scripts/image-prompts.js --generate      # generate all pending
+//   node scripts/image-prompts.js --next          # serve one to the clipboard
+//   node scripts/image-prompts.js --only arilon   # restrict either mode to one
+//   node scripts/image-prompts.js --all           # print every prompt, change nothing
+//   node scripts/image-prompts.js --reset [name]  # un-serve one, or all
+//
+//   --variations N   images per prompt when generating (default 2, max 4)
+//   --model ID       default gemini-3.1-flash-image (Nano Banana 2)
+//   --size 1K|2K|4K  default 2K - import-image.ps1 resizes to 1200/1600 on the
+//                    way in, so 2K is already generous and 4K only costs more
+//   --no-clipboard   print instead of copying
+//
+// An entry counts as DONE when its target file exists under src/images/, so
+// the queue empties itself as work lands and needs no marking.
+
+'use strict';
+
+const fs = require('fs');
+const path = require('path');
+const { spawnSync } = require('child_process');
+
+const REPO_ROOT = path.resolve(__dirname, '..');
+const IMAGES_MD = path.join(REPO_ROOT, 'story-bible', 'images.md');
+const IMAGES_DIR = path.join(REPO_ROOT, 'src', 'images');
+const OUT_DIR = path.join(REPO_ROOT, 'image-out');
+const PROGRESS = path.join(OUT_DIR, 'progress.json');
+const MANIFEST = path.join(OUT_DIR, 'manifest.json');
+
+const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/interactions';
+const DEFAULT_MODEL = 'gemini-3.1-flash-image';
+
+// Aspect ratio is a request field, not something prompt text controls - the
+// same trap as the Firefly app's dropdown, where "Portrait orientation." at
+// the end of a prompt does nothing and Auto quietly returns landscape.
+// 3:4 for portraits, 16:9 for lore: the four lore images already in the repo
+// are 1600x900.
+const ASPECT = { Portrait: '3:4', Landscape: '16:9' };
+
+const SECTION_TARGETS = [
+  { match: /^###\s*\d+\.\s*Missing portraits/i, dir: 'characters' },
+  { match: /^###\s*\d+\.\s*Missing lore illustrations/i, dir: 'lore' },
+];
+
+function parseArgs(argv) {
+  const o = {
+    mode: 'list', only: null, reset: undefined, clipboard: true,
+    variations: 2, model: DEFAULT_MODEL, size: '2K',
+  };
+  for (let i = 0; i < argv.length; i++) {
+    const a = argv[i];
+    if (a === '--list') o.mode = 'list';
+    else if (a === '--next') o.mode = 'next';
+    else if (a === '--generate') o.mode = 'generate';
+    else if (a === '--all') o.mode = 'all';
+    else if (a === '--only') o.only = String(argv[++i] || '').trim();
+    else if (a === '--reset') { o.mode = 'reset'; o.reset = argv[i + 1] && !argv[i + 1].startsWith('--') ? argv[++i] : null; }
+    else if (a === '--variations') o.variations = parseInt(argv[++i], 10);
+    else if (a === '--model') o.model = String(argv[++i] || '').trim();
+    else if (a === '--size') o.size = String(argv[++i] || '').trim();
+    else if (a === '--no-clipboard') o.clipboard = false;
+    else if (a === '--help' || a === '-h') { printUsage(); process.exit(0); }
+    else { console.error(`unknown option: ${a}\n`); printUsage(); process.exit(1); }
+  }
+  if (o.only && o.mode === 'list') o.mode = 'only';
+  if (!Number.isInteger(o.variations) || o.variations < 1 || o.variations > 4) {
+    console.error('--variations must be an integer 1-4'); process.exit(1);
+  }
+  if (!['512px', '1K', '2K', '4K'].includes(o.size)) {
+    console.error('--size must be one of 512px, 1K, 2K, 4K'); process.exit(1);
+  }
+  return o;
+}
+
+function printUsage() {
+  const src = fs.readFileSync(__filename, 'utf8');
+  console.log(src.slice(src.indexOf('// USAGE'), src.indexOf('// An entry counts as DONE')).replace(/^\/\/ ?/gm, ''));
+}
+
+// ---------------------------------------------------------------------------
+// Parsing images.md. The shape every entry already uses, and the only shape
+// recognised:
+//
+//   - **`naomi-kestrel.jpg`** - prose description, possibly several lines
+//     > The prompt, one blockquote, ending with an orientation sentence.
+//
+// A bullet with no blockquote is not image-model work - that is how the nine
+// generator title cards exclude themselves without being listed anywhere,
+// since make-lore-cards.ps1 letters those with a font engine and an image
+// model cannot spell.
+// ---------------------------------------------------------------------------
+function parseEntries(markdown) {
+  const lines = markdown.split(/\r?\n/);
+  const entries = [];
+  let currentDir = null;
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    if (/^###\s/.test(line)) {
+      const hit = SECTION_TARGETS.find((s) => s.match.test(line));
+      currentDir = hit ? hit.dir : null;
+      continue;
+    }
+    if (/^##\s/.test(line)) { currentDir = null; continue; }
+    if (!currentDir) continue;
+
+    const m = line.match(/^\s*[-*]\s+\*\*`([^`]+\.jpg)`\*\*/);
+    if (!m) continue;
+    const file = m[1];
+
+    let prompt = null;
+    for (let j = i + 1; j < lines.length; j++) {
+      const l = lines[j];
+      if (/^\s*[-*]\s+\*\*`/.test(l)) break;
+      if (/^#{2,}\s/.test(l)) break;
+      const q = l.match(/^\s*>\s?(.+)$/);
+      if (q) {
+        const parts = [q[1].trim()];
+        for (let k = j + 1; k < lines.length; k++) {
+          const cont = lines[k].match(/^\s*>\s?(.*)$/);
+          if (!cont) break;
+          if (cont[1].trim()) parts.push(cont[1].trim());
+        }
+        prompt = parts.join(' ');
+        break;
+      }
+    }
+    if (!prompt) continue;
+
+    const orientation = /portrait orientation/i.test(prompt) ? 'Portrait'
+      : /landscape orientation/i.test(prompt) ? 'Landscape'
+      : currentDir === 'characters' ? 'Portrait' : 'Landscape';
+
+    // `file` may carry a subdirectory - three lore entries are filed under
+    // universes/ and planets/. `rel` keeps that; `key` flattens it into one
+    // collision-free identifier used by the manifest and image-file.ps1.
+    const rel = file.replace(/\.jpg$/i, '');
+    entries.push({
+      file, rel,
+      base: path.posix.basename(rel),
+      key: `${currentDir}-${rel}`.replace(/[/\\]/g, '-'),
+      dir: currentDir, prompt, orientation,
+      target: path.join(IMAGES_DIR, currentDir, file),
+      targetRel: `src/images/${currentDir}/${file}`.replace(/\\/g, '/'),
+      maxEdge: currentDir === 'characters' ? 1200 : 1600,
+    });
+  }
+  return entries;
+}
+
+function readJson(p, fallback) {
+  if (!fs.existsSync(p)) return fallback;
+  try { return JSON.parse(fs.readFileSync(p, 'utf8')); }
+  catch (err) { console.error(`could not parse ${p}: ${err.message}`); process.exit(1); }
+}
+
+function writeJson(p, obj) {
+  fs.mkdirSync(path.dirname(p), { recursive: true });
+  fs.writeFileSync(p, JSON.stringify(obj, null, 2));
+}
+
+// Best-effort: no clipboard tool is not a failure, since the prompt is printed
+// either way and pasting from the terminal still works.
+function toClipboard(text) {
+  const candidates = process.platform === 'win32'
+    ? [['clip.exe', []], ['clip', []]]
+    : process.platform === 'darwin' ? [['pbcopy', []]]
+      : [['xclip', ['-selection', 'clipboard']], ['xsel', ['--clipboard', '--input']]];
+  for (const [cmd, args] of candidates) {
+    const r = spawnSync(cmd, args, { input: text });
+    if (!r.error && r.status === 0) return cmd;
+  }
+  return null;
+}
+
+function loadApiKey() {
+  let key = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY || '';
+  if (!key) {
+    const local = path.join(__dirname, 'gemini.local.json');
+    if (fs.existsSync(local)) key = (readJson(local, {}).apiKey || '').trim();
+  }
+  if (!key) {
+    throw new Error(
+      'no Gemini API key.\n' +
+      '  Either export GEMINI_API_KEY, or copy scripts/gemini.local.json.sample\n' +
+      '  to scripts/gemini.local.json and put it there. That file is gitignored -\n' +
+      '  this repository is public and must never contain a key.\n' +
+      '  Get one, self-serve, at https://aistudio.google.com/apikey'
+    );
+  }
+  return key;
+}
+
+async function generateOne(key, opts, entry) {
+  const res = await fetch(GEMINI_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key },
+    body: JSON.stringify({
+      model: opts.model,
+      input: [{ type: 'text', text: entry.prompt }],
+      response_format: {
+        type: 'image',
+        mime_type: 'image/jpeg',
+        aspect_ratio: ASPECT[entry.orientation],
+        image_size: opts.size,
+      },
+    }),
+  });
+
+  const text = await res.text();
+  if (!res.ok) {
+    // Printed whole rather than summarised: Google's 4xx bodies name the
+    // offending field - a bad model id, an unsupported aspect ratio, a prompt
+    // tripping a safety filter - and that detail is the value of the failure.
+    throw new Error(`Gemini returned ${res.status}:\n${text}`);
+  }
+  let json;
+  try { json = JSON.parse(text); } catch { throw new Error(`Gemini returned non-JSON:\n${text}`); }
+
+  const images = extractImages(json);
+  if (!images.length) throw new Error(`response carried no image (raw response written beside the output)`);
+  return { images, raw: json };
+}
+
+// Documented Interactions shape is
+//   { steps: [ { content: [ { type: 'image', data: <base64>, mime_type } ] } ] }
+// The generateContent fallback covers the older
+//   { candidates: [ { content: { parts: [ { inlineData: { data, mimeType } } ] } } ] }
+// so a shape change degrades to "still found the bytes" rather than crashing.
+// The raw response is written next to the images either way.
+function extractImages(json) {
+  const out = [];
+  for (const step of (json && json.steps) || []) {
+    for (const c of (step && step.content) || []) {
+      if (c && c.data && (c.type === 'image' || /^image\//.test(c.mime_type || ''))) {
+        out.push({ b64: c.data, mime: c.mime_type || 'image/jpeg' });
+      }
+    }
+  }
+  if (out.length) return out;
+  for (const cand of (json && json.candidates) || []) {
+    for (const part of ((cand.content && cand.content.parts) || [])) {
+      const d = part && (part.inlineData || part.inline_data);
+      if (d && d.data) out.push({ b64: d.data, mime: d.mimeType || d.mime_type || 'image/jpeg' });
+    }
+  }
+  return out;
+}
+
+async function runGenerate(entries, opts) {
+  const key = loadApiKey();
+  fs.mkdirSync(OUT_DIR, { recursive: true });
+
+  console.log(`Model ${opts.model}, ${opts.size}, ${opts.variations} variation(s) each.`);
+  console.log(`Output: ${OUT_DIR}\n`);
+
+  const manifest = readJson(MANIFEST, { generated: [] });
+  const byKey = new Map(manifest.generated.map((g) => [g.key, g]));
+  let failures = 0;
+
+  for (const entry of entries) {
+    const dir = path.join(OUT_DIR, entry.key);
+    fs.mkdirSync(dir, { recursive: true });
+    process.stdout.write(`${entry.targetRel}  [${ASPECT[entry.orientation]}] … `);
+
+    const saved = [];
+    let lastRaw = null;
+    try {
+      for (let v = 0; v < opts.variations; v++) {
+        const { images, raw } = await generateOne(key, opts, entry);
+        lastRaw = raw;
+        images.forEach((img, idx) => {
+          const n = saved.length + 1;
+          const dest = path.join(dir, `${entry.base}-${n}.jpg`);
+          fs.writeFileSync(dest, Buffer.from(img.b64, 'base64'));
+          saved.push({ file: path.relative(OUT_DIR, dest).replace(/\\/g, '/'), bytes: fs.statSync(dest).size });
+          void idx;
+        });
+      }
+      console.log(`${saved.length} image(s)`);
+      byKey.set(entry.key, {
+        key: entry.key, file: entry.file, target: entry.targetRel,
+        maxEdge: entry.maxEdge, aspect: ASPECT[entry.orientation],
+        model: opts.model, size: opts.size, prompt: entry.prompt, outputs: saved,
+      });
+    } catch (err) {
+      failures++;
+      console.log('FAILED');
+      console.error(`  ${err.message}\n`);
+      if (lastRaw) fs.writeFileSync(path.join(dir, 'response.json'), JSON.stringify(lastRaw, null, 2));
+      byKey.set(entry.key, { key: entry.key, file: entry.file, error: String(err.message) });
+    }
+  }
+
+  writeJson(MANIFEST, { generated: [...byKey.values()] });
+  console.log(`\nManifest: ${MANIFEST}`);
+  console.log('Next:  .\\scripts\\image-file.ps1 -WhatIf');
+  if (failures) { console.error(`\n${failures} of ${entries.length} failed.`); process.exitCode = 1; }
+}
+
+function serve(entry, opts, progress) {
+  console.log(`\n${entry.targetRel}`);
+  console.log(`  Aspect ratio: set it to ${entry.orientation} (${ASPECT[entry.orientation]}) — the prompt alone will not`);
+  console.log(`  Filed at:     ${entry.maxEdge}px long edge — generate large, this resizes on the way in\n`);
+  console.log(entry.prompt);
+  console.log('');
+
+  if (opts.clipboard) {
+    const via = toClipboard(entry.prompt);
+    console.log(via ? `Copied to clipboard (${via}). Paste, generate, download.`
+      : 'No clipboard tool found — copy the prompt above by hand.');
+  }
+  if (!progress.served.includes(entry.key)) {
+    progress.served.push(entry.key);
+    writeJson(PROGRESS, progress);
+  }
+  const n = progress.served.indexOf(entry.key) + 1;
+  const ord = n === 1 ? 'st' : n === 2 ? 'nd' : n === 3 ? 'rd' : 'th';
+  console.log(`Served #${n}. image-file.ps1 pairs your ${n}${ord}-oldest download with this.`);
+}
+
+function findOne(entries, name) {
+  const want = String(name).replace(/\.jpg$/i, '');
+  const hit = entries.find((e) => [e.rel, e.base, e.key].includes(want));
+  if (!hit) { console.error(`no prompt matching '${name}'. Try --list.`); process.exit(1); }
+  return hit;
+}
+
+async function main() {
+  const opts = parseArgs(process.argv.slice(2));
+  if (!fs.existsSync(IMAGES_MD)) { console.error(`missing ${IMAGES_MD}`); process.exit(1); }
+
+  const entries = parseEntries(fs.readFileSync(IMAGES_MD, 'utf8'));
+  if (!entries.length) {
+    console.error('parsed no prompts from story-bible/images.md — the format may have changed.');
+    process.exit(1);
+  }
+
+  const progress = readJson(PROGRESS, { served: [] });
+  if (!Array.isArray(progress.served)) progress.served = [];
+  const manifest = readJson(MANIFEST, { generated: [] });
+  const generatedKeys = new Set(manifest.generated.filter((g) => !g.error).map((g) => g.key));
+
+  const status = (e) => fs.existsSync(e.target) ? 'done'
+    : generatedKeys.has(e.key) ? 'generated'
+    : progress.served.includes(e.key) ? 'served'
+    : 'pending';
+
+  if (opts.mode === 'reset') {
+    if (opts.reset === null) {
+      progress.served = [];
+      writeJson(PROGRESS, progress);
+      console.log('Cleared the whole served list.');
+    } else {
+      const hit = findOne(entries, opts.reset);
+      const before = progress.served.length;
+      progress.served = progress.served.filter((k) => k !== hit.key);
+      writeJson(PROGRESS, progress);
+      console.log(progress.served.length < before ? `Un-served ${hit.key}.` : `${hit.key} was not served.`);
+      console.log('Note: this shifts the pairing order for everything after it — re-check with image-file.ps1 -WhatIf.');
+    }
+    return;
+  }
+
+  if (opts.mode === 'all') {
+    for (const e of entries) console.log(`\n### ${e.targetRel}  [${e.maxEdge}px]\n\n${e.prompt}`);
+    console.log(`\n${entries.length} prompt(s). Nothing changed.`);
+    return;
+  }
+
+  if (opts.mode === 'generate') {
+    let todo = opts.only ? [findOne(entries, opts.only)] : entries.filter((e) => status(e) === 'pending' || status(e) === 'served');
+    if (!todo.length) { console.log('Nothing pending. Everything is generated or already filed.'); return; }
+    await runGenerate(todo, opts);
+    return;
+  }
+
+  if (opts.mode === 'only') { serve(findOne(entries, opts.only), opts, progress); return; }
+
+  if (opts.mode === 'next') {
+    const next = entries.find((e) => status(e) === 'pending');
+    if (!next) {
+      const waiting = entries.filter((e) => ['served', 'generated'].includes(status(e))).length;
+      console.log('Nothing pending.');
+      if (waiting) console.log(`${waiting} waiting to be filed — run .\\scripts\\image-file.ps1 -WhatIf`);
+      return;
+    }
+    serve(next, opts, progress);
+    return;
+  }
+
+  const counts = { done: 0, generated: 0, served: 0, pending: 0 };
+  console.log(`${entries.length} prompt(s) in story-bible/images.md\n`);
+  for (const e of entries) {
+    const s = status(e);
+    counts[s]++;
+    const mark = { done: '[done]     ', generated: '[generated]', served: '[served]   ', pending: '[pending]  ' }[s];
+    console.log(`  ${mark} ${e.targetRel}`);
+  }
+  console.log(`\n${counts.done} done, ${counts.generated} generated, ${counts.served} served, ${counts.pending} pending.`);
+  if (counts.pending) console.log('Next: node scripts/image-prompts.js --generate   (or --next for the clipboard loop)');
+  else if (counts.generated || counts.served) console.log('Next: .\\scripts\\image-file.ps1 -WhatIf');
+}
+
+main().catch((err) => {
+  console.error(`\nimage-prompts: ${err.message}`);
+  process.exit(1);
+});
