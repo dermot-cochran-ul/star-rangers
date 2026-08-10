@@ -278,6 +278,56 @@ A listed alt domain that's misconfigured — an invalid id, a missing `ALT_<id>_
 
 If this account's `public_html` shouldn't get a copy of the site at all — only the addon domain(s) listed in `ALT_DOMAINS` — set `DEPLOY_PRIMARY=false`. That combination (`DEPLOY_PRIMARY=false` with `ALT_DOMAINS` also unset/empty) fails the run loudly rather than quietly deploying nothing, since it would otherwise look like a successful deploy that did nothing at all.
 
+### Automatic deployment from cron
+
+**Merging to the deploy branch does not update any production domain by itself.** Nothing connects the two: cPanel does not poll GitHub, and GitHub cannot push into cPanel. A merge updates each clone's *remote* and none of their *checkouts* until something on the server pulls. Until that happens the merge is real, CI is green, and every live domain is still serving the previous build.
+
+[`scripts/cpanel-autopull.sh`](./scripts/cpanel-autopull.sh) is that something. It fast-forwards the checkout and, only when that moves the commit this clone has *successfully deployed*, hands off to `scripts/cpanel-deploy.sh`. Like `deploy-lib.sh` and `ensure-node.sh` it is kept **byte-identical** with the copy in the `dermot-cochran-photography` repository — change it in one repo and copy it verbatim to the other.
+
+> **Forking wouldn't have solved this.** A GitHub fork does not auto-sync from upstream either — "Sync fork" is a manual button, or a scripted `gh repo sync` — and a cPanel clone pulls from whatever URL it was given without subscribing to anything at either end. Setting the cPanel repositories up as forks would have added a hop, each hop needing its own trigger, rather than removing one.
+
+#### Install
+
+One crontab line per **clone**, per cPanel account — every account that hosts a clone needs its own, since each account's cron only sees its own `$HOME`. In cPanel → *Advanced* → *Cron Jobs*:
+
+```bash
+*/10 * * * * /bin/bash "$HOME/repositories/star-rangers/scripts/cpanel-autopull.sh"
+```
+
+These accounts keep their Git Version Control checkouts under `~/repositories/`. Confirm the last path segment against the **Repository Path** cPanel shows for that clone — it isn't always the repo name, and an account holding clones of both this repo and `dermot-cochran-photography` needs one line each.
+
+That crontab line is the guarded form of what you'd otherwise type by hand:
+
+```bash
+cd ~/repositories/star-rangers && git pull --ff-only && bash scripts/cpanel-deploy.sh
+```
+
+The one-liner works, but on a schedule it rebuilds and re-rsyncs every domain on **every** run whether anything changed or not — and emails you a deploy log each time. The script is that same sequence plus the guards below.
+
+Ten minutes is a starting point, not a requirement. The script exits in well under a second when there is nothing new, so a shorter interval costs almost nothing; a longer one just means the site lags further behind a merge.
+
+#### What it does and doesn't do
+
+- **Silent when idle.** Cron mails any output a job produces, and a job this frequent must not mail on every run — so it prints nothing unless it deploys or fails. Add `--verbose` to a manual run to see every decision.
+- **Deploys only on a real change.** It compares HEAD against the last commit it deployed *successfully*, recorded under `$HOME/.cpanel-autopull/`. Comparing HEAD before and after the pull would be the obvious test and is wrong: if a pull succeeds and the deploy after it fails, HEAD is already advanced, so the next run would see "nothing new" and never retry — leaving the site stale behind a cron job that looks healthy. Tracking last-*deployed* instead means a failed deploy is retried every run until it succeeds.
+- **`--force`** deploys regardless. Use it after editing `deploy.conf`, which is untracked and so never moves HEAD, but does change what gets built.
+- **`--status`** prints the branch, HEAD, last-deployed commit and lock state, and changes nothing.
+- **Locks.** A full deploy (`npm ci` plus one Eleventy build per domain) can outlast the cron interval, and two overlapping runs would rsync the same document root at once. A lock whose owning process is gone — killed mid-flight, or a reboot — is reclaimed rather than blocking forever.
+- **`--ff-only`, deliberately.** A deployment checkout is never a place work is done, so anything that can't fast-forward is a fault to report, not a merge to resolve. A modified *tracked* file is the usual cause; `deploy.conf` and the other per-clone files are untracked and gitignored, so they never interfere.
+- **It adds no logging of its own to the deploy.** `scripts/cpanel-deploy.sh` already emails its full log to `ADMIN_EMAIL` and persists it under `deploy-logs/`. This script keeps only a small pull/skip/deploy decision log at `$HOME/.cpanel-autopull/<clone>.log`, pruned to the last 500 lines, so "why did the site not update" is answerable without a mailbox.
+
+Exit codes: `0` nothing to do or deployed, `1` unusable environment, `2` another run holds the lock, `3` the pull failed, anything else is `cpanel-deploy.sh`'s own status.
+
+#### Verifying an install
+
+Run it by hand once from SSH before trusting cron:
+
+```bash
+bash "$HOME/repositories/star-rangers/scripts/cpanel-autopull.sh" --status
+```
+
+That touches nothing. Then `--verbose --force` once to confirm a real deploy works end to end from this path, and check the domain. After that, cron's silence is the success signal.
+
 #### `THEME` and available themes
 
 `THEME=default` keeps `src/css/main.css` as-is. Any other value uses `src/css/theme-<THEME>.css` when that file exists in the repo; otherwise deployment falls back to `src/css/main.css`. Every theme file is generated from `main.css` by `scripts/generate-themes.js` (`npm run generate-themes`), which swaps in only that theme's palette (`:root` custom properties, the five `.pov-block--<character>` colors, and `.character-badge--status-active`) and keeps everything else byte-for-byte in sync with `main.css` — run it after any structural change to `main.css` to re-propagate that change to every theme, and edit that script's `THEMES` registry to add a new theme or adjust an existing palette.
