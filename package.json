@@ -1,6 +1,6 @@
 {
   "name": "star-rangers",
-  "version": "1.16.0",
+  "version": "1.17.0",
   "description": "Fian Ilchruinne — an interactive science-fantasy novel. The stars call us forward with hope; to protect what is good and to see what is true.",
   "main": "index.js",
   "scripts": {
