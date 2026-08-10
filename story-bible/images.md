@@ -53,57 +53,6 @@ impressionistic image gets impressionistic alt text rather than the spec.
 Codex covers go through the generator, never an image model — the font engine
 spells correctly and image models do not. Motifs: `rules`, `dissolution`, `none`.
 
-**Working through the Open-work prompts.** Two local authoring tools — not in
-the build, not run by CI — that remove everything around the generating.
-`scripts/image-prompts.js` reads the prompts out of *this file*;
-`scripts/image-file.ps1` resizes and files the results.
-
-**The generated path** (preferred — unattended):
-
-```bash
-export GEMINI_API_KEY=…                                  # aistudio.google.com/apikey
-node scripts/image-prompts.js --generate --only arilon    # always try one first
-node scripts/image-prompts.js --generate                  # then the rest
-```
-```powershell
-.\scripts\image-file.ps1 -WhatIf                          # then file them
-.\scripts\image-file.ps1 -Pick "lore-arilon=2"            # variation 2 for one of them
-```
-
-**The clipboard path**, for the one image worth nudging by hand in an app — a
-browser will always beat an API for that:
-
-```bash
-node scripts/image-prompts.js --next     # next prompt -> clipboard, with its aspect ratio
-```
-*paste, generate, download — then `--next` again*
-```powershell
-.\scripts\image-file.ps1 -From "$env:USERPROFILE\Downloads" -WhatIf
-```
-
-**Why Gemini and not Firefly Services.** Adobe sells API access to Firefly as
-an enterprise contract; the Developer Console disables it outright without the
-entitlement (*"Your organization does not have a license to access this
-API"*), and the Firefly app bundled with Creative Cloud has no multi-prompt
-batch mode. Gemini sells the same class of model self-serve — and Nano Banana
-is one of the models the Firefly app itself offers — so the unattended path is
-available without an enterprise agreement. The key is gitignored and must stay
-that way; this repo is public. See `scripts/gemini.local.json.sample`.
-
-**This file stays the source of truth** — the scripts parse it and never write
-to it, and there is deliberately no separate queue file to drift out of sync.
-Edit a prompt here and re-run. An entry is picked up only if it is a bullet
-naming a `` `file.jpg` `` in bold with the prompt in a blockquote under it,
-which is how the nine generator title cards below exclude themselves without
-being listed anywhere.
-
-In the generated path there is nothing to pair: every image lands under a key
-naming its target, and `-Pick` chooses the variation. In the clipboard path
-pairing is **positional** — `--next` records the order it served, and
-downloads are taken oldest-first — so **run `-WhatIf` first**: a re-roll you
-saved twice, or a prompt you skipped, puts the pairing off by one from that
-point on. `-Map` overrides any pair that is wrong.
-
 ### Settings the prompt text cannot set
 
 - **Aspect ratio is a request field, not prose.** The orientation sentence at
@@ -152,6 +101,175 @@ Add-Type -AssemblyName System.Drawing; Get-ChildItem src\images -Recurse -Includ
 ```
 To check whether an image matches its description, **read the file** — the July
 2026 audit's one false finding came from reasoning about filenames instead.
+
+---
+
+## Working through the prompts — the runbook
+
+Two local authoring tools — not in the build, not run by CI — that remove
+everything around the generating. `scripts/image-prompts.js` reads the prompts
+out of *this file*; `scripts/image-file.ps1` resizes and files the results.
+
+**Everything below runs in your own PowerShell window**, not through an
+assistant: Start menu → "PowerShell". Then:
+
+```powershell
+cd F:\CLAUDE\star-rangers
+```
+
+### Step 0 — one-time setup
+
+Node is already installed (the site build uses it). The only thing missing is
+a Gemini API key.
+
+1. Go to **https://aistudio.google.com/apikey**, sign in, **Create API key**.
+   Self-serve — no enterprise contract, no admin approval. The free tier
+   covers a run of twenty-three comfortably.
+2. Set it, once, for your Windows user:
+
+   ```powershell
+   setx GEMINI_API_KEY "your-key-here"
+   ```
+
+   **`setx` only affects new windows.** Close that PowerShell and open a fresh
+   one, or nothing below will see the key.
+
+Prefer the environment variable to the file option: it keeps the key off this
+drive entirely. `scripts/gemini.local.json` works too (gitignored), but a
+secret inside a git working tree is one `git clean` away from gone and one
+folder-copy away from travelling. **Never paste the key into a chat, a commit,
+or an issue** — if it ever lands in one, revoke it at the same URL and make a
+new one.
+
+### Step 1 — see what is pending
+
+```powershell
+node scripts/image-prompts.js
+```
+
+Lists every prompt with a status: **done** (its file already exists under
+`src/images/`), **generated** (waiting to be filed), **served** (handed to the
+clipboard, not yet filed), **pending**. Nothing is written; run it whenever.
+
+### Step 2 — generate ONE first
+
+Never start a run of twenty-three. One image proves the key, the model name,
+the size constants and the network in about ten seconds:
+
+```powershell
+node scripts/image-prompts.js --generate --only arilon
+```
+
+Expect: a line naming the target and aspect ratio, then `2 image(s)`. The
+files land in `image-out\lore-arilon\`. **Open them.** If the API rejects
+anything, Google's error body prints in full rather than being summarised —
+the text will name the offending field.
+
+### Step 3 — generate the rest
+
+```powershell
+node scripts/image-prompts.js --generate
+```
+
+Everything still pending, two variations each. Failures are reported per
+image and do not stop the run; a failed entry keeps its error in the manifest
+and is simply retried next time.
+
+Useful flags: `--variations 4` for more choice, `--size 4K` if you want room
+to crop hard, `--model <id>` to try a different one.
+
+### Step 4 — look at what came back, and choose
+
+The whole pipeline exists to leave you exactly one job: deciding which
+variation is the one. Browse `image-out\`, then:
+
+```powershell
+.\scripts\image-file.ps1 -WhatIf
+```
+
+Prints the full plan — every source file against the target it would become —
+and changes nothing. **Always run this before the real thing.** Variation 1 is
+assumed; override per image:
+
+```powershell
+.\scripts\image-file.ps1 -Pick "lore-arilon=2","characters-naomi-kestrel=3" -WhatIf
+```
+
+When the plan reads correctly, drop `-WhatIf`:
+
+```powershell
+.\scripts\image-file.ps1 -Pick "lore-arilon=2"
+```
+
+That resizes each to convention through `import-image.ps1` (1200px portraits,
+1600px lore), files it under the right name in the right directory, and puts
+the lot on a new branch.
+
+### Step 5 — the part no script does
+
+1. Add `image` and `image_alt` to each page's front matter. **Write the alt
+   text from the file in front of you**, not from the prompt that asked for
+   it — that rule is the whole reason the stock images in Open work 6 were
+   catchable.
+2. Commit, push, open a PR. New portraits and lore images are the *draft it
+   and stop* tier: the PR is a proposal.
+3. Add a `CHANGELOG.md` entry under `[Unreleased]` if they are going out.
+4. When they have landed: `Remove-Item -Recurse -Force image-out`
+
+### The clipboard path — for one image at a time
+
+A browser beats an API for the image you want to nudge by hand, so the app
+loop is kept:
+
+```powershell
+node scripts/image-prompts.js --next
+```
+
+Puts the next pending prompt on the clipboard and prints **which aspect ratio
+to set** — the app's dropdown defaults to Auto and will happily return a
+landscape portrait, which the prompt text cannot prevent. Paste, generate,
+download, run `--next` again.
+
+Then file from the downloads folder rather than the manifest:
+
+```powershell
+.\scripts\image-file.ps1 -From "$env:USERPROFILE\Downloads" -WhatIf
+```
+
+Here pairing is **positional** — the order prompts were served against the
+order files were downloaded, oldest first. It is right as long as you saved
+one image per prompt in the order served. **A re-roll you saved twice, or a
+prompt you skipped, throws every later pairing off by one**, which is why
+`-WhatIf` matters more on this path than the other. Fix any bad pair with
+`-Map "lore-arilon=Firefly_abc.png"`; leftover downloads are reported rather
+than silently ignored.
+
+### When something goes wrong
+
+| Symptom | Cause |
+|---|---|
+| `no Gemini API key` | Key not set, or `setx` was run and the window not reopened |
+| A 400 naming a field | Bad model id, unsupported size, or a prompt tripping a safety filter — the message says which |
+| `response carried no image` | Call succeeded, shape unexpected. The raw JSON is written beside the output |
+| `-WhatIf` plan looks shifted | Clipboard path only. Use `-Map`, or `--reset <name>` and re-serve |
+| A prompt never appears | It has no blockquote, or its target file already exists — Open work 6 replacements are invisible until the old file is deleted |
+| `Nothing to pair` | Downloads older than 24h. Widen with `-Since 72` |
+
+**Why Gemini and not Firefly Services.** Adobe sells API access to Firefly as
+an enterprise contract; the Developer Console disables it outright without the
+entitlement (*"Your organization does not have a license to access this
+API"*), and the Firefly app bundled with Creative Cloud has no multi-prompt
+batch mode. Gemini sells the same class of model self-serve — and Nano Banana
+is one of the models the Firefly app itself offers — so the unattended path is
+available without an enterprise agreement. The key is gitignored and must stay
+that way; this repo is public. See `scripts/gemini.local.json.sample`.
+
+**This file stays the source of truth** — the scripts parse it and never write
+to it, and there is deliberately no separate queue file to drift out of sync.
+Edit a prompt here and re-run. An entry is picked up only if it is a bullet
+naming a `` `file.jpg` `` in bold with the prompt in a blockquote under it,
+which is how the nine generator title cards below exclude themselves without
+being listed anywhere.
 
 ---
 
