@@ -420,6 +420,176 @@ tightened — `predatory-entities.jpg` (*"Blurry human arms"*) and
 accurate as far as they go; neither is a defect. Flagged so a future audit
 doesn't re-derive them.
 
+### 6. Images that should not stay — audited 2026-08-10
+
+Open work 1 and 5 are the images that are **missing**. This is the other half:
+images that **exist and shouldn't**. Prompted by Dermot noticing that Saint
+Aoife "looks a bit too much like a dark shadow", which turned out to be the
+visible corner of something larger.
+
+**The corpus carries two visual languages.** Alt-text length is a reliable
+tell for which images were ever actually looked at, and it comes out bimodal:
+68 pages sit under 80 characters — *"A smiling professional woman"*, *"An open
+old book"*, *"Computer circuit board close-up"* — and 40 sit at 120+ with real
+descriptions of in-world art. The short ones read as stock-library captions
+because that is what they are. Roughly **55% of the 120 illustrated lore and
+character pages** are contemporary stock photography, against a house style
+that says in so many words: *not contemporary glamour or lifestyle shoots.*
+
+**Correction, same day: there are three languages, not two.** The third is
+**Dermot's own photography**, already in the corpus and already the best
+material in it — the `highland-*` and `boirinn-uplands-*` sets, `moorhen-wetland`,
+`gull-on-rock`, `trigrian`, the flower macros. Open work 2 settles the
+provenance without needing EXIF: it records a sensor-dust blemish on one of
+them as *"the known main-body Tamron artifact"*, which is his own lens, and
+notes that the highland set doubles as Órla Shepherd's home landscape.
+
+**Method, stated so a later audit knows what to trust:** six images were
+opened and read. The 66-page cohort is *inferred from caption style* and is
+not individually confirmed. Confirming it is its own pass — and per this
+file's own standing warning, it must be done by opening files, not by
+reasoning about filenames or alt strings.
+
+#### Triage: sort by what the image is doing, not by where it came from
+
+"Replace all the stock" is the wrong unit — it counts 66 images when the
+number that matters is nearer 25, and it would replace things worth keeping.
+
+**Tier 1 — photographs of real people standing in for characters. These must
+go.** The only non-negotiable tier, for a reason that is not about house
+style: a generated portrait of an invented person claims nothing, but a
+photograph of a real stranger captioned as a character makes a claim about an
+actual human being, and a false one. `dagny-voss.jpg` is a real woman
+presented as an orbital refinery director on Aspenar. That is testimony
+pointed at the wrong person — the same fraud the photography site's absolute
+rule exists to prevent, running in the other direction. There is also a
+licensing question worth *checking rather than assuming*: stock model
+releases commonly restrict portraying a model as a fictional person or
+implying endorsement, and these publish on owned domains under
+`CONTENT-LICENSE.md`. **Roughly 15–20 portraits. Do these first.**
+
+**Tier 2 — stock photographs standing in for specific invented places and
+institutions. Should go.** An empty Earth parliament chamber as the Star
+Rangers command hierarchy; a Mediterranean archway as Cill Aoife. Wrong in a
+way a reader can point at. **Roughly 10–15.**
+
+**Tier 3 — Dermot's own photography. Keep it, and lean on it much harder.**
+A real Irish upland standing in for an alien world claims nothing false
+because it names nothing: a real place, unnamed, his own work, no model
+release in sight. **The unpublished photo backlog is a lore-art resource** —
+Kenya, Tenerife, Scandinavia and Irish material sitting on `F:` includes
+acacias in dust, a drowned forest, flamingos, volcanic strata, a cloud sea.
+That is alien terrain already, and `earth-leopard-grassland.jpg` shows the
+practice is established. For any lore entry about landscape, weather, flora
+or fauna, the archive beats a prompt: cheaper, better, and it moves the
+corpus toward his own work rather than away from it.
+
+**Tier 4 — abstract and texture stock. Lowest priority; probably keep.**
+Star fields, light gradients, circuit boards, nebulae. No person, no place,
+no claim, and nobody's reading is broken by them. Replace opportunistically
+when already in the file, never as a project. **Roughly half the 66.**
+
+So the real work is **25–30 images**, not 66 — and a good share of those
+should come from the camera rather than a prompt.
+
+#### Five images are doing nine jobs
+
+Byte-identical files under different names (MD5-checked):
+
+| Kept by | Also serving as |
+|---|---|
+| `characters/bertram-ashcombe.jpg` | `lore/planetary-liaisons-and-recruiters.jpg` |
+| `characters/elvira.jpg` | `lore/planets/verdance.jpg` |
+| `characters/brother-daire.jpg` | `lore/monasteries-of-mars.jpg` |
+| `lore/star-rangers-command-hierarchy.jpg` | `lore/frontier-transformation-protocols.jpg` |
+| `lore/post-eleven-dimensional-manifold.jpg` | `lore/threnos-omega.jpg` |
+
+The pattern in the first three is one error: **a character portrait reused as
+the illustration for an institution or a place.** Proposed rule — *the
+portrait keeps the file; the lore page gets a new image of what its entry is
+actually about.* A picture of a man is not a picture of an order of monks,
+and Elvira's portrait is not a picture of a planet.
+
+Separately, `lore/united-space-consortium.jpg` is a *different* file carrying
+the *same* alt text as the command-hierarchy pair (*"The interior of an empty
+parliament chamber"*). One of the three describes a picture it isn't, which
+is a plain breach of the one hard rule in this file.
+
+#### The ten worth doing first
+
+Not the merely generic — the ones where the current image **actively
+misinforms**. Prompts written to the standing rules and ready to paste.
+
+**These are not visible to `scripts/image-prompts.js`, deliberately.** It reads
+only the Open work 1 and 5 headings, and an entry there counts as done while
+its target file exists — so a replacement listed here would be skipped twice
+over. To put one through the pipeline: delete the offending file, move its
+bullet into Open work 1 (characters) or Open work 5 (lore), and re-run. The
+separation is the point — this section is a list of *decisions to take*, and
+the moment a prompt moves up it has been decided.
+
+- **`saint-aoife.jpg`** (characters) — currently a black hooded figure seen
+  from behind, filling the frame, in a *Mediterranean* hill town: whitewashed
+  walls, terracotta pantiles, a cypress. Wrong continent for Cill Aoife,
+  wrong register, and it reads as menace for a woman who spent her life
+  tending the sick. **Keep the concealed face** — the record genuinely does
+  not know it, and the page's whole argument is that she never claimed to know
+  what she had seen. Lose the menace.
+  > Cinematic portrait of a thirteenth-century Irish holy woman standing at a hawthorn well in soft Atlantic daylight, upper body, half-turned away so her face falls into shadow and is never resolved, plain undyed woollen mantle over a simple gown, hands wrapped in cloth from tending the sick, bare thorn branches and low green hill country behind her, overcast western light, muted moss-and-stone palette, quiet and unthreatening, historical rather than fantastical, no readable text or lettering of any kind. Portrait orientation.
+
+- **`saint-aoife.jpg`** (lore) — currently candles on a gilded Orthodox
+  iconostasis: real-world, wrong tradition, contemporary. The entry is about a
+  devotion, so illustrate the *place* the devotion attaches to.
+  > A hawthorn well in Irish hill country as a place of devotion, the low stone kerb worn smooth, strips of cloth and small offerings tied to the bare thorn branches above it, no people in frame, soft overcast western daylight, damp green and grey palette, reverent and ordinary rather than mystical, medieval vernacular with nothing modern visible, no readable text or lettering of any kind. Landscape orientation.
+
+- **`elvira.jpg`** (characters) — **the worst of the set.** A black-robed
+  hooded figure in a dark doorway, backlit through smoke, carrying what reads
+  as a scythe. Her own page says *"her classification is contested; she is not
+  magical"* — the image asserts precisely what the entry denies, and lands on
+  the wrong side of the tone line while doing it.
+  > Cinematic portrait of a solitary boundary practitioner keeping a remote marsh causeway outpost, upper body, weathered practical outdoor clothing and heavy waterproofs, calm and matter-of-fact expression, standing in the doorway of a small functional outpost building with flat reed marsh and open sky behind her, cold flat daylight, muted grey-green palette, plainly a working technician rather than anything occult, far-future science-fiction setting, no readable text or lettering of any kind. Portrait orientation.
+
+- **`verdance.jpg`** (lore/planets) — currently Elvira's portrait, which is a
+  picture of a person standing in for a picture of a world.
+  > A temperate living world seen from low orbit, broad continental greens and river systems under scattered cloud, the terminator line falling across one edge, no habitation or structures visible, far-future science-fiction survey imagery, natural and unspectacular colour, no readable text or lettering of any kind. Landscape orientation.
+
+- **`predatory-entities.jpg`** (lore) — currently blurred hands pressed
+  against frosted glass: a horror stock cliché, and the one image in the
+  corpus that most clearly breaks *hint at the dark fact rather than depicting
+  it*. Nothing should be visible that could be pointed at.
+  > A vacated habitat compartment at low light, one chair turned away from the open door and a personal effect left exactly where someone set it down, bedding disturbed and not returned to, far-future science-fiction interior, cold desaturated palette, no figure and no creature anywhere in frame, unsettling entirely by absence and by what has been left behind, no readable text or lettering of any kind. Landscape orientation.
+
+- **`dagny-voss.jpg`** (characters) — a corporate stock photograph: smiling
+  woman, pale blue blazer, stucco wall, green hedge. Contemporary Earth, no
+  science fiction in it at all. She directs an orbital ore refinery.
+  > Cinematic portrait of a composed woman directing a large orbital ore-refining habitat, upper body, practical industrial coverall over working clothes, standing on a gantry above refinery machinery with the curve of a planet visible through the bay beyond, competent unsmiling expression, hard directional industrial lighting, far-future science-fiction setting, muted steel-and-amber palette, professional, no glamour styling, no readable markings or insignia lettering. Portrait orientation.
+
+- **`monasteries-of-mars.jpg`** (lore) — currently Brother Daire's portrait.
+  Keep it on his page; the order needs its own image.
+  > A scattered contemplative settlement on open Martian terrain, low rock-built cells and a single walled enclosure set into rust-coloured ground under a thin pale sky, long shadows and a distant escarpment, no figures in frame, deliberately austere and unmonumental, far-future science-fiction with nothing ornate, no readable text or lettering of any kind. Landscape orientation.
+
+- **`planetary-liaisons-and-recruiters.jpg`** (lore) — currently Bertram
+  Ashcombe's portrait. Same fix: an institution is not a person.
+  > A small planetary liaison office on a quiet colony world, a plain desk and two chairs by a window looking onto an ordinary street, a coat on a hook and a cooling cup left on the sill, no people in frame, unglamorous and administrative, far-future science-fiction setting, warm muted daylight palette, no readable text, signage or insignia lettering of any kind. Landscape orientation.
+
+- **`frontier-transformation-protocols.jpg`** / **`star-rangers-command-hierarchy.jpg`**
+  — byte-identical. Which page keeps it is Dermot's call; the other needs a
+  prompt. **Not written yet: neither file has been opened.**
+
+- **`threnos-omega.jpg`** / **`post-eleven-dimensional-manifold.jpg`** — same
+  situation, same reason. **Not written yet.**
+
+#### Convention breaches, separately
+
+- `lore/saltmere-mooring-gantry-1.jpg` and `-2.jpg` are **2560×1920** at
+  ~420 KB each, against a ~1600px long-edge convention.
+- `lore/moorhen-wetland.jpg` is 1557×2133 — 2133 on the long edge.
+- `characters/aldera/field-photo-*` run 557–700 KB.
+- Twenty hero images are 1920px. Enough of them that this may be an accepted
+  deviation rather than drift, but it is not what the Conventions table says.
+  Worth either fixing or amending the table; the table currently reads as
+  though it were enforced.
+
 ---
 
 ## History (2026-07-24)
