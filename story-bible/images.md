@@ -53,6 +53,37 @@ impressionistic image gets impressionistic alt text rather than the spec.
 Codex covers go through the generator, never an image model — the font engine
 spells correctly and image models do not. Motifs: `rules`, `dissolution`, `none`.
 
+**Generating the Open-work prompts in bulk.** `scripts/firefly-generate.js`
+parses *this file* for prompts and generates them against the Adobe Firefly
+Services API; `scripts/firefly-file.ps1` then resizes the chosen variation to
+convention and files it. Both are local authoring tools — not in the build,
+not run by CI — and need credentials the repository must never contain (it is
+public); see `scripts/firefly.local.json.sample`.
+
+```bash
+node scripts/firefly-generate.js                       # dry run — parse and list, no API calls
+node scripts/firefly-generate.js --go --only arilon    # generate one
+node scripts/firefly-generate.js --go                  # everything still missing
+```
+```powershell
+.\scripts\firefly-file.ps1 -Pick "lore-arilon=2"       # file variation 2, on a new branch
+```
+
+**This file stays the source of truth** — the script parses it and never
+writes to it, and there is deliberately no separate queue file to drift out of
+sync. Edit a prompt here and re-run. An entry is picked up only if it is a
+bullet naming a `` `file.jpg` `` in bold with the prompt in a blockquote under
+it, which is how the nine generator title cards below exclude themselves
+without being listed anywhere.
+
+Four variations are generated per prompt because **choosing between them is
+the judgement the tooling exists to leave to a person.** Neither script writes
+front matter: `image_alt` describes what the file *actually shows* and cannot
+be derived from the prompt that asked for it. Neither merges anything — new
+portraits and lore images are the repo's *draft it and stop* tier. Seeds are
+recorded in the run manifest, so a generation worth keeping can be reproduced
+and one worth re-rolling can be re-rolled deliberately.
+
 ### Prompt craft (learned the hard way)
 
 - **Name the sheen, not the substance.** "Stone-textured skin" for a Basaltborn

@@ -1,0 +1,25 @@
+{
+  "_comment": [
+    "Copy this file to scripts/firefly.local.json and fill in the two values.",
+    "The copy is gitignored, and must stay that way: this repository is public,",
+    "and a Firefly Services client secret is a credential for an Adobe org, not",
+    "for one project. Same convention as deploy.conf and giscus.local.json.",
+    "",
+    "Where the values come from - console.adobe.io:",
+    "  1. Create (or open) a project.",
+    "  2. Add API -> Firefly Services. Adding the API is what grants the",
+    "     firefly_api / ff_apis scopes; without it the token request succeeds",
+    "     and every generate call then returns 403.",
+    "  3. Choose Server-to-Server / OAuth Server-to-Server authentication.",
+    "  4. Copy the Client ID and Client Secret from the credential page.",
+    "",
+    "The Client ID doubles as the x-api-key header - scripts/firefly-generate.js",
+    "sends it as both, which is correct and not a mistake.",
+    "",
+    "Environment variables win over this file, so CI or a shell session can",
+    "override it without editing anything:",
+    "  FIREFLY_SERVICES_CLIENT_ID, FIREFLY_SERVICES_CLIENT_SECRET"
+  ],
+  "clientId": "",
+  "clientSecret": ""
+}
