@@ -1,111 +1,87 @@
 # Narrative Gaps Checklist
 
-What's actually written versus what the story bible and site copy have already committed to, as of 2026-07-14. Check items off as chapters land; re-derive this list from `src/seasons/` and the story bible rather than trusting it blindly once it's a few months stale.
+What's actually written versus what the story bible and site copy have committed to. **Re-derived from `src/seasons/` on 2026-08-10**, per this file's own standing instruction not to trust it once stale — the previous derivation was 2026-07-14 with patches through 07-29, and by August it was describing a different book.
+
+**44 chapter files exist across nine seasons and five storyline threads.**
 
 ---
 
-## Season 0 — Founding Era (2712–2723 UCSD)
+## What the re-derivation changed
 
-- [x] E01C01 — "Supplementary Material": the *Constant Margin*'s unauthorised 2712 UCSD departure, dramatizing Dr. Ysolde Maren Pitch's buried navigation model and the MSC's committee-speed failure to act on it in time — the first thread of the pre-Charter fracture, told from the scientist who built the correct answer and the captain who used it without waiting for it to be confirmed.
-- [x] E01C02 — "Beyond MSC Liability": two years on, a six-person crew takes *Patience First* past the point *Constant Margin* only touched and returned from — into the unmeasured terminus itself. Dramatizes the disappearance's departure only, told from Pitch (now watching her own buried model treated as settled fact rather than a checked one) and the ship's own boundary analyst, Dr. Wren Okafor, who accepts the distinction Pitch draws and goes anyway. Stops at the moment of transit; the crew's eventual 2732 recovery, and what they find at the terminus, must stay untouched until its own season, per the site's existing deliberate mystery. New `src/timeline/2714-patience-first-departs.md` entry mirrors the existing 2712 one.
-- [x] E02C01 — "Unauthorised, Therefore": a year after *Patience First* disappeared, Adaeze Okafor — sister of the ship's boundary analyst — travels to Mars in person after eleven months of form-letter correspondence gets her nowhere. Dramatizes the family pressure `src/lore/formation-of-star-rangers.md` credits as part of what eventually forces the 2719 Hearing, previously only asserted, not shown. Told from Adaeze and from Lieutenant Rutger Voss — the same Voss who returns, years later and several ranks up, in "What They Were Forbidden to Become" (S00E03C01) — planting the seed of the disillusionment that later lets him accept the charter's accountability limits without calling it a concession.
-- [x] E02C02 — "The Volunteered Word" (renumbered from E02C01 to keep the episode in chronological order after E02C01 above): the Outer Stations Consolidation Hearing of 2719 UCSD, eleven weeks into its six-month run. Dramatizes General Krast's honestly-meant defense of technocratic command and the moment it becomes the quote everyone remembers instead of the six years of unresolved findings that actually forced the hearing — told from Krast, who believes every word she says, and Delegate Petra Solano of Halyard Station, one of three civilian observers who releases the recording within the hour. `src/timeline/2719-outer-stations-consolidation-hearing.md` (2712/2714/2719 entries) and all cross-links updated to the new path.
-- [x] E03C01 — "What They Were Forbidden to Become": the Star Rangers Charter's ratification, 2723 UCSD — the season's founding moment, dramatized from the inside rather than just documented from the outside per `src/timeline/2723-star-rangers-charter.md`. Told from Solano, four years on from the Hearing and now doing the patient, unglamorous negotiation the viral quote only bought time for, and Commodore Rutger Voss of the newly formed SSDC, who argues the jurisdiction limits sincerely and comes around to them anyway without ever calling it a concession. Resolves the season's central gap: Season 0 is fully dramatized from the *Constant Margin*'s 2712 departure through the 2723 signing.
-- [x] E03C02 — "No Longer Supplementary": a closing beat for the season's two returning POVs. Dr. Pitch sees her once-buried "supplementary material" cited as a founding asset in the ratified charter; Captain Kilbride, recruited into the new Survey Corps on the strength of the *Constant Margin* transit, carries what the founding document's careful wording about the *Patience First* recovery mandate actually means to the people who flew and lost colleagues on that corridor. Resolves nothing about the terminus or the eventual 2732 recovery — deliberately — but gives the season's founding generation a human close rather than ending on the charter's text alone.
+The old list was organised as *the Tissadelle arc, plus some reserved slots*. That is no longer what the work is. Three of its structural claims were false against disk:
 
-## Season 1 — Tissadelle's Arc, Cadet (most complete season — still missing its ending)
+| It said | Disk says |
+|---|---|
+| **Season 2** — "intentionally unwritten… not a gap to fill by default" | **Nine chapters**, five episodes. The second-most-written thread in the book. |
+| **Season 4** — "intentionally unwritten, same as Season 2" | **One chapter** — *Docked Twice*. |
+| *(Season 8 not mentioned at all)* | **Exists** — *The Night Office*, its own thread. |
 
-- [x] E00 (3 ch) — Elvira/Aldera prequel backstory
-- [x] E01 (2 ch) — Galahad/Syra/Rook-7 arrive, discrepancy investigation begins
-- [x] E02 (5 ch) — causeway strand, boundary anomaly, teleport policy formalized
-- [x] E03C01 — "The Order of Evacuation" (Pelagos Minor) — published, but a tangent, not the convergence below
-- [x] E03C02 — "The Right Question": Galahad discloses the full survey archive (now including the confirmed station-drift/grove-residue coupling from E02C03), Elvira directly asks Aldera the question no one had asked in three years, Aldera answers, the feeding loop breaks. The season's established endpoint per `story-bible/story-bible-summary.md`'s "Season 1 endpoint (per site synopsis)."
-- [x] E03C03 — "The Root and the Rest of It": the dryadic grove's Etheric root-anchor intervention itself (planned at the end of E02C02 — "Interrupt the coupling... the root" — and explicitly deferred in S01E03C02's closing log). Elvira severs the entity's coupling at the root-plate overlap; the grove's own Etheric rooting is untouched, leaf phase-lag settles from 0.22 s to 0.19 s unexplained, and the entity's destination is deliberately not established. **The chapter's real move is a retraction:** Threshold's forty-second discrepancy does not budge, so Rook-7 withdraws his two-source model and the drift returns to being an open unknown — which keeps the Last Stand's payoff (S5/S6) entirely intact rather than spending it here. Placed after the season's naming endpoint on purpose: E03C02 remains the thematic close, and this is the physical follow-through that chapter's own text promises but declines to do
-- [x] E03C04 — "The One He Did Not Name": Galahad met Elvira at Dún Rí in **2806 UCSD**, sixteen years before any other record places her there, and she has not changed since. He says nothing and tests her instead, by feeding her own private vocabulary back to her without attribution and watching whether she finds it *familiar* or *impressive*. She has found it impressive every time — including at their first causeway meeting, where "the layer underneath" (E02C01) turns out to be her phrase, given to him in 2806. **The chapter resolves nothing and is built not to:** his memory is the only source, no instrument or third-party record corroborates it, nothing is entered in the survey file, and whether she remembers is left open. Answers Elvira's own closing note from E03C03 ("*That should have been harder. Find out why it wasn't*") with a reason that is unfalsifiable and held back — and puts Aldera's volunteered-information protocol on the other side of the table from where E03C02 had it, so the season's naming mechanic closes on a withheld name rather than a spoken one
+None of this is a contradiction, and nothing was written that shouldn't have been. Seasons 2 and 4 were *reserved* for storylines that don't run through Tissadelle — and those storylines have since been written, which is the reservation being honoured rather than broken. The checklist simply never noticed, because it was watching one thread and filing the other four as absence.
 
-## Season 2 — deliberately open
-
-- [ ] *(intentionally unwritten — reserved for a storyline that doesn't run through Tissadelle; not a gap to fill by default. See `lib/storyline-threads.js`.)*
-
-## Season 3 — Principal
-
-- [x] E01C01 — "Filed Under Noise"
-- [x] E01C02 — "Independent Verification": the reclassification survives Survey Corps review, and Sohrel absorbs the institutional cost of having authorised it — "what it costs to be believed about it" per `src/seasons/s03/index.md`'s own framing, now dramatized. Leaves the Sentinel/Meridian connection an open question (Sohrel's fourth declined request to consult Meridian, not resolved) and the Sentinel's origin/mechanism unexplained by design.
-- [ ] Everything else implied by the season intro ("two years into her service... an archive backlog nobody else wanted") — two chapters now stand in for an entire rank-era (Principal → Section Lead → Chief Ranger per her rank progression)
-- [ ] Whether/how the Sentinel-Meridian connection ever gets raised — Sohrel has now declined it four times without stating a reason on the record
-
-## Season 4 — deliberately open
-
-- [ ] *(intentionally unwritten, same as Season 2.)*
-
-## Season 5 — Line Captain
-
-- [x] E02C01 — "What the Hill Keeps" (Tír na nÓg, personal leave)
-- [x] E02C02 — "A Fraction of a Second": back on duty, a fleet-wide anomaly bulletin (Sen's cross-referencing) matches her family's hillside against the Marsh Causeway grove's dryadic-anchor marker, as an unattributed coordinate. She flags it for survey without disclosing the personal connection; Wender notices and lets it go. Advances both strands below without resolving either — deliberately, per the S6-7 treatment reserving that payoff for the Last Stand.
-- [x] E02C03 — "What Came Off the Ship": the survey she flagged in C02 goes out fleet-priority and puts her own hull on the Threshold approaches, where the marker class is the lesser find. A fold aperture held open four months past its transit, a licensed concern working the thin water off Dock Seven for Class III stock, and no Ranger authority able to stop a licensed operation absent a finding. She convenes a **Field Triumvirate** by the clause and in the open, evacuates eleven crew in forty-one minutes by shuttle and chartered Farline courier, and stays with the ship. Five POVs — Shepherd, Syra, Wender, Rook-7, Tobble — **none of which can name what they saw.** The Last Stand, written.
-- [ ] E00/E01 — skipped entirely; only the E02 and E02C03 snapshots exist
-- [x] The two strands Season 5 explicitly "plants" per `story-bible/tissadelle-arc-s6-7.md`: (1) whether the boundary at her mother's hollow is the same phenomenon as Threshold's drift, and (2) what she chose *not* to file about it (S05E02C01). **Both paid off in E02C03** — the survey she filed without disclosing her reasons is what sends her to Dock Seven, so the thing she kept becomes the proximate cause of everything after it. Note the deliberate restraint: the chapter never has anyone say so, and the Hollow itself stays unfiled
-
-## Season 6–7 — "The Last Stand" / "What Closes the File" / "Naming the Line"
-
-Fully outlined in `story-bible/tissadelle-arc-s6-7.md`.
-
-> **STALE CLAIM CORRECTED 2026-07-24.** This section long read "zero chapters
-> exist anywhere in `src/seasons/`." That is false and has been since at least
-> the 2026-07-23 prose-authorship audit, which flagged the same discrepancy.
-> **Six S6–S7 chapter files exist**, all AI-drafted and none written by Dermot:
-> `s06/e01/s06e01c01` ("First Light, Off the Record"),
-> `s06e01c02` ("What the Instruments Kept"),
-> `s06e01c03` ("The Well Ran Warm Again"),
-> `s07/e01/s07e01c01` ("The Accurate Account"),
-> `s07e01c02` ("Shown, Not Healed"),
-> `s07e01c03` ("Enough Is Enough").
->
-> **SECOND STALE CLAIM CORRECTED 2026-07-25.** This block went on to say the
-> six files were "drafts occupying the slots, not the outline realized," and
-> kept every box below unticked on that basis. Checked against the files
-> themselves: **that reading was wrong.** Strand A is worked in `s06e01c02`
-> (Wender, Rook-7, Sen, the citation she declines to sign), Strand B in
-> `s06e01c01` and `s06e01c03` (Shepherd's interior, the recursion, the
-> levril at the edge of the clearing), the two strands touch in
-> `s07e01c03`, and the naming mechanic and the deliberately-contested public
-> record are both there in that chapter's own canon facts. The boxes are
-> ticked below to match what is actually on disk. One is genuinely
-> unachieved and stays open: the Last Stand itself.
->
-> **Ratified 2026-07-25.** Dermot approved the voice and style of all
-> existing prose, granted standing permission to draft new scenes
-> (`CLAUDE.md`, prose-authorship), and then ratified the content: *"no
-> reason why all seasons would not now be taken as canon."* These six
-> chapters are canon. `tissadelle-arc-s6-7.md` is no longer a proposal the
-> chapters must be measured against — where the two differ, the chapters
-> won, and the treatment is now background reasoning. Their `canon_facts`
-> bind on everything written afterward. First casualty of that: `s06e01c02`
-> called Threshold's discrepancy "eleven years" old in 2831, which is its
-> 2826 age; corrected to sixteen.
->
-> Also settled since this list was written: the arc's cosmological endgame —
-> the protouniverse's "Saint Aoife" is a Telearch avatar. Recorded in
-> `tissadelle-arc-s6-7.md`, spoiler-safe, not in public lore.
-
-- [x] **The Last Stand** itself — **written 2026-07-29** as `src/seasons/s05/e02/s05e02c03.md`, "What Came Off the Ship". Landed in **Season 5**, not "end of S5 / opening of S6": 2831 Mid-Autumn, nineteen days before `s06e01c02`, appended to the existing episode with no renumbering and a freshly generated `comment_id`.
-
-  > **This entry used to pose a question, and the question has been answered.** It asked whether the event should be seen at all, given that the arc is about the record of the thing rather than the thing. The answer taken was **yes, seen — but from five viewpoints none of which can name what they saw.** Syra refuses to name it, Rook-7 logs a signature outside its arrays' stated range and declines the flattering reading, the gallery crews say *dragons*, Wender is eleven hours away, and Shepherd's last clear thought uses her grandmother's imprecise word for it. So the record still does not close, and now the reader knows exactly what it is failing to close over.
-  >
-  > What the chapter commits the story to is recorded in full in `tissadelle-arc-s6-7.md` under the 29 July direction — including the **supersession** of this arc's original "quietly gestating and being born" premise, which is not what happened.
-- [x] Season 6, "What Closes the File" — Strand A in `s06e01c02` (Wender reads the Council's draft citation and declines to sign it; Rook-7's non-standard arrays; Sen's unsigned archivist's notes). Strand B in `s06e01c01` and `s06e01c03` (Shepherd's interior, non-chronological, the morning that keeps happening, the Phase 4 recursion she diagnoses on herself)
-- [x] Season 6 endpoint — the strands meet, though **later than outlined**: the correlation lands in `s07e01c03`, where a detail only Shepherd could know crosses the warm edge in both directions, rather than at Season 6's close. Noted rather than "fixed" — the arc reads as written
-- [x] Season 7, "Naming the Line" — `s07e01c03`: named true by the living, on her own terms, via the same naming mechanic Season 1 established
-- [x] Keeps "who gets to name the truth" live rather than settled — `s07e01c03`'s own canon facts hold the Council's citation, the Codex's account, and what Wender privately knows permanently unreconciled; true for the reader, contested in-universe
-
-## Standing undramatized waypoints (not tied to one season)
-
-From `story-bible/story-bible-summary.md`'s "Established future-canon waypoints" — hooks that exist but haven't paid off anywhere yet:
-
-- [ ] Karla Wender: Chief Pilot → High Captain progression
-- [ ] The Tissadelle/Wender relationship, developing "across early seasons" per her character entry
-- [ ] Founding-era open questions: fold terminus contact, other fold routes, whether Threshold's drift is Eden-class phenomena
+**The lesson for the next re-derivation:** count threads, not seasons. A season reading "empty" in a Tissadelle-shaped list may be full.
 
 ---
 
-*Cross-reference: `story-bible/story-bible-summary.md` (Narrative Structure section, per-season breakdowns) and `story-bible/tissadelle-arc-s6-7.md` (full Season 6-7 treatment) for the reasoning behind each entry above.*
+## By thread
+
+Per `lib/storyline-threads.js`. Each is a self-contained narrative with its own cast.
+
+| Thread | Seasons | Chapters | State |
+|---|---|---|---|
+| **Founding Era** | 0 | 6 | **Complete** — 2712 departure through the 2723 signing |
+| **Tissadelle Shepherd's Arc** | 1, 3, 5, 6, 7 | 27 | The spine. Ends written; middle thin |
+| **Undercover Pets** | 2 | 9 | Substantial and unlisted until now |
+| **Orbital Five-O** | 4 | 1 | **A thread on one chapter** |
+| **Church Space** | 8 | 1 | **A thread on one chapter** |
+
+---
+
+## The actual gaps, in order of how much they cost
+
+### 1. Two threads are one chapter each
+
+**Orbital Five-O** (S4, *Docked Twice*) and **Church Space** (S8, *The Night Office*) each have a single chapter carrying an entire named thread. Both are advertised on the site as threads in their own right, and a reader following either arrives at the end almost immediately.
+
+Church Space additionally has a **deployment** built around it — the church-space.site/.online domains filter to that thread, with their own comments repo. A domain whose whole reason for existing is one chapter is the sharpest instance of this on the site.
+
+*This is the largest gap in the book and the old checklist could not see it, because both seasons were filed as deliberately blank.*
+
+### 2. Season 3 is two chapters for a whole rank-era
+
+Carried over from the previous derivation, still true. *Filed Under Noise* and *Independent Verification* stand in for Principal → Section Lead → Chief Ranger. The season intro promises "two years into her service… an archive backlog nobody else wanted"; two chapters cover it.
+
+- [ ] The Sentinel–Meridian connection: Sohrel has now declined to raise it four times without stating a reason on the record. Either a fifth declination that finally costs her something, or the raising.
+
+### 3. Season 5 opens at E01
+
+- [x] **E01C01 — *Refusal to Certify*** (added since the last derivation; the old list said S5 E00/E01 were "skipped entirely"). Shepherd's first dispute in rank, solved by empathy where six weeks of confidence had failed.
+- [x] E02C01–C03 — *What the Hill Keeps*, *A Fraction of a Second*, *What Came Off the Ship* (the Last Stand).
+- [ ] **E00** — still absent. The only season that opens without one.
+
+### 4. Standing waypoints, still unpaid
+
+From `story-bible-summary.md`'s "Established future-canon waypoints" — hooks that exist in character entries and have never landed in prose:
+
+- [ ] **Karla Wender: Chief Pilot → High Captain.** A progression asserted on her page and dramatised nowhere.
+- [ ] **The Tissadelle/Wender relationship**, developing "across early seasons" per her character entry — but the early seasons are written and it isn't in them.
+- [ ] **Founding-era open questions:** fold terminus contact, other fold routes, whether Threshold's drift is Eden-class phenomena.
+
+### 5. Season 1 has a chapter the old list never counted
+
+- [x] **E00C00 — *Below the Bells***. The old entry read "E00 (3 ch)"; there are four. Prequel backstory now runs c00–c03.
+
+---
+
+## Complete, and deliberately so
+
+Recorded here so a later pass doesn't reopen them.
+
+- **Founding Era** — fully dramatised, 2712 to 2723. Nothing outstanding.
+- **The Last Stand** — written as `s05e02c03`, in Season 5 rather than at the S5/S6 seam. Seen from five viewpoints, **none of which can name what they saw**; the record still fails to close, and now the reader knows what it is failing to close over.
+- **Seasons 6–7** — ratified canon as of 2026-07-25. Strand A in `s06e01c02`, Strand B in `s06e01c01`/`c03`, the strands meeting in `s07e01c03` — later than the treatment outlined, noted rather than "fixed", because the arc reads as written. `tissadelle-arc-s6-7.md` is background reasoning now, not a specification the chapters must match; where they differ, the chapters won.
+- **"Who gets to name the truth" stays live**, not settled: `s07e01c03` holds the Council's citation, the Codex's account and what Wender privately knows permanently unreconciled — true for the reader, contested in-universe.
+- **The arc's cosmological endgame** — the protouniverse's "Saint Aoife" is a Telearch avatar. In `tissadelle-arc-s6-7.md`, spoiler-safe, deliberately not in public lore.
+
+---
+
+*Cross-reference: `story-bible-summary.md` (Narrative Structure, per-season breakdowns), `tissadelle-arc-s6-7.md` (full S6–7 treatment), and `lib/storyline-threads.js` (the thread definitions this list is now organised by).*
