@@ -99,7 +99,7 @@ Grouped by storyline thread — see [Site sections](#site-sections) and `lib/sto
 
 ## Release notes
 
-Current version: **1.15.0**. See [`CHANGELOG.md`](./CHANGELOG.md) for the full version history — lore/canon changes, deployment features, and fixes are all tracked there under [Semantic Versioning](https://semver.org/).
+Current version: **1.16.0**. See [`CHANGELOG.md`](./CHANGELOG.md) for the full version history — lore/canon changes, deployment features, and fixes are all tracked there under [Semantic Versioning](https://semver.org/).
 
 ### Cutting a release
 
