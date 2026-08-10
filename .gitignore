@@ -11,6 +11,9 @@ giscus.local.json
 editions.local.json
 deploy-logs/
 src/lore/custom/
-# Firefly working directory: the served-prompt order (progress.json) and any
-# scratch output. Machine-local bookkeeping, never part of the repo.
-firefly-out/
+# Image-prompt working directory: generated output, the run manifest, and the
+# served-prompt order. Machine-local bookkeeping, never part of the repo.
+image-out/
+# Gemini API key for scripts/image-prompts.js --generate. Public repo: never
+# commit this. See scripts/gemini.local.json.sample.
+scripts/gemini.local.json
