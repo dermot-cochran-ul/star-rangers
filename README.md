@@ -291,10 +291,18 @@ If this account's `public_html` shouldn't get a copy of the site at all — only
 One crontab line per **clone**, per cPanel account — every account that hosts a clone needs its own, since each account's cron only sees its own `$HOME`. In cPanel → *Advanced* → *Cron Jobs*:
 
 ```bash
-*/10 * * * * /bin/bash "$HOME/<checkout-dir>/scripts/cpanel-autopull.sh"
+*/10 * * * * /bin/bash "$HOME/repositories/star-rangers/scripts/cpanel-autopull.sh"
 ```
 
-`<checkout-dir>` is the *Repository Path* cPanel's Git Version Control shows for that clone — not necessarily the repo name, and one account can hold clones of both repos at once, in which case it needs one line each.
+These accounts keep their Git Version Control checkouts under `~/repositories/`. Confirm the last path segment against the **Repository Path** cPanel shows for that clone — it isn't always the repo name, and an account holding clones of both this repo and `dermot-cochran-photography` needs one line each.
+
+That crontab line is the guarded form of what you'd otherwise type by hand:
+
+```bash
+cd ~/repositories/star-rangers && git pull --ff-only && bash scripts/cpanel-deploy.sh
+```
+
+The one-liner works, but on a schedule it rebuilds and re-rsyncs every domain on **every** run whether anything changed or not — and emails you a deploy log each time. The script is that same sequence plus the guards below.
 
 Ten minutes is a starting point, not a requirement. The script exits in well under a second when there is nothing new, so a shorter interval costs almost nothing; a longer one just means the site lags further behind a merge.
 
@@ -315,7 +323,7 @@ Exit codes: `0` nothing to do or deployed, `1` unusable environment, `2` another
 Run it by hand once from SSH before trusting cron:
 
 ```bash
-bash "$HOME/<checkout-dir>/scripts/cpanel-autopull.sh" --status
+bash "$HOME/repositories/star-rangers/scripts/cpanel-autopull.sh" --status
 ```
 
 That touches nothing. Then `--verbose --force` once to confirm a real deploy works end to end from this path, and check the domain. After that, cron's silence is the success signal.
