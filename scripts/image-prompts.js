@@ -79,9 +79,25 @@ const DEFAULT_MODEL = 'gemini-3.1-flash-image';
 // Aspect ratio is a request field, not something prompt text controls - the
 // same trap as the Firefly app's dropdown, where "Portrait orientation." at
 // the end of a prompt does nothing and Auto quietly returns landscape.
-// 3:4 for portraits, 16:9 for lore: the four lore images already in the repo
-// are 1600x900.
-const ASPECT = { Portrait: '3:4', Landscape: '16:9' };
+//
+// BOTH ARE 16:9, AND THE CHARACTER ONE IS NOT A TYPO. The rendered slot
+// decides this, not the word at the end of the prompt:
+//
+//   .character-portrait  aspect-ratio: 16 / 9; object-fit: cover;
+//                        object-position: center 30%; max-width: 420px
+//   .page-hero-image     height: 320px; object-fit: cover (wide)
+//
+// So a 3:4 portrait delivered into a 16:9 slot is cropped to a horizontal
+// band through the upper third and most of the frame is thrown away. That is
+// a defect the corpus already carries - the surviving 512x1024 and 768x1022
+// files are being sliced exactly that way, which is part of why they read
+// badly - and it was recorded in story-bible/firefly-prompts.md on 28 July
+// 2026 after someone checked the CSS. Generating at 3:4 would have reproduced
+// it twelve more times.
+//
+// Character portraits therefore deliver 1200x675, which is what
+// import-image.ps1 -MaxEdge 1200 produces from a 16:9 source.
+const ASPECT = { Portrait: '16:9', Landscape: '16:9' };
 
 const SECTION_TARGETS = [
   { match: /^###\s*\d+\.\s*Missing portraits/i, dir: 'characters' },
@@ -192,6 +208,13 @@ function parseEntries(markdown) {
     });
   }
   return entries;
+}
+
+// A manifest row records its target but not its orientation label, so recover
+// which ASPECT entry governs it from the directory it is bound for - the same
+// rule parseEntries applies.
+function entryOrientation(g) {
+  return String(g.target || '').includes('/characters/') ? 'Portrait' : 'Landscape';
 }
 
 function readJson(p, fallback) {
@@ -346,7 +369,11 @@ async function runGenerate(entries, opts) {
 
 function serve(entry, opts, progress) {
   console.log(`\n${entry.targetRel}`);
-  console.log(`  Aspect ratio: set it to ${entry.orientation} (${ASPECT[entry.orientation]}) — the prompt alone will not`);
+  console.log(`  Aspect ratio: set it to ${ASPECT[entry.orientation]} — the prompt alone will not`);
+  if (entry.dir === 'characters') {
+    console.log('                (16:9 even though the prompt says "Portrait orientation" —');
+    console.log('                 .character-portrait crops to 16:9, so a tall frame loses its edges)');
+  }
   console.log(`  Filed at:     ${entry.maxEdge}px long edge — generate large, this resizes on the way in\n`);
   console.log(entry.prompt);
   console.log('');
@@ -385,7 +412,22 @@ async function main() {
   const progress = readJson(PROGRESS, { served: [] });
   if (!Array.isArray(progress.served)) progress.served = [];
   const manifest = readJson(MANIFEST, { generated: [] });
-  const generatedKeys = new Set(manifest.generated.filter((g) => !g.error).map((g) => g.key));
+
+  // An entry counts as generated only if it was generated at the aspect ratio
+  // currently in force. Anything produced under a different one is stale by
+  // definition - it will be cropped to fit the slot it is destined for - so it
+  // drops back to pending and the next --generate picks it up without anyone
+  // having to work out which files to delete.
+  //
+  // This is not hypothetical: the first full run put all twelve character
+  // portraits out at 3:4 before the CSS was checked and ASPECT corrected to
+  // 16:9. Rather than hunt them down by hand, the run simply became partly
+  // stale and re-ran itself.
+  const generatedKeys = new Set(
+    manifest.generated
+      .filter((g) => !g.error && g.aspect && g.aspect === ASPECT[entryOrientation(g)])
+      .map((g) => g.key)
+  );
 
   const status = (e) => fs.existsSync(e.target) ? 'done'
     : generatedKeys.has(e.key) ? 'generated'

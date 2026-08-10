@@ -303,7 +303,17 @@ function buildBanner(theme) {
 }
 
 function generate(name, theme) {
-  const main = fs.readFileSync(MAIN_CSS_PATH, "utf8");
+  // Line endings normalised on the way in. Every regex below is written
+  // against "\n", and this repo has no .gitattributes, so a Windows checkout
+  // with core.autocrlf=true hands us CRLF and every one of them silently
+  // fails to match - which surfaced as "rule not found in main.css" for a rule
+  // plainly present in main.css. The script was therefore unrunnable on
+  // Windows, meaning the themes could not be re-derived on the machine where
+  // main.css is actually edited: exactly the drift this script exists to
+  // prevent. Normalising here fixes all the patterns at once rather than
+  // sprinkling \r? through each; git restores the platform's endings on
+  // checkout.
+  const main = fs.readFileSync(MAIN_CSS_PATH, "utf8").replace(/\r\n/g, "\n");
 
   let out = main.replace(
     /\/\* =+\n[\s\S]*?=+ \*\//,

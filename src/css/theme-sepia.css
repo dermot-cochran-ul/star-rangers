@@ -1296,6 +1296,11 @@ a:focus {
 .character-badge--status-unknown {
   color: var(--color-text-muted);
 }
+/* Every character portrait in the corpus is generated to 1200x675 to match the
+   ratio below — see story-bible/images.md. Changing this aspect-ratio silently
+   re-crops all of them, and a taller source delivered into a wider slot loses
+   its edges rather than scaling. If this ever changes, the images change with
+   it, not the other way round. */
 .character-portrait {
   display: block;
   width: 100%;
