@@ -18,7 +18,7 @@ the line rather than working around it.
 |---|---|
 | Location | `src/images/<characters\|lore\|codex\|hero>/` |
 | Lore & hero | ~1600px long edge, JPG quality ~85 |
-| Character portraits | ~1200px long edge (real files vary widely; not enforced) |
+| Character portraits | **1200×675 — 16:9 landscape**, not portrait (see below) |
 | Codex entries | designed dark-gradient **title cards**, not photographs |
 | `image_alt` | must describe what the file *actually shows* |
 
