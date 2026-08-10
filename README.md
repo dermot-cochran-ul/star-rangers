@@ -328,6 +328,29 @@ bash "$HOME/repositories/star-rangers/scripts/cpanel-autopull.sh" --status
 
 That touches nothing. Then `--verbose --force` once to confirm a real deploy works end to end from this path, and check the domain. After that, cron's silence is the success signal.
 
+#### Checking what's live
+
+Every deploy stamps what it shipped — `git describe --tags --always --dirty`, e.g. `v1.16.0-3-gb4b56f4`: the release, how many commits past it, and the exact commit. `--dirty` marks a checkout with modified *tracked* files; the untracked per-clone files (`deploy.conf` and friends) never trip it.
+
+It lands in three places:
+
+- **The deploy email subject** — `[star-rangers deploy] SUCCESS - sciencef - v1.16.0-3-gb4b56f4 - 2026-08-10 18:21:05Z`, so the notification you already receive says what it shipped.
+- **`/version.txt`** on every domain, which is the one check that tests the whole chain rather than one link in it:
+
+  ```bash
+  curl -s https://fianilchruinne.com/version.txt
+  ```
+
+- **`<meta name="site-version">`** in every page's `<head>`, for when you're already looking at the page.
+
+A green cron job only proves the script ran. It does not prove the build succeeded on *this* domain, or that the rsync landed — and with several domains across several cPanel accounts, one silently stale domain is the failure that otherwise goes unnoticed longest. Curling `/version.txt` on each is the cheap sweep:
+
+```bash
+for d in fianilchruinne.com starquest.site church-space.site; do printf '%-24s %s\n' "$d" "$(curl -fsS "https://$d/version.txt" | head -1)"; done
+```
+
+`version: dev` means that build did not come through the cPanel deploy path at all — a local build, or GitHub Pages. On a production domain that is itself the finding.
+
 #### `THEME` and available themes
 
 `THEME=default` keeps `src/css/main.css` as-is. Any other value uses `src/css/theme-<THEME>.css` when that file exists in the repo; otherwise deployment falls back to `src/css/main.css`. Every theme file is generated from `main.css` by `scripts/generate-themes.js` (`npm run generate-themes`), which swaps in only that theme's palette (`:root` custom properties, the five `.pov-block--<character>` colors, and `.character-badge--status-active`) and keeps everything else byte-for-byte in sync with `main.css` — run it after any structural change to `main.css` to re-propagate that change to every theme, and edit that script's `THEMES` registry to add a new theme or adjust an existing palette.
