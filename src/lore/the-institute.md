@@ -56,6 +56,12 @@ And it sits awkwardly against the Corps' actual doctrine, as the Rangers have oc
 
 The Institute's reply to this, offered without heat, is that it can live with an unexplained instrument reading indefinitely, and that a body which cannot is the one that ends up with dragons.
 
+## On the dead, where the same argument is run again
+
+The Institute has since run the dragon argument over harder ground: [a comparative paper on post-mortem doctrine](/star-rangers/codex/three-claims-concerning-the-dead/), which takes judgment, punishment and reward apart as three separate claims and finds one of them — that nothing done is erasable — to be a plain observational fact wearing devotional dress. The paper is the Institute at its most exact, and its null-results section is the most honest thing it has published since Dock Seven: its own standard deflation, inheritance, cannot explain why traditions that never met converge on the same architecture, and the paper says so at length and leaves the finding open rather than explaining it away.
+
+Where it is strong and where it is not follows the usual line. It is strong on the separation, which nobody had thought to insist on, and strong on the misapplied regularity, where it catches a real overreach. It is weak in the step it always takes next — treating a successful compression as a completed debunking, as if showing what a doctrine carries were the same as showing that is all it carries. Its own sentence about dragons is the standing answer here too: a tradition can hand you a word for a thing that is also there. And a paper that is read, as this one is, mostly by the bereaved, delivers its scrupulous courtesy to people it has just told that their dead are survived by what they did — which the Institute considers respectful, and which is the coldest thing it has ever meant kindly.
+
 ## Standing
 
 The Institute holds no charter authority, commands nothing, and cannot compel a filing. Its influence is entirely a function of being cited, which it has arranged to be very good at.
