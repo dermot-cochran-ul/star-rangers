@@ -19,12 +19,15 @@
 > an entry counts as *done* while its target file exists, a moved prompt stays
 > dormant until the old file is deleted. That deletion is the decision.
 >
-> **3. Which decision is open.** This file says **replace** the Prismere
-> cluster and the four under-spec portraits; `images.md` Open work 2 lists the
-> same files under **Super Resolution**, i.e. upscale. Two remedies for one
-> problem, and the twenty prompts wait on which one wins. See the case made
-> immediately below — it is a real argument, not an oversight, and it may well
-> be right.
+> **3. Decision resolved, 2026-08-11 (Dermot's ruling): replace, not
+> upscale.** Super Resolution is off; `images.md` Open work 2 records the
+> ruling, and the runnable copies of the replacement prompts now live in its
+> Open work 1 (`agent-barsik`) and Open work 5 (the Prismere/Prismeri set,
+> twelve entries) — dormant until the old files are deleted, so regeneration
+> stays a deliberate act. Sections A–C below are now the craft record only:
+> **edit prompts in `images.md`, not here.** Re-measuring for the ruling also
+> found four of the "four under-spec portraits" already replaced at spec —
+> see the notes in § C.
 >
 > **4. One instruction below was wrong and is now fixed everywhere.** The
 > "Character portraits are 16:9, not portrait" note in "Running these" is
@@ -80,6 +83,9 @@ locations, and that was the second complaint against it after resolution.
 ---
 
 # A. Prismere — eight locations, eight distinct looks
+
+*Runnable copies migrated to `images.md` Open work 5, 2026-08-11 — edit
+prompts there; this section is the craft record.*
 
 The point of this set is that Prismere's biosphere makes its own light. Each
 location differs in **where that light comes from**, and the prompts below make
@@ -204,6 +210,9 @@ geometric construction, protractor angles"* and push harder.
 
 # B. Prismeri — one people, two bodies
 
+*Runnable copies migrated to `images.md` Open work 5, 2026-08-11 — edit
+prompts there; this section is the craft record.*
+
 The set has to make the two life stages read as **the same person at two points
 in one life**, since the founding anecdote is that contact teams filed them as
 two species. Structural continuity: same skull-ridge segmentation, same eye
@@ -260,7 +269,13 @@ hierarchy" in a single frame. Equals — no looking-up-at, no deference.
 
 All four currently sit under spec and get replaced outright.
 
-### tissadelle-shepherd.jpg — do first
+### tissadelle-shepherd.jpg — SUPERSEDED: already replaced in the repo
+**Found 2026-08-11 while resolving the replace-vs-upscale decision:** the repo
+already carries a 1200×675 `tissadelle-shepherd.jpg` (landed by 2026-08-06),
+so this replacement is no longer pending and the entry was not migrated. The
+character notes and guardrails below remain the reference for any future
+regeneration.
+
 Landscape 16:9, 1200×675. **Rewritten 28 July 2026** against Dermot's
 character notes of the same day — see *What this prompt is carrying* below
 before running it.
@@ -318,6 +333,9 @@ country, off duty. Her home ground on Tír na nÓg is now load-bearing in
 Season 5.
 
 ### agent-barsik.jpg
+*Runnable copy migrated to `images.md` Open work 1, 2026-08-11, with the
+lettering fix below folded into the prompt body — edit it there.*
+
 Landscape 16:9, 1200×675.
 > A black cat seated squarely on a untidy stack of printed paperwork on an office
 > desk, wearing a small worn metal badge on his collar. Institutional station
@@ -340,7 +358,11 @@ and paperwork blank; the collar tag plain and unengraved"* — the badge should
 read as a worn metal disc, which also suits a character whose whole point is
 that nobody has ever asked what it authorises.
 
-### bubochka.jpg
+### bubochka.jpg — SUPERSEDED: already replaced in the repo
+**Found 2026-08-11, same check as tissadelle-shepherd:** the repo carries a
+1200×675 `bubochka.jpg` (landed by 2026-08-06), so this replacement is no
+longer pending and the entry was not migrated.
+
 Landscape 16:9, 1200×675.
 > A fluffy white rabbit sitting inside a large brown ceramic mug filled with pink
 > and white marshmallows, more marshmallows scattered on the plate beneath.
