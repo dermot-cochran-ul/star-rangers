@@ -78,8 +78,25 @@ spells correctly and image models do not. Motifs: `rules`, `dissolution`, `none`
   only costs more.
 - **Reference images** are the only lever for making a *set* look like a set —
   worth reaching for on the character portraits, where twelve separately
-  generated faces otherwise share no house style. The Firefly app takes up to
-  six; the scripts do not use them yet.
+  generated faces otherwise share no house style. The scripts do not send them
+  yet; an app takes up to six.
+- **Dermot's own photographs may be used as references.** Standing permission,
+  11 August 2026: *"any of my existing photos may be used as references for
+  image generation, in future, if relevant or needed."* This is the sharpest
+  tool available for the two things generation is worst at. **Consistency** —
+  one reference carried across a set is what makes twelve separately generated
+  faces read as one cast. **Place** — the corpus already stands Irish uplands
+  in for alien terrain, and feeding the actual frame as a reference puts *his*
+  light and *his* weather into a generated scene rather than a model's idea of
+  them. The unpublished archive is the obvious source: Kenya, Tenerife,
+  Scandinavia, the Irish material.
+
+  Note the boundary this does **not** cross. A reference informs a generated
+  image and the result is still a generated image; it does not become his
+  photograph, and the portfolio's own-work-only rule is untouched. The
+  distinction is the one *[Where the Record Lives](../src/journal/where-the-record-lives.md)*
+  draws — what matters is whose record the picture carries, and a generated
+  image carries none either way.
 - **Model choice is a decision, not a default.** Models differ in what they
   are trained on and in the terms attached to their output, and these images
   publish on public domains under `CONTENT-LICENSE.md`.
