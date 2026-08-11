@@ -346,7 +346,7 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 - **`wendell-albercombe.jpg`** — Detective Inspector, Eden; carries the boring
   caseload, complains constantly, solves cases over dinner. Suits the noir register.
-  > Cinematic noir portrait of a rumpled, world-weary male detective inspector in a slightly worn coat aboard a space habitat, upper body, tired but sharp expression, low-key dramatic lighting, science-fiction detective setting, desaturated palette, professional, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  > Cinematic noir portrait of a rumpled, world-weary male detective inspector in a slightly worn coat aboard a space habitat, upper body, tired but sharp expression, low-key dramatic lighting, science-fiction detective setting, desaturated palette, professional, wayfinding shown only as Compact plainmarks — flat stencilled panels of stacked colour bands in black, slate-blue, bone-white and ochre, carrying simple geometric figures (chevrons, rings, short tally strokes, lozenge diamonds), painted on the fixed frame beside each hatch and at corridor junctions, no readable text, numerals, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
 
 - **`asteria-the-sage.jpg`** — retired Star Captain, now leads a local
   Fellowship of Light chapter on a quiet planet. Deliberately spare page; a
@@ -355,7 +355,7 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 - **`galen.jpg`** — Star Rangers liaison officer at a Celtic Union shuttle gate;
   minor character, correct and quietly decent.
-  > Cinematic portrait of a mid-career Star Rangers liaison officer in a plain service uniform standing at a planetary shuttle gate, upper body, courteous professional expression, overcast daylight through a terminal window, science-fiction setting, muted palette, no insignia lettering, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a mid-career Star Rangers liaison officer in a plain service uniform standing at a planetary shuttle gate, upper body, courteous professional expression, overcast daylight through a terminal window, science-fiction setting, muted palette, no insignia lettering, wayfinding shown only as Compact plainmarks — flat stencilled panels of stacked colour bands in black, slate-blue, bone-white and ochre, carrying simple geometric figures (chevrons, rings, short tally strokes, lozenge diamonds), painted on the fixed frame beside each hatch and at corridor junctions, no readable text, numerals, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
 
 **Alien**
 
