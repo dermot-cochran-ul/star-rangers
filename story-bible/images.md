@@ -73,6 +73,27 @@ spells correctly and image models do not. Motifs: `rules`, `dissolution`, `none`
   since July. A *narrow* ban is not enough either: `galen.jpg` said "no
   insignia lettering" and got station signage instead, because the model
   honoured the letter of it.
+- **One exception: Compact settings may show signage on purpose.** [The
+  Plainmark](../src/lore/plainmark.md) (settled 2026-08-11) is shapes and
+  colour bands rather than script, so there is nothing in it to misspell — a
+  model can draw it, and it reads as deliberate design instead of broken text.
+  In a Compact-habitat corridor, hatch or cargo scene, carry this clause
+  *instead of* a blanket ban:
+
+  > Wayfinding shown only as Compact plainmarks — flat stencilled panels of
+  > stacked colour bands in black, slate-blue, bone-white and ochre, carrying
+  > simple geometric figures (chevrons, rings, short tally strokes, lozenge
+  > diamonds), painted on the fixed frame beside each hatch and at corridor
+  > junctions, no readable text, numerals, signage, insignia lettering or
+  > written characters of any script anywhere in frame.
+
+  **Scope it, and do not sweep it.** The plainmark is a Compact standard, not
+  a universal one — a galaxy-wide sign system would reintroduce exactly the
+  convenience the record refuses. It belongs in Compact habitats and nowhere
+  else: not on a Martian hillside, not at an Irish chapter house, and not in
+  Celtic Union corridors, which are lettered in their members' own languages.
+  So far it is carried by two prompts, `galen` and `wendell-albercombe` — the
+  two that failed *because of* signage, now specifying it deliberately.
 - **Generate large.** `import-image.ps1` resizes on the way in (~1200px
   portraits, ~1600px lore), so 2K costs nothing and leaves room to crop. 4K
   only costs more.
