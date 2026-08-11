@@ -181,6 +181,18 @@ chapter images would mostly be four views of the same room.
 - **State the era**, or the setting defaults to contemporary Earth.
 - Small text artifacts can be fixed in-session with a targeted select-and-blur
   rather than a re-roll (worked on a garbled flight-suit name tape).
+- **Generate 4, keep 1.** Vary the seed between attempts, not the prompt;
+  change the prompt only when the whole batch misses.
+- **A generator has no memory between frames.** "The same rabbit" means
+  nothing to it; series continuity must be carried as literal attributes in
+  every prompt — coat, ear carriage, crockery, light direction — and any trait
+  the model defaults against (a lop's ears) belongs in the negative as well as
+  the body. Learned on the bubochka pair.
+- **Never name an actor or a real person** — describe features and bearing;
+  generators refuse or mangle likenesses.
+- **Characters belong in a place, not against a gradient** — no flat studio
+  backdrops, no glamour lighting; the 13-file stock-headshot cluster in Open
+  work 3 is the cautionary example.
 
 ### Auditing
 
@@ -488,8 +500,8 @@ the entry, per the standing pipeline rule.
   Agency: black cat, station office, complete deadpan — everyone assumes he is
   the mascot, and the image must not wink. The 28 July attempt was right on
   pose and wrong on the lettering ban (readable binder spines, papers, and
-  collar tag); the ban is written into the prompt below. Full craft notes in
-  `firefly-prompts.md` § C.
+  collar tag); the ban is written into the prompt below. The rejected 28 July attempt is recorded in
+  `image-prompts.md` § 3.
   > A black cat seated squarely on an untidy stack of printed paperwork on an office desk, wearing a small worn plain metal disc on his collar. Institutional station office behind him — filing, terminals, fluorescent light. He is looking directly at the viewer with complete composure, entirely unbothered, as though he has been interrupted rather than caught. Photographic, warm practical lighting, no whimsy and no costume beyond the badge. No text, no labels, no writing on any surface; binder spines and paperwork blank; the collar tag plain and unengraved; no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
 
 ### 2. Lightroom / Photoshop — Dermot's hands only
@@ -504,7 +516,9 @@ other sky-heavy frames from that body while in there.
 
 **Under-spec — resolved 2026-08-11 (Dermot's ruling): replace, not upscale.**
 Super Resolution is off for this set, which ends the two-remedies-one-problem
-conflict `firefly-prompts.md`'s header box recorded. Re-measuring for the
+conflict `firefly-prompts.md`'s header box recorded (that file has since
+been retired, 2026-08-11, its remaining content absorbed here and into
+`image-prompts.md`). Re-measuring for the
 ruling also found the 2026-07-24 table half stale: four of the six portrait
 files were already replaced at spec (1200×675) — `tissadelle-shepherd.jpg` and
 `bubochka.jpg` by 2026-08-06, `bubochka-alert.jpg` and `dorian-calloway.jpg`
@@ -514,7 +528,7 @@ where each goes:
 | File | Current | Route |
 |---|---|---|
 | `characters/agent-barsik.jpg` | 512×1024 | regenerate — prompt now in Open work 1 |
-| `characters/aldera/field-photo-03.jpg`, `-04.jpg` | 512×1120 — **PNG data under a .jpg extension** | re-crop from Dermot's own originals per `firefly-prompts.md` § D (or retire and run the gallery with two); his hands, stays here |
+| `characters/aldera/field-photo-03.jpg`, `-04.jpg` | 512×1120 — **PNG data under a .jpg extension** | re-crop from Dermot's own originals — see the Aldera note below; his hands, stays here |
 | `lore/prismere-*` / `prismeri-*` — 11 files | 768×1152 | regenerate — prompts now in Open work 5 |
 | `lore/prismere-root-mat-network.jpg` | 773×1152 | regenerate with the set — Open work 5 |
 
@@ -532,8 +546,10 @@ set now doubles as Órla Shepherd's home landscape, so it earns attention.
 **Composite / crop** — `lore/highland-sentinel-lizard.jpg` (1168×880): creature
 composited onto the same plate as `highland-rock-spires.jpg`; cutout edges are
 visibly soft beside the plain version. Needs mask refinement plus a light
-colour/grain match. `lore/noogenic-seeding-system.jpg` (1200×614): unusually
-short and wide for a lore image; re-crop or regenerate.
+colour/grain match; a creature-element prompt for the rebuild is recorded in
+`image-prompts.md` § 2. `lore/noogenic-seeding-system.jpg` (1200×614): unusually
+short and wide for a lore image; regeneration decided — its replacement
+prompt is in Open work 5, dormant until the old file is deleted.
 
 **Verify then leave alone** — `lore/trigrian.jpg`: blown highlights on the three
 suns, almost certainly intentional for a trinary-star world. Noted so a future
@@ -542,6 +558,19 @@ audit doesn't "fix" it.
 **Your camera, not a generator** — `lore/saltvik.jpg` is still a plain text
 card while its sibling Saltmere entries have two photographs each; the Knarr
 Line's Nordic-heritage coastal world wants a real cold-coast frame.
+
+**Aldera gallery (`field-photo-03`/`-04`) — re-crop, don't generate** (moved
+from the retired `firefly-prompts.md` § D). `field-photo-01`/`-02` read as
+photographs of a real kitten in a boat; generated frames in the same gallery
+will show against them. Prefer re-cropping Dermot's own originals — the alt
+text describes a tabby-and-white kitten among yellow flowers, and beside a
+blue flower; if those frames exist on the F: drive this is a crop job, not a
+generation job. Second choice: retire 03 and 04 and run the gallery with two.
+If generation is ever chosen anyway, match 01/02's look rather than the usual
+concept-art register: candid close-up pet photography, tabby-and-white kitten
+with blue eyes, outdoors among yellow wildflowers (and again beside a single
+blue flower), late afternoon sunlight, shallow depth of field, natural colour.
+Portrait 3:4, 1200px.
 
 ### 3. Deferred by choice
 
@@ -576,7 +605,7 @@ boats), two further rings canted steeply across it, a tall central spire on
 spokes, a Union-flag tram, and Earth and the Moon behind.
 
 **Two generator defects, recorded not fixed** (full detail in
-`firefly-prompts.md`):
+`image-prompts.md` § 3):
 
 1. **1408×768, under the ~1600px lore standard** — `eden-space-habitat.jpg` is
    1600×900 for comparison. Not upscaled: interpolation would add pixels, not
@@ -808,9 +837,9 @@ doesn't re-derive them.
 
 #### Prismere/Prismeri replacement set — replace, not upscale (Dermot's ruling, 2026-08-11)
 
-Twelve entries, migrated from `firefly-prompts.md` §§ A–B, which keep the full
-craft commentary — **edit prompts here, not there**. See Open work 2 for the
-ruling. Dormant while the old files exist; the set regenerates **all together
+Twelve entries, migrated from `firefly-prompts.md` §§ A–B on 2026-08-11 — the
+file has since been retired, so **this is the only copy**, each entry carrying
+its divergence note in its description. See Open work 2 for the ruling. Dormant while the old files exist; the set regenerates **all together
 or not at all** (the all-or-none rule carried over from the upscale plan), and
 each prompt varies the *light source* rather than the adjective — that
 divergence is the whole point of replacing instead of upscaling, since the old
@@ -873,6 +902,15 @@ locations.
   faithfully continues the old motif; regenerate with the set. The subject is
   the buried network, not the towers. Portrait 3:4, 1600px tall.
   > Silicate-carbon biosphere: living tissue built from glass and crystal rather than wood and chitin. Painterly science-fiction concept art, high detail, naturalistic rather than decorative. A shared luminous root-mat network beneath a colony of mineral lumenspire towers at night, seen low to the ground: veins of warm amber light running through translucent crystalline soil, converging toward the tower bases and brightest where they feed them, the glow fading upward along each spire. The buried network is the subject; the towers stand at the edge of frame. No text, no lettering, no human figures, no cartoon, no watermark, no oversaturated neon, no generic sci-fi cityscape. Portrait orientation.
+
+**Also decided, independent of the Prismere batch** (moved from the retired
+`firefly-prompts.md` § E; dormant until the old file is deleted):
+
+- **`noogenic-seeding-system.jpg`** — currently a 1200×614 banner crop, a
+  generic starfield; the entry is about a mind compressed into a seed that
+  starts a universe, and the seed should be visible in the image. Landscape
+  4:3, 1600px wide.
+  > A vast field of stars and nebulae, deep and layered, with a sense of enormous distance — and at its centre something small, dense and structured: a compact point of organised light with visible internal architecture, clearly not a star. The scale relationship is the subject: something very small carrying the information a very large thing will be built from. Cosmological, contemplative, no figures, no text, no lettering. Landscape orientation.
 
 ### 6. Images that should not stay — audited 2026-08-10
 

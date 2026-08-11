@@ -60,7 +60,8 @@ came from a different tool. The original prompts were never recorded.
 
 **Superseded 26 Jul 2026: these are being regenerated, not upscaled.** Dermot's
 decision — the low-quality originals won't be reused. Working prompts for the
-replacements are in [`firefly-prompts.md`](firefly-prompts.md), written to
+replacements are in `images.md` Open work 5 (migrated 2026-08-11, when
+`firefly-prompts.md` was retired), written to
 diverge per location rather than preserve the existing look, since the repeated
 motif was the second complaint against the set after resolution.
 
@@ -161,6 +162,70 @@ entirely, the honest fallback is the one already in use across the repo: a real
 photograph doing the structural work, with the alien element composited in —
 which is why the plate-and-creature composites need to look convincing.
 
+### tissadelle-shepherd.jpg — current file's prompt unrecorded
+
+The 1200×675 file landed by 2026-08-06 with no entry here — the rule this file
+exists to enforce, tripped again; found 2026-08-11 while resolving the
+replace-vs-upscale decision. The likely source, preserved verbatim from the
+retired `firefly-prompts.md` § C (rewritten 28 July 2026 against Dermot's
+character notes of the same day), is below. Treat it as the reference for any
+future regeneration rather than certain provenance of the current file.
+
+> Documentary photograph, available light, candid. A young woman in her
+> twenties with red hair and blue-green eyes, in a practical working uniform
+> worn correctly but well used, aboard a spacecraft or station. She is
+> mid-task, her attention on something off to one side of the frame — reading
+> an instrument, not posing. Upright, self-possessed bearing; alert and
+> attentive expression rather than blank or steely. Equipment, hard surfaces
+> and functional light around her. Unglamorous lighting; visible skin texture;
+> no beauty retouching, no styled hair, no makeup emphasis. She is at work and
+> has been for hours.
+
+**What this prompt is carrying.** Dermot's note, 28 July 2026: she never
+married and has had no relationship despite being elegant and charming — sigma
+INFJ-A, highly sensitive but confident, expecting a depth most men can't
+provide, and almost more focused on her career and on maintaining her dignity
+as a leader. That is why the 26 Jul attempt failed and why it wasn't only a
+lighting problem: beauty lighting and a to-camera gaze frame a subject as
+presenting herself for approval, and her whole character is that she does not.
+The two changes that matter are **her attention goes off-frame onto her
+work**, and **nothing in the image invites the viewer**. Her solitude should
+read as chosen and unremarkable — never as loneliness, never as a gap waiting
+to be filled.
+
+Guardrails: don't reach for *beautiful*, *striking*, *alluring*, or *lonely* —
+if a batch comes back as a headshot, push harder on *documentary*, *candid*,
+*available light*, and name the task she's doing. **This is Tissadelle, not a
+type** — Dermot was explicit that this register must not carry over to the
+story's other women in command. **The interiority — hint, don't show:** her
+inner life is populated (fantasies, AI virtual companions, internal headmates
+including tulpas and plural subsystems), and that complexity is what qualifies
+her for a noogenic seed mind — a qualification, never pathology, instability
+or spectacle. A literal depiction tips into the horror register the tone
+guardrail rules out; keep the portrait outwardly plain.
+
+Two optional variants, generate separately: the same frame at a dark
+instrument panel whose glass carries two or three quiet reflections of her at
+slightly different angles — ordinary equipment reflections, evenly lit,
+nothing ghostly; discard any result that looks haunted. And the same woman on
+a hillside flock-holding in wet upland country, off duty — her Tír na nÓg
+home ground, load-bearing since Season 5.
+
+### bubochka.jpg — current file's prompt unrecorded
+
+Same finding, same date: 1200×675 by 2026-08-06, no entry here. The § C
+prompt, preserved as the reference:
+
+> A fluffy white rabbit sitting inside a large brown ceramic mug filled with
+> pink and white marshmallows, more marshmallows scattered on the plate
+> beneath. Absurdly, disarmingly cute. Photographic, soft natural window
+> light, shallow depth of field. Played completely straight — a real
+> photograph of a real rabbit in a mug, not an illustration.
+
+Keep the alt text's scene exactly — it is well described and the comedy
+depends on the specificity. The pair image (`bubochka-alert.jpg`, § 3 below)
+must match this one's setting: same mug, same table, same light.
+
 ---
 
 ## 2. Missing prompts — enhancement of real photographs
@@ -225,6 +290,10 @@ Recipes recorded so a future re-edit starts from a known state.
   sharper than the version this composite sits on. Re-compositing onto the new
   plate fixes the sharpness mismatch and the soft edges in one pass — but it
   must be redone, because the new plate is a different crop.
+- **Creature element, if a cleaner cutout is wanted** (moved from the retired
+  `firefly-prompts.md` § F). Match the light direction to the plate before
+  generating, or the mask will never sit right no matter how good the edge is.
+  > A large monitor-lizard-like reptile in three-quarter view, climbing, body angled upward, long tapering tail trailing behind and down. Even overcast daylight from the upper left, matching a clear high-altitude sun. Plain neutral background for cutting out. Dry, matte, dusty scale texture in muted grey-brown — no gloss, no wet look, no rim lighting.
 
 ### saltvik.jpg — OUTSTANDING
 - **Type:** photograph needed, no prompt applicable
@@ -232,16 +301,17 @@ Recipes recorded so a future re-edit starts from a known state.
   coastal world. Currently a plain text card while sibling Saltmere entries
   carry two photographs each.
 
-### Character portraits — regenerating, not upscaling
-`tissadelle-shepherd` (768x1022, do first), `agent-barsik`, `bubochka`,
-`bubochka-alert` (512x1024), `aldera/field-photo-03`, `field-photo-04`
-(512x1120). Prompts in [`firefly-prompts.md`](firefly-prompts.md).
-
-Two cautions carried over there: `tissadelle-shepherd` must not come back as a
-glamour headshot — the 26 Jul attempt did, and the audit rules that register out.
-And the two Aldera frames sit in a gallery beside `field-photo-01`/`-02`, which
-read as real photographs of a real kitten; re-cropping Dermot's own originals
-beats generating replacements that won't match.
+### Character portraits — status as of 2026-08-11
+Resolved by the replace-not-upscale ruling and re-measurement:
+`tissadelle-shepherd` and `bubochka` were already replaced at 1200×675 (landed
+by 2026-08-06, prompts unrecorded — see their § 1 entries above, which keep
+the never-a-glamour-headshot caution); `bubochka-alert` and `dorian-calloway`
+are recorded done in § 3; `agent-barsik` (still 512×1024) has its regeneration
+prompt in `images.md` Open work 1; and the two Aldera frames (512×1120, PNG
+data under a .jpg extension) are a re-crop job in Dermot's hands — see the
+Aldera note in `images.md` Open work 2, which keeps the caution that they sit
+beside `field-photo-01`/`-02`, real photographs of a real kitten that
+generation won't match.
 
 ---
 
@@ -320,11 +390,35 @@ own **Type:** line, so the two group headings were dropped in the move.
      reading as "R & ▨▨E"). Add *text, lettering, signage, writing* to the
      negative prompt on any regeneration — see the house rule below.
 
+### agent-barsik.jpg — attempt of 28 Jul 2026, REJECTED
+- **Type:** generation attempt, not shipped
+- **Tool:** Adobe Firefly, widescreen preset
+- **Why rejected:** right cat, wrong on the lettering ban. Pose, office and
+  deadpan all correct, but the frame was full of readable text — "CASE FILES",
+  "LOGS" and "REPORTS" along the binder spines, "STATION INCIDENT REPORT —
+  LOG 41" across the papers, and garbled pseudo-text on the collar tag itself.
+- **Where the fix lives:** the regeneration prompt, with the blank-surfaces
+  and plain-unengraved-tag requirements folded into the body, is in
+  `images.md` Open work 1 — dormant until the old 512×1024 file is deleted.
+
 ### dorian-calloway.jpg — 29 Jul 2026
 - **Type:** generation (replaces a stock-headshot-register portrait)
 - **Tool:** Adobe Firefly, widescreen preset — output 1408×768, centre-cropped to
   1365×768 and resized to 1200×675
-- **Prompt:** the § C entry in [`firefly-prompts.md`](firefly-prompts.md), quoted there in full.
+- **Prompt** (moved from the retired `firefly-prompts.md` § C):
+  > Documentary photograph, available light, candid. A man in his late fifties, senior civil administrator, standing on the coordination floor of an orbital habitat administration centre, half-turned from a bank of wall-mounted status displays as though interrupted mid-shift. Business dress worn like a long day rather than a photocall — jacket open, tie loosened, sleeves turned back, a small plain metal pin at the lapel. Composed, unhurried, faintly tired; attention still partly on the displays. Behind him the displays show abstract orbital ring diagrams, engineering telemetry traces and schematic floor plans as pure graphics — shapes, curves and line work only. Working clutter on the desks below: printouts, cabling, a cooling drink. Functional overhead light, natural skin texture, no retouching, shallow depth of field.
+- **Negative:** text, lettering, numerals, labels, signage, writing on any screen
+  or surface, uniform, military uniform, police uniform, epaulettes, rank
+  insignia, badge with visible engraving, flat studio backdrop, glamour
+  lighting, corporate headshot, posed to camera.
+- **Why no uniform** — settled 29 July 2026. The post is administrative rather
+  than operational by design and Calloway cannot direct a habitat
+  Commissioner's policing decisions; a service uniform would assert command
+  authority his page spends its length denying, and any one service's uniform
+  narrows him to a third of the remit. There is also no Compact uniform in
+  canon (`src/lore/rank-insignia-and-uniform.md` covers Star Rangers only), so
+  inventing one would be new canon cascading to all five habitat
+  Commissioners. The room carries the breadth instead of a costume.
 - **Result:** correct on the first batch. No uniform; business dress worn like a
   long day, jacket open and one sleeve turned back, a small plain lapel pin as
   the only mark of office. The coordination floor carries the breadth of the
@@ -347,7 +441,15 @@ own **Type:** line, so the two group headings were dropped in the move.
   1365×768 and resized to 1200×675 (the preset is 1.833, the spec is 16:9 =
   1.778, so a 21px trim each side is needed — `import-image.ps1` scales but does
   not crop, so this needed a crop-then-resize pass)
-- **Prompt:** the rewritten version in [`firefly-prompts.md`](firefly-prompts.md)'s § C, quoted there in full.
+- **Prompt** (the 29 July rewrite, moved from the retired `firefly-prompts.md`
+  § C — the version that stood until then asked for "both ears fully raised",
+  which a lop physically cannot do):
+  > Documentary-style photograph, available light, candid. A pure white lop-eared dwarf rabbit standing bolt upright on her hind legs on a warm honey-toned rustic wooden kitchen table, body stretched tall and narrow, front paws tucked to her chest, absolutely still and tense, staring intently at something outside the frame. The rabbit: dense pure white fur, soft and fluffy; both long lop ears hanging down flat against the sides of her head, pale pink inner ear showing, never upright; one large round near-black eye in three-quarter view; small pink nose; long fine white whiskers. Beside her on the table, a brown speckled reactive-glaze ceramic mug and matching saucer, empty, with pink and white mini marshmallows spilling across the saucer and scattered over the wood. A tall glass of milk behind. A crumpled pale linen cloth to the left. Bright window to the right casting soft directional daylight; blurred warm kitchen interior behind. Shallow depth of field, warm natural colour. Played completely straight — a real photograph of a real rabbit, not an illustration.
+- **Negative:** upright ears, erect ears, pointed ears, standing ears, rabbit
+  inside the mug, text, lettering, watermark, illustration, cartoon, studio
+  backdrop, glamour lighting.
+- **The pair is the joke:** same rabbit as `bubochka.jpg` (§ 1), suddenly
+  working — consistency of setting between the two frames is what sells it.
 - **Result:** correct on the first batch. Lop ears folded flat, standing bolt
   upright on the hind legs, same brown speckled mug and saucer, same
   marshmallows, same linen cloth, same warm kitchen and window light. The pair
