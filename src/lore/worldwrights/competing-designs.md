@@ -23,6 +23,15 @@ Under the refined hierarchy:
 - **Worldwrights** instantiate primary universe architectures,
 - **Concordants** operate within those universes to maintain creative entropy balance (CEI).
 
+What an Archewright's work looks like from inside a universe is documented in
+[Made Minds, the AI Safety Archetype and the Ecological Stability Archetype](/star-rangers/lore/made-minds-and-the-ai-safety-archetype/):
+two archetypes drawn from this archecluster's vocabulary, one attaching at
+authorship and one to behaviour. It is the closest the record comes to
+observational evidence at this tier — not of an Archewright, which nothing
+observes, but of the *convergence* an archetype predicts, in cultures with no
+contact and no common ancestry. Note what it does not license: an archetype
+explains why a pattern keeps being arrived at, and holds nothing shut.
+
 This page compares two competing Worldwright designs:
 
 1. **Kaelor Virex** — Resonant Triad System (RTS-9)
