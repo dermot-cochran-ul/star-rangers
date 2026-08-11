@@ -6,8 +6,12 @@ pagination:
 permalink: "{{ item.url }}"
 layout: scene-pov.njk
 eleventyComputed:
-  title: "{{ item.character.label }} — Scene {{ item.sceneNumber }} — {{ item.chapterTitle }}"
-  description: "{{ item.character.label }}'s point of view of Scene {{ item.sceneNumber }} in \"{{ item.chapterTitle }}\"."
+  # Gated like the body and `robots` below: a hidden POV page must not carry
+  # the real chapter title or character label in its <title>, meta description
+  # or Open Graph tags. Mirrors the excluded-page metadata .eleventy.js's
+  # layout-swap override gives every other excluded page.
+  title: "{% if item.included %}{{ item.character.label }} — Scene {{ item.sceneNumber }} — {{ item.chapterTitle }}{% else %}Not included in this edition{% endif %}"
+  description: "{% if item.included %}{{ item.character.label }}'s point of view of Scene {{ item.sceneNumber }} in \"{{ item.chapterTitle }}\".{% endif %}"
   # Ties this page's giscus discussion to its parent chapter's permanent
   # comment_id (see lib/content-schema.js) plus scene/character, rather than
   # this page's own pathname - so a discussion started here stays attached

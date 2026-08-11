@@ -18,6 +18,10 @@
       pagefind = await import(`${bundlePath}pagefind.js`);
       await pagefind.init();
     } catch (err) {
+      // Deliberately no UI: a dev server has no index and that's fine. But a
+      // production failure (missing index, CSP blocking Pagefind's WASM)
+      // looks identical from the outside, so leave a trace for the console.
+      console.warn("Search unavailable:", err);
       pagefind = null;
     }
     return pagefind;

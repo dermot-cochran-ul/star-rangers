@@ -3,7 +3,13 @@ layout: base.njk
 comments: true
 commentsCategory: episodes
 ---
-<article class="chapter scene-pov" data-chapter-id="{{ item.chapterId }}" data-scene="{{ item.sceneNumber }}" data-pov="{{ item.character.id }}">
+{#- A hidden POV page (see the `item.included` branch below) must drop out of
+    the Pagefind index entirely: the header above that branch renders the POV
+    character's name and the chapter's in-universe timestamp/location, which
+    would otherwise be searchable on builds that exclude the chapter. Same
+    blind spot as `robots` in src/scene-pov.njk - these pages never get the
+    excluded.njk layout swap, so .eleventy.js's overrides can't cover them. -#}
+<article class="chapter scene-pov" data-chapter-id="{{ item.chapterId }}" data-scene="{{ item.sceneNumber }}" data-pov="{{ item.character.id }}"{% if not item.included %} data-pagefind-ignore{% endif %}>
   <header class="chapter-header">
     <nav class="chapter-breadcrumb" aria-label="Chapter location" data-pagefind-ignore>
       <ol class="breadcrumb" role="list">
