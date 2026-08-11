@@ -63,7 +63,7 @@ That last shape is the one that reaches [Orbital Five-O](/star-rangers/character
 ## See Also
 
 - [Frontier Transformation Protocols](/star-rangers/lore/frontier-transformation-protocols/) — the same doctrine for worlds rather than lineages
-- [The AI Safety Kernel](/star-rangers/lore/ai-safety-kernel/) — the invariants and the commissioning rule this doctrine leans on
+- [The AI Safety Kernel](/star-rangers/lore/ai-safety-kernel/) — the invariants and the commissioning rule this doctrine leans on, and the manufacture seam Five-O watches on the machine side
 - [Smart Pet](/star-rangers/glossary/smart-pet/) — the welfare-certification lineage the somatic arm reuses
 - [The Crisis Centuries: Terran Wildlife from Collapse to Stewardship](/star-rangers/lore/crisis-centuries-terran-wildlife/) — the SSDC genetic archives and the breeding-true standard
 - [The Orbital Habitats Compact](/star-rangers/lore/orbital-habitats-compact/) — the jurisdiction Five-O works, and the welfare-authority gap
