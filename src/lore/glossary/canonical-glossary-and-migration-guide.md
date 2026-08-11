@@ -286,6 +286,15 @@ The word **Etheric** was carrying three jobs at once — a causal layer, a set o
 - **Registered vocabulary:** **mediarch realm** — the jurisdiction of one Mediarch: a single force-domain inside a single universe. **Mathematical regime** — the axioms and foundations a Metawright settles, within which formclusters are instantiated.
 - **Related Terms:** Generalised Quantum Mechanics, FTL Channel Scope, Mediarchs, the Common Manifold, Archecluster, Formcluster
 
+### Plainmark / Compact Common Marking (settled 2026-08-11)
+- **Layer:** Standard (In-Universe, Material)
+- **Canonical term:** **plainmark** (lower case, one word) in all voices. The formal expansion **Compact Common Marking** appears only where a document is quoting the schedule itself; no character says it.
+- **Definition:** the [Orbital Habitats Compact](/star-rangers/lore/orbital-habitats-compact/)'s non-alphabetic standard for marking infrastructure — stencilled panels of one to four stacked colour bands in fixed ground/figure pairs (black/ochre lozenges, hazard; slate-blue/white chevrons, the way; bone-white/black strokes and blocks, count; ochre/black rings, refuge), struck through by a diagonal bar when voided. It contains no letters, no numerals and no characters of any script.
+- **Scope:** Compact habitats and what the Compact certifies. **It is not a universal notation**, and writing it as one would reintroduce the convenience [the record refuses](/star-rangers/lore/what-the-record-refuses/). The Celtic Union letters its corridors in its members' own languages; other species mark by their own conventions; the Knarr Line keeps an older cousin answerable to nobody.
+- **What a plainmark asserts:** what kind of thing, which way, how many, and whether the promise still holds — and nothing else. It cannot name, has no verbs and no tenses, and its figure set is closed.
+- **What it is evidence of:** that somebody maintains that pressure boundary to the Compact's schedule. A recent, checkable maintenance claim, never a statement about language.
+- **Related Terms:** The Plainmark, Orbital Habitats Compact, What the Record Refuses, The Generation-Ark Era
+
 ### Universal — Two Senses (settled 2026-08-08)
 - **Register rule:** the word *universal* carries exactly two lawful senses in Archive voice, and a sentence must make plain which it means — there is no third, vaguer sense left.
   1. **Universe-wide** — of one universe: membrane scope by another name. The standing example is a **Universal Authority**, whose writ ends at its own universe's edge; *supra-universal* is this sense negated, and stays correct.
