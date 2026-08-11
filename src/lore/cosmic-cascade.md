@@ -157,7 +157,7 @@ Archetypal patterns enter the Etheric as rule templates, then become physical ad
 
 ### Observable Effects on Time-Bound Entities
 - Archetypal interference events during high-coherence stress.
-- Recurring pattern classes across distinct civilizations.
+- Recurring pattern classes across distinct civilizations — the record's best-documented instance being the [AI Safety Archetype](/star-rangers/lore/made-minds-and-the-ai-safety-archetype/), the constraint-shape for made minds that unrelated cultures keep arriving at without contact.
 
 ## Worldwrights and Concordant / Concordance
 
