@@ -30,7 +30,6 @@ themselves.
 - The same instinct fails in one context and serves you in another; what changes is whether you can check it.
 - Empathy is intuition coupled with high sensitivity — perception plus inference, not reception; trainable like both, fallible like both, and auditable, which is what separates the practitioners from the confident.
 - A signal needs a baseline. You cannot read a deviation from normal without first knowing the person's normal.
-- The failure mode of youth is not generating the innocent explanation at all.
 - Some lessons are not available until much later, when something unrelated triggers the memory and you finally see what happened.
 - A detector can fail three ways: firing wrongly, being overridden, or being right and ignored because other people said otherwise.
 - The cost of a false alarm is a door you never learn was open. The cost of a suppressed true alarm is whatever you were being warned about.
