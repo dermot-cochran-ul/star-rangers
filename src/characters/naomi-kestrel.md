@@ -8,8 +8,6 @@ status: Active
 aliases: []
 tags: [human, eden, investigations, junior-detective, season-1]
 description: "A junior field investigator aboard Eden Space Habitat who reads habitat telemetry, dock manifests, and comm chatter as one continuous sentence, and finishes it before someone gets hurt."
-image: "naomi-kestrel.jpg"
-image_alt: "A young woman analyst seated at a bank of console screens in a dim operations room, her face lit by the data readouts, wearing a dark practical uniform, with other crew working out of focus behind her"
 ---
 
 Naomi Kestrel keeps Eden's noise legible. Habitat telemetry, dock manifests, comm chatter, ration ledgers — to most people it is background hum. To Kestrel it is a continuous, half-readable sentence, and her job is finishing it before someone gets hurt.
