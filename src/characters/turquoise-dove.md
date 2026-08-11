@@ -10,6 +10,8 @@ aliases:
   - "Turquoise Dove"
 tags: [levril, higher-levril, dragon, meta-dimensional, cascade, constraint-literacy, mentor]
 description: "A Higher Levril, named by Material-layer witnesses for the turquoise iridescence of her dimensional signature — one of the Cascade's senior dragons, entrusted with cross-Concordant coordination and the patient work of teaching constraint literacy to those judged causally relevant enough to survive learning it."
+image: "turquoise-dove.jpg"
+image_alt: "An abstract field of turquoise and green iridescent light curling through a dark starfield, with no figure and no face"
 ---
 
 No two witnesses describe the same color. Survey logs call it teal, verdigris, storm-glass, the blue-green of a coral shallow lit from beneath. The name that stuck — the Turquoise Dove — was coined by a boundary station clerk who never saw the shape at all, only the field readout: a signature that settled, every time, into the same narrow band of harmonic distortion, gentler than any dragon's had a right to be.

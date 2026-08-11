@@ -9,6 +9,8 @@ aliases:
   - "The Honest Man of the Directorate"
 tags: [imperium, belt, bureaucracy, human, history, reform-movement]
 description: "An Imperium settlement-compliance officer three grades below anyone who could have stopped him, whose flatly accurate reports on Belt habitat conditions survived nineteen years of a system built to prevent exactly that."
+image: "osric-fenholt.jpg"
+image_alt: "A plain middle-aged man in a dark high-collared uniform seated at a paperwork desk, surrounded by stacked files and shelved records in a dim archive"
 ---
 
 Osric Fenholt held one of the least distinguished titles the Imperium's Belt Settlements Directorate had to offer — Assistant Deputy Viceroy, a post two full grades below anyone with actual standing to set policy — and spent nineteen years using it to file the only settlement condition reports in the Directorate's archive that said what was actually happening.

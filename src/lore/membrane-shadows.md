@@ -4,6 +4,8 @@ title: "Membrane Shadows: Gravitational Imprints from Adjacent Membranes"
 category: "Cosmology"
 tags: [membrane-shadows, gravitational-bleed, concordant-membranes, intermembrane-bleed, boundary-zone, post-11-manifold, shadow-beings]
 description: "Not every dark, person-shaped anomaly at a boundary zone has crossed over. A Membrane Shadow is gravitational bleed-through from a coherent mass on the far side of a narrowed Interval — the imprint of a being that never leaves its own universe to cast it."
+image: "membrane-shadows.jpg"
+image_alt: "A tall humanoid figure rendered as an absence of light rather than an object, standing before a window in an instrumented chamber"
 ---
 
 A figure can stand between a boundary-zone observer and the light, throw a full, edge-lit silhouette, and never once have crossed into that observer's universe to do it. Survey Corps calls the shape a **Membrane Shadow**. Nothing about the name is a metaphor.

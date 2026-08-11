@@ -4,6 +4,8 @@ title: "Tír Tairngire: The Harmonic Membrane"
 category: "Universes"
 tags: [tir-tairngire, tir-na-nog, filinesse, membrane-resonance, gravity-tunnel, meta-dimensional, celtic-union, conjunction]
 description: "A primary universe whose membrane sits close enough to Tír na nÓg's own Concordant to open a transient gravity tunnel on a predictable rhythm — whose native sapients cross during the window, which the Celtic Union has quietly called the Good People long before Survey Corps had a mechanism for any of it — and whose interior, glimpsed through that window, is the peaceful fields of light of Filinesse, where sound and light harmonize."
+image: "universes/tir-tairngire.jpg"
+image_alt: "Regular blue wave-fronts on the left meeting a broad gold field on the right, with a dark circular aperture open at the boundary between them"
 ---
 
 Every boundary zone Survey Corps has ever certified drifts, sooner or later, into something irregular. Tír na nÓg's neighbor across the gap is the one exception on record that keeps time instead.

@@ -8,6 +8,8 @@ status: Active
 aliases: []
 tags: [human, eden, investigations, junior-detective, season-1, undercover-pets.com]
 description: "Eden Civil Investigations Unit's tactical specialist: unbothered under pressure, and the one everyone calls first when a breach turns out to be physical rather than theoretical."
+image: "rosalind-vey.jpg"
+image_alt: "A woman in a grey tactical jumpsuit standing alert in a spacecraft corridor with her hands loose at her sides, crew working at consoles in the passage behind her"
 ---
 
 Rosalind Vey moves through zero-g the way most people walk down a hallway: without appearing to think about it. She trained in habitat tactical response before transferring to Eden's Civil Investigations Unit, and she has never entirely stopped treating a scene as a room that might still be dangerous.

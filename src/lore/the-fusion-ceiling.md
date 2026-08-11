@@ -4,6 +4,8 @@ title: "The Fusion Ceiling"
 category: "Technology"
 tags: [fusion, energy, technology, no-antimatter, frontier, frontier-transformation-protocols, ascent-javelin, infrastructure]
 description: "Why nuclear fusion is the top of the Concord's energy ladder — no antimatter reactors, no exotic power taps, and no need for them — and why the ceiling that is sufficient everywhere is still slow to raise on a frontier world."
+image: "the-fusion-ceiling.jpg"
+image_alt: "A muddy upland settlement of small prefabricated buildings with a compact cylindrical power unit at its centre, livestock penned nearby and mountains behind"
 ---
 
 Every era dreams about the power source after this one. The Concord's engineers stopped dreaming several centuries ago, not out of resignation, but because they did the arithmetic and went back to work.

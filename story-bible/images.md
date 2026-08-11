@@ -56,11 +56,23 @@ spells correctly and image models do not. Motifs: `rules`, `dissolution`, `none`
 ### Settings the prompt text cannot set
 
 - **Aspect ratio is a request field, not prose.** The orientation sentence at
-  the end of each prompt does *not* drive it — in the Firefly app it is a
-  dropdown defaulting to Auto, which will happily return a landscape portrait.
-  The scripts set it from the prompt's stated orientation (3:4 portraits,
-  16:9 lore, matching the four 1600×900 lore images already in the repo), and
-  `--next` prints which to choose by hand.
+  the end of each prompt does *not* drive it — in an app it is a dropdown that
+  defaults to Auto and will happily return a landscape portrait. **Everything
+  is 16:9**, character portraits included: `.character-portrait` crops to
+  16 / 9 with `object-fit: cover`, so a taller frame loses its edges rather
+  than scaling. The prompts still end "Portrait orientation." — that phrase is
+  now about *framing the subject*, not the frame's shape, and the scripts
+  ignore it in favour of the CSS. Delivered sizes: **1200×675 portraits,
+  1600px long edge lore.**
+- **Ban lettering in the prompt, every time.** As of 10 August every prompt
+  here carries *"no readable text, signage, insignia lettering or written
+  characters anywhere in frame"*. It was added because ten of the twelve
+  portrait prompts had no ban at all and the first run came back with
+  `DOMESTIC ASSIST`, `CASE #KV-8720`, `DOCKING BAY 4 | CREW MESS` and a
+  `GATE 14` — the failure the Prompt craft section below has warned about
+  since July. A *narrow* ban is not enough either: `galen.jpg` said "no
+  insignia lettering" and got station signage instead, because the model
+  honoured the letter of it.
 - **Generate large.** `import-image.ps1` resizes on the way in (~1200px
   portraits, ~1600px lore), so 2K costs nothing and leaves room to crop. 4K
   only costs more.
@@ -141,6 +153,21 @@ folder-copy away from travelling. **Never paste the key into a chat, a commit,
 or an issue** — if it ever lands in one, revoke it at the same URL and make a
 new one.
 
+**One more thing to settle once — PowerShell will refuse to run the `.ps1`
+steps as this machine is configured.** `Get-ExecutionPolicy -List` shows
+`CurrentUser` and `LocalMachine` both `Undefined`, which means Restricted, and
+Step 4 will fail with *"running scripts is disabled on this system"*. Two ways
+out, and the choice is yours because it is a security setting:
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned   # persistent
+powershell -ExecutionPolicy Bypass -File .\scripts\image-file.ps1   # per-run
+```
+
+`RemoteSigned` allows local scripts and still blocks unsigned downloaded ones.
+This affects `import-image.ps1` and `make-lore-cards.ps1` equally — anything
+in `scripts/` ending `.ps1`.
+
 ### Step 1 — see what is pending
 
 ```powershell
@@ -189,21 +216,34 @@ variation is the one. Browse `image-out\`, then:
 
 Prints the full plan — every source file against the target it would become —
 and changes nothing. **Always run this before the real thing.** Variation 1 is
-assumed; override per image:
+assumed; override per image (there are two by default, so `=1` or `=2` unless
+you passed `--variations`):
 
 ```powershell
-.\scripts\image-file.ps1 -Pick "lore-arilon=2","characters-naomi-kestrel=3" -WhatIf
+.\scripts\image-file.ps1 -Pick "lore-arilon=2","characters-naomi-kestrel=2" -WhatIf
 ```
 
-When the plan reads correctly, drop `-WhatIf`:
+**Expect to hold some back.** A run is judged image by image, and the manifest
+records what was *generated*, never that all of it is good — the first real
+run landed seventeen of twenty-three, with five portraits carrying readable
+signage and two missing the thing the entry is actually about. `-Skip` holds
+those; `-Only` files just the named ones:
 
 ```powershell
-.\scripts\image-file.ps1 -Pick "lore-arilon=2"
+.\scripts\image-file.ps1 -Skip "characters-jeeves","characters-galen" -WhatIf
+.\scripts\image-file.ps1 -Only "lore-arilon" -WhatIf
 ```
 
-That resizes each to convention through `import-image.ps1` (1200px portraits,
-1600px lore), files it under the right name in the right directory, and puts
-the lot on a new branch.
+Then drop `-WhatIf` when the plan reads correctly. That resizes each to
+convention through `import-image.ps1` (1200px portraits, 1600px lore), files
+it under the right name in the right directory, and puts the lot on a new
+branch — or use `-NoBranch` to leave them in the working tree.
+
+**What to look for before choosing.** Readable text anywhere in frame is the
+commonest failure and the easiest to miss on a contact sheet — zoom before
+deciding. Then: does it show what the *entry* is about, or only what the
+prompt literally said? Two of the first run's rejects were technically fine
+images of the wrong subject.
 
 ### Step 5 — the part no script does
 
@@ -248,7 +288,9 @@ than silently ignored.
 
 | Symptom | Cause |
 |---|---|
+| `running scripts is disabled on this system` | Execution policy is Restricted — see Step 0. Affects every `.ps1` in `scripts/`, not just this one |
 | `no Gemini API key` | Key not set, or `setx` was run and the window not reopened |
+| Readable text in the output | The prompt's lettering ban is missing or too narrow. Every prompt should end with the full "no readable text, signage, insignia lettering or written characters anywhere in frame" |
 | A 400 naming a field | Bad model id, unsupported size, or a prompt tripping a safety filter — the message says which |
 | `response carried no image` | Call succeeded, shape unexpected. The raw JSON is written beside the output |
 | `-WhatIf` plan looks shifted | Clipboard path only. Use `-Map`, or `--reset <name>` and re-serve |
@@ -284,56 +326,56 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 - **`naomi-kestrel.jpg`** — junior field investigator, Eden Civil Investigations;
   reads telemetry, manifests and comm chatter "as one continuous sentence."
-  > Cinematic portrait of a young woman analyst in a dim habitat operations room, upper body, focused expression lit by the glow of data readouts, practical dark uniform, science-fiction space-station interior, muted teal-and-amber palette, professional, no glamour styling. Portrait orientation.
+  > Cinematic portrait of a young woman analyst in a dim habitat operations room, upper body, focused expression lit by the glow of data readouts, practical dark uniform, science-fiction space-station interior, muted teal-and-amber palette, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 - **`rosalind-vey.jpg`** — tactical specialist, Eden Civil Investigations;
   ex-habitat tactical response, treats a scene as a room that might still be dangerous.
-  > Cinematic portrait of a composed woman in a practical tactical-response jumpsuit aboard a space habitat, upper body, alert and unbothered expression, subdued corridor lighting, science-fiction setting, desaturated palette, professional, no glamour styling. Portrait orientation.
+  > Cinematic portrait of a composed woman in a practical tactical-response jumpsuit aboard a space habitat, upper body, alert and unbothered expression, subdued corridor lighting, science-fiction setting, desaturated palette, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 - **`tamsin-reyes.jpg`** — undercover specialist; "whoever a room needs her to
   be," craft not instinct. Deliberately forgettable.
-  > Cinematic portrait of a woman with a neutral, unreadable expression in understated civilian clothing, upper body, softly lit habitat interior, science-fiction setting, muted palette, deliberately ordinary and approachable rather than striking, professional, no glamour styling. Portrait orientation.
+  > Cinematic portrait of a woman with a neutral, unreadable expression in understated civilian clothing, upper body, softly lit habitat interior, science-fiction setting, muted palette, deliberately ordinary and approachable rather than striking, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 - **`lorien-the-wanderer.jpg`** — freelance survey-and-salvage captain of the
   *Restless Verge*; weathered but disciplined.
-  > Cinematic portrait of a weathered independent starship captain, woman, upper body, wearing a worn flight jacket in the cockpit of a stripped-down long-range courier ship, self-reliant expression, warm instrument lighting, science-fiction frontier setting, gritty realistic palette, professional. Portrait orientation.
+  > Cinematic portrait of a weathered independent starship captain, woman, upper body, wearing a worn flight jacket in the cockpit of a stripped-down long-range courier ship, self-reliant expression, warm instrument lighting, science-fiction frontier setting, gritty realistic palette, professional, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 - **`osric-fenholt.jpg`** — Historical (2558–2621); Imperium-era Belt
   compliance clerk, "The Honest Man of the Directorate." Period, not modern.
-  > Cinematic portrait of a plain, serious middle-aged male bureaucrat in a severe archaic administrative uniform of a fallen space empire, upper body, seated at a paperwork desk, unremarkable and precise demeanor, muted sepia-and-grey period palette, dim archival lighting, historical science-fiction, no heroism or grandeur. Portrait orientation.
+  > Cinematic portrait of a plain, serious middle-aged male bureaucrat in a severe archaic administrative uniform of a fallen space empire, upper body, seated at a paperwork desk, unremarkable and precise demeanor, muted sepia-and-grey period palette, dim archival lighting, historical science-fiction, no heroism or grandeur, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 - **`wendell-albercombe.jpg`** — Detective Inspector, Eden; carries the boring
   caseload, complains constantly, solves cases over dinner. Suits the noir register.
-  > Cinematic noir portrait of a rumpled, world-weary male detective inspector in a slightly worn coat aboard a space habitat, upper body, tired but sharp expression, low-key dramatic lighting, science-fiction detective setting, desaturated palette, professional. Portrait orientation.
+  > Cinematic noir portrait of a rumpled, world-weary male detective inspector in a slightly worn coat aboard a space habitat, upper body, tired but sharp expression, low-key dramatic lighting, science-fiction detective setting, desaturated palette, professional, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 - **`asteria-the-sage.jpg`** — retired Star Captain, now leads a local
   Fellowship of Light chapter on a quiet planet. Deliberately spare page; a
   portrait should read as retirement, not command.
-  > Cinematic portrait of a serene older woman in simple contemplative robes standing at the doorway of a modest stone chapter house on a quiet rural world, upper body, weathered and amused expression, soft overcast daylight, science-fiction pastoral setting, muted natural palette, dignified and unhurried, no uniform, no insignia. Portrait orientation.
+  > Cinematic portrait of a physically strong older woman standing at the doorway of a modest stone chapter house on a quiet rural world, upper body, visibly muscular and broad through the shoulders and forearms with the build of someone who commanded and still works, sleeves pushed back, simple undyed robes worn loosely over a working body rather than draping it, weathered and amused expression, soft overcast daylight, science-fiction pastoral setting, muted natural palette, dignified and unhurried but plainly capable, not frail and not serene, no uniform, no insignia, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 - **`galen.jpg`** — Star Rangers liaison officer at a Celtic Union shuttle gate;
   minor character, correct and quietly decent.
-  > Cinematic portrait of a mid-career Star Rangers liaison officer in a plain service uniform standing at a planetary shuttle gate, upper body, courteous professional expression, overcast daylight through a terminal window, science-fiction setting, muted palette, no insignia lettering. Portrait orientation.
+  > Cinematic portrait of a mid-career Star Rangers liaison officer in a plain service uniform standing at a planetary shuttle gate, upper body, courteous professional expression, overcast daylight through a terminal window, science-fiction setting, muted palette, no insignia lettering, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 **Alien**
 
 - **`sethka-ru.jpg`** — Serephine Dunekin long-range scout. **Must read as
   clearly non-human** — light-scattering eye membranes, water-conservative
   build (the earlier mistake was a human in a headwrap).
-  > Cinematic portrait of a non-human humanoid alien long-range scout, upper body, with pale nictitating light-scattering eye membranes and lean desert-adapted features, wearing lightweight respiratory filtration gear, alien science-fiction reconnaissance outfit, cold high-UV desert-world lighting, otherworldly palette, clearly extraterrestrial anatomy, professional concept-art style. Portrait orientation.
+  > Cinematic portrait of a non-human humanoid alien long-range scout, upper body, with pale nictitating light-scattering eye membranes and lean desert-adapted features, wearing lightweight respiratory filtration gear, alien science-fiction reconnaissance outfit, cold high-UV desert-world lighting, otherworldly palette, clearly extraterrestrial anatomy, professional concept-art style, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 **AIs & non-corporeal — abstract emblem, no face**
 
 - **`jeeves.jpg`** — domestic-companion AI, Eden; kitchen-and-gossip competence.
-  > Abstract emblematic image representing a domestic household artificial intelligence: a warm stylized interface glyph over a tidy kitchen/hearth motif, soft ambient glow, minimalist science-fiction UI aesthetic, no human face, muted warm palette. Portrait orientation.
+  > Abstract emblematic image representing a domestic household artificial intelligence: a warm stylized interface glyph over a tidy kitchen/hearth motif, soft ambient glow, minimalist science-fiction UI aesthetic, no human face, muted warm palette, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 - **`reeves-eden.jpg`** — investigative-support AI, Eden bureau; same model as
   Threshold's Reeves, distinct enough to read as a separate deployment.
-  > Abstract emblematic image of an investigative-support artificial intelligence: a holographic evidence-analysis interface and case-file glyphs projected above a terminal, cool blue science-fiction UI aesthetic, no human face, clean and analytical. Portrait orientation.
+  > Abstract emblematic image of an investigative-support artificial intelligence: a holographic evidence-analysis interface and case-file glyphs projected above a terminal, cool blue science-fiction UI aesthetic, no human face, clean and analytical, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 - **`turquoise-dove.jpg`** — a Higher Levril known only by the turquoise
   iridescence of her dimensional signature. A field signature, not a dragon.
-  > Abstract ethereal image of a meta-dimensional presence known only by its harmonic signature: a gentle turquoise-and-verdigris iridescent field of light, coral-shallow blue-green tones, no defined creature shape, soft non-threatening luminosity, science-fiction otherworldly abstraction. Portrait orientation.
+  > Abstract ethereal image of a meta-dimensional presence known only by its harmonic signature: a gentle turquoise-and-verdigris iridescent field of light, coral-shallow blue-green tones, no defined creature shape, soft non-threatening luminosity, science-fiction otherworldly abstraction, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 ### 2. Lightroom / Photoshop — Dermot's hands only
 
@@ -548,55 +590,55 @@ Worth deciding before generating nine cards, not after.
   a recurring pattern (a witness who names a boundary truth, is discredited, and
   is vindicated only after departing). Must **not** read as a portrait of one
   figure, which is the whole misreading the entry exists to prevent.
-  > Abstract archival composition suggesting many separate accounts of the same recurring figure: overlapping translucent layers of indistinct robed silhouettes at different scales, none in focus and none dominant, receding into a pale ground, no face resolvable, muted parchment and grey-blue palette, contemplative rather than mystical, no readable text or lettering of any kind, science-fiction archive aesthetic. Landscape orientation.
+  > Abstract archival composition suggesting many separate accounts of the same recurring figure: overlapping translucent layers of indistinct robed silhouettes at different scales, none in focus and none dominant, receding into a pale ground, no face resolvable, muted parchment and grey-blue palette, contemplative rather than mystical, science-fiction archive aesthetic, no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
 
 - **`ascent-javelins.jpg`** — winged craft launched near-vertically, almost like
   a missile, surface to orbit. State the era or this defaults to a Shuttle photo.
-  > A slender winged orbital ascent craft climbing near-vertically from a planetary launch cradle into high thin atmosphere, seen from below and behind, exhaust plume tight and blue-white, distant curve of the horizon already visible above, far-future science-fiction spaceport infrastructure on the ground beneath, cold clear daylight, functional engineering aesthetic rather than sleek styling, no readable markings or insignia lettering. Landscape orientation.
+  > A slender winged orbital ascent craft climbing near-vertically from a planetary launch cradle into high thin atmosphere, seen from below and behind, exhaust plume tight and blue-white, distant curve of the horizon already visible above, far-future science-fiction spaceport infrastructure on the ground beneath, cold clear daylight, functional engineering aesthetic rather than sleek styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
 
 - **`embodied-cognition.jpg`** — a small embodied mind resolving what a vast
   systems mind cannot; the doctrine is to *pair* them, so the image should show
   both scales in one frame rather than choosing.
-  > A small utilitarian analytical robot chassis with one manipulator resting flat against a corridor bulkhead, foreground and sharply lit; behind and above it the vast dim architecture of a station management intelligence rendered as banks of quiet data surfaces stretching out of focus, far-future science-fiction interior, cool blue ambient glow against one warm working light on the robot, no human figures, no face, no readable text or labels. Landscape orientation.
+  > A small utilitarian analytical robot chassis with one manipulator resting flat against a corridor bulkhead, foreground and sharply lit; behind and above it the vast dim architecture of a station management intelligence rendered as banks of quiet data surfaces stretching out of focus, far-future science-fiction interior, cool blue ambient glow against one warm working light on the robot, no human figures, no face, no readable text or labels, no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
 
 - **`membrane-shadows.jpg`** — gravitational bleed-through: a full, edge-lit
   person-shaped silhouette cast by a mass that never crossed over. **Tone line
   applies hard here** — this must read as an unexplained physical imprint, not a
   threat approaching. Nothing is coming through.
-  > A tall humanoid silhouette standing in a boundary-observation chamber, rendered as an absence of light rather than an object — edges cleanly lit from behind, interior featureless and without detail, the shape casting no reflection and disturbing no dust, calm instrument-lit far-future science-fiction interior, cold blue-grey palette, still and unremarkable rather than menacing, no face, no eyes, no readable text. Landscape orientation.
+  > A tall humanoid silhouette standing in a boundary-observation chamber, rendered as an absence of light rather than an object — edges cleanly lit from behind, interior featureless and without detail, the shape casting no reflection and disturbing no dust, calm instrument-lit far-future science-fiction interior, cold blue-grey palette, still and unremarkable rather than menacing, no face, no eyes, no readable text, no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
 
 - **`the-fusion-ceiling.jpg`** — fusion is the top of the lawful energy ladder,
   and the frontier caveat is the interesting half: a rationed imported core
   running a water plant beside hand tools and draft animals. That contrast is a
   better image than a reactor hall, and it is the thing observers misread as
   poverty when it is sequencing.
-  > A compact sealed fusion power core on a concrete pad at the edge of an early frontier settlement, humming and immaculate, cables running to a modest water-treatment building; in the same frame, hand tools leaning against a fence and a working draft animal in a muddy paddock, low sun, far-future science-fiction colony at an early stage of buildout, muted earth palette, dignified and matter-of-fact rather than impoverished, no readable signage or lettering. Landscape orientation.
+  > A compact sealed fusion power core on a concrete pad at the edge of an early frontier settlement, humming and immaculate, cables running to a modest water-treatment building; in the same frame, hand tools leaning against a fence and a working draft animal in a muddy paddock, low sun, far-future science-fiction colony at an early stage of buildout, muted earth palette, dignified and matter-of-fact rather than impoverished, no readable signage or lettering, no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
 
 - **`who-governs-a-universe.jpg`** — a map, not a place: primary universe versus
   the Concordant Zones inside it, and three kinds of authority.
-  > Abstract diagrammatic cosmological illustration: one large luminous bounded volume containing several nested translucent regions of differing tint, with three distinct tiers of influence indicated by scale and elevation rather than by arrows or labels, dark field beyond, restrained gold-and-indigo palette, clean and schematic rather than nebulous, no readable text, numbers, or lettering anywhere. Landscape orientation.
+  > Abstract diagrammatic cosmological illustration: one large luminous bounded volume containing several nested translucent regions of differing tint, with three distinct tiers of influence indicated by scale and elevation rather than by arrows or labels, dark field beyond, restrained gold-and-indigo palette, clean and schematic rather than nebulous, no readable text, numbers, or lettering anywhere, no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
 
 - **`things-that-are-made.jpg`** — church-space overlay. The entry's argument is
   that the Archive uses the language of authorship and then disclaims the author.
   Avoid religious iconography; the register is *evidence of intent*, not worship.
-  > An immense structure of evident deliberate design seen at a scale that makes its purpose unreadable — vast regular geometry receding into mist, precise and unweathered, clearly built and clearly not by anyone present, a single small observing figure at great distance for scale, cold pale light, far-future science-fiction, restrained grey and bone palette, awed and sober rather than devotional, no symbols, no iconography, no readable text. Landscape orientation.
+  > An immense structure of evident deliberate design seen at a scale that makes its purpose unreadable — vast regular geometry receding into mist, precise and unweathered, clearly built and clearly not by anyone present, a single small observing figure at great distance for scale, cold pale light, far-future science-fiction, restrained grey and bone palette, awed and sober rather than devotional, no symbols, no iconography, no readable text, no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
 
 - **`kieme-visible-hand.jpg`** — church-space overlay. Devotional tradition
   claims to *see* the ledger kept; the entry's images are the harm that stops
   short, the door that holds. Depict the limit, not the harm.
-  > A heavy sealed pressure door holding, seen from the safe side, with visible damage stopping cleanly at its frame and none beyond it, one figure standing back from it unharmed and looking at it, far-future science-fiction station interior, low emergency lighting warming to normal at the edges of frame, quiet aftermath rather than crisis, no visible injury, no readable text or signage. Landscape orientation.
+  > A heavy sealed pressure door holding, seen from the safe side, with visible damage stopping cleanly at its frame and none beyond it, one figure standing back from it unharmed and looking at it, far-future science-fiction station interior, low emergency lighting warming to normal at the edges of frame, quiet aftermath rather than crisis, no visible injury, no readable text or signage, no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
 
 - **`universes/si-gaoithe.jpg`** — a second, unrelated membrane; high
   creative-entropy, **no predictable interval**, barely keeps a shape. The
   contrast with Tír Tairngire's regularity is the point, so this should look
   irregular where that one looks periodic. Existing file
   `lore/threnos-omega.jpg` is the precedent for a membrane portrait.
-  > An unstable universe-membrane visualised as a churning irregular field of shifting translucent surfaces with no repeating structure, folds forming and collapsing at different scales at once, sudden localised eddies of luminous air, deep field beyond, restless green-grey and pale gold palette, cosmological scale, no horizon and no recognisable objects, no readable text. Landscape orientation.
+  > An unstable universe-membrane visualised as a churning irregular field of shifting translucent surfaces with no repeating structure, folds forming and collapsing at different scales at once, sudden localised eddies of luminous air, deep field beyond, restless green-grey and pale gold palette, cosmological scale, no horizon and no recognisable objects, no readable text, no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
 
 - **`universes/tir-tairngire.jpg`** — the one boundary neighbour on record that
   *keeps time*: a transient gravity tunnel opening on a predictable rhythm.
   Regularity is the whole finding.
-  > A universe-membrane seen across a narrowed gap, its surface carrying a smooth regular periodic swell like a slow standing wave, and at one point a clean transient tunnel of clear space open through the interval, edges sharply defined and stable, deep cosmological field, warm gold light on the far side against cool blue on the near, orderly and rhythmic rather than turbulent, no figures, no readable text. Landscape orientation.
+  > A universe-membrane seen across a narrowed gap, its surface carrying a smooth regular periodic swell like a slow standing wave, and at one point a clean transient tunnel of clear space open through the interval, edges sharply defined and stable, deep cosmological field, warm gold light on the far side against cool blue on the near, orderly and rhythmic rather than turbulent, no figures, no readable text, no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
 
 **Added 2026-08-04, after the audit** — one more generated image, for the new
 planet page drafted the same day:
@@ -604,7 +646,7 @@ planet page drafted the same day:
 - **`planets/drithane.jpg`** — the crossing night is the planet's whole
   identity, and the custom of going dark to watch it is the human half of
   the frame. Slow sparks, not meteor streaks.
-  > A cold, high-altitude planetary landscape at night under an extraordinarily clear sky filled with slow, silent white-gold sparks of light drifting and fading at high altitude — soft brief glimmers, not fast meteor streaks. Below, a settled valley lies deliberately dark, its buildings unlit, faint warm light behind a few windows, snow-dusted grazing land and glasshouse roofs catching the skylight. Far-future science-fiction pastoral setting, cold blue night palette against the warm white-gold sparks, still and reverent rather than dramatic, no readable text or lettering. Landscape orientation.
+  > A cold, high-altitude planetary landscape at night under an extraordinarily clear sky filled with slow, silent white-gold sparks of light drifting and fading at high altitude — soft brief glimmers, not fast meteor streaks. Below, a settled valley lies deliberately dark, its buildings unlit, faint warm light behind a few windows, snow-dusted grazing land and glasshouse roofs catching the skylight. Far-future science-fiction pastoral setting, cold blue night palette against the warm white-gold sparks, still and reverent rather than dramatic, no readable text or lettering, no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
 
 **Also worth noting from the same audit:** two lore pages carry alt text that is
 thin rather than wrong and would fail the "describes what the file shows" test if

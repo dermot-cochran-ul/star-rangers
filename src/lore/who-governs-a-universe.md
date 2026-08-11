@@ -4,6 +4,8 @@ title: "Who Governs a Universe"
 category: "Cosmology"
 tags: [cosmology, cascade, worldwright, concordant, concordant-zone, concordant-principal, universal-authority, telearch, governance]
 description: "The two distinctions every Cascade primer eventually needs: a primary universe versus the Concordant Zones inside it, and Telearchs versus Concordant Principals versus Universal Authorities."
+image: "who-governs-a-universe.jpg"
+image_alt: "An abstract diagram of nested translucent spheres and rings drawn in gold against a dark starfield"
 ---
 
 Asked once to explain the Cascade, [Asteria the Sage](/star-rangers/characters/asteria-the-sage/) sighed and said, "Where do I even begin?" The Archive's answer, after long practice with the same question, is: begin with two distinctions, because nearly every confusion about the Cascade turns out to be one of them wearing a costume.

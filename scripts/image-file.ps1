@@ -55,6 +55,8 @@ param(
   [string]$From = "",
   [string[]]$Map,
   [string[]]$Pick,
+  [string[]]$Only,
+  [string[]]$Skip,
   [int]$Since = 24,
   [string]$Branch = "",
   [switch]$NoBranch,
@@ -140,6 +142,15 @@ if ((Test-Path $manifestPath) -and -not $From) {
   foreach ($e in $entries) {
     if ($e.PSObject.Properties.Name -contains 'error') {
       Write-Host "SKIP  $($e.key) - generation failed: $($e.error)" -ForegroundColor Yellow
+      continue
+    }
+    # -Only / -Skip exist because a run is judged image by image. Some come
+    # back usable and some do not, and the ones that do should not have to
+    # wait for the ones that need another pass - the manifest is a record of
+    # what was generated, never an assertion that all of it is good.
+    if ($Only -and $Only -notcontains $e.key) { continue }
+    if ($Skip -and $Skip -contains $e.key) {
+      Write-Host "SKIP  $($e.key) - held back by -Skip" -ForegroundColor Yellow
       continue
     }
     $n = if ($choice.ContainsKey($e.key)) { $choice[$e.key] } else { 1 }
