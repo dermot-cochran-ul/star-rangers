@@ -7,6 +7,7 @@ short: "A living being — human or animal — carrying physical cybernetic modi
 related:
   - "Smart Pet"
   - "The AI Safety Kernel"
+  - "Kernel-Compliant"
 tags: [cyborg, augmentation, regulation, technology, imperium, military-space-command, society]
 ---
 
