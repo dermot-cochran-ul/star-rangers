@@ -153,6 +153,21 @@ folder-copy away from travelling. **Never paste the key into a chat, a commit,
 or an issue** — if it ever lands in one, revoke it at the same URL and make a
 new one.
 
+**One more thing to settle once — PowerShell will refuse to run the `.ps1`
+steps as this machine is configured.** `Get-ExecutionPolicy -List` shows
+`CurrentUser` and `LocalMachine` both `Undefined`, which means Restricted, and
+Step 4 will fail with *"running scripts is disabled on this system"*. Two ways
+out, and the choice is yours because it is a security setting:
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned   # persistent
+powershell -ExecutionPolicy Bypass -File .\scripts\image-file.ps1   # per-run
+```
+
+`RemoteSigned` allows local scripts and still blocks unsigned downloaded ones.
+This affects `import-image.ps1` and `make-lore-cards.ps1` equally — anything
+in `scripts/` ending `.ps1`.
+
 ### Step 1 — see what is pending
 
 ```powershell
@@ -201,21 +216,34 @@ variation is the one. Browse `image-out\`, then:
 
 Prints the full plan — every source file against the target it would become —
 and changes nothing. **Always run this before the real thing.** Variation 1 is
-assumed; override per image:
+assumed; override per image (there are two by default, so `=1` or `=2` unless
+you passed `--variations`):
 
 ```powershell
-.\scripts\image-file.ps1 -Pick "lore-arilon=2","characters-naomi-kestrel=3" -WhatIf
+.\scripts\image-file.ps1 -Pick "lore-arilon=2","characters-naomi-kestrel=2" -WhatIf
 ```
 
-When the plan reads correctly, drop `-WhatIf`:
+**Expect to hold some back.** A run is judged image by image, and the manifest
+records what was *generated*, never that all of it is good — the first real
+run landed seventeen of twenty-three, with five portraits carrying readable
+signage and two missing the thing the entry is actually about. `-Skip` holds
+those; `-Only` files just the named ones:
 
 ```powershell
-.\scripts\image-file.ps1 -Pick "lore-arilon=2"
+.\scripts\image-file.ps1 -Skip "characters-jeeves","characters-galen" -WhatIf
+.\scripts\image-file.ps1 -Only "lore-arilon" -WhatIf
 ```
 
-That resizes each to convention through `import-image.ps1` (1200px portraits,
-1600px lore), files it under the right name in the right directory, and puts
-the lot on a new branch.
+Then drop `-WhatIf` when the plan reads correctly. That resizes each to
+convention through `import-image.ps1` (1200px portraits, 1600px lore), files
+it under the right name in the right directory, and puts the lot on a new
+branch — or use `-NoBranch` to leave them in the working tree.
+
+**What to look for before choosing.** Readable text anywhere in frame is the
+commonest failure and the easiest to miss on a contact sheet — zoom before
+deciding. Then: does it show what the *entry* is about, or only what the
+prompt literally said? Two of the first run's rejects were technically fine
+images of the wrong subject.
 
 ### Step 5 — the part no script does
 
@@ -260,7 +288,9 @@ than silently ignored.
 
 | Symptom | Cause |
 |---|---|
+| `running scripts is disabled on this system` | Execution policy is Restricted — see Step 0. Affects every `.ps1` in `scripts/`, not just this one |
 | `no Gemini API key` | Key not set, or `setx` was run and the window not reopened |
+| Readable text in the output | The prompt's lettering ban is missing or too narrow. Every prompt should end with the full "no readable text, signage, insignia lettering or written characters anywhere in frame" |
 | A 400 naming a field | Bad model id, unsupported size, or a prompt tripping a safety filter — the message says which |
 | `response carried no image` | Call succeeded, shape unexpected. The raw JSON is written beside the output |
 | `-WhatIf` plan looks shifted | Clipboard path only. Use `-Map`, or `--reset <name>` and re-serve |
