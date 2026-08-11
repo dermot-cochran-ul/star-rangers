@@ -9,7 +9,7 @@ const path = require("path");
 // giscus needs the numeric repo/category IDs (not just names) - get them by
 // installing the giscus app on that repo and running its config wizard at
 // https://giscus.app, then paste the generated data-repo-id/data-category-id
-// pairs in below. See README.md's "Discussion forum" section for the full
+// pairs in below. See TECHNICAL-README.md's "Discussion forum" section for the full
 // category setup this maps onto.
 //
 // Two mechanisms let a cPanel clone point at a DIFFERENT comments repo than

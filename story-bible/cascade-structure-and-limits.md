@@ -645,7 +645,6 @@ words. No edit needed.
 is *not* a Cascade tier. Settled the same day: the Council alone sits below the
 Telearchs, while a Universal Authority - Council plus presiding seat - is not
 outranked by them - the two are incomparable, neither outranking the other. No
-
 page needs changing.
 
 **Tension, not conflict — the Hyperomnium.** `hyperomnium.md` calls it "the
@@ -667,11 +666,37 @@ Harmonarch/Principal placement, prophecy-as-intent, destiny-as-openness, the
 weaker version of free will, Levrils influencing rather than compelling, and the
 sight/agency split. Each is new material the corpus does not currently address.
 
-**Sweep still needed before any of this graduates.** Nothing has been checked for
-existing prophetic or fatalistic phrasing in `src/seasons/` or `src/codex/` — if a
-published chapter has a character treat a prophecy as a prediction of fixed
-future, that now reads as a tradition's position rather than the setting's, and
-should be verified as intentional rather than left ambiguous.
+**Sweep run 2026-08-11: clean — nothing needs changing.** Every occurrence of
+prophetic or fatalistic vocabulary in `src/seasons/` and `src/codex/` (prophecy,
+fate, destiny, doom, foresight, omen, vision, providence, inevitability and
+kin) was read in context. No published page treats a prophecy as a prediction
+of fixed future in the record's own voice. What the corpus actually does, in
+three registers, all compatible with the settled positions above:
+
+- **The prose refuses fatalism explicitly.** S01E02C05: the team "did not move
+  the body and call the failure fate — the way the folk around the causeway
+  called every unexplained loss a Court thing and left it there, unexamined";
+  S01E03C01: a file precise enough that no inheritor "would be able to pretend
+  it had been either malice or fate"; S06E01C01: "She was not a woman given to
+  visions"; S01E00C02: "not a vision, nothing so generous as an image".
+- **Fatalistic readings are held by attributed in-universe voices in the
+  Codex**, per the lore/codex boundary: a drunk sailor's "ill omens" in the
+  Dún Rí chronicle; the "Levrilic influence or divine providence" theory the
+  Tír na nÓg survey note records as popular and declines to confirm or rule
+  out; Brother Daire's hagiography of Saint Aoife, whose thorn-well vision
+  Union scholars read as an early unrecognised Levril encounter (a presence
+  encountered, not a future seen); and the Ballad of the Stars entry, which
+  polices its own lyric — "not a claim that the song foresaw anything. The
+  band is explicit that it did not."
+- **The Elijah/Jehu material already runs on prophecy-as-commission** — Jehu
+  "anointed in secret to be the hand the prophet's commission had named" is
+  declared intent naming an instrument, not a window onto a fixed sequence,
+  which is the settled model avant la lettre.
+
+So the corpus behaves as these positions require without having been told to.
+The predestinarian codex entries proposed in the policy section below would be
+the first pages to *argue* the other reading, and would arrive into a corpus
+with no accidental support for it.
 
 ---
 

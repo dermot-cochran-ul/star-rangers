@@ -13,7 +13,7 @@
 //
 // --repo targets a comments repo other than giscus.js's own default (e.g.
 // Star-Rangers/churchspace-site-comments for a domain with its own separate
-// forum - see src/_data/giscus.js's GISCUS_REPO comment and README.md's
+// forum - see src/_data/giscus.js's GISCUS_REPO comment and TECHNICAL-README.md's
 // "Discussion forum" section). It only ever prints - never --write, since
 // giscus.js's default is a single shared repo and a non-default one's IDs
 // belong in that clone's own deploy.conf (GISCUS_REPO_ID/GISCUS_CATEGORY_*_ID),
@@ -101,7 +101,7 @@ async function main() {
   const missing = wantedNames.filter((wanted) => !foundNames.has(wanted));
   if (missing.length) {
     console.log("");
-    console.log(`Not created on GitHub yet (see README's "Discussion forum" setup steps): ${missing.join(", ")}`);
+    console.log(`Not created on GitHub yet (see TECHNICAL-README.md's "Discussion forum" setup steps): ${missing.join(", ")}`);
   }
 
   if (repoOverride) {

@@ -181,6 +181,18 @@ chapter images would mostly be four views of the same room.
 - **State the era**, or the setting defaults to contemporary Earth.
 - Small text artifacts can be fixed in-session with a targeted select-and-blur
   rather than a re-roll (worked on a garbled flight-suit name tape).
+- **Generate 4, keep 1.** Vary the seed between attempts, not the prompt;
+  change the prompt only when the whole batch misses.
+- **A generator has no memory between frames.** "The same rabbit" means
+  nothing to it; series continuity must be carried as literal attributes in
+  every prompt — coat, ear carriage, crockery, light direction — and any trait
+  the model defaults against (a lop's ears) belongs in the negative as well as
+  the body. Learned on the bubochka pair.
+- **Never name an actor or a real person** — describe features and bearing;
+  generators refuse or mangle likenesses.
+- **Characters belong in a place, not against a gradient** — no flat studio
+  backdrops, no glamour lighting; the 13-file stock-headshot cluster in Open
+  work 3 is the cautionary example.
 
 ### Auditing
 
@@ -480,6 +492,18 @@ below are ready to paste; add `image`/`image_alt` after generating.
   iridescence of her dimensional signature. A field signature, not a dragon.
   > Abstract ethereal image of a meta-dimensional presence known only by its harmonic signature: a gentle turquoise-and-verdigris iridescent field of light, coral-shallow blue-green tones, no defined creature shape, soft non-threatening luminosity, science-fiction otherworldly abstraction, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
+**Replacement decided — replace, not upscale (Dermot's ruling, 2026-08-11; see
+Open work 2).** Dormant by design while the old file exists — delete it to arm
+the entry, per the standing pipeline rule.
+
+- **`agent-barsik.jpg`** — currently 512×1024. Undercover Pets Detective
+  Agency: black cat, station office, complete deadpan — everyone assumes he is
+  the mascot, and the image must not wink. The 28 July attempt was right on
+  pose and wrong on the lettering ban (readable binder spines, papers, and
+  collar tag); the ban is written into the prompt below. The rejected 28 July attempt is recorded in
+  `image-prompts.md` § 3.
+  > A black cat seated squarely on an untidy stack of printed paperwork on an office desk, wearing a small worn plain metal disc on his collar. Institutional station office behind him — filing, terminals, fluorescent light. He is looking directly at the viewer with complete composure, entirely unbothered, as though he has been interrupted rather than caught. Photographic, warm practical lighting, no whimsy and no costume beyond the badge. No text, no labels, no writing on any surface; binder spines and paperwork blank; the collar tag plain and unengraved; no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
+
 ### 2. Lightroom / Photoshop — Dermot's hands only
 
 No spot-heal, upscaler, or compositing exists in-session. Dimensions
@@ -490,18 +514,28 @@ sensor-dust blemish in the sky at ~53% across, 40% down; the known main-body
 Tamron artifact. Same heal recipe as the Kenya 2025 raws. Worth re-checking
 other sky-heavy frames from that body while in there.
 
-**Under-spec, needs Super Resolution** (content is correct, files are small):
+**Under-spec — resolved 2026-08-11 (Dermot's ruling): replace, not upscale.**
+Super Resolution is off for this set, which ends the two-remedies-one-problem
+conflict `firefly-prompts.md`'s header box recorded (that file has since
+been retired, 2026-08-11, its remaining content absorbed here and into
+`image-prompts.md`). Re-measuring for the
+ruling also found the 2026-07-24 table half stale: four of the six portrait
+files were already replaced at spec (1200×675) — `tissadelle-shepherd.jpg` and
+`bubochka.jpg` by 2026-08-06, `bubochka-alert.jpg` and `dorian-calloway.jpg`
+recorded done 29 Jul in `image-prompts.md` § 3. What actually remains, and
+where each goes:
 
-| File | Current |
-|---|---|
-| `characters/tissadelle-shepherd.jpg` | 768×1022 — major character, do first |
-| `characters/agent-barsik.jpg` | 512×1024 |
-| `characters/bubochka.jpg`, `bubochka-alert.jpg` | 512×1024 |
-| `characters/aldera/field-photo-03.jpg`, `-04.jpg` | 512×1120 |
-| `lore/prismere-*` / `prismeri-*` — **11 files** | all 768×1152 |
+| File | Current | Route |
+|---|---|---|
+| `characters/agent-barsik.jpg` | 512×1024 | regenerate — prompt now in Open work 1 |
+| `characters/aldera/field-photo-03.jpg`, `-04.jpg` | 512×1120 — **PNG data under a .jpg extension** | re-crop from Dermot's own originals — see the Aldera note below; his hands, stays here |
+| `lore/prismere-*` / `prismeri-*` — 11 files | 768×1152 | regenerate — prompts now in Open work 5 |
+| `lore/prismere-root-mat-network.jpg` | 773×1152 | regenerate with the set — Open work 5 |
 
-The Prismere block is internally consistent; upscale all eleven or none, since
-a half-upscaled series looks worse than a uniformly small one.
+The old all-or-none rule carries over to replacement: the Prismere set
+regenerates as one batch or not at all, so the series stays internally
+consistent. Every migrated entry is dormant until its old file is deleted, per
+the standing pipeline rule — regeneration stays a deliberate act.
 
 **Softness** — may be re-shoots rather than edits; sharpening only goes so far
 on zoom-smear: `lore/highland-summit-snowfields.jpg`,
@@ -512,8 +546,10 @@ set now doubles as Órla Shepherd's home landscape, so it earns attention.
 **Composite / crop** — `lore/highland-sentinel-lizard.jpg` (1168×880): creature
 composited onto the same plate as `highland-rock-spires.jpg`; cutout edges are
 visibly soft beside the plain version. Needs mask refinement plus a light
-colour/grain match. `lore/noogenic-seeding-system.jpg` (1200×614): unusually
-short and wide for a lore image; re-crop or regenerate.
+colour/grain match; a creature-element prompt for the rebuild is recorded in
+`image-prompts.md` § 2. `lore/noogenic-seeding-system.jpg` (1200×614): unusually
+short and wide for a lore image; regeneration decided — its replacement
+prompt is in Open work 5, dormant until the old file is deleted.
 
 **Verify then leave alone** — `lore/trigrian.jpg`: blown highlights on the three
 suns, almost certainly intentional for a trinary-star world. Noted so a future
@@ -522,6 +558,19 @@ audit doesn't "fix" it.
 **Your camera, not a generator** — `lore/saltvik.jpg` is still a plain text
 card while its sibling Saltmere entries have two photographs each; the Knarr
 Line's Nordic-heritage coastal world wants a real cold-coast frame.
+
+**Aldera gallery (`field-photo-03`/`-04`) — re-crop, don't generate** (moved
+from the retired `firefly-prompts.md` § D). `field-photo-01`/`-02` read as
+photographs of a real kitten in a boat; generated frames in the same gallery
+will show against them. Prefer re-cropping Dermot's own originals — the alt
+text describes a tabby-and-white kitten among yellow flowers, and beside a
+blue flower; if those frames exist on the F: drive this is a crop job, not a
+generation job. Second choice: retire 03 and 04 and run the gallery with two.
+If generation is ever chosen anyway, match 01/02's look rather than the usual
+concept-art register: candid close-up pet photography, tabby-and-white kitten
+with blue eyes, outdoors among yellow wildflowers (and again beside a single
+blue flower), late afternoon sunlight, shallow depth of field, natural colour.
+Portrait 3:4, 1200px.
 
 ### 3. Deferred by choice
 
@@ -556,7 +605,7 @@ boats), two further rings canted steeply across it, a tall central spire on
 spokes, a Union-flag tram, and Earth and the Moon behind.
 
 **Two generator defects, recorded not fixed** (full detail in
-`firefly-prompts.md`):
+`image-prompts.md` § 3):
 
 1. **1408×768, under the ~1600px lore standard** — `eden-space-habitat.jpg` is
    1600×900 for comparison. Not upscaled: interpolation would add pixels, not
@@ -785,6 +834,83 @@ tightened — `predatory-entities.jpg` (*"Blurry human arms"*) and
 `teleportation-limitations.jpg` (*"Defocused luminous colour stripes"*). Both are
 accurate as far as they go; neither is a defect. Flagged so a future audit
 doesn't re-derive them.
+
+#### Prismere/Prismeri replacement set — replace, not upscale (Dermot's ruling, 2026-08-11)
+
+Twelve entries, migrated from `firefly-prompts.md` §§ A–B on 2026-08-11 — the
+file has since been retired, so **this is the only copy**, each entry carrying
+its divergence note in its description. See Open work 2 for the ruling. Dormant while the old files exist; the set regenerates **all together
+or not at all** (the all-or-none rule carried over from the upscale plan), and
+each prompt varies the *light source* rather than the adjective — that
+divergence is the whole point of replacing instead of upscaling, since the old
+set repeated one jellyfish-and-crystal-spire motif across eight distinct named
+locations.
+
+- **`prismere-orbital-vista.jpg`** — the establishing shot; was a creature
+  portrait, becomes the wide vista whose point is the crowded sky. Landscape
+  16:9, 1600px wide.
+  > Silicate-carbon biosphere: living tissue built from glass and crystal rather than wood and chitin. Painterly science-fiction concept art, high detail, naturalistic rather than decorative. Wide high-altitude vista of a crystalline world at night seen from a ridge. A dense planetary ring plane cuts across the sky at a steep angle, with two neighbouring ringed worlds visible as discs rather than points, and seven small moons scattered at varying distances. Far below, the crystalline forest canopy glows faintly in shifting colour washes, bright enough to read the terrain by. A single armoured, spike-shelled ground grazer in the near foreground gives scale against the enormous sky. The land is lit from below by the forest, and from above by ringlight. Cold, vast, quiet. No text, no lettering, no human figures, no cartoon, no watermark, no oversaturated neon, no generic sci-fi cityscape. Landscape orientation.
+
+- **`prismere-glasswood-grove.jpg`** — light caught and re-emitted; daylight,
+  botanical clarity. Portrait 3:4, 1600px tall.
+  > Silicate-carbon biosphere: living tissue built from glass and crystal rather than wood and chitin. Painterly science-fiction concept art, high detail, naturalistic rather than decorative. A stand of slow-growing trees with translucent crystalline bark and broad glass-like leaves, in daylight under a banded gas giant low on the horizon. The leaves work as lenses: each catches the pale daylight and re-emits it as a soft colour wash along its own length, so the foliage glows more brightly than the sky that feeds it. Sunlight refracts through the canopy into scattered spectral patches on the forest floor. Botanical clarity, closer to a naturalist's plate than a fantasy scene. No text, no lettering, no human figures, no cartoon, no watermark, no oversaturated neon, no generic sci-fi cityscape. Portrait orientation.
+
+- **`prismere-flowering-glasswood.jpg`** — the same trees in flower at night;
+  the deliberate pair to the grove, not a duplicate. Portrait 3:4, 1600px tall.
+  > Silicate-carbon biosphere: living tissue built from glass and crystal rather than wood and chitin. Painterly science-fiction concept art, high detail, naturalistic rather than decorative. The same crystalline forest at full night, in flower. Translucent blossoms open along the branches, each lit from within in warm amber and pale rose, the only warm colour in a cold blue-green scene. Small many-legged foraging animals move across the ground beneath, their shells catching the blossom light. Intimate scale, low viewpoint, shallow depth of field. No text, no lettering, no human figures, no cartoon, no watermark, no oversaturated neon, no generic sci-fi cityscape. Portrait orientation.
+
+- **`prismere-luminous-towers.jpg`** — lit from within by a shared root; the
+  inhabited image of the set, no drifting jellyfish. Portrait 3:4, 1600px tall.
+  > Silicate-carbon biosphere: living tissue built from glass and crystal rather than wood and chitin. Painterly science-fiction concept art, high detail, naturalistic rather than decorative. A loose colony of tapering mineral towers rising from a forest floor, each lit from deep inside with amber light that is brightest at the base and fades upward, revealing they are fed by a shared root network under the ground rather than each glowing on its own. Irregular spacing, varied heights, organic rather than architectural. Dwellings have been shaped into the towers' lower structure — subtle, load-bearing, easy to miss at first glance. No text, no lettering, no human figures, no cartoon, no watermark, no oversaturated neon, no generic sci-fi cityscape. Portrait orientation.
+
+- **`prismere-glass-spires.jpg`** — no light of its own; the one image in the
+  set that is not glowing. Portrait 3:4, 1600px tall.
+  > Silicate-carbon biosphere: living tissue built from glass and crystal rather than wood and chitin. Painterly science-fiction concept art, high detail, naturalistic rather than decorative. Tall fused-silica spires on a bare high-elevation ridge, far above the tree line, with no glowing forest anywhere near them. These structures produce no light of their own — they are dark glass, visible only as silhouettes and as thin lattice veins catching starlight from behind. A spiral galaxy is clearly visible edge-on in the black sky above. Stark, cold, mineral. The contrast with the luminous lowlands is the subject. No text, no lettering, no human figures, no cartoon, no watermark, no oversaturated neon, no generic sci-fi cityscape. Portrait orientation.
+
+- **`prismere-driftjellies.jpg`** — the aerial ecosystem; the air itself is the
+  subject. Landscape 4:3, 1600px wide.
+  > Silicate-carbon biosphere: living tissue built from glass and crystal rather than wood and chitin. Painterly science-fiction concept art, high detail, naturalistic rather than decorative. Translucent gas-bladder animals drifting high on a thermal in a dense, particulate-thick sky, seen from below and slightly to the side. They trail long luminous feeding tendrils that filter spore and dust from the air. The air itself is visibly thick — hazy, full of suspended matter, with light shafting through it. A golden ring system arcs behind them. The animals are unhurried and harmless. Low gravity is evident in how slowly everything moves. No text, no lettering, no human figures, no cartoon, no watermark, no oversaturated neon, no generic sci-fi cityscape. Landscape orientation.
+
+- **`prismere-umbral-ray.jpg`** — the predator and the tonal outlier: unpleasant
+  for a beat before you work out why. Landscape 16:9, 1600px wide.
+  > Silicate-carbon biosphere: living tissue built from glass and crystal rather than wood and chitin. Painterly science-fiction concept art, high detail, naturalistic rather than decorative. A large silent gliding predator with a broad, taut, biomechanical-looking wing structure, riding a thermal at dusk in a dim sky. Seen from below and behind at a distance, unaware of the viewer, hunting. Below and far off, a drifting colony of luminous gas-bladder animals it has not yet reached. Darker, colder and more sparse than the rest of the world's imagery — muted greys and deep blues, almost no bioluminescence in frame. Silence and intent. No text, no lettering, no human figures, no cartoon, no watermark, no oversaturated neon, no generic sci-fi cityscape. Landscape orientation.
+
+- **`prismere-twilight-lattice.jpg`** — the sky phenomenon; geometry, not
+  aurora, and the one most likely to go wrong. If a batch comes back with
+  curtains and ribbons, add *"technical diagram, ruled lines, geometric
+  construction, protractor angles"* and push harder. Portrait 3:4, 1600px tall.
+  > Silicate-carbon biosphere: living tissue built from glass and crystal rather than wood and chitin. Painterly science-fiction concept art, high detail, naturalistic rather than decorative. Night sky above a crystalline landscape, dominated by the sky itself: faint, mathematically precise geometric figures traced across the whole visible hemisphere — straight lines, clean arcs, closed polygons, at exact angles, like a drafted diagram rendered in pale light. This is geometry, not aurora: no curtains, no billowing, no organic drift. The figures are thin, exact, and unmistakably constructed. The dark landscape below is a low silhouette, present only to give the sky something to sit above. No text, no lettering, no human figures, no cartoon, no watermark, no oversaturated neon, no generic sci-fi cityscape. Portrait orientation.
+
+- **`prismeri-first-wings.jpg`** — the first life stage: an adult, not a child.
+  Lore image, not a character portrait — the 16:9 portrait rule does not apply.
+  Portrait 3:4, 1600px tall.
+  > Sapient alien people, silicate-carbon physiology, winged humanoid but clearly not human — proportions, joint structure and head shape all wrong for human in specific ways. Dignified, intelligent bearing. Concept-art character study, full or three-quarter figure, in an environment. Slender, light-boned winged figure with translucent gossamer wing membranes and a soft, matte, still-hardening exoskeleton in grey and violet tones. Built for agility in tight spaces rather than power — narrow frame, long limbs, low mass. Standing alert in a crystalline forest clearing at night, mid-scouting, a dark moon and a distant ringed planet above. An adult, not a child — composed, competent, unhurried. No text, no lettering, no cartoon, no watermark, no oversaturated neon. Portrait orientation.
+
+- **`prismeri-full-wings.jpg`** — the second stage; the sensory tendrils are
+  the character. Also the hero of `src/lore/prismeri.md`, so keep the subject
+  clear of the top and bottom thirds for the hero crop. Portrait 3:4, 1600px
+  tall.
+  > Sapient alien people, silicate-carbon physiology, winged humanoid but clearly not human — proportions, joint structure and head shape all wrong for human in specific ways. Dignified, intelligent bearing. Concept-art character study, full or three-quarter figure, in an environment. The same species after an irreversible metamorphosis: hardened gold-and-blue chitin plating in place of soft exoskeleton, heavier and broader through the shoulders, with strong load-bearing wings built for sustained high-altitude flight. Long motile sensory tendrils grow from the skull ridge, dense with visible crystalline structures. Standing among crystalline flora beneath a banded planet, head slightly raised, tendrils extended — reading something in the sky that is not visible in the frame. No text, no lettering, no cartoon, no watermark, no oversaturated neon. Portrait orientation.
+
+- **`prismeri-lattice-gathering.jpg`** — two forms, one people, no hierarchy;
+  the hardest image in the set. Equals — no looking-up-at, no deference.
+  Landscape 4:3, 1600px wide.
+  > Sapient alien people, silicate-carbon physiology, winged humanoid but clearly not human — proportions, joint structure and head shape all wrong for human in specific ways. Dignified, intelligent bearing. Concept-art character study, full or three-quarter figure, in an environment. Two individuals of the same alien species facing each other in conversation: one slender with gossamer wings and soft grey-violet exoskeleton, one heavier with gold-and-blue plating and long sensory tendrils. The size and structural difference between them is obvious at a glance, but they are clearly kin — same head structure, same stance, meeting as equals rather than as senior and junior. Above them, precise geometric figures traced across the night sky. Luminous drifting fauna at a distance. No text, no lettering, no cartoon, no watermark, no oversaturated neon. Landscape orientation.
+
+- **`prismere-root-mat-network.jpg`** — the twelfth file: generated 29 Jul 2026
+  at 773×1152 with the *legacy* preamble (see `image-prompts.md` § 3), so it
+  faithfully continues the old motif; regenerate with the set. The subject is
+  the buried network, not the towers. Portrait 3:4, 1600px tall.
+  > Silicate-carbon biosphere: living tissue built from glass and crystal rather than wood and chitin. Painterly science-fiction concept art, high detail, naturalistic rather than decorative. A shared luminous root-mat network beneath a colony of mineral lumenspire towers at night, seen low to the ground: veins of warm amber light running through translucent crystalline soil, converging toward the tower bases and brightest where they feed them, the glow fading upward along each spire. The buried network is the subject; the towers stand at the edge of frame. No text, no lettering, no human figures, no cartoon, no watermark, no oversaturated neon, no generic sci-fi cityscape. Portrait orientation.
+
+**Also decided, independent of the Prismere batch** (moved from the retired
+`firefly-prompts.md` § E; dormant until the old file is deleted):
+
+- **`noogenic-seeding-system.jpg`** — currently a 1200×614 banner crop, a
+  generic starfield; the entry is about a mind compressed into a seed that
+  starts a universe, and the seed should be visible in the image. Landscape
+  4:3, 1600px wide.
+  > A vast field of stars and nebulae, deep and layered, with a sense of enormous distance — and at its centre something small, dense and structured: a compact point of organised light with visible internal architecture, clearly not a star. The scale relationship is the subject: something very small carrying the information a very large thing will be built from. Cosmological, contemplative, no figures, no text, no lettering. Landscape orientation.
 
 ### 6. Images that should not stay — audited 2026-08-10
 

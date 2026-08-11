@@ -91,8 +91,9 @@ const DEFAULT_MODEL = 'gemini-3.1-flash-image';
 // band through the upper third and most of the frame is thrown away. That is
 // a defect the corpus already carries - the surviving 512x1024 and 768x1022
 // files are being sliced exactly that way, which is part of why they read
-// badly - and it was recorded in story-bible/firefly-prompts.md on 28 July
-// 2026 after someone checked the CSS. Generating at 3:4 would have reproduced
+// badly - and it was recorded on 28 July 2026 after someone checked the CSS
+// (originally in story-bible/firefly-prompts.md, since retired - the rule now
+// lives in images.md). Generating at 3:4 would have reproduced
 // it twelve more times.
 //
 // Character portraits therefore deliver 1200x675, which is what

@@ -33,7 +33,7 @@
 # free here.
 #
 # INSTALL: one crontab line per clone, per cPanel account. See the repo
-# README's "Automatic deployment from cron" section for the walkthrough,
+# TECHNICAL-README.md's "Automatic deployment from cron" section for the walkthrough,
 # including which account each domain lives on.
 #
 #   */10 * * * * /bin/bash "$HOME/repositories/<checkout-dir>/scripts/cpanel-autopull.sh"

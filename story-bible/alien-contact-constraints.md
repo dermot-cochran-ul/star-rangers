@@ -21,12 +21,19 @@ silent I've said so rather than filling it in.
 | **Federation first contact — "decades after the charter"** | **~2750s–2780s** | `federation-of-sentient-beings` |
 | Story present | 2826 | `year-zero` |
 
-**One conflict to resolve before you write.** Your framing was "late MSC, early
-Star Rangers era." `federation-of-sentient-beings` says first contact came
-"decades after the Rangers' 2723 UCSD charter" — which puts it a full generation
-*after* the MSC ended, not late in it. Either the entry moves or the framing
-does. I'd keep the entry: a post-charter contact is the stronger story, because
-it makes the charter itself the trigger rather than a coincidence.
+**Resolved 2026-08-11, Dermot's ruling: the entry stays; the framing moves.**
+The original framing was "late MSC, early Star Rangers era";
+`federation-of-sentient-beings` says first contact came "decades after the
+Rangers' 2723 UCSD charter" — a full generation *after* the MSC ended, not late
+in it — and that entry is kept as written. First contact is therefore settled
+as post-charter (~2750s–2780s), which is what the rest of canon already
+assumed: the Celtic Union's re-contact is "within the last generation", the
+Concord's contact protocols date to 2790, and the MSC-era Eden event is a
+discovery classified, never a contact made (verified across `src/` the same
+day — the late-MSC framing appeared nowhere but this note). Consequences for
+the unwritten prose: §5's charter-as-trigger reading is the settled frame, and
+§4c's MSC material is background on why contact *hadn't* happened, not a
+description of the contact era.
 
 ---
 
