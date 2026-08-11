@@ -115,8 +115,9 @@ function parseArgs(argv) {
     else if (a === '--next') o.mode = 'next';
     else if (a === '--generate') o.mode = 'generate';
     else if (a === '--all') o.mode = 'all';
-    else if (a === '--only') o.only = String(argv[++i] || '').trim();
+    else if (a === '--only') o.only = String(argv[++i] || '').split(',').map((s) => s.trim()).filter(Boolean);
     else if (a === '--reset') { o.mode = 'reset'; o.reset = argv[i + 1] && !argv[i + 1].startsWith('--') ? argv[++i] : null; }
+    else if (a === '--reject') { o.mode = 'reject'; o.reject = String(argv[++i] || '').split(',').map((s) => s.trim()).filter(Boolean); }
     else if (a === '--variations') o.variations = parseInt(argv[++i], 10);
     else if (a === '--model') o.model = String(argv[++i] || '').trim();
     else if (a === '--size') o.size = String(argv[++i] || '').trim();
@@ -124,7 +125,7 @@ function parseArgs(argv) {
     else if (a === '--help' || a === '-h') { printUsage(); process.exit(0); }
     else { console.error(`unknown option: ${a}\n`); printUsage(); process.exit(1); }
   }
-  if (o.only && o.mode === 'list') o.mode = 'only';
+  if (o.only && o.only.length && o.mode === 'list') o.mode = 'only';
   if (!Number.isInteger(o.variations) || o.variations < 1 || o.variations > 4) {
     console.error('--variations must be an integer 1-4'); process.exit(1);
   }
@@ -434,6 +435,30 @@ async function main() {
     : progress.served.includes(e.key) ? 'served'
     : 'pending';
 
+  // --reject: the affordance the first real run turned out to need. An image
+  // that came back unusable sits in the manifest as "generated", which is a
+  // record that it exists - not a claim that it is any good - and that status
+  // makes --generate skip it forever. Rejecting drops its manifest row and any
+  // files under it, so the entry returns to pending and the next run redoes it.
+  // Use it after editing the prompt, which is usually why an image was
+  // rejected in the first place.
+  if (opts.mode === 'reject') {
+    const hits = opts.reject.map((n) => findOne(entries, n));
+    const keys = new Set(hits.map((e) => e.key));
+    const before = manifest.generated.length;
+    manifest.generated = manifest.generated.filter((g) => !keys.has(g.key));
+    writeJson(MANIFEST, manifest);
+    for (const e of hits) {
+      const dir = path.join(OUT_DIR, e.key);
+      if (fs.existsSync(dir)) fs.rmSync(dir, { recursive: true, force: true });
+      progress.served = progress.served.filter((k) => k !== e.key);
+      console.log(`rejected ${e.key}${fs.existsSync(e.target) ? '  (note: its target file still exists, so it reads as done — delete it too if you mean to replace it)' : ''}`);
+    }
+    writeJson(PROGRESS, progress);
+    console.log(`\n${before - manifest.generated.length} manifest row(s) dropped. Re-run --generate to redo them.`);
+    return;
+  }
+
   if (opts.mode === 'reset') {
     if (opts.reset === null) {
       progress.served = [];
@@ -457,13 +482,13 @@ async function main() {
   }
 
   if (opts.mode === 'generate') {
-    let todo = opts.only ? [findOne(entries, opts.only)] : entries.filter((e) => status(e) === 'pending' || status(e) === 'served');
+    let todo = opts.only ? opts.only.map((n) => findOne(entries, n)) : entries.filter((e) => status(e) === 'pending' || status(e) === 'served');
     if (!todo.length) { console.log('Nothing pending. Everything is generated or already filed.'); return; }
     await runGenerate(todo, opts);
     return;
   }
 
-  if (opts.mode === 'only') { serve(findOne(entries, opts.only), opts, progress); return; }
+  if (opts.mode === 'only') { for (const n of opts.only) serve(findOne(entries, n), opts, progress); return; }
 
   if (opts.mode === 'next') {
     const next = entries.find((e) => status(e) === 'pending');

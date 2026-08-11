@@ -351,7 +351,7 @@ below are ready to paste; add `image`/`image_alt` after generating.
 - **`asteria-the-sage.jpg`** — retired Star Captain, now leads a local
   Fellowship of Light chapter on a quiet planet. Deliberately spare page; a
   portrait should read as retirement, not command.
-  > Cinematic portrait of a serene older woman in simple contemplative robes standing at the doorway of a modest stone chapter house on a quiet rural world, upper body, weathered and amused expression, soft overcast daylight, science-fiction pastoral setting, muted natural palette, dignified and unhurried, no uniform, no insignia, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a physically strong older woman standing at the doorway of a modest stone chapter house on a quiet rural world, upper body, visibly muscular and broad through the shoulders and forearms with the build of someone who commanded and still works, sleeves pushed back, simple undyed robes worn loosely over a working body rather than draping it, weathered and amused expression, soft overcast daylight, science-fiction pastoral setting, muted natural palette, dignified and unhurried but plainly capable, not frail and not serene, no uniform, no insignia, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 - **`galen.jpg`** — Star Rangers liaison officer at a Celtic Union shuttle gate;
   minor character, correct and quietly decent.

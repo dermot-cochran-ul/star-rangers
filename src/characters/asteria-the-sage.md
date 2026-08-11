@@ -7,8 +7,6 @@ role: "Retired Star Captain, Star Rangers; chapter leader, Fellowship of Light"
 status: Retired
 tags: [star-rangers, star-captain, retired, fellowship-of-light, sage, cascade]
 description: "A retired Star Captain of the Star Rangers who withdrew to a quiet planet and now leads its local Fellowship of Light chapter — consulted, sighed at, and quoted on the Cascade more often than she would like."
-image: "asteria-the-sage.jpg"
-image_alt: "An older woman in simple robes standing in the arched stone doorway of a small chapter house, green hills and overcast daylight behind her"
 ---
 
 Some officers retire from the Star Rangers into memoirs, some into consultancy, and a few into silence. Asteria retired into a chapter house.
