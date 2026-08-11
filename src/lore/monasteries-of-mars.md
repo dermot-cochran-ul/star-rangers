@@ -4,8 +4,6 @@ title: "The Monasteries of Mars"
 category: "Institutions"
 tags: [monasteries-of-mars, mars, contemplative, isolationist, institutions, hermitage]
 description: "An isolationist contemplative order scattered across Mars's open, thin-atmosphere terrain, deliberately unaffiliated with the Fellowship of Light and uninterested in becoming so."
-image: "monasteries-of-mars.jpg"
-image_alt: "An official portrait of a monastic"
 ---
 
 Solar Command has occupied the same command floor on Mars for four centuries. The Monasteries of Mars have spent most of those same four centuries making sure they are the one Martian institution that floor has no channel to reach.

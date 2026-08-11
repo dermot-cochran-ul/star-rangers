@@ -4,8 +4,6 @@ title: "Retired Rangers: Liaisons, Representatives, and Recruiters"
 category: "Institutions"
 tags: [star-rangers, retirement, liaison, representative, recruiter, planetary-jurisdiction, invitation, celtic-union, rhiannon-ceridwen, institutions]
 description: "Why retired Star Rangers so often become part-time planetary liaisons, representatives, and recruiters — and how the charter's no-jurisdiction clause makes that role structurally necessary rather than incidental."
-image: "planetary-liaisons-and-recruiters.jpg"
-image_alt: "Two investigators discussing a case by an evidence board"
 ---
 
 The charter that keeps the Star Rangers off a planet's ground is the same charter that made it inevitable someone would eventually need to stand on that ground anyway. Retired Rangers are how the Corps resolves that contradiction without breaking its own rule.
