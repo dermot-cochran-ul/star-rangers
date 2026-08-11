@@ -75,8 +75,12 @@ ErrorDocument 404 /404.html
   Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
   Header always set X-XSS-Protection "0"
 
-  # Conservative CSP for static site with same-origin assets
-  Header always set Content-Security-Policy "default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https:; script-src 'self' https:; font-src 'self' data: https:; connect-src 'self' https:; frame-src https://giscus.app; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; upgrade-insecure-requests"
+  # Conservative CSP for static site with same-origin assets.
+  # 'wasm-unsafe-eval' is required by the search box: Pagefind compiles a
+  # WebAssembly module client-side at init(), and Chromium-family browsers
+  # gate WASM compilation on script-src - without this token the import
+  # fails and search silently returns nothing (search.js swallows the error).
+  Header always set Content-Security-Policy "default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https:; script-src 'self' 'wasm-unsafe-eval' https:; font-src 'self' data: https:; connect-src 'self' https:; frame-src https://giscus.app; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; upgrade-insecure-requests"
 </IfModule>
 
 # Block access to hidden files except .well-known
