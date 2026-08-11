@@ -669,10 +669,25 @@ Worth deciding before generating nine cards, not after.
 
 - **`the-fusion-ceiling.jpg`** — fusion is the top of the lawful energy ladder,
   and the frontier caveat is the interesting half: a rationed imported core
-  running a water plant beside hand tools and draft animals. That contrast is a
+  running a water plant beside hand tools and human labour. That contrast is a
   better image than a reactor hall, and it is the thing observers misread as
   poverty when it is sequencing.
-  > A compact sealed fusion power core on a poured concrete pad at the edge of a young frontier settlement, plain matt grey industrial casing with bolted access panels and a maintenance walkway, no glow, no illuminated strips, no bevelled armour panelling, no ornament of any kind; armoured conduit runs from it to a modest water-treatment building; in the same frame, well-kept hand tools racked on a rail and a groomed working draft animal in a dry fenced paddock. The settlement behind is newly built and clearly well-provisioned - level gravel, timber-framed buildings finished and roofed, nothing improvised, no tents, no mud, no crates in transit. Late afternoon light, far-future science-fiction colony early in its buildout, muted earth palette, competent and unhurried and plainly not poor, the machine ordinary rather than impressive, no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
+
+  **The draft animal is out, and the reasoning is worth keeping.** The earlier
+  version of this prompt asked for one, and the sequencing argument that
+  justified it survives — a rationed core prioritised for water treatment
+  genuinely may not have surplus for traction yet. But that argues for *hand
+  tools*, not for livestock. A working draft animal is not one animal: it is
+  breeding stock, years of established forage, veterinary support and an
+  enormous launch mass, against an electric tractor that folds into a crate and
+  runs off the core you have just installed. Realistically a colony ships
+  frozen genetic stock and grows a herd decades after the moment this image
+  depicts. The corpus does have off-world animals — Bubochka, Agent Barsik —
+  but those are companions carried by people, which is a far smaller claim than
+  a working herd at early buildout. The tools carry the contrast on their own,
+  and they carry it without asserting a biosphere.
+
+  > A compact sealed fusion power core on a poured concrete pad at the edge of a young frontier settlement, plain matt grey industrial casing with bolted access panels and a maintenance walkway, no glow, no illuminated strips, no bevelled armour panelling, no ornament of any kind; armoured conduit runs from it to a modest water-treatment building; in the same frame, well-kept hand tools racked on a rail and two colonists working with them, unhurried, mid-task. No animals anywhere in frame. The settlement behind is newly built and clearly well-provisioned - level gravel, timber-framed buildings finished and roofed, nothing improvised, no tents, no mud, no crates in transit. Late afternoon light, far-future science-fiction colony early in its buildout, muted earth palette, competent and unhurried and plainly not poor, the machine ordinary rather than impressive, no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
 
 - **`who-governs-a-universe.jpg`** — a map, not a place: primary universe versus
   the Concordant Zones inside it, and three kinds of authority.
