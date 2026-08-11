@@ -409,9 +409,20 @@ below are ready to paste; add `image`/`image_alt` after generating.
   > Cinematic noir portrait of a rumpled, world-weary male detective inspector in a slightly worn coat aboard a space habitat, upper body, tired but sharp expression, low-key dramatic lighting, science-fiction detective setting, desaturated palette, professional, wayfinding shown only as Compact plainmarks — flat stencilled panels of stacked colour bands in black, slate-blue, bone-white and ochre, carrying simple geometric figures (chevrons, rings, short tally strokes, lozenge diamonds), painted on the fixed frame beside each hatch and at corridor junctions, no readable text, numerals, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
 
 - **`asteria-the-sage.jpg`** — retired Star Captain, now leads a local
-  Fellowship of Light chapter on a quiet planet. Deliberately spare page; a
-  portrait should read as retirement, not command.
-  > Cinematic portrait of a physically strong older woman standing at the doorway of a modest stone chapter house on a quiet rural world, upper body, visibly muscular and broad through the shoulders and forearms with the build of someone who commanded and still works, sleeves pushed back, simple undyed robes worn loosely over a working body rather than draping it, weathered and amused expression, soft overcast daylight, science-fiction pastoral setting, muted natural palette, dignified and unhurried but plainly capable, not frail and not serene, no uniform, no insignia, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  Fellowship of Light chapter on a quiet planet. **She reads as an officer in
+  plain clothes: mid-sixties, upright, level, still visibly a commander.**
+
+  **This note used to say the opposite, and the opposite is what it got.** It
+  read "a portrait should read as retirement, not command", and two rounds
+  produced a beatific wise-woman in flowing robes, looking eighty. Dermot's
+  correction, 11 August: mid-sixties, *"looking like an officer but in plain
+  clothes."* Retirement is her circumstance, not her bearing — the page's
+  interest is that command did not leave when the rank did. Three words do the
+  damage if left in a prompt: **robes** summons the wise-woman every time,
+  **serene** produced the first version, and **older woman** lands nearer
+  eighty than sixty-five. All three are now excluded by name, and the age is
+  stated as a number rather than a word.
+  > Cinematic portrait of a woman of about sixty-five who reads unmistakably as a senior officer out of uniform, upper body, standing outside a modest stone chapter house on a quiet rural world. Plain civilian working clothes only - a collared shirt with the sleeves turned back, hard-wearing trousers, a plain jacket - absolutely no robes, no shawl, no draped or flowing fabric of any kind. Upright military bearing, square shoulders, weight evenly set, hands still. Short practical iron-grey hair, not long and not loose. Level and unsmiling, assessing whoever she is looking at. Fit and solid rather than frail or willowy; her face shows sixty-five, not eighty - no deep age-lining, no stoop, no beatific warmth. Soft overcast daylight, science-fiction pastoral setting, muted natural palette, composed and faintly impatient, a commander at ease and still visibly a commander, no uniform, no insignia, no rank marks, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 - **`galen.jpg`** — Star Rangers liaison officer at a Celtic Union shuttle gate;
   minor character, correct and quietly decent.
