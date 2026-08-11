@@ -9,8 +9,6 @@ aliases:
   - "the Enchantress (misclassification by locals)"
 tags: [boundary, unclassified, causeway, etheric, season-1]
 description: "A boundary practitioner working alone at the Marsh Causeway outpost. Her classification is contested; she is not magical."
-image: "elvira.jpg"
-image_alt: "A silhouette of an unknown figure glimpsed through glass"
 ---
 
 The thread goes down into the chalk, and the chalk goes down into the ground, and the ground is not what it looks like at the surface. Elvira works with materials that respond to Etheric gradients: chalk, thread, water held in specific vessels, and written records that go back further than her time at the outpost.

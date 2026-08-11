@@ -7,8 +7,6 @@ description: "A biosphere world of extraordinary ecological range — four clima
 galaxy: "Milky Way"
 system: "Calyx System"
 locationType: "Planet"
-image: "verdance.jpg"
-image_alt: "A silhouette of an unknown figure glimpsed through glass"
 ---
 
 Most survey reports describe a world's biosphere in one paragraph and its politics in another, because the two rarely have much to say to each other. Verdance's first full Federation survey needed a single paragraph for both, because on Verdance they are close to the same subject.

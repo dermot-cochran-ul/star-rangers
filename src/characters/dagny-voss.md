@@ -8,8 +8,6 @@ status: Active
 aliases: []
 tags: [aspenar, federation-of-sentient-beings, calders-reach-system, refining, human]
 description: "Director of one of Aspenar's largest orbital ore-refining habitats, and the delegate who tracks — publicly, and to the decimal point — exactly how much of the Federation's material support for the Star Rangers traces back to her own refinery's output."
-image: "dagny-voss.jpg"
-image_alt: "A smiling professional woman"
 ---
 
 Dagny Voss has never once been to a world anyone would call beautiful, and has stopped waiting to be assigned to one.
