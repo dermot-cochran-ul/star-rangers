@@ -43,6 +43,26 @@
 - The one who made the record is not automatically its best reader.
 - An archive answers what happened. It cannot answer what it was worth.
 
+## The Archivist of Lessons — character seed (merged from `archivist.md`, 2026-08-11)
+
+A character who is not collecting knowledge, but collecting hard-won lessons:
+not facts, technology, or data — mistakes, trade-offs, failures, regrets,
+insights. Perhaps an ancient explorer, scientist, or ranger who realizes that
+civilizations repeatedly lose their wisdom while preserving their knowledge —
+the older protagonist whose superpower is judgment, and the walking answer to
+the section above: the archive keeps what happened, and this character keeps
+what it was worth.
+
+Two lines from the seed not already held by the theme sections above:
+
+- Understanding is not the same as agreement.
+- Knowledge can be stored; wisdom must be rediscovered.
+
+(The seed's other aphorisms — the virtue liability point, energy over time —
+live in The Limits of Virtue and Finite Energy above, and in
+`life-lessons.md`; its theme list — mentorship, aging, discernment, wisdom,
+long-term civilization building — is the sections of this file.)
+
 ## Plurality Beyond the Human Case — unwritten, 28 July 2026
 
 Dermot's note: **alien brains might be even more complex.** The `plural-minds`
