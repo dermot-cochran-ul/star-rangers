@@ -85,6 +85,24 @@ it and stop* tier.
 - **Ban lettering explicitly** ("no readable text, no insignia, plain unmarked
   folders") or you get gibberish name tapes — and once, an entire NYPD squad
   room with `NYC POLICE` case files.
+- **Exception: Orbital Habitats Compact settings may show plainmark signage
+  on purpose.** [The Plainmark](/star-rangers/lore/plainmark/) (settled
+  2026-08-11, `src/lore/plainmark.md`) is shapes and colour bands, not
+  script, so it has nothing to misspell. In a Compact-habitat corridor, hatch
+  or cargo scene, add this clause instead of a blanket lettering ban:
+
+  > Wayfinding and labelling shown only as Compact plainmarks: flat
+  > stencilled panels of stacked colour bands — black, slate-blue,
+  > bone-white, ochre — carrying simple geometric figures (chevrons, rings,
+  > short tally strokes, lozenge diamonds, an occasional diagonal cancel
+  > bar), painted on the fixed frame beside each hatch and at corridor
+  > junctions. No readable text, numerals, signage, insignia lettering or
+  > written characters of any script anywhere in frame.
+
+  Everywhere else — other polities, other eras, anything not a Compact
+  habitat — the plain lettering ban above still applies; the Celtic Union in
+  particular letters its own corridors and is explicitly not a plainmark
+  adopter.
 - **State the era**, or the setting defaults to contemporary Earth.
 - Small text artifacts can be fixed in-session with a targeted select-and-blur
   rather than a re-roll (worked on a garbled flight-suit name tape).
