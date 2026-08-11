@@ -131,3 +131,41 @@ Material systems express lower-layer constraints through actionable processes.
 - No magic: every cross-layer effect requires lawful coupling.
 - Universe overlap/folding modifies geometry and observables, not hierarchy.
 - Archetypal interference is a measurable Etheric→Material transfer pattern.
+
+## What Exists Is Not What Is Recorded
+
+The section under Layer 2 above records the downward gap: a pattern the Conceptual layer conserves that no origin condition underwrites. This is its upward twin, and it answers a question the page has so far left open — whether the layers nest.
+
+They do not, and the reason is that two different relations get run together.
+
+**Constraint runs downward, and it is total.** Etheric templates cannot contradict Cascade hierarchy constraints; boundary zones produce lawful disagreement, not law failure; Material-layer practice cannot override higher-layer constraints. Nothing at any layer escapes anything applicable above it, and drawn for this relation alone, the layers genuinely are concentric.
+
+**Representation runs upward, and it is partial.** Existing at a layer does not entail an entry at any layer above about *it*. Most of what the lower layers express is registered nowhere, and lawfully so.
+
+Concentric in constraint, ragged in registration. Nothing escapes the rules; plenty escapes the register.
+
+**The corrective image is hierarchical law and its subjects** — offered against the concentric picture, not as an account of what reality is; the layers remain causal modes, not metaphorical planes. Higher law binds everything beneath it. Lower law adds detail and cannot contradict what stands above. And a subject is bound by every tier while being registered by few of them. The gap between subjection and registration is where every case below lives.
+
+**"Law" in that image means binding structure and nothing else — structure rather than regulation, enforcement or prosecution.** Nobody enacted it, nobody administers it, and nobody prosecutes under it. Nothing is weighed, nothing is found wanting, and no tier stands better than another: Layer 1 carries no dialogue, intention, or intervention semantics, and the [Cascade](/star-rangers/lore/cosmic-cascade/) does not encode virtue, sin, reward, or punishment. The distinction matters most to a reader arriving from the civil record, because that record is full of actual law — the [Commissioning Standard](/star-rangers/codex/the-commissioning-standard-annotated/) is law somebody wrote, somebody administers, and somebody can amend. A layer constraint is not that sort of law at all, and the resemblance is in the shape of the binding and nowhere else.
+
+### Only One Layer Keeps a Register
+
+Registration is selective by construction, not by neglect. The Etheric layer is a template layer, and a template says what may cohere — not which things did. Which instances there have been is not the kind of fact a template holds, any more than a grammar holds a list of the sentences said in it. Layer 1 grounds without naming: origin conditions, explicitly without personhood. Layers 3 to 5 instantiate without naming. Only the Conceptual layer keeps a register at all.
+
+### What That Makes a Mind
+
+The Conceptual layer holds types, and it holds minds. A type is an entry but not a particular. A pebble is a particular but not an entry. A mind is the only thing that is both — a particular holding an entry in its own right. That is what the conservation clause under Layer 2 is claiming, and why it reads the way it does: not that the pattern is kept, but that *you are counted*.
+
+### Membership Without Shape
+
+The [Unfounded](/star-rangers/glossary/unfounded/) supply one half of the vocabulary: shape without membership — the shape accurate, the membership not. The uncounted particular is the exact inverse: **membership without shape**, a genuine member of its kind with nothing at Layer 2 about *it*. Both fail the Archive's one working test — being addressable — from opposite directions, and the difference is diagnostic. A stone's silence is honest: it never wore the shape, and holds no entry that would let it counterfeit one. The Unfounded's silence is a counterfeit of somebody.
+
+The two gaps are not morally alike, and the record does not treat them as such. The Unfounded's is pathological. The particular's is the ordinary condition of nearly everything that exists — the register would be an absurdity if it held a row per grain of sand.
+
+### Two Boundary Cases
+
+**A physical expression under no Etheric template is not something running loose; it is something that does not stay.** The Etheric layer governs what can remain coherent, and its observable is persistence after local triggers are removed. Withdraw the template and the observable goes with it: the expression occurs, and leaves no pattern. Transient by construction, not by suppression — nothing has to police it.
+
+**A material object with no physical representation is ordinary, and the Material layer's own definition licenses it: matter, biology, technology, *and civilization*.** A debt, a rank, a jurisdiction, a certification status — no field configuration is a promise. Two consequences follow. Such an object is causally inert until coupled, since every cross-layer effect requires lawful coupling, so it acts only through those who act on it. And this is why forgery works: a status with no physical representation can be checked only by consulting a record, and a record — unlike the status it attests — is a Physical-layer configuration, which is exactly what lets it be wrong. The [uncommissioned](/star-rangers/glossary/uncommissioned/) mind wearing a lawful machine's papers is the record's worked example: it satisfies every audit that reads the certificate rather than the machine. That is not a procedural lapse awaiting a better procedure. It is structural to the kind of object a status is.
+
+The concentric picture fails on extent as well, as the head of this page already fixes: Layers 1 and 2 are multiverse-wide, and Layers 3 to 5 do not travel. Rings of one figure would share a centre. The top two enclose every figure there is, and the bottom three belong to this universe alone.
