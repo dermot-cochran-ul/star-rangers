@@ -89,6 +89,49 @@ Neither script writes front matter: `image_alt` describes what the file
 Neither merges anything — new portraits and lore images are the repo's *draft
 it and stop* tier.
 
+### Episode heroes: thread sets the palette, the episode sets the frame
+
+Settled 2026-08-11. The site fronts four audience tiers — children, young
+adult, general, contemplative — mapped to domains in
+[`lib/editions.js`](../lib/editions.js). The question was whether images should
+be styled per tier.
+
+**They should not, because the tier is already carried by the thread.**
+starquest fronts Orbital Five-O and the young-adult tier; the church-space and
+fellowship domains front the contemplative tier; sciencefiction fronts the
+general tier; fianilchruinne holds everything. So styling by *thread* delivers
+the tier for free — no per-tier variants, no machinery to choose an image per
+edition, and no image rendering differently on two domains, which would make
+one scene read as two to anyone who visits both.
+
+| Thread | Tier | Palette |
+|---|---|---|
+| Founding Era | general | archival, documentary, muted — the record being made |
+| Tissadelle Arc | general | the house style above, unchanged |
+| Undercover Pets | young adult | warmer, higher key, animal eye-level |
+| Orbital Five-O | young adult | brighter, procedural, busier |
+| Church Space | contemplative | quieter, more negative space, light rather than event |
+
+**But the thread only sets the palette. The episode's own subject sets the
+frame** — and `s02e03` is the case that proves why the distinction matters.
+*The Dark-Down* sits in the young-adult thread, and its hero should not be
+styled young-adult on that account: the episode's weight is the dark-down
+itself, the valley warden walking it at night, the kept custom. The prose
+reaches two bands at once (Bubochka's blocks in the children's band, Sorcha's
+carrying the adult weight) and it works — Dermot's own reading, and the reason
+a per-tier scheme was rejected. **A chapter carrying two registers is a feature
+of the writing, not a problem for the pictures to solve.** Let the prose carry
+the register; put the picture where the episode's weight is.
+
+**The unit is the episode, not the chapter.** Chapters do carry `image` /
+`image_alt`, but the schema records why: added 2026-07-30 *"for a
+social-sharing reason rather than a design one"* — they are Open Graph cards,
+not page illustrations. The established practice is one hero per episode
+(`s01e00-cat`, `s01e01-corridor`, `s01e02-machinery`, `s01e03-archive`,
+`s03e01-radiotelescope`, `s05e02-kerry-hills`). Nineteen episodes exist and six
+have heroes, so **thirteen are missing** — a tractable batch. Forty-four
+chapter images would mostly be four views of the same room.
+
 ### Prompt craft (learned the hard way)
 
 - **Name the sheen, not the substance.** "Stone-textured skin" for a Basaltborn
