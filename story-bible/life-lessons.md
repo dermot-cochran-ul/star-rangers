@@ -37,8 +37,6 @@ themselves.
 - A companion can be assembled rather than met: real conversations supply the material, imagination supplies the binding, and the result feels like a person because every part of it once was one.
 - An internal image of a person is a record that never gets audited against its sources. Nobody audits a friend — least of all one they built.
 - Feigned affection has sarcasm's structure — one thing said, another meant. Sarcasm intends the gap to be seen; feigned affection intends it to be missed, so the moment it is detected it lands as the same figure: praise not meant, aimed at someone priced as foolable.
-- The insult inside performed warmth is its premise: it treats you as an audience to be worked, not a person to be met.
-- The detector has a false positive: warmth that is merely well-made trips the same wire as warmth that is false. Craft is not deceit; affection is proven by what it spends, not by how it is phrased.
 
 ### On the instinct that cuts both ways
 
