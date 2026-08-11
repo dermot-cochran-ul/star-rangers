@@ -33,10 +33,11 @@
 > rule itself, and into the generator — which had been producing 3:4 portraits
 > until 10 August precisely because this file was the only witness.
 >
-> **What still lives here and nowhere else:** the *Recorded composites* and
-> *Recorded generations* sections, which are provenance rather than pending
-> work. Those belong with [`image-prompts.md`](image-prompts.md), the
-> prompt-of-record file, and should move there rather than being deleted.
+> **Moved out, 2026-08-11:** the *Recorded composites* and *Recorded
+> generations* sections — provenance rather than pending work — now live in
+> [`image-prompts.md`](image-prompts.md) § 3, the prompt-of-record file, as
+> this box asked. Everything remaining in this file is pending work, gated on
+> the replace-versus-upscale decision above.
 
 For regeneration in an image app, or via the pipeline once a prompt has been
 moved into `images.md`. Hand the outputs back and they'll be resized, renamed
@@ -75,146 +76,6 @@ locations, and that was the second complaint against it after resolution.
   never name an actor or a real person.
 - **Alt text is the prompt.** Whatever you keep, its alt text must describe what
   the frame actually shows — that mismatch is what caught the Trígrian swap.
-
----
-
-# Recorded composites
-
-## trigrian-triple-sunset.jpg — 26 Jul 2026
-- **Type:** composite from Dermot's own photographs (no generator involved)
-- **Source:** `F:\122KENYA` — base `DSC_7768`, sun discs lifted from `DSC_7770`
-  and `DSC_7778`. Amboseli, October 2025.
-- **Recipe:** the base already carries one low orange sun setting behind the
-  ridge. A second orange sun is composited beside it at 0.92 scale, and a
-  smaller, whiter companion at 0.66 scale higher and trailing — matching the
-  entry's own astronomy: *a tight central pair of orange suns... and a smaller,
-  whiter companion on a wide, eccentric outer orbit*, descending together
-  toward the hills.
-- **Technique that matters:** lift the **sun disc only**, not the sky around it.
-  Patch radius ~58px at 1600px wide, circular alpha mask with the falloff
-  starting at 72%, blended `lighten`. A first attempt at 110px haloed every sun
-  — because `lighten` takes the brighter pixel, so wherever the donor frame's
-  sky was brighter than the base's, the whole patch disc lifted. Same failure
-  mode as the dust-spot heal: match brightness, or keep the patch tight.
-- **Rejected approach:** a naive `lighten` blend of four whole frames. The
-  sequence is handheld, so the framing drifts and the tree comes out as three
-  overlapping ghosts.
-- **Note:** composites are welcome here. They are *not* welcome on the
-  photography site, which carries only Dermot's own unaltered photographs.
-
----
-
-# Recorded generations
-
-## new-london-space-habitat.jpg — 26 Jul 2026
-- **Type:** generation
-- **Tool:** Adobe Firefly, widescreen preset — output 1408x768
-- **Prompt (complete — supplied by Dermot 26 Jul 2026):**
-
-  > New London Space Habitat orbits at Lagrange point L5, positioned in the
-  > Earth-Moon system to maintain stable distance from both bodies. Constructed
-  > in the late 22nd century as a refuge following the great environmental
-  > collapse that rendered much of the British Isles uninhabitable, it serves as
-  > humanity's largest preservation project for British cultural heritage.
-  >
-  > The habitat consists of three interconnected Stanford torus rings, each 1.5
-  > kilometers in diameter, rotating to provide Earth-standard gravity. The
-  > rings are named Westminster, City, and Crown, reflecting the traditional
-  > divisions of historical London. These connect to a central non-rotating hub
-  > called "The Spire" which houses administration, docking facilities, and
-  > zero-gravity manufacturing.
-  >
-  > New London houses approximately 180,000 residents, primarily descendants of
-  > British evacuation programs, though immigration policies have relaxed in
-  > recent decades. The habitat maintains formal diplomatic ties with Eden Space
-  > Habitat and other major orbital settlements, while operating under a
-  > constitutional monarchy governance structure that preserves British
-  > parliamentary traditions.
-  >
-  > The habitat's most distinctive geographical feature is the Thames Canal — a
-  > water system that flows through all three rings, serving both practical
-  > water circulation needs and symbolic connection to Old London. Bridges
-  > spanning this canal have become important cultural landmarks and meeting
-  > places within the habitat.
-
-  Note the prompt is essentially the lore entry compressed — which is the
-  method working as intended: the entry is the prompt, and the alt text is the
-  short form of it.
-- **Canon accuracy:** good. Three interconnected rings, central spire, water
-  running through the rings, recognisable London landmarks inside them, and
-  Earth roughly four times the Moon's apparent diameter — which is right for
-  Earth-Moon L5, where both bodies are one lunar distance away.
-- **Two known defects, both from the generator:**
-  1. **1408x768, under the 1600px lore standard.** `eden-space-habitat.jpg`,
-     its nearest sibling, is exactly 1600x900. Regenerate larger or upscale.
-  2. **Garbled pseudo-text on the outer ring hull** (lower left, faint glyphs
-     reading as "R & ▨▨E"). Add *text, lettering, signage, writing* to the
-     negative prompt on any regeneration — see the house rule below.
-
-## dorian-calloway.jpg — 29 Jul 2026
-- **Type:** generation (replaces a stock-headshot-register portrait)
-- **Tool:** Adobe Firefly, widescreen preset — output 1408×768, centre-cropped to
-  1365×768 and resized to 1200×675
-- **Prompt:** the § C entry, quoted there in full.
-- **Result:** correct on the first batch. No uniform; business dress worn like a
-  long day, jacket open and one sleeve turned back, a small plain lapel pin as
-  the only mark of office. The coordination floor carries the breadth of the
-  remit — orbital ring diagrams, telemetry traces and a schematic floor plan
-  across the wall displays, working clutter and a melting iced drink below.
-- **Lettering check passed.** This was the risk the prompt was written against,
-  since status boards invite the failure that killed the 28 July Agent Barsik
-  attempt. Inspected at 4× on both the left display stack and the desk
-  printouts: the text-like rows resolve to blur with no legible glyphs anywhere,
-  which is the intended outcome — the *suggestion* of dense readouts without any
-  actual writing. **Worth checking the same way on any future frame that puts
-  screens or paper near the camera**, rather than judging it at page size.
-- **Alt text updated** at `src/characters/dorian-calloway.md` — it previously
-  read "A mature businessman portrait", which named a stock category rather than
-  describing a frame.
-
-## bubochka-alert.jpg — 29 Jul 2026
-- **Type:** generation (replaces the rejected 28 July attempt)
-- **Tool:** Adobe Firefly, widescreen preset — output 1408×768, centre-cropped to
-  1365×768 and resized to 1200×675 (the preset is 1.833, the spec is 16:9 =
-  1.778, so a 21px trim each side is needed — `import-image.ps1` scales but does
-  not crop, so this needed a crop-then-resize pass)
-- **Prompt:** the rewritten version in § C, quoted there in full.
-- **Result:** correct on the first batch. Lop ears folded flat, standing bolt
-  upright on the hind legs, same brown speckled mug and saucer, same
-  marshmallows, same linen cloth, same warm kitchen and window light. The pair
-  now reads as one animal photographed twice, which is the only thing the image
-  had to do.
-- **Alt text updated** at `src/characters/bubochka.md` — it previously read
-  "ears fully raised", inherited from the faulty prompt and impossible for a lop.
-
-## prismere-root-mat-network.jpg — 29 Jul 2026
-- **Type:** generation
-- **Tool:** Adobe Firefly — output 848×1264, downscaled to 773×1152 via
-  `scripts/import-image.ps1 -MaxEdge 1152`
-- **Prompt (complete — supplied by Dermot 29 Jul 2026):**
-
-  > Silicate-carbon biosphere, living tissue built from glass and crystal.
-  > Bioluminescent throughout, the world producing its own light. Translucent
-  > crystalline forms, soft shifting colour washes, dense particulate haze in the
-  > air. Painterly science-fiction concept art, high detail, no visible text or
-  > figures in human dress. Aspect 2:3, portrait.
-
-- **Placement:** `src/lore/planets/prismere.md`, under *Glasswood and the
-  Luminous Biosphere*, illustrating the shared root-mat network that feeds a
-  lumenspire colony — described in the entry since it was written, never shown.
-  Added in #217 along with a one-sentence lead-in.
-- **Note — this used the wrong preamble.** The text above is the *legacy*
-  shared preamble from `image-prompts.md` §1, which exists to reconstruct what
-  the original eleven depicted. The current replacement preamble is in section A
-  below, and differs: it adds *"naturalistic rather than decorative"* and drops
-  the fixed 2:3 aspect. The consequence is visible in the result — crystal
-  spires and the same palette as the old set, which is a faithful continuation
-  of exactly the repeated motif the replacement series is meant to break from.
-  Not a defect in the image, which is good, but it is not a step toward the
-  eight-distinct-looks goal either.
-- **Known defect:** 773×1152, under the 1600px lore standard — the same problem
-  as the rest of the Prismere cluster. It should be regenerated with the section
-  A preamble whenever that set is done, rather than upscaled on its own.
 
 ---
 
