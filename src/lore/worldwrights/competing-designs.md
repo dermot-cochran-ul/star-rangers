@@ -19,7 +19,7 @@ Different Worldwrights therefore shape not only local physics and civilizational
 
 Under the refined hierarchy:
 
-- **Archewrights** define archetypes and possibility space,
+- **[Archewrights](/star-rangers/lore/archewright/)** define archetypes and possibility space,
 - **Worldwrights** instantiate primary universe architectures,
 - **Concordants** operate within those universes to maintain creative entropy balance (CEI).
 
@@ -146,6 +146,8 @@ Their dispute anchors an enduring question in Star Rangers cosmology:
 
 ## Cross-Links
 
+- [The Archewright](/star-rangers/lore/archewright/)
+- [Inside an Archecluster](/star-rangers/lore/archecluster/)
 - [Seed Mind Lifecycle](/star-rangers/lore/seed-mind-lifecycle/)
 - [Creative Entropy Framework](/star-rangers/lore/creative-entropy-framework/)
 - [Noögenic Seeding System](/star-rangers/lore/noogenic-seeding-system/)
