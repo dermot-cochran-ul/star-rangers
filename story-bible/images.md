@@ -73,6 +73,27 @@ spells correctly and image models do not. Motifs: `rules`, `dissolution`, `none`
   since July. A *narrow* ban is not enough either: `galen.jpg` said "no
   insignia lettering" and got station signage instead, because the model
   honoured the letter of it.
+- **One exception: Compact settings may show signage on purpose.** [The
+  Plainmark](../src/lore/plainmark.md) (settled 2026-08-11) is shapes and
+  colour bands rather than script, so there is nothing in it to misspell — a
+  model can draw it, and it reads as deliberate design instead of broken text.
+  In a Compact-habitat corridor, hatch or cargo scene, carry this clause
+  *instead of* a blanket ban:
+
+  > Wayfinding shown only as Compact plainmarks — flat stencilled panels of
+  > stacked colour bands in black, slate-blue, bone-white and ochre, carrying
+  > simple geometric figures (chevrons, rings, short tally strokes, lozenge
+  > diamonds), painted on the fixed frame beside each hatch and at corridor
+  > junctions, no readable text, numerals, signage, insignia lettering or
+  > written characters of any script anywhere in frame.
+
+  **Scope it, and do not sweep it.** The plainmark is a Compact standard, not
+  a universal one — a galaxy-wide sign system would reintroduce exactly the
+  convenience the record refuses. It belongs in Compact habitats and nowhere
+  else: not on a Martian hillside, not at an Irish chapter house, and not in
+  Celtic Union corridors, which are lettered in their members' own languages.
+  So far it is carried by two prompts, `galen` and `wendell-albercombe` — the
+  two that failed *because of* signage, now specifying it deliberately.
 - **Generate large.** `import-image.ps1` resizes on the way in (~1200px
   portraits, ~1600px lore), so 2K costs nothing and leaves room to crop. 4K
   only costs more.
@@ -433,7 +454,18 @@ below are ready to paste; add `image`/`image_alt` after generating.
 - **`sethka-ru.jpg`** — Serephine Dunekin long-range scout. **Must read as
   clearly non-human** — light-scattering eye membranes, water-conservative
   build (the earlier mistake was a human in a headwrap).
-  > Cinematic portrait of a non-human humanoid alien long-range scout, upper body, with pale nictitating light-scattering eye membranes and lean desert-adapted features, wearing lightweight respiratory filtration gear, alien science-fiction reconnaissance outfit, cold high-UV desert-world lighting, otherworldly palette, clearly extraterrestrial anatomy, professional concept-art style, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+
+  **Two rounds went wrong in the same two ways.** He arrived **armed with a
+  rifle** nobody asked for — badly wrong for a Corps whose own doctrine is that
+  a Ranger's real weapon was never on the belt, and wrong for *him*: he is an
+  observer who plans routes by radiation profile, glare angle and thermal
+  shadow. Weapons are now excluded by name, and he carries instruments instead.
+  And "professional concept-art style" produced exactly that — a generic
+  videogame alien — so the style words are gone and photographic realism is
+  asked for instead. Per the sheen rule, the eye membrane is now described by
+  what it *does* rather than named: "nictitating light-scattering membrane" is
+  jargon a model cannot draw.
+  > Cinematic photographic portrait of a lean non-human humanoid scout, upper body, unmistakably not human but not monstrous: tall narrow skull, high flat cheekbones, no visible hair, dry matte skin with a fine pebbled texture. His eyes are wide and pale, and across each one lies a thin transparent second lid that catches the light with a faint prismatic sheen, like a film of oil on water. He wears a light open-weave respirator across the lower face - worn loosely, plainly for comfort rather than survival - and a practical layered scout's overtunic in undyed desert cloth. He is holding a small handheld survey instrument and looking off past the camera at something far away, calm, measuring, patient. Absolutely no weapons of any kind, no rifle, no sidearm, no armour, no helmet. Cold clear high-altitude daylight, thin dry air, muted sand and bone palette, realistic and grounded rather than stylised, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 **AIs & non-corporeal — abstract emblem, no face**
 
@@ -732,7 +764,20 @@ planet page drafted the same day:
 - **`planets/drithane.jpg`** — the crossing night is the planet's whole
   identity, and the custom of going dark to watch it is the human half of
   the frame. Slow sparks, not meteor streaks.
-  > A cold, high-altitude planetary landscape at night under an extraordinarily clear sky filled with slow, silent white-gold sparks of light drifting and fading at high altitude — soft brief glimmers, not fast meteor streaks. Below, a settled valley lies deliberately dark, its buildings unlit, faint warm light behind a few windows, snow-dusted grazing land and glasshouse roofs catching the skylight. Far-future science-fiction pastoral setting, cold blue night palette against the warm white-gold sparks, still and reverent rather than dramatic, no readable text or lettering, no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
+
+  **Two rounds returned a night landscape with no sparks in it at all** — a
+  starfield and a moon, which is every night sky and not this one. The old
+  prompt asked for them correctly and still lost them, and the likely reason
+  is instructive: **sparks described as small points high in a clear night sky
+  are stars, as far as a model is concerned**, and "not fast meteor streaks"
+  is a negation, which prompts handle badly. So the sparks are now the stated
+  *subject* of the image rather than a property of the sky — many, large,
+  individually distinct, mid-fall and mid-fade, unmistakably not stars — and
+  the settlement's darkness is described as the deliberate thing it is rather
+  than as an absence of light. The lit windows are gone: the entry says the
+  world watches its own sky by the light the sky provides, and a warm window
+  was arguing with that.
+  > A night sky filled with dozens of slow silent falling sparks - the subject of the picture - each a distinct warm white-gold glow with a short soft trail, drifting downward and fading out high in the air, clearly much larger and brighter than the stars behind them, some at the top of the frame and some low near the ridgeline, caught at different stages of their fall. Below them a high cold valley lies completely unlit, every building dark on purpose, roofs and snow-dusted ground and glasshouse panels picking up only the gold light from above, small figures standing outside in ones and twos with their faces turned up. Far-future science-fiction pastoral world, deep cold blue night against the warm gold of the sparks, still and quiet and shared rather than dramatic, no artificial lighting anywhere in the settlement, no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
 
 **Also worth noting from the same audit:** two lore pages carry alt text that is
 thin rather than wrong and would fail the "describes what the file shows" test if
