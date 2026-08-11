@@ -39,13 +39,32 @@ function lastCommitDate(filePath) {
   }
 }
 
+
+// Inline Markdown to plain words. Deliberately not a Markdown renderer:
+// only the constructs that actually turn up mid-paragraph in this corpus.
+function stripInlineMarkdown(text) {
+  return text
+    .replace(/!\[([^\]]*)\]\([^)]*\)/g, "$1")   // images -> alt text
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")    // links  -> label
+    .replace(/`([^`]+)`/g, "$1")                  // code spans
+    .replace(/\*\*([^*]+)\*\*/g, "$1")            // bold
+    .replace(/(^|[^*])\*([^*]+)\*/g, "$1$2")      // italic
+    .replace(/(^|[^_])_([^_]+)_/g, "$1$2");        // underscore italic
+}
+
 function firstParagraph(body) {
   const blocks = body.split(/\r?\n\s*\r?\n/).map((b) => b.trim()).filter(Boolean);
   for (const block of blocks) {
     if (/^#{1,6}\s/.test(block)) continue;
     if (/^!\[/.test(block)) continue;
     if (/^\[.+\]:\s/.test(block)) continue;
-    return block.replace(/\s+/g, " ");
+    // The excerpt is interpolated into src/index.md as plain text, so any
+    // Markdown left in it renders literally - the homepage was showing raw
+    // [label](/url) syntax and bare asterisks. Strip inline markup to its
+    // words rather than converting to HTML: this string is a teaser inside
+    // a sentence that already links to the entry, so nested links would be
+    // noise, and keeping it plain means it can never inject markup.
+    return stripInlineMarkdown(block).replace(/\s+/g, " ");
   }
   return "";
 }
@@ -65,7 +84,15 @@ module.exports = function () {
 
     if (latest && updated <= latest.updated) continue;
 
-    const relUrl = "/" + path.relative(path.join(REPO_ROOT, "src"), filePath).replace(/\.md$/, "") + "/";
+    // path.relative returns backslashes on Windows, and they went straight
+    // into the href - local builds emitted /lore\entry/ . Production never
+    // saw it because the deploy hosts are Linux, which is exactly why it
+    // survived: the one platform that renders it wrong is the one the site
+    // is authored on, and the one that renders it right is the one nobody
+    // reads the output of.
+    const relUrl = "/" + path.relative(path.join(REPO_ROOT, "src"), filePath)
+      .split(path.sep).join("/")
+      .replace(/\.md$/, "") + "/";
     latest = {
       updated,
       title: data.title,
