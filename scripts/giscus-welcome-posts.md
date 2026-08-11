@@ -2,7 +2,7 @@
 
 Target repo: `Star-Rangers/sciencefiction-site-comments` (GitHub Discussions
 backing the site's giscus widget — see `src/_data/giscus.js` and
-README.md's "Discussion forum (giscus)" section).
+TECHNICAL-README.md's "Discussion forum (giscus)" section).
 
 Scope: one starter post per **open, community-facing** category only —
 **General**, **Q&A**, **Theories & Predictions**, **Fan Creations**. The other

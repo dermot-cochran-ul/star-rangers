@@ -34,7 +34,7 @@ Everything else — feature requests, structural suggestions, "you should add X"
 
 ## Questions from readers
 
-**Genuine questions from readers and fans are welcome.** Every character, lore, glossary, codex, chapter and journal page carries a comment thread, and the comments repo has open **General**, **Q&A**, **Theories & Predictions**, and **Fan Creations** categories — see the [Discussion forum](./README.md#discussion-forum-giscus) section of the README. That's the right place to ask; a public answer helps the next reader too.
+**Genuine questions from readers and fans are welcome.** Every character, lore, glossary, codex, chapter and journal page carries a comment thread, and the comments repo has open **General**, **Q&A**, **Theories & Predictions**, and **Fan Creations** categories — see the [Discussion forum](./TECHNICAL-README.md#discussion-forum-giscus) section of the technical README. That's the right place to ask; a public answer helps the next reader too.
 
 What I can't promise is coverage. I triage, I answer what I can, and I answer some things slowly or not at all. **Silence is capacity, not dismissal.** Asking once in the right place is more likely to get an answer than asking in several.
 

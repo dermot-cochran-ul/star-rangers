@@ -68,7 +68,7 @@
 # created in cPanel yet) fails loudly for that domain and the run overall,
 # but does not stop any other domain in the same run from still deploying.
 # See deploy.conf's own ALT_DOMAINS section (sample-deploy.conf) for full
-# per-key documentation, and this repo's README for the complete reference
+# per-key documentation, and this repo's TECHNICAL-README.md for the complete reference
 # table.
 #
 # THEME=default uses src/css/main.css as-is. Any other THEME value maps to
