@@ -645,7 +645,6 @@ words. No edit needed.
 is *not* a Cascade tier. Settled the same day: the Council alone sits below the
 Telearchs, while a Universal Authority - Council plus presiding seat - is not
 outranked by them - the two are incomparable, neither outranking the other. No
-
 page needs changing.
 
 **Tension, not conflict — the Hyperomnium.** `hyperomnium.md` calls it "the
