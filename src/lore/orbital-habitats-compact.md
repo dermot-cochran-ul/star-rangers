@@ -45,3 +45,4 @@ A third, unofficial chain also runs through Eden's civil bureau without appearin
 - [The Desk That Called First (S02E01C01)](/star-rangers/seasons/s02/e01/s02e01c01/) — the cross-habitat gap, from a habitat bureau's desk
 - [The Office That Reads Everything (S02E01C02)](/star-rangers/seasons/s02/e01/s02e01c02/) — the coordination layer doing the one thing only it can do
 - [Heritable Modification Protocols](/star-rangers/lore/heritable-modification-protocols/) — a regime whose cross-habitat certification seam is Five-O's to close
+- [The AI Safety Kernel](/star-rangers/lore/ai-safety-kernel/) — the commissioning gate whose manufacture seam is likewise Five-O's, and the custody question the record leaves open
