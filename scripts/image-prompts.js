@@ -356,6 +356,24 @@ function runCatalogue(todo) {
   if (withIdeas) console.log('Look at the actual frames before deciding — a title is not a photograph.');
 }
 
+// A placeholder card counts as work still to do, not as a finished image.
+// Without this, filling twenty-eight gaps with PORTRAIT PENDING cards on
+// 12 August 2026 emptied the queue while creating twenty-eight new jobs -
+// status() decides `done` from the file existing, and a placeholder is a file.
+// The marker is written into the JPEG itself by scripts/mark-placeholder.js,
+// so replacing a card with a real image clears it with no list to maintain.
+const PLACEHOLDER_MARKER = 'STAR-RANGERS-PLACEHOLDER';
+
+function isPlaceholder(file) {
+  try {
+    const fd = fs.openSync(file, 'r');
+    const buf = Buffer.alloc(4096);
+    const read = fs.readSync(fd, buf, 0, 4096, 0);
+    fs.closeSync(fd);
+    return buf.slice(0, read).includes(PLACEHOLDER_MARKER);
+  } catch { return false; }
+}
+
 // A manifest row records its target but not its orientation label, so recover
 // which ASPECT entry governs it from the directory it is bound for - the same
 // rule parseEntries applies.
@@ -575,7 +593,7 @@ async function main() {
       .map((g) => g.key)
   );
 
-  const status = (e) => fs.existsSync(e.target) ? 'done'
+  const status = (e) => fs.existsSync(e.target) ? (isPlaceholder(e.target) ? 'placeholder' : 'done')
     : generatedKeys.has(e.key) ? 'generated'
     : progress.served.includes(e.key) ? 'served'
     : 'pending';
@@ -637,7 +655,7 @@ async function main() {
   }
 
   if (opts.mode === 'generate') {
-    let todo = opts.only ? opts.only.map((n) => findOne(entries, n)) : entries.filter((e) => status(e) === 'pending' || status(e) === 'served');
+    let todo = opts.only ? opts.only.map((n) => findOne(entries, n)) : entries.filter((e) => ['pending', 'served', 'placeholder'].includes(status(e)));
     if (!todo.length) { console.log('Nothing pending. Everything is generated or already filed.'); return; }
     await runGenerate(todo, opts);
     return;
@@ -657,15 +675,16 @@ async function main() {
     return;
   }
 
-  const counts = { done: 0, generated: 0, served: 0, pending: 0 };
+  const counts = { done: 0, generated: 0, served: 0, pending: 0, placeholder: 0 };
   console.log(`${entries.length} prompt(s) in story-bible/images.md\n`);
   for (const e of entries) {
     const s = status(e);
     counts[s]++;
-    const mark = { done: '[done]     ', generated: '[generated]', served: '[served]   ', pending: '[pending]  ' }[s];
+    const mark = { done: '[done]     ', generated: '[generated]', served: '[served]   ', pending: '[pending]  ', placeholder: '[placeholder]' }[s];
     console.log(`  ${mark} ${e.targetRel}`);
   }
-  console.log(`\n${counts.done} done, ${counts.generated} generated, ${counts.served} served, ${counts.pending} pending.`);
+  console.log(`\n${counts.done} done, ${counts.generated} generated, ${counts.served} served, ${counts.pending} pending, ${counts.placeholder} placeholder.`);
+  if (counts.placeholder) console.log('A placeholder is a standing card, not a finished image — those entries still need work.');
   if (counts.pending) console.log('Next: node scripts/image-prompts.js --generate   (or --next for the clipboard loop)');
   else if (counts.generated || counts.served) console.log('Next: .\\scripts\\image-file.ps1 -WhatIf');
 }
