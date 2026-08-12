@@ -22,11 +22,44 @@ the line rather than working around it.
 | Codex entries | designed dark-gradient **title cards**, not photographs |
 | `image_alt` | must describe what the file *actually shows* |
 
+**The target, for images and audio alike** (12 August 2026):
+
+> **Enigmatic and haunting, with beauty, mystery, hope and serenity woven
+> through.**
+
+Read that as the thing to aim at, not a limit to stay inside. The tone line
+below says what to avoid; this says what to reach for, and they are the same
+instruction from opposite ends. It rules out a register that breaks no
+prohibition at all: flat documentary lighting, blunt literal description, the
+merely competent. **If a prompt reads like a brief for a passport photograph it
+fails this**, however accurate it is. And **hope and serenity are load-bearing** —
+haunting on its own drifts toward the horror line the next paragraph exists to
+hold.
+
+**One thread is exempt, deliberately.** *Undercover Pets* is **cute, cool and
+clever** — Agent Barsik, Bubochka, Nessa. Do not weave melancholy or mystery
+through that thread to match the house style; the contrast is the point, and a
+haunting cat portrait would be a category error rather than a stylistic
+variation.
+
 **House style for people:** role-appropriate, slightly cinematic, in-world
 setting, professional wardrobe. Not contemporary glamour or lifestyle shoots.
-**AIs and non-corporeal beings** get an abstract emblem/interface rather than a
-face (precedent: Reeves = *"A laptop displaying a face-recognition hologram"*;
-the Eden Warden = *"A facial recognition system interface"*).
+
+**AIs get portraits like everyone else** (12 August 2026, superseding the older
+rule that they got an abstract emblem or interface instead of a face — that rule
+produced Reeves as *"A laptop displaying a face-recognition hologram"* and the
+Eden Warden as *"A facial recognition system interface"*, both since replaced).
+
+The portrait must make the **artificiality visible** — matte shell, seams and
+joins, eyes that are plainly optical instruments. This is not decoration. A
+generator asked for "an AI" returns a photoreal human face by default, and that
+face belongs to nobody and to everybody; it is the same failure as the stock
+portraits removed on 12 August, arriving by a different road. Visible
+manufacture closes it **at the prompt** rather than at review.
+
+Where a system has several bodies, show **one**. The Eden Warden's Ward and
+Custos are two personas in one system, and two figures would literalise them as
+two beings — the same mistake ruled out for plural human minds.
 
 **Tone line:** unsettling is fine, horror is not — hint at the dark fact rather
 than depicting it. A cyber-revenant portrait showing exposed throat machinery
