@@ -9,7 +9,7 @@ aliases: []
 tags: [human, eden, detective-superintendent, orbital-habitats-compact, undercover-pets.com]
 description: "Eden Space Habitat's Detective Superintendent — head of the habitat's civil detective bureau, and the officer of record whose paperwork Agent Barsik and trainee Bubochka's real work quietly hides behind."
 image: "rasa-oyelaran.jpg"
-image_alt: "Designed placeholder card for Superintendent Rasa Oyelaran: the name and role set in pale serif type over a dark blue-black gradient, headed "Portrait Pending". No portrait of this character exists yet."
+image_alt: "Designed placeholder card for Superintendent Rasa Oyelaran: the name and role set in pale serif type over a dark blue-black gradient, headed PORTRAIT PENDING. No portrait of this character exists yet."
 ---
 
 Rasa Oyelaran runs the closest thing Eden Space Habitat has to an ordinary police detective bureau, and has done so long enough to stop being surprised by how much of it isn't ordinary at all. Eden's compliance framework — twelve requirements and counting since the *Constant Margin* transit — routes most of its stranger paperwork through her office eventually, whether or not it was written with a civil detective bureau in mind.

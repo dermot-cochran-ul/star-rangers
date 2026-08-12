@@ -10,7 +10,7 @@ aliases:
 tags: [aethelrock, celtic-union, clan-o-ceallaigh, ridgemoot, human]
 description: "Clan head of Ó Ceallaigh on Aethelrock, holder of the coastal fjord country and its fishing fleets, and the Ridgemoot's most consistent broker between Rhiannon Ceridwen's faction and the clans demanding the old rotation back."
 image: "niamh-o-ceallaigh.jpg"
-image_alt: "Designed placeholder card for Niamh Ó Ceallaigh: the name and role set in pale serif type over a dark blue-black gradient, headed "Portrait Pending". No portrait of this character exists yet."
+image_alt: "Designed placeholder card for Niamh Ó Ceallaigh: the name and role set in pale serif type over a dark blue-black gradient, headed PORTRAIT PENDING. No portrait of this character exists yet."
 ---
 
 Niamh Ó Ceallaigh spends less time at the Ridgemoot table arguing than any other clan head, and more time afterward telling both sides what the other actually meant. It is not a role anyone assigned her. It is simply the one she noticed nobody else was doing.
