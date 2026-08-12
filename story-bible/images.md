@@ -398,7 +398,7 @@ being listed anywhere.
 
 ## Open work
 
-### 0. Replaced with placeholder cards — 24 images, added 2026-08-12
+### 0. Replaced with placeholder cards — 28 images, added 2026-08-12
 
 **This is the head of the queue.** Every image below was removed and replaced
 with a designed PORTRAIT PENDING / ILLUSTRATION PENDING card, so no page is
@@ -435,6 +435,24 @@ photographs of identifiable strangers: `cormac-dubhghlas`,
 | `lore/military-space-command.jpg` | Real NASA EVA imagery in a stock composite; licence unverified | A benevolent technocracy that could not last |
 | `hero/characters-astronaut.jpg` | Same family, same unverified provenance | A page hero for the whole cast |
 | `hero/about-writer.jpg` | Typewriter-and-rotary-phone cliché | The About page. Dermot's own photography is the obvious answer here |
+
+**Batch 2, 12 August (4, this PR).** The forty never-opened lore images were
+finally looked at, all forty at once as a contact sheet. **The result was far
+better than the audit implied:** about eighteen are already designed emblem
+cards in the house style, and another eighteen are abstract or astronomical
+stock with no people and no claims. Only these four needed anything.
+
+| Image | Why it went | What its replacement has to carry |
+| --- | --- | --- |
+| `ftl-mechanics.jpg` | A suited man cradling a glowing orbital diagram over city lights — stock *business-visionary* imagery. Face cropped above frame, so not a privacy case | How fold transit actually works. Anything true would beat this |
+| `lagrange-fold-points.jpg` | A hand holding floating tech icons; the same genre, the same nothing | Five points where gravity balances, and what that buys a ship |
+| `chthonari.jpg` | A horned, muscular figure against fire — demon art, in the register the horror guardrail rules out. **Same misjudgement as `mnemari`** | A species. The Korvain lesson applies: hint, don't show |
+| `solar-time-and-local-calendars.jpg` | Antique clock-face stock, near-duplicate of `galactic-stardate.jpg`. Kept the latter because its calendar grid is the more apt of the two | Local calendars diverging from solar time |
+
+*Left alone deliberately:* `physics-comparison` and `quantum-space-harmonics`
+are near-identical light-trace abstracts, the same repetition the `prismere-*`
+note complains about — but neither makes a false claim, and replacing them is
+taste rather than need.
 
 **The cheapest good answer to several of these is tier 3 of Open work 6** —
 Dermot's own photography. An Irish upland standing in for Ynys Wydrin claims

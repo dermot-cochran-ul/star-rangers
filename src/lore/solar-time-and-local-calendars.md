@@ -5,7 +5,7 @@ category: "Timeline Notes"
 tags: [timeline, solar-time, calendar, chronology, standards]
 description: "Every inhabited world keeps its own solar calendar for daily life; UCSD and Galactic Stardate exist because no single one of those calendars could be allowed to govern the others."
 image: "solar-time-and-local-calendars.jpg"
-image_alt: "A vintage clock face"
+image_alt: "Designed placeholder card for Solar Time and Local Calendars: the title and category set in pale serif type over a dark blue-black gradient, headed ILLUSTRATION PENDING. No illustration for this entry exists yet."
 ---
 
 Ask a dockhand what day it is and the honest answer depends entirely on which world's sky they last slept under.

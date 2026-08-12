@@ -5,7 +5,7 @@ category: "Physics"
 tags: [ftl, quantum-space-harmonic-wave, higher-dimensional-folding, concordant, navigation]
 description: "Canonical faster-than-light transit channels and their constraints in the Grand Ensemble Multiverse."
 image: "ftl-mechanics.jpg"
-image_alt: "A quantum computer technology concept"
+image_alt: "Designed placeholder card for FTL Mechanics: the title and category set in pale serif type over a dark blue-black gradient, headed ILLUSTRATION PENDING. No illustration for this entry exists yet."
 ---
 
 At a lawful departure site, a ship waits before it moves. Crews watch lock margins, gravity gradients, and exit conditions, because faster-than-light travel begins with discipline, not spectacle.
