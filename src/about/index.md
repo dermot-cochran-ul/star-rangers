@@ -3,7 +3,7 @@ layout: base.njk
 title: "About the Author"
 description: "About Dermot R. Cochran, creator of Fian Ilchruinne."
 ---
-<img class="page-hero-image" src="/star-rangers/images/hero/about-writer.jpg" alt="A writer working at a desk at night" />
+<img class="page-hero-image" src="/star-rangers/images/hero/about-writer.jpg" alt="Designed placeholder card for About the Author: the title set in pale serif type over a dark blue-black gradient, headed ILLUSTRATION PENDING. No illustration for this entry exists yet." />
 <h1 class="page-title">About the Author</h1>
 <p class="page-intro">
   Dermot R. Cochran is a Senior Machine Learning Engineer based in Dublin, Ireland.
