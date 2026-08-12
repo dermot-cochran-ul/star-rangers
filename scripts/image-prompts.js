@@ -43,8 +43,13 @@
 //   <paste, generate, download>  … repeat
 //   .\scripts\image-file.ps1 -From "$env:USERPROFILE\Downloads" -WhatIf
 //
+// BEFORE GENERATING, CHECK WHAT HE ALREADY HAS
+//   node scripts/build-photo-catalogue.js         # once, and after a shoot
+//   node scripts/image-prompts.js --catalogue     # own photos matching pending
+//
 // USAGE
 //   node scripts/image-prompts.js [--list]        # status of every entry
+//   node scripts/image-prompts.js --catalogue     # own-photography candidates
 //   node scripts/image-prompts.js --generate      # generate all pending
 //   node scripts/image-prompts.js --next          # serve one to the clipboard
 //   node scripts/image-prompts.js --only arilon   # restrict either mode to one
@@ -113,6 +118,7 @@ function parseArgs(argv) {
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--list') o.mode = 'list';
+    else if (a === '--catalogue' || a === '--catalog') o.mode = 'catalogue';
     else if (a === '--next') o.mode = 'next';
     else if (a === '--generate') o.mode = 'generate';
     else if (a === '--all') o.mode = 'all';
@@ -210,6 +216,163 @@ function parseEntries(markdown) {
     });
   }
   return entries;
+}
+
+// ---------------------------------------------------------------------------
+// --catalogue: offer Dermot's own photographs before anything is generated
+//
+// images.md (Open work 6 tier 3) argues his own photography should carry far
+// more of this site than it does - an Irish upland standing in for an alien
+// world is his own work and claims nothing false. But `pending` had exactly one
+// route out of it, generate, so the recommendation had no way to act on itself.
+// This adds the missing step: for each pending prompt, what does he already
+// have?
+//
+// It suggests and never decides. Matching a photograph to "a dome world with
+// thin air and permafrost" is a judgement; scoring words is only a way of
+// putting the plausible candidates in front of the person making it.
+// ---------------------------------------------------------------------------
+
+const CATALOGUE = path.join(REPO_ROOT, 'story-bible', 'own-photography.json');
+
+// Words that appear in nearly every prompt in images.md, or carry no subject
+// meaning. Left in, they make every photograph match every prompt equally.
+const PROMPT_NOISE = new Set(`a an and the of in on at to for with without any anywhere
+cinematic portrait landscape orientation upper body expression lighting lit palette muted
+desaturated professional science fiction sciencefiction science-fiction setting scene shot
+image photo photograph no not readable text signage insignia lettering written characters
+frame anywhere glamour styling styled realistic detailed high quality resolution
+foreground background midground composition wide close soft warm cool tone toned`
+  .split(/\s+/).filter(Boolean));
+
+// Subject words worth treating as equivalent. Deliberately short: this is here
+// to bridge in-world vocabulary to plain English, not to be a thesaurus.
+const SYNONYMS = [
+  ['upland', 'highland', 'mountain', 'mountains', 'hill', 'hills', 'moor', 'moorland', 'fell'],
+  ['coast', 'coastal', 'shore', 'shoreline', 'sea', 'ocean', 'maritime', 'tide', 'estuary'],
+  ['forest', 'woodland', 'wood', 'woods', 'trees', 'tree', 'canopy', 'grove'],
+  ['wetland', 'marsh', 'bog', 'fen', 'pond', 'lake', 'lough', 'water'],
+  ['desert', 'arid', 'dust', 'dune', 'savanna', 'savannah', 'plain', 'plains', 'grassland'],
+  ['volcanic', 'lava', 'basalt', 'strata', 'rock', 'stone', 'geology', 'cliff'],
+  ['bird', 'birds', 'gull', 'gulls', 'heron', 'raptor', 'eagle', 'vulture', 'stork', 'crane'],
+  ['ice', 'snow', 'frost', 'permafrost', 'glacier', 'frozen'],
+  ['cloud', 'clouds', 'mist', 'fog', 'haze', 'overcast'],
+  ['city', 'urban', 'architecture', 'building', 'buildings', 'skyline'],
+  ['flower', 'flowers', 'bloom', 'blossom', 'petal', 'botanical', 'plant'],
+  ['dusk', 'dawn', 'sunset', 'sunrise', 'twilight', 'goldenhour'],
+];
+
+function expand(token) {
+  const group = SYNONYMS.find((g) => g.includes(token));
+  return group ? group : [token];
+}
+
+function tokenise(text) {
+  return String(text || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, ' ')
+    .split(/[\s-]+/)
+    .filter((w) => w.length > 3 && !PROMPT_NOISE.has(w));
+}
+
+function loadCatalogue() {
+  if (!fs.existsSync(CATALOGUE)) return null;
+  try { return JSON.parse(fs.readFileSync(CATALOGUE, 'utf8')); }
+  catch (err) { console.error(`catalogue unreadable: ${err.message}`); return null; }
+}
+
+function scoreCandidates(prompt, catalogue) {
+  const wanted = new Set();
+  for (const t of tokenise(prompt)) for (const s of expand(t)) wanted.add(s);
+  if (!wanted.size) return { photos: [], folders: [] };
+
+  const rank = (haystack) => {
+    const have = new Set();
+    for (const t of tokenise(haystack)) for (const s of expand(t)) have.add(s);
+    let hits = 0;
+    const matched = [];
+    for (const w of wanted) if (have.has(w)) { hits++; matched.push(w); }
+    return { hits, matched };
+  };
+
+  // Three overlapping subject words, not two. Two is met by coincidence often
+  // enough that the output stops being worth reading.
+  const photos = (catalogue.publishedPhotos || [])
+    .map((p) => ({ p, ...rank(`${p.title} ${p.category} ${p.location} ${p.album} ${p.alt}`) }))
+    .filter((r) => r.hits >= 3)
+    .sort((a, b) => b.hits - a.hits)
+    .slice(0, 3);
+
+  const folders = (catalogue.rawFolders || [])
+    .map((f) => ({ f, ...rank(f.description) }))
+    .filter((r) => r.hits >= 3)
+    .sort((a, b) => b.hits - a.hits)
+    .slice(0, 2);
+
+  return { photos, folders };
+}
+
+function runCatalogue(todo) {
+  const catalogue = loadCatalogue();
+  if (!catalogue) {
+    console.log('No catalogue yet. Build one first:\n  node scripts/build-photo-catalogue.js');
+    return;
+  }
+
+  // Character portraits are excluded, and not as a threshold problem. Dermot
+  // photographs places and wildlife, and the one category of photograph he will
+  // not publish is a recognisable person - so there is no frame in this
+  // catalogue that could stand in for a face. Offering "Zebra in the Morning
+  // Dust" against a portrait prompt because both mention dust is noise, and
+  // noise is how a suggestion tool gets ignored.
+  const skipped = todo.filter((e) => e.dir === 'characters').length;
+  todo = todo.filter((e) => e.dir !== 'characters');
+
+  if (!todo.length) {
+    console.log(`Nothing to match.${skipped ? ` (${skipped} character portrait(s) skipped — see the note in this script.)` : ''}`);
+    return;
+  }
+  if (skipped) console.log(`Skipping ${skipped} character portrait(s): no photograph here can stand in for a face.\n`);
+
+  console.log(`Matching ${todo.length} pending prompt(s) against ${catalogue.publishedPhotos.length} published photographs and ${catalogue.rawFolders.length} raw folders.`);
+  console.log('Suggestions only. The catalogue is a snapshot — rebuild it with scripts/build-photo-catalogue.js.\n');
+
+  let withIdeas = 0;
+  for (const e of todo) {
+    const { photos, folders } = scoreCandidates(e.prompt, catalogue);
+    if (!photos.length && !folders.length) continue;
+    withIdeas++;
+    console.log(`### ${e.targetRel}`);
+    for (const r of photos) {
+      const where = [r.p.location, r.p.year].filter(Boolean).join(', ');
+      console.log(`   photo   ${r.p.title}${where ? ` — ${where}` : ''}  [${r.matched.slice(0, 4).join(' ')}]`);
+    }
+    for (const r of folders) {
+      console.log(`   raws    ${r.f.folder} — ${r.f.description.slice(0, 90)}  [${r.matched.slice(0, 4).join(' ')}]`);
+    }
+    console.log('');
+  }
+
+  console.log(`${withIdeas} of ${todo.length} pending prompt(s) have a plausible candidate in your own work.`);
+  if (withIdeas) console.log('Look at the actual frames before deciding — a title is not a photograph.');
+}
+
+// A placeholder card counts as work still to do, not as a finished image.
+// Without this, filling twenty-eight gaps with PORTRAIT PENDING cards on
+// 12 August 2026 emptied the queue while creating twenty-eight new jobs -
+// status() decides `done` from the file existing, and a placeholder is a file.
+// The marker is written into the JPEG itself by scripts/mark-placeholder.js,
+// so replacing a card with a real image clears it with no list to maintain.
+const PLACEHOLDER_MARKER = 'STAR-RANGERS-PLACEHOLDER';
+
+function isPlaceholder(file) {
+  try {
+    const fd = fs.openSync(file, 'r');
+    const buf = Buffer.alloc(4096);
+    const read = fs.readSync(fd, buf, 0, 4096, 0);
+    fs.closeSync(fd);
+    return buf.slice(0, read).includes(PLACEHOLDER_MARKER);
+  } catch { return false; }
 }
 
 // A manifest row records its target but not its orientation label, so recover
@@ -431,7 +594,7 @@ async function main() {
       .map((g) => g.key)
   );
 
-  const status = (e) => fs.existsSync(e.target) ? 'done'
+  const status = (e) => fs.existsSync(e.target) ? (isPlaceholder(e.target) ? 'placeholder' : 'done')
     : generatedKeys.has(e.key) ? 'generated'
     : progress.served.includes(e.key) ? 'served'
     : 'pending';
@@ -482,8 +645,18 @@ async function main() {
     return;
   }
 
+  if (opts.mode === 'catalogue') {
+    // Anything without a filed image, not just `pending`. An entry sitting at
+    // `generated` has candidate output in image-out/ but nothing chosen yet, so
+    // it is exactly the moment to ask whether a real photograph would do
+    // better - after that decision it is too late to be worth asking.
+    const todo = opts.only ? opts.only.map((n) => findOne(entries, n)) : entries.filter((e) => status(e) !== 'done');
+    runCatalogue(todo);
+    return;
+  }
+
   if (opts.mode === 'generate') {
-    let todo = opts.only ? opts.only.map((n) => findOne(entries, n)) : entries.filter((e) => status(e) === 'pending' || status(e) === 'served');
+    let todo = opts.only ? opts.only.map((n) => findOne(entries, n)) : entries.filter((e) => ['pending', 'served', 'placeholder'].includes(status(e)));
     if (!todo.length) { console.log('Nothing pending. Everything is generated or already filed.'); return; }
     await runGenerate(todo, opts);
     return;
@@ -503,15 +676,16 @@ async function main() {
     return;
   }
 
-  const counts = { done: 0, generated: 0, served: 0, pending: 0 };
+  const counts = { done: 0, generated: 0, served: 0, pending: 0, placeholder: 0 };
   console.log(`${entries.length} prompt(s) in story-bible/images.md\n`);
   for (const e of entries) {
     const s = status(e);
     counts[s]++;
-    const mark = { done: '[done]     ', generated: '[generated]', served: '[served]   ', pending: '[pending]  ' }[s];
+    const mark = { done: '[done]     ', generated: '[generated]', served: '[served]   ', pending: '[pending]  ', placeholder: '[placeholder]' }[s];
     console.log(`  ${mark} ${e.targetRel}`);
   }
-  console.log(`\n${counts.done} done, ${counts.generated} generated, ${counts.served} served, ${counts.pending} pending.`);
+  console.log(`\n${counts.done} done, ${counts.generated} generated, ${counts.served} served, ${counts.pending} pending, ${counts.placeholder} placeholder.`);
+  if (counts.placeholder) console.log('A placeholder is a standing card, not a finished image — those entries still need work.');
   if (counts.pending) console.log('Next: node scripts/image-prompts.js --generate   (or --next for the clipboard loop)');
   else if (counts.generated || counts.served) console.log('Next: .\\scripts\\image-file.ps1 -WhatIf');
 }
