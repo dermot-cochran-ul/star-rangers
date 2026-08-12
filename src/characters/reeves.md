@@ -9,7 +9,7 @@ aliases: []
 tags: [ai, kernel-compliant, investigative, threshold-station, season-1]
 description: "Detective Inspector Ashcombe's investigative support intelligence: correct, courteous, and constitutionally unable to volunteer a conclusion before being asked the right question."
 image: "reeves.jpg"
-image_alt: "A laptop displaying a face-recognition hologram"
+image_alt: "Designed placeholder card for Reeves: the title and role set in pale serif type over a dark blue-black gradient, headed PORTRAIT PENDING. No portrait for this entry exists yet."
 ---
 
 Reeves is the investigative support intelligence attached to Detective Inspector [Ashcombe](/star-rangers/characters/bertram-ashcombe/) aboard Threshold Station. It maintains the case logs, reconciles the physical evidence, cross-references station telemetry, and has, by a wide and undocumented margin, solved more of Ashcombe's cases than Ashcombe has.

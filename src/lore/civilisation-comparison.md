@@ -5,7 +5,7 @@ category: "History"
 tags: [history, technology, society, levrils, reclaimers, tafs, ashwardens, coherence-index, guild, infrastructure, matter, entropy, velmora]
 description: "A comparative analysis of three civilisational eras — the 13th, 21st, and 29th centuries — examining how technology, visibility, control, and social organisation relate to one another across human history and into the Star Rangers present."
 image: "civilisation-comparison.jpg"
-image_alt: "A stack of vintage photographs on a wooden table"
+image_alt: "Designed placeholder card for Civilisation Comparison: 13th, 21st, and 29th Centuries: the title and category set in pale serif type over a dark blue-black gradient, headed ILLUSTRATION PENDING. No illustration for this entry exists yet."
 ---
 
 A cart breaks in the street. In one century, hands gather around it. In another, a service truck arrives. In the twenty-ninth, the cart is gone before the dust settles.
