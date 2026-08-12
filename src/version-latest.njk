@@ -1,0 +1,82 @@
+---
+pagination:
+  data: collections.versionChainCurrent
+  size: 1
+  alias: item
+permalink: "{{ item.data.version_of }}latest/"
+eleventyExcludeFromCollections: true
+---
+{#-
+  THE `latest/` ALIAS for a versioned page.
+
+  Policy, 12 August 2026: a locked page is superseded rather than edited, and
+  each version keeps its own permanent URL — /lore/foo/, then /lore/foo-2/ —
+  so that a citation always resolves to the text that was cited. That is the
+  whole point, and it is why the ORIGINAL is never redirected.
+
+  But it leaves a reader who simply wants the current text with no address to
+  ask for, and no way to link to "whatever this has become". This is that
+  address: /lore/foo/latest/ redirects to whichever version is current.
+
+  SO THE TWO AUDIENCES GET DIFFERENT URLS, ON PURPOSE.
+    /lore/foo/         what was cited. Frozen. Carries a note pointing forward.
+    /lore/foo-2/       the current text, at its own permanent address.
+    /lore/foo/latest/  "the newest, whatever it is." Never frozen.
+
+  A citation uses the first. Internal navigation and anyone tracking the work
+  uses the third. Neither pretends to be the other, which is the failure mode
+  of the common arrangement where the original URL silently starts serving new
+  content.
+
+  HOW "CURRENT" IS DECIDED: a page in a chain declares `version_of` (the
+  original's URL). The one with no `superseded_by` is the current version, and
+  there must be exactly one — scripts/validate-content.js fails the build
+  otherwise, because two current versions in a chain means someone forgot a
+  forward note and the alias would be a coin toss.
+
+  NO ALIAS EXISTS UNTIL A CHAIN DOES. A page nobody has superseded is already
+  current at its own URL, so /lore/foo/latest/ appears the moment /lore/foo-2/
+  does. Documented rather than worked around: generating an alias for every page
+  on the site would be ~500 stubs earning nothing.
+
+  Static stub rather than a server redirect, canonical + noindex, for exactly
+  the reasons src/chapter-aliases.njk gives at length: .htaccess does not exist
+  on GitHub Pages and this repo deploys to both, and an alias must never compete
+  with the page it points at.
+-#}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ item.data.title }} — latest version</title>
+<link rel="canonical" href="/star-rangers{{ item.url }}">
+<meta name="robots" content="noindex, follow">
+<meta http-equiv="refresh" content="0; url=/star-rangers{{ item.url }}">
+<style>
+  :root { color-scheme: dark light; }
+  body {
+    margin: 0; min-height: 100vh; display: grid; place-items: center;
+    padding: 2rem; background: #12151b; color: #e8e6e1;
+    font-family: Georgia, "Times New Roman", serif; line-height: 1.6;
+  }
+  main { max-width: 34rem; text-align: center; }
+  h1 { font-size: 1.5rem; font-weight: normal; margin: 0 0 1rem; }
+  p { margin: 0 0 1rem; }
+  a { color: #9db8d8; }
+  .note { font-size: 0.9rem; opacity: 0.7; }
+</style>
+</head>
+<body>
+<main>
+  <h1>{{ item.data.title }}</h1>
+  <p>This address always points at the <strong>current</strong> version of this
+    entry. It is the link to use when you want the newest text rather than a
+    particular one.</p>
+  <p>If you meant to cite a specific version, link to that version's own
+    address instead — it will not change under you.</p>
+  <p><a href="/star-rangers{{ item.url }}">Continue to the current version</a></p>
+  <p class="note">If you are not redirected automatically, follow the link above.</p>
+</main>
+</body>
+</html>

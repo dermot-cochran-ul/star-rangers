@@ -4,6 +4,7 @@ comments: true
 commentsCategory: characters
 ---
 <article class="character-entry" data-character-id="{{ id }}">
+  {% include "superseded-note.njk" %}
   <header class="character-header{% if image %} character-header--with-image{% endif %}">
     <nav class="character-breadcrumb" aria-label="Character location" data-pagefind-ignore>
       <ol class="breadcrumb" role="list">

@@ -1,0 +1,47 @@
+{#-
+  THE FORWARD NOTE on a superseded page.
+
+  Policy, 12 August 2026: a page that has been reviewed, approved and linked to
+  from outside is LOCKED. After that, changes become new versions rather than
+  edits, and the old page stays live carrying a note to the new one — so nothing
+  breaks and the evolution stays visible.
+
+  This partial renders that note. It is deliberately at the TOP of the article
+  and outside `data-pagefind-body`'s useful content: a reader who arrives from an
+  old citation needs to know before they read, not after.
+
+  WHY THE OLD PAGE IS NOT REDIRECTED. A redirect would serve the newest text to
+  someone who cited the old one, silently, which is the failure
+  src/chapter-aliases.njk exists to prevent — "it silently starts pointing at
+  something else, which is strictly worse, because nothing signals the breakage
+  to either side." The whole point of a version is that the cited text stays
+  where it was cited.
+
+  NO `noindex` HERE, deliberately, and this is the opposite call from the
+  redirect stubs. A superseded version is not a duplicate of the current one —
+  it is a different document that says different things, and it is meant to be
+  findable. It carries a canonical pointing at ITSELF (base.njk's default),
+  because it is the canonical copy of what it says.
+-#}
+{% if superseded_by %}
+<aside class="superseded-note" role="note">
+  <p class="superseded-note__lede">
+    <strong>This version is kept as filed.</strong>
+    {% if superseded_on %}It was superseded on
+    <time datetime="{{ superseded_on }}">{{ superseded_on }}</time>.{% endif %}
+  </p>
+  <p>
+    It has not been edited since, and it is not the current text.
+    <a href="/star-rangers{{ superseded_by }}">Read the version that supersedes it</a>.
+  </p>
+</aside>
+{% endif %}
+{% if version_of %}
+<aside class="supersedes-note" role="note" data-pagefind-ignore>
+  <p>
+    This is a revised version. The
+    <a href="/star-rangers{{ version_of }}">earlier version</a>
+    is kept as it was filed.
+  </p>
+</aside>
+{% endif %}
