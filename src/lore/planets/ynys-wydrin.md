@@ -8,7 +8,7 @@ galaxy: "Milky Way"
 system: "Avallach System"
 locationType: "Planet"
 image: "ynys-wydrin.jpg"
-image_alt: "An archer standing in a dark forest"
+image_alt: "Designed placeholder card for Ynys Wydrin: the title and category set in pale serif type over a dark blue-black gradient, headed ILLUSTRATION PENDING. No illustration for this entry exists yet."
 ---
 
 Not every Currach Fleet ark found a world as forgiving as Tír na nÓg. Ynys Wydrin's colonists found thin, unbreathable air, permafrost, and a name already waiting for them in their own mythology.

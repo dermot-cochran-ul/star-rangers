@@ -11,7 +11,7 @@ aliases:
 tags: [ai, kernel-compliant, eden, plural-mind, orbital-habitats-compact, welfare, undercover-pets.com]
 description: "Eden Space Habitat's resident AI collective: two Kernel-compliant personas, Ward and Custos, sharing one system and answering jointly to the Mayor and the Commissioner — with standing authority over the habitat's mobile AI humanoids and welfare responsibility for its cyber-enhanced animals."
 image: "eden-warden.jpg"
-image_alt: "A facial recognition system interface"
+image_alt: "Designed placeholder card for The Eden Warden: the title and role set in pale serif type over a dark blue-black gradient, headed PORTRAIT PENDING. No portrait for this entry exists yet."
 ---
 
 Every one of the [Orbital Habitats Compact](/star-rangers/lore/orbital-habitats-compact/)'s five member habitats hosts at least one resident AI collective, reporting jointly to that habitat's Mayor and Commissioner rather than to either alone — the same dual-line design that governs the rest of the Compact's civil administration, applied one layer down. At Eden, that collective is known simply as the Warden, a name the habitat borrowed without much ceremony from a much older vocabulary: [Solar System record has used "warden" for guardianship duty for centuries](/star-rangers/lore/star-rangers-command-hierarchy/), long before any charter needed the word.
