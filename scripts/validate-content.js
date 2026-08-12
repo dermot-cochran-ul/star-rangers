@@ -39,6 +39,18 @@ function findMarkdownFiles(dir) {
   return results;
 }
 
+function findFilesByExtension(dir, extensions) {
+  if (!fs.existsSync(dir)) return [];
+  let results = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (entry.name === "node_modules" || entry.name === "_site") continue;
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) results = results.concat(findFilesByExtension(fullPath, extensions));
+    else if (extensions.some((ext) => entry.name.endsWith(ext))) results.push(fullPath);
+  }
+  return results;
+}
+
 function isBlank(value) {
   if (value === undefined || value === null) return true;
   if (typeof value === "string") return value.trim() === "";
@@ -180,6 +192,164 @@ function checkPrivateThreadLinkBoundary(files) {
   return results;
 }
 
+// ---------------------------------------------------------------------------
+// Image bookkeeping
+//
+// Added 2026-08-12 after an audit found story-bible/images.md describing the
+// image set as it was months earlier: it still listed `dagny-voss` among the
+// stock headshots after that file had been deleted, and still listed
+// `dorian-calloway` after it had been replaced. Neither was a review-frequency
+// problem - both were changes that landed without the note changing with them,
+// which is exactly the kind of drift a machine should catch and a human should
+// not have to remember. The semantic half (an image listed as stock that is now
+// generated) is not checkable here; the existence half is.
+// ---------------------------------------------------------------------------
+
+const IMAGES_DIR = path.join(SRC_DIR, "images");
+const STORY_BIBLE_IMAGES = path.join(__dirname, "..", "story-bible", "images.md");
+
+// Backticked tokens in images.md that look like image slugs but deliberately
+// name no file: motif families, glob patterns, and prose. Add to this rather
+// than loosening the pattern, so the check stays sharp.
+const NON_IMAGE_TOKENS = new Set([
+  "story-bible", "image_alt", "firefly-prompts", "make-codex-cover",
+  "validate-content", "content-schema", "storyline-threads", "content-filter",
+  "latest-lore", "scene-pov", "lore-entry", "character-njk"
+]);
+
+// Images that exist on purpose without being referenced. Both were produced as
+// part of a standard favicon set; the head template wires up 16, 32, 180 and the
+// SVG, and 48 and 512 are the sizes a web manifest would use if this site had
+// one. Kept rather than deleted so the set stays complete if a manifest is ever
+// added - but listed here so "unreferenced" stays a real signal for everything
+// else.
+const KNOWN_UNREFERENCED_IMAGES = new Set([
+  "icons/favicon-48.png",
+  "icons/favicon-512.png"
+]);
+
+function findImageFiles(dir) {
+  if (!fs.existsSync(dir)) return [];
+  let results = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) results = results.concat(findImageFiles(fullPath));
+    else if (/\.(jpe?g|png|webp|gif|avif|svg)$/i.test(entry.name)) results.push(fullPath);
+  }
+  return results;
+}
+
+// Every image on disk, keyed both by bare basename ("sen") and by its path
+// below src/images/ ("characters/sen.jpg"), because images.md refers to them
+// both ways depending on how ambiguous the name is.
+function indexImages(imagePaths) {
+  const byBasename = new Map();
+  const byRelPath = new Set();
+  for (const p of imagePaths) {
+    const rel = path.relative(IMAGES_DIR, p).split(path.sep).join("/");
+    byRelPath.add(rel);
+    const base = path.basename(p).replace(/\.[^.]+$/, "");
+    if (!byBasename.has(base)) byBasename.set(base, []);
+    byBasename.get(base).push(rel);
+  }
+  return { byBasename, byRelPath };
+}
+
+// A page's `image:` must actually exist. A missing one renders as a broken
+// image rather than failing the build, so nothing else catches it.
+function checkFrontMatterImageExists(data, relativePath, index) {
+  if (isBlank(data.image)) return [];
+  const value = String(data.image).replace(/^\/+/, "");
+  if (index.byRelPath.has(value)) return [];
+  // Front matter usually gives a partial path ("universes/si-gaoithe.jpg") or a
+  // bare filename, with the layout supplying the category directory. Match on
+  // the final path segment, not the whole string.
+  const bare = path.basename(value).replace(/\.[^.]+$/, "");
+  if (index.byBasename.has(bare)) return [];
+  return [`image "${data.image}" does not exist under src/images/`];
+}
+
+// An image no page references is either a leftover from a deleted entry or a
+// file whose reference was renamed - both silent, both worth knowing about.
+function checkOrphanImages(index, corpus) {
+  const problems = [];
+  for (const rel of index.byRelPath) {
+    if (KNOWN_UNREFERENCED_IMAGES.has(rel)) continue;
+    const base = path.basename(rel);
+    const bare = base.replace(/\.[^.]+$/, "");
+    if (corpus.includes(base) || corpus.includes(rel) || corpus.includes(`"${bare}"`)) continue;
+    problems.push(`src/images/${rel} is not referenced by any page, template or script`);
+  }
+  return problems.length
+    ? [{ relativePath: path.join("src", "images"), label: "unreferenced images", problems }]
+    : [];
+}
+
+// Slugs named in story-bible/images.md that no longer exist on disk. This is
+// the check that would have caught `dagny-voss`.
+//
+// It is OFF by default and opted into per section, because images.md names
+// non-existent images legitimately and often: whole sections exist to list
+// portraits and lore illustrations that have *not been made yet*, and section 6
+// lists images slated for removal, some of which are already gone. Checking the
+// file as a whole produced ~50 findings, nearly all of them noise, which is the
+// fastest way to teach someone to ignore a check.
+//
+// So a section asserts that its images exist by opting in:
+//
+//   <!-- validate-images: on -->    ... checked from here
+//   <!-- validate-images: off -->   ... and not past here
+//
+// An `on` block also ends at the next `##` heading, so forgetting the closing
+// marker fails safe rather than swallowing the rest of the document.
+function checkStoryBibleImageRefs(index) {
+  if (!fs.existsSync(STORY_BIBLE_IMAGES)) return [];
+  const text = fs.readFileSync(STORY_BIBLE_IMAGES, "utf8");
+  const problems = [];
+  const seen = new Set();
+
+  // Reduce the document to only the opted-in regions before looking for slugs.
+  let checking = false;
+  const activeLines = [];
+  for (const line of text.split(/\r?\n/)) {
+    if (/<!--\s*validate-images:\s*on\s*-->/.test(line)) { checking = true; continue; }
+    if (/<!--\s*validate-images:\s*off\s*-->/.test(line)) { checking = false; continue; }
+    if (/^##\s/.test(line)) checking = false;
+    if (checking) activeLines.push(line);
+  }
+  const active = activeLines.join("\n");
+  if (!active.trim()) return [];
+
+  for (const match of active.matchAll(/`([^`\n]+)`/g)) {
+    const token = match[1].trim();
+    if (seen.has(token) || NON_IMAGE_TOKENS.has(token)) continue;
+
+    // A path-shaped reference below src/images/, e.g. `lore/the-imperium.jpg`
+    // or `src/images/lore/new-london-space-habitat.jpg`.
+    const asPath = token.replace(/^src\/images\//, "");
+    if (/^[a-z0-9][a-z0-9/-]*\.(jpe?g|png|webp|gif|avif|svg)$/i.test(asPath)) {
+      seen.add(token);
+      if (!index.byRelPath.has(asPath)) {
+        problems.push(`names image "${token}", which does not exist under src/images/`);
+      }
+      continue;
+    }
+
+    // A bare hyphenated slug, e.g. `dagny-voss`. Requiring a hyphen and no
+    // punctuation keeps prose, flags and globs out of scope.
+    if (/^[a-z0-9]+(-[a-z0-9]+)+$/.test(token) && !token.includes("*")) {
+      seen.add(token);
+      if (!index.byBasename.has(token)) {
+        problems.push(`names "${token}", which matches no image under src/images/ - deleted or renamed since this note was written?`);
+      }
+    }
+  }
+
+  return problems.length
+    ? [{ relativePath: path.relative(process.cwd(), STORY_BIBLE_IMAGES), label: "story bible image references", problems }]
+    : [];
+}
+
 function main() {
   const files = findMarkdownFiles(SRC_DIR);
   const fileProblems = [];
@@ -189,6 +359,7 @@ function main() {
   // lib/content-schema.js for why it must stay unique and permanent).
   const commentIdOwners = new Map();
   const codexSlugs = loadCodexSlugs();
+  const imageIndex = indexImages(findImageFiles(IMAGES_DIR));
 
   for (const filePath of files) {
     const relativePath = path.relative(process.cwd(), filePath);
@@ -206,6 +377,7 @@ function main() {
     const problems = checkAgainstSchema(data, schema);
     if (isChapter) problems.push(...checkChapterConsistency(filePath, data, relativePath));
     if (schema === CONTENT_TYPES.character) problems.push(...checkKnownCodex(data, codexSlugs));
+    problems.push(...checkFrontMatterImageExists(data, relativePath, imageIndex));
     for (const { threadId, signatureTag } of checkPrivateThreadSignatureTags(data)) {
       problems.push(
         `tagged "${signatureTag}" (a "${threadId}" signature tag - see lib/storyline-threads.js) but missing ` +
@@ -229,8 +401,27 @@ function main() {
 
   fileProblems.push(...checkPrivateThreadLinkBoundary(files));
 
+  // One corpus of everything that could reference an image, so the orphan
+  // check is a set of substring tests rather than a scan per image.
+  // Everything that could name an image, including repo-root files: the OG
+  // fallback lives in .eleventy.js and the favicons are named in the web
+  // manifest, so a corpus limited to src/ and lib/ reports both as orphans.
+  const REPO_ROOT = path.join(__dirname, "..");
+  const TEXT_EXTS = [".md", ".njk", ".js", ".json", ".html", ".webmanifest", ".xml", ".yml", ".yaml", ".txt"];
+  const referencingFiles = [
+    ...findFilesByExtension(SRC_DIR, TEXT_EXTS),
+    ...findFilesByExtension(path.join(REPO_ROOT, "lib"), TEXT_EXTS),
+    ...findFilesByExtension(path.join(REPO_ROOT, "scripts"), TEXT_EXTS),
+    ...fs.readdirSync(REPO_ROOT, { withFileTypes: true })
+      .filter((e) => e.isFile() && TEXT_EXTS.some((ext) => e.name.endsWith(ext)))
+      .map((e) => path.join(REPO_ROOT, e.name))
+  ];
+  const corpus = referencingFiles.map((f) => fs.readFileSync(f, "utf8")).join("\n");
+  fileProblems.push(...checkOrphanImages(imageIndex, corpus));
+  fileProblems.push(...checkStoryBibleImageRefs(imageIndex));
+
   if (fileProblems.length === 0) {
-    console.log(`Content validation passed (${files.length} files checked).`);
+    console.log(`Content validation passed (${files.length} files, ${imageIndex.byRelPath.size} images checked).`);
     return;
   }
 
