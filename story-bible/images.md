@@ -502,20 +502,36 @@ below are ready to paste; add `image`/`image_alt` after generating.
   > Cinematic noir portrait of a rumpled, world-weary male detective inspector in a slightly worn coat aboard a space habitat, upper body, tired but sharp expression, low-key dramatic lighting, science-fiction detective setting, desaturated palette, professional, wayfinding shown only as Compact plainmarks — flat stencilled panels of stacked colour bands in black, slate-blue, bone-white and ochre, carrying simple geometric figures (chevrons, rings, short tally strokes, lozenge diamonds), painted on the fixed frame beside each hatch and at corridor junctions, no readable text, numerals, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
 
 - **`asteria-the-sage.jpg`** — retired Star Captain, now leads a local
-  Fellowship of Light chapter on a quiet planet. **She reads as an officer in
-  plain clothes: mid-sixties, upright, level, still visibly a commander.**
+  Fellowship of Light chapter on a quiet planet. **She wears the robes of her
+  chapter and still reads unmistakably as a commander. Both at once — that is
+  the whole portrait.**
 
-  **This note used to say the opposite, and the opposite is what it got.** It
-  read "a portrait should read as retirement, not command", and two rounds
-  produced a beatific wise-woman in flowing robes, looking eighty. Dermot's
-  correction, 11 August: mid-sixties, *"looking like an officer but in plain
-  clothes."* Retirement is her circumstance, not her bearing — the page's
-  interest is that command did not leave when the rank did. Three words do the
-  damage if left in a prompt: **robes** summons the wise-woman every time,
-  **serene** produced the first version, and **older woman** lands nearer
-  eighty than sixty-five. All three are now excluded by name, and the age is
-  stated as a number rather than a word.
-  > Cinematic portrait of a woman of about sixty-five who reads unmistakably as a senior officer out of uniform, upper body, standing outside a modest stone chapter house on a quiet rural world. Plain civilian working clothes only - a collared shirt with the sleeves turned back, hard-wearing trousers, a plain jacket - absolutely no robes, no shawl, no draped or flowing fabric of any kind. Upright military bearing, square shoulders, weight evenly set, hands still. Short practical iron-grey hair, not long and not loose. Level and unsmiling, assessing whoever she is looking at. Fit and solid rather than frail or willowy; her face shows sixty-five, not eighty - no deep age-lining, no stoop, no beatific warmth. Soft overcast daylight, science-fiction pastoral setting, muted natural palette, composed and faintly impatient, a commander at ease and still visibly a commander, no uniform, no insignia, no rank marks, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  **This note has now been wrong in both directions, which is worth recording
+  rather than tidying away.**
+
+  It first read "a portrait should read as retirement, not command", and two
+  rounds produced a beatific wise-woman in flowing robes, looking eighty. The
+  correction of 11 August fixed the bearing and overcorrected the costume: it
+  banned robes outright — *"absolutely no robes, no shawl, no draped or flowing
+  fabric of any kind"* — and named **robes** as a word that "summons the
+  wise-woman every time".
+
+  **Dermot's correction, 12 August: she needed to have robes but look strong at
+  the same time.** So robes were never the fault. The fault was letting the
+  robes carry the whole characterisation — flowing fabric plus *serene* plus
+  *older woman* produces a sage, and the first brief supplied all three. Take
+  the bearing seriously and the robes stop being a costume for wisdom and
+  become what a chapter leader actually wears.
+
+  **The lesson for every other brief in this file:** when an image comes back
+  wrong, the instinct is to ban the most visible feature. Usually the visible
+  feature is innocent and the *combination* is the fault. Ban the softness, not
+  the garment.
+
+  So: robes, and a spine. Mid-sixties stated as a number, because **older
+  woman** still lands nearer eighty. **Serene** stays excluded — that word did
+  produce the first version, and nothing here needs it.
+  > Cinematic portrait of a woman of about sixty-five who reads unmistakably as a senior officer, upper body, standing outside a modest stone chapter house on a quiet rural world. She wears the plain working robes of a contemplative order over ordinary clothes - heavy, well-worn, functional cloth with a clear shoulder line, belted at the waist, not draping or billowing and not ceremonial. Upright military bearing, square shoulders, weight evenly set, hands still and unclasped at her sides. Short practical iron-grey hair, not long and not loose. Level and unsmiling, assessing whoever she is looking at, faintly impatient. Fit and solid rather than frail or willowy; her face shows sixty-five, not eighty - no deep age-lining, no stoop, no beatific warmth, no serenity, no benevolence, no wisdom pose, no hands folded in blessing, no staff. Soft overcast daylight, science-fiction pastoral setting, muted natural palette, a commander who happens to be wearing robes rather than a sage who happens to have been a commander, no uniform, no insignia, no rank marks, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 - **`galen.jpg`** — Star Rangers liaison officer at a Celtic Union shuttle gate;
   minor character, correct and quietly decent.
