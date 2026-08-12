@@ -10,7 +10,7 @@ aliases:
 tags: [aethelrock, celtic-union, clan-bryneth, ridgemoot, human]
 description: "Clan head of Bryneth on Aethelrock, holder of the sparsely populated but fiercely defended northern high country, and the Ridgemoot's most consistent voice against any arrangement — old rotation or new — that concentrates authority off Bryneth ground."
 image: "idris-bryneth.jpg"
-image_alt: "A portrait of a senior man"
+image_alt: "Designed placeholder card for Idris Bryneth: the name and role set in pale serif type over a dark blue-black gradient, headed PORTRAIT PENDING. No portrait of this character exists yet."
 ---
 
 Idris Bryneth leads the smallest clan on Aethelrock and has never once let anyone at the Ridgemoot forget that smallest is not the same as weakest. Bryneth territory could be walked end to end in a fortnight. Nobody has tried it without an escort in living memory.

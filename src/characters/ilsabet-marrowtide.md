@@ -10,7 +10,7 @@ aliases:
 tags: [four-islands, tideward-sisterhood, abbeylands, aduine, first-contact, human]
 description: "Abbess of the Tideward Sisterhood and keeper of the Long Accounting — the Kingdom of the Four Islands' only continuous written archive — and the Kingdom's de facto first point of contact for the Survey Corps' new standing delegation."
 image: "ilsabet-marrowtide.jpg"
-image_alt: "A night-time portrait of a robed priestess"
+image_alt: "Designed placeholder card for Ilsabet Marrowtide: the name and role set in pale serif type over a dark blue-black gradient, headed PORTRAIT PENDING. No portrait of this character exists yet."
 known_codex: [what-prayer-is-for]
 ---
 
