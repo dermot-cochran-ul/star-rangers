@@ -35,6 +35,27 @@ Chartered works are **registered here, not hosted here** — the work stays with
 
 **No chartered works exist at the time of writing.** This section states the policy in advance so the first one does not have to invent it.
 
+## How these are described to readers
+
+The three tiers above are the policy and do not change. This is the **register** for naming them in reader-facing prose, drawn from the work's own conceit: *Fian Ilchruinne* is presented as an archive, and an archive routinely holds material it did not write, from many hands, without anyone becoming a co-author of the archive. That relationship is native to the metaphor rather than bolted onto it, which is why it says what the legal wording says without sounding like a contract.
+
+| Policy term | Reader-facing register | What it says |
+| --- | --- | --- |
+| Canon | **Of record** | The Archive's own. Binding |
+| Chartered work | **Deposited** | Filed by another hand, registered here, kept as filed. Attributed to its author, not owned by this one |
+| Fan work | **In circulation** | Accounts that exist and are known. Not authenticated, and not suppressed either |
+| Referenced, not endorsed | **Noted** | The Archive knows of it and says so. Nothing more is claimed |
+
+Two things this buys, beyond sounding less like a form.
+
+**A depositor is obviously not a co-author of the archive.** The word does the work that a disclaimer otherwise has to do, and it does it without the defensive tone a disclaimer carries. *Registered here, not hosted here* — the existing phrase — is already exactly what a deposit register is.
+
+**"In circulation" is the honest name for the thing that is neither blessed nor forbidden.** It records that something exists and is read, without ranking it, and without the faint condescension "fan fiction" carries in some ears. It is also true: an archive that pretended nothing circulated outside it would be a worse archive.
+
+Precedent for the register already exists in the work — `src/characters/sen-marginalia.md`, notes in one hand on another's document, which is the relationship exactly.
+
+**This is presentation, not policy.** Where the two could be read apart, the policy above governs, and the licence below governs both.
+
 ---
 
 Attribution-NonCommercial-NoDerivatives 4.0 International
