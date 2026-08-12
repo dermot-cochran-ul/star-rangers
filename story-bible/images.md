@@ -525,24 +525,44 @@ Line's Nordic-heritage coastal world wants a real cold-coast frame.
 
 ### 3. Deferred by choice
 
-- **The contemporary-stock-headshot cluster (13 files)** — flat studio
-  backdrops, no in-world setting: `cormac-dubhghlas`, `dagny-voss`,
-  `demelza-trevithick`, `dorian-calloway`, `fergus-aonghas`, `idris-bryneth`,
-  `imogen-petrakis`, `niamh-o-ceallaigh`, `petra-voss`, `rhian-gwynne`,
-  `rhiannon-ceridwen`, `sen`, `zara-wayland`. Three (`dagny-voss`,
-  `imogen-petrakis`, `petra-voss`) lean toward the glamour look the house style
-  rules out. Real style work, but a batch that size deserves its own session
-  with Dermot choosing each face.
+<!-- validate-images: on -->
+<!-- Every image named below is asserted to EXIST, so `npm test` checks it.
+     That is the point of this section: it describes the image set as it
+     stands. Sections listing images still to be made must not opt in. -->
+
+- **The contemporary-stock-headshot cluster (11 files)** — flat studio
+  backdrops, no in-world setting: `cormac-dubhghlas`, `demelza-trevithick`,
+  `fergus-aonghas`, `idris-bryneth`, `imogen-petrakis`, `niamh-o-ceallaigh`,
+  `petra-voss`, `rhian-gwynne`, `rhiannon-ceridwen`, `sen`, `zara-wayland`.
+  Two (`imogen-petrakis`, `petra-voss`) lean toward the glamour look the house
+  style rules out. Real style work, but a batch that size deserves its own
+  session with Dermot choosing each face.
+  *Was written as thirteen: dagny-voss was deleted in `55dc1ec` and
+  dorian-calloway was replaced with a generated portrait in `525dfc1`, neither
+  of which reached this note. Corrected 2026-08-12. Names of removed files are
+  left un-backticked here deliberately — inside a `validate-images: on` block a
+  backticked name is an assertion that the file exists.*
 - **Flat title-card template used on humans** instead of portraits:
   `brother-fintan`, `dr-iona-vale`, `galahad-thorne`. Same template on aliens
   (`isren-farrowkin`, `mira-of-brine`, `sohrel`, `syra`) — internally
   consistent, but a third visual language beside the photo and emblem
   conventions.
-- **Tonal outliers, deliberate:** `lore/planetary-liaisons-and-recruiters.jpg`
-  (a "true crime" evidence board, matches its own alt text),
-  `lore/the-imperium.jpg` (a real modern skyscraper standing in for a monolithic
-  tower), the `prismere-*` series repeating one jellyfish/crystal-spire motif
-  across distinct named locations.
+- **Tonal outliers, deliberate:** `lore/the-imperium.jpg` (a real modern
+  skyscraper standing in for a monolithic tower), and the `prismere-*` series
+  repeating one jellyfish/crystal-spire motif across distinct named locations.
+  *The "true crime" evidence board, lore/planetary-liaisons-and-recruiters.jpg,
+  was listed here too until 2026-08-12 — it was deleted in `55dc1ec` as a
+  verified stock image, so it stopped being an outlier and started being a dead
+  reference. The same photograph survives at `characters/bertram-ashcombe.jpg`.*
+
+<!-- validate-images: off -->
+
+*Two names above are stale and kept only until this section is rewritten:
+`dagny-voss` was deleted in `55dc1ec`, and `dorian-calloway` was replaced with a
+generated portrait in `525dfc1`, so the cluster is eleven files rather than
+thirteen. The validator now catches the first kind of drift; the second kind —
+a file that still exists but is no longer what the note says it is — it cannot
+see, and never will.*
 
 ### 4. New London Space Habitat — delivered, with two recorded defects (2026-07-26)
 
