@@ -119,6 +119,34 @@ function loadCodexSlugs() {
   );
 }
 
+// Version chains: a locked page is superseded rather than edited, and each
+// version keeps its own permanent URL so a citation resolves to the text that
+// was cited (policy, 12 August 2026).
+//
+// Two ways a chain can be wrong, both silent without a check. A `superseded_by`
+// or `version_of` pointing at a page that does not exist leaves a reader on a
+// dead forward link — worse than no note, because the note promises there is
+// somewhere to go. And two current versions in one chain (both declaring
+// `version_of`, neither superseded) means somebody forgot a forward note, and
+// src/version-latest.njk's `/latest/` alias would then be a coin toss between
+// them rather than an answer.
+function checkVersionChain(data, urlSet) {
+  const problems = [];
+  for (const field of ["superseded_by", "version_of"]) {
+    if (isBlank(data[field])) continue;
+    const target = String(data[field]);
+    if (!target.startsWith("/") || !target.endsWith("/")) {
+      problems.push(`${field} "${target}" must be a site-absolute path with a trailing slash, e.g. "/lore/foo/"`);
+    } else if (!urlSet.has(target)) {
+      problems.push(`${field} points at "${target}", which is not a page on this site`);
+    }
+  }
+  if (!isBlank(data.superseded_by) && isBlank(data.superseded_on)) {
+    problems.push(`superseded_by is set but superseded_on is missing - the note tells a reader when, or it tells them nothing`);
+  }
+  return problems;
+}
+
 function checkKnownCodex(data, codexSlugs) {
   const problems = [];
   for (const slug of data.known_codex || []) {
@@ -359,6 +387,15 @@ function main() {
   // lib/content-schema.js for why it must stay unique and permanent).
   const commentIdOwners = new Map();
   const codexSlugs = loadCodexSlugs();
+  // Every URL the site builds, so a version chain's forward and backward links
+  // can be checked against something real rather than assumed.
+  const urlSet = new Set(files.map((f) => {
+    const { data } = matter(fs.readFileSync(f, "utf8"));
+    return urlForContentFile(f, data);
+  }));
+  // Chains must have exactly one current version: chain base -> count of pages
+  // declaring it that nothing supersedes.
+  const chainCurrent = new Map();
   const imageIndex = indexImages(findImageFiles(IMAGES_DIR));
 
   for (const filePath of files) {
@@ -377,6 +414,11 @@ function main() {
     const problems = checkAgainstSchema(data, schema);
     if (isChapter) problems.push(...checkChapterConsistency(filePath, data, relativePath));
     if (schema === CONTENT_TYPES.character) problems.push(...checkKnownCodex(data, codexSlugs));
+    problems.push(...checkVersionChain(data, urlSet));
+    if (!isBlank(data.version_of) && isBlank(data.superseded_by)) {
+      const base = String(data.version_of);
+      chainCurrent.set(base, (chainCurrent.get(base) || []).concat(relativePath));
+    }
     problems.push(...checkFrontMatterImageExists(data, relativePath, imageIndex));
     for (const { threadId, signatureTag } of checkPrivateThreadSignatureTags(data)) {
       problems.push(
@@ -400,6 +442,19 @@ function main() {
   }
 
   fileProblems.push(...checkPrivateThreadLinkBoundary(files));
+
+  for (const [base, pages] of chainCurrent) {
+    if (pages.length > 1) {
+      fileProblems.push({
+        relativePath: pages.join(", "),
+        label: "version chain",
+        problems: [
+          `${pages.length} pages claim to be the current version of ${base} - exactly one must have no "superseded_by", ` +
+          `or the /latest/ alias has no answer and a reader following the chain forward hits a fork`
+        ],
+      });
+    }
+  }
 
   // One corpus of everything that could reference an image, so the orphan
   // check is a set of substring tests rather than a scan per image.

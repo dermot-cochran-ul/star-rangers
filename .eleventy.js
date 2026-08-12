@@ -431,6 +431,22 @@ module.exports = function(eleventyConfig) {
       .filter(Boolean)
   );
 
+  // The current version of every page that is part of a version chain, for
+  // src/version-latest.njk to build its /latest/ aliases from.
+  //
+  // A chain member declares `version_of` (the original's URL). The one with no
+  // `superseded_by` is the current text. A page nobody has superseded is not in
+  // a chain at all and gets no alias — its own URL is already current.
+  //
+  // This is a collection rather than a `pagination.before` filter in the
+  // template's front matter, because that field has to be a real function and
+  // YAML front matter cannot carry one — declaring it there silently filters
+  // nothing, paginates the whole site, and every stub collides on one permalink.
+  eleventyConfig.addCollection("versionChainCurrent", (collectionApi) =>
+    collectionApi.getAll()
+      .filter((item) => item.data.version_of && !item.data.superseded_by)
+  );
+
   eleventyConfig.addCollection("characters", (collectionApi) =>
     collectionApi.getAll()
       .filter((item) => item.data.layout === "character.njk")
