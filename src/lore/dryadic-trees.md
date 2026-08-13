@@ -14,6 +14,18 @@ Dryadic trees are long-lived plant organisms found where Etheric fault lines int
 
 They were named after old tree-spirit folklore. The name stayed. The explanation changed. What people took for haunting is better understood as a Class II use pattern acting through the tree, not an innate spirit inside it.
 
+## The Dryad and the Tree Are Not the Same Entry
+
+The tree is an organism and this page describes it. **The Dryad is not the tree, and is not a humanoid being either.** Where a figure is seen at a dryadic anchor — and figures are reported, in the field record and in older folk accounts alike — what is present is a **projection**, in the same category as the Good People of [Tír Tairngire](/star-rangers/lore/universes/tir-tairngire/): a presentation shaped at the boundary and pitched to be met, belonging to something under no obligation to resemble it.
+
+**And like the Good People, they are found only where the [Harmonic Membrane](/star-rangers/lore/universes/tir-tairngire/) runs close enough.** This is the fact that makes the whole category legible rather than mysterious: a projection needs something to project *from*, and proximity to that membrane is the condition. It explains the distribution directly — why Dryads are reported at some anchor sites and never at others no matter how old or how strongly coupled the grove; why the folk accounts cluster geographically rather than scattering; and why a survey team can predict, from membrane proximity alone and before setting foot on the ground, whether a site is one where figures are likely to be described. Absence of a Dryad at a dryadic grove is therefore not a negative finding about the grove. It is a measurement of how far away something else is.
+
+**Parts of [Tír na nÓg](/star-rangers/lore/planets/tir-na-nog/) are close enough**, which is the record's clearest worked case and the reason the folk accounts there are the fullest anywhere. Note the wording: *parts*. The condition is local rather than planetary, so one valley on that world may hold both a grove where figures are described for generations and another, a day's walk off, where nothing has ever been reported and the trees are otherwise identical. Neither settlement is mistaken about its own ground.
+
+The consequence is the one [the Levril entry](/star-rangers/lore/levrils/) sets out at length. A described Dryad is a fact about the encounter rather than about the thing encountered, witnesses of different species should not be expected to agree on a shape, and the divergence in their accounts is not an error to be reconciled. Both the folk record and the survey record are describing something real; neither is describing a body.
+
+Everything below concerns the tree.
+
 ## Physical Characteristics
 
 Dryadic trees are identifiable by several consistent features:

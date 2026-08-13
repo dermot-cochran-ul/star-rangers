@@ -68,12 +68,25 @@ Meta-dimensional beings with no sapience. Purely predatory, entropic, or ecologi
 - Instrument anomalies consistent with extra-dimensional field intrusion near Levril-proximate events.
 - Misinterpretation as omnipotent or mythic entities despite strict Cascade limits.
 
+## What a Levril Looks Like
+
+Nothing, on its own account. A Levril has no form a time-bound observer could receive directly, so **the perceiver supplies one**, and the two things anyone ever reports are the two things a mind has available: **a version of their own kind, or something abstract.** A human meets a figure; a [Cerebraun](/star-rangers/lore/cerebraun/) meets a Cerebraun; a Krenyi generally meets a field, a pressure, a turn of light. The same holds in dreams as in waking encounters, which is one of the few places the record can compare accounts of one event across species and find them irreconcilable at the level of description and identical at the level of what happened.
+
+This is why the record files a Levril by its signature rather than its shape. [The Turquoise Dove](/star-rangers/characters/turquoise-dove/) is *known only by the turquoise iridescence of her dimensional signature* — not a description of her appearance but an admission that appearance is the wrong category. The signature is the invariant; the figure is the viewer's contribution.
+
+Two consequences follow, and both cut against the obvious reading.
+
+**A shared sighting is not corroboration of a shape.** Two witnesses of different species agreeing that a Levril was present have agreed about a presence, not a body, and their descriptions may have nothing in common. An archivist reconciling them should expect that and not treat the divergence as error.
+
+**Nobody is being deceived.** The projection is not a disguise and carries no intent to mislead — it is the ordinary consequence of a higher-dimensional presence being met by a mind that has to render it into something. The witness sees their own kind because that is what their perception had to hand, which is also why a Levril encounter tells a careful reader considerably more about the witness than about the Levril.
+
 ## Common Misinterpretations
 
 - "Dragons can override physics." (False: they operate *inside* physics+Etheric constraints, from a higher-dimensional vantage.)
 - "Levrils are moral judges." (False: enforcement tiers are structural, not moral.)
 - "All higher-dimensional beings are Levrils." (False: monsters and shadow beings are also meta-dimensional but lack Cascade standing.)
 - "A Levril appearing in Material space is a miracle." (False: it is dimensional translation with measurable field effects.)
+- "The witness saw what it really looks like." (False: there is no *really looks like*. The perceiver supplies the form — their own kind, or an abstraction — and both are accurate reports of an encounter and useless as descriptions of a body. See *What a Levril Looks Like* above.)
 
 ## Two Occasions, One Constraint
 
