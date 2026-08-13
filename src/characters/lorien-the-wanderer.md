@@ -1,17 +1,19 @@
 ---
 layout: character.njk
-title: "Lorien the Wanderer"
+title: "Lorien of Drithane"
 id: lorien
 species: Human
 role: Freelance Captain, Independent Survey and Salvage
 status: Active
 aliases:
+  - "Lorien \"the Wanderer\" of Drithane"
+  - "Lorien the Wanderer"
   - "The Wanderer"
 tags: [freelance, explorer, independent, captain, frontier, fold-corridors]
 description: "An unaffiliated freelance captain who charts unclaimed fold corridors and sells the survey data to whoever pays first — Survey Corps included, when the price and the politics both work out."
 ---
 
-Lorien holds no commission from the Star Rangers, no charter from the Survey Corps, and no seat on any Compact or Union register. She flies the *Restless Verge*, a stripped-down long-range courier hull refitted for solo operation, and she answers to whichever contract she signed last.
+**Lorien "the Wanderer" of Drithane** holds no commission from the Star Rangers, no charter from the Survey Corps, and no seat on any Compact or Union register. The name is the only fixed address she keeps: a world she is *of* rather than on, and a byname earned by not staying anywhere, carried by a woman who has made a profession of the second and has never once been asked to explain the first. She flies the *Restless Verge*, a stripped-down long-range courier hull refitted for solo operation, and she answers to whichever contract she signed last.
 
 That is not the same as answering to nobody. A freelance captain who wants to keep flying learns fast which corners of the frontier tolerate an uncleared vessel poking at a fold corridor and which ones will impound the ship first and ask about paperwork after. Lorien has never lost a hull to that mistake. She has come close twice, by her own count, and closer than that by everyone else's.
 

@@ -532,7 +532,17 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 - **`wendell-albercombe.jpg`** — Detective Inspector, Eden; carries the boring
   caseload, complains constantly, solves cases over dinner. Suits the noir register.
-  > Cinematic noir portrait of a rumpled, world-weary male detective inspector in a slightly worn coat aboard a space habitat, upper body, tired but sharp expression, low-key dramatic lighting, science-fiction detective setting, desaturated palette, professional, wayfinding shown only as Compact plainmarks — flat stencilled panels of stacked colour bands in black, slate-blue, bone-white and ochre, carrying simple geometric figures (chevrons, rings, short tally strokes, lozenge diamonds), painted on the fixed frame beside each hatch and at corridor junctions, no readable text, numerals, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
+  **Re-brief 13 August — two faults, and *noir* caused both.** The returns were
+  grimy cyberpunk: rain-slicked industrial corridors, a lit cigarette in each
+  variant, and heavy signage (*LEVEL 44*, *DOCKING BAY B*, *SECTOR-7 NO ENTRY*)
+  that the plainmarks clause never displaced, because "noir detective, space
+  station" summons a genre whose visual furniture *is* neon lettering. **Eden is
+  a functioning, well-kept civil habitat, not a dying megacity**, and the house
+  target — enigmatic and haunting, with beauty and hope in it — rules the look
+  out on its own. So the word *noir* is gone, the setting is named as clean and
+  cared-for, the cigarette is banned explicitly, and the plainmarks are stated
+  before any mention of a corridor rather than after it.
+  > Cinematic portrait of a rumpled, world-weary male detective inspector in a slightly worn but clean coat, upper body, standing in the quiet civil bureau of a well-maintained space habitat. Tired but sharp expression, a man near the end of a long shift who is still paying attention. Warm practical interior lighting from ordinary fixtures against a cooler corridor beyond, softly lit and orderly, no rain, no steam, no neon, no grime, no rust, no wet floors, no smoking and no cigarette. Muted natural palette, science-fiction habitat interior that is clearly looked after. Wayfinding appears only as flat stencilled plainmark panels — stacked bands of black, slate-blue, bone-white and ochre carrying simple geometric figures (chevrons, rings, short tally strokes, lozenge diamonds) — painted on the fixed frame beside a hatch. Absolutely no signs, no display boards, no illuminated panels, no numerals, no lettering or written characters of any script anywhere in frame. Portrait orientation.
 
 - **`asteria-the-sage.jpg`** — retired Star Captain, now leads a local
   Fellowship of Light chapter on a quiet planet. **She wears the robes of her
@@ -561,10 +571,31 @@ below are ready to paste; add `image`/`image_alt` after generating.
   feature is innocent and the *combination* is the fault. Ban the softness, not
   the garment.
 
-  So: robes, and a spine. Mid-sixties stated as a number, because **older
-  woman** still lands nearer eighty. **Serene** stays excluded — that word did
-  produce the first version, and nothing here needs it.
-  > Cinematic portrait of a woman of about sixty-five who reads unmistakably as a senior officer, upper body, standing outside a modest stone chapter house on a quiet rural world. She wears the plain working robes of a contemplative order over ordinary clothes - heavy, well-worn, functional cloth with a clear shoulder line, belted at the waist, not draping or billowing and not ceremonial. Upright military bearing, square shoulders, weight evenly set, hands still and unclasped at her sides. Short practical iron-grey hair, not long and not loose. Level and unsmiling, assessing whoever she is looking at, faintly impatient. Fit and solid rather than frail or willowy; her face shows sixty-five, not eighty - no deep age-lining, no stoop, no beatific warmth, no serenity, no benevolence, no wisdom pose, no hands folded in blessing, no staff. Soft overcast daylight, science-fiction pastoral setting, muted natural palette, a commander who happens to be wearing robes rather than a sage who happens to have been a commander, no uniform, no insignia, no rank marks, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  So: robes, and a spine. An age stated as a number, because **older woman**
+  drifts on its own. **Serene** stays excluded — that word did produce the
+  first version, and nothing here needs it.
+
+  **Third correction, 13 August, and this one came from outside the brief.**
+  The 13 August lifespan and retirement canon put Asteria's departure from the
+  service at **about a hundred**, and she has been retired long enough for
+  Galahad to have met her afterward. She is therefore around **105** in the
+  present, and the brief's "about sixty-five" was forty years wrong through no
+  fault of its own — the canon moved under it. *(She also gained a surname the
+  same day: **Asteria Wessex**. The chapter's "the Sage" is an honorific, not a
+  name.)*
+
+  The re-run is consequently a harder brief than the last one, and the reason
+  is the setting's own rule: humans here stay **capable into the eleventh
+  decade**, so a hundred-and-five-year-old is neither frail nor a marvel. She is
+  simply old and entirely functional, which is a face contemporary reference
+  photography barely contains. State the number, state the fitness, and ban the
+  frailty vocabulary the way *serene* is banned — no stoop, no cane, no tremor,
+  no papery softness, and no wondering-at-her-own-age expression either.
+
+  **Also fixed:** the last two returns had no robes at all, which lost the
+  chapter house entirely and left her reading as a countrywoman outside a barn.
+  The robes are named first this time.
+  > Cinematic portrait of a woman of one hundred and five who reads unmistakably as a senior officer, upper body, standing outside a modest stone chapter house on a quiet rural world. She wears the plain working robes of a contemplative order over ordinary clothes - heavy, well-worn, functional cloth with a clear shoulder line, belted at the waist, not draping or billowing and not ceremonial; the robes are the first thing to get right and must be present. Genuinely old and entirely capable at the same time: deeply lined weathered face, thin white hair cut short and practical, hands and neck showing real age - and upright military bearing, square shoulders, weight evenly set, chin level, hands still and unclasped at her sides. Physically strong and undiminished, a person who still does the work. Level and unsmiling, assessing whoever she is looking at, faintly impatient. No stoop, no cane, no walking stick, no staff, no trembling, no frailty, no papery delicacy, no shrunken frame, no beatific warmth, no serenity, no benevolence, no wisdom pose, no hands folded in blessing. Soft overcast daylight, science-fiction pastoral setting, muted natural palette, a commander who happens to be wearing robes rather than a sage who happens to have been a commander, no uniform, no insignia, no rank marks, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 - **`galen.jpg`** — Star Rangers liaison officer at a Celtic Union shuttle gate;
   minor character, correct and quietly decent.
@@ -595,7 +626,17 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 - **`reeves-eden.jpg`** — investigative-support AI, Eden bureau; same model as
   Threshold's Reeves, distinct enough to read as a separate deployment.
-  > Abstract emblematic image of an investigative-support artificial intelligence: a holographic evidence-analysis interface and case-file glyphs projected above a terminal, cool blue science-fiction UI aesthetic, no human face, clean and analytical, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  **Re-brief 13 August — the old prompt was self-defeating.** It asked for "a
+  holographic evidence-analysis interface and case-file glyphs" and then banned
+  writing, which is a request for the one object in the setting whose entire
+  purpose is to carry text. The return was exactly that: *CASE FILE: ALPHA-7*,
+  *EVIDENCE CHAIN*, *PATTERN MATCH*, a real-world date, and garbled
+  pseudo-words. **The ban was never going to win against the scene.** The fix is
+  to describe an image with nothing in it that could bear lettering — light,
+  geometry and depth rather than a console. This also suits the character
+  better: Reeves is an intelligence that will not volunteer a conclusion, which
+  is restraint, not a dashboard.
+  > Abstract emblematic image representing an investigative intelligence: a slow constellation of small cool-blue points of light suspended in dark space, a few of them joined by faint thin lines into a partial, unfinished figure, the rest still unconnected. Deep indigo and near-black background, soft volumetric glow, quiet and patient rather than busy or urgent, a sense of a pattern half-found and not yet claimed. No screens, no consoles, no terminals, no user interface, no panels, no dials, no charts, no diagrams, no icons, no symbols, no glyphs, no numerals, no lettering of any script, no human face, no figure, no machinery of any kind. Pure light and geometry only. Portrait orientation.
 
 - **`rasa-oyelaran.jpg`** — Superintendent, Eden's civil detective bureau.
   **Re-run 13 August, and the reason is written into the prompt.** The first
@@ -683,6 +724,25 @@ prompt is in Open work 5, dormant until the old file is deleted.
 **Verify then leave alone** — `lore/trigrian.jpg`: blown highlights on the three
 suns, almost certainly intentional for a trinary-star world. Noted so a future
 audit doesn't "fix" it.
+
+**The lettering ban cannot beat the scene** (added 2026-08-13, after
+`reeves-eden`, `wendell-albercombe` and `galen` all came back covered in text
+*with the ban present in every prompt*). Every house prompt already ends with
+"no readable text, signage, insignia lettering or written characters anywhere in
+frame", and it is not a spell. If the brief describes **an object whose purpose
+is to carry writing** — a case-file interface, a departures board, a spaceport
+gate, station wayfinding, a dashboard — the model will draw the object, and the
+object will have writing on it. Strengthening the ban does nothing; the scene
+has to change. Two tests before generating:
+
+- **Name every surface in the brief and ask what it is for.** If any of them
+  exists to be read, replace it. `reeves-eden` went from "holographic
+  evidence-analysis interface" to points of light and connecting lines, which
+  says the same thing about the character and offers nothing to letter.
+- **Watch for genre words that import furniture.** *Noir* brought neon signage
+  into `wendell-albercombe` twice, along with rain, grime and a cigarette,
+  none of them requested and all of them standard issue for the genre named.
+  A genre word is a whole set of defaults arriving at once.
 
 **A prompt that does not state heritage will have one chosen for it** (added
 2026-08-13, after the `rasa-oyelaran` re-run). An image model fills every gap

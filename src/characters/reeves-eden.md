@@ -7,6 +7,8 @@ role: Detective Assistant, Eden Space Habitat Civil Detective Bureau
 status: Active
 aliases: []
 tags: [ai, kernel-compliant, investigative, eden, orbital-habitats-compact, undercover-pets.com]
+image: "reeves-eden.jpg"
+image_alt: "An abstract emblem for an investigative intelligence: cool blue points of light scattered across a deep indigo field, a handful of them joined by faint thin lines into a partial figure while the rest stay unconnected — a pattern half-found and not yet claimed."
 description: "Eden Space Habitat's Detective Assistant Reeves: investigative support intelligence to Superintendent Oyelaran's bureau, and a separate deployment from Threshold Station's Reeves despite sharing a model and a name."
 ---
 

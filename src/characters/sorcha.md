@@ -1,11 +1,12 @@
 ---
 layout: character.njk
-title: "Sorcha"
+title: "Sorcha Lichata"
 id: sorcha
 species: Human
 role: Itinerant Healer
 status: Active
 aliases:
+  - "Sorcha"
   - "the Quiet Woman (local usage, several settlements)"
 tags: [healer, constraint-literacy, boundary, etheric, conceptual-layer, itinerant, threnes, central-fatigue, medical]
 description: "An itinerant healer who works boundary-proximate settlements, treating the body by ordinary medicine and the pattern by constraint-literate craft. She is not a mystic, she is precise about which of the two she is doing, and she is running down a reserve nobody is screening."
