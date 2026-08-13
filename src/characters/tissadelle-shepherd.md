@@ -67,6 +67,14 @@ Shepherd corrects it once, precisely, and does not raise it again — the same e
 
 Her file carries a plural registration and nothing further. Reviewers who go looking for a welfare concern in it find a mind with more people in it than the form has boxes for, all of them stable, none of them a symptom, and no finding to write.
 
+### Who fronts, and when
+
+Shepherd lets Tobble front when she is working with cats and comparable animals. It is not an accommodation and not a quirk of hers to be indulged; it is the obvious allocation. He is better at it, and the system uses whoever is better at the thing in front of it — the same reasoning any competent crew applies to any watch.
+
+The same principle accounts for the shape of her service record. Her rotation across corps and branches is wider than most officers manage, and reads from the outside as restlessness or as a career being managed by somebody else. It is neither. **Different members front in different roles**, and a system carrying that much range has more postings it can do well than a singlet does. The record is the honest trace of it rather than an anomaly in it.
+
+None of which is instability. **Hers is a harmonious, well-integrated system** — the members work together, the handovers are unremarkable to everyone involved, and the arrangement has never once produced the incoherence a reviewer looking for it expects to find. The interest of the arrangement, if there is any, is administrative: the forms were built for one person per body and have been quietly wrong about that for a century.
+
 ## The Sentinel Signal
 
 Season 3, working a backlog of archived Hegemony telemetry from [the Sentinel](/star-rangers/lore/planets/sentinel/) under a routine Survey Corps data-exchange, newly made Principal, Shepherd did what pattern-recognition software had not been built to do: she stopped reading the world's unclassifiable EM pulse as data and ran it as audio. What generations of automated classifiers had filed as noise because it matched no known protocol, she flagged within one listen as something with phrasing, repetition, and variation — considerably harder to file, and considerably harder to ignore.
