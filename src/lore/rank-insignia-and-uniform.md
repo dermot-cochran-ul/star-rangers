@@ -22,6 +22,10 @@ The standard field uniform is a modular shell over a thermal-and-pressure liner,
 
 That is the entire reason insignia is never sewn on. Every rank and certification mark is a magnetically-seated tab or plate, sized and positioned per body plan by the wearer's own quartermaster record, and moved to a new shell without re-issue whenever the uniform underneath it changes. A robotic chassis wears the same tab standard as a human sleeve; it is simply bolted to a different surface.
 
+**No Ranger's name is written on their clothing.** There are no name tapes, no stitched nameplates, no printed badges — the era has no use for them. A habitat, a vessel and a boundary post all know who is aboard, and anyone entitled to a Ranger's identity has it before she reaches the door; anyone not entitled to it does not acquire the right by reading her chest. The practice reads as archaic to a Ranger the way a sewn rank patch does, and for the same reason: it fixes to cloth something that is properly held in a record and answerable to a person.
+
+What a uniform carries instead is what a colleague across a corridor actually needs at a glance and cannot look up in time — rank, and certification. Those are tabs and plates, seated magnetically, per the standard above. Everything else about who a Ranger is stays where it belongs, which is with her.
+
 Dress uniform exists for ceremonial and hearing-room occasions and differs from field kit mainly in finish, not in insignia — the charter's drafters were explicit that a Ranger should not need to relearn the rank system to read a colleague across a formal setting.
 
 ## Rank Tabs

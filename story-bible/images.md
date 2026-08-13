@@ -512,11 +512,11 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 - **`naomi-kestrel.jpg`** — junior field investigator, Eden Civil Investigations;
   reads telemetry, manifests and comm chatter "as one continuous sentence."
-  > Cinematic portrait of a young woman analyst in a dim habitat operations room, upper body, focused expression lit by the glow of data readouts, practical dark uniform, science-fiction space-station interior, muted teal-and-amber palette, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a young woman analyst in a quiet habitat operations room, upper body, focused expression lit by a single warm work lamp on the desk beside her and soft overhead fixtures, practical dark uniform with a plain unmarked chest and shoulders — no name tape, no name badge, no unit patch, no rank tab, no embroidery and no lettering on her clothing of any kind. Science-fiction space-station interior, muted teal-and-amber palette, professional, no glamour styling. No screens, no monitors, no displays, no consoles, no readouts, no charts and no illuminated panels anywhere in frame; the room is lit by ordinary lamps only. No readable text, numerals, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
 
 - **`rosalind-vey.jpg`** — tactical specialist, Eden Civil Investigations;
   ex-habitat tactical response, treats a scene as a room that might still be dangerous.
-  > Cinematic portrait of a composed woman in a practical tactical-response jumpsuit aboard a space habitat, upper body, alert and unbothered expression, subdued corridor lighting, science-fiction setting, desaturated palette, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a composed woman in a practical tactical-response jumpsuit aboard a space habitat, upper body, alert and unbothered expression, subdued corridor lighting, science-fiction setting, desaturated palette, professional, no glamour styling. The jumpsuit is plain and unmarked — no name tape, no name badge, no unit patch, no shoulder flash, no rank tab, no stencilling and no lettering on her clothing of any kind. No readable text, numerals, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
 
 - **`tamsin-reyes.jpg`** — undercover specialist; "whoever a room needs her to
   be," craft not instinct. Deliberately forgettable.
@@ -524,7 +524,7 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 - **`lorien-the-wanderer.jpg`** — freelance survey-and-salvage captain of the
   *Restless Verge*; weathered but disciplined.
-  > Cinematic portrait of a weathered independent starship captain, woman, upper body, wearing a worn flight jacket in the cockpit of a stripped-down long-range courier ship, self-reliant expression, warm instrument lighting, science-fiction frontier setting, gritty realistic palette, professional, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a weathered independent starship captain, woman, upper body, wearing a worn unmarked flight jacket, standing in the cramped cabin of a stripped-down long-range courier ship, self-reliant expression, lit warmly by a single practical overhead lamp and starlight through a small viewport, science-fiction frontier setting, gritty realistic palette, professional. Her jacket is plain — no name tape, no patch, no badge, no lettering on her clothing of any kind. No instrument panels, no consoles, no screens, no displays, no dials, no gauges and no numerals anywhere in frame; bare hull, stowed cargo and worn fittings instead. No readable text, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
 
 - **`osric-fenholt.jpg`** — Historical (2558–2621); Imperium-era Belt
   compliance clerk, "The Honest Man of the Directorate." Period, not modern.
@@ -599,7 +599,7 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 - **`galen.jpg`** — Star Rangers liaison officer at a Celtic Union shuttle gate;
   minor character, correct and quietly decent.
-  > Cinematic portrait of a mid-career Star Rangers liaison officer in a plain service uniform standing at a planetary shuttle gate, upper body, courteous professional expression, overcast daylight through a terminal window, science-fiction setting, muted palette, no insignia lettering, wayfinding shown only as Compact plainmarks — flat stencilled panels of stacked colour bands in black, slate-blue, bone-white and ochre, carrying simple geometric figures (chevrons, rings, short tally strokes, lozenge diamonds), painted on the fixed frame beside each hatch and at corridor junctions, no readable text, numerals, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a mid-career woman Star Rangers liaison officer in a plain service uniform, upper body, standing in a quiet arrivals hall beside a tall window, courteous professional expression, soft overcast daylight, science-fiction setting, muted palette. Her uniform is plain and unmarked — no name tape, no name badge, no unit patch, no rank tab and no lettering on her clothing of any kind. The only wayfinding visible is a Compact plainmark: one flat stencilled panel of stacked colour bands in black, slate-blue, bone-white and ochre carrying a simple geometric figure (a chevron, ring, tally stroke or lozenge diamond), painted on the wall beside her. Absolutely no gates, no departure boards, no destination signs, no illuminated panels, no screens, no numerals, and no readable text, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
 
 **Alien**
 
@@ -622,7 +622,7 @@ below are ready to paste; add `image`/`image_alt` after generating.
 **AIs & non-corporeal — abstract emblem, no face**
 
 - **`jeeves.jpg`** — domestic-companion AI, Eden; kitchen-and-gossip competence.
-  > Abstract emblematic image representing a domestic household artificial intelligence: a warm stylized interface glyph over a tidy kitchen/hearth motif, soft ambient glow, minimalist science-fiction UI aesthetic, no human face, muted warm palette, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  > Abstract emblematic image representing a domestic household artificial intelligence: a warm pool of low amber light resting on the scrubbed wooden surface of a quiet kitchen table at night, a folded cloth and a single clean cup set neatly beside it, everything tidied and ready for a morning that has not arrived yet. Soft ambient glow with no visible source, deep warm browns and honey tones against a dark room, domestic and calm and companionable. No human face, no figure, no hands, no machine, no robot, no screens, no displays, no consoles, no interface, no glyphs, no icons, no symbols, no numerals and no lettering of any script anywhere in frame. Portrait orientation.
 
 - **`reeves-eden.jpg`** — investigative-support AI, Eden bureau; same model as
   Threshold's Reeves, distinct enough to read as a separate deployment.
@@ -743,6 +743,21 @@ has to change. Two tests before generating:
   into `wendell-albercombe` twice, along with rain, grime and a cigarette,
   none of them requested and all of them standard issue for the genre named.
   A genre word is a whole set of defaults arriving at once.
+- **A uniform is a text-bearing object.** Discovered the hard way on
+  `naomi-kestrel`, whose portrait came back wearing a badge reading **ANALYST
+  A. SHARMA** — a different person's name, legible, plausible, and one
+  filing away from a page captioned as somebody else. Uniforms attract name
+  tapes, unit patches, rank tabs and badges the way corridors attract signage,
+  and the general ban never reaches them because they are clothing rather than
+  scenery. **Every character prompt that dresses someone in a uniform must ban
+  worn lettering by name.** Where a marking is genuinely wanted, ask for a
+  Compact plainmark — `wendell-albercombe` proves those render correctly,
+  including on a badge.
+- **Never light a scene with a display.** "Lit by the glow of data readouts"
+  guarantees readouts, and readouts carry readings. Use practical light — a
+  work lamp, a window, an overhead fixture — and the screens stop being
+  necessary. Applied to `naomi-kestrel`, `lorien-the-wanderer` and `jeeves`
+  on 13 August.
 
 **A prompt that does not state heritage will have one chosen for it** (added
 2026-08-13, after the `rasa-oyelaran` re-run). An image model fills every gap
