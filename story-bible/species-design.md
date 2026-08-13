@@ -197,6 +197,19 @@ distinct histories, rather than five body plans with the same story attached.
 
 ## Traps specific to this setting
 
+- **The Earth smuggled in by a single word.** Dermot, 13 August: *"it might not
+  be water as we know it"*, and *"undersea does not have to mean H₂O."* The
+  danger is not that a brief says water — it is that a brief says **aquatic**,
+  or **desert**, or **jungle**, and imports an entire Earth with it: tides, a
+  breathable atmosphere above the surface, sunlight to a useful depth, a
+  shoreline, and a chemistry that supports the same reactions ours does. None of
+  that follows from *a world covered in fluid*. Ask instead what the medium
+  actually fixes — pressure, density, opacity, thermal behaviour, what will
+  dissolve in it — and design from those. Nerath turned out to be **several
+  fluids lying stably on one another**, which is why its people's specialism is
+  *fluid-boundary anomalies*, a phrase that means almost nothing on a
+  single-ocean world. Now a standing refusal on
+  `src/lore/what-the-record-refuses.md`.
 - **The planet of hats.** One environment, one temperament, one job, no internal
   disagreement. The cast principles forbid it for humans and the same reasoning
   applies here. The Krenyi page is the standard to match — a whole practice, a
