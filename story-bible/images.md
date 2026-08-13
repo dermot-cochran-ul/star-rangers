@@ -597,6 +597,26 @@ below are ready to paste; add `image`/`image_alt` after generating.
   Threshold's Reeves, distinct enough to read as a separate deployment.
   > Abstract emblematic image of an investigative-support artificial intelligence: a holographic evidence-analysis interface and case-file glyphs projected above a terminal, cool blue science-fiction UI aesthetic, no human face, clean and analytical, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
+- **`rasa-oyelaran.jpg`** — Superintendent, Eden's civil detective bureau.
+  **Re-run 13 August, and the reason is written into the prompt.** The first
+  generation returned a white woman in *both* variants, because the brief
+  described her bearing, her role and her setting and never carried the
+  heritage her own surname states. Oyelaran is a Yoruba name; the prompt now
+  says so, and no future edit should quietly drop it. Note what the picture has
+  to hold besides that: she runs an ordinary police bureau in a place that
+  keeps handing her things no ordinary bureau was designed for, and her
+  competence is patience rather than intensity. Not a hard-bitten chief.
+  **Variant 2 chosen, 13 August, and the reason generalises:** the re-run
+  returned one portrait in a navy blazer and one in a plain work jacket, both
+  correct on heritage and both well made. Dermot took the second — *"she looks
+  more like a detective."* The blazer read as someone who now manages people
+  who work cases; the jacket reads as someone who still works them. **Dress the
+  portrait for the job the page describes, not for the seniority the title
+  implies.** Her page opens by calling her bureau the closest thing Eden has to
+  an ordinary police detective bureau, so detective-first was the right read and
+  the brief should have said so.
+  > Cinematic portrait of a Black woman of Yoruba heritage in her fifties, a senior civil police superintendent aboard a large space habitat, upper body, standing in the doorway of a working detective bureau. Dark brown skin, close-set greying natural hair worn short and practical, plain dark civil-service jacket over a soft collar, no uniform and no rank marks. Level, patient, unhurried expression — a woman who has stopped being surprised by her own caseload and has not stopped caring about it. Warm practical office light behind her against a cooler corridor, science-fiction habitat interior, muted palette, professional, no glamour styling, not severe and not hard-bitten, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+
 - **`turquoise-dove.jpg`** — a Higher Levril known only by the turquoise
   iridescence of her dimensional signature. A field signature, not a dragon.
   > Abstract ethereal image of a meta-dimensional presence known only by its harmonic signature: a gentle turquoise-and-verdigris iridescent field of light, coral-shallow blue-green tones, no defined creature shape, soft non-threatening luminosity, science-fiction otherworldly abstraction, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
@@ -663,6 +683,25 @@ prompt is in Open work 5, dormant until the old file is deleted.
 **Verify then leave alone** — `lore/trigrian.jpg`: blown highlights on the three
 suns, almost certainly intentional for a trinary-star world. Noted so a future
 audit doesn't "fix" it.
+
+**A prompt that does not state heritage will have one chosen for it** (added
+2026-08-13, after the `rasa-oyelaran` re-run). An image model fills every gap
+in a brief with its own default, and the default is not neutral. Two rules
+follow, and both are cheap:
+
+- **If a character's name states a heritage, the prompt must state it too.**
+  *Oyelaran* is Yoruba and the brief did not say so, so both variants came back
+  white. That is not the generator misbehaving; it is a brief that left the
+  question open and got an answer anyway.
+- **Where the record genuinely does not say, that is Dermot's call and not a
+  variant-picking exercise.** `petra-voss` returned one Black woman and one
+  white woman, both good. Choosing between them would have decided a
+  character's heritage by selecting a picture, which is authoring — the same
+  line Section 1's Asteria history already draws. He chose the first, on
+  2026-08-13, **for cast balance**: the reason he gave was that it supplies
+  something the cast so far was missing. Worth carrying forward as a criterion
+  rather than a one-off — when the record is silent and the variants differ,
+  ask what the ensemble is short of, and put the question to him.
 
 **Your camera, not a generator** — `lore/saltvik.jpg` is still a plain text
 card while its sibling Saltmere entries have two photographs each; the Knarr
