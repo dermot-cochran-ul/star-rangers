@@ -8,6 +8,8 @@ species: Human
 role: "Ranger Liaison Officer, Tír na nÓg Gateway"
 status: Active
 tags: [human, star-rangers, tir-na-nog, celtic-union, season-5]
+image: "galen.jpg"
+image_alt: "Catherine Galen in a plain grey service uniform with small ring-and-bar collar marks, standing at a tall window in a quiet arrivals hall in soft overcast daylight. Beside her a stencilled plainmark panel carries stacked bands of black, slate-blue, bone-white and ochre around a single lozenge diamond."
 description: "Catherine Galen, the Star Rangers' standing liaison at the Union shuttle gate on Tír na nÓg — the last friendly face a Ranger sees before Union escort ends and the last one before it begins again."
 ---
 

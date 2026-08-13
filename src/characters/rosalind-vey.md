@@ -7,6 +7,8 @@ role: Field Investigator, Eden Civil Investigations Unit
 status: Active
 aliases: []
 tags: [human, eden, investigations, junior-detective, season-1, undercover-pets.com]
+image: "rosalind-vey.jpg"
+image_alt: "Rosalind Vey standing in a working habitat corridor in a grey tactical-response jumpsuit marked with small chevron patches at the chest and shoulder, alert and unbothered, lit by recessed overhead panels."
 description: "Eden Civil Investigations Unit's tactical specialist: unbothered under pressure, and the one everyone calls first when a breach turns out to be physical rather than theoretical."
 ---
 

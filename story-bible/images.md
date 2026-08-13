@@ -512,11 +512,11 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 - **`naomi-kestrel.jpg`** — junior field investigator, Eden Civil Investigations;
   reads telemetry, manifests and comm chatter "as one continuous sentence."
-  > Cinematic portrait of a young woman analyst at a plain working table in a quiet habitat room, upper body, focused expression, lit by a single warm desk lamp beside her. In front of her lies one slim matte grey reading tablet the size and thickness of a small hardback book, entirely unlit and blank-faced, its surface reflecting the lamp the way a page would; nothing else on the table. Practical dark uniform, plain and unmarked — no name tape, no name badge, no unit patch, no rank tab, no embroidery and no lettering on her clothing of any kind. Calm, uncluttered interior of a well-kept space habitat, warm lamplight against cool shadow, muted palette, professional, no glamour styling. Absolutely no screens, no monitors, no glowing displays, no holograms, no projected light, no consoles, no dials, no gauges, no analogue instrument panels, no filing binders and no loose paper anywhere in frame. Her face is lit only by the lamp, never by anything she is reading. No readable text, numerals, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a young woman analyst at a plain working table in a quiet habitat room, upper body, focused expression. The room is lit by soft diffuse recessed lighting from a concealed source, warm and even, with no lamp, no light fitting, no shade and no bulb visible anywhere in frame. In front of her lies one slim matte grey reading tablet the size and thickness of a small hardback book, entirely unlit and blank-faced, its surface catching the room light the way a page would; nothing else on the table. Practical dark uniform bearing small geometric rank marks — plain metal bars and a single star at the collar, shapes only. No name tape, no name badge, no printed words, no letters and no numerals on her clothing of any kind. Calm, uncluttered interior of a well-kept space habitat, muted palette, professional, no glamour styling. Absolutely no screens, no monitors, no glowing displays, no holograms, no projected light, no consoles, no dials, no gauges, no analogue instrument panels, no filing binders and no loose paper anywhere in frame. Her face is lit by the room, never by anything she is reading. No readable text, numerals, signage or written characters of any script anywhere in frame. Portrait orientation.
 
 - **`rosalind-vey.jpg`** — tactical specialist, Eden Civil Investigations;
   ex-habitat tactical response, treats a scene as a room that might still be dangerous.
-  > Cinematic portrait of a composed woman in a practical tactical-response jumpsuit aboard a space habitat, upper body, alert and unbothered expression, subdued corridor lighting, science-fiction setting, desaturated palette, professional, no glamour styling. The jumpsuit is plain and unmarked — no name tape, no name badge, no unit patch, no shoulder flash, no rank tab, no stencilling and no lettering on her clothing of any kind. No readable text, numerals, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a composed woman in a practical tactical-response jumpsuit aboard a space habitat, upper body, alert and unbothered expression, subdued corridor lighting, science-fiction setting, desaturated palette, professional, no glamour styling. The jumpsuit carries small geometric rank marks only — plain bars and chevrons at the collar and shoulder, shapes and nothing else. No name tape, no name badge, no printed words, no letters and no numerals on her clothing of any kind. Lighting is soft, diffuse and recessed, with no lamp or light fitting visible. No screens, no glowing displays, no holograms and no projected light anywhere in frame. No readable text, numerals, signage or written characters of any script anywhere in frame. Portrait orientation.
 
 - **`tamsin-reyes.jpg`** — undercover specialist; "whoever a room needs her to
   be," craft not instinct. Deliberately forgettable.
@@ -524,7 +524,7 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 - **`lorien-the-wanderer.jpg`** — freelance survey-and-salvage captain of the
   *Restless Verge*; weathered but disciplined.
-  > Cinematic portrait of a weathered independent starship captain, woman, upper body, wearing a worn unmarked flight jacket, standing in the cramped cabin of a stripped-down long-range courier ship, self-reliant expression, lit warmly by a single practical overhead lamp and starlight through a small viewport, science-fiction frontier setting, gritty realistic palette, professional. Her jacket is plain — no name tape, no patch, no badge, no lettering on her clothing of any kind. No instrument panels, no consoles, no screens, no displays, no dials, no gauges and no numerals anywhere in frame; bare hull, stowed cargo and worn fittings instead. No readable text, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a weathered independent starship captain, woman, upper body, wearing a worn unmarked flight jacket, standing in the cramped cabin of a stripped-down long-range courier ship, self-reliant expression, lit by soft diffuse recessed light and starlight through a small viewport, with no lamp or light fitting visible in frame, science-fiction frontier setting, gritty realistic palette, professional. Her jacket is plain and carries no marks at all — she holds no commission and answers to nobody, so no rank tabs, no insignia, no name tape, no badge, no printed words, no letters and no numerals on her clothing. No instrument panels, no consoles, no screens, no displays, no holograms, no dials, no gauges and no numerals anywhere in frame; bare hull, stowed cargo and worn fittings instead. No readable text, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
 
 - **`osric-fenholt.jpg`** — Historical (2558–2621); Imperium-era Belt
   compliance clerk, "The Honest Man of the Directorate." Period, not modern.
@@ -599,7 +599,7 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 - **`galen.jpg`** — Star Rangers liaison officer at a Celtic Union shuttle gate;
   minor character, correct and quietly decent.
-  > Cinematic portrait of a mid-career woman Star Rangers liaison officer in a plain service uniform, upper body, standing in a quiet arrivals hall beside a tall window, courteous professional expression, soft overcast daylight, science-fiction setting, muted palette. Her uniform is plain and unmarked — no name tape, no name badge, no unit patch, no rank tab and no lettering on her clothing of any kind. The only wayfinding visible is a Compact plainmark: one flat stencilled panel of stacked colour bands in black, slate-blue, bone-white and ochre carrying a simple geometric figure (a chevron, ring, tally stroke or lozenge diamond), painted on the wall beside her. Absolutely no gates, no departure boards, no destination signs, no illuminated panels, no screens, no numerals, and no readable text, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a mid-career woman Star Rangers liaison officer in a plain service uniform, upper body, standing in a quiet arrivals hall beside a tall window, courteous professional expression, soft overcast daylight, science-fiction setting, muted palette. Her uniform carries small geometric rank marks only — plain bars and a ring at the collar, shapes and nothing else. No name tape, no name badge, no printed words, no letters and no numerals on her clothing of any kind. The only wayfinding visible is a Compact plainmark: one flat stencilled panel of stacked colour bands in black, slate-blue, bone-white and ochre carrying a simple geometric figure (a chevron, ring, tally stroke or lozenge diamond), painted on the wall beside her. Absolutely no gates, no departure boards, no destination signs, no illuminated panels, no screens, no holograms and no numerals, and no readable text, signage or written characters of any script anywhere in frame. Portrait orientation.
 
 **Alien**
 
@@ -750,9 +750,28 @@ has to change. Two tests before generating:
   tapes, unit patches, rank tabs and badges the way corridors attract signage,
   and the general ban never reaches them because they are clothing rather than
   scenery. **Every character prompt that dresses someone in a uniform must ban
-  worn lettering by name.** Where a marking is genuinely wanted, ask for a
-  Compact plainmark — `wendell-albercombe` proves those render correctly,
-  including on a badge.
+  worn lettering by name.**
+
+  **Ban the words, not the marks** (Dermot, 13 August: *"ok to have stripes,
+  bars, stars and other shapes on human uniforms even if no lettering"*). My
+  first correction over-banned — it stripped rank tabs and patches outright,
+  which contradicts `rank-insignia-and-uniform.md`, where insignia is
+  load-bearing. Rank and certification marks are **shapes**: bars, stripes,
+  chevrons, stars, rings, discs and bands, read by count and arrangement. A
+  geometry has no first language, which is exactly why a service carrying
+  Krenyi, Pelagene, Veyr and Serephine officers uses one. So ask for geometric
+  insignia and ban only text — no name tape, no name badge, no printed word,
+  no letters or numerals of any script. `wendell-albercombe` shows Compact
+  plainmarks rendering correctly, badge included.
+
+  **And the lighting is not exempt from the century either** (Dermot, same
+  exchange: *"the desk lamp is still too retro and bulky — either just remove
+  that lamp or have a softer more diffuse recessed light source"*). Replacing
+  screens with an anglepoise swapped one period object for another; a sprung,
+  jointed, domed lamp with a visible bulb is a 20th-century design and reads as
+  one. **Light is recessed and diffuse**: concealed source, soft spread or a
+  gentle pool on the working surface, no visible fitting and no bulb in frame.
+  Most rooms simply have light in them.
 - **Never light a scene with a display.** "Lit by the glow of data readouts"
   guarantees readouts, and readouts carry readings. Use practical light — a
   work lamp, a window, an overhead fixture. Applied to `naomi-kestrel`,

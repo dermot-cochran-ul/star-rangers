@@ -24,7 +24,11 @@ That is the entire reason insignia is never sewn on. Every rank and certificatio
 
 **No Ranger's name is written on their clothing.** There are no name tapes, no stitched nameplates, no printed badges — the era has no use for them. A habitat, a vessel and a boundary post all know who is aboard, and anyone entitled to a Ranger's identity has it before she reaches the door; anyone not entitled to it does not acquire the right by reading her chest. The practice reads as archaic to a Ranger the way a sewn rank patch does, and for the same reason: it fixes to cloth something that is properly held in a record and answerable to a person.
 
-What a uniform carries instead is what a colleague across a corridor actually needs at a glance and cannot look up in time — rank, and certification. Those are tabs and plates, seated magnetically, per the standard above. Everything else about who a Ranger is stays where it belongs, which is with her.
+What a uniform carries instead is what a colleague across a corridor actually needs at a glance and cannot look up in time — rank, and certification. Those are tabs and plates, seated magnetically, per the standard above.
+
+**They are shapes, not words.** Bars, stripes, chevrons, stars, rings, discs and bands, read by count and arrangement rather than by reading — which is why a Ranger can take another's rank at distance, in poor light, through a visor, or across a language she does not share. That last case is not incidental: a service carrying Krenyi, Pelagene, Veyr and Serephine officers alongside humans cannot put its chain of command into any one people's alphabet. A geometry has no first language.
+
+So a Ranger's uniform is legible and carries no text at all, which sounds like a contradiction and is simply what insignia has always been for. Everything else about who she is stays where it belongs, which is with her.
 
 Dress uniform exists for ceremonial and hearing-room occasions and differs from field kit mainly in finish, not in insignia — the charter's drafters were explicit that a Ranger should not need to relearn the rank system to read a colleague across a formal setting.
 

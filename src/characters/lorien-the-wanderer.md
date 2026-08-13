@@ -10,6 +10,8 @@ aliases:
   - "Lorien the Wanderer"
   - "The Wanderer"
 tags: [freelance, explorer, independent, captain, frontier, fold-corridors]
+image: "lorien-the-wanderer.jpg"
+image_alt: "Lorien of Drithane in a worn, unmarked leather flight jacket, standing in the cramped riveted cabin of a stripped-down courier ship among strapped-down cargo, a small viewport of stars behind her, lit by one recessed overhead panel."
 description: "An unaffiliated freelance captain who charts unclaimed fold corridors and sells the survey data to whoever pays first — Survey Corps included, when the price and the politics both work out."
 ---
 

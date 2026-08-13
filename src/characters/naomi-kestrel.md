@@ -7,6 +7,8 @@ role: Field Investigator, Eden Civil Investigations Unit
 status: Active
 aliases: []
 tags: [human, eden, investigations, junior-detective, season-1]
+image: "naomi-kestrel.jpg"
+image_alt: "Analyst Naomi Kestrel seated at a plain table in a quiet, softly lit habitat room, wearing a dark uniform with two small metal bars and a star at the collar. One slim closed matte slate lies on the table in front of her. The light is recessed and diffuse; nothing glows but the ceiling."
 description: "A junior field investigator aboard Eden Space Habitat who reads habitat telemetry, dock manifests, and comm chatter as one continuous sentence, and finishes it before someone gets hurt."
 ---
 
