@@ -524,7 +524,7 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 - **`lorien-the-wanderer.jpg`** — freelance survey-and-salvage captain of the
   *Restless Verge*; weathered but disciplined.
-  > Cinematic portrait of a weathered independent starship captain, woman, upper body, wearing a worn unmarked flight jacket, standing in the cramped cabin of a stripped-down long-range courier ship, self-reliant expression, lit by soft diffuse recessed light and starlight through a small viewport, with no lamp or light fitting visible in frame, science-fiction frontier setting, gritty realistic palette, professional. Her jacket is plain and carries no marks at all — she holds no commission and answers to nobody, so no rank tabs, no insignia, no name tape, no badge, no printed words, no letters and no numerals on her clothing. No instrument panels, no consoles, no screens, no displays, no holograms, no dials, no gauges and no numerals anywhere in frame; bare hull, stowed cargo and worn fittings instead. No readable text, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a weathered independent starship captain, woman, upper body, wearing a worn unmarked flight jacket, standing in the compact cabin of a well-kept stripped-down long-range courier ship, self-reliant expression, lit by soft diffuse recessed light and starlight through a small viewport, with no lamp or light fitting visible in frame, science-fiction frontier setting, muted realistic palette, professional. The ship is spare rather than shabby: clean painted hull surfaces, everything stowed square and strapped down properly, tools racked, nothing loose, nothing broken — the ship of an owner-operator who flies alone and therefore maintains it meticulously, because there is nobody else aboard to fix anything. Absolutely no rust, no corrosion, no grime, no oil stains, no damage, no exposed wiring, no dripping, no clutter and no derelict or abandoned look anywhere. Her leather flight jacket is old and softened by use but clean and intact, and carries no marks at all — she holds no commission and answers to nobody, so no rank tabs, no insignia, no name tape, no badge, no printed words, no letters and no numerals on her clothing. No instrument panels, no consoles, no screens, no displays, no holograms, no dials, no gauges and no numerals anywhere in frame. No readable text, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
 
 - **`osric-fenholt.jpg`** — Historical (2558–2621); Imperium-era Belt
   compliance clerk, "The Honest Man of the Directorate." Period, not modern.
@@ -742,7 +742,18 @@ has to change. Two tests before generating:
 - **Watch for genre words that import furniture.** *Noir* brought neon signage
   into `wendell-albercombe` twice, along with rain, grime and a cigarette,
   none of them requested and all of them standard issue for the genre named.
-  A genre word is a whole set of defaults arriving at once.
+  *Gritty* did the same to `lorien-the-wanderer`, returning a rusted, stained,
+  half-derelict hull for a captain whose own page says she has never lost a
+  ship. A genre word is a whole set of defaults arriving at once.
+- **Spare is not shabby, and minimal is not neglected.** The distinction is
+  worth stating because briefs reach for *stripped-down*, *worn*, *practical*
+  and *utilitarian* constantly, and every one of them can slide into decay.
+  A vessel or a post in this record is kept: clean surfaces, everything stowed
+  square, tools racked, nothing broken. **The people who work alone keep the
+  best kit**, because there is nobody else aboard to fix anything — which is
+  the opposite of what the frontier-salvage look assumes. Ban the decay
+  vocabulary by name (rust, corrosion, grime, oil stains, exposed wiring,
+  clutter, derelict) rather than trusting *well-maintained* to carry it.
 - **A uniform is a text-bearing object.** Discovered the hard way on
   `naomi-kestrel`, whose portrait came back wearing a badge reading **ANALYST
   A. SHARMA** — a different person's name, legible, plausible, and one
