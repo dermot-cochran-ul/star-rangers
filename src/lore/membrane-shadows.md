@@ -24,6 +24,18 @@ A Membrane Shadow is what that Physical-channel signature looks like when it is 
 
 The signature is consistent wherever it is documented: a dense-edged silhouette, rim-lit where passing light bends around it rather than through it, casting no shadow of its own — because it *is* the shadow phenomenon, not a body that could cast a second one. It registers on nothing configured to detect mass, heat, or motion on this side of the boundary; only a cross-membrane gravimeter shows anything at all. It is silent, because there is no matter present on this side to displace air or strike a surface.
 
+## The Benevolent Case: Elves and Dryads
+
+**Not every Membrane Shadow is dark.** The name is an artefact of which cases got documented first — boundary-zone incident reports, where a dense rim-lit silhouette is what a nervous watch officer files at three in the morning — and it has misled readers of this entry ever since. *Shadow* here names the mechanism, not the appearance: an imprint cast by a mass on the far side of a narrowed Interval. What that imprint looks like depends on what is casting it, and the record holds pale ones, luminous ones, ones that read as a brightening rather than a darkening, and ones with no tonal character at all — a place that is simply *occupied* without being lit or unlit. The dark silhouette is the commonest published form and the least representative of the range. **The Good People and the Dryads are Membrane Shadows too** — the same mechanism, the same absence of a body on this side, and a wholly different disposition on the other. What differs is not the physics but the neighbour: where the far-side mass casting the imprint is a being of the [Harmonic Membrane](/star-rangers/lore/universes/tir-tairngire/), what arrives is not a dense figure at the edge of vision but a presentation shaped to be met, and met kindly.
+
+Three things follow, and each resolves something the record had been carrying separately.
+
+**The distribution stops being a coincidence.** Elves and Dryads are reported only where the Harmonic Membrane runs close enough — such as parts of [Tír na nÓg](/star-rangers/lore/planets/tir-na-nog/) — which is exactly what this page already says about shadows generally: the Interval has to be narrow. Two folkloric categories and one instrument reading were describing the same condition from three directions.
+
+**The old accounts were never confused.** A tradition that files fairies, tree-people and the dark thing at the field's edge in one category of *not-quite-there* had noticed a real kinship centuries before anyone measured an Interval. The vocabulary was pre-scientific. The taxonomy was correct.
+
+**Benevolence is not a property of the mechanism.** Nothing about intermembrane bleed is disposed one way or the other; it is a channel, and what comes through it depends on what is standing on the far side. So the pleasant cases and the unpleasant ones are not two phenomena to be told apart by their behaviour — they are one phenomenon whose character is set entirely by a neighbour nobody on this side has met. That is a more unsettling thought than a haunting, and the record does not soften it.
+
 ## Not a Meta-Dimensional Being
 
 Membrane Shadows are routinely misfiled alongside the non-sapient shadow beings in [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/)'s Class III, because both present as dark, roughly person- or creature-shaped anomalies at boundary zones. They are not the same phenomenon, and the distinction is operationally load-bearing, not academic:
