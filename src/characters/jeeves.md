@@ -7,6 +7,8 @@ role: Assigned Household Intelligence, Eden Space Habitat Welfare Program
 status: Active
 aliases: []
 tags: [ai, kernel-compliant, eden, domestic, comedy-of-manners, orbital-five-o, undercover-pets.com]
+image: "jeeves.jpg"
+image_alt: "An abstract emblem for a domestic household intelligence: a warm pool of low amber light on the scrubbed wooden surface of a quiet kitchen table at night, a folded cloth and one clean cup set neatly beside it, everything tidied and ready for a morning that has not arrived."
 description: "A domestic-companion intelligence assigned to keep Detective Inspector Wendell Albercombe fed, rested, and connected to a habitat he mostly sees through case files — and who solves more of his 'boring' referrals from the kitchen than the bureau ever manages from its own channels."
 ---
 

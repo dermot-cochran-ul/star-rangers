@@ -512,7 +512,7 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 - **`naomi-kestrel.jpg`** — junior field investigator, Eden Civil Investigations;
   reads telemetry, manifests and comm chatter "as one continuous sentence."
-  > Cinematic portrait of a young woman analyst with dark red hair cut short, clear green eyes and a freckled complexion, at a plain working table in a quiet habitat room, upper body, focused and absorbed rather than worried. The room is lit by soft diffuse recessed lighting from a concealed source, warm and even, with no lamp, no light fitting, no shade and no bulb visible anywhere in frame. Flat on the table in front of her lies one slim matte grey reading slate, a single rigid slab the size and thickness of a small hardback book, lying face-up on the tabletop, entirely unlit and blank-faced, its surface catching the room light the way a page would. It has no hinge, no lid, no keyboard, no stand and no raised panel — it is not a laptop, not a clamshell and not propped up at any angle; it lies flat like a closed book set down. Nothing else on the table. Practical dark uniform bearing small geometric rank marks — plain metal bars and a single star at the collar, shapes only. No name tape, no name badge, no printed words, no letters and no numerals on her clothing of any kind. Calm, uncluttered interior of a well-kept space habitat, muted palette, professional, no glamour styling. Absolutely no screens, no monitors, no glowing displays, no holograms, no projected light, no consoles, no dials, no gauges, no analogue instrument panels, no filing binders and no loose paper anywhere in frame. Her face is lit by the room, never by anything she is reading. No readable text, numerals, signage or written characters of any script anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a young woman analyst with dark red hair cut short, clear green eyes and a freckled complexion, at her station in a large working analysis bay aboard a space habitat, upper body, focused and absorbed rather than worried. This is plainly a professional workplace and not a private room: a long fitted work surface of pale composite built into the structure of the bay, other analysts visible at their own stations further down it, a tall structural bulkhead and a wide viewport onto starfield behind them, the room deep and institutional in scale. No domestic furniture of any kind, no wooden table, no wooden chair, no kitchen, no bed, no soft furnishings, no curtains, no bedsit or study. The bay is lit by soft diffuse recessed lighting from a concealed source, warm and even, with no lamp, no light fitting, no shade and no bulb visible anywhere in frame. Flat on the work surface in front of her lies one slim matte grey reading slate, a single rigid slab the size and thickness of a small hardback book, lying face-up on the tabletop, entirely unlit and blank-faced, its surface catching the room light the way a page would. It has no hinge, no lid, no keyboard, no stand and no raised panel — it is not a laptop, not a clamshell and not propped up at any angle; it lies flat like a closed book set down. Nothing else on the table. Practical dark uniform bearing small geometric rank marks — plain metal bars and a single star at the collar, shapes only. No name tape, no name badge, no printed words, no letters and no numerals on her clothing of any kind. Calm, uncluttered interior of a well-kept space habitat, muted palette, professional, no glamour styling. Absolutely no screens, no monitors, no glowing displays, no holograms, no projected light, no consoles, no dials, no gauges, no analogue instrument panels, no filing binders and no loose paper anywhere in frame. Her face is lit by the room, never by anything she is reading. No readable text, numerals, signage or written characters of any script anywhere in frame. Portrait orientation.
 
 - **`rosalind-vey.jpg`** — tactical specialist, Eden Civil Investigations;
   ex-habitat tactical response, treats a scene as a room that might still be dangerous.
@@ -617,7 +617,7 @@ below are ready to paste; add `image`/`image_alt` after generating.
   asked for instead. Per the sheen rule, the eye membrane is now described by
   what it *does* rather than named: "nictitating light-scattering membrane" is
   jargon a model cannot draw.
-  > Cinematic photographic portrait of a lean non-human humanoid scout, upper body, unmistakably not human but not monstrous: tall narrow skull, high flat cheekbones, no visible hair, dry matte skin with a fine pebbled texture. His eyes are wide and pale, and across each one lies a thin transparent second lid that catches the light with a faint prismatic sheen, like a film of oil on water. He wears a light open-weave respirator across the lower face - worn loosely, plainly for comfort rather than survival - and a practical layered scout's overtunic in undyed desert cloth. He is holding a small handheld survey instrument and looking off past the camera at something far away, calm, measuring, patient. Absolutely no weapons of any kind, no rifle, no sidearm, no armour, no helmet. Cold clear high-altitude daylight, thin dry air, muted sand and bone palette, realistic and grounded rather than stylised, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  > Cinematic photographic portrait of a lean non-human humanoid scout, upper body, unmistakably not human but not monstrous, and specifically NOT the bald big-eyed grey alien of stock science fiction: he has a **broad, heavy, human-proportioned skull** with a wide flat brow and a strong square jaw, deep-set eyes of ordinary size beneath a pronounced bony brow ridge, a broad nose, and thick coarse pale hair worn cropped short with a heavy stubbled beard. Absolutely no enlarged cranium, no domed bald head, no hairlessness, no oversized or almond eyes, no tapering pointed chin, no spindly neck, no grey skin. His build is compact, dense and weathered rather than slender. His skin is deeply pigmented, dark reddish-brown and thickened against high ultraviolet. Three features mark him plainly as another species and must all be clearly visible: **a pale opaque inner eyelid drawn halfway across each eye**, sitting horizontally like a shutter over the iris and catching the light with a faint prismatic sheen; **fine hard dermal plating** across the brow ridge, temples and cheekbones, like close-set overlapping scales or weathered bark growing out of the skin itself; and **no external ears at all**, only a small recessed opening where a human ear would be. Nothing else about him is inhuman — that is the point. He should read at a glance as a man, and at a second glance as unmistakably not one. He wears a light open-weave respirator across the lower face - worn loosely, plainly for comfort rather than survival - and a practical layered scout's overtunic in undyed desert cloth. He is holding a small handheld survey instrument and looking off past the camera at something far away, calm, measuring, patient. Absolutely no weapons of any kind, no rifle, no sidearm, no armour, no helmet. Cold clear high-altitude daylight, thin dry air, muted sand and bone palette, realistic and grounded rather than stylised, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 **AIs & non-corporeal — abstract emblem, no face**
 
@@ -755,6 +755,36 @@ has to change. Two tests before generating:
   *Gritty* did the same to `lorien-the-wanderer`, returning a rusted, stained,
   half-derelict hull for a captain whose own page says she has never lost a
   ship. A genre word is a whole set of defaults arriving at once.
+- **`sethka-ru` is blocked, and it is a worldbuilding gap rather than a prompt
+  problem** (13 August). Four rounds failed in three different ways — armed
+  with a rifle, concept-art alien, grey-alien recipe, then an ordinary
+  weathered man — and the fifth was pulled after Dermot supplied the fact that
+  makes all of them wrong: **the Serephine Dunekin are not humanoid at all.**
+  Every prompt in that history opens "non-human *humanoid* scout", so the whole
+  line was building the one thing the species is not. The entry is back to a
+  placeholder card and should stay there.
+
+  What is written about the Serephine is only: light-scattering eye membranes,
+  a water-conservative metabolism, respiratory efficiency, a homeworld of thin
+  air and lethal thermal swing — plus three passing mentions elsewhere, and
+  **no lore page at all**, unlike the Krenyi, Cerebraun, Verdani or Mnemari.
+  There is nothing to draw a body plan from, and inventing one in a JPG would
+  make the picture the most specific statement about the species in the repo,
+  which is backwards. **This needs a sentence of prose from Dermot before any
+  further generation.** The rule it illustrates is the file's oldest one: the
+  brief has to come from the record, and where the record is silent the answer
+  is authoring, not another attempt.
+- **"Non-human" without further instruction means the grey alien, every time.**
+  Dermot on the third `sethka-ru` round: *"he looks too much like a sci-fi trope
+  of an alien."* He was right, and the brief was the cause — *tall narrow
+  skull, no visible hair, wide pale eyes* is not a description of an alien, it
+  is the grey's exact specification, written out. The trope is a **fixed recipe**:
+  enlarged domed cranium, hairlessness, oversized almond eyes, tapering chin,
+  spindly neck and limbs, smooth grey skin. Ban that list by name, then
+  differentiate on axes the recipe never touches — **build, skin, hair,
+  proportion** — and let one or two derived features carry the species. The
+  Krenyi card already fought this battle and its alt text still says *"not a
+  grey alien"*; the lesson generalises to every non-human portrait in the file.
 - **The generator converges on one face, so vary the cast on purpose.** Three
   portraits filed in the same batch on 13 August — `naomi-kestrel`,
   `galen`, `rosalind-vey` — came back as dark-haired white women of similar

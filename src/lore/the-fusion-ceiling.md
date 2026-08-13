@@ -3,6 +3,8 @@ layout: lore-entry.njk
 title: "The Fusion Ceiling"
 category: "Technology"
 tags: [fusion, energy, technology, no-antimatter, frontier, frontier-transformation-protocols, ascent-javelin, infrastructure]
+image: "the-fusion-ceiling.jpg"
+image_alt: "A frontier settlement of timber barns and a gravel yard under a wide pale sky. Two people work at a concrete pad where a plain grey fusion unit stands behind a railing, its pipework running off to a nearby building; a rack of hand tools stands beside them."
 description: "Why nuclear fusion is the top of the Concord's energy ladder — no antimatter reactors, no exotic power taps, and no need for them — and why the ceiling that is sufficient everywhere is still slow to raise on a frontier world."
 ---
 
