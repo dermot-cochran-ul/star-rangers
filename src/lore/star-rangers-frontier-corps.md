@@ -65,4 +65,4 @@ A frontier colony is institution-poor by sequencing, not failure. [Fusion buildo
 - [The Star Rangers Safety Corps](/star-rangers/lore/star-rangers-safety-corps/) — whose evidentiary standards the Corps borrows
 - [The Fusion Ceiling](/star-rangers/lore/the-fusion-ceiling/) — why young colonies stay institution-poor for a decade
 - [The Solar System Concord](/star-rangers/lore/solar-system-concord/) — the baseline law every compact incorporates
-- [Planetary Liaisons and Recruiters](/star-rangers/lore/planetary-liaisons-and-recruiters/) — the Rangers' other standing presence on settled worlds
+- [The Star Ranger Liaison Corps](/star-rangers/lore/planetary-liaisons-and-recruiters/) — the Rangers' other standing presence on settled worlds

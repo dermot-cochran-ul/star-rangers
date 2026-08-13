@@ -20,9 +20,11 @@ The consequence is worth stating in its strongest form, because it is the point:
 
 ## Colleges and Schools
 
-A **college** covers a corps: Survey, Science, Safety, Provost, [Frontier](/star-rangers/lore/star-rangers-frontier-corps/), Medical, Engineering, and the rest. It owns the corps' certification criteria and the examinations against them.
+A **college** covers a corps: Survey, Science, Safety, Provost, [Frontier](/star-rangers/lore/star-rangers-frontier-corps/), [Liaison](/star-rangers/lore/planetary-liaisons-and-recruiters/), Medical, Engineering, and the rest. It owns the corps' certification criteria and the examinations against them.
 
 A **school** covers a branch inside that corps — the piloting and navigation track, the boundary-safety track, the research track, the security track, and the smaller specializations that get less notice and no less rigour. A school owns the specific competencies of one kind of work.
+
+The distinction is what lets an officer spend a whole career going deeper rather than sideways. When [Karla Wender](/star-rangers/characters/karla-wender/) climbed from Novice to Chief Pilot without once rotating off piloting and navigation, she was not evading a rotation requirement. She was doing what a branch school is built to make possible: eight rungs of examined progression inside a single body of work, each one certified by people who do that work. The Corps needs officers produced that way at least as much as it needs generalists, and it built somewhere for both.
 
 **The list of branches is open.** No page holds a closed enumeration, and none should: a corps constitutes a school when a body of work has grown large enough to need its own standard, which is a thing that happens on the Corps' own schedule rather than a chartered one. A branch named nowhere in the record is not thereby absent; it is merely one the record has not yet had cause to describe.
 
@@ -33,8 +35,6 @@ The clearest worked example of what a branch school is *for*, because its subjec
 There is no universal translator in this record and there is not going to be. Language is learned — by [xenolinguists with AI support](/star-rangers/lore/what-the-record-refuses/), on a division of labour the school exists to enforce. The intelligence does what machines do well: corpus alignment at scale, candidate parses, a memory that never loses a morpheme. The linguist does the thing an [AI Safety Kernel](/star-rangers/lore/ai-safety-kernel/)-compliant mind will not pretend to do — decide what a word *means*, and own the error. A kernel-compliant intelligence will not claim a certainty about meaning it does not hold, so what it hands over is candidate readings with confidence stated, never a voice in your ear pretending to be the alien.
 
 The branch sits in the Survey Corps because that is where the standing delegations sit, and first contact is consequently measured in years of translation work rather than in an afternoon. What the school teaches, past the technique, is a temperament: that a mistranslation entered confidently into a record is more expensive than an admission of not knowing, and that the correction will usually come from the other side of the table. Its two standing case studies are both failures of patience rather than of method — the [Cerebraun](/star-rangers/lore/cerebraun/), whose three-part answers xenolinguists spent a decade filing as evasion before admitting they were simply how the species thinks; and the [Kingdom of the Four Islands](/star-rangers/lore/planets/kingdom-of-the-four-islands/), where the delegation is still working through a language every Solar System register had presumed extinct, corrected slowly and without visible impatience by [an abbess](/star-rangers/characters/ilsabet-marrowtide/) who knows exactly what a single bad translation costs an archive's credibility.
-
-The distinction is what lets an officer spend a whole career going deeper rather than sideways. When [Karla Wender](/star-rangers/characters/karla-wender/) climbed from Novice to Chief Pilot without once rotating off piloting and navigation, she was not evading a rotation requirement. She was doing what a branch school is built to make possible: eight rungs of examined progression inside a single body of work, each one certified by people who do that work. The Corps needs officers produced that way at least as much as it needs generalists, and it built somewhere for both.
 
 ## The Academy Stops at Chief
 
@@ -64,4 +64,4 @@ Cadet intake draws on candidates identified locally, most often by a [planetary 
 
 A **Novice** is provisional and under evaluation; the college confirms Cadet standing, not the command chain. This is the first thing a new Ranger learns about how the Corps is actually put together, and most of them learn it without noticing.
 
-See also: [Rank and the Chain of Command](/star-rangers/lore/star-rangers-command-hierarchy/), [The Star Rangers Safety Corps](/star-rangers/lore/star-rangers-safety-corps/), [The Star Rangers Frontier Corps](/star-rangers/lore/star-rangers-frontier-corps/), [Retired Rangers: Liaisons, Representatives, and Recruiters](/star-rangers/lore/planetary-liaisons-and-recruiters/).
+See also: [Rank and the Chain of Command](/star-rangers/lore/star-rangers-command-hierarchy/), [The Star Rangers Safety Corps](/star-rangers/lore/star-rangers-safety-corps/), [The Star Rangers Frontier Corps](/star-rangers/lore/star-rangers-frontier-corps/), [The Star Ranger Liaison Corps](/star-rangers/lore/planetary-liaisons-and-recruiters/).

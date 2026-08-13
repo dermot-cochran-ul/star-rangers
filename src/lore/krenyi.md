@@ -31,10 +31,29 @@ This is not suppression. It is structural.
 
 ## Social and Relational
 
+- Demisexual: attraction arises only through an established emotional bond, and never before one. This is the whole species and not a distribution within it — there is no Krenyi for whom it works the other way.
 - Polyamorous but loyal: they maintain multiple relationships, but each with genuine care and commitment.
 - Honest: they do not use social deception, and they are briefly vulnerable to human social deceptions they have not encountered before.
 - No flirtation or small talk: they move directly to material terms. This is not rudeness; it is efficiency.
 - Initially trusting: they extend good faith first. They detect pattern drift (when a social situation stops matching its stated terms) and withdraw relevance quietly rather than confronting.
+
+The demisexuality explains something the list above records as three separate traits. No flirtation, no small talk, and straight to material terms is not brusqueness with a social cost the Krenyi have decided to absorb — it is simply what a people look like when nothing whatever is being opened by the preliminaries. A Krenyi is not declining to flirt. There is no stage of a Krenyi relationship at which flirting would be doing anything.
+
+## Humans, and the Attachment That Does Not Form
+
+Krenyi do not form romantic attachments to humans, and will not consent to interbreed with them. Both facts belong to the material part a Krenyi answers without hesitation — stated once, plainly, and not elaborated, because *why not* asked of a Krenyi is very often the same question as *what are you, really*, and gets the same answer as every other version of it.
+
+The first fact is not a judgement on humans and is not offered as one. The bond a Krenyi requires before attraction is possible does not form across that particular distance, and the Krenyi report this the way a person reports any other fact about their own interior: as the case, without apology and without a theory. The record does not have a mechanism for it and does not pretend to.
+
+What the record does have is an observation about the direction the misunderstanding usually runs. Humans do form attachments to Krenyi — the [Physical and Social Characteristics](#physical-and-social-characteristics) list notes, flatly, that Krenyi are attractive by most humanoid standards, and the honesty and the calm are their own draw. A Krenyi meeting that is generally meeting the same thing they meet everywhere else: a person reading them as category rather than as company, wanting the Quiet-Built rather than wanting *them*. It is the [mythification](#resistance-to-mythification) problem in its most personal register, and it gets the standard answer — name the distortion, return the exchange to material terms, and stay. They are not usually unkind about it. They are almost never wrong about which it is.
+
+## What a Krenyi Body Does With Foreign Material
+
+The interbreeding refusal is a matter of consent, and it would also be moot without it. **Krenyi immunity destroys foreign genetic material outright** — not tolerating it poorly, not rejecting a graft over weeks, but identifying anything that did not originate in a Krenyi and taking it apart. Human DNA entering a Krenyi system does not persist long enough to do anything, which is why the Krenyi state *cannot interbreed with any other species* as a flat fact rather than as an untested assumption.
+
+The consequence that costs lives is the one running the other way, because the asymmetry is not obvious and the intuition is wrong. **Krenyi blood is hazardous to a human.** A transfusion delivers those antibodies into a body composed entirely of foreign genetic material, where they do precisely what they exist to do. The human survives. They are seriously unwell for several days at minimum, and the clinical file exists because somebody once reasoned — not unreasonably, from a species that is honest, physiologically robust and rarely sick — that Krenyi blood would be a safe substitute in a shortage.
+
+Krenyi themselves treat this as ordinary information and volunteer it early, which is consistent with everything else about them: it is material, it is useful, and withholding it would cost someone something.
 
 ## Resistance to Mythification
 

@@ -1,12 +1,16 @@
 ---
 layout: lore-entry.njk
-title: "Retired Rangers: Liaisons, Representatives, and Recruiters"
+title: "The Star Ranger Liaison Corps"
 category: "Institutions"
-tags: [star-rangers, retirement, liaison, representative, recruiter, planetary-jurisdiction, invitation, celtic-union, rhiannon-ceridwen, institutions]
-description: "Why retired Star Rangers so often become part-time planetary liaisons, representatives, and recruiters — and how the charter's no-jurisdiction clause makes that role structurally necessary rather than incidental."
+tags: [star-rangers, liaison-corps, liaison, representative, recruiter, planetary-jurisdiction, invitation, reassignment, celtic-union, rhiannon-ceridwen, institutions]
+description: "The Liaison Corps and its Planetary Representatives — the specialist corps that resolves the charter's no-jurisdiction clause, and the berth a Ranger moves to when front-line work stops being possible without leaving the force."
 ---
 
-The charter that keeps the Star Rangers off a planet's ground is the same charter that made it inevitable someone would eventually need to stand on that ground anyway. Retired Rangers are how the Corps resolves that contradiction without breaking its own rule.
+The charter that keeps the Star Rangers off a planet's ground is the same charter that made it inevitable someone would eventually need to stand on that ground anyway. The **Liaison Corps** is how the Corps resolves that contradiction without breaking its own rule.
+
+Its members are **Planetary Representatives**, and the first thing to get right about them is that they are serving Rangers. The nearest civilian comparison is an officer moved off dangerous front-line duty and kept on the force — a different posting, a different kind of work, the same employer and the same institution. Not a pension with a job attached to it, and not a courtesy extended to people who have finished.
+
+*(This entry was written before the corps had a name and was previously titled "Retired Rangers: Liaisons, Representatives, and Recruiters." The word* retired *was wrong in two directions at once — see The Ages below — and the URL keeps the old wording so that nothing linking here breaks.)*
 
 ## The Problem the Charter Creates
 
@@ -16,9 +20,9 @@ The limit works exactly as designed. It also creates a standing operational prob
 
 ## The Structural Fix
 
-Retired Rangers already are someone the world trusts, on worlds where they happen to have been born. A veteran who spent a full service career answering to the Oversight Council and returns home afterward isn't asking a planet for jurisdictional access — she's a native going home. The charter's invitation requirement was never written to apply to that, because it was never a gap in the charter. It is what happens automatically once enough Rangers finish full careers and go somewhere.
+A Ranger who goes home is already someone that world trusts. A veteran who spent a career answering to the Oversight Council and then returns to the place she was born is not asking a planet for jurisdictional access — she is a native going home. The charter's invitation requirement was never written to apply to that, because it was never a gap in the charter. It is what happens automatically once enough Rangers finish long careers and go somewhere.
 
-What the Corps formalised, gradually and without a single founding document, was recognising that fact rather than ignoring it: retired personnel already positioned to be trusted go-betweens are offered part-time, honorarium-compensated standing as one or more of three recognised civilian-side roles.
+What the Corps formalised, gradually and without a single founding document, was recognising that fact instead of ignoring it, and then giving it a corps. A Planetary Representative holds one or more of three recognised roles.
 
 ### Liaison
 
@@ -32,9 +36,23 @@ The formal point of contact for charter-bound interactions that require a standi
 
 Identifies and refers promising local candidates into cadet intake. This is the same instinct the Corps already names elsewhere as a recognition function rather than a manufacturing one — see [Champions and Heroes](/star-rangers/glossary/champions-heroes/): a recruiter identifies a pattern of sustained, competent action under pressure that was already there, rather than creating it. A retired Ranger, having spent a career learning to read exactly that pattern in colleagues, is unusually well placed to read it in a neighbour's kid.
 
-## The Ages, and Why "Retired" Is a Simplification
+## The Berth When Front-Line Work Stops
 
-The word *retired* does most of the work in this entry's title and is, strictly, wrong for the first twenty years of it. The actual shape has three stages, not two.
+There is a second route into the Liaison Corps and it has nothing to do with age.
+
+Boundary-proximate work is dangerous, and it stops being possible for people for the ordinary reasons: an injury that does not fully mend, a condition that will not certify, a [stress injury the Corps counts as an injury](/star-rangers/lore/star-rangers-command-hierarchy/) and treats accordingly. The question every such institution eventually has to answer is what happens to that officer next, and most answers are some version of *nothing*, dressed up.
+
+The Liaison Corps is this Corps' answer, and it is deliberately not a soft landing. It is a transfer to work that is genuinely needed, genuinely hard in its own way, and performed under the officer's own name on a world that will judge her by it. A Ranger who can no longer stand a boundary watch can still be the one relationship an entire planet has with the Star Rangers, and the Corps would rather have that person doing it than lose her to a medical finding.
+
+Two things follow, and the Corps guards both.
+
+**It is not a demotion and is not spoken of as one.** An officer reassigned here has changed what she does, not what she is worth, and the corps has its own [ladder of certifications and decorations](/star-rangers/lore/star-rangers-command-hierarchy/) to advance on. Treating a liaison posting as a place people are put out to is the kind of remark seniors are expected to have grown out of.
+
+**It is not a dumping ground either.** The work has a recommended floor of about fifty-five for a reason, and a reassignment that arrives earlier arrives because the officer is suited to it, not because a berth was needed. The Corps has never pretended these two routes in are the same route, and a representative who came by the second one is generally the last person who needs it explained.
+
+## The Ages, and Why "Retired" Was Wrong Twice
+
+The old title of this entry called these people *retired Rangers*, which was wrong in both directions: they are not retired for the first twenty years of it, and many of them never retire from anything at all — they transfer. The actual shape has three stages.
 
 **About fifty-five — the recommended floor.** A Ranger may take up planetary representative standing from roughly the age of fifty-five. It is a recommendation rather than a bar, and the reasoning is not seniority for its own sake: the role asks a person to be trusted by a world, to read a stranger's competence the way they once read a colleague's, and to hold the Corps' side of a relationship without a chain of command standing behind them on the day it gets difficult. That is not a thing a short career equips anyone to do.
 
@@ -46,7 +64,7 @@ Set that beside human medicine and the fitness culture that goes with it — whi
 
 The Corps did not design this. The charter's drafters set out to solve a jurisdictional problem and produced, as a side effect, a standing body the size of every cohort that has ever finished active service. The three roles below were not invented to occupy them. They were invented because the work was already being done and there was no name for it.
 
-One consequence worth stating plainly: **the honorarium and the pension are both drawn from data-licensing and fold-route revenue, never from a government appropriation.** A world cannot defund its own representative, and neither can the Oversight Council.
+One consequence worth stating plainly: **pay and pension alike are drawn from data-licensing and fold-route revenue, never from a government appropriation.** A representative is paid by the Corps for as long as she serves it, on the same terms as anyone else in uniform. A world cannot defund its own representative, and neither can the Oversight Council.
 
 ## A Career Path, and Not a Rank
 
@@ -56,9 +74,19 @@ This is worth being precise about, because the obvious reading is wrong twice ov
 
 What advances on this path is competence in the work itself: the specific certifications a world's boundary-zone traffic requires, the specializations that come of doing one relationship for twenty years, and the decorations the Corps awards for it. What does *not* advance is rank, because rank is the thing this path is an alternative to.
 
-The consequence is the one the Corps intended and the one worlds notice first: **a High Captain and a Chief who transfer to the same homeworld begin at the same standing there.** Neither brings a ladder position with them; both start where the path starts. Twenty years later they may be a long way apart, and the distance between them will have been earned in front of the world that watched it happen rather than in a service record it never sees. The appointment answers to what a world needs from its own native daughter, not to what rank she arrived with.
+### The ceiling, and who is over it
 
-Funding follows the charter's existing self-funding logic: honorarium payment is drawn from the same data-licensing and fold-route-fee structure that funds everything else, never from a government appropriation, for the same reason the charter forbids that everywhere else — nobody gets to buy leverage over what a liaison reports.
+The corps' senior post is **Chief Liaison Officer** — a Chief's duty title, alongside Chief Ranger, Chief Pilot, Chief Provost and Chief Science Officer. That places the whole Liaison Corps on the certification half of the ladder, which is where a corps that advances by specialization and decoration belongs.
+
+It also means the corps has an upper bound on who can join it, and the bound is not about worthiness. **An officer who leaves active service at Star Captain or above is over-ranked for a Chief's post**, and no amount of suitability makes a flag-tier officer a candidate for a berth two or three rungs beneath the one she vacated. The Corps does not resolve this by inventing a grander title for her; inflating a post to fit an individual is how a career ladder stops meaning anything, and the Liaison Corps' certifications are worth exactly as much as its refusal to do that.
+
+So the third path is genuinely a path for most of the Corps and closed to the top of it. What a departing Star Captain or High Captain does instead is her own affair, and the record's worked example is [Asteria](/star-rangers/characters/asteria-the-sage/), who left at Star Captain and went to a [Fellowship of Light](/star-rangers/lore/fellowship-of-light/) chapter house as a Sage — an institution outside the Corps entirely, which is rather the point.
+
+Below that bound, rank still does not transfer. Two Chiefs who take up postings on the same world start level with each other, and whatever separates them twenty years later will have been earned in front of the world that watched it happen rather than in a service record it never sees. The appointment answers to what a world needs from its own native daughter, not to what she arrived holding.
+
+Funding follows the charter's existing self-funding logic: a representative is paid from the same data-licensing and fold-route-fee structure that funds everything else, never from a government appropriation, for the same reason the charter forbids that everywhere else — nobody gets to buy leverage over what a liaison reports.
+
+Being a corps, the Liaison Corps carries the rest of what that word means here. It elects its own [chapter leaders and corps president](/star-rangers/lore/star-rangers-command-hierarchy/), holds its own certification standards, and runs its own [college at the Academy](/star-rangers/lore/star-rangers-academy/) — which means, as with every other corps, that no command officer outside it gets to decide what its certifications are worth.
 
 ## The Neutrality Constraint Doesn't Retire With Her
 

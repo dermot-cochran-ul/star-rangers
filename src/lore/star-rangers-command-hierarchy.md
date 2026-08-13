@@ -49,7 +49,7 @@ From entry to apex, in order of seniority:
 
 The rank ladder above governs seniority and who answers for what. It does not govern who sets standards within a specialization, because the charter's framers did not want the same chain of command holding both kinds of authority over the same person.
 
-Each specialist corps — Survey, Science, Safety, Provost, [Frontier](/star-rangers/lore/star-rangers-frontier-corps/), Medical, Engineering, and the rest — is internally organised more like a professional guild than a military department. A corps elects or appoints its own **chapter leaders** at the post or installation level and, above them, a **corps president** for the Rangers as a whole, and neither position sits on the Novice-to-Triumvirate ladder. Holding one requires no specific rank. In practice, a chapter leader or president is almost always drawn from officers already at Principal, Section Lead, or Chief — the tiers with enough field standing to be trusted with the job — but that's convention arising from who the corps' own members tend to elect, not a rank requirement written into the charter.
+Each specialist corps — Survey, Science, Safety, Provost, [Frontier](/star-rangers/lore/star-rangers-frontier-corps/), [Liaison](/star-rangers/lore/planetary-liaisons-and-recruiters/), Medical, Engineering, and the rest — is internally organised more like a professional guild than a military department. A corps elects or appoints its own **chapter leaders** at the post or installation level and, above them, a **corps president** for the Rangers as a whole, and neither position sits on the Novice-to-Triumvirate ladder. Holding one requires no specific rank. In practice, a chapter leader or president is almost always drawn from officers already at Principal, Section Lead, or Chief — the tiers with enough field standing to be trusted with the job — but that's convention arising from who the corps' own members tend to elect, not a rank requirement written into the charter.
 
 The command ladder has no direct input into a corps' guild and training functions — the largest instance of which is [the Academy](/star-rangers/lore/star-rangers-academy/), organised as a college per corps and a school per branch, and answerable to the corps rather than to the Council of High Captains. A Starwarden cannot revise Medical Corps practice standards, set Survey Corps instrument-certification criteria, or override a Safety Corps finding — the same independence the [Safety Corps](/star-rangers/lore/star-rangers-safety-corps/) already holds by charter is not a Safety Corps exception, it's the general rule every specialist corps operates under. Command rank tells a Ranger who they answer to for a deployment. It has never told them who's right about medicine, instrumentation, or boundary science, and the charter's framers built the guild layer specifically so no future command chain could quietly start deciding otherwise.
 
@@ -93,7 +93,9 @@ Nothing in the policy prevents an officer from also keeping an advisor of their 
 
 ## Leaving, and Coming Back
 
-The ages elsewhere in the Corps' career structure — the recommended floor for [planetary representation](/star-rangers/lore/planetary-liaisons-and-recruiters/) at about fifty-five, the full pension available from about seventy-five — describe the ordinary route and are not the only one. **Early retirement, career breaks, and extended sabbaticals are available by negotiation and agreement**, and they are negotiated rather than granted because no schedule written in advance could anticipate what a particular Ranger's service has actually cost them.
+Three ages bound a Ranger's service, and only the last of them is a rule rather than an option. The recommended floor for [a Liaison Corps posting](/star-rangers/lore/planetary-liaisons-and-recruiters/) is about **fifty-five**. A full pension becomes available at about **seventy-five**, at the officer's own choosing. And **about a hundred and ten is the maximum retirement age** — the one figure nobody negotiates, set where it is because it is roughly where the eleventh decade's borrowed capability runs out, and deliberately not set at the lifespan ceiling. A Ranger who serves to the limit still has years in front of her; the Corps simply stops being where she spends them. Between the second age and the third lies the longest optional stretch in the service, and officers use all of it: [Asteria](/star-rangers/characters/asteria-the-sage/) left at about a hundred, holding Star Captain.
+
+Those ages describe the ordinary route and are not the only one. **Early retirement, career breaks, and extended sabbaticals are available by negotiation and agreement**, and they are negotiated rather than granted because no schedule written in advance could anticipate what a particular Ranger's service has actually cost them.
 
 Health is the commonest ground, and the Corps' definition of it is deliberately wide. **A stress-related injury is an injury.** An officer who has stood too many watches, carried too long a stretch of boundary-proximate duty, or come back from an incident carrying something that has not finished with them is understood to be hurt, not to be failing, and the arrangement that follows is a medical accommodation rather than a favour or a mark against a record. The Corps is a body that certifies competence for a living, and it has never found it consistent to certify a person unfit and then treat the finding as a character judgement.
 
@@ -105,15 +107,21 @@ Two consequences are worth naming.
 
 **Coming back is a real event, and it is not simply resumption.** An officer returning to duty is returning to work they can still do and to a person they have partly become since. The record does not pretend otherwise, and the ones who have done it will generally say that the first ordinary morning back was harder than anything in the incident that sent them away.
 
-## The Third Path: Planetary Representation
+## The Third Path: The Liaison Corps
 
-There is one more non-command career path, and it is easy to miss because it is usually described as a retirement role rather than as a track. **Planetary representation runs on the same logic as the technical ladder — deepening specializations, certifications, and decorations in place of promotion — and it is a career, not a courtesy.**
+There is one more non-command career path, and it belongs to a specialist corps like any other. The **Liaison Corps**, whose members are **Planetary Representatives**, runs on the same logic as the technical ladder — deepening specializations, certifications, and decorations in place of promotion. Its members are serving Rangers holding a posting and paid by the Corps, not veterans on a retainer.
 
-What distinguishes it is when it opens rather than what it is. A Ranger ordinarily transfers onto it somewhere after the age of fifty-five, having already spent a career elsewhere, because the work asks for a kind of standing a short service cannot supply: a world has to trust the person, and the person has to be able to hold the Corps' side of a relationship with no chain of command behind them on the day it becomes difficult. From roughly fifty-five to seventy-five the representative remains on the reserve list — left active service, not retired — and past that, on a full pension at their own choosing.
+Two routes lead onto it, and they are not the same route.
 
-Rank does not transfer onto this path. A High Captain and a Chief who take it up on the same world start at the same standing, and whatever separates them twenty years later will have been earned there.
+**By age and standing.** A Ranger ordinarily transfers across somewhere after fifty-five, having already spent a career elsewhere, because the work asks for something a short service cannot supply: a world has to trust the person, and the person has to hold the Corps' side of a relationship with no chain of command standing behind them on the day it turns difficult. From roughly fifty-five to seventy-five the representative remains on the reserve list — left active service, not retired — and past that may take a full pension at their own choosing.
 
-See [Retired Rangers: Liaisons, Representatives, and Recruiters](/star-rangers/lore/planetary-liaisons-and-recruiters/) for the three recognised roles, the charter problem the path exists to solve, and why the Corps has no jurisdiction it could exercise through them.
+**By reassignment.** Boundary-proximate work stops being possible for people, for the ordinary reasons: an injury that does not fully mend, a condition that will not certify, a stress injury the Corps counts as an injury. The nearest civilian comparison is a police officer moved off dangerous front-line duty and kept on the force. It is a transfer to work that is genuinely needed and genuinely hard in its own way — not a soft landing, and neither spoken of nor recorded as a demotion.
+
+The corps' senior post is **Chief Liaison Officer**, which puts its ceiling on the certification half of the ladder alongside every other Chief. The consequence is a real bound: **an officer who leaves active service at Star Captain or above is over-ranked for a Chief's post** and is not a candidate, however suited she might be — and the Corps declines to invent a grander title to fit her, since a post inflated for an individual is how a ladder stops meaning anything. [Asteria](/star-rangers/characters/asteria-the-sage/) is the worked example of what happens instead: she left at Star Captain and went to a Fellowship of Light chapter house, an institution outside the Corps entirely.
+
+Below that bound, rank does not transfer by either route. Two Chiefs who take up postings on the same world start level, and whatever separates them twenty years later will have been earned in front of that world.
+
+See [The Star Ranger Liaison Corps](/star-rangers/lore/planetary-liaisons-and-recruiters/) for the three recognised roles, the charter problem the corps exists to solve, and why the Rangers have no jurisdiction they could exercise through it.
 
 ## What the Triumvirate Is Not
 
@@ -154,7 +162,7 @@ The paradigm case is a hostage extraction aboard a deep-space liner — squarely
 - [Decision-Making and Communication in the Star Rangers](/star-rangers/lore/star-rangers-decision-and-communication/)
 - [The Star Rangers Safety Corps](/star-rangers/lore/star-rangers-safety-corps/)
 - [The Star Rangers Science Corps](/star-rangers/lore/star-rangers-science-corps/)
-- [Retired Rangers: Liaisons, Representatives, and Recruiters](/star-rangers/lore/planetary-liaisons-and-recruiters/)
+- [The Star Ranger Liaison Corps](/star-rangers/lore/planetary-liaisons-and-recruiters/)
 - [Military Space Command](/star-rangers/lore/military-space-command/)
 - [Karla Wender](/star-rangers/characters/karla-wender/)
 - [Tissadelle Shepherd](/star-rangers/characters/tissadelle-shepherd/)
