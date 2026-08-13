@@ -23,6 +23,7 @@ She is a Field Officer — the first rank in the Corps that can be posted indepe
 - Filed the reading as a candidate at low stated confidence, with the contexts that produced it and the three readings she could not rule out.
 - Survey Corps atmospheric analysis, looking specifically, confirmed extensive centuries-old soil and micro-flora engineering across all four islands — work the Kingdom's chronicles credit to the first settlers' hard work and describe as nothing more than that.
 - Keeps the delegation's confidence-band register, and has declined, in writing, three requests to raise a band on a reading she had not re-derived.
+- Filed the delegation's standing note that *Krilzat* does not sit in the same phonological company as the four island names, at the lowest confidence the register admits, and has resisted every attempt to write it up as a finding.
 
 ## Character Notes
 
