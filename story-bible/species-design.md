@@ -146,6 +146,55 @@ Answering three or four is enough to brief a portrait.
 7. **What did the biology make them good at, and what job followed?** Every one
    of the five already has a specialism that fits their world.
 
+## Is dexterity a requirement? (Dermot's question, 13 August)
+
+*"Other primates have hands but are they less intelligent than dolphins or
+elephants? Is dexterity an actual requirement for space faring sapient beings?"*
+
+**Dexterity yes, hands no — and it is probably not the real bottleneck anyway.**
+
+What is actually required is **manipulation finer than the manipulator**: the
+ability to make a thing more precise than the body that made it, and to hold
+something steady while acting on it with something else. Hands are one solution,
+late and awkward. The steadiness half is the half that gets forgotten, and it is
+what dolphins lack — not intelligence, not sociality, just any way to *hold*
+anything. Elephants are the sharper case, because a trunk is a muscular
+hydrostat with finer control at the tip than a human hand, and they have no
+technology. So a fine manipulator is not sufficient either.
+
+Alternatives that genuinely work: muscular hydrostats (trunks, tentacles — an
+octopus arm has distributed control and eight of them is a better workshop than
+two hands); mouthparts and palps; **many small limbs in concert**, which this
+record has already committed to via the six-limbed Vessik and therefore the
+Chthonari; building by growing or secreting rather than assembling; and
+**cooperative manipulation**, where the unit of work is several bodies — termites
+build climate-controlled towers and no individual has dexterity worth the name.
+
+**The bottleneck worth using instead is high-energy materials processing** —
+what gets a people from shaped stone to metallurgy to pressure vessels. It is
+harder to route around than manipulation and, unlike manipulation, it is
+*different on every one of these worlds*, so it generates history rather than
+anatomy:
+
+| Species | Bottleneck | Consequence |
+| --- | --- | --- |
+| **Veyr** | None — active basalt hands them heat and pressure at the surface | Metallurgy early and free; the *hard* problem is precision on a world that shakes, so their engineering is about margin and tolerance. **Worked up in full: `src/lore/veyr-basaltborn.md`.** |
+| **Pelagene** | No open combustion underwater | A metallurgy problem, not a hands problem. Vents, electrochemistry, or a long detour through biology |
+| **Serephine** | Thin atmosphere burns poorly | But high UV is free energy and the daily thermal swing is enormous — a gradient civilisation rather than a fire one |
+| **Chthonari** | — | They **excavate**: the Undersong Belt's own page calls it *"excavation as composition"*. Building by removing material needs little dexterity and a great deal of judgement |
+| **Verdani** | Symbiont-dependent, so energy budget is light-limited | Slow, and possibly a people for whom haste is genuinely expensive |
+
+**And the setting already grants the deeper point.** The Krenyi build no agentic
+machines — *"needing no AI and wanting none are, to them, one fact rather than
+two."* A species can be fully capable and simply decline a technology. Fold
+transit exists, and the Chthonari engineer who left Thrum on Eden was posted in,
+so **a people can reach space by being reached**. Spacefaring does not require
+having solved everything alone.
+
+**Design instruction that falls out of this:** give each species a *different
+bottleneck and a different way round it*. That produces five civilisations with
+distinct histories, rather than five body plans with the same story attached.
+
 ## Traps specific to this setting
 
 - **The planet of hats.** One environment, one temperament, one job, no internal
