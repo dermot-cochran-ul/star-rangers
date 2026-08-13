@@ -503,7 +503,7 @@ taste rather than need.
 Dermot's own photography. An Irish upland standing in for Ynys Wydrin claims
 nothing false and needs no prompt at all.
 
-### 1. Missing portraits (11 pages)
+### 1. Missing portraits (28 pages)
 
 None block a build — `character.njk` renders cleanly without an image. Prompts
 below are ready to paste; add `image`/`image_alt` after generating.
@@ -612,6 +612,98 @@ the entry, per the standing pipeline rule.
   collar tag); the ban is written into the prompt below. The rejected 28 July attempt is recorded in
   `image-prompts.md` § 3.
   > A black cat seated squarely on an untidy stack of printed paperwork on an office desk, wearing a small worn plain metal disc on his collar. Institutional station office behind him — filing, terminals, fluorescent light. He is looking directly at the viewer with complete composure, entirely unbothered, as though he has been interrupted rather than caught. Photographic, warm practical lighting, no whimsy and no costume beyond the badge. No text, no labels, no writing on any surface; binder spines and paperwork blank; the collar tag plain and unengraved; no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
+
+#### The seventeen replaced on 12 August 2026
+
+Portraits for pages whose previous image was removed — see Open work 0 for
+why each went. Drafted 12 August, revised 13 August against the aesthetic
+target, and reviewed with Dermot. The atmosphere is added around each page’s
+own `role` and `description`; no fact here is invented.
+
+- **`cormac-dubhghlas.jpg`** — holder of the world's most arable ground; the
+  Ridgemoot's most persistent voice for restoring the old seat rotation.
+  > Cinematic portrait of a weathered farmer in late middle age at the edge of a cultivated upland field on a cold world, upper body, hard-wearing coat over layered woollens, standing entirely still with the unhurried patience of someone who has waited on weather all his life, early light coming low under a broken cloud ceiling and catching the mist still lying in the furrows, the crop young and coming up behind him, the far end of the field lost in haze, science-fiction agrarian colony, muted green and grey with one warm band of low sun, quiet and unhurried rather than stern, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+
+- **`fergus-aonghas.jpg`** — holder of the eastern granite highlands and most of
+  the planet's mining claims; the Ridgemoot's sharpest critic of Rhiannon
+  Ceridwen, and her nearest neighbour.
+  > Cinematic portrait of a broad, solidly built miner in middle age against a face of exposed granite on a cold world, upper body, heavy quilted working jacket with stone dust in the seams, weight settled, wholly unhurried, late sun raking across the rock so the grain of it reads like weather, the cut of the workings going into darkness behind his shoulder and not explained, thin cold air, science-fiction mining colony, slate and iron with warm light on stone, formidable and not unkind, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+
+- **`idris-bryneth.jpg`** — holder of the sparsely populated northern high
+  country; the Ridgemoot's most consistent voice against any arrangement that
+  concentrates authority off Bryneth land.
+  > Cinematic portrait of a lean, wind-burned upland herder of about sixty on open high moor, upper body small against an enormous sky, oiled storm coat with the collar up, standing quite still and watching something well beyond the frame, weather arriving as a wall of light and rain far off across the moor with sun still on the near ground, science-fiction frontier highland, desaturated brown and pewter under a luminous sky, vast and calm rather than bleak, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+
+- **`niamh-o-ceallaigh.jpg`** — holder of the coastal fjord country and its
+  fishing fleets; the Ridgemoot's most consistent broker between Ceridwen's
+  faction and the clans demanding the old rotation back.
+  > Cinematic portrait of a practical woman in her fifties on a working fjord quayside at first light, upper body, waterproof deck coat, hair pulled back against the wind, head slightly inclined in the posture of someone genuinely listening, the water absolutely flat and holding the cliffs upside down, boats out at the mouth of the fjord already and very small, science-fiction coastal colony, blue-grey and salt-white with the first warmth on the far cliff, still and hopeful, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+
+- **`rhiannon-ceridwen.jpg`** — holder of the world's only major fold-relay
+  station; the most contested figure at the Ridgemoot since she began negotiating
+  directly with Star Rangers survey traffic.
+  > Cinematic portrait of a composed woman in her fifties beneath the mast structure of a relay station on a cold world, upper body, well-made practical coat, standing level and unhurried and quite alone, the mast rising out of frame above her and its guy lines going up into low cloud, one small steady light burning high on it, dusk with the last daylight behind the hills, science-fiction communications outpost, muted teal and grey with one warm point of light, solitary rather than isolated, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+
+- **`demelza-trevithick.jpg`** — fourth-generation chief engineer of Kernowek
+  Reach's Ridge Processor Cooperative, keeper of the band's atmospheric
+  machinery, first Reach officer to speak with the Survey Corps team.
+  > Cinematic portrait of a chief engineer in her forties inside a working atmospheric processing plant, upper body, practical coverall with the sleeves pushed back and hands marked by the work, one hand resting on a running machine as though listening to it through her palm, warm furnace light from below meeting cold blue daylight from a high vent far above, steam drifting through the beam, the plant continuing away into depth behind her, science-fiction industrial interior, amber and steel, proprietary and at home, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+
+- **`rhian-gwynne.jpg`** — senior fabrication engineer at the Ynys Wydrin dome
+  and life-support base, whose recycler and cold-world agricultural designs have
+  been exported to two later charter worlds — and who has never visited either.
+  > Cinematic portrait of a fabrication engineer in her thirties in a dome life-support workshop on a cold world, upper body, insulated work jacket, absorbed and only half turned toward us as though interrupted mid-thought, ranks of growing frames behind her running green and lit from within, and beyond the dome glazing a white permafrost plain going to nothing, condensation on the glass between the two, science-fiction engineering interior, pale green and glass-grey against cold white, warm life held inside a cold world, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+
+- **`imogen-petrakis.jpg`** — Eden's elected Mayor, the half of Wayland's
+  reporting line accountable to residents rather than the Compact.
+  > Cinematic portrait of an elected mayor in her fifties in a habitat public concourse, upper body, plain well-cut civilian jacket with no insignia, standing still amid movement with people passing softly blurred around her, the habitat's window band throwing a long slow bar of true sunlight across the floor as the ring turns, science-fiction orbital habitat interior, warm and inhabited, tired and glad of it, wayfinding shown only as Compact plainmarks - flat stencilled panels of stacked colour bands in black, slate-blue, bone-white and ochre carrying simple geometric figures, no readable text, numerals, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
+
+- **`zara-wayland.jpg`** — Eden's Space Commissioner, answering upward to the
+  Compact's Chief Commissioner and in parallel to Eden's Mayor.
+  > Cinematic portrait of a civil administrator in her forties at a habitat observation gallery, upper body, restrained administrative dress without rank marks, standing quietly with her hands at her sides, the great curve of the ring's inhabited interior rising away behind her and going soft with distance and haze, lit windows scattered across it, Earth or its star out of frame and throwing one clean edge of light along her, science-fiction orbital habitat, muted navy and bone with one bright rim, measured and faintly wistful, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+
+- **`rasa-oyelaran.jpg`** — Detective Superintendent, head of Eden's civil
+  detective bureau, the officer of record whose paperwork the real work hides
+  behind.
+  > Cinematic portrait of a detective superintendent in her fifties in a quiet bureau corridor long after hours, upper body, practical dark civilian suit worn well past the end of the working day, entirely unhurried, one office still lit far down the corridor behind her and nobody visible in it, low warm lamplight near and cool habitat night light beyond, science-fiction habitat interior, subdued brown and charcoal with two temperatures of light, dry, patient, still at it, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+
+- **`petra-voss.jpg`** — Governor presiding over the five self-governing orbital
+  habitats bound by the Orbital Habitats Compact, and the officer who
+  commissioned Orbital Five-O to close an investigative gap none of her habitats
+  could close alone. She is listed among the three original headshots that leaned
+  toward the glamour look the house style rules out, so the exclusions below are
+  explicit rather than implied.
+  > Cinematic portrait of a governor in her fifties at a high viewport, upper body, restrained formal civilian dress without insignia or rank marks, standing quite still with her weight settled, more than one distant orbital habitat visible far off beyond the glass as separate points of light on their own paths, Earthlight coming up cool and even across her from below, the room behind her dark, science-fiction orbital setting, deep blue and bone with one cold soft key light, presiding rather than commanding, no glamour styling, no jewellery, no styled hair, professional, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+
+- **`bertram-ashcombe.jpg`** — immaculately dressed, unfailingly cheerful, and
+  serenely confident that cases solve themselves once he has had a proper
+  breakfast.
+  > Cinematic portrait of an impeccably turned-out detective inspector in his fifties, upper body, three-piece suit in excellent order with a pocket square, entirely at ease and genuinely pleased with the morning, early sun coming through a tall station window in a single warm shaft with dust turning in it, the room beyond going quiet and dim, science-fiction detective setting with a period sensibility, warm brass and oxblood, cheerful without being comic, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+
+- **`reeves.jpg`** — investigative support intelligence: correct, courteous, and
+  constitutionally unable to volunteer a conclusion before being asked the right
+  question.
+  > Cinematic portrait of a humanoid artificial intelligence in a detective's office at night, upper body, a courteous attentive figure whose face is plainly manufactured rather than human - matte shell with visible seams and joins, calm even features, eyes that are clearly optical instruments and not human eyes - in restrained formal service attire in keeping with the station, hands still and folded, poised as though waiting to be asked rather than about to speak, a single warm desk lamp from one side leaving most of the room dark, one soft steady light somewhere within the shell itself, science-fiction detective interior with a period sensibility, brass and deep green, patient, unthreatening, and slightly unreadable, professional, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+
+- **`sen.jpg`** — Senior Archivist of the Survey Archive, quietly correcting the
+  institutional record for two decades. Sen is a plural mind — Cael, Wyn and Sen
+  — sharing one body and one desk.
+  > Cinematic portrait of a senior archivist in their forties among deep archive shelving, upper body, comfortable unremarkable working clothes, wholly absorbed and entirely still, one low warm lamp at the desk and the stacks receding into soft darkness behind for a very long way, dust suspended in the lamplight, a sense of enormous quiet and of work that will outlast the worker, science-fiction records interior, amber and paper-grey, serene and a little uncanny, a single ordinary composed person, no mirrors, no doubling, no split lighting, no translucent overlay, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+
+- **`eden-warden.jpg`** — Eden's resident AI collective: two Kernel-compliant
+  personas, Ward and Custos, sharing one system, with standing authority over the
+  habitat's mobile AI humanoids.
+  > Cinematic portrait of a habitat artificial intelligence presenting through one of its mobile humanoid bodies, upper body, a single calm figure whose face is plainly manufactured rather than human - matte shell with visible seams and joins, even unremarkable features, eyes that are clearly optical instruments - in plain unadorned habitat service livery with no rank marks, standing at rest in a habitat concourse during the sleep hours with the lights down and nobody about, one soft pool of light where it stands, the concourse curving away into dim distance, science-fiction orbital habitat, pale blue and bone, custodial and watchful over an empty place rather than watching anyone, one body only, no mirrors, no doubling, no split lighting, no surveillance or scanning graphics, professional, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+
+- **`brother-daire.jpg`** — thirteenth-century monastic scribe of Cill Aoife who
+  set down the only surviving account of Saint Aoife's vision at the thorn well.
+  **Historical, not science fiction** — the only prompt here with no SF setting.
+  > Cinematic portrait of a thirteenth-century Irish monastic scribe at his writing slope in a small stone scriptorium, upper body, undyed woollen habit, ink-stained fingers, absorbed and unsentimental, cold north daylight falling through one narrow window in a single hard shaft across the slope and leaving the rest of the cell in darkness, breath faintly visible in the cold, historical setting, limewash and umber, quiet and rigorous, no piety pose, no hands folded in prayer, no beatific expression, professional, no readable text, lettering, manuscript characters or written script of any kind legible anywhere in frame. Portrait orientation.
+
+- **`ilsabet-marrowtide.jpg`** — Abbess of the Tideward Sisterhood, keeper of the
+  Long Accounting, and the Kingdom of the Four Islands' de facto first point of
+  contact for the Survey Corps delegation.
+  > Cinematic portrait of an abbess in her sixties in a coastal stone abbey, upper body, heavy plain working habit of a contemplative order, belted, with a clear shoulder line and no draping or billowing fabric, upright bearing and entirely still, cold sea light flooding in through an open doorway behind her with the sea beyond it bright and out of focus, the stone interior dark and close around her, pre-industrial island setting, grey stone and dark wool against a luminous doorway, an administrator who happens to be in orders, no serenity of expression, no benevolence, no wisdom pose, no hands folded in blessing, professional, no readable text, signage, lettering or written characters anywhere in frame. Portrait orientation.
 
 ### 2. Lightroom / Photoshop — Dermot's hands only
 
