@@ -31,10 +31,29 @@ This is not suppression. It is structural.
 
 ## Social and Relational
 
+- Demisexual: attraction arises only through an established emotional bond, and never before one. This is the whole species and not a distribution within it — there is no Krenyi for whom it works the other way.
 - Polyamorous but loyal: they maintain multiple relationships, but each with genuine care and commitment.
 - Honest: they do not use social deception, and they are briefly vulnerable to human social deceptions they have not encountered before.
 - No flirtation or small talk: they move directly to material terms. This is not rudeness; it is efficiency.
 - Initially trusting: they extend good faith first. They detect pattern drift (when a social situation stops matching its stated terms) and withdraw relevance quietly rather than confronting.
+
+The demisexuality explains something the list above records as three separate traits. No flirtation, no small talk, and straight to material terms is not brusqueness with a social cost the Krenyi have decided to absorb — it is simply what a people look like when nothing whatever is being opened by the preliminaries. A Krenyi is not declining to flirt. There is no stage of a Krenyi relationship at which flirting would be doing anything.
+
+## Humans, and the Attachment That Does Not Form
+
+Krenyi do not form romantic attachments to humans, and will not consent to interbreed with them. Both facts belong to the material part a Krenyi answers without hesitation — stated once, plainly, and not elaborated, because *why not* asked of a Krenyi is very often the same question as *what are you, really*, and gets the same answer as every other version of it.
+
+The first fact is not a judgement on humans and is not offered as one. The bond a Krenyi requires before attraction is possible does not form across that particular distance, and the Krenyi report this the way a person reports any other fact about their own interior: as the case, without apology and without a theory. The record does not have a mechanism for it and does not pretend to.
+
+What the record does have is an observation about the direction the misunderstanding usually runs. Humans do form attachments to Krenyi — the [Physical and Social Characteristics](#physical-and-social-characteristics) list notes, flatly, that Krenyi are attractive by most humanoid standards, and the honesty and the calm are their own draw. A Krenyi meeting that is generally meeting the same thing they meet everywhere else: a person reading them as category rather than as company, wanting the Quiet-Built rather than wanting *them*. It is the [mythification](#resistance-to-mythification) problem in its most personal register, and it gets the standard answer — name the distortion, return the exchange to material terms, and stay. They are not usually unkind about it. They are almost never wrong about which it is.
+
+## What a Krenyi Body Does With Foreign Material
+
+The interbreeding refusal is a matter of consent, and it would also be moot without it. **Krenyi immunity destroys foreign genetic material outright** — not tolerating it poorly, not rejecting a graft over weeks, but identifying anything that did not originate in a Krenyi and taking it apart. Human DNA entering a Krenyi system does not persist long enough to do anything, which is why the Krenyi state *cannot interbreed with any other species* as a flat fact rather than as an untested assumption.
+
+The consequence that costs lives is the one running the other way, because the asymmetry is not obvious and the intuition is wrong. **Krenyi blood is hazardous to a human.** A transfusion delivers those antibodies into a body composed entirely of foreign genetic material, where they do precisely what they exist to do. The human survives. They are seriously unwell for several days at minimum, and the clinical file exists because somebody once reasoned — not unreasonably, from a species that is honest, physiologically robust and rarely sick — that Krenyi blood would be a safe substitute in a shortage.
+
+Krenyi themselves treat this as ordinary information and volunteer it early, which is consistent with everything else about them: it is material, it is useful, and withholding it would cost someone something.
 
 ## Resistance to Mythification
 
@@ -47,6 +66,19 @@ That resistance to glamour—in the cosmological sense, not the aesthetic one—
 The same structural bound that governs Krenyi fear and fury governs grief, and it is what makes them mostly immune to a [threne](/star-rangers/lore/meta-dimensional-beings/)'s feeding. A threne prospers on despair prevented from closing — the self-doubt that will not settle, the self-loathing kept warm, the useless regret that circles a loss without ever setting it down. The Krenyi do not withhold grief; they mourn, and their mourning is real, and it *resolves*. What they do not do is hold it open. The feeding condition a threne needs is grief that cannot finish, and in a Krenyi it finishes, so the condition never forms.
 
 The mechanism is the one that resists glamour generally. A threne's offer is [counterfeit](/star-rangers/glossary/unfounded/) — a sorrow that presents as deserved with no founded thing beneath it — and the Krenyi read the membership rather than the shape: the despair stops matching its stated terms, registers as pattern drift, and they withdraw relevance from it rather than argue it down. It is not absolute, and *mostly* is the honest word — a Krenyi worn thin, or grieving something the pattern can keep genuinely live, can be reached at the edges. But they make poor provisioning. Where a threne fattens on a settlement that cannot finish mourning, a Krenyi is ground the predator crosses and finds nothing laid in.
+
+## The Present Tense, and What the Past Is For
+
+The Krenyi are built to attend to what is here and what is coming. The past is not sacred to them and it is not suppressed; it is simply not where they look, unless looking there returns something usable. A Krenyi will go to the record without hesitation for a measurement, a precedent, a failure mode worth not repeating — and will decline the same record entirely when it is offered as explanation, commemoration, or grievance. The test is not *is it true* but *does it still do work*.
+
+This is one orientation, not several, and most of what the Quiet-Built are known for falls out of it:
+
+- **Grief that resolves.** Mourning is real and it finishes, because a sorrow held open past its usefulness is exactly the kind of backward attention they are not built to sustain. It is the same bound described under Resistance to Grief-Predation above, seen from its root rather than its effect.
+- **"Nai."** The state-marker means *still relevant here*. A courtesy in the present tense is what a present-tense people would have built.
+- **No interest in being placed.** A homeworld offered as an explanation is the past deployed as a definition, which is the one use of it they refuse outright.
+- **Centuries of patience.** A species that expects to spend a very long time becoming precise has no reason to be in a hurry and no reason to look behind.
+
+The failure mode this produces is worth naming, because the Krenyi would name it themselves: **they are poor keepers of anything whose value has not yet been demonstrated.** A fact that will matter in two hundred years and returns nothing today is a fact a Krenyi will let go, without malice and without noticing. Other peoples' archives exist partly to hold what nobody has yet found a use for. Krenyi practice has no equivalent instinct, and where it costs them, it costs them there.
 
 ## An Origin the Record Doesn't Hold
 

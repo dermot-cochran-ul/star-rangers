@@ -3,6 +3,8 @@ layout: lore-entry.njk
 title: "Drithane"
 category: "Locations"
 tags: [drithane, celtic-union, planets, locations, brid-system, drithle-season]
+image: "drithane.jpg"
+image_alt: "A snowbound valley settlement on Drithane at night under an enormous starfield and a low bright moon: stone farm buildings, glasshouses, fenced paddocks with stock, a track winding between them, and a few warm lit windows against the snow."
 description: "The fifth documented charter world of the Celtic Union — a cold, clear-skied world named for the silent sparks that cross its night sky when the planet passes through the Bríd System's debris band, twice in every orbit."
 plain: "Drithane is a planet in the Celtic Union. Twice in each orbit it passes through a band of dust and small stones, which burn up high in the sky as silent white sparks. The founders named the world for them — drithle is Irish for a spark or a glimmer. The sparks are harmless on the ground, and on crossing nights the settlements turn their own lights out to watch."
 galaxy: "Milky Way"

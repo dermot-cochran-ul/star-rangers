@@ -31,4 +31,4 @@ Kane's authority on a lawless world was never on his belt, and he has the retire
 
 He is patient in the way of a man whose institution defines success as its own departure. Rangers posted under him learn his one non-negotiable early: the record goes down complete, especially the parts that make the Corps look slow, because a Frontier Ranger's file is read most closely by a court that has not been founded yet.
 
-Distinct from [Galen](/star-rangers/characters/galen/), the Ranger Liaison Officer at the Tír na nÓg gateway — the two share a given name and nothing else on the record.
+Distinct from [Catherine Galen](/star-rangers/characters/galen/), the Ranger Liaison Officer at the Tír na nÓg gateway. The resemblance is narrower than it looks: *Galen* is his given name and her family one, so the two share four letters, a corps, and nothing else on the record.

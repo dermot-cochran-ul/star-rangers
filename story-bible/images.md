@@ -512,11 +512,11 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 - **`naomi-kestrel.jpg`** — junior field investigator, Eden Civil Investigations;
   reads telemetry, manifests and comm chatter "as one continuous sentence."
-  > Cinematic portrait of a young woman analyst in a dim habitat operations room, upper body, focused expression lit by the glow of data readouts, practical dark uniform, science-fiction space-station interior, muted teal-and-amber palette, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a young woman analyst with dark red hair cut short, clear green eyes and a freckled complexion, at her station in a large working analysis bay aboard a space habitat, upper body, focused and absorbed rather than worried. This is plainly a professional workplace and not a private room: a long fitted work surface of pale composite built into the structure of the bay, other analysts visible at their own stations further down it, a tall structural bulkhead and a wide viewport onto starfield behind them, the room deep and institutional in scale. No domestic furniture of any kind, no wooden table, no wooden chair, no kitchen, no bed, no soft furnishings, no curtains, no bedsit or study. The bay is lit by soft diffuse recessed lighting from a concealed source, warm and even, with no lamp, no light fitting, no shade and no bulb visible anywhere in frame. Flat on the work surface in front of her lies one slim matte grey reading slate, a single rigid slab the size and thickness of a small hardback book, lying face-up on the tabletop, entirely unlit and blank-faced, its surface catching the room light the way a page would. It has no hinge, no lid, no keyboard, no stand and no raised panel — it is not a laptop, not a clamshell and not propped up at any angle; it lies flat like a closed book set down. Nothing else on the table. Practical dark uniform bearing small geometric rank marks — plain metal bars and a single star at the collar, shapes only. No name tape, no name badge, no printed words, no letters and no numerals on her clothing of any kind. Calm, uncluttered interior of a well-kept space habitat, muted palette, professional, no glamour styling. Absolutely no screens, no monitors, no glowing displays, no holograms, no projected light, no consoles, no dials, no gauges, no analogue instrument panels, no filing binders and no loose paper anywhere in frame. Her face is lit by the room, never by anything she is reading. No readable text, numerals, signage or written characters of any script anywhere in frame. Portrait orientation.
 
 - **`rosalind-vey.jpg`** — tactical specialist, Eden Civil Investigations;
   ex-habitat tactical response, treats a scene as a room that might still be dangerous.
-  > Cinematic portrait of a composed woman in a practical tactical-response jumpsuit aboard a space habitat, upper body, alert and unbothered expression, subdued corridor lighting, science-fiction setting, desaturated palette, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a composed woman with fair blonde hair worn short and pushed back, in a practical tactical-response jumpsuit aboard a space habitat, upper body, alert and unbothered expression, subdued corridor lighting, science-fiction setting, desaturated palette, professional, no glamour styling. The jumpsuit carries small geometric rank marks only — plain bars and chevrons at the collar and shoulder, shapes and nothing else. No name tape, no name badge, no printed words, no letters and no numerals on her clothing of any kind. Lighting is soft, diffuse and recessed, with no lamp or light fitting visible. No screens, no glowing displays, no holograms and no projected light anywhere in frame. No readable text, numerals, signage or written characters of any script anywhere in frame. Portrait orientation.
 
 - **`tamsin-reyes.jpg`** — undercover specialist; "whoever a room needs her to
   be," craft not instinct. Deliberately forgettable.
@@ -524,7 +524,7 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 - **`lorien-the-wanderer.jpg`** — freelance survey-and-salvage captain of the
   *Restless Verge*; weathered but disciplined.
-  > Cinematic portrait of a weathered independent starship captain, woman, upper body, wearing a worn flight jacket in the cockpit of a stripped-down long-range courier ship, self-reliant expression, warm instrument lighting, science-fiction frontier setting, gritty realistic palette, professional, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a weathered independent starship captain, woman, upper body, wearing a worn unmarked flight jacket, standing in the compact cabin of a well-kept stripped-down long-range courier ship, self-reliant expression, lit by soft diffuse recessed light and starlight through a small viewport, with no lamp or light fitting visible in frame, science-fiction frontier setting, muted realistic palette, professional. The ship is spare rather than shabby: clean painted hull surfaces, everything stowed square and strapped down properly, tools racked, nothing loose, nothing broken — the ship of an owner-operator who flies alone and therefore maintains it meticulously, because there is nobody else aboard to fix anything. Absolutely no rust, no corrosion, no grime, no oil stains, no damage, no exposed wiring, no dripping, no clutter and no derelict or abandoned look anywhere. Her leather flight jacket is old and softened by use but clean and intact, and carries no marks at all — she holds no commission and answers to nobody, so no rank tabs, no insignia, no name tape, no badge, no printed words, no letters and no numerals on her clothing. No instrument panels, no consoles, no screens, no displays, no holograms, no dials, no gauges and no numerals anywhere in frame. No readable text, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
 
 - **`osric-fenholt.jpg`** — Historical (2558–2621); Imperium-era Belt
   compliance clerk, "The Honest Man of the Directorate." Period, not modern.
@@ -532,7 +532,17 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 - **`wendell-albercombe.jpg`** — Detective Inspector, Eden; carries the boring
   caseload, complains constantly, solves cases over dinner. Suits the noir register.
-  > Cinematic noir portrait of a rumpled, world-weary male detective inspector in a slightly worn coat aboard a space habitat, upper body, tired but sharp expression, low-key dramatic lighting, science-fiction detective setting, desaturated palette, professional, wayfinding shown only as Compact plainmarks — flat stencilled panels of stacked colour bands in black, slate-blue, bone-white and ochre, carrying simple geometric figures (chevrons, rings, short tally strokes, lozenge diamonds), painted on the fixed frame beside each hatch and at corridor junctions, no readable text, numerals, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
+  **Re-brief 13 August — two faults, and *noir* caused both.** The returns were
+  grimy cyberpunk: rain-slicked industrial corridors, a lit cigarette in each
+  variant, and heavy signage (*LEVEL 44*, *DOCKING BAY B*, *SECTOR-7 NO ENTRY*)
+  that the plainmarks clause never displaced, because "noir detective, space
+  station" summons a genre whose visual furniture *is* neon lettering. **Eden is
+  a functioning, well-kept civil habitat, not a dying megacity**, and the house
+  target — enigmatic and haunting, with beauty and hope in it — rules the look
+  out on its own. So the word *noir* is gone, the setting is named as clean and
+  cared-for, the cigarette is banned explicitly, and the plainmarks are stated
+  before any mention of a corridor rather than after it.
+  > Cinematic portrait of a rumpled, world-weary male detective inspector in a slightly worn but clean coat, upper body, standing in the quiet civil bureau of a well-maintained space habitat. Tired but sharp expression, a man near the end of a long shift who is still paying attention. Warm practical interior lighting from ordinary fixtures against a cooler corridor beyond, softly lit and orderly, no rain, no steam, no neon, no grime, no rust, no wet floors, no smoking and no cigarette. Muted natural palette, science-fiction habitat interior that is clearly looked after. Wayfinding appears only as flat stencilled plainmark panels — stacked bands of black, slate-blue, bone-white and ochre carrying simple geometric figures (chevrons, rings, short tally strokes, lozenge diamonds) — painted on the fixed frame beside a hatch. Absolutely no signs, no display boards, no illuminated panels, no numerals, no lettering or written characters of any script anywhere in frame. Portrait orientation.
 
 - **`asteria-the-sage.jpg`** — retired Star Captain, now leads a local
   Fellowship of Light chapter on a quiet planet. **She wears the robes of her
@@ -561,14 +571,35 @@ below are ready to paste; add `image`/`image_alt` after generating.
   feature is innocent and the *combination* is the fault. Ban the softness, not
   the garment.
 
-  So: robes, and a spine. Mid-sixties stated as a number, because **older
-  woman** still lands nearer eighty. **Serene** stays excluded — that word did
-  produce the first version, and nothing here needs it.
-  > Cinematic portrait of a woman of about sixty-five who reads unmistakably as a senior officer, upper body, standing outside a modest stone chapter house on a quiet rural world. She wears the plain working robes of a contemplative order over ordinary clothes - heavy, well-worn, functional cloth with a clear shoulder line, belted at the waist, not draping or billowing and not ceremonial. Upright military bearing, square shoulders, weight evenly set, hands still and unclasped at her sides. Short practical iron-grey hair, not long and not loose. Level and unsmiling, assessing whoever she is looking at, faintly impatient. Fit and solid rather than frail or willowy; her face shows sixty-five, not eighty - no deep age-lining, no stoop, no beatific warmth, no serenity, no benevolence, no wisdom pose, no hands folded in blessing, no staff. Soft overcast daylight, science-fiction pastoral setting, muted natural palette, a commander who happens to be wearing robes rather than a sage who happens to have been a commander, no uniform, no insignia, no rank marks, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  So: robes, and a spine. An age stated as a number, because **older woman**
+  drifts on its own. **Serene** stays excluded — that word did produce the
+  first version, and nothing here needs it.
+
+  **Third correction, 13 August, and this one came from outside the brief.**
+  The 13 August lifespan and retirement canon put Asteria's departure from the
+  service at **about a hundred**, and she has been retired long enough for
+  Galahad to have met her afterward. She is therefore around **105** in the
+  present, and the brief's "about sixty-five" was forty years wrong through no
+  fault of its own — the canon moved under it. *(She also gained a surname the
+  same day: **Asteria Wessex**. The chapter's "the Sage" is an honorific, not a
+  name.)*
+
+  The re-run is consequently a harder brief than the last one, and the reason
+  is the setting's own rule: humans here stay **capable into the eleventh
+  decade**, so a hundred-and-five-year-old is neither frail nor a marvel. She is
+  simply old and entirely functional, which is a face contemporary reference
+  photography barely contains. State the number, state the fitness, and ban the
+  frailty vocabulary the way *serene* is banned — no stoop, no cane, no tremor,
+  no papery softness, and no wondering-at-her-own-age expression either.
+
+  **Also fixed:** the last two returns had no robes at all, which lost the
+  chapter house entirely and left her reading as a countrywoman outside a barn.
+  The robes are named first this time.
+  > Cinematic portrait of a woman of one hundred and five who reads unmistakably as a senior officer, upper body, standing outside a modest stone chapter house on a quiet rural world. She wears the plain working robes of a contemplative order over ordinary clothes - heavy, well-worn, functional cloth with a clear shoulder line, belted at the waist, not draping or billowing and not ceremonial; the robes are the first thing to get right and must be present. Genuinely old and entirely capable at the same time: deeply lined weathered face, thin white hair cut short and practical, hands and neck showing real age - and upright military bearing, square shoulders, weight evenly set, chin level, hands still and unclasped at her sides. Physically strong and undiminished, a person who still does the work. Level and unsmiling, assessing whoever she is looking at, faintly impatient. No stoop, no cane, no walking stick, no staff, no trembling, no frailty, no papery delicacy, no shrunken frame, no beatific warmth, no serenity, no benevolence, no wisdom pose, no hands folded in blessing. Soft overcast daylight, science-fiction pastoral setting, muted natural palette, a commander who happens to be wearing robes rather than a sage who happens to have been a commander, no uniform, no insignia, no rank marks, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 - **`galen.jpg`** — Star Rangers liaison officer at a Celtic Union shuttle gate;
   minor character, correct and quietly decent.
-  > Cinematic portrait of a mid-career Star Rangers liaison officer in a plain service uniform standing at a planetary shuttle gate, upper body, courteous professional expression, overcast daylight through a terminal window, science-fiction setting, muted palette, no insignia lettering, wayfinding shown only as Compact plainmarks — flat stencilled panels of stacked colour bands in black, slate-blue, bone-white and ochre, carrying simple geometric figures (chevrons, rings, short tally strokes, lozenge diamonds), painted on the fixed frame beside each hatch and at corridor junctions, no readable text, numerals, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a mid-career woman Star Rangers liaison officer in a plain service uniform, upper body, standing in a quiet arrivals hall beside a tall window, courteous professional expression, soft overcast daylight, science-fiction setting, muted palette. Her uniform carries small geometric rank marks only — plain bars and a ring at the collar, shapes and nothing else. No name tape, no name badge, no printed words, no letters and no numerals on her clothing of any kind. The only wayfinding visible is a Compact plainmark: one flat stencilled panel of stacked colour bands in black, slate-blue, bone-white and ochre carrying a simple geometric figure (a chevron, ring, tally stroke or lozenge diamond), painted on the wall beside her. Absolutely no gates, no departure boards, no destination signs, no illuminated panels, no screens, no holograms and no numerals, and no readable text, signage or written characters of any script anywhere in frame. Portrait orientation.
 
 **Alien**
 
@@ -586,16 +617,56 @@ below are ready to paste; add `image`/`image_alt` after generating.
   asked for instead. Per the sheen rule, the eye membrane is now described by
   what it *does* rather than named: "nictitating light-scattering membrane" is
   jargon a model cannot draw.
-  > Cinematic photographic portrait of a lean non-human humanoid scout, upper body, unmistakably not human but not monstrous: tall narrow skull, high flat cheekbones, no visible hair, dry matte skin with a fine pebbled texture. His eyes are wide and pale, and across each one lies a thin transparent second lid that catches the light with a faint prismatic sheen, like a film of oil on water. He wears a light open-weave respirator across the lower face - worn loosely, plainly for comfort rather than survival - and a practical layered scout's overtunic in undyed desert cloth. He is holding a small handheld survey instrument and looking off past the camera at something far away, calm, measuring, patient. Absolutely no weapons of any kind, no rifle, no sidearm, no armour, no helmet. Cold clear high-altitude daylight, thin dry air, muted sand and bone palette, realistic and grounded rather than stylised, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  > Cinematic photographic portrait of a lean non-human humanoid scout, upper body, unmistakably not human but not monstrous, and specifically NOT the bald big-eyed grey alien of stock science fiction: he has a **broad, heavy, human-proportioned skull** with a wide flat brow and a strong square jaw, deep-set eyes of ordinary size beneath a pronounced bony brow ridge, a broad nose, and thick coarse pale hair worn cropped short with a heavy stubbled beard. Absolutely no enlarged cranium, no domed bald head, no hairlessness, no oversized or almond eyes, no tapering pointed chin, no spindly neck, no grey skin. His build is compact, dense and weathered rather than slender. His skin is deeply pigmented, dark reddish-brown and thickened against high ultraviolet. Three features mark him plainly as another species and must all be clearly visible: **a pale opaque inner eyelid drawn halfway across each eye**, sitting horizontally like a shutter over the iris and catching the light with a faint prismatic sheen; **fine hard dermal plating** across the brow ridge, temples and cheekbones, like close-set overlapping scales or weathered bark growing out of the skin itself; and **no external ears at all**, only a small recessed opening where a human ear would be. Nothing else about him is inhuman — that is the point. He should read at a glance as a man, and at a second glance as unmistakably not one. He wears a light open-weave respirator across the lower face - worn loosely, plainly for comfort rather than survival - and a practical layered scout's overtunic in undyed desert cloth. He is holding a small handheld survey instrument and looking off past the camera at something far away, calm, measuring, patient. Absolutely no weapons of any kind, no rifle, no sidearm, no armour, no helmet. Cold clear high-altitude daylight, thin dry air, muted sand and bone palette, realistic and grounded rather than stylised, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 **AIs & non-corporeal — abstract emblem, no face**
 
 - **`jeeves.jpg`** — domestic-companion AI, Eden; kitchen-and-gossip competence.
-  > Abstract emblematic image representing a domestic household artificial intelligence: a warm stylized interface glyph over a tidy kitchen/hearth motif, soft ambient glow, minimalist science-fiction UI aesthetic, no human face, muted warm palette, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  > Abstract emblematic image representing a domestic household artificial intelligence: a warm pool of low amber light resting on the scrubbed wooden surface of a quiet kitchen table at night, a folded cloth and a single clean cup set neatly beside it, everything tidied and ready for a morning that has not arrived yet. Soft ambient glow with no visible source, deep warm browns and honey tones against a dark room, domestic and calm and companionable. No human face, no figure, no hands, no machine, no robot, no screens, no displays, no consoles, no interface, no glyphs, no icons, no symbols, no numerals and no lettering of any script anywhere in frame. Portrait orientation.
+
+- **`reeves.jpg`** — investigative-support AI, Threshold Station; **the other
+  half of a deliberate pair.** Written 13 August on Dermot's note that the two
+  or more instances of Reeves might look very similar to each other. They are
+  the same model on separate deployments and their pages say so, so the images
+  copy each other closely on purpose — same emblem, same palette, same
+  restraint — and differ only the way a second installation of one thing
+  differs. Here the partial figure is further along: more points joined, still
+  not finished. Same intelligence, longer posting. Nothing else changes.
+  > Abstract emblematic image representing an investigative intelligence: a slow constellation of small cool-blue points of light suspended in dark space, joined by faint thin lines into a partial figure that is most of the way complete but still open at one edge, a few points left unconnected. Deep indigo and near-black background, soft volumetric glow, quiet and patient rather than busy or urgent, a sense of a pattern nearly found and not yet claimed. No screens, no consoles, no terminals, no user interface, no panels, no dials, no charts, no diagrams, no icons, no symbols, no glyphs, no numerals, no lettering of any script, no human face, no figure, no machinery of any kind. Pure light and geometry only. Portrait orientation.
 
 - **`reeves-eden.jpg`** — investigative-support AI, Eden bureau; same model as
   Threshold's Reeves, distinct enough to read as a separate deployment.
-  > Abstract emblematic image of an investigative-support artificial intelligence: a holographic evidence-analysis interface and case-file glyphs projected above a terminal, cool blue science-fiction UI aesthetic, no human face, clean and analytical, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  **Re-brief 13 August — the old prompt was self-defeating.** It asked for "a
+  holographic evidence-analysis interface and case-file glyphs" and then banned
+  writing, which is a request for the one object in the setting whose entire
+  purpose is to carry text. The return was exactly that: *CASE FILE: ALPHA-7*,
+  *EVIDENCE CHAIN*, *PATTERN MATCH*, a real-world date, and garbled
+  pseudo-words. **The ban was never going to win against the scene.** The fix is
+  to describe an image with nothing in it that could bear lettering — light,
+  geometry and depth rather than a console. This also suits the character
+  better: Reeves is an intelligence that will not volunteer a conclusion, which
+  is restraint, not a dashboard.
+  > Abstract emblematic image representing an investigative intelligence: a slow constellation of small cool-blue points of light suspended in dark space, a few of them joined by faint thin lines into a partial, unfinished figure, the rest still unconnected. Deep indigo and near-black background, soft volumetric glow, quiet and patient rather than busy or urgent, a sense of a pattern half-found and not yet claimed. No screens, no consoles, no terminals, no user interface, no panels, no dials, no charts, no diagrams, no icons, no symbols, no glyphs, no numerals, no lettering of any script, no human face, no figure, no machinery of any kind. Pure light and geometry only. Portrait orientation.
+
+- **`rasa-oyelaran.jpg`** — Superintendent, Eden's civil detective bureau.
+  **Re-run 13 August, and the reason is written into the prompt.** The first
+  generation returned a white woman in *both* variants, because the brief
+  described her bearing, her role and her setting and never carried the
+  heritage her own surname states. Oyelaran is a Yoruba name; the prompt now
+  says so, and no future edit should quietly drop it. Note what the picture has
+  to hold besides that: she runs an ordinary police bureau in a place that
+  keeps handing her things no ordinary bureau was designed for, and her
+  competence is patience rather than intensity. Not a hard-bitten chief.
+  **Variant 2 chosen, 13 August, and the reason generalises:** the re-run
+  returned one portrait in a navy blazer and one in a plain work jacket, both
+  correct on heritage and both well made. Dermot took the second — *"she looks
+  more like a detective."* The blazer read as someone who now manages people
+  who work cases; the jacket reads as someone who still works them. **Dress the
+  portrait for the job the page describes, not for the seniority the title
+  implies.** Her page opens by calling her bureau the closest thing Eden has to
+  an ordinary police detective bureau, so detective-first was the right read and
+  the brief should have said so.
+  > Cinematic portrait of a Black woman of Yoruba heritage in her fifties, a senior civil police superintendent aboard a large space habitat, upper body, standing in the doorway of a working detective bureau. Dark brown skin, close-set greying natural hair worn short and practical, plain dark civil-service jacket over a soft collar, no uniform and no rank marks. Level, patient, unhurried expression — a woman who has stopped being surprised by her own caseload and has not stopped caring about it. Warm practical office light behind her against a cooler corridor, science-fiction habitat interior, muted palette, professional, no glamour styling, not severe and not hard-bitten, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 - **`turquoise-dove.jpg`** — a Higher Levril known only by the turquoise
   iridescence of her dimensional signature. A field signature, not a dragon.
@@ -755,6 +826,203 @@ prompt is in Open work 5, dormant until the old file is deleted.
 **Verify then leave alone** — `lore/trigrian.jpg`: blown highlights on the three
 suns, almost certainly intentional for a trinary-star world. Noted so a future
 audit doesn't "fix" it.
+
+**The lettering ban cannot beat the scene** (added 2026-08-13, after
+`reeves-eden`, `wendell-albercombe` and `galen` all came back covered in text
+*with the ban present in every prompt*). Every house prompt already ends with
+"no readable text, signage, insignia lettering or written characters anywhere in
+frame", and it is not a spell. If the brief describes **an object whose purpose
+is to carry writing** — a case-file interface, a departures board, a spaceport
+gate, station wayfinding, a dashboard — the model will draw the object, and the
+object will have writing on it. Strengthening the ban does nothing; the scene
+has to change. Two tests before generating:
+
+- **Name every surface in the brief and ask what it is for.** If any of them
+  exists to be read, replace it. `reeves-eden` went from "holographic
+  evidence-analysis interface" to points of light and connecting lines, which
+  says the same thing about the character and offers nothing to letter.
+- **Watch for genre words that import furniture.** *Noir* brought neon signage
+  into `wendell-albercombe` twice, along with rain, grime and a cigarette,
+  none of them requested and all of them standard issue for the genre named.
+  *Gritty* did the same to `lorien-the-wanderer`, returning a rusted, stained,
+  half-derelict hull for a captain whose own page says she has never lost a
+  ship. A genre word is a whole set of defaults arriving at once.
+- **`sethka-ru` is blocked, and it is a worldbuilding gap rather than a prompt
+  problem** (13 August). Four rounds failed in three different ways — armed
+  with a rifle, concept-art alien, grey-alien recipe, then an ordinary
+  weathered man — and the fifth was pulled after Dermot supplied the fact that
+  makes all of them wrong: **the Serephine Dunekin are not humanoid at all.**
+  Every prompt in that history opens "non-human *humanoid* scout", so the whole
+  line was building the one thing the species is not. The entry is back to a
+  placeholder card and should stay there.
+
+  What is written about the Serephine is only: light-scattering eye membranes,
+  a water-conservative metabolism, respiratory efficiency, a homeworld of thin
+  air and lethal thermal swing — plus three passing mentions elsewhere, and
+  **no lore page at all**, unlike the Krenyi, Cerebraun, Verdani or Mnemari.
+  There is nothing to draw a body plan from, and inventing one in a JPG would
+  make the picture the most specific statement about the species in the repo,
+  which is backwards. **This needs a sentence of prose from Dermot before any
+  further generation.** The rule it illustrates is the file's oldest one: the
+  brief has to come from the record, and where the record is silent the answer
+  is authoring, not another attempt.
+- **"Non-human" without further instruction means the grey alien, every time.**
+  Dermot on the third `sethka-ru` round: *"he looks too much like a sci-fi trope
+  of an alien."* He was right, and the brief was the cause — *tall narrow
+  skull, no visible hair, wide pale eyes* is not a description of an alien, it
+  is the grey's exact specification, written out. The trope is a **fixed recipe**:
+  enlarged domed cranium, hairlessness, oversized almond eyes, tapering chin,
+  spindly neck and limbs, smooth grey skin. Ban that list by name, then
+  differentiate on axes the recipe never touches — **build, skin, hair,
+  proportion** — and let one or two derived features carry the species. The
+  Krenyi card already fought this battle and its alt text still says *"not a
+  grey alien"*; the lesson generalises to every non-human portrait in the file.
+- **The generator converges on one face, so vary the cast on purpose.** Three
+  portraits filed in the same batch on 13 August — `naomi-kestrel`,
+  `galen`, `rosalind-vey` — came back as dark-haired white women of similar
+  age, build and features. Dermot: *"they are not related; they do not need the
+  same hair colour and features."* Nothing in any of the three briefs asked for
+  that; it is simply where an unconstrained "cinematic portrait of a woman"
+  lands, every time, and the effect compounds across a cast until half the
+  Corps looks like one family. **Give every human portrait at least one stated
+  distinguishing feature** — hair colour and cut, build, age band, colouring —
+  and check a new brief against the ones already filed rather than against the
+  page alone. Heritage is a separate question and belongs to Dermot (see the
+  `rasa-oyelaran` rule below); this is about not producing siblings by default.
+- **And the converse, which matters just as much: resemblance has to be earned
+  where it is real.** Dermot, same exchange: *"obviously characters who are
+  meant to be related should look similar in some way,"* and *"the two or more
+  instances of Reeves might look very similar to each other."* Two cases, one
+  principle — sameness is meaningful only when it is true, so it must be
+  deliberate in both directions.
+  - **Kinship.** The clusters currently in the cast are the **Shepherds**
+    (Tissadelle, Órla, Sorcha), the **Wenders** (Karla, and Anne when she is
+    drafted) and the **Vosses** (Petra, Dagny) — check the relationship on the
+    pages before assuming it, then carry one or two shared features across the
+    set rather than a matching face. A family resemblance is a recurrence, not
+    a duplicate.
+  - **Manufacture.** [Reeves](/star-rangers/characters/reeves/) at Threshold
+    and [Reeves](/star-rangers/characters/reeves-eden/) at Eden are the same
+    model on separate deployments, and their pages say so. Their images should
+    be **near-identical by design**, differing only in the small way a second
+    installation of one thing differs — a shifted accent, a different count,
+    the same emblem seen from another angle. This is the one place in the file
+    where copying a previous image closely is the correct answer.
+- **Spare is not shabby, and minimal is not neglected.** The distinction is
+  worth stating because briefs reach for *stripped-down*, *worn*, *practical*
+  and *utilitarian* constantly, and every one of them can slide into decay.
+  A vessel or a post in this record is kept: clean surfaces, everything stowed
+  square, tools racked, nothing broken. **The people who work alone keep the
+  best kit**, because there is nobody else aboard to fix anything — which is
+  the opposite of what the frontier-salvage look assumes. Ban the decay
+  vocabulary by name (rust, corrosion, grime, oil stains, exposed wiring,
+  clutter, derelict) rather than trusting *well-maintained* to carry it.
+- **A uniform is a text-bearing object.** Discovered the hard way on
+  `naomi-kestrel`, whose portrait came back wearing a badge reading **ANALYST
+  A. SHARMA** — a different person's name, legible, plausible, and one
+  filing away from a page captioned as somebody else. Uniforms attract name
+  tapes, unit patches, rank tabs and badges the way corridors attract signage,
+  and the general ban never reaches them because they are clothing rather than
+  scenery. **Every character prompt that dresses someone in a uniform must ban
+  worn lettering by name.**
+
+  **Ban the words, not the marks** (Dermot, 13 August: *"ok to have stripes,
+  bars, stars and other shapes on human uniforms even if no lettering"*). My
+  first correction over-banned — it stripped rank tabs and patches outright,
+  which contradicts `rank-insignia-and-uniform.md`, where insignia is
+  load-bearing. Rank and certification marks are **shapes**: bars, stripes,
+  chevrons, stars, rings, discs and bands, read by count and arrangement. A
+  geometry has no first language, which is exactly why a service carrying
+  Krenyi, Pelagene, Veyr and Serephine officers uses one. So ask for geometric
+  insignia and ban only text — no name tape, no name badge, no printed word,
+  no letters or numerals of any script. `wendell-albercombe` shows Compact
+  plainmarks rendering correctly, badge included.
+
+  **And the lighting is not exempt from the century either** (Dermot, same
+  exchange: *"the desk lamp is still too retro and bulky — either just remove
+  that lamp or have a softer more diffuse recessed light source"*). Replacing
+  screens with an anglepoise swapped one period object for another; a sprung,
+  jointed, domed lamp with a visible bulb is a 20th-century design and reads as
+  one. **Light is recessed and diffuse**: concealed source, soft spread or a
+  gentle pool on the working surface, no visible fitting and no bulb in frame.
+  Most rooms simply have light in them.
+- **Never light a scene with a display.** "Lit by the glow of data readouts"
+  guarantees readouts, and readouts carry readings. Use practical light — a
+  work lamp, a window, an overhead fixture. Applied to `naomi-kestrel`,
+  `lorien-the-wanderer` and `jeeves` on 13 August.
+- **But a negative rule alone sends the picture backwards.** Told only what a
+  2826 workspace is *not*, the generator reaches for the last thing it knows,
+  and the first screen-free `naomi-kestrel` re-run came back with walls of
+  analogue dials and a paper ledger — a room that read as about 1975. The lore
+  may decline to specify; **an image cannot.** Anything banned has to be
+  replaced by something nameable.
+
+**What a display actually looks like** (Dermot, 13 August: *"I don't believe in
+holograms — the displays would be more like a Kindle, less glowing lights and
+more like a static object, or even a book that is not a book"*). This is now
+canon on `src/lore/what-the-record-refuses.md`, and it is the positive answer
+every prompt in this file should reach for:
+
+- **Matte, still and unlit.** A thin rigid sheet, or a bound stack of them,
+  read by whatever light is already in the room. No glow, no bezel, no frame,
+  no backlight, no visible screen edge, no colour it did not need.
+- **Book-shaped, often literally bound.** Slim, hand-held, the size and weight
+  of a small hardback. "A book that is not a book" is the in-world phrase and
+  it is exact both ways.
+- **No holograms at all** — no projected figures, no volumetric charts turning
+  above a table, no floating schematics. The technology does not perform.
+- **Nobody's face is ever lit by what they are reading.** No under-lit blue
+  wash, ever. Light comes from a lamp, a window or the sun, always.
+- **The house image of expertise** is therefore a person at an ordinary table
+  under an ordinary lamp with one still object in front of her — which looks,
+  deliberately, almost exactly like a scholar in any earlier century. That
+  resemblance is the point, not a failure of imagination, and it is what makes
+  the near-miss retro rooms above so nearly right: they had the calm and the
+  lamp and got the object wrong.
+
+**And this is why so many of these images should look old** (Dermot, same
+exchange: *"which is why some planets and settlements look medieval and rural
+despite very advanced technology"*). It is the single most useful thing to hold
+on to when briefing a scene, so it is worth stating as a rule rather than
+leaving it to be re-derived every time:
+
+- **Technology that does not announce itself does not reshape a place.** No
+  glowing rectangles, no projected light, no machines that need to be seen
+  working — so nothing is competing for attention, and a settlement ends up
+  shaped by weather, land, local materials and what people actually like
+  living in. Which is roughly what they always liked.
+- **A stone chapter house, a hive-yard, a thatched roof and a farm track are
+  all period-correct for 2826.** Do not "modernise" a rural brief to prove the
+  century. The correct reading of thatch here is not *pre-industrial*; it is
+  that thatch works, the material is local, and nothing in eleven hundred years
+  made it stop working. `the-fusion-ceiling` is the worked example already in
+  hand — timber barns, a gravel yard, hand tools on a rack, and one grey
+  fusion unit on a concrete pad, and it passed cleanly on the first run.
+- **Industrial looks are earned by function, never by era.** A dock, a boundary
+  post or a working station may look like machinery because it *is* machinery.
+  A farm may not.
+- **Consequence for the retro problem above:** the fix is never to add
+  futuristic set-dressing. It is to correct the one object the character is
+  using and leave the world alone.
+
+**A prompt that does not state heritage will have one chosen for it** (added
+2026-08-13, after the `rasa-oyelaran` re-run). An image model fills every gap
+in a brief with its own default, and the default is not neutral. Two rules
+follow, and both are cheap:
+
+- **If a character's name states a heritage, the prompt must state it too.**
+  *Oyelaran* is Yoruba and the brief did not say so, so both variants came back
+  white. That is not the generator misbehaving; it is a brief that left the
+  question open and got an answer anyway.
+- **Where the record genuinely does not say, that is Dermot's call and not a
+  variant-picking exercise.** `petra-voss` returned one Black woman and one
+  white woman, both good. Choosing between them would have decided a
+  character's heritage by selecting a picture, which is authoring — the same
+  line Section 1's Asteria history already draws. He chose the first, on
+  2026-08-13, **for cast balance**: the reason he gave was that it supplies
+  something the cast so far was missing. Worth carrying forward as a criterion
+  rather than a one-off — when the record is silent and the variants differ,
+  ask what the ensemble is short of, and put the question to him.
 
 **Your camera, not a generator** — `lore/saltvik.jpg` is still a plain text
 card while its sibling Saltmere entries have two photographs each; the Knarr

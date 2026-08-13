@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "Episode 0"
-description: "A prequel to Season 1 — how a household cat became the Marsh Causeway's first watcher, years before Elvira ever arrived."
+description: "Prequels to Season 1 — how a household cat became the Marsh Causeway's first watcher, and how three machines reached a wrecked ship a generation earlier."
 permalink: /seasons/s01/e00/
 ---
 <nav class="chapter-breadcrumb" aria-label="Episode location">
@@ -15,7 +15,7 @@ permalink: /seasons/s01/e00/
 <img class="page-hero-image" src="/star-rangers/images/hero/s01e00-cat.jpg" alt="A black cat" />
 <h1 class="page-title">Season 1 · Episode 0</h1>
 <p class="page-intro">
-  A prequel, set roughly four years before Episode 1. Before Elvira ever took up the Marsh Causeway outpost, her household cat chose exile over a garden gate — and found, on a bare tidal rock, the first confirmation that her sensitivity to the boundary was real.
+  What came before Episode 1, at two different distances. Four years back: before Elvira ever took up the Marsh Causeway outpost, her household cat chose exile over a garden gate — and found, on a bare tidal rock, the first confirmation that her sensitivity to the boundary was real. Thirty-eight years back: a long-voyage ship stops answering, three machines are sent to it, and what they carry out are children.
 </p>
 
 {% set seasonNumber = "1" %}

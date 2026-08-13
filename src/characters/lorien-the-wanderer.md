@@ -1,17 +1,23 @@
 ---
 layout: character.njk
-title: "Lorien the Wanderer"
+title: "Lorien of Drithane"
 id: lorien
 species: Human
 role: Freelance Captain, Independent Survey and Salvage
 status: Active
 aliases:
+  - "Lorien \"the Wanderer\" of Drithane"
+  - "Lorien the Wanderer"
   - "The Wanderer"
 tags: [freelance, explorer, independent, captain, frontier, fold-corridors]
+image: "lorien-the-wanderer.jpg"
+image_alt: "Lorien of Drithane in a worn but intact unmarked leather flight jacket, standing in the compact cabin of her courier ship. Tools hang racked on a board behind her, cases sit stowed and strapped on shelves, cables are coiled and clipped to the bulkhead, and a small viewport shows stars. Everything is spare and meticulously kept."
 description: "An unaffiliated freelance captain who charts unclaimed fold corridors and sells the survey data to whoever pays first — Survey Corps included, when the price and the politics both work out."
 ---
 
-Lorien holds no commission from the Star Rangers, no charter from the Survey Corps, and no seat on any Compact or Union register. She flies the *Restless Verge*, a stripped-down long-range courier hull refitted for solo operation, and she answers to whichever contract she signed last.
+**Lorien "the Wanderer" of Drithane** holds no commission from the Star Rangers, no charter from the Survey Corps, and no seat on any Compact or Union register. The name is the only fixed address she keeps: a world she is *of* rather than on, and a byname earned by not staying anywhere, carried by a woman who has made a profession of the second and has never once been asked to explain the first. She flies the *Restless Verge*, a stripped-down long-range courier hull refitted for solo operation, and she answers to whichever contract she signed last.
+
+The *Restless Verge*'s tool rack is the thing visitors remark on, when there are visitors. It is hand tools: spanners, drivers, pliers, a rasp, all of them unpowered, none of them clever, every one of them racked in its own place. She has been asked about it often enough to have a flat answer ready. A tool that needs nothing cannot fail you, and three weeks out from anywhere is a poor place to discover what a thing needed. She is aware this reads as sentiment. She has never bothered to argue, partly because it is also sentiment — she likes them — and mostly because the argument has never once mattered as much as the rack.
 
 That is not the same as answering to nobody. A freelance captain who wants to keep flying learns fast which corners of the frontier tolerate an uncleared vessel poking at a fold corridor and which ones will impound the ship first and ask about paperwork after. Lorien has never lost a hull to that mistake. She has come close twice, by her own count, and closer than that by everyone else's.
 
