@@ -112,7 +112,7 @@ npm run test
 
 ## cPanel deployment config for local clones
 
-The cPanel deployment recipe (`.cpanel.yml`, via `scripts/cpanel-deploy.sh`) can read optional per-clone settings from an untracked `deploy.conf` file in the repo root. The script's site-agnostic machinery (log capture, the deploy-log notification emails, `deploy-logs/` persistence) lives in `scripts/deploy-lib.sh`, which is kept byte-identical with the same file in the `dermot-cochran-photography` repository (like `scripts/ensure-node.sh`) — change it in one repo, copy it verbatim to the other. This repo deploys to several production domains from separate cPanel Git Version Control clones (one clone per domain, all pulling the same branch) — `deploy.conf` is how one clone tells the shared build/deploy script which domain, theme, and content scope it's responsible for.
+The cPanel deployment recipe (`.cpanel.yml`, via `scripts/cpanel-deploy.sh`) can read optional per-clone settings from an untracked `deploy.conf` file in the repo root. The script's site-agnostic machinery (log capture, the deploy-log notification emails, `deploy-logs/` persistence) lives in `scripts/deploy-lib.sh`, which is kept byte-identical with the same file in the `dermot-cochran-photography` repository (like `scripts/mail-lib.sh` and `scripts/ensure-node.sh`) — change it in one repo, copy it verbatim to the other. The mail transport itself sits one level down in `scripts/mail-lib.sh`, so `cpanel-autopull.sh` can reach `ADMIN_EMAIL` for its own failures — the ones that happen before `deploy-lib.sh` is ever sourced — without a second copy of the same `mail(1)`/`sendmail` fallback. This repo deploys to several production domains from separate cPanel Git Version Control clones (one clone per domain, all pulling the same branch) — `deploy.conf` is how one clone tells the shared build/deploy script which domain, theme, and content scope it's responsible for.
 
 These production domains are hosted on [iFastNet](https://ifastnet.com/portal/aff.php?aff=29941) cPanel hosting — if you're setting up your own fork's cPanel deploy and don't already have a host, that's a referral link for this project.
 
@@ -225,7 +225,7 @@ If this account's `public_html` shouldn't get a copy of the site at all — only
 
 **Merging to the deploy branch does not update any production domain by itself.** Nothing connects the two: cPanel does not poll GitHub, and GitHub cannot push into cPanel. A merge updates each clone's *remote* and none of their *checkouts* until something on the server pulls. Until that happens the merge is real, CI is green, and every live domain is still serving the previous build.
 
-[`scripts/cpanel-autopull.sh`](./scripts/cpanel-autopull.sh) is that something. It fast-forwards the checkout and, only when that moves the commit this clone has *successfully deployed*, hands off to `scripts/cpanel-deploy.sh`. Like `deploy-lib.sh` and `ensure-node.sh` it is kept **byte-identical** with the copy in the `dermot-cochran-photography` repository — change it in one repo and copy it verbatim to the other.
+[`scripts/cpanel-autopull.sh`](./scripts/cpanel-autopull.sh) is that something. It fast-forwards the checkout and, only when that moves the commit this clone has *successfully deployed*, hands off to `scripts/cpanel-deploy.sh`. Like `deploy-lib.sh`, `mail-lib.sh` and `ensure-node.sh` it is kept **byte-identical** with the copy in the `dermot-cochran-photography` repository — change it in one repo and copy it verbatim to the other. (It was *not* identical until 13 August 2026: one copy's install comment said "README" and the other's said "TECHNICAL-README.md", which is precisely how two files that must match come apart. Nothing in it may name one repo's own filenames.)
 
 > **Forking wouldn't have solved this.** A GitHub fork does not auto-sync from upstream either — "Sync fork" is a manual button, or a scripted `gh repo sync` — and a cPanel clone pulls from whatever URL it was given without subscribing to anything at either end. Setting the cPanel repositories up as forks would have added a hop, each hop needing its own trigger, rather than removing one.
 
@@ -270,10 +270,25 @@ Ten minutes is a starting point, not a requirement. The script exits in well und
 
 #### What it does and doesn't do
 
-- **Silent when idle.** Cron mails any output a job produces, and a job this frequent must not mail on every run — so it prints nothing unless it deploys or fails. Add `--verbose` to a manual run to see every decision.
+- **Silent when idle, and loud when it fails.** Cron mails any output a job produces, and a job this frequent must not mail on every run — so it prints nothing unless it deploys or fails. Add `--verbose` to a manual run to see every decision.
+
+  Silence used to be ambiguous, which was the real problem: a run that did nothing and a run that *failed* looked identical from a mailbox, because `err()` writes to stderr and cron delivers stderr to the account's own system mailbox — not to `ADMIN_EMAIL`, and not anywhere anyone reads. Deploy outcomes were always mailed properly; the blind spot was exactly the window before the handoff. Since 13 August 2026 a run that fires and fails mails `ADMIN_EMAIL` directly (via `scripts/mail-lib.sh`), so silence means one thing only: nothing needed doing.
+
+  | outcome | mailed? |
+  | --- | --- |
+  | exit 0, nothing to do | no — this is the point |
+  | exit 1, unusable environment | **yes** |
+  | exit 2, another run holds the lock | no — a long deploy is normal, not a fault |
+  | exit 3, pull failed | **yes** |
+  | the deploy itself failed | **yes**, by `cpanel-deploy.sh` as it always has |
+
+  Exit 2 is deliberately quiet. On a ten-minute cron a full multi-domain deploy routinely outlasts the interval, so a held lock is the *expected* state rather than a fault; mailing it would train the alert to be ignored, which is the exact failure this change exists to prevent. A failed send never changes an exit code either — a fault that couldn't be emailed is still that fault, with its own status.
+- **Knows when it last ran, not just what it last deployed.** Every run stamps `$HOME/.cpanel-autopull/<clone>.lastrun`, including runs that find nothing and runs that exit on a held lock — "is cron still firing?" is a different question from "what is deployed?", and only the first tells you the schedule itself has stopped. `--status` prints both.
+
+  Setting `AUTOPULL_MAX_GAP_HOURS` in `deploy.conf` mails an alert when the previous run was longer ago than that. Unset by default and deliberately so: the interval lives in cPanel → Cron Jobs, not in this repo, so the repo has no basis for guessing one. **It can only report a gap on the next run that actually happens** — a cron that stops firing altogether cannot report its own absence, and no code here can change that.
 - **Deploys only on a real change.** It compares HEAD against the last commit it deployed *successfully*, recorded under `$HOME/.cpanel-autopull/`. Comparing HEAD before and after the pull would be the obvious test and is wrong: if a pull succeeds and the deploy after it fails, HEAD is already advanced, so the next run would see "nothing new" and never retry — leaving the site stale behind a cron job that looks healthy. Tracking last-*deployed* instead means a failed deploy is retried every run until it succeeds.
 - **`--force`** deploys regardless. Use it after editing `deploy.conf`, which is untracked and so never moves HEAD, but does change what gets built.
-- **`--status`** prints the branch, HEAD, last-deployed commit and lock state, and changes nothing.
+- **`--status`** prints the branch, HEAD, last-deployed commit, when it last ran (and how long ago), the resolved notification address, the gap threshold and the lock state — and changes nothing.
 - **Locks.** A full deploy (`npm ci` plus one Eleventy build per domain) can outlast the cron interval, and two overlapping runs would rsync the same document root at once. A lock whose owning process is gone — killed mid-flight, or a reboot — is reclaimed rather than blocking forever.
 - **`--ff-only`, deliberately.** A deployment checkout is never a place work is done, so anything that can't fast-forward is a fault to report, not a merge to resolve. A modified *tracked* file is the usual cause; `deploy.conf` and the other per-clone files are untracked and gitignored, so they never interfere.
 - **It adds no logging of its own to the deploy.** `scripts/cpanel-deploy.sh` already emails its full log to `ADMIN_EMAIL` and persists it under `deploy-logs/`. This script keeps only a small pull/skip/deploy decision log at `$HOME/.cpanel-autopull/<clone>.log`, pruned to the last 500 lines, so "why did the site not update" is answerable without a mailbox.
