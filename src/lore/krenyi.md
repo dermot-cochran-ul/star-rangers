@@ -48,6 +48,19 @@ The same structural bound that governs Krenyi fear and fury governs grief, and i
 
 The mechanism is the one that resists glamour generally. A threne's offer is [counterfeit](/star-rangers/glossary/unfounded/) — a sorrow that presents as deserved with no founded thing beneath it — and the Krenyi read the membership rather than the shape: the despair stops matching its stated terms, registers as pattern drift, and they withdraw relevance from it rather than argue it down. It is not absolute, and *mostly* is the honest word — a Krenyi worn thin, or grieving something the pattern can keep genuinely live, can be reached at the edges. But they make poor provisioning. Where a threne fattens on a settlement that cannot finish mourning, a Krenyi is ground the predator crosses and finds nothing laid in.
 
+## The Present Tense, and What the Past Is For
+
+The Krenyi are built to attend to what is here and what is coming. The past is not sacred to them and it is not suppressed; it is simply not where they look, unless looking there returns something usable. A Krenyi will go to the record without hesitation for a measurement, a precedent, a failure mode worth not repeating — and will decline the same record entirely when it is offered as explanation, commemoration, or grievance. The test is not *is it true* but *does it still do work*.
+
+This is one orientation, not several, and most of what the Quiet-Built are known for falls out of it:
+
+- **Grief that resolves.** Mourning is real and it finishes, because a sorrow held open past its usefulness is exactly the kind of backward attention they are not built to sustain. It is the same bound described under Resistance to Grief-Predation above, seen from its root rather than its effect.
+- **"Nai."** The state-marker means *still relevant here*. A courtesy in the present tense is what a present-tense people would have built.
+- **No interest in being placed.** A homeworld offered as an explanation is the past deployed as a definition, which is the one use of it they refuse outright.
+- **Centuries of patience.** A species that expects to spend a very long time becoming precise has no reason to be in a hurry and no reason to look behind.
+
+The failure mode this produces is worth naming, because the Krenyi would name it themselves: **they are poor keepers of anything whose value has not yet been demonstrated.** A fact that will matter in two hundred years and returns nothing today is a fact a Krenyi will let go, without malice and without noticing. Other peoples' archives exist partly to hold what nobody has yet found a use for. Krenyi practice has no equivalent instinct, and where it costs them, it costs them there.
+
 ## An Origin the Record Doesn't Hold
 
 The cross-species record carries no Krenyi homeworld. No survey filed it, no charter names it, no timeline entry places their emergence — and the gap is not the ordinary kind, the sort left where a fact is simply missing because no one has yet gone and found it. A Krenyi asked where their people come from answers the material part without hesitation — that they are long-lived, that they cannot interbreed with any other species, that they keep their own reckoning of time — and declines the rest, because *where are you from*, asked as a way to explain them, is the same move as treating them as symbol or omen: it makes a person the product of a place and reads them backward from it. That is precisely the category the Quiet-Built are built to refuse. They do not answer it, and — honest by disposition — they do not offer a false one in its place.

@@ -34,6 +34,16 @@ See [Rank, Insignia, and the Ranger Uniform](/star-rangers/lore/rank-insignia-an
 
 See [Rank and the Chain of Command](/star-rangers/lore/star-rangers-command-hierarchy/) for the full ladder Chief Pilot and High Captain sit on.
 
+## Mentorship
+
+Above Chief there is no [Academy](/star-rangers/lore/star-rangers-academy/) — no college for command, no syllabus, no examination. The Corps [assigns mentors instead](/star-rangers/lore/star-rangers-command-hierarchy/), formally and as a duty, from Starwarden upward. Wender is [Tissadelle Shepherd](/star-rangers/characters/tissadelle-shepherd/)'s official mentor, assigned on Shepherd's promotion to that rank.
+
+The pairing puts the two crossings of the hinge rank side by side. Wender came to command from the technical ceiling, after a whole career spent getting better at one thing; Shepherd came to it because rotating through everything had left her nothing else to climb. The Corps needs both and promoted both, and then gave the specialist the generalist to look after — on the reasoning, never written down anywhere, that the officer who knows exactly what the crossing costs is the one who paid full price for it.
+
+She had been doing the work before it was hers. Wender learned to read Shepherd's silences somewhere around the woman's third year as a Senior, and spent four seasons watching a former cadet outpace her own cohort by a rank and a half. The assignment formalised a habit rather than creating one.
+
+What she brings to it is a restraint that reads, from outside, as incuriosity and is nothing of the kind. She holds that an order is sound if it is correct given what is currently known — not if the officer giving it has disclosed everything she privately knows. So she does not ask what a subordinate is carrying that she has not put in writing, even where her rank plainly entitles her to. *What aren't you telling me* is, on her reading, more often a superior spending a subordinate's trust to relieve her own uncertainty than a question that improves anything; and demanding disclosure as the price of trust is how a commander teaches good officers to stop bringing her the truths that matter and start bringing only the ones that are easy to explain. See [S05E02C02](/star-rangers/seasons/s05/e02/s05e02c02/), where the whole philosophy fits into a flag she initials without asking about.
+
 ## Character Notes
 
 Wender has seen enough that she no longer requires situations to be explicable before she acts. She requires only that the action be the correct one given what is currently known. This is a different quality from commanders who wait for certainty, and a different quality from those who act without it.

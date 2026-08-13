@@ -51,7 +51,7 @@ The rank ladder above governs seniority and who answers for what. It does not go
 
 Each specialist corps — Survey, Science, Safety, Provost, [Frontier](/star-rangers/lore/star-rangers-frontier-corps/), Medical, Engineering, and the rest — is internally organised more like a professional guild than a military department. A corps elects or appoints its own **chapter leaders** at the post or installation level and, above them, a **corps president** for the Rangers as a whole, and neither position sits on the Novice-to-Triumvirate ladder. Holding one requires no specific rank. In practice, a chapter leader or president is almost always drawn from officers already at Principal, Section Lead, or Chief — the tiers with enough field standing to be trusted with the job — but that's convention arising from who the corps' own members tend to elect, not a rank requirement written into the charter.
 
-The command ladder has no direct input into a corps' guild and training functions. A Starwarden cannot revise Medical Corps practice standards, set Survey Corps instrument-certification criteria, or override a Safety Corps finding — the same independence the [Safety Corps](/star-rangers/lore/star-rangers-safety-corps/) already holds by charter is not a Safety Corps exception, it's the general rule every specialist corps operates under. Command rank tells a Ranger who they answer to for a deployment. It has never told them who's right about medicine, instrumentation, or boundary science, and the charter's framers built the guild layer specifically so no future command chain could quietly start deciding otherwise.
+The command ladder has no direct input into a corps' guild and training functions — the largest instance of which is [the Academy](/star-rangers/lore/star-rangers-academy/), organised as a college per corps and a school per branch, and answerable to the corps rather than to the Council of High Captains. A Starwarden cannot revise Medical Corps practice standards, set Survey Corps instrument-certification criteria, or override a Safety Corps finding — the same independence the [Safety Corps](/star-rangers/lore/star-rangers-safety-corps/) already holds by charter is not a Safety Corps exception, it's the general rule every specialist corps operates under. Command rank tells a Ranger who they answer to for a deployment. It has never told them who's right about medicine, instrumentation, or boundary science, and the charter's framers built the guild layer specifically so no future command chain could quietly start deciding otherwise.
 
 The working comparison Rangers reach for is a hospital: a Line Captain sits closer to a chief executive than to a chief of medicine. She decides mission strategy and direction — what gets done, which deployments happen, where the Rangers she commands actually go — and answers personally for those calls. She has no authority over how a Medical Corps officer treats a casualty, how a Survey Corps analyst certifies an instrument, or how a Safety Corps inspector reads a boundary-zone clearance, any more than a hospital's chief executive can overrule a surgeon's clinical judgment. *What* to do is a command decision. *How* to do it, within any given specialization, never is.
 
@@ -74,6 +74,46 @@ What a technical Chief accumulates past that ceiling is not further rank but rec
 Nothing prevents a decorated technical Chief from later crossing into the command track if a Starwarden's post opens and they want it. The two paths share a ceiling rank, not a ceiling career.
 
 The same sideways-not-up logic operates well below Chief, and outside the boundary-science specializations entirely. A Ranger who carries the Corps' musician specialization, for instance, isn't on a slower route to command — just a different route altogether. See [Slipwave](/star-rangers/glossary/slipwave/) for a working example.
+
+## Above Chief: Formal Mentoring, Because Nothing Can Be Examined
+
+[The Academy](/star-rangers/lore/star-rangers-academy/) does not teach command. There is no college for Starwarden and above, no syllabus, and no examination between a Chief and a command posting — because command does not decompose into competencies a faculty could check. What the rank actually asks for is judgement exercised under instrument disagreement, on a clock, with nobody reachable to share it.
+
+What the Corps does instead is **assign a mentor, formally, by policy.** On promotion to Starwarden, an officer is paired with a serving senior officer who is answerable for the mentorship as a duty rather than offering it as a kindness. The pairing is on the record, it does not lapse with a posting change, and it continues up the command ranks.
+
+The reasoning is the same one that produced the two ladders in the first place. A certification is a claim other people can verify. A command judgement is a claim only its consequences verify, and usually too late to be instructive. Mentoring is what the Corps uses where verification is not available in time: not a substitute for a syllabus, but the only honest form of instruction for a thing that cannot be examined.
+
+Two features of the policy are deliberate and easy to miss.
+
+**It is a duty, not a favour.** A mentor who does the job badly is failing an assignment. This matters because the alternative — command wisdom passed along by whoever happens to take an interest — reliably advantages officers who are already well connected, which is precisely the failure the examined lower ladder was built to prevent. The Corps declined to let the top half of the ladder run on patronage.
+
+**It does not confer authority, and it does not remove it.** A mentor is frequently, though not necessarily, somewhere in the mentee's operational chain — the flag tier is not large — and the policy makes no attempt to keep the two apart. What it asks instead is a discipline: **the mentorship gives a senior officer no standing to ask questions the command relationship would not already justify.** [High Captain Wender](/star-rangers/characters/karla-wender/)'s conduct toward [Line Captain Shepherd](/star-rangers/characters/tissadelle-shepherd/) in the Survey Archive is the policy working as intended — an officer who wanted to ask what her mentee was not saying, was entitled to ask it, and declined, on the grounds that *what aren't you telling me* is more often a superior spending a subordinate's trust to relieve her own uncertainty than a question that improves an operation. See [S05E02C02](/star-rangers/seasons/s05/e02/s05e02c02/).
+
+Nothing in the policy prevents an officer from also keeping an advisor of their own choosing outside the chain of command entirely, and the ones who do tend to be the ones who understand what the formal pairing cannot cover.
+
+## Leaving, and Coming Back
+
+The ages elsewhere in the Corps' career structure — the recommended floor for [planetary representation](/star-rangers/lore/planetary-liaisons-and-recruiters/) at about fifty-five, the full pension available from about seventy-five — describe the ordinary route and are not the only one. **Early retirement, career breaks, and extended sabbaticals are available by negotiation and agreement**, and they are negotiated rather than granted because no schedule written in advance could anticipate what a particular Ranger's service has actually cost them.
+
+Health is the commonest ground, and the Corps' definition of it is deliberately wide. **A stress-related injury is an injury.** An officer who has stood too many watches, carried too long a stretch of boundary-proximate duty, or come back from an incident carrying something that has not finished with them is understood to be hurt, not to be failing, and the arrangement that follows is a medical accommodation rather than a favour or a mark against a record. The Corps is a body that certifies competence for a living, and it has never found it consistent to certify a person unfit and then treat the finding as a character judgement.
+
+Nothing in this is automatic, and *negotiation* is the honest word. A break is agreed between the officer, their chain of command, and — where the ground is medical — the Medical Corps, whose finding the command ladder cannot override any more than it can revise a boundary-analyst standard. What is agreed varies: a fixed sabbatical, an open-ended one, a transfer to lighter duty, a return under review, or a departure that turns out to be permanent and was not framed that way at the time.
+
+Two consequences are worth naming.
+
+**A career is not assumed to run continuously.** A record with a gap in it is an ordinary record. Reading a break as evidence against an officer is the kind of inference the Corps' own certification culture exists to make unnecessary, and doing it in a promotion discussion is a thing seniors are expected to know better than.
+
+**Coming back is a real event, and it is not simply resumption.** An officer returning to duty is returning to work they can still do and to a person they have partly become since. The record does not pretend otherwise, and the ones who have done it will generally say that the first ordinary morning back was harder than anything in the incident that sent them away.
+
+## The Third Path: Planetary Representation
+
+There is one more non-command career path, and it is easy to miss because it is usually described as a retirement role rather than as a track. **Planetary representation runs on the same logic as the technical ladder — deepening specializations, certifications, and decorations in place of promotion — and it is a career, not a courtesy.**
+
+What distinguishes it is when it opens rather than what it is. A Ranger ordinarily transfers onto it somewhere after the age of fifty-five, having already spent a career elsewhere, because the work asks for a kind of standing a short service cannot supply: a world has to trust the person, and the person has to be able to hold the Corps' side of a relationship with no chain of command behind them on the day it becomes difficult. From roughly fifty-five to seventy-five the representative remains on the reserve list — left active service, not retired — and past that, on a full pension at their own choosing.
+
+Rank does not transfer onto this path. A High Captain and a Chief who take it up on the same world start at the same standing, and whatever separates them twenty years later will have been earned there.
+
+See [Retired Rangers: Liaisons, Representatives, and Recruiters](/star-rangers/lore/planetary-liaisons-and-recruiters/) for the three recognised roles, the charter problem the path exists to solve, and why the Corps has no jurisdiction it could exercise through them.
 
 ## What the Triumvirate Is Not
 
