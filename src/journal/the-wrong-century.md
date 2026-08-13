@@ -56,6 +56,12 @@ I do not think the record is smarter than I am. I think it is more consistent th
 
 Every hour spent making a setting cohere is an hour spent building something that will later catch you out. Not in the way a continuity checklist catches you out — a checklist only knows the errors somebody already anticipated. A coherent setting catches the ones nobody anticipated, because the facts are load-bearing against each other and a wrong one does not sit quietly. It fails an arithmetic somewhere.
 
-The cost is real and it is not craftsmanship, it is bookkeeping: dates written down, careers costed, a rule about lifespan recorded in a file nobody will ever read for pleasure. None of that is writing. All of it is what let a wrong century announce itself within the hour instead of surviving to print.
+The cost is real, and the word for it is diligence — which is not a politer name for bookkeeping. Bookkeeping is what you do to an account after the fact. Diligence is a way of working: dates written down as they are decided, careers costed while they are still being imagined, a rule about lifespan recorded on the day it is thought of rather than the day it is needed.
 
-The chapter is where it belongs now. I would not have found it by being careful. I found it by having, months earlier and for unrelated reasons, made the world specific enough to disagree with me.
+And it is not the opposite of invention. That is the thing I keep having to relearn. Creativity and correctness are not two budgets competing for the same hours — they are in harmonic balance, and each is what lets the other go further than it could alone.
+
+A world too loose to contradict you will let you write anything, which sounds like freedom and is really just the absence of resistance: nothing pushes back, so nothing is discovered, and every invention costs the same as every other one, which is to say nothing. A world held too tight admits nothing new at all. In balance, the correctness is what makes the invention safe to build on. I could put three machines on a wrecked ship and a family at the end of the corridor, and know the rest of the record would tell me — promptly, and without malice — if I had put them in the wrong century.
+
+That is the trade, and I would make it again. The correctness is not the price of the creativity. It is the thing that makes the creativity load-bearing.
+
+The chapter is where it belongs now. I would not have found it by rereading. I found it by having, months earlier and for unrelated reasons, made the world specific enough to disagree with me.
