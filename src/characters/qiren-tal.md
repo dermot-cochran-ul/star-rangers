@@ -9,7 +9,7 @@ aliases: []
 tags: [alien, veyr, high-gravity, volcanic-world, engineering, season-1]
 description: "A Veyr Basaltborn engineer from a high-gravity volcanic planet, known for pressure-safe hull diagnostics and thermal systems work."
 image: "qiren-tal.jpg"
-image_alt: "Designed placeholder card for Qiren Tal: the name and role set in pale serif type over a dark blue-black gradient, headed PORTRAIT PENDING. The previous image framed a Veyr Basaltborn as a bipedal humanoid with insect features applied; the Veyr body plan is not established in the record."
+image_alt: "Qiren Tal, a Veyr Basaltborn engineer, at work on a hull junction in a dim service space. The body is an open lattice of fine dark iridescent struts with no solid trunk — the bulkhead is visible through it — carried on many slender jointed limbs at irregular angles, several braced for load while others work a single point. Clusters of small compound eyes sit around the upper lattice."
 ---
 
 Veyr-3 is active basaltic volcanism, dense mineral aerosols, micro-shocks, and a gravitational field heavy enough that human joints would degrade in a generation. Qiren Tal was born there and carries the physiology it produces: a load-bearing exoskeletal lattice with the dark iridescent sheen of cooled basalt, compound eyes adapted to mineral haze, and a chitin surface that shrugs off abrasion from suspended silicate particles. The slender look deceives — a lattice carries compression the way solid bone never could, which is precisely the engineering their homeworld teaches from birth.
