@@ -1,7 +1,7 @@
 ---
 layout: character.njk
-title: "Starwarden Valerius"
-id: valerius
+title: "Starwarden Luke Valerius"
+id: luke-valerius
 species: Human
 role: "Starwarden, boundary-proximate post, outward frontier (2824 UCSD – )"
 status: Active
@@ -9,7 +9,7 @@ tags: [star-rangers, starwarden, boundary, safety-corps, neutrality, frontier, h
 description: "A Starwarden who answers for a boundary-proximate post whose distance from the boundary is not a quantity that exists — a certified boundary analyst holding the record his own classification finding will be made from, and unable to establish that he holds it evenly."
 ---
 
-Starwarden Valerius answers for a boundary-proximate post whose distance from the boundary is not a quantity that exists.
+Starwarden Luke Valerius answers for a boundary-proximate post whose distance from the boundary is not a quantity that exists.
 
 He does not permit that to be treated as a figure of speech. The [Interval](/star-rangers/glossary/interval/) is separation measured across the Common Manifold rather than along any line a ship could fly, so *how far is this post from the boundary* is a question with no answer rather than a question with a large one — a correction he has entered on other officers' filings often enough that it is one of the two things everyone on the post knows about him. The other is that he will not say *everywhere*.
 
