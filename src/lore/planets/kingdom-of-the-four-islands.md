@@ -2,7 +2,7 @@
 layout: lore-entry.njk
 title: "The Kingdom of the Four Islands"
 category: "Locations"
-tags: [four-islands, independent, kingdom, archipelago, locations, first-contact, lost-colony, abbeylands, feudal, tideward-sisterhood, old-houses, peerage, common-council]
+tags: [four-islands, independent, kingdom, archipelago, locations, first-contact, lost-colony, abbeylands, feudal, tideward-sisterhood, old-houses, peerage, common-council, difenland, krilzat, kalenjar]
 description: "A hereditary kingdom holding the one temperate archipelago on an otherwise storm-scoured world — settled by a human departure older than any Solar System record, and found again only recently."
 image: "archipelago-palm-avenue.jpg"
 image_alt: "A windswept avenue of tall palms under a bright sky on the royal seat island of Vellamar"
@@ -61,6 +61,18 @@ and tall flowering spikes, violet shading to crimson at the bud, grown along the
 
 Court protocol names Vellamar first and always, but the Kingdom's practical survival runs through the other three: **Casimor**, the outermost island, absorbs the archipelago's worst weather almost by design and holds little beyond a hereditary watch-post whose keepers are honoured above nearly every other commoner rank; **Aduine**, terraced from shoreline to ridge, grows most of the Kingdom's food — a wedge of it held as the Abbeylands, described below, rather than royal demesne; and **Ostrel**, the sheltered-harbour island, holds the fishing fleets and what little inter-island trade the Kingdom conducts. A monarch is crowned on Vellamar, but a Vellamar cut off from the other three, court economists are quick to note, would not outlast a single storm season.
 
+## Difenland, Krilzat, and Kalenjar
+
+Below the island is the region, and the Kingdom names three of them. They are not administrative units — the Common Council's steward answers for a whole island and nothing smaller — but they are how anyone actually from here says where they are from, and a reeve will give the region before the island if asked twice.
+
+- **Difenland** is Aduine's upland terrace country, the ground above the Abbeylands and behind them: the oldest continuously worked land the Kingdom holds that the Sisterhood does not. Difenland's terrace walls are maintained on the same labour-day rhythm as the Abbey's without the Abbey having anything to do with it, which is either convergent practice or a very old borrowing, and the Long Accounting does not say which.
+- **Krilzat** is Casimor's windward side, the ground that takes the storm systems first and is inhabited only by the watch-post and what supports it. Nobody farms Krilzat. The Kingdom's estimate of a bad season is still, in ordinary speech, whatever Krilzat lost.
+- **Kalenjar** is Ostrel's harbour region — the anchorage, the fleet, the sheds and salt-houses along it, and the strip of hinterland that exists to serve them. It is the smallest of the three by ground and holds more people than the other two together.
+
+Vellamar has no region in this sense. The throne island is divided into court quarters and garden precincts instead, named for what stands in them rather than for the land underneath, which court historians treat as evidence of the obvious: Vellamar was laid out by an administration, and the other three were named by people who worked them.
+
+The Survey Corps delegation has noticed that *Krilzat* does not sit in the same phonological company as *Vellamar*, *Aduine*, *Ostrel*, and *Casimor*, and has filed the observation as a candidate reading at low confidence — an older stratum of the language, possibly, surviving on the one piece of ground nobody had reason to rename. The Kingdom's own answer, when the question was put to the court, was that Krilzat has always been called Krilzat.
+
 ## The Abbeylands
 
 Not all of Aduine's terraces are the Crown's to tax. A wedge of the island's oldest and best-kept ground — locals simply call it **the Abbeylands** — has been held since before the current dynasty's own count of monarchs by the **Tideward Sisterhood**, a religious order whose founding charter predates every other surviving land grant in the Kingdom's, admittedly contested, written record. Court tradition holds that the founding monarch granted the terraces outright after a Sisterhood elder read a storm pattern the Crown's own weather-wardens had missed, and saved the colony's first harvest from a season that would otherwise have starved it. The charter that followed has never been revoked, redrawn, or — court lawyers admit, when pressed — fully explained.
@@ -77,6 +89,6 @@ The charter carries one obligation beyond grain: the Sisterhood keeps **the Long
 
 ## First Contact and What Happens Next
 
-Diplomatic relations, such as they are, remain days old rather than years. The Kingdom's court has granted the Survey Corps a single standing delegation on Vellamar and nothing beyond it; no trade agreement, defence understanding, or even a settled translation protocol yet exists, since the Kingdom's own language was, until recently, presumed extinct on every Solar System linguistic register. What the Archive can say with confidence is limited to what the delegation has observed directly, and every report filed so far ends with some version of the same recommendation: proceed carefully, and do not assume this is the last surprise this particular gap in the record is holding.
+Diplomatic relations, such as they are, are counted in years of translation work and in almost nothing else. The Kingdom's court has granted the Survey Corps a single standing delegation on Vellamar and nothing beyond it; no trade agreement, defence understanding, or even a settled translation protocol yet exists, since the Kingdom's own language was, until recently, presumed extinct on every Solar System linguistic register. What the Archive can say with confidence is limited to what the delegation has observed directly, and every report filed so far ends with some version of the same recommendation: proceed carefully, and do not assume this is the last surprise this particular gap in the record is holding.
 
-See also: [The Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/), [Kernowek Reach](/star-rangers/lore/planets/kernowek-reach/).
+See also: [Abbess Ilsabet Marrowtide](/star-rangers/characters/ilsabet-marrowtide/), [Anne de Courtney](/star-rangers/characters/anne-de-courtney/), [Ernesto Strozzi](/star-rangers/characters/ernesto-strozzi/), [Emma la Chapelle](/star-rangers/characters/emma-la-chapelle/), [The Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/), [Kernowek Reach](/star-rangers/lore/planets/kernowek-reach/).

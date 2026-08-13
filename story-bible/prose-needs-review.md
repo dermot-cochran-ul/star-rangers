@@ -20,15 +20,15 @@
 
 Planning note (not built into the site — lives in `story-bible/` like the
 other authorial notes). Built 2026-07-23 from git history: every content
-file where **you (Dermot Cochran / Avalon Hope) wrote or personally edited
+file where **you (Dermot Cochran) wrote or personally edited
 it at some point, but an AI tool (Claude or Copilot) has touched it more
 recently** — so your original words are probably still the base, but they
 may have been rephrased, extended, or blended with AI-authored material
 during a later technical or continuity pass. Worth a read-through to check
 the voice is still recognizably yours.
 
-Companion list: `prose-needs-your-voice.md` covers pages with *no* Dermot/
-Avalon Hope authorship at all.
+Companion list: `prose-needs-your-voice.md` covers pages with *no* Dermot
+authorship at all.
 
 ## Lore (28 files)
 

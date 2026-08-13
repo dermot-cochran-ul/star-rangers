@@ -35,8 +35,8 @@
 Planning note (not built into the site — lives in `story-bible/` like the
 other authorial notes). Built 2026-07-23 from git history: every content
 file under `src/{seasons,lore,characters,codex,glossary,timeline}/` whose
-**entire authorship history has no commit from Dermot Cochran / Avalon
-Hope** — i.e. every word currently on the page was written by an AI tool
+**entire authorship history has no commit from Dermot Cochran** — i.e.
+every word currently on the page was written by an AI tool
 (the original Copilot bootstrap, or a later Claude Code session), and you
 have never personally written or revised it.
 
