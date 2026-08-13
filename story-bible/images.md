@@ -512,11 +512,11 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 - **`naomi-kestrel.jpg`** — junior field investigator, Eden Civil Investigations;
   reads telemetry, manifests and comm chatter "as one continuous sentence."
-  > Cinematic portrait of a young woman analyst at a plain working table in a quiet habitat room, upper body, focused expression. The room is lit by soft diffuse recessed lighting from a concealed source, warm and even, with no lamp, no light fitting, no shade and no bulb visible anywhere in frame. In front of her lies one slim matte grey reading tablet the size and thickness of a small hardback book, entirely unlit and blank-faced, its surface catching the room light the way a page would; nothing else on the table. Practical dark uniform bearing small geometric rank marks — plain metal bars and a single star at the collar, shapes only. No name tape, no name badge, no printed words, no letters and no numerals on her clothing of any kind. Calm, uncluttered interior of a well-kept space habitat, muted palette, professional, no glamour styling. Absolutely no screens, no monitors, no glowing displays, no holograms, no projected light, no consoles, no dials, no gauges, no analogue instrument panels, no filing binders and no loose paper anywhere in frame. Her face is lit by the room, never by anything she is reading. No readable text, numerals, signage or written characters of any script anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a young woman analyst with dark red hair cut short, clear green eyes and a freckled complexion, at a plain working table in a quiet habitat room, upper body, focused and absorbed rather than worried. The room is lit by soft diffuse recessed lighting from a concealed source, warm and even, with no lamp, no light fitting, no shade and no bulb visible anywhere in frame. Flat on the table in front of her lies one slim matte grey reading slate, a single rigid slab the size and thickness of a small hardback book, lying face-up on the tabletop, entirely unlit and blank-faced, its surface catching the room light the way a page would. It has no hinge, no lid, no keyboard, no stand and no raised panel — it is not a laptop, not a clamshell and not propped up at any angle; it lies flat like a closed book set down. Nothing else on the table. Practical dark uniform bearing small geometric rank marks — plain metal bars and a single star at the collar, shapes only. No name tape, no name badge, no printed words, no letters and no numerals on her clothing of any kind. Calm, uncluttered interior of a well-kept space habitat, muted palette, professional, no glamour styling. Absolutely no screens, no monitors, no glowing displays, no holograms, no projected light, no consoles, no dials, no gauges, no analogue instrument panels, no filing binders and no loose paper anywhere in frame. Her face is lit by the room, never by anything she is reading. No readable text, numerals, signage or written characters of any script anywhere in frame. Portrait orientation.
 
 - **`rosalind-vey.jpg`** — tactical specialist, Eden Civil Investigations;
   ex-habitat tactical response, treats a scene as a room that might still be dangerous.
-  > Cinematic portrait of a composed woman in a practical tactical-response jumpsuit aboard a space habitat, upper body, alert and unbothered expression, subdued corridor lighting, science-fiction setting, desaturated palette, professional, no glamour styling. The jumpsuit carries small geometric rank marks only — plain bars and chevrons at the collar and shoulder, shapes and nothing else. No name tape, no name badge, no printed words, no letters and no numerals on her clothing of any kind. Lighting is soft, diffuse and recessed, with no lamp or light fitting visible. No screens, no glowing displays, no holograms and no projected light anywhere in frame. No readable text, numerals, signage or written characters of any script anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a composed woman with fair blonde hair worn short and pushed back, in a practical tactical-response jumpsuit aboard a space habitat, upper body, alert and unbothered expression, subdued corridor lighting, science-fiction setting, desaturated palette, professional, no glamour styling. The jumpsuit carries small geometric rank marks only — plain bars and chevrons at the collar and shoulder, shapes and nothing else. No name tape, no name badge, no printed words, no letters and no numerals on her clothing of any kind. Lighting is soft, diffuse and recessed, with no lamp or light fitting visible. No screens, no glowing displays, no holograms and no projected light anywhere in frame. No readable text, numerals, signage or written characters of any script anywhere in frame. Portrait orientation.
 
 - **`tamsin-reyes.jpg`** — undercover specialist; "whoever a room needs her to
   be," craft not instinct. Deliberately forgettable.
@@ -623,6 +623,16 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 - **`jeeves.jpg`** — domestic-companion AI, Eden; kitchen-and-gossip competence.
   > Abstract emblematic image representing a domestic household artificial intelligence: a warm pool of low amber light resting on the scrubbed wooden surface of a quiet kitchen table at night, a folded cloth and a single clean cup set neatly beside it, everything tidied and ready for a morning that has not arrived yet. Soft ambient glow with no visible source, deep warm browns and honey tones against a dark room, domestic and calm and companionable. No human face, no figure, no hands, no machine, no robot, no screens, no displays, no consoles, no interface, no glyphs, no icons, no symbols, no numerals and no lettering of any script anywhere in frame. Portrait orientation.
+
+- **`reeves.jpg`** — investigative-support AI, Threshold Station; **the other
+  half of a deliberate pair.** Written 13 August on Dermot's note that the two
+  or more instances of Reeves might look very similar to each other. They are
+  the same model on separate deployments and their pages say so, so the images
+  copy each other closely on purpose — same emblem, same palette, same
+  restraint — and differ only the way a second installation of one thing
+  differs. Here the partial figure is further along: more points joined, still
+  not finished. Same intelligence, longer posting. Nothing else changes.
+  > Abstract emblematic image representing an investigative intelligence: a slow constellation of small cool-blue points of light suspended in dark space, joined by faint thin lines into a partial figure that is most of the way complete but still open at one edge, a few points left unconnected. Deep indigo and near-black background, soft volumetric glow, quiet and patient rather than busy or urgent, a sense of a pattern nearly found and not yet claimed. No screens, no consoles, no terminals, no user interface, no panels, no dials, no charts, no diagrams, no icons, no symbols, no glyphs, no numerals, no lettering of any script, no human face, no figure, no machinery of any kind. Pure light and geometry only. Portrait orientation.
 
 - **`reeves-eden.jpg`** — investigative-support AI, Eden bureau; same model as
   Threshold's Reeves, distinct enough to read as a separate deployment.
@@ -745,6 +755,37 @@ has to change. Two tests before generating:
   *Gritty* did the same to `lorien-the-wanderer`, returning a rusted, stained,
   half-derelict hull for a captain whose own page says she has never lost a
   ship. A genre word is a whole set of defaults arriving at once.
+- **The generator converges on one face, so vary the cast on purpose.** Three
+  portraits filed in the same batch on 13 August — `naomi-kestrel`,
+  `galen`, `rosalind-vey` — came back as dark-haired white women of similar
+  age, build and features. Dermot: *"they are not related; they do not need the
+  same hair colour and features."* Nothing in any of the three briefs asked for
+  that; it is simply where an unconstrained "cinematic portrait of a woman"
+  lands, every time, and the effect compounds across a cast until half the
+  Corps looks like one family. **Give every human portrait at least one stated
+  distinguishing feature** — hair colour and cut, build, age band, colouring —
+  and check a new brief against the ones already filed rather than against the
+  page alone. Heritage is a separate question and belongs to Dermot (see the
+  `rasa-oyelaran` rule below); this is about not producing siblings by default.
+- **And the converse, which matters just as much: resemblance has to be earned
+  where it is real.** Dermot, same exchange: *"obviously characters who are
+  meant to be related should look similar in some way,"* and *"the two or more
+  instances of Reeves might look very similar to each other."* Two cases, one
+  principle — sameness is meaningful only when it is true, so it must be
+  deliberate in both directions.
+  - **Kinship.** The clusters currently in the cast are the **Shepherds**
+    (Tissadelle, Órla, Sorcha), the **Wenders** (Karla, and Anne when she is
+    drafted) and the **Vosses** (Petra, Dagny) — check the relationship on the
+    pages before assuming it, then carry one or two shared features across the
+    set rather than a matching face. A family resemblance is a recurrence, not
+    a duplicate.
+  - **Manufacture.** [Reeves](/star-rangers/characters/reeves/) at Threshold
+    and [Reeves](/star-rangers/characters/reeves-eden/) at Eden are the same
+    model on separate deployments, and their pages say so. Their images should
+    be **near-identical by design**, differing only in the small way a second
+    installation of one thing differs — a shifted accent, a different count,
+    the same emblem seen from another angle. This is the one place in the file
+    where copying a previous image closely is the correct answer.
 - **Spare is not shabby, and minimal is not neglected.** The distinction is
   worth stating because briefs reach for *stripped-down*, *worn*, *practical*
   and *utilitarian* constantly, and every one of them can slide into decay.

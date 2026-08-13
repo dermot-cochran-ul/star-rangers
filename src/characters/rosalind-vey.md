@@ -8,7 +8,7 @@ status: Active
 aliases: []
 tags: [human, eden, investigations, junior-detective, season-1, undercover-pets.com]
 image: "rosalind-vey.jpg"
-image_alt: "Rosalind Vey standing in a working habitat corridor in a grey tactical-response jumpsuit marked with small chevron patches at the chest and shoulder, alert and unbothered, lit by recessed overhead panels."
+image_alt: "Rosalind Vey, a woman with short fair blonde hair pushed back, standing in a dim habitat corridor in a grey tactical-response jumpsuit marked with small chevrons at the collar and shoulders, composed and unbothered, lit by recessed overhead panels."
 description: "Eden Civil Investigations Unit's tactical specialist: unbothered under pressure, and the one everyone calls first when a breach turns out to be physical rather than theoretical."
 ---
 
