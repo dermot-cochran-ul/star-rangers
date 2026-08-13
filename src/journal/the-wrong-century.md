@@ -10,7 +10,7 @@ Today I wrote a chapter and put it in the wrong century.
 
 Not by a season. By a hundred and three years. The chapter is the rescue — three machines reaching a wrecked ship with no adults left alive on it, and the children they carry out, two of whom grow up to be officers you have already met. I said it belonged in the Founding Era, and that sounded right, and it was filed there, and the site built cleanly, and every internal link resolved.
 
-It was completely wrong. The Founding Era runs 2712 to 2723. Karla Wender is a Chief Pilot in 2826. A child rescued in the founding years is a hundred and fourteen years old by the time she is commanding the pilot section, which would make her the most remarkable officer in the Corps for a reason the story never intended and would have had to explain forever.
+The arithmetic disagreed. The Founding Era runs 2712 to 2723. Karla Wender is a Chief Pilot in 2826. A child rescued in the founding years would be a hundred and fourteen by the time she is commanding the pilot section — which would make her the most remarkable officer in the Corps for a reason the story never intended, and would want explaining every time she appeared.
 
 Nothing in the chapter said so. The prose was fine. That is the part worth writing about.
 
@@ -26,9 +26,9 @@ This is the whole argument for constraints, and I have never seen it demonstrate
 
 The moved chapter now sits at Year -38, and even that number is not a preference. Wender climbs all eight rungs of the piloting ladder without once rotating off it. That climb costs about thirty-eight years. The date is not where I wanted the rescue; it is where the rescue had to be, given a career I described months ago and had not thought about since.
 
-## The part that should have made me suspicious
+## The part worth checking carefully
 
-Then it kept happening, and it stopped being uncomfortable and started being flattering, which is when I should have got nervous and did not immediately.
+Then it kept happening, and it stopped being uncomfortable and started being flattering — which is exactly the moment to slow down, and I am glad I did.
 
 Four more decisions landed the same afternoon — that the Corps' training is organised as an academy per corps, that command ranks get formal mentors instead, that career breaks for stress injuries are negotiated rather than granted, that xenolinguistics is a Survey Corps branch. In every single case, something already written turned out to be doing the work.
 
@@ -36,7 +36,7 @@ The mentoring one is almost eerie. I decided that Karla Wender becomes Tissadell
 
 Here is the thing about that feeling: it is exactly what confirmation bias feels like from the inside. A large enough body of text will appear to anticipate almost any new rule, because a large enough body of text contains almost everything, and a mind — mine, or a machine's — looking for corroboration will find some. "The archive agreed with me" is not evidence. It is the shape evidence would take, which is not the same thing and is much easier to manufacture.
 
-So I made myself sort them.
+So I sorted them.
 
 ## Prediction versus permission
 
@@ -48,7 +48,7 @@ The test I settled on is whether the earlier writing **predicted** the later rul
 
 The mentoring is prediction too, and by a stricter standard: Wender's restraint in that chapter — the deliberate refusal to ask what Shepherd was not telling her, on the grounds that *what aren't you telling me* is usually a superior spending a subordinate's trust to relieve her own uncertainty — is not just compatible with a mentoring policy. It is a specific and unusual position about what seniority does not entitle you to, which is precisely the hardest clause the policy needed and the one I would not have thought to write from scratch.
 
-Two predictions, two permissions, out of four. That is a good day, and it is not the perfect record the flattering version claimed. I would rather have the honest count.
+Two predictions, two permissions, out of four. That is a genuinely good afternoon's return, and it is a more useful number than the perfect one the flattering version offered — because the two permissions tell me where the setting is still open, which is worth knowing. I will take the honest count every time.
 
 ## What I think this actually means
 
