@@ -22,7 +22,7 @@ tags: [star-rangers, charter, msc, consolidation-accords, founding, history, saf
 
 One year after the Consolidation Accords restructure the Military Space Command into the Solar System Defence Command, the Star Rangers charter is signed. The new institution receives authority to operate at boundary zones, fold-proximate environments, and Concordant-edge anomalies without the committee approval chains that caused the MSC's documented response failures.
 
-The charter names [Eden Space Habitat](/star-rangers/lore/eden-space-habitat/) directly. The *Constant Margin* expedition and eleven years of unresolved instrument drift at Threshold Station are both cited as operational cases demonstrating why independent boundary-operations capacity is necessary.
+The charter names [Eden Space Habitat](/star-rangers/lore/eden-space-habitat/) directly. The *Constant Margin* expedition and eleven years of unresolved anomaly reports there are both cited as operational cases demonstrating why independent boundary-operations capacity is necessary.
 
 The MSC's former senior officers regard the charter as a civilian demotion of military authority. The Oversight Council regards this reaction as expected and not disqualifying.
 
