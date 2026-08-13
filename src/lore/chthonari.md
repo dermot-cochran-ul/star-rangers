@@ -31,6 +31,16 @@ That same intuition is why Chthonari individuals are disproportionately represen
 
 No Chthonari is assigned to the Engineering Corps, and no Federation compact requires it — the charter's insistence that Ranger service be individual and apolitical applies to Chthonari exactly as it applies to every other recruit. The overrepresentation is a career choice made by a great many individuals who happen to be unusually good at the work, not a species quota, and Chthonari recruiters are, by several accounts, tired of explaining the difference to visiting press.
 
+## They Never Needed a Smelter
+
+Every technological people meets the high-energy processing problem somewhere, and the Chthonari are the record's one case of a species that walked past it without noticing. On a world with no gravity well there is no atmosphere, so there was never fire — and there was never any need for it, because **the Undersong Belt is already made of metal.**
+
+A nickel-iron body has been refined by its own formation. What another people reaches by digging ore, crushing it, and pouring in enormous quantities of heat to drive off what it does not want, a Chthonari reaches by **cutting**. The material is native, it is structural as found, and the whole ferocious middle of every other civilisation's industrial history is simply absent from theirs.
+
+This is the deeper sense in which excavation is composition. A Chthonari does not fabricate a member and install it. They **leave** it — decide what the rock will still be doing when the cutting stops, and remove everything that is not that. It is a subtractive tradition in a galaxy of additive ones, and it produces engineers who think first about what a structure will be relieved of rather than what it will be given.
+
+Two consequences other species find odd. **They are slow to see a material as raw.** Presented with a stock plate, a Chthonari's instinct is to ask what it is already good for rather than what it could be made into. And **they have no folk memory of scarcity of the usual kind** — no age of precious metals, no story in which a smith is a figure of power — which is one reason the Undersong's own history reads so strangely flat to outside historians looking for the familiar turning points. Nothing turned. They kept cutting, and got better at listening to it.
+
 ## Machines in the Work
 
 Chthonari engineering incorporates agentic systems as a matter of course — not as colleagues standing beside the work, in the Concord's manner, but as members *of* it: a monitoring intelligence built into a scaffold or a burrow the way another culture would build in a load-bearing rib. Within Concord jurisdiction the practice runs under the [AI Safety Kernel](/star-rangers/lore/ai-safety-kernel/) like everyone else's; the instinct is older than the compliance. To a people who read structures by listening to them, a structure that can also listen is not a novelty. It is a completion.
