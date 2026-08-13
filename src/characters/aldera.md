@@ -21,7 +21,7 @@ gallery:
     image_alt: "Close-up portrait of a tabby-and-white kitten with blue eyes beside a blue flower."
 ---
 
-Aldera was at the Marsh Causeway before the outpost had a new occupant. She had been logging for months before Elvira began her own records. Elvira does not yet know this.
+Aldera was at the Marsh Causeway before the outpost had a new occupant. She had been logging for months before Elvira began her own records. Elvira did not know this until she asked.
 
 She is a cyber-enhanced cat, a field unit in the distributed detective agency network. [Smart pets](/star-rangers/glossary/smart-pet/) and cyber-enhanced animals are the agency's preferred observers in boundary-proximate zones — ordinary robots serve that same function for the police department instead, a different institution entirely. The reason is specific: their cognitive architecture does not layer rationalisation over raw signal. They register asymmetry before they reach for explanation.
 
@@ -41,7 +41,7 @@ She identified the Court-Fae feeding signature before Galahad arrived at the cau
 
 Her recommendation is precise: name what is known. Clarity breaks the loop. Ambiguity is the food source.
 
-She has not shared this yet. Neither Elvira nor Galahad has asked the question that unlocks the answer. She files. She waits.
+She filed, and she waited, for three years. Elvira asked in the end — on the record, in [The Right Question](/star-rangers/seasons/s01/e03/s01e03c02/) — and Aldera answered.
 
 ## Before the Causeway
 
