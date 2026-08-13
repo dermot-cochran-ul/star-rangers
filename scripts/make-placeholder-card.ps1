@@ -88,7 +88,7 @@ $Cards = @(
 
 # Heroes have no `image:` in front matter; their file and title are fixed here.
 $HeroOverrides = @{
-  'src\characters\index.md' = @{ Image = 'hero\characters-astronaut.jpg'; Title = 'Characters';        Sub = 'Star Rangers' }
+  'src\characters\index.md' = @{ Image = 'hero\characters-concourse.jpg'; Title = 'Characters';        Sub = 'Star Rangers' }
   'src\about\index.md'      = @{ Image = 'hero\about-writer.jpg';        Title = 'About the Author'; Sub = 'Dermot R. Cochran' }
 }
 

@@ -478,7 +478,7 @@ photographs of identifiable strangers: `cormac-dubhghlas`,
 | `lore/mnemari.jpg` | **Tone, not people.** A hockey-mask figure in a hood — slasher iconography, against the standing horror guardrail | A people who never forget and never age. The interest is memory, not menace |
 | `lore/meta-dimensional-beings.jpg` | Generic hooded-figure stock | Three classes of being, sorted by whether talking is possible |
 | `lore/military-space-command.jpg` | Real NASA EVA imagery in a stock composite; licence unverified | A benevolent technocracy that could not last |
-| `hero/characters-astronaut.jpg` | Same family, same unverified provenance | A page hero for the whole cast |
+| `hero/characters-concourse.jpg` | Same family, same unverified provenance | A page hero for the whole cast |
 | `hero/about-writer.jpg` | Typewriter-and-rotary-phone cliché | The About page. Dermot's own photography is the obvious answer here |
 
 **Batch 2, 12 August (4, this PR).** The forty never-opened lore images were
