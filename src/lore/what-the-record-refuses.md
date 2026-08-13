@@ -69,9 +69,31 @@ The fences around the refusal are short and firm. A machine may be powered down 
 
 **Banks of screens — refused as an anachronism.** The rectangular glowing panel, in ranks along a wall or arrayed around an operator's head, is the twentieth century's idea of what a control room looks like, and this record is eleven hundred years past it. **Displays here have moved well beyond the VDU.** There are no monitor arrays, no bezels, no wall of flickering readouts, and no operator lit blue from below by the screen they are staring into.
 
-The record does not fix what replaced them, and that reticence is deliberate: a setting that names its display technology precisely dates itself twice, once when it chooses and again when the choice looks quaint. What can be said is negative and sufficient — information here does not live behind glass, is not confined to a rectangle, and does not require a person to sit in front of it.
+**Holograms are refused with them**, and for the same reason: light sculpted into the air is a spectacle, and this record's technology does not perform. There are no projected figures, no volumetric charts turning above a table, no blue schematics hanging in a room.
 
-Two consequences worth keeping straight. **Light is not a display.** A lamp is a lamp in any century, and a scene that needs illumination should get it from a lamp, a window or the sun rather than from a wall of instruments. And **a room full of screens is not a shorthand for competence** — the Corps' analysts are good at their work for the same reasons anyone is, and surrounding one with hardware says nothing about her that her face does not say better.
+What replaced the screen went quiet instead. **A display in this era is a matte, still, unlit object** — a thin rigid sheet or a bound set of them, read by whatever light is already in the room, the way a page is read. It holds its content without consuming power to do so, changes it without announcing the change, and looks, when it is not being used, like nothing at all. It has no glow, no bezel, no frame, no visible edge to its picture, and no colour it did not need. A Ranger carrying one is carrying something the size and weight of a slim book. Frequently it *is* bound like a book, because the form turned out to be right the first time and nothing since has improved on holding a stack of leaves and turning them.
+
+**A book that is not a book** is the usual way people describe it, and the description is exact in both directions. The object is not paper and holds more than any volume could. It is also, in every way that matters to a person reading it, a book: silent, matte, patient, needing no attention until it is given some, and telling nobody across the room what is on the page.
+
+Three consequences worth keeping straight.
+
+**Nobody's face is ever lit by what they are reading.** There is no under-lit blue glow, no screen-wash across a jawline in a dark room. If a scene has a person and a display in it, the light is coming from a lamp, a window, or the sun — always.
+
+**Light is not a display.** A lamp is a lamp in any century. A room that needs illuminating gets it from fixtures, not from instruments.
+
+**A room full of hardware is not shorthand for competence.** The Corps' analysts are good at their work for the same reasons anyone is, and surrounding one with equipment says nothing about her that her face does not say better. The characteristic image of expertise here is a person at an ordinary table under an ordinary lamp with one still object in front of her — which looks, deliberately, almost exactly like a scholar in any previous century.
+
+### Why so much of this record looks old
+
+That last resemblance is not confined to a desk. It is the reason whole worlds in this record look the way they do, and it is the single most useful thing to understand about the setting's surfaces.
+
+**Technology that does not announce itself does not reshape what a place looks like.** A civilisation whose displays are matte sheets, whose insignia is a seated tab, whose power plant is a grey box on a concrete pad and whose network is simply present has no reason to look futuristic, because none of it is competing for attention. Strip out the glowing rectangles, the projected light and the machines that need to be seen working, and what is left is a settlement shaped by weather, land, materials to hand, and what people actually like living in.
+
+What people actually like, given a free choice, turns out to be much what they always liked. So the [Kingdom of the Four Islands](/star-rangers/lore/planets/kingdom-of-the-four-islands/) keeps a court and a written archive; [Cnoc na mBeach](/star-rangers/lore/cnoc-na-mbeach/) is a hive-yard and a handful of stone cells; [Tír na nÓg](/star-rangers/lore/planets/tir-na-nog/) is farmland; a Fellowship chapter house is a stone building on a green hill with a track running past it. None of these places is backward, poor, or cut off. They are advanced settlements that had no reason to look like anything else.
+
+**The correct reading of a thatched roof here is not "pre-industrial."** It is that thatch works, the material is local, and nothing about the last eleven centuries made it stop working. The technology is in the roof's certification, the settlement's medicine, the fold route that brought its people, and the slim matte book on the table inside — none of which changes the silhouette against the sky.
+
+This cuts the other way too, and the record is careful about it: a place that *does* look industrial looks that way for a reason — a boundary post, a dock, a working station — and the reason is always function, never era.
 
 *(The same reasoning governs uniforms: no Ranger's name is written on their clothing, because a habitat already knows who is aboard. See [Rank, Insignia, and the Ranger Uniform](/star-rangers/lore/rank-insignia-and-uniform/).)*
 
@@ -122,7 +144,8 @@ The corollary is that **cross-species attraction, where it happens at all, is a 
 | Psionics — telepathy, telekinesis | Refused outright (perception is weather-reading; machine silence is engineering) | [Physics Comparison](/star-rangers/lore/physics-comparison/), [Generalised Quantum Mechanics](/star-rangers/lore/generalised-quantum-mechanics/) |
 | The empath | Re-derived: intuition coupled with high sensitivity | [Embodied Cognition](/star-rangers/lore/embodied-cognition/) |
 | Universal immortality | Refused outright | [Mnemari](/star-rangers/lore/mnemari/), [Krenyi](/star-rangers/lore/krenyi/) |
-| Banks of screens, monitor walls, VDU control rooms | Refused as anachronism: displays moved past the glowing rectangle long ago | [Rank, Insignia, and the Ranger Uniform](/star-rangers/lore/rank-insignia-and-uniform/) (the same reasoning retires the name tape) |
+| Banks of screens, monitor walls, VDU control rooms | Refused as anachronism: a display here is a matte unlit sheet read by room light — a book that is not a book | [Rank, Insignia, and the Ranger Uniform](/star-rangers/lore/rank-insignia-and-uniform/) (the same reasoning retires the name tape) |
+| Holograms — projected figures, volumetric charts, floating schematics | Refused outright: the technology does not perform | This page, *The Furniture of the Future* |
 | The interfertile alien — half-human hybrids, children of two peoples | Refused outright: no sapient species crosses with another | [Krenyi](/star-rangers/lore/krenyi/) |
 | Cross-species transfusion and transplant | Refused, and not neutrally — foreign tissue is frequently hazardous, asymmetrically | [Krenyi](/star-rangers/lore/krenyi/) |
 | Cold sleep — cryogenic suspension, suspended animation | Refused outright: never successful, and deliberately declined by the Currach Fleet (machines restore from written state; frozen gametes/embryos are storage, not sleep) | [The Generation-Ark Era](/star-rangers/lore/the-generation-ark-era/), [Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/) |

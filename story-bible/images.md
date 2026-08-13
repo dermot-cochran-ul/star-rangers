@@ -512,7 +512,7 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 - **`naomi-kestrel.jpg`** — junior field investigator, Eden Civil Investigations;
   reads telemetry, manifests and comm chatter "as one continuous sentence."
-  > Cinematic portrait of a young woman analyst in a quiet habitat operations room, upper body, focused expression lit by a single warm work lamp on the desk beside her and soft overhead fixtures, practical dark uniform with a plain unmarked chest and shoulders — no name tape, no name badge, no unit patch, no rank tab, no embroidery and no lettering on her clothing of any kind. Science-fiction space-station interior, muted teal-and-amber palette, professional, no glamour styling. No screens, no monitors, no displays, no consoles, no readouts, no charts and no illuminated panels anywhere in frame; the room is lit by ordinary lamps only. No readable text, numerals, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a young woman analyst at a plain working table in a quiet habitat room, upper body, focused expression, lit by a single warm desk lamp beside her. In front of her lies one slim matte grey reading tablet the size and thickness of a small hardback book, entirely unlit and blank-faced, its surface reflecting the lamp the way a page would; nothing else on the table. Practical dark uniform, plain and unmarked — no name tape, no name badge, no unit patch, no rank tab, no embroidery and no lettering on her clothing of any kind. Calm, uncluttered interior of a well-kept space habitat, warm lamplight against cool shadow, muted palette, professional, no glamour styling. Absolutely no screens, no monitors, no glowing displays, no holograms, no projected light, no consoles, no dials, no gauges, no analogue instrument panels, no filing binders and no loose paper anywhere in frame. Her face is lit only by the lamp, never by anything she is reading. No readable text, numerals, signage, insignia lettering or written characters of any script anywhere in frame. Portrait orientation.
 
 - **`rosalind-vey.jpg`** — tactical specialist, Eden Civil Investigations;
   ex-habitat tactical response, treats a scene as a room that might still be dangerous.
@@ -755,9 +755,62 @@ has to change. Two tests before generating:
   including on a badge.
 - **Never light a scene with a display.** "Lit by the glow of data readouts"
   guarantees readouts, and readouts carry readings. Use practical light — a
-  work lamp, a window, an overhead fixture — and the screens stop being
-  necessary. Applied to `naomi-kestrel`, `lorien-the-wanderer` and `jeeves`
-  on 13 August.
+  work lamp, a window, an overhead fixture. Applied to `naomi-kestrel`,
+  `lorien-the-wanderer` and `jeeves` on 13 August.
+- **But a negative rule alone sends the picture backwards.** Told only what a
+  2826 workspace is *not*, the generator reaches for the last thing it knows,
+  and the first screen-free `naomi-kestrel` re-run came back with walls of
+  analogue dials and a paper ledger — a room that read as about 1975. The lore
+  may decline to specify; **an image cannot.** Anything banned has to be
+  replaced by something nameable.
+
+**What a display actually looks like** (Dermot, 13 August: *"I don't believe in
+holograms — the displays would be more like a Kindle, less glowing lights and
+more like a static object, or even a book that is not a book"*). This is now
+canon on `src/lore/what-the-record-refuses.md`, and it is the positive answer
+every prompt in this file should reach for:
+
+- **Matte, still and unlit.** A thin rigid sheet, or a bound stack of them,
+  read by whatever light is already in the room. No glow, no bezel, no frame,
+  no backlight, no visible screen edge, no colour it did not need.
+- **Book-shaped, often literally bound.** Slim, hand-held, the size and weight
+  of a small hardback. "A book that is not a book" is the in-world phrase and
+  it is exact both ways.
+- **No holograms at all** — no projected figures, no volumetric charts turning
+  above a table, no floating schematics. The technology does not perform.
+- **Nobody's face is ever lit by what they are reading.** No under-lit blue
+  wash, ever. Light comes from a lamp, a window or the sun, always.
+- **The house image of expertise** is therefore a person at an ordinary table
+  under an ordinary lamp with one still object in front of her — which looks,
+  deliberately, almost exactly like a scholar in any earlier century. That
+  resemblance is the point, not a failure of imagination, and it is what makes
+  the near-miss retro rooms above so nearly right: they had the calm and the
+  lamp and got the object wrong.
+
+**And this is why so many of these images should look old** (Dermot, same
+exchange: *"which is why some planets and settlements look medieval and rural
+despite very advanced technology"*). It is the single most useful thing to hold
+on to when briefing a scene, so it is worth stating as a rule rather than
+leaving it to be re-derived every time:
+
+- **Technology that does not announce itself does not reshape a place.** No
+  glowing rectangles, no projected light, no machines that need to be seen
+  working — so nothing is competing for attention, and a settlement ends up
+  shaped by weather, land, local materials and what people actually like
+  living in. Which is roughly what they always liked.
+- **A stone chapter house, a hive-yard, a thatched roof and a farm track are
+  all period-correct for 2826.** Do not "modernise" a rural brief to prove the
+  century. The correct reading of thatch here is not *pre-industrial*; it is
+  that thatch works, the material is local, and nothing in eleven hundred years
+  made it stop working. `the-fusion-ceiling` is the worked example already in
+  hand — timber barns, a gravel yard, hand tools on a rack, and one grey
+  fusion unit on a concrete pad, and it passed cleanly on the first run.
+- **Industrial looks are earned by function, never by era.** A dock, a boundary
+  post or a working station may look like machinery because it *is* machinery.
+  A farm may not.
+- **Consequence for the retro problem above:** the fix is never to add
+  futuristic set-dressing. It is to correct the one object the character is
+  using and leave the world alone.
 
 **A prompt that does not state heritage will have one chosen for it** (added
 2026-08-13, after the `rasa-oyelaran` re-run). An image model fills every gap
