@@ -30,6 +30,26 @@ This is why the Corps' vocabulary has to be read carefully. When a Survey entry 
 
 So the lineage rank is **also a translation**, and a less secure one than it looks. The Corps uses it because a medic treating a Chthonari benefits enormously from knowing which other Undersong organisms that Chthonari resembles, and because within a world the predictions hold. It is a working tool, not a claim about how life reproduces in general, and the Archive would rather say so than be caught assuming.
 
+## Why Life Recurs and Chemistry Does Not
+
+There is a cosmological answer underneath all of this, and it explains the pattern the survey record keeps finding: **life everywhere, minds in many places, and not one shared molecule between any of them.**
+
+The [Cascade](/star-rangers/lore/cosmic-cascade/) distinguishes a [formtype](/star-rangers/glossary/formtype/) — grammar, what shape a thing is *permitted* to have — from an [archetype](/star-rangers/glossary/archecluster/) — vocabulary, the particular recurring things assembled from what the grammar admits. Three placements follow, and the third is the one that matters here.
+
+**Biological life is a formtype.** It is grammar. That there may be self-maintaining, self-replicating, energy-processing structure at all is settled several tiers above any world, which is why life is not a coincidence and not a rarity: wherever conditions permit, something in that shape appears, because the shape was permitted before the world was built.
+
+**Abstract sapience is a formtype too** — that mind is a possible kind of thing, independent of what it is made of. Not *this* mind, not minds of any particular character; the bare permission. This is the reason a [kernel-compliant intelligence](/star-rangers/lore/ai-safety-kernel/) and a Chthonari and a human are all unmistakably minded while sharing nothing whatever in construction.
+
+**Sapience as anyone actually encounters it is an archetype** — vocabulary, assembled from what the grammar allows, recurring across unrelated civilisations in this [archecluster](/star-rangers/glossary/archecluster/) the way the [AI Safety Archetype](/star-rangers/glossary/ai-safety-archetype/) does. Which is precisely why *sapience recurs and body plans do not*: the mind is in the vocabulary, and **no archetype anywhere specifies a shape for the thing carrying it.**
+
+**And DNA is neither.** It has no formtype and no archetype. It is not grammar, not vocabulary, and not a template at any tier — it is **one solution, found once, on one world, out of what that world had to hand**, and it sits below even the Worldwright's physics envelope as pure local contingency. Nothing recurs it. Nothing was ever going to.
+
+**One consequence follows that the Archive states carefully.** The upper tiers of the Cascade are themselves minded — Metawrights, Formwrights, Archewrights and Worldwrights are agents, not mechanisms. If abstract sapience is a formtype, then mind is not something chemistry invented late and locally; it is a permitted shape that appears at every scale where the grammar allows it, and the minds at the top and the minds in a habitat corridor are **instances of the same permission**. Biological sapience is in that sense a *mirror* of the sapience above it — not a copy, not a diminished version, and not an intended likeness. The same shape, expressed at a different tier, because there was only ever one shape to express.
+
+The Archive's position stops precisely there, and says so. **Resemblance across tiers is what a shared formtype predicts and requires no intention behind it** — the [Cascade encodes no moral cosmology](/star-rangers/lore/cosmic-cascade/), the top three tiers are non-anthropomorphic origin conditions inferable only through invariants, and a structural mirror is not evidence of a face looking into it. Devotional tradition reads the same fact considerably further, as *image* rather than *instance*; that reading is [on file where such readings belong](/star-rangers/lore/what-the-record-refuses/) and is not canon here. Both are worth having. Only one of them is a finding.
+
+That is the whole finding in one line: **life and mind are specified; their implementations are not.** Which is why the Corps can expect to meet minded life anywhere and can never expect to meet its own biochemistry, and why a classification built on structure works while one built on substance would have nothing to hold on to.
+
 ## Frames: Structure, and No Claim of Ancestry
 
 A **frame** answers one question — *how is this body held up?* — and answers it functionally. It is an engineering classification wearing biological clothes, it is honest about being one, and it deliberately carries **no implication whatever of relatedness**.
