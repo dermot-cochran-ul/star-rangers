@@ -16,6 +16,20 @@ Across biospheres there is no tree. The [Veyr](/star-rangers/lore/veyr-basaltbor
 
 So a cross-species phylum would be a claim about kinship where no kinship exists. The Survey Corps declined to make one, and split the job in two instead.
 
+## It Goes Deeper Than Ancestry
+
+The absence of a shared ancestor is the easy half. The hard half is that **there is no shared substrate to be ancestral in.**
+
+Nothing in this record obliges another biosphere to use DNA, or nucleic acids at all, or a discrete particulate heredity of any kind. Nothing obliges it to be built of cells. Nothing obliges the division between animal and plant that Solar System biology treats as a fact about life rather than a fact about *one* line of it, and **no other people in this record is a metazoan** — not distantly, not in a modified form, not at all, because metazoa are a clade and a clade is a family, and none of these peoples is in the family.
+
+**And no, it was not seeded.** The obvious objection to all of this is panspermia — the idea that life, or its chemistry, drifted between worlds and gave everyone a common start after all. The record refuses it, on grounds it considers unremarkable: a long fragile information-bearing polymer would have to survive hard vacuum, unfiltered ultraviolet, cosmic radiation and interstellar timescales, then arrive at a competent velocity and pass through an atmosphere without being cooked, and do all of that often enough to matter. **DNA drifting through space is not a mechanism; it is a wish for a tidier galaxy.** Nothing in the survey record supports it, and the alternative it is invoked to avoid — that life started separately, several times, out of whatever each world had to hand — is both simpler and what the evidence looks like.
+
+This is why the Corps' vocabulary has to be read carefully. When a Survey entry says a Verdani *symbiont*, a Chthonari *exoskeleton* or a Prismeri *metamorphosis*, it is using an Earth word for a functionally similar thing, on the record's [standing principle](/star-rangers/lore/timekeeping-and-the-common-record/) that the original is the document and the conversion is the courtesy. The word marks a resemblance in what the thing *does*. It asserts nothing about what it is made of or how it works, and a medic who reads *exoskeleton* and reaches for chitin chemistry has made exactly the error the whole scheme exists to prevent.
+
+**The consequence for the second rank is uncomfortable and the page states it rather than hiding it.** Within one biosphere there is genuine continuity between generations — that much is observed, not assumed, or there would be no species to classify. But *descent*, *inheritance* and *lineage* are Solar System words for it, and the mechanism differs by world and in several cases is not fully characterised. Verdance's kinbed bonding passes a partner rather than a gene, and is treated by the Verdani as more binding than parentage; that is not a quaint local custom sitting on top of a normal heredity, it may simply be what heredity is there.
+
+So the lineage rank is **also a translation**, and a less secure one than it looks. The Corps uses it because a medic treating a Chthonari benefits enormously from knowing which other Undersong organisms that Chthonari resembles, and because within a world the predictions hold. It is a working tool, not a claim about how life reproduces in general, and the Archive would rather say so than be caught assuming.
+
 ## Frames: Structure, and No Claim of Ancestry
 
 A **frame** answers one question — *how is this body held up?* — and answers it functionally. It is an engineering classification wearing biological clothes, it is honest about being one, and it deliberately carries **no implication whatever of relatedness**.
