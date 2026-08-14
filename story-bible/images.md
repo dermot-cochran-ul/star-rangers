@@ -603,6 +603,28 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 **Alien**
 
+**The fourteen unfiled Tier 1 sets predate every rule made on 13 August — do
+not select from them, re-brief them.** Sampled two on 13 August and both failed
+for reasons that were not rules when they were generated:
+
+- **`sen`** — a warm, genuinely lovely archive scene, and wrong twice. A brass
+  anglepoise lamp, which the lighting rule now retires by name, and a wall of
+  cardboard box files with paper labels, which is a mid-twentieth-century
+  office rather than a Survey Archive. Displays are matte slates here.
+- **`eden-warden`** — a single humanoid android face in a corridor, against a
+  review-table brief that already said *"a plural habitat AI, two personas in
+  one system. **Not a face at all, arguably.**"* A whole habitat's mind is not
+  one body standing in a walkway.
+
+The rest of the batch was generated in the same run and against the same
+pre-review briefs, so the expected yield from reviewing all twenty-eight images
+is low and the effort is better spent on the briefs. **Work through them entry
+by entry**: check each against the display, lighting, lettering, insignia,
+cast-variety and non-humanoid rules above, rewrite, then regenerate. The
+medieval-set entries — `brother-daire`, `ilsabet-marrowtide` — are the likeliest
+survivors, since a period look is correct for them and the display rules barely
+apply.
+
 **Non-humanoid species — briefed from the new lore pages, 13 August.** All three
 of these were blocked until the species had a body in prose. They now do:
 `src/lore/serephine-dunekin.md`, `veyr-basaltborn.md`, `verdani.md`. The prompts
