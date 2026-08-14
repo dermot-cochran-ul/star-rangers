@@ -625,6 +625,21 @@ medieval-set entries — `brother-daire`, `ilsabet-marrowtide` — are the likel
 survivors, since a period look is correct for them and the display rules barely
 apply.
 
+**Both of them did survive, and are filed** (13 August), which confirms the
+diagnosis: what dated the rest was the *future* furniture, and these two have
+none. Daire is a scribe at a sloped desk with quill, ink pot and vellum in a
+stone cell; Marrowtide is an abbess in a stone passage with grey sea through the
+arch behind her. Neither needed a rule that did not exist in 1216.
+
+**And Daire settles something the lettering ban had left open: a scribe may
+write.** His vellum carries close script and the entry passes anyway, because
+the ban was always aimed at *signage and labels* — the readable word asserting a
+name, a place or a rank — and never at the act of writing as a subject. The test
+is unchanged and it is the only one that matters: **nothing in frame may be
+legible.** Script that reads as writing without resolving into words is correct
+here, and would be correct on any archive, ledger or manuscript entry. Nine sets
+still need re-briefing.
+
 **Non-humanoid species — briefed from the new lore pages, 13 August.** All three
 of these were blocked until the species had a body in prose. They now do:
 `src/lore/serephine-dunekin.md`, `veyr-basaltborn.md`, `verdani.md`. The prompts
