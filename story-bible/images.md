@@ -603,6 +603,43 @@ below are ready to paste; add `image`/`image_alt` after generating.
 
 **Alien**
 
+**The fourteen unfiled Tier 1 sets predate every rule made on 13 August — do
+not select from them, re-brief them.** Sampled two on 13 August and both failed
+for reasons that were not rules when they were generated:
+
+- **`sen`** — a warm, genuinely lovely archive scene, and wrong twice. A brass
+  anglepoise lamp, which the lighting rule now retires by name, and a wall of
+  cardboard box files with paper labels, which is a mid-twentieth-century
+  office rather than a Survey Archive. Displays are matte slates here.
+- **`eden-warden`** — a single humanoid android face in a corridor, against a
+  review-table brief that already said *"a plural habitat AI, two personas in
+  one system. **Not a face at all, arguably.**"* A whole habitat's mind is not
+  one body standing in a walkway.
+
+The rest of the batch was generated in the same run and against the same
+pre-review briefs, so the expected yield from reviewing all twenty-eight images
+is low and the effort is better spent on the briefs. **Work through them entry
+by entry**: check each against the display, lighting, lettering, insignia,
+cast-variety and non-humanoid rules above, rewrite, then regenerate. The
+medieval-set entries — `brother-daire`, `ilsabet-marrowtide` — are the likeliest
+survivors, since a period look is correct for them and the display rules barely
+apply.
+
+**Both of them did survive, and are filed** (13 August), which confirms the
+diagnosis: what dated the rest was the *future* furniture, and these two have
+none. Daire is a scribe at a sloped desk with quill, ink pot and vellum in a
+stone cell; Marrowtide is an abbess in a stone passage with grey sea through the
+arch behind her. Neither needed a rule that did not exist in 1216.
+
+**And Daire settles something the lettering ban had left open: a scribe may
+write.** His vellum carries close script and the entry passes anyway, because
+the ban was always aimed at *signage and labels* — the readable word asserting a
+name, a place or a rank — and never at the act of writing as a subject. The test
+is unchanged and it is the only one that matters: **nothing in frame may be
+legible.** Script that reads as writing without resolving into words is correct
+here, and would be correct on any archive, ledger or manuscript entry. Nine sets
+still need re-briefing.
+
 **Non-humanoid species — briefed from the new lore pages, 13 August.** All three
 of these were blocked until the species had a body in prose. They now do:
 `src/lore/serephine-dunekin.md`, `veyr-basaltborn.md`, `verdani.md`. The prompts
@@ -784,7 +821,8 @@ own `role` and `description`; no fact here is invented.
 - **`eden-warden.jpg`** — Eden's resident AI collective: two Kernel-compliant
   personas, Ward and Custos, sharing one system, with standing authority over the
   habitat's mobile AI humanoids.
-  > Cinematic portrait of a habitat artificial intelligence presenting through one of its mobile humanoid bodies, upper body, a single calm figure whose face is plainly manufactured rather than human - matte shell with visible seams and joins, even unremarkable features, eyes that are clearly optical instruments - in plain unadorned habitat service livery with no rank marks, standing at rest in a habitat concourse during the sleep hours with the lights down and nobody about, one soft pool of light where it stands, the concourse curving away into dim distance, science-fiction orbital habitat, pale blue and bone, custodial and watchful over an empty place rather than watching anyone, one body only, no mirrors, no doubling, no split lighting, no surveillance or scanning graphics, professional, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  **Re-brief 13 August. Dermot: the Warden may not have a body at all, other than in the sense that the habitat structure is its body.** The previous prompt asked for it to present through a mobile humanoid, and the return was a single android face in a corridor — which is wrong twice over: the mobile humanoids on Eden are *other people* the Warden holds welfare authority over, not limbs, and a whole habitat's mind is not one body standing in a walkway. So the portrait is Eden. The Warden is not depicted; it is **inhabited**, and what a resident can actually see is the habitat behaving.
+  > Wide interior view of a great inhabited orbital ring habitat seen from inside along its curve, the floor rising away in both directions until it closes overhead. Green cultivated terraces, small low buildings and a rail line follow the curve into the distance. Soft diffuse light spread evenly across the whole volume from concealed sources, with no visible lamp, fitting or bulb anywhere. The scene is entirely empty of people and of any figure, face, robot, android, humanoid form, statue or silhouette of any kind — nothing in the image is a body. The habitat is plainly awake and attended: lights already lit along a walkway, a hatch standing open, the rail lit and running, everything in order and nobody present to have done it. Calm, spacious, quiet and slightly uncanny, warm greens against cool structure, photographic and grounded. No screens, no holograms, no glowing displays, no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
 
 - **`brother-daire.jpg`** — thirteenth-century monastic scribe of Cill Aoife who
   set down the only surviving account of Saint Aoife's vision at the thorn well.
