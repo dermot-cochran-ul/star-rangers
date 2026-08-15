@@ -5,7 +5,7 @@ category: "Factions"
 tags: [federation-of-sentient-beings, faction, multi-species, cooperative, star-rangers, aspenar]
 description: "A peaceful multi-species cooperative of independently governed worlds, organised around mutual aid rather than central authority, and the Star Rangers' longest-standing external partner."
 image: "federation-of-sentient-beings.jpg"
-image_alt: "A cargo spacecraft and earth"
+image_alt: "An uncrewed satellite in low orbit, photographed from above and behind: a boxy silver instrument bus with a white dish antenna on a mast and two solar arrays spread on either side, against a dense star field, with the cloud-covered curve of Earth filling the lower half of the frame."
 ---
 
 Most first-contact records read like negotiations. The Federation of Sentient Beings' contact record with the Star Rangers reads like a supply manifest — because that is what it was.
