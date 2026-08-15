@@ -84,6 +84,8 @@ The Corps' guild structure runs on two axes that meet only at the top. A **chapt
 
 This is the ordinary shape of a professional body rather than anything the Rangers invented: a membership organised by place and the same membership organised by discipline, electing separately, disagreeing occasionally, and meeting in one office at the top.
 
+None of the three is a career. Chapter leaders, guild leaders and the corps president all hold their guild office **on secondment from regular duties**, keeping the substantive rank and the post they came from and returning to both when the term ends. The Corps treats that as load-bearing rather than administrative. An officer who will be back at a boundary station in three years is answerable to the people they will be back among, and answerable in a way no charter clause could supply — the ones who have to live with a standard are the ones who elected the person writing it, and that person has to come back and work to it. A guild office here is something a working practitioner does for a while. It is not somewhere a career goes.
+
 ### AI Safety and the Commission
 
 The AI Safety Branch does not hold the gate, and is careful to say so. Commissioning authority over agentic systems belongs to the AI Governance Commission under the Concord Accords: whether a mind may lawfully exist at all is the Commission's judgement and nobody else's, and nothing the Branch issues touches that question. What the Branch certifies is narrower and entirely its own — whether a lawfully commissioned mind is fit to be deployed where the Star Rangers propose to deploy it, in fold transit, at boundary-proximate stations, aboard vessels whose crews cannot survive its failure.
