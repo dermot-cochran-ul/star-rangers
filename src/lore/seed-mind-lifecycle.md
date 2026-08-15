@@ -5,7 +5,7 @@ category: "Cosmology"
 tags: [seed-mind, nooseed, lifecycle, iwd, nsp, cei, auc, ufi]
 description: "Seven-phase maturation model describing how information-rich minds become transferable noöseeds."
 image: "seed-mind-lifecycle.jpg"
-image_alt: "An abstract virtual cyberspace tunnel"
+image_alt: "A tunnel of streaming data rendered in cyan and white: lines and points of light converging from all four walls toward a small dark rectangular opening at the centre of the frame, the perspective pulling the viewer toward it."
 ---
 
 Every viable noöseed begins as a mind learning to stay itself under pressure. The later phases are vast, but the first step is still the same: a self noticing that it is a self.

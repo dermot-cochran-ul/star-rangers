@@ -5,7 +5,7 @@ category: "Species"
 tags: [mnemari, species, ilenne, federation-of-sentient-beings, memory, mediation, indefinite-lifespan]
 description: "A sapient people native to Ilenne with no natural upper bound on lifespan and no natural decay of memory — whose culture is built less around growing old than around what to do with a mind that never has to let anything go."
 image: "mnemari.jpg"
-image_alt: "Designed placeholder card for Mnemari: the title set in pale serif type over a dark blue-black gradient, headed ILLUSTRATION PENDING. No illustration for this entry exists yet."
+image_alt: "Designed title card on a dark violet star field: the category SPECIES in spaced capitals at the top, the thin outline of a standing figure held in a soft glow, and below a short rule the title MNEMARI in pale serif capitals, subtitled 'Those Who Do Not Forget' and 'No upper bound on lifespan, no decay of memory'."
 ---
 
 Ask a Mnemari mediator how they can quote both sides of a two-century-old boundary dispute word for word, and the answer is never framed as a feat. It is framed as a liability they have learned, slowly, to carry without it crushing them.

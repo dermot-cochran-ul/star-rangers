@@ -5,7 +5,7 @@ category: "Cosmology"
 tags: [boundary, concordant, concordance, threshold, instrument-drift, physical-law]
 description: "How boundary zones produce measurable physical effects and why they are operationally constrained environments — and why the kind Rangers actually work in is a narrowing between universes, not an edge between Concordant Zones."
 image: "boundary-zones.jpg"
-image_alt: "Multicolour cosmic art of outer space"
+image_alt: "A wide, highly saturated nebula: rust and orange cloud on the left, a white and pale-blue core around a single bright starburst in the centre, and teal, yellow and magenta banks on the right, with dark dust pillars standing against them and stars scattered throughout."
 ---
 
 At a boundary station, two clocks can disagree by seconds and both still be telling the truth. That is the first lesson of a boundary zone.

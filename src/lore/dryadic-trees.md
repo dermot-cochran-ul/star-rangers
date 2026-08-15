@@ -5,7 +5,7 @@ category: "Flora"
 tags: [dryadic-trees, flora, class-ii, meta-dimensional, etheric, boundary, anchor-points, sapient-monsters]
 description: "Dryadic trees are organisms whose root systems extend into the Etheric layer, making them natural anchor points exploited by Class II meta-dimensional beings as stable footholds in Material space."
 image: "dryadic-trees.jpg"
-image_alt: "A macro photograph of alien-looking lichen"
+image_alt: "A macro photograph of pale grey-green cup lichen growing along the split edge of a weathered piece of dead wood, its tiny stalks opening into shallow cups like miniature trumpets, against a soft green blur of woodland."
 ---
 
 At Marsh Causeway, the wind moves first and the leaves answer a heartbeat later. That slight delay is often the first sign that a dryadic grove is nearby.

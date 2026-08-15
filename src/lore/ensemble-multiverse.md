@@ -5,7 +5,7 @@ category: "Cosmology"
 tags: [grand-ensemble-multiverse, cosmology, dimensions, etheric, compact-dimensions, common-manifold, spacetime, worldwright, concordant, post-11-manifold]
 description: "The infinite collection of universes authored under the Cascade, and why our home universe's 3+7+1 dimensional structure is a local fact rather than a cosmic constant."
 image: "ensemble-multiverse.jpg"
-image_alt: "A detail from the milky way"
+image_alt: "A close night-sky photograph of the Milky Way's core: dense blue and violet star fields crossed by pale luminous dust and darker lanes, filling the whole frame with no horizon in view."
 ---
 
 Ask a Survey Corps physicist how many dimensions space has and they will ask which universe you mean. The question has an answer at home. It does not have the same answer everywhere.

@@ -5,7 +5,7 @@ category: "Cosmology"
 tags: [intermembrane-bleed, membrane-resonance, etheric, post-11-manifold, common-manifold, interval, compact-dimensions, concordant, boundary-zone, threshold-station]
 description: "The cosmic-membrane model underlying inter-universe Etheric effects: each primary universe as a bounded membrane in the Common Manifold, the Interval that separates them, and what happens when two draw close enough to interfere."
 image: "concordant-membranes.jpg"
-image_alt: "A star field deep space scene with nebula"
+image_alt: "A deep-space scene in blue and violet: one small brilliant white point of light near the centre, ringed by a faint halo, with luminous filaments streaming past it and heavy purple cloud filling the lower half of the frame."
 ---
 
 Survey Corps analysts spent decades calling it "Etheric interference" and filing it next to instrument drift, because both showed up at the same stations for the same reason and nobody had a tighter word for either. The post-11 manifold gave them the physical geometry. It took longer to get the Etheric half of the picture into the same diagram.

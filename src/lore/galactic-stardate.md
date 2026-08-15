@@ -5,7 +5,7 @@ category: "Timeline Notes"
 tags: [timeline, stardate, chronology, standards, galactic-rotation]
 description: "A long-range stardate system measured by galactic rotation cycles rather than planetary years."
 image: "galactic-stardate.jpg"
-image_alt: "An old clock and calendar page"
+image_alt: "A sepia-toned double exposure: the face of an antique clock with Roman numerals and ornate filigree hands, overlaid on the grid of a paper calendar whose dates run from seventeen to twenty-eight, so that the two sets of numbers read across each other."
 ---
 
 When archives must outlast planets, they stop trusting planets as their clock. That is the civic logic behind Galactic Stardate.

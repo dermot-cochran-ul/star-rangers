@@ -499,6 +499,23 @@ are near-identical light-trace abstracts, the same repetition the `prismere-*`
 note complains about — but neither makes a false claim, and replacing them is
 taste rather than need.
 
+**Batch 3, 15 August (2, deleted not carded).** Surfaced by the alt-text pass
+rather than looked for. Both were **deleted outright**, following the eight
+verified stock images of 11 August: a lore page renders cleanly with no image,
+and absence beats a picture that is quietly making a claim. Neither has a
+PENDING card, so neither shows up in the placeholder queue — they are recorded
+here instead, and both pages currently open with no image at all.
+
+| Image | Why it went | What its replacement has to carry |
+| --- | --- | --- |
+| `formation-of-star-rangers.jpg` | A **recognisable real city** — a sepia-treated skyline with One World Trade Center's spire unmistakable in it — standing in for the founding of the Star Rangers. No people, so not a privacy case; the problem is that it is a specific place on Earth with its own meaning already attached | The founding of an independent humanitarian corps. Something that is not a photograph of somewhere real |
+| `universal-cosmic-stardate.jpg` | An antique dial engraved **in French with a fleur-de-lis border**, on the entry for a count whose whole argument is that it *"commemorates no founding … a spine that honoured an event would belong to whoever owned the event."* The image hands the standard to exactly one nation's heraldry | A civil timescale owned by nobody. The page's own material is better: an ensemble of clocks, a paper timescale, a loop that closes |
+
+**Note what the July audit did and did not ask.** `formation-of-star-rangers`
+was inspected in that sweep and passed — correctly, on the question being asked,
+which was whether the alt matched the image. Nobody asked whether the image
+belonged. Two different tests, and only one of them was ever run on it.
+
 **The cheapest good answer to several of these is tier 3 of Open work 6** —
 Dermot's own photography. An Irish upland standing in for Ynys Wydrin claims
 nothing false and needs no prompt at all.
@@ -1531,17 +1548,35 @@ when already in the file, never as a project. **Roughly half the 66.**
 So the real work is **25–30 images**, not 66 — and a good share of those
 should come from the camera rather than a prompt.
 
-#### Five images are doing nine jobs
+#### Five images are doing nine jobs — RESOLVED 15 August 2026
 
-Byte-identical files under different names (MD5-checked):
+Byte-identical files under different names (MD5-checked). **All five are now
+resolved, and a full MD5 scan of `src/images/` returns no duplicate group at
+all.** The first three had already been fixed by earlier work without this note
+being updated — a reminder that these tables go stale silently.
 
-| Kept by | Also serving as |
-|---|---|
-| `characters/bertram-ashcombe.jpg` | `lore/planetary-liaisons-and-recruiters.jpg` |
-| `characters/elvira.jpg` | `lore/planets/verdance.jpg` |
-| `characters/brother-daire.jpg` | `lore/monasteries-of-mars.jpg` |
-| `lore/star-rangers-command-hierarchy.jpg` | `lore/frontier-transformation-protocols.jpg` |
-| `lore/post-eleven-dimensional-manifold.jpg` | `lore/threnos-omega.jpg` |
+| Kept by | Also serving as | Resolution |
+|---|---|---|
+| `characters/bertram-ashcombe.jpg` | `lore/planetary-liaisons-and-recruiters.jpg` | fixed earlier; note was stale |
+| `characters/elvira.jpg` | `lore/planets/verdance.jpg` | fixed earlier; note was stale |
+| `characters/brother-daire.jpg` | `lore/monasteries-of-mars.jpg` | fixed earlier; note was stale |
+| `lore/star-rangers-command-hierarchy.jpg` | `lore/frontier-transformation-protocols.jpg` | duplicate deleted 15 Aug; the frontier page is now image-less and needs one |
+| `lore/threnos-omega.jpg` | ~~`lore/post-eleven-dimensional-manifold.jpg`~~ | duplicate deleted 15 Aug, then **flipped on Dermot's ruling the same day**: Threnos-Ω keeps the ring, and the Common Manifold page is now image-less and needs one |
+
+**A sixth pair this note never had**, found by rescanning on 15 August rather
+than trusting the table: `hero/glossary-book.jpg` was byte-identical to
+`lore/canonical-glossary-and-migration-guide.jpg`. Resolved differently from the
+other two, because both *uses* are legitimate — a section hero and a lore
+entry's own image — and only the second copy was redundant. The hero file was
+deleted and `src/glossary/index.md` now points at the lore copy directly. **Note
+the wrinkle:** `lore-entry.njk` hardcodes `/images/lore/`, so an `image:` field
+cannot reach across into `hero/`, but an explicit `<img src>` in a page body can
+reach the other way. That asymmetry decided the direction; it was not a
+preference.
+
+**Which page kept the image, in the two lore pairs, followed this table's own
+"Kept by" column** rather than a fresh judgement — flipping either is a
+one-line front-matter change plus a file rename.
 
 The pattern in the first three is one error: **a character portrait reused as
 the illustration for an institution or a place.** Proposed rule — *the
@@ -1612,11 +1647,29 @@ the moment a prompt moves up it has been decided.
   > A small planetary liaison office on a quiet colony world, a plain desk and two chairs by a window looking onto an ordinary street, a coat on a hook and a cooling cup left on the sill, no people in frame, unglamorous and administrative, far-future science-fiction setting, warm muted daylight palette, no readable text, signage or insignia lettering of any kind. Landscape orientation.
 
 - **`frontier-transformation-protocols.jpg`** / **`star-rangers-command-hierarchy.jpg`**
-  — byte-identical. Which page keeps it is Dermot's call; the other needs a
-  prompt. **Not written yet: neither file has been opened.**
+  — byte-identical; **deduplicated 15 August**, the command-hierarchy page
+  keeping the file per the table's "Kept by" column. Both files have now been
+  opened: the image is a tight close-up of a delegate's electronic voting
+  console on a wooden desk, the chamber's blue seating thrown out of focus
+  behind it — which suits neither page especially well, and suits *frontier
+  transformation* least. **The Frontier Transformation Protocols page is now
+  image-less and needs one.** Prompt still not written: what that entry is
+  about is a protocol for changing a world, and nothing in a debating chamber
+  says so.
 
 - **`threnos-omega.jpg`** / **`post-eleven-dimensional-manifold.jpg`** — same
-  situation, same reason. **Not written yet.**
+  situation; deduplicated 15 August with the manifold page keeping the file, and
+  then **flipped the same day on Dermot's ruling: Threnos-Ω keeps the ring.**
+  The reason is recorded because it is the kind that goes missing: this file
+  already calls `lore/threnos-omega.jpg` "the precedent for a membrane
+  portrait", so the image had standing on that page specifically, and the
+  original "Kept by" column was pointing the wrong way.
+
+  **The Common Manifold page is now image-less and needs one.** Prompt not
+  written. What it has to carry is harder than the ring was: higher-order
+  spacelike and timelike structure shared by every universe in the Cascade
+  regardless of its own dimensional floor — a *shared* substrate, not a
+  boundary, so a membrane or a ring is exactly the wrong figure for it.
 
 #### Convention breaches, separately
 

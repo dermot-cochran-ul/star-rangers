@@ -5,7 +5,7 @@ category: "Institutions"
 tags: [star-rangers, rank, command-hierarchy, field-officer, chief, chief-provost, chief-science-officer, science-corps, guild-leadership, chapter-leader, corps-president, starwarden, archwarden, starwarden-first-officer, line-captain, star-captain, high-captain, council-of-high-captains, triumvirate, field-triumvirate, chain-of-command, oversight-council, institutions]
 description: "The Star Rangers' internal rank ladder, from Novice to the Triumvirate, how a civil-service career track and a naval command track were fused into one chain at founding, why the specialist corps are governed as guilds the command ladder has no say over, when a field-level Triumvirate can authorise emergency action, and why the Rangers are neither an army nor a navy despite sounding like one."
 image: "star-rangers-command-hierarchy.jpg"
-image_alt: "The interior of an empty parliament chamber"
+image_alt: "A close-up of a delegate's electronic voting console on a long wooden desk in an empty debating chamber: a wedge of grey plastic with a card slot, a small blue screen and three buttons marked with a circle, a cross and a tick, its white cable trailing left. The curving desk and rows of empty blue upholstered seats behind it are out of focus."
 ---
 
 Ask a Ranger why the ranks sound like a navy and most will shrug: ships and stations need one person who is unambiguously in command when the instruments disagree with each other and there is no time to convene a committee about it. Ask why the charter still calls the Rangers independent of "any military command hierarchy" and the same Ranger will point out that the two facts are not in tension. One is about where authority sits. The other is about who it answers to.

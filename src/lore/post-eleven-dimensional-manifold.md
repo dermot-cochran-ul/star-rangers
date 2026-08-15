@@ -4,8 +4,6 @@ title: "The Common Manifold (Post-11 Dimensional Manifold)"
 category: "Cosmology"
 tags: [cosmology, dimensional-topology, spacelike, timelike, cascade, common-manifold, compact-dimensions, interval]
 description: "The higher-order spacelike and timelike structure shared by every universe in the Cascade, regardless of its own dimensional floor — and why Survey Corps still calls it the post-11 manifold."
-image: "post-eleven-dimensional-manifold.jpg"
-image_alt: "An abstract background with a black hole"
 ---
 
 When the local dimensions explain the injury but not why the clocks keep disagreeing, Survey Corps analysts look higher. That suspicion points into the Common Manifold.

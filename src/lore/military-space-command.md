@@ -5,7 +5,7 @@ category: "Factions"
 tags: [msc, military-space-command, faction, solar-system, technocracy, governance, history]
 description: "The Military Space Command: the benevolent technocratic authority that governed the Solar System before the founding of the Star Rangers — and why it could not last."
 image: "military-space-command.jpg"
-image_alt: "Designed placeholder card for Military Space Command: the title set in pale serif type over a dark blue-black gradient, headed ILLUSTRATION PENDING. No illustration for this entry exists yet."
+image_alt: "Designed title card on a dark blue-black star field: the category FACTIONS in spaced capitals at the top, three stacked chevrons pointing upward in a soft glow, and below a short rule the title MILITARY SPACE COMMAND in pale serif capitals, subtitled 'Before the Star Rangers' and 'A benevolent technocracy that could not last'."
 ---
 
 On Mars, a command file could move flawlessly through review while a real emergency aged by the week. That was the Military Space Command at its most competent and most fatal.

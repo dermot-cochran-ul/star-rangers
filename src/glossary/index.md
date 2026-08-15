@@ -4,7 +4,7 @@ title: "Glossary"
 eleventyComputed:
   description: "Definitions of every term, name, and concept used in {{ site.name }}."
 ---
-<img class="page-hero-image" src="/star-rangers/images/hero/glossary-book.jpg" alt="An open old book" />
+<img class="page-hero-image" src="/star-rangers/images/lore/canonical-glossary-and-migration-guide.jpg" alt="An old hardback book with a green cloth cover, lying open on a plain white background at a double spread of blank, age-yellowed pages." />
 <h1 class="page-title">Glossary</h1>
 <p class="page-intro">
   Words fail first when a frontier starts to slip. This glossary fixes the terms used across the record. If a term carries rival meanings in-universe, the confirmed canonical sense appears first.
