@@ -5,7 +5,7 @@ category: "Cosmology"
 tags: [worldwrights, hierarchy, cei, ufi, concordants, levrils, kaelor-virex, soryth-valen]
 description: "Contrasting Worldwright systems and their effects on novelty, stability, seed production, and in-universe governance load."
 image: "competing-designs.jpg"
-image_alt: "A sci-fi blue led futuristic tunnel"
+image_alt: "A symmetrical diagram in cyan on black: concentric rings around a single small central dot, filled with radiating dashes and dotted arcs, and a regular grid of small cyan ellipses spaced across the corners of the frame."
 ---
 
 # Worldwright Design Philosophies

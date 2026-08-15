@@ -5,7 +5,7 @@ category: "Physics"
 tags: [universe-overlap, folding, concordant, boundary, higher-dimensional, secondary-universe]
 description: "Formal mechanics for universe overlap and folding, including constraints and measurable outcomes. Secondary and subsequent universes are derived from primary ones."
 image: "universe-overlap-and-folding.jpg"
-image_alt: "An abstract background with an energy sphere"
+image_alt: "A glowing sphere isolated on black: a turbulent red and magenta interior seen through a translucent shell, with bright cyan lines tracing irregular closed loops across its surface like a cage laid over it."
 ---
 
 Two instruments can watch the same corridor and return different, valid maps of it. When that happens, the question is not whether reality broke. The question is whether overlap or folding changed the geometry you were standing in.

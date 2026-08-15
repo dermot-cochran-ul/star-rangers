@@ -5,7 +5,7 @@ category: "Cosmology"
 tags: [cosmology, cascade, hierarchy, hyperomnium, kieme, conseleme, worldwright, concordant, telearchs, mediarchs, celestials, levrils, champions]
 description: "The strict hierarchy of causal authority in the Grand Ensemble Multiverse, from Hyperomnium to Champions/Heroes."
 image: "cosmic-cascade.jpg"
-image_alt: "A space galaxy background"
+image_alt: "A night-sky photograph of the Milky Way, its band of violet star clouds and dark dust lanes running diagonally across the frame, thousands of individual stars resolved around it, a thin meteor streak at the upper left and a warm orange glow along the horizon at the bottom."
 ---
 
 When witnesses say a dragon changed fate, the archives ask a colder question first: *which tier acted, and under what constraint?* That question leads into the Cascade.
