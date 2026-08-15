@@ -59,4 +59,4 @@ They are non-sapient. Their behaviour is instinctive pattern-matching against vu
 - [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/) — where these three sit relative to entities that do hold Cascade standing
 - [The Right Question (S01E03C02)](/star-rangers/seasons/s01/e03/s01e03c02/) — a Court-Fae feeding condition broken by clarity
 - [Shown, Not Healed (S07E01C02)](/star-rangers/seasons/s07/e01/s07e01c02/) — the Gilded Saint counter, taught under live conditions
-- [Saint Aoife](/star-rangers/lore/saint-aoife/) — the shown/healed distinction, six centuries early
+- [Saint Aoife](/star-rangers/lore/saint-aoife/) — the shown/healed distinction, fourteen centuries early
