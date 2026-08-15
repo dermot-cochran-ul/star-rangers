@@ -10,7 +10,7 @@ image_alt: "Designed cover for the Star Rangers Safety Corps: a teal shield-and-
 
 A testing standard printed in Chicago in 1894 still casts a shadow across fold gates and boundary stations. The Safety Corps remembers that origin as lineage, not trivia.
 
-The Star Rangers Safety Corps is the oldest continuous institutional ancestor within the Star Rangers organisational family. Its operational culture predates the Star Rangers by nearly seven centuries. Its founding document is not the Consolidation Accords or the Star Rangers Charter; it is a product safety testing standard published in Chicago in 1894.
+The Star Rangers Safety Corps is the oldest continuous institutional ancestor within the Star Rangers organisational family. Its operational culture predates the Star Rangers by more than six centuries. Its founding document is not the Consolidation Accords or the Star Rangers Charter; it is a product safety testing standard published in Chicago in 1894.
 
 Within the Safety Corps, that fact is not treated as irony. It is treated as doctrine.
 
