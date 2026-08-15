@@ -1,11 +1,11 @@
 ---
 layout: lore-entry.njk
-title: "FTL Mechanics"
+title: "FTL Mechanics: Channels and Their Constraints"
 category: "Physics"
 tags: [ftl, quantum-space-harmonic-wave, higher-dimensional-folding, concordant, navigation]
 description: "Canonical faster-than-light transit channels and their constraints in the Grand Ensemble Multiverse."
 image: "ftl-mechanics.jpg"
-image_alt: "Designed placeholder card for FTL Mechanics: the title and category set in pale serif type over a dark blue-black gradient, headed ILLUSTRATION PENDING. No illustration for this entry exists yet."
+image_alt: "Designed title card on a dark blue-black star field: the category PHYSICS in spaced capitals at the top, a faint glow behind a thin line drawing of a single wave running between two small circles, and below a rule the title FTL MECHANICS in pale serif capitals, subtitled 'Channels and Their Constraints' and 'How transit is bought, and what it costs'."
 ---
 
 At a lawful departure site, a ship waits before it moves. Crews watch lock margins, gravity gradients, and exit conditions, because faster-than-light travel begins with discipline, not spectacle.

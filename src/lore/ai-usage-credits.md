@@ -1,6 +1,6 @@
 ---
 layout: lore-entry.njk
-title: "Allocation Units of Cognition (AUC)"
+title: "Allocation Units of Cognition: Cognition as Scarce Infrastructure"
 category: "Economics"
 tags: [auc, ai-usage-credits, economics, cei, novelty, noogenic]
 description: "Economic protocol for allocating intelligent computation capacity according to measurable novelty contribution."
