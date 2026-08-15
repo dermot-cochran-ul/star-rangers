@@ -8,6 +8,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const crypto = require("crypto");
 const matter = require("gray-matter");
 const { CONTENT_TYPES, TIMELINE_TYPE, CHAPTER_ID_PATTERN, isTimelineEntry, chapterIdFor } = require("../lib/content-schema");
 const { privateThreadForPage, checkPrivateThreadSignatureTags } = require("../lib/content-filter");
@@ -313,6 +314,47 @@ function checkOrphanImages(index, corpus) {
     : [];
 }
 
+// Byte-identical image files under different names. Added 2026-08-15 after a
+// manual MD5 sweep found three pairs - six files, three pictures - none of
+// which any existing check could see: checkOrphanImages only asks whether a
+// file is referenced, and both halves of a duplicate pair are.
+//
+// The cost is not the wasted bytes. A duplicate hides that a page has no image
+// of its own: `frontier-transformation-protocols.jpg` looked like a bespoke
+// illustration and was a second copy of the command-hierarchy photo, so the
+// gap never appeared in any queue. story-bible/images.md had recorded two of
+// the three pairs and gone stale on the rest, which is exactly the job to give
+// a gate rather than a note.
+//
+// There is deliberately no allowlist, because a duplicate is always avoidable.
+// Sharing one picture across two pages is expressible with ONE file and two
+// references - `image:` for pages in the same directory, or an explicit
+// <img src="/star-rangers/images/..."> in a page body for pages that are not,
+// since lore-entry.njk hardcodes /images/lore/ and an `image:` field cannot
+// reach across into hero/. If a second copy ever looks necessary, that
+// asymmetry is the thing to reach for first.
+function checkDuplicateImages(imagePaths) {
+  const byHash = new Map();
+  for (const p of imagePaths) {
+    const hash = crypto.createHash("md5").update(fs.readFileSync(p)).digest("hex");
+    const rel = path.relative(IMAGES_DIR, p).split(path.sep).join("/");
+    if (!byHash.has(hash)) byHash.set(hash, []);
+    byHash.get(hash).push(rel);
+  }
+  const problems = [];
+  for (const group of byHash.values()) {
+    if (group.length < 2) continue;
+    const sorted = group.slice().sort();
+    problems.push(
+      `${sorted.length} byte-identical copies of one image: ${sorted.map((r) => `src/images/${r}`).join(", ")}` +
+        ` - keep one file and point every reference at it, or replace all but one with a different picture`
+    );
+  }
+  return problems.length
+    ? [{ relativePath: path.join("src", "images"), label: "duplicate images", problems }]
+    : [];
+}
+
 // Slugs named in story-bible/images.md that no longer exist on disk. This is
 // the check that would have caught `dagny-voss`.
 //
@@ -396,7 +438,8 @@ function main() {
   // Chains must have exactly one current version: chain base -> count of pages
   // declaring it that nothing supersedes.
   const chainCurrent = new Map();
-  const imageIndex = indexImages(findImageFiles(IMAGES_DIR));
+  const imageFiles = findImageFiles(IMAGES_DIR);
+  const imageIndex = indexImages(imageFiles);
 
   for (const filePath of files) {
     const relativePath = path.relative(process.cwd(), filePath);
@@ -473,6 +516,7 @@ function main() {
   ];
   const corpus = referencingFiles.map((f) => fs.readFileSync(f, "utf8")).join("\n");
   fileProblems.push(...checkOrphanImages(imageIndex, corpus));
+  fileProblems.push(...checkDuplicateImages(imageFiles));
   fileProblems.push(...checkStoryBibleImageRefs(imageIndex));
 
   if (fileProblems.length === 0) {
