@@ -5,7 +5,7 @@ category: "History"
 tags: [usc, united-space-consortium, history, governance, solar-system, faction, predecessor]
 description: "The United Space Consortium: the Solar System's first attempt at interplanetary governance, and why it failed to survive contact with its own contradictions."
 image: "united-space-consortium.jpg"
-image_alt: "The interior of an empty parliament chamber"
+image_alt: "A close-up across a wooden desk in an empty debating chamber: a grey electronic voting console with a card slot, a small blue screen and three buttons marked with a tick, a cross and a circle, beside a recessed strip of power sockets set into the desktop. Tiered rows of empty blue upholstered seats recede out of focus behind it."
 ---
 
 Before the wars, there was an assembly chamber full of delegates who could still say they represented the Solar System. The tragedy is not that the chamber was false. It is that it was too slow when distance and power stopped waiting for it.

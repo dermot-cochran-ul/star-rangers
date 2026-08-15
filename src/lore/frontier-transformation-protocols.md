@@ -5,7 +5,7 @@ category: "Institutions"
 tags: [terraforming, transformation-protocols, safety, ai-safety-kernel, institutions, kernowek-reach, mars]
 description: "The safety doctrine governing when — and whether — a frontier world may be terraformed at all, and why every major Solar System polity ended up with its own version of the same answer: slowly, incompletely, and never on a Kernel-compliant system's say-so alone."
 image: "frontier-transformation-protocols.jpg"
-image_alt: "The interior of an empty parliament chamber"
+image_alt: "A close-up of a delegate's electronic voting console on a long wooden desk in an empty debating chamber: a wedge of grey plastic with a card slot, a small blue screen and three buttons marked with a circle, a cross and a tick, its white cable trailing left. The curving desk and rows of empty blue upholstered seats behind it are out of focus."
 ---
 
 Every terraforming disaster the record actually documents shares one root cause: someone in a hurry had the authority to start, and nobody in the chain had the authority to make them wait.
