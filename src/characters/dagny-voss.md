@@ -29,4 +29,6 @@ She is unsentimental about Aspenar's reputation as a world nobody calls beautifu
 
 She has little patience for the periodic Federation assembly debate over whether Aspenar's contract structure gives it outsized leverage, on the grounds that a planet whose entire population needs imported food and water reclamation stock to survive a season has no leverage worth discussing — only, as she puts it, a very large bill that keeps getting paid on time.
 
-See also: [Aspenar](/star-rangers/lore/planets/aspenar/), [The Federation of Sentient Beings](/star-rangers/lore/federation-of-sentient-beings/), [The Founding of the Star Rangers](/star-rangers/lore/formation-of-star-rangers/).
+*A note on naming, for anyone cross-referencing the roster:* [Governor Petra Voss](/star-rangers/characters/petra-voss/) of the Orbital Habitats Compact shares the surname and no kinship the record holds. Both hold orbital posts, which is the only other thing the two names have in common and the reason the pair is worth stating: Dagny Voss runs a refinery habitat at Aspenar under a Federation support compact, and Petra Voss presides over five self-governing habitats in Earth orbit under a different polity entirely. They have no recorded dealings with each other.
+
+See also: [Aspenar](/star-rangers/lore/planets/aspenar/), [The Federation of Sentient Beings](/star-rangers/lore/federation-of-sentient-beings/), [The Founding of the Star Rangers](/star-rangers/lore/formation-of-star-rangers/), [Governor Petra Voss](/star-rangers/characters/petra-voss/).

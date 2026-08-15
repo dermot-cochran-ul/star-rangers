@@ -26,4 +26,6 @@ Voss commissioned Larsen specifically because he had resigned his Ranger commiss
 
 She reads Five-O's case reports personally rather than through Calloway's office, the one deliberate exception to her own coordination-layer design — on the theory that an investigative unit answering to her directly should also be read by her directly, or the "directly" stops meaning anything.
 
-See also: [Chief Commissioner Dorian Calloway](/star-rangers/characters/dorian-calloway/), [Commander Kai Larsen](/star-rangers/characters/kai-larsen/), [Space Commissioner Zara Wayland](/star-rangers/characters/zara-wayland/), [The Orbital Habitats Compact](/star-rangers/lore/orbital-habitats-compact/).
+*A note on naming, for anyone cross-referencing the roster:* [Dagny Voss](/star-rangers/characters/dagny-voss/), orbital refinery director at Aspenar, shares the surname and no kinship the record holds. Both hold orbital posts, which is the only other thing the two names have in common — one presides over five habitats in Earth orbit under the Compact, the other runs a refinery habitat in another system under a Federation support compact, and neither has any recorded dealings with the other.
+
+See also: [Chief Commissioner Dorian Calloway](/star-rangers/characters/dorian-calloway/), [Dagny Voss](/star-rangers/characters/dagny-voss/), [Commander Kai Larsen](/star-rangers/characters/kai-larsen/), [Space Commissioner Zara Wayland](/star-rangers/characters/zara-wayland/), [The Orbital Habitats Compact](/star-rangers/lore/orbital-habitats-compact/).

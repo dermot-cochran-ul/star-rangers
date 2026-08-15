@@ -36,4 +36,6 @@ This is what makes her difficult in the Belt's own account of the period. Outer-
 
 She left no memoir, no correspondence, and no account of the period after 2609 that any archive has located. The Military Space Command's advisory chambers were still new when she died, and there is no record of what she thought of them.
 
-See also: [The Imperium](/star-rangers/lore/the-imperium/), [Osric Fenholt](/star-rangers/characters/osric-fenholt/), [Military Space Command](/star-rangers/lore/military-space-command/).
+*A note on naming, for anyone cross-referencing the record:* the ocean world [Thalassa](/star-rangers/lore/planets/thalassa/) carries this officer's given name and has nothing to do with her. She died in 2619 UCSD, generations before that world's colony charter was issued, and no record places an Imperium Belt officer anywhere near the Nerea System. *Thalassa* is a sea-name, and a world that is ninety-six percent open water needs no further explanation for holding one — which is the entire resemblance.
+
+See also: [The Imperium](/star-rangers/lore/the-imperium/), [Osric Fenholt](/star-rangers/characters/osric-fenholt/), [Military Space Command](/star-rangers/lore/military-space-command/), [Thalassa (the world)](/star-rangers/lore/planets/thalassa/).
