@@ -103,6 +103,8 @@ npm run new -- character    # skips straight to that type's prompts
 
 `npm run test` (see below) runs `scripts/validate-content.js` first, which checks every content file's front matter against `lib/content-schema.js` — the same schema `npm run new` scaffolds from — and fails with a clear per-file message (missing field, non-numeric season/episode/chapter, a chapter's `id` disagreeing with its filename, etc.) instead of a blank page or a cryptic Nunjucks error surfacing later.
 
+It also carries the image bookkeeping, which is not front matter and could not be caught by a schema: an `image:` naming a file that does not exist, an image under `src/images/` that no page, template or script references, a slug named in `story-bible/images.md` that is no longer on disk, and — since 2026-08-15 — **byte-identical image files under different names**. That last one is deliberately a failure rather than a warning: sharing one picture between two pages needs one file and two references, never two files, so a duplicate is always avoidable and always hides something (a page that looks illustrated and has no image of its own).
+
 ## Build and validation
 
 ```bash

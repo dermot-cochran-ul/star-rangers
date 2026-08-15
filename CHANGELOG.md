@@ -66,6 +66,14 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 - **`story-bible/species-design.md`** (2026-08-13) — the working ground, including the answer to whether dexterity is required for spacefaring sapience. **Yes; hands no; and it is probably not the bottleneck.** What is required is manipulation finer than the manipulator, and the holding half is the half that gets forgotten — dolphins lack it, elephants have a trunk finer at the tip than a hand and no technology, so a fine manipulator is not sufficient either. High-energy materials processing is the constraint worth using, because unlike manipulation it differs on every world and so generates history rather than anatomy.
 
+### Added
+
+- **`npm test` now fails on byte-identical duplicate images** (2026-08-15). The gate the image pass below wished it had. Nothing in the toolchain could see a duplicate: `checkOrphanImages` asks only whether a file is *referenced*, and both halves of a duplicate pair are, which is why three pairs — six files, three pictures — sat in `src/images/` until a manual `md5sum` sweep went looking. `scripts/validate-content.js` now hashes every image and reports any group of two or more, naming all the paths and the fix.
+
+  **The cost was never the wasted bytes.** A duplicate hides that a page has no image of its own: `frontier-transformation-protocols.jpg` looked like a bespoke illustration and was a second copy of the command-hierarchy photo, so that gap never appeared in any queue. `story-bible/images.md` had recorded two of the three pairs and gone stale on the rest — which is exactly the job to hand to a gate rather than a note.
+
+  **There is deliberately no allowlist**, unlike `KNOWN_UNREFERENCED_IMAGES` next to it, because a duplicate is always avoidable: sharing one picture across two pages takes **one file and two references**, never two files. Where the two pages are in different directories, the route is an explicit `<img src>` in the page body rather than an `image:` field — `lore-entry.njk` hardcodes `/images/lore/`, so `image:` cannot reach across into `hero/`, while a body reference can reach the other way. That asymmetry is the thing to reach for before a second copy ever looks necessary. Verified by injecting a duplicate: exit code 1, both paths named.
+
 ### Fixed
 
 - **Alt-text pass: thirty-five rewritten, every one checked against the image** (2026-08-15). Run after the FTL card's stale alt turned up incidentally. Every alt flagged by any of four tests — outdated by an image swap, placeholder language, under 45 characters, or missing — was opened alongside its image and rewritten from what is actually in the frame. **The audit now reports zero short, zero missing and zero absent alts**, and the eleven remaining placeholder-worded alts are correct, because those cards really are placeholders.
