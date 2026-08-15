@@ -5,8 +5,6 @@ category: "Timeline Notes"
 tags: [timeline, timekeeping, ucsd, standards, calibration]
 description: "What the civil date actually is: a continuous count renumbered from old Earth's, kept as a paper timescale by an ensemble of clocks no institution owns, reconciled by courier and proven in closed loops. Time is simple; measuring it is the hard part."
 plain: "Time in this story is ordinary: one real timeline, running one way, no branches. The date system is just very careful measurement of it. The year count continues old Earth's with 200 added. There is no single master clock — many well-kept clocks are compared, corrected, and averaged after the fact, and couriers physically carry time between places because no signal travels faster than a ship."
-image: "universal-cosmic-stardate.jpg"
-image_alt: "A raking close-up of an antique brass sundial's engraved face, gilded and worn: Roman numerals and a fleur-de-lis border around the outer ring, and an inner equation-of-time table engraved in French, naming the months and marked for whether the clock runs fast or slow."
 ---
 
 Time in the Grand Ensemble is linear, one-dimensional, and real. There is one history and it runs one way: [no branches, no retrocausal editing](/star-rangers/lore/physics-comparison/), [no parallel timelines to consult](/star-rangers/lore/quantum-computing-and-the-cavern-constraint/), no second axis, and no place to stand outside it. Every difficulty in the record's dating — and the record has difficulties — is a difficulty of *measurement*, never of metaphysics. That premise governs the whole discipline, and it is why the discipline is engineering rather than philosophy: the quantity is simple; reading it precisely, across distances no signal can beat a ship over, is not.

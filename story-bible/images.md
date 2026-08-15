@@ -499,6 +499,23 @@ are near-identical light-trace abstracts, the same repetition the `prismere-*`
 note complains about — but neither makes a false claim, and replacing them is
 taste rather than need.
 
+**Batch 3, 15 August (2, deleted not carded).** Surfaced by the alt-text pass
+rather than looked for. Both were **deleted outright**, following the eight
+verified stock images of 11 August: a lore page renders cleanly with no image,
+and absence beats a picture that is quietly making a claim. Neither has a
+PENDING card, so neither shows up in the placeholder queue — they are recorded
+here instead, and both pages currently open with no image at all.
+
+| Image | Why it went | What its replacement has to carry |
+| --- | --- | --- |
+| `formation-of-star-rangers.jpg` | A **recognisable real city** — a sepia-treated skyline with One World Trade Center's spire unmistakable in it — standing in for the founding of the Star Rangers. No people, so not a privacy case; the problem is that it is a specific place on Earth with its own meaning already attached | The founding of an independent humanitarian corps. Something that is not a photograph of somewhere real |
+| `universal-cosmic-stardate.jpg` | An antique dial engraved **in French with a fleur-de-lis border**, on the entry for a count whose whole argument is that it *"commemorates no founding … a spine that honoured an event would belong to whoever owned the event."* The image hands the standard to exactly one nation's heraldry | A civil timescale owned by nobody. The page's own material is better: an ensemble of clocks, a paper timescale, a loop that closes |
+
+**Note what the July audit did and did not ask.** `formation-of-star-rangers`
+was inspected in that sweep and passed — correctly, on the question being asked,
+which was whether the alt matched the image. Nobody asked whether the image
+belonged. Two different tests, and only one of them was ever run on it.
+
 **The cheapest good answer to several of these is tier 3 of Open work 6** —
 Dermot's own photography. An Irish upland standing in for Ynys Wydrin claims
 nothing false and needs no prompt at all.
