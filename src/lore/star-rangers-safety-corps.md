@@ -92,11 +92,13 @@ The charter line holds underneath it, unchanged and load-bearing. **Command deci
 
 ### What an Investigation Produces
 
-A finding and a recommendation, and there it stops.
+Two answers, depending entirely on who is being answered.
 
-The Corps publishes what happened and what it believes ought to change. It cannot implement any of it, and does not pretend otherwise. Recommendations go for review to whichever government actually holds the authority — the polity that registered the vessel, the administration of the habitat where the loss occurred, the world whose citizens died — and that government adopts them, dilutes them, defers them or files them, exactly as it chooses. The Corps is not a party to the decision and does not expect to be consulted about it. Where a recommendation is declined, the Corps records that it was made and that it was declined, and publishes that too.
+**Inside the Star Rangers a finding is not a suggestion.** The Corps' standards and certifications bind the whole institution and always have. A Survey team working outside a Safety Corps environmental clearance is in breach of the charter whatever its commanding officer directed; a hull the Corps declines to certify is a hull the Rangers do not fly; a Ranger whose personnel certification has lapsed does not hold the post it qualified them for. Where an investigation concludes that a standard was wrong, the Corps amends the standard, and the amended standard binds from the moment it issues. No approval is required for this and none is sought. Star Rangers command can decide what the Corps tests. It has never been able to decide what the Rangers may then lawfully do about the answer.
 
-This is the voluntary standard arriving from the other direction, and the answer the Corps gives when asked whether the arrangement frustrates it has not changed in six centuries: a body whose recommendations were binding would be a body worth capturing.
+**Outside them it produces a finding and a recommendation, and there it stops.** The Corps publishes what happened and what it believes ought to change, and refers the recommendation for review to whichever government actually holds the authority — the polity that registered the vessel, the administration of the habitat where the loss occurred, the world whose citizens died. That government adopts it, dilutes it, defers it or files it, exactly as it chooses. The Corps is not a party to the decision and does not expect to be consulted. Where a recommendation is declined, the Corps records that it was made and declined, and publishes that too.
+
+The asymmetry is the whole institution in miniature. Absolute authority over its own house, none whatsoever over anyone else's, and the second is not a weakness it is working to correct. The answer it gives when asked has not changed in six centuries: a body whose recommendations were binding would be a body worth capturing.
 
 ## The Voluntary Standard
 
@@ -111,6 +113,24 @@ What they can do is publish, and be believed.
 The Corps' [neutrality and self-funding](/star-rangers/lore/formation-of-star-rangers/) are what make this work, and they are not incidental to it. A standards body with a commercial interest is a competitor with a rulebook; a standards body funded by the operators it certifies is an argument waiting to be made. The Safety Corps has no stake in who wins, cannot be leveraged by anyone who might, and does not need the market's goodwill to keep its lights on. So its findings are trusted for the same structural reason its couriers are.
 
 **Local governments and corporations remain fully autonomous, and this is not a technicality.** A world governs itself and may invite the Rangers or not. A licensed concern in open space answers to whatever authority issued its licence, which is generally not anybody in this building. Safety Corps standards apply to such an operator exactly to the extent it chooses to adopt them, and an operator who declines has broken no law, defied no order, and owes no explanation. The Corps' entire leverage is that declining is conspicuous and expensive. Against an operator willing to be both, it has none.
+
+### Suppliers, and the Reach of a Contract
+
+There is one place the standards reach outward with real force, and it is not an exception to any of the above. It is procurement.
+
+Anything the Star Rangers buy must meet Star Rangers standards, and the condition runs the whole way down. A supplier holds Safety Corps certification for what it sells; its subcontractors hold it for what they supply into that; their own suppliers hold it for the components inside that, because **a certified assembly containing an uncertified part is not a certified assembly** and the Corps has never entertained an argument to the contrary. A firm that fails, lapses, or declines is disqualified — not fined, not sanctioned, not reported to anybody, simply ineligible for further contracts.
+
+Since the Rangers buy substantially in every market they operate in, the condition propagates a long way past anyone who has ever met a Ranger. Foundries that will never sell a Ranger hull hold Ranger certification because the yard they sell to must, and the yard's contract says so.
+
+The Corps is precise about what this is, because it is the nearest the institution comes to the power its charter denies it. **It binds who the Rangers buy from, not who exists.** A firm that declines has broken no law, defied no order and lost no licence; it has lost a customer, which is a commercial fact rather than a punishment. The Corps buys to a standard. It does not impose one.
+
+And the limit sits exactly where it always sat. A supply chain reaches only those who want the business. The [Hyperfold Yield Combine](/star-rangers/lore/hyperfold-yield-combine/) sold its stabiliser to hull operators and sought nothing from the Rangers, so there was no contract to disqualify it from and no leverage to apply. Procurement conditions are worth precisely what the counterparty wants from you, and against a concern that wants nothing they are worth what everything else was worth: nothing.
+
+### Donors and Supporters
+
+Those who fund the Rangers are bound differently, and much more lightly. A contributor to the [voluntary outer-station contributions](/star-rangers/lore/formation-of-star-rangers/) that make up part of Ranger funding is not a supplier and holds no certification; nothing in the standards touches them, and nothing is asked of them but the money.
+
+What is examined is whether the money may be taken at all. The Rangers accept support only from legitimate, bona-fide, law-abiding citizens and organisations, and the test is applied before acceptance rather than after embarrassment. The reason is the one behind the whole funding structure: self-funding exists so that no political authority can purchase leverage over Ranger action, and an institution that took money from anyone at all would have rebuilt the vulnerability from the other end. A donation buys nothing here — no certification, no standing, no hearing, and conspicuously no place in a queue — but a body that can be embarrassed by its donors can be steered by the threat of it.
 
 The Corps declines the word *regulator* when it is offered, and the refusal is doctrinal rather than modest. To accept the title would be to accept an authority the charter forbids, and the charter forbids it because the outer-station delegations of 2723 would not vote for a boundary-operations body with compulsory power over anyone — having concluded, reasonably, that such a body would simply be the MSC under better branding.
 
