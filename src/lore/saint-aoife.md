@@ -8,7 +8,7 @@ description: "A locally venerated Irish holy woman of the thirteenth century, ca
 
 Most saints the Currach Fleet's founders carried off Earth stayed exactly what they had always been: names on a calendar, patrons of a trade, comfort at a deathbed. Aoife is the one who kept changing shape.
 
-**Saint Aoife** (d. 1241 AD) is a locally venerated holy woman of medieval Ireland, never formally recognised as a saint by any higher devotional authority but sustained in continuous devotional practice by the community that named her a saint on its own recognisance — and, six centuries later, by the [Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/), whose founding cooperatives carried her cult off Earth along with their languages. Her feast, her well, and the single surviving account of her life all trace back to one document: [The Life of Saint Aoife](/star-rangers/codex/life-of-saint-aoife/), written in 1216 AD by [Brother Daire](/star-rangers/characters/brother-daire/) of Cill Aoife.
+**Saint Aoife** (d. 1241 AD) is a locally venerated holy woman of medieval Ireland, never formally recognised as a saint by any higher devotional authority but sustained in continuous devotional practice by the community that named her a saint on its own recognisance — and, eleven centuries later, by the [Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/), whose founding cooperatives carried her cult off Earth along with their languages. Her feast, her well, and the single surviving account of her life all trace back to one document: [The Life of Saint Aoife](/star-rangers/codex/life-of-saint-aoife/), written in 1216 AD by [Brother Daire](/star-rangers/characters/brother-daire/) of Cill Aoife.
 
 ## The Vision
 
@@ -16,7 +16,7 @@ The devotion rests almost entirely on one recorded episode: a vigil-night vision
 
 Brother Daire's account preserves Aoife's own hesitation about what she'd seen more faithfully than it resolves it. She distinguished, in words he says he did not understand at the time, between having been *shown* something and having been *healed* by it.
 
-That distinction is the single most consequential sentence in the devotion, and not for devotional reasons. Aoife refused to collapse two claims into one even though collapsing them would have made her far easier to categorise — and six centuries later the refusal turns out to be a usable discipline rather than a scruple. [Shown, Not Healed (S07E01C02)](/star-rangers/seasons/s07/e01/s07e01c02/) is where it gets used: a mind under pressure to let a consolation resolve a question that is not actually resolved, taught the counter by the two women her interior keeps closest, one of them Aoife. The counter is not to reject the comfort. It is to decline to let comfort stand in for an answer.
+That distinction is the single most consequential sentence in the devotion, and not for devotional reasons. Aoife refused to collapse two claims into one even though collapsing them would have made her far easier to categorise — and fourteen centuries later the refusal turns out to be a usable discipline rather than a scruple. [Shown, Not Healed (S07E01C02)](/star-rangers/seasons/s07/e01/s07e01c02/) is where it gets used: a mind under pressure to let a consolation resolve a question that is not actually resolved, taught the counter by the two women her interior keeps closest, one of them Aoife. The counter is not to reject the comfort. It is to decline to let comfort stand in for an answer.
 
 ## Carried Off Earth
 
@@ -32,6 +32,6 @@ Union cultural authorities have not resolved the two readings against each other
 
 ## Devotional Standing Today
 
-Aoife's feast remains kept across Celtic Union charter worlds on the anniversary of the vision rather than her death, unchanged from Brother Daire's community's own choice nine centuries prior. She has no formal devotional standing recognised outside Union practice, and none of her devotees have ever asked for one.
+Aoife's feast remains kept across Celtic Union charter worlds on the anniversary of the vision rather than her death, unchanged from Brother Daire's community's own choice fourteen centuries prior. She has no formal devotional standing recognised outside Union practice, and none of her devotees have ever asked for one.
 
 See also: [Aoife (character profile)](/star-rangers/characters/saint-aoife/), [The Life of Saint Aoife](/star-rangers/codex/life-of-saint-aoife/), [Brother Daire](/star-rangers/characters/brother-daire/), [The Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/), [Levrils: Dragons and Constraint Literacy](/star-rangers/lore/levrils/), [The Well Ran Warm Again (S06E01C03)](/star-rangers/seasons/s06/e01/s06e01c03/), [Shown, Not Healed (S07E01C02)](/star-rangers/seasons/s07/e01/s07e01c02/).
