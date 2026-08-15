@@ -5,7 +5,7 @@ category: "Timeline Notes"
 tags: [timeline, solar-time, calendar, chronology, standards]
 description: "Every inhabited world keeps its own solar calendar for daily life; UCSD and Galactic Stardate exist because no single one of those calendars could be allowed to govern the others."
 image: "solar-time-and-local-calendars.jpg"
-image_alt: "Designed placeholder card for Solar Time and Local Calendars: the title and category set in pale serif type over a dark blue-black gradient, headed ILLUSTRATION PENDING. No illustration for this entry exists yet."
+image_alt: "Designed title card on a near-black star field in warm amber: the category TIMELINE NOTES in spaced capitals at the top, a thin clock face with hands held in a soft glow, and below a short rule the title SOLAR TIME AND LOCAL CALENDARS in pale serif capitals, subtitled 'Every World Keeps Its Own' and 'And no single calendar could be allowed to rule'."
 ---
 
 Ask a dockhand what day it is and the honest answer depends entirely on which world's sky they last slept under.
