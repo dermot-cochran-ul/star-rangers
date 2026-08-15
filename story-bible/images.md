@@ -1561,7 +1561,7 @@ being updated — a reminder that these tables go stale silently.
 | `characters/elvira.jpg` | `lore/planets/verdance.jpg` | fixed earlier; note was stale |
 | `characters/brother-daire.jpg` | `lore/monasteries-of-mars.jpg` | fixed earlier; note was stale |
 | `lore/star-rangers-command-hierarchy.jpg` | `lore/frontier-transformation-protocols.jpg` | duplicate deleted 15 Aug; the frontier page is now image-less and needs one |
-| `lore/post-eleven-dimensional-manifold.jpg` | `lore/threnos-omega.jpg` | duplicate deleted 15 Aug; the Threnos Omega page is now image-less and needs one |
+| `lore/threnos-omega.jpg` | ~~`lore/post-eleven-dimensional-manifold.jpg`~~ | duplicate deleted 15 Aug, then **flipped on Dermot's ruling the same day**: Threnos-Ω keeps the ring, and the Common Manifold page is now image-less and needs one |
 
 **A sixth pair this note never had**, found by rescanning on 15 August rather
 than trusting the table: `hero/glossary-book.jpg` was byte-identical to
@@ -1658,12 +1658,18 @@ the moment a prompt moves up it has been decided.
   says so.
 
 - **`threnos-omega.jpg`** / **`post-eleven-dimensional-manifold.jpg`** — same
-  situation, same resolution, the manifold page keeping the file.
-  **Threnos Omega is now image-less and needs one.** The shared image is a
-  bright ring of light around a dark disc scattered with specks; line 1366 of
-  this file calls it "the precedent for a membrane portrait", which is worth
-  weighing before commissioning a replacement — if that precedent is the reason
-  it was on Threnos Omega, the keeper may be the wrong way round.
+  situation; deduplicated 15 August with the manifold page keeping the file, and
+  then **flipped the same day on Dermot's ruling: Threnos-Ω keeps the ring.**
+  The reason is recorded because it is the kind that goes missing: this file
+  already calls `lore/threnos-omega.jpg` "the precedent for a membrane
+  portrait", so the image had standing on that page specifically, and the
+  original "Kept by" column was pointing the wrong way.
+
+  **The Common Manifold page is now image-less and needs one.** Prompt not
+  written. What it has to carry is harder than the ring was: higher-order
+  spacelike and timelike structure shared by every universe in the Cascade
+  regardless of its own dimensional floor — a *shared* substrate, not a
+  boundary, so a membrane or a ring is exactly the wrong figure for it.
 
 #### Convention breaches, separately
 

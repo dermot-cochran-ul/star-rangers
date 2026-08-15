@@ -4,6 +4,8 @@ title: "Threnos-Ω"
 category: "Universes"
 tags: [threnos-omega, entropy-horizon, predictive-closure, static-synod, levrils, auc, cei]
 description: "Reference universe that crossed its entropy horizon and entered predictive closure."
+image: "threnos-omega.jpg"
+image_alt: "A ring of blue-white light glowing against black, enclosing a dark circular field scattered with small bright points and soft, out-of-focus pale patches, as though a shallow lit vessel were being photographed from directly above."
 ---
 
 In Threnos-Ω, the shelves are full, the systems still run, and almost nothing surprises anyone for long. That is what life past the entropy horizon looks like.
