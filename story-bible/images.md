@@ -1548,17 +1548,35 @@ when already in the file, never as a project. **Roughly half the 66.**
 So the real work is **25–30 images**, not 66 — and a good share of those
 should come from the camera rather than a prompt.
 
-#### Five images are doing nine jobs
+#### Five images are doing nine jobs — RESOLVED 15 August 2026
 
-Byte-identical files under different names (MD5-checked):
+Byte-identical files under different names (MD5-checked). **All five are now
+resolved, and a full MD5 scan of `src/images/` returns no duplicate group at
+all.** The first three had already been fixed by earlier work without this note
+being updated — a reminder that these tables go stale silently.
 
-| Kept by | Also serving as |
-|---|---|
-| `characters/bertram-ashcombe.jpg` | `lore/planetary-liaisons-and-recruiters.jpg` |
-| `characters/elvira.jpg` | `lore/planets/verdance.jpg` |
-| `characters/brother-daire.jpg` | `lore/monasteries-of-mars.jpg` |
-| `lore/star-rangers-command-hierarchy.jpg` | `lore/frontier-transformation-protocols.jpg` |
-| `lore/post-eleven-dimensional-manifold.jpg` | `lore/threnos-omega.jpg` |
+| Kept by | Also serving as | Resolution |
+|---|---|---|
+| `characters/bertram-ashcombe.jpg` | `lore/planetary-liaisons-and-recruiters.jpg` | fixed earlier; note was stale |
+| `characters/elvira.jpg` | `lore/planets/verdance.jpg` | fixed earlier; note was stale |
+| `characters/brother-daire.jpg` | `lore/monasteries-of-mars.jpg` | fixed earlier; note was stale |
+| `lore/star-rangers-command-hierarchy.jpg` | `lore/frontier-transformation-protocols.jpg` | duplicate deleted 15 Aug; the frontier page is now image-less and needs one |
+| `lore/post-eleven-dimensional-manifold.jpg` | `lore/threnos-omega.jpg` | duplicate deleted 15 Aug; the Threnos Omega page is now image-less and needs one |
+
+**A sixth pair this note never had**, found by rescanning on 15 August rather
+than trusting the table: `hero/glossary-book.jpg` was byte-identical to
+`lore/canonical-glossary-and-migration-guide.jpg`. Resolved differently from the
+other two, because both *uses* are legitimate — a section hero and a lore
+entry's own image — and only the second copy was redundant. The hero file was
+deleted and `src/glossary/index.md` now points at the lore copy directly. **Note
+the wrinkle:** `lore-entry.njk` hardcodes `/images/lore/`, so an `image:` field
+cannot reach across into `hero/`, but an explicit `<img src>` in a page body can
+reach the other way. That asymmetry decided the direction; it was not a
+preference.
+
+**Which page kept the image, in the two lore pairs, followed this table's own
+"Kept by" column** rather than a fresh judgement — flipping either is a
+one-line front-matter change plus a file rename.
 
 The pattern in the first three is one error: **a character portrait reused as
 the illustration for an institution or a place.** Proposed rule — *the
@@ -1629,11 +1647,23 @@ the moment a prompt moves up it has been decided.
   > A small planetary liaison office on a quiet colony world, a plain desk and two chairs by a window looking onto an ordinary street, a coat on a hook and a cooling cup left on the sill, no people in frame, unglamorous and administrative, far-future science-fiction setting, warm muted daylight palette, no readable text, signage or insignia lettering of any kind. Landscape orientation.
 
 - **`frontier-transformation-protocols.jpg`** / **`star-rangers-command-hierarchy.jpg`**
-  — byte-identical. Which page keeps it is Dermot's call; the other needs a
-  prompt. **Not written yet: neither file has been opened.**
+  — byte-identical; **deduplicated 15 August**, the command-hierarchy page
+  keeping the file per the table's "Kept by" column. Both files have now been
+  opened: the image is a tight close-up of a delegate's electronic voting
+  console on a wooden desk, the chamber's blue seating thrown out of focus
+  behind it — which suits neither page especially well, and suits *frontier
+  transformation* least. **The Frontier Transformation Protocols page is now
+  image-less and needs one.** Prompt still not written: what that entry is
+  about is a protocol for changing a world, and nothing in a debating chamber
+  says so.
 
 - **`threnos-omega.jpg`** / **`post-eleven-dimensional-manifold.jpg`** — same
-  situation, same reason. **Not written yet.**
+  situation, same resolution, the manifold page keeping the file.
+  **Threnos Omega is now image-less and needs one.** The shared image is a
+  bright ring of light around a dark disc scattered with specks; line 1366 of
+  this file calls it "the precedent for a membrane portrait", which is worth
+  weighing before commissioning a replacement — if that precedent is the reason
+  it was on Threnos Omega, the keeper may be the wrong way round.
 
 #### Convention breaches, separately
 
