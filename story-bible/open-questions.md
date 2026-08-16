@@ -107,23 +107,35 @@ Tracked as **#445**.
 - **What the corporation actually did**, which the 28 July intake leaves open
   alongside its name.
 
-## Answered on the record here, but nowhere the repo can confirm
+## Pandoids — sapience answered, two things opened
 
-Tracked as **#443**.
+Tracked as **#443**. ~~Pandoid sapience~~ **answered by Dermot, 16 August
+2026**: sapient, and one of very few humanoid-like aliens. Written into
+`intake-2026-07-26.md` in place. Fliade is a first-contact world under the FTP
+sapience clause.
 
-- **Pandoid sapience**, `intake-2026-07-26.md`. Recorded here and in #443 as
-  answered — *sapient but low-tech*, making Fliade a first-contact world under
-  the FTP sapience clause. **Checked 16 August 2026: nothing in the repo carries
-  that ruling.** Fliade occurs in `intake-2026-07-26.md`, CLAUDE.md and this
-  file, in no later intake, and in no git history; it is unwritten, so there is
-  no lore page it could sit on. The ruling was presumably given in session and
-  never written down.
+Worth recording how it got here, since it is the failure this index exists for:
+the answer was *already* on record in #443 and in this file as *sapient but
+low-tech*, and a check on 16 August found that ruling nowhere in the repo — not
+in a later intake, not in git history, and Fliade unwritten so no lore page
+could carry it. It had been given in session and never written down. Asking
+again cost one line; writing Fliade on an unsourced tracker entry would have
+cost more.
 
-  So this is **not** a stale note to correct — it is an unrecorded ruling to
-  confirm. **Needs Dermot.** On a yes it gets written into the intake block in
-  place, dated, and struck from here; on a no the original question is simply
-  still open and moves to the cosmology list. Until then, don't write Fliade
-  on the strength of it.
+Two live items came out of it:
+
+- **The Pandoids' technological level.** Only the sapience half was confirmed;
+  *low-tech* remains the tracker's wording, not a ruling. It shapes how a
+  first contact under the FTP clause runs.
+- **The humanoid collision — the one that matters.**
+  [What the Record Refuses](../src/lore/what-the-record-refuses.md) states in
+  prose and in its summary table that **the Krenyi are the only other sapient
+  humanoids**, and calls that refusal *the load-bearing one*; the 13 August
+  species-design work followed from it. Sapient humanoid-like Pandoids are a
+  second exception to a refusal admitting one. Nothing breaks today — Fliade is
+  unwritten and Pandoids appear nowhere in `src/` — but the first page
+  describing them contradicts a live canon page. Three readings are laid out in
+  the intake block; **choosing one is Dermot's, and it gates writing Fliade.**
 
 ## Images — awaiting review or triage
 
