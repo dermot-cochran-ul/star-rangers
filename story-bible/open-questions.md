@@ -129,15 +129,16 @@ or Season 6–7 material:
   confirmed; *low-tech* remains the tracker's wording, not a ruling. It shapes
   how a first contact under the FTP clause runs, and the deep-cavern description
   is a reason to decide it rather than assume it.
-- **The humanoid collision — the one that matters. #449.**
-  [What the Record Refuses](../src/lore/what-the-record-refuses.md) states in
-  prose and in its summary table that **the Krenyi are the only other sapient
-  humanoids**, and calls that refusal *the load-bearing one*; the 13 August
-  species-design work followed from it. Sapient humanoid-like Pandoids are a
-  second exception to a refusal admitting one. Nothing breaks today — Fliade is
-  unwritten and Pandoids appear nowhere in `src/` — but the first page
-  describing them contradicts a live canon page. Three readings are laid out in
-  the intake block; **choosing one is Dermot's, and it gates writing Fliade.**
+- ~~**The humanoid collision**~~ — **#449, ruled 16 August 2026: reading 3**,
+  the tiers are distinct, plus the clarification that the Pandoids derive from a
+  **bear-like alien ancestor, not terrestrial bears, despite the name**. The
+  refusal in [What the Record Refuses](../src/lore/what-the-record-refuses.md)
+  now turns on the **human frame** rather than on posture, and carries the
+  naming caution: a name borrowed from an Earth animal is a fact about the
+  observers, never about descent. Fliade and the Pandoids are deliberately not
+  named on that page — unwritten, and a doctrine page is the wrong place for a
+  species to enter canon; the named example follows when Fliade is written.
+  **Open until the PR is merged**, since that page is Dermot's to approve.
 
 ## Images — awaiting review or triage
 

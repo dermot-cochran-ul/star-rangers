@@ -8,6 +8,14 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Changed
 
+- **The humanoid refusal now turns on the frame, not the posture** (2026-08-16, #449). [What the Record Refuses](src/lore/what-the-record-refuses.md) said the Krenyi were the only other sapient *humanoids* and that the list was closed at one; it now says the only other people built on the **human frame**, and states why standing upright is a different claim. Independent origins converge on solutions, which is what a physical universe does; the costume constraint asked them to converge on a silhouette, which is the refused thing. The test becomes *"is this a human with features applied?"* rather than *"does it stand up?"* — strictly the same refusal, said in the terms it always meant. Ruled by Dermot after the Pandoid sapience ruling produced an apparent second exception.
+
+- **The same sharpening swept to [Cross-Biosphere Taxonomy](src/lore/cross-biosphere-taxonomy.md)** (2026-08-16), which carried the claim in its own words — *"the only two sapient humanoids in the record"*. It now distinguishes the two: Endoskelia asks only for an internal skeleton, while the refusal asks whether a body could be mistaken for a person, so a third people arriving in that row upright is a taxonomic neighbour and nothing more. The page's own line — *a frame is a description, not a genealogy* — was already the argument.
+
+- **A name borrowed from an Earth animal is a fact about the observers** (2026-08-16). New passage and summary-table row on the same page: where the record calls a people bear-like, or files them under an `-oid` coinage, the comparison belongs to whoever did the naming — a first survey reaching for the nearest familiar shape — and says nothing about descent, since [life began separately on each world](src/lore/cross-biosphere-taxonomy.md) and no lineage outside Earth's biosphere has an Earth animal behind it. The record keeps such names, because they are what people say, while declining what they imply.
+
+### Changed
+
 - **The open-questions index is now reachable from the documents it indexes** (2026-08-16, #441). `story-bible/open-questions.md` had no inbound references at all, which left it as undiscoverable as the prose it replaced. CLAUDE.md's `story-bible/` inventory now names it first, and `intake-2026-07-26.md`, `intake-2026-07-28.md`, `cascade-structure-and-limits.md` and `images.md` each carry a pointer back to it.
 
 ### Fixed
