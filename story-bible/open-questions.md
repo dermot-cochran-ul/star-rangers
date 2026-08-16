@@ -125,10 +125,13 @@ cost more.
 Two live items came out of it, both tracked publicly since neither carries plot
 or Season 6–7 material:
 
-- **The Pandoids' technological level** — **#450**. Only the sapience half was
-  confirmed; *low-tech* remains the tracker's wording, not a ruling. It shapes
-  how a first contact under the FTP clause runs, and the deep-cavern description
-  is a reason to decide it rather than assume it.
+- ~~**The Pandoids' technological level**~~ — **#450, ruled 16 August 2026, by
+  dissolving the question.** Dermot: *"Technology levels are not directly
+  comparable on a simple linear scale."* There is no scale, so *low-tech* names
+  no point on one; Fliade prose describes what the Pandoids do and don't make,
+  without a rank or an implied missing rung. Drafted into
+  `what-the-record-refuses.md` as a general refusal of the ladder, since three
+  existing pages already refuse it case by case. **Open until the PR merges.**
 - ~~**The humanoid collision**~~ — **#449, ruled 16 August 2026: reading 3**,
   the tiers are distinct, plus the clarification that the Pandoids derive from a
   **bear-like alien ancestor, not terrestrial bears, despite the name**. The
