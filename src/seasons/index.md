@@ -14,7 +14,7 @@ permalink: /seasons/
   The published story opens in 2826 UCSD. Threshold Station has carried an unresolved instrument discrepancy for eleven years, while the Marsh Causeway has endured three years of independent boundary monitoring.
 </p>
 <p class="page-intro">
-  Seasons are grouped below by <a href="/star-rangers/threads/">storyline thread</a> — each thread is an independent narrative, not a strict release order. See the <a href="/star-rangers/threads/">Threads</a> page for what each one covers.
+  Seasons are grouped below by <a href="/star-rangers/threads/">storyline thread</a> — each thread is an independent narrative, not a strict release order. See the <a href="/star-rangers/threads/">Threads</a> page for what each one covers. First visit? The <a href="/star-rangers/start/">reading plan</a> lays out a guided path.
 </p>
 
 {% set allChapters = collections.chapters %}
