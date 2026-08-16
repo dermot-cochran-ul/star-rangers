@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Added
+
+- **[Fliade](src/lore/planets/fliade.md)** (2026-08-16), the first of the 26 July intake's three unwritten worlds to be drafted. A cold terrestrial world whose biodiversity lives in geothermally warmed cavern systems rather than on its frozen surface, and whose deep-network people — the **Pandoids** — the survey found before any transformation proposal existed, which is the rare case where the sapience clause arrived early enough to matter. The entry states the two facts ruled about them, that they do not travel in space and keep their record by speaking it, as facts rather than as a level, and says why an oral record is a different shape rather than a smaller one. It also marks two absences: the classification of the boundary feature the planet sits near, and **the Pandoids' own name for themselves**, since *Pandoid* is a survey coinage and not a name they gave. The closing section is the one the world is for — the charter's entry-by-invitation limit has nothing to grip on a world with no body that can issue or withdraw one, so the protection is thinnest exactly where the asymmetry is greatest.
+
 ### Changed
 
 - **The humanoid refusal now turns on the frame, not the posture** (2026-08-16, #449). [What the Record Refuses](src/lore/what-the-record-refuses.md) said the Krenyi were the only other sapient *humanoids* and that the list was closed at one; it now says the only other people built on the **human frame**, and states why standing upright is a different claim. Independent origins converge on solutions, which is what a physical universe does; the costume constraint asked them to converge on a silhouette, which is the refused thing. The test becomes *"is this a human with features applied?"* rather than *"does it stand up?"* — strictly the same refusal, said in the terms it always meant. Ruled by Dermot after the Pandoid sapience ruling produced an apparent second exception.

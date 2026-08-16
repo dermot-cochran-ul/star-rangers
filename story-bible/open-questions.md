@@ -143,29 +143,40 @@ or Season 6–7 material:
   species to enter canon; the named example follows when Fliade is written.
   **Open until the PR is merged**, since that page is Dermot's to approve.
 
-## Fliade — from the 26 July intake, now nearly writable
+## Fliade — drafted 16 August 2026, awaiting Dermot
 
-Four rulings on 16 August 2026 settled most of what the Fliade block was waiting
-on, all recorded in `intake-2026-07-26.md`: the Pandoids are **sapient**;
-descended from a **bear-like alien ancestor**, not terrestrial bears; **not
-space faring**; and keeping their record **orally, in cultural memory**. The
-world is a first-contact world under the FTP sapience clause.
+Four rulings that day settled what the 26 July block was waiting on, all
+recorded in `intake-2026-07-26.md`: the Pandoids are **sapient**; descended from
+a **bear-like alien ancestor**, not terrestrial bears; **not space faring**; and
+keeping their record **orally, in cultural memory**. Fliade is a first-contact
+world under the FTP sapience clause.
 
-What is still in the way, in order of how much it blocks:
+`src/lore/planets/fliade.md` is drafted on that basis in **#452**. It is a
+proposal; the entry asserts nothing beyond the intake blocks and the four
+rulings, and where it had to choose it chose to mark an absence.
+
+Still live:
 
 - **The Convergence Point definition** — **#442**, and the original block's own
-  flag. The intake notes it appears nowhere in `src/` as a defined concept, and
-  it is load-bearing in the physical description: Fliade's scientific interest
-  is its proximity to one. Fliade prose either defines it or avoids naming it.
-- **Whether Pandoid memory works as human memory does.** Deliberately open. If
-  ordinary, say nothing; if not, it is a per-species canon vocabulary decision
-  for Dermot, registered like any coined term rather than improvised in a scene.
-  Do not answer it by assuming an oral culture must have prodigious recall —
-  that is the refused ladder wearing a compliment.
-- **Whether the Pandoids are named on the doctrine pages.** #452 deliberately
-  states both refusals without naming them, since a doctrine page is the wrong
-  place for a species to enter canon. Once Fliade exists, the named example can
-  follow.
+  flag. The draft **does not use the term**: it says the planet sits near a
+  boundary feature under study, brings the protocols' existing
+  boundary-proximity requirement into force, and states plainly that the
+  feature's classification is not settled in the record. That is a marked
+  absence rather than a definition, so #442 stays open and the entry does not
+  pre-empt it. Whenever the term is settled, one paragraph of Fliade names it.
+- **Whether Pandoid memory works as human memory does.** Deliberately open, and
+  the draft does not raise it. If ordinary, say nothing; if not, it is a
+  per-species canon vocabulary decision, registered like any coined term rather
+  than improvised in a scene. Do not answer it by assuming an oral culture must
+  have prodigious recall — that is the refused ladder wearing a compliment.
+- **Whether the Pandoids are named on the doctrine pages.** #452 still states
+  both refusals without naming them. Now that a Fliade entry exists in the same
+  PR, naming them there is a one-line follow-up rather than a species entering
+  canon through a doctrine page — but it has not been done, so that it stays
+  Dermot's call.
+- **The Pandoids' endonym.** The draft marks its absence explicitly: *Pandoid*
+  is a survey coinage and not a name they gave. That is the naming doctrine
+  applied to itself, and it is also a hook left deliberately loose.
 
 ## Images — awaiting review or triage
 
