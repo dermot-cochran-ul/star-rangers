@@ -25,7 +25,7 @@ description: "Fian Ilchruinne — an interactive science-fantasy novel grounded 
     {{ edition.heroSubtitle | safe }}
     {% if latestLore %} Newest from the record: <a href="/star-rangers{{ latestLore.url }}">{{ latestLore.title }}</a> — {{ latestLore.excerpt }}{% endif %}
   </p>
-  <a class="home-hero__cta" href="/star-rangers/seasons/">Begin Reading</a>
+  <a class="home-hero__cta" href="/star-rangers/start/">Begin Reading</a>
 </section>
 
 <section aria-label="Site sections">
