@@ -502,7 +502,15 @@ The naming release, and the week the story widened. The work found its title twi
 
 - **Excluded-page placeholders no longer pollute site search** (2026-08-03). Every "Not included in this edition" stub sat inside `data-pagefind-body`, so a narrowed edition's Pagefind index carried dozens-to-hundreds of identical placeholder results (matching "archive", and latterly "Fian Ilchruinne"), and even the full site indexed its church-space placeholders. One attribute on `src/_includes/excluded.njk` (`data-pagefind-ignore`) empties them out of the index: the full build drops 444 → 434 indexed pages, a `TOPICS=undercover-pets.com` build drops to 159 — only genuinely included pages. Real excluded titles never leaked (only the generic stub text was indexed), so this is de-noising, not a privacy fix.
 
-## [1.13.0] - 2026-08-03
+### Written earlier in the same release — 2026-08-03
+
+*1.13.0 was written up twice. This section was drafted on 3 August, more work
+landed before the tag went on, and `[Unreleased]` was renamed to `[1.13.0]` a
+second time on 5 August — so both passes shipped under `v1.13.0` (tagged
+2026-08-05 10:49, thirty minutes before v1.14.0). Kept as a nested section
+rather than merged, so nothing is lost and the two-pass history stays visible.
+The duplicate `##` heading it used to carry was found by
+`scripts/check-changelog.js` on 16 August (issue #439).*
 
 A grounding, and a naming. The canon half of this release closes a loop the cosmology had left open since the Cosmic Limitation on Evil was first filed: the Layer 1/2 distinction now *grounds* the predator taxonomy instead of sitting beside it — the Unfounded are patterns nothing underwrites, the False Dragon is the counterfeit of the largest founded thing, and Conseleme's devotional name stopped implying the one thing its definition denies.
 
