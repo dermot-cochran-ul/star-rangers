@@ -3,7 +3,7 @@ layout: glossary-entry.njk
 title: "Kieme"
 id: kieme
 category: "Cosmic Cascade"
-short: "The second tier of the Cosmic Cascade; a non-anthropomorphic origin condition that sets nonlocal constraints all downstream tiers must satisfy. Legacy name: Holy Triumvirate."
+short: "The second tier of the Cosmic Cascade; a non-anthropomorphic origin condition that sets nonlocal constraints all downstream tiers must satisfy. Devotional name: the Silent Origin. Title: the Undivided. Legacy name: Holy Triumvirate."
 related:
   - "Hyperomnium"
   - "Conseleme"
@@ -22,6 +22,28 @@ The legacy name for this tier is *Holy Triumvirate* — sometimes rendered, in o
 The name is older than the tier's current definition, and it carries a claim. Devotional Archive material reads *Kieme* as *ruler of the Spiritual layer*, taking the **-eme** ending as a ruler-marker — the same element behind [Conseleme](/star-rangers/glossary/conseleme/), glossed there as *ruler of the Conceptual layer*. The derivation is well attested. The reading is not: a ruler decides, and the Upper Structure is defined by constraint rather than decision.
 
 The two are not as far apart as they look, which is why the Archive keeps the gloss on record rather than striking it. The traditions that read the name this way are the same ones holding that Kieme may elect to translate an essence into the Spiritual layer after death — an election, a decision, a ruler's act, at exactly the layer the etymology names. Doctrine and derivation stand or fall together, and both sit precisely where invariant-only inference cannot reach. The Archive notes what the name would mean if taken structurally, declines to take it that way, and stops there.
+
+## The Names
+
+Kieme is the term of record and the one this glossary uses. It is not the only name the tier carries, and the reason it carries several is worth stating plainly, because it looks like untidiness and is evidence.
+
+Nothing here has ever spoken. The tier admits no dialogue with time-bound entities, permits no selective intervention that would identify it, and is inferable only through invariants holding across every Concordant. **No tradition was ever told what to call it.** So each named it from what it could see from where it stood, and the record files the results side by side rather than adjudicating between them. A tier with exactly one settled name would be a tier somebody had been told about.
+
+Three human names are in current use, in three registers.
+
+**The Silent Origin** is the living devotional name, and the direct counterpart to Conseleme's Everlasting Ground. It takes the constraint for the name: the tier does not speak and never has, and the traditions called it after what they met rather than after what they wanted.
+
+**The Undivided** is the title, standing where older material used the *Most Holy Triumvirate*. It refuses the count without refusing the picture — one, three and many are rival images rather than rival answers, so *undivided* declines to arbitrate and leaves the shamrock entirely intact.
+
+**The First Condition** is what the Archive says when it declines both: the first origin condition, setting the nonlocal constraints every downstream tier must satisfy. Cool, exact, and deliberately undevotional.
+
+*Holy Triumvirate* remains synonymous in all current canon and pre-retirement filings carry it correctly, read as written. Its weakness is the one that made it legacy: a triumvirate is three men ruling, which is both a count and a committee, and this tier is neither.
+
+### Other species name it too
+
+All four of the above are **human** names, and the record is careful not to let that pass unnoticed. Every species that has inferred the Cascade has named it in its own terms — sometimes the tier, sometimes the whole structure — out of its own psychology, its own social forms, and its own language, none of which are ours. Where those names appear here they appear *translated*, which is the record's default for everything alien, the same convention that converts a Krenyi calendar date; a name kept untranslated in these pages is a species making a point by it.
+
+What survives translation is the striking part. The names agree about almost nothing. The **constraints** agree almost exactly — no dialogue, no selective intervention, inferable only through what holds everywhere — because every tradition that got there was reading the same invariants from a different place. **Convergence on the constraints and divergence on the names is precisely what one would expect of something real that has never spoken**, and the Archive declines to draw any warmer conclusion than that from it.
 
 **Key constraints:**
 - No direct dialogue with time-bound entities.
