@@ -10,15 +10,21 @@ portraits had quietly drifted humanoid.
 This file is the working ground for fixing that. It is not a decision record
 yet — the decisions are Dermot's.
 
-**Flag, 16 August 2026 — the premise above has a second candidate exception.**
-Dermot ruled that the Pandoids of Fliade are sapient and *"one of very few
-humanoid like aliens"* (`intake-2026-07-26.md`). They are described there as
-powerfully built humanoid bear-like beings. Whether that makes them a second
-sapient humanoid alongside the Krenyi, or a bipedal non-human-derived body plan
-the refusal was never aimed at, is **not decided** — tracked as **#449**, three
-readings are set out in that intake block, and the published wording in
-[What the Record Refuses](../src/lore/what-the-record-refuses.md) admits one
-exception, not two. Fliade is unwritten, so nothing here needs redoing yet.
+**The premise above is sharpened, not overturned — 16 August 2026, #449.**
+Dermot ruled the Pandoids of Fliade sapient and *"one of very few humanoid like
+aliens"*, then that they derive from **a bear-like alien ancestor, not
+terrestrial bears, despite the name**. The published refusal now turns on the
+**human frame** rather than on posture: the Krenyi remain the only other people
+built on it, and an upright body arrived at independently is not a second entry
+on that list.
+
+**So nothing here needs redoing.** The five species below still owe the record a
+body that follows from a world, and *"could this be a human with features
+applied?"* is still the test that fails a drifted portrait. What changed is that
+the test is now stated in the terms it always meant — frame, not posture — which
+if anything makes it easier to apply. The one new caution is naming: a familiar
+animal in a species' name describes the observers who coined it, so it is never
+a licence to reach for that animal's body when briefing an image.
 
 ## Scope: where a homeworld may be
 

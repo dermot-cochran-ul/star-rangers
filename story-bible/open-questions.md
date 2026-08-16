@@ -125,19 +125,58 @@ cost more.
 Two live items came out of it, both tracked publicly since neither carries plot
 or Season 6–7 material:
 
-- **The Pandoids' technological level** — **#450**. Only the sapience half was
-  confirmed; *low-tech* remains the tracker's wording, not a ruling. It shapes
-  how a first contact under the FTP clause runs, and the deep-cavern description
-  is a reason to decide it rather than assume it.
-- **The humanoid collision — the one that matters. #449.**
-  [What the Record Refuses](../src/lore/what-the-record-refuses.md) states in
-  prose and in its summary table that **the Krenyi are the only other sapient
-  humanoids**, and calls that refusal *the load-bearing one*; the 13 August
-  species-design work followed from it. Sapient humanoid-like Pandoids are a
-  second exception to a refusal admitting one. Nothing breaks today — Fliade is
-  unwritten and Pandoids appear nowhere in `src/` — but the first page
-  describing them contradicts a live canon page. Three readings are laid out in
-  the intake block; **choosing one is Dermot's, and it gates writing Fliade.**
+- ~~**The Pandoids' technological level**~~ — **#450, ruled 16 August 2026, by
+  dissolving the question.** Dermot: *"Technology levels are not directly
+  comparable on a simple linear scale."* There is no scale, so *low-tech* names
+  no point on one; Fliade prose describes what the Pandoids do and don't make,
+  without a rank or an implied missing rung. Drafted into
+  `what-the-record-refuses.md` as a general refusal of the ladder, since three
+  existing pages already refuse it case by case. **Open until the PR merges.**
+- ~~**The humanoid collision**~~ — **#449, ruled 16 August 2026: reading 3**,
+  the tiers are distinct, plus the clarification that the Pandoids derive from a
+  **bear-like alien ancestor, not terrestrial bears, despite the name**. The
+  refusal in [What the Record Refuses](../src/lore/what-the-record-refuses.md)
+  now turns on the **human frame** rather than on posture, and carries the
+  naming caution: a name borrowed from an Earth animal is a fact about the
+  observers, never about descent. Fliade and the Pandoids are deliberately not
+  named on that page — unwritten, and a doctrine page is the wrong place for a
+  species to enter canon; the named example follows when Fliade is written.
+  **Open until the PR is merged**, since that page is Dermot's to approve.
+
+## Fliade — drafted 16 August 2026, awaiting Dermot
+
+Four rulings that day settled what the 26 July block was waiting on, all
+recorded in `intake-2026-07-26.md`: the Pandoids are **sapient**; descended from
+a **bear-like alien ancestor**, not terrestrial bears; **not space faring**; and
+keeping their record **orally, in cultural memory**. Fliade is a first-contact
+world under the FTP sapience clause.
+
+`src/lore/planets/fliade.md` is drafted on that basis in **#452**. It is a
+proposal; the entry asserts nothing beyond the intake blocks and the four
+rulings, and where it had to choose it chose to mark an absence.
+
+Still live:
+
+- **The Convergence Point definition** — **#442**, and the original block's own
+  flag. The draft **does not use the term**: it says the planet sits near a
+  boundary feature under study, brings the protocols' existing
+  boundary-proximity requirement into force, and states plainly that the
+  feature's classification is not settled in the record. That is a marked
+  absence rather than a definition, so #442 stays open and the entry does not
+  pre-empt it. Whenever the term is settled, one paragraph of Fliade names it.
+- **Whether Pandoid memory works as human memory does.** Deliberately open, and
+  the draft does not raise it. If ordinary, say nothing; if not, it is a
+  per-species canon vocabulary decision, registered like any coined term rather
+  than improvised in a scene. Do not answer it by assuming an oral culture must
+  have prodigious recall — that is the refused ladder wearing a compliment.
+- **Whether the Pandoids are named on the doctrine pages.** #452 still states
+  both refusals without naming them. Now that a Fliade entry exists in the same
+  PR, naming them there is a one-line follow-up rather than a species entering
+  canon through a doctrine page — but it has not been done, so that it stays
+  Dermot's call.
+- **The Pandoids' endonym.** The draft marks its absence explicitly: *Pandoid*
+  is a survey coinage and not a name they gave. That is the naming doctrine
+  applied to itself, and it is also a hook left deliberately loose.
 
 ## Images — awaiting review or triage
 
