@@ -8,6 +8,10 @@ bottom, which is the constraint that matters most in this file.
 Fifteen things are settled, plus a teaching analogy recorded with its limits, and a conflict register at the foot records what they disturb. The rest are open questions with the consequences
 worked out, so they can be decided rather than drifted into.
 
+**Those open questions are indexed in [`open-questions.md`](open-questions.md)**
+and tracked as #446. Check the conflict register at the foot before answering
+any of them.
+
 ---
 
 ## Settled: creation is by specification, not by sight (2026-07-30)

@@ -10,6 +10,13 @@ in favour of this. Planning note; not rendered on the site.
 the commands in "Auditing" below) before acting on a status line, and correct
 the line rather than working around it.
 
+**This file stays the runbook and the single place image work is tracked.** What
+is *undecided or awaiting a look* is additionally indexed in
+[`open-questions.md`](open-questions.md), so it can be found without reading
+1,300 lines — the lost emblem-card recipe, the card-style inconsistency, the
+open-questions block below, and the two competing abstract-emblem prompts. Add a
+line there when something here becomes a decision rather than a task.
+
 ---
 
 ## Conventions

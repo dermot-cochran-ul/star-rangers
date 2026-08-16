@@ -6,6 +6,14 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Changed
+
+- **The open-questions index is now reachable from the documents it indexes** (2026-08-16, #441). `story-bible/open-questions.md` had no inbound references at all, which left it as undiscoverable as the prose it replaced. CLAUDE.md's `story-bible/` inventory now names it first, and `intake-2026-07-26.md`, `intake-2026-07-28.md`, `cascade-structure-and-limits.md` and `images.md` each carry a pointer back to it.
+
+### Fixed
+
+- **The Pandoid sapience note is annotated rather than struck** (2026-08-16, #443). #443 records the question as settled — *sapient but low-tech* — but that ruling appears nowhere in the repo: not in a later intake, not in git history, and Fliade is unwritten so there is no lore page for it. Both the intake block and the index now say so and mark it as needing confirmation, instead of one asking a settled question and the other asserting an unsourced answer.
+
 ## [1.22.0] — 2026-08-16
 
 A release about the machinery for noticing things. Two doctrines that looked

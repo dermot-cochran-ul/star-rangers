@@ -19,6 +19,13 @@ and these notes touch Season 6–7 material in places. So:
 - **This file** carries everything else, and everything in full. Where an issue
   is deliberately thin, the detail is here.
 
+**How it gets found.** An index nothing points at has the same problem as the
+prose it replaced, so as of 16 August 2026 CLAUDE.md's `story-bible/` inventory
+names this file first, and each of the four documents the sweep covered —
+`intake-2026-07-26.md`, `intake-2026-07-28.md`, `cascade-structure-and-limits.md`
+and `images.md` — carries a pointer back to it near the top. A future source
+document should get one too, in the same edit that adds its questions here.
+
 **Keeping it true.** Add a line when a direction leaves something undecided;
 strike it when answered, with the ruling and its date, the way
 `intake-2026-07-28.md`'s 4 August addendum already does. This file goes stale
@@ -100,13 +107,23 @@ Tracked as **#445**.
 - **What the corporation actually did**, which the 28 July intake leaves open
   alongside its name.
 
-## Stale — answered elsewhere, still asked here
+## Answered on the record here, but nowhere the repo can confirm
 
 Tracked as **#443**.
 
-- **Pandoid sapience**, `intake-2026-07-26.md`. **Answered:** sapient but
-  low-tech, which makes Fliade a first-contact world under the FTP sapience
-  clause. Correct the note in place rather than working around it.
+- **Pandoid sapience**, `intake-2026-07-26.md`. Recorded here and in #443 as
+  answered — *sapient but low-tech*, making Fliade a first-contact world under
+  the FTP sapience clause. **Checked 16 August 2026: nothing in the repo carries
+  that ruling.** Fliade occurs in `intake-2026-07-26.md`, CLAUDE.md and this
+  file, in no later intake, and in no git history; it is unwritten, so there is
+  no lore page it could sit on. The ruling was presumably given in session and
+  never written down.
+
+  So this is **not** a stale note to correct — it is an unrecorded ruling to
+  confirm. **Needs Dermot.** On a yes it gets written into the intake block in
+  place, dated, and struck from here; on a no the original question is simply
+  still open and moves to the cosmology list. Until then, don't write Fliade
+  on the strength of it.
 
 ## Images — awaiting review or triage
 
