@@ -6,6 +6,16 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Changed
+
+- **The open-questions index is now reachable from the documents it indexes** (2026-08-16, #441). `story-bible/open-questions.md` had no inbound references at all, which left it as undiscoverable as the prose it replaced. CLAUDE.md's `story-bible/` inventory now names it first, and `intake-2026-07-26.md`, `intake-2026-07-28.md`, `cascade-structure-and-limits.md` and `images.md` each carry a pointer back to it.
+
+### Fixed
+
+- **The Pandoid sapience question is answered, in place and sourced** (2026-08-16, #443). The note had asked it since 26 July while #443 and the index both recorded it as settled — *sapient but low-tech* — on a ruling that appeared nowhere in the repo. Dermot confirmed the sapience half directly: the Pandoids are sapient and one of very few humanoid-like aliens, so Fliade is a first-contact world under the FTP sapience clause. Written into `intake-2026-07-26.md` dated. Their technological level was **not** confirmed and stays open, and the humanoid half collides with a published refusal — see below.
+
+- **A humanoid collision is flagged before it can be written into canon** (2026-08-16). [What the Record Refuses](src/lore/what-the-record-refuses.md) states, in prose and in its summary table, that the Krenyi are the only other sapient humanoids, and calls that refusal the load-bearing one. Sapient humanoid-like Pandoids would be a second exception. Nothing is broken — Fliade is unwritten and the Pandoids appear nowhere in `src/` — but the first page describing them would contradict a live canon page. Three readings are recorded in `intake-2026-07-26.md`, `story-bible/species-design.md` carries a flag against its own premise, and **no page was changed**: the choice is authorial and gates writing Fliade.
+
 ## [1.22.0] — 2026-08-16
 
 A release about the machinery for noticing things. Two doctrines that looked

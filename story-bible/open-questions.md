@@ -19,6 +19,13 @@ and these notes touch Season 6–7 material in places. So:
 - **This file** carries everything else, and everything in full. Where an issue
   is deliberately thin, the detail is here.
 
+**How it gets found.** An index nothing points at has the same problem as the
+prose it replaced, so as of 16 August 2026 CLAUDE.md's `story-bible/` inventory
+names this file first, and each of the four documents the sweep covered —
+`intake-2026-07-26.md`, `intake-2026-07-28.md`, `cascade-structure-and-limits.md`
+and `images.md` — carries a pointer back to it near the top. A future source
+document should get one too, in the same edit that adds its questions here.
+
 **Keeping it true.** Add a line when a direction leaves something undecided;
 strike it when answered, with the ruling and its date, the way
 `intake-2026-07-28.md`'s 4 August addendum already does. This file goes stale
@@ -100,13 +107,35 @@ Tracked as **#445**.
 - **What the corporation actually did**, which the 28 July intake leaves open
   alongside its name.
 
-## Stale — answered elsewhere, still asked here
+## Pandoids — sapience answered, two things opened
 
-Tracked as **#443**.
+Tracked as **#443**. ~~Pandoid sapience~~ **answered by Dermot, 16 August
+2026**: sapient, and one of very few humanoid-like aliens. Written into
+`intake-2026-07-26.md` in place. Fliade is a first-contact world under the FTP
+sapience clause.
 
-- **Pandoid sapience**, `intake-2026-07-26.md`. **Answered:** sapient but
-  low-tech, which makes Fliade a first-contact world under the FTP sapience
-  clause. Correct the note in place rather than working around it.
+Worth recording how it got here, since it is the failure this index exists for:
+the answer was *already* on record in #443 and in this file as *sapient but
+low-tech*, and a check on 16 August found that ruling nowhere in the repo — not
+in a later intake, not in git history, and Fliade unwritten so no lore page
+could carry it. It had been given in session and never written down. Asking
+again cost one line; writing Fliade on an unsourced tracker entry would have
+cost more.
+
+Two live items came out of it:
+
+- **The Pandoids' technological level.** Only the sapience half was confirmed;
+  *low-tech* remains the tracker's wording, not a ruling. It shapes how a
+  first contact under the FTP clause runs.
+- **The humanoid collision — the one that matters.**
+  [What the Record Refuses](../src/lore/what-the-record-refuses.md) states in
+  prose and in its summary table that **the Krenyi are the only other sapient
+  humanoids**, and calls that refusal *the load-bearing one*; the 13 August
+  species-design work followed from it. Sapient humanoid-like Pandoids are a
+  second exception to a refusal admitting one. Nothing breaks today — Fliade is
+  unwritten and Pandoids appear nowhere in `src/` — but the first page
+  describing them contradicts a live canon page. Three readings are laid out in
+  the intake block; **choosing one is Dermot's, and it gates writing Fliade.**
 
 ## Images — awaiting review or triage
 

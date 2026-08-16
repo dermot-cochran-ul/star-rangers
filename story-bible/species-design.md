@@ -10,6 +10,16 @@ portraits had quietly drifted humanoid.
 This file is the working ground for fixing that. It is not a decision record
 yet — the decisions are Dermot's.
 
+**Flag, 16 August 2026 — the premise above has a second candidate exception.**
+Dermot ruled that the Pandoids of Fliade are sapient and *"one of very few
+humanoid like aliens"* (`intake-2026-07-26.md`). They are described there as
+powerfully built humanoid bear-like beings. Whether that makes them a second
+sapient humanoid alongside the Krenyi, or a bipedal non-human-derived body plan
+the refusal was never aimed at, is **not decided** — three readings are set out
+in that intake block, and the published wording in
+[What the Record Refuses](../src/lore/what-the-record-refuses.md) admits one
+exception, not two. Fliade is unwritten, so nothing here needs redoing yet.
+
 ## Scope: where a homeworld may be
 
 Dermot, 13 August 2026: **anywhere in the known Concordant, or elsewhere in the
