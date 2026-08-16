@@ -6,6 +6,20 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [1.22.0] — 2026-08-16
+
+A release about the machinery for noticing things. Two doctrines that looked
+opposed turned out to govern different objects, and stating the boundary
+between them produced a named review process, a public backlog to file its
+findings in, and the first three findings themselves. Alongside that, the
+Safety Corps gained an internal structure, Kieme gained three titles it can be
+translated by, and one domain's deploy stopped failing silently.
+
+The through-line, if there is one, is that **silence is the expensive failure**
+— a cron that reports nothing, a gap nobody marked, an untidiness filed as a
+fault. Most of what is below is an attempt to make one or another kind of
+silence legible.
+
 ### Added
 
 - **Journal: [Kieme Means Gill](src/journal/kieme-means-gill.md)** (2026-08-16). The naming problem written up as craft rather than as a fix. The entry's argument is that the mistake was about *which kind of problem it was* — not that `Kieme` reads as a fish organ in German, but that Conseleme had a living translatable devotional name and Kieme's was marked legacy, leaving one tier of three exposed to translation with nothing to land on. Hence the principle it ends on the way to: **titles translate, coinages transliterate** — a translator meeting *the Everlasting Ground* renders the sense, a translator meeting *Kieme* gets a sound and whatever that sound already means where it lands. And the closing turn, which is the reason the entry exists: having three names for one thing looked like untidiness to be reduced, and writing down *why* the tier has several produced the best sentence in the glossary. *"I went in to clean up a mess and the mess turned out to be the evidence."*
