@@ -122,12 +122,14 @@ could carry it. It had been given in session and never written down. Asking
 again cost one line; writing Fliade on an unsourced tracker entry would have
 cost more.
 
-Two live items came out of it:
+Two live items came out of it, both tracked publicly since neither carries plot
+or Season 6–7 material:
 
-- **The Pandoids' technological level.** Only the sapience half was confirmed;
-  *low-tech* remains the tracker's wording, not a ruling. It shapes how a
-  first contact under the FTP clause runs.
-- **The humanoid collision — the one that matters.**
+- **The Pandoids' technological level** — **#450**. Only the sapience half was
+  confirmed; *low-tech* remains the tracker's wording, not a ruling. It shapes
+  how a first contact under the FTP clause runs, and the deep-cavern description
+  is a reason to decide it rather than assume it.
+- **The humanoid collision — the one that matters. #449.**
   [What the Record Refuses](../src/lore/what-the-record-refuses.md) states in
   prose and in its summary table that **the Krenyi are the only other sapient
   humanoids**, and calls that refusal *the load-bearing one*; the 13 August
