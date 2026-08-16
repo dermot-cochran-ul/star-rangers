@@ -1,0 +1,12 @@
+# Issue creation on this repo is restricted to collaborators: the tracker is
+# the author's own backlog, readable by anyone. Readers have a better door,
+# and CONTRIBUTING.md argues that asking once in the right place beats asking
+# in several — so route them there rather than leaving them nowhere to go.
+blank_issues_enabled: false
+contact_links:
+  - name: Questions, theories and fan creations
+    url: https://github.com/Star-Rangers/sciencefiction-site-comments/discussions
+    about: The reader forum — General, Q&A, Theories & Predictions and Fan Creations. Every character, lore, glossary, codex, chapter and journal page also carries its own comment thread on the site itself.
+  - name: Report a problem with the site
+    url: https://github.com/Star-Rangers/sciencefiction-site-comments/discussions
+    about: A broken link, a page that renders wrong, or a factual inconsistency in published content. A short report with a URL is enough, and a public answer helps the next reader too.
