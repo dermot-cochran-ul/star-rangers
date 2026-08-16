@@ -143,6 +143,30 @@ or Season 6–7 material:
   species to enter canon; the named example follows when Fliade is written.
   **Open until the PR is merged**, since that page is Dermot's to approve.
 
+## Fliade — from the 26 July intake, now nearly writable
+
+Four rulings on 16 August 2026 settled most of what the Fliade block was waiting
+on, all recorded in `intake-2026-07-26.md`: the Pandoids are **sapient**;
+descended from a **bear-like alien ancestor**, not terrestrial bears; **not
+space faring**; and keeping their record **orally, in cultural memory**. The
+world is a first-contact world under the FTP sapience clause.
+
+What is still in the way, in order of how much it blocks:
+
+- **The Convergence Point definition** — **#442**, and the original block's own
+  flag. The intake notes it appears nowhere in `src/` as a defined concept, and
+  it is load-bearing in the physical description: Fliade's scientific interest
+  is its proximity to one. Fliade prose either defines it or avoids naming it.
+- **Whether Pandoid memory works as human memory does.** Deliberately open. If
+  ordinary, say nothing; if not, it is a per-species canon vocabulary decision
+  for Dermot, registered like any coined term rather than improvised in a scene.
+  Do not answer it by assuming an oral culture must have prodigious recall —
+  that is the refused ladder wearing a compliment.
+- **Whether the Pandoids are named on the doctrine pages.** #452 deliberately
+  states both refusals without naming them, since a doctrine page is the wrong
+  place for a species to enter canon. Once Fliade exists, the named example can
+  follow.
+
 ## Images — awaiting review or triage
 
 `images.md` stays the runbook and the single place image *work* is tracked;
