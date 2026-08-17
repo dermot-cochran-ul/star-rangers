@@ -8,6 +8,8 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Added
 
+- **[A Proposal to Collar the Anstolik, Refused at Countersign](src/codex/proposal-to-collar-the-anstolik.md)** (2026-08-17), a Fliade survey working paper filed with its own refusal: an instrument specialist's prospectus for detection collars on Anstolik herds, and the survey lead's countersign withheld on four grounds. Codex, so it settles nothing — no `canon_facts`, and the question of whether anything is being taken on Fliade stays marked rather than answered.
+
 - **[Fliade](src/lore/planets/fliade.md)** (2026-08-16), the first of the 26 July intake's three unwritten worlds to be drafted. A cold terrestrial world whose biodiversity lives in geothermally warmed cavern systems rather than on its frozen surface, and whose deep-network people — the **Pandoids** — the survey found before any transformation proposal existed, which is the rare case where the sapience clause arrived early enough to matter. The entry states the two facts ruled about them, that they do not travel in space and keep their record by speaking it, as facts rather than as a level, and says why an oral record is a different shape rather than a smaller one. It also marks two absences: the classification of the boundary feature the planet sits near, and **the Pandoids' own name for themselves**, since *Pandoid* is a survey coinage and not a name they gave. The closing section is the one the world is for — the charter's entry-by-invitation limit has nothing to grip on a world with no body that can issue or withdraw one, so the protection is thinnest exactly where the asymmetry is greatest.
 
 ### Changed
