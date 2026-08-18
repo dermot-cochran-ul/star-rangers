@@ -315,7 +315,19 @@ boundary-zone ruling found their blocks contradict published canon:
   **Convergence Weaving** is undefined — the same shape as Convergence Point
   before #442, in the same block, found the same way.
 
-**Kalypsis Dawn** remains a subject rather than a question, and belongs to
+**Kalypsis Dawn — checked 18 August 2026 and it is a question after all.**
+`intake-2026-07-26.md` block 3 rests on a **category error**: the Overfold is the
+Fellowship's contemplative name for boundary-zone Etheric phenomena, not a medium
+you travel through, and the block builds the ship's identity, certification,
+defensive suite and class history on Overfold corridors and jumps. A third FTL
+channel is also refused outright. Three refused tropes are fitted to it —
+holo-displays, stasis pods, and an AI that *handles* interspecies communication.
+The block's heading still says *WRITABLE AFTER TWO NAMING DECISIONS*, corrected
+in place. **All three of the 26 July worlds turned out to contradict published
+canon**, which is now a fact about the intake rather than about any one block.
+Not yet filed as an issue.
+
+Formerly recorded here as a subject rather than a question, belonging to
 `narrative-gaps-checklist.md` — re-derive that from `src/seasons/` before
 trusting it. Worth noting it is now the only one of the intake's unwritten
 worlds nobody has checked against canon, which is not evidence that it is
