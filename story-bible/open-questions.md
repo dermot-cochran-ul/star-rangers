@@ -72,13 +72,13 @@ and not tracked publicly. They are not dropped; this file is where they live.
   above the concept of number, so a relation stated in relational terms has to
   survive that.
 - **Where shadow beings live** — Sí Gaoithe, or a realm of their own. **Now
-  load-bearing, after the 18 August boundary-zone ruling.** The Umbral Moon
-  block's *"Shadow Universe"* is not canon — the named membranes are Deadwater,
-  Sí Gaoithe, Threnos-Ω and Tír Tairngire — so that block cannot be written
-  until the neighbour membrane is named, and naming it answers this. Sí Gaoithe
-  is the obvious candidate and not the only possible one. Note the beings
-  themselves *are* canon (Class III non-sapient, meta-dimensional, and they do
-  physically enter material space); it is their home membrane that is open.
+  tracked publicly as #462**, because the 18 August boundary-zone ruling made it
+  load-bearing: the Umbral Moon block's *"Shadow Universe"* is not canon, so
+  that block cannot be written until the neighbour membrane is named, and naming
+  it answers this. Decide the two together — answering them apart risks two
+  incompatible answers. The beings themselves *are* canon (Class III
+  non-sapient, meta-dimensional, and they do physically enter material space);
+  it is their home membrane that is open.
 - **A feminine Spirit-of-Wisdom name** for the Holy Spirit analogue. Watch the
   Gnostic baggage on *Sophia* against the standing no-Gnosticism rule.
 - **Bible references** — stay in the church-space overlay, or move to Codex.
@@ -274,7 +274,12 @@ not evaporate between sessions.
 
 ## Unwritten and live — from 26 July
 
-Recorded as still live: **Fliade**, **Umbral Moon**, **Kalypsis Dawn**. None
-written. Not currently tracked as issues; they are subjects rather than
-questions, and belong to `narrative-gaps-checklist.md` — re-derive that from
-`src/seasons/` before trusting it.
+~~Fliade~~ **written and merged 16 August 2026** — `src/lore/planets/fliade.md`.
+Still live: **Umbral Moon** and **Kalypsis Dawn**.
+
+They were subjects rather than questions, and so not tracked as issues. **That
+changed for the Umbral Moon on 18 August 2026**: the boundary-zone ruling found
+its intake block contradicts published canon in three places, which is a
+question, and it is **#462**. Kalypsis Dawn remains a subject and belongs to
+`narrative-gaps-checklist.md` — re-derive that from `src/seasons/` before
+trusting it.
