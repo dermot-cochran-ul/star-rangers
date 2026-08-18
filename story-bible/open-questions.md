@@ -237,13 +237,16 @@ be found without reading 1,300 lines.
   be removed. The principle is recorded in `images.md` and completes rather than
   overturns *absence beats a picture quietly making a claim* — a codex artefact
   asserts nothing, so relocating stops the claim without losing the picture.
-  **Nothing has been applied**, because three things need deciding first:
+  **Two absolute exclusions ruled 18 August 2026: stock photography never
+  qualifies, and neither do anachronisms.** One reason under both — the Codex
+  can carry a wrong belief, never a wrong century or a real place, because an
+  artefact is a physical object made inside this world and the author's
+  fallibility covers interpretation rather than material culture. This also
+  closes the French dial, previously recorded as arguable: it fails on both
+  counts. **Nothing has been applied**, and two things still need deciding:
   whether it overrides the codex title-card convention (an artefact-image is a
-  second class of codex image); whether it is retroactive to already-deleted
-  images, which git can recover; and whether stock photography qualifies
-  (recommended **no**, on provenance plus the Batch 3 reasoning). Note it would
-  **not** have rescued either Batch 3 deletion — both are photographs of
-  identifiable real-world subjects, which the Codex frame cannot cure.
+  second class of codex image), and whether it is retroactive to already-deleted
+  images, which git can recover.
   `CLAUDE.md`'s image conventions are deliberately **not** updated yet, since
   stating an unsettled convention there is worse than stating none.
 - **The emblem-card recipe is lost.** `images.md:1292` — *"Still open after

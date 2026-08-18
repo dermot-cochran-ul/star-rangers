@@ -555,16 +555,57 @@ cure: they are **photographs of identifiable real-world subjects**. Refiling
 said to have taken it — the problem was never the claim the page made, but that
 the image arrives with its own meaning already attached. The stock provenance is
 a second, independent reason, and the 11 August sweep removed eight on that
-ground alone. *(The French dial is the arguable case: an in-universe artefact
-could legitimately be French-made, which would make the heraldry diegetic rather
-than accidental. Recorded as arguable, not decided.)*
+ground alone. *(The French dial was recorded here as arguable — an in-universe
+artefact could legitimately be French-made. The 18 August exclusions below
+settle it twice over: it is stock photography, and an antique instrument on a
+twenty-ninth-century page is an anachronism. Not arguable; excluded.)*
 
 **So the rule's real catchment is original or generated images replaced for
 canon reasons**, not stock photography removed for provenance. The Firefly
 replacement list above is where the candidates are — `lore/cerebraun` (grey-alien
 bust) is the strongest, and the originals are recoverable from git history.
 
-**Three things still to decide before this is applied to anything:**
+#### Two absolute exclusions (Dermot's ruling, 18 August 2026)
+
+**Stock photography never qualifies, and neither do anachronisms.** These are
+not weightings to consider; an image failing either is deleted or replaced, and
+the Codex is not offered.
+
+The two exclusions look unrelated and share one reason, which is worth stating
+because it also marks the rule's outer edge. **The Codex can carry a wrong
+belief. It cannot carry a wrong century, or a real place.** A codex artefact is
+still a physical object *made inside this world*, so the author's fallibility
+covers **interpretation** — what they thought, inferred, flattered or got wrong
+— and never **material culture**. Attributing a picture to an in-universe artist
+explains why its reading is mistaken; it does nothing whatever about what is
+physically in the frame.
+
+- **Stock photography.** The image arrives with real-world meaning already
+  attached, and no frame strips it: refiling still shows One World Trade Center
+  whoever is said to have taken it. Provenance is an independent second reason.
+- **Anachronism.** An out-of-period object is not a claim the artist made — it
+  is a claim about what the world could manufacture. An artist working in 2826
+  does not put a twenty-first-century desk lamp in a 2826 scene, so the codex
+  frame has nothing to explain it with. The record already holds the doctrine
+  this rests on: [What the Record Refuses](../src/lore/what-the-record-refuses.md)
+  treats the sprung, jointed, domed desk lamp as *"as much a period object as a
+  wall of dials,"* and sets out what light, displays and surfaces actually look
+  like here.
+
+  **A deliberate historical depiction is not an anachronism** and the rule never
+  reaches it: a picture *of* the twenty-first century showing twenty-first
+  century objects is correctly period. An anachronism is an object out of its
+  time *within the scene depicted*, which is why the exclusion needs no
+  exception.
+
+**What the exclusions leave.** They cut the candidate pool hard, and usefully —
+most of the Firefly replacement list above goes: `ilse-korvain` (US Army stock),
+`karla-wender`, `orla-shepherd`, `nessa` and `maren-solveig-krast` are stock, and
+`rook-7` v1 *"arrived furnished with the NYPD"*, which is both. What survives is
+the **generated and non-period** remainder — `lore/cerebraun` (grey-alien bust)
+still the strongest, with `aldera` and `qiren-tal` behind it.
+
+#### Two things still to decide
 
 1. **Does it override the codex title-card convention?** Codex images are
    *"designed dark-gradient title cards, not photographs"* and covers *"go
@@ -573,8 +614,6 @@ bust) is the strongest, and the originals are recoverable from git history.
    or artefact entries carry a card and show the artwork in the body.
 2. **Is it retroactive?** Deleted images are recoverable from git. Applying it
    backwards is a separate decision from applying it going forward.
-3. **Stock photography: in or out?** Recommended **out**, on the Batch 3
-   reasoning plus provenance — but that is a recommendation, not a ruling.
 
 **Note what the July audit did and did not ask.** `formation-of-star-rangers`
 was inspected in that sweep and passed — correctly, on the question being asked,
