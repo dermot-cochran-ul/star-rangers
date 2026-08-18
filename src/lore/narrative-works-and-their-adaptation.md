@@ -45,6 +45,8 @@ The same holds in the other direction, and it is not symmetrical in difficulty. 
 
 So an adaptation is filed the way any account is filed. **The original is the work; the adaptation is the courtesy** — attributed, dated, revisable, and never mistaken for the thing itself. Serious works accumulate several, by different hands, disagreeing; and a reader who wants to know what an adapter thought a passage was doing can generally find out, because adapters are expected to say.
 
+**One people is largely absent from all of this, and the absence is instructive.** The [Krenyi](/star-rangers/lore/krenyi/) are the nearest thing to human the record holds — the only other people built on the same frame — and they want the least of what humans make. There is no significant body of adaptation into Krenyi use, not because the channel is difficult but because the demand never formed. A Krenyi handed a work will commonly read its apparatus, which is measurement, and set the scenes down. Adapters cite this more often than any other case when explaining their trade to newcomers, because it makes the point nothing else makes as cleanly: the hard part was never the sensorium. Two peoples can share a body plan almost exactly and share almost nothing about what a story is for.
+
 **Leaving something unrendered is itself a statement**, and a well-understood one. Where a work keeps a people's own forms untranslated — a term, an address, a whole channel left as it stands — the adapter is declining the courtesy on purpose, and asking the reader to come the rest of the way. It is the same move a people makes by keeping its own calendar, and it is read the same way.
 
 ## See Also

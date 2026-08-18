@@ -77,8 +77,23 @@ This is one orientation, not several, and most of what the Quiet-Built are known
 - **"Nai."** The state-marker means *still relevant here*. A courtesy in the present tense is what a present-tense people would have built.
 - **No interest in being placed.** A homeworld offered as an explanation is the past deployed as a definition, which is the one use of it they refuse outright.
 - **Centuries of patience.** A species that expects to spend a very long time becoming precise has no reason to be in a hurry and no reason to look behind.
+- **Little appetite for entertainment.** Fiction, games, spectator contests and music are the same orientation meeting the things that return nothing usable. See below; it is the largest single difference between Krenyi and human social life, and the one most often mistaken for coldness.
 
 The failure mode this produces is worth naming, because the Krenyi would name it themselves: **they are poor keepers of anything whose value has not yet been demonstrated.** A fact that will matter in two hundred years and returns nothing today is a fact a Krenyi will let go, without malice and without noticing. Other peoples' archives exist partly to hold what nobody has yet found a use for. Krenyi practice has no equivalent instinct, and where it costs them, it costs them there.
+
+## What Entertainment Does Not Do
+
+The Quiet-Built have little appetite for fiction, games, team sports or music, and — as with the flirtation above — the pattern is one thing rather than four. **It is not disapproval, not asceticism, and not incapacity.** A Krenyi at a concert is not enduring it. They are simply somewhere nothing is happening that they have a use for.
+
+It falls out of the test in the section above: not *is it true*, but **does it still do work**.
+
+**Fiction asks for attention to people who are not present and events that did not occur.** That is the past-as-explanation problem in its most voluntary form, and mythification undertaken on purpose rather than suffered. The detail that most often startles a human colleague is that a Krenyi handed a [published work](/star-rangers/lore/narrative-works-and-their-adaptation/) will frequently read it — and read the *apparatus*. The register of terms, the chronology, the sourced documents: these are measurements, and measurements do work. The scenes they will put down without ceremony and without any sense of having missed the point, because from where they stand there was no point in the scenes to miss.
+
+**A contest whose stakes exist only inside it returns a result that is true nowhere else.** The distinction the Krenyi draw is between a drill and a game: a drill produces a measurement of what someone can actually do, and is worth the afternoon. A game produces a winner. Krenyi will train, test, and compare against a standard all day. The partisan half of spectator sport is unavailable to them for a second and structural reason — the register it runs on is largely dread and fury, and a people bounded against both are not being stoical in a stadium. There is nothing arriving.
+
+**Music is the one the record does not explain, and the absence is theirs rather than the archive's.** The commemorative use is accounted for — commemoration is one of the three deployments of the past they decline outright — but that does not cover the rest of what music is for, and no Krenyi source has ever filled the gap. Asked, a Krenyi gives the material answer, that it does not do much for them, and declines the elaboration, in the same way and for the same reason they decline to be placed by a homeworld. **Whether the Quiet-Built have forms of their own that do the work these forms do for humans is not established in the cross-species record.** Nobody should assume the answer is none, and nobody has been told it is not.
+
+**The cost is social and it is real.** A great deal of human company is conducted through shared play — the match, the game, the song everybody already knows — and none of that is available as a way in. Mixed crews find their footing in work instead, which is available, and which is where Krenyi company is at its best. The mistake worth avoiding is the one the [ladder refusal](/star-rangers/lore/what-the-record-refuses/) names in another context: a people who want little of what you make are not a people with less. They are a people the thing was not made for.
 
 ## An Origin the Record Doesn't Hold
 
