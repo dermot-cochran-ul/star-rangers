@@ -243,10 +243,17 @@ be found without reading 1,300 lines.
   artefact is a physical object made inside this world and the author's
   fallibility covers interpretation rather than material culture. This also
   closes the French dial, previously recorded as arguable: it fails on both
-  counts. **Nothing has been applied**, and two things still need deciding:
-  whether it overrides the codex title-card convention (an artefact-image is a
-  second class of codex image), and whether it is retroactive to already-deleted
-  images, which git can recover.
+  counts. **A quality bar was ruled the same day**: only a high-quality image
+  with artistic merit and no technical flaws qualifies — if it would not earn a
+  page were canon no obstacle, it does not earn one as Codex art. A generation
+  artefact is a flaw; a stylisation is not, the test being whether an in-world
+  artist could have *chosen* it. **Nothing has been applied, and the pool is
+  currently empty**: a blob check on 18 August found the rejected originals were
+  never committed (one content version each for `cerebraun`, `aldera`, `rook-7`,
+  `nessa`, `orla-shepherd`; only `qiren-tal` has two), so the rule is effectively
+  **prospective** and the retroactivity question is much smaller than it looked.
+  Two things still to decide: whether it overrides the codex title-card
+  convention, and whether it is retroactive at all.
   `CLAUDE.md`'s image conventions are deliberately **not** updated yet, since
   stating an unsettled convention there is worse than stating none.
 - **The emblem-card recipe is lost.** `images.md:1292` — *"Still open after

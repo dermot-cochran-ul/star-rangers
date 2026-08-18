@@ -561,9 +561,28 @@ settle it twice over: it is stock photography, and an antique instrument on a
 twenty-ninth-century page is an anachronism. Not arguable; excluded.)*
 
 **So the rule's real catchment is original or generated images replaced for
-canon reasons**, not stock photography removed for provenance. The Firefly
-replacement list above is where the candidates are — `lore/cerebraun` (grey-alien
-bust) is the strongest, and the originals are recoverable from git history.
+canon reasons**, not stock photography removed for provenance.
+
+**Correction, 18 August 2026 — this section shipped with a false claim, now
+fixed.** It said the rejected originals were *"recoverable from git history"* and
+named `lore/cerebraun` (grey-alien bust) as the strongest candidate. Checking the
+blobs rather than the prose settles both halves against it, which is the same
+failure this file warns about two sections up:
+
+- **`lore/cerebraun.jpg` has exactly one content version in git**, and opening it
+  shows the **architectural indirection** — a vast concrete hall, one robed
+  figure, mist and high clerestory light. The grey-alien bust never entered the
+  repository. It is not a candidate; it does not exist here.
+- **Nor do most of the others.** `aldera`, `rook-7`, `nessa` and `orla-shepherd`
+  each have **one** distinct blob across every commit touching them. The
+  replacements happened *before* first commit, so the rejected originals were
+  never version-controlled and git cannot return them.
+- **`characters/qiren-tal.jpg` is the sole exception**, with two distinct blobs.
+
+**Consequence: the rule is effectively prospective.** There is almost nothing to
+apply it backwards to, which makes the retroactivity question below much smaller
+than it looked — and means this rule will earn its keep on the *next* image
+rejected for canon, not on the ones already gone.
 
 #### Two absolute exclusions (Dermot's ruling, 18 August 2026)
 
@@ -604,6 +623,34 @@ most of the Firefly replacement list above goes: `ilse-korvain` (US Army stock),
 `rook-7` v1 *"arrived furnished with the NYPD"*, which is both. What survives is
 the **generated and non-period** remainder — `lore/cerebraun` (grey-alien bust)
 still the strongest, with `aldera` and `qiren-tal` behind it.
+
+#### The quality bar (Dermot's ruling, 18 August 2026)
+
+**Only a high-quality image with artistic merit and without technical flaws
+qualifies.** *Aesthetic* in the original direction is not a low bar meaning
+"looks alright"; it is these three, and an image failing any of them is deleted
+or replaced like any other.
+
+The clean formulation: **if the picture would not earn a place on a page were
+canon no obstacle, it does not earn one as Codex art.** The Codex is not a
+salvage yard, and refiling is not a way of keeping work that was not good
+enough. Most images rejected in this repository were rejected *partly* because
+they were poor, and a poor generation does not improve by being reattributed.
+
+**Technical flaw versus style — the distinction worth holding.** A generation
+artefact is a flaw: six-fingered hands, garbled lettering, mismatched eyes,
+architecture that does not resolve, a limb with no shoulder. A stylisation is
+not: flattened perspective, exaggerated proportion, a naive or votive manner are
+all things a maker chooses. **The test is whether an in-world artist could have
+chosen it.** They can choose a style; they cannot choose a diffusion artefact,
+because it is evidence of how the picture was actually made — which is exactly
+the seam a codex frame cannot cover, the same reason anachronism and stock are
+excluded.
+
+**Where this leaves the pool: empty, or nearly.** Combined with the two
+exclusions and the correction above, no identified candidate currently survives.
+That is not a fault in the rule. It is well specified and will catch the next
+case; it simply rescues nothing already gone.
 
 #### Two things still to decide
 
