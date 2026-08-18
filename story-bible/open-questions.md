@@ -325,7 +325,9 @@ holo-displays, stasis pods, and an AI that *handles* interspecies communication.
 The block's heading still says *WRITABLE AFTER TWO NAMING DECISIONS*, corrected
 in place. **All three of the 26 July worlds turned out to contradict published
 canon**, which is now a fact about the intake rather than about any one block.
-Not yet filed as an issue.
+**Tracked as #472**, the strongest of the three P2s: #462's block said *writable
+after three fixes* and #463's said *needs new names*, both understating, while
+this one affirmatively certifies itself as *"Fits canon well."*
 
 Formerly recorded here as a subject rather than a question, belonging to
 `narrative-gaps-checklist.md` — re-derive that from `src/seasons/` before
