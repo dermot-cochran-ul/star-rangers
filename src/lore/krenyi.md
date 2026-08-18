@@ -2,8 +2,8 @@
 layout: lore-entry.njk
 title: "Krenyi (Quiet-Built)"
 category: "Species"
-tags: [krenyi, species, boundary, clarity, polyamorous, long-lived]
-description: "The Krenyi, also called the Quiet-Built or Nai: long-lived beings defined by clarity, coherence, and resistance to mythification."
+tags: [krenyi, species, boundary, clarity, polyamorous, long-lived, levril, champions]
+description: "The Krenyi, also called the Quiet-Built or Nai: long-lived beings defined by clarity, coherence, and resistance to mythification — which is also why they hold Levrils in the least awe and answer them the fastest."
 image: "krenyi.jpg"
 image_alt: "Designed cover for Krenyi (Quiet-Built): an elegant pale humanoid silhouette on a dark starfield background, not a grey alien."
 ---
@@ -66,6 +66,24 @@ That resistance to glamour—in the cosmological sense, not the aesthetic one—
 The same structural bound that governs Krenyi fear and fury governs grief, and it is what makes them mostly immune to a [threne](/star-rangers/lore/meta-dimensional-beings/)'s feeding. A threne prospers on despair prevented from closing — the self-doubt that will not settle, the self-loathing kept warm, the useless regret that circles a loss without ever setting it down. The Krenyi do not withhold grief; they mourn, and their mourning is real, and it *resolves*. What they do not do is hold it open. The feeding condition a threne needs is grief that cannot finish, and in a Krenyi it finishes, so the condition never forms.
 
 The mechanism is the one that resists glamour generally. A threne's offer is [counterfeit](/star-rangers/glossary/unfounded/) — a sorrow that presents as deserved with no founded thing beneath it — and the Krenyi read the membership rather than the shape: the despair stops matching its stated terms, registers as pattern drift, and they withdraw relevance from it rather than argue it down. It is not absolute, and *mostly* is the honest word — a Krenyi worn thin, or grieving something the pattern can keep genuinely live, can be reached at the edges. But they make poor provisioning. Where a threne fattens on a settlement that cannot finish mourning, a Krenyi is ground the predator crosses and finds nothing laid in.
+
+## Levrils, and the Paradox That Isn't One
+
+**No people in the record holds a [Levril](/star-rangers/lore/levrils/) in less awe than the Quiet-Built, and none is quicker to do what one indicates.** Stated flat, that reads as a contradiction. It is a single fact seen from two sides, and the sooner it is put that way round the sooner it stops being strange: **awe and attention are competing for the same faculty, and the Krenyi have spent it all on attention.**
+
+**What a Levril meets in a Krenyi is the one audience that will not decorate it.** A meta-dimensional being arriving in Material space is, for most witnesses, immediately an event about themselves — wonder, dread, the sense of being small, some negotiation with one's own significance, and a great deal of it before anyone has established what is actually wanted. A Krenyi does none of that. They resist becoming symbol or omen and they resist reading anyone else as one, and a dragon is simply the largest available case. What is left, once the glamour finds no purchase, is the material part: what is the constraint, what is the request, and does it still do work.
+
+**And that is precisely the perceptual condition subtle influence requires.** Levrilic action is a sculpted gradient rather than an altered outcome — it is subtle by construction, and it has to be *noticed* before it can be answered. A witness occupied with being amazed is a witness not reading the gradient. The Quiet-Built read pattern drift for a living: they register when a situation stops matching its stated terms, quietly and without announcement, which is the same instrument tilted at a different object. **The clarity that refuses the glamour is the clarity that catches the gradient.** They are not more obedient than other peoples. They are earlier, because nothing happens in them first.
+
+**Cooperative should not be read as deferential, and the floor is worth stating.** A Krenyi extends good faith first, to a Levril as to anyone, and does what a legible request warrants because it is worth doing. Nothing compels them — they are unenslavable in the strict sense the cosmology gives that word, and Cascade standing is not a lever. A Levril whose dealings began to drift from their stated terms would meet exactly what a person does: the drift registers, relevance is withdrawn quietly, and there is no argument about it. Their cooperation is not owed and is not obtained. It is extended, and it can be spent.
+
+## Champions, and the Outcome They Would Refuse
+
+**They are, in consequence, the readiest Champions in the record.** Selection is a [bounded, lawful assessment](/star-rangers/glossary/levril/) on constraint literacy and causal relevance — sustained competent action under constraint, observed rather than tested — and a people built for clarity, immune to the panic cascade, and content to spend centuries becoming precise produce that pattern at a rate no other population approaches. Where a selected Champion of another people spends the first hours of a crisis establishing what has happened to them, a Krenyi is already working. Being first is not zeal. It is the absence of a delay everyone else has.
+
+**And here the record turns the knife, gently.** The documented aftermath of Champion selection is *frequent mythic overstatement of actual capability* and *persistent misattribution as divine will by low-context observers*. So the people least willing to be read as symbol, omen or allegory are the people most often selected to act — and therefore the people most often written up afterwards as exactly that. The Quiet-Built can name the distortion in the room. They have never found any way to name it in the story told afterwards, in a settlement they have left, by people who were not there.
+
+A Krenyi asked about this gives the material answer — that a constraint was named and something was done about it — and declines the rest. It is read, invariably, as modesty. It is not modesty. It is the same refusal they make about a homeworld, and it has the same effect: it leaves a space where an explanation would sit, and other peoples have never once left such a space empty.
 
 ## The Present Tense, and What the Past Is For
 
