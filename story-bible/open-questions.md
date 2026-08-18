@@ -48,29 +48,54 @@ listed first so nobody tidies them away.
 
 ## Cosmology and terminology — queued 2 August 2026
 
-Tracked publicly as **#442**; all six are naming or structural decisions with
-no plot content.
+All six are naming or structural decisions with no plot content. **#442 was
+re-scoped on 18 August 2026** to the Convergence Point alone — the only one of
+the six with unwritten work waiting on it — so the other five are indexed here
+and not tracked publicly. They are not dropped; this file is where they live.
 
-- **The Arilon–Kieme relation**, expressed without *Son of Kieme*. Live, and
-  adjacent to the Kieme titles merged in #434.
+- **The Convergence Point definition** — **#442**, and now the whole of it.
+  Three intake blocks depend on it: Fliade routed around it by marking the
+  absence, but the Umbral Moon *is* the feature and the Meridian block hangs
+  the system's electromagnetic properties and the Sentinel's sentience on it.
+- **The Arilon–Kieme relation**, expressed without *Son of Kieme*. **Probably
+  an unratified answer rather than an open question** (checked 18 August 2026):
+  *Son of Kieme* appears in no page, and the relation is stated three times as
+  a marked undecidability — `arilonian.md`'s *"Champion, avatar, or the
+  incarnation of Kieme itself: every reading is an Arilonian reading, and the
+  word endorses none of them"*, plus the Avatar exception in `arilon.md` and
+  `cosmic-cascade.md`. So the decision is whether that *is* the answer, or
+  whether undecidability is the wrong shape here. If it is the answer, strike
+  this line. Note the constraint either way: `kieme.md` holds that Kieme stands
+  above the concept of number, so a relation stated in relational terms has to
+  survive that.
+- **Where shadow beings live** — Sí Gaoithe, or a realm of their own.
+  **Coupled to the Convergence Point**, and worth deciding in the same sitting:
+  the Umbral Moon block has shadow beings crossing at the crease more easily
+  than anywhere else in the solar system, so what the crease is and where the
+  crossers live is one piece of work.
 - **A feminine Spirit-of-Wisdom name** for the Holy Spirit analogue. Watch the
   Gnostic baggage on *Sophia* against the standing no-Gnosticism rule.
 - **Bible references** — stay in the church-space overlay, or move to Codex.
-- **Whether the Overlay canon-status is needed at all**; it covers one page.
-- **Where shadow beings live** — Sí Gaoithe, or a realm of their own.
-- **The Convergence Point definition.**
+- **Whether the Overlay canon-status is needed at all**; it covers one page —
+  `src/threads/church-space/index.md`, confirmed 18 August 2026.
 
 ## Cascade structure — `cascade-structure-and-limits.md`
 
-Tracked as **#446**, P4. The file's own framing is that the thinking is done
-and only the deciding is outstanding — *"worked out, so they can be decided
-rather than drifted into."* Nothing published depends on any of it and none
-carries a `canon_fact`, so the status quo is safe.
+**#446 closed 18 August 2026.** It was filed on a stale reading. The hinge it
+named — *whether any tier sees rather than derives* — was settled on
+2026-07-30 and is the file's keystone: **the Hyperomnium sees, it does not
+specify**, and section 1 carries the back-reference saying so. The
+predestination consequence is deliberate rather than outstanding: section 4
+rules the dispute **permanently unsettleable in-world**, because section 3
+says no tier can certify its own coherence, and assigns it to the Codex with
+named sources and a strongest-version guardrail.
 
-Four remain. The hinge is **whether any tier sees rather than derives**: if
-foreknowledge returns, a defensible predestination comes with it, and the file
-notes certain traditions answer *yes* for the Trinity. Check the file's own
-conflict register before answering any of them.
+What genuinely remains is whatever sections 1–3 and 5 flag inline, and the
+file's own closing **`Status:`** line is the accurate inventory — read that
+rather than this. The narrowest live item is whether the Hyperomnium's
+beholding reaches what has not yet been chosen. Nothing published depends on
+any of it and none carries a `canon_fact`, so the status quo is safe. Check
+the conflict register at the foot before answering any of them.
 
 ## Character and backstory — `intake-2026-07-28.md`
 
