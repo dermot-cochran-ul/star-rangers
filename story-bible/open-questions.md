@@ -131,7 +131,8 @@ or Season 6–7 material:
   no point on one; Fliade prose describes what the Pandoids do and don't make,
   without a rank or an implied missing rung. Drafted into
   `what-the-record-refuses.md` as a general refusal of the ladder, since three
-  existing pages already refuse it case by case. **Open until the PR merges.**
+  existing pages already refuse it case by case. **Merged in #452 on 16 August
+  2026; the ladder refusal is live and #450 is closed.**
 - ~~**The humanoid collision**~~ — **#449, ruled 16 August 2026: reading 3**,
   the tiers are distinct, plus the clarification that the Pandoids derive from a
   **bear-like alien ancestor, not terrestrial bears, despite the name**. The
@@ -141,9 +142,10 @@ or Season 6–7 material:
   observers, never about descent. Fliade and the Pandoids are deliberately not
   named on that page — unwritten, and a doctrine page is the wrong place for a
   species to enter canon; the named example follows when Fliade is written.
-  **Open until the PR is merged**, since that page is Dermot's to approve.
+  **Merged in #452 on 16 August 2026; #449 is closed.** The doctrine page still
+  names neither, so the follow-up below stands.
 
-## Fliade — drafted 16 August 2026, awaiting Dermot
+## Fliade — merged 16 August 2026
 
 Four rulings that day settled what the 26 July block was waiting on, all
 recorded in `intake-2026-07-26.md`: the Pandoids are **sapient**; descended from
@@ -151,9 +153,10 @@ a **bear-like alien ancestor**, not terrestrial bears; **not space faring**; and
 keeping their record **orally, in cultural memory**. Fliade is a first-contact
 world under the FTP sapience clause.
 
-`src/lore/planets/fliade.md` is drafted on that basis in **#452**. It is a
-proposal; the entry asserts nothing beyond the intake blocks and the four
-rulings, and where it had to choose it chose to mark an absence.
+`src/lore/planets/fliade.md` was drafted on that basis and **merged in #452**,
+which carried the two doctrine refusals as well. The entry asserts nothing
+beyond the intake blocks and the four rulings, and where it had to choose it
+chose to mark an absence.
 
 Still live:
 
@@ -218,7 +221,13 @@ not evaporate between sessions.
 - **The Fold Transit Safety branch origin story**, **#430**. Boundary Safety
   and AI Safety each got a history on 16 August; Fold Transit is named and
   unexplained. Most of the raw material already exists in
-  `fold-transit-catastrophic-failure.md`.
+  `fold-transit-catastrophic-failure.md`. **Drafted 18 August 2026** into
+  `src/lore/star-rangers-safety-corps.md` — two paragraphs, no new assertions:
+  the branch begins from the finding that the failure surface is the aperture,
+  which makes the hazard a specification and the Chicago method applicable
+  unchanged; its founding year is a marked absence, on the page's own precedent
+  for the retired *Solutions* name. Lore, so draft-and-stop: open until Dermot
+  merges it.
 
 ## Unwritten and live — from 26 July
 
