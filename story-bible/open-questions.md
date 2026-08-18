@@ -214,6 +214,7 @@ not evaporate between sessions.
   creation is collaborators-only — reword to point readers at the comments
   repo, or open creation. Tracked as **#432**; the recommendation is reword,
   since that file binds him to other people and is draft-and-stop.
+- **[Proverbs and Maxims of the Star Rangers](../src/lore/star-rangers-proverbs-and-maxims.md)**, drafted 18 August 2026 and not merged — a lore entry asserts about the world, so it is draft-and-stop. Two of its sayings are new rather than collected (*"Quiet is not doubt; loud is not certain"* and *"The pleasing reading is checked first"*, from his humility note of the same date); the rest are sourced to existing pages. Separately, the survey behind that note found the corpus holds only the *good* version of humility — grounded, correctly refusing flattery — and nobody yet embodies **Humility can become invisibility**. Worth confirming before anyone writes to the theme, since the pair only works if both halves exist on the page. See `ideas.md`, *Humility as Confidence*.
 - **The Fold Transit Safety branch origin story**, **#430**. Boundary Safety
   and AI Safety each got a history on 16 August; Fold Transit is named and
   unexplained. Most of the raw material already exists in
