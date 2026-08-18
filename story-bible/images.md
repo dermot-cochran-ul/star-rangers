@@ -518,6 +518,150 @@ here instead, and both pages currently open with no image at all.
 | `formation-of-star-rangers.jpg` | A **recognisable real city** — a sepia-treated skyline with One World Trade Center's spire unmistakable in it — standing in for the founding of the Star Rangers. No people, so not a privacy case; the problem is that it is a specific place on Earth with its own meaning already attached | The founding of an independent humanitarian corps. Something that is not a photograph of somewhere real |
 | `universal-cosmic-stardate.jpg` | An antique dial engraved **in French with a fleur-de-lis border**, on the entry for a count whose whole argument is that it *"commemorates no founding … a spine that honoured an event would belong to whoever owned the event."* The image hands the standard to exactly one nation's heraldry | A civil timescale owned by nobody. The page's own material is better: an ensemble of clocks, a paper timescale, a loop that closes |
 
+### A third option: refile as in-universe art (Dermot's direction, 18 August 2026)
+
+**An image that directly contradicts canon but remains aesthetic may be moved
+into the Codex as in-universe artwork rather than removed.**
+
+**This completes the rule above rather than overturning it.** *Absence beats a
+picture quietly making a claim* is about a picture asserting in **Archive
+voice**, on a lore page. A Codex artefact asserts nothing — it is
+valid-for-its-author, like every other codex entry — so relocating an image
+stops the claim just as deletion does, and keeps the picture. The disposal
+options are therefore three, in order of preference: **fix it, relocate it,
+delete it.**
+
+**The Codex's own schema is what makes this work.** `author` is a required field
+on every codex entry, and an artwork's author is exactly what makes it
+valid-for-its-author: a rendering by someone who never saw the subject, worked
+from a description, or had reasons to flatter. A grey-alien bust is wrong as
+lore and *interesting* as a popular-press impression by an illustrator who never
+met one — and it then illustrates the very refusal
+[What the Record Refuses](../src/lore/what-the-record-refuses.md) makes. Test an
+image the way the boundary already tests prose: not *is this true?* but *could
+someone in this world have made it, and would they have made it this way?*
+
+**What it takes mechanically — it is not a file move.** `validate-content.js`
+fails on any unreferenced file under `src/images/`, so an image cannot sit in
+the Codex unattached. Refiling means **writing a codex entry around it**, with
+an author, and moving the file to `src/images/codex/`. `image_alt` still
+describes what the picture actually shows. Codex entries carry no `canon_facts`,
+which is consistent — an artefact establishes nothing.
+
+**It would not have rescued either Batch 3 deletion**, and the reason is worth
+keeping because it bounds the rule. Both failed for something the Codex cannot
+cure: they are **photographs of identifiable real-world subjects**. Refiling
+`formation-of-star-rangers.jpg` still shows One World Trade Center, whoever is
+said to have taken it — the problem was never the claim the page made, but that
+the image arrives with its own meaning already attached. The stock provenance is
+a second, independent reason, and the 11 August sweep removed eight on that
+ground alone. *(The French dial was recorded here as arguable — an in-universe
+artefact could legitimately be French-made. The 18 August exclusions below
+settle it twice over: it is stock photography, and an antique instrument on a
+twenty-ninth-century page is an anachronism. Not arguable; excluded.)*
+
+**So the rule's real catchment is original or generated images replaced for
+canon reasons**, not stock photography removed for provenance.
+
+**Correction, 18 August 2026 — this section shipped with a false claim, now
+fixed.** It said the rejected originals were *"recoverable from git history"* and
+named `lore/cerebraun` (grey-alien bust) as the strongest candidate. Checking the
+blobs rather than the prose settles both halves against it, which is the same
+failure this file warns about two sections up:
+
+- **`lore/cerebraun.jpg` has exactly one content version in git**, and opening it
+  shows the **architectural indirection** — a vast concrete hall, one robed
+  figure, mist and high clerestory light. The grey-alien bust never entered the
+  repository. It is not a candidate; it does not exist here.
+- **Nor do most of the others.** `aldera`, `rook-7`, `nessa` and `orla-shepherd`
+  each have **one** distinct blob across every commit touching them. The
+  replacements happened *before* first commit, so the rejected originals were
+  never version-controlled and git cannot return them.
+- **`characters/qiren-tal.jpg` is the sole exception**, with two distinct blobs.
+
+**Consequence: the rule is effectively prospective.** There is almost nothing to
+apply it backwards to, which makes the retroactivity question below much smaller
+than it looked — and means this rule will earn its keep on the *next* image
+rejected for canon, not on the ones already gone.
+
+#### Two absolute exclusions (Dermot's ruling, 18 August 2026)
+
+**Stock photography never qualifies, and neither do anachronisms.** These are
+not weightings to consider; an image failing either is deleted or replaced, and
+the Codex is not offered.
+
+The two exclusions look unrelated and share one reason, which is worth stating
+because it also marks the rule's outer edge. **The Codex can carry a wrong
+belief. It cannot carry a wrong century, or a real place.** A codex artefact is
+still a physical object *made inside this world*, so the author's fallibility
+covers **interpretation** — what they thought, inferred, flattered or got wrong
+— and never **material culture**. Attributing a picture to an in-universe artist
+explains why its reading is mistaken; it does nothing whatever about what is
+physically in the frame.
+
+- **Stock photography.** The image arrives with real-world meaning already
+  attached, and no frame strips it: refiling still shows One World Trade Center
+  whoever is said to have taken it. Provenance is an independent second reason.
+- **Anachronism.** An out-of-period object is not a claim the artist made — it
+  is a claim about what the world could manufacture. An artist working in 2826
+  does not put a twenty-first-century desk lamp in a 2826 scene, so the codex
+  frame has nothing to explain it with. The record already holds the doctrine
+  this rests on: [What the Record Refuses](../src/lore/what-the-record-refuses.md)
+  treats the sprung, jointed, domed desk lamp as *"as much a period object as a
+  wall of dials,"* and sets out what light, displays and surfaces actually look
+  like here.
+
+  **A deliberate historical depiction is not an anachronism** and the rule never
+  reaches it: a picture *of* the twenty-first century showing twenty-first
+  century objects is correctly period. An anachronism is an object out of its
+  time *within the scene depicted*, which is why the exclusion needs no
+  exception.
+
+**What the exclusions leave.** They cut the candidate pool hard, and usefully —
+most of the Firefly replacement list above goes: `ilse-korvain` (US Army stock),
+`karla-wender`, `orla-shepherd`, `nessa` and `maren-solveig-krast` are stock, and
+`rook-7` v1 *"arrived furnished with the NYPD"*, which is both. What survives is
+the **generated and non-period** remainder — `lore/cerebraun` (grey-alien bust)
+still the strongest, with `aldera` and `qiren-tal` behind it.
+
+#### The quality bar (Dermot's ruling, 18 August 2026)
+
+**Only a high-quality image with artistic merit and without technical flaws
+qualifies.** *Aesthetic* in the original direction is not a low bar meaning
+"looks alright"; it is these three, and an image failing any of them is deleted
+or replaced like any other.
+
+The clean formulation: **if the picture would not earn a place on a page were
+canon no obstacle, it does not earn one as Codex art.** The Codex is not a
+salvage yard, and refiling is not a way of keeping work that was not good
+enough. Most images rejected in this repository were rejected *partly* because
+they were poor, and a poor generation does not improve by being reattributed.
+
+**Technical flaw versus style — the distinction worth holding.** A generation
+artefact is a flaw: six-fingered hands, garbled lettering, mismatched eyes,
+architecture that does not resolve, a limb with no shoulder. A stylisation is
+not: flattened perspective, exaggerated proportion, a naive or votive manner are
+all things a maker chooses. **The test is whether an in-world artist could have
+chosen it.** They can choose a style; they cannot choose a diffusion artefact,
+because it is evidence of how the picture was actually made — which is exactly
+the seam a codex frame cannot cover, the same reason anachronism and stock are
+excluded.
+
+**Where this leaves the pool: empty, or nearly.** Combined with the two
+exclusions and the correction above, no identified candidate currently survives.
+That is not a fault in the rule. It is well specified and will catch the next
+case; it simply rescues nothing already gone.
+
+#### Two things still to decide
+
+1. **Does it override the codex title-card convention?** Codex images are
+   *"designed dark-gradient title cards, not photographs"* and covers *"go
+   through the generator, never an image model."* An artefact-image is a
+   **second class** of codex image. Either that convention gains an exception,
+   or artefact entries carry a card and show the artwork in the body.
+2. **Is it retroactive?** Deleted images are recoverable from git. Applying it
+   backwards is a separate decision from applying it going forward.
+
 **Note what the July audit did and did not ask.** `formation-of-star-rangers`
 was inspected in that sweep and passed — correctly, on the question being asked,
 which was whether the alt matched the image. Nobody asked whether the image

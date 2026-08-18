@@ -231,6 +231,31 @@ Still live:
 this section indexes only what is **undecided or awaiting a look**, so it can
 be found without reading 1,300 lines.
 
+- **Refiling contradicting images as Codex art — three decisions open.**
+  Dermot's direction of 18 August 2026: an image that contradicts canon but
+  remains aesthetic may move into the Codex as in-universe artwork rather than
+  be removed. The principle is recorded in `images.md` and completes rather than
+  overturns *absence beats a picture quietly making a claim* — a codex artefact
+  asserts nothing, so relocating stops the claim without losing the picture.
+  **Two absolute exclusions ruled 18 August 2026: stock photography never
+  qualifies, and neither do anachronisms.** One reason under both — the Codex
+  can carry a wrong belief, never a wrong century or a real place, because an
+  artefact is a physical object made inside this world and the author's
+  fallibility covers interpretation rather than material culture. This also
+  closes the French dial, previously recorded as arguable: it fails on both
+  counts. **A quality bar was ruled the same day**: only a high-quality image
+  with artistic merit and no technical flaws qualifies — if it would not earn a
+  page were canon no obstacle, it does not earn one as Codex art. A generation
+  artefact is a flaw; a stylisation is not, the test being whether an in-world
+  artist could have *chosen* it. **Nothing has been applied, and the pool is
+  currently empty**: a blob check on 18 August found the rejected originals were
+  never committed (one content version each for `cerebraun`, `aldera`, `rook-7`,
+  `nessa`, `orla-shepherd`; only `qiren-tal` has two), so the rule is effectively
+  **prospective** and the retroactivity question is much smaller than it looked.
+  Two things still to decide: whether it overrides the codex title-card
+  convention, and whether it is retroactive at all.
+  `CLAUDE.md`'s image conventions are deliberately **not** updated yet, since
+  stating an unsettled convention there is worse than stating none.
 - **The emblem-card recipe is lost.** `images.md:1292` — *"Still open after
   this: the emblem-card recipe."* Nothing on record recovers how the existing
   emblem cards were made, so a new one cannot currently be produced to match.
