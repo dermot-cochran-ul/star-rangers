@@ -85,6 +85,8 @@ The mechanism is the one that resists glamour generally. A threne's offer is [co
 
 A Krenyi asked about this gives the material answer — that a constraint was named and something was done about it — and declines the rest. It is read, invariably, as modesty. It is not modesty. It is the same refusal they make about a homeworld, and it has the same effect: it leaves a space where an explanation would sit, and other peoples have never once left such a space empty.
 
+The largest of those spaces is filed under a name the Quiet-Built did not choose and have never been asked about. See [Arilon](/star-rangers/lore/arilon/), where the Fellowship of Light records — without adopting it, and without any means of testing it — the reading that some of the pattern's accounts concern a people who look almost human and decline to say what they are.
+
 ## The Present Tense, and What the Past Is For
 
 The Krenyi are built to attend to what is here and what is coming. The past is not sacred to them and it is not suppressed; it is simply not where they look, unless looking there returns something usable. A Krenyi will go to the record without hesitation for a measurement, a precedent, a failure mode worth not repeating — and will decline the same record entirely when it is offered as explanation, commemoration, or grievance. The test is not *is it true* but *does it still do work*.
