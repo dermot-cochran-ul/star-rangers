@@ -231,6 +231,21 @@ Still live:
 this section indexes only what is **undecided or awaiting a look**, so it can
 be found without reading 1,300 lines.
 
+- **Refiling contradicting images as Codex art — three decisions open.**
+  Dermot's direction of 18 August 2026: an image that contradicts canon but
+  remains aesthetic may move into the Codex as in-universe artwork rather than
+  be removed. The principle is recorded in `images.md` and completes rather than
+  overturns *absence beats a picture quietly making a claim* — a codex artefact
+  asserts nothing, so relocating stops the claim without losing the picture.
+  **Nothing has been applied**, because three things need deciding first:
+  whether it overrides the codex title-card convention (an artefact-image is a
+  second class of codex image); whether it is retroactive to already-deleted
+  images, which git can recover; and whether stock photography qualifies
+  (recommended **no**, on provenance plus the Batch 3 reasoning). Note it would
+  **not** have rescued either Batch 3 deletion — both are photographs of
+  identifiable real-world subjects, which the Codex frame cannot cure.
+  `CLAUDE.md`'s image conventions are deliberately **not** updated yet, since
+  stating an unsettled convention there is worse than stating none.
 - **The emblem-card recipe is lost.** `images.md:1292` — *"Still open after
   this: the emblem-card recipe."* Nothing on record recovers how the existing
   emblem cards were made, so a new one cannot currently be produced to match.

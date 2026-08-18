@@ -518,6 +518,64 @@ here instead, and both pages currently open with no image at all.
 | `formation-of-star-rangers.jpg` | A **recognisable real city** — a sepia-treated skyline with One World Trade Center's spire unmistakable in it — standing in for the founding of the Star Rangers. No people, so not a privacy case; the problem is that it is a specific place on Earth with its own meaning already attached | The founding of an independent humanitarian corps. Something that is not a photograph of somewhere real |
 | `universal-cosmic-stardate.jpg` | An antique dial engraved **in French with a fleur-de-lis border**, on the entry for a count whose whole argument is that it *"commemorates no founding … a spine that honoured an event would belong to whoever owned the event."* The image hands the standard to exactly one nation's heraldry | A civil timescale owned by nobody. The page's own material is better: an ensemble of clocks, a paper timescale, a loop that closes |
 
+### A third option: refile as in-universe art (Dermot's direction, 18 August 2026)
+
+**An image that directly contradicts canon but remains aesthetic may be moved
+into the Codex as in-universe artwork rather than removed.**
+
+**This completes the rule above rather than overturning it.** *Absence beats a
+picture quietly making a claim* is about a picture asserting in **Archive
+voice**, on a lore page. A Codex artefact asserts nothing — it is
+valid-for-its-author, like every other codex entry — so relocating an image
+stops the claim just as deletion does, and keeps the picture. The disposal
+options are therefore three, in order of preference: **fix it, relocate it,
+delete it.**
+
+**The Codex's own schema is what makes this work.** `author` is a required field
+on every codex entry, and an artwork's author is exactly what makes it
+valid-for-its-author: a rendering by someone who never saw the subject, worked
+from a description, or had reasons to flatter. A grey-alien bust is wrong as
+lore and *interesting* as a popular-press impression by an illustrator who never
+met one — and it then illustrates the very refusal
+[What the Record Refuses](../src/lore/what-the-record-refuses.md) makes. Test an
+image the way the boundary already tests prose: not *is this true?* but *could
+someone in this world have made it, and would they have made it this way?*
+
+**What it takes mechanically — it is not a file move.** `validate-content.js`
+fails on any unreferenced file under `src/images/`, so an image cannot sit in
+the Codex unattached. Refiling means **writing a codex entry around it**, with
+an author, and moving the file to `src/images/codex/`. `image_alt` still
+describes what the picture actually shows. Codex entries carry no `canon_facts`,
+which is consistent — an artefact establishes nothing.
+
+**It would not have rescued either Batch 3 deletion**, and the reason is worth
+keeping because it bounds the rule. Both failed for something the Codex cannot
+cure: they are **photographs of identifiable real-world subjects**. Refiling
+`formation-of-star-rangers.jpg` still shows One World Trade Center, whoever is
+said to have taken it — the problem was never the claim the page made, but that
+the image arrives with its own meaning already attached. The stock provenance is
+a second, independent reason, and the 11 August sweep removed eight on that
+ground alone. *(The French dial is the arguable case: an in-universe artefact
+could legitimately be French-made, which would make the heraldry diegetic rather
+than accidental. Recorded as arguable, not decided.)*
+
+**So the rule's real catchment is original or generated images replaced for
+canon reasons**, not stock photography removed for provenance. The Firefly
+replacement list above is where the candidates are — `lore/cerebraun` (grey-alien
+bust) is the strongest, and the originals are recoverable from git history.
+
+**Three things still to decide before this is applied to anything:**
+
+1. **Does it override the codex title-card convention?** Codex images are
+   *"designed dark-gradient title cards, not photographs"* and covers *"go
+   through the generator, never an image model."* An artefact-image is a
+   **second class** of codex image. Either that convention gains an exception,
+   or artefact entries carry a card and show the artwork in the body.
+2. **Is it retroactive?** Deleted images are recoverable from git. Applying it
+   backwards is a separate decision from applying it going forward.
+3. **Stock photography: in or out?** Recommended **out**, on the Batch 3
+   reasoning plus provenance — but that is a recommendation, not a ruling.
+
 **Note what the July audit did and did not ask.** `formation-of-star-rangers`
 was inspected in that sweep and passed — correctly, on the question being asked,
 which was whether the alt matched the image. Nobody asked whether the image
