@@ -29,6 +29,16 @@ To human observers, Krenyi can seem unusually calm. The more precise truth is th
 
 This is not suppression. It is structural.
 
+**Nor is it an absence of feeling, and the misreading is worth heading off directly.** The Quiet-Built are not an unemotional people. Anxiety they have; annoyance they have; grief they have, and it is real. They form attachments of genuine care and hold them for centuries. What the list above records is a range **bounded at three specific points** — deep fear, fury, and grief that will not close — and a people missing three extremes is not a people missing the register. They are not calm the way a held breath is calm. They are calm the way a room is quiet when nothing in it is on fire.
+
+**And they understand human emotion without sharing it.** A Krenyi reads a frightened human accurately: what the fear is doing to that person's judgement, what it will make them say, what they will regret in an hour. None of that requires feeling it. This is not a workaround the Krenyi have developed in place of a missing sense — it is simply how [reading another person works here](/star-rangers/lore/what-the-record-refuses/) for everyone. Empathy in this record is perception coupled with inference, acute enough to catch what people actually leak and fast enough to assemble it; nothing arrives by antenna, and no one has ever needed to share a state to recognise it.
+
+**On one axis the arrangement gives them an advantage, and it is worth being exact about which.** A human reading someone else's fear is reading it through their own, and the instrument is measuring something it is also doing. A Krenyi's is not. That buys accuracy under conditions where accuracy is scarcest — which is the same fact, seen from another side, as their being effective where panic cascades are a concern. It buys nothing at all elsewhere, and it is not a rank: what they hold is a different instrument, not a better grade of the same one.
+
+**The cost is real and lands where a reader might not look for it.** Human emotional grammar is learned rather than had, so what a Krenyi carries is a very good working model built over a long life. A model is exactly the thing a novel case defeats, which is why the record notes them as briefly vulnerable to human social deceptions they have not met before — not naive, and not slow, but working from a map where a human is working from the ground.
+
+**What all of this forecloses is the reading that keeps being reached for anyway:** that a people without fury are a cold people, that clarity is coldness, or that the Quiet-Built regard human feeling as a defect they have been spared. None of it is in the record. Clarity is not logic — logic is a method and clarity is an absence of ornament — and a Krenyi has never once been recorded finding a human ridiculous for being afraid.
+
 ## Social and Relational
 
 - Demisexual: attraction arises only through an established emotional bond, and never before one. This is the whole species and not a distribution within it — there is no Krenyi for whom it works the other way.
@@ -84,6 +94,8 @@ The mechanism is the one that resists glamour generally. A threne's offer is [co
 **And here the record turns the knife, gently.** The documented aftermath of Champion selection is *frequent mythic overstatement of actual capability* and *persistent misattribution as divine will by low-context observers*. So the people least willing to be read as symbol, omen or allegory are the people most often selected to act — and therefore the people most often written up afterwards as exactly that. The Quiet-Built can name the distortion in the room. They have never found any way to name it in the story told afterwards, in a settlement they have left, by people who were not there.
 
 A Krenyi asked about this gives the material answer — that a constraint was named and something was done about it — and declines the rest. It is read, invariably, as modesty. It is not modesty. It is the same refusal they make about a homeworld, and it has the same effect: it leaves a space where an explanation would sit, and other peoples have never once left such a space empty.
+
+The largest of those spaces is filed under a name the Quiet-Built did not choose and have never been asked about. See [Arilon](/star-rangers/lore/arilon/), where the Fellowship of Light records — without adopting it, and without any means of testing it — the reading that some of the pattern's accounts concern a people who look almost human and decline to say what they are.
 
 ## The Present Tense, and What the Past Is For
 
