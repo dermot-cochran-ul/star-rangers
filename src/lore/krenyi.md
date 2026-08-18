@@ -2,8 +2,8 @@
 layout: lore-entry.njk
 title: "Krenyi (Quiet-Built)"
 category: "Species"
-tags: [krenyi, species, boundary, clarity, polyamorous, long-lived]
-description: "The Krenyi, also called the Quiet-Built or Nai: long-lived beings defined by clarity, coherence, and resistance to mythification."
+tags: [krenyi, species, boundary, clarity, polyamorous, long-lived, levril, champions]
+description: "The Krenyi, also called the Quiet-Built or Nai: long-lived beings defined by clarity, coherence, and resistance to mythification — which is also why they hold Levrils in the least awe and answer them the fastest."
 image: "krenyi.jpg"
 image_alt: "Designed cover for Krenyi (Quiet-Built): an elegant pale humanoid silhouette on a dark starfield background, not a grey alien."
 ---
@@ -67,6 +67,24 @@ The same structural bound that governs Krenyi fear and fury governs grief, and i
 
 The mechanism is the one that resists glamour generally. A threne's offer is [counterfeit](/star-rangers/glossary/unfounded/) — a sorrow that presents as deserved with no founded thing beneath it — and the Krenyi read the membership rather than the shape: the despair stops matching its stated terms, registers as pattern drift, and they withdraw relevance from it rather than argue it down. It is not absolute, and *mostly* is the honest word — a Krenyi worn thin, or grieving something the pattern can keep genuinely live, can be reached at the edges. But they make poor provisioning. Where a threne fattens on a settlement that cannot finish mourning, a Krenyi is ground the predator crosses and finds nothing laid in.
 
+## Levrils, and the Paradox That Isn't One
+
+**No people in the record holds a [Levril](/star-rangers/lore/levrils/) in less awe than the Quiet-Built, and none is quicker to do what one indicates.** Stated flat, that reads as a contradiction. It is a single fact seen from two sides, and the sooner it is put that way round the sooner it stops being strange: **awe and attention are competing for the same faculty, and the Krenyi have spent it all on attention.**
+
+**What a Levril meets in a Krenyi is the one audience that will not decorate it.** A meta-dimensional being arriving in Material space is, for most witnesses, immediately an event about themselves — wonder, dread, the sense of being small, some negotiation with one's own significance, and a great deal of it before anyone has established what is actually wanted. A Krenyi does none of that. They resist becoming symbol or omen and they resist reading anyone else as one, and a dragon is simply the largest available case. What is left, once the glamour finds no purchase, is the material part: what is the constraint, what is the request, and does it still do work.
+
+**And that is precisely the perceptual condition subtle influence requires.** Levrilic action is a sculpted gradient rather than an altered outcome — it is subtle by construction, and it has to be *noticed* before it can be answered. A witness occupied with being amazed is a witness not reading the gradient. The Quiet-Built read pattern drift for a living: they register when a situation stops matching its stated terms, quietly and without announcement, which is the same instrument tilted at a different object. **The clarity that refuses the glamour is the clarity that catches the gradient.** They are not more obedient than other peoples. They are earlier, because nothing happens in them first.
+
+**Cooperative should not be read as deferential, and the floor is worth stating.** A Krenyi extends good faith first, to a Levril as to anyone, and does what a legible request warrants because it is worth doing. Nothing compels them — they are unenslavable in the strict sense the cosmology gives that word, and Cascade standing is not a lever. A Levril whose dealings began to drift from their stated terms would meet exactly what a person does: the drift registers, relevance is withdrawn quietly, and there is no argument about it. Their cooperation is not owed and is not obtained. It is extended, and it can be spent.
+
+## Champions, and the Outcome They Would Refuse
+
+**They are, in consequence, the readiest Champions in the record.** Selection is a [bounded, lawful assessment](/star-rangers/glossary/levril/) on constraint literacy and causal relevance — sustained competent action under constraint, observed rather than tested — and a people built for clarity, immune to the panic cascade, and content to spend centuries becoming precise produce that pattern at a rate no other population approaches. Where a selected Champion of another people spends the first hours of a crisis establishing what has happened to them, a Krenyi is already working. Being first is not zeal. It is the absence of a delay everyone else has.
+
+**And here the record turns the knife, gently.** The documented aftermath of Champion selection is *frequent mythic overstatement of actual capability* and *persistent misattribution as divine will by low-context observers*. So the people least willing to be read as symbol, omen or allegory are the people most often selected to act — and therefore the people most often written up afterwards as exactly that. The Quiet-Built can name the distortion in the room. They have never found any way to name it in the story told afterwards, in a settlement they have left, by people who were not there.
+
+A Krenyi asked about this gives the material answer — that a constraint was named and something was done about it — and declines the rest. It is read, invariably, as modesty. It is not modesty. It is the same refusal they make about a homeworld, and it has the same effect: it leaves a space where an explanation would sit, and other peoples have never once left such a space empty.
+
 ## The Present Tense, and What the Past Is For
 
 The Krenyi are built to attend to what is here and what is coming. The past is not sacred to them and it is not suppressed; it is simply not where they look, unless looking there returns something usable. A Krenyi will go to the record without hesitation for a measurement, a precedent, a failure mode worth not repeating — and will decline the same record entirely when it is offered as explanation, commemoration, or grievance. The test is not *is it true* but *does it still do work*.
@@ -77,8 +95,25 @@ This is one orientation, not several, and most of what the Quiet-Built are known
 - **"Nai."** The state-marker means *still relevant here*. A courtesy in the present tense is what a present-tense people would have built.
 - **No interest in being placed.** A homeworld offered as an explanation is the past deployed as a definition, which is the one use of it they refuse outright.
 - **Centuries of patience.** A species that expects to spend a very long time becoming precise has no reason to be in a hurry and no reason to look behind.
+- **Little appetite for *human* entertainment.** Fiction, games, spectator contests and music are calibrated to registers the Quiet-Built do not have. See below; it is the largest single difference between Krenyi and human social life, and the one most often mistaken for coldness.
 
 The failure mode this produces is worth naming, because the Krenyi would name it themselves: **they are poor keepers of anything whose value has not yet been demonstrated.** A fact that will matter in two hundred years and returns nothing today is a fact a Krenyi will let go, without malice and without noticing. Other peoples' archives exist partly to hold what nobody has yet found a use for. Krenyi practice has no equivalent instinct, and where it costs them, it costs them there.
+
+## Why Human Entertainment Does Not Land
+
+The Quiet-Built take little interest in human fiction, games, team sports or music. **The claim is about the human forms specifically**, and it is not the larger one it is often mistaken for: nothing here says the Krenyi have no use for made things, and nothing here is a judgement on the humans enjoying them.
+
+What it is, is a calibration problem. **Human entertainment is tuned, with great skill, to an instrument the Krenyi do not have.**
+
+**Most of it plays on three registers they are structurally without.** Human drama runs on dread and its release; human sport runs on partisan fury and the fear of losing; a great deal of human music does its work by holding a sorrow open and keeping it warm. Deep fear, fury, and grief that does not resolve are precisely the three things a Krenyi does not experience — the same bounds described under Emotional Range and Resistance to Grief-Predation above. A Krenyi in the audience is not being stoical. The performance is reaching for handholds that are not there.
+
+**Human fiction's method is the one they decline in every other context.** It asks a listener to take an invented account as though it were an account, and to read people as symbol, omen and pattern while doing so. The Quiet-Built name that distortion and return the exchange to material terms when a person does it to them; they are not going to seek it out for an evening. The detail that most often startles a human colleague is that a Krenyi handed a [published work](/star-rangers/lore/narrative-works-and-their-adaptation/) will frequently read it — and read the *apparatus*. The register of terms, the chronology, the sourced documents are measurements, and measurements do work. The scenes they put down without ceremony and without any sense of having missed a point.
+
+**Team sport asks a person to become a category on purpose**, which is the one move this people is built to refuse. A supporter is choosing exactly the thing a Krenyi names the distortion in and steps out of. They will compete, train, test and compare against a standard all day — none of that is in question. It is the stands rather than the field where nothing arrives.
+
+**Whether the Quiet-Built have forms of their own is not established, and the question is now the interesting one.** Nothing above argues that a people with no taste for human entertainment must have no equivalent; it argues that these particular forms were built for a physiology and a set of habits they do not share. What a made thing calibrated to *Krenyi* registers would look like — for a people without dread, without fury, whose grief finishes, and whose central courtesy is the present tense — is not something any cross-species source has recorded. Asked directly, a Krenyi gives the material answer and declines the elaboration, in the same way and for the same reason they decline to be placed by a homeworld. **The absence is theirs, not the archive's.**
+
+**The cost is social and it is real.** A great deal of human company is conducted through shared play — the match, the game, the song everybody already knows — and none of it is available as a way in. Mixed crews find their footing in work instead, which is available, and which is where Krenyi company is at its best. The mistake worth avoiding is the one the [ladder refusal](/star-rangers/lore/what-the-record-refuses/) names in another context, and here it is not a caution but the whole finding: **a people who want little of what you make are not a people with less. They are a people the thing was not made for.**
 
 ## An Origin the Record Doesn't Hold
 
