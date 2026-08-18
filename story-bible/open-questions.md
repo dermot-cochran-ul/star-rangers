@@ -143,7 +143,8 @@ Tracked as **#445**. Two corporations, not one — the index conflated them unti
   corporation is a joint-venture founder alongside the Military Space Command,
   which was dissolved into the SSDC in 2723 and cannot have founded a colony
   thirty years before 2826. Founder or date has to give, and the rename lands
-  in the same sentence.
+  in the same sentence. **Both are items 2 and 3 of #463**, which carries the
+  whole of that block's correction list — do them there rather than alone.
 - **The 28 July concern — its name and what it was developing.** A different
   company: the one that financed the settlement and contested the Sheriff's
   election. Both halves still open, and the intake's own cast note applies —
@@ -278,8 +279,19 @@ not evaporate between sessions.
 Still live: **Umbral Moon** and **Kalypsis Dawn**.
 
 They were subjects rather than questions, and so not tracked as issues. **That
-changed for the Umbral Moon on 18 August 2026**: the boundary-zone ruling found
-its intake block contradicts published canon in three places, which is a
-question, and it is **#462**. Kalypsis Dawn remains a subject and belongs to
+changed on 18 August 2026 for two of the intake's worlds**, both because the
+boundary-zone ruling found their blocks contradict published canon:
+
+- **Umbral Moon — #462.** Three conflicts, one of them a design decision: what
+  holds a moon, if not a gravity tunnel canon defines as lasting seconds.
+- **The renamed Meridian system — #463.** Seven corrections where the block's
+  heading advertises one. The two found last are the worst: the Sentinel's
+  distress signal is a **refused psi trope** rather than a stretch of one, and
+  **Convergence Weaving** is undefined — the same shape as Convergence Point
+  before #442, in the same block, found the same way.
+
+**Kalypsis Dawn** remains a subject rather than a question, and belongs to
 `narrative-gaps-checklist.md` — re-derive that from `src/seasons/` before
-trusting it.
+trusting it. Worth noting it is now the only one of the intake's unwritten
+worlds nobody has checked against canon, which is not evidence that it is
+clean.
