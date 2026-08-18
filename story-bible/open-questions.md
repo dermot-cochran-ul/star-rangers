@@ -122,15 +122,26 @@ touches Season 6–7 material and the tracker is public.
 
 ## Naming — `intake-2026-07-26.md`
 
-Tracked as **#445**.
+Tracked as **#445**. Two corporations, not one — the index conflated them until
+18 August 2026, and they share only the property of being unnamed.
 
-- **Wayland Space Corporation.** *Wayland* already occurs in the repo in
-  another sense, so the question is whether the name is reusable. The
-  precedent is *Drithane*: retired as a title, then deliberately reused
-  in-world as a planet name, because the two senses cannot be confused. Record
-  the decision in the migration map either way.
-- **What the corporation actually did**, which the 28 July intake leaves open
-  alongside its name.
+- ~~**Whether *Wayland* is reusable**~~ — **ruled 18 August 2026: it is not.**
+  The existing sense is Space Commissioner Zara Wayland, a character with her
+  own page and seven cross-references, and unlike *Drithane* the two uses sit
+  in the same domain with the same word *Space* attached. Recorded in place in
+  `intake-2026-07-26.md`. **No migration-map row** — the name never entered the
+  corpus, so nothing is being renamed; the guide's UCSD entry is the precedent
+  for declining one.
+- **What the 26 July concern is called instead.** Still open, and it is one
+  edit with the correction already flagged in that block rather than two: the
+  corporation is a joint-venture founder alongside the Military Space Command,
+  which was dissolved into the SSDC in 2723 and cannot have founded a colony
+  thirty years before 2826. Founder or date has to give, and the rename lands
+  in the same sentence.
+- **The 28 July concern — its name and what it was developing.** A different
+  company: the one that financed the settlement and contested the Sheriff's
+  election. Both halves still open, and the intake's own cast note applies —
+  write the company as sincerely aggrieved rather than as a villain.
 
 ## Pandoids — sapience answered, two things opened
 
