@@ -53,10 +53,13 @@ re-scoped on 18 August 2026** to the Convergence Point alone — the only one of
 the six with unwritten work waiting on it — so the other five are indexed here
 and not tracked publicly. They are not dropped; this file is where they live.
 
-- **The Convergence Point definition** — **#442**, and now the whole of it.
-  Three intake blocks depend on it: Fliade routed around it by marking the
-  absence, but the Umbral Moon *is* the feature and the Meridian block hangs
-  the system's electromagnetic properties and the Sentinel's sentience on it.
+- ~~**The Convergence Point definition**~~ — **ruled 18 August 2026: map it
+  onto boundary zones, no new term.** A Convergence Point is an inter-membrane
+  boundary zone; the word stays out of `src/`. Recorded in full in
+  `intake-2026-07-26.md`, with what it settles (degrees are Boundary-State
+  Classes; a zone has sky coordinates but no distance to its neighbour; a
+  flexure is not a fold) and what it breaks. **#442 closed.** The residue is
+  not the term but the two unwritten blocks it lands on — see below.
 - **The Arilon–Kieme relation**, expressed without *Son of Kieme*. **Probably
   an unratified answer rather than an open question** (checked 18 August 2026):
   *Son of Kieme* appears in no page, and the relation is stated three times as
@@ -68,11 +71,14 @@ and not tracked publicly. They are not dropped; this file is where they live.
   this line. Note the constraint either way: `kieme.md` holds that Kieme stands
   above the concept of number, so a relation stated in relational terms has to
   survive that.
-- **Where shadow beings live** — Sí Gaoithe, or a realm of their own.
-  **Coupled to the Convergence Point**, and worth deciding in the same sitting:
-  the Umbral Moon block has shadow beings crossing at the crease more easily
-  than anywhere else in the solar system, so what the crease is and where the
-  crossers live is one piece of work.
+- **Where shadow beings live** — Sí Gaoithe, or a realm of their own. **Now
+  tracked publicly as #462**, because the 18 August boundary-zone ruling made it
+  load-bearing: the Umbral Moon block's *"Shadow Universe"* is not canon, so
+  that block cannot be written until the neighbour membrane is named, and naming
+  it answers this. Decide the two together — answering them apart risks two
+  incompatible answers. The beings themselves *are* canon (Class III
+  non-sapient, meta-dimensional, and they do physically enter material space);
+  it is their home membrane that is open.
 - **A feminine Spirit-of-Wisdom name** for the Holy Spirit analogue. Watch the
   Gnostic baggage on *Sophia* against the standing no-Gnosticism rule.
 - **Bible references** — stay in the church-space overlay, or move to Codex.
@@ -196,13 +202,14 @@ chose to mark an absence.
 
 Still live:
 
-- **The Convergence Point definition** — **#442**, and the original block's own
-  flag. The draft **does not use the term**: it says the planet sits near a
-  boundary feature under study, brings the protocols' existing
-  boundary-proximity requirement into force, and states plainly that the
-  feature's classification is not settled in the record. That is a marked
-  absence rather than a definition, so #442 stays open and the entry does not
-  pre-empt it. Whenever the term is settled, one paragraph of Fliade names it.
+- ~~**The Convergence Point definition**~~ — **ruled 18 August 2026, and Fliade
+  needs no edit.** The entry says the planet sits near a boundary feature under
+  study and states that the feature's classification is not settled. Under the
+  ruling the *kind* is settled — an inter-membrane boundary zone — while the
+  block's own wording is a *suspected* Convergence Point, so the **class**
+  genuinely is not confirmed. The marked absence was the right call and it still
+  reads correctly. Naming a Boundary-State Class in that paragraph would be a
+  proposal, not a correction, and nobody has proposed one.
 - **Whether Pandoid memory works as human memory does.** Deliberately open, and
   the draft does not raise it. If ordinary, say nothing; if not, it is a
   per-species canon vocabulary decision, registered like any coined term rather
@@ -267,7 +274,12 @@ not evaporate between sessions.
 
 ## Unwritten and live — from 26 July
 
-Recorded as still live: **Fliade**, **Umbral Moon**, **Kalypsis Dawn**. None
-written. Not currently tracked as issues; they are subjects rather than
-questions, and belong to `narrative-gaps-checklist.md` — re-derive that from
-`src/seasons/` before trusting it.
+~~Fliade~~ **written and merged 16 August 2026** — `src/lore/planets/fliade.md`.
+Still live: **Umbral Moon** and **Kalypsis Dawn**.
+
+They were subjects rather than questions, and so not tracked as issues. **That
+changed for the Umbral Moon on 18 August 2026**: the boundary-zone ruling found
+its intake block contradicts published canon in three places, which is a
+question, and it is **#462**. Kalypsis Dawn remains a subject and belongs to
+`narrative-gaps-checklist.md` — re-derive that from `src/seasons/` before
+trusting it.
