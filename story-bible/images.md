@@ -1408,15 +1408,22 @@ uncanny grimace, red glowing eyes.
   nobody. Her frame is her actual working posture: **beside the interviewing
   officer, never leading**. *The questions are always a detective's, and what
   Lucene does is watch the answer arrive.*
-  > [house block] Cinematic wide portrait of a humanoid service machine of female form seated slightly to one side in the plain interview room of a civil detective bureau aboard a space habitat, upper body, angled toward someone out of frame and watching them closely and steadily, hands still and folded in her lap, not speaking. Her face is a manufactured face and is meant to be read: near-human proportions, capable of expression, currently holding a small attentive warmth — and unmistakably made, with a fine seam running at the jaw line and another at the temple, a matte surface with no pores and no translucency, and eyes that are plainly recessed optical lenses behind machined rings. Her hair is a single moulded matte form rather than individual strands. Plain dark civilian workwear with a clean shoulder line, entirely unmarked. The room is spare and institutional and softly lit by diffuse recessed light from a concealed source, with no lamp or fitting visible; a bare table edge in the foreground, a blank wall behind. Muted grey and warm neutral palette, quiet, composed, patient, faintly uncanny but entirely unthreatening. 16:9 landscape orientation.
+  > [house block] Cinematic wide portrait of a humanoid service machine of female form seated slightly to one side in the plain interview room of a civil detective bureau aboard a space habitat, upper body, angled toward someone out of frame and watching them closely and steadily, hands still and folded in her lap, not speaking. Her face is a manufactured face and is meant to be read: near-human proportions, capable of expression, currently holding a small attentive warmth — and unmistakably made, with a fine seam running at the jaw line and another at the temple, a matte surface with no pores and no translucency, and eyes that are plainly recessed optical lenses behind machined rings. Her hair is a single moulded matte form rather than individual strands. The plain single-breasted bureau jacket over ordinary clothing, one colour, cut for a long shift — and the collar entirely bare, carrying no mark of any kind. The room is spare and institutional and softly lit by diffuse recessed light from a concealed source, with no lamp or fitting visible; a bare table edge in the foreground, a blank wall behind. Muted grey and warm neutral palette, quiet, composed, patient, faintly uncanny but entirely unthreatening. 16:9 landscape orientation.
   - **Extra negative:** photorealistic human woman, human skin, pores, freckles, translucent skin, human eyes with sclera and iris, individual hair strands, flowing hair, cosmetics, jewellery, android with visible circuitry, exposed skull plate, half-peeled face, seductive or doll-like styling.
   - **The tone line lives on this one.** Her artificiality is carried by a seam
     at the jaw, a seam at the temple and the lenses, and by nothing else — the
     cyber-revenant precedent exactly, which sealed the collar and left one silver
     seam. A peeled face or a visible skull would clear no prohibition and break
     the rule.
+  - **The bureau jacket with a bare collar** (added 19 August, on Dermot's
+    direction that Eden's detectives are uniformed). She wears the uniform
+    because she works the bureau's interviews; she carries no rank mark because
+    **rank is an office and she holds none** — she answers to Oyelaran
+    operationally and to the Warden on her own standing. The bare collar is a
+    proposal and the sharpest thing in the frame: a machine in the uniform of a
+    ladder it is not on. See `src/lore/eden-bureau-uniform.md`.
   - **Draft alt text, to be checked against the frame:**
-    > A humanoid machine of female form sits to one side in a plain interview room, hands folded, watching someone out of frame. Her matte face carries a fine seam at the jaw and temple, and her eyes are recessed optical lenses.
+    > A humanoid machine of female form in a plain bureau jacket sits to one side in an interview room, hands folded, watching someone out of frame. Her collar carries no rank mark. Her matte face has a fine seam at the jaw and temple, and her eyes are recessed optical lenses.
 
 - **`xenon.jpg`** — *his personhood lives where his hands do*, so the hands are
   the subject and the face is not. He is going over a machine with nothing
@@ -2404,6 +2411,35 @@ jellyfish). Beyond those, the set's own risk is sameness: a great many of these
 are *a quiet room with one object in it*, which is the right answer individually
 and would be a monotonous gallery. **Judge them as a page of thumbnails, not one
 at a time**, and re-roll for variety rather than for quality where they cluster.
+
+#### Two delivered portraits versus the bureau uniform (19 August 2026)
+
+Dermot's direction that **Eden's detectives are uniformed with rank insignia**
+(`src/lore/eden-bureau-uniform.md`) postdates two delivered portraits that show
+neither. Recorded here rather than acted on, because the runbook's own rule
+settles it: **art is illustrative, the prose is canon — when the two disagree,
+the entry wins and the art stays.**
+
+- **`rasa-oyelaran.jpg`** — *a plain grey work jacket over a maroon shirt.*
+  **Compatible, or near enough to leave.** The bureau uniform is a plain
+  single-breasted working jacket in one colour with a small collar mark; a grey
+  work jacket is that garment, and a collar mark at portrait scale is exactly the
+  detail a frame need not resolve. No action.
+- **`wendell-albercombe.jpg`** — *a worn herringbone jacket over an open blue
+  shirt.* **Not compatible, and worth saying so rather than reading it
+  generously.** Herringbone is a civilian cloth and the frame reads as plain
+  clothes. It stays under the rule above, and if it is ever regenerated the
+  jacket should become the bureau's.
+
+**No alt text changes.** Both lines describe what their files actually show,
+which is the one hard requirement, and rewriting them to describe a uniform that
+is not in the picture would break it.
+
+**Any future Eden bureau frame takes the uniform** — the jacket, and the collar
+mark by rank. Note the lettering trap while doing it: the marks are strokes and
+blocks and carry **no letters and no numerals**, and whether the jacket carries
+any identifying number at all is deliberately unsettled in the entry, so no
+prompt should invent one.
 
 ### 6. Images that should not stay — audited 2026-08-10
 
