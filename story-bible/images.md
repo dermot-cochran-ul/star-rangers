@@ -68,6 +68,42 @@ Where a system has several bodies, show **one**. The Eden Warden's Ward and
 Custos are two personas in one system, and two figures would literalise them as
 two beings — the same mistake ruled out for plural human minds.
 
+**And where canon gives a system no body, the portrait is not a body** — settled
+13 August 2026, confirmed and written down here 19 August. This is not an
+exception to the rule above; it is the rule's scope. *AIs get portraits like
+everyone else* answers **how to depict an AI that has a body**, so that a
+generator's photoreal default cannot stand in for one. It was never a
+requirement to invent a body for a system that has none.
+
+Three worked cases, all settled the same day in #415:
+
+- **The Eden Warden** — re-briefed on Dermot's direction: *the Warden may not
+  have a body at all, other than in the sense that the habitat structure is its
+  body.* The portrait became the habitat, inhabited and attended, with no figure
+  in it.
+- **Reeves (Eden)** — the re-brief that produced the emblem was forced by a
+  different problem and landed on the same answer. **The lettering ban cannot
+  beat the scene**: a brief describing a case-file interface returns an object
+  whose purpose is to carry writing, and the model draws the writing (this one
+  came back reading `CASE FILE: ALPHA-7`). The scene had to change, not the
+  negative. It became *points of light with some joined and some not — a pattern
+  half-found and not yet claimed*, which **suits an intelligence that will not
+  volunteer a conclusion better than a dashboard ever did.**
+- **Reeves (Threshold)** — made the deliberate twin, because the two Reeves are
+  the same model on separate deployments and their pages say so. Same emblem,
+  same palette, same restraint, **and the figure further along**: a dense ring
+  almost closed and still open along one arc. The difference between the two
+  frames is the point and is recorded in both alt texts.
+
+Neither Reeves has a body anywhere in canon — Lucene-9000 is *a mobile AI
+humanoid*, and Reeves is *investigative support intelligence*, which is not the
+same kind of thing. **So the emblem was the correct answer twice over and is not
+a lapse from the 12 August rule.** It was flagged as possibly one during the
+19 August audit, and the flag was wrong: the decision is recorded in #415's
+commit message and carried consistently into both `image_alt` lines. What it was
+never carried into is this file, which is the same failure the rest of that audit
+found — *the decision gets made and the note never gets it.*
+
 **Tone line:** unsettling is fine, horror is not — hint at the dark fact rather
 than depicting it. A cyber-revenant portrait showing exposed throat machinery
 was rejected on exactly this line; the approved version sealed the collar and
@@ -466,12 +502,13 @@ PENDING*, `rasa-oyelaran` is a finished portrait of a superintendent in a bureau
 doorway. The measurement located them; opening them confirmed it, per this
 file's own standing rule against reasoning from filenames.
 
-*(One thing noticed and not a count problem: `reeves.jpg` came back as an
-abstract node-network emblem rather than a portrait, which sits oddly beside the
-12 August rule that **AIs get portraits like everyone else**. The Eden Warden's
-13 August re-brief went deliberately back to a non-body frame, so this may be the
-same decision taken twice — but it is not recorded as one, and it is worth
-Dermot confirming rather than a later audit re-flagging it.)*
+*(One thing noticed here and since resolved: `reeves.jpg` came back as an
+abstract emblem rather than a portrait, which looked as though it sat oddly
+beside the 12 August rule that **AIs get portraits like everyone else**.
+**Confirmed 19 August: it is deliberate**, settled in #415 on 13 August and
+recorded in that commit — see the qualification added to that rule under
+Conventions. The flag was wrong about the decision and right about the file:
+nothing in `images.md` said so until now.)*
 
 **This is the head of the queue.** Every image below was removed and replaced
 with a designed PORTRAIT PENDING / ILLUSTRATION PENDING card, so no page is

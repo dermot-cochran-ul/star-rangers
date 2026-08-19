@@ -486,3 +486,47 @@ own **Type:** line, so the two group headings were dropped in the move.
 - **Known defect:** 773×1152, under the 1600px lore standard — the same problem
   as the rest of the Prismere cluster. It should be regenerated with the section
   A preamble whenever that set is done, rather than upscaled on its own.
+
+### reeves-eden.jpg and reeves.jpg — 13 Aug 2026, a deliberate pair
+
+- **Type:** generation (both replacing earlier images — Eden's a holographic
+  evidence interface, Threshold's a PORTRAIT PENDING card)
+- **Date:** 13 August 2026, in #415
+- **Recorded here 19 August 2026.** The pair had no entry in this file at all,
+  which is why the emblem read as possibly accidental during that day's audit.
+  It was not; the reasoning below is recovered from #415's commit message and
+  from the two `image_alt` lines, which have carried it correctly since.
+
+**Why an emblem and not a portrait.** Neither Reeves has a body anywhere in
+canon — Lucene-9000 is *a mobile AI humanoid*, Reeves is *investigative support
+intelligence*. The 12 August rule that *AIs get portraits like everyone else*
+governs how to depict an AI **that has a body**; it never required inventing one.
+See the qualification now recorded in `images.md`'s Conventions.
+
+**What actually forced the re-brief, and the lesson worth keeping.** The earlier
+Eden brief asked for a holographic case-file interface and banned lettering in
+the same breath. It came back reading `CASE FILE: ALPHA-7` and garbled
+pseudo-words. **The lettering ban cannot beat the scene:** if a brief describes an
+object whose purpose is to carry writing, the model draws the object and the
+object has writing on it. The fix is to change the scene, never to strengthen the
+negative. Every prompt in this file that puts a display, a board or a document
+near the camera is subject to the same failure.
+
+- **Prompt, `reeves-eden.jpg`** — the junior of the pair, and the pattern is
+  earlier:
+  > Cool blue points of light scattered across a deep indigo field, a handful of them joined by faint thin lines into a partial figure that does not resolve into anything nameable, the rest unjoined. Soft vignette, deep quiet, nothing else in frame. No text, no lettering, no numerals, no interface, no display, no screen, no dashboard, no console, no face, no figure, no device of any kind.
+  - **Why it suits him:** *a pattern half-found and not yet claimed* — which
+    describes an intelligence that will not volunteer a conclusion better than a
+    dashboard ever did.
+
+- **Prompt, `reeves.jpg`** — same emblem, same palette, same restraint, **and the
+  figure further along**, because Reeves at Threshold and Reeves at Eden are the
+  same model on separate deployments and their pages say so:
+  > Cool blue points of light on a deep indigo field joined by fine lines into a dense ring that is almost closed and still open along one arc, the remaining points unjoined around it. Soft vignette, deep quiet, nothing else in frame. Same negative as above.
+
+- **The difference between the two frames is the content**, not variation between
+  two attempts at one idea. Eden's pattern is beginning; Threshold's is nearly
+  closed and deliberately not closed. Keep it if either is ever regenerated —
+  a matched pair where both are at the same stage would say nothing.
+- **Lettering check passed on both.** Zero glyphs, which was the entire object of
+  the re-brief.
