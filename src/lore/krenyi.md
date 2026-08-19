@@ -18,7 +18,7 @@ The Krenyi — also called the Quiet-Built, or known individually by the state-m
 - Physically attractive by most humanoid standards.
 - High female birthrate.
 - Cannot interbreed with humans or any other species.
-- Finely tuned sensitivity, reflexes and awareness — low-light acuity, motion caught at the edge of vision, balance and righting, and a reaction that closes before a human has finished registering that something happened. See *What the Body Notices* below.
+- Finely tuned sensitivity, reflexes and awareness — low-light acuity, motion caught at the edge of vision, balance and righting, and a reaction that closes before a human has finished registering that something happened. **There is no sensory organ to point at: the whole body is the instrument.** See the two sections below.
 - Unenslavable: no physical, social, or metaphysical mechanism for enslaving them exists within the story's cosmology.
 
 ## Emotional Range
@@ -52,7 +52,19 @@ The page opens on posture steady, gaze direct, no wasted gesture, and it is wort
 
 **This is what actually underlies their reputation on a bad deck.** Effectiveness where panic cascades are a concern is usually read as composure — a person mastering fear better than the rest of the room. It is not composure. There is nothing being mastered, and a very quick, very accurate instrument is doing ordinary work at a moment when everyone else's has gone loud. The distinction matters because composure runs out and this does not.
 
-**The cost is that they cannot un-notice.** Pattern drift is not something a Krenyi elects to watch for; it registers, welcome or not. A room conducting a small social fiction — the polite agreement to pretend something was not said, the enthusiasm nobody feels — is legible to them from the inside of it, and their own honesty leaves them no graceful way to participate. Most human rooms are conducting two or three such fictions at any moment. The Quiet-Built are not being difficult when they decline to join one. They are simply the only person present who cannot pretend not to have seen it.
+## The Whole Body Is the Instrument
+
+**There is no organ to point at.** No enlarged eye, no whisker, no specialised membrane — nothing a survey could photograph and label as the sensory apparatus. **The whole body is a kind of sensor**: skin, frame, the set of a shoulder, the air moving across a forearm, sampling continuously and everywhere, with no dedicated instrument to fail and none to defend.
+
+**Which explains the first thing anyone notices about them, and explains it better than manner does.** *No wasted gesture* is not discipline and not poise. **Movement is noise in your own readings.** A body that is the instrument degrades what it is reading every time it shifts for no reason, so a Krenyi at rest is a Krenyi at full sensitivity, and the stillness people read as composure is closer to a technician not breathing on a scale.
+
+**And it accounts for something already on the record that nothing else explained.** When a [Levril](/star-rangers/lore/levrils/) is encountered the perceiver supplies the form, and what gets reported is a version of the perceiver's own kind, or something abstract — *"A human meets a figure; a Cerebraun meets a Cerebraun; **a Krenyi generally meets a field, a pressure, a turn of light.**"* Every other people gives it a shape. The Quiet-Built give it a **weight**, because they are not meeting it with a face. They are meeting it with everything, and what everything reports is pressure.
+
+**The limit is exact, and the record drew it elsewhere first.** What a body of this kind reads is **texture, never content** — the same boundary set on [Etheric perception](/star-rangers/lore/what-the-record-refuses/), where minds do leak under emotional intensity and what leaks is *"readable the way a room's temperature is readable and no further."* A Krenyi registers that a room has changed. Nothing tells them what anyone in it is thinking, and no degree of sensitivity ever will. Psionics are refused here as everywhere.
+
+*(The Quiet-Built body is separately described as identifying anything that did not originate in a Krenyi and taking it apart. The resemblance is worth noting — two systems in which the whole body does the discriminating — and the record does not claim they are the same system, because nobody has shown that they are.)*
+
+**The cost is that they cannot un-notice, and now it is literal.** There is no looking away with a body, and closing your eyes accomplishes nothing when the reading is being taken by your arms. Pattern drift is not something a Krenyi elects to watch for; it registers, welcome or not. A room conducting a small social fiction — the polite agreement to pretend something was not said, the enthusiasm nobody feels — is legible to them from the inside of it, and their own honesty leaves them no graceful way to participate. Most human rooms are conducting two or three such fictions at any moment. The Quiet-Built are not being difficult when they decline to join one. They are simply the only person present who cannot pretend not to have seen it.
 
 ## Social and Relational
 
