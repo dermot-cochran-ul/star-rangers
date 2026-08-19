@@ -16,6 +16,10 @@ The [charter's neutrality clause](/star-rangers/lore/formation-of-star-rangers/)
 
 What replaced the forbidden ornament was function. A rank tab tells a Safety Corps inspector what a Ranger is authorized to command. A certification patch tells them what a Ranger is qualified to do. The two are deliberately never the same mark, because rank and qualification fail independently and a uniform that conflated them would hide that fact exactly when it mattered.
 
+**There is a third mark, and it follows the same reasoning.** Each corps carries its own badge, and branches within a corps carry their own beneath it — a device saying which part of the service this officer belongs to. It is never the rank tab and never the certification plate, for the reason the pair above already gives: corps, rank and qualification fail independently of one another. An officer can be posted out of a corps and keep her rank, hold a certification her corps rarely uses, or command a section of a corps she did not climb through, and a uniform that ran the three together would conceal exactly those cases.
+
+**A corps badge is not a faction crest, and the distinction is the whole of why it is allowed.** What the neutrality clause forbids is a mark that gives a party to a dispute a reason to read a Ranger as taking a side — a government's flag, a world's arms, one polity's honour. A corps device says which part of the Rangers arrived. Every party on every side of a dispute is looking at the same service either way, which is precisely the thing the clause exists to protect.
+
 ## The Uniform
 
 The standard field uniform is a modular shell over a thermal-and-pressure liner, not a single garment cut to one body plan. It has to work across a service that includes Krenyi like [Syra](/star-rangers/characters/syra/), Pelagene Littoral surveyors like [Mira of Brine](/star-rangers/characters/mira-of-brine/), Veyr Basaltborn specialists like [Qiren Tal](/star-rangers/characters/qiren-tal/), Serephine Dunekin scouts like [Sethka Ru](/star-rangers/characters/sethka-ru/), and analytical chassis like [Rook-7](/star-rangers/characters/rook-7/), which has no garment at all and mounts its marks directly on the hull.
@@ -32,9 +36,24 @@ So a Ranger's uniform is legible and carries no text at all, which sounds like a
 
 Dress uniform exists for ceremonial and hearing-room occasions and differs from field kit mainly in finish, not in insignia — the charter's drafters were explicit that a Ranger should not need to relearn the rank system to read a colleague across a formal setting.
 
+## Corps and Branch Badges
+
+Every corps carries a device, and a branch inside a corps carries its own beneath it. The system is two levels deep and stops there, on the same instinct that keeps the rank ladder legible: a mark nobody can hold in their head is a mark nobody reads.
+
+**The badges obey every constraint the rest of the uniform does**, which is what makes them permissible rather than an exception carved out of the standard:
+
+- **Shapes, not words.** A service carrying Krenyi, Pelagene, Veyr and Serephine officers alongside humans cannot put its corps into any one people's alphabet any more than it can put its chain of command there. A geometry has no first language.
+- **Seated, not sewn** — the same magnetic tab-and-plate standard, sized and positioned per body plan by the wearer's own quartermaster record, so a badge moves to a new shell without re-issue and bolts to an analytical chassis as readily as it seats on a sleeve.
+- **No name, still.** A badge says which part of the service, never which officer. Nothing on the change above touches the rule that no Ranger's name is written on their clothing.
+- **Never the rank tab.** Different position, different finish, and the two are not permitted to resemble each other.
+
+**Why permit it at all, when the rank tab's own rule refuses corps loyalty as a marking basis?** Because the two marks are read by different people, and the rank rule was written about the harder reader. A rank tab has to work for someone outside the service entirely — an inspector, a port authority, a party to a dispute — for whom *which department* is a chart they have never seen. **A corps badge is read by the people a corps actually turns up for**, and they are not in that position at all. A frontier colony that signed a standing invitation to the [Frontier Corps](/star-rangers/lore/star-rangers-frontier-corps/) is entitled to see the Frontier Corps arrive rather than a Ranger in general, and a station that asked for a hull inspection has a reasonable interest in whether the [Safety Corps](/star-rangers/lore/star-rangers-safety-corps/) is the body standing in its dock.
+
+So the older rule holds exactly where it was aimed, and the badge answers a question it was never asked. **Authority stays on the tab; belonging goes on the badge**, and the charter's line is drawn between neither of them and a flag.
+
 ## Rank Tabs
 
-Rank is marked with a tab or plate, plain-finished, in a color keyed to service track rather than corps loyalty — the Rangers wanted a mark that told you *what kind of authority this person holds*, not *which department they answer to on a chart nobody outside the Rangers has seen*. The full ladder itself — every tier's name and what it actually authorizes, from Novice to the Triumvirate — lives in [Rank and the Chain of Command](/star-rangers/lore/star-rangers-command-hierarchy/). This page covers how that same ladder gets marked on a uniform.
+Rank is marked with a tab or plate, plain-finished, in a color keyed to service track rather than corps loyalty — the Rangers wanted a mark that told you *what kind of authority this person holds*, not *which department they answer to on a chart nobody outside the Rangers has seen*. **That rule governs the rank tab and only the rank tab**: the corps badge described above sits elsewhere on the shell, in a different finish, and is never permitted to be confused for it. **A badge says whose problem this is. It never says what this officer may do**, and an officer who has to explain the difference at a doorway has been let down by the shell rather than by the reader. The full ladder itself — every tier's name and what it actually authorizes, from Novice to the Triumvirate — lives in [Rank and the Chain of Command](/star-rangers/lore/star-rangers-command-hierarchy/). This page covers how that same ladder gets marked on a uniform.
 
 The marking logic follows the ladder's own two-lineage structure:
 
