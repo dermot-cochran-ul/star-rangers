@@ -2,9 +2,9 @@
 layout: lore-entry.njk
 title: "The Corryn System"
 category: "Locations"
-tags: [corryn, corryn-prime, carillon, spiralites, first-contact, frontier-transformation-protocols, boundary, halvern-combine, locations]
-description: "A system whose ringed gas giant hums in patterns, whose indigenous people speak in electromagnetic pulse — and whose human colony is quietly destroying the medium both depend on."
-plain: "Corryn is a star system about 700 light years from Earth. Its most striking feature is a gas giant, the Carillon, whose rings give out a low hum in complex patterns. The habitable world nearby, Corryn Prime, is home to the Spiralites, a people who speak using electromagnetic pulses. A human mining and farming colony there is producing interference that is wrecking the Spiralites' ability to communicate and to reproduce. Nobody chartered the colony to be there in that sense, and nobody has stopped it."
+tags: [corryn, corryn-prime, carillon, spiralites, first-contact, frontier-transformation-protocols, boundary, halvern-combine, imperium, locations]
+description: "A system whose ringed gas giant hums in patterns, whose indigenous people speak in electromagnetic pulse — and whose human colony, a remnant of the Old Imperium, holds a valid charter from a government dead two centuries."
+plain: "Corryn is a star system about 700 light years from Earth. Its most striking feature is a gas giant, the Carillon, whose rings give out a low hum in complex patterns. The habitable world nearby, Corryn Prime, is home to the Spiralites, a people who speak using electromagnetic pulses. A human mining and farming colony there is producing interference that is wrecking the Spiralites' ability to communicate and to reproduce. The colony was licensed by the Imperium, which fell in 2609, so it holds a permission nobody living can withdraw and nobody has stopped it."
 ---
 
 The Carillon rings, and for thirty years nobody asked whether anything was listening.
@@ -35,15 +35,23 @@ Corryn Prime carries diverse biomes dominated by spiral-form flora growing in ma
 
 ## What the Colony Is Doing
 
-The human settlement was founded around 2796 UCSD by **the Halvern Combine**, a prospecting concern that detected the ring signatures and read them as a resource indication. It was a commercial venture with no state partner, registered where registration is a fee rather than an inspection, and that fact has done more to shape the last thirty years than anything in the system's physics.
+**The settlement is a remnant of the Old Imperium**, and everything difficult about Corryn follows from that.
+
+It was chartered during the [Imperium](/star-rangers/lore/the-imperium/) period, when a prospecting venture reading the ring signatures as a resource indication could be licensed by an authority that answered to nobody and required no survey of what it was licensing. The backer was one of the legacy industrial holdings standing behind the Imperium's fleet — the shipyards, the fold-drive patents, the orbital manufacturing that any command structure still depended on to fly — and its successor, **the Halvern Combine**, is still there.
+
+**The Imperium fell in 2609. The colony did not.** Distance did what distance does: seven hundred light years out, the collapse of the chartering government was news rather than an event, and nothing arrived to replace it. No successor assumed the file. The Consolidation Accords, the Concord's writ, the Star Rangers charter and the Protocols themselves all postdate the charter Corryn operates under by more than a century, and none of them was drafted with an eye to a settlement whose licensing authority had been dead since before the Rangers existed.
+
+So the colony is lawful in the only sense available to it: **it holds a valid charter from a government that no longer exists, and there is no office with standing to review a document nobody can revoke.**
 
 Settlements on Corryn Prime are built for electromagnetic shielding, because the planet's natural fields interfere with human equipment. The irony is not lost on anyone who has looked: **the colony shields itself carefully from the fields, and shields the Spiralites from nothing.**
 
-Mining and agricultural expansion emit disruptive frequencies across the bands the Spiralites use. The effect is not disputed and is not subtle. It is degrading, measurably and continuously, both the medium in which that people conducts its communication and the one on which its reproduction depends.
+**The harm is recent, which is the part that startles people who learn the founding date.** The settlement stood for the better part of two centuries at a scale the planet absorbed. The mining and agricultural expansion of roughly the last thirty years does not: it emits disruptive frequencies across the bands the Spiralites use, and the effect is neither disputed nor subtle. It is degrading, measurably and continuously, both the medium in which that people conducts its communication and the one on which its reproduction depends.
 
-**The [Frontier Transformation Protocols'](/star-rangers/lore/frontier-transformation-protocols/) sapience clause applies here on the plain reading.** The Protocols exist so that a sapient population has time to be found rather than paved over, and they set no sapience threshold and no survey window after which a living world becomes eligible. The Spiralites were found. The colony predates the finding by no useful margin and has not been made to stop.
+**The [Frontier Transformation Protocols'](/star-rangers/lore/frontier-transformation-protocols/) sapience clause applies on the plain reading.** The Protocols exist so that a sapient population has time to be found rather than paved over, and they set no sapience threshold and no survey window after which a living world becomes eligible.
 
-**Nothing about this is a first-contact failure of understanding.** The Spiralites were recognised as sapient early and are not in dispute. What has failed is slower and more ordinary: an unsupervised commercial registration seven hundred light years from anyone with standing to review it, a harm that arrives as interference rather than as violence, and a protocol whose plain reading nobody with authority has been in the room to apply.
+**Nothing about this is a first-contact failure of understanding.** The Spiralites were recognised as sapient long ago and are not in dispute. What has failed is slower and more ordinary: a charter no living authority issued, a harm that arrives as interference rather than as violence, and a protocol whose plain reading nobody with standing has been in the room to apply.
+
+**The Imperium is the point rather than the background.** A body that regarded consent as a demonstrated failure wrote licences that did not contemplate asking anyone, and one of them is still being exercised two centuries after the argument for it collapsed. Corryn is what an outlived permission looks like when nothing arrives to withdraw it.
 
 ## The Dreams
 
@@ -59,4 +67,4 @@ That the impressions cluster in a system with a narrowing in it is expected. Tha
 - [Dreams Across the Interval](/star-rangers/lore/dreams-across-the-interval/) — the mechanism, and what it refuses
 - [Frontier Transformation Protocols](/star-rangers/lore/frontier-transformation-protocols/) — the sapience clause
 - [Physics Comparison](/star-rangers/lore/physics-comparison/) — consciousness, and what remains open
-- [Catastrophic Failure in Fold Transit](/star-rangers/lore/fold-transit-catastrophic-failure/) — registration as a fee rather than an inspection
+- [The Imperium](/star-rangers/lore/the-imperium/) — the authority that issued the charter, and stopped existing in 2609
