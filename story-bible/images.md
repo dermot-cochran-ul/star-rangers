@@ -1052,6 +1052,104 @@ the artificiality made visible at the prompt. Worth doing as a set rather than
 singly, since they share a frame of reference and a generator has no memory
 between frames.
 
+##### The three rescuers — a set (19 August 2026)
+
+`lucene-9000.jpg`, `xenon.jpg`, `lumbarian.jpg`. Prompted together because they
+share a generation of manufacture, and **a generator has no memory between
+frames** — so "the same era" has to be carried as literal attributes in all three
+or it will not survive the batch.
+
+**What binds them is not a place.** Lucene is in Eden's civil detective bureau;
+Xenon and Lumbarian are aboard Wender's ship. What they have in common is the
+catalogue shelf: all three are **classic designs whose lines are out of
+production**, well made in a period that expected its work to outlive it, and
+still running decades past it. `xenon.md` files him and Lucene on the same shelf
+in as many words.
+
+**All three are present-day frames.** The rescue-era framing was considered and
+dropped: a character portrait shows the character now, like every other portrait
+on the roster, and setting Xenon's in the aftermath would have put the rack of
+part-empty cradles in shot — which is published prose but would make an *image*
+carry the hint about the machines that were lost, and §7 is explicit that the
+loss stays hinted and no page may state it. Not a line worth walking up to for a
+background detail.
+
+**The shared house block — paste verbatim into all three.** This is the set.
+
+> Classic-design service machine of a period that expected its work to outlive it, still in service decades later, plainly manufactured and plainly maintained. Matte pale grey composite shell with a fine even grain, unpainted and entirely unmarked. Panel joins are honest recessed seams with captive fasteners left visible, built to be opened rather than concealed. Dull warm-toned alloy at the bearings and joints. Wear reads as polish and not as damage: edges gone smooth and faintly darker where work and hands have passed, with no rust, no corrosion, no grime, no chipping, no dents and no broken parts anywhere. Where a sensor sits it is plainly an optical instrument — a recessed lens behind a machined ring — and never a human eye. Nothing anywhere is open, exposed, wired, dripping or unfinished; every panel is closed.
+
+**Why the shell is visible rather than seamless, in-world.** The rule that a
+machine's artificiality must show at the prompt has a canon reason here rather
+than only a craft one: Reeves and Jeeves run newer architecture and Lucene is a
+generation behind them. **Her manufacture shows because her generation did not
+hide it**, not because she is crude — which is the same sentence her page already
+makes about her mind.
+
+**Common negative — paste into all three:**
+readable text, lettering, numerals, branding, maker's plate, signage, labels,
+stencilled markings or written characters of any script anywhere in frame;
+holograms, projected light, glowing displays, screens, monitors, consoles, dials,
+gauges; exposed wiring, open panels, visible internal machinery, cabling,
+sparks, fluid, damage; rust, corrosion, grime, oil stains, derelict or abandoned
+look; weapons of any kind; flat studio backdrop, gradient background, glamour
+lighting, corporate headshot; contemporary Earth setting; menace, threat, horror,
+uncanny grimace, red glowing eyes.
+
+---
+
+- **`lucene-9000.jpg`** — the one that will fight the generator hardest, because
+  *social gynoid* returns a photoreal woman by default and that face belongs to
+  nobody. Her frame is her actual working posture: **beside the interviewing
+  officer, never leading**. *The questions are always a detective's, and what
+  Lucene does is watch the answer arrive.*
+  > [house block] Cinematic wide portrait of a humanoid service machine of female form seated slightly to one side in the plain interview room of a civil detective bureau aboard a space habitat, upper body, angled toward someone out of frame and watching them closely and steadily, hands still and folded in her lap, not speaking. Her face is a manufactured face and is meant to be read: near-human proportions, capable of expression, currently holding a small attentive warmth — and unmistakably made, with a fine seam running at the jaw line and another at the temple, a matte surface with no pores and no translucency, and eyes that are plainly recessed optical lenses behind machined rings. Her hair is a single moulded matte form rather than individual strands. Plain dark civilian workwear with a clean shoulder line, entirely unmarked. The room is spare and institutional and softly lit by diffuse recessed light from a concealed source, with no lamp or fitting visible; a bare table edge in the foreground, a blank wall behind. Muted grey and warm neutral palette, quiet, composed, patient, faintly uncanny but entirely unthreatening. 16:9 landscape orientation.
+  - **Extra negative:** photorealistic human woman, human skin, pores, freckles, translucent skin, human eyes with sclera and iris, individual hair strands, flowing hair, cosmetics, jewellery, android with visible circuitry, exposed skull plate, half-peeled face, seductive or doll-like styling.
+  - **The tone line lives on this one.** Her artificiality is carried by a seam
+    at the jaw, a seam at the temple and the lenses, and by nothing else — the
+    cyber-revenant precedent exactly, which sealed the collar and left one silver
+    seam. A peeled face or a visible skull would clear no prohibition and break
+    the rule.
+  - **Draft alt text, to be checked against the frame:**
+    > A humanoid machine of female form sits to one side in a plain interview room, hands folded, watching someone out of frame. Her matte face carries a fine seam at the jaw and temple, and her eyes are recessed optical lenses.
+
+- **`xenon.jpg`** — *his personhood lives where his hands do*, so the hands are
+  the subject and the face is not. He is going over a machine with nothing
+  visibly wrong with it, which is the whole character: *his standard for beyond
+  repair has never once been met.*
+  > [house block] Cinematic wide view of an old maintenance robot at work at a bench in a starship's machine bay, seen close and slightly from the side, the composition centred on its hands and forearms rather than on any face. The hands are the most finished thing about it — many-jointed, worn smooth and bright at the fingertips from decades of use, holding a small component with great precision and no hurry. On the bench in front of it lies a small service machine, powered down and intact, with nothing visibly wrong with it; a shallow tray of clean parts sits alongside, laid out in order. The robot's upper body is a functional column of closed panels with no human face and no attempt at one — a sensor head with recessed lenses, angled down at the work. One articulated task light on a bench arm throws a single clean pool of light across the work surface, with the rest of the bay falling away into soft shadow. Racked tools behind, everything stowed square. Muted grey, warm alloy and one warm circle of working light. Absorbed, unhurried, quietly devotional in the way of skilled hands. 16:9 landscape orientation.
+  - **Extra negative:** humanoid face, human features, expressive mouth, robot with a human-looking head, clumsy or bulky hands, welding sparks, cutting torch, disassembled parts strewn about, mess.
+  - **One deliberate breach of house convention, and why.** The standing rule is
+    *no lamp or light fitting visible in frame*, and this prompt puts a bench task
+    light in shot. That rule exists to stop habitat interiors filling up with
+    domestic lamps; **a task light on a workbench is a tool, not a furnishing**,
+    and the single bright light over the work is the register the chapter already
+    established for him. Worth a look on return, and easy to drop from a re-roll
+    if it reads as clutter.
+  - **Draft alt text, to be checked against the frame:**
+    > An old maintenance robot bends over a workbench in a ship's machine bay, its many-jointed hands worn bright at the fingertips, holding a small part under a single bench light. A powered-down service machine lies intact on the bench beside a tray of clean parts.
+
+- **`lumbarian.jpg`** — the hardest to get right and the simplest to say. *There
+  is nothing humanoid about him. No face to read, no hand-sized anything,
+  nothing built to be held.* The frame carries **scale and stillness**, because
+  *something that size being that still is a language of its own* — and because
+  there is no record, on any posting, of him damaging anything smaller than
+  himself.
+  > [house block] Cinematic wide view in open space of a vast heavy repair machine working against the outer hull of a starship, no human figure present. The machine has no face and nothing humanoid about it at all — a great trussed frame and armoured housings carrying several long articulated manipulators, built entirely around reach and load. One manipulator is laid flat against the hull plate and held perfectly still, resting rather than gripping, in contact along its whole length. Beside it in the same frame is an ordinary hull hatch with a handrail beside it, human-sized, which is what makes the machine's scale legible. The hull curves away into the distance behind. Hard raw sunlight from one side, absolute black shadow on the other, unfiltered starfield beyond, the vacuum silent and enormous. Muted grey plate, warm alloy at the joints, one long clean seam of new weld running away under the manipulator. Immense, careful and entirely still. 16:9 landscape orientation.
+  - **Extra negative:** face, eyes, head, humanoid form, arms and legs, mech, mecha, battle robot, walker, weapons, thrusters firing, debris field, wreckage, explosion, drama, astronaut, human figure, spacewalking person.
+  - **Why no human in frame** — the hatch and handrail carry the scale instead.
+    Putting a person beside him invites the reading his page forecloses: he is
+    *not* a machine that works alongside people, he works where people cannot,
+    and the crew reach him afterwards, at the height they can reach.
+  - **Draft alt text, to be checked against the frame:**
+    > A vast trussed repair machine works against the outer hull of a starship in open space, one long manipulator laid flat and still against the plate. A human-sized hatch and handrail beside it give the scale; a clean seam of new weld runs away beneath.
+
+**Generate the three together, and look at them side by side before keeping
+any.** The set only works if the shell reads as one catalogue across all three
+frames; a batch where Lucene's grey and Xenon's grey are different greys has
+failed the thing the set was for, however good each frame is on its own.
+
+**Not yet generated.** All three are proposals.
+
 - **`anne-wender.jpg`** — [Anne Wender](../src/characters/anne-wender.md), the
   eldest survivor of the wreck of 2788 and later the first sheriff a frontier
   world ever swore in. **Depicted as safety officer during the buildout, not as
