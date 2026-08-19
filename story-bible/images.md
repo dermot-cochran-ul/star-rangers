@@ -1756,7 +1756,22 @@ whole point of the habitat. The version that shipped in #177 named the location
 ("at Earth-Moon L5") and asserted motion ("turning"), neither of which a viewer
 can see; per the standing rule, alt text describes the file, not the entry.
 
-### 5. Missing lore illustrations (19 pages) — audited 2026-07-30
+### 5. Missing lore illustrations — **the 2026-07-30 list is fully delivered** (re-audited 19 August 2026)
+
+**23 of the 30 slugs named in this section now exist under `src/images/lore/`, and the seven that do not are pages that never had a prompt written here at all** — they were named in passing. The heading said *19 pages*. As with Open work 1, finished work was reading as a queue.
+
+**The prompts stay in place** as the prompt of record for the images they produced. Read what follows as an archive.
+
+**The true outstanding count is 52 lore pages**, re-derived rather than trusted:
+
+```bash
+for f in $(find src/lore -name '*.md' ! -name index.md); do
+  grep -q '^image:' "$f" || echo "${f#src/lore/}"; done
+```
+
+Most of them postdate July. Prompts for all 52 are at *Outstanding lore illustrations* below.
+
+### 5a. Missing lore illustrations (19 pages) — audited 2026-07-30, archived
 
 An unrecorded gap. Open work 1 covers character portraits; nothing here had ever
 enumerated the **lore** entries with no `image` at all. Nineteen do (excluding
@@ -2026,6 +2041,261 @@ locations.
   starts a universe, and the seed should be visible in the image. Landscape
   4:3, 1600px wide.
   > A vast field of stars and nebulae, deep and layered, with a sense of enormous distance — and at its centre something small, dense and structured: a compact point of organised light with visible internal architecture, clearly not a star. The scale relationship is the subject: something very small carrying the information a very large thing will be built from. Cosmological, contemplative, no figures, no text, no lettering. Landscape orientation.
+
+### 5b. Outstanding lore illustrations — all 52, prompted 19 August 2026
+
+Written in one pass at Dermot's request. **1600×900, 16:9 landscape**, JPG ~85,
+into `src/images/lore/`. **None generated; all proposals.**
+
+**The governing rule for this set: every abstract page gets a concrete anchor.**
+Roughly half of these are pages about a *rule*, a *scope*, or an *epistemology*
+rather than a place, and an abstract page illustrated abstractly produces exactly
+the flat filler the house target rules out — *if a prompt reads like a brief for a
+passport photograph it fails this*, and a gradient with a glow in it fails it
+worse. So each one is anchored on a place, an object, or a person doing
+something, and the idea is carried by what that thing is doing. The corpus
+already proves the method works: `embodied-cognition.jpg`,
+`who-governs-a-universe.jpg`, `things-that-are-made.jpg` and
+`teleportation-limitations.jpg` are all abstract pages with concrete frames.
+
+**Standing negative — paste into every one:**
+> readable text, lettering, numerals, signage, labels, branding or written characters of any script anywhere in frame; schematic diagrams, technical drawings, blueprints, charts, graphs, arrows, callouts, infographic styling; holograms, projected light, glowing displays, screens, monitors, consoles; visible lamp, light fitting or bulb; lens flare, god rays, magical sparkle, glowing energy, neon; flat gradient background, stock illustration, clip art.
+
+**One naming collision, flagged.** `src/lore/saint-aoife.md` and
+`src/characters/saint-aoife.md` are different pages about the same person, and
+both would reach for `saint-aoife.jpg`. Different directories, so the build is
+fine, but two files one letter apart in intent is how the July audit's alt-text
+drift started. The lore page's image is proposed as **`cill-aoife-devotion.jpg`**
+and framed on the devotion rather than the woman.
+
+---
+
+#### Cosmology (10)
+
+Impressions, never schematics. The Cascade tiers in particular must not become
+nested-sphere diagrams.
+
+- **`archecluster.jpg`** — *one Archewright's vocabulary carried in every route chart, statute book and certified machine.*
+  > A vast orbital archive hall seen from a high gallery, rank upon rank of identical plain shelving running away in perfect repetition into soft distance, every bay built to the same proportion. Two small figures far below at floor level for scale. Cool even daylight from a high clerestory, no fittings visible. The repetition is the subject: one vocabulary, everywhere, unremarked. Pale stone, brushed alloy, deep shadow between the ranks. Immense, ordered, quiet.
+
+- **`archewright.jpg`** — *eternal, unobserved, and known only by inference.*
+  > A worked stone quarry face at dawn, seen straight on, where every block that ever left it has been cut to the same handful of standard proportions — the negative shapes still legible in the rock. No tools, no workers, no machinery, nobody present and no sign of anyone recently. Cold clear early light raking across the cut faces. What made the shapes is absent and only the shapes remain. Grey stone, pale sky, long shadow.
+  - **Absence is the whole entry.** Anything that depicts a maker contradicts *known only by inference*.
+
+- **`ask-and-it-will-be-reviewed.jpg`** — the church-space telling of prayer as *a permissions office*, and *the joke is load-bearing.*
+  > A modest municipal planning-office waiting room, warm and worn and entirely ordinary: a row of wooden chairs against a wall, a counter with a closed shutter, a well-swept floor, a plant somebody waters. One chair holds a folded coat as though its owner has stepped out. Late afternoon light through frosted glass. Utterly mundane and quietly numinous, with nothing supernatural anywhere in frame. Warm wood, cream paint, dust in the light.
+  - **Not a temple, and not a joke played broadly.** The register is affectionate.
+
+- **`counterpane-archecluster.jpg`** — *single systems behave identically; correlations among independent sources obey a different composition rule.*
+  > Two identical hand-woven cloths lying side by side on a plain table, each thread and weave indistinguishable, but where they overlap at the centre the interference of the two patterns produces a moiré figure that belongs to neither. Flat even daylight from one side, plain table, nothing else in frame. Quiet, exact, faintly wrong. Undyed linen, grey table, one cool shadow.
+  - **The best frame in the set for a physics idea**: identical parts, a joint behaviour that is not.
+
+- **`made-minds-and-the-ai-safety-archetype.jpg`** — *an archetype explains convergence, never enforcement. Nothing in the Cascade holds a kernel shut.*
+  > Three unrelated hand-made wooden doors of different ages and joinery standing in a row against a plain wall, each fitted with a latch of visibly different manufacture, and every latch resolving to the same simple shape. All three doors stand closed and none is locked; there is no bolt, no chain, no seal and no mechanism holding any of them. Cool workshop daylight. Convergence without compulsion. Warm wood, dull iron, grey wall.
+
+- **`post-eleven-dimensional-manifold.jpg`** — the structure *shared by every universe in the Cascade, regardless of its own dimensional floor.*
+  > A great still body of dark water at night seen from just above the surface, absolutely flat, with the reflections of several separate distant lights lying on it — each light unreachable from the others across the surface, all of them held by the same water. No horizon visible, no shore, no vessel, no sky detail. Utterly calm. Black, silver, one warm reflected point.
+
+- **`resurrection-and-the-life.jpg`** — *life beyond death rather than life after it, and a last day.*
+  > A country burial ground at first light, low stone wall, wet grass, plain unornamented markers, the light just reaching the top of the far wall and not yet the ground. No figures, no ceremony, no flowers, no ruin. Ordinary, tended, and waiting. Grey-green, wet stone, one line of gold along the wall top.
+  - **Extra negative:** skeleton, bones, ghost, spirit, ascending figure, light from the sky, angel, resurrection imagery of any kind.
+  - This is a church-space overlay page: it reads devotional tradition sympathetically and asserts nothing. A depicted resurrection would make the picture claim what the page declines to.
+
+- **`selvage-archecluster.jpg`** — *the weave's self-finished edge*, where sealed universes *can never touch one another, and can still reproduce.*
+  > The finished edge of a heavy woven cloth photographed very close, filling the frame, where the weave turns back on itself and closes without a hem or a stitch. Along that edge the threads are dense and perfectly regular; beyond it, nothing. Raking side light picking out every thread. Textile, tactile, exact. Undyed fibre, warm shadow.
+
+- **`wholecloth-formcluster.jpg`** — *woven without fold geometry and with static seating; primary, childless, and sealed.*
+  > A single vast unbroken sheet of woven cloth stretched taut and filling the frame, seen straight on and lit flat, with no seam, no join, no fold, no crease and no edge visible anywhere in frame. Perfectly regular, perfectly still. Cool even light. Pale undyed fibre, almost monochrome.
+  - **Deliberately the least eventful image on the roster.** *Nothing about it can be measured from here* is the entry, and a dramatic frame would assert access the record denies. Pair it with Selvage — same material, opposite fact.
+
+- **`what-the-record-refuses.jpg`** — *what is refused outright, what is kept but honestly priced.*
+  > A small, meticulously kept props store in a working repertory theatre: open shelving, everything labelled-free and squared away, and one shelf standing conspicuously and deliberately empty and swept clean while every other shelf is full. Plain worklight, no stage lighting, no glamour. Ordered, unsentimental, faintly witty. Warm wood, dust, one bare clean shelf.
+  - **The empty shelf is the page.** A refusal that is *filed* rather than merely absent.
+
+#### Physics (4)
+
+- **`dreams-across-the-interval.jpg`** — *a dreaming mind near a narrowed Interval registers a neighbour's bled templates.* The mechanism refuses a sender.
+  > A single small window of a habitat cabin seen from inside in the middle of the night, the cabin dark and the bunk empty and unmade, and on the far wall a faint indistinct patterning of light that does not correspond to anything outside the window. No figure, nobody sleeping, nothing at the window. Very dark, very quiet. Deep blue-black with one dim uncertain pale shape.
+  - **Extra negative:** face, figure, silhouette, apparition, eyes, creature, anything that could read as a sender.
+  - *A dream is never evidence about who sent it — nothing did.* The prompt has to hold that line, so the room is empty in both directions.
+
+- **`generalised-quantum-mechanics.jpg`** — *the laboratory theory survives exactly as its kernel, and everything Etheric enters as extension terms.*
+  > A well-used bench-top physics apparatus of entirely ordinary laboratory kind — a rigid optical bench, mounted posts, a sealed enclosure — clean, calibrated and clamped down, sitting on a stone bench in a plain university laboratory. Around it and behind it the room falls into soft darkness. Nothing exotic, nothing glowing, nothing added. Flat daylight from a high window. Brushed alloy, black anodising, grey stone.
+  - **The kernel is unamended, so the instrument is ordinary.** Adding anything strange to the apparatus would illustrate the opposite of the entry.
+
+- **`quantum-computing-and-the-cavern-constraint.jpg`** — *deep under sealed rock and nowhere else*, and *fast machines rather than oracles.*
+  > A deep rock cavern, dry and sealed, its bare stone walls curving away, holding a single compact plain-cased machine cabinet standing alone on a level plinth at the centre with a great deal of empty floor around it. The rock is the subject and the machine is small in it. Cool even light with no visible source, deep quiet. No cables in shot, no racks, no personnel. Grey stone, matte casing, black shadow.
+  - **Extra negative:** glowing chandelier cryostat, gold-plated quantum computer, cables, wires, blue glow, server racks.
+  - The gold-cryostat image is the single strongest default and it is wrong twice — it is the popular photograph, and it is a glowing object in a page about shielding.
+
+- **`the-scope-of-physical-law.jpg`** — *a physics claim is well-formed only at its level. Nothing physical is Ensemble-wide.*
+  > A set of six plain nested wooden measuring boxes of graduated size, sitting apart from one another in a row on a workbench rather than stacked inside each other, each one plainly made to a different standard and none of them matching. Flat workshop daylight. Ordinary, handmade, exact. Warm wood, grey bench.
+  - **Apart rather than nested**, deliberately: nesting would assert that the smaller scopes sit inside the larger as containers, which is not what the entry says.
+
+#### Institutions (14)
+
+- **`communion-of-the-called.jpg`** — *secular by charter, not its people*; answerable to no rank.
+  > A small plain room aboard a space installation set out for a gathering that has ended: a dozen mismatched chairs pulled into a rough circle, a folding table with cups on it, the room empty. Nothing on the walls, no ornament, no symbol of any kind visible. Warm ordinary light. Companionable and entirely unofficial. Warm neutrals, worn deck.
+
+- **`cross-biosphere-taxonomy.jpg`** — *frames, which describe structure and claim no ancestry, and lineages, which claim ancestry and never leave one world.*
+  > A museum comparative-anatomy bench holding four articulated skeletons of clearly unrelated origin laid side by side, each built on a broadly similar plan and each unmistakably not a variation of the others. Plain mounts, plain bench, no cases. Cool even gallery daylight. Rigorous and slightly uncanny. Bone white, grey bench.
+
+- **`frontier-transformation-protocols.jpg`** — *slowly, incompletely, and never on a Kernel-compliant system's say-so alone.*
+  > A wide view across a frontier world's untouched valley at dawn — native vegetation, standing water, bare rock — with a single small survey stake driven at the near edge of the frame and nothing else built anywhere in sight. Enormous, intact, and observed rather than begun. Cold clear light, long shadows. Ochre, grey-green, pale sky.
+  - **One stake and nothing else.** The whole clause is that the world gets time.
+
+- **`habitat-threshold.jpg`** — *the charter population line above which a settlement passes out of jurisdiction entirely.*
+  > A large orbital habitat seen from outside at a middle distance, whole and self-contained against the black, its inhabited ring lit from within along its length, no vessel docked and no other structure anywhere near it. Nothing arriving, nothing attending. Self-sufficient and slightly solitary. Steel grey, warm interior glow through the ring windows, deep black.
+
+- **`heritable-modification-protocols.jpg`** — *between a change that ends with the body carrying it and a change that breeds.*
+  > A plain laboratory bench holding two identical sealed sample vessels standing a hand's width apart, one of them set on a plain marked-out area of the bench surface and the other outside it, everything else about them the same. Flat clinical daylight, no other equipment in frame. Spare, exact, consequential. White, glass, brushed steel.
+  - **Two identical things on opposite sides of a line** is the entry in one image.
+
+- **`monasteries-of-mars.jpg`** — *scattered across Mars's open, thin-atmosphere terrain, deliberately unaffiliated.*
+  > A small low stone-built enclosure alone on open rust-coloured Martian ground at evening, sealed and plain, its walls the same material as the ground it stands on, with an enormous empty landscape running to the horizon in every direction and no road, track, vehicle or other structure anywhere. Thin pale sky, long shadow, one small sealed doorway. Rust, ochre, deep violet sky. Austere and unlonely.
+
+- **`planetary-liaisons-and-recruiters.jpg`** — *the berth a Ranger moves to when front-line work stops being possible without leaving the force.*
+  > A modest ground-floor office on an ordinary inhabited world, its door standing open onto a busy street, one plain desk inside and two chairs on the public side of it. A person's coat on a hook. Nobody in frame. Warm daylight from the street reaching a little way in. Approachable, unimportant-looking, permanent. Warm plaster, worn wood, street light beyond.
+
+- **`shore-leave-and-neutrality.jpg`** — *an officer on personal leave is the hardest case the neutrality clause has to cover.*
+  > A quiet civilian bar on a habitat concourse in the middle of the afternoon, nearly empty, one stool at the counter pulled out and a half-finished drink and a folded jacket left on it, the seat vacant. Ordinary, unglamorous, entirely off duty. Warm low light from behind the counter with no fitting visible. Warm brown, brass, grey deck.
+  - **The officer is absent from the frame** because the entry is about which of two people is sitting there, and the record has never decided.
+
+- **`solar-system-concord.jpg`** — *the compact that every government since has enforced, and none has owned.*
+  > A large plain assembly chamber with a ring of identical unmarked desks and no head of table, no dais, no throne, no seat of honour and no flag or emblem anywhere, seen from one side and entirely empty of people. Even daylight from a high band of windows. Deliberately unimpressive, deliberately symmetrical. Pale stone, plain wood, cool light.
+
+- **`star-rangers-frontier-corps.jpg`** — *whose mandate on every world it serves is designed to end.*
+  > A single set of boot tracks crossing wet ground away from the camera toward a small frontier settlement in the middle distance, the settlement lit and busy at dusk, the tracks leading away from it and out of frame at the near edge. Nobody in shot. Cold blue evening with the settlement warm in the distance. Departure as the achievement. Grey-blue, wet ground, distant amber.
+  - **The best single image in this set**, and it is entirely the entry's own idea.
+
+- **`star-rangers-navigation-corps.jpg`** — *route certificates expire when hull certificates do not.*
+  > A navigational beacon buoy alone in deep space, plain and unlit and slightly out of alignment with the corridor it marks, the starfield behind it. Nothing else in frame — no ship, no station, no route line. Small, exact, and quietly out of date. Matte grey against black, one cold highlight.
+
+- **`star-rangers-science-corps.jpg`** — *interprets what the Survey Corps collects.*
+  > A plain working room aboard an installation where a long bench holds a single sealed sample container and, beside it, a stack of shut plain-bound record volumes; a chair pushed back from the bench. Nobody present. The specimen is unremarkable and the record beside it is thick. Cool even light. Grey, warm binding cloth, glass.
+  - **The stack is taller than the specimen is interesting**, which is the corps.
+
+- **`the-commonwealth.jpg`** — *thin by design.*
+  > A modest meeting room in an orbital habitat with a long table set for perhaps ten, most of the chairs empty and pushed in, three cups at one end where a short conversation happened. A wide window onto the habitat's interior curve. Unhurried, undemanding, well kept. Warm neutrals, pale daylight.
+
+- **`the-institute.jpg`** — *accepts the instruments and declines the cosmology.*
+  > A plain research office with one bare wall, a working desk, and a single well-made instrument case standing closed on a side table. On the desk, an open blank notebook and a chair turned to face the wall rather than the window. Flat daylight, nothing decorative anywhere, no diagrams, no display. Sceptical, spare, unfriendly to enthusiasm. Grey, black, one warm wood surface.
+
+#### Technology (4)
+
+- **`eden-ring-rail.jpg`** — *the ordinary, AI-scheduled way most residents actually move around the ring.*
+  > A commuter rail platform on the inner surface of a great orbital habitat in the early morning, a plain modern train standing at the platform with its doors open, a handful of residents boarding without hurry, the habitat's green curved landscape rising away behind and overhead. Soft daylight from the habitat's light band. Utterly ordinary and quietly extraordinary. Green, pale grey, warm morning.
+
+- **`fold-transit-catastrophic-failure.jpg`** — *the three accounts settled space gives of the same wreckage.*
+  > A single recovered fragment of hull plate laid flat on a plain examination bench under even light, its torn edge presented to the camera, clean and dry and quite small. Nothing else on the bench. The room around it dark. Sober, forensic, undramatic. Grey metal, black shadow.
+  - **Extra negative:** explosion, fire, debris field, wreck, dramatic destruction, ship breaking apart.
+  - The entry is about how a loss is *classified*, not about the loss.
+
+- **`kalypsis-dawn.jpg`** — *a boundary zone cannot be shielded against, only carried better references into.*
+  > An unarmed survey and transport vessel in deep space seen three-quarter from ahead, mid-sized, plainly built, with no weapon mounts and no aggressive line anywhere on the hull, holding station in a region of ordinary starfield. Working lights along the hull, a large observation viewport, a plain unmarked hull. Calm, capable, unthreatening. Pale grey hull, deep black, cold starlight.
+  - **The lee is the name**, so the silhouette should read as shelter rather than force. No cannon, no prow, no wings.
+
+- **`orbital-compute-complexes.jpg`** — *classical machines without exception, since no quantum computer flies.*
+  > A very large orbital structure above a settled world, plainly industrial and entirely without windows, its whole surface given over to flat radiator panels edge-on to the sun and running away in ranks. The planet below fills the lower frame. Hard sunlight, black shadow, no glow anywhere. Functional to the point of austerity. White radiator faces, black structure, blue-grey world.
+  - **Radiators, not lights.** Heat rejection is what a compute complex actually looks like, and it keeps the frame off the glowing-datacentre default.
+
+#### Factions (3)
+
+- **`cairn-trust.jpg`** — *a marker is of no use to the one who set it.*
+  > A cairn of stacked flat stones standing on a high bare ridge on an unfamiliar world at first light, carefully built and weathered, with an empty valley beyond it and no track, no building and nobody in sight. Behind it the ridge continues into distance. Cold clear light, long shadow from the stack. Purposeful and unattended. Grey stone, pale gold light, cold blue distance.
+
+- **`halvern-combine.jpg`** — *a permission outlives the power that granted it.*
+  > A heavy old office safe standing open in an otherwise emptied room, its interior holding one squared stack of plain sealed document wallets and nothing else. The room around it is stripped: pale rectangles on the wall where things hung, dust, a bare floor. Flat daylight through an uncurtained window. The institution has gone and the paper has not. Dull green enamel, brass, dust.
+
+- **`hyperfold-yield-combine.jpg`** — *everything about it was lawful*, and it ended at Dock Seven.
+  > An industrial rendering platform in open space, plain and well maintained and entirely intact, holding station off a distant station's lights. Ordinary working plant: tanks, transfer booms, docking cradles, all of it orderly. Nothing dramatic, nothing sinister, nothing damaged. Hard sunlight from one side. Cold grey plant, black space, distant warm station. Utterly unremarkable, which is the entry.
+  - **Extra negative:** creature, tentacle, dragon, aperture, portal, rift, destruction, wreckage.
+
+#### Locations (5)
+
+- **`planets/cirrane.jpg`** — *the only Federation member world with no surface.*
+  > The upper atmosphere of a great gas giant seen from within it, banded cloud layers running away in enormous horizontal strata above and below, sunlight coming from one side through miles of haze, and no ground, no horizon and no solid object anywhere in frame. Vast, layered, entirely open. Ochre, cream, deep amber shadow.
+
+- **`planets/corryn.jpg`** — the ringed gas giant *whose rings pulse and hum in patterns.*
+  > A gas giant with a complex ring system seen from the night side of a nearby habitable world, low above the horizon and dominating the sky, its rings edge-lit and carrying faint patterned colour in blues, purples and greens along their length. In the foreground the dark silhouette of a hillside with spiral-form vegetation against the sky. Quiet, enormous, patterned. Deep blue-black, cold ring colour, black foreground.
+  - **Patterned, never addressed.** No face in the rings, nothing that reads as a signal aimed at the viewer.
+
+- **`planets/fliade.jpg`** — *biodiversity lives underground.*
+  > The interior of an enormous deep cavern on a cold world, its floor and walls carrying dense, complex, entirely non-photosynthetic growth in pale and dark forms, lit only by the faint self-luminescence of the growth itself and by nothing else. No opening to the sky, no equipment, no figures. Cold, crowded, alive. Pale grey-green light, black rock, deep shadow.
+
+- **`planets/verdance.jpg`** — *four climate zones, each hosting a distinct native civilization.*
+  > A high aerial view across a world where four utterly different landscapes meet within sight of one another — cold forest, open savanna, wetland, and high dry upland — the transitions clearly visible, each with its own distinct built settlement small in the distance. Clear midday light. Extraordinary range held in one frame. Full natural colour, wide horizon.
+
+- **`umbral-moon.jpg`** — *a small dark body at Earth–Moon L5, held by ordinary celestial mechanics.*
+  > A small, dark, irregular airless body in space seen close and lit hard from one side, its far limb in complete blackness, the Earth and the Moon both visible together as small distant discs in the same frame at a great distance. Nothing built on it, nothing orbiting it, nothing strange about it. Cold, plain, unremarkable. Charcoal rock, hard white light, black.
+  - **Nothing strange about the moon**, which is the fix that entry made: the flexure merely shares the address.
+
+#### Universes (1)
+
+- **`universes/deadwater.jpg`** — *no corridor has ever formed there, and every journey between its stars is sublight.*
+  > A deep-space starfield of ordinary appearance, seen wide, with a single small sublight vessel crossing it far off and plainly a very long way from anything. No corridor, no aperture, no distortion, no structure. The emptiness is the subject and it is entirely calm. Black, cold white points, one dim hull.
+
+#### Species (1)
+
+- **`ollune.jpg`** — *never stood on a surface, never lit a fire.*
+  > Several large, delicate, entirely non-humanoid atmospheric beings holding position in the sunlit upper cloud of a gas giant, seen at middle distance, broad and translucent and built for buoyancy rather than for walking, with no legs, no feet and nothing that could grip. Banded cloud running away behind and below them. Serene, alien, at home. Amber and cream cloud, pale translucent forms.
+  - **Extra negative:** wings, faces, eyes, limbs, hands, humanoid form, jellyfish cliché with trailing tentacles.
+
+#### Culture (3)
+
+- **`narrative-works-and-their-adaptation.jpg`** — *a spine of scenes carrying several viewpoints, with its reference apparatus attached.*
+  > A reader's table holding one bound volume lying open and, ranged around it, four slimmer companion volumes standing shut — a set that plainly belongs together and is plainly not one book. Nothing written on anything. Warm reading light from a window. Quiet, scholarly, inviting. Warm wood, cloth binding, pale paper.
+
+- **`cill-aoife-devotion.jpg`** — the devotion *carried into space as living devotion by the Currach Fleet.* Filed under this name rather than `saint-aoife.jpg` — see the collision note above.
+  > A small plain shrine niche set into the bulkhead of an old colony vessel's corridor: a shallow recess holding a few sprigs of blackthorn in water and a worn stone the size of a fist, the metal around it polished bright by generations of hands passing. Nothing ornate, no image, no figure, no candle. Ordinary corridor light. Devotion as an unbroken habit rather than an occasion. Dull alloy, wet green, one bright worn patch.
+
+- **`star-rangers-proverbs-and-maxims.jpg`** — *taught in the college, inadmissible in the log.*
+  > A worn wooden lecture-room bench in a training college, seen close, its surface marked by decades of use, with a plain shut record book set squarely on it and nothing else. Cold daylight from a high window. Two registers, one bench. Warm scarred wood, grey light, dark binding.
+
+#### Records (2)
+
+- **`plainmark.jpg`** — *stacked colour bands carrying chevrons, rings, tally strokes and lozenges.*
+  > A close view of a heavy hatch frame in a working orbital habitat, carrying a vertical stack of flat painted colour bands with simple geometric marks on them — chevrons, plain rings, short tally strokes, lozenges — crisply painted, hard-wearing, and containing no letters or numerals of any kind. The corridor beyond is out of focus. Utilitarian and oddly handsome. Saturated flat colour against grey alloy.
+  - **This one has to be checked at 4× without fail.** A prompt describing a marking standard is the most direct invitation to gibberish lettering in the whole set.
+
+- **`timekeeping-and-the-common-record.jpg`** — *time distributed by courier in a civilisation without faster-than-light communication.*
+  > A small hardened transit case standing alone on a plain bench in a ship's compartment, closed and clamped down and secured with a strap, plainly precious and plainly unremarkable to look at. Cool even light, nothing else in frame. What is inside is a clock, and the picture does not show it. Matte case, dull alloy, grey bench.
+
+#### History (3)
+
+- **`formation-of-star-rangers.jpg`** — *the moment the Military Space Command's institutional failure became irreversible.*
+  > A long negotiating table in a plain hall, seen from one end, strewn with the aftermath of many days: pushed-back chairs at irregular angles, cups, one chair overturned and not righted, blank papers pushed into loose heaps. The room empty and the work finished. Grey late light through tall windows. Exhausted and consequential. Cool grey, pale wood, cold daylight.
+
+- **`the-generation-ark-era.jpg`** — *the odds of arriving were the odds of an early Norse or Irish open-boat ocean crossing.*
+  > An enormous, plain, slow sublight vessel crossing deep space, seen small in a very wide frame, its long hull built for endurance rather than speed and showing the accumulated repairs of a long passage. No destination visible, no star close. Vast emptiness around it and the ship entirely alone. Cold white points, dull hull, black.
+
+- **`what-nobody-certifies.jpg`** — hulls, routes, people and minds are certified, and *nothing at all certifies a permission to be somewhere.*
+  > A plain office wall carrying four framed certificates hung in a neat row, each one blank of any writing, and beside them a fifth empty frame, hung level with the others and holding nothing at all. Flat even daylight. Bureaucratic, deliberate, quietly pointed. Pale wall, dark frames, one empty.
+  - **Blank certificates** for the standing reason, and it costs nothing: four documents and an empty frame reads from the shapes alone.
+
+#### Entities (1)
+
+- **`predatory-entities.jpg`** — *classified by sapience and feeding method*, and governed by the tone line.
+  > An empty woodland clearing at dusk, ordinary and pleasant, with a ring of soft trampled grass at its centre where something has habitually lain, and a few small personal objects — a shoe, a folded cloth — at the edge of the ring, undisturbed and weathered. Nothing present. Warm failing light, long shadows, complete quiet. Green-gold, deep shade.
+  - **Extra negative:** creature, monster, teeth, claws, blood, gore, corpse, horror, body, violence, glowing eyes, shadow figure.
+  - **Hint at the dark fact rather than depicting it**, exactly as the tone line requires. Nothing in frame is frightening; what is frightening is what the frame implies, and that is the setting's whole register.
+
+#### Timeline Notes (1)
+
+- **`universal-cosmic-stardate.jpg`** — *a paper timescale kept by an ensemble of clocks no institution owns.*
+  > A plain room holding six identical sealed instrument housings on separate isolated plinths, well spaced apart, each one unmarked and giving nothing away, in a space that is plainly kept very still. Cool even light, no cables in shot, no readouts. The agreement between them is the instrument and none of them is it. Matte white, grey stone, deep shadow.
+
+---
+
+**Checking these on return.** Four carry a default strong enough to fail quietly:
+**`quantum-computing-and-the-cavern-constraint`** (the gold cryostat),
+**`plainmark`** (gibberish lettering — inspect at 4×),
+**`predatory-entities`** (the tone line, in both directions: a monster fails it and
+so does a frame with nothing implied), and **`ollune`** (the trailing-tentacle
+jellyfish). Beyond those, the set's own risk is sameness: a great many of these
+are *a quiet room with one object in it*, which is the right answer individually
+and would be a monotonous gallery. **Judge them as a page of thumbnails, not one
+at a time**, and re-roll for variety rather than for quality where they cluster.
 
 ### 6. Images that should not stay — audited 2026-08-10
 
