@@ -108,23 +108,43 @@ the conflict register at the foot before answering any of them.
 Tracked as a thin pointer in **#444**; the substance is here because that file
 touches Season 6–7 material and the tracker is public.
 
-- **Anne's surname and present-day situation.**
-- **What the disaster actually was.**
-- **Whether Xenon and Lumbarian are still active, and where.** Lucene-9000 is
-  accounted for; the other two are not. Also open: whether they remember the
-  rescue as Lucene-9000 evidently does, or whether that difference is worth
-  using.
-- **Whether Andrew knows Lucene-9000 is the same unit.** Karla's side was
-  answered 4 August; Andrew's was not. Lucene's established manner is that she
-  would say so plainly if asked and never think to raise it otherwise.
-- **Which world, and whether it has a name yet.** Plus whether the settlement
-  is named Wender or she is simply *of* her family, and where this sits
-  relative to Karla's Chief Pilot rank at Season 1's start.
-- **Whether the Frontier Corps had a caretaker mandate on that world** — the
-  Corps has a welfare authority nobody has named. Either answer is worth having
-  deliberately.
-- **Which ship, and from when** — before or after she made High Captain — and
-  whether Karla, Andrew or Anne have ever discussed it with any of the three.
+**Worked through in one sitting on 19 August 2026** — see §10 of that file for
+the rulings and the reasoning. Four items turned out to have been answered
+elsewhere months earlier and never brought back here, which is the failure mode
+this index exists to catch and did not.
+
+**Closed by canon that already existed, not by a ruling:**
+
+- ~~**Anne's surname**~~ — **Wender**, published in `s01e00c04`'s `canon_facts`
+  and in her own voice at the intake hall.
+- ~~**Whether Xenon and Lumbarian are still active, and where**~~ — active,
+  both aboard Karla's ship. Settled by Dermot on 28 July and published on both
+  character pages.
+- ~~**Whether the Frontier Corps had a caretaker mandate on that world**~~ — it
+  does; closed by the 13 August addendum, which puts a Senior Officer there.
+
+**Declined deliberately — not gaps to close:**
+
+- **What the disaster actually was** — ship's name, route, cause, and who
+  dispatched the machines. The chapter marks the absence in a character's
+  judgement rather than a note (*"it had not seemed, that night, like the
+  missing fact"*), which is Sen's doctrine working inside the fiction.
+- **The "Lucy Anne" echo, and why Anne abstains from the name.** Already flagged
+  above as a decision to leave something open.
+
+**Ruled 19 August (proposals):** Andrew's question dissolved by the chapter and
+replaced with the better one — nobody has asked Lucene what happened, for three
+different reasons; the settlement is named **Wender** by the colonists at
+constitution rather than by Anne; the election was **obstructed rather than
+contested**, on the lawful and possibly correct ground that it was premature;
+the Senior Officer is **new**, with Galen Kane as the man he calls; the machines
+were posted to the hull before Karla had any say; and all three remember the
+rescue, from three vantages that make it three different events.
+
+**Still open after that:** the exact year of the election, the Senior Officer's
+identity, and the items the chapter itself reserves (the children's ages, the
+length of Lucene's care interval, whether the three knew one another before the
+wreck).
 
 ## Naming — `intake-2026-07-26.md`
 
@@ -138,17 +158,21 @@ Tracked as **#445**. Two corporations, not one — the index conflated them unti
   `intake-2026-07-26.md`. **No migration-map row** — the name never entered the
   corpus, so nothing is being renamed; the guide's UCSD entry is the precedent
   for declining one.
-- **What the 26 July concern is called instead.** Still open, and it is one
-  edit with the correction already flagged in that block rather than two: the
-  corporation is a joint-venture founder alongside the Military Space Command,
-  which was dissolved into the SSDC in 2723 and cannot have founded a colony
-  thirty years before 2826. Founder or date has to give, and the rename lands
-  in the same sentence. **Both are items 2 and 3 of #463**, which carries the
-  whole of that block's correction list — do them there rather than alone.
-- **The 28 July concern — its name and what it was developing.** A different
-  company: the one that financed the settlement and contested the Sheriff's
-  election. Both halves still open, and the intake's own cast note applies —
-  write the company as sincerely aggrieved rather than as a villain.
+- ~~**What the 26 July concern is called instead**~~ — **the Halvern Combine**,
+  drafted 19 August. The founder-or-date problem resolved by removing the
+  Military Space Command from the sentence rather than adjusting its year: the
+  colony is chartered in the Imperium period, and the *approximately thirty
+  years* survives as the **expansion**. *(This entry also carried the wrong MSC
+  year — the Consolidation Accords narrowed it into the SSDC in **2722**, and
+  2723 is the charter year.)*
+- ~~**The 28 July concern — its name and what it was developing**~~ — **the
+  Cairn Trust**, drafted 19 August, developing **the power base rather than a
+  commodity**: passage out, the first rationed fusion cores, and the buildout,
+  recovered over decades against the colony's own later output. Sincerely
+  aggrieved is structural rather than asserted, because a trustee cannot forgive
+  a debt held for beneficiaries who are not present.
+
+**#445 is closed.** Both namings landed.
 
 ## Pandoids — sapience answered, two things opened
 
