@@ -49,12 +49,13 @@ Halvern is the same lesson at a different speed, and the Corps does not teach fr
 
 **Nobody has established what became of the other patron holdings.** The Imperium's industrial base was a small number of families and Halvern is one line of descent from it; the archive does not say how many others survived, under what names, or holding what paper. The question has not been asked by anybody with a reason to ask it, and the Survey Archive marks the absence rather than filling it.
 
-**And nobody certifies a charter.** The Safety Corps certifies hulls and the Navigation Corps certifies routes, both to published standards, both with expiry and review. No body in settled space performs the equivalent office for a licence to be somewhere. That gap is not a Halvern invention and the Combine did not lobby for it. It simply occupies it, which is cheaper than defending it.
+**And [nobody certifies a charter](/star-rangers/lore/what-nobody-certifies/).** The Safety Corps certifies hulls and the Navigation Corps certifies routes, both to published standards, both with expiry and review. No body in settled space performs the equivalent office for a licence to be somewhere. That gap is not a Halvern invention and the Combine did not lobby for it — it is the shape of a decision taken at the Rangers' founding, in full knowledge of what it would cost. The Combine simply occupies it, which is cheaper than defending it.
 
 ## See Also
 
 - [The Imperium](/star-rangers/lore/the-imperium/) — the patrons, and the authority that issued the paper
 - [The Corryn System](/star-rangers/lore/planets/corryn/) — the standing case, and the Spiralites
 - [The Hyperfold Yield Combine](/star-rangers/lore/hyperfold-yield-combine/) — the same lesson, fast enough to become one
+- [What Nobody Certifies](/star-rangers/lore/what-nobody-certifies/) — the gap the Combine occupies, and why it was left open
 - [Frontier Transformation Protocols](/star-rangers/lore/frontier-transformation-protocols/) — the sapience clause, and what it postdates
 - [Formation of the Star Rangers](/star-rangers/lore/formation-of-star-rangers/) — a charter argued over what it forbade
