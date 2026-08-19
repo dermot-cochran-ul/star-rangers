@@ -251,9 +251,28 @@ chapter images would mostly be four views of the same room.
 - **Name the sheen, not the substance.** "Stone-textured skin" for a Basaltborn
   produced a golem; describing basalt *iridescence* on chitin produced the
   character.
-- **Ban lettering explicitly** ("no readable text, no insignia, plain unmarked
-  folders") or you get gibberish name tapes — and once, an entire NYPD squad
-  room with `NYC POLICE` case files.
+- **Ban lettering explicitly** ("no readable text, no insignia") or you get
+  gibberish name tapes — and once, an entire NYPD squad room with `NYC POLICE`
+  case files. **But the ban is a floor, not a fix — see the next bullet, and
+  note that this one used to recommend "plain unmarked folders" as its own
+  example, which is precisely the shape that fails.**
+- **The lettering ban cannot beat the scene** (13 August 2026, #415; the rule
+  was recovered and written down 19 August). If a brief describes an object
+  whose purpose is to carry writing — a case file, a form, a certificate, a
+  departures board, an open notebook, station wayfinding — **the model draws the
+  object, and the object has writing on it**, however many negatives are
+  stacked against it. The Eden Reeves brief asked for a holographic case-file
+  interface and banned lettering in the same breath, and came back reading
+  `CASE FILE: ALPHA-7`.
+
+  **So the fix is always to change the scene, never to strengthen the
+  negative.** Three moves, in order of preference: **remove** the object (an
+  empty desk says more than a desk of blank paper); **close** it (a shut book is
+  reliably safe where an open one is not, and a shut book still reads as a
+  record); or **substitute** an object that carries meaning without a writing
+  surface — a stamped seal, a tally, a sealed case. *Blank* and *unmarked* are
+  not scene changes. They are instructions the model cannot follow, because a
+  blank certificate is not a thing it has ever seen.
 - **State the era**, or the setting defaults to contemporary Earth.
 - Small text artifacts can be fixed in-session with a targeted select-and-blur
   rather than a re-roll (worked on a garbled flight-suit name tape).
@@ -1155,16 +1174,21 @@ exception — see its entry.
 - **`emma-la-chapelle.jpg`** — the junior xenolinguist who filed the reading *at
   the bottom of her confidence range*, and returns from the Abbeylands *with more
   questions than sentences*.
-  > [ranger block] Cinematic wide portrait of a young woman seated at a plain wooden table in the cool stone hall of a working abbey on a pre-industrial world, upper body, a blank notebook open in front of her and a pencil held still above it, not writing — listening to someone out of frame with her head slightly tilted, entirely absorbed. Cold north daylight through a tall narrow opening, the hall dim beyond it, plain benches, no ornament. Practical field clothing over her service dress. Grey stone, pale daylight, one warm wood surface. 16:9 landscape.
-  - **The notebook is blank and the pencil is not moving.** She is at the moment
-    before a low-confidence note, which is what the whole page is about.
+  > [ranger block] Cinematic wide portrait of a young woman seated at a plain wooden table in the cool stone hall of a working abbey on a pre-industrial world, upper body, a closed notebook squared on the table in front of her and a pencil laid down beside it, her hands still — listening to someone out of frame with her head slightly tilted, entirely absorbed. Cold north daylight through a tall narrow opening, the hall dim beyond it, plain benches, no ornament. Practical field clothing over her service dress. Grey stone, pale daylight, one warm wood surface. 16:9 landscape.
+  - **The notebook is shut and the pencil is down** — changed 19 August from
+    *open and blank*, which is a page asked to be empty. Shut is the safe form
+    and says the same thing better: she is at the moment before the note,
+    listening rather than recording.
 
 - **`ernesto-strozzi.jpg`** — the branch's most-cited practitioner for a piece of
   work he got wrong, who *teaches the correction rather than the recovery from
   it*.
-  > [ranger block] Cinematic wide portrait of a man in his sixties standing at the head of a plain working table in a delegation compound's translation room, upper body, mid-explanation to two junior officers seated out of frame, one hand open in a gesture that is laying something out rather than insisting on it. Unembarrassed, matter-of-fact, patient. On the table: blank unmarked cards laid in rows, a plain wooden rack, nothing written on anything. Warm shuttered daylight in bars across the room, whitewashed walls. Ochre, whitewash, dark wood. 16:9 landscape.
-  - **The cards are blank** for the standing reason, and it costs nothing — a
-    translation laid out in rows reads as a method from the shape alone.
+  > [ranger block] Cinematic wide portrait of a man in his sixties standing at the head of a plain working table in a delegation compound's translation room, upper body, mid-explanation to two junior officers seated out of frame, one hand open in a gesture that is laying something out rather than insisting on it. Unembarrassed, matter-of-fact, patient. The table between them is entirely bare. Warm shuttered daylight in bars across the room, whitewashed walls. Ochre, whitewash, dark wood. 16:9 landscape.
+  - **The table was cleared on 19 August.** It held *blank unmarked cards laid
+    in rows*, which is a writing surface asked not to be one. The gesture does
+    the work: a man laying something out for two people carries *method* without
+    an object, and a bare table between a teacher and his juniors is the better
+    composition anyway.
 
 - **`galen-kane.jpg`** — *counts departures*. His most valued record entries are
   the closures, and the Corps' tradition puts the departing Ranger at the back of
@@ -1207,7 +1231,12 @@ exception — see its entry.
 
 - **`kate-ukrainka.jpg`** — writes Smart Pet books that *get the animal exactly
   right and the machinery cheerfully, deliberately wrong.*
-  > Cinematic wide portrait of a woman in her sixties writing by hand at a small table in a lived-in habitat apartment, upper body, mid-sentence and clearly enjoying herself, a half-smile she is not aware of. Blank unmarked notebook, a mug, a plant doing well. Behind her a wide window onto the green curve of an orbital habitat's inner surface in daylight. Warm, comfortable, entirely unhaunted. Warm wood, green, soft daylight. 16:9 landscape.
+  > Cinematic wide portrait of a woman in her sixties at a small table in a lived-in habitat apartment, upper body, having just stopped work — her pen set down and her notebook closed under one hand, both hands round a mug, looking out of the window with a half-smile she is not aware of. A plant doing well. Behind her a wide window onto the green curve of an orbital habitat's inner surface in daylight. Warm, comfortable, entirely unhaunted. Warm wood, green, soft daylight. 16:9 landscape.
+
+  - **Nothing is being written, deliberately** (19 August). *Writing by hand* on
+    a *blank unmarked notebook* is two invitations to lettering in one clause,
+    and the moment just after is warmer anyway: an author with the work shut and
+    a hot drink is more like the page than an author mid-sentence.
 
 - **`knopka.jpg`** — failed the assessment *on every axis it measures*, and the
   finding is one word long.
@@ -1234,7 +1263,7 @@ exception — see its entry.
 
 - **`sylvie-harrow.jpg`** — a model statement, *no sentence that is false*, and
   nothing that catches.
-  > Cinematic wide portrait of a woman in her forties seated at a plain table in an unremarkable habitat office, upper body, mid-answer to someone out of frame, pleasant and cooperative and entirely at ease, hands loosely together on the table. Neat ordinary professional clothing. Even, flat, perfectly adequate light with nothing dramatic in it; a plain wall, a closed unmarked folder squared up in front of her. Nothing in the frame is out of place and nothing in it is interesting. Cool neutral palette. 16:9 landscape.
+  > Cinematic wide portrait of a woman in her forties seated at a plain table in an unremarkable habitat office, upper body, mid-answer to someone out of frame, pleasant and cooperative and entirely at ease, hands loosely together on the table. Neat ordinary professional clothing. Even, flat, perfectly adequate light with nothing dramatic in it; a plain wall, and an empty table in front of her. Nothing in the frame is out of place and nothing in it is interesting. Cool neutral palette. 16:9 landscape.
   - **The frame must have nothing to catch on**, which is the hardest brief here.
     No shadow across the eyes, no held look, no tell. It reads as a competent
     witness because that is exactly what every audit found.
@@ -1263,17 +1292,21 @@ exception — see its entry.
 - **`sildron-drey.jpg`** — MSC Director of Operations, Mars; the staff side,
   *measured on whether the order was correctly formed rather than on whether it
   arrived in time.*
-  > Cinematic wide portrait of a woman in her fifties in the severe service dress of a militarised space command of an earlier era, upper body, standing at a plain operations desk on Mars with her hands resting on it, looking down at the work rather than at anyone. Precise, capable, entirely without warmth or cruelty. Blank unmarked folders squared in a stack; nothing written on anything. A tall window behind her onto flat rust-coloured Martian ground under a pale sky. Institutional, historical, cold. Rust, grey and dull olive. 16:9 landscape.
+  > Cinematic wide portrait of a woman in her fifties in the severe service dress of a militarised space command of an earlier era, upper body, standing at a plain operations desk on Mars with her hands resting on it, looking down at the work rather than at anyone. Precise, capable, entirely without warmth or cruelty. The desk is completely bare — no paper, no folder, no document and no object of any kind on it. A tall window behind her onto flat rust-coloured Martian ground under a pale sky. Institutional, historical, cold. Rust, grey and dull olive. 16:9 landscape.
   - **Neither villain nor victim.** Her page is careful that she argued the case
     in writing and then had to execute it, and the frame should let a reader
     arrive at their own verdict rather than pre-empt it.
 
 - **`thalassa-vexar.jpg`** — the best-liked Imperium officer in the Belt, holding
   a grade with *no authority to change anything there*.
-  > Cinematic wide portrait of a woman in her fifties in the plain administrative uniform of a fallen space empire, upper body, seated at a small counter in a cramped Belt settlement office, turned attentively toward someone standing out of frame and listening properly. Genuinely courteous, genuinely powerless, and aware of both. A worn counter, a queue of people waiting behind out of focus, blank unmarked forms in a tray. Cramped, warm, worn, decent. Dim amber lighting, dull metal, historical science fiction. 16:9 landscape.
+  > Cinematic wide portrait of a woman in her fifties in the plain administrative uniform of a fallen space empire, upper body, seated at a small counter in a cramped Belt settlement office, turned attentively toward someone standing out of frame and listening properly. Genuinely courteous, genuinely powerless, and aware of both. A worn counter with absolutely nothing on it, and a queue of people waiting behind her out of focus. Cramped, warm, worn, decent. Dim amber lighting, dull metal, historical science fiction. 16:9 landscape.
   - **The queue is the point.** She was the officer who answered every question
     and could alter no condition, and a solitary desk would have made her a
     functionary instead of the thing the Belt actually remembers.
+  - **The empty counter is the 19 August rewrite.** The first version put *blank
+    unmarked forms in a tray* in front of her, and a form is the purest
+    text-bearing object there is. Clearing it is also the better picture: an
+    official with nothing between her and the person talking.
 
 ---
 
@@ -1432,7 +1465,7 @@ failed the thing the set was for, however good each frame is on its own.
   covers the Star Rangers only, so drawing a badge would invent an office's
   regalia in a picture, which is the same cascade the Calloway entry refused for
   a Compact uniform. The frame is the settlement working, and she is counting it.
-  > Cinematic wide portrait of a woman in her early fifties standing in the gravel yard of a young frontier settlement in the early morning, upper body and a little of the yard, turned three-quarters away from the camera and looking off across the site rather than at the viewer, plainly in the middle of taking a count of something out of frame. Dark hair going grey at the temples, tied back tight and out of the way; a weathered outdoor face, no cosmetics, no styling; calm, unhurried, entirely absorbed. Practical hard-wearing site clothing in undyed and muted colours — a canvas work coat over layers, cuffs turned back, gloves pushed into a pocket — worn plain and completely unmarked. Behind her the settlement is visibly working and well kept: timber-framed barns and low prefabricated buildings squared up along the yard, a concrete pad where a plain grey fusion unit stands behind a simple railing with its pipework running off to a nearby building, hand tools racked upright, crates stacked square and strapped, everything stowed and nothing broken. Wide pale sky, low early light raking across the yard from one side, long soft shadows, a thin ground mist not yet burnt off. Muted realistic palette of grey, canvas and pale gold. Quiet, spacious and still, with the settlement plainly thriving rather than struggling. Science-fiction frontier setting, photographic and grounded, documentary in feel but composed and unhurried. 16:9 landscape orientation.
+  > Cinematic wide portrait of a woman in her early fifties standing in the gravel yard of a young frontier settlement in the early morning, upper body and a little of the yard, turned three-quarters away from the camera and looking off across the site rather than at the viewer, plainly in the middle of taking a count of something out of frame. Dark hair going grey at the temples, tied back tight and out of the way; a weathered outdoor face, no cosmetics, no styling; calm, unhurried, entirely absorbed. Practical hard-wearing site clothing in undyed and muted colours — a canvas work coat over layers, cuffs turned back, gloves pushed into a pocket — worn plain and completely unmarked. Behind her the settlement is visibly working and well kept: timber-framed barns and low prefabricated buildings squared up along the yard, a concrete pad where a plain grey fusion unit stands behind a simple railing with its pipework running off to a nearby building, hand tools racked upright, timber stacked square and strapped down, everything stowed and nothing broken. No crates, no drums and no packaging of any kind. Wide pale sky, low early light raking across the yard from one side, long soft shadows, a thin ground mist not yet burnt off. Muted realistic palette of grey, canvas and pale gold. Quiet, spacious and still, with the settlement plainly thriving rather than struggling. Science-fiction frontier setting, photographic and grounded, documentary in feel but composed and unhurried. 16:9 landscape orientation.
   - **Negative:** badge, star, shield, sheriff badge, police badge, rank insignia, epaulettes, name tape, patch, uniform, military uniform; firearm, gun, holster, weapon of any kind; readable text, lettering, numerals, signage, labels, stencilled markings or written characters of any script anywhere in frame; screens, monitors, glowing displays, holograms, projected light, consoles, dials, gauges; visible lamp, light fitting, bulb or lantern; rust, corrosion, grime, oil stains, damage, exposed wiring, litter, clutter, shanty, slum, refugee camp, derelict or abandoned look, poverty; flat studio backdrop, gradient background, glamour lighting, corporate headshot, posed to camera, smiling at camera; contemporary Earth setting, modern street, modern vehicles; horses or draft animals in frame; children.
   - **Why "no poverty" is a canon negative rather than taste.** [The Fusion
     Ceiling](../src/lore/the-fusion-ceiling.md) says it outright: an early
@@ -2182,7 +2215,7 @@ nested-sphere diagrams.
   - **Deliberately the least eventful image on the roster.** *Nothing about it can be measured from here* is the entry, and a dramatic frame would assert access the record denies. Pair it with Selvage — same material, opposite fact.
 
 - **`what-the-record-refuses.jpg`** — *what is refused outright, what is kept but honestly priced.*
-  > A small, meticulously kept props store in a working repertory theatre: open shelving, everything labelled-free and squared away, and one shelf standing conspicuously and deliberately empty and swept clean while every other shelf is full. Plain worklight, no stage lighting, no glamour. Ordered, unsentimental, faintly witty. Warm wood, dust, one bare clean shelf.
+  > A small, meticulously kept props store in a working repertory theatre: open shelving, everything squared away and nothing ticketed, labelled or numbered anywhere, and one shelf standing conspicuously and deliberately empty and swept clean while every other shelf is full. Plain worklight, no stage lighting, no glamour. Ordered, unsentimental, faintly witty. Warm wood, dust, one bare clean shelf.
   - **The empty shelf is the page.** A refusal that is *filed* rather than merely absent.
 
 #### Physics (4)
@@ -2211,7 +2244,7 @@ nested-sphere diagrams.
   > A small plain room aboard a space installation set out for a gathering that has ended: a dozen mismatched chairs pulled into a rough circle, a folding table with cups on it, the room empty. Nothing on the walls, no ornament, no symbol of any kind visible. Warm ordinary light. Companionable and entirely unofficial. Warm neutrals, worn deck.
 
 - **`cross-biosphere-taxonomy.jpg`** — *frames, which describe structure and claim no ancestry, and lineages, which claim ancestry and never leave one world.*
-  > A museum comparative-anatomy bench holding four articulated skeletons of clearly unrelated origin laid side by side, each built on a broadly similar plan and each unmistakably not a variation of the others. Plain mounts, plain bench, no cases. Cool even gallery daylight. Rigorous and slightly uncanny. Bone white, grey bench.
+  > A long bare bench holding four articulated skeletons of clearly unrelated origin laid side by side, each built on a broadly similar plan and each unmistakably not a variation of the others. Nothing else on the bench — no card, no label, no plaque, no case and no mount plate. Cool even daylight. Rigorous and slightly uncanny. Bone white, grey bench.
 
 - **`frontier-transformation-protocols.jpg`** — *slowly, incompletely, and never on a Kernel-compliant system's say-so alone.*
   > A wide view across a frontier world's untouched valley at dawn — native vegetation, standing water, bare rock — with a single small survey stake driven at the near edge of the frame and nothing else built anywhere in sight. Enormous, intact, and observed rather than begun. Cold clear light, long shadows. Ochre, grey-green, pale sky.
@@ -2221,7 +2254,7 @@ nested-sphere diagrams.
   > A large orbital habitat seen from outside at a middle distance, whole and self-contained against the black, its inhabited ring lit from within along its length, no vessel docked and no other structure anywhere near it. Nothing arriving, nothing attending. Self-sufficient and slightly solitary. Steel grey, warm interior glow through the ring windows, deep black.
 
 - **`heritable-modification-protocols.jpg`** — *between a change that ends with the body carrying it and a change that breeds.*
-  > A plain laboratory bench holding two identical sealed sample vessels standing a hand's width apart, one of them set on a plain marked-out area of the bench surface and the other outside it, everything else about them the same. Flat clinical daylight, no other equipment in frame. Spare, exact, consequential. White, glass, brushed steel.
+  > A plain laboratory bench holding two identical sealed sample vessels standing a hand's width apart, one of them standing inside a shallow plain tray and the other on the bare bench beside it, everything else about them the same. Flat clinical daylight, no other equipment in frame. Spare, exact, consequential. White, glass, brushed steel.
   - **Two identical things on opposite sides of a line** is the entry in one image.
 
 - **`monasteries-of-mars.jpg`** — *scattered across Mars's open, thin-atmosphere terrain, deliberately unaffiliated.*
@@ -2252,7 +2285,7 @@ nested-sphere diagrams.
   > A modest meeting room in an orbital habitat with a long table set for perhaps ten, most of the chairs empty and pushed in, three cups at one end where a short conversation happened. A wide window onto the habitat's interior curve. Unhurried, undemanding, well kept. Warm neutrals, pale daylight.
 
 - **`the-institute.jpg`** — *accepts the instruments and declines the cosmology.*
-  > A plain research office with one bare wall, a working desk, and a single well-made instrument case standing closed on a side table. On the desk, an open blank notebook and a chair turned to face the wall rather than the window. Flat daylight, nothing decorative anywhere, no diagrams, no display. Sceptical, spare, unfriendly to enthusiasm. Grey, black, one warm wood surface.
+  > A plain research office with one bare wall, a working desk, and a single well-made instrument case standing closed on a side table. On the desk, one shut notebook squared to the edge, and a chair turned to face the wall rather than the window. Flat daylight, nothing decorative anywhere, no diagrams, no display. Sceptical, spare, unfriendly to enthusiasm. Grey, black, one warm wood surface.
 
 #### Technology (4)
 
@@ -2260,7 +2293,7 @@ nested-sphere diagrams.
   > A commuter rail platform on the inner surface of a great orbital habitat in the early morning, a plain modern train standing at the platform with its doors open, a handful of residents boarding without hurry, the habitat's green curved landscape rising away behind and overhead. Soft daylight from the habitat's light band. Utterly ordinary and quietly extraordinary. Green, pale grey, warm morning.
 
 - **`fold-transit-catastrophic-failure.jpg`** — *the three accounts settled space gives of the same wreckage.*
-  > A single recovered fragment of hull plate laid flat on a plain examination bench under even light, its torn edge presented to the camera, clean and dry and quite small. Nothing else on the bench. The room around it dark. Sober, forensic, undramatic. Grey metal, black shadow.
+  > A single recovered fragment of hull plate laid flat on a bare bench under even light, its torn edge presented to the camera, clean and dry and quite small. Nothing else on the bench at all — no tag, no label, no card, no marker. The room around it dark. Sober and undramatic. Grey metal, black shadow.
   - **Extra negative:** explosion, fire, debris field, wreck, dramatic destruction, ship breaking apart.
   - The entry is about how a loss is *classified*, not about the loss.
 
@@ -2278,7 +2311,7 @@ nested-sphere diagrams.
   > A cairn of stacked flat stones standing on a high bare ridge on an unfamiliar world at first light, carefully built and weathered, with an empty valley beyond it and no track, no building and nobody in sight. Behind it the ridge continues into distance. Cold clear light, long shadow from the stack. Purposeful and unattended. Grey stone, pale gold light, cold blue distance.
 
 - **`halvern-combine.jpg`** — *a permission outlives the power that granted it.*
-  > A heavy old office safe standing open in an otherwise emptied room, its interior holding one squared stack of plain sealed document wallets and nothing else. The room around it is stripped: pale rectangles on the wall where things hung, dust, a bare floor. Flat daylight through an uncurtained window. The institution has gone and the paper has not. Dull green enamel, brass, dust.
+  > A heavy old office safe standing open in an otherwise emptied room, its interior holding one squared stack of plain document wallets, every one shut and tied closed with tape, none of them open and no loose paper anywhere, and nothing else. The room around it is stripped: pale rectangles on the wall where things hung, dust, a bare floor. Flat daylight through an uncurtained window. The institution has gone and the paper has not. Dull green enamel, brass, dust.
 
 - **`hyperfold-yield-combine.jpg`** — *everything about it was lawful*, and it ended at Dock Seven.
   > An industrial rendering platform in open space, plain and well maintained and entirely intact, holding station off a distant station's lights. Ordinary working plant: tanks, transfer booms, docking cradles, all of it orderly. Nothing dramatic, nothing sinister, nothing damaged. Hard sunlight from one side. Cold grey plant, black space, distant warm station. Utterly unremarkable, which is the entry.
@@ -2317,7 +2350,7 @@ nested-sphere diagrams.
 #### Culture (3)
 
 - **`narrative-works-and-their-adaptation.jpg`** — *a spine of scenes carrying several viewpoints, with its reference apparatus attached.*
-  > A reader's table holding one bound volume lying open and, ranged around it, four slimmer companion volumes standing shut — a set that plainly belongs together and is plainly not one book. Nothing written on anything. Warm reading light from a window. Quiet, scholarly, inviting. Warm wood, cloth binding, pale paper.
+  > A reader's table holding one bound volume lying shut and flat with a ribbon marker trailing from it and, ranged around it, four slimmer companion volumes standing shut on their edges — a set that plainly belongs together and is plainly not one book. Every book in frame is closed. Warm reading light from a window. Quiet, scholarly, inviting. Warm wood, cloth binding, pale paper.
 
 - **`cill-aoife-devotion.jpg`** — the devotion *carried into space as living devotion by the Currach Fleet.* Filed under this name rather than `saint-aoife.jpg` — see the collision note above.
   > A small plain shrine niche set into the bulkhead of an old colony vessel's corridor: a shallow recess holding a few sprigs of blackthorn in water and a worn stone the size of a fist, the metal around it polished bright by generations of hands passing. Nothing ornate, no image, no figure, no candle. Ordinary corridor light. Devotion as an unbroken habit rather than an occasion. Dull alloy, wet green, one bright worn patch.
@@ -2329,7 +2362,8 @@ nested-sphere diagrams.
 
 - **`plainmark.jpg`** — *stacked colour bands carrying chevrons, rings, tally strokes and lozenges.*
   > A close view of a heavy hatch frame in a working orbital habitat, carrying a vertical stack of flat painted colour bands with simple geometric marks on them — chevrons, plain rings, short tally strokes, lozenges — crisply painted, hard-wearing, and containing no letters or numerals of any kind. The corridor beyond is out of focus. Utilitarian and oddly handsome. Saturated flat colour against grey alloy.
-  - **This one has to be checked at 4× without fail.** A prompt describing a marking standard is the most direct invitation to gibberish lettering in the whole set.
+  - **The one prompt in the set whose subject cannot be moved.** Everywhere else the 19 August fix was to change the scene (see *the lettering ban cannot beat the scene* under Prompt craft); here the marks **are** the entry, so the scene stays and the handling has to differ. Two things do the work: the prompt describes the marks purely as **painted geometric shapes** and never as a marking system, a code or a standard — naming the function is what summons letters — and **nothing else in frame is markable**, the corridor beyond being thrown out of focus.
+  - **Check at 4× without fail**, and if glyphs appear anyway the next move is to crop tighter onto a single band rather than to add negatives. A band of flat colour with one chevron on it has nowhere to put a word.
 
 - **`timekeeping-and-the-common-record.jpg`** — *time distributed by courier in a civilisation without faster-than-light communication.*
   > A small hardened transit case standing alone on a plain bench in a ship's compartment, closed and clamped down and secured with a strap, plainly precious and plainly unremarkable to look at. Cool even light, nothing else in frame. What is inside is a clock, and the picture does not show it. Matte case, dull alloy, grey bench.
@@ -2337,14 +2371,14 @@ nested-sphere diagrams.
 #### History (3)
 
 - **`formation-of-star-rangers.jpg`** — *the moment the Military Space Command's institutional failure became irreversible.*
-  > A long negotiating table in a plain hall, seen from one end, strewn with the aftermath of many days: pushed-back chairs at irregular angles, cups, one chair overturned and not righted, blank papers pushed into loose heaps. The room empty and the work finished. Grey late light through tall windows. Exhausted and consequential. Cool grey, pale wood, cold daylight.
+  > A long negotiating table in a plain hall, seen from one end, strewn with the aftermath of many days: pushed-back chairs at irregular angles, cups and glasses left where they stood, one chair overturned and not righted. Nothing on the table but the cups — no paper, no folder, no document anywhere in frame. The room empty and the work finished. Grey late light through tall windows. Exhausted and consequential. Cool grey, pale wood, cold daylight.
 
 - **`the-generation-ark-era.jpg`** — *the odds of arriving were the odds of an early Norse or Irish open-boat ocean crossing.*
   > An enormous, plain, slow sublight vessel crossing deep space, seen small in a very wide frame, its long hull built for endurance rather than speed and showing the accumulated repairs of a long passage. No destination visible, no star close. Vast emptiness around it and the ship entirely alone. Cold white points, dull hull, black.
 
 - **`what-nobody-certifies.jpg`** — hulls, routes, people and minds are certified, and *nothing at all certifies a permission to be somewhere.*
-  > A plain office wall carrying four framed certificates hung in a neat row, each one blank of any writing, and beside them a fifth empty frame, hung level with the others and holding nothing at all. Flat even daylight. Bureaucratic, deliberate, quietly pointed. Pale wall, dark frames, one empty.
-  - **Blank certificates** for the standing reason, and it costs nothing: four documents and an empty frame reads from the shapes alone.
+  > A plain office wall carrying five identical shallow mounting niches in a level row. Four hold a small stamped metal seal hanging on a short cord — plain discs bearing only a struck geometric device, no writing of any kind. The fifth niche is empty and holds nothing at all. Flat even daylight, nothing else in frame. Bureaucratic, deliberate, quietly pointed. Pale wall, dull metal, one empty recess.
+  - **Seals rather than certificates — rewritten 19 August.** The first version asked for *four framed certificates, each one blank of any writing*, the exact self-defeating shape #415 disproved: a certificate's purpose is to carry writing, so the model draws the writing. A struck metal seal keeps the whole idea — four things certified, a fifth with nothing — and removes the writing surface instead of arguing with it.
 
 #### Entities (1)
 
