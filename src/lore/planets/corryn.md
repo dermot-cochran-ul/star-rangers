@@ -37,7 +37,7 @@ Corryn Prime carries diverse biomes dominated by spiral-form flora growing in ma
 
 **The settlement is a remnant of the Old Imperium**, and everything difficult about Corryn follows from that.
 
-It was chartered during the [Imperium](/star-rangers/lore/the-imperium/) period, when a prospecting venture reading the ring signatures as a resource indication could be licensed by an authority that answered to nobody and required no survey of what it was licensing. The backer was one of the legacy industrial holdings standing behind the Imperium's fleet — the shipyards, the fold-drive patents, the orbital manufacturing that any command structure still depended on to fly — and its successor, **the Halvern Combine**, is still there.
+It was chartered during the [Imperium](/star-rangers/lore/the-imperium/) period, when a prospecting venture reading the ring signatures as a resource indication could be licensed by an authority that answered to nobody and required no survey of what it was licensing. The backer was one of the legacy industrial holdings standing behind the Imperium's fleet — the shipyards, the fold-drive patents, the orbital manufacturing that any command structure still depended on to fly — and its successor, **[the Halvern Combine](/star-rangers/lore/halvern-combine/)**, is still there.
 
 **The Imperium fell in 2609. The colony did not.** Distance did what distance does: seven hundred light years out, the collapse of the chartering government was news rather than an event, and nothing arrived to replace it. No successor assumed the file. The Consolidation Accords, the Concord's writ, the Star Rangers charter and the Protocols themselves all postdate the charter Corryn operates under by more than a century, and none of them was drafted with an eye to a settlement whose licensing authority had been dead since before the Rangers existed.
 
@@ -68,3 +68,4 @@ That the impressions cluster in a system with a narrowing in it is expected. Tha
 - [Frontier Transformation Protocols](/star-rangers/lore/frontier-transformation-protocols/) — the sapience clause
 - [Physics Comparison](/star-rangers/lore/physics-comparison/) — consciousness, and what remains open
 - [The Imperium](/star-rangers/lore/the-imperium/) — the authority that issued the charter, and stopped existing in 2609
+- [The Halvern Combine](/star-rangers/lore/halvern-combine/) — the concern that holds the charter, and why it outlived the Imperium
