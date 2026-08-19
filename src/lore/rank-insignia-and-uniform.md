@@ -40,6 +40,50 @@ Dress uniform exists for ceremonial and hearing-room occasions and differs from 
 
 Every corps carries a device, and a branch inside a corps carries its own beneath it. The system is two levels deep and stops there, on the same instinct that keeps the rank ladder legible: a mark nobody can hold in their head is a mark nobody reads.
 
+### The Two Rules That Keep Them Apart From Rank
+
+**Rank is counted; a corps is singular.** Every rank mark is a count of solid elements — bars, rings, a cluster. **A corps badge is always exactly one outline, and never solid.** A reader who is counting is reading rank; a reader looking at a single unfilled figure is reading a corps. The two cannot be confused at any distance at which either can be seen at all, which is the only test that matters through a visor.
+
+That also decides the vocabulary. Rank owns bars, stripes, chevrons, stars, rings, discs and bands, so **the badges own polygons and the figures made from them**, and no corps device uses a shape from the rank list.
+
+**A branch sits inside its corps.** The branch device is drawn within the corps outline rather than beside it, so containment carries the hierarchy and a branch cannot be misattributed. A Ranger reading an unfamiliar mark still knows which corps sent it.
+
+Two consequences follow and are worth stating because they look like omissions:
+
+- **Colour distinguishes no corps.** All badges are struck in one finish, matte where a rank tab is plain-finished. Colour is already spoken for — the rank tab keys it to service track — and a set that survives monochrome survives emergency lighting, smoke, and eyes that sort colour differently.
+- **Position is not fixed by the standard.** It cannot be. This is a service with Krenyi, Pelagene, Veyr and Serephine officers and analytical chassis in it, and a rule naming a shoulder assumes a shoulder. The badge is seated per body plan by the wearer's own quartermaster record, exactly as every other tab is, and the only fixed requirement is that it never sits where that wearer's rank tab sits.
+
+### The Eight
+
+Each figure is derived from what the corps does rather than chosen for looks, and the derivations are recorded because an unrecorded one drifts into decoration within a generation.
+
+- **Survey** — a **triangle, point up, open along the base.** Three strokes for the corps that goes, looks and records, and the base left open because a survey is never finished. The simplest figure in the set, which suits the largest and oldest corps.
+- **[Safety](/star-rangers/lore/star-rangers-safety-corps/)** — a **closed square.** A standard is four-square and the same on every side, and the figure closes because certification completes: a thing is certified or it is not.
+- **[Navigation](/star-rangers/lore/star-rangers-navigation-corps/)** — **the same square with one side missing.** The pair is the point. Navigation certifies exactly as Safety does, and **its certificate expires where the hull's does not**, because a corridor drifts away from the survey that cleared it. Two badges, one gap, and the distinction those two entries spend paragraphs on is legible across a dock.
+- **[Frontier](/star-rangers/lore/star-rangers-frontier-corps/)** — a **triangle inverted, point down.** The only device in the set that points at its own ending, for the only corps whose mandate is built to terminate. Rangers of other corps have been known to find it morbid. The Frontier Corps does not.
+- **Science** — a **hexagon.** More faces than Safety's square, for the body that interprets rather than certifies: a finding has more sides than a standard. It is also the figure that tiles without leaving gaps, which is a fair description of a corps that works between all the others.
+- **Engineering** — **a square standing on one corner.** Deliberately Safety's four sides turned: the guild builds what the Safety Corps certifies, and a structure standing on a point is a structure whose load has to go somewhere.
+- **Medical** — a **lens**, two curves meeting at two points. The only curved device and the only one made of two forms overlapping, which is what care is. Being the sole curve in a set of angles makes it findable by touch, which was argued for on its merits and adopted without much resistance.
+- **[Liaison](/star-rangers/lore/planetary-liaisons-and-recruiters/)** — **two triangles meeting at a single point.** Two parties and one point of contact. The corps that exists to resolve the charter's no-jurisdiction clause is the joint between two bodies, and its badge is drawn as one.
+
+### Branches, and the One That Proves the System
+
+Branch devices sit inside the corps outline. The [Safety Corps](/star-rangers/lore/star-rangers-safety-corps/) is the worked example, being **organised by hazard rather than by function** and carrying the three largest branches in the service:
+
+- **Boundary Safety** — a single stroke inside the square, set off-centre: a narrowing, which is what a boundary zone is.
+- **Fold Transit Safety** — **two small marks, one at each of two opposite corners, and nothing between them.** The branch began from a sentence rather than a programme, and the sentence is this: *nothing has ever been lost inside a fold, only at the two ends of one.* The badge is that finding and contains no other information at all.
+- **AI Safety** — a **small closed square within the square**: a kernel, held shut. The device is exact about a thing the record is careful about elsewhere — nothing in the Cascade holds a kernel shut, and this one is held shut by the body wearing the badge.
+
+**Fold Transit's is the device the Corps teaches from**, and not because it is the prettiest. It carries a finding rather than a symbol: someone who has never heard of the branch can be told what the two marks mean in one sentence and will not afterwards forget either the badge or the fact. A device that has to be explained twice has failed, and most heraldry fails that way.
+
+### What the Badges May Not Do
+
+**A badge says whose problem this is. It never says what an officer may do** — that is the rank tab's work, and an officer reduced to explaining the difference at a doorway has been let down by the shell rather than by the reader.
+
+**And no badge is ever worn to claim a hazard.** A Boundary Safety device on a shell does not mean the wearer is certified for boundary-proximate work; the certification plate says that, separately, and the two are checked separately for the reason the whole standard exists — **corps, rank and qualification fail independently**, and a uniform that let one stand in for another would conceal exactly the case where it mattered.
+
+
+
 **The badges obey every constraint the rest of the uniform does**, which is what makes them permissible rather than an exception carved out of the standard:
 
 - **Shapes, not words.** A service carrying Krenyi, Pelagene, Veyr and Serephine officers alongside humans cannot put its corps into any one people's alphabet any more than it can put its chain of command there. A geometry has no first language.
