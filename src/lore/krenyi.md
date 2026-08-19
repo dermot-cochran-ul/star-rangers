@@ -2,7 +2,7 @@
 layout: lore-entry.njk
 title: "Krenyi (Quiet-Built)"
 category: "Species"
-tags: [krenyi, species, boundary, clarity, polyamorous, long-lived, levril, champions]
+tags: [krenyi, species, boundary, clarity, polyamorous, long-lived, levril, champions, senses, boundary-analyst]
 description: "The Krenyi, also called the Quiet-Built or Nai: long-lived beings defined by clarity, coherence, and resistance to mythification — which is also why they hold Levrils in the least awe and answer them the fastest."
 image: "krenyi.jpg"
 image_alt: "Designed cover for Krenyi (Quiet-Built): an elegant pale humanoid silhouette on a dark starfield background, not a grey alien."
@@ -61,6 +61,14 @@ The page opens on posture steady, gaze direct, no wasted gesture, and it is wort
 **And it accounts for something already on the record that nothing else explained.** When a [Levril](/star-rangers/lore/levrils/) is encountered the perceiver supplies the form, and what gets reported is a version of the perceiver's own kind, or something abstract — *"A human meets a figure; a Cerebraun meets a Cerebraun; **a Krenyi generally meets a field, a pressure, a turn of light.**"* Every other people gives it a shape. The Quiet-Built give it a **weight**, because they are not meeting it with a face. They are meeting it with everything, and what everything reports is pressure.
 
 **The limit is exact, and the record drew it elsewhere first.** What a body of this kind reads is **texture, never content** — the same boundary set on [Etheric perception](/star-rangers/lore/what-the-record-refuses/), where minds do leak under emotional intensity and what leaks is *"readable the way a room's temperature is readable and no further."* A Krenyi registers that a room has changed. Nothing tells them what anyone in it is thinking, and no degree of sensitivity ever will. Psionics are refused here as everywhere.
+
+**What the body samples is not confined to the ordinary senses.** It includes **electromagnetic fields**, and — at the far edge of what the record is willing to say plainly — **harmonic conditions**: the coherence state that governs [teleportation and Quantum Space Harmonic Wave transit alike](/star-rangers/seasons/s01/e02/s01e02c05/), and that shifts near a [boundary zone](/star-rangers/lore/boundary-zones/) before anything else does. A Krenyi in a thinning place knows the place is thinning. It is also, incidentally, a third reason they meet a Levril as a pressure rather than a figure.
+
+**And here is the limit that makes all of it safe to have: the sense produces no number.** No frequency, no magnitude, no bearing, no name. A Krenyi knows a place has changed and cannot tell you by how much, in what, or since when. It is a direction to look, and never a reading.
+
+**Which is exactly why it does not replace an instrument, and the Corps has never once treated it as one.** A boundary finding is a measurement with error bars, filed and defensible and admissible in an inquiry. A sensation is none of those, and a Krenyi is the last person in the room who would offer one as though it were — honest by disposition, and unwilling to assert what they cannot support. A Quiet-Built analyst who has felt a station go wrong since the hour they arrived will still wait for the instrumentation to say so, and will say, when asked afterwards, that they had nothing to file.
+
+**The precedent belongs to another people entirely, which is worth noticing.** [The Overfold](/star-rangers/glossary/overfold/) records that *"a trained observer can feel a wrongness in the air long before an instrument confirms it"*, and that an abbey keeper *"never needed a chronometer to know a place was thinning."* Contemplatives reach it through decades of patient attention; the Quiet-Built reach it by having the body. **Neither route produces a certificate**, and the [certified boundary analyst](/star-rangers/lore/star-rangers-academy/) designation is issued on examinable grounds that credit no one's physiology. A Krenyi sits the same examination as anybody else. What the body buys is comfort in a place that unsettles other people — not qualification, and not a shortcut through the work.
 
 *(The Quiet-Built body is separately described as identifying anything that did not originate in a Krenyi and taking it apart. The resemblance is worth noting — two systems in which the whole body does the discriminating — and the record does not claim they are the same system, because nobody has shown that they are.)*
 
