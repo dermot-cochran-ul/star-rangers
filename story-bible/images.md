@@ -450,7 +450,28 @@ being listed anywhere.
 
 ## Open work
 
-### 0. Replaced with placeholder cards — 28 images, added 2026-08-12
+### 0. Replaced with placeholder cards — **22 of the 28 still carded** (re-audited 19 August 2026)
+
+**Six of the twenty-eight have since been replaced with real images and were
+never marked:** `petra-voss`, `brother-daire`, `ilsabet-marrowtide`,
+`rasa-oyelaran`, `eden-warden` and `reeves`. The remaining **22 are still
+PORTRAIT PENDING / ILLUSTRATION PENDING cards** and are still the head of the
+queue.
+
+**Method, so a later audit knows what to trust.** A card and a real image are
+separable by shape: the cards are all **1600×900 at 52–77 KB**, the delivered
+portraits **1200×670 at 96–217 KB**. Two files were then **opened** to check the
+inference at both ends — `cormac-dubhghlas` is still a card reading *PORTRAIT
+PENDING*, `rasa-oyelaran` is a finished portrait of a superintendent in a bureau
+doorway. The measurement located them; opening them confirmed it, per this
+file's own standing rule against reasoning from filenames.
+
+*(One thing noticed and not a count problem: `reeves.jpg` came back as an
+abstract node-network emblem rather than a portrait, which sits oddly beside the
+12 August rule that **AIs get portraits like everyone else**. The Eden Warden's
+13 August re-brief went deliberately back to a non-body frame, so this may be the
+same decision taken twice — but it is not recorded as one, and it is worth
+Dermot confirming rather than a later audit re-flagging it.)*
 
 **This is the head of the queue.** Every image below was removed and replaced
 with a designed PORTRAIT PENDING / ILLUSTRATION PENDING card, so no page is
@@ -1196,6 +1217,7 @@ exception — see its entry.
   well*, and every later reader has taken that refusal at face value.
   > Cinematic wide portrait of a woman in her thirties standing at a spring well in a thorn thicket in thirteenth-century Ireland, upper body, plain undyed woollen dress and shawl, work-worn hands, looking down at the water rather than up or out. Composed and unresolved — no rapture, no distress, no certainty of any kind. Grey overcast daylight, wet blackthorn, low stone kerb around the water, wet grass. Cold, plain, historical, entirely earthbound. Grey, wet green and undyed wool. 16:9 landscape.
   - **Extra negative:** halo, aureole, rays of light, glow, doves, upturned face, hands folded in prayer, beatific expression, ecstasy, stained glass, religious iconography, robes, veil of office, angels, apparition.
+  - **Keep the face concealed** — turned, shadowed, or away. Adopted 19 August from the older brief in Open work 6, which had it and this entry did not: *the record genuinely does not know it, and the page's whole argument is that she never claimed to know what she had seen.* Canon reasoning rather than styling, so add to the prompt: **her face turned down and away and left in shadow, features not legible.**
   - **The whole page is her refusal to claim.** Any device that tells the viewer
     what she saw contradicts it, and a glow would be the story arriving at a
     verdict the record spent seven centuries declining to give. Same discipline
@@ -1668,6 +1690,20 @@ blue flower), late afternoon sunlight, shallow depth of field, natural colour.
 Portrait 3:4, 1200px.
 
 ### 3. Deferred by choice
+
+> **Stale as a description — corrected 19 August 2026, not rewritten.** The
+> *contemporary-stock-headshot cluster (11 files)* below no longer exists in the
+> form described: **all eleven of those names were replaced with PENDING cards on
+> 12 August** (they are Tier 1 of Open work 0), and `petra-voss` has since
+> received a real portrait. Nothing in that bullet is true of the current files.
+>
+> **The section's own closing note predicted exactly this** — *"a file that still
+> exists but is no longer what the note says it is, the validator cannot see, and
+> never will"* — and it was right within four days of being written. The
+> `validate-images: on` block passes because the eleven files exist; it has no
+> way to know they are cards now. Left in place rather than rewritten because the
+> bullet is a record of why those images were deferred, and rewriting it would
+> lose that; **read it as history, not as inventory.**
 
 <!-- validate-images: on -->
 <!-- Every image named below is asserted to EXIST, so `npm test` checks it.
@@ -2278,6 +2314,7 @@ nested-sphere diagrams.
 - **`predatory-entities.jpg`** — *classified by sapience and feeding method*, and governed by the tone line.
   > An empty woodland clearing at dusk, ordinary and pleasant, with a ring of soft trampled grass at its centre where something has habitually lain, and a few small personal objects — a shoe, a folded cloth — at the edge of the ring, undisturbed and weathered. Nothing present. Warm failing light, long shadows, complete quiet. Green-gold, deep shade.
   - **Extra negative:** creature, monster, teeth, claws, blood, gore, corpse, horror, body, violence, glowing eyes, shadow figure.
+  - **Superseded — use Open work 6's brief instead, 19 August.** That section already carried a prompt for this file and it is the better one: *a vacated habitat compartment, one chair turned away from the open door, a personal effect left exactly where someone set it down.* Same discipline, held indoors and in-setting, where the clearing above is neither. The frame above is kept only as a second option if the interior refuses to read.
   - **Hint at the dark fact rather than depicting it**, exactly as the tone line requires. Nothing in frame is frightening; what is frightening is what the frame implies, and that is the setting's whole register.
 
 #### Timeline Notes (1)
@@ -2303,6 +2340,14 @@ Open work 1 and 5 are the images that are **missing**. This is the other half:
 images that **exist and shouldn't**. Prompted by Dermot noticing that Saint
 Aoife "looks a bit too much like a dark shadow", which turned out to be the
 visible corner of something larger.
+
+> **The figures below are stale, and stale in the good direction — re-measured
+> 19 August 2026.** The distribution now reads **7 pages under 80 characters,
+> 16 between 80 and 119, and 112 at 120 or more**, across **135** illustrated
+> lore and character pages. The 68-page short-caption cohort this audit found is
+> down to seven. The alt-text work was done and this section was never updated to
+> say so, which made an almost-finished job read as an open one. The reasoning
+> below stands as the record of why it was done; the counts do not.
 
 **The corpus carries two visual languages.** Alt-text length is a reliable
 tell for which images were ever actually looked at, and it comes out bimodal:
@@ -2411,6 +2456,42 @@ parliament chamber"*). One of the three describes a picture it isn't, which
 is a plain breach of the one hard rule in this file.
 
 #### The ten worth doing first
+
+> **Two corrections, 19 August 2026.**
+>
+> **First: every one of the ten target files has since been deleted.** Nothing
+> here is *currently* a hooded figure, a stock headshot or a voting console —
+> those pages now carry no image at all. The diagnoses below are the record of
+> why each was removed and remain worth reading; the present tense in them is
+> not.
+>
+> **Second, and my own error: eight of these were prompted a second time on
+> 19 August**, in *Outstanding portraits* and *Outstanding lore illustrations*,
+> because both lists were derived from pages lacking an `image:` field and this
+> section was never checked against them. `images.md` therefore carried two
+> competing briefs for the same file in eight cases. Reconciled as follows.
+>
+> **The newer brief governs**, for `verdance`, `dagny-voss`,
+> `monasteries-of-mars`, `planetary-liaisons-and-recruiters`, `elvira` and the
+> lore Aoife — it was written against each page's current text, carries the
+> set's shared negative blocks, and in the Aoife case fixes a naming collision
+> this section did not notice.
+>
+> **This section's brief governs for `predatory-entities`**, and the newer one
+> should be dropped. *A vacated habitat compartment, one chair turned away from
+> the open door, a personal effect left exactly where someone set it down* is
+> in-setting where the newer frame is a woodland clearing, and it holds the same
+> tone line better by holding it indoors.
+>
+> **And this section carries one constraint the newer Aoife portrait brief
+> missed and must adopt: keep the concealed face.** The record does not know it,
+> and the page's whole argument is that she never claimed to know what she had
+> seen — so the face stays turned, shadowed, or away. That is canon reasoning,
+> not a styling preference, and it outranks anything in the newer entry.
+>
+> **Two entries here said *prompt not written* and now have one**: the Frontier
+> Transformation Protocols page and the Common Manifold page are both covered in
+> *Outstanding lore illustrations*.
 
 Not the merely generic — the ones where the current image **actively
 misinforms**. Prompts written to the standing rules and ready to paste.
