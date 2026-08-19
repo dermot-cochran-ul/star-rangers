@@ -18,6 +18,7 @@ The Krenyi — also called the Quiet-Built, or known individually by the state-m
 - Physically attractive by most humanoid standards.
 - High female birthrate.
 - Cannot interbreed with humans or any other species.
+- Finely tuned sensitivity, reflexes and awareness — low-light acuity, motion caught at the edge of vision, balance and righting, and a reaction that closes before a human has finished registering that something happened. **There is no sensory organ to point at: the whole body is the instrument.** See the two sections below.
 - Unenslavable: no physical, social, or metaphysical mechanism for enslaving them exists within the story's cosmology.
 
 ## Emotional Range
@@ -38,6 +39,32 @@ This is not suppression. It is structural.
 **The cost is real and lands where a reader might not look for it.** Human emotional grammar is learned rather than had, so what a Krenyi carries is a very good working model built over a long life. A model is exactly the thing a novel case defeats, which is why the record notes them as briefly vulnerable to human social deceptions they have not met before — not naive, and not slow, but working from a map where a human is working from the ground.
 
 **What all of this forecloses is the reading that keeps being reached for anyway:** that a people without fury are a cold people, that clarity is coldness, or that the Quiet-Built regard human feeling as a defect they have been spared. None of it is in the record. Clarity is not logic — logic is a method and clarity is an absence of ornament — and a Krenyi has never once been recorded finding a human ridiculous for being afraid.
+
+## What the Body Notices
+
+The page opens on posture steady, gaze direct, no wasted gesture, and it is worth saying that this is not a manner. **It is what an instrument that reads a room precisely looks like when it does not need to move much.**
+
+**Krenyi sensitivity, reflexes and awareness are finely tuned to a degree humans consistently underestimate on first acquaintance and then over-describe afterwards.** Low light costs them little. Motion at the edge of vision is caught rather than half-caught. Balance and righting are exact enough that a Krenyi crossing an unstable deck looks like someone who has already been told where it will move. And the reaction closes early — not the reaction of someone who has decided quickly, but of someone for whom the deciding was never the slow part.
+
+**The comparison humans reach for is a cat, and it is a fair one in what it names.** The record has a standing note about such comparisons and it applies here: [likening a people to an Earth animal is a fact about the observers](/star-rangers/lore/what-the-record-refuses/) — it records what the encounter resembled, and says nothing whatever about descent. A Krenyi hearing it does what they do with any category applied to them: names the distortion, returns the exchange to material terms, and is generally not unkind about it.
+
+**But the comparison fails in the one place that matters, and the failure is the interesting part.** A cat is fast because a cat is alarmed; the startle *is* the mechanism, and the speed is what alarm buys. The Quiet-Built have the reaction and not the startle, because [deep fear is not available to them](#emotional-range). They orient without flinching. Nothing in them jumps first and resolves afterwards.
+
+**This is what actually underlies their reputation on a bad deck.** Effectiveness where panic cascades are a concern is usually read as composure — a person mastering fear better than the rest of the room. It is not composure. There is nothing being mastered, and a very quick, very accurate instrument is doing ordinary work at a moment when everyone else's has gone loud. The distinction matters because composure runs out and this does not.
+
+## The Whole Body Is the Instrument
+
+**There is no organ to point at.** No enlarged eye, no whisker, no specialised membrane — nothing a survey could photograph and label as the sensory apparatus. **The whole body is a kind of sensor**: skin, frame, the set of a shoulder, the air moving across a forearm, sampling continuously and everywhere, with no dedicated instrument to fail and none to defend.
+
+**Which explains the first thing anyone notices about them, and explains it better than manner does.** *No wasted gesture* is not discipline and not poise. **Movement is noise in your own readings.** A body that is the instrument degrades what it is reading every time it shifts for no reason, so a Krenyi at rest is a Krenyi at full sensitivity, and the stillness people read as composure is closer to a technician not breathing on a scale.
+
+**And it accounts for something already on the record that nothing else explained.** When a [Levril](/star-rangers/lore/levrils/) is encountered the perceiver supplies the form, and what gets reported is a version of the perceiver's own kind, or something abstract — *"A human meets a figure; a Cerebraun meets a Cerebraun; **a Krenyi generally meets a field, a pressure, a turn of light.**"* Every other people gives it a shape. The Quiet-Built give it a **weight**, because they are not meeting it with a face. They are meeting it with everything, and what everything reports is pressure.
+
+**The limit is exact, and the record drew it elsewhere first.** What a body of this kind reads is **texture, never content** — the same boundary set on [Etheric perception](/star-rangers/lore/what-the-record-refuses/), where minds do leak under emotional intensity and what leaks is *"readable the way a room's temperature is readable and no further."* A Krenyi registers that a room has changed. Nothing tells them what anyone in it is thinking, and no degree of sensitivity ever will. Psionics are refused here as everywhere.
+
+*(The Quiet-Built body is separately described as identifying anything that did not originate in a Krenyi and taking it apart. The resemblance is worth noting — two systems in which the whole body does the discriminating — and the record does not claim they are the same system, because nobody has shown that they are.)*
+
+**The cost is that they cannot un-notice, and now it is literal.** There is no looking away with a body, and closing your eyes accomplishes nothing when the reading is being taken by your arms. Pattern drift is not something a Krenyi elects to watch for; it registers, welcome or not. A room conducting a small social fiction — the polite agreement to pretend something was not said, the enthusiasm nobody feels — is legible to them from the inside of it, and their own honesty leaves them no graceful way to participate. Most human rooms are conducting two or three such fictions at any moment. The Quiet-Built are not being difficult when they decline to join one. They are simply the only person present who cannot pretend not to have seen it.
 
 ## Social and Relational
 
@@ -83,7 +110,7 @@ The mechanism is the one that resists glamour generally. A threne's offer is [co
 
 **What a Levril meets in a Krenyi is the one audience that will not decorate it.** A meta-dimensional being arriving in Material space is, for most witnesses, immediately an event about themselves — wonder, dread, the sense of being small, some negotiation with one's own significance, and a great deal of it before anyone has established what is actually wanted. A Krenyi does none of that. They resist becoming symbol or omen and they resist reading anyone else as one, and a dragon is simply the largest available case. What is left, once the glamour finds no purchase, is the material part: what is the constraint, what is the request, and does it still do work.
 
-**And that is precisely the perceptual condition subtle influence requires.** Levrilic action is a sculpted gradient rather than an altered outcome — it is subtle by construction, and it has to be *noticed* before it can be answered. A witness occupied with being amazed is a witness not reading the gradient. The Quiet-Built read pattern drift for a living: they register when a situation stops matching its stated terms, quietly and without announcement, which is the same instrument tilted at a different object. **The clarity that refuses the glamour is the clarity that catches the gradient.** They are not more obedient than other peoples. They are earlier, because nothing happens in them first.
+**And that is precisely the perceptual condition subtle influence requires.** Levrilic action is a sculpted gradient rather than an altered outcome — it is subtle by construction, and it has to be *noticed* before it can be answered. A witness occupied with being amazed is a witness not reading the gradient. The Quiet-Built read pattern drift for a living: they register when a situation stops matching its stated terms, quietly and without announcement, which is the same instrument tilted at a different object. **The clarity that refuses the glamour is the clarity that catches the gradient**, and it is running on the apparatus described under [What the Body Notices](#what-the-body-notices) — an instrument already tuned fine enough to catch a change nobody announced. They are not more obedient than other peoples. They are earlier, because nothing happens in them first.
 
 **Cooperative should not be read as deferential, and the floor is worth stating.** A Krenyi extends good faith first, to a Levril as to anyone, and does what a legible request warrants because it is worth doing. Nothing compels them — they are unenslavable in the strict sense the cosmology gives that word, and Cascade standing is not a lever. A Levril whose dealings began to drift from their stated terms would meet exactly what a person does: the drift registers, relevance is withdrawn quietly, and there is no argument about it. Their cooperation is not owed and is not obtained. It is extended, and it can be spent.
 
