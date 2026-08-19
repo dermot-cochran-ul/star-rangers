@@ -671,10 +671,32 @@ belonged. Two different tests, and only one of them was ever run on it.
 Dermot's own photography. An Irish upland standing in for Ynys Wydrin claims
 nothing false and needs no prompt at all.
 
-### 1. Missing portraits (28 pages)
+### 1. Missing portraits — **the original list is fully delivered** (audited 19 August 2026)
+
+**Every one of the thirty-four prompts below has been generated and shipped.**
+Checked by pulling each `` `slug.jpg` `` out of this section and testing it against
+`src/images/characters/`; nothing is outstanding. The heading said *28 pages* and
+the section listed 34, and none of it had been marked done — so the count was
+wrong, the label was wrong, and a reader would have taken finished work for a
+queue.
+
+**The prompts stay exactly where they are.** They are the prompt of record for
+the images they produced, and deleting them to tidy a status line would destroy
+the provenance the file exists to hold. Read what follows as an archive, not a
+work list.
+
+**What is actually outstanding is a different set of pages** — 25 of them, none
+overlapping with this list. See *Outstanding portraits* at the end of this
+section.
+
+**One stale instruction to ignore in these archived prompts.** Most of them end
+*"Portrait orientation."* That predates the settled convention: character
+portraits are **1200×675, 16:9 landscape** (see Conventions, and the recorded
+Calloway entry in `image-prompts.md`), and the delivered files bear it out —
+42 of 52 are landscape. Don't copy that tail into a new prompt.
 
 None block a build — `character.njk` renders cleanly without an image. Prompts
-below are ready to paste; add `image`/`image_alt` after generating.
+below were ready to paste; `image`/`image_alt` were added after generating.
 
 **Humans**
 
@@ -1001,6 +1023,72 @@ own `role` and `description`; no fact here is invented.
   Long Accounting, and the Kingdom of the Four Islands' de facto first point of
   contact for the Survey Corps delegation.
   > Cinematic portrait of an abbess in her sixties in a coastal stone abbey, upper body, heavy plain working habit of a contemplative order, belted, with a clear shoulder line and no draping or billowing fabric, upright bearing and entirely still, cold sea light flooding in through an open doorway behind her with the sea beyond it bright and out of focus, the stone interior dark and close around her, pre-industrial island setting, grey stone and dark wool against a luminous doorway, an administrator who happens to be in orders, no serenity of expression, no benevolence, no wisdom pose, no hands folded in blessing, professional, no readable text, signage, lettering or written characters anywhere in frame. Portrait orientation.
+
+#### Outstanding portraits — audited 19 August 2026 (25 pages)
+
+The pages that carry no `image:` today. This is a **list, not a prompt set** —
+only Anne's prompt is written, because that is what was asked for. The other 24
+are named so the next session starts from a true count rather than re-deriving
+one.
+
+```
+alala · andrew-falkorian · anne-de-courtney · anne-wender · dagny-voss
+elvira · emma-la-chapelle · ernesto-strozzi · galen-kane · kate-ukrainka
+knopka · lucene-9000 · luke-valerius · lumbarian · muffin · saint-aoife
+sildron-drey · sofia-santos · sorcha-nic-dhiarmada · sorcha-shepherd
+sylvie-harrow · thalassa-vexar · thrum · xenon · zoe-smith
+```
+
+Re-derive it rather than trusting it, the same way this audit did:
+
+```bash
+for f in src/characters/*.md; do [ "$(basename "$f")" = index.md ] && continue
+  grep -q '^image:' "$f" || basename "$f"; done
+```
+
+**Three of these are the rescue machines** — Lucene-9000, Xenon and Lumbarian —
+and they fall under the *AIs get portraits like everyone else* rule above, with
+the artificiality made visible at the prompt. Worth doing as a set rather than
+singly, since they share a frame of reference and a generator has no memory
+between frames.
+
+- **`anne-wender.jpg`** — [Anne Wender](../src/characters/anne-wender.md), the
+  eldest survivor of the wreck of 2788 and later the first sheriff a frontier
+  world ever swore in. **Depicted as safety officer during the buildout, not as
+  sheriff**, for two reasons and the second is the binding one: her page puts her
+  in that post at Season 1's start with the election's course left unwritten, and
+  **there is no sheriff's insignia in canon** — `rank-insignia-and-uniform.md`
+  covers the Star Rangers only, so drawing a badge would invent an office's
+  regalia in a picture, which is the same cascade the Calloway entry refused for
+  a Compact uniform. The frame is the settlement working, and she is counting it.
+  > Cinematic wide portrait of a woman in her early fifties standing in the gravel yard of a young frontier settlement in the early morning, upper body and a little of the yard, turned three-quarters away from the camera and looking off across the site rather than at the viewer, plainly in the middle of taking a count of something out of frame. Dark hair going grey at the temples, tied back tight and out of the way; a weathered outdoor face, no cosmetics, no styling; calm, unhurried, entirely absorbed. Practical hard-wearing site clothing in undyed and muted colours — a canvas work coat over layers, cuffs turned back, gloves pushed into a pocket — worn plain and completely unmarked. Behind her the settlement is visibly working and well kept: timber-framed barns and low prefabricated buildings squared up along the yard, a concrete pad where a plain grey fusion unit stands behind a simple railing with its pipework running off to a nearby building, hand tools racked upright, crates stacked square and strapped, everything stowed and nothing broken. Wide pale sky, low early light raking across the yard from one side, long soft shadows, a thin ground mist not yet burnt off. Muted realistic palette of grey, canvas and pale gold. Quiet, spacious and still, with the settlement plainly thriving rather than struggling. Science-fiction frontier setting, photographic and grounded, documentary in feel but composed and unhurried. 16:9 landscape orientation.
+  - **Negative:** badge, star, shield, sheriff badge, police badge, rank insignia, epaulettes, name tape, patch, uniform, military uniform; firearm, gun, holster, weapon of any kind; readable text, lettering, numerals, signage, labels, stencilled markings or written characters of any script anywhere in frame; screens, monitors, glowing displays, holograms, projected light, consoles, dials, gauges; visible lamp, light fitting, bulb or lantern; rust, corrosion, grime, oil stains, damage, exposed wiring, litter, clutter, shanty, slum, refugee camp, derelict or abandoned look, poverty; flat studio backdrop, gradient background, glamour lighting, corporate headshot, posed to camera, smiling at camera; contemporary Earth setting, modern street, modern vehicles; horses or draft animals in frame; children.
+  - **Why "no poverty" is a canon negative rather than taste.** [The Fusion
+    Ceiling](../src/lore/the-fusion-ceiling.md) says it outright: an early
+    settlement's pre-industrial surface is *"persistently misread as poverty when
+    it is sequencing."* A generator asked for a frontier colony will reach for
+    hardship by default, and that default would make the picture assert the exact
+    misreading the entry corrects. The yard is orderly because the world is
+    working, not because anyone is prospering.
+  - **Why she is not looking at the camera.** Her character note is that she
+    counts — stock, shifts, who is where — and is not in the habit of saying the
+    total aloud. Attention directed off-frame renders that without a caption, and
+    it keeps the portrait inside the house target: *enigmatic and haunting, with
+    beauty, mystery, hope and serenity woven through.* Hope and serenity are
+    carried by the light and the working settlement; the withholding is carried
+    by where she is looking.
+  - **No family resemblance is specified, deliberately.** She is Karla Wender's
+    elder sister, but `karla-wender.jpg`'s alt text establishes no hair, eye or
+    feature detail to match, and a generator carries nothing between frames — so
+    a resemblance could only be invented here and would then bind Karla's
+    existing portrait retroactively. If a resemblance is wanted, it should be
+    specified from Karla's actual frame first, in both prompts, as literal
+    attributes.
+  - **Draft alt text, to be checked against the frame that comes back** and
+    rewritten if it does not match, per the standing rule that alt describes what
+    the file actually shows:
+    > A woman in her fifties in a canvas work coat stands in the gravel yard of a frontier settlement at dawn, turned away from the camera and looking across the site. Behind her, timber barns and low prefabricated buildings, and a plain grey fusion unit on a concrete pad behind a railing.
+  - **Not yet generated.** Tone, wardrobe and setting are proposals.
 
 ### 2. Lightroom / Photoshop — Dermot's hands only
 
