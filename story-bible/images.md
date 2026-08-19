@@ -2420,26 +2420,34 @@ neither. Recorded here rather than acted on, because the runbook's own rule
 settles it: **art is illustrative, the prose is canon — when the two disagree,
 the entry wins and the art stays.**
 
-- **`rasa-oyelaran.jpg`** — *a plain grey work jacket over a maroon shirt.*
-  **Compatible, or near enough to leave.** The bureau uniform is a plain
-  single-breasted working jacket in one colour with a small collar mark; a grey
-  work jacket is that garment, and a collar mark at portrait scale is exactly the
-  detail a frame need not resolve. No action.
+**Both are fine, and the second one stopped being a problem the same day.** An
+earlier version of this note called Albercombe's herringbone *not compatible*.
+Dermot's follow-up — **the obligation is on the lower ranks** — settled it:
+Albercombe is a Detective Inspector and Oyelaran a Superintendent, and neither is
+required to wear the jacket at all.
+
+- **`rasa-oyelaran.jpg`** — *a plain grey work jacket over a maroon shirt.* Fine
+  twice over: she is senior enough not to be required, and a plain grey work
+  jacket would pass as the uniform anyway.
 - **`wendell-albercombe.jpg`** — *a worn herringbone jacket over an open blue
-  shirt.* **Not compatible, and worth saying so rather than reading it
-  generously.** Herringbone is a civilian cloth and the frame reads as plain
-  clothes. It stays under the rule above, and if it is ever regenerated the
-  jacket should become the bureau's.
+  shirt.* Fine. A Detective Inspector in civilian cloth is the entry working, not
+  the entry contradicted.
 
-**No alt text changes.** Both lines describe what their files actually show,
-which is the one hard requirement, and rewriting them to describe a uniform that
-is not in the picture would break it.
+**No alt text changes**, and none were needed. Both lines describe what their
+files actually show, which is the one hard requirement.
 
-**Any future Eden bureau frame takes the uniform** — the jacket, and the collar
-mark by rank. Note the lettering trap while doing it: the marks are strokes and
-blocks and carry **no letters and no numerals**, and whether the jacket carries
-any identifying number at all is deliberately unsettled in the entry, so no
-prompt should invent one.
+**A future frame of a junior officer takes the uniform** — the jacket, and the
+collar mark by rank — where a senior one need not, an undercover one must not,
+and a Commissioner is never required to. Note the lettering trap while writing
+any of them: the marks are strokes and blocks carrying **no letters and no
+numerals**, and whether the jacket bears any identifying number is deliberately
+unsettled in the entry, so no prompt should invent one.
+
+**And the same caution now applies to Ranger frames.** Corps and branch badges
+are canon as of the same direction, which puts a new device on a uniform that
+previously had only tabs and plates — so a Ranger prompt may name a corps badge,
+but it is **shapes only**, never a word, a monogram or an emblem with writing in
+it.
 
 ### 6. Images that should not stay — audited 2026-08-10
 

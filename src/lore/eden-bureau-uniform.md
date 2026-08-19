@@ -3,19 +3,27 @@ layout: lore-entry.njk
 title: "The Eden Bureau Uniform"
 category: "Institutions"
 tags: [eden, orbital-habitats-compact, detective-bureau, uniform, insignia, plainmark, rank, institutions]
-description: "Eden's civil detectives are uniformed and wear their rank where it can be seen — the opposite instinct to the Star Rangers, for a reason that is about who the garment is read by."
-plain: "The detectives of Eden Space Habitat wear a uniform, and it carries marks showing their rank. This is the reverse of the Star Rangers, whose uniform is designed to give away as little as possible. The reason is who does the reading: a Ranger's uniform is read by other officers, while a detective's is read by residents — people being asked questions, who are entitled to know what the person asking is. The rank marks use the same simple painted shapes the habitat already uses on its doors, so anyone who can find their way to air can read a detective's collar."
+description: "Eden's civil detectives are uniformed and wear their rank where it can be seen — binding on the lower ranks, off duty for the undercover, and never required of a Commissioner. The opposite instinct to the Star Rangers, for a reason that is about who the garment is read by."
+plain: "The detectives of Eden Space Habitat wear a uniform, and it carries marks showing their rank. The junior ranks have to wear it; senior ones need not, officers working undercover do not, and Commissioners are not required to have one at all. This is the reverse of the Star Rangers, whose uniform is designed to give away as little as possible. The reason is who does the reading: a Ranger's uniform is read by other officers, while a detective's is read by residents — people being asked questions, who are entitled to know what the person asking is. The rank marks use the same simple painted shapes the habitat already uses on its doors, so anyone who can find their way to air can read a detective's collar."
 ---
 
 A [Star Ranger's uniform](/star-rangers/lore/rank-insignia-and-uniform/) is built to say as little as it can get away with. Eden's detectives wear the opposite instinct, and the difference is not a difference of taste.
 
-## The Bureau Is Uniformed
+## Who Has to Wear It
 
-Eden Space Habitat's civil detective bureau, under Detective Superintendent [Rasa Oyelaran](/star-rangers/characters/rasa-oyelaran/), wears a uniform, and that uniform carries rank marks in plain view.
+Eden Space Habitat's civil detective bureau, under Detective Superintendent [Rasa Oyelaran](/star-rangers/characters/rasa-oyelaran/), is a uniformed service, and the uniform carries rank marks in plain view.
 
 It is a working garment rather than a dress one: a plain single-breasted jacket over ordinary clothing, cut for a long shift and issued in one colour, with the rank mark seated at the collar. Nobody in the bureau parades in it and nothing about it is ceremonial. What it does is answer a question before it is asked.
 
 The ladder it marks is [the bureau's own](/star-rangers/characters/rasa-oyelaran/), and it is short: **Detective**, **Detective Senior Sergeant**, **Detective Inspector**, **Detective Superintendent**.
+
+**The obligation is on the lower ranks, and it thins going up.** A detective working a deck wears the jacket; a superintendent is not required to. The rule follows from the reason rather than from seniority for its own sake — the uniform exists to answer the question of a resident who has an officer at their door unannounced, and that is not the situation a superintendent is usually in. Where the obligation stops exactly is not fixed in the record, and the bureau has not been asked to fix it.
+
+**Two exceptions, and both are the rule working rather than bending.**
+
+**An officer working undercover does not wear it.** This needs no argument and is not treated as one: a uniform whose whole function is to be seen cannot be worn by someone whose work requires not being. The bureau does not regard the exception as a compromise of the principle, on the grounds that an undercover officer is not the officer at anybody's door.
+
+**Commissioner ranks are not required to wear a uniform at all.** [Space Commissioner](/star-rangers/characters/zara-wayland/) and Chief Commissioner sit above the bureau in the [Compact's](/star-rangers/lore/orbital-habitats-compact/) civil administration rather than inside it, and the office is administrative: a Commissioner does not knock on doors, and nothing a resident needs to read at a glance is held there. The same logic that puts a jacket on a detective takes it off a Commissioner, which is a good sign that the logic is doing the work rather than the hierarchy.
 
 ## Why Not the Ranger Answer
 
