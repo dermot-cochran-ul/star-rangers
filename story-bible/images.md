@@ -1052,6 +1052,220 @@ the artificiality made visible at the prompt. Worth doing as a set rather than
 singly, since they share a frame of reference and a generator has no memory
 between frames.
 
+##### The remaining twenty-one (19 August 2026)
+
+Written at Dermot's request, in one pass, which is the right way to do it: the
+roster reads as a roster only if the frames were chosen against each other. All
+are **16:9 landscape**, all are **present-day** unless the page says Historical,
+and all carry the standing negative below. **None is generated. All are
+proposals.**
+
+**Standing negative — paste into every one of these:**
+> readable text, lettering, numerals, signage, labels, branding or written characters of any script anywhere in frame; holograms, projected light, glowing displays, screens, monitors, consoles; visible lamp, light fitting or bulb; flat studio backdrop, gradient background, glamour lighting, corporate headshot, posed smiling to camera; weapons.
+
+**Ranger block — paste into the seven Star Rangers frames:**
+> Star Rangers service dress, plain and well kept, carrying small geometric rank marks only — a plain-finished tab at the collar, shapes and a single colour insert and nothing else. No name tape, no nameplate, no stitched badge, no printed words, no letters and no numerals anywhere on the clothing.
+
+**Five of these belong to *Undercover Pets* and are deliberately off the house
+style.** That thread is *cute, cool and clever*, and the runbook is explicit
+that weaving melancholy or mystery through it is a category error rather than a
+stylistic variation. Kate Ukrainka, Knopka, Muffin, Sylvie Harrow and Thrum are
+therefore lit warm and ordinary, not haunted. Muffin is the exception inside the
+exception — see its entry.
+
+---
+
+**The Star Rangers (7)**
+
+- **`andrew-falkorian.jpg`** — Chief Science Officer; an engineering doctorate,
+  standing at the seam where *the Corps decides what an instrument needs to
+  measure and engineering decides how it will survive measuring it*.
+  > [ranger block] Cinematic wide portrait of a man in his late forties in a post's science section aboard a space installation, upper body, standing at a bench beside a part-built instrument — a bare frame with its optics cradled and its housing not yet on — one hand resting on the frame, considering it rather than working on it. Absorbed, exacting, unhurried; the expression of someone deciding whether a thing is finished. Spare institutional interior, soft diffuse light from a concealed source, deep shadow beyond the bench, a wide dark viewport further back. Muted grey, brushed alloy, one warm neutral. 16:9 landscape.
+  - **Extra negative:** laboratory glassware, bubbling liquids, microscope, mad-scientist styling, wall of equipment.
+
+- **`anne-de-courtney.jpg`** — Chief Ranger of the one standing delegation on
+  Vellamar, whose method is *not asking the court for the second thing before the
+  first one is understood.*
+  > [ranger block] Cinematic wide portrait of a woman in her fifties standing just inside the open doorway of a small walled compound at the edge of a pre-industrial island capital, upper body, looking out at the city beyond without stepping toward it, hands at her sides, entirely composed. Beyond the doorway: tiled roofs, stone lanes, terraced ground rising behind, warm afternoon light on the town. Inside the doorway where she stands the light is cool and plain. Restraint and patience rather than longing. Muted stone, terracotta and grey. 16:9 landscape.
+  - **The frame is her method.** She is at the threshold of a place she has never
+    asked to be let further into. Nothing else on the page needed saying, and a
+    desk would have said nothing.
+  - **Not the posted clause.** Her page keeps the charter's withdrawal clause
+    pinned in the working room, which would have been the obvious frame and is
+    unusable — it is a sheet of text, and text is the standing failure mode.
+
+- **`emma-la-chapelle.jpg`** — the junior xenolinguist who filed the reading *at
+  the bottom of her confidence range*, and returns from the Abbeylands *with more
+  questions than sentences*.
+  > [ranger block] Cinematic wide portrait of a young woman seated at a plain wooden table in the cool stone hall of a working abbey on a pre-industrial world, upper body, a blank notebook open in front of her and a pencil held still above it, not writing — listening to someone out of frame with her head slightly tilted, entirely absorbed. Cold north daylight through a tall narrow opening, the hall dim beyond it, plain benches, no ornament. Practical field clothing over her service dress. Grey stone, pale daylight, one warm wood surface. 16:9 landscape.
+  - **The notebook is blank and the pencil is not moving.** She is at the moment
+    before a low-confidence note, which is what the whole page is about.
+
+- **`ernesto-strozzi.jpg`** — the branch's most-cited practitioner for a piece of
+  work he got wrong, who *teaches the correction rather than the recovery from
+  it*.
+  > [ranger block] Cinematic wide portrait of a man in his sixties standing at the head of a plain working table in a delegation compound's translation room, upper body, mid-explanation to two junior officers seated out of frame, one hand open in a gesture that is laying something out rather than insisting on it. Unembarrassed, matter-of-fact, patient. On the table: blank unmarked cards laid in rows, a plain wooden rack, nothing written on anything. Warm shuttered daylight in bars across the room, whitewashed walls. Ochre, whitewash, dark wood. 16:9 landscape.
+  - **The cards are blank** for the standing reason, and it costs nothing — a
+    translation laid out in rows reads as a method from the shape alone.
+
+- **`galen-kane.jpg`** — *counts departures*. His most valued record entries are
+  the closures, and the Corps' tradition puts the departing Ranger at the back of
+  the room, in civilian clothes, unarmed.
+  > Cinematic wide view of a man in his sixties standing alone at the back of a plain frontier meeting hall during a ceremony, upper body, in ordinary civilian clothes and carrying nothing, hands loosely at his sides, watching the front of the room from the last row. He is not the subject of the occasion and is plainly glad of it. The hall is full of seated colonists seen from behind, out of focus, and morning light falls through tall plain windows down the length of it toward the front. Timber, whitewash, low sun. Quiet, unceremonious, complete. 16:9 landscape.
+  - **No uniform, deliberately, and the ranger block is not used here.** The
+    tradition is explicit that the departing Ranger attends as a civilian guest,
+    unarmed, at the back — a uniform would invert the one moment his career is
+    counted in.
+
+- **`luke-valerius.jpg`** — will not say *everywhere*, and declines the sentence
+  beginning *which suggests*.
+  > [ranger block] Cinematic wide portrait of a man in his forties standing at a wide dark viewport of a boundary-proximate outpost, upper body, turned away from a plain workbench behind him and looking out, arms at his sides, having just finished and having nothing to add. On the bench behind: two matched sealed reference housings, plain unmarked cylinders on a level mount, close together and identical. Outside the viewport, ordinary starfield and nothing remarkable at all. Very still, very level, faintly austere. Cool grey and deep black with one warm interior note. 16:9 landscape.
+  - **The two matched housings carry the character** — instruments that disagree,
+    with nothing to read on them. The house negative bans dials and readouts and
+    it does not hurt here: the point is that the disagreement is not visible from
+    the outside.
+
+- **`zoe-smith.jpg`** — *the last rank most civilians ever stand in a corridor
+  with*, held on purpose and at length.
+  > [ranger block] Cinematic wide portrait of a woman in her fifties standing in an ordinary residential corridor of a space habitat, upper body, half-turned toward someone out of frame at a doorway and listening, weight settled, unhurried, entirely approachable. Not a command deck and not a crisis: a plain lived-in corridor with worn deck plate and a stowed handrail. Soft even light from a concealed source. Weathered, capable, patient. Warm neutral palette. 16:9 landscape.
+  - **Deliberately the least impressive frame on the roster.** Her page's whole
+    argument is that this rank is what the word *Star Ranger* actually means, and
+    a heroic setting would have argued the opposite.
+
+---
+
+**Orbital Five-O (1)**
+
+- **`alala.jpg`** — a Smart Pet raven on the public roster *with a service number
+  and a leg band, because Commander Larsen's unit does not do covert animals.*
+  > Cinematic wide view of a raven perched on a public handrail in the open concourse of a space habitat, in daylight from a great overhead window, the bird sharp and close and the concourse behind soft and busy with people who are not looking at her. Glossy black plumage with blue and purple iridescence, head turned, one bright eye directed at something off to the side, entirely composed. On one leg a plain metal band, unmarked. A slim matte collar fitting sits low at the back of her neck, small, plainly manufactured and making no attempt to be hidden. Bright, open, ordinary. Warm daylight, green planting in the middle distance. 16:9 landscape.
+  - **Visible band, unmarked band.** Her whole posting is that she is announced
+    in advance and in writing; the band has to read as official and cannot carry
+    a number, so it is plain metal and the *manner* does the work.
+
+---
+
+**Undercover Pets — cute, cool and clever (5)**
+
+- **`kate-ukrainka.jpg`** — writes Smart Pet books that *get the animal exactly
+  right and the machinery cheerfully, deliberately wrong.*
+  > Cinematic wide portrait of a woman in her sixties writing by hand at a small table in a lived-in habitat apartment, upper body, mid-sentence and clearly enjoying herself, a half-smile she is not aware of. Blank unmarked notebook, a mug, a plant doing well. Behind her a wide window onto the green curve of an orbital habitat's inner surface in daylight. Warm, comfortable, entirely unhaunted. Warm wood, green, soft daylight. 16:9 landscape.
+
+- **`knopka.jpg`** — failed the assessment *on every axis it measures*, and the
+  finding is one word long.
+  > Cinematic wide view of an ordinary domestic rabbit sitting upright and entirely still on the floor of a tidy habitat apartment, close and low to the ground, facing the camera and looking at nothing in particular with complete composure. Soft dense fur, ears up, one carrot-top on the floor a little way off and ignored. No harness, no collar, no fitting, no device of any kind on the animal anywhere. Warm domestic light, plain floor, a chair leg and a bag by the door. Comic dignity. 16:9 landscape.
+  - **Absolutely no harness or subsystem**, which is the entire joke: nothing was
+    ever fitted, and failing left her exactly as the programme found her.
+
+- **`muffin.jpg`** — **and this one should probably not be a portrait at all.**
+  Eleven statements returned a cat, a rabbit, a very young dog and *you know —
+  Muffin*, and the four who said cat disagreed about the colour. **Drawing a
+  specific adorable animal contradicts the page in the first frame.**
+  So the portrait is the place, on the [Eden Warden](../src/characters/eden-warden.md)
+  precedent — *the Warden is not depicted; it is inhabited* — and the entity is
+  present and unresolved.
+  > Cinematic wide view of a warm-air vent beside a galley doorway on a working deck of a space habitat, seen straight on and slightly low, the deck plate scuffed and ordinary. Warm light spills from the galley across the floor. In the warm patch by the vent something small is settled and comfortable, and it is genuinely unclear what it is — soft, low, indistinct at the edges, half in the warm light and half in the shadow of the doorway, out of focus in a way nothing else in the frame is. Beside it on the floor, a chipped saucer somebody brought from the galley. Everything else is sharp: the vent grille, the door frame, the scuffed plate. Inviting, domestic, entirely undramatic. Warm amber against cool grey deck. 16:9 landscape.
+  - **Extra negative:** cat, rabbit, dog, puppy, kitten, lamb, recognisable animal of any species, face, eyes, teeth, claws, menace, horror, monster, shadow creature, glowing eyes.
+  - **The tone line is the whole risk here.** The page is unsettling because the
+    room is pleasant, and any legible creature — cute *or* frightening — loses
+    it. If the batch keeps resolving the shape, the fix is a tighter crop on the
+    saucer and the vent with the warm patch only implied.
+  - **Worth Dermot's call whether it ships at all.** An entity nobody can
+    describe twice is arguably a page that should carry no image, and *no
+    picture* is a legitimate answer here rather than a gap.
+
+- **`sylvie-harrow.jpg`** — a model statement, *no sentence that is false*, and
+  nothing that catches.
+  > Cinematic wide portrait of a woman in her forties seated at a plain table in an unremarkable habitat office, upper body, mid-answer to someone out of frame, pleasant and cooperative and entirely at ease, hands loosely together on the table. Neat ordinary professional clothing. Even, flat, perfectly adequate light with nothing dramatic in it; a plain wall, a closed unmarked folder squared up in front of her. Nothing in the frame is out of place and nothing in it is interesting. Cool neutral palette. 16:9 landscape.
+  - **The frame must have nothing to catch on**, which is the hardest brief here.
+    No shadow across the eyes, no held look, no tell. It reads as a competent
+    witness because that is exactly what every audit found.
+  - **Extra negative:** sinister, suspicious, shifty, smirk, hard shadow across the face, film-noir lighting, interrogation lamp, villain styling.
+
+- **`thrum.jpg`** — deaf to airborne sound, blind to a human face, *reads the
+  structure it is standing on, continuously, without deciding to.*
+  > Cinematic wide view of a small six-limbed alien burrow animal low in a narrow service void behind a deck panel, close and at its own height, its whole underside pressed flat in contact with the structural plate beneath it. Low, broad and compact, smooth dark hide with a faint sheen, no visible ears and no eyes to speak of, entirely occupied with the surface it is standing on and not with the viewer. Warm air and warm light leaking in from an open panel to one side; ducting, cable runs and structure receding into the dark. Alien and completely unthreatening. Warm amber light on dark metal. 16:9 landscape.
+  - **It must not look at the camera.** A creature that cannot see a face and
+    would not care about one is the character; a returned gaze would undo it.
+
+---
+
+**Historical (3)** — state the era or the setting defaults to contemporary Earth.
+
+- **`saint-aoife.jpg`** — *never claimed to know what she'd met at the thorn
+  well*, and every later reader has taken that refusal at face value.
+  > Cinematic wide portrait of a woman in her thirties standing at a spring well in a thorn thicket in thirteenth-century Ireland, upper body, plain undyed woollen dress and shawl, work-worn hands, looking down at the water rather than up or out. Composed and unresolved — no rapture, no distress, no certainty of any kind. Grey overcast daylight, wet blackthorn, low stone kerb around the water, wet grass. Cold, plain, historical, entirely earthbound. Grey, wet green and undyed wool. 16:9 landscape.
+  - **Extra negative:** halo, aureole, rays of light, glow, doves, upturned face, hands folded in prayer, beatific expression, ecstasy, stained glass, religious iconography, robes, veil of office, angels, apparition.
+  - **The whole page is her refusal to claim.** Any device that tells the viewer
+    what she saw contradicts it, and a glow would be the story arriving at a
+    verdict the record spent seven centuries declining to give. Same discipline
+    the `brother-daire.jpg` prompt already used.
+
+- **`sildron-drey.jpg`** — MSC Director of Operations, Mars; the staff side,
+  *measured on whether the order was correctly formed rather than on whether it
+  arrived in time.*
+  > Cinematic wide portrait of a woman in her fifties in the severe service dress of a militarised space command of an earlier era, upper body, standing at a plain operations desk on Mars with her hands resting on it, looking down at the work rather than at anyone. Precise, capable, entirely without warmth or cruelty. Blank unmarked folders squared in a stack; nothing written on anything. A tall window behind her onto flat rust-coloured Martian ground under a pale sky. Institutional, historical, cold. Rust, grey and dull olive. 16:9 landscape.
+  - **Neither villain nor victim.** Her page is careful that she argued the case
+    in writing and then had to execute it, and the frame should let a reader
+    arrive at their own verdict rather than pre-empt it.
+
+- **`thalassa-vexar.jpg`** — the best-liked Imperium officer in the Belt, holding
+  a grade with *no authority to change anything there*.
+  > Cinematic wide portrait of a woman in her fifties in the plain administrative uniform of a fallen space empire, upper body, seated at a small counter in a cramped Belt settlement office, turned attentively toward someone standing out of frame and listening properly. Genuinely courteous, genuinely powerless, and aware of both. A worn counter, a queue of people waiting behind out of focus, blank unmarked forms in a tray. Cramped, warm, worn, decent. Dim amber lighting, dull metal, historical science fiction. 16:9 landscape.
+  - **The queue is the point.** She was the officer who answered every question
+    and could alter no condition, and a solitary desk would have made her a
+    functionary instead of the thing the Belt actually remembers.
+
+---
+
+**Elsewhere in the settled worlds (5)**
+
+- **`dagny-voss.jpg`** — born vacuum-side, *has never once been to a world anyone
+  would call beautiful, and has stopped waiting to be assigned to one.*
+  > Cinematic wide portrait of a woman in her fifties in practical industrial coveralls on the overlook gallery of a large orbital ore-refining habitat, upper body, one hand on a railing, turned back toward the camera with a dry good humour and no self-consciousness at all. Behind and below her the refinery floor runs away in scale: gantries, bulk hoppers, heavy handling frames, everything clean and orderly and working. Beyond it a wide port shows the planet's ring and the curve of the world below. Hard even industrial light, no glow, no sparks. Steel grey, dull orange, the pale planet beyond. 16:9 landscape.
+  - **Extra negative:** molten metal, sparks, foundry glow, furnace, dirt, grime, hard-hat stock photography.
+
+- **`elvira.jpg`** — **the one prompt that will fight its own subject.** She is
+  *not magical*; the locals call her the Enchantress and the label *obscures the
+  mechanism*. She is a technician working chalk, thread, water in vessels and
+  written records against Etheric gradients.
+  > Cinematic wide portrait of a woman in her forties working alone in the stone main room of a small marsh outpost, upper body, crouched over a broad section of bare chalk floor on which fine thread has been laid out in a precise geometric survey grid, weighting one thread at a corner with careful fingers, checking the line by eye. Working clothes, sleeves pushed back, chalk dust on her hands and forearms. Around her: plain glass and earthenware vessels of water set at measured intervals, a folding rule, stacked plain-bound record books shut on the table. Flat cold daylight from a small window and open door, marsh light, no fire and no flame anywhere. Chalk white, wet grey-green, plain grey stone. Procedural and absorbed, the concentration of a surveyor. 16:9 landscape.
+  - **Extra negative:** witch, sorceress, enchantress, magic, spell, ritual, occult, candles, flame, incense, smoke, glowing runes, glowing symbols, sigils, pentagram, crystal ball, cauldron, staff, wand, amulet, robes, hood, cloak, mystical aura, floating objects, sparkles, arcane.
+  - **The longest negative on the roster, and it earns its length.** *Chalk,
+    thread, water in vessels* is a witchcraft prompt read literally, and the page
+    exists to say it is not one. The grid, the folding rule and the shut record
+    books are what make it survey work; take any of them out and the frame turns
+    into the label she spends her page rejecting.
+
+- **`sofia-santos.jpg`** — answers for *everything below the waterline* and has
+  no authority whatever over anything above it.
+  > Cinematic wide portrait of a woman in her fifties in plain practical clothing standing inside a seabed city's pressure hull, upper body, at a wide thick viewport with dim green-blue ocean beyond it, turned three-quarters to the camera, an engineer's composure and no ceremony of office anywhere about her. Through the viewport: the lit shapes of other domes and a work light in the dark water. The interior is heavy and well-made — thick frames, sealed joints, everything rated. No surface, no sky, no daylight anywhere in the frame. Deep blue-green and warm interior light. 16:9 landscape.
+  - **No sky in frame, deliberately.** Her jurisdiction stops at the waterline
+    and the picture stops there too.
+
+- **`sorcha-nic-dhiarmada.jpg`** — walks the dark-down *because a thing kept by
+  everyone should still be seen to be kept by someone.*
+  > Cinematic wide view of a woman in her forties walking a rough hill track alone at night on an upland pasture world, seen from a little way off and small in the frame, wrapped against the cold, a working dog at her heel. Below her a valley of scattered steadings with every single light out — dark roofs, dark yards, nothing lit anywhere. Above, an enormous clear sky, thick with stars, and the whole scene lit by starlight alone. Sheep on the slope as pale shapes. Nothing frightening: a kept custom, walked. Deep blue-black, silver, the faint warmth of wool. Beautiful and quiet. 16:9 landscape.
+  - **Extra negative:** lantern, torch, lamp, firelight, glowing windows, lit houses, any artificial light source anywhere in frame.
+  - **The dark is the custom.** One lit window would break the thing the walk
+    exists to honour, and this is the frame on the roster with the most
+    *serenity* in it, which the house target asks for and the roster is otherwise
+    short of.
+
+- **`sorcha-shepherd.jpg`** — the registry taught her that *a record can be
+  wrong, and a record can be unfinished, and the second is worse.*
+  > Cinematic wide portrait of a woman in her thirties at survey work on open limestone upland, upper body, standing at a tripod-mounted optical survey instrument with one hand steadying it, looking off along the line she is shooting rather than through the eyepiece. Bare pale fissured limestone pavement running away in every direction, thin grass in the cracks, a low drystone wall on the skyline. Practical outdoor clothing, weather on her face. Wide bright overcast light, no sun. Pale grey stone, grey-green, wide sky. Methodical and unhurried. 16:9 landscape.
+  - **Looking along the line, not through the eyepiece** — she is checking what
+    the measurement will mean before she takes it, which is the habit the page
+    says the registry gave her.
+
+**When these come back.** Check Elvira and Muffin first — both have a default the
+generator wants badly and both fail quietly rather than obviously. Check
+lettering at 4× on Strozzi's cards, Drey's folders and Vexar's tray, per the
+Calloway lettering-check note. And **do not generate all twenty-one in one
+sitting and judge them tired**; the roster's value is that the frames differ from
+each other, and that is a judgement that degrades.
+
 ##### The three rescuers — a set (19 August 2026)
 
 `lucene-9000.jpg`, `xenon.jpg`, `lumbarian.jpg`. Prompted together because they
