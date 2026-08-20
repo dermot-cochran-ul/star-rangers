@@ -292,6 +292,29 @@ be found without reading 1,300 lines.
   (`images.md:709` and `:723`) differ only in their closing clause and neither
   is marked chosen.
 
+## Audio and music — `music-prompts.md`
+
+Raised 20 August 2026, when a check found that **none of the five files in
+`src/audio/` has a prompt recorded anywhere** — the Prismere failure repeated in
+a medium nobody was watching. `music-prompts.md` now carries the briefs; these
+are the parts it could not decide.
+
+- **Do the four edition themes get regenerated?** Their prompts are gone, so a
+  regeneration is a *new* track under an existing label, not a recovery — a
+  front-of-house change on four live domains.
+- **Does Church Space get a theme of its own?** It registers no `themeAudio` and
+  falls through to the default Celtic ambient. That may well be right; it has
+  simply never been decided, so the fall-through is currently an omission
+  wearing a decision's clothes.
+- **WAV → m4a/mp3 for the four themes.** 4–8 MB each behind `preload="none"`.
+  Mechanical and content-risk-free, ~20 MB saved, but it touches live domains.
+- **Recordings for the two unrecorded anthems.** *Half-Light Causeway* and
+  *Protectors of the Fold* have published lyrics and no audio; briefs are
+  written and waiting. Draft-and-stop either way.
+- **Should `validate-content.js` cover `src/audio/` and `src/video/`?** Images
+  get unreferenced, duplicate-bytes and stale-slug checks; audio and video get
+  none of the three. An orphan track is currently invisible to every gate.
+
 ## Decisions awaiting Dermot
 
 Not questions about the world — choices only he can make. Kept here so they do
