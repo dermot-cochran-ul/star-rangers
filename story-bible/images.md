@@ -1022,6 +1022,17 @@ why each went. Drafted 12 August, revised 13 August against the aesthetic
 target, and reviewed with Dermot. The atmosphere is added around each page’s
 own `role` and `description`; no fact here is invented.
 
+**`idris-bryneth` revised 20 August 2026 — the prompt contradicted the page.**
+It asked for a herder *"of about sixty"*, but Idris Bryneth took the headship in
+2815 UCSD as **"the youngest clan head on Aethelrock at the time of his
+inheritance"**, which against the current 2826 puts him in his mid-forties. The
+first run came back accordingly: a man of about seventy who was also
+near-indistinguishable from `cormac-dubhghlas` — same grey beard, same weathered
+face, same staff. Two of five clan heads reading as one man is a real cost when
+they sit at one table. The revision sets the age and separates the silhouette
+deliberately: dark close-cropped hair against Cormac's grey beard, and **no
+staff**, which the generator added unprompted both times.
+
 - **`cormac-dubhghlas.jpg`** — holder of the world's most arable ground; the
   Ridgemoot's most persistent voice for restoring the old seat rotation.
   > Cinematic portrait of a weathered farmer in late middle age at the edge of a cultivated upland field on a cold world, upper body, hard-wearing coat over layered woollens, standing entirely still with the unhurried patience of someone who has waited on weather all his life, early light coming low under a broken cloud ceiling and catching the mist still lying in the furrows, the crop young and coming up behind him, the far end of the field lost in haze, science-fiction agrarian colony, muted green and grey with one warm band of low sun, quiet and unhurried rather than stern, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
@@ -1034,7 +1045,7 @@ own `role` and `description`; no fact here is invented.
 - **`idris-bryneth.jpg`** — holder of the sparsely populated northern high
   country; the Ridgemoot's most consistent voice against any arrangement that
   concentrates authority off Bryneth land.
-  > Cinematic portrait of a lean, wind-burned upland herder of about sixty on open high moor, upper body small against an enormous sky, oiled storm coat with the collar up, standing quite still and watching something well beyond the frame, weather arriving as a wall of light and rain far off across the moor with sun still on the near ground, science-fiction frontier highland, desaturated brown and pewter under a luminous sky, vast and calm rather than bleak, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a lean, wind-burned upland herder in his mid-forties on open high moor, upper body small against an enormous sky, dark close-cropped hair and several days' stubble rather than a full beard, both hands empty and no staff, stick or crook anywhere in frame, oiled storm coat with the collar up, standing quite still and watching something well beyond the frame, weather arriving as a wall of light and rain far off across the moor with sun still on the near ground, science-fiction frontier highland, desaturated brown and pewter under a luminous sky, vast and calm rather than bleak, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 - **`niamh-o-ceallaigh.jpg`** — holder of the coastal fjord country and its
   fishing fleets; the Ridgemoot's most consistent broker between Ceridwen's
