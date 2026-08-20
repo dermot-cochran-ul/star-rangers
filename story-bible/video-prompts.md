@@ -428,6 +428,10 @@ Negative: no stage, no crowd barrier, no arena, no spotlights, no smoke, no
 matching outfits, no leather stage costume, no electric guitars, no drum kit, no
 video wall, **no text or lettering of any kind**.
 
+A file-by-file verdict on every supplied card — which to keep, which to redo and
+why — is in [`music-prompts.md`](music-prompts.md#regeneration-worklist), kept
+there so the audio and card decisions sit side by side.
+
 **And the prior question:** the four Slipwave-adjacent codex entries already
 share a designed cover set — gold serif on a dark starfield with a trailing star,
 built by `scripts/make-codex-cover.ps1` precisely because a generator cannot

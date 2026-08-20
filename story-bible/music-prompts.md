@@ -619,6 +619,23 @@ A canon-correct card brief is in
   handles very carefully — she is *"never fully certain what she had seen"* —
   so a devotional title is a claim the entry itself declines to make.
 
+### `AshOnTheDoor_3.mp4` — the lettering failure at its worst
+
+2:44, a singer on a dark stage. The card has **lyric text burned into the
+frame**, and it is the worst instance yet: *"Letting go false friends who seemed
+nice seemed nice & ecke felt superical"* — a line repeated mid-phrase, a word
+that is not a word, and the title caption overlapping it. Nothing about this is
+fixable by re-rolling the picture; **lyric captions have to be composited or
+left off**, which is the same rule the other cards keep breaking more quietly.
+
+**On where the song might belong**, if anywhere: *letting go of false friends who
+seemed kind* is not Fian Ilchruinne material on its face — it is contemporary and
+personal in register — but it is precisely what `life-lessons.md` exists to
+handle, under its own rule: **generalise, then fictionalise.** *"The structure
+enters the work, the circumstances don't."* A song naming the experience plainly
+is the un-generalised form, which is fine for a song and is the reason it would
+not go straight into the record as it stands.
+
 ### `PaperGalaxies_5.mp4` — the one that already has a home
 
 2:35, same wrapper. Its card is a singer before a large swirling painted galaxy
@@ -640,6 +657,33 @@ in-world, and the only one with a page waiting for it. Two things follow:
   together: Sen's finding is about whether a thing that *resembles* novelty earns
   the credit. Attaching the artifact to its own audit is very good; nobody should
   do it without reading what the audit concludes.
+
+---
+
+## Regeneration worklist
+
+Every supplied file in one table, with what would need to change. **Audio and
+card are separate verdicts** — most of these have a keepable track inside a
+container that needs redoing, and re-rolling the music because the picture is
+wrong would be the expensive mistake.
+
+| File | Audio | Card | What to change |
+|---|---|---|---|
+| `RotationalHum_1` | keep | **keep** | Nothing. Best card of the set after *Aoife*: matte object, real light, no lettering. |
+| `PaperGalaxies_5` | keep | **keep** | Nothing. The card matches what the audit dialogue already describes, and the degraded 480p artifact is an asset for once. |
+| `AoifeofStars_3` | keep | hold | Not a fix — a decision. First depiction of a character with no portrait, so it waits for you. |
+| `InnerSpaceBloom_3` | keep | **regenerate** | Garbled lettering; and *"Live Concert Recording"* claims a provenance the file does not have. |
+| `BalladoftheStars_3` | keep (it is the repo recording) | **regenerate** | Garbled caption, and the band is not Slipwave. Use the card brief in `video-prompts.md`. |
+| `StarRangers_3` (3:49) | keep | **regenerate** | Girl group in stage leather; wrong lineup, wrong register. Also needs a home — it is captioned as the Ballad and is not the Ballad. |
+| `StarRangers_3` (1:44) | keep | **regenerate** | Same, plus it is captioned only *Star Rangers*, so what it is has not been said. |
+| `HoldMeTillDawn_2` | keep | **regenerate** | Contemporary stage look, off-house. Title decision first — see above. |
+| `AshOnTheDoor_3` | keep | **regenerate** | Burned-in lyric text, garbled and repeated, overlapping the title. Composite lyric captions or leave them off. |
+| `grok_video_2026-06-05` | — | **regenerate if it is meant to be canon** | Text in frame, arena register, and full gravity, which loses the only part of shuffle dance worth establishing. |
+
+**Seven of the ten need only a new card.** That is the cheap end of the work, and
+the two cards that already pass (`RotationalHum_1`, `PaperGalaxies_5`) show the
+house style is reachable with the tool you are already using — a matte object or
+a described artifact, real light, and no words inside the picture.
 
 ---
 
