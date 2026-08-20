@@ -172,9 +172,20 @@ close. (No privacy consequence: an unfiltered build still excludes the private
 thread, which is what `private: true` is for.)
 
 Since 2026-08-20 `scripts/cpanel-deploy.sh` refuses that build rather than
-shipping it, so the failure is now loud and the ordering is forgiving: merge and
+shipping it, so the failure is loud and the ordering is forgiving: merge and
 cPanel can happen in either order, and the gap between them fails visibly
 instead of quietly publishing duplicates.
+
+**The check keys off a registered alias, not off "this domain is unknown to
+us"** — corrected the same day, on Dermot's point, after the first version got
+it wrong. `lib/editions.js` now carries an `ALIASES` map and the deploy refuses
+a host *named* there. The earlier version refused any domain that neither the
+registry nor `deploy.conf` had configured, which would have made an independent
+deployment impossible without adopting our registry: a third-party fork on its
+own domain resolves no edition here and never will, and the two-key minimum
+`deploy.conf` is a path `FORKING.md` promises. Silence about a domain has to
+mean no opinion, not refusal. The narrower rule also catches the case better,
+since it can name the alias and its target in the error.
 
 ### What was demoted, and why
 
