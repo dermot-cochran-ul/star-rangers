@@ -337,11 +337,26 @@ is wrong everywhere else comes right, and that is the gag.
 
 Clever, not infantile — and the wobble comes right, which is the gag.
 
-### Church Space — no theme of its own
+### Church Space — "Ambient drone"
 
-`church-space` registers no `themeAudio` and falls through to the default
-edition's Celtic ambient. Whether that is a decision or an omission is
-**undecided** — see Open questions. Do not resolve it by generating a track.
+**Settled 20 August 2026.** It fell through to the default's Celtic ambient,
+which was never a decision — and the slot was filled by a supplied track rather
+than a generated one: *Rotational Hum*, named for this file's own signature
+term, registered as `rotational-hum.m4a`.
+
+Two things it establishes for the next theme, both recorded in `lib/editions.js`
+beside the entry:
+
+- **m4a, not wav.** A third of the bytes for a decorative footer element.
+- **A theme may be a piece rather than a loop.** This one runs 4:02 and builds,
+  which the brief above tells a loop not to do. It survives because the player
+  is click-to-play — `preload="none"`, a button, no autoplay — so nobody hears it
+  who did not ask to. If the loop restart ever grates, the fix is a trimmed 90 s
+  cut of the same recording, not a different track.
+
+A brief, should this domain ever want a purpose-made theme instead: vigil rather
+than liturgy, as the Fellowship entry above, but slower and with no melodic
+content at all.
 
 ---
 
@@ -682,7 +697,7 @@ wrong would be the expensive mistake.
 
 | File | Audio | Card | What to change |
 |---|---|---|---|
-| `RotationalHum_1` | keep | **keep** | Nothing. Best card of the set after *Aoife*: matte object, real light, no lettering. |
+| `RotationalHum_1` | **adopted** | **keep** | Done — `src/audio/rotational-hum.m4a`, registered as the Church Space theme ("Ambient drone"). Card needs nothing: matte object, real light, no lettering. |
 | `PaperGalaxies_5` | **adopted** | **keep** | Done — audio extracted to `src/audio/paper-galaxies.m4a` and attached to its own audit entry. The card stays as the entry's designed cover. |
 | `AoifeofStars_3` | keep | hold | Not a fix — a decision. First depiction of a character with no portrait, so it waits for you. |
 | `InnerSpaceBloom_3` | keep | **regenerate** | Garbled lettering; and *"Live Concert Recording"* claims a provenance the file does not have. |
