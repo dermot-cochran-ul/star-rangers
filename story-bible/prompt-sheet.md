@@ -134,24 +134,44 @@ runes, text, lettering.
 
 **Then composite:** title only. **No lyric caption** — that is the defect.
 
-### 1.7 `AoifeofStars_3` — hold, and a second reading to compare
+### 1.7 `AoifeofStars_3` — reframed, and now the portrait brief
 
-Not a fix. `src/characters/saint-aoife.md` has no portrait at all, so this would
-be the first depiction of her and it waits for Dermot. `images.md` already holds
-a different brief, and the difference is the whole argument:
+**Ruled 20 August 2026: keep the concealed face, take the rest.** The card is not
+adopted as it stands — it shows her front-lit and facing the viewer, and
+`images.md` carries a canon-reasoned constraint, adopted 19 August and marked as
+outranking other briefs, that her face stays turned, shadowed or away: *the
+record genuinely does not know it, and the page's whole argument is that she
+never claimed to know what she had seen.*
 
-> A woman at the edge of a dark pool at night, looking down at the water rather
-> than up at the sky. Red hair, plain woollen clothing of the thirteenth century,
-> a thorn tree behind her. Starlight only. **No halo, no glow, no rays, no
-> radiance of any kind.** Her expression is uncertain rather than transported.
+What the card got right is kept — the night, the star field, the moorland, the
+red hair, and no halo or glow anywhere. Generate at **1200×675**, wordless:
 
-**Negative:** halo, glow, aura, light beams, ascension pose, stained glass,
-religious iconography, ecstasy, text, lettering.
+> Cinematic wide portrait of a woman in her thirties standing at a spring well in
+> a thorn thicket in thirteenth-century Ireland, upper body, plain undyed woollen
+> dress and shawl, work-worn hands, looking down at the water rather than up or
+> out. Her face turned down and away and left in shadow, features not legible.
+> Composed and unresolved — no rapture, no distress, no certainty of any kind.
+> Night, an ordinary clear sky of small stars doing nothing in particular, a
+> moorland horizon behind the thicket. Long dark red hair. Wet blackthorn, low
+> stone kerb around the water, wet grass. Cold, plain, historical, entirely
+> earthbound. Deep blue-green night, wet black thorn, undyed wool.
 
-**The point of the difference:** her page is built on her *refusal to claim* what
-she saw. A card facing the viewer under stars reads as testimony; a card looking
-down at the water reads as doubt. Both are defensible and they are not the same
-page.
+**Negative:** halo, aureole, rays of light, glow, doves, upturned face, face
+toward camera, legible features, hands folded in prayer, beatific expression,
+ecstasy, stained glass, religious iconography, robes, veil of office, angels,
+apparition, embroidered or ornamented gown, jewellery, stage lighting, text,
+lettering.
+
+Two things from the card deliberately dropped, both reasoned in `images.md`: the
+**embroidered gown**, because ornament argues with a standing built on refusal,
+and any sense that the **sky is doing something** — the stars are ordinary and no
+light comes from them, since a sky that appears active tells the viewer what she
+saw.
+
+**The file cannot be used as-is either way.** Its art region is about 479 px wide
+inside an 854×480 frame, against the 1200×675 portrait convention, and *"Aoife of
+Stars"* is burned across her shoulders. This one has to be regenerated, not
+cropped.
 
 ### 1.8 The shuffle-dance clip — only if it is meant to be canon
 
