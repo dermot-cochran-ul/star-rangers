@@ -329,6 +329,15 @@ but larger, because nothing in the toolchain looks at `src/video/` at all.
   `baby-universe.mp4` is 19 MB at 1 fps to show one picture, and
   `ballad-of-the-stars.md` already demonstrates the cheaper pattern. Changes a
   live page.
+- **Two newly identified recordings need canon homes** (identified 20 August
+  2026). The 3:49 is **Slipwave**, which makes a fourth recording by a band whose
+  catalogue `slipwave.md` already characterises — *a handful, most incomplete or
+  badly mic'd, two are not* — so it fits as one of the handful surfacing later,
+  and cannot be a polished studio track from their own era. The 1:44 is **a
+  muster piece**, and its audio is a produced full-band mix, so it is a recording
+  *of* one rather than a recording *at* one. Either becoming a codex entry needs
+  **the lyrics supplied** — they cannot be transcribed from a spectrogram, and a
+  lyric is canon-for-its-author.
 - **Six supplied tracks have no prompt recorded, and four have no home** —
   `InnerSpaceBloom_3`, `RotationalHum_1`, `PaperGalaxies_5`, two unrelated
   `StarRangers_3` files and a re-wrap of the existing Ballad, all 854×480
