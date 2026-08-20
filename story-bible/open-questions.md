@@ -395,6 +395,18 @@ not evaporate between sessions.
   repo, or open creation. Tracked as **#432**; the recommendation is reword,
   since that file binds him to other people and is draft-and-stop.
 - **[Proverbs and Maxims of the Star Rangers](../src/lore/star-rangers-proverbs-and-maxims.md)**, drafted 18 August 2026 and not merged — a lore entry asserts about the world, so it is draft-and-stop. Two of its sayings are new rather than collected (*"Quiet is not doubt; loud is not certain"* and *"The pleasing reading is checked first"*, from his humility note of the same date); the rest are sourced to existing pages. Separately, the survey behind that note found the corpus holds only the *good* version of humility — grounded, correctly refusing flattery — and nobody yet embodies **Humility can become invisibility**. Worth confirming before anyone writes to the theme, since the pair only works if both halves exist on the page. See `ideas.md`, *Humility as Confidence*.
+- **Whether the multi-TLD domain families stay as separate builds.** Google
+  Search Console warned about duplicate content across the sites on 20 August
+  2026. The seven alias domains are fine and need nothing. The open question is
+  the three families where several hostnames resolve to ONE edition entry —
+  `fellowshipoflight` .org/.site/.online/.space, `starquest` .site/.online,
+  `church-space` .site/.online — eight hostnames running eight full builds of
+  three sites, each self-canonicalising to itself. Measured, not assumed: two
+  fellowship domains build byte-identical across all 632 pages once the
+  hostname and the per-build asset hash are normalised. Consolidate with 301s,
+  differentiate into real editions, or leave Google to keep picking a winner
+  per family. Re-points live domains, so draft-and-stop. Full write-up with the
+  options and the measurements in `domain-strategy-and-duplicate-content.md`.
 - **The Fold Transit Safety branch origin story**, **#430**. Boundary Safety
   and AI Safety each got a history on 16 August; Fold Transit is named and
   unexplained. Most of the raw material already exists in
