@@ -131,6 +131,76 @@ from one institution's side, cross to another domain, and find it told
 differently by someone with a different stake. That is *who gets to name the
 truth* built into the domain structure rather than described in a lore entry.
 
+### Subdomains first, registrations second
+
+Kept here because the codex-site idea otherwise reads as an argument for buying
+domains, and mostly it is not. **A subdomain of a domain already held costs
+nothing**, needs no registrar, gets its own cPanel document root, is covered by
+AutoSSL, and can be an `ALT_DOMAINS` build the same afternoon. Verified against
+the machinery: a subdomain host resolves cleanly and matches no parent entry by
+accident, so it simply needs its own entry in `lib/editions.js` like any other
+build.
+
+Two limits, and both matter before anyone gets attached to the idea.
+
+**A codex subdomain will not rank, by construction.** It serves a subset of its
+parent's pages, so by the family rule it is in the parent's family and
+canonicals there. What it buys is a short memorable door into a body of material
+and a shareable address — not a search position. That is a real thing to want
+and it is not the thing a registration buys.
+
+The exception is the same test that split the contemplative tier: **is this
+institution separate in the fiction, or inside the one the parent already
+represents?** The Communion of the Called earned its own family because it is a
+different order from the Fellowship. The Survey Archive is *inside* the Star
+Rangers, so `archive.fianilchruinne.com` is a door into the canonical record
+rather than a rival to it.
+
+**A subdomain is not a defensive registration.** It protects nothing — anyone can
+still take the matching domain. So it complements the anti-squatting
+registrations rather than replacing them, and the question "do I need to own this
+name?" is untouched by anything below.
+
+### Candidate subdomains
+
+Measured 2026-08-20 by building each filter. Codex/lore/character counts are the
+material each would actually front; the rest of each figure is the navigational
+shell every build carries.
+
+| Subdomain | `topics:` | Indexable | Codex | Lore | Characters |
+|---|---|---|---|---|---|
+| `eden.fianilchruinne.com` | `eden` | 89 | 7 | 6 | 21 |
+| `union.fianilchruinne.com` | `celtic-union` | 86 | 7 | 14 | 15 |
+| `threshold.fianilchruinne.com` | `threshold-station` | 77 | 12 | 3 | 8 |
+| `compact.fianilchruinne.com` | `orbital-habitats-compact` | 69 | 2 | 6 | 13 |
+| `msc.fianilchruinne.com` | `msc` | 66 | 3 | 6 | 4 |
+| `governance.fianilchruinne.com` | `governance` | 65 | 6 | 10 | 2 |
+| `archive.fianilchruinne.com` | `survey-archive` | 55 | 8 | 2 | 2 |
+| `institute.fianilchruinne.com` | `the-institute` | 50 | 3 | 3 | 1 |
+
+`farline` (47 indexable, 2 codex, 1 lore) is below the line — that is the
+shell and a rounding error, the chapter-house failure again.
+
+Note what the top of that table is: `eden` and `celtic-union` are
+character-heavy rather than codex-heavy, so they would be *place* doors rather
+than archive doors — a different and possibly better thing than the faction-codex
+idea that prompted the list. `threshold-station` at 12 codex entries is the
+strongest true archive candidate after the Fellowship's.
+
+**Utility subdomains**, which have nothing to do with any of the above and are
+worth having anyway. `SITE_NOINDEX=true` already exists for exactly this and is
+documented as being for "testing/staging (sub)domains" — so the machinery is
+waiting:
+
+| Subdomain | Purpose |
+|---|---|
+| `staging.fianilchruinne.com` | A real cPanel deploy of a branch before it reaches a live domain, `SITE_NOINDEX=true` so it never competes. The one thing this session could not do was verify against a live server. |
+| `c.fianilchruinne.com` | If the permanent `/c/<comment_id>/` citation form ever wants an address short enough to print. Currently a path, and fine as one. |
+
+None of these is registered, proposed or decided. The list exists so that the
+next time a faction wants a home, the first question is which subdomain rather
+than which registrar.
+
 ### Which factions could carry one
 
 Own pages beyond the shared navigational shell, measured:
