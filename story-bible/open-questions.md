@@ -292,6 +292,76 @@ be found without reading 1,300 lines.
   (`images.md:709` and `:723`) differ only in their closing clause and neither
   is marked chosen.
 
+## Audio and music — `music-prompts.md`
+
+Raised 20 August 2026, when a check found that **none of the five files in
+`src/audio/` has a prompt recorded anywhere** — the Prismere failure repeated in
+a medium nobody was watching. `music-prompts.md` now carries the briefs; these
+are the parts it could not decide.
+
+- **Do the four edition themes get regenerated?** Their prompts are gone, so a
+  regeneration is a *new* track under an existing label, not a recovery — a
+  front-of-house change on four live domains.
+- **Does Church Space get a theme of its own?** It registers no `themeAudio` and
+  falls through to the default Celtic ambient. That may well be right; it has
+  simply never been decided, so the fall-through is currently an omission
+  wearing a decision's clothes.
+- **WAV → m4a/mp3 for the four themes.** 4–8 MB each behind `preload="none"`.
+  Mechanical and content-risk-free, ~20 MB saved, but it touches live domains.
+- **Recordings for the two unrecorded anthems.** *Half-Light Causeway* and
+  *Protectors of the Fold* have published lyrics and no audio; briefs are
+  written and waiting. Draft-and-stop either way.
+- **Should `validate-content.js` cover `src/audio/` and `src/video/`?** Images
+  get unreferenced, duplicate-bytes and stale-slug checks; audio and video get
+  none of the three. An orphan track is currently invisible to every gate.
+
+## Video — `video-prompts.md`
+
+Raised 20 August 2026 alongside the audio check, and the gaps are the same shape
+but larger, because nothing in the toolchain looks at `src/video/` at all.
+
+- **`grok-video-2026-05-10.mp4` is referenced by nothing.** 30 s, 448×672, the
+  only genuinely moving footage in the repo. Find it a home or remove it —
+  removal of anything published-adjacent is Dermot's call.
+- **Should the still-over-audio pieces become image + audio player?**
+  `baby-universe.mp4` is 19 MB at 1 fps to show one picture, and
+  `ballad-of-the-stars.md` already demonstrates the cheaper pattern. Changes a
+  live page.
+- **Six supplied tracks have no prompt recorded, and four have no home** —
+  `InnerSpaceBloom_3`, `RotationalHum_1`, `PaperGalaxies_5`, two unrelated
+  `StarRangers_3` files and a re-wrap of the existing Ballad, all 854×480
+  still-over-audio. Recorded in `music-prompts.md`; each needs its tool and
+  prompt pasted in, and a decision about whether it is site furniture or an
+  in-universe recording with a named author.
+- **Should `PaperGalaxies_5` be attached to its own audit?**
+  `paper-galaxies-audit-dialogue.md` already describes that exact artifact and
+  embeds no player. Live page, so a proposal.
+- **Is *Hold Me Till Dawn* related to *Baby Universe*?** Its title echoes that
+  song's published chorus (*"Hold me up, hold me close"*). Related is a decision
+  about what `baby-universe-ballad.md` records; unrelated is a reason to change
+  the title.
+- **Does Saint Aoife get her portrait from *Aoife of Stars*?** She has no
+  `image:` and no file, so this would be the first depiction of her —
+  draft-and-stop. `images.md` already holds a different prepared brief for her
+  (looking down at the water, no halo, no glow), and the song's devotional title
+  claims an association her page deliberately declines.
+- **Is low-gravity shuffle dance canon?** The 26 July intake marks it as not
+  existing in canon; a supplied Grok clip depicts it, in full gravity. If it is
+  to be established, the microgravity is the whole of what makes it worth
+  establishing.
+- **The three band cards contradict Slipwave** — wrong lineup, wrong register,
+  a singer who is not Shepherd, and one garbled caption. Adopting photographic
+  band art would also break the four-entry designed-cover set and invalidate its
+  alt texts. Decide as a set.
+- **Does *Inner Worlds / Inner Space Bloom* belong to this site at all?** It
+  carries no Fian Ilchruinne branding. If it is a site piece it needs a codex
+  home like every other recording; if it is a separate ambient release it needs
+  no canon check, and the scene prompts written for it are a loose library rather
+  than something the record commits to.
+- **The "Live Concert Recording" caption** on that card claims a provenance the
+  file does not have, on a site whose temper is *who says so*. Not a fix — a
+  decision.
+
 ## Decisions awaiting Dermot
 
 Not questions about the world — choices only he can make. Kept here so they do

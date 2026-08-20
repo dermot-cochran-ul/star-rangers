@@ -29,6 +29,13 @@ line there when something here becomes a decision rather than a task.
 | Codex entries | designed dark-gradient **title cards**, not photographs |
 | `image_alt` | must describe what the file *actually shows* |
 
+**Audio has its own runbook now.** This file stays about images;
+[`music-prompts.md`](music-prompts.md) carries the house sonic signature, the
+per-edition theme briefs and the in-universe recording briefs, written 20 August
+2026 after a check found all five files in `src/audio/` had no recorded prompt.
+The target below is shared between them, which is why it is still worded for
+both.
+
 **The target, for images and audio alike** (12 August 2026):
 
 > **Enigmatic and haunting, with beauty, mystery, hope and serenity woven
