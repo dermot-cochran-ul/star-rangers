@@ -10,7 +10,7 @@ aliases:
 tags: [survey-archive, plural-mind, archivist, threshold-station, records, ai, ai-safety-kernel]
 description: "Senior Archivist of the Survey Archive, and the person quietly correcting the institutional record for two decades. Sen is a plural mind — Cael, Wyn, and Sen, sharing one body, one desk, and the surname Lovax."
 image: "sen.jpg"
-image_alt: "Designed placeholder card for Sen: the name and role set in pale serif type over a dark blue-black gradient, headed PORTRAIT PENDING. No portrait of this character exists yet."
+image_alt: "Sen Lovax at the archivist's desk deep in the Survey Archive stacks, reading an open volume under a single shaded lamp, one hand flat on the page. Shelving runs away into the dark on both sides, filled with boxed records and film cans."
 ---
 
 Every institution that keeps records eventually needs someone willing to reopen the ones everyone else has agreed to leave closed. At the Survey Archive, that has been Sen's desk for eleven years.
