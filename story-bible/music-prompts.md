@@ -162,6 +162,36 @@ Paste ahead of any edition prompt below.
 > lyrics. No whale song. No sitar, no shakuhachi and no theremin used as
 > shorthand for "alien" or "space".
 
+### Using these in an app with short fields
+
+`MyTunes`, Suno, Udio and the rest all take **short fields, not paragraphs**, and
+they weight the front of a box heavily. So every brief below is split into six
+lines, each one short enough to paste into a field on a phone:
+
+| Field | What goes in it |
+|---|---|
+| **Style** | genre and form tags, comma-separated. The one field every app has. |
+| **Mood** | three or four adjectives, no sentences. |
+| **Instruments** | the palette, most important first. |
+| **Production** | the house signature — this is where the hum, the detune and the late pulse live. |
+| **Exclude** | negative tags, if the app has a box for them. |
+| **Form** | length, instrumental or vocal, loop or not. |
+
+**If the app has only one box**, paste **Style, Mood, Instruments, Production**
+in that order, comma-separated, and drop the rest. The order matters more than
+the wording: what is in front gets weighted, what runs past a couple of hundred
+characters tends to get thinned out. **If it has no exclude box**, do not write
+"no drums" into the style field — most generators read the word and give you
+drums. Re-roll instead, or say the positive version (*"beatless"*, *"unmetered"*).
+
+Two habits worth keeping whatever the tool:
+
+- **Generate short and loop it**, rather than asking for three minutes. A 60–90 s
+  loop that never lands wrong beats a three-minute track with one bad bar in it.
+- **Keep the seed and the take number.** Every entry in this file has a slot for
+  them, and re-rolling a good take you cannot find again is the most avoidable
+  waste there is.
+
 ### Delivery
 
 - **Loopable**, 90–150 s, no fade in or out, ending on a tone that can meet its
@@ -172,6 +202,47 @@ Paste ahead of any edition prompt below.
   regardless of how good it is.
 - **`preload="none"`** is already set, which is what makes the current 4–8 MB
   WAVs survivable. Keep new tracks well under that — see *Practical notes*.
+
+---
+
+## Tools
+
+**Current tool: MyTunes (MWM), and it is a reasonable place to start.** It takes
+a description, a style and optional lyrics, which maps onto the six fields above
+with nothing important lost, and it is fast enough to try five ideas in an
+evening. Keep it for sketching.
+
+**What it costs, in the two places that matter here:**
+
+- **The wrapper is not the deliverable.** MyTunes hands back an mp4: one still
+  image at 854×480 with a *Made With MyTunes* badge, which is where every
+  container defect in `video-prompts.md` came from. **Extract the audio** and
+  treat the card as a separate decision. Nothing that ships on a domain should
+  carry another product's badge.
+- **No stems, no section regeneration, no loop export.** Which is exactly what
+  the two live jobs need — the four themes must loop seamlessly, and the two
+  unrecorded songs have *published lyrics that are canon*, so one mangled line
+  is a defect rather than a variation.
+
+**Alternatives, keyed to the job rather than ranked:**
+
+| Job | Tool | Why |
+|---|---|---|
+| The four edition themes | **Stable Audio** | Built for instrumental beds and loops rather than songs, exports MIDI as of 2.5, and ships clean commercial terms. The loop requirement is the whole spec here, and song-shaped generators give you an intro and an outro that will not meet. |
+| *Half-Light Causeway*, *Protectors of the Fold* | **Udio** | **Inpainting** — regenerate one section without touching the rest, so a mangled canonical line is fixed in place instead of costing the take. Stems too. Also the cleanest licensing of the song generators: Universal, Warner, Merlin and Kobalt have signed with it. |
+| Anything where terms matter more than polish | **ElevenLabs Music** | Clean commercial terms, quality a step behind the leaders. |
+| Best raw quality | **Suno** | Strongest vocals and coherence, cheapest, and the least settled rights position — Sony and Universal litigation was still live in mid-2026. |
+
+**Why licensing is a real question here and not boilerplate.** The story content
+is published under CC BY-NC-ND on several live domains, and this project is
+unusually careful about who holds what — `CONTENT-LICENSE.md`, the code/content
+split, the rule that a chartered work stays outside `src/` because its rights
+holder is someone else. A track in a footer player on five domains is a
+different exposure from a track on a phone. Not an argument against any tool;
+an argument for choosing deliberately and writing down what was chosen.
+
+**Whatever the tool:** m4a or mp3, around −18 LUFS, seamless loop for themes, and
+an entry in this file with the prompt as typed.
 
 ---
 
@@ -188,16 +259,16 @@ The Celtic here is the **Celtic Union's** — old-world roots carried into vacuu
 by people several centuries and many light years from the islands the tunes came
 off. Not a tourist reel.
 
-> [shared preamble] Low whistle and a bowed drone over a small wire-strung harp,
-> a fiddle entering late and playing almost nothing. Dorian, modal, no cadence
-> that fully closes. A single melodic figure stated three times and never
-> developed. Ancient instruments in a room that is plainly not on a planet.
+| Field | |
+|---|---|
+| **Style** | celtic ambient, modal drone, spacer folk, dorian, slow, spacious |
+| **Mood** | enigmatic, haunting, patient, unresolved |
+| **Instruments** | low whistle, wire-strung harp, bowed drone, sparse fiddle entering late |
+| **Production** | low station hum under everything, few-cent detune, one figure stated three times and never developed, no cadence that closes |
+| **Exclude** | jig, reel, bodhrán, step-dance tempo, pub session, drum kit, vocals |
+| **Form** | instrumental, 90 s, seamless loop, no intro or outro |
 
-> Short style tag: *celtic ambient, low whistle, wire harp, bowed drone, dorian,
-> slow, spacious, station hum, detuned, unresolved*
-
-Negative, in addition to the shared: no jig or reel rhythm, no bodhrán driving
-anything, no step-dance tempo, no pub session energy.
+Ancient instruments in a room that is plainly not on a planet.
 
 ### Fellowship of Light — "Orchestral fantasy"
 
@@ -205,17 +276,16 @@ The contemplative tier. **Vigil, not liturgy** — the church-space material is 
 overlay, a lens laid across the record, and music that sounds like a rite makes
 a claim the overlay itself declines to make. Reverent register, no doctrine.
 
-> [shared preamble] Divided strings held very quietly, a small wordless choir at
-> the edge of audibility, a low organ-like tone that never articulates. One
-> phrase passed between sections, each hand-off slightly out of tune with the
-> last. Warm, patient, watchful. The sound of someone keeping a watch through
-> the night rather than a ceremony being performed.
+| Field | |
+|---|---|
+| **Style** | slow orchestral, hymn-adjacent, sacred minimalism, unmetered |
+| **Mood** | reverent, watchful, warm, patient |
+| **Instruments** | divided strings, distant wordless choir, low organ drone |
+| **Production** | one phrase passed between sections, each hand-off slightly out of tune with the last, station hum underneath |
+| **Exclude** | triumphant brass, hero theme, timpani, epic trailer, plainchant, church bells, percussion |
+| **Form** | instrumental, 90 s, seamless loop |
 
-> Short style tag: *slow orchestral, divided strings, distant wordless choir, low
-> organ drone, hymn-adjacent, restrained, no percussion*
-
-Negative, in addition: no triumphant brass, no hero theme, no timpani swell, no
-epic-trailer orchestration, no plainchant quotation, no church bells.
+Someone keeping a watch through the night, not a ceremony being performed.
 
 ### Orbital Five-O — "Sci-fi ambient"
 
@@ -223,17 +293,16 @@ The young-adult tier and the procedural thread. The only edition allowed real
 forward motion — its tagline is *racing to decide what's true* — and the one
 place the Hawaii Five-0 echo in the brand name may be heard at all.
 
-> [shared preamble] A taut two-chord vamp under an analogue arpeggio that runs
-> the whole length without resolving. A tremolo-reverb guitar figure, wiry and
-> reverbed, stating a hook once and leaving. A dry tick keeping time a fraction
-> late. Procedural, alert, forward-leaning, cool rather than warm.
+| Field | |
+|---|---|
+| **Style** | sci-fi ambient, procedural, two-chord vamp, minimal, mid-tempo |
+| **Mood** | taut, alert, cool, forward-leaning |
+| **Instruments** | analogue arpeggio, tremolo reverb guitar, upright bass, dry rim tick |
+| **Production** | arpeggio runs the whole length without resolving, guitar states its hook once and leaves, tick sits a fraction behind the beat |
+| **Exclude** | brass fanfare, surf rock kit, full drum groove, sixties pastiche, orchestral hit |
+| **Form** | instrumental, 90 s, seamless loop |
 
-> Short style tag: *sci-fi ambient procedural, analogue arpeggio, reverb tremolo
-> guitar, two-chord vamp, taut, late tick, no fanfare*
-
-Negative, in addition: no brass fanfare, no surf-rock kit or full drum groove,
-no sixties pastiche played straight. The echo is a nod, and a nod held longer
-than a moment becomes a costume.
+The Five-0 echo is a nod; a nod held longer than a moment becomes a costume.
 
 ### Undercover Pets — "Playful ukulele"
 
@@ -244,18 +313,16 @@ under a ukulele is a joke worth making — but **the drift resolves here.** The
 wobble bends and lands back in tune. It is the one edition where the thing that
 is wrong everywhere else comes right, and that is the gag.
 
-> Instrumental. Ukulele, brushed kit, upright bass walking, glockenspiel,
-> finger snaps, a muted trumpet answering one phrase. Light swing, spy-jazz
-> caper energy, small and clever rather than big. A low station hum underneath,
-> played straight-faced. Any pitch bend resolves cleanly back into tune. Warm,
-> bright, unbothered.
+| Field | |
+|---|---|
+| **Style** | ukulele spy jazz, light swing, caper, small combo, major key |
+| **Mood** | playful, clever, bright, unbothered |
+| **Instruments** | ukulele, brushed kit, walking upright bass, glockenspiel, finger snaps, muted trumpet |
+| **Production** | low station hum underneath played straight-faced, any pitch bend resolves cleanly back into tune |
+| **Exclude** | melancholy, minor key, ambient pads, toy piano nursery, cartoon sound effects, animal noises |
+| **Form** | instrumental, 90 s, seamless loop |
 
-> Short style tag: *ukulele spy jazz, brushed kit, walking upright bass,
-> glockenspiel, muted trumpet, light swing, playful*
-
-Negative: no melancholy, no minor-key wistfulness, no ambient pads, no cutesy
-toy-piano nursery register (clever, not infantile), no cartoon sound effects, no
-meowing.
+Clever, not infantile — and the wobble comes right, which is the gag.
 
 ### Church Space — no theme of its own
 
@@ -284,20 +351,26 @@ between them is the entry's whole point:
 
 **Take A — the dock recording.** Slipwave as they were: three people, one room.
 
-> Spacer folk. Female lead vocal, close and unpolished, slightly ahead of the
-> beat. One acoustic guitar, sparse hand percussion, a low whistle on the chorus
-> only. Recorded on a single microphone in a dock common room: room tone, chair
-> noise, a low structural hum audible throughout, a small pitch drift on the
-> sustained notes. Reluctant rather than declarative. Nobody in the room thinks
-> this is going anywhere.
+| Field | |
+|---|---|
+| **Style** | spacer folk, acoustic, live room recording, slow 3/4 |
+| **Mood** | reluctant, intimate, unpolished, quietly hopeful |
+| **Instruments** | female lead vocal, one acoustic guitar, sparse hand percussion, low whistle on the chorus only |
+| **Production** | single microphone in a small room, room tone and chair noise audible, low structural hum throughout, slight pitch drift on sustained notes, vocal a shade ahead of the beat |
+| **Exclude** | studio polish, reverb wash, string section, drum kit, backing vocals, autotune, double-tracked vocal |
+| **Form** | vocal, lyrics as published, full song |
 
 **Take B — the cadet muster.** The same song years later, sung by people who do
 not know who wrote it.
 
-> The same melody sung unaccompanied by twenty untrained voices in a large hard
-> room. Slightly ragged unison, one octave, the chorus louder and more certain
-> than the verses. Ambient recording made from within the group, not in front of
-> it. No instruments. Reverberant, imperfect, communal.
+| Field | |
+|---|---|
+| **Style** | a cappella group singing, field recording, communal |
+| **Mood** | ragged, certain, unpolished, collective |
+| **Instruments** | twenty untrained voices in unison, one octave, no instruments |
+| **Production** | large hard-walled room, long natural reverb, recorded from inside the group rather than in front of it, chorus louder and surer than the verses |
+| **Exclude** | choir arrangement, harmony parts, soloist, instruments, studio reverb, applause |
+| **Form** | vocal, same lyrics and melody as Take A |
 
 Lyrics verbatim from the entry. The chorus must sit inside a range a room full
 of non-singers can hold — that is the in-world reason it spread, and a take
@@ -316,10 +389,19 @@ becomes false about its own audio. **Prefer not to regenerate.** If a second tak
 is wanted anyway, the entry's note is part of the work and gets reviewed in the
 same pass.
 
-Brief, if that day comes: same session and same three musicians as Take A above,
-slower, more personal, sung to one person rather than a room. Played, not
-performed. The entry's own line for the register — *usually while a ship is
-overdue*.
+Brief, if that day comes — same session and same three musicians as Take A,
+changed only where the register changes:
+
+| Field | |
+|---|---|
+| **Style** | spacer folk ballad, slow, elegy, live room |
+| **Mood** | grieving, tender, restrained, private |
+| **Instruments** | female lead vocal, acoustic guitar, one bowed string, no percussion |
+| **Production** | as Take A, closer to the microphone and quieter; sung to one person rather than to a room |
+| **Exclude** | swell, key change, drums, choir, orchestration |
+| **Form** | vocal, lyrics as published — confirmed lines only, scaffolding verses **not** sung |
+
+The entry's own line for the register: *usually while a ship is overdue*.
 
 ### *Baby Universe*
 
@@ -327,10 +409,14 @@ overdue*.
 the recording circulates **unattributed, hand to hand**, with no credited
 performer.
 
-> One voice, unaccompanied or with a single quiet instrument, recorded on
-> whatever was to hand. Imperfect intonation, an audible room, a breath before
-> the chorus. Not produced, not mixed, not centred. It sounds carried rather
-> than made.
+| Field | |
+|---|---|
+| **Style** | unaccompanied ballad, amateur capture, hand-to-hand recording |
+| **Mood** | plain, aching, unresolved |
+| **Instruments** | one voice; at most one quiet instrument |
+| **Production** | recorded on whatever was to hand, imperfect intonation, audible room, a breath before the chorus, off-centre and unmixed |
+| **Exclude** | production, mixing, reverb, harmony, backing track, studio vocal |
+| **Form** | vocal, lyrics as published; **verses and chorus sung differently** |
 
 **The arrangement must not smooth the pronoun shift.** The entry says the song
 opens in the third person and slips into the first for the chorus, *"so that the
@@ -345,11 +431,14 @@ had more. A take that performs both alike has removed the song.
 exists.** Ashgrove's own account of why this one is clean: *"we finally had a
 mixing booth instead of a dock common room."*
 
-> Two male voices in close harmony, arranged and rehearsed. Guitar and
-> percussion properly mic'd and separated, a low sustained pad, a controlled
-> plate reverb. Steady tempo, confident diction, an unmistakable downbeat.
-> Declarative. Made to sit under the opening titles of a training film, and
-> aware of it.
+| Field | |
+|---|---|
+| **Style** | anthem, close harmony, studio folk-rock, mid-tempo, march-adjacent |
+| **Mood** | declarative, confident, institutional, warm |
+| **Instruments** | two male voices in close harmony, acoustic guitar, kit percussion, low sustained pad |
+| **Production** | properly mic'd and separated, controlled plate reverb, steady tempo, unmistakable downbeat, **tuning true — no drift, no late pulse** |
+| **Exclude** | room noise, single-mic capture, hum, detune, hesitancy |
+| **Form** | vocal, lyrics as published, full song |
 
 **The house signature is deliberately absent here** — no drift, no late pulse,
 the tuning true. Its absence is the arrangement's argument: the glossary already
@@ -371,10 +460,14 @@ never filed as "the music of species X".
 carried through rock, felt through the body, with excavation and tuning as one
 act.
 
-> Sub-bass and low harmonic bands felt more than heard. Stone resonance, long
-> sustained partials layered at different ages, no melody and no beat. Several
-> harmonic centres coexisting without conflict. Immense, patient, entirely
-> unhurried. Nothing struck, nothing plucked — the structure itself sounding.
+| Field | |
+|---|---|
+| **Style** | drone, sub-bass, stone resonance, unmetered, no melody |
+| **Mood** | immense, patient, unhurried, alien |
+| **Instruments** | bowed metal, struck stone resonance, sustained low partials — nothing plucked |
+| **Production** | several harmonic centres coexisting without conflict, partials layered as if added in different centuries, felt more than heard |
+| **Exclude** | melody, beat, rhythm, synth pad, whale song, choir, percussion hits |
+| **Form** | instrumental, long, no development |
 
 Two limits. It is **architecture rather than performance** — a burrow-cluster is
 judged on how it sounds the way another people judge a façade, which is not the
@@ -499,6 +592,32 @@ describes. Flagging rather than fixing, since a recording's cover is his call:
 
 A canon-correct card brief is in
 [`video-prompts.md`](video-prompts.md#card-art-for-a-recording).
+
+### Two more, and one of them touches a character
+
+- **`HoldMeTillDawn_2.mp4`** — 3:28, a singer with a band on a blue-lit stage,
+  title spelled correctly, no canon connection I can find. **But the phrase
+  echoes something published**: *Baby Universe*'s chorus opens *"Hold me up, hold
+  me close"*. If the two are related that is a decision worth making explicitly
+  — a second song in the same voice, or a variant of the same one, changes what
+  `baby-universe-ballad.md` is the record of. If they are unrelated, the near-echo
+  in the title is worth avoiding for exactly that reason.
+- **`AoifeofStars_3.mp4`** — 2:59, and **the closest of all the supplied cards to
+  the house target**: a red-haired woman under a night sky, natural light, no
+  stage, no crowd, nothing glowing. Enigmatic without straining. If any of these
+  cards is the model for the rest, it is this one.
+
+  **It is also a character depiction, and that is draft-and-stop ground.**
+  `src/characters/saint-aoife.md` currently has **no portrait at all** — no
+  `image:` field and no file — so this card would be the first depiction of a
+  canon character, which needs Dermot rather than a merge. Two things to weigh
+  first: `images.md` already carries a prepared brief for her, framed
+  deliberately as *looking down at the water with no halo and no glow, because
+  the page is her refusal to claim*, and this card instead has her facing the
+  viewer. Both readings are defensible; they are not the same reading. And the
+  song title asserts an association between Aoife and the stars that her page
+  handles very carefully — she is *"never fully certain what she had seen"* —
+  so a devotional title is a claim the entry itself declines to make.
 
 ### `PaperGalaxies_5.mp4` — the one that already has a home
 

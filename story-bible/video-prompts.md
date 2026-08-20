@@ -64,6 +64,33 @@ composited cleanly by the tool. It is enigmatic without straining, it is a matte
 object in real light, and it is exactly what a still should be if a piece is
 going to be one. It became scene 11 below.
 
+### The one supplied Grok clip, read the same way
+
+`grok_video_20260605000549.mp4` — 30 s, 448×672, 24 fps with audio: three
+dancers in neon bodysuits shuffling on a club stage under moving lights, an LED
+wall behind them reading *SHUFFLE TRANSCENDENCE* (and, in two frames, not quite
+reading it). It is competent and it moves well, which is the case for keeping
+Grok in the pipeline.
+
+**Three notes, one of which is a canon flag:**
+
+- **Low-gravity shuffle dance is not canon.** It comes from the 26 July intake,
+  and that intake's own check column marks it — with the cross-species
+  translation methodology — as *"Neither exists in canon"*. Establishing it is a
+  lore or glossary decision, not something a video settles.
+- **If it does get established, the low gravity is the entire point.** The intake
+  describes microgravity drift, magnetic-sole footwork and tether-assisted spins
+  — *"movement vocabulary impossible in full gravity"*. This clip is a full-gravity
+  club floor, which is the one version that says nothing the reader could not see
+  on Earth tonight. The shot to want is a dancer who **lands too late**, which is
+  also the house signature.
+- **Text in frame, again**, and garbled in two frames out of eight. Third file
+  in a row. The rule is not a preference.
+
+And the same register drift as the band cards: an arena, a crowd, matched
+costumes, moving lights. Slipwave played dock common rooms. Whatever this clip
+is for, it is not them.
+
 ### The format already has an in-universe reading
 
 Before treating the still-over-audio wrapper as merely a limitation: the record
@@ -182,10 +209,57 @@ never on its beat.** A cut on every fourth bar is a promo; this is not one.
 > horror imagery. No time-lapse clouds, no slow-motion explosion, no
 > hyperspace star streaks. Not a music-video montage, not a trailer.
 
+### Tools
+
+**Current tool: Grok Imagine, and it is genuinely well suited to two of the four
+jobs here.** It is fast, cheap, generates native audio, and its clip length —
+6–15 s, extendable to about 30 s by chaining — is the right size for the scene
+library below, where nearly every entry is one held shot rather than a sequence.
+The 30 s portrait clip already in `src/video/` is exactly its output shape.
+
+**Where it stops, measured against this file's own specs:**
+
+- **720p is the ceiling** (480p on the entry tier), against a site whose still
+  images are ~1600 px on the long edge. A Grok clip cannot be finished at 1080p,
+  only upscaled, and upscaled footage next to native footage reads instantly.
+- **Portrait by default.** Fine for a social cut, wrong for anything that sits
+  in a page beside 16:9 stills.
+- **Camera control is its weak axis**, and the house motion signature is almost
+  entirely camera: a slow push that does not arrive, a drift that never settles,
+  no cut. That is the one thing to buy elsewhere.
+
+**So: keep Grok for what it is good at.** Look development, testing a framing
+before spending on it, and any shot where the subject moves and the camera
+merely watches. Roughs are worth more than they look — half the scenes below
+will turn out wrong in ways only a moving version reveals.
+
+**For finishing, keyed to the shot rather than ranked:**
+
+| Shot | Tool | Why |
+|---|---|---|
+| Camera-led — scenes 1, 2, 3, 12 | **Runway Gen-4.5** | The strongest at taking camera direction and holding it, plus generative editing for fixing one element without re-rolling. The whole house signature lives on this axis. |
+| Material and naturalistic — 7, 8, 11 | **Veo 3.1** | Closest to high-end stock footage, best on natural surfaces, fabric, dust and hair, native audio, 1080p. |
+| Anything with people moving — 3 | **Kling 3.0** | Human motion is its axis. |
+
+Two notes with dates on them, because this moves fast: **Sora 2 was deprecated
+in April 2026** with its API shutting down that September, so do not build a
+pipeline on it; and **Seedance 2.0 and HappyHorse-1.0** took the top leaderboard
+slots in early 2026 without me having tested either against this brief. Check
+before committing to a subscription — this table will go stale faster than
+anything else in the file.
+
+**The one thing no generator does:** the title text. Composite it afterwards, in
+a real typeface, spelled correctly. That is not a tool recommendation, it is the
+same rule as everywhere else here.
+
 ### Delivery
 
 - **1920×1080, 24 fps** as the default. Vertical 1080×1920 only for a social cut,
   generated as its own frame rather than cropped out of the wide one.
+- **If a piece is Grok-sourced end to end, hold the whole thing at 720p 16:9**
+  rather than mixing tiers. Consistency reads better than a resolution number,
+  and a uniformly 720p piece looks made; a 480p shot inside a 1080p one looks
+  broken.
 - **Generate 5–10 s clips and assemble.** No current tool holds a coherent
   three-minute take, and pretending otherwise is what produces the drifting-face
   problem. A 3½-minute piece is 20–30 generations, most of them discarded.

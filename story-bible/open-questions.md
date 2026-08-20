@@ -336,6 +336,19 @@ but larger, because nothing in the toolchain looks at `src/video/` at all.
 - **Should `PaperGalaxies_5` be attached to its own audit?**
   `paper-galaxies-audit-dialogue.md` already describes that exact artifact and
   embeds no player. Live page, so a proposal.
+- **Is *Hold Me Till Dawn* related to *Baby Universe*?** Its title echoes that
+  song's published chorus (*"Hold me up, hold me close"*). Related is a decision
+  about what `baby-universe-ballad.md` records; unrelated is a reason to change
+  the title.
+- **Does Saint Aoife get her portrait from *Aoife of Stars*?** She has no
+  `image:` and no file, so this would be the first depiction of her —
+  draft-and-stop. `images.md` already holds a different prepared brief for her
+  (looking down at the water, no halo, no glow), and the song's devotional title
+  claims an association her page deliberately declines.
+- **Is low-gravity shuffle dance canon?** The 26 July intake marks it as not
+  existing in canon; a supplied Grok clip depicts it, in full gravity. If it is
+  to be established, the microgravity is the whole of what makes it worth
+  establishing.
 - **The three band cards contradict Slipwave** — wrong lineup, wrong register,
   a singer who is not Shepherd, and one garbled caption. Adopting photographic
   band art would also break the four-entry designed-cover set and invalidate its
