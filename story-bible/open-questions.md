@@ -395,22 +395,23 @@ not evaporate between sessions.
   repo, or open creation. Tracked as **#432**; the recommendation is reword,
   since that file binds him to other people and is draft-and-stop.
 - **[Proverbs and Maxims of the Star Rangers](../src/lore/star-rangers-proverbs-and-maxims.md)**, drafted 18 August 2026 and not merged — a lore entry asserts about the world, so it is draft-and-stop. Two of its sayings are new rather than collected (*"Quiet is not doubt; loud is not certain"* and *"The pleasing reading is checked first"*, from his humility note of the same date); the rest are sourced to existing pages. Separately, the survey behind that note found the corpus holds only the *good* version of humility — grounded, correctly refusing flattery — and nobody yet embodies **Humility can become invisibility**. Worth confirming before anyone writes to the theme, since the pair only works if both halves exist on the page. See `ideas.md`, *Humility as Confidence*.
-- **The domain tier families — four decisions still open.** Search Console
-  warned about duplicate content on 20 August 2026; Dermot's direction the same
-  day settled the shape (four families, one per reading tier; each picks one
-  site to rank; each deployment inside a family gets a faction or chapter-house
-  specialisation). Measured: the fellowship and church-space editions serve the
-  **identical 62 indexable pages**, 0 unique to either — six domains, one page
-  set. `ranksAt` is implemented and the contemplative family ranks at
-  fellowshipoflight.org. Still his: **(1)** the fourth Fellowship chapter house,
-  which does not exist in canon — name one, or front the operational chapter
-  instead (recommended, needs no invention); **(2)** whether to name Brother
-  Daire's tidal-river abbey and Asteria's green-hill house, both canon and both
-  unnamed; **(3)** whether church-space.site/.online really give up ranking,
-  which is what one-site-per-family means with families as tiers; **(4)** which
-  faction fronts starquest.online. Note the trap: **Cnoc na mBeach is
-  explicitly not a Fellowship house** and cannot be the fourth. Full write-up,
-  measurements and the canon audit in
+- **The domain tier families — two decisions still open.** Search Console
+  warned about duplicate content on 20 August 2026; Dermot's direction settled
+  the shape (four families, one per reading tier; each picks one site to rank;
+  each deployment specialised) and the amendment the same day settled three of
+  the four open questions. Answered: the missing fourth chapter house dissolves
+  — the ranking domain carries the Fellowship entire and the three siblings take
+  the three houses canon actually has; houses 2 and 3 stay **unnamed** and are
+  fronted by description; starquest.online is demoted from a build to an alias.
+  Still his: **(1)** whether church-space.site/.online really give up ranking,
+  or whether contemplative is better read as *two* families (Fellowship and
+  Communion) each ranking its own; **(2)** whether framing-only specialisation
+  justifies six builds, or whether the three unnamed-house domains should be
+  aliases until they have pages of their own. The constraint behind both:
+  `lib/content-filter.js` **unions** its filters, so a tag cannot subdivide a
+  thread and no contemplative domain can be content-narrowed without gutting it
+  — specialisation is framing-only until the houses accumulate material, which
+  makes "four chapter houses" a writing programme. Full write-up in
   `domain-strategy-and-duplicate-content.md`.
 - **The Fold Transit Safety branch origin story**, **#430**. Boundary Safety
   and AI Safety each got a history on 16 August; Fold Transit is named and
