@@ -158,6 +158,24 @@ named for the factions**, not for repurposing what is already held — with
 `fellowshipoflight.site` the one honest exception, since the Fellowship's own
 archive belongs on a Fellowship domain.
 
+### The demotions need a cPanel change the merge cannot make
+
+Worth stating plainly, because the merge looks like the whole job and is not.
+Removing a domain from `lib/editions.js` does not make it an alias — that is a
+cPanel operation, pointing the addon domain at its target's document root. Until
+it is done, a demoted domain whose `ALT_DOMAINS` build is still configured
+resolves as unregistered, and if `deploy.conf` leaves its keys unset it builds
+the **full unfiltered site**: 566 indexable pages instead of 62, unbranded,
+self-canonicalling, with a 443-URL sitemap. Four of those would be four new
+duplicates of the canonical domain — the exact failure this file exists to
+close. (No privacy consequence: an unfiltered build still excludes the private
+thread, which is what `private: true` is for.)
+
+Since 2026-08-20 `scripts/cpanel-deploy.sh` refuses that build rather than
+shipping it, so the failure is now loud and the ordering is forgiving: merge and
+cPanel can happen in either order, and the gap between them fails visibly
+instead of quietly publishing duplicates.
+
 ### What was demoted, and why
 
 | Domain | Was | Failed on |
