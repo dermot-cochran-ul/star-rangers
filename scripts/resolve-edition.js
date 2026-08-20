@@ -77,6 +77,7 @@ if (!isRegistered || !resolved) {
   out.push(`RESOLVED_TOPICS=${shellQuote(list(resolved.topics))}`);
   out.push(`RESOLVED_SITE_NAME=${shellQuote(resolved.siteName || "")}`);
   out.push(`RESOLVED_SITE_TITLE=${shellQuote(resolved.siteTitle || "")}`);
+  out.push(`RESOLVED_RANKS_AT=${shellQuote(resolved.ranksAt || "")}`);
   out.push(`RESOLVED_GISCUS_PROFILE=${shellQuote(resolved.giscusProfile || "")}`);
   out.push(`RESOLVED_COMMENTS_ENABLED=${shellQuote(resolved.commentsEnabled === false ? "false" : "true")}`);
 }

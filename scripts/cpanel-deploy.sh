@@ -169,6 +169,7 @@ resolve_edition() {
   RESOLVED_SITE_TITLE=""
   RESOLVED_GISCUS_PROFILE=""
   RESOLVED_COMMENTS_ENABLED=""
+  RESOLVED_RANKS_AT=""
   # An unreadable or malformed registry must not take the deploy down: the
   # build itself validates lib/editions.js (see validateEditions in it), so a
   # failure here means something is wrong with node or the file, and the right
@@ -277,6 +278,59 @@ fill_from_registry() {
   fi
 }
 
+# ---------------------------------------------------------------------------
+# assert_identity(): refuse to deploy a domain nothing has given an identity.
+#
+# THE FAILURE THIS EXISTS FOR, measured 2026-08-20. A domain that is not in
+# lib/editions.js gets RESOLVED_EDITION='' and every other RESOLVED_* empty, and
+# fill_from_registry then correctly leaves deploy.conf's own values alone. If
+# deploy.conf also says nothing - which is the whole point of the two-key
+# minimal config - the build runs with THEME defaulted to "default" and no
+# CHARACTERS/TOPICS/THREADS at all. That is not a small misconfiguration. An
+# unfiltered build is the FULL SITE: 566 indexable pages instead of a narrowed
+# clone's 60-90, unbranded, with its own 443-URL sitemap, self-canonicalling.
+# Deployed to a domain meant to be an alias, it is a brand-new full duplicate of
+# the canonical site - the exact thing ranksAt and the alias demotions exist to
+# prevent - and the deploy reports success while doing it.
+#
+# Two ways in, and both have now actually happened in this repo's history:
+# removing a domain from the registry while its ALT_DOMAINS build is still
+# configured on the server (the 2026-08-20 demotions, which need a cPanel alias
+# conversion the merge cannot perform), and an editing accident that drops an
+# edition entry - which wiped `starquest` and `pets` mid-session the same day and
+# was caught by luck rather than by anything here.
+#
+# The check is deliberately narrow. It fires only when NEITHER source supplied
+# an identity, so a domain configured entirely in deploy.conf (the pre-registry
+# arrangement, still supported) passes untouched, and so does any registered
+# domain. It asks for a THEME, a SITE_NAME or a filter - any one of the three is
+# somebody having made a decision about this domain. It does not fire for the
+# canonical full-site build, which is registered and whose emptiness is a
+# decision recorded in lib/editions.js.
+assert_identity() {
+  local ai_label ai_domain ai_edition ai_theme ai_site_name ai_characters ai_topics ai_threads
+  ai_label="$1"; ai_domain="$2"; ai_edition="$3"; ai_theme="$4"; ai_site_name="$5"
+  ai_characters="$6"; ai_topics="$7"; ai_threads="$8"
+
+  # Registered, or told what it is by deploy.conf: nothing to complain about.
+  [ -n "$ai_edition" ] && return 0
+  [ -n "$ai_theme" ] && return 0
+  [ -n "$ai_site_name" ] && return 0
+  [ -n "$ai_characters$ai_topics$ai_threads" ] && return 0
+
+  echo "FAIL [$ai_label]: '$ai_domain' has no identity from either source." >&2
+  echo "FAIL [$ai_label]:   lib/editions.js does not list it, and deploy.conf sets no" >&2
+  echo "FAIL [$ai_label]:   THEME, SITE_NAME, CHARACTERS, TOPICS or THREADS for it." >&2
+  echo "FAIL [$ai_label]:   Deploying anyway would serve the FULL unfiltered site here," >&2
+  echo "FAIL [$ai_label]:   unbranded and self-canonicalling - a duplicate of the canonical" >&2
+  echo "FAIL [$ai_label]:   domain. Refusing." >&2
+  echo "FAIL [$ai_label]:   If this domain should be an ALIAS, remove it from ALT_DOMAINS" >&2
+  echo "FAIL [$ai_label]:   and point it at its target's document root in cPanel." >&2
+  echo "FAIL [$ai_label]:   If it should be a BUILD, add it to lib/editions.js or set its" >&2
+  echo "FAIL [$ai_label]:   identity in deploy.conf." >&2
+  return 1
+}
+
 resolve_edition "$DOMAIN" "primary"
 fill_from_registry EDITION "$RESOLVED_EDITION" primary EDITION
 fill_from_registry THEME "$RESOLVED_THEME" primary THEME
@@ -287,6 +341,24 @@ fill_from_registry SITE_NAME "$RESOLVED_SITE_NAME" primary SITE_NAME
 fill_from_registry SITE_TITLE "$RESOLVED_SITE_TITLE" primary SITE_TITLE
 fill_from_registry GISCUS_PROFILE "$RESOLVED_GISCUS_PROFILE" primary GISCUS_PROFILE
 fill_from_registry COMMENTS_ENABLED "$RESOLVED_COMMENTS_ENABLED" primary COMMENTS_ENABLED
+
+# ranksAt is registry-only and has no deploy.conf key, so it takes no
+# fill_from_registry pass - which side of the server/repo seam it falls on is
+# the whole point. Which domain in a family carries the ranking signal is a
+# decision about live sites, reviewable in a pull request; it is exactly the
+# class of thing lib/editions.js exists to hold and an untracked file on a
+# cPanel account must not be able to override quietly.
+#
+# Captured here rather than read at the call site because the ALT_DOMAINS loop
+# below calls resolve_edition again per domain, overwriting every RESOLVED_*
+# global. The primary build runs first today and would read the right value by
+# luck; this does not depend on that ordering.
+PRIMARY_RANKS_AT="$RESOLVED_RANKS_AT"
+
+# Checked BEFORE the THEME default below, which is what makes the check possible
+# at all: once THEME is "default" there is no way to tell a domain that chose the
+# main palette from one nobody configured.
+assert_identity primary "$DOMAIN" "$EDITION" "$THEME" "$SITE_NAME" "$CHARACTERS" "$TOPICS" "$THREADS" || exit 1
 
 # Normalise the two keys whose pre-set defaults had to become empty above, so
 # everything downstream sees exactly the values it always saw.
@@ -374,7 +446,7 @@ build_and_deploy() {
   # Unrecognized names fail loudly rather than being exported blindly, same
   # spirit as the CUSTOM_LORE_FILE/CUSTOM_CSS_FILE "missing file" checks
   # further down.
-  local COMMENTS_ENABLED="true" SITE_NOINDEX=""
+  local COMMENTS_ENABLED="true" SITE_NOINDEX="" SITE_RANKS_AT=""
   # EDITION must be threaded through and exported separately from THEME, not
   # derived from it. lib/editions.js falls back to THEME when EDITION is unset,
   # which covers a clone that predates the registry - but the entire point of
@@ -392,6 +464,7 @@ build_and_deploy() {
     case "$b_kv_name" in
       COMMENTS_ENABLED) COMMENTS_ENABLED="$b_kv_value" ;;
       SITE_NOINDEX) SITE_NOINDEX="$b_kv_value" ;;
+      SITE_RANKS_AT) SITE_RANKS_AT="$b_kv_value" ;;
       EDITION) EDITION="$b_kv_value" ;;
       GISCUS_PROFILE) GISCUS_PROFILE="$b_kv_value" ;;
       GISCUS_REPO) GISCUS_REPO="$b_kv_value" ;;
@@ -423,7 +496,7 @@ build_and_deploy() {
         SITE_NAME="$b_site_name" SITE_TITLE="$b_site_title" SITE_DOMAIN="$b_site_domain"
   export EDITION
   export CHARACTERS TOPICS THREADS THEME SITE_NAME SITE_TITLE SITE_DOMAIN COMMENTS_ENABLED \
-    SITE_NOINDEX \
+    SITE_NOINDEX SITE_RANKS_AT \
     GISCUS_PROFILE GISCUS_REPO GISCUS_REPO_ID GISCUS_CATEGORY_CHARACTERS_ID GISCUS_CATEGORY_LORE_ID \
     GISCUS_CATEGORY_EPISODES_ID GISCUS_CATEGORY_JOURNAL_ID
 
@@ -640,6 +713,7 @@ main() {
          "$THEME" "$CHARACTERS" "$TOPICS" "$THREADS" "$SITE_NAME" "$SITE_TITLE" "$DOMAIN" \
          "$CUSTOM_LORE_FILE" "$CUSTOM_CSS_FILE" "COMMENTS_ENABLED=$COMMENTS_ENABLED" \
          "SITE_NOINDEX=$SITE_NOINDEX" \
+         "SITE_RANKS_AT=$PRIMARY_RANKS_AT" \
          "EDITION=$EDITION" \
          "GISCUS_PROFILE=$GISCUS_PROFILE" \
          "GISCUS_REPO=$GISCUS_REPO" "GISCUS_REPO_ID=$GISCUS_REPO_ID" \
@@ -740,6 +814,12 @@ main() {
     fill_from_registry alt_site_title "$RESOLVED_SITE_TITLE" "$id" SITE_TITLE
     fill_from_registry alt_giscus_profile "$RESOLVED_GISCUS_PROFILE" "$id" GISCUS_PROFILE
     fill_from_registry alt_comments_enabled "$RESOLVED_COMMENTS_ENABLED" "$id" COMMENTS_ENABLED
+    if ! assert_identity "$id" "$alt_domain" "$alt_edition" "$alt_theme" "$alt_site_name" \
+         "$alt_characters" "$alt_topics" "$alt_threads"; then
+      overall_status=1
+      result_lines+=("FAIL $id ($alt_domain - no identity from registry or deploy.conf)")
+      continue
+    fi
     alt_theme="${alt_theme:-default}"
     alt_comments_enabled="${alt_comments_enabled:-true}"
 
@@ -747,6 +827,7 @@ main() {
          "$alt_site_name" "$alt_site_title" "$alt_domain" "$alt_custom_lore" "$alt_custom_css" \
          "COMMENTS_ENABLED=$alt_comments_enabled" \
          "SITE_NOINDEX=$alt_site_noindex" \
+         "SITE_RANKS_AT=$RESOLVED_RANKS_AT" \
          "EDITION=$alt_edition" \
          "GISCUS_PROFILE=$alt_giscus_profile" \
          "GISCUS_REPO=$alt_giscus_repo" "GISCUS_REPO_ID=$alt_giscus_repo_id" \

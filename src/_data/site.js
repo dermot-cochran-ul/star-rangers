@@ -43,10 +43,27 @@ module.exports = function () {
   // (see src/robots.njk and src/_includes/base.njk).
   const noindex = String(process.env.SITE_NOINDEX || "").toLowerCase() === "true";
 
+  // SITE_RANKS_AT names the domain in this build's tier family that carries
+  // the ranking signal (lib/editions.js's `ranksAt`, threaded through by
+  // scripts/cpanel-deploy.sh). Compared against this build's own domain: equal
+  // or empty means self-canonical, different means every page canonicals to
+  // the same path on that host. Normalised the same way `domain` is so a
+  // trailing slash or a stray scheme can't make a host compare unequal to
+  // itself and silently canonicalise a family's ranking domain away from
+  // itself - the one failure mode here that would be invisible and total.
+  const ranksAtRaw = String(process.env.SITE_RANKS_AT || "")
+    .replace(/^https?:\/\//i, "")
+    .replace(/\/+$/, "");
+  const ranksAt = ranksAtRaw && ranksAtRaw !== domain ? ranksAtRaw : "";
+
   return {
     name,
     title,
     noindex,
+    // Empty unless this build is a NON-ranking member of its family; the
+    // ranking domain and any family of one both see "".
+    ranksAt,
+    canonicalBase: ranksAt ? `https://${ranksAt}/` : `https://${domain}/`,
     description: "Fian Ilchruinne is an interactive science-fantasy novel of the Grand Ensemble Multiverse: a station clock forty seconds wrong, and the Star Rangers ordered to measure the drift and guard the public record. The stars call us forward with hope; to protect what is good and to see what is true. One canonical history across the Five Layers and multiple Concordants.",
     url: `https://${domain}/`,
     author: "Fian Ilchruinne",

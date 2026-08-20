@@ -32,5 +32,7 @@ User-agent: Perplexity-User
 User-agent: CCBot
 Allow: /
 
-Sitemap: {{ site.url }}sitemap.xml
+{% if not site.ranksAt %}Sitemap: {{ site.url }}sitemap.xml{% else %}# No Sitemap line: this domain is a non-ranking member of its tier family
+# (lib/editions.js's `ranksAt`) and canonicals every page to the domain that
+# does rank, whose sitemap is the one worth crawling.{% endif %}
 {%- endif %}
