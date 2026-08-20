@@ -170,6 +170,7 @@ resolve_edition() {
   RESOLVED_GISCUS_PROFILE=""
   RESOLVED_COMMENTS_ENABLED=""
   RESOLVED_RANKS_AT=""
+  RESOLVED_ALIAS_OF=""
   # An unreadable or malformed registry must not take the deploy down: the
   # build itself validates lib/editions.js (see validateEditions in it), so a
   # failure here means something is wrong with node or the file, and the right
@@ -279,56 +280,73 @@ fill_from_registry() {
 }
 
 # ---------------------------------------------------------------------------
-# assert_identity(): refuse to deploy a domain nothing has given an identity.
+# assert_not_alias(): refuse to BUILD a domain this project has said is an alias.
 #
-# THE FAILURE THIS EXISTS FOR, measured 2026-08-20. A domain that is not in
-# lib/editions.js gets RESOLVED_EDITION='' and every other RESOLVED_* empty, and
-# fill_from_registry then correctly leaves deploy.conf's own values alone. If
-# deploy.conf also says nothing - which is the whole point of the two-key
-# minimal config - the build runs with THEME defaulted to "default" and no
-# CHARACTERS/TOPICS/THREADS at all. That is not a small misconfiguration. An
-# unfiltered build is the FULL SITE: 566 indexable pages instead of a narrowed
-# clone's 60-90, unbranded, with its own 443-URL sitemap, self-canonicalling.
-# Deployed to a domain meant to be an alias, it is a brand-new full duplicate of
-# the canonical site - the exact thing ranksAt and the alias demotions exist to
-# prevent - and the deploy reports success while doing it.
+# THE FAILURE THIS EXISTS FOR, measured 2026-08-20. Removing a domain from an
+# edition's `domains` does not make it an alias - that is a cPanel operation,
+# pointing the addon domain at its target's document root - and the merge that
+# removes it cannot perform that step. In the gap, a still-configured
+# ALT_DOMAINS entry resolves to no edition, and if deploy.conf leaves its keys
+# unset the build runs with THEME defaulted and no CHARACTERS/TOPICS/THREADS.
+# An unfiltered build is the FULL SITE: 566 indexable pages instead of a
+# narrowed clone's 60-90, unbranded, with its own 443-URL sitemap, self-
+# canonicalling. On a domain meant to be an alias that is a brand-new duplicate
+# of the canonical site, and the deploy reports success while doing it.
 #
-# Two ways in, and both have now actually happened in this repo's history:
-# removing a domain from the registry while its ALT_DOMAINS build is still
-# configured on the server (the 2026-08-20 demotions, which need a cPanel alias
-# conversion the merge cannot perform), and an editing accident that drops an
-# edition entry - which wiped `starquest` and `pets` mid-session the same day and
-# was caught by luck rather than by anything here.
+# WHY IT KEYS OFF THE ALIAS MAP AND NOT OFF "HAS NO IDENTITY". An earlier
+# version of this check refused any domain that neither the registry nor
+# deploy.conf had configured, and that was wrong in a way worth recording: it
+# broke third-party forks. A fork deploying to its own domain resolves no
+# edition here and never will - lib/editions.js is this project's registry, not
+# a domain allow-list - and the two-key minimum deploy.conf (CPANEL_USER +
+# DOMAIN) is a documented, supported path that FORKING.md promises. Refusing to
+# deploy an unknown domain would have made an independent deployment impossible
+# without adopting our registry, which is exactly the coupling FORKING.md exists
+# to prevent.
 #
-# The check is deliberately narrow. It fires only when NEITHER source supplied
-# an identity, so a domain configured entirely in deploy.conf (the pre-registry
-# arrangement, still supported) passes untouched, and so does any registered
-# domain. It asks for a THEME, a SITE_NAME or a filter - any one of the three is
-# somebody having made a decision about this domain. It does not fire for the
-# canonical full-site build, which is registered and whose emptiness is a
-# decision recorded in lib/editions.js.
-assert_identity() {
-  local ai_label ai_domain ai_edition ai_theme ai_site_name ai_characters ai_topics ai_threads
-  ai_label="$1"; ai_domain="$2"; ai_edition="$3"; ai_theme="$4"; ai_site_name="$5"
-  ai_characters="$6"; ai_topics="$7"; ai_threads="$8"
+# So the rule is narrow and stated positively: we refuse a host we have NAMED as
+# an alias. Silence about a domain is no opinion, not refusal. An unknown domain
+# builds the full site exactly as it always has.
+assert_not_alias() {
+  local ana_label ana_domain ana_alias_of
+  ana_label="$1"; ana_domain="$2"; ana_alias_of="$3"
 
-  # Registered, or told what it is by deploy.conf: nothing to complain about.
-  [ -n "$ai_edition" ] && return 0
-  [ -n "$ai_theme" ] && return 0
-  [ -n "$ai_site_name" ] && return 0
-  [ -n "$ai_characters$ai_topics$ai_threads" ] && return 0
+  [ -z "$ana_alias_of" ] && return 0
 
-  echo "FAIL [$ai_label]: '$ai_domain' has no identity from either source." >&2
-  echo "FAIL [$ai_label]:   lib/editions.js does not list it, and deploy.conf sets no" >&2
-  echo "FAIL [$ai_label]:   THEME, SITE_NAME, CHARACTERS, TOPICS or THREADS for it." >&2
-  echo "FAIL [$ai_label]:   Deploying anyway would serve the FULL unfiltered site here," >&2
-  echo "FAIL [$ai_label]:   unbranded and self-canonicalling - a duplicate of the canonical" >&2
-  echo "FAIL [$ai_label]:   domain. Refusing." >&2
-  echo "FAIL [$ai_label]:   If this domain should be an ALIAS, remove it from ALT_DOMAINS" >&2
-  echo "FAIL [$ai_label]:   and point it at its target's document root in cPanel." >&2
-  echo "FAIL [$ai_label]:   If it should be a BUILD, add it to lib/editions.js or set its" >&2
-  echo "FAIL [$ai_label]:   identity in deploy.conf." >&2
+  echo "FAIL [$ana_label]: '$ana_domain' is registered as an ALIAS of '$ana_alias_of'," >&2
+  echo "FAIL [$ana_label]:   so it must not be built. Building it would serve the full" >&2
+  echo "FAIL [$ana_label]:   unfiltered site here, unbranded and self-canonicalling - a" >&2
+  echo "FAIL [$ana_label]:   duplicate competing with the domain it is meant to point at." >&2
+  echo "FAIL [$ana_label]:   Fix: remove '$ana_domain' from ALT_DOMAINS in deploy.conf and" >&2
+  echo "FAIL [$ana_label]:   point it at '$ana_alias_of' in cPanel (Domains -> the addon" >&2
+  echo "FAIL [$ana_label]:   domain's document root)." >&2
+  echo "FAIL [$ana_label]:   If it should be a BUILD again, remove it from ALIASES in" >&2
+  echo "FAIL [$ana_label]:   lib/editions.js and give it an edition entry." >&2
   return 1
+}
+
+# warn_no_identity(): says so, and carries on.
+#
+# The case the alias check deliberately does not cover: a domain nobody has
+# configured anywhere. For a third-party fork that is normal and correct - the
+# full site is what they want - so this must never fail a deploy. For this
+# project it is usually an accident, and one that has actually happened: an
+# editing slip dropped the `starquest` and `pets` entries on 2026-08-20 and both
+# domains silently resolved as unregistered. A line in the deploy log, which
+# ADMIN_EMAIL receives, is the right weight for something that is routine for one
+# audience and a mistake for the other.
+warn_no_identity() {
+  local wni_label wni_domain wni_edition wni_theme wni_site_name wni_filters
+  wni_label="$1"; wni_domain="$2"; wni_edition="$3"; wni_theme="$4"; wni_site_name="$5"; wni_filters="$6"
+
+  [ -n "$wni_edition$wni_theme$wni_site_name$wni_filters" ] && return 0
+
+  echo "WARN [$wni_label]: '$wni_domain' has no identity from either source - not in" >&2
+  echo "WARN [$wni_label]:   lib/editions.js, and deploy.conf sets no THEME, SITE_NAME," >&2
+  echo "WARN [$wni_label]:   CHARACTERS, TOPICS or THREADS. Deploying the FULL unfiltered" >&2
+  echo "WARN [$wni_label]:   site, unbranded. That is correct for an independent fork and" >&2
+  echo "WARN [$wni_label]:   is probably a mistake for a clone of this project." >&2
+  return 0
 }
 
 resolve_edition "$DOMAIN" "primary"
@@ -358,7 +376,8 @@ PRIMARY_RANKS_AT="$RESOLVED_RANKS_AT"
 # Checked BEFORE the THEME default below, which is what makes the check possible
 # at all: once THEME is "default" there is no way to tell a domain that chose the
 # main palette from one nobody configured.
-assert_identity primary "$DOMAIN" "$EDITION" "$THEME" "$SITE_NAME" "$CHARACTERS" "$TOPICS" "$THREADS" || exit 1
+assert_not_alias primary "$DOMAIN" "$RESOLVED_ALIAS_OF" || exit 1
+warn_no_identity primary "$DOMAIN" "$EDITION" "$THEME" "$SITE_NAME" "$CHARACTERS$TOPICS$THREADS"
 
 # Normalise the two keys whose pre-set defaults had to become empty above, so
 # everything downstream sees exactly the values it always saw.
@@ -814,12 +833,13 @@ main() {
     fill_from_registry alt_site_title "$RESOLVED_SITE_TITLE" "$id" SITE_TITLE
     fill_from_registry alt_giscus_profile "$RESOLVED_GISCUS_PROFILE" "$id" GISCUS_PROFILE
     fill_from_registry alt_comments_enabled "$RESOLVED_COMMENTS_ENABLED" "$id" COMMENTS_ENABLED
-    if ! assert_identity "$id" "$alt_domain" "$alt_edition" "$alt_theme" "$alt_site_name" \
-         "$alt_characters" "$alt_topics" "$alt_threads"; then
+    if ! assert_not_alias "$id" "$alt_domain" "$RESOLVED_ALIAS_OF"; then
       overall_status=1
-      result_lines+=("FAIL $id ($alt_domain - no identity from registry or deploy.conf)")
+      result_lines+=("FAIL $id ($alt_domain - registered as an alias of $RESOLVED_ALIAS_OF)")
       continue
     fi
+    warn_no_identity "$id" "$alt_domain" "$alt_edition" "$alt_theme" "$alt_site_name" \
+      "$alt_characters$alt_topics$alt_threads"
     alt_theme="${alt_theme:-default}"
     alt_comments_enabled="${alt_comments_enabled:-true}"
 

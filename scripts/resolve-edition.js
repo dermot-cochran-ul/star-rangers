@@ -33,7 +33,7 @@
 // in and keeps deploy.conf's own values), 1 on a malformed registry.
 
 const path = require("path");
-const { editionForDomain, editionFor } = require(path.join(__dirname, "..", "lib", "editions"));
+const { editionForDomain, editionFor, aliasFor } = require(path.join(__dirname, "..", "lib", "editions"));
 
 function arg(name) {
   const i = process.argv.indexOf(`--${name}`);
@@ -63,6 +63,10 @@ function shellQuote(value) {
 }
 
 const out = [];
+// Emitted for EVERY domain, registered or not, and deliberately outside the
+// isRegistered branch below: an alias resolves to no edition by design, so this
+// is the one fact about it worth reporting.
+out.push(`RESOLVED_ALIAS_OF=${shellQuote(aliasFor(domain) || "")}`);
 if (!isRegistered || !resolved) {
   // Deliberately still prints the key, empty. The deploy script tests it to
   // decide whether to log "resolved from registry" or "not registered", and an

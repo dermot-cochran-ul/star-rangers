@@ -371,6 +371,27 @@ Let a clone brand itself independently of the shared repo default (`Star Rangers
 - `SITE_TITLE` is likewise consumed by `src/_data/site.js`, and used by `src/_includes/base.njk` for every page's browser `<title>` tag (as the `<title> | <SITE_TITLE>` suffix, or standalone on the home page).
 - Kept as two separate keys, rather than one, so a clone can put a different string in the tab title than in its on-page branding — most clones will just set both to the same value.
 
+#### Domains this project has registered as aliases
+
+`lib/editions.js` carries an `ALIASES` map — hosts that share another domain's
+document root and must never be built. `cpanel-deploy.sh` **refuses to deploy**
+one, on either the primary or an `ALT_DOMAINS` path, because building it would
+serve the full unfiltered site there, unbranded and self-canonicalling, as a
+duplicate competing with the domain it points at. The error names both fixes:
+drop it from `ALT_DOMAINS` and point it at its target in cPanel, or remove it
+from `ALIASES` and give it an edition entry.
+
+**This is not a domain allow-list, and an independent deployment is unaffected.**
+A fork on its own domain resolves no edition here and never will — the registry
+is this project's, not a list of permitted hosts — so an unknown domain deploys
+the full site exactly as it always has, including with the two-key minimum
+`deploy.conf`. Only a host *named* in `ALIASES` is refused. Silence about a
+domain means no opinion.
+
+A domain nobody has configured anywhere gets a `WARN` line in the deploy log and
+deploys anyway: correct for an independent fork, usually a mistake for a clone of
+this project, and not something to fail a deploy over either way.
+
 #### `ADMIN_EMAIL`
 
 An email is sent to it after **every** deployment attempt — success or failure — with a `SUCCESS`/`FAILURE` subject (including the cPanel account and a timestamp) and the full build+deploy log as the body, so failures are visible without having to check cPanel's own UI. Sent via local `mail`(1), falling back to `/usr/sbin/sendmail` if `mail` isn't installed. If not set explicitly, it defaults to `admin@<DOMAIN>` (e.g. `admin@sciencefiction.site`) rather than hardcoding a real address in this public repo. This is best-effort only: if no mail command is available, or sending itself fails, the deployment's own outcome is unaffected.
