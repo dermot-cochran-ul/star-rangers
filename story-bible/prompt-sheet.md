@@ -45,32 +45,51 @@ watermark.
 **Then composite:** *Ballad of the Stars* — and note the designed-cover question
 in `video-prompts.md` before adopting a photographic card at all.
 
-### 1.2 `StarRangers_3` (3:49) — identity first, then card
+### 1.2 `StarRangers_3` (3:49) — Slipwave
 
-Captioned as the Ballad and is not the Ballad. **Decide what it is before
-generating anything**, because the card follows the answer:
+**Settled 20 August 2026: it is a Slipwave track.** So the card is 1.1, and the
+two should not be identical — same room, same three musicians, different moment:
 
-- *A Slipwave track* → use 1.1.
-- *An unattributed song that circulated* → the card below.
-- *Not story material* → nothing here applies; give it a card you simply like.
+> A three-piece band in a dock-adjacent common room aboard a space habitat, seen
+> from behind and to one side, mid-song. A red-haired woman at a single shared
+> microphone, a man on hand percussion, a second man seated with a stringed
+> instrument. Working clothes. Fluorescent overhead light and one work lamp. A
+> dozen people on crates and mismatched chairs. Scuffed deck plating, cable runs.
+> Warm, unpolished, small.
 
-> A crew compartment aboard a station, empty of people. A stringed instrument
-> propped against a bunk, a set of headphones on a fold-down table, a duffel bag
-> half unpacked. One overhead light on, the corridor beyond it dark. Nothing
-> being played, everything recently played. Warm and lived-in.
+**Negative:** as 1.1.
 
-**Negative:** as 1.1, plus figures, faces.
+**What it commits, and it is not nothing.** This makes a **fourth** Slipwave
+recording, and `src/glossary/slipwave.md` already accounts for the catalogue:
+*"a handful of habitat-circuit recordings, most of them incomplete or badly
+mic'd. Two are not."* A fourth has to sit somewhere in that sentence — the
+natural slot is one of the handful, surfacing later — and if it is ever to be
+cited it needs a codex entry with lyrics. See the note in `music-prompts.md`.
 
-### 1.3 `StarRangers_3` (1:44) — same decision, third card
+### 1.3 `StarRangers_3` (1:44) — a muster piece
 
-If it turns out to be a muster-sung piece rather than a recording:
+**Settled 20 August 2026.** One thing to know before generating: the audio is a
+**dense full-band mix with drums**, bright to the codec ceiling and hot the whole
+way through — not twenty voices in a hard room. So this is a *recording of* a
+muster piece, not a recording *at* a muster, and a card showing an unaccompanied
+hall would contradict its own track in the first second of playback.
 
-> Twenty young people in dark service dress standing close together in a large
-> hard-walled hall, singing, seen from within the group at head height. Faces in
-> profile and half shadow, overhead industrial light, no stage and no audience.
-> Ragged, communal, unposed.
+The card that fits both:
 
-**Negative:** as 1.1, plus conductor, sheet music, choir robes, altar.
+> A large hard-walled muster hall aboard a station, seen from the back and empty
+> of people, after the fact. Rows of stacked chairs, a bare platform with no
+> lectern, one door standing open to a lit corridor. Overhead industrial light,
+> long shadows, a scuffed deck floor. The room where something was sung, silent
+> now.
+
+**Negative:** as 1.1, plus performers, crowd, conductor, sheet music, choir
+robes, altar, ceremonial banners.
+
+**If you would rather show the singing**, use the occasion instead — twenty young
+people in dark service dress, close together, camera *inside* the group at head
+height, no stage and no audience — and accept that the cover shows the song
+rather than the session. Both are defensible; the empty hall is the one that
+never argues with the audio.
 
 ### 1.4 `InnerSpaceBloom_3` — card
 
@@ -157,6 +176,13 @@ lights, crowd, slow motion, text, lettering.
 
 Only three things are actually missing from the site. Everything else on this
 page is a replacement.
+
+**One thing I cannot do for any of these: transcribe the words.** I have never
+heard a note of these tracks — everything above comes from spectrograms and
+card frames. If either of the two newly identified recordings is to be filed as
+a codex entry, **the lyrics have to be pasted in**, because a lyric is
+canon-for-its-author and inventing one from a waveform is exactly the failure
+this whole file exists to prevent.
 
 ### 2.1 *Half-Light Causeway* — the recording that does not exist
 

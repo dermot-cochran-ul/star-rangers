@@ -579,15 +579,46 @@ line for line **stays true**, because nothing about the performance changed. All
 this file adds is a card and 8 MB.
 
 The other two share no material with it or with each other (correlations at
-noise level), so **there are two genuinely new recordings here with no home**.
-Neither corresponds to anything the corpus currently describes: the 3:49 is
-captioned as the Ballad but is not the Ballad, and the 1:44 is captioned only
-*Star Rangers*.
+noise level), so **there are two genuinely new recordings here**. Both were
+identified on 20 August 2026 — see below; neither had a home before that.
 
 **Neither has been added to `src/audio/`.** All of these would need a decision
 first — which page carries it, under what attribution, and whether it is site
 furniture or an in-universe recording, which is the difference between a theme
 and a codex entry with a named author.
+
+### The two new recordings, identified 20 August 2026
+
+**Dermot: the 3:49 is Slipwave; the 1:44 is a muster piece.** That settles their
+cards (`prompt-sheet.md` 1.2 and 1.3) and opens two canon questions, neither of
+which a card can answer.
+
+**The 3:49 makes a fourth Slipwave recording**, and the catalogue is already
+described. `slipwave.md`: *"Slipwave never recorded a studio album. Their
+surviving catalogue is a handful of habitat-circuit recordings, most of them
+incomplete or badly mic'd. Two are not."* The two are the anthem and the Ballad;
+*Protectors of the Fold* is a later third, cut decades on by Ashgrove and
+Calloway without Shepherd. So a fourth has a natural slot — **one of the handful,
+surfacing later** — and filing it that way costs the corpus nothing and gains it
+a nice fact: the catalogue was never claimed to be closed.
+
+What it cannot be, without a rewrite: a polished studio track from the band's own
+era. That is the one thing the glossary rules out twice over.
+
+**The 1:44 needs its filing to match its sound.** The audio is a dense full-band
+mix with drums, bright to the codec ceiling — **a recording of a muster piece,
+not a recording made at a muster.** The distinction is load-bearing here, because
+the anthem's spread is explained by the opposite property: it travelled as
+something a room of non-singers could hold, unaccompanied. A produced muster
+piece is perfectly plausible beside it — musters are not confined to one song —
+but it is a different kind of object and the entry should say which.
+
+**And a limit worth stating plainly: I cannot transcribe either.** I have never
+heard a second of this audio; every reading in this file comes from waveforms,
+spectrograms and card frames. A lyric is canon-for-its-author, so if either
+recording is to become a codex entry, **the words have to be supplied**. Deriving
+them from a spectrogram would be inventing them, which is the exact failure this
+file exists to prevent.
 
 ### The cards contradict Slipwave, and that is the part worth catching
 
