@@ -1,207 +1,268 @@
 # Domain strategy and the duplicate-content reports
 
-**Status: OPEN — a decision only Dermot can make.** Raised 20 August 2026,
-after Google Search Console warned about shared or duplicate content across the
-sites. Nothing here has been changed; re-pointing a live domain is
-draft-and-stop under CLAUDE.md's authority boundary, and this file is the
-draft.
+**Status: PARTLY DECIDED, 20 August 2026.** Google Search Console warned about
+shared or duplicate content across the sites. Dermot's direction that day:
+**each tier family picks one site to rank**, there are **four families, one per
+reading tier** (not the three accidental TLD groupings this file first
+described), and **each independent deployment inside a family gets a slight
+variation or specialisation** — ideally a different faction, with the four
+Fellowship of Light domains fronting different **chapter houses**.
 
-**The one-line version.** Registering defensive TLDs is normal and correct, and
-Search Console is not complaining about that. It is complaining that eight
-hostnames are running eight full builds of three sites.
+What is settled is the shape. What still needs him is named in *Still open* at
+the end — chiefly the fourth chapter house, which does not exist in canon.
 
 ## First, the reassurance
 
-**There is no duplicate content penalty.** Google's position is that duplicate
-content is not grounds for action unless it is deceptive — scraped, spun, or
-built to mislead. None of this is. The Search Console report is a *coverage*
-report: it lists URLs that did not make it into the index and says why. It is
-not a warning notice, and no manual action is implied by any of it.
+**There is no duplicate content penalty.** Google acts on duplication only
+where it is deceptive — scraped, spun, built to mislead. None of this is. The
+Search Console report is a *coverage* report: it lists URLs that did not make
+the index and why.
 
-What it costs is not ranking but *choice*. Where two URLs carry the same
-content, Google indexes one and drops the other. The question this file exists
-to answer is whether we are picking the survivor, or Google is.
+What it costs is not ranking but **choice**. Where two URLs carry the same
+content, Google indexes one and drops the other. Everything below is about
+picking the survivor ourselves.
 
 ## Reading the report
 
-"Duplicate content" in Search Console is four distinct statuses, and only two
-of them want anything from us. Check which wording the report actually used
-before acting — the fix differs completely.
+Four distinct statuses, and only two want anything from us. Check which wording
+the report used before acting.
 
 | Status | Meaning | Verdict |
 |---|---|---|
-| **Page with redirect** | A 301'd URL. | Working as intended — ignore |
+| **Page with redirect** | A 301'd URL | Working as intended — ignore |
 | **Alternate page with proper canonical tag** | Duplicate found, our canonical honoured | Working as intended — ignore |
 | **Duplicate without user-selected canonical** | No canonical tag; Google guessed | Real gap |
-| **Duplicate, Google chose different canonical than user** | We self-canonicalised and Google **overruled us** | Real, and the interesting one |
+| **Duplicate, Google chose different canonical than user** | We self-canonicalised and Google **overruled us** | Real, and what the families produce |
 
-We have seen the third and fourth before. `CHANGELOG.md`'s 8 August 2026 entry
-records four `http://` glossary pages on fianilchruinne.com filed under
-"Alternative page with proper canonical tag", fixed with the force-HTTPS 301 in
-`src/static/.htaccess`.
+`CHANGELOG.md`'s 8 August 2026 entry records the third of these on
+fianilchruinne.com, fixed with the force-HTTPS 301 in `src/static/.htaccess`.
 
-## What is already correct, and needs nothing
+## What is already correct and needs nothing
 
-**The seven alias domains** listed in `lib/editions.js` — `star-rangers.space`,
-`star-rangers.site`, `fian-ilchruinne.com` and the four `fianilchruinne.*`
-variants. These are cPanel aliases sharing their target's document root, so
-they serve HTML built with the *target's* `SITE_DOMAIN`. A page fetched at
-`star-rangers.space` already carries a canonical naming `sciencefiction.site`,
-and search engines consolidate to the target unasked.
+The **seven alias domains** in `lib/editions.js` share their target's document
+root, so they serve HTML built with the *target's* `SITE_DOMAIN`. A page at
+`star-rangers.space` already carries a canonical naming `sciencefiction.site`.
+That is the anti-squatting pattern working, and the reasoning for keeping them
+out of any `domains` array still holds.
 
-This is exactly the anti-squatting pattern working as intended. If these show
-up in Search Console at all it will be as "Alternate page with proper canonical
-tag", which is the report telling us it worked. **No action, and the reasoning
-in `lib/editions.js` for keeping them out of any `domains` array still
-holds** — listing one there would arm it to build its own copy and
-self-canonicalise to itself, converting a correctly-consolidated alias into a
-genuine competitor of the domain it was meant to point at.
+## The four families
 
-## What is not correct: three multi-TLD families
+They are the four reading tiers of `story-bible-summary.md`'s audience-tier
+table — children → young adult → general → contemplative — which is also how
+the domains were already assigned on 2026-08-05. Grouping by tier rather than
+by TLD is what makes it four families instead of three, and it puts the
+fellowship and church-space domains in **one** family, which is where the real
+problem turned out to live.
 
-`base.njk` emits a **self**-canonical — every domain declares itself the
-canonical home of its own URLs. The comment there defends this on the grounds
-that the domains are *meant to diverge*, and for `undercover-pets.com` versus
-`church-space.site` that is plainly right: different threads, different cast,
-different framing, and a cross-domain canonical would ask Google not to rank
-the branded domains at all.
+| Family (tier) | Thread | Domains | Ranks at |
+|---|---|---|---|
+| **children** | undercover-pets | undercover-pets.com | itself (family of one) |
+| **young adult** | orbital-five-o | starquest.site, starquest.online | **starquest.site** |
+| **general** | founding-era + tissadelle-arc | sciencefiction.site | itself (family of one) |
+| **contemplative** | church-space | church-space.site/.online, fellowshipoflight .org/.site/.online/.space | **fellowshipoflight.org** |
 
-It is not right where several hostnames resolve to **one edition entry**. Three
-do:
+`fianilchruinne.com` (with GitHub Pages) is not a tier family. It holds
+everything and self-canonicalises, unchanged.
 
-| Edition | Hostnames | Distinct builds |
-|---|---|---|
-| `fellowship` | fellowshipoflight **.org / .site / .online / .space** | 1 |
-| `starquest` | starquest **.site / .online** | 1 |
-| `church-space` | church-space **.site / .online** | 1 |
+### Why those two ranking domains
 
-Eight hostnames, three sites. `editionForDomain()` returns the same record for
-every domain in a family, so all of them get the same `theme`, `threads`,
-`siteName`, `siteTitle`, tagline and hero cast. The only build input that
-varies is `SITE_DOMAIN`.
+**starquest.site** over `.online`: older registration, stronger TLD.
 
-And this is the governing rule working exactly as designed, not failing:
-**canon is centralised**, so `src/seasons/`, `src/lore/` and `src/glossary/`
-are identical on every domain by construction. Editions only ever vary the shop
-window. Within one family, they do not vary even that.
+**fellowshipoflight.org** over the other five: `.org` is the strongest TLD for a
+contemplative order, and *Fellowship of Light* is a name out of the fiction
+where *church space* is a generic phrase that competes in search with room
+hire. Worth being plain about the consequence, because it is the surprising
+one: **church-space.site and church-space.online rank nowhere of their own.**
+They keep their palette, their audio, their giscus board and their framing;
+what they give up is competing for pages they were never going to win six ways.
 
-### Measured, not assumed
+## Why one per family, measured
 
-Built two fellowship domains from the same commit and compared them:
+Built the editions from one commit and counted what each actually offers a
+crawler. A narrowed build still renders every page at its normal URL, but an
+excluded one becomes a `noindex` `excluded.njk` placeholder — so the indexable
+count, not the file count, is the number that matters:
 
-```
-SITE_DOMAIN=fellowshipoflight.org  EDITION=fellowship THREADS=church-space npx eleventy --output=b1
-SITE_DOMAIN=fellowshipoflight.site EDITION=fellowship THREADS=church-space npx eleventy --output=b2
-```
+| Edition | Total pages | noindex placeholders | **Indexable** | Tier-specific |
+|---|---|---|---|---|
+| default (full record) | 632 | 66 | 566 | — |
+| children | 632 | 542 | 90 | 44 |
+| general | 632 | 552 | 80 | 34 |
+| young adult | 632 | 570 | 62 | 16 |
+| contemplative | 632 | 570 | 62 | 16 |
 
-**632 HTML pages each.** Normalising only the hostname and the per-build asset
-cache-bust string (`?v=…`, which changes between any two runs), the two builds
-are **byte-identical across all 632 pages**. The sole remaining difference is
-`version.txt`, which carries a build timestamp and is excluded from collections
-and the sitemap.
+Two findings came out of it, and the second was not expected:
 
-The same holds for `starquest` and `church-space`. So four hostnames serve one
-identical 632-page site, and each of the four tells Google it is the original.
+1. **Two domains in one edition are byte-identical.** Normalising only the
+   hostname and the per-build `?v=` asset hash, `fellowshipoflight.org` and
+   `.site` match across all 632 pages. Only `version.txt` differs, and it is
+   excluded from collections and the sitemap.
+2. **The fellowship and church-space editions serve the identical 62 indexable
+   pages — 62 common, 0 unique to either.** They are two edition entries
+   producing one page set. That is six domains, not four, making the same claim,
+   and it is invisible from either entry on its own because they are different
+   records with different palettes.
 
-That is the condition that produces **"Duplicate, Google chose different
-canonical than user"** — the report saying our self-canonical was considered and
-overruled, because a self-canonical cannot arbitrate between four identical
-copies. Google picks one. We do not get told which in advance, and it need not
-be the `.org`.
+There is also a **46-page navigational shell** — `/about/`, `/lore/`,
+`/characters/`, the season and episode indexes, `/threads/` — indexable and
+identical on **every** domain. It is included here because it will show up in
+the report and look alarming; it is low-value listing pages that were never
+going to rank, and consolidating them is not worth distorting the design for.
 
-## The decision
+## The specialisations
 
-`lib/editions.js` records the fellowship list as "Four TLDs of one name, each an
-`ALT_DOMAINS` entry with its own build. Confirmed 2026-07-30." So this is a
-deliberate arrangement, not a slip, and the question is what it was *for*:
+The mechanism already exists and asserts nothing: `characters`, `topics`
+(matched against page tags) and `threads` narrow what a domain carries, and
+`siteName` / `siteTitle` / `heroSubtitle` / `heroCharacterIds` / `themeAudio` /
+`theme` reframe it. The canon rule holds throughout — **an edition may
+subtract or reframe, never assert** — so a faction focus is emphasis and
+filtering, never a claim about the world.
 
-- **If the four TLDs were bought as defensive holdings** — to keep the name off
-  a squatter — then serving a full build on each does not further that aim, and
-  a 301 defends the name at least as well.
-- **If they were meant to widen reach** — four doors into the archive — then it
-  does not deliver that either. Four identical copies do not rank four times;
-  they compete, and three lose.
+### The contemplative six
 
-Three options, per family and independently:
+The tier already carries three distinct institutions in canon, which is a
+better fit than it has any right to be:
 
-**A. Consolidate (recommended).** Pick one canonical host per family, 301 the
-others to it. Ranking signals, links and any accumulated authority pool onto one
-address instead of splitting four ways, and the defensive purpose is untouched —
-a redirecting domain is still a registered domain a squatter cannot have. Cost:
-the non-canonical TLDs stop being separately reachable sites. If someone types
-`fellowshipoflight.space` they land on `.org`, which is very likely what they
-wanted anyway.
+- **Fellowship of Light** (12 tagged pages) — contemplative chapter houses
+- **Communion of the Called** (4) — the congregational network, and
+  **Cnoc na mBeach** (4), Brother Fintan's hive-yard hermitage
+- **Monasteries of Mars** (1) — the order that declines the affiliation
 
-**B. Differentiate.** Give each TLD an edition of its own — its own tagline,
-hero cast, narrowing — so the domains genuinely diverge and the existing
-self-canonical becomes correct for them. This is the option that keeps four live
-sites, and it is real editorial work, not configuration: four distinct framings
-of one archive that a reader could tell apart. Worth noting it cannot be
-faked by varying `siteName` alone; 632 identical pages under a different logo
-is still 632 identical pages. And the canon rule caps how far it can go —
-an edition may never assert a fact, so the *content* stays identical however
-the framing moves.
+So the four fellowshipoflight domains front chapter houses, and the two
+church-space domains front the Communion and Cnoc na mBeach. One correction
+worth carrying, because it is the obvious mistake to make: **Cnoc na mBeach is
+explicitly not a Fellowship house.** Its own entry says it is "not a monastery
+in any sense the Fellowship of Light or the Monasteries of Mars would recognize
+as their own." It cannot be pressed into service as chapter house number four.
 
-**C. Do nothing.** Legitimate. Google already picks a winner per family, and the
-cost is confined to not choosing which. Nothing breaks, no penalty accrues, and
-readers reach a working site whichever address they use. The reason not to
-default to it is that the choice is being made for us and is invisible until
-something moves.
+### The chapter houses, audited against canon
 
-**Recommendation: A for `starquest` and `church-space`, and A for `fellowship`
-unless the four-way split was a deliberate editorial plan.** Consolidation
-costs least, is reversible, and preserves every reason the domains were bought.
-If B appeals for `fellowship` specifically, it is worth doing properly for one
-family rather than thinly for all three.
+Dermot's instruction was four chapter houses for the four Fellowship domains.
+Canon supplies three, only one of them named:
 
-## If A is chosen, what it involves
+| # | House | Status | Anchor |
+|---|---|---|---|
+| 1 | **Eden chapter house** | **Named in canon** | Holds the cross-chapter correspondence and the comparative archive filing; `codex/jehu-among-the-comparanda`, `codex/the-captain-who-drove-furiously` |
+| 2 | Brother Daire's abbey on a tidal river | Canon, **unnamed** | Trained Elvira informally; `seasons/s01/e00/s01e00c01` *The Garden Gate* |
+| 3 | Asteria's house — stone, a green hill, a track past it | Canon, **unnamed** | Where she went as a Sage at about a hundred; `characters/asteria-the-sage` |
+| 4 | — | **Does not exist** | — |
 
-Not much, and none of it touches content:
+Naming 2 and 3 and inventing 4 asserts facts about the world, so all three are
+Dermot's call, not a session's. Two ways to close it:
 
-1. Pick the canonical host per family. `.org` for fellowship is the obvious
-   candidate — oldest TLD, most credible for the name.
-2. In `deploy.conf` on the cPanel account, drop the redundant `ALT_DOMAINS`
-   entries so they stop building.
-3. Point each retired hostname at its canonical with a **301**, via cPanel
-   redirects or a `RewriteRule` on the shared document root.
-4. In `lib/editions.js`, cut each family's `domains` array to the surviving
-   host and record the retired ones in the ALIAS DOMAINS prose block, which
-   already exists for exactly this and already explains why they must not stay
-   in a `domains` array.
-5. In Search Console, keep the retired properties verified — the redirect
-   reports are how the consolidation is confirmed to be working.
+- **(a) Name a fourth house.** New canon, his to write.
+- **(b) Front the Fellowship's operational chapter instead** — already canon,
+  and the Fellowship's own two-fold structure: "contemplative chapters" and
+  "operational chapters," the latter being where the Star Rangers fit. Four
+  domains would then be three contemplative houses and the operational face,
+  which reads as the institution describing itself rather than as a gap being
+  filled. **Recommended**, because it needs no invention and is arguably the
+  more interesting split.
 
-Step 4 is the one that matters for the future: it is what stops a later session
-seeing an unused registration and helpfully giving it a build again.
+### The honest limit on all of this
+
+**Specialisation by framing does not make a duplicate page non-duplicate, and
+the tier does not yet have the content to specialise by narrowing.** The
+contemplative tier has **16 tier-specific indexable pages**. Split six ways
+that is under three pages each, and the other 46 are the shell every domain
+shares.
+
+So the chapter-house editions can be *framed* distinctly today and cannot be
+*filled* distinctly yet. That is not an argument against the plan; it is the
+sequence the plan has to run in:
+
+1. **Now** — consolidate ranking (done, below) and give each domain its own
+   framing. Fixes the Search Console problem immediately.
+2. **As material lands** — each house accumulates its own pages, and its
+   edition narrows to them.
+3. **Then** — relax that domain's canonical, per domain, when it has enough of
+   its own to be worth ranking separately.
+
+Which makes "four chapter houses" a **writing programme** rather than a
+configuration change. The config is ready for it either way.
+
+## The mechanism, implemented
+
+`ranksAt` on an edition names the host in its family that carries the ranking
+signal. Empty (the default) means self-canonical, which is right for a family
+of one.
+
+It names a **host, not a page**: any build whose `SITE_DOMAIN` differs emits a
+cross-domain canonical at the same path, and the named host compares equal and
+keeps its self-canonical. One value per family, read correctly by every member
+— and it keeps working unchanged when a family is later split into one edition
+per chapter house, since each entry carries the same `ranksAt`.
+
+Threaded registry → `resolve-edition.js` → `cpanel-deploy.sh` → `SITE_RANKS_AT`
+→ `site.js` → `base.njk`. Two deliberate consequences:
+
+- **A non-ranking domain drops its sitemap entries and its robots.txt Sitemap
+  line.** Advertising URLs we have just told Google not to index is
+  contradictory, and Google's guidance is to keep non-canonical URLs out of
+  sitemaps.
+- **`og:url` stays self-referential** and now diverges from `rel=canonical`.
+  They answer different questions: the canonical tells a crawler which copy to
+  index, `og:url` is what a reader hands a friend. Someone sharing a
+  church-space page should be sharing a church-space link. Consolidating the
+  search signal was the decision; rebranding the reader's own share was not.
+
+### The invariant, and it is load-bearing
+
+**The ranking domain must include every page its siblings include.** A
+cross-domain canonical pointing at a URL the target renders as a `noindex`
+placeholder would send Google to a dead end and lose the content altogether.
+Keeping the ranking domain on the family's widest filter satisfies this by
+construction: **narrow the siblings, never the one that ranks.**
+
+Verified on the built output rather than asserted — all **62** indexable pages
+on `fellowshipoflight.site` canonical to `fellowshipoflight.org`, and all 62
+targets are indexable there. 0 violations. (45 further canonicals on that
+build are the `/c/…/` citation-alias stubs from `chapter-aliases.njk`, which
+hand-write their own head and stay host-relative. They are `noindex`, and their
+canonical chains through the sibling's real page to the ranking domain, so they
+are correct as they stand.)
+
+Worth adding a check for this to `npm test` if the families ever get more
+complicated than they are now.
+
+## Still open — Dermot's calls
+
+1. **The fourth Fellowship domain** — name a fourth chapter house, or front the
+   operational chapter. Recommendation (b), above.
+2. **Naming houses 2 and 3.** Both are canon and neither has a name. They can
+   stay unnamed and be fronted descriptively, but a domain wants a label.
+3. **Whether church-space.site and .online really give up ranking.** This is
+   what "one site per family" means with families as tiers, and it is the line
+   most worth a second look before merging.
+4. **Which faction fronts each young-adult domain.** `starquest.online` needs a
+   specialisation; the orbital-five-o thread's tags (`orbital-five-o` 16,
+   `detective-agency` 16) are the obvious starting point but nobody has chosen.
 
 ## What could not be checked from here
 
 - **Live verification.** The session's network policy refused outbound
-  connections to all eleven domains, so the reasoning above is from the repo
-  rather than from what the servers actually answer. The check worth running:
+  connections to all eleven domains, so everything above is from the repo and
+  the built output, not from what the servers answer. Worth running:
 
   ```
-  curl -sI https://fellowshipoflight.space/          # 200, or 301 to .org?
+  curl -sI https://fellowshipoflight.space/
   curl -s  https://fellowshipoflight.space/ | grep canonical
   curl -s  https://fellowshipoflight.space/version.txt
   ```
 
-- **`deploy.conf` is untracked and lives on the cPanel account**, so whether a
-  live clone overrides `SITE_NAME`/`SITE_TITLE` per TLD is not visible from
-  here. `deploy.conf` wins over the registry wherever it sets a value. If one of
-  the four fellowship domains is already branded differently in its own
-  `deploy.conf`, that changes the picture for that domain — the deploy log
-  prints each key's provenance, which is where to look.
+- **`deploy.conf` is untracked** and lives on the cPanel account, so whether a
+  live clone overrides `SITE_NAME`/`SITE_TITLE` per TLD is not visible here.
+  `deploy.conf` wins over the registry wherever it sets a value — but *not* for
+  `ranksAt`, which is deliberately registry-only: which domain carries a
+  family's ranking signal is a decision about live sites, and belongs in a file
+  that gets reviewed in a pull request.
 
 ## Side finding, unrelated to the decision
 
-Listing pages are **not deterministic between builds**. Comparing four builds,
-three produced an identical `/codex/` card order and the fourth differed —
-same card set, different order (verified: sorting both lists makes the
-difference vanish). `/lore/` and `/official/` moved with it. It is not
-domain-dependent; two builds of the same domain can disagree, which points at
-async data-file resolution order rather than anything per-clone.
-
-Harmless for readers, mildly annoying for anyone diffing two deploys to check
-they match, and it is engine-tier work rather than a decision. Worth an issue
-if it ever gets in the way.
+Listing pages are **not deterministic between builds**. Of four builds, three
+produced an identical `/codex/` card order and the fourth differed — same card
+set, different order (sorting both lists makes the difference vanish);
+`/lore/` and `/official/` moved with it. Not domain-dependent: two builds of
+the same domain can disagree, which points at async data-file resolution order.
+Harmless for readers, annoying for anyone diffing two deploys. Worth an issue if
+it gets in the way.

@@ -43,8 +43,22 @@
       lore/solar-system-concordant.njk) are unaffected: they hand-write their
       own head and keep canonical + noindex, which is the conventional pairing
       for a redirect rather than for a placeholder. -#}
+  {#- `site.canonicalBase` is this build's own host EXCEPT on a domain that is
+      a non-ranking member of a tier family, where it is the family's ranking
+      host (lib/editions.js's `ranksAt`). So the self-canonical described above
+      is still what the default, sciencefiction and pets editions emit - a
+      family of one is its own canonical - and the fellowship, church-space and
+      starquest siblings point at the one domain in their family that ranks.
+
+      Note this DIVERGES from og:url below, which stays self-referential on
+      purpose. The two answer different questions: rel=canonical tells a
+      crawler which of several identical copies to index, while og:url is what
+      a reader gets when they share the page they are actually looking at. A
+      reader who shares a church-space page should hand their friend a
+      church-space link, not a fellowship one - consolidating the search signal
+      was the decision, rebranding the reader's own share was not. -#}
   {%- if (not robots or "noindex" not in robots) and not site.noindex %}
-  <link rel="canonical" href="{{ page.url | absoluteUrl(site.url) }}" />
+  <link rel="canonical" href="{{ page.url | absoluteUrl(site.canonicalBase) }}" />
   {%- endif %}
   <link rel="alternate" type="application/atom+xml" title="{{ site.name }} — New Episodes" href="{{ '/feed/feed.xml' | absoluteUrl(site.url) }}" />
 

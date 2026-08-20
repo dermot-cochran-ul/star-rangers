@@ -169,6 +169,7 @@ resolve_edition() {
   RESOLVED_SITE_TITLE=""
   RESOLVED_GISCUS_PROFILE=""
   RESOLVED_COMMENTS_ENABLED=""
+  RESOLVED_RANKS_AT=""
   # An unreadable or malformed registry must not take the deploy down: the
   # build itself validates lib/editions.js (see validateEditions in it), so a
   # failure here means something is wrong with node or the file, and the right
@@ -288,6 +289,19 @@ fill_from_registry SITE_TITLE "$RESOLVED_SITE_TITLE" primary SITE_TITLE
 fill_from_registry GISCUS_PROFILE "$RESOLVED_GISCUS_PROFILE" primary GISCUS_PROFILE
 fill_from_registry COMMENTS_ENABLED "$RESOLVED_COMMENTS_ENABLED" primary COMMENTS_ENABLED
 
+# ranksAt is registry-only and has no deploy.conf key, so it takes no
+# fill_from_registry pass - which side of the server/repo seam it falls on is
+# the whole point. Which domain in a family carries the ranking signal is a
+# decision about live sites, reviewable in a pull request; it is exactly the
+# class of thing lib/editions.js exists to hold and an untracked file on a
+# cPanel account must not be able to override quietly.
+#
+# Captured here rather than read at the call site because the ALT_DOMAINS loop
+# below calls resolve_edition again per domain, overwriting every RESOLVED_*
+# global. The primary build runs first today and would read the right value by
+# luck; this does not depend on that ordering.
+PRIMARY_RANKS_AT="$RESOLVED_RANKS_AT"
+
 # Normalise the two keys whose pre-set defaults had to become empty above, so
 # everything downstream sees exactly the values it always saw.
 THEME="${THEME:-default}"
@@ -374,7 +388,7 @@ build_and_deploy() {
   # Unrecognized names fail loudly rather than being exported blindly, same
   # spirit as the CUSTOM_LORE_FILE/CUSTOM_CSS_FILE "missing file" checks
   # further down.
-  local COMMENTS_ENABLED="true" SITE_NOINDEX=""
+  local COMMENTS_ENABLED="true" SITE_NOINDEX="" SITE_RANKS_AT=""
   # EDITION must be threaded through and exported separately from THEME, not
   # derived from it. lib/editions.js falls back to THEME when EDITION is unset,
   # which covers a clone that predates the registry - but the entire point of
@@ -392,6 +406,7 @@ build_and_deploy() {
     case "$b_kv_name" in
       COMMENTS_ENABLED) COMMENTS_ENABLED="$b_kv_value" ;;
       SITE_NOINDEX) SITE_NOINDEX="$b_kv_value" ;;
+      SITE_RANKS_AT) SITE_RANKS_AT="$b_kv_value" ;;
       EDITION) EDITION="$b_kv_value" ;;
       GISCUS_PROFILE) GISCUS_PROFILE="$b_kv_value" ;;
       GISCUS_REPO) GISCUS_REPO="$b_kv_value" ;;
@@ -423,7 +438,7 @@ build_and_deploy() {
         SITE_NAME="$b_site_name" SITE_TITLE="$b_site_title" SITE_DOMAIN="$b_site_domain"
   export EDITION
   export CHARACTERS TOPICS THREADS THEME SITE_NAME SITE_TITLE SITE_DOMAIN COMMENTS_ENABLED \
-    SITE_NOINDEX \
+    SITE_NOINDEX SITE_RANKS_AT \
     GISCUS_PROFILE GISCUS_REPO GISCUS_REPO_ID GISCUS_CATEGORY_CHARACTERS_ID GISCUS_CATEGORY_LORE_ID \
     GISCUS_CATEGORY_EPISODES_ID GISCUS_CATEGORY_JOURNAL_ID
 
@@ -640,6 +655,7 @@ main() {
          "$THEME" "$CHARACTERS" "$TOPICS" "$THREADS" "$SITE_NAME" "$SITE_TITLE" "$DOMAIN" \
          "$CUSTOM_LORE_FILE" "$CUSTOM_CSS_FILE" "COMMENTS_ENABLED=$COMMENTS_ENABLED" \
          "SITE_NOINDEX=$SITE_NOINDEX" \
+         "SITE_RANKS_AT=$PRIMARY_RANKS_AT" \
          "EDITION=$EDITION" \
          "GISCUS_PROFILE=$GISCUS_PROFILE" \
          "GISCUS_REPO=$GISCUS_REPO" "GISCUS_REPO_ID=$GISCUS_REPO_ID" \
@@ -747,6 +763,7 @@ main() {
          "$alt_site_name" "$alt_site_title" "$alt_domain" "$alt_custom_lore" "$alt_custom_css" \
          "COMMENTS_ENABLED=$alt_comments_enabled" \
          "SITE_NOINDEX=$alt_site_noindex" \
+         "SITE_RANKS_AT=$RESOLVED_RANKS_AT" \
          "EDITION=$alt_edition" \
          "GISCUS_PROFILE=$alt_giscus_profile" \
          "GISCUS_REPO=$alt_giscus_repo" "GISCUS_REPO_ID=$alt_giscus_repo_id" \
