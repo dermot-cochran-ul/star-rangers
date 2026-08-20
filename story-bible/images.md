@@ -1091,7 +1091,9 @@ staff**, which the generator added unprompted both times.
 - **`bertram-ashcombe.jpg`** — immaculately dressed, unfailingly cheerful, and
   serenely confident that cases solve themselves once he has had a proper
   breakfast.
-  > Cinematic portrait of an impeccably turned-out detective inspector in his fifties, upper body, three-piece suit in excellent order with a pocket square, entirely at ease and genuinely pleased with the morning, early sun coming through a tall station window in a single warm shaft with dust turning in it, the room beyond going quiet and dim, science-fiction detective setting with a period sensibility, warm brass and oxblood, cheerful without being comic, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  > Cinematic portrait of an impeccably turned-out detective inspector in his fifties aboard a space station in the year 2826, upper body, three-piece suit in excellent order with a pocket square — the formality is his, not the room's — entirely at ease and genuinely pleased with the morning, standing in a working constabulary office built into the station's own structure with composite bulkheads, exposed structural ribs and current-era flat displays at the desks behind him, a tall window looking out along the station hull to hard sunlight and black sky rather than onto any street, early light coming through it in a single warm shaft with dust turning in it, warm brass and oxblood in the furnishing set against plainly modern construction, cheerful without being comic, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+
+  *Revised 20 August 2026. The prompt said "science-fiction detective setting with a period sensibility" and stated no era, and the generator took the period half and dropped the other: both candidates came back as a Victorian panelled office that could not be a station in 2826. The prompt-craft rule above — **state the era, or the setting defaults to contemporary Earth** — applies just as much to a stated *sensibility*, which a generator will read as a setting unless something anchors it. The tailoring and the warmth are his and are kept; the room is now the station's.*
 
 - **`reeves.jpg`** — investigative support intelligence: correct, courteous, and
   constitutionally unable to volunteer a conclusion before being asked the right
@@ -1830,7 +1832,9 @@ Portrait 3:4, 1200px.
   *The "true crime" evidence board, lore/planetary-liaisons-and-recruiters.jpg,
   was listed here too until 2026-08-12 — it was deleted in `55dc1ec` as a
   verified stock image, so it stopped being an outlier and started being a dead
-  reference. The same photograph survives at `characters/bertram-ashcombe.jpg`.*
+  reference. The same photograph survives at `characters/bertram-ashcombe.jpg`. **No longer true as of
+  2026-08-20: that path now holds a generated portrait, so the last copy of the
+  stock photograph is gone from the repository.***
 
 <!-- validate-images: off -->
 
