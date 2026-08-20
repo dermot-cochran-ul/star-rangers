@@ -1,6 +1,6 @@
 # Domain strategy and the duplicate-content reports
 
-**Status: PARTLY DECIDED, 20 August 2026.** Google Search Console warned about
+**Status: DECIDED, 20 August 2026, in three passes.** Google Search Console warned about
 shared or duplicate content across the sites. Dermot's direction that day:
 **each tier family picks one site to rank**, there are **four families, one per
 reading tier** (not the three accidental TLD groupings this file first
@@ -56,32 +56,56 @@ build when it has a face of its own to show. Until then an alias already does
 the job, and does it better: an alias *cannot* become a duplicate, because it
 never had its own `SITE_DOMAIN` to self-canonicalise to.
 
-## The four families
+## Families, and why there are five of them across four tiers
 
-They are the four reading tiers of `story-bible-summary.md`'s audience-tier
-table — children → young adult → general → contemplative — which is also how
-the domains were already assigned on 2026-08-05. Grouping by tier rather than
-by TLD is what makes it four families instead of three, and it puts the
-fellowship and church-space domains in **one** family, which is where the real
-problem turned out to live.
+The first pass here said "four families, one per reading tier". That held for
+three tiers and broke on the fourth, and the corrected definition is the useful
+one:
 
-| Family (tier) | Builds | Aliases | Ranks at |
-|---|---|---|---|
-| **children** | undercover-pets.com | — | itself (family of one) |
-| **young adult** | starquest.site | starquest.online | itself (family of one) |
-| **general** | sciencefiction.site | — | itself (family of one) |
-| **contemplative** | 6 (below) | — | **fellowshipoflight.org** |
+- A **tier** is a *readership* — children → young adult → general →
+  contemplative, from `story-bible-summary.md`'s audience-tier table.
+- A **family** is a set of domains *serving the same pages*, which therefore has
+  to consolidate on one ranking host.
 
-`fianilchruinne.com` (with GitHub Pages) is not a tier family. It holds
-everything and self-canonicalises, unchanged.
+They coincide wherever a tier has one brand. The contemplative tier has two
+institutions in it, so it has two families.
 
-**starquest.online was demoted from a build to an alias.** It had a build and
-nothing of its own to put in it: the orbital-five-o thread is *one* task force
-(the Governor's Investigative Task Force) and Season 4 is *one* chapter, so
-there was no second face to give it. A faction split there would have been
-invented rather than found — unlike the chapter houses, which are a real
-in-world structure. That returns the young-adult tier to a family of one, so it
-needs no `ranksAt` at all.
+| Family | Tier | Builds | Aliases | Ranks at |
+|---|---|---|---|---|
+| **children** | children | undercover-pets.com | — | itself |
+| **young adult** | young adult | starquest.site | starquest.online | itself |
+| **general** | general | sciencefiction.site | — | itself |
+| **Fellowship of Light** | contemplative | fellowshipoflight .org/.site/.online/.space | — | **fellowshipoflight.org** |
+| **Communion of the Called** | contemplative | church-space.site/.online | — | **church-space.site** |
+
+`fianilchruinne.com` (with GitHub Pages) is not in a family. It holds everything
+and self-canonicalises, unchanged.
+
+### The split is by institution, not by TLD
+
+That is the whole justification, and it is the test to apply if a third family
+is ever proposed. `fellowshipoflight.org` and `church-space.site` are **two
+orders that exist separately in the fiction**; `fellowshipoflight.org` and
+`.site` are **two spellings of one name**. Consolidating the second is obvious.
+Consolidating the first would be telling search engines that the Communion is a
+copy of the Fellowship, which the record does not say.
+
+The door is open for a third: the **Monasteries of Mars** are the tier's third
+order in canon — currently one tagged page and no domain, and they have spent
+four centuries declining affiliation, which is rather the point of them.
+
+### What two families costs, and it is a real cost
+
+Both families currently serve the **same 62 indexable pages**. So this
+consolidates six competing domains down to **two, not to one**, and Google will
+still choose between `fellowshipoflight.org` and `church-space.site` for those
+pages.
+
+The trade is brand independence for some consolidation. It is worth making —
+the two institutions are genuinely distinct and the reader-facing case is
+strong — but it is a trade rather than a free win, and it stops costing anything
+only when the two families' content actually diverges. Which is, again, the
+writing programme.
 
 ### The contemplative six
 
@@ -91,12 +115,14 @@ needs no `ranksAt` at all.
 | fellowshipoflight.site | The Eden chapter house | **Named in canon** |
 | fellowshipoflight.online | The abbey on the tidal river | Canon, unnamed |
 | fellowshipoflight.space | The house on the green hill | Canon, unnamed |
-| church-space.site | The Communion of the Called | Canon |
+| **church-space.site** | The Communion of the Called — **ranks** | Canon |
 | church-space.online | Cnoc na mBeach | Canon |
 
-`.org` ranks because it is the strongest TLD for a contemplative order, and
-*Fellowship of Light* is a name out of the fiction where *church space* is a
-generic phrase competing in search with room hire.
+`.org` ranks its family because it is the strongest TLD for a contemplative
+order, and *Fellowship of Light* is a name out of the fiction where *church
+space* is a generic phrase competing in search with room hire. `church-space.site`
+ranks its own on the same logic applied within its pair — the `.site` over the
+`.online`, older and stronger.
 
 **Why three houses and not four.** The instruction was four chapter houses for
 four domains. Canon supplies three — the Eden chapter house (named), Brother
@@ -110,13 +136,22 @@ constraints resolving each other rather than fighting.
 One trap worth keeping written down: **Cnoc na mBeach cannot be the fourth
 house.** Its own entry says it is "not a monastery in any sense the Fellowship
 of Light or the Monasteries of Mars would recognize as their own." It belongs to
-the Communion of the Called, which is what makes it a church-space face instead.
+the Communion of the Called — which is exactly why it is the second face of
+*that* family rather than a fifth face of the Fellowship's.
 
 **Houses 2 and 3 are fronted by description, not name.** Both are canon and
 neither has one. The descriptions are better than a proper noun would be, cost
 nothing, and assert nothing; naming is a one-way door that pulls in a corpus
-sweep and a migration-map row, and belongs to a scene that needs the name
-spoken aloud rather than to a domain that wants a title.
+sweep and a migration-map row, and belongs to a scene that needs the name spoken
+aloud rather than to a domain that wants a title.
+
+**starquest.online was demoted from a build to an alias.** It had a build and
+nothing of its own to put in it: the orbital-five-o thread is *one* task force
+(the Governor's Investigative Task Force) and Season 4 is *one* chapter, so
+there was no second face to give it. A faction split there would have been
+invented rather than found — unlike the chapter houses, which are a real
+in-world structure. That returns the young-adult tier to a family of one, so it
+needs no `ranksAt` at all.
 
 ## What a specialisation can and cannot be
 
@@ -198,26 +233,21 @@ own head and stay host-relative. They are `noindex`, and their canonical chains
 through the sibling's real page to the ranking domain, so they are correct as
 they stand.)
 
-## Still open — Dermot's calls
+## Still open — Dermot's call
 
-Four questions were open on 20 August; three are answered above (the fourth
-house dissolves into "the ranking domain carries the whole"; houses 2 and 3 stay
-unnamed and descriptive; starquest.online becomes an alias). What is left:
+Of the four questions open at the start, three were settled in the second pass
+(the fourth house dissolves into "the ranking domain carries the whole"; houses
+2 and 3 stay unnamed and descriptive; starquest.online becomes an alias) and the
+fourth in the third (contemplative is two families, split by institution). One
+remains:
 
-1. **Whether church-space.site and .online really give up ranking.** This is
-   what one-site-per-family means with families as tiers, and it remains the
-   line most worth a second look before merging. The alternative is to treat
-   contemplative as *two* families — Fellowship and Communion — each ranking its
-   own domain, which is defensible on the grounds that they are genuinely
-   different institutions and not TLD variants of one name. It costs the
-   consolidation and would need a second `ranksAt` value.
-2. **Whether framing-only specialisation is enough to justify six builds.** By
-   the principle at the top of this file, a build earns its keep by having a
-   face of its own — all six now do. But a stricter reading of the same rule
-   would say a face is not *content*, and demote the three unnamed-house domains
-   to aliases until they have pages. Both readings are honest; this file has
-   taken the looser one because the framing is already written and the writing
-   programme is the point.
+1. **Whether framing-only specialisation justifies six contemplative builds.**
+   By the principle at the top of this file, a build earns its keep by having a
+   face of its own — all six now do. A stricter reading of the same rule would
+   say a face is not *content*, and demote the three unnamed-house domains to
+   aliases until they have pages. Both readings are honest; this file has taken
+   the looser one because the framing is written and the writing programme is
+   the point. The two **ranking** domains are unaffected either way.
 
 ## What could not be checked from here
 
