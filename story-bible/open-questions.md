@@ -302,10 +302,12 @@ are the parts it could not decide.
 - **Do the four edition themes get regenerated?** Their prompts are gone, so a
   regeneration is a *new* track under an existing label, not a recovery — a
   front-of-house change on four live domains.
-- **Does Church Space get a theme of its own?** It registers no `themeAudio` and
-  falls through to the default Celtic ambient. That may well be right; it has
-  simply never been decided, so the fall-through is currently an omission
-  wearing a decision's clothes.
+- ~~**Does Church Space get a theme of its own?**~~ — **ruled 20 August 2026:
+  yes.** *Rotational Hum* registered as `themeAudio` ("Ambient drone",
+  `rotational-hum.m4a`) on Dermot's direction that the track is site furniture.
+  It was the only edition that could take a new theme without displacing one
+  already live, and the fall-through it replaces was an omission rather than a
+  decision.
 - **WAV → m4a/mp3 for the four themes.** 4–8 MB each behind `preload="none"`.
   Mechanical and content-risk-free, ~20 MB saved, but it touches live domains.
 - **Recordings for the two unrecorded anthems.** *Half-Light Causeway* and
