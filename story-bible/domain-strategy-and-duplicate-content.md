@@ -141,6 +141,15 @@ the machinery: a subdomain host resolves cleanly and matches no parent entry by
 accident, so it simply needs its own entry in `lib/editions.js` like any other
 build.
 
+**Where they are created, since the interface moved.** cPanel retired its
+separate *Subdomains* and *Addon Domains* pages and folded both into one
+**Domains** interface, so a subdomain is no longer a distinct thing to make:
+Domains → Create A New Domain, type the full hostname, leave "share document
+root" unchecked, and set `ALT_<id>_DIR` to whatever path it creates. Full
+version, including the DNS case, in `TECHNICAL-README.md`'s `ALT_DOMAINS`
+section. Worth writing down twice because "there is no Subdomains page" reads
+like the feature is gone rather than renamed.
+
 Two limits, and both matter before anyone gets attached to the idea.
 
 **A codex subdomain will not rank, by construction.** It serves a subset of its

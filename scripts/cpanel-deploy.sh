@@ -359,7 +359,9 @@ deploy_alias_notice() {
   fi
 
   echo "=== [$dan_label] redirect notice deployed to $dan_dest (301 -> $dan_target) ==="
-  echo "---   [$dan_label] repoint $dan_domain at $dan_target's document root in cPanel to retire this."
+  echo "---   [$dan_label] To retire this: point $dan_domain at $dan_target's document root"
+  echo "---   [$dan_label] (cPanel: Domains -> $dan_domain -> document root), then remove it from"
+  echo "---   [$dan_label] ALT_DOMAINS. Until then this redirect does the same job."
   return 0
 }
 
@@ -836,7 +838,11 @@ main() {
     # a clear per-domain FAIL line (and notification), not a deploy that
     # quietly does nothing for that domain.
     if [ ! -d "$alt_dest" ]; then
-      echo "FAIL [$id]: ALT_${id}_DIR target does not exist: $alt_dest (create the addon domain / point its document root there first)" >&2
+      echo "FAIL [$id]: ALT_${id}_DIR target does not exist: $alt_dest" >&2
+      echo "FAIL [$id]:   Create the domain first (cPanel: Domains -> Create A New Domain," >&2
+      echo "FAIL [$id]:   which covers subdomains too - the separate Subdomains and Addon" >&2
+      echo "FAIL [$id]:   Domains pages were retired), give it its OWN document root rather" >&2
+      echo "FAIL [$id]:   than sharing one, and set ALT_${id}_DIR to the path it created." >&2
       overall_status=1
       result_lines+=("FAIL $id -> $alt_dest (directory missing)")
       continue

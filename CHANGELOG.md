@@ -6,6 +6,12 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Fixed
+
+- **Documentation described a cPanel interface that no longer exists.** cPanel retired its separate *Subdomains* and *Addon Domains* pages and folded both into one **Domains** interface, so `TECHNICAL-README.md`'s "created via cPanel's own addon domain setup" and `cpanel-deploy.sh`'s "create the addon domain" pointed at icons that are gone — reading as though the feature had been removed rather than renamed. Both now describe **Domains → Create A New Domain**, the own-document-root choice that separates a build from an alias, the DNS case where nameservers are not cPanel's, and the fact that the same page is where an alias is finally re-pointed. Written as actions rather than icon names, since this interface has already moved once.
+
+## [Unreleased]
+
 ### Added
 
 - **A candidate subdomain list** in `story-bible/domain-strategy-and-duplicate-content.md` (Dermot's direction, 2026-08-20), with measured indexable/codex/lore/character counts for eight faction filters plus two utility subdomains. Recorded because the codex-site idea otherwise reads as an argument for buying domains: a subdomain costs nothing, needs no registrar, and resolves cleanly against the registry (verified). Two limits stated with it — a codex subdomain serves a subset of its parent's pages so it canonicals there and will not rank, and a subdomain protects no name, so it complements the anti-squatting registrations rather than replacing them.

@@ -176,7 +176,18 @@ If `deploy.conf` is missing entirely, every key falls back to its default above 
 
 The keys above describe one clone's *primary* domain, deployed to `/home/<CPANEL_USER>/public_html/`. A clone can optionally also deploy additional domains from that same checkout — useful when those domains share the same cPanel account as the primary domain (e.g. addon domains), instead of needing a whole separate clone per domain the way the "several production domains from separate clones" model above does.
 
-Each alt domain deploys to a sibling folder under the same `$HOME`, at the same level as `public_html/` — typically that addon domain's own document root, created via cPanel's own addon domain setup before it's added here.
+Each alt domain deploys to a sibling folder under the same `$HOME`, at the same level as `public_html/` — typically that domain's own document root, which has to exist in cPanel before it's added here.
+
+**Creating one, and where the interface went.** cPanel used to have separate *Subdomains* and *Addon Domains* pages. Both were retired and folded into a single **Domains** interface (around cPanel v100–v102), so neither icon exists any more and a subdomain is no longer a distinct kind of thing to create. The action, which is what to remember rather than the label:
+
+1. **Domains → Create A New Domain**, and type the full hostname — `archive.fianilchruinne.com` for a subdomain, `example.com` for a separate domain. cPanel works out which it is from whether the account already owns the parent.
+2. **Leave "share document root with…" unchecked.** A shared root is how you make an alias; a separate root is what an `ALT_DOMAINS` build needs. Newer cPanel defaults a new domain's root *outside* `public_html` (`/home/<user>/archive.fianilchruinne.com`), which is fine — just set `ALT_<id>_DIR` to whatever it actually created, since that path is the one thing here that has to match exactly.
+3. **DNS**, if it isn't cPanel's. Where the nameservers are the host's, the record is made for you. Where DNS lives at the registrar, add an `A` record for the subdomain pointing at the account's IP, or nothing resolves however correct the cPanel side is.
+4. **AutoSSL** picks the new host up on its next run.
+
+That page is also where an existing domain's document root is *re-pointed*, which is how a domain in `lib/editions.js`'s `ALIASES` finally becomes a real alias.
+
+Given this interface has already moved once, treat any icon name here as the perishable part. The durable version is: create the host, give it its own document root unless you want an alias, make sure DNS resolves.
 
 ```bash
 ALT_DOMAINS="altsite1 altsite2 altsite3 altsite4"
