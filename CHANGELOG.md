@@ -8,6 +8,7 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Fixed
 
+- **A `SITE_NOINDEX` build no longer emits a sitemap.** A testing or staging domain ships `robots.txt` with `Disallow: /` and `noindex, nofollow` on every page, and then shipped a `sitemap.xml` enumerating those same pages. Unreachable rather than harmful — robots.txt omits the `Sitemap:` line and disallows the file itself — but a list of URLs the domain is actively hiding is the wrong artifact to leave in a document root. Found while verifying a test subdomain build. Same shape as the `ranksAt` case already handled in `src/sitemap.njk`, now sharing one condition.
 - **Documentation described a cPanel interface that no longer exists.** cPanel retired its separate *Subdomains* and *Addon Domains* pages and folded both into one **Domains** interface, so `TECHNICAL-README.md`'s "created via cPanel's own addon domain setup" and `cpanel-deploy.sh`'s "create the addon domain" pointed at icons that are gone — reading as though the feature had been removed rather than renamed. Both now describe **Domains → Create A New Domain**, the own-document-root choice that separates a build from an alias, the DNS case where nameservers are not cPanel's, and the fact that the same page is where an alias is finally re-pointed. Written as actions rather than icon names, since this interface has already moved once.
 
 ## [Unreleased]
