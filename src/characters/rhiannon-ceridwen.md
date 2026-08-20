@@ -29,7 +29,7 @@ Reconnection with the Solar System ended the technicality. When Star Rangers sur
 
 ## Character Notes
 
-Rhiannon does not frame what she did as a power grab, and largely means it. Her position is procedural rather than ambitious: someone was going to answer that hail, the station was hers, and a two-year delay on a first-contact relationship struck her as a worse risk to Aethelrock than the accusation of overreach she knew she'd draw. She has not backed down from that reasoning in nine years of being told, at every Ridgemoot since, that she was wrong to make it alone.
+Rhiannon does not frame what she did as a power grab, and largely means it. Her position is procedural rather than ambitious: someone was going to answer that hail, the station was hers, and a two-year delay on a first-contact relationship struck her as a worse risk to Aethelrock than the accusation of overreach she knew she'd draw. She has not backed down from that reasoning in two years of being told, at every Ridgemoot since, that she was wrong to make it alone.
 
 She keeps the other clan heads' objections on the record rather than arguing them down in the room — a habit that reads as either scrupulous fairness or quiet provocation depending on who is describing it. [Fergus Aonghas](/star-rangers/characters/fergus-aonghas/), head of Clan Aonghas and her nearest neighbour at the Ridgemoot border, has called her "the only person on this world who apologises in the same breath as refusing to stop."
 

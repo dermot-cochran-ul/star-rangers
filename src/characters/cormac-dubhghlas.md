@@ -20,7 +20,7 @@ Clan Dubhghlas holds the southern lowland glens — the largest share of Aethelr
 ## Known History
 
 - Fourth-generation head of Clan Dubhghlas, taking the position from his father in 2811 UCSD.
-- Chaired the last full renegotiation of the seat rotation in 2806 UCSD, before [Rhiannon Ceridwen](/star-rangers/characters/rhiannon-ceridwen/) took the Ceridwen headship.
+- Chaired the last full renegotiation of the seat rotation in 2806 UCSD as his father's proxy, five years before the headship passed to him, and long before [Rhiannon Ceridwen](/star-rangers/characters/rhiannon-ceridwen/) took the Ceridwen headship.
 - Has formally objected to Ceridwen's unilateral first contact with Star Rangers survey traffic at every Ridgemoot since 2824 UCSD.
 - Controls the largest voting bloc at the Ridgemoot by population, though not by unanimous clan sentiment — Dubhghlas's own younger tenant-holders are less committed to the old schedule than their head is.
 
