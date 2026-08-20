@@ -395,20 +395,24 @@ not evaporate between sessions.
   repo, or open creation. Tracked as **#432**; the recommendation is reword,
   since that file binds him to other people and is draft-and-stop.
 - **[Proverbs and Maxims of the Star Rangers](../src/lore/star-rangers-proverbs-and-maxims.md)**, drafted 18 August 2026 and not merged — a lore entry asserts about the world, so it is draft-and-stop. Two of its sayings are new rather than collected (*"Quiet is not doubt; loud is not certain"* and *"The pleasing reading is checked first"*, from his humility note of the same date); the rest are sourced to existing pages. Separately, the survey behind that note found the corpus holds only the *good* version of humility — grounded, correctly refusing flattery — and nobody yet embodies **Humility can become invisibility**. Worth confirming before anyone writes to the theme, since the pair only works if both halves exist on the page. See `ideas.md`, *Humility as Confidence*.
-- **The domain families — RESOLVED 2026-08-20**, kept here only as a pointer.
-  Search Console's duplicate-content warnings resolved over four passes into a
-  written test (a build needs its own page set, its own reason to be searched
-  for, and asserts nothing new), five families across four tiers split by
-  institution rather than TLD, and the first **codex site** — the Fellowship's
-  comparative archive at fellowshipoflight.site, filtered by tag with no thread.
-  Four domains failed the test and became aliases. What remains is work rather
-  than a decision: qualifying factions (`governance` 19 own pages,
-  `survey-archive` 9) can each have a codex site once a domain is registered,
-  and each demoted domain can return as a build when it has pages of its own.
-  One constraint worth carrying: every Communion and Cnoc na mBeach page is
-  private-thread material, so it can never be selected by tag and that side of
-  the tier cannot produce a codex site at all. Full write-up in
-  `domain-strategy-and-duplicate-content.md`.
+- **The domain families — RESOLVED 2026-08-20**, kept as a pointer. Search
+  Console's duplicate-content warnings resolved into a written test for what
+  earns a build (its own page set, its own reason to be searched for, asserts
+  nothing new), five families across four tiers split by **institution not
+  TLD**, and the first **codex site** — the Fellowship's comparative archive at
+  fellowshipoflight.site, filtered by tag with no thread. Four domains failed
+  the test and became aliases, and an alias now gets a three-file 301 redirect
+  deployment rather than a refused deploy, so consolidation is real from the
+  first deploy and the cPanel repoint is tidying. **Live work remaining, not
+  decisions:** repoint those four in cPanel; verify against a live server, which
+  this session could not reach at all. **A candidate subdomain list** now sits in
+  `domain-strategy-and-duplicate-content.md` with measured page counts — the
+  point being that a faction wanting a home should be asked which subdomain
+  before which registrar, since a subdomain is free and a codex subdomain
+  canonicals to its parent anyway. Two constraints worth carrying:
+  `lib/content-filter.js` **unions** its filters, so a tag cannot subdivide a
+  thread; and every Communion and Cnoc na mBeach page is private-thread
+  material, so that side of the tier can never produce a codex site.
 - **The Fold Transit Safety branch origin story**, **#430**. Boundary Safety
   and AI Safety each got a history on 16 August; Fold Transit is named and
   unexplained. Most of the raw material already exists in

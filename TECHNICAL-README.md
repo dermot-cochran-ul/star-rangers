@@ -373,20 +373,37 @@ Let a clone brand itself independently of the shared repo default (`Star Rangers
 
 #### Domains this project has registered as aliases
 
-`lib/editions.js` carries an `ALIASES` map — hosts that share another domain's
-document root and must never be built. `cpanel-deploy.sh` **refuses to deploy**
-one, on either the primary or an `ALT_DOMAINS` path, because building it would
-serve the full unfiltered site there, unbranded and self-canonicalling, as a
-duplicate competing with the domain it points at. The error names both fixes:
-drop it from `ALT_DOMAINS` and point it at its target in cPanel, or remove it
-from `ALIASES` and give it an edition entry.
+`lib/editions.js` carries an `ALIASES` map — hosts that belong to another domain
+and must not have the site built on them. Rather than skipping or failing them,
+`cpanel-deploy.sh` gives such a host a **three-file redirect deployment**:
+
+- `.htaccess` — a `301` for the whole namespace to the target, path and query
+  preserved, so a deep link lands on its counterpart rather than the front page.
+  `/.well-known/` is exempt so AutoSSL's plain-http check still works.
+- `index.html` — a short notice carrying `rel=canonical` and a meta refresh, for
+  hosts where `mod_rewrite` is unavailable. Two mechanisms for one move, the same
+  pairing the in-site rename stubs use.
+- `robots.txt` — which deliberately does **not** `Disallow`. A crawler has to be
+  able to fetch these URLs to see the `301` and consolidate them; blocking it
+  strands the redirect unseen and leaves the old URLs indexed.
+
+It runs `rsync --delete`, so whatever build was last deployed there is removed —
+otherwise the redirect would sit on top of a site still serving its own pages to
+anything reaching them without passing through `.htaccess`. No Node, no Eleventy,
+no build: three files.
+
+The point is that **the consolidation is real from the first deploy**. Repointing
+the domain at its target's document root in cPanel is then tidying rather than a
+prerequisite, and the deploy log says so on every run until it is done. Templates
+are in `scripts/alias-notice/` with `__TARGET__` and `__DOMAIN__` substituted at
+deploy time — edit those, never a deployed copy.
 
 **This is not a domain allow-list, and an independent deployment is unaffected.**
 A fork on its own domain resolves no edition here and never will — the registry
 is this project's, not a list of permitted hosts — so an unknown domain deploys
 the full site exactly as it always has, including with the two-key minimum
-`deploy.conf`. Only a host *named* in `ALIASES` is refused. Silence about a
-domain means no opinion.
+`deploy.conf`. Only a host *named* in `ALIASES` gets the redirect treatment.
+Silence about a domain means no opinion.
 
 A domain nobody has configured anywhere gets a `WARN` line in the deploy log and
 deploys anyway: correct for an independent fork, usually a mistake for a clone of

@@ -280,49 +280,87 @@ fill_from_registry() {
 }
 
 # ---------------------------------------------------------------------------
-# assert_not_alias(): refuse to BUILD a domain this project has said is an alias.
+# deploy_alias_notice(): serve a one-page redirect from a domain registered as
+# an alias, instead of building the site there.
 #
-# THE FAILURE THIS EXISTS FOR, measured 2026-08-20. Removing a domain from an
-# edition's `domains` does not make it an alias - that is a cPanel operation,
-# pointing the addon domain at its target's document root - and the merge that
-# removes it cannot perform that step. In the gap, a still-configured
-# ALT_DOMAINS entry resolves to no edition, and if deploy.conf leaves its keys
-# unset the build runs with THEME defaulted and no CHARACTERS/TOPICS/THREADS.
-# An unfiltered build is the FULL SITE: 566 indexable pages instead of a
-# narrowed clone's 60-90, unbranded, with its own 443-URL sitemap, self-
-# canonicalling. On a domain meant to be an alias that is a brand-new duplicate
-# of the canonical site, and the deploy reports success while doing it.
+# WHY THIS RATHER THAN REFUSING. Removing a domain from an edition's `domains`
+# does not make it an alias - that is a cPanel operation, pointing the addon
+# domain at its target's document root, and the merge that removes it cannot
+# perform that step. An earlier version of this code failed the deploy in that
+# gap. Failing is safe but does nothing useful: the domain keeps serving
+# whatever full build was last rsynced there, which is precisely the duplicate
+# the demotion was meant to end, and it stays that way until somebody logs into
+# cPanel.
 #
-# WHY IT KEYS OFF THE ALIAS MAP AND NOT OFF "HAS NO IDENTITY". An earlier
-# version of this check refused any domain that neither the registry nor
-# deploy.conf had configured, and that was wrong in a way worth recording: it
-# broke third-party forks. A fork deploying to its own domain resolves no
-# edition here and never will - lib/editions.js is this project's registry, not
-# a domain allow-list - and the two-key minimum deploy.conf (CPANEL_USER +
-# DOMAIN) is a documented, supported path that FORKING.md promises. Refusing to
-# deploy an unknown domain would have made an independent deployment impossible
-# without adopting our registry, which is exactly the coupling FORKING.md exists
-# to prevent.
+# So the gap gets a deployment of its own: an .htaccess that 301s the whole
+# namespace to the target with path and query preserved, an index.html carrying
+# a canonical and a meta refresh for hosts where mod_rewrite is unavailable, and
+# a robots.txt. Three files, no Node, no Eleventy, no build. The consolidation
+# is real from the first deploy and the cPanel repoint becomes tidying rather
+# than a prerequisite.
 #
-# So the rule is narrow and stated positively: we refuse a host we have NAMED as
-# an alias. Silence about a domain is no opinion, not refusal. An unknown domain
-# builds the full site exactly as it always has.
-assert_not_alias() {
-  local ana_label ana_domain ana_alias_of
-  ana_label="$1"; ana_domain="$2"; ana_alias_of="$3"
+# The robots.txt deliberately does NOT disallow. A crawler has to be able to
+# fetch these URLs to see the 301 and consolidate them; blocking it would strand
+# the redirect unseen and leave the old URLs indexed, which is the outcome the
+# redirect exists to prevent.
+#
+# Templates live in scripts/alias-notice/ with __TARGET__ and __DOMAIN__
+# substituted here. Returns 0 on success, 1 on failure, matching
+# build_and_deploy so main() can aggregate either the same way.
+deploy_alias_notice() {
+  local dan_label dan_domain dan_target dan_dest dan_src dan_tmp dan_file
+  dan_label="$1"; dan_domain="$2"; dan_target="$3"; dan_dest="$4"
+  dan_src="$REPOSITORY_ROOT/scripts/alias-notice"
 
-  [ -z "$ana_alias_of" ] && return 0
+  echo "=== [$dan_label] $dan_domain is an alias of $dan_target - deploying redirect notice ==="
 
-  echo "FAIL [$ana_label]: '$ana_domain' is registered as an ALIAS of '$ana_alias_of'," >&2
-  echo "FAIL [$ana_label]:   so it must not be built. Building it would serve the full" >&2
-  echo "FAIL [$ana_label]:   unfiltered site here, unbranded and self-canonicalling - a" >&2
-  echo "FAIL [$ana_label]:   duplicate competing with the domain it is meant to point at." >&2
-  echo "FAIL [$ana_label]:   Fix: remove '$ana_domain' from ALT_DOMAINS in deploy.conf and" >&2
-  echo "FAIL [$ana_label]:   point it at '$ana_alias_of' in cPanel (Domains -> the addon" >&2
-  echo "FAIL [$ana_label]:   domain's document root)." >&2
-  echo "FAIL [$ana_label]:   If it should be a BUILD again, remove it from ALIASES in" >&2
-  echo "FAIL [$ana_label]:   lib/editions.js and give it an edition entry." >&2
-  return 1
+  for dan_file in index.html .htaccess robots.txt; do
+    if [ ! -f "$dan_src/$dan_file" ]; then
+      echo "FAIL [$dan_label]: alias-notice template $dan_src/$dan_file is missing" >&2
+      return 1
+    fi
+  done
+
+  if [ ! -d "$dan_dest" ]; then
+    echo "FAIL [$dan_label]: destination $dan_dest does not exist" >&2
+    return 1
+  fi
+
+  dan_tmp=$(mktemp -d) || { echo "FAIL [$dan_label]: could not create a temp dir" >&2; return 1; }
+
+  for dan_file in index.html .htaccess robots.txt; do
+    # The target is a hostname validated by lib/editions.js (it must be a domain
+    # some edition actually serves), so it cannot carry a sed delimiter.
+    sed -e "s|__TARGET__|$dan_target|g" -e "s|__DOMAIN__|$dan_domain|g" \
+      "$dan_src/$dan_file" > "$dan_tmp/$dan_file" || {
+        echo "FAIL [$dan_label]: could not render $dan_file" >&2
+        rm -rf "$dan_tmp"; return 1
+      }
+  done
+
+  # --delete on purpose: whatever full build was last deployed here has to go,
+  # or the redirect sits on top of a site that is still serving its own pages to
+  # anything that reaches them without passing through .htaccess.
+  if ! rsync -a --delete "$dan_tmp/" "$dan_dest"; then
+    echo "FAIL [$dan_label]: rsync to $dan_dest failed" >&2
+    rm -rf "$dan_tmp"; return 1
+  fi
+  rm -rf "$dan_tmp"
+
+  for dan_file in index.html .htaccess robots.txt; do
+    if [ ! -f "$dan_dest$dan_file" ]; then
+      echo "FAIL [$dan_label]: post-deploy check - $dan_dest$dan_file missing" >&2
+      return 1
+    fi
+  done
+  if ! grep -q "$dan_target" "$dan_dest.htaccess"; then
+    echo "FAIL [$dan_label]: post-deploy check - .htaccess does not name $dan_target" >&2
+    return 1
+  fi
+
+  echo "=== [$dan_label] redirect notice deployed to $dan_dest (301 -> $dan_target) ==="
+  echo "---   [$dan_label] repoint $dan_domain at $dan_target's document root in cPanel to retire this."
+  return 0
 }
 
 # warn_no_identity(): says so, and carries on.
@@ -376,7 +414,7 @@ PRIMARY_RANKS_AT="$RESOLVED_RANKS_AT"
 # Checked BEFORE the THEME default below, which is what makes the check possible
 # at all: once THEME is "default" there is no way to tell a domain that chose the
 # main palette from one nobody configured.
-assert_not_alias primary "$DOMAIN" "$RESOLVED_ALIAS_OF" || exit 1
+PRIMARY_ALIAS_OF="$RESOLVED_ALIAS_OF"
 warn_no_identity primary "$DOMAIN" "$EDITION" "$THEME" "$SITE_NAME" "$CHARACTERS$TOPICS$THREADS"
 
 # Normalise the two keys whose pre-set defaults had to become empty above, so
@@ -727,7 +765,17 @@ main() {
   local overall_status=0
   local -a result_lines=()
 
-  if [ "$DEPLOY_PRIMARY" = "true" ]; then
+  if [ "$DEPLOY_PRIMARY" = "true" ] && [ -n "$PRIMARY_ALIAS_OF" ]; then
+    # A clone whose PRIMARY domain is an alias is an odd configuration and not
+    # one to guess about - it gets the same redirect notice as an alt, so the
+    # behaviour is the same wherever the alias turns up.
+    if deploy_alias_notice "primary" "$DOMAIN" "$PRIMARY_ALIAS_OF" "/home/$CPANEL_USER/public_html/"; then
+      result_lines+=("OK   primary -> /home/$CPANEL_USER/public_html/ ($DOMAIN 301 -> $PRIMARY_ALIAS_OF)")
+    else
+      overall_status=1
+      result_lines+=("FAIL primary -> /home/$CPANEL_USER/public_html/ ($DOMAIN redirect notice)")
+    fi
+  elif [ "$DEPLOY_PRIMARY" = "true" ]; then
     if build_and_deploy "primary" "/home/$CPANEL_USER/public_html/" \
          "$THEME" "$CHARACTERS" "$TOPICS" "$THREADS" "$SITE_NAME" "$SITE_TITLE" "$DOMAIN" \
          "$CUSTOM_LORE_FILE" "$CUSTOM_CSS_FILE" "COMMENTS_ENABLED=$COMMENTS_ENABLED" \
@@ -833,9 +881,13 @@ main() {
     fill_from_registry alt_site_title "$RESOLVED_SITE_TITLE" "$id" SITE_TITLE
     fill_from_registry alt_giscus_profile "$RESOLVED_GISCUS_PROFILE" "$id" GISCUS_PROFILE
     fill_from_registry alt_comments_enabled "$RESOLVED_COMMENTS_ENABLED" "$id" COMMENTS_ENABLED
-    if ! assert_not_alias "$id" "$alt_domain" "$RESOLVED_ALIAS_OF"; then
-      overall_status=1
-      result_lines+=("FAIL $id ($alt_domain - registered as an alias of $RESOLVED_ALIAS_OF)")
+    if [ -n "$RESOLVED_ALIAS_OF" ]; then
+      if deploy_alias_notice "$id" "$alt_domain" "$RESOLVED_ALIAS_OF" "$alt_dest"; then
+        result_lines+=("OK   $id -> $alt_dest ($alt_domain 301 -> $RESOLVED_ALIAS_OF)")
+      else
+        overall_status=1
+        result_lines+=("FAIL $id -> $alt_dest ($alt_domain redirect notice)")
+      fi
       continue
     fi
     warn_no_identity "$id" "$alt_domain" "$alt_edition" "$alt_theme" "$alt_site_name" \
