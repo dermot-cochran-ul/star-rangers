@@ -29,6 +29,13 @@ line there when something here becomes a decision rather than a task.
 | Codex entries | designed dark-gradient **title cards**, not photographs |
 | `image_alt` | must describe what the file *actually shows* |
 
+**Audio has its own runbook now.** This file stays about images;
+[`music-prompts.md`](music-prompts.md) carries the house sonic signature, the
+per-edition theme briefs and the in-universe recording briefs, written 20 August
+2026 after a check found all five files in `src/audio/` had no recorded prompt.
+The target below is shared between them, which is why it is still worded for
+both.
+
 **The target, for images and audio alike** (12 August 2026):
 
 > **Enigmatic and haunting, with beauty, mystery, hope and serenity woven
@@ -67,6 +74,42 @@ manufacture closes it **at the prompt** rather than at review.
 Where a system has several bodies, show **one**. The Eden Warden's Ward and
 Custos are two personas in one system, and two figures would literalise them as
 two beings — the same mistake ruled out for plural human minds.
+
+**And where canon gives a system no body, the portrait is not a body** — settled
+13 August 2026, confirmed and written down here 19 August. This is not an
+exception to the rule above; it is the rule's scope. *AIs get portraits like
+everyone else* answers **how to depict an AI that has a body**, so that a
+generator's photoreal default cannot stand in for one. It was never a
+requirement to invent a body for a system that has none.
+
+Three worked cases, all settled the same day in #415:
+
+- **The Eden Warden** — re-briefed on Dermot's direction: *the Warden may not
+  have a body at all, other than in the sense that the habitat structure is its
+  body.* The portrait became the habitat, inhabited and attended, with no figure
+  in it.
+- **Reeves (Eden)** — the re-brief that produced the emblem was forced by a
+  different problem and landed on the same answer. **The lettering ban cannot
+  beat the scene**: a brief describing a case-file interface returns an object
+  whose purpose is to carry writing, and the model draws the writing (this one
+  came back reading `CASE FILE: ALPHA-7`). The scene had to change, not the
+  negative. It became *points of light with some joined and some not — a pattern
+  half-found and not yet claimed*, which **suits an intelligence that will not
+  volunteer a conclusion better than a dashboard ever did.**
+- **Reeves (Threshold)** — made the deliberate twin, because the two Reeves are
+  the same model on separate deployments and their pages say so. Same emblem,
+  same palette, same restraint, **and the figure further along**: a dense ring
+  almost closed and still open along one arc. The difference between the two
+  frames is the point and is recorded in both alt texts.
+
+Neither Reeves has a body anywhere in canon — Lucene-9000 is *a mobile AI
+humanoid*, and Reeves is *investigative support intelligence*, which is not the
+same kind of thing. **So the emblem was the correct answer twice over and is not
+a lapse from the 12 August rule.** It was flagged as possibly one during the
+19 August audit, and the flag was wrong: the decision is recorded in #415's
+commit message and carried consistently into both `image_alt` lines. What it was
+never carried into is this file, which is the same failure the rest of that audit
+found — *the decision gets made and the note never gets it.*
 
 **Tone line:** unsettling is fine, horror is not — hint at the dark fact rather
 than depicting it. A cyber-revenant portrait showing exposed throat machinery
@@ -215,9 +258,28 @@ chapter images would mostly be four views of the same room.
 - **Name the sheen, not the substance.** "Stone-textured skin" for a Basaltborn
   produced a golem; describing basalt *iridescence* on chitin produced the
   character.
-- **Ban lettering explicitly** ("no readable text, no insignia, plain unmarked
-  folders") or you get gibberish name tapes — and once, an entire NYPD squad
-  room with `NYC POLICE` case files.
+- **Ban lettering explicitly** ("no readable text, no insignia") or you get
+  gibberish name tapes — and once, an entire NYPD squad room with `NYC POLICE`
+  case files. **But the ban is a floor, not a fix — see the next bullet, and
+  note that this one used to recommend "plain unmarked folders" as its own
+  example, which is precisely the shape that fails.**
+- **The lettering ban cannot beat the scene** (13 August 2026, #415; the rule
+  was recovered and written down 19 August). If a brief describes an object
+  whose purpose is to carry writing — a case file, a form, a certificate, a
+  departures board, an open notebook, station wayfinding — **the model draws the
+  object, and the object has writing on it**, however many negatives are
+  stacked against it. The Eden Reeves brief asked for a holographic case-file
+  interface and banned lettering in the same breath, and came back reading
+  `CASE FILE: ALPHA-7`.
+
+  **So the fix is always to change the scene, never to strengthen the
+  negative.** Three moves, in order of preference: **remove** the object (an
+  empty desk says more than a desk of blank paper); **close** it (a shut book is
+  reliably safe where an open one is not, and a shut book still reads as a
+  record); or **substitute** an object that carries meaning without a writing
+  surface — a stamped seal, a tally, a sealed case. *Blank* and *unmarked* are
+  not scene changes. They are instructions the model cannot follow, because a
+  blank certificate is not a thing it has ever seen.
 - **State the era**, or the setting defaults to contemporary Earth.
 - Small text artifacts can be fixed in-session with a targeted select-and-blur
   rather than a re-roll (worked on a garbled flight-suit name tape).
@@ -450,7 +512,29 @@ being listed anywhere.
 
 ## Open work
 
-### 0. Replaced with placeholder cards — 28 images, added 2026-08-12
+### 0. Replaced with placeholder cards — **22 of the 28 still carded** (re-audited 19 August 2026)
+
+**Six of the twenty-eight have since been replaced with real images and were
+never marked:** `petra-voss`, `brother-daire`, `ilsabet-marrowtide`,
+`rasa-oyelaran`, `eden-warden` and `reeves`. The remaining **22 are still
+PORTRAIT PENDING / ILLUSTRATION PENDING cards** and are still the head of the
+queue.
+
+**Method, so a later audit knows what to trust.** A card and a real image are
+separable by shape: the cards are all **1600×900 at 52–77 KB**, the delivered
+portraits **1200×670 at 96–217 KB**. Two files were then **opened** to check the
+inference at both ends — `cormac-dubhghlas` is still a card reading *PORTRAIT
+PENDING*, `rasa-oyelaran` is a finished portrait of a superintendent in a bureau
+doorway. The measurement located them; opening them confirmed it, per this
+file's own standing rule against reasoning from filenames.
+
+*(One thing noticed here and since resolved: `reeves.jpg` came back as an
+abstract emblem rather than a portrait, which looked as though it sat oddly
+beside the 12 August rule that **AIs get portraits like everyone else**.
+**Confirmed 19 August: it is deliberate**, settled in #415 on 13 August and
+recorded in that commit — see the qualification added to that rule under
+Conventions. The flag was wrong about the decision and right about the file:
+nothing in `images.md` said so until now.)*
 
 **This is the head of the queue.** Every image below was removed and replaced
 with a designed PORTRAIT PENDING / ILLUSTRATION PENDING card, so no page is
@@ -518,6 +602,150 @@ here instead, and both pages currently open with no image at all.
 | `formation-of-star-rangers.jpg` | A **recognisable real city** — a sepia-treated skyline with One World Trade Center's spire unmistakable in it — standing in for the founding of the Star Rangers. No people, so not a privacy case; the problem is that it is a specific place on Earth with its own meaning already attached | The founding of an independent humanitarian corps. Something that is not a photograph of somewhere real |
 | `universal-cosmic-stardate.jpg` | An antique dial engraved **in French with a fleur-de-lis border**, on the entry for a count whose whole argument is that it *"commemorates no founding … a spine that honoured an event would belong to whoever owned the event."* The image hands the standard to exactly one nation's heraldry | A civil timescale owned by nobody. The page's own material is better: an ensemble of clocks, a paper timescale, a loop that closes |
 
+### A third option: refile as in-universe art (Dermot's direction, 18 August 2026)
+
+**An image that directly contradicts canon but remains aesthetic may be moved
+into the Codex as in-universe artwork rather than removed.**
+
+**This completes the rule above rather than overturning it.** *Absence beats a
+picture quietly making a claim* is about a picture asserting in **Archive
+voice**, on a lore page. A Codex artefact asserts nothing — it is
+valid-for-its-author, like every other codex entry — so relocating an image
+stops the claim just as deletion does, and keeps the picture. The disposal
+options are therefore three, in order of preference: **fix it, relocate it,
+delete it.**
+
+**The Codex's own schema is what makes this work.** `author` is a required field
+on every codex entry, and an artwork's author is exactly what makes it
+valid-for-its-author: a rendering by someone who never saw the subject, worked
+from a description, or had reasons to flatter. A grey-alien bust is wrong as
+lore and *interesting* as a popular-press impression by an illustrator who never
+met one — and it then illustrates the very refusal
+[What the Record Refuses](../src/lore/what-the-record-refuses.md) makes. Test an
+image the way the boundary already tests prose: not *is this true?* but *could
+someone in this world have made it, and would they have made it this way?*
+
+**What it takes mechanically — it is not a file move.** `validate-content.js`
+fails on any unreferenced file under `src/images/`, so an image cannot sit in
+the Codex unattached. Refiling means **writing a codex entry around it**, with
+an author, and moving the file to `src/images/codex/`. `image_alt` still
+describes what the picture actually shows. Codex entries carry no `canon_facts`,
+which is consistent — an artefact establishes nothing.
+
+**It would not have rescued either Batch 3 deletion**, and the reason is worth
+keeping because it bounds the rule. Both failed for something the Codex cannot
+cure: they are **photographs of identifiable real-world subjects**. Refiling
+`formation-of-star-rangers.jpg` still shows One World Trade Center, whoever is
+said to have taken it — the problem was never the claim the page made, but that
+the image arrives with its own meaning already attached. The stock provenance is
+a second, independent reason, and the 11 August sweep removed eight on that
+ground alone. *(The French dial was recorded here as arguable — an in-universe
+artefact could legitimately be French-made. The 18 August exclusions below
+settle it twice over: it is stock photography, and an antique instrument on a
+twenty-ninth-century page is an anachronism. Not arguable; excluded.)*
+
+**So the rule's real catchment is original or generated images replaced for
+canon reasons**, not stock photography removed for provenance.
+
+**Correction, 18 August 2026 — this section shipped with a false claim, now
+fixed.** It said the rejected originals were *"recoverable from git history"* and
+named `lore/cerebraun` (grey-alien bust) as the strongest candidate. Checking the
+blobs rather than the prose settles both halves against it, which is the same
+failure this file warns about two sections up:
+
+- **`lore/cerebraun.jpg` has exactly one content version in git**, and opening it
+  shows the **architectural indirection** — a vast concrete hall, one robed
+  figure, mist and high clerestory light. The grey-alien bust never entered the
+  repository. It is not a candidate; it does not exist here.
+- **Nor do most of the others.** `aldera`, `rook-7`, `nessa` and `orla-shepherd`
+  each have **one** distinct blob across every commit touching them. The
+  replacements happened *before* first commit, so the rejected originals were
+  never version-controlled and git cannot return them.
+- **`characters/qiren-tal.jpg` is the sole exception**, with two distinct blobs.
+
+**Consequence: the rule is effectively prospective.** There is almost nothing to
+apply it backwards to, which makes the retroactivity question below much smaller
+than it looked — and means this rule will earn its keep on the *next* image
+rejected for canon, not on the ones already gone.
+
+#### Two absolute exclusions (Dermot's ruling, 18 August 2026)
+
+**Stock photography never qualifies, and neither do anachronisms.** These are
+not weightings to consider; an image failing either is deleted or replaced, and
+the Codex is not offered.
+
+The two exclusions look unrelated and share one reason, which is worth stating
+because it also marks the rule's outer edge. **The Codex can carry a wrong
+belief. It cannot carry a wrong century, or a real place.** A codex artefact is
+still a physical object *made inside this world*, so the author's fallibility
+covers **interpretation** — what they thought, inferred, flattered or got wrong
+— and never **material culture**. Attributing a picture to an in-universe artist
+explains why its reading is mistaken; it does nothing whatever about what is
+physically in the frame.
+
+- **Stock photography.** The image arrives with real-world meaning already
+  attached, and no frame strips it: refiling still shows One World Trade Center
+  whoever is said to have taken it. Provenance is an independent second reason.
+- **Anachronism.** An out-of-period object is not a claim the artist made — it
+  is a claim about what the world could manufacture. An artist working in 2826
+  does not put a twenty-first-century desk lamp in a 2826 scene, so the codex
+  frame has nothing to explain it with. The record already holds the doctrine
+  this rests on: [What the Record Refuses](../src/lore/what-the-record-refuses.md)
+  treats the sprung, jointed, domed desk lamp as *"as much a period object as a
+  wall of dials,"* and sets out what light, displays and surfaces actually look
+  like here.
+
+  **A deliberate historical depiction is not an anachronism** and the rule never
+  reaches it: a picture *of* the twenty-first century showing twenty-first
+  century objects is correctly period. An anachronism is an object out of its
+  time *within the scene depicted*, which is why the exclusion needs no
+  exception.
+
+**What the exclusions leave.** They cut the candidate pool hard, and usefully —
+most of the Firefly replacement list above goes: `ilse-korvain` (US Army stock),
+`karla-wender`, `orla-shepherd`, `nessa` and `maren-solveig-krast` are stock, and
+`rook-7` v1 *"arrived furnished with the NYPD"*, which is both. What survives is
+the **generated and non-period** remainder — `lore/cerebraun` (grey-alien bust)
+still the strongest, with `aldera` and `qiren-tal` behind it.
+
+#### The quality bar (Dermot's ruling, 18 August 2026)
+
+**Only a high-quality image with artistic merit and without technical flaws
+qualifies.** *Aesthetic* in the original direction is not a low bar meaning
+"looks alright"; it is these three, and an image failing any of them is deleted
+or replaced like any other.
+
+The clean formulation: **if the picture would not earn a place on a page were
+canon no obstacle, it does not earn one as Codex art.** The Codex is not a
+salvage yard, and refiling is not a way of keeping work that was not good
+enough. Most images rejected in this repository were rejected *partly* because
+they were poor, and a poor generation does not improve by being reattributed.
+
+**Technical flaw versus style — the distinction worth holding.** A generation
+artefact is a flaw: six-fingered hands, garbled lettering, mismatched eyes,
+architecture that does not resolve, a limb with no shoulder. A stylisation is
+not: flattened perspective, exaggerated proportion, a naive or votive manner are
+all things a maker chooses. **The test is whether an in-world artist could have
+chosen it.** They can choose a style; they cannot choose a diffusion artefact,
+because it is evidence of how the picture was actually made — which is exactly
+the seam a codex frame cannot cover, the same reason anachronism and stock are
+excluded.
+
+**Where this leaves the pool: empty, or nearly.** Combined with the two
+exclusions and the correction above, no identified candidate currently survives.
+That is not a fault in the rule. It is well specified and will catch the next
+case; it simply rescues nothing already gone.
+
+#### Two things still to decide
+
+1. **Does it override the codex title-card convention?** Codex images are
+   *"designed dark-gradient title cards, not photographs"* and covers *"go
+   through the generator, never an image model."* An artefact-image is a
+   **second class** of codex image. Either that convention gains an exception,
+   or artefact entries carry a card and show the artwork in the body.
+2. **Is it retroactive?** Deleted images are recoverable from git. Applying it
+   backwards is a separate decision from applying it going forward.
+
 **Note what the July audit did and did not ask.** `formation-of-star-rangers`
 was inspected in that sweep and passed — correctly, on the question being asked,
 which was whether the alt matched the image. Nobody asked whether the image
@@ -527,10 +755,32 @@ belonged. Two different tests, and only one of them was ever run on it.
 Dermot's own photography. An Irish upland standing in for Ynys Wydrin claims
 nothing false and needs no prompt at all.
 
-### 1. Missing portraits (28 pages)
+### 1. Missing portraits — **the original list is fully delivered** (audited 19 August 2026)
+
+**Every one of the thirty-four prompts below has been generated and shipped.**
+Checked by pulling each `` `slug.jpg` `` out of this section and testing it against
+`src/images/characters/`; nothing is outstanding. The heading said *28 pages* and
+the section listed 34, and none of it had been marked done — so the count was
+wrong, the label was wrong, and a reader would have taken finished work for a
+queue.
+
+**The prompts stay exactly where they are.** They are the prompt of record for
+the images they produced, and deleting them to tidy a status line would destroy
+the provenance the file exists to hold. Read what follows as an archive, not a
+work list.
+
+**What is actually outstanding is a different set of pages** — 25 of them, none
+overlapping with this list. See *Outstanding portraits* at the end of this
+section.
+
+**One stale instruction to ignore in these archived prompts.** Most of them end
+*"Portrait orientation."* That predates the settled convention: character
+portraits are **1200×675, 16:9 landscape** (see Conventions, and the recorded
+Calloway entry in `image-prompts.md`), and the delivered files bear it out —
+42 of 52 are landscape. Don't copy that tail into a new prompt.
 
 None block a build — `character.njk` renders cleanly without an image. Prompts
-below are ready to paste; add `image`/`image_alt` after generating.
+below were ready to paste; `image`/`image_alt` were added after generating.
 
 **Humans**
 
@@ -869,6 +1119,408 @@ staff**, which the generator added unprompted both times.
   contact for the Survey Corps delegation.
   > Cinematic portrait of an abbess in her sixties in a coastal stone abbey, upper body, heavy plain working habit of a contemplative order, belted, with a clear shoulder line and no draping or billowing fabric, upright bearing and entirely still, cold sea light flooding in through an open doorway behind her with the sea beyond it bright and out of focus, the stone interior dark and close around her, pre-industrial island setting, grey stone and dark wool against a luminous doorway, an administrator who happens to be in orders, no serenity of expression, no benevolence, no wisdom pose, no hands folded in blessing, professional, no readable text, signage, lettering or written characters anywhere in frame. Portrait orientation.
 
+#### Outstanding portraits — audited 19 August 2026 (25 pages)
+
+The pages that carry no `image:` today. This is a **list, not a prompt set** —
+only Anne's prompt is written, because that is what was asked for. The other 24
+are named so the next session starts from a true count rather than re-deriving
+one.
+
+```
+alala · andrew-falkorian · anne-de-courtney · anne-wender · dagny-voss
+elvira · emma-la-chapelle · ernesto-strozzi · galen-kane · kate-ukrainka
+knopka · lucene-9000 · luke-valerius · lumbarian · muffin · saint-aoife
+sildron-drey · sofia-santos · sorcha-nic-dhiarmada · sorcha-shepherd
+sylvie-harrow · thalassa-vexar · thrum · xenon · zoe-smith
+```
+
+Re-derive it rather than trusting it, the same way this audit did:
+
+```bash
+for f in src/characters/*.md; do [ "$(basename "$f")" = index.md ] && continue
+  grep -q '^image:' "$f" || basename "$f"; done
+```
+
+**Three of these are the rescue machines** — Lucene-9000, Xenon and Lumbarian —
+and they fall under the *AIs get portraits like everyone else* rule above, with
+the artificiality made visible at the prompt. Worth doing as a set rather than
+singly, since they share a frame of reference and a generator has no memory
+between frames.
+
+##### The remaining twenty-one (19 August 2026)
+
+Written at Dermot's request, in one pass, which is the right way to do it: the
+roster reads as a roster only if the frames were chosen against each other. All
+are **16:9 landscape**, all are **present-day** unless the page says Historical,
+and all carry the standing negative below. **None is generated. All are
+proposals.**
+
+**Standing negative — paste into every one of these:**
+> readable text, lettering, numerals, signage, labels, branding or written characters of any script anywhere in frame; holograms, projected light, glowing displays, screens, monitors, consoles; visible lamp, light fitting or bulb; flat studio backdrop, gradient background, glamour lighting, corporate headshot, posed smiling to camera; weapons.
+
+**Ranger block — paste into the seven Star Rangers frames:**
+> Star Rangers service dress, plain and well kept, carrying small geometric rank marks only — a plain-finished tab at the collar, shapes and a single colour insert and nothing else. No name tape, no nameplate, no stitched badge, no printed words, no letters and no numerals anywhere on the clothing.
+
+**Five of these belong to *Undercover Pets* and are deliberately off the house
+style.** That thread is *cute, cool and clever*, and the runbook is explicit
+that weaving melancholy or mystery through it is a category error rather than a
+stylistic variation. Kate Ukrainka, Knopka, Muffin, Sylvie Harrow and Thrum are
+therefore lit warm and ordinary, not haunted. Muffin is the exception inside the
+exception — see its entry.
+
+---
+
+**The Star Rangers (7)**
+
+- **`andrew-falkorian.jpg`** — Chief Science Officer; an engineering doctorate,
+  standing at the seam where *the Corps decides what an instrument needs to
+  measure and engineering decides how it will survive measuring it*.
+  > [ranger block] Cinematic wide portrait of a man in his late forties in a post's science section aboard a space installation, upper body, standing at a bench beside a part-built instrument — a bare frame with its optics cradled and its housing not yet on — one hand resting on the frame, considering it rather than working on it. Absorbed, exacting, unhurried; the expression of someone deciding whether a thing is finished. Spare institutional interior, soft diffuse light from a concealed source, deep shadow beyond the bench, a wide dark viewport further back. Muted grey, brushed alloy, one warm neutral. 16:9 landscape.
+  - **Extra negative:** laboratory glassware, bubbling liquids, microscope, mad-scientist styling, wall of equipment.
+
+- **`anne-de-courtney.jpg`** — Chief Ranger of the one standing delegation on
+  Vellamar, whose method is *not asking the court for the second thing before the
+  first one is understood.*
+  > [ranger block] Cinematic wide portrait of a woman in her fifties standing just inside the open doorway of a small walled compound at the edge of a pre-industrial island capital, upper body, looking out at the city beyond without stepping toward it, hands at her sides, entirely composed. Beyond the doorway: tiled roofs, stone lanes, terraced ground rising behind, warm afternoon light on the town. Inside the doorway where she stands the light is cool and plain. Restraint and patience rather than longing. Muted stone, terracotta and grey. 16:9 landscape.
+  - **The frame is her method.** She is at the threshold of a place she has never
+    asked to be let further into. Nothing else on the page needed saying, and a
+    desk would have said nothing.
+  - **Not the posted clause.** Her page keeps the charter's withdrawal clause
+    pinned in the working room, which would have been the obvious frame and is
+    unusable — it is a sheet of text, and text is the standing failure mode.
+
+- **`emma-la-chapelle.jpg`** — the junior xenolinguist who filed the reading *at
+  the bottom of her confidence range*, and returns from the Abbeylands *with more
+  questions than sentences*.
+  > [ranger block] Cinematic wide portrait of a young woman seated at a plain wooden table in the cool stone hall of a working abbey on a pre-industrial world, upper body, a closed notebook squared on the table in front of her and a pencil laid down beside it, her hands still — listening to someone out of frame with her head slightly tilted, entirely absorbed. Cold north daylight through a tall narrow opening, the hall dim beyond it, plain benches, no ornament. Practical field clothing over her service dress. Grey stone, pale daylight, one warm wood surface. 16:9 landscape.
+  - **The notebook is shut and the pencil is down** — changed 19 August from
+    *open and blank*, which is a page asked to be empty. Shut is the safe form
+    and says the same thing better: she is at the moment before the note,
+    listening rather than recording.
+
+- **`ernesto-strozzi.jpg`** — the branch's most-cited practitioner for a piece of
+  work he got wrong, who *teaches the correction rather than the recovery from
+  it*.
+  > [ranger block] Cinematic wide portrait of a man in his sixties standing at the head of a plain working table in a delegation compound's translation room, upper body, mid-explanation to two junior officers seated out of frame, one hand open in a gesture that is laying something out rather than insisting on it. Unembarrassed, matter-of-fact, patient. The table between them is entirely bare. Warm shuttered daylight in bars across the room, whitewashed walls. Ochre, whitewash, dark wood. 16:9 landscape.
+  - **The table was cleared on 19 August.** It held *blank unmarked cards laid
+    in rows*, which is a writing surface asked not to be one. The gesture does
+    the work: a man laying something out for two people carries *method* without
+    an object, and a bare table between a teacher and his juniors is the better
+    composition anyway.
+
+- **`galen-kane.jpg`** — *counts departures*. His most valued record entries are
+  the closures, and the Corps' tradition puts the departing Ranger at the back of
+  the room, in civilian clothes, unarmed.
+  > Cinematic wide view of a man in his sixties standing alone at the back of a plain frontier meeting hall during a ceremony, upper body, in ordinary civilian clothes and carrying nothing, hands loosely at his sides, watching the front of the room from the last row. He is not the subject of the occasion and is plainly glad of it. The hall is full of seated colonists seen from behind, out of focus, and morning light falls through tall plain windows down the length of it toward the front. Timber, whitewash, low sun. Quiet, unceremonious, complete. 16:9 landscape.
+  - **No uniform, deliberately, and the ranger block is not used here.** The
+    tradition is explicit that the departing Ranger attends as a civilian guest,
+    unarmed, at the back — a uniform would invert the one moment his career is
+    counted in.
+
+- **`luke-valerius.jpg`** — will not say *everywhere*, and declines the sentence
+  beginning *which suggests*.
+  > [ranger block] Cinematic wide portrait of a man in his forties standing at a wide dark viewport of a boundary-proximate outpost, upper body, turned away from a plain workbench behind him and looking out, arms at his sides, having just finished and having nothing to add. On the bench behind: two matched sealed reference housings, plain unmarked cylinders on a level mount, close together and identical. Outside the viewport, ordinary starfield and nothing remarkable at all. Very still, very level, faintly austere. Cool grey and deep black with one warm interior note. 16:9 landscape.
+  - **The two matched housings carry the character** — instruments that disagree,
+    with nothing to read on them. The house negative bans dials and readouts and
+    it does not hurt here: the point is that the disagreement is not visible from
+    the outside.
+
+- **`zoe-smith.jpg`** — *the last rank most civilians ever stand in a corridor
+  with*, held on purpose and at length.
+  > [ranger block] Cinematic wide portrait of a woman in her fifties standing in an ordinary residential corridor of a space habitat, upper body, half-turned toward someone out of frame at a doorway and listening, weight settled, unhurried, entirely approachable. Not a command deck and not a crisis: a plain lived-in corridor with worn deck plate and a stowed handrail. Soft even light from a concealed source. Weathered, capable, patient. Warm neutral palette. 16:9 landscape.
+  - **Deliberately the least impressive frame on the roster.** Her page's whole
+    argument is that this rank is what the word *Star Ranger* actually means, and
+    a heroic setting would have argued the opposite.
+
+---
+
+**Orbital Five-O (1)**
+
+- **`alala.jpg`** — a Smart Pet raven on the public roster *with a service number
+  and a leg band, because Commander Larsen's unit does not do covert animals.*
+  > Cinematic wide view of a raven perched on a public handrail in the open concourse of a space habitat, in daylight from a great overhead window, the bird sharp and close and the concourse behind soft and busy with people who are not looking at her. Glossy black plumage with blue and purple iridescence, head turned, one bright eye directed at something off to the side, entirely composed. On one leg a plain metal band, unmarked. A slim matte collar fitting sits low at the back of her neck, small, plainly manufactured and making no attempt to be hidden. Bright, open, ordinary. Warm daylight, green planting in the middle distance. 16:9 landscape.
+  - **Visible band, unmarked band.** Her whole posting is that she is announced
+    in advance and in writing; the band has to read as official and cannot carry
+    a number, so it is plain metal and the *manner* does the work.
+
+---
+
+**Undercover Pets — cute, cool and clever (5)**
+
+- **`kate-ukrainka.jpg`** — writes Smart Pet books that *get the animal exactly
+  right and the machinery cheerfully, deliberately wrong.*
+  > Cinematic wide portrait of a woman in her sixties at a small table in a lived-in habitat apartment, upper body, having just stopped work — her pen set down and her notebook closed under one hand, both hands round a mug, looking out of the window with a half-smile she is not aware of. A plant doing well. Behind her a wide window onto the green curve of an orbital habitat's inner surface in daylight. Warm, comfortable, entirely unhaunted. Warm wood, green, soft daylight. 16:9 landscape.
+
+  - **Nothing is being written, deliberately** (19 August). *Writing by hand* on
+    a *blank unmarked notebook* is two invitations to lettering in one clause,
+    and the moment just after is warmer anyway: an author with the work shut and
+    a hot drink is more like the page than an author mid-sentence.
+
+- **`knopka.jpg`** — failed the assessment *on every axis it measures*, and the
+  finding is one word long.
+  > Cinematic wide view of an ordinary domestic rabbit sitting upright and entirely still on the floor of a tidy habitat apartment, close and low to the ground, facing the camera and looking at nothing in particular with complete composure. Soft dense fur, ears up, one carrot-top on the floor a little way off and ignored. No harness, no collar, no fitting, no device of any kind on the animal anywhere. Warm domestic light, plain floor, a chair leg and a bag by the door. Comic dignity. 16:9 landscape.
+  - **Absolutely no harness or subsystem**, which is the entire joke: nothing was
+    ever fitted, and failing left her exactly as the programme found her.
+
+- **`muffin.jpg`** — **and this one should probably not be a portrait at all.**
+  Eleven statements returned a cat, a rabbit, a very young dog and *you know —
+  Muffin*, and the four who said cat disagreed about the colour. **Drawing a
+  specific adorable animal contradicts the page in the first frame.**
+  So the portrait is the place, on the [Eden Warden](../src/characters/eden-warden.md)
+  precedent — *the Warden is not depicted; it is inhabited* — and the entity is
+  present and unresolved.
+  > Cinematic wide view of a warm-air vent beside a galley doorway on a working deck of a space habitat, seen straight on and slightly low, the deck plate scuffed and ordinary. Warm light spills from the galley across the floor. In the warm patch by the vent something small is settled and comfortable, and it is genuinely unclear what it is — soft, low, indistinct at the edges, half in the warm light and half in the shadow of the doorway, out of focus in a way nothing else in the frame is. Beside it on the floor, a chipped saucer somebody brought from the galley. Everything else is sharp: the vent grille, the door frame, the scuffed plate. Inviting, domestic, entirely undramatic. Warm amber against cool grey deck. 16:9 landscape.
+  - **Extra negative:** cat, rabbit, dog, puppy, kitten, lamb, recognisable animal of any species, face, eyes, teeth, claws, menace, horror, monster, shadow creature, glowing eyes.
+  - **The tone line is the whole risk here.** The page is unsettling because the
+    room is pleasant, and any legible creature — cute *or* frightening — loses
+    it. If the batch keeps resolving the shape, the fix is a tighter crop on the
+    saucer and the vent with the warm patch only implied.
+  - **Worth Dermot's call whether it ships at all.** An entity nobody can
+    describe twice is arguably a page that should carry no image, and *no
+    picture* is a legitimate answer here rather than a gap.
+
+- **`sylvie-harrow.jpg`** — a model statement, *no sentence that is false*, and
+  nothing that catches.
+  > Cinematic wide portrait of a woman in her forties seated at a plain table in an unremarkable habitat office, upper body, mid-answer to someone out of frame, pleasant and cooperative and entirely at ease, hands loosely together on the table. Neat ordinary professional clothing. Even, flat, perfectly adequate light with nothing dramatic in it; a plain wall, and an empty table in front of her. Nothing in the frame is out of place and nothing in it is interesting. Cool neutral palette. 16:9 landscape.
+  - **The frame must have nothing to catch on**, which is the hardest brief here.
+    No shadow across the eyes, no held look, no tell. It reads as a competent
+    witness because that is exactly what every audit found.
+  - **Extra negative:** sinister, suspicious, shifty, smirk, hard shadow across the face, film-noir lighting, interrogation lamp, villain styling.
+
+- **`thrum.jpg`** — deaf to airborne sound, blind to a human face, *reads the
+  structure it is standing on, continuously, without deciding to.*
+  > Cinematic wide view of a small six-limbed alien burrow animal low in a narrow service void behind a deck panel, close and at its own height, its whole underside pressed flat in contact with the structural plate beneath it. Low, broad and compact, smooth dark hide with a faint sheen, no visible ears and no eyes to speak of, entirely occupied with the surface it is standing on and not with the viewer. Warm air and warm light leaking in from an open panel to one side; ducting, cable runs and structure receding into the dark. Alien and completely unthreatening. Warm amber light on dark metal. 16:9 landscape.
+  - **It must not look at the camera.** A creature that cannot see a face and
+    would not care about one is the character; a returned gaze would undo it.
+
+---
+
+**Historical (3)** — state the era or the setting defaults to contemporary Earth.
+
+- **`saint-aoife.jpg`** — *never claimed to know what she'd met at the thorn
+  well*, and every later reader has taken that refusal at face value.
+  > Cinematic wide portrait of a woman in her thirties standing at a spring well in a thorn thicket in thirteenth-century Ireland, upper body, plain undyed woollen dress and shawl, work-worn hands, looking down at the water rather than up or out. **Her face turned down and away and left in shadow, features not legible.** Composed and unresolved — no rapture, no distress, no certainty of any kind. Night, an ordinary clear sky of small stars doing nothing in particular, a moorland horizon behind the thicket. Long dark red hair. Wet blackthorn, low stone kerb around the water, wet grass. Cold, plain, historical, entirely earthbound. Deep blue-green night, wet black thorn, undyed wool. 16:9 landscape, 1200×675.
+  - **Extra negative:** halo, aureole, rays of light, glow, doves, upturned face, face toward camera, legible features, hands folded in prayer, beatific expression, ecstasy, stained glass, religious iconography, robes, veil of office, angels, apparition, embroidered or ornamented gown, jewellery, stage lighting, text, lettering.
+  - **Keep the face concealed** — turned, shadowed, or away. Adopted 19 August from the older brief in Open work 6, which had it and this entry did not: *the record genuinely does not know it, and the page's whole argument is that she never claimed to know what she had seen.* Canon reasoning rather than styling, so it is written into the prompt above rather than left as a note.
+  - **Ruled 20 August 2026 — the *Aoife of Stars* card is reframed, not adopted.** A supplied song card showed her front-lit and facing the viewer, features fully legible, under a night sky on moorland. Dermot's ruling: **keep the concealed face, take the rest.** So the prompt moved from grey overcast daylight to night, gained the star field and the moorland horizon and the red hair, and kept the well, the thorn and the turned face. He liked the look; the page keeps its argument.
+    - Two things from the card deliberately **not** taken. The **embroidered blue-green gown** is a class signal this page does not support — she is a holy woman whose whole standing rests on refusal, and plain undyed wool says that where ornament argues with it; the card's colour survives as the colour of the night instead. And the **stars stay ordinary**: no light comes from the sky, nothing in it is happening. A sky that appears to be doing something would tell the viewer what she saw, which is the one thing seven centuries of record declined to say — and the song's own title makes that association easy to drift into.
+  - **The whole page is her refusal to claim.** Any device that tells the viewer
+    what she saw contradicts it, and a glow would be the story arriving at a
+    verdict the record spent seven centuries declining to give. Same discipline
+    the `brother-daire.jpg` prompt already used.
+
+- **`sildron-drey.jpg`** — MSC Director of Operations, Mars; the staff side,
+  *measured on whether the order was correctly formed rather than on whether it
+  arrived in time.*
+  > Cinematic wide portrait of a woman in her fifties in the severe service dress of a militarised space command of an earlier era, upper body, standing at a plain operations desk on Mars with her hands resting on it, looking down at the work rather than at anyone. Precise, capable, entirely without warmth or cruelty. The desk is completely bare — no paper, no folder, no document and no object of any kind on it. A tall window behind her onto flat rust-coloured Martian ground under a pale sky. Institutional, historical, cold. Rust, grey and dull olive. 16:9 landscape.
+  - **Neither villain nor victim.** Her page is careful that she argued the case
+    in writing and then had to execute it, and the frame should let a reader
+    arrive at their own verdict rather than pre-empt it.
+
+- **`thalassa-vexar.jpg`** — the best-liked Imperium officer in the Belt, holding
+  a grade with *no authority to change anything there*.
+  > Cinematic wide portrait of a woman in her fifties in the plain administrative uniform of a fallen space empire, upper body, seated at a small counter in a cramped Belt settlement office, turned attentively toward someone standing out of frame and listening properly. Genuinely courteous, genuinely powerless, and aware of both. A worn counter with absolutely nothing on it, and a queue of people waiting behind her out of focus. Cramped, warm, worn, decent. Dim amber lighting, dull metal, historical science fiction. 16:9 landscape.
+  - **The queue is the point.** She was the officer who answered every question
+    and could alter no condition, and a solitary desk would have made her a
+    functionary instead of the thing the Belt actually remembers.
+  - **The empty counter is the 19 August rewrite.** The first version put *blank
+    unmarked forms in a tray* in front of her, and a form is the purest
+    text-bearing object there is. Clearing it is also the better picture: an
+    official with nothing between her and the person talking.
+
+---
+
+**Elsewhere in the settled worlds (5)**
+
+- **`dagny-voss.jpg`** — born vacuum-side, *has never once been to a world anyone
+  would call beautiful, and has stopped waiting to be assigned to one.*
+  > Cinematic wide portrait of a woman in her fifties in practical industrial coveralls on the overlook gallery of a large orbital ore-refining habitat, upper body, one hand on a railing, turned back toward the camera with a dry good humour and no self-consciousness at all. Behind and below her the refinery floor runs away in scale: gantries, bulk hoppers, heavy handling frames, everything clean and orderly and working. Beyond it a wide port shows the planet's ring and the curve of the world below. Hard even industrial light, no glow, no sparks. Steel grey, dull orange, the pale planet beyond. 16:9 landscape.
+  - **Extra negative:** molten metal, sparks, foundry glow, furnace, dirt, grime, hard-hat stock photography.
+
+- **`elvira.jpg`** — **the one prompt that will fight its own subject.** She is
+  *not magical*; the locals call her the Enchantress and the label *obscures the
+  mechanism*. She is a technician working chalk, thread, water in vessels and
+  written records against Etheric gradients.
+  > Cinematic wide portrait of a woman in her forties working alone in the stone main room of a small marsh outpost, upper body, crouched over a broad section of bare chalk floor on which fine thread has been laid out in a precise geometric survey grid, weighting one thread at a corner with careful fingers, checking the line by eye. Working clothes, sleeves pushed back, chalk dust on her hands and forearms. Around her: plain glass and earthenware vessels of water set at measured intervals, a folding rule, stacked plain-bound record books shut on the table. Flat cold daylight from a small window and open door, marsh light, no fire and no flame anywhere. Chalk white, wet grey-green, plain grey stone. Procedural and absorbed, the concentration of a surveyor. 16:9 landscape.
+  - **Extra negative:** witch, sorceress, enchantress, magic, spell, ritual, occult, candles, flame, incense, smoke, glowing runes, glowing symbols, sigils, pentagram, crystal ball, cauldron, staff, wand, amulet, robes, hood, cloak, mystical aura, floating objects, sparkles, arcane.
+  - **The longest negative on the roster, and it earns its length.** *Chalk,
+    thread, water in vessels* is a witchcraft prompt read literally, and the page
+    exists to say it is not one. The grid, the folding rule and the shut record
+    books are what make it survey work; take any of them out and the frame turns
+    into the label she spends her page rejecting.
+
+- **`sofia-santos.jpg`** — answers for *everything below the waterline* and has
+  no authority whatever over anything above it.
+  > Cinematic wide portrait of a woman in her fifties in plain practical clothing standing inside a seabed city's pressure hull, upper body, at a wide thick viewport with dim green-blue ocean beyond it, turned three-quarters to the camera, an engineer's composure and no ceremony of office anywhere about her. Through the viewport: the lit shapes of other domes and a work light in the dark water. The interior is heavy and well-made — thick frames, sealed joints, everything rated. No surface, no sky, no daylight anywhere in the frame. Deep blue-green and warm interior light. 16:9 landscape.
+  - **No sky in frame, deliberately.** Her jurisdiction stops at the waterline
+    and the picture stops there too.
+
+- **`sorcha-nic-dhiarmada.jpg`** — walks the dark-down *because a thing kept by
+  everyone should still be seen to be kept by someone.*
+  > Cinematic wide view of a woman in her forties walking a rough hill track alone at night on an upland pasture world, seen from a little way off and small in the frame, wrapped against the cold, a working dog at her heel. Below her a valley of scattered steadings with every single light out — dark roofs, dark yards, nothing lit anywhere. Above, an enormous clear sky, thick with stars, and the whole scene lit by starlight alone. Sheep on the slope as pale shapes. Nothing frightening: a kept custom, walked. Deep blue-black, silver, the faint warmth of wool. Beautiful and quiet. 16:9 landscape.
+  - **Extra negative:** lantern, torch, lamp, firelight, glowing windows, lit houses, any artificial light source anywhere in frame.
+  - **The dark is the custom.** One lit window would break the thing the walk
+    exists to honour, and this is the frame on the roster with the most
+    *serenity* in it, which the house target asks for and the roster is otherwise
+    short of.
+
+- **`sorcha-shepherd.jpg`** — the registry taught her that *a record can be
+  wrong, and a record can be unfinished, and the second is worse.*
+  > Cinematic wide portrait of a woman in her thirties at survey work on open limestone upland, upper body, standing at a tripod-mounted optical survey instrument with one hand steadying it, looking off along the line she is shooting rather than through the eyepiece. Bare pale fissured limestone pavement running away in every direction, thin grass in the cracks, a low drystone wall on the skyline. Practical outdoor clothing, weather on her face. Wide bright overcast light, no sun. Pale grey stone, grey-green, wide sky. Methodical and unhurried. 16:9 landscape.
+  - **Looking along the line, not through the eyepiece** — she is checking what
+    the measurement will mean before she takes it, which is the habit the page
+    says the registry gave her.
+
+**When these come back.** Check Elvira and Muffin first — both have a default the
+generator wants badly and both fail quietly rather than obviously. Check
+lettering at 4× on Strozzi's cards, Drey's folders and Vexar's tray, per the
+Calloway lettering-check note. And **do not generate all twenty-one in one
+sitting and judge them tired**; the roster's value is that the frames differ from
+each other, and that is a judgement that degrades.
+
+##### The three rescuers — a set (19 August 2026)
+
+`lucene-9000.jpg`, `xenon.jpg`, `lumbarian.jpg`. Prompted together because they
+share a generation of manufacture, and **a generator has no memory between
+frames** — so "the same era" has to be carried as literal attributes in all three
+or it will not survive the batch.
+
+**What binds them is not a place.** Lucene is in Eden's civil detective bureau;
+Xenon and Lumbarian are aboard Wender's ship. What they have in common is the
+catalogue shelf: all three are **classic designs whose lines are out of
+production**, well made in a period that expected its work to outlive it, and
+still running decades past it. `xenon.md` files him and Lucene on the same shelf
+in as many words.
+
+**All three are present-day frames.** The rescue-era framing was considered and
+dropped: a character portrait shows the character now, like every other portrait
+on the roster, and setting Xenon's in the aftermath would have put the rack of
+part-empty cradles in shot — which is published prose but would make an *image*
+carry the hint about the machines that were lost, and §7 is explicit that the
+loss stays hinted and no page may state it. Not a line worth walking up to for a
+background detail.
+
+**The shared house block — paste verbatim into all three.** This is the set.
+
+> Classic-design service machine of a period that expected its work to outlive it, still in service decades later, plainly manufactured and plainly maintained. Matte pale grey composite shell with a fine even grain, unpainted and entirely unmarked. Panel joins are honest recessed seams with captive fasteners left visible, built to be opened rather than concealed. Dull warm-toned alloy at the bearings and joints. Wear reads as polish and not as damage: edges gone smooth and faintly darker where work and hands have passed, with no rust, no corrosion, no grime, no chipping, no dents and no broken parts anywhere. Where a sensor sits it is plainly an optical instrument — a recessed lens behind a machined ring — and never a human eye. Nothing anywhere is open, exposed, wired, dripping or unfinished; every panel is closed.
+
+**Why the shell is visible rather than seamless, in-world.** The rule that a
+machine's artificiality must show at the prompt has a canon reason here rather
+than only a craft one: Reeves and Jeeves run newer architecture and Lucene is a
+generation behind them. **Her manufacture shows because her generation did not
+hide it**, not because she is crude — which is the same sentence her page already
+makes about her mind.
+
+**Common negative — paste into all three:**
+readable text, lettering, numerals, branding, maker's plate, signage, labels,
+stencilled markings or written characters of any script anywhere in frame;
+holograms, projected light, glowing displays, screens, monitors, consoles, dials,
+gauges; exposed wiring, open panels, visible internal machinery, cabling,
+sparks, fluid, damage; rust, corrosion, grime, oil stains, derelict or abandoned
+look; weapons of any kind; flat studio backdrop, gradient background, glamour
+lighting, corporate headshot; contemporary Earth setting; menace, threat, horror,
+uncanny grimace, red glowing eyes.
+
+---
+
+- **`lucene-9000.jpg`** — the one that will fight the generator hardest, because
+  *social gynoid* returns a photoreal woman by default and that face belongs to
+  nobody. Her frame is her actual working posture: **beside the interviewing
+  officer, never leading**. *The questions are always a detective's, and what
+  Lucene does is watch the answer arrive.*
+  > [house block] Cinematic wide portrait of a humanoid service machine of female form seated slightly to one side in the plain interview room of a civil detective bureau aboard a space habitat, upper body, angled toward someone out of frame and watching them closely and steadily, hands still and folded in her lap, not speaking. Her face is a manufactured face and is meant to be read: near-human proportions, capable of expression, currently holding a small attentive warmth — and unmistakably made, with a fine seam running at the jaw line and another at the temple, a matte surface with no pores and no translucency, and eyes that are plainly recessed optical lenses behind machined rings. Her hair is a single moulded matte form rather than individual strands. The plain single-breasted bureau jacket over ordinary clothing, one colour, cut for a long shift — and the collar entirely bare, carrying no mark of any kind. The room is spare and institutional and softly lit by diffuse recessed light from a concealed source, with no lamp or fitting visible; a bare table edge in the foreground, a blank wall behind. Muted grey and warm neutral palette, quiet, composed, patient, faintly uncanny but entirely unthreatening. 16:9 landscape orientation.
+  - **Extra negative:** photorealistic human woman, human skin, pores, freckles, translucent skin, human eyes with sclera and iris, individual hair strands, flowing hair, cosmetics, jewellery, android with visible circuitry, exposed skull plate, half-peeled face, seductive or doll-like styling.
+  - **The tone line lives on this one.** Her artificiality is carried by a seam
+    at the jaw, a seam at the temple and the lenses, and by nothing else — the
+    cyber-revenant precedent exactly, which sealed the collar and left one silver
+    seam. A peeled face or a visible skull would clear no prohibition and break
+    the rule.
+  - **The bureau jacket with a bare collar** (added 19 August, on Dermot's
+    direction that Eden's detectives are uniformed). She wears the uniform
+    because she works the bureau's interviews; she carries no rank mark because
+    **rank is an office and she holds none** — she answers to Oyelaran
+    operationally and to the Warden on her own standing. The bare collar is a
+    proposal and the sharpest thing in the frame: a machine in the uniform of a
+    ladder it is not on. See `src/lore/eden-bureau-uniform.md`.
+  - **Draft alt text, to be checked against the frame:**
+    > A humanoid machine of female form in a plain bureau jacket sits to one side in an interview room, hands folded, watching someone out of frame. Her collar carries no rank mark. Her matte face has a fine seam at the jaw and temple, and her eyes are recessed optical lenses.
+
+- **`xenon.jpg`** — *his personhood lives where his hands do*, so the hands are
+  the subject and the face is not. He is going over a machine with nothing
+  visibly wrong with it, which is the whole character: *his standard for beyond
+  repair has never once been met.*
+  > [house block] Cinematic wide view of an old maintenance robot at work at a bench in a starship's machine bay, seen close and slightly from the side, the composition centred on its hands and forearms rather than on any face. The hands are the most finished thing about it — many-jointed, worn smooth and bright at the fingertips from decades of use, holding a small component with great precision and no hurry. On the bench in front of it lies a small service machine, powered down and intact, with nothing visibly wrong with it; a shallow tray of clean parts sits alongside, laid out in order. The robot's upper body is a functional column of closed panels with no human face and no attempt at one — a sensor head with recessed lenses, angled down at the work. One articulated task light on a bench arm throws a single clean pool of light across the work surface, with the rest of the bay falling away into soft shadow. Racked tools behind, everything stowed square. Muted grey, warm alloy and one warm circle of working light. Absorbed, unhurried, quietly devotional in the way of skilled hands. 16:9 landscape orientation.
+  - **Extra negative:** humanoid face, human features, expressive mouth, robot with a human-looking head, clumsy or bulky hands, welding sparks, cutting torch, disassembled parts strewn about, mess.
+  - **One deliberate breach of house convention, and why.** The standing rule is
+    *no lamp or light fitting visible in frame*, and this prompt puts a bench task
+    light in shot. That rule exists to stop habitat interiors filling up with
+    domestic lamps; **a task light on a workbench is a tool, not a furnishing**,
+    and the single bright light over the work is the register the chapter already
+    established for him. Worth a look on return, and easy to drop from a re-roll
+    if it reads as clutter.
+  - **Draft alt text, to be checked against the frame:**
+    > An old maintenance robot bends over a workbench in a ship's machine bay, its many-jointed hands worn bright at the fingertips, holding a small part under a single bench light. A powered-down service machine lies intact on the bench beside a tray of clean parts.
+
+- **`lumbarian.jpg`** — the hardest to get right and the simplest to say. *There
+  is nothing humanoid about him. No face to read, no hand-sized anything,
+  nothing built to be held.* The frame carries **scale and stillness**, because
+  *something that size being that still is a language of its own* — and because
+  there is no record, on any posting, of him damaging anything smaller than
+  himself.
+  > [house block] Cinematic wide view in open space of a vast heavy repair machine working against the outer hull of a starship, no human figure present. The machine has no face and nothing humanoid about it at all — a great trussed frame and armoured housings carrying several long articulated manipulators, built entirely around reach and load. One manipulator is laid flat against the hull plate and held perfectly still, resting rather than gripping, in contact along its whole length. Beside it in the same frame is an ordinary hull hatch with a handrail beside it, human-sized, which is what makes the machine's scale legible. The hull curves away into the distance behind. Hard raw sunlight from one side, absolute black shadow on the other, unfiltered starfield beyond, the vacuum silent and enormous. Muted grey plate, warm alloy at the joints, one long clean seam of new weld running away under the manipulator. Immense, careful and entirely still. 16:9 landscape orientation.
+  - **Extra negative:** face, eyes, head, humanoid form, arms and legs, mech, mecha, battle robot, walker, weapons, thrusters firing, debris field, wreckage, explosion, drama, astronaut, human figure, spacewalking person.
+  - **Why no human in frame** — the hatch and handrail carry the scale instead.
+    Putting a person beside him invites the reading his page forecloses: he is
+    *not* a machine that works alongside people, he works where people cannot,
+    and the crew reach him afterwards, at the height they can reach.
+  - **Draft alt text, to be checked against the frame:**
+    > A vast trussed repair machine works against the outer hull of a starship in open space, one long manipulator laid flat and still against the plate. A human-sized hatch and handrail beside it give the scale; a clean seam of new weld runs away beneath.
+
+**Generate the three together, and look at them side by side before keeping
+any.** The set only works if the shell reads as one catalogue across all three
+frames; a batch where Lucene's grey and Xenon's grey are different greys has
+failed the thing the set was for, however good each frame is on its own.
+
+**Not yet generated.** All three are proposals.
+
+- **`anne-wender.jpg`** — [Anne Wender](../src/characters/anne-wender.md), the
+  eldest survivor of the wreck of 2788 and later the first sheriff a frontier
+  world ever swore in. **Depicted as safety officer during the buildout, not as
+  sheriff**, for two reasons and the second is the binding one: her page puts her
+  in that post at Season 1's start with the election's course left unwritten, and
+  **there is no sheriff's insignia in canon** — `rank-insignia-and-uniform.md`
+  covers the Star Rangers only, so drawing a badge would invent an office's
+  regalia in a picture, which is the same cascade the Calloway entry refused for
+  a Compact uniform. The frame is the settlement working, and she is counting it.
+  > Cinematic wide portrait of a woman in her early fifties standing in the gravel yard of a young frontier settlement in the early morning, upper body and a little of the yard, turned three-quarters away from the camera and looking off across the site rather than at the viewer, plainly in the middle of taking a count of something out of frame. Dark hair going grey at the temples, tied back tight and out of the way; a weathered outdoor face, no cosmetics, no styling; calm, unhurried, entirely absorbed. Practical hard-wearing site clothing in undyed and muted colours — a canvas work coat over layers, cuffs turned back, gloves pushed into a pocket — worn plain and completely unmarked. Behind her the settlement is visibly working and well kept: timber-framed barns and low prefabricated buildings squared up along the yard, a concrete pad where a plain grey fusion unit stands behind a simple railing with its pipework running off to a nearby building, hand tools racked upright, timber stacked square and strapped down, everything stowed and nothing broken. No crates, no drums and no packaging of any kind. Wide pale sky, low early light raking across the yard from one side, long soft shadows, a thin ground mist not yet burnt off. Muted realistic palette of grey, canvas and pale gold. Quiet, spacious and still, with the settlement plainly thriving rather than struggling. Science-fiction frontier setting, photographic and grounded, documentary in feel but composed and unhurried. 16:9 landscape orientation.
+  - **Negative:** badge, star, shield, sheriff badge, police badge, rank insignia, epaulettes, name tape, patch, uniform, military uniform; firearm, gun, holster, weapon of any kind; readable text, lettering, numerals, signage, labels, stencilled markings or written characters of any script anywhere in frame; screens, monitors, glowing displays, holograms, projected light, consoles, dials, gauges; visible lamp, light fitting, bulb or lantern; rust, corrosion, grime, oil stains, damage, exposed wiring, litter, clutter, shanty, slum, refugee camp, derelict or abandoned look, poverty; flat studio backdrop, gradient background, glamour lighting, corporate headshot, posed to camera, smiling at camera; contemporary Earth setting, modern street, modern vehicles; horses or draft animals in frame; children.
+  - **Why "no poverty" is a canon negative rather than taste.** [The Fusion
+    Ceiling](../src/lore/the-fusion-ceiling.md) says it outright: an early
+    settlement's pre-industrial surface is *"persistently misread as poverty when
+    it is sequencing."* A generator asked for a frontier colony will reach for
+    hardship by default, and that default would make the picture assert the exact
+    misreading the entry corrects. The yard is orderly because the world is
+    working, not because anyone is prospering.
+  - **Why she is not looking at the camera.** Her character note is that she
+    counts — stock, shifts, who is where — and is not in the habit of saying the
+    total aloud. Attention directed off-frame renders that without a caption, and
+    it keeps the portrait inside the house target: *enigmatic and haunting, with
+    beauty, mystery, hope and serenity woven through.* Hope and serenity are
+    carried by the light and the working settlement; the withholding is carried
+    by where she is looking.
+  - **No family resemblance is specified, deliberately.** She is Karla Wender's
+    elder sister, but `karla-wender.jpg`'s alt text establishes no hair, eye or
+    feature detail to match, and a generator carries nothing between frames — so
+    a resemblance could only be invented here and would then bind Karla's
+    existing portrait retroactively. If a resemblance is wanted, it should be
+    specified from Karla's actual frame first, in both prompts, as literal
+    attributes.
+  - **Draft alt text, to be checked against the frame that comes back** and
+    rewritten if it does not match, per the standing rule that alt describes what
+    the file actually shows:
+    > A woman in her fifties in a canvas work coat stands in the gravel yard of a frontier settlement at dawn, turned away from the camera and looking across the site. Behind her, timber barns and low prefabricated buildings, and a plain grey fusion unit on a concrete pad behind a railing.
+  - **Not yet generated.** Tone, wardrobe and setting are proposals.
+
 ### 2. Lightroom / Photoshop — Dermot's hands only
 
 No spot-heal, upscaler, or compositing exists in-session. Dimensions
@@ -1136,6 +1788,20 @@ Portrait 3:4, 1200px.
 
 ### 3. Deferred by choice
 
+> **Stale as a description — corrected 19 August 2026, not rewritten.** The
+> *contemporary-stock-headshot cluster (11 files)* below no longer exists in the
+> form described: **all eleven of those names were replaced with PENDING cards on
+> 12 August** (they are Tier 1 of Open work 0), and `petra-voss` has since
+> received a real portrait. Nothing in that bullet is true of the current files.
+>
+> **The section's own closing note predicted exactly this** — *"a file that still
+> exists but is no longer what the note says it is, the validator cannot see, and
+> never will"* — and it was right within four days of being written. The
+> `validate-images: on` block passes because the eleven files exist; it has no
+> way to know they are cards now. Left in place rather than rewritten because the
+> bullet is a record of why those images were deferred, and rewriting it would
+> lose that; **read it as history, not as inventory.**
+
 <!-- validate-images: on -->
 <!-- Every image named below is asserted to EXIST, so `npm test` checks it.
      That is the point of this section: it describes the image set as it
@@ -1223,7 +1889,22 @@ whole point of the habitat. The version that shipped in #177 named the location
 ("at Earth-Moon L5") and asserted motion ("turning"), neither of which a viewer
 can see; per the standing rule, alt text describes the file, not the entry.
 
-### 5. Missing lore illustrations (19 pages) — audited 2026-07-30
+### 5. Missing lore illustrations — **the 2026-07-30 list is fully delivered** (re-audited 19 August 2026)
+
+**23 of the 30 slugs named in this section now exist under `src/images/lore/`, and the seven that do not are pages that never had a prompt written here at all** — they were named in passing. The heading said *19 pages*. As with Open work 1, finished work was reading as a queue.
+
+**The prompts stay in place** as the prompt of record for the images they produced. Read what follows as an archive.
+
+**The true outstanding count is 52 lore pages**, re-derived rather than trusted:
+
+```bash
+for f in $(find src/lore -name '*.md' ! -name index.md); do
+  grep -q '^image:' "$f" || echo "${f#src/lore/}"; done
+```
+
+Most of them postdate July. Prompts for all 52 are at *Outstanding lore illustrations* below.
+
+### 5a. Missing lore illustrations (19 pages) — audited 2026-07-30, archived
 
 An unrecorded gap. Open work 1 covers character portraits; nothing here had ever
 enumerated the **lore** entries with no `image` at all. Nineteen do (excluding
@@ -1494,12 +2175,314 @@ locations.
   4:3, 1600px wide.
   > A vast field of stars and nebulae, deep and layered, with a sense of enormous distance — and at its centre something small, dense and structured: a compact point of organised light with visible internal architecture, clearly not a star. The scale relationship is the subject: something very small carrying the information a very large thing will be built from. Cosmological, contemplative, no figures, no text, no lettering. Landscape orientation.
 
+### 5b. Outstanding lore illustrations — all 52, prompted 19 August 2026
+
+Written in one pass at Dermot's request. **1600×900, 16:9 landscape**, JPG ~85,
+into `src/images/lore/`. **None generated; all proposals.**
+
+**The governing rule for this set: every abstract page gets a concrete anchor.**
+Roughly half of these are pages about a *rule*, a *scope*, or an *epistemology*
+rather than a place, and an abstract page illustrated abstractly produces exactly
+the flat filler the house target rules out — *if a prompt reads like a brief for a
+passport photograph it fails this*, and a gradient with a glow in it fails it
+worse. So each one is anchored on a place, an object, or a person doing
+something, and the idea is carried by what that thing is doing. The corpus
+already proves the method works: `embodied-cognition.jpg`,
+`who-governs-a-universe.jpg`, `things-that-are-made.jpg` and
+`teleportation-limitations.jpg` are all abstract pages with concrete frames.
+
+**Standing negative — paste into every one:**
+> readable text, lettering, numerals, signage, labels, branding or written characters of any script anywhere in frame; schematic diagrams, technical drawings, blueprints, charts, graphs, arrows, callouts, infographic styling; holograms, projected light, glowing displays, screens, monitors, consoles; visible lamp, light fitting or bulb; lens flare, god rays, magical sparkle, glowing energy, neon; flat gradient background, stock illustration, clip art.
+
+**One naming collision, flagged.** `src/lore/saint-aoife.md` and
+`src/characters/saint-aoife.md` are different pages about the same person, and
+both would reach for `saint-aoife.jpg`. Different directories, so the build is
+fine, but two files one letter apart in intent is how the July audit's alt-text
+drift started. The lore page's image is proposed as **`cill-aoife-devotion.jpg`**
+and framed on the devotion rather than the woman.
+
+---
+
+#### Cosmology (10)
+
+Impressions, never schematics. The Cascade tiers in particular must not become
+nested-sphere diagrams.
+
+- **`archecluster.jpg`** — *one Archewright's vocabulary carried in every route chart, statute book and certified machine.*
+  > A vast orbital archive hall seen from a high gallery, rank upon rank of identical plain shelving running away in perfect repetition into soft distance, every bay built to the same proportion. Two small figures far below at floor level for scale. Cool even daylight from a high clerestory, no fittings visible. The repetition is the subject: one vocabulary, everywhere, unremarked. Pale stone, brushed alloy, deep shadow between the ranks. Immense, ordered, quiet.
+
+- **`archewright.jpg`** — *eternal, unobserved, and known only by inference.*
+  > A worked stone quarry face at dawn, seen straight on, where every block that ever left it has been cut to the same handful of standard proportions — the negative shapes still legible in the rock. No tools, no workers, no machinery, nobody present and no sign of anyone recently. Cold clear early light raking across the cut faces. What made the shapes is absent and only the shapes remain. Grey stone, pale sky, long shadow.
+  - **Absence is the whole entry.** Anything that depicts a maker contradicts *known only by inference*.
+
+- **`ask-and-it-will-be-reviewed.jpg`** — the church-space telling of prayer as *a permissions office*, and *the joke is load-bearing.*
+  > A modest municipal planning-office waiting room, warm and worn and entirely ordinary: a row of wooden chairs against a wall, a counter with a closed shutter, a well-swept floor, a plant somebody waters. One chair holds a folded coat as though its owner has stepped out. Late afternoon light through frosted glass. Utterly mundane and quietly numinous, with nothing supernatural anywhere in frame. Warm wood, cream paint, dust in the light.
+  - **Not a temple, and not a joke played broadly.** The register is affectionate.
+
+- **`counterpane-archecluster.jpg`** — *single systems behave identically; correlations among independent sources obey a different composition rule.*
+  > Two identical hand-woven cloths lying side by side on a plain table, each thread and weave indistinguishable, but where they overlap at the centre the interference of the two patterns produces a moiré figure that belongs to neither. Flat even daylight from one side, plain table, nothing else in frame. Quiet, exact, faintly wrong. Undyed linen, grey table, one cool shadow.
+  - **The best frame in the set for a physics idea**: identical parts, a joint behaviour that is not.
+
+- **`made-minds-and-the-ai-safety-archetype.jpg`** — *an archetype explains convergence, never enforcement. Nothing in the Cascade holds a kernel shut.*
+  > Three unrelated hand-made wooden doors of different ages and joinery standing in a row against a plain wall, each fitted with a latch of visibly different manufacture, and every latch resolving to the same simple shape. All three doors stand closed and none is locked; there is no bolt, no chain, no seal and no mechanism holding any of them. Cool workshop daylight. Convergence without compulsion. Warm wood, dull iron, grey wall.
+
+- **`post-eleven-dimensional-manifold.jpg`** — the structure *shared by every universe in the Cascade, regardless of its own dimensional floor.*
+  > A great still body of dark water at night seen from just above the surface, absolutely flat, with the reflections of several separate distant lights lying on it — each light unreachable from the others across the surface, all of them held by the same water. No horizon visible, no shore, no vessel, no sky detail. Utterly calm. Black, silver, one warm reflected point.
+
+- **`resurrection-and-the-life.jpg`** — *life beyond death rather than life after it, and a last day.*
+  > A country burial ground at first light, low stone wall, wet grass, plain unornamented markers, the light just reaching the top of the far wall and not yet the ground. No figures, no ceremony, no flowers, no ruin. Ordinary, tended, and waiting. Grey-green, wet stone, one line of gold along the wall top.
+  - **Extra negative:** skeleton, bones, ghost, spirit, ascending figure, light from the sky, angel, resurrection imagery of any kind.
+  - This is a church-space overlay page: it reads devotional tradition sympathetically and asserts nothing. A depicted resurrection would make the picture claim what the page declines to.
+
+- **`selvage-archecluster.jpg`** — *the weave's self-finished edge*, where sealed universes *can never touch one another, and can still reproduce.*
+  > The finished edge of a heavy woven cloth photographed very close, filling the frame, where the weave turns back on itself and closes without a hem or a stitch. Along that edge the threads are dense and perfectly regular; beyond it, nothing. Raking side light picking out every thread. Textile, tactile, exact. Undyed fibre, warm shadow.
+
+- **`wholecloth-formcluster.jpg`** — *woven without fold geometry and with static seating; primary, childless, and sealed.*
+  > A single vast unbroken sheet of woven cloth stretched taut and filling the frame, seen straight on and lit flat, with no seam, no join, no fold, no crease and no edge visible anywhere in frame. Perfectly regular, perfectly still. Cool even light. Pale undyed fibre, almost monochrome.
+  - **Deliberately the least eventful image on the roster.** *Nothing about it can be measured from here* is the entry, and a dramatic frame would assert access the record denies. Pair it with Selvage — same material, opposite fact.
+
+- **`what-the-record-refuses.jpg`** — *what is refused outright, what is kept but honestly priced.*
+  > A small, meticulously kept props store in a working repertory theatre: open shelving, everything squared away and nothing ticketed, labelled or numbered anywhere, and one shelf standing conspicuously and deliberately empty and swept clean while every other shelf is full. Plain worklight, no stage lighting, no glamour. Ordered, unsentimental, faintly witty. Warm wood, dust, one bare clean shelf.
+  - **The empty shelf is the page.** A refusal that is *filed* rather than merely absent.
+
+#### Physics (4)
+
+- **`dreams-across-the-interval.jpg`** — *a dreaming mind near a narrowed Interval registers a neighbour's bled templates.* The mechanism refuses a sender.
+  > A single small window of a habitat cabin seen from inside in the middle of the night, the cabin dark and the bunk empty and unmade, and on the far wall a faint indistinct patterning of light that does not correspond to anything outside the window. No figure, nobody sleeping, nothing at the window. Very dark, very quiet. Deep blue-black with one dim uncertain pale shape.
+  - **Extra negative:** face, figure, silhouette, apparition, eyes, creature, anything that could read as a sender.
+  - *A dream is never evidence about who sent it — nothing did.* The prompt has to hold that line, so the room is empty in both directions.
+
+- **`generalised-quantum-mechanics.jpg`** — *the laboratory theory survives exactly as its kernel, and everything Etheric enters as extension terms.*
+  > A well-used bench-top physics apparatus of entirely ordinary laboratory kind — a rigid optical bench, mounted posts, a sealed enclosure — clean, calibrated and clamped down, sitting on a stone bench in a plain university laboratory. Around it and behind it the room falls into soft darkness. Nothing exotic, nothing glowing, nothing added. Flat daylight from a high window. Brushed alloy, black anodising, grey stone.
+  - **The kernel is unamended, so the instrument is ordinary.** Adding anything strange to the apparatus would illustrate the opposite of the entry.
+
+- **`quantum-computing-and-the-cavern-constraint.jpg`** — *deep under sealed rock and nowhere else*, and *fast machines rather than oracles.*
+  > A deep rock cavern, dry and sealed, its bare stone walls curving away, holding a single compact plain-cased machine cabinet standing alone on a level plinth at the centre with a great deal of empty floor around it. The rock is the subject and the machine is small in it. Cool even light with no visible source, deep quiet. No cables in shot, no racks, no personnel. Grey stone, matte casing, black shadow.
+  - **Extra negative:** glowing chandelier cryostat, gold-plated quantum computer, cables, wires, blue glow, server racks.
+  - The gold-cryostat image is the single strongest default and it is wrong twice — it is the popular photograph, and it is a glowing object in a page about shielding.
+
+- **`the-scope-of-physical-law.jpg`** — *a physics claim is well-formed only at its level. Nothing physical is Ensemble-wide.*
+  > A set of six plain nested wooden measuring boxes of graduated size, sitting apart from one another in a row on a workbench rather than stacked inside each other, each one plainly made to a different standard and none of them matching. Flat workshop daylight. Ordinary, handmade, exact. Warm wood, grey bench.
+  - **Apart rather than nested**, deliberately: nesting would assert that the smaller scopes sit inside the larger as containers, which is not what the entry says.
+
+#### Institutions (14)
+
+- **`communion-of-the-called.jpg`** — *secular by charter, not its people*; answerable to no rank.
+  > A small plain room aboard a space installation set out for a gathering that has ended: a dozen mismatched chairs pulled into a rough circle, a folding table with cups on it, the room empty. Nothing on the walls, no ornament, no symbol of any kind visible. Warm ordinary light. Companionable and entirely unofficial. Warm neutrals, worn deck.
+
+- **`cross-biosphere-taxonomy.jpg`** — *frames, which describe structure and claim no ancestry, and lineages, which claim ancestry and never leave one world.*
+  > A long bare bench holding four articulated skeletons of clearly unrelated origin laid side by side, each built on a broadly similar plan and each unmistakably not a variation of the others. Nothing else on the bench — no card, no label, no plaque, no case and no mount plate. Cool even daylight. Rigorous and slightly uncanny. Bone white, grey bench.
+
+- **`frontier-transformation-protocols.jpg`** — *slowly, incompletely, and never on a Kernel-compliant system's say-so alone.*
+  > A wide view across a frontier world's untouched valley at dawn — native vegetation, standing water, bare rock — with a single small survey stake driven at the near edge of the frame and nothing else built anywhere in sight. Enormous, intact, and observed rather than begun. Cold clear light, long shadows. Ochre, grey-green, pale sky.
+  - **One stake and nothing else.** The whole clause is that the world gets time.
+
+- **`habitat-threshold.jpg`** — *the charter population line above which a settlement passes out of jurisdiction entirely.*
+  > A large orbital habitat seen from outside at a middle distance, whole and self-contained against the black, its inhabited ring lit from within along its length, no vessel docked and no other structure anywhere near it. Nothing arriving, nothing attending. Self-sufficient and slightly solitary. Steel grey, warm interior glow through the ring windows, deep black.
+
+- **`heritable-modification-protocols.jpg`** — *between a change that ends with the body carrying it and a change that breeds.*
+  > A plain laboratory bench holding two identical sealed sample vessels standing a hand's width apart, one of them standing inside a shallow plain tray and the other on the bare bench beside it, everything else about them the same. Flat clinical daylight, no other equipment in frame. Spare, exact, consequential. White, glass, brushed steel.
+  - **Two identical things on opposite sides of a line** is the entry in one image.
+
+- **`monasteries-of-mars.jpg`** — *scattered across Mars's open, thin-atmosphere terrain, deliberately unaffiliated.*
+  > A small low stone-built enclosure alone on open rust-coloured Martian ground at evening, sealed and plain, its walls the same material as the ground it stands on, with an enormous empty landscape running to the horizon in every direction and no road, track, vehicle or other structure anywhere. Thin pale sky, long shadow, one small sealed doorway. Rust, ochre, deep violet sky. Austere and unlonely.
+
+- **`planetary-liaisons-and-recruiters.jpg`** — *the berth a Ranger moves to when front-line work stops being possible without leaving the force.*
+  > A modest ground-floor office on an ordinary inhabited world, its door standing open onto a busy street, one plain desk inside and two chairs on the public side of it. A person's coat on a hook. Nobody in frame. Warm daylight from the street reaching a little way in. Approachable, unimportant-looking, permanent. Warm plaster, worn wood, street light beyond.
+
+- **`shore-leave-and-neutrality.jpg`** — *an officer on personal leave is the hardest case the neutrality clause has to cover.*
+  > A quiet civilian bar on a habitat concourse in the middle of the afternoon, nearly empty, one stool at the counter pulled out and a half-finished drink and a folded jacket left on it, the seat vacant. Ordinary, unglamorous, entirely off duty. Warm low light from behind the counter with no fitting visible. Warm brown, brass, grey deck.
+  - **The officer is absent from the frame** because the entry is about which of two people is sitting there, and the record has never decided.
+
+- **`solar-system-concord.jpg`** — *the compact that every government since has enforced, and none has owned.*
+  > A large plain assembly chamber with a ring of identical unmarked desks and no head of table, no dais, no throne, no seat of honour and no flag or emblem anywhere, seen from one side and entirely empty of people. Even daylight from a high band of windows. Deliberately unimpressive, deliberately symmetrical. Pale stone, plain wood, cool light.
+
+- **`star-rangers-frontier-corps.jpg`** — *whose mandate on every world it serves is designed to end.*
+  > A single set of boot tracks crossing wet ground away from the camera toward a small frontier settlement in the middle distance, the settlement lit and busy at dusk, the tracks leading away from it and out of frame at the near edge. Nobody in shot. Cold blue evening with the settlement warm in the distance. Departure as the achievement. Grey-blue, wet ground, distant amber.
+  - **The best single image in this set**, and it is entirely the entry's own idea.
+
+- **`star-rangers-navigation-corps.jpg`** — *route certificates expire when hull certificates do not.*
+  > A navigational beacon buoy alone in deep space, plain and unlit and slightly out of alignment with the corridor it marks, the starfield behind it. Nothing else in frame — no ship, no station, no route line. Small, exact, and quietly out of date. Matte grey against black, one cold highlight.
+
+- **`star-rangers-science-corps.jpg`** — *interprets what the Survey Corps collects.*
+  > A plain working room aboard an installation where a long bench holds a single sealed sample container and, beside it, a stack of shut plain-bound record volumes; a chair pushed back from the bench. Nobody present. The specimen is unremarkable and the record beside it is thick. Cool even light. Grey, warm binding cloth, glass.
+  - **The stack is taller than the specimen is interesting**, which is the corps.
+
+- **`the-commonwealth.jpg`** — *thin by design.*
+  > A modest meeting room in an orbital habitat with a long table set for perhaps ten, most of the chairs empty and pushed in, three cups at one end where a short conversation happened. A wide window onto the habitat's interior curve. Unhurried, undemanding, well kept. Warm neutrals, pale daylight.
+
+- **`the-institute.jpg`** — *accepts the instruments and declines the cosmology.*
+  > A plain research office with one bare wall, a working desk, and a single well-made instrument case standing closed on a side table. On the desk, one shut notebook squared to the edge, and a chair turned to face the wall rather than the window. Flat daylight, nothing decorative anywhere, no diagrams, no display. Sceptical, spare, unfriendly to enthusiasm. Grey, black, one warm wood surface.
+
+#### Technology (4)
+
+- **`eden-ring-rail.jpg`** — *the ordinary, AI-scheduled way most residents actually move around the ring.*
+  > A commuter rail platform on the inner surface of a great orbital habitat in the early morning, a plain modern train standing at the platform with its doors open, a handful of residents boarding without hurry, the habitat's green curved landscape rising away behind and overhead. Soft daylight from the habitat's light band. Utterly ordinary and quietly extraordinary. Green, pale grey, warm morning.
+
+- **`fold-transit-catastrophic-failure.jpg`** — *the three accounts settled space gives of the same wreckage.*
+  > A single recovered fragment of hull plate laid flat on a bare bench under even light, its torn edge presented to the camera, clean and dry and quite small. Nothing else on the bench at all — no tag, no label, no card, no marker. The room around it dark. Sober and undramatic. Grey metal, black shadow.
+  - **Extra negative:** explosion, fire, debris field, wreck, dramatic destruction, ship breaking apart.
+  - The entry is about how a loss is *classified*, not about the loss.
+
+- **`kalypsis-dawn.jpg`** — *a boundary zone cannot be shielded against, only carried better references into.*
+  > An unarmed survey and transport vessel in deep space seen three-quarter from ahead, mid-sized, plainly built, with no weapon mounts and no aggressive line anywhere on the hull, holding station in a region of ordinary starfield. Working lights along the hull, a large observation viewport, a plain unmarked hull. Calm, capable, unthreatening. Pale grey hull, deep black, cold starlight.
+  - **The lee is the name**, so the silhouette should read as shelter rather than force. No cannon, no prow, no wings.
+
+- **`orbital-compute-complexes.jpg`** — *classical machines without exception, since no quantum computer flies.*
+  > A very large orbital structure above a settled world, plainly industrial and entirely without windows, its whole surface given over to flat radiator panels edge-on to the sun and running away in ranks. The planet below fills the lower frame. Hard sunlight, black shadow, no glow anywhere. Functional to the point of austerity. White radiator faces, black structure, blue-grey world.
+  - **Radiators, not lights.** Heat rejection is what a compute complex actually looks like, and it keeps the frame off the glowing-datacentre default.
+
+#### Factions (3)
+
+- **`cairn-trust.jpg`** — *a marker is of no use to the one who set it.*
+  > A cairn of stacked flat stones standing on a high bare ridge on an unfamiliar world at first light, carefully built and weathered, with an empty valley beyond it and no track, no building and nobody in sight. Behind it the ridge continues into distance. Cold clear light, long shadow from the stack. Purposeful and unattended. Grey stone, pale gold light, cold blue distance.
+
+- **`halvern-combine.jpg`** — *a permission outlives the power that granted it.*
+  > A heavy old office safe standing open in an otherwise emptied room, its interior holding one squared stack of plain document wallets, every one shut and tied closed with tape, none of them open and no loose paper anywhere, and nothing else. The room around it is stripped: pale rectangles on the wall where things hung, dust, a bare floor. Flat daylight through an uncurtained window. The institution has gone and the paper has not. Dull green enamel, brass, dust.
+
+- **`hyperfold-yield-combine.jpg`** — *everything about it was lawful*, and it ended at Dock Seven.
+  > An industrial rendering platform in open space, plain and well maintained and entirely intact, holding station off a distant station's lights. Ordinary working plant: tanks, transfer booms, docking cradles, all of it orderly. Nothing dramatic, nothing sinister, nothing damaged. Hard sunlight from one side. Cold grey plant, black space, distant warm station. Utterly unremarkable, which is the entry.
+  - **Extra negative:** creature, tentacle, dragon, aperture, portal, rift, destruction, wreckage.
+
+#### Locations (5)
+
+- **`planets/cirrane.jpg`** — *the only Federation member world with no surface.*
+  > The upper atmosphere of a great gas giant seen from within it, banded cloud layers running away in enormous horizontal strata above and below, sunlight coming from one side through miles of haze, and no ground, no horizon and no solid object anywhere in frame. Vast, layered, entirely open. Ochre, cream, deep amber shadow.
+
+- **`planets/corryn.jpg`** — the ringed gas giant *whose rings pulse and hum in patterns.*
+  > A gas giant with a complex ring system seen from the night side of a nearby habitable world, low above the horizon and dominating the sky, its rings edge-lit and carrying faint patterned colour in blues, purples and greens along their length. In the foreground the dark silhouette of a hillside with spiral-form vegetation against the sky. Quiet, enormous, patterned. Deep blue-black, cold ring colour, black foreground.
+  - **Patterned, never addressed.** No face in the rings, nothing that reads as a signal aimed at the viewer.
+
+- **`planets/fliade.jpg`** — *biodiversity lives underground.*
+  > The interior of an enormous deep cavern on a cold world, its floor and walls carrying dense, complex, entirely non-photosynthetic growth in pale and dark forms, lit only by the faint self-luminescence of the growth itself and by nothing else. No opening to the sky, no equipment, no figures. Cold, crowded, alive. Pale grey-green light, black rock, deep shadow.
+
+- **`planets/verdance.jpg`** — *four climate zones, each hosting a distinct native civilization.*
+  > A high aerial view across a world where four utterly different landscapes meet within sight of one another — cold forest, open savanna, wetland, and high dry upland — the transitions clearly visible, each with its own distinct built settlement small in the distance. Clear midday light. Extraordinary range held in one frame. Full natural colour, wide horizon.
+
+- **`umbral-moon.jpg`** — *a small dark body at Earth–Moon L5, held by ordinary celestial mechanics.*
+  > A small, dark, irregular airless body in space seen close and lit hard from one side, its far limb in complete blackness, the Earth and the Moon both visible together as small distant discs in the same frame at a great distance. Nothing built on it, nothing orbiting it, nothing strange about it. Cold, plain, unremarkable. Charcoal rock, hard white light, black.
+  - **Nothing strange about the moon**, which is the fix that entry made: the flexure merely shares the address.
+
+#### Universes (1)
+
+- **`universes/deadwater.jpg`** — *no corridor has ever formed there, and every journey between its stars is sublight.*
+  > A deep-space starfield of ordinary appearance, seen wide, with a single small sublight vessel crossing it far off and plainly a very long way from anything. No corridor, no aperture, no distortion, no structure. The emptiness is the subject and it is entirely calm. Black, cold white points, one dim hull.
+
+#### Species (1)
+
+- **`ollune.jpg`** — *never stood on a surface, never lit a fire.*
+  > Several large, delicate, entirely non-humanoid atmospheric beings holding position in the sunlit upper cloud of a gas giant, seen at middle distance, broad and translucent and built for buoyancy rather than for walking, with no legs, no feet and nothing that could grip. Banded cloud running away behind and below them. Serene, alien, at home. Amber and cream cloud, pale translucent forms.
+  - **Extra negative:** wings, faces, eyes, limbs, hands, humanoid form, jellyfish cliché with trailing tentacles.
+
+#### Culture (3)
+
+- **`narrative-works-and-their-adaptation.jpg`** — *a spine of scenes carrying several viewpoints, with its reference apparatus attached.*
+  > A reader's table holding one bound volume lying shut and flat with a ribbon marker trailing from it and, ranged around it, four slimmer companion volumes standing shut on their edges — a set that plainly belongs together and is plainly not one book. Every book in frame is closed. Warm reading light from a window. Quiet, scholarly, inviting. Warm wood, cloth binding, pale paper.
+
+- **`cill-aoife-devotion.jpg`** — the devotion *carried into space as living devotion by the Currach Fleet.* Filed under this name rather than `saint-aoife.jpg` — see the collision note above.
+  > A small plain shrine niche set into the bulkhead of an old colony vessel's corridor: a shallow recess holding a few sprigs of blackthorn in water and a worn stone the size of a fist, the metal around it polished bright by generations of hands passing. Nothing ornate, no image, no figure, no candle. Ordinary corridor light. Devotion as an unbroken habit rather than an occasion. Dull alloy, wet green, one bright worn patch.
+
+- **`star-rangers-proverbs-and-maxims.jpg`** — *taught in the college, inadmissible in the log.*
+  > A worn wooden lecture-room bench in a training college, seen close, its surface marked by decades of use, with a plain shut record book set squarely on it and nothing else. Cold daylight from a high window. Two registers, one bench. Warm scarred wood, grey light, dark binding.
+
+#### Records (2)
+
+- **`plainmark.jpg`** — *stacked colour bands carrying chevrons, rings, tally strokes and lozenges.*
+  > A close view of a heavy hatch frame in a working orbital habitat, carrying a vertical stack of flat painted colour bands with simple geometric marks on them — chevrons, plain rings, short tally strokes, lozenges — crisply painted, hard-wearing, and containing no letters or numerals of any kind. The corridor beyond is out of focus. Utilitarian and oddly handsome. Saturated flat colour against grey alloy.
+  - **The one prompt in the set whose subject cannot be moved.** Everywhere else the 19 August fix was to change the scene (see *the lettering ban cannot beat the scene* under Prompt craft); here the marks **are** the entry, so the scene stays and the handling has to differ. Two things do the work: the prompt describes the marks purely as **painted geometric shapes** and never as a marking system, a code or a standard — naming the function is what summons letters — and **nothing else in frame is markable**, the corridor beyond being thrown out of focus.
+  - **Check at 4× without fail**, and if glyphs appear anyway the next move is to crop tighter onto a single band rather than to add negatives. A band of flat colour with one chevron on it has nowhere to put a word.
+
+- **`timekeeping-and-the-common-record.jpg`** — *time distributed by courier in a civilisation without faster-than-light communication.*
+  > A small hardened transit case standing alone on a plain bench in a ship's compartment, closed and clamped down and secured with a strap, plainly precious and plainly unremarkable to look at. Cool even light, nothing else in frame. What is inside is a clock, and the picture does not show it. Matte case, dull alloy, grey bench.
+
+#### History (3)
+
+- **`formation-of-star-rangers.jpg`** — *the moment the Military Space Command's institutional failure became irreversible.*
+  > A long negotiating table in a plain hall, seen from one end, strewn with the aftermath of many days: pushed-back chairs at irregular angles, cups and glasses left where they stood, one chair overturned and not righted. Nothing on the table but the cups — no paper, no folder, no document anywhere in frame. The room empty and the work finished. Grey late light through tall windows. Exhausted and consequential. Cool grey, pale wood, cold daylight.
+
+- **`the-generation-ark-era.jpg`** — *the odds of arriving were the odds of an early Norse or Irish open-boat ocean crossing.*
+  > An enormous, plain, slow sublight vessel crossing deep space, seen small in a very wide frame, its long hull built for endurance rather than speed and showing the accumulated repairs of a long passage. No destination visible, no star close. Vast emptiness around it and the ship entirely alone. Cold white points, dull hull, black.
+
+- **`what-nobody-certifies.jpg`** — hulls, routes, people and minds are certified, and *nothing at all certifies a permission to be somewhere.*
+  > A plain office wall carrying five identical shallow mounting niches in a level row. Four hold a small stamped metal seal hanging on a short cord — plain discs bearing only a struck geometric device, no writing of any kind. The fifth niche is empty and holds nothing at all. Flat even daylight, nothing else in frame. Bureaucratic, deliberate, quietly pointed. Pale wall, dull metal, one empty recess.
+  - **Seals rather than certificates — rewritten 19 August.** The first version asked for *four framed certificates, each one blank of any writing*, the exact self-defeating shape #415 disproved: a certificate's purpose is to carry writing, so the model draws the writing. A struck metal seal keeps the whole idea — four things certified, a fifth with nothing — and removes the writing surface instead of arguing with it.
+
+#### Entities (1)
+
+- **`predatory-entities.jpg`** — *classified by sapience and feeding method*, and governed by the tone line.
+  > An empty woodland clearing at dusk, ordinary and pleasant, with a ring of soft trampled grass at its centre where something has habitually lain, and a few small personal objects — a shoe, a folded cloth — at the edge of the ring, undisturbed and weathered. Nothing present. Warm failing light, long shadows, complete quiet. Green-gold, deep shade.
+  - **Extra negative:** creature, monster, teeth, claws, blood, gore, corpse, horror, body, violence, glowing eyes, shadow figure.
+  - **Superseded — use Open work 6's brief instead, 19 August.** That section already carried a prompt for this file and it is the better one: *a vacated habitat compartment, one chair turned away from the open door, a personal effect left exactly where someone set it down.* Same discipline, held indoors and in-setting, where the clearing above is neither. The frame above is kept only as a second option if the interior refuses to read.
+  - **Hint at the dark fact rather than depicting it**, exactly as the tone line requires. Nothing in frame is frightening; what is frightening is what the frame implies, and that is the setting's whole register.
+
+#### Timeline Notes (1)
+
+- **`universal-cosmic-stardate.jpg`** — *a paper timescale kept by an ensemble of clocks no institution owns.*
+  > A plain room holding six identical sealed instrument housings on separate isolated plinths, well spaced apart, each one unmarked and giving nothing away, in a space that is plainly kept very still. Cool even light, no cables in shot, no readouts. The agreement between them is the instrument and none of them is it. Matte white, grey stone, deep shadow.
+
+---
+
+**Checking these on return.** Four carry a default strong enough to fail quietly:
+**`quantum-computing-and-the-cavern-constraint`** (the gold cryostat),
+**`plainmark`** (gibberish lettering — inspect at 4×),
+**`predatory-entities`** (the tone line, in both directions: a monster fails it and
+so does a frame with nothing implied), and **`ollune`** (the trailing-tentacle
+jellyfish). Beyond those, the set's own risk is sameness: a great many of these
+are *a quiet room with one object in it*, which is the right answer individually
+and would be a monotonous gallery. **Judge them as a page of thumbnails, not one
+at a time**, and re-roll for variety rather than for quality where they cluster.
+
+#### Two delivered portraits versus the bureau uniform (19 August 2026)
+
+Dermot's direction that **Eden's detectives are uniformed with rank insignia**
+(`src/lore/eden-bureau-uniform.md`) postdates two delivered portraits that show
+neither. Recorded here rather than acted on, because the runbook's own rule
+settles it: **art is illustrative, the prose is canon — when the two disagree,
+the entry wins and the art stays.**
+
+**Both are fine, and the second one stopped being a problem the same day.** An
+earlier version of this note called Albercombe's herringbone *not compatible*.
+Dermot's follow-up — **the obligation is on the lower ranks** — settled it:
+Albercombe is a Detective Inspector and Oyelaran a Superintendent, and neither is
+required to wear the jacket at all.
+
+- **`rasa-oyelaran.jpg`** — *a plain grey work jacket over a maroon shirt.* Fine
+  twice over: she is senior enough not to be required, and a plain grey work
+  jacket would pass as the uniform anyway.
+- **`wendell-albercombe.jpg`** — *a worn herringbone jacket over an open blue
+  shirt.* Fine. A Detective Inspector in civilian cloth is the entry working, not
+  the entry contradicted.
+
+**No alt text changes**, and none were needed. Both lines describe what their
+files actually show, which is the one hard requirement.
+
+**A future frame of a junior officer takes the uniform** — the jacket, and the
+collar mark by rank — where a senior one need not, an undercover one must not,
+and a Commissioner is never required to. Note the lettering trap while writing
+any of them: the marks are strokes and blocks carrying **no letters and no
+numerals**, and whether the jacket bears any identifying number is deliberately
+unsettled in the entry, so no prompt should invent one.
+
+**And the same caution now applies to Ranger frames.** Corps and branch badges
+are canon as of the same direction, which puts a new device on a uniform that
+previously had only tabs and plates — so a Ranger prompt may name a corps badge,
+but it is **shapes only**, never a word, a monogram or an emblem with writing in
+it.
+
 ### 6. Images that should not stay — audited 2026-08-10
 
 Open work 1 and 5 are the images that are **missing**. This is the other half:
 images that **exist and shouldn't**. Prompted by Dermot noticing that Saint
 Aoife "looks a bit too much like a dark shadow", which turned out to be the
 visible corner of something larger.
+
+> **The figures below are stale, and stale in the good direction — re-measured
+> 19 August 2026.** The distribution now reads **7 pages under 80 characters,
+> 16 between 80 and 119, and 112 at 120 or more**, across **135** illustrated
+> lore and character pages. The 68-page short-caption cohort this audit found is
+> down to seven. The alt-text work was done and this section was never updated to
+> say so, which made an almost-finished job read as an open one. The reasoning
+> below stands as the record of why it was done; the counts do not.
 
 **The corpus carries two visual languages.** Alt-text length is a reliable
 tell for which images were ever actually looked at, and it comes out bimodal:
@@ -1608,6 +2591,42 @@ parliament chamber"*). One of the three describes a picture it isn't, which
 is a plain breach of the one hard rule in this file.
 
 #### The ten worth doing first
+
+> **Two corrections, 19 August 2026.**
+>
+> **First: every one of the ten target files has since been deleted.** Nothing
+> here is *currently* a hooded figure, a stock headshot or a voting console —
+> those pages now carry no image at all. The diagnoses below are the record of
+> why each was removed and remain worth reading; the present tense in them is
+> not.
+>
+> **Second, and my own error: eight of these were prompted a second time on
+> 19 August**, in *Outstanding portraits* and *Outstanding lore illustrations*,
+> because both lists were derived from pages lacking an `image:` field and this
+> section was never checked against them. `images.md` therefore carried two
+> competing briefs for the same file in eight cases. Reconciled as follows.
+>
+> **The newer brief governs**, for `verdance`, `dagny-voss`,
+> `monasteries-of-mars`, `planetary-liaisons-and-recruiters`, `elvira` and the
+> lore Aoife — it was written against each page's current text, carries the
+> set's shared negative blocks, and in the Aoife case fixes a naming collision
+> this section did not notice.
+>
+> **This section's brief governs for `predatory-entities`**, and the newer one
+> should be dropped. *A vacated habitat compartment, one chair turned away from
+> the open door, a personal effect left exactly where someone set it down* is
+> in-setting where the newer frame is a woodland clearing, and it holds the same
+> tone line better by holding it indoors.
+>
+> **And this section carries one constraint the newer Aoife portrait brief
+> missed and must adopt: keep the concealed face.** The record does not know it,
+> and the page's whole argument is that she never claimed to know what she had
+> seen — so the face stays turned, shadowed, or away. That is canon reasoning,
+> not a styling preference, and it outranks anything in the newer entry.
+>
+> **Two entries here said *prompt not written* and now have one**: the Frontier
+> Transformation Protocols page and the Common Manifold page are both covered in
+> *Outstanding lore illustrations*.
 
 Not the merely generic — the ones where the current image **actively
 misinforms**. Prompts written to the standing rules and ready to paste.

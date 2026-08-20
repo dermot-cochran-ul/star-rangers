@@ -48,64 +48,131 @@ listed first so nobody tidies them away.
 
 ## Cosmology and terminology — queued 2 August 2026
 
-Tracked publicly as **#442**; all six are naming or structural decisions with
-no plot content.
+All six are naming or structural decisions with no plot content. **#442 was
+re-scoped on 18 August 2026** to the Convergence Point alone — the only one of
+the six with unwritten work waiting on it — so the other five are indexed here
+and not tracked publicly. They are not dropped; this file is where they live.
 
-- **The Arilon–Kieme relation**, expressed without *Son of Kieme*. Live, and
-  adjacent to the Kieme titles merged in #434.
+- ~~**The Convergence Point definition**~~ — **ruled 18 August 2026: map it
+  onto boundary zones, no new term.** A Convergence Point is an inter-membrane
+  boundary zone; the word stays out of `src/`. Recorded in full in
+  `intake-2026-07-26.md`, with what it settles (degrees are Boundary-State
+  Classes; a zone has sky coordinates but no distance to its neighbour; a
+  flexure is not a fold) and what it breaks. **#442 closed.** The residue is
+  not the term but the two unwritten blocks it lands on — see below.
+- **The Arilon–Kieme relation**, expressed without *Son of Kieme*. **Probably
+  an unratified answer rather than an open question** (checked 18 August 2026):
+  *Son of Kieme* appears in no page, and the relation is stated three times as
+  a marked undecidability — `arilonian.md`'s *"Champion, avatar, or the
+  incarnation of Kieme itself: every reading is an Arilonian reading, and the
+  word endorses none of them"*, plus the Avatar exception in `arilon.md` and
+  `cosmic-cascade.md`. So the decision is whether that *is* the answer, or
+  whether undecidability is the wrong shape here. If it is the answer, strike
+  this line. Note the constraint either way: `kieme.md` holds that Kieme stands
+  above the concept of number, so a relation stated in relational terms has to
+  survive that.
+- **Where shadow beings live** — Sí Gaoithe, or a realm of their own. **Now
+  tracked publicly as #462**, because the 18 August boundary-zone ruling made it
+  load-bearing: the Umbral Moon block's *"Shadow Universe"* is not canon, so
+  that block cannot be written until the neighbour membrane is named, and naming
+  it answers this. Decide the two together — answering them apart risks two
+  incompatible answers. The beings themselves *are* canon (Class III
+  non-sapient, meta-dimensional, and they do physically enter material space);
+  it is their home membrane that is open.
 - **A feminine Spirit-of-Wisdom name** for the Holy Spirit analogue. Watch the
   Gnostic baggage on *Sophia* against the standing no-Gnosticism rule.
 - **Bible references** — stay in the church-space overlay, or move to Codex.
-- **Whether the Overlay canon-status is needed at all**; it covers one page.
-- **Where shadow beings live** — Sí Gaoithe, or a realm of their own.
-- **The Convergence Point definition.**
+- **Whether the Overlay canon-status is needed at all**; it covers one page —
+  `src/threads/church-space/index.md`, confirmed 18 August 2026.
 
 ## Cascade structure — `cascade-structure-and-limits.md`
 
-Tracked as **#446**, P4. The file's own framing is that the thinking is done
-and only the deciding is outstanding — *"worked out, so they can be decided
-rather than drifted into."* Nothing published depends on any of it and none
-carries a `canon_fact`, so the status quo is safe.
+**#446 closed 18 August 2026.** It was filed on a stale reading. The hinge it
+named — *whether any tier sees rather than derives* — was settled on
+2026-07-30 and is the file's keystone: **the Hyperomnium sees, it does not
+specify**, and section 1 carries the back-reference saying so. The
+predestination consequence is deliberate rather than outstanding: section 4
+rules the dispute **permanently unsettleable in-world**, because section 3
+says no tier can certify its own coherence, and assigns it to the Codex with
+named sources and a strongest-version guardrail.
 
-Four remain. The hinge is **whether any tier sees rather than derives**: if
-foreknowledge returns, a defensible predestination comes with it, and the file
-notes certain traditions answer *yes* for the Trinity. Check the file's own
-conflict register before answering any of them.
+What genuinely remains is whatever sections 1–3 and 5 flag inline, and the
+file's own closing **`Status:`** line is the accurate inventory — read that
+rather than this. The narrowest live item is whether the Hyperomnium's
+beholding reaches what has not yet been chosen. Nothing published depends on
+any of it and none carries a `canon_fact`, so the status quo is safe. Check
+the conflict register at the foot before answering any of them.
 
 ## Character and backstory — `intake-2026-07-28.md`
 
 Tracked as a thin pointer in **#444**; the substance is here because that file
 touches Season 6–7 material and the tracker is public.
 
-- **Anne's surname and present-day situation.**
-- **What the disaster actually was.**
-- **Whether Xenon and Lumbarian are still active, and where.** Lucene-9000 is
-  accounted for; the other two are not. Also open: whether they remember the
-  rescue as Lucene-9000 evidently does, or whether that difference is worth
-  using.
-- **Whether Andrew knows Lucene-9000 is the same unit.** Karla's side was
-  answered 4 August; Andrew's was not. Lucene's established manner is that she
-  would say so plainly if asked and never think to raise it otherwise.
-- **Which world, and whether it has a name yet.** Plus whether the settlement
-  is named Wender or she is simply *of* her family, and where this sits
-  relative to Karla's Chief Pilot rank at Season 1's start.
-- **Whether the Frontier Corps had a caretaker mandate on that world** — the
-  Corps has a welfare authority nobody has named. Either answer is worth having
-  deliberately.
-- **Which ship, and from when** — before or after she made High Captain — and
-  whether Karla, Andrew or Anne have ever discussed it with any of the three.
+**Worked through in one sitting on 19 August 2026** — see §10 of that file for
+the rulings and the reasoning. Four items turned out to have been answered
+elsewhere months earlier and never brought back here, which is the failure mode
+this index exists to catch and did not.
+
+**Closed by canon that already existed, not by a ruling:**
+
+- ~~**Anne's surname**~~ — **Wender**, published in `s01e00c04`'s `canon_facts`
+  and in her own voice at the intake hall.
+- ~~**Whether Xenon and Lumbarian are still active, and where**~~ — active,
+  both aboard Karla's ship. Settled by Dermot on 28 July and published on both
+  character pages.
+- ~~**Whether the Frontier Corps had a caretaker mandate on that world**~~ — it
+  does; closed by the 13 August addendum, which puts a Senior Officer there.
+
+**Declined deliberately — not gaps to close:**
+
+- **What the disaster actually was** — ship's name, route, cause, and who
+  dispatched the machines. The chapter marks the absence in a character's
+  judgement rather than a note (*"it had not seemed, that night, like the
+  missing fact"*), which is Sen's doctrine working inside the fiction.
+- **The "Lucy Anne" echo, and why Anne abstains from the name.** Already flagged
+  above as a decision to leave something open.
+
+**Ruled 19 August (proposals):** Andrew's question dissolved by the chapter and
+replaced with the better one — nobody has asked Lucene what happened, for three
+different reasons; the settlement is named **Wender** by the colonists at
+constitution rather than by Anne; the election was **obstructed rather than
+contested**, on the lawful and possibly correct ground that it was premature;
+the Senior Officer is **new**, with Galen Kane as the man he calls; the machines
+were posted to the hull before Karla had any say; and all three remember the
+rescue, from three vantages that make it three different events.
+
+**Still open after that:** the exact year of the election, the Senior Officer's
+identity, and the items the chapter itself reserves (the children's ages, the
+length of Lucene's care interval, whether the three knew one another before the
+wreck).
 
 ## Naming — `intake-2026-07-26.md`
 
-Tracked as **#445**.
+Tracked as **#445**. Two corporations, not one — the index conflated them until
+18 August 2026, and they share only the property of being unnamed.
 
-- **Wayland Space Corporation.** *Wayland* already occurs in the repo in
-  another sense, so the question is whether the name is reusable. The
-  precedent is *Drithane*: retired as a title, then deliberately reused
-  in-world as a planet name, because the two senses cannot be confused. Record
-  the decision in the migration map either way.
-- **What the corporation actually did**, which the 28 July intake leaves open
-  alongside its name.
+- ~~**Whether *Wayland* is reusable**~~ — **ruled 18 August 2026: it is not.**
+  The existing sense is Space Commissioner Zara Wayland, a character with her
+  own page and seven cross-references, and unlike *Drithane* the two uses sit
+  in the same domain with the same word *Space* attached. Recorded in place in
+  `intake-2026-07-26.md`. **No migration-map row** — the name never entered the
+  corpus, so nothing is being renamed; the guide's UCSD entry is the precedent
+  for declining one.
+- ~~**What the 26 July concern is called instead**~~ — **the Halvern Combine**,
+  drafted 19 August. The founder-or-date problem resolved by removing the
+  Military Space Command from the sentence rather than adjusting its year: the
+  colony is chartered in the Imperium period, and the *approximately thirty
+  years* survives as the **expansion**. *(This entry also carried the wrong MSC
+  year — the Consolidation Accords narrowed it into the SSDC in **2722**, and
+  2723 is the charter year.)*
+- ~~**The 28 July concern — its name and what it was developing**~~ — **the
+  Cairn Trust**, drafted 19 August, developing **the power base rather than a
+  commodity**: passage out, the first rationed fusion cores, and the buildout,
+  recovered over decades against the colony's own later output. Sincerely
+  aggrieved is structural rather than asserted, because a trustee cannot forgive
+  a debt held for beneficiaries who are not present.
+
+**#445 is closed.** Both namings landed.
 
 ## Pandoids — sapience answered, two things opened
 
@@ -131,7 +198,8 @@ or Season 6–7 material:
   no point on one; Fliade prose describes what the Pandoids do and don't make,
   without a rank or an implied missing rung. Drafted into
   `what-the-record-refuses.md` as a general refusal of the ladder, since three
-  existing pages already refuse it case by case. **Open until the PR merges.**
+  existing pages already refuse it case by case. **Merged in #452 on 16 August
+  2026; the ladder refusal is live and #450 is closed.**
 - ~~**The humanoid collision**~~ — **#449, ruled 16 August 2026: reading 3**,
   the tiers are distinct, plus the clarification that the Pandoids derive from a
   **bear-like alien ancestor, not terrestrial bears, despite the name**. The
@@ -141,9 +209,10 @@ or Season 6–7 material:
   observers, never about descent. Fliade and the Pandoids are deliberately not
   named on that page — unwritten, and a doctrine page is the wrong place for a
   species to enter canon; the named example follows when Fliade is written.
-  **Open until the PR is merged**, since that page is Dermot's to approve.
+  **Merged in #452 on 16 August 2026; #449 is closed.** The doctrine page still
+  names neither, so the follow-up below stands.
 
-## Fliade — drafted 16 August 2026, awaiting Dermot
+## Fliade — merged 16 August 2026
 
 Four rulings that day settled what the 26 July block was waiting on, all
 recorded in `intake-2026-07-26.md`: the Pandoids are **sapient**; descended from
@@ -151,19 +220,21 @@ a **bear-like alien ancestor**, not terrestrial bears; **not space faring**; and
 keeping their record **orally, in cultural memory**. Fliade is a first-contact
 world under the FTP sapience clause.
 
-`src/lore/planets/fliade.md` is drafted on that basis in **#452**. It is a
-proposal; the entry asserts nothing beyond the intake blocks and the four
-rulings, and where it had to choose it chose to mark an absence.
+`src/lore/planets/fliade.md` was drafted on that basis and **merged in #452**,
+which carried the two doctrine refusals as well. The entry asserts nothing
+beyond the intake blocks and the four rulings, and where it had to choose it
+chose to mark an absence.
 
 Still live:
 
-- **The Convergence Point definition** — **#442**, and the original block's own
-  flag. The draft **does not use the term**: it says the planet sits near a
-  boundary feature under study, brings the protocols' existing
-  boundary-proximity requirement into force, and states plainly that the
-  feature's classification is not settled in the record. That is a marked
-  absence rather than a definition, so #442 stays open and the entry does not
-  pre-empt it. Whenever the term is settled, one paragraph of Fliade names it.
+- ~~**The Convergence Point definition**~~ — **ruled 18 August 2026, and Fliade
+  needs no edit.** The entry says the planet sits near a boundary feature under
+  study and states that the feature's classification is not settled. Under the
+  ruling the *kind* is settled — an inter-membrane boundary zone — while the
+  block's own wording is a *suspected* Convergence Point, so the **class**
+  genuinely is not confirmed. The marked absence was the right call and it still
+  reads correctly. Naming a Boundary-State Class in that paragraph would be a
+  proposal, not a correction, and nobody has proposed one.
 - **Whether Pandoid memory works as human memory does.** Deliberately open, and
   the draft does not raise it. If ordinary, say nothing; if not, it is a
   per-species canon vocabulary decision, registered like any coined term rather
@@ -184,6 +255,31 @@ Still live:
 this section indexes only what is **undecided or awaiting a look**, so it can
 be found without reading 1,300 lines.
 
+- **Refiling contradicting images as Codex art — three decisions open.**
+  Dermot's direction of 18 August 2026: an image that contradicts canon but
+  remains aesthetic may move into the Codex as in-universe artwork rather than
+  be removed. The principle is recorded in `images.md` and completes rather than
+  overturns *absence beats a picture quietly making a claim* — a codex artefact
+  asserts nothing, so relocating stops the claim without losing the picture.
+  **Two absolute exclusions ruled 18 August 2026: stock photography never
+  qualifies, and neither do anachronisms.** One reason under both — the Codex
+  can carry a wrong belief, never a wrong century or a real place, because an
+  artefact is a physical object made inside this world and the author's
+  fallibility covers interpretation rather than material culture. This also
+  closes the French dial, previously recorded as arguable: it fails on both
+  counts. **A quality bar was ruled the same day**: only a high-quality image
+  with artistic merit and no technical flaws qualifies — if it would not earn a
+  page were canon no obstacle, it does not earn one as Codex art. A generation
+  artefact is a flaw; a stylisation is not, the test being whether an in-world
+  artist could have *chosen* it. **Nothing has been applied, and the pool is
+  currently empty**: a blob check on 18 August found the rejected originals were
+  never committed (one content version each for `cerebraun`, `aldera`, `rook-7`,
+  `nessa`, `orla-shepherd`; only `qiren-tal` has two), so the rule is effectively
+  **prospective** and the retroactivity question is much smaller than it looked.
+  Two things still to decide: whether it overrides the codex title-card
+  convention, and whether it is retroactive at all.
+  `CLAUDE.md`'s image conventions are deliberately **not** updated yet, since
+  stating an unsettled convention there is worse than stating none.
 - **The emblem-card recipe is lost.** `images.md:1292` — *"Still open after
   this: the emblem-card recipe."* Nothing on record recovers how the existing
   emblem cards were made, so a new one cannot currently be produced to match.
@@ -195,6 +291,90 @@ be found without reading 1,300 lines.
 - **Two competing abstract-emblem prompts** for an investigative intelligence
   (`images.md:709` and `:723`) differ only in their closing clause and neither
   is marked chosen.
+
+## Audio and music — `music-prompts.md`
+
+Raised 20 August 2026, when a check found that **none of the five files in
+`src/audio/` has a prompt recorded anywhere** — the Prismere failure repeated in
+a medium nobody was watching. `music-prompts.md` now carries the briefs; these
+are the parts it could not decide.
+
+- **Do the four edition themes get regenerated?** Their prompts are gone, so a
+  regeneration is a *new* track under an existing label, not a recovery — a
+  front-of-house change on four live domains.
+- ~~**Does Church Space get a theme of its own?**~~ — **ruled 20 August 2026:
+  yes.** *Rotational Hum* registered as `themeAudio` ("Ambient drone",
+  `rotational-hum.m4a`) on Dermot's direction that the track is site furniture.
+  It was the only edition that could take a new theme without displacing one
+  already live, and the fall-through it replaces was an omission rather than a
+  decision.
+- **WAV → m4a/mp3 for the four themes.** 4–8 MB each behind `preload="none"`.
+  Mechanical and content-risk-free, ~20 MB saved, but it touches live domains.
+- **Recordings for the two unrecorded anthems.** *Half-Light Causeway* and
+  *Protectors of the Fold* have published lyrics and no audio; briefs are
+  written and waiting. Draft-and-stop either way.
+- **Should `validate-content.js` cover `src/audio/` and `src/video/`?** Images
+  get unreferenced, duplicate-bytes and stale-slug checks; audio and video get
+  none of the three. An orphan track is currently invisible to every gate.
+
+## Video — `video-prompts.md`
+
+Raised 20 August 2026 alongside the audio check, and the gaps are the same shape
+but larger, because nothing in the toolchain looks at `src/video/` at all.
+
+- **`grok-video-2026-05-10.mp4` is referenced by nothing.** 30 s, 448×672, the
+  only genuinely moving footage in the repo. Find it a home or remove it —
+  removal of anything published-adjacent is Dermot's call.
+- **Should the still-over-audio pieces become image + audio player?**
+  `baby-universe.mp4` is 19 MB at 1 fps to show one picture, and
+  `ballad-of-the-stars.md` already demonstrates the cheaper pattern. Changes a
+  live page.
+- **Two newly identified recordings need canon homes** (identified 20 August
+  2026). The 3:49 is **Slipwave**, which makes a fourth recording by a band whose
+  catalogue `slipwave.md` already characterises — *a handful, most incomplete or
+  badly mic'd, two are not* — so it fits as one of the handful surfacing later,
+  and cannot be a polished studio track from their own era. The 1:44 is **a
+  muster piece**, and its audio is a produced full-band mix, so it is a recording
+  *of* one rather than a recording *at* one. Either becoming a codex entry needs
+  **the lyrics supplied** — they cannot be transcribed from a spectrogram, and a
+  lyric is canon-for-its-author.
+- **Six supplied tracks have no prompt recorded, and four have no home** —
+  `InnerSpaceBloom_3`, `RotationalHum_1`, `PaperGalaxies_5`, two unrelated
+  `StarRangers_3` files and a re-wrap of the existing Ballad, all 854×480
+  still-over-audio. Recorded in `music-prompts.md`; each needs its tool and
+  prompt pasted in, and a decision about whether it is site furniture or an
+  in-universe recording with a named author.
+- ~~**Should `PaperGalaxies_5` be attached to its own audit?**~~ — **done
+  20 August 2026.** Audio extracted to `src/audio/paper-galaxies.m4a` and
+  attached; no prose added, since the entry's framing paragraph already
+  introduced the artifact.
+- **Is *Hold Me Till Dawn* related to *Baby Universe*?** Its title echoes that
+  song's published chorus (*"Hold me up, hold me close"*). Related is a decision
+  about what `baby-universe-ballad.md` records; unrelated is a reason to change
+  the title.
+- ~~**Does Saint Aoife get her portrait from *Aoife of Stars*?**~~ — **ruled
+  20 August 2026: reframed, not adopted.** Keep the concealed face, which is
+  canon reasoning rather than styling; take the card's night, star field,
+  moorland and red hair. Merged brief in `images.md` and
+  [`prompt-sheet.md`](prompt-sheet.md) 1.7. **Still open:** the portrait does not
+  exist yet — the card cannot be cropped into one (479 px art region, title
+  burned across her shoulders), so it needs generating at 1200×675.
+- **Is low-gravity shuffle dance canon?** The 26 July intake marks it as not
+  existing in canon; a supplied Grok clip depicts it, in full gravity. If it is
+  to be established, the microgravity is the whole of what makes it worth
+  establishing.
+- **The three band cards contradict Slipwave** — wrong lineup, wrong register,
+  a singer who is not Shepherd, and one garbled caption. Adopting photographic
+  band art would also break the four-entry designed-cover set and invalidate its
+  alt texts. Decide as a set.
+- **Does *Inner Worlds / Inner Space Bloom* belong to this site at all?** It
+  carries no Fian Ilchruinne branding. If it is a site piece it needs a codex
+  home like every other recording; if it is a separate ambient release it needs
+  no canon check, and the scene prompts written for it are a loose library rather
+  than something the record commits to.
+- **The "Live Concert Recording" caption** on that card claims a provenance the
+  file does not have, on a site whose temper is *who says so*. Not a fix — a
+  decision.
 
 ## Decisions awaiting Dermot
 
@@ -214,14 +394,51 @@ not evaporate between sessions.
   creation is collaborators-only — reword to point readers at the comments
   repo, or open creation. Tracked as **#432**; the recommendation is reword,
   since that file binds him to other people and is draft-and-stop.
+- **[Proverbs and Maxims of the Star Rangers](../src/lore/star-rangers-proverbs-and-maxims.md)**, drafted 18 August 2026 and not merged — a lore entry asserts about the world, so it is draft-and-stop. Two of its sayings are new rather than collected (*"Quiet is not doubt; loud is not certain"* and *"The pleasing reading is checked first"*, from his humility note of the same date); the rest are sourced to existing pages. Separately, the survey behind that note found the corpus holds only the *good* version of humility — grounded, correctly refusing flattery — and nobody yet embodies **Humility can become invisibility**. Worth confirming before anyone writes to the theme, since the pair only works if both halves exist on the page. See `ideas.md`, *Humility as Confidence*.
 - **The Fold Transit Safety branch origin story**, **#430**. Boundary Safety
   and AI Safety each got a history on 16 August; Fold Transit is named and
   unexplained. Most of the raw material already exists in
-  `fold-transit-catastrophic-failure.md`.
+  `fold-transit-catastrophic-failure.md`. **Drafted 18 August 2026** into
+  `src/lore/star-rangers-safety-corps.md` — two paragraphs, no new assertions:
+  the branch begins from the finding that the failure surface is the aperture,
+  which makes the hazard a specification and the Chicago method applicable
+  unchanged; its founding year is a marked absence, on the page's own precedent
+  for the retired *Solutions* name. Lore, so draft-and-stop: open until Dermot
+  merges it.
 
 ## Unwritten and live — from 26 July
 
-Recorded as still live: **Fliade**, **Umbral Moon**, **Kalypsis Dawn**. None
-written. Not currently tracked as issues; they are subjects rather than
-questions, and belong to `narrative-gaps-checklist.md` — re-derive that from
-`src/seasons/` before trusting it.
+~~Fliade~~ **written and merged 16 August 2026** — `src/lore/planets/fliade.md`.
+Still live: **Umbral Moon** and **Kalypsis Dawn**.
+
+They were subjects rather than questions, and so not tracked as issues. **That
+changed on 18 August 2026 for two of the intake's worlds**, both because the
+boundary-zone ruling found their blocks contradict published canon:
+
+- **Umbral Moon — #462.** Three conflicts, one of them a design decision: what
+  holds a moon, if not a gravity tunnel canon defines as lasting seconds.
+- **The renamed Meridian system — #463.** Seven corrections where the block's
+  heading advertises one. The two found last are the worst: the Sentinel's
+  distress signal is a **refused psi trope** rather than a stretch of one, and
+  **Convergence Weaving** is undefined — the same shape as Convergence Point
+  before #442, in the same block, found the same way.
+
+**Kalypsis Dawn — checked 18 August 2026 and it is a question after all.**
+`intake-2026-07-26.md` block 3 rests on a **category error**: the Overfold is the
+Fellowship's contemplative name for boundary-zone Etheric phenomena, not a medium
+you travel through, and the block builds the ship's identity, certification,
+defensive suite and class history on Overfold corridors and jumps. A third FTL
+channel is also refused outright. Three refused tropes are fitted to it —
+holo-displays, stasis pods, and an AI that *handles* interspecies communication.
+The block's heading still says *WRITABLE AFTER TWO NAMING DECISIONS*, corrected
+in place. **All three of the 26 July worlds turned out to contradict published
+canon**, which is now a fact about the intake rather than about any one block.
+**Tracked as #472**, the strongest of the three P2s: #462's block said *writable
+after three fixes* and #463's said *needs new names*, both understating, while
+this one affirmatively certifies itself as *"Fits canon well."*
+
+Formerly recorded here as a subject rather than a question, belonging to
+`narrative-gaps-checklist.md` — re-derive that from `src/seasons/` before
+trusting it. Worth noting it is now the only one of the intake's unwritten
+worlds nobody has checked against canon, which is not evidence that it is
+clean.

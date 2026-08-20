@@ -1,5 +1,7 @@
 # Recurring Themes
 
+**Open items from this file are indexed in [`open-questions.md`](open-questions.md).**
+
 ## Wisdom Versus Intelligence
 - Intelligence solves problems.
 - Wisdom chooses which problems are worth solving.
@@ -12,6 +14,10 @@
 - Patience can become stagnation.
 - Humility can become invisibility.
 - Perseverance can become stubbornness.
+
+(Read the humility line together with **Humility as Confidence** at the foot of
+this file, and not as a replacement for it. Both are true, and the word doing
+the work in both is *can*.)
 
 ## Finite Energy
 - Energy is a more important constraint than time.
@@ -155,3 +161,58 @@ physics makes the shapes negotiable; the mechanisms never are), a
 meta-dimensional classification (ecology of another layer, not a creature),
 or codex-filed folklore with an author attached. Nothing runs on wishes,
 including the cute ones.
+
+## Humility as Confidence — Dermot's note, 18 August 2026
+
+Dermot's note, as given: **humility can be a sign of a deeper internal self
+confidence that does not require external validation, and distrusts flattery.**
+
+This does not cancel *Humility can become invisibility* in The Limits of Virtue
+above; it is the other reading of the same behaviour, and the pair is more
+useful than either line alone. Humility with nothing under it disappears.
+Humility with confidence under it declines a performance it does not need. The
+outward conduct is identical — not claiming past your evidence, not correcting
+an impression ahead of schedule — and **an observer cannot tell which one they
+are looking at from the conduct**. That indistinguishability is the dramatically
+useful part: it is what lets a room misread a competent officer for years, and
+it is why the misreading is a mistake about the observer's instruments rather
+than about the officer.
+
+The second clause is the sharper one and the easier to write. Confidence that
+does not require external validation has no use for praise **as evidence** — so
+praise arriving in the shape of evidence is itself a signal worth distrusting.
+That is not modesty. It is the same discipline as declining to make a finding
+you cannot defend, pointed at a finding about yourself.
+
+**Where the corpus already holds this**, so new work builds on it rather than
+restating it:
+
+- **[Tissadelle Shepherd](../src/characters/tissadelle-shepherd.md)** is the
+  worked case and states the mechanism outright — "the confidence is real; it is
+  the performance she withholds" — including its cost, which she pays every time
+  rather than once. Her page also declines to settle whether it is humility or
+  stubbornness, which is the same indistinguishability from the outside.
+- **Ranger doctrine** generalises it institutionally: name only what can be
+  supported. In [The Institute](../src/lore/the-institute.md) the field analyst
+  declines to record *the flattering explanation* of the event — flattery
+  refused as a source, in a body whose whole discipline is declining to say more
+  than it knows.
+- **[Sofia Santos](../src/characters/sofia-santos.md)** refuses *first woman*
+  explicitly not out of modesty — she is willing to be described grandly where
+  the description is true — but because accepting it would mean accepting a
+  false account of her planet in exchange for being flattered by it.
+- **Agent Barsik**, in [On the Filing of the Galley Door
+  Specimen](../src/codex/filing-of-the-galley-door-specimen.md), reaches the
+  hardest version: "I cannot separate the finding from the flattery in it," and
+  files that inability rather than the finding.
+- Outside the fiction, *[The Wrong Century](../src/journal/the-wrong-century.md)*
+  runs the same test on the author — the moment the thing stopped being
+  uncomfortable and started being flattering is named as the moment to slow
+  down.
+
+**What that survey suggests is thin.** Every case above is the *good* version:
+grounded humility, correctly refusing flattery. The corpus is much better
+stocked with people who decline praise than with people who need it, or with
+someone whose humility genuinely is invisibility with nothing behind it. Worth
+checking properly before anyone writes to this theme, because the pair only
+works dramatically if both halves exist somewhere on the page.
