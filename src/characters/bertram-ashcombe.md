@@ -11,7 +11,7 @@ aliases:
 tags: [human, constabulary, detective, inspector, threshold-station, season-1]
 description: "Threshold Station's Detective Inspector: immaculately dressed, unfailingly cheerful, and serenely confident that the cases solve themselves once he's had a proper breakfast."
 image: "bertram-ashcombe.jpg"
-image_alt: "Detective Inspector Bertram Ashcombe in a panelled constabulary office, an older man in an immaculate three-piece suit with a pocket square, standing easily with his hands loosely joined and smiling toward the viewer. Low sun comes through tall windows behind him and colleagues work at desks further back."
+image_alt: "Detective Inspector Bertram Ashcombe in the station constabulary office, an older man in an immaculate three-piece suit with a pocket square, standing at ease beside his desk and smiling toward the viewer. Colleagues work at lit displays behind him, a worn leather armchair stands to one side, and a tall window at the left looks out past the station's structure to the planet below."
 ---
 
 Bertram Ashcombe holds the rank of Detective Inspector aboard Threshold Station, a posting he treats with the gravity most people reserve for a good tailor. His uniform is pressed to a standard the quartermaster has stopped commenting on. His case-closure rate is, by any reasonable audit, excellent. He is, by his own account, rather good at this.
