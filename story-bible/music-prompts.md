@@ -233,6 +233,19 @@ evening. Keep it for sketching.
 | Anything where terms matter more than polish | **ElevenLabs Music** | Clean commercial terms, quality a step behind the leaders. |
 | Best raw quality | **Suno** | Strongest vocals and coherence, cheapest, and the least settled rights position — Sony and Universal litigation was still live in mid-2026. |
 
+**Settled 20 August 2026, Dermot's direction: this music is for the live
+domains.** That turns the last column of the table from a footnote into the
+deciding one, and makes two things follow rather than remaining open:
+
+- **Udio moves from conditional to recommended** for anything with published
+  lyrics. Its inpainting is what protects a canon lyric line, and its licensing
+  position — Universal, Warner, Merlin and Kobalt signed — is the strongest among
+  the tools that can sing.
+- **MyTunes stays the sketchpad and stops being the delivery path.** A consumer
+  app's terms are the wrong ground to stand on for audio served from five
+  domains, and its output arrives wrapped in another product's badge. Sketch
+  there; finish elsewhere; publish the audio, not the wrapper.
+
 **Why licensing is a real question here and not boilerplate.** The story content
 is published under CC BY-NC-ND on several live domains, and this project is
 unusually careful about who holds what — `CONTENT-LICENSE.md`, the code/content
@@ -670,7 +683,7 @@ wrong would be the expensive mistake.
 | File | Audio | Card | What to change |
 |---|---|---|---|
 | `RotationalHum_1` | keep | **keep** | Nothing. Best card of the set after *Aoife*: matte object, real light, no lettering. |
-| `PaperGalaxies_5` | keep | **keep** | Nothing. The card matches what the audit dialogue already describes, and the degraded 480p artifact is an asset for once. |
+| `PaperGalaxies_5` | **adopted** | **keep** | Done — audio extracted to `src/audio/paper-galaxies.m4a` and attached to its own audit entry. The card stays as the entry's designed cover. |
 | `AoifeofStars_3` | keep | hold | Not a fix — a decision. First depiction of a character with no portrait, so it waits for you. |
 | `InnerSpaceBloom_3` | keep | **regenerate** | Garbled lettering; and *"Live Concert Recording"* claims a provenance the file does not have. |
 | `BalladoftheStars_3` | keep (it is the repo recording) | **regenerate** | Garbled caption, and the band is not Slipwave. Use the card brief in `video-prompts.md`. |

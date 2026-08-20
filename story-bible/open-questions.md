@@ -333,9 +333,10 @@ but larger, because nothing in the toolchain looks at `src/video/` at all.
   still-over-audio. Recorded in `music-prompts.md`; each needs its tool and
   prompt pasted in, and a decision about whether it is site furniture or an
   in-universe recording with a named author.
-- **Should `PaperGalaxies_5` be attached to its own audit?**
-  `paper-galaxies-audit-dialogue.md` already describes that exact artifact and
-  embeds no player. Live page, so a proposal.
+- ~~**Should `PaperGalaxies_5` be attached to its own audit?**~~ — **done
+  20 August 2026.** Audio extracted to `src/audio/paper-galaxies.m4a` and
+  attached; no prose added, since the entry's framing paragraph already
+  introduced the artifact.
 - **Is *Hold Me Till Dawn* related to *Baby Universe*?** Its title echoes that
   song's published chorus (*"Hold me up, hold me close"*). Related is a decision
   about what `baby-universe-ballad.md` records; unrelated is a reason to change
