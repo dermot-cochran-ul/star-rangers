@@ -315,6 +315,40 @@ are the parts it could not decide.
   get unreferenced, duplicate-bytes and stale-slug checks; audio and video get
   none of the three. An orphan track is currently invisible to every gate.
 
+## Video — `video-prompts.md`
+
+Raised 20 August 2026 alongside the audio check, and the gaps are the same shape
+but larger, because nothing in the toolchain looks at `src/video/` at all.
+
+- **`grok-video-2026-05-10.mp4` is referenced by nothing.** 30 s, 448×672, the
+  only genuinely moving footage in the repo. Find it a home or remove it —
+  removal of anything published-adjacent is Dermot's call.
+- **Should the still-over-audio pieces become image + audio player?**
+  `baby-universe.mp4` is 19 MB at 1 fps to show one picture, and
+  `ballad-of-the-stars.md` already demonstrates the cheaper pattern. Changes a
+  live page.
+- **Six supplied tracks have no prompt recorded, and four have no home** —
+  `InnerSpaceBloom_3`, `RotationalHum_1`, `PaperGalaxies_5`, two unrelated
+  `StarRangers_3` files and a re-wrap of the existing Ballad, all 854×480
+  still-over-audio. Recorded in `music-prompts.md`; each needs its tool and
+  prompt pasted in, and a decision about whether it is site furniture or an
+  in-universe recording with a named author.
+- **Should `PaperGalaxies_5` be attached to its own audit?**
+  `paper-galaxies-audit-dialogue.md` already describes that exact artifact and
+  embeds no player. Live page, so a proposal.
+- **The three band cards contradict Slipwave** — wrong lineup, wrong register,
+  a singer who is not Shepherd, and one garbled caption. Adopting photographic
+  band art would also break the four-entry designed-cover set and invalidate its
+  alt texts. Decide as a set.
+- **Does *Inner Worlds / Inner Space Bloom* belong to this site at all?** It
+  carries no Fian Ilchruinne branding. If it is a site piece it needs a codex
+  home like every other recording; if it is a separate ambient release it needs
+  no canon check, and the scene prompts written for it are a loose library rather
+  than something the record commits to.
+- **The "Live Concert Recording" caption** on that card claims a provenance the
+  file does not have, on a site whose temper is *who says so*. Not a fix — a
+  decision.
+
 ## Decisions awaiting Dermot
 
 Not questions about the world — choices only he can make. Kept here so they do

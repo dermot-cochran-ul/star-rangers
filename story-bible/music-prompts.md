@@ -57,6 +57,22 @@ it fails this"* is: **if it reads like a brief for corporate background music, i
 fails this.** Competent, inoffensive, texture-only ambience clears every
 prohibition below and still misses the target entirely.
 
+**Amended 20 August 2026, Dermot's direction: *beautiful, enigmatic, haunting,
+dramatic*.** *Dramatic* is the new word, and it scopes the target rather than
+contradicting it — **a footer loop and a film are different jobs.** The edition
+themes below play under someone reading and must not compete with the prose;
+holding drama back there is correct. A piece someone chose to play, gave three
+minutes to and is listening *to* — an in-universe recording, a video score — is
+the opposite case, and withholding there is not restraint, just quiet. So the
+briefs split: the four theme tracks stay at the quiet end deliberately, and
+everything else may build, arrive somewhere, and cost something.
+
+The horror line does not move. Dramatic means stakes and shape, never shock —
+still no stingers, no risers, no sub-drops used as threat.
+
+Video carries the same direction and its own runbook:
+[`video-prompts.md`](video-prompts.md).
+
 ### The tone line
 
 Unsettling is fine, horror is not. In audio the line falls in a specific and
@@ -374,6 +390,137 @@ appear in `intake-2026-07-26.md`, **not in published canon** — and parts of th
 same block were explicitly overruled (the band never reformed). `slipwave.md`
 says nothing about either. Treat it as unwritten: a prompt built on it would
 render a fact the corpus has not established.
+
+---
+
+## Supplied reference tracks — 20 August 2026
+
+Two finished tracks were supplied the day this file was written, both as
+MyTunes-style mp4s (a still image held over the audio, 854×480). **Neither is in
+the repo**, neither is attached to a page, and neither has a prompt recorded —
+which is the exact condition this file exists to end, now arriving in real time
+rather than in hindsight.
+
+**What is needed to close them out:** the tool, the style prompt as typed, and
+whether any lyric was supplied. Paste them into the entry stubs below and they
+are done. Structures were measured from waveform and spectrogram renders, not
+heard, so treat the section boundaries as approximate and the character notes as
+inference.
+
+### `InnerSpaceBloom_3.mp4`
+
+3:25, beatless, slow-moving, low-centred, with a bright sustained upper band and
+no strong transients anywhere — ambient rather than scored. Fullest and brightest
+from about 2:00, with the peak around 2:30–2:50 and a low tail from 3:10. Card
+art is a still with **garbled lettering** on it; see `video-prompts.md`.
+
+- **Tool:** _needed_
+- **Prompt:** _needed_
+- **Lyrics:** none audible in the spectrogram; confirm
+
+### `RotationalHum_1.mp4`
+
+4:02, and structurally the more dramatic of the two — which makes it the first
+supplied piece answering the *dramatic* direction rather than predating it.
+Sectioned, with clean boundaries around 0:48, 1:36, 2:08 and 2:32; a **pulse
+enters at about 0:48** where the first half had none; a thinning around
+2:08–2:24; then the fullest, brightest and most sustained passage from 2:32 to
+about 3:52, and a short tail. It arrives somewhere, which is precisely what the
+theme loops are told not to do and what a piece someone sat down for is allowed
+to.
+
+**Its title is this file's own signature term** — the low sustained rotational
+hum of anchor 1 — so the brief has already produced a track named after itself.
+Worth noting for the record, and worth asking whether the piece is *about* that
+or merely named for it; the answer decides whether it has a home in the record or
+is a good ambient track that happens to share a word.
+
+- **Tool:** _needed_
+- **Prompt:** _needed_
+- **Lyrics:** none audible; confirm
+
+### Three more, supplied the same day
+
+Same MyTunes still-over-audio wrapper, 854×480, and the filenames do not line up
+with the cards, so identify them by content rather than by name:
+
+| File | Length | Card says | What it is |
+|---|---|---|---|
+| `BalladoftheStars_3.mp4` | 4:02 | *we are Slipwave — Ballad of the Stars* | **The recording already in the repo**, re-wrapped |
+| `StarRangers_3.mp4` (3:49) | 3:49 | *Star Rangers — The Ballad of the Stars* | A different, previously unseen recording |
+| `StarRangers_3.mp4` (1:44) | 1:44 | *Star Rangers* | A third, unrelated recording |
+
+**The first one is not new audio.** Its soundtrack is bit-for-bit the same
+performance as `src/audio/ballad-of-the-stars.m4a` — 240 s both, envelope
+correlation 1.000 at zero lag. That is the good outcome: the codex entry's claim
+that a listener's capture at the 1:27 mark matches the chorus and second verse
+line for line **stays true**, because nothing about the performance changed. All
+this file adds is a card and 8 MB.
+
+The other two share no material with it or with each other (correlations at
+noise level), so **there are two genuinely new recordings here with no home**.
+Neither corresponds to anything the corpus currently describes: the 3:49 is
+captioned as the Ballad but is not the Ballad, and the 1:44 is captioned only
+*Star Rangers*.
+
+**Neither has been added to `src/audio/`.** All of these would need a decision
+first — which page carries it, under what attribution, and whether it is site
+furniture or an in-universe recording, which is the difference between a theme
+and a codex entry with a named author.
+
+### The cards contradict Slipwave, and that is the part worth catching
+
+The three band cards are handsome and none of them shows the band the corpus
+describes. Flagging rather than fixing, since a recording's cover is his call:
+
+- **The lineup is wrong on all three.** Slipwave is **three people — Shepherd on
+  vocals, Perrin Ashgrove on percussion, Marlow Calloway on strings**, two of
+  whom are men who later enlist and carry the musician specialization. The cards
+  show a three-woman group in stage leather, a solo singer in a green metallic
+  bodysuit fronting a backing band, and a five-piece with electric guitars and a
+  drum kit.
+- **The register is wrong.** `slipwave.md` is emphatic that this band played
+  *dock-adjacent common rooms*, never recorded a studio album, and that its
+  surviving catalogue is *"most of them incomplete or badly mic'd"*. The anthem
+  entry says no studio master survives. Arena lighting and a crowd assert the
+  opposite of the thing that makes the band's story work — the anthem spread
+  because it was small and carried, not because anyone promoted it.
+- **The singer is not Shepherd.** Her portrait and `image_alt` establish red hair
+  and blue-green eyes; none of the three cards matches. A new depiction of an
+  established character is draft-and-stop ground in any case.
+- **The lettering broke again** — the Slipwave card reads *"She left us to become
+  aa' Star Rrarles"*. The claim underneath it is roughly canon-true; the spelling
+  is not.
+- **They would break the codex cover set.** All four Slipwave-adjacent entries
+  currently carry designed cards — gold serif title on a dark starfield with a
+  trailing star — and each `image_alt` describes exactly that. Swapping in
+  photographic band art is a convention change across the whole set plus four
+  alt-text rewrites, not a per-entry choice.
+
+A canon-correct card brief is in
+[`video-prompts.md`](video-prompts.md#card-art-for-a-recording).
+
+### `PaperGalaxies_5.mp4` — the one that already has a home
+
+2:35, same wrapper. Its card is a singer before a large swirling painted galaxy
+with a band behind her — **and the corpus has already written about this exact
+artifact.** `src/codex/paper-galaxies-audit-dialogue.md` describes the recovered
+fragment as *"a single held frame, a singer before a painted, swirling field of
+light standing in for a galaxy. Audio: one performance, repeating"*, and audits
+whether it earns novelty credit.
+
+So this is the one supplied file whose provenance question is already answered
+in-world, and the only one with a page waiting for it. Two things follow:
+
+- **The entry embeds no player.** If this recording *is* the audited fragment,
+  the entry can carry it the way `ballad-of-the-stars.md` carries its audio — and
+  the degraded-transmission framing makes a lossy 854×480 artifact an asset
+  rather than a defect for once. That is a content change to a live page, so it
+  is a proposal.
+- **The audit's own terms then apply to it**, which is the joke and the risk
+  together: Sen's finding is about whether a thing that *resembles* novelty earns
+  the credit. Attaching the artifact to its own audit is very good; nobody should
+  do it without reading what the audit concludes.
 
 ---
 
