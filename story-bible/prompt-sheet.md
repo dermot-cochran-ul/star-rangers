@@ -226,13 +226,30 @@ generate; a decision to make.
 
 The step every card above ends with, and the one no generator can do.
 
-`scripts/make-codex-cover.ps1` already draws the house lettering — tracked caps,
-correct spelling, a real typeface — onto a generated canvas. It builds that
-canvas from a gradient; **giving it an `-Underlay <path>` parameter that draws a
-photograph first, scrims it, and then runs the existing text pass would turn it
-into the card compositor for all of these.** Small change, and it retires the
-whole defect class rather than one card at a time.
+**Built 20 August 2026.** `scripts/make-codex-cover.ps1` now takes
+**`-Underlay <path>`**: it draws the photograph centre-cropped to fill the
+square, scrims it in the template's navy — heaviest at the two bands the
+lettering occupies, lightest through the middle — and then runs the existing
+text pass over the top. So the words are set by the font engine, correct by
+construction, and the picture underneath never has to carry any.
 
-Until then, any image editor will do: generate wordless, set the type yourself,
-export at 1600 px. The rule is not which tool — it is that the words are typed,
-never generated.
+    .\scripts\make-codex-cover.ps1 `
+        -Underlay art\slipwave-common-room.jpg -Scrim 66 `
+        -TitleLines "BALLAD OF THE STARS" `
+        -Category "CULTURAL RECORD" `
+        -Institution "Eden Space Habitat Collections" `
+        -Out src\images\codex\ballad-of-the-stars.jpg
+
+Two things to know before generating a batch:
+
+- **Ask for square images.** The card is 1:1 and the crop is centred, so a 16:9
+  source loses a third of its width — and it loses whatever the composition put
+  at the edges.
+- **`-Scrim` is a percentage, default 62.** Raise it for a busy or bright
+  photograph, drop it for a dark one. A motif would fight a picture, so
+  `-Underlay` turns the motif off unless you pass `-Motif` yourself.
+
+**Untested on Windows.** It parses clean and the crop and scrim arithmetic are
+verified, but this container has no GDI+, so the first real render is yours.
+Check the title band on a bright card first — that is where a scrim set too low
+will show.
