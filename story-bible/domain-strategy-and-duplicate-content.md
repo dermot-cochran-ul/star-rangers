@@ -171,10 +171,19 @@ duplicates of the canonical domain — the exact failure this file exists to
 close. (No privacy consequence: an unfiltered build still excludes the private
 thread, which is what `private: true` is for.)
 
-Since 2026-08-20 `scripts/cpanel-deploy.sh` refuses that build rather than
-shipping it, so the failure is loud and the ordering is forgiving: merge and
-cPanel can happen in either order, and the gap between them fails visibly
-instead of quietly publishing duplicates.
+Since 2026-08-20 `scripts/cpanel-deploy.sh` handles that gap itself, and the
+second version of the handling is the one that matters. It first *refused* the
+build, which is safe and useless: the domain keeps serving whatever full build
+was last rsynced there, so the duplicate survives until somebody opens cPanel.
+It now **deploys a three-file redirect instead** — an `.htaccess` 301ing the
+whole namespace to the target with path and query preserved, an `index.html`
+with a canonical and a meta refresh for hosts without `mod_rewrite`, and a
+`robots.txt` that pointedly does not `Disallow`, since a crawler must be able to
+fetch the URLs to see the redirect at all. It runs with `--delete`, so the old
+build goes.
+
+The consequence worth having: **the consolidation is real from the first
+deploy**, and the cPanel repoint becomes tidying rather than a prerequisite.
 
 **The check keys off a registered alias, not off "this domain is unknown to
 us"** — corrected the same day, on Dermot's point, after the first version got
