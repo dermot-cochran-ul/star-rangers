@@ -1022,6 +1022,17 @@ why each went. Drafted 12 August, revised 13 August against the aesthetic
 target, and reviewed with Dermot. The atmosphere is added around each page’s
 own `role` and `description`; no fact here is invented.
 
+**`idris-bryneth` revised 20 August 2026 — the prompt contradicted the page.**
+It asked for a herder *"of about sixty"*, but Idris Bryneth took the headship in
+2815 UCSD as **"the youngest clan head on Aethelrock at the time of his
+inheritance"**, which against the current 2826 puts him in his mid-forties. The
+first run came back accordingly: a man of about seventy who was also
+near-indistinguishable from `cormac-dubhghlas` — same grey beard, same weathered
+face, same staff. Two of five clan heads reading as one man is a real cost when
+they sit at one table. The revision sets the age and separates the silhouette
+deliberately: dark close-cropped hair against Cormac's grey beard, and **no
+staff**, which the generator added unprompted both times.
+
 - **`cormac-dubhghlas.jpg`** — holder of the world's most arable ground; the
   Ridgemoot's most persistent voice for restoring the old seat rotation.
   > Cinematic portrait of a weathered farmer in late middle age at the edge of a cultivated upland field on a cold world, upper body, hard-wearing coat over layered woollens, standing entirely still with the unhurried patience of someone who has waited on weather all his life, early light coming low under a broken cloud ceiling and catching the mist still lying in the furrows, the crop young and coming up behind him, the far end of the field lost in haze, science-fiction agrarian colony, muted green and grey with one warm band of low sun, quiet and unhurried rather than stern, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
@@ -1034,7 +1045,7 @@ own `role` and `description`; no fact here is invented.
 - **`idris-bryneth.jpg`** — holder of the sparsely populated northern high
   country; the Ridgemoot's most consistent voice against any arrangement that
   concentrates authority off Bryneth land.
-  > Cinematic portrait of a lean, wind-burned upland herder of about sixty on open high moor, upper body small against an enormous sky, oiled storm coat with the collar up, standing quite still and watching something well beyond the frame, weather arriving as a wall of light and rain far off across the moor with sun still on the near ground, science-fiction frontier highland, desaturated brown and pewter under a luminous sky, vast and calm rather than bleak, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+  > Cinematic portrait of a lean, wind-burned upland herder in his mid-forties on open high moor, upper body small against an enormous sky, dark close-cropped hair and several days' stubble rather than a full beard, both hands empty and no staff, stick or crook anywhere in frame, oiled storm coat with the collar up, standing quite still and watching something well beyond the frame, weather arriving as a wall of light and rain far off across the moor with sun still on the near ground, science-fiction frontier highland, desaturated brown and pewter under a luminous sky, vast and calm rather than bleak, professional, no glamour styling, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
 
 - **`niamh-o-ceallaigh.jpg`** — holder of the coastal fjord country and its
   fishing fleets; the Ridgemoot's most consistent broker between Ceridwen's
@@ -1288,9 +1299,11 @@ exception — see its entry.
 
 - **`saint-aoife.jpg`** — *never claimed to know what she'd met at the thorn
   well*, and every later reader has taken that refusal at face value.
-  > Cinematic wide portrait of a woman in her thirties standing at a spring well in a thorn thicket in thirteenth-century Ireland, upper body, plain undyed woollen dress and shawl, work-worn hands, looking down at the water rather than up or out. Composed and unresolved — no rapture, no distress, no certainty of any kind. Grey overcast daylight, wet blackthorn, low stone kerb around the water, wet grass. Cold, plain, historical, entirely earthbound. Grey, wet green and undyed wool. 16:9 landscape.
-  - **Extra negative:** halo, aureole, rays of light, glow, doves, upturned face, hands folded in prayer, beatific expression, ecstasy, stained glass, religious iconography, robes, veil of office, angels, apparition.
-  - **Keep the face concealed** — turned, shadowed, or away. Adopted 19 August from the older brief in Open work 6, which had it and this entry did not: *the record genuinely does not know it, and the page's whole argument is that she never claimed to know what she had seen.* Canon reasoning rather than styling, so add to the prompt: **her face turned down and away and left in shadow, features not legible.**
+  > Cinematic wide portrait of a woman in her thirties standing at a spring well in a thorn thicket in thirteenth-century Ireland, upper body, plain undyed woollen dress and shawl, work-worn hands, looking down at the water rather than up or out. **Her face turned down and away and left in shadow, features not legible.** Composed and unresolved — no rapture, no distress, no certainty of any kind. Night, an ordinary clear sky of small stars doing nothing in particular, a moorland horizon behind the thicket. Long dark red hair. Wet blackthorn, low stone kerb around the water, wet grass. Cold, plain, historical, entirely earthbound. Deep blue-green night, wet black thorn, undyed wool. 16:9 landscape, 1200×675.
+  - **Extra negative:** halo, aureole, rays of light, glow, doves, upturned face, face toward camera, legible features, hands folded in prayer, beatific expression, ecstasy, stained glass, religious iconography, robes, veil of office, angels, apparition, embroidered or ornamented gown, jewellery, stage lighting, text, lettering.
+  - **Keep the face concealed** — turned, shadowed, or away. Adopted 19 August from the older brief in Open work 6, which had it and this entry did not: *the record genuinely does not know it, and the page's whole argument is that she never claimed to know what she had seen.* Canon reasoning rather than styling, so it is written into the prompt above rather than left as a note.
+  - **Ruled 20 August 2026 — the *Aoife of Stars* card is reframed, not adopted.** A supplied song card showed her front-lit and facing the viewer, features fully legible, under a night sky on moorland. Dermot's ruling: **keep the concealed face, take the rest.** So the prompt moved from grey overcast daylight to night, gained the star field and the moorland horizon and the red hair, and kept the well, the thorn and the turned face. He liked the look; the page keeps its argument.
+    - Two things from the card deliberately **not** taken. The **embroidered blue-green gown** is a class signal this page does not support — she is a holy woman whose whole standing rests on refusal, and plain undyed wool says that where ornament argues with it; the card's colour survives as the colour of the night instead. And the **stars stay ordinary**: no light comes from the sky, nothing in it is happening. A sky that appears to be doing something would tell the viewer what she saw, which is the one thing seven centuries of record declined to say — and the song's own title makes that association easy to drift into.
   - **The whole page is her refusal to claim.** Any device that tells the viewer
     what she saw contradicts it, and a glow would be the story arriving at a
     verdict the record spent seven centuries declining to give. Same discipline

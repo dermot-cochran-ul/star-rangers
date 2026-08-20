@@ -302,10 +302,12 @@ are the parts it could not decide.
 - **Do the four edition themes get regenerated?** Their prompts are gone, so a
   regeneration is a *new* track under an existing label, not a recovery — a
   front-of-house change on four live domains.
-- **Does Church Space get a theme of its own?** It registers no `themeAudio` and
-  falls through to the default Celtic ambient. That may well be right; it has
-  simply never been decided, so the fall-through is currently an omission
-  wearing a decision's clothes.
+- ~~**Does Church Space get a theme of its own?**~~ — **ruled 20 August 2026:
+  yes.** *Rotational Hum* registered as `themeAudio` ("Ambient drone",
+  `rotational-hum.m4a`) on Dermot's direction that the track is site furniture.
+  It was the only edition that could take a new theme without displacing one
+  already live, and the fall-through it replaces was an omission rather than a
+  decision.
 - **WAV → m4a/mp3 for the four themes.** 4–8 MB each behind `preload="none"`.
   Mechanical and content-risk-free, ~20 MB saved, but it touches live domains.
 - **Recordings for the two unrecorded anthems.** *Half-Light Causeway* and
@@ -327,6 +329,15 @@ but larger, because nothing in the toolchain looks at `src/video/` at all.
   `baby-universe.mp4` is 19 MB at 1 fps to show one picture, and
   `ballad-of-the-stars.md` already demonstrates the cheaper pattern. Changes a
   live page.
+- **Two newly identified recordings need canon homes** (identified 20 August
+  2026). The 3:49 is **Slipwave**, which makes a fourth recording by a band whose
+  catalogue `slipwave.md` already characterises — *a handful, most incomplete or
+  badly mic'd, two are not* — so it fits as one of the handful surfacing later,
+  and cannot be a polished studio track from their own era. The 1:44 is **a
+  muster piece**, and its audio is a produced full-band mix, so it is a recording
+  *of* one rather than a recording *at* one. Either becoming a codex entry needs
+  **the lyrics supplied** — they cannot be transcribed from a spectrogram, and a
+  lyric is canon-for-its-author.
 - **Six supplied tracks have no prompt recorded, and four have no home** —
   `InnerSpaceBloom_3`, `RotationalHum_1`, `PaperGalaxies_5`, two unrelated
   `StarRangers_3` files and a re-wrap of the existing Ballad, all 854×480
@@ -341,11 +352,13 @@ but larger, because nothing in the toolchain looks at `src/video/` at all.
   song's published chorus (*"Hold me up, hold me close"*). Related is a decision
   about what `baby-universe-ballad.md` records; unrelated is a reason to change
   the title.
-- **Does Saint Aoife get her portrait from *Aoife of Stars*?** She has no
-  `image:` and no file, so this would be the first depiction of her —
-  draft-and-stop. `images.md` already holds a different prepared brief for her
-  (looking down at the water, no halo, no glow), and the song's devotional title
-  claims an association her page deliberately declines.
+- ~~**Does Saint Aoife get her portrait from *Aoife of Stars*?**~~ — **ruled
+  20 August 2026: reframed, not adopted.** Keep the concealed face, which is
+  canon reasoning rather than styling; take the card's night, star field,
+  moorland and red hair. Merged brief in `images.md` and
+  [`prompt-sheet.md`](prompt-sheet.md) 1.7. **Still open:** the portrait does not
+  exist yet — the card cannot be cropped into one (479 px art region, title
+  burned across her shoulders), so it needs generating at 1200×675.
 - **Is low-gravity shuffle dance canon?** The 26 July intake marks it as not
   existing in canon; a supplied Grok clip depicts it, in full gravity. If it is
   to be established, the microgravity is the whole of what makes it worth

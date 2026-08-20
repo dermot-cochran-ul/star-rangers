@@ -337,11 +337,26 @@ is wrong everywhere else comes right, and that is the gag.
 
 Clever, not infantile — and the wobble comes right, which is the gag.
 
-### Church Space — no theme of its own
+### Church Space — "Ambient drone"
 
-`church-space` registers no `themeAudio` and falls through to the default
-edition's Celtic ambient. Whether that is a decision or an omission is
-**undecided** — see Open questions. Do not resolve it by generating a track.
+**Settled 20 August 2026.** It fell through to the default's Celtic ambient,
+which was never a decision — and the slot was filled by a supplied track rather
+than a generated one: *Rotational Hum*, named for this file's own signature
+term, registered as `rotational-hum.m4a`.
+
+Two things it establishes for the next theme, both recorded in `lib/editions.js`
+beside the entry:
+
+- **m4a, not wav.** A third of the bytes for a decorative footer element.
+- **A theme may be a piece rather than a loop.** This one runs 4:02 and builds,
+  which the brief above tells a loop not to do. It survives because the player
+  is click-to-play — `preload="none"`, a button, no autoplay — so nobody hears it
+  who did not ask to. If the loop restart ever grates, the fix is a trimmed 90 s
+  cut of the same recording, not a different track.
+
+A brief, should this domain ever want a purpose-made theme instead: vigil rather
+than liturgy, as the Fellowship entry above, but slower and with no melodic
+content at all.
 
 ---
 
@@ -564,15 +579,46 @@ line for line **stays true**, because nothing about the performance changed. All
 this file adds is a card and 8 MB.
 
 The other two share no material with it or with each other (correlations at
-noise level), so **there are two genuinely new recordings here with no home**.
-Neither corresponds to anything the corpus currently describes: the 3:49 is
-captioned as the Ballad but is not the Ballad, and the 1:44 is captioned only
-*Star Rangers*.
+noise level), so **there are two genuinely new recordings here**. Both were
+identified on 20 August 2026 — see below; neither had a home before that.
 
 **Neither has been added to `src/audio/`.** All of these would need a decision
 first — which page carries it, under what attribution, and whether it is site
 furniture or an in-universe recording, which is the difference between a theme
 and a codex entry with a named author.
+
+### The two new recordings, identified 20 August 2026
+
+**Dermot: the 3:49 is Slipwave; the 1:44 is a muster piece.** That settles their
+cards (`prompt-sheet.md` 1.2 and 1.3) and opens two canon questions, neither of
+which a card can answer.
+
+**The 3:49 makes a fourth Slipwave recording**, and the catalogue is already
+described. `slipwave.md`: *"Slipwave never recorded a studio album. Their
+surviving catalogue is a handful of habitat-circuit recordings, most of them
+incomplete or badly mic'd. Two are not."* The two are the anthem and the Ballad;
+*Protectors of the Fold* is a later third, cut decades on by Ashgrove and
+Calloway without Shepherd. So a fourth has a natural slot — **one of the handful,
+surfacing later** — and filing it that way costs the corpus nothing and gains it
+a nice fact: the catalogue was never claimed to be closed.
+
+What it cannot be, without a rewrite: a polished studio track from the band's own
+era. That is the one thing the glossary rules out twice over.
+
+**The 1:44 needs its filing to match its sound.** The audio is a dense full-band
+mix with drums, bright to the codec ceiling — **a recording of a muster piece,
+not a recording made at a muster.** The distinction is load-bearing here, because
+the anthem's spread is explained by the opposite property: it travelled as
+something a room of non-singers could hold, unaccompanied. A produced muster
+piece is perfectly plausible beside it — musters are not confined to one song —
+but it is a different kind of object and the entry should say which.
+
+**And a limit worth stating plainly: I cannot transcribe either.** I have never
+heard a second of this audio; every reading in this file comes from waveforms,
+spectrograms and card frames. A lyric is canon-for-its-author, so if either
+recording is to become a codex entry, **the words have to be supplied**. Deriving
+them from a spectrogram would be inventing them, which is the exact failure this
+file exists to prevent.
 
 ### The cards contradict Slipwave, and that is the part worth catching
 
@@ -682,7 +728,7 @@ wrong would be the expensive mistake.
 
 | File | Audio | Card | What to change |
 |---|---|---|---|
-| `RotationalHum_1` | keep | **keep** | Nothing. Best card of the set after *Aoife*: matte object, real light, no lettering. |
+| `RotationalHum_1` | **adopted** | **keep** | Done — `src/audio/rotational-hum.m4a`, registered as the Church Space theme ("Ambient drone"). Card needs nothing: matte object, real light, no lettering. |
 | `PaperGalaxies_5` | **adopted** | **keep** | Done — audio extracted to `src/audio/paper-galaxies.m4a` and attached to its own audit entry. The card stays as the entry's designed cover. |
 | `AoifeofStars_3` | keep | hold | Not a fix — a decision. First depiction of a character with no portrait, so it waits for you. |
 | `InnerSpaceBloom_3` | keep | **regenerate** | Garbled lettering; and *"Live Concert Recording"* claims a provenance the file does not have. |

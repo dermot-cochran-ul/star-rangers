@@ -45,32 +45,51 @@ watermark.
 **Then composite:** *Ballad of the Stars* — and note the designed-cover question
 in `video-prompts.md` before adopting a photographic card at all.
 
-### 1.2 `StarRangers_3` (3:49) — identity first, then card
+### 1.2 `StarRangers_3` (3:49) — Slipwave
 
-Captioned as the Ballad and is not the Ballad. **Decide what it is before
-generating anything**, because the card follows the answer:
+**Settled 20 August 2026: it is a Slipwave track.** So the card is 1.1, and the
+two should not be identical — same room, same three musicians, different moment:
 
-- *A Slipwave track* → use 1.1.
-- *An unattributed song that circulated* → the card below.
-- *Not story material* → nothing here applies; give it a card you simply like.
+> A three-piece band in a dock-adjacent common room aboard a space habitat, seen
+> from behind and to one side, mid-song. A red-haired woman at a single shared
+> microphone, a man on hand percussion, a second man seated with a stringed
+> instrument. Working clothes. Fluorescent overhead light and one work lamp. A
+> dozen people on crates and mismatched chairs. Scuffed deck plating, cable runs.
+> Warm, unpolished, small.
 
-> A crew compartment aboard a station, empty of people. A stringed instrument
-> propped against a bunk, a set of headphones on a fold-down table, a duffel bag
-> half unpacked. One overhead light on, the corridor beyond it dark. Nothing
-> being played, everything recently played. Warm and lived-in.
+**Negative:** as 1.1.
 
-**Negative:** as 1.1, plus figures, faces.
+**What it commits, and it is not nothing.** This makes a **fourth** Slipwave
+recording, and `src/glossary/slipwave.md` already accounts for the catalogue:
+*"a handful of habitat-circuit recordings, most of them incomplete or badly
+mic'd. Two are not."* A fourth has to sit somewhere in that sentence — the
+natural slot is one of the handful, surfacing later — and if it is ever to be
+cited it needs a codex entry with lyrics. See the note in `music-prompts.md`.
 
-### 1.3 `StarRangers_3` (1:44) — same decision, third card
+### 1.3 `StarRangers_3` (1:44) — a muster piece
 
-If it turns out to be a muster-sung piece rather than a recording:
+**Settled 20 August 2026.** One thing to know before generating: the audio is a
+**dense full-band mix with drums**, bright to the codec ceiling and hot the whole
+way through — not twenty voices in a hard room. So this is a *recording of* a
+muster piece, not a recording *at* a muster, and a card showing an unaccompanied
+hall would contradict its own track in the first second of playback.
 
-> Twenty young people in dark service dress standing close together in a large
-> hard-walled hall, singing, seen from within the group at head height. Faces in
-> profile and half shadow, overhead industrial light, no stage and no audience.
-> Ragged, communal, unposed.
+The card that fits both:
 
-**Negative:** as 1.1, plus conductor, sheet music, choir robes, altar.
+> A large hard-walled muster hall aboard a station, seen from the back and empty
+> of people, after the fact. Rows of stacked chairs, a bare platform with no
+> lectern, one door standing open to a lit corridor. Overhead industrial light,
+> long shadows, a scuffed deck floor. The room where something was sung, silent
+> now.
+
+**Negative:** as 1.1, plus performers, crowd, conductor, sheet music, choir
+robes, altar, ceremonial banners.
+
+**If you would rather show the singing**, use the occasion instead — twenty young
+people in dark service dress, close together, camera *inside* the group at head
+height, no stage and no audience — and accept that the cover shows the song
+rather than the session. Both are defensible; the empty hall is the one that
+never argues with the audio.
 
 ### 1.4 `InnerSpaceBloom_3` — card
 
@@ -115,24 +134,44 @@ runes, text, lettering.
 
 **Then composite:** title only. **No lyric caption** — that is the defect.
 
-### 1.7 `AoifeofStars_3` — hold, and a second reading to compare
+### 1.7 `AoifeofStars_3` — reframed, and now the portrait brief
 
-Not a fix. `src/characters/saint-aoife.md` has no portrait at all, so this would
-be the first depiction of her and it waits for Dermot. `images.md` already holds
-a different brief, and the difference is the whole argument:
+**Ruled 20 August 2026: keep the concealed face, take the rest.** The card is not
+adopted as it stands — it shows her front-lit and facing the viewer, and
+`images.md` carries a canon-reasoned constraint, adopted 19 August and marked as
+outranking other briefs, that her face stays turned, shadowed or away: *the
+record genuinely does not know it, and the page's whole argument is that she
+never claimed to know what she had seen.*
 
-> A woman at the edge of a dark pool at night, looking down at the water rather
-> than up at the sky. Red hair, plain woollen clothing of the thirteenth century,
-> a thorn tree behind her. Starlight only. **No halo, no glow, no rays, no
-> radiance of any kind.** Her expression is uncertain rather than transported.
+What the card got right is kept — the night, the star field, the moorland, the
+red hair, and no halo or glow anywhere. Generate at **1200×675**, wordless:
 
-**Negative:** halo, glow, aura, light beams, ascension pose, stained glass,
-religious iconography, ecstasy, text, lettering.
+> Cinematic wide portrait of a woman in her thirties standing at a spring well in
+> a thorn thicket in thirteenth-century Ireland, upper body, plain undyed woollen
+> dress and shawl, work-worn hands, looking down at the water rather than up or
+> out. Her face turned down and away and left in shadow, features not legible.
+> Composed and unresolved — no rapture, no distress, no certainty of any kind.
+> Night, an ordinary clear sky of small stars doing nothing in particular, a
+> moorland horizon behind the thicket. Long dark red hair. Wet blackthorn, low
+> stone kerb around the water, wet grass. Cold, plain, historical, entirely
+> earthbound. Deep blue-green night, wet black thorn, undyed wool.
 
-**The point of the difference:** her page is built on her *refusal to claim* what
-she saw. A card facing the viewer under stars reads as testimony; a card looking
-down at the water reads as doubt. Both are defensible and they are not the same
-page.
+**Negative:** halo, aureole, rays of light, glow, doves, upturned face, face
+toward camera, legible features, hands folded in prayer, beatific expression,
+ecstasy, stained glass, religious iconography, robes, veil of office, angels,
+apparition, embroidered or ornamented gown, jewellery, stage lighting, text,
+lettering.
+
+Two things from the card deliberately dropped, both reasoned in `images.md`: the
+**embroidered gown**, because ornament argues with a standing built on refusal,
+and any sense that the **sky is doing something** — the stars are ordinary and no
+light comes from them, since a sky that appears active tells the viewer what she
+saw.
+
+**The file cannot be used as-is either way.** Its art region is about 479 px wide
+inside an 854×480 frame, against the 1200×675 portrait convention, and *"Aoife of
+Stars"* is burned across her shoulders. This one has to be regenerated, not
+cropped.
 
 ### 1.8 The shuffle-dance clip — only if it is meant to be canon
 
@@ -157,6 +196,13 @@ lights, crowd, slow motion, text, lettering.
 
 Only three things are actually missing from the site. Everything else on this
 page is a replacement.
+
+**One thing I cannot do for any of these: transcribe the words.** I have never
+heard a note of these tracks — everything above comes from spectrograms and
+card frames. If either of the two newly identified recordings is to be filed as
+a codex entry, **the lyrics have to be pasted in**, because a lyric is
+canon-for-its-author and inventing one from a waveform is exactly the failure
+this whole file exists to prevent.
 
 ### 2.1 *Half-Light Causeway* — the recording that does not exist
 
@@ -226,30 +272,13 @@ generate; a decision to make.
 
 The step every card above ends with, and the one no generator can do.
 
-**Built 20 August 2026.** `scripts/make-codex-cover.ps1` now takes
-**`-Underlay <path>`**: it draws the photograph centre-cropped to fill the
-square, scrims it in the template's navy — heaviest at the two bands the
-lettering occupies, lightest through the middle — and then runs the existing
-text pass over the top. So the words are set by the font engine, correct by
-construction, and the picture underneath never has to carry any.
+`scripts/make-codex-cover.ps1` already draws the house lettering — tracked caps,
+correct spelling, a real typeface — onto a generated canvas. It builds that
+canvas from a gradient; **giving it an `-Underlay <path>` parameter that draws a
+photograph first, scrims it, and then runs the existing text pass would turn it
+into the card compositor for all of these.** Small change, and it retires the
+whole defect class rather than one card at a time.
 
-    .\scripts\make-codex-cover.ps1 `
-        -Underlay art\slipwave-common-room.jpg -Scrim 66 `
-        -TitleLines "BALLAD OF THE STARS" `
-        -Category "CULTURAL RECORD" `
-        -Institution "Eden Space Habitat Collections" `
-        -Out src\images\codex\ballad-of-the-stars.jpg
-
-Two things to know before generating a batch:
-
-- **Ask for square images.** The card is 1:1 and the crop is centred, so a 16:9
-  source loses a third of its width — and it loses whatever the composition put
-  at the edges.
-- **`-Scrim` is a percentage, default 62.** Raise it for a busy or bright
-  photograph, drop it for a dark one. A motif would fight a picture, so
-  `-Underlay` turns the motif off unless you pass `-Motif` yourself.
-
-**Untested on Windows.** It parses clean and the crop and scrim arithmetic are
-verified, but this container has no GDI+, so the first real render is yours.
-Check the title band on a bright card first — that is where a scrim set too low
-will show.
+Until then, any image editor will do: generate wordless, set the type yourself,
+export at 1600 px. The rule is not which tool — it is that the words are typed,
+never generated.
