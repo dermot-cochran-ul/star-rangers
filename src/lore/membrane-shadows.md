@@ -42,9 +42,9 @@ Three things follow, and each resolves something the record had been carrying se
 
 ## Not a Meta-Dimensional Being
 
-Membrane Shadows are routinely misfiled alongside the non-sapient shadow beings in [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/)'s Class III, because both present as dark, roughly person- or creature-shaped anomalies at boundary zones. They are not the same phenomenon, and the distinction is operationally load-bearing, not academic:
+Membrane Shadows are routinely misfiled alongside the non-sapient incursives in [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/)'s Class III, because both present as dark, roughly person- or creature-shaped anomalies at boundary zones. Until 2026 the misfiling had a second cause, since removed: the Class III beings were called *shadow beings*, so the two categories shared a word as well as a silhouette. They are now [incursives](/star-rangers/lore/meta-dimensional-beings/), which names the thing that actually separates them. They are not the same phenomenon, and the distinction is operationally load-bearing, not academic:
 
-- A Class III shadow being has entered material space. It is physically present, can be touched — dangerously — and displaces local physics through its own extension into this Concordant.
+- A Class III incursive has entered material space. It is physically present, can be touched — dangerously — and displaces local physics through its own extension into this Concordant.
 - A Membrane Shadow has entered nothing. No mass has crossed the gap. Every gram responsible for the imprint stays on the far side, in its own, fully separate universe. What crosses is field structure, not the being generating it.
 
 This puts Membrane Shadows outside the [Cosmic Cascade](/star-rangers/lore/cosmic-cascade/)'s standing hierarchy by category, not merely by class: the Cascade governs beings, and a Membrane Shadow is not a being. It is a symptom of one, read through a gap.
@@ -68,6 +68,6 @@ Nothing rules out the possibility that a shape coherent enough to read as a bein
 ## Detection
 
 - **Cross-membrane gravimeters**, not the optical/thermal detection loop used for Class II/III meta-dimensional beings, are the only instruments that register a Membrane Shadow directly as a mass anomaly.
-- A Membrane Shadow can be photographed — the light bending around it is real and physical — but returns nothing on infrared or motion-mass sensors, which is itself diagnostic: a shape with an optical signature and no thermal or mass signature is a Membrane Shadow, not a Class III shadow being, almost by definition.
+- A Membrane Shadow can be photographed — the light bending around it is real and physical — but returns nothing on infrared or motion-mass sensors, which is itself diagnostic: a shape with an optical signature and no thermal or mass signature is a Membrane Shadow, not a Class III incursive, almost by definition.
 
 See also: [Concordant Membranes and Intermembrane Bleed](/star-rangers/lore/concordant-membranes/), [Boundary Zones and Concordant Edges](/star-rangers/lore/boundary-zones/), [The Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/), [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/), [The Grand Ensemble Multiverse](/star-rangers/lore/ensemble-multiverse/).

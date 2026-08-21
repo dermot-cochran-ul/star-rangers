@@ -15,7 +15,7 @@ tags: [levril, dragon, cascade, boundary, meta-dimensional, higher-dimensional]
 
 **Levril** is the formal name for the entities commonly called dragons and their kin. They are **sapient meta-dimensional beings** — their existence extends across extra higher spatial dimensions beyond the four accessible to Material-layer beings — and they are the only meta-dimensional entities with formal standing in the Cosmic Cascade.
 
-Not all meta-dimensional beings are Levrils. Sapient monsters such as Court-Fae and Gilded Saints are also meta-dimensional, but they have no Cascade standing. Non-sapient shadow beings are similarly meta-dimensional but sub-Levril in causal authority.
+Not all meta-dimensional beings are Levrils. Sapient monsters such as Court-Fae and Gilded Saints are also meta-dimensional, but they have no Cascade standing. Non-sapient incursives are similarly meta-dimensional but sub-Levril in causal authority.
 
 Levrils sit below Celestials (Frenar) and above Champions/Heroes in the fixed Cascade hierarchy.
 

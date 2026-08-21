@@ -16,6 +16,6 @@ A **Membrane Shadow** is the Physical-layer counterpart to [Intermembrane Bleed]
 
 Nothing crosses the gap. The mass responsible stays entirely within its own [Concordant](/star-rangers/glossary/concordant/). What is seen is the shadow of something real, cast from one universe into another it never touches — coincidence or convergent design if it happens to resemble someone the observer knows, never an alternate-timeline double, since neighbouring membranes share no common history to have diverged from.
 
-Not to be confused with the Class III non-sapient shadow beings described in [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/), which have physically entered material space. A Membrane Shadow shows no thermal or mass signature on standard instruments — only a cross-membrane gravimeter registers it directly — which is itself how the two are told apart.
+Not to be confused with the Class III non-sapient incursives described in [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/), which have physically entered material space. A Membrane Shadow shows no thermal or mass signature on standard instruments — only a cross-membrane gravimeter registers it directly — which is itself how the two are told apart.
 
 See: [Membrane Shadows: Gravitational Imprints from Adjacent Membranes](/star-rangers/lore/membrane-shadows/).

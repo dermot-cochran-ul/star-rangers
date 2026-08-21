@@ -3,7 +3,7 @@ layout: lore-entry.njk
 title: "Meta-Dimensional Beings: Classification"
 category: "Entities"
 tags: [meta-dimensional, levrils, monsters, shadow-beings, sapient-monsters, court-fae, gilded-saints, demons, beautiful-monsters, threnes, cute-predators, higher-dimensional, boundary]
-description: "A classification of all meta-dimensional beings in the Grand Ensemble Multiverse: sapient Cascade-ranked Levrils, sapient monsters, and non-sapient shadow beings."
+description: "A classification of all meta-dimensional beings in the Grand Ensemble Multiverse: sapient Cascade-ranked Levrils, sapient monsters, and non-sapient incursives."
 plain: "Some beings exist in more dimensions than the four we can reach, and they sometimes cross into our space at boundary zones. The record sorts them into three classes. Class I, the Levrils, are intelligent and follow the laws of the Cosmic Cascade, so they can be lawfully dealt with. Class II beings are intelligent but follow no such law, which makes them dangerous. Class III beings are not intelligent at all — they act on instinct, like animals. Knowing the class tells you whether talking is even possible."
 image: "meta-dimensional-beings.jpg"
 image_alt: "Designed title card on a dark violet star field: the category ENTITIES in spaced capitals at the top, three concentric circles held in a soft glow, and below a short rule the title META-DIMENSIONAL BEINGS: CLASSIFICATION in pale serif capitals, subtitled 'Three Classes of Being' and 'Sorted by whether talking is possible at all'."
@@ -27,7 +27,7 @@ See: [Levrils](/star-rangers/lore/levrils/)
 
 ### Class II — Sapient Monsters
 
-Meta-dimensional beings with a degree of sapience — goal-directed, adaptive, capable of learning and strategy — but without Cascade standing. They are not bound by Cascade constraints and not protected by them. Their sapience makes them more dangerous than shadow beings because they learn, adjust, and exploit.
+Meta-dimensional beings with a degree of sapience — goal-directed, adaptive, capable of learning and strategy — but without Cascade standing. They are not bound by Cascade constraints and not protected by them. Their sapience makes them more dangerous than incursives because they learn, adjust, and exploit.
 
 Sapient monsters cannot perform functions reserved for Cascade-ranked entities. They have no legitimate authority at any tier.
 
@@ -41,16 +41,16 @@ Not every Class II being is predatory. The crossers documented at [Tír Tairngir
 - **Gilded Saints** — Virtue-extractors. Feed on moral labour, sanctified suffering, and closure-prevention. Sapient enough to identify and sustain the specific emotional conditions they require. Present as worthy causes or sacred duties.
 - **Threnes** — Grief-extractors. Feed on unresolved mourning, prolonging loss rather than allowing it to resolve — a closure-prevention pattern keyed to grief rather than virtue.
 
-### Class III — Non-Sapient Shadow Beings and Monsters
+### Class III — Non-Sapient Incursives
 
 Meta-dimensional beings with no sapience. Predatory, entropic, or ecologically disruptive. They enter Material space opportunistically through boundary instability and do not pursue goals beyond immediate feeding or expansion.
 
-They are not intelligent, but they are not inert. A boundary collapse event can introduce large non-sapient shadow beings that cause significant material damage simply by displacing local physics through their presence.
+They are not intelligent, but they are not inert. A boundary collapse event can introduce large non-sapient incursives that cause significant material damage simply by displacing local physics through their presence.
 
 **Examples:**
 
 - **Cute Predators** (tickle bugs, lamb-masks) — operate at the micro-scale of consent erosion. No evidence of goal-directed sapience; their behaviour is instinctive pattern-matching against vulnerability signals.
-- **Larger shadow beings** — documented at Class III boundary collapse events; no communication, no negotiation, no Cascade standing.
+- **Larger incursives** — documented at Class III boundary collapse events; no communication, no negotiation, no Cascade standing.
 
 **Not every shadow-shaped anomaly belongs on this list.** A [Membrane Shadow](/star-rangers/lore/membrane-shadows/) presents the same way — dark, roughly person- or creature-shaped, seen at a boundary zone — but nothing has entered material space to produce it. It is a gravitational imprint leaking across a narrowed cosmic-membrane gap from a mass that stays entirely in its own Concordant, not a being of any class. It falls outside this classification altogether, not at the bottom of it.
 

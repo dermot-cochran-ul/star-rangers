@@ -44,8 +44,8 @@ Sapient, higher-dimensionally extended, operating under Cascade constraints. The
 ### Sapient Monsters
 Meta-dimensional beings with a degree of sapience — goal-directed, adaptive, capable of learning — but without Cascade standing. They are not bound by Cascade constraints, but nor are they protected by them. They operate below the Levril tier in causal authority. Court-Fae, Gilded Saints, Demons, Beautiful Monsters, and Threnes are examples.
 
-### Non-Sapient Shadow Beings and Monsters
-Meta-dimensional beings with no sapience. Purely predatory, entropic, or ecologically disruptive. They enter Material space through boundary zones and overlap windows. Cute Predators are examples at the small-scale end; larger shadow beings operate at boundary collapse events.
+### Non-Sapient Incursives
+Meta-dimensional beings with no sapience. Purely predatory, entropic, or ecologically disruptive. They enter Material space through boundary zones and overlap windows. Cute Predators are examples at the small-scale end; larger incursives operate at boundary collapse events.
 
 ## Functional Role in the Cascade
 
@@ -84,7 +84,7 @@ Two consequences follow, and both cut against the obvious reading.
 
 - "Dragons can override physics." (False: they operate *inside* physics+Etheric constraints, from a higher-dimensional vantage.)
 - "Levrils are moral judges." (False: enforcement tiers are structural, not moral.)
-- "All higher-dimensional beings are Levrils." (False: monsters and shadow beings are also meta-dimensional but lack Cascade standing.)
+- "All higher-dimensional beings are Levrils." (False: monsters and incursives are also meta-dimensional but lack Cascade standing.)
 - "A Levril appearing in Material space is a miracle." (False: it is dimensional translation with measurable field effects.)
 - "The witness saw what it really looks like." (False: there is no *really looks like*. The perceiver supplies the form — their own kind, or an abstraction — and both are accurate reports of an encounter and useless as descriptions of a body. See *What a Levril Looks Like* above.)
 
