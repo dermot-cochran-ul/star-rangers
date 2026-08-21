@@ -1,7 +1,40 @@
 <!DOCTYPE html>
-<html lang="{{ site.language | default('en') }}">
+{#- data-presentation is the PRESENTATION MODE this edition asked for
+    (lib/editions.js PRESENTATION_MODES, implemented in src/css/main.css).
+    On <html> rather than <body> so the mode can move :root custom properties -
+    including the root font-size, which a body-level attribute could not reach.
+    Always emitted, since every edition record resolves a mode: "story" is a
+    real value with no rules of its own rather than an absent one. -#}
+<html lang="{{ site.language | default('en') }}" data-presentation="{{ edition.presentation }}">
 <head>
   <meta charset="UTF-8" />
+  {#- READER'S PRESENTATION MODE, RESTORED BEFORE FIRST PAINT.
+
+      This has to be inline and blocking. src/js/presentation.js is deferred,
+      like every other script here, and a deferred script cannot do this job:
+      the page would paint in the edition's own mode and then jump to the
+      reader's when the type size changed under it. A visible reflow on every
+      page load is worse than not offering the choice at all.
+
+      Small enough to be cheap, and wrapped because localStorage ACCESS itself
+      throws in some privacy modes rather than returning null. On any failure
+      the attribute base.njk already wrote on <html> stands, which is the
+      edition's mode - a correct page, just not this reader's preference.
+
+      The key is duplicated in presentation.js and noted there. The valid list
+      comes from lib/editions.js via .eleventy.js so the two cannot drift; an
+      unrecognised stored value (a retired mode, a hand-edited key) is ignored
+      rather than applied, since applying it would select no CSS at all. -#}
+  <script>
+    (function () {
+      try {
+        var stored = window.localStorage.getItem("fi:presentation-mode");
+        if (stored && {{ presentationModeIds | dump | safe }}.indexOf(stored) !== -1) {
+          document.documentElement.setAttribute("data-presentation", stored);
+        }
+      } catch (err) { /* storage unavailable - keep the edition's mode */ }
+    })();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="{{ description | default(site.description) }}" />
   {#- What this domain is serving; also at /version.txt. See src/_data/build.js. -#}
@@ -136,6 +169,55 @@
         </form>
         <div class="site-search__results" id="site-search-results" hidden></div>
       </div>
+      {#- The reader-side presentation switcher. Rendered hidden and unhidden by
+          src/js/presentation.js, so a reader with no JS sees no control at all
+          rather than four buttons that do nothing. The page reads fine either
+          way: what JS adds is the CHOICE, not the reading.
+
+          In the header rather than the footer because it changes the whole
+          site's posture and applies to every page, which is what site chrome
+          is for - and because a reader who wants larger type wants it before
+          reading, not after scrolling past everything they could not read.
+
+          The options carry the modes' READER-FACING labels ("Large print",
+          not "primer"): a reader on this domain is choosing a type size, not
+          declaring an allegiance to another edition. See PRESENTATION_MODES. -#}
+      <div class="reading-mode" data-presentation-ui hidden>
+        <details class="reading-mode__details">
+          <summary class="reading-mode__summary">Reading</summary>
+          <div
+            class="reading-mode__panel"
+            data-presentation-switcher
+            data-site-default="{{ edition.presentation }}"
+            hidden
+          >
+            <p class="reading-mode__note" id="reading-mode-note">
+              Type size and spacing. Kept in this browser only — nothing is sent anywhere,
+              and it changes how the pages look, never what they say.
+            </p>
+            <div class="reading-mode__options" role="group" aria-labelledby="reading-mode-note">
+              <button type="button" class="reading-mode__btn" data-presentation-mode="" aria-pressed="true">
+                This site's setting<span class="reading-mode__btn-note"> ({{ presentationModes[edition.presentation].label }})</span>
+              </button>
+              {#- The edition's OWN mode is skipped here: the first button already is
+                  it, and offering "Large print" beside "This site's setting (Large
+                  print)" asks a reader to tell apart two buttons that do the same
+                  thing to the page. The difference is real but it is a
+                  maintainer's distinction (follow the edition vs pin a value),
+                  and it survives where it matters - the first button clears the
+                  stored preference, so a reader who never chose anything keeps
+                  following this domain if its posture is ever changed. -#}
+              {%- for id, mode in presentationModes %}
+              {%- if id != edition.presentation %}
+              <button type="button" class="reading-mode__btn" data-presentation-mode="{{ id }}" aria-pressed="false">
+                {{ mode.label }}
+              </button>
+              {%- endif %}
+              {%- endfor %}
+            </div>
+          </div>
+        </details>
+      </div>
     </div>
   </header>
 
@@ -201,6 +283,7 @@
     </div>
   </footer>
 
+  <script src="/star-rangers/js/presentation.js?v={{ build.assetVersion }}" defer></script>
   <script src="/star-rangers/js/pov.js?v={{ build.assetVersion }}" defer></script>
   <script src="/star-rangers/js/search.js?v={{ build.assetVersion }}" defer></script>
 </body>

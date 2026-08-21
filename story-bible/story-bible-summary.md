@@ -507,6 +507,15 @@ Notes that keep the tiers honest:
   One maintenance duty falls out: THREADS can't express "everything
   except", so each future general-tier thread must be added to the
   sciencefiction edition's list when registered, or it won't ship there.
+- **A tier is not a posture (21 August 2026).** Each edition now also carries a
+  *presentation mode* — `story`, `primer`, `archive` or `contemplative` — and
+  it deliberately does not map one-to-one onto the tiers above. The tiers are
+  about register and the block lengths in this table; a posture is about what
+  the reader is doing: reading straight through, being helped to finish a block,
+  sitting with a page, or looking something up. So the young-adult and general
+  tiers share `story`, while the Fellowship's codex site is `archive` despite
+  sharing its family's tier and its palette. Per-edition reasoning, and a reader
+  profile for each domain: `edition-reader-profiles.md`.
 
 ### Craft: plain-animal POV (settled 2026-08-04)
 

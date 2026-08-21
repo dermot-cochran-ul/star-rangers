@@ -460,3 +460,66 @@ Formerly recorded here as a subject rather than a question, belonging to
 trusting it. Worth noting it is now the only one of the intake's unwritten
 worlds nobody has checked against canon, which is not evidence that it is
 clean.
+
+## Editions and presentation — `edition-reader-profiles.md`
+
+Queued 21 August 2026, when each edition got a reader profile and a
+presentation mode. All five are presentation questions and none of them touches
+canon; the first is the only one that would add a reader-facing feature.
+
+- ~~**A reader-side presentation switcher.**~~ — **built 21 August 2026** at
+  Dermot's direction. A "Reading" disclosure in the header, offering the
+  edition's own setting plus the other three modes under reader-facing names
+  (Standard, Large print, Compact, Spacious); one `localStorage` key, restored
+  before first paint by an inline head script, and invisible with JS off. Two
+  things it settled that the question had left open: **the modes needed a second
+  set of names**, because asking a reader on the general-tier domain to pick
+  "Contemplative" for longer leading is asking them to identify with another
+  edition rather than to choose a type size; and **the header, not the footer**,
+  because a reader who wants larger type wants it before reading rather than
+  after scrolling past everything they could not read.
+- **`starquest` has no presentation mode of its own**, on the argument that a
+  tier is not a posture: young-adult and general readers do the same thing with
+  their hands, and the difference between them is register and block length.
+  Worth revisiting if the Five-O material ever grows an index-like reading
+  behaviour of its own.
+- ~~**Five of the seven editions ship the default hero cast.**~~ — **cast per
+  edition, 21 August 2026**, at Dermot's direction. The measurement that came
+  with it was worse than the question: the default cast is filtered out on every
+  narrowed domain, so five of seven editions were rendering **no slideshow at
+  all** and falling back to the static hero image, silently and for as long as
+  the narrowing has existed. Six of seven now show a real one, and
+  `validate-content.js` fails the build on a cast an edition cannot render.
+- ~~**Should sciencefiction.site carry the story's characters?**~~ — **ruled 21
+  August 2026: yes, by a `characters: [...]` list on the edition.** It had
+  carried none: characters are matched by id or tag and never by season the way
+  chapters are, so `threads: ["founding-era", "tissadelle-arc"]` shipped every
+  chapter and dropped all 74 of the people in them. The list is every distinct
+  `povs` id across the seasons those two threads own that has a character page —
+  a rule rather than a taste, so it can be re-derived. Measured: **114 shown
+  pages → 244**, 0 character pages → 16.
+- **Two POV ids look like id drift** — noticed while deriving the list above,
+  and not chased, because it is a content question rather than a filtering one.
+  Eight POV ids in general-tier chapters have no character page: `pitch`,
+  `kilbride`, `voss`, `solano`, `okafor`, `adaeze`, `krast`, `tobble`. Most are
+  people who have not earned a page. But the corpus has `petra-voss` and
+  `dagny-voss` as pages while chapters say `voss`, and `maren-solveig-krast`
+  while chapters say `krast` — so either those POV blocks are about different
+  people, or two chapters are naming a character by an id nothing resolves.
+  Worth an hour with the chapters concerned.
+- **The structural alternative was not taken**, and is still available: tagging
+  character pages with their thread ids would make thread narrowing carry its own
+  people on every domain, present and future, instead of each edition
+  maintaining a list. It is a corpus sweep rather than a config change, which is
+  why it was not done in the same pass — but the maintenance duty it removes is
+  real, and it now applies twice on the sciencefiction entry (a new general-tier
+  thread must be added to `threads`, and a new general-tier POV character to
+  `characters`).
+- **`solarized` fails the 4.5:1 contrast floor on eleven pairs** and is exempt
+  in `scripts/check-contrast.js` as a faithful reproduction of a published
+  palette. Safe only while no edition ships it — a standing condition rather
+  than a settled exemption.
+- **No edition sets the `light`, `sepia` or `high-contrast` palette**, so those
+  three exist only for an independent host. Whether a reader here should be able
+  to reach them is the same question as the switcher above, and probably has the
+  same answer.

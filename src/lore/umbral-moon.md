@@ -35,7 +35,7 @@ The moon is small, dark, and in a place nobody photographs — L5 holds dust, an
 
 ## Crossings
 
-**Class III shadow beings have been recorded at the site**, and the site's reputation rests almost entirely on it. They are [non-sapient, meta-dimensional, and sub-Levril in causal authority](/star-rangers/lore/meta-dimensional-beings/) — not intelligent and not inert, capable of displacing local physics by being present. A boundary event is the ordinary circumstance in which they are introduced, and a Class III excursion at a narrowing is a boundary event.
+**Class III incursives have been recorded at the site**, and the site's reputation rests almost entirely on it. They are [non-sapient, meta-dimensional, and sub-Levril in causal authority](/star-rangers/lore/meta-dimensional-beings/) — not intelligent and not inert, capable of displacing local physics by being present. A boundary event is the ordinary circumstance in which they are introduced, and a Class III excursion at a narrowing is a boundary event.
 
 **They are not the natives of anywhere on the far side**, and the record declines the account that makes them so. A meta-dimensional being extends across higher spatial dimensions rather than living in a universe next door, so *"which realm do they come from"* is a question with the wrong shape, asked of entities that do not have a from. What the flexure supplies is not a door to their country. It is a place where the local physics is thin enough that their presence registers.
 
@@ -46,5 +46,5 @@ Crossings here are more frequent than at any other documented site inside the So
 - [Boundary Zones and Concordant Edges](/star-rangers/lore/boundary-zones/) — the flexure, and the Boundary-State Classes
 - [Concordant Membranes](/star-rangers/lore/concordant-membranes/) — the Interval, and what a transient gravity tunnel actually is
 - [Membrane Shadows](/star-rangers/lore/membrane-shadows/) — far-side mass registering with nothing behind it
-- [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/) — where Class III shadow beings sit, and do not
+- [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/) — where Class III incursives sit, and do not
 - [New London Space Habitat](/star-rangers/lore/new-london-space-habitat/) — stationed at the same point, and filing it under maintenance

@@ -485,12 +485,38 @@ The word **Etheric** was carrying three jobs at once — a causal layer, a set o
 - **Key Property:** Closely linked to Inner World Depth (IWD) and Noögenic Seed Potential (NSP).
 - **Related Terms:** Structured Persistence, Seed Mind
 
+### Incursives (settled 2026-08-21)
+
+**Canonical:** *Incursive* / *Incursives*, formally *Non-Sapient Incursives*, for
+the Class III meta-dimensional beings — non-sapient, predatory or entropic,
+entering Material space opportunistically through boundary instability.
+
+**Retired:** *Shadow Being(s)*. Renamed on Dermot's direction because it
+collided with [Membrane Shadows](/star-rangers/lore/membrane-shadows/), and the
+collision was live rather than theoretical: two pages carried explicit "not to
+be confused with" warnings, and `membrane-shadows.md` recorded that the two were
+"routinely misfiled" together.
+
+**Why this term and not another.** The discriminator against a Membrane Shadow
+is not shadow-ness but **entry** — a Class III being has physically arrived and
+can be touched, where a Membrane Shadow is a gravitational imprint with nothing
+present at all. *Incursive* names exactly that, so a Membrane Shadow is not an
+incursive because nothing incurred, and the old warnings become almost
+unnecessary rather than merely relocated. That is the test a rename should pass.
+
+**Why the other side was not renamed.** *Membrane Shadow* is the more entrenched
+of the two: 15 files against 6, with its own lore entry, its own glossary entry,
+a journal entry, and rows in this guide. Renaming the smaller surface is the
+cheaper change and the one less likely to strand a reader.
+
 ---
 
 ## Terminology Migration Map (Legacy → Canonical)
 
 | Legacy / Ambiguous Usage | Canonical Term | Migration Rule |
 |---|---|---|
+| “The False Dragon” (as a title or a label for the adversary) | *The Borrowed Silhouette* (the paper); “the adversary of the devotional codices” (the thing) | Retitled 2026-08-21. The paper is unchanged and its doctrinal formulation — that such a being *would be a false dragon, not an actual one* — still stands in the body, where **false** is the word doing the work. What was retired is the title and the bare label, which put *dragon* beside the adversary in indexes and glossary lines and so worked against the argument they introduced. Old URL 301s. |
+| “Shadow Being(s)” / “Non-Sapient Shadow Beings” / “Class III shadow beings” | Incursive(s) / Non-Sapient Incursives | Renamed 2026-08-21. A pure rename with **no change of meaning, class, or property** — Class III membership, non-sapience and behaviour are all unchanged. Adopted to end the collision with **Membrane Shadows**, which are not incursives and never were: nothing has entered material space to produce one. |
 | “Archewright-created universe(s)” | Worldwright-created primary universe set(s) | Replace direct creation language; keep Archewrights as archetype/possibility authors. |
 | “High Celestials” (coordination/jurisdiction context) | Telearchs | The commoner sense of the retired term. |
 | “higher celestials” (force/law governance context) | Mediarchs | The force-governing sense of the retired term. If context cannot disambiguate, flag rather than guess. Note this term has now been migrated twice: “higher celestials” → *Dynarch* → *Mediarch*, and the destination is the current name. |

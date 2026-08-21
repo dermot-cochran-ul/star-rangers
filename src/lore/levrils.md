@@ -88,10 +88,16 @@ The lesson the Archive draws from setting those two side by side is stated plain
 
 Meta-dimensional existence is not unique to Levrils, and the distinction that
 matters is not dimensional reach but **Cascade standing**. Levrils have it.
-Sapient monsters — Court-Fae, Gilded Saints, Demons, Beautiful Monsters,
-Threnes — are equally meta-dimensional and have none, which means they are
-neither bound by Cascade constraints nor protected by them. Non-sapient shadow
-beings and monsters have neither standing nor sapience.
+The [Unfounded](/star-rangers/glossary/unfounded/) — sapient monsters and
+incursives alike, under names like Court-Fae, Gilded Saints, Demons, Beautiful
+Monsters and Threnes — are equally meta-dimensional and have none, which means
+they are neither bound by Cascade constraints nor protected by them. Note that
+those names are **modes of failure rather than kinds**: nothing among the
+Unfounded exists by design, so there is no decision for a category to record.
+That is the sharpest available contrast with this page's subject. *Higher
+Levril* and *Dragon* are real subclasses of a real tier, because something
+above decided what a Levril would be. Non-sapient incursives
+have neither standing nor sapience.
 
 That three-class scheme is set out in full, with entry conditions and detection,
 at [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/).
@@ -101,7 +107,7 @@ It is not restated here.
 
 - "Dragons can override physics." (False: they operate *inside* physics+Etheric constraints, from a higher-dimensional vantage.)
 - "Levrils are moral judges." (False: enforcement tiers are structural, not moral.)
-- "All higher-dimensional beings are Levrils." (False: monsters and shadow beings are also meta-dimensional but lack Cascade standing.)
+- "All higher-dimensional beings are Levrils." (False: monsters and incursives are also meta-dimensional but lack Cascade standing.)
 - "A Levril appearing in Material space is a miracle." (False: it is dimensional translation with measurable field effects.)
 - "The witness saw what it really looks like." (False — see *What a Levril Looks Like* above, which is the whole of the answer.)
 

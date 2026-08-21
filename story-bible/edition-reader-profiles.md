@@ -1,0 +1,490 @@
+# Edition reader profiles and style guide
+
+Unpublished authorial note. One profile per edition in `lib/editions.js`: who
+arrives at that domain, what they came for, and what the page owes them —
+palette, posture, copy, cast and sound.
+
+**Why this exists.** The registry records *what* each edition is set to and,
+generously, *why* each setting was chosen. It does not record who the setting
+is for. That gap showed up as a real question the day the codex site was
+registered: `fellowshipoflight.site` took the Fellowship's palette because it
+is the Fellowship's archive, and then read like a novel because palette was the
+only axis there was. The reader it was built for came looking for a document.
+Nothing in the file could say so, so nothing in the build did anything about
+it.
+
+**What it decides, and what it must not.** Everything here is *framing* — the
+same constraint that governs the registry itself, and for the same reason.
+**Nothing an edition carries may assert a fact about the world.** Canon is
+centralised: `src/seasons/`, `src/lore/` and `src/glossary/` are identical on
+every domain, filtering only ever subtracts, and an excluded page still builds
+at its own URL as a placeholder. A reader profile can change what a domain
+looks like, what it says about itself, and what it puts in front of a reader
+first. It cannot change what is true. If a difference between two editions
+would let a reader come away with two incompatible beliefs about the setting,
+it is not a presentation decision and does not belong here.
+
+**Where this sits among the other notes.** `domain-strategy-and-duplicate-content.md`
+answers *which domain ranks* and why the families are drawn where they are;
+`story-bible-summary.md`'s audience-tier table answers *how long a POV block
+should be* for each readership; `images.md` and `music-prompts.md` answer how
+the pictures and the audio get made. This one answers *who is reading, and how
+the page should meet them*. Read the registry itself for the settings — it is
+authoritative, this is the intent behind it.
+
+---
+
+## The three axes
+
+A build's face is decided by three independent things. They were two until
+2026-08-21, and the third was extracted from the second for the same reason
+`edition` was once extracted from `theme`: one variable was answering two
+questions, and the day two domains wanted the same answer to one and different
+answers to the other, it could not.
+
+| Axis | Question | Lives in | Values |
+|---|---|---|---|
+| **Edition** | Who is this domain? | `lib/editions.js` | `default`, `sciencefiction`, `fellowship`, `fellowship-archive`, `starquest`, `pets`, `church-space` |
+| **Theme** | What colour is it? | `scripts/generate-themes.js` → `src/css/theme-*.css` | 4 narrative palettes + `light`, `sepia`, `high-contrast`, `solarized` |
+| **Presentation** | How does it want to be read? | `PRESENTATION_MODES` → `src/css/main.css` | `story`, `primer`, `archive`, `contemplative` |
+
+They compose rather than multiply: a mode moves only custom properties, so
+`generate-themes.js` carries all four modes into all nine palettes by copying
+main.css verbatim outside `:root`. `EDITION=fellowship-archive THEME=sepia` is
+a sentence you can write, and it gets archive density in parchment colours.
+
+**A mode is a posture, not a tier.** The audience tiers (children → young adult
+→ general → contemplative) are about register and block length. A posture is
+about what the reader's hands and eyes are doing: reading a story straight
+through, being helped to finish a block, sitting with a page, or looking
+something up. That is why the young-adult and general tiers share `story` —
+same posture, different prose — and why the codex site is `archive` despite
+sharing the fellowship's tier *and* its palette.
+
+---
+
+## The house floor
+
+True on every edition, and not negotiable per domain:
+
+1. **Framing only.** Nothing an edition carries may assert a fact about the
+   world. A domain that needs a page of its own gets a non-canonical one.
+2. **4.5:1 minimum on text.** WCAG 2.2 AA, checked by
+   `node scripts/check-contrast.js` over every palette, on the pairs main.css
+   actually composes — including hover states and the two-steps-darker
+   `--color-surface-2` that badges and labels sit on. One exemption, recorded
+   in the script: `solarized`, which is a faithful reproduction of a published
+   palette and is nobody's edition default.
+3. **Legible with nothing switched on.** No edition may depend on JavaScript,
+   audio, or images to be readable. The POV controls, the search box and the
+   hero slideshow are all enhancements; the audio is `preload="none"` behind a
+   play button and nobody hears it who did not ask.
+4. **Unsettling, never horror** — the standing tone rule, and it governs
+   pictures and palettes as much as prose.
+5. **No link ever 404s.** A narrowed edition renders excluded pages as
+   placeholders pointing at the domain that carries them.
+6. **One body face per palette.** Two are in use: Georgia (the default,
+   starquest, pets) and Palatino (fellowship, church-space, sepia). A third
+   would be a decision, not a tweak.
+
+---
+
+## How to read a profile
+
+Each one answers the same seven questions, in the same order. **Arrives**: how
+this reader got here and what they already know. **Wants**: what they came for.
+**Loses them**: what makes them close the tab — the most useful line, and the
+one that decides most of the rest. **Posture, palette, voice**: what the build
+does about it. **Never**: the thing this edition specifically must not do.
+
+Page counts are *pages that render as themselves* rather than as an
+`excluded.njk` placeholder, out of 638 built — measured 2026-08-21 against a
+build of each edition with its registry filters applied. They include the
+navigational shell every edition carries, so they are larger than the
+"indexable pages" figures recorded in `lib/editions.js` on 2026-08-20, which
+counted a narrower thing. Both go stale; re-measure rather than cite.
+
+---
+
+## `default` — fianilchruinne.com (and GitHub Pages)
+
+**638 of 638 pages, less 20 private-thread placeholders. Theme `default`
+(deep blue/indigo, Georgia). Posture `story`. No filters.**
+
+**Arrives** by the work's own name, or from anything that links the project as
+a whole. Increasingly this is somebody who was sent here from one of the other
+six and wants to know what the whole thing is.
+
+**Wants** the record entire, and proof that there is one. This is the domain
+that answers "is this a coherent world or six marketing sites?"
+
+**Loses them** by looking like a portal. If the front page reads as a
+disambiguation page for the other domains, the reader concludes there is no
+centre and leaves for whichever door looked most specific.
+
+**Posture** `story` — the site's default and, historically, its only one. The
+72ch measure, 18px root and 1.7 leading are what every other mode is a
+departure from.
+
+**Palette** the house dark: `#0d0f1a` page, `#7c9ef5` accent, `#ffd54f` for
+canon facts. The only palette designed first rather than derived, and the one
+the others are recognisably variations of.
+
+**Voice** the neutral register — the forty-seconds-wrong tagline in its
+unmodified form, naming the Five Layers, the Grand Ensemble Multiverse and the
+Star Rangers without pitching any of them. **Cast:** Tissadelle, Aldera, Iona,
+Galahad, Rook, Syra — the arc's protagonist first, which she was not until
+2026-08-21. She replaced Elvira, who has no portrait and was therefore being
+dropped from the slideshow, so the domain that holds everything was showing
+five slides and missing the one person the main sequence is about.
+Sound: Celtic ambient.
+
+**Never** narrow it. It holds everything, which is what lets every other
+edition be a subset of something rather than a fragment of nothing. The one
+standing exception is the private thread, which is opt-in on every build
+including this one — the twenty placeholders above are that, working as
+designed.
+
+---
+
+## `sciencefiction` — sciencefiction.site
+
+**114 pages. Theme `default`. Posture `story`. Threads: founding-era,
+tissadelle-arc.**
+
+**Arrives** looking for science fiction, generically — the domain name is the
+genre. Least likely of the seven to know anything about this world in advance.
+
+**Wants** a good story in a setting that holds together. Cares about the
+premise, not the archive.
+
+**Loses them** with apparatus. A first-time reader who lands on a glossary
+entry about the Cosmic Cascade before they have met anyone has been given the
+appendix instead of the book. The general tier's narrowing does most of this
+work already by keeping the contemplative and specialist threads off the
+domain.
+
+**Posture** `story`. Identical to the default edition's, deliberately: this
+reader is doing exactly what the default reader is doing, with less of the
+record around them.
+
+**Palette and voice** the house dark and the unmodified tagline — this edition
+registers no copy overrides at all, so it looks like the canonical site and
+carries a subset of it. That is the correct relationship: it is the front door
+to the main sequence, not a different building.
+
+**Cast** (its own since 2026-08-21): Tissadelle, Galahad, Rook, Aldera, Syra,
+Wender — deliberately not the default six. This domain fronts the founding era
+and the Tissadelle arc specifically, so Galahad and Tissadelle lead on ten
+chapters each, and **Wender is here where the canonical domain has Iona**: the
+Chief Pilot who becomes High Captain is a founding-era face, and the domain that
+holds everything can afford to be even-handed where this one should not be.
+
+Until that day the domain carried **no character page at all** — characters are
+matched by id or tag and never by season the way chapters are, so narrowing by
+thread shipped every chapter and dropped all 74 of the people in them. Dermot's
+ruling was to give the edition a `characters: [...]` list of every POV id its
+own seasons use: **114 shown pages → 244**, 0 character pages → 16.
+
+**Never** let this be the domain that fixes a missing general-tier thread by
+accident. `THREADS` cannot express "everything except", so every future
+general-tier thread has to be added to this entry by hand when it is registered,
+or it silently will not ship here.
+
+---
+
+## `starquest` — starquest.site
+
+**71 pages. Theme `starquest` (near-black, cyan `#35e0c9`). Posture `story`.
+Thread: orbital-five-o. Brand: Orbital Five-O.**
+
+**Arrives** for the procedural: a task force, a jurisdiction, cases. The
+young-adult tier.
+
+**Wants** pace. Something happens, someone is responsible, the boundary is
+somebody's beat.
+
+**Loses them** by slowing down to explain. This is the one edition where the
+lore apparatus is most at risk of reading as homework, and the palette is doing
+a promise the prose has to keep.
+
+**Posture** `story`, and this is the deliberate case of a tier *not* getting a
+mode of its own. Young-adult and general readers are doing the same thing with
+their hands; the difference is register and complexity, which live in the prose
+and the length targets, not in the measure. If Five-O ever grows a genuinely
+different reading behaviour — a case-file index, say, browsed rather than read —
+that is when it earns `archive` or something new, and not before.
+
+**Palette** the most saturated on the site: `#060714` page, cyan accent at
+12:1, amber canon facts. It reads as instrumentation, which is the point.
+
+**Voice** the only tagline that is a hook rather than a description — *"forty
+seconds of drift, eleven years unexplained… that's not a rounding error, it's a
+warning."* Sound: sci-fi ambient.
+
+**Cast** (its own since 2026-08-21): Larsen, Albercombe, Voss, Calloway, Jeeves
+— a jurisdiction seen top to bottom, which is what the procedural is actually
+about. Larsen leads because the task force is the show; Jeeves is last because
+the joke lands better once the hierarchy has been established. These five are
+also the entire pool this domain carries with a portrait, which is luck rather
+than design, and it is the right five regardless.
+
+**Never** let the palette write cheques the tone rule will not honour. Neon and
+procedural pace can slide toward threat; unsettling, never horror, holds here
+exactly as elsewhere.
+
+---
+
+## `pets` — undercover-pets.com
+
+**109 pages. Theme `pets` (cream `#fdf6ec`, rust `#a34726`). Posture `primer`.
+Thread: undercover-pets. Topic: undercover-pets.com. Brand: Undercover Pets
+Detective Agency.**
+
+**Arrives** as a child, or as an adult reading to one. The only edition with a
+second reader in the room.
+
+**Wants** to finish a block and click the next one. The tier note's word for
+what this domain optimises is **completability**, and it is the whole design.
+
+**Loses them** with a wall of text, a line too long to track, or a button too
+small for a thumb on a tablet. Losing this reader takes one paragraph, and they
+do not come back to check whether it got easier.
+
+**Posture** `primer`, and the one edition where the mode is doing accessibility
+work rather than atmosphere: 20px root, ~58ch measure (nine or ten words a
+line, which is where a developing reader stops losing their place), 1.75
+leading, more air between paragraphs, and POV buttons padded to a real tap
+target. The measure is the load-bearing value.
+
+**Palette** warm and light, and — until 2026-08-21 — the worst contrast on the
+site: the old coral accent measured **2.32:1** on badges against a 4.5 floor,
+on the domain where legibility matters most and the last one anyone would have
+checked. Now rust `#a34726` at 4.66:1 or better everywhere, with a darker
+hover. It reads slightly deeper than the old coral and still warm.
+
+**Voice** the standard tagline, unmodified — the edition's own face is its
+name, its brand and its cast. **Cast:** Barsik, Bubochka, the Eden warden,
+Nessa, Rasa Oyelaran — unchanged on 2026-08-21 when every other edition got one,
+because this was the only edition that had ever had a cast of its own and it is
+already right: three animals, the habitat's AI, and the one adult who outranks
+everybody. Sound: playful ukulele.
+
+**Never** file a child-facing page that depends on an adult block to make
+sense. A child reading only the pet POVs must be able to follow what happened —
+which is also just "each POV withholds what the others supply" doing its job.
+
+---
+
+## `fellowship` — fellowshipoflight.org
+
+**77 pages. Theme `fellowship` (parchment, Palatino, gold `#7a5a0c`). Posture
+`contemplative`. Thread: church-space (private, opted in). Topics:
+fellowship-of-light, arilon. Ranks for its family. Brand: Fellowship of Light.**
+
+**Arrives** having been told this is the quiet one, or by the order's name.
+Contemplative tier.
+
+**Wants** to sit with a page. Reading speed is not a virtue here and length is
+earned by reflective work — this is the 800–1,200-word band.
+
+**Loses them** with clutter and urgency. Anything that reads as a call to
+action, a badge, or a thing competing for attention breaks the register this
+edition exists to hold.
+
+**Posture** `contemplative`: the slowest setting on the site. 19px root, 1.9
+leading — the longest on any edition — a 62ch measure, wide paragraph spacing,
+and **titles in the body colour rather than the accent**, so nothing on the
+page is shouting. The accent is left to do only what accents must: links,
+focus, the POV rail.
+
+**Palette** parchment and gold with a blue used for canon facts. Palatino,
+shared with church-space and sepia: the reading-for-its-own-sake face.
+
+**Voice** the tagline that reaches furthest back — *"long before any charter
+named them Rangers, an older order kept vigil at boundaries like this one"* —
+and the only one that recasts the corps as inheritors rather than protagonists.
+Sound: orchestral fantasy.
+
+**Cast:** Asteria and Brother Fintan — two portraits, the calmest crossfade on
+the site. Both are Rangers who finished a career and traded it for a
+contemplative one, from two different orders, which states the tier's whole
+theme without a caption. They are also the only two characters this domain
+carries with a portrait. Asteria alone would be the identity-purist choice, she
+being the Fellowship's own Sage where Fintan keeps a Communion house; this entry
+is "the order entire" and carries the contemplative thread whole, so it holds
+both.
+
+**Never** narrow this domain. It ranks for its family, and the invariant is
+that a ranking domain must include every page its siblings include, or a
+sibling's canonical points at a placeholder and the page leaves the index
+entirely. Narrow the siblings; never the one that ranks.
+
+---
+
+## `fellowship-archive` — fellowshipoflight.site
+
+**60 pages. Theme `fellowship`. Posture `archive`. No threads. Topics:
+fellowship-of-light, arilon. Ranks at fellowshipoflight.org. Brand: The
+Comparative Archive.**
+
+**Arrives** looking for a document — often from a link, a search for a specific
+term, or a cross-reference in another entry. Knows the world; wants a page of it.
+
+**Wants** to find the thing, then read around it. Arrival is likely to be
+mid-archive rather than at the front door.
+
+**Loses them** with ceremony. A landing page that withholds the index for the
+sake of atmosphere is a reference site refusing to be referred to.
+
+**Posture** `archive`, and **the edition that forced presentation to become its
+own axis**: same palette as its ranking sibling, opposite posture. 17px root,
+1.6 leading, a 78ch measure — the widest on the site, because reference prose
+is scanned in a way narrative prose is not — a tighter paragraph gap, a shorter
+hero, and a homepage that opens **left-aligned**, like a desk rather than a
+poster. Everything below the hero on every other page is already left-aligned;
+this is the front page falling into line.
+
+**Palette** identical to `fellowship`, on purpose. Two faces of one institution
+should look like one institution.
+
+**Voice** the only tagline that describes a *filing* rather than a story —
+independent accounts of one thing, filed under Arilon because no tradition can
+be credited with them, each valid for the hand that wrote it and none of it the
+last word. That sentence is the Codex's own canon status said in front-of-house
+language, which is what makes this edition honest.
+
+**Cast:** Asteria, alone and still. One slide is not a degraded slideshow here —
+`main.css`'s `:first-child` rule renders it as a plain portrait — and a file of
+documents does not need a parade. She is also the only character this filter
+carries with an image.
+
+**Never** let it carry a page the central site does not. A codex site is a
+filtered view of the central codex; the moment it has an entry of its own, this
+is per-domain canon by another route, which is exactly the failure
+`CUSTOM_LORE_FILE` was deprecated for.
+
+---
+
+## `church-space` — church-space.site
+
+**63 pages. Theme `church-space` (candlelit stone, deep red `#7a1f2b`,
+Palatino). Posture `contemplative`. Thread: church-space (private). Topics:
+communion-of-the-called, cnoc-na-mbeach. Brand: The Communion of the Called.**
+
+**Arrives** knowing this is the devotional layer, and usually having been given
+the address rather than having found it. The private thread means this domain
+is opted into by name; nobody arrives by accident.
+
+**Wants** the overlay read as an overlay — a declared reading of the same
+events, not a competing record.
+
+**Loses them** in either direction, and this edition is the one that can fail
+two ways. Too neutral and the reading has no register of its own; too devout
+and it starts to read as the story asserting a cosmology it deliberately does
+not assert.
+
+**Posture** `contemplative`, shared with `fellowship`. The night-office
+chapters of Season 8 are what the mode's leading and measure were set against.
+
+**Palette** the darkest accent on any light theme — `#7a1f2b` at 9:1 — against
+candlelit parchment. Stone and stained glass rather than warmth.
+
+**Voice** the tagline that names the institution's whole distinctive claim in
+one clause: *a High Captain and a Cadet sit in the same station chapel on the
+same footing, because its only qualification for belonging is showing up.*
+Sound: the Rotational Hum — the one m4a among five wav files, and the model for
+new audio.
+
+**Cast:** Brother Fintan, alone and still — the Communion's own keeper, and the
+most this front page should say. He is also the only character this domain
+carries with a portrait; the two facts agreeing is luck, but the answer would be
+the same with a larger pool. Worth knowing before anyone reuses it: his image is
+a designed title card rather than a photographic portrait, so this hero reads
+more like a codex card than the others do.
+
+**Never** let the overlay become load-bearing. Its chapters carry no
+`canon_facts`, establish nothing, and the main story must never come to depend
+on them. Presentation may make a devotional reading beautiful; it may not make
+it binding.
+
+---
+
+## The modes, in numbers
+
+Every value below is a custom property in `src/css/main.css`. A mode that is not
+listed for a token inherits the `story` value.
+
+| Token | `story` | `primer` | `archive` | `contemplative` | What it does |
+|---|---|---|---|---|---|
+| `--font-size-root` | 18px | 20px | 17px | 19px | Everything else is in `rem`, so this is the whole UI scale |
+| `--font-size-root-sm` | 16px | 17px | 16px | 16px | Same at ≤640px |
+| `--line-height-prose` | 1.7 | 1.75 | 1.6 | 1.9 | |
+| `--max-prose` | 72ch | 58ch | 78ch | 62ch | The measure — the value that most decides how a page feels |
+| `--measure-ui` | 70ch | 60ch | 76ch | 62ch | Intros and section descriptions |
+| `--prose-gap` | 1rem | 1.15rem | 0.85rem | 1.3rem | Space between paragraphs |
+| `--hero-height` | 320px | 280px | 200px | 260px | Hero image and slideshow |
+| `--color-title` | accent | accent | accent | body text | Quiet headings, contemplative only |
+
+Two structural rules exist because no property could carry them: `primer` pads
+the POV buttons to a finger-sized target (padding is in px and would not scale
+with the root size), and `archive` left-aligns the homepage hero.
+
+**Adding a mode is a design decision, not configuration.** It has to be a
+posture no existing mode serves, and it costs a block in main.css that all nine
+palettes then carry. Wanting a domain to *feel* different is what the palette
+and the copy are for.
+
+---
+
+## What is measured, and what is not
+
+Measured, and re-measurable: contrast (`scripts/check-contrast.js`), pages
+served per edition (build each edition with its filters and count placeholders),
+POV-block word counts against the tier bands, image dimensions
+(`validate-content.js`).
+
+Not measured, and this is the honest limit of a style guide: whether a page
+*feels* like the institution it claims to be, whether a tagline earns its
+sentence, whether a palette is doing the tone rule's work or quietly undoing it.
+Those stay judgement, which is why edition copy and new imagery are proposals
+for Dermot rather than merges.
+
+---
+
+## Open
+
+Added to `open-questions.md` in the same pass.
+
+- ~~**A reader-side presentation switcher.**~~ **Built 21 August 2026.** The
+  header carries a "Reading" control offering this domain's own setting plus the
+  other three modes; the choice is one `localStorage` key, client-local and
+  per-origin, and it is gone entirely without JS. What it changed here: the modes
+  now carry **two names each** — an engine name that says what a mode is *for*
+  (`primer`, and it is for the children's tier) and a reader-facing label that
+  says only what it *does* (**Large print**). A reader is choosing a type size,
+  not declaring an allegiance to another edition, and offering them
+  "Contemplative" on the general-tier domain would have asked them to do the
+  second in order to get the first. Reader labels: Standard, Large print,
+  Compact, Spacious.
+- **`starquest` has no mode of its own**, on the argument above that a tier is
+  not a posture. Worth revisiting if the Five-O material grows an index-like
+  reading behaviour.
+- ~~**Five of seven editions ship the default hero cast.**~~ **Cast per edition,
+  21 August 2026** — and the measurement that came with it was worse than the
+  question implied. The default cast is filtered out on every narrowed domain, so
+  **five of seven editions were rendering no slideshow at all**, falling back to
+  the static hero image. Six of seven now show a real one, and
+  `validate-content.js` fails the build on a cast an edition cannot render.
+  The one that could not be fixed with a cast — **sciencefiction carried no
+  character page at all** — was ruled the same day: it gets a `characters: [...]`
+  list of every POV id its own seasons use, so all seven editions now render a
+  hero. What is left is the structural version of that fix (tag character pages
+  with their thread ids and no edition needs a list at all) and two POV ids that
+  look like drift; both are in `open-questions.md`.
+- **`solarized` fails the contrast floor on eleven pairs** and is exempt as a
+  faithful reproduction. It stays safe only while no edition ships it; that is a
+  standing condition, not a one-off.
+- **No edition sets a `light`, `sepia` or `high-contrast` palette**, so those
+  three exist only for someone hosting independently. Whether a reader should be
+  able to reach them is the same question as the switcher above.
