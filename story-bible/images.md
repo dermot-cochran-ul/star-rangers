@@ -2077,9 +2077,20 @@ Worth deciding before generating nine cards, not after.
 **Added 2026-08-04, after the audit** — one more generated image, for the new
 planet page drafted the same day:
 
-- **`planets/drithane.jpg`** — the crossing night is the planet's whole
+- **`drithane.jpg`** — the crossing night is the planet's whole
   identity, and the custom of going dark to watch it is the human half of
   the frame. Slow sparks, not meteor streaks.
+
+  **Filed one directory too deep**, and the page rendered a broken image from
+  2026-08-17 (when both the file and its `image:` line landed, in #454) until
+  2026-08-21. It sat at `src/images/lore/planets/drithane.jpg` where the page
+  could not reach it: `lore-entry.njk` hardcodes `/images/lore/` and appends
+  the front-matter value, so a bare `image: "drithane.jpg"` asked for a file
+  that was not there. Every other planet's image is flat in `src/images/lore/`
+  and this one now is too. The subdirectory convention is real, but it is
+  `universes/`, where the front matter carries the prefix as well — a
+  subdirectory only works when both halves agree. `validate-content.js` now
+  checks the URL the layout emits, not just that the file exists somewhere.
 
   **Two rounds returned a night landscape with no sparks in it at all** — a
   starfield and a moon, which is every night sky and not this one. The old

@@ -467,14 +467,17 @@ Queued 21 August 2026, when each edition got a reader profile and a
 presentation mode. All five are presentation questions and none of them touches
 canon; the first is the only one that would add a reader-facing feature.
 
-- **A reader-side presentation switcher.** The mode is a build-time property of
-  the edition, so a reader who wants contemplative leading on the general-tier
-  domain cannot ask for it. An answer is available within the site's own rules —
-  `data-presentation` sits on `<html>`, so a switcher is a `localStorage` key
-  and a few lines of JS, client-local per domain, degrading to the edition's own
-  mode with nothing switched on. Not built: reader-facing, so a proposal, and it
-  wants a considered place in the chrome rather than a control bolted to the
-  footer.
+- ~~**A reader-side presentation switcher.**~~ — **built 21 August 2026** at
+  Dermot's direction. A "Reading" disclosure in the header, offering the
+  edition's own setting plus the other three modes under reader-facing names
+  (Standard, Large print, Compact, Spacious); one `localStorage` key, restored
+  before first paint by an inline head script, and invisible with JS off. Two
+  things it settled that the question had left open: **the modes needed a second
+  set of names**, because asking a reader on the general-tier domain to pick
+  "Contemplative" for longer leading is asking them to identify with another
+  edition rather than to choose a type size; and **the header, not the footer**,
+  because a reader who wants larger type wants it before reading rather than
+  after scrolling past everything they could not read.
 - **`starquest` has no presentation mode of its own**, on the argument that a
   tier is not a posture: young-adult and general readers do the same thing with
   their hands, and the difference between them is register and block length.

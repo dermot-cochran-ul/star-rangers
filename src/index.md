@@ -3,7 +3,7 @@ layout: base.njk
 title: "Home"
 description: "Fian Ilchruinne — an interactive science-fantasy novel grounded in speculative cosmology. One canonical history across the Five Layers, multiple Concordants, and multiple points of view."
 ---
-{%- set heroCharacters = collections.characters | charactersByIds(edition.heroCharacterIds) -%}
+{%- set heroCharacters = collections.characters | charactersByIds(edition.heroCharacterIds) | withImages -%}
 <section class="home-hero">
   {#- The slideshow is per-edition (lib/editions.js) AND per-deploy: its cast is
       resolved against the FILTERED characters collection, so a narrowed clone
@@ -12,7 +12,13 @@ description: "Fian Ilchruinne — an interactive science-fantasy novel grounded 
       last case used to render nothing at all, leaving the one page every reader
       lands on first with no image on it. The site's own fallback hero stands in
       instead; it is the same file this page already advertises as its
-      og:image, so a card and the page now agree. -#}
+      og:image, so a card and the page now agree.
+
+      `withImages` is what makes the count below honest, and it matters for
+      more than tidiness: a hero character with no `image:` used to render an
+      empty <img> requesting the characters DIRECTORY, and it counted toward
+      --nN all the same, so the crossfade timed a slot for a slide that was
+      never going to appear. Filtering before the count fixes both at once. -#}
   {%- if heroCharacters.length %}
   <div class="home-hero__slideshow home-hero__slideshow--n{{ heroCharacters.length }}" aria-hidden="true">{% for character in heroCharacters %}
     <img class="home-hero__slide" src="/star-rangers/images/characters/{{ character.data.image }}" alt="" />{% endfor %}
