@@ -11,6 +11,14 @@ Fellowship of Light domains fronting different **chapter houses**.
 What is settled is the shape. What still needs him is named in *Still open* at
 the end — chiefly the fourth chapter house, which does not exist in canon.
 
+**This file answers which domain ranks; `edition-reader-profiles.md` answers
+who reads it.** The two were one question while a family's members differed only
+in name and palette, and separated on 21 August 2026 when each edition gained a
+*presentation mode* — a posture, independent of both identity and palette. The
+consolidation decisions here are unaffected by it: a mode moves type and
+spacing, never the page set, so it cannot make two domains any more or less
+duplicate than the filters already do.
+
 ## First, the reassurance
 
 **There is no duplicate content penalty.** Google acts on duplication only

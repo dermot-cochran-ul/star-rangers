@@ -62,6 +62,13 @@ const PAIRS = [
   ["muted text on badge/label", "--color-text-muted", "--color-surface-2"],
   ["link/accent on page", "--color-accent", "--color-bg"],
   ["accent on surface", "--color-accent", "--color-surface"],
+  // Hover is a state the same text is READ in, not a decoration, so it carries
+  // the same floor. Worth checking rather than assuming: the fellowship
+  // palette had a LIGHTER gold on hover than at rest, so pointing at a link
+  // made it harder to read - 2.98:1 against 6.00 - and nothing but a
+  // measurement would find it, since the person who wrote it knows what it says.
+  ["accent on page, hovered", "--color-accent-hover", "--color-bg"],
+  ["accent on surface, hovered", "--color-accent-hover", "--color-surface"],
   ["accent on badge/label", "--color-accent", "--color-surface-2"],
   ["canon-facts toggle", "--color-canon", "--color-surface-2"],
   ["skip link", "--color-skip-text", "--color-skip-bg"],

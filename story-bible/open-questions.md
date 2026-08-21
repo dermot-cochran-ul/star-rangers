@@ -460,3 +460,35 @@ Formerly recorded here as a subject rather than a question, belonging to
 trusting it. Worth noting it is now the only one of the intake's unwritten
 worlds nobody has checked against canon, which is not evidence that it is
 clean.
+
+## Editions and presentation — `edition-reader-profiles.md`
+
+Queued 21 August 2026, when each edition got a reader profile and a
+presentation mode. All five are presentation questions and none of them touches
+canon; the first is the only one that would add a reader-facing feature.
+
+- **A reader-side presentation switcher.** The mode is a build-time property of
+  the edition, so a reader who wants contemplative leading on the general-tier
+  domain cannot ask for it. An answer is available within the site's own rules —
+  `data-presentation` sits on `<html>`, so a switcher is a `localStorage` key
+  and a few lines of JS, client-local per domain, degrading to the edition's own
+  mode with nothing switched on. Not built: reader-facing, so a proposal, and it
+  wants a considered place in the chrome rather than a control bolted to the
+  footer.
+- **`starquest` has no presentation mode of its own**, on the argument that a
+  tier is not a posture: young-adult and general readers do the same thing with
+  their hands, and the difference between them is register and block length.
+  Worth revisiting if the Five-O material ever grows an index-like reading
+  behaviour of its own.
+- **Five of the seven editions ship the default hero cast.** `pets` is the only
+  one that recasts it. The two contemplative editions in particular have a
+  legitimate answer available to "whose story is this, here?" and are not using
+  it.
+- **`solarized` fails the 4.5:1 contrast floor on eleven pairs** and is exempt
+  in `scripts/check-contrast.js` as a faithful reproduction of a published
+  palette. Safe only while no edition ships it — a standing condition rather
+  than a settled exemption.
+- **No edition sets the `light`, `sepia` or `high-contrast` palette**, so those
+  three exist only for an independent host. Whether a reader here should be able
+  to reach them is the same question as the switcher above, and probably has the
+  same answer.

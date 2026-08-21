@@ -356,6 +356,23 @@ for d in fianilchruinne.com starquest.site church-space.site; do printf '%-24s %
 | `sepia` | standard | Warm parchment/e-reader tone for long reading sessions. |
 | `solarized` | standard | Ethan Schoonover's Solarized Dark palette. |
 
+Every palette is checked against WCAG 2.2 AA contrast for normal text (4.5:1) by `node scripts/check-contrast.js`, on the pairs `main.css` actually composes — including hover states, and the two-steps-darker `--color-surface-2` that badges and chapter labels sit on, where a colour chosen against the page background is often a third under the floor. Run it after editing any palette in `scripts/generate-themes.js` (and after `npm run generate-themes`, since it reads the generated files). It exits non-zero on a failure and is not part of `npm test` for that reason. `solarized` is exempt and says why in the script: it is a faithful reproduction of a published palette, opt-in only, and no edition ships it.
+
+#### Presentation modes — the third axis
+
+A palette answers *what colour is this domain*; a presentation mode answers *how does it want to be read*. They were one axis until August 2026 and separated when the Fellowship's codex site needed the Fellowship's palette and an index's density — a thing `THEME` cannot express.
+
+The mode is a property of the **edition**, not of a clone: it is set in `lib/editions.js` and there is deliberately **no `deploy.conf` key for it**. It also needs no deploy plumbing at all, unlike `THEME` — the deploy copies a *stylesheet* over `main.css`, whereas a mode is a `data-presentation` attribute `src/_includes/base.njk` writes onto `<html>` from the edition record the build already resolved through `EDITION`.
+
+| Mode | Editions | What it changes |
+|---|---|---|
+| `story` | default, sciencefiction, starquest | The site's own values: 18px root, 1.7 leading, 72ch measure. Every other mode is a departure from it. |
+| `primer` | pets | 20px root, 58ch measure, more space between paragraphs, finger-sized POV buttons — the children's domain, optimised for finishing a block. |
+| `archive` | fellowship-archive | 17px root, 1.6 leading, 78ch measure, tighter spacing, short hero, left-aligned homepage — a filed record, browsed rather than read. |
+| `contemplative` | fellowship, church-space | 19px root, 1.9 leading, 62ch measure, wide paragraph spacing, headings in the body colour rather than the accent. |
+
+A mode moves only `:root` custom properties (with two documented exceptions where no property could carry the change), which is what lets the axes compose: `scripts/generate-themes.js` copies everything outside `:root` verbatim, so all four modes ship inside all nine palettes and `EDITION=fellowship-archive THEME=sepia` gets archive density in parchment colours. Registered modes live in `PRESENTATION_MODES` in [`lib/editions.js`](./lib/editions.js), and the build fails on an edition naming a mode that isn't registered, or on a registered mode `main.css` never implements — both otherwise serve the default posture while looking perfectly healthy. The per-edition reasoning is in `story-bible/edition-reader-profiles.md`.
+
 #### `CHARACTERS`, `TOPICS`, and `THREADS`
 
 Comma-separated, case-insensitive lists that narrow the deployed site to content related to the listed characters, topics, and/or storyline threads:
