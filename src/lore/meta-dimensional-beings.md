@@ -25,6 +25,16 @@ Levrils mark the upper limit of what Material-layer beings can negotiate with. B
 
 See: [Levrils](/star-rangers/lore/levrils/)
 
+> **On the names below.** *Court-Fae*, *Gilded Saints*, *Demons*, *Beautiful
+> Monsters*, *Threnes*, *Cute Predators* — these are [Unfounded](/star-rangers/glossary/unfounded/),
+> and the names are **modes of failure rather than kinds**. Nothing in Classes
+> II and III exists by design, so there is no decision for a category to record;
+> what a name records is how the counterfeit runs. The **Class II / Class III
+> split itself does** survive that, because sapience is an observed capability
+> and an operational fact, not a claim about design. Class I is different in
+> kind: Levrils are founded, and *Higher Levril* and *Dragon* are real
+> subclasses of a real tier.
+
 ### Class II — Sapient Monsters
 
 Meta-dimensional beings with a degree of sapience — goal-directed, adaptive, capable of learning and strategy — but without Cascade standing. They are not bound by Cascade constraints and not protected by them. Their sapience makes them more dangerous than incursives because they learn, adjust, and exploit.

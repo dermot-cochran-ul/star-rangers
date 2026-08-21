@@ -9,7 +9,7 @@ plain: "Some beings from outside our universe feed on feelings instead of food. 
 
 The most dangerous predator in a boundary story often arrives looking harmless, admirable, or simply overdue. That is why the classification starts with feeding pattern, not appearance.
 
-Three classes of predatory meta-dimensional entity exploit social, emotional, and moral dynamics to feed. They are sometimes called "beautiful monsters" because they tend to manifest in appealing or non-threatening forms. (This is an informal nickname for the group, unrelated to the specifically named "Beautiful Monsters" type — see [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/).)
+Three named modes of predatory meta-dimensional failure exploit social, emotional, and moral dynamics to feed. *Mode* rather than *class* is deliberate and is the settled position: these are [Unfounded](/star-rangers/glossary/unfounded/), nothing among them exists by design, and the names record how a counterfeit runs rather than a kind it belongs to. They are sometimes called "beautiful monsters" because they tend to manifest in appealing or non-threatening forms. (This is an informal nickname for the group, unrelated to the specifically named "Beautiful Monsters" type — see [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/).)
 
 All three are meta-dimensional beings. Court-Fae and Gilded Saints are **sapient monsters** (Class II meta-dimensional beings): goal-directed, adaptive, and capable of sustained deception. Cute Predators are **non-sapient** (Class III): their behaviour is instinctive pattern-matching, not strategy.
 
