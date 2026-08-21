@@ -173,13 +173,18 @@ registers no copy overrides at all, so it looks like the canonical site and
 carries a subset of it. That is the correct relationship: it is the front door
 to the main sequence, not a different building.
 
-**Cast:** none, and it cannot have one. This domain carries **no character
-page at all** — characters are matched by id or tag and never by season the way
-chapters are, so narrowing by thread drops all 74 of them, the `/characters/`
-index is empty here and every character page is a placeholder. The homepage
-falls back to the static hero image, correctly and silently. Measured
-2026-08-21; the fix is a decision about what this domain should carry, not a
-cast, and it is open.
+**Cast** (its own since 2026-08-21): Tissadelle, Galahad, Rook, Aldera, Syra,
+Wender — deliberately not the default six. This domain fronts the founding era
+and the Tissadelle arc specifically, so Galahad and Tissadelle lead on ten
+chapters each, and **Wender is here where the canonical domain has Iona**: the
+Chief Pilot who becomes High Captain is a founding-era face, and the domain that
+holds everything can afford to be even-handed where this one should not be.
+
+Until that day the domain carried **no character page at all** — characters are
+matched by id or tag and never by season the way chapters are, so narrowing by
+thread shipped every chapter and dropped all 74 of the people in them. Dermot's
+ruling was to give the edition a `characters: [...]` list of every POV id its
+own seasons use: **114 shown pages → 244**, 0 character pages → 16.
 
 **Never** let this be the domain that fixes a missing general-tier thread by
 accident. `THREADS` cannot express "everything except", so every future
@@ -471,10 +476,12 @@ Added to `open-questions.md` in the same pass.
   **five of seven editions were rendering no slideshow at all**, falling back to
   the static hero image. Six of seven now show a real one, and
   `validate-content.js` fails the build on a cast an edition cannot render.
-  What remains is the one that could not be fixed with a cast: **sciencefiction
-  carries no character page at all**, so the general tier fronts the main story
-  with none of its people. That is a decision about what the domain should
-  carry — see `open-questions.md`.
+  The one that could not be fixed with a cast — **sciencefiction carried no
+  character page at all** — was ruled the same day: it gets a `characters: [...]`
+  list of every POV id its own seasons use, so all seven editions now render a
+  hero. What is left is the structural version of that fix (tag character pages
+  with their thread ids and no edition needs a list at all) and two POV ids that
+  look like drift; both are in `open-questions.md`.
 - **`solarized` fails the contrast floor on eleven pairs** and is exempt as a
   faithful reproduction. It stays safe only while no edition ships it; that is a
   standing condition, not a one-off.

@@ -490,20 +490,31 @@ canon; the first is the only one that would add a reader-facing feature.
   all** and falling back to the static hero image, silently and for as long as
   the narrowing has existed. Six of seven now show a real one, and
   `validate-content.js` fails the build on a cast an edition cannot render.
-- **Should sciencefiction.site carry the story's characters?** — **open, raised
-  21 August 2026**, and the one edition a cast could not fix. It carries **no
-  character page at all**: characters are matched by id or tag and never by
-  season the way chapters are, so `threads: ["founding-era", "tissadelle-arc"]`
-  drops all 74 of them. The `/characters/` index on the general-tier domain is
-  empty and every character page there is a placeholder. Two ways to fix it, and
-  the choice is Dermot's because both widen what a live domain publishes: a
-  `characters: [...]` list on the edition (registry-only, and it also pulls in
-  the lore and timeline entries those bios link to), or tagging character pages
-  with their thread ids (a content sweep, and it would fix the same gap on every
-  future thread-narrowed domain at once). Doing nothing is also a real option —
-  a general-tier domain that is chapters and lore, with people met inside the
-  prose rather than in an index. `heroCharacterIds: []` records the current
-  state explicitly in the meantime.
+- ~~**Should sciencefiction.site carry the story's characters?**~~ — **ruled 21
+  August 2026: yes, by a `characters: [...]` list on the edition.** It had
+  carried none: characters are matched by id or tag and never by season the way
+  chapters are, so `threads: ["founding-era", "tissadelle-arc"]` shipped every
+  chapter and dropped all 74 of the people in them. The list is every distinct
+  `povs` id across the seasons those two threads own that has a character page —
+  a rule rather than a taste, so it can be re-derived. Measured: **114 shown
+  pages → 244**, 0 character pages → 16.
+- **Two POV ids look like id drift** — noticed while deriving the list above,
+  and not chased, because it is a content question rather than a filtering one.
+  Eight POV ids in general-tier chapters have no character page: `pitch`,
+  `kilbride`, `voss`, `solano`, `okafor`, `adaeze`, `krast`, `tobble`. Most are
+  people who have not earned a page. But the corpus has `petra-voss` and
+  `dagny-voss` as pages while chapters say `voss`, and `maren-solveig-krast`
+  while chapters say `krast` — so either those POV blocks are about different
+  people, or two chapters are naming a character by an id nothing resolves.
+  Worth an hour with the chapters concerned.
+- **The structural alternative was not taken**, and is still available: tagging
+  character pages with their thread ids would make thread narrowing carry its own
+  people on every domain, present and future, instead of each edition
+  maintaining a list. It is a corpus sweep rather than a config change, which is
+  why it was not done in the same pass — but the maintenance duty it removes is
+  real, and it now applies twice on the sciencefiction entry (a new general-tier
+  thread must be added to `threads`, and a new general-tier POV character to
+  `characters`).
 - **`solarized` fails the 4.5:1 contrast floor on eleven pairs** and is exempt
   in `scripts/check-contrast.js` as a faithful reproduction of a published
   palette. Safe only while no edition ships it — a standing condition rather
