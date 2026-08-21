@@ -14,7 +14,7 @@ const {
   getRelatedContentUrls
 } = require("./lib/content-filter");
 const { threadForSeason, DEFAULT_REFERENCE_DOMAIN } = require("./lib/storyline-threads");
-const { getEdition, validateEditions } = require("./lib/editions");
+const { getEdition, validateEditions, PRESENTATION_MODES } = require("./lib/editions");
 
 // Classifies a content file by where it LIVES (its inputPath), not by its
 // `layout` front-matter field. `layout` is itself one of the eleventyComputed
@@ -228,6 +228,15 @@ module.exports = function(eleventyConfig) {
   });
   eleventyConfig.addGlobalData("edition", getEdition());
 
+  // The presentation-mode registry, for the reader-side switcher in base.njk.
+  // Exposed as data rather than hardcoded in the template so the control and
+  // lib/editions.js cannot list different modes - the failure would be a button
+  // that sets an attribute no CSS matches, which looks like nothing happening.
+  // The id list is separate because the inline <head> script needs it as a JSON
+  // array to validate a stored value against, and Nunjucks has no keys filter.
+  eleventyConfig.addGlobalData("presentationModes", PRESENTATION_MODES);
+  eleventyConfig.addGlobalData("presentationModeIds", Object.keys(PRESENTATION_MODES));
+
   // Same pattern as THEME above, but a plain on/off switch: lets a build
   // suppress the giscus comment widget entirely (see src/_includes/base.njk)
   // without touching the per-page comments/commentsCategory front matter
@@ -416,10 +425,32 @@ module.exports = function(eleventyConfig) {
   // CHARACTERS/TOPICS/THREADS narrowing (see lib/content-filter.js) simply
   // isn't in that collection and is silently skipped here, the same way a
   // typo'd id would be, rather than needing its own separate filtering pass.
+  // Front matter can carry an absent, empty or whitespace-only value and all
+  // three mean "no image"; only the first is falsy on its own.
+  const isBlankValue = (v) => v === undefined || v === null || String(v).trim() === "";
+
   eleventyConfig.addFilter("charactersByIds", (characters, ids) =>
     (ids || [])
       .map((id) => (characters || []).find((c) => c.data.id === id))
       .filter(Boolean)
+  );
+
+  // Pages that actually have a picture. Kept separate from charactersByIds
+  // rather than folded into it: that filter answers "which characters are
+  // these ids", which a future caller may want for a list of names, and a
+  // resolver that silently drops entries for a reason in its own name is the
+  // kind of surprise that costs an afternoon.
+  //
+  // Added 2026-08-21 for the homepage hero. An edition's heroCharacterIds may
+  // name a character with no `image:` - 24 of the 76 character pages have
+  // none - and the slideshow rendered that as <img src=".../characters/">,
+  // a request for the directory itself. Elvira is in the DEFAULT cast, so
+  // every domain but undercover-pets.com was serving one broken slide of six
+  // on the one page every reader lands on first. Silent, because a hero slide
+  // is aria-hidden and decorative: nothing announces it and the crossfade
+  // simply showed a gap where a portrait should be.
+  eleventyConfig.addFilter("withImages", (pages) =>
+    (pages || []).filter((p) => p && p.data && !isBlankValue(p.data.image))
   );
 
   // Same resolve-by-id pattern as charactersByIds, but codex entries have no
