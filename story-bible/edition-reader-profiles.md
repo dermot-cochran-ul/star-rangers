@@ -132,8 +132,12 @@ the others are recognisably variations of.
 
 **Voice** the neutral register — the forty-seconds-wrong tagline in its
 unmodified form, naming the Five Layers, the Grand Ensemble Multiverse and the
-Star Rangers without pitching any of them. Hero cast: Aldera, Iona, Elvira,
-Galahad, Rook, Syra. Sound: Celtic ambient.
+Star Rangers without pitching any of them. **Cast:** Tissadelle, Aldera, Iona,
+Galahad, Rook, Syra — the arc's protagonist first, which she was not until
+2026-08-21. She replaced Elvira, who has no portrait and was therefore being
+dropped from the slideshow, so the domain that holds everything was showing
+five slides and missing the one person the main sequence is about.
+Sound: Celtic ambient.
 
 **Never** narrow it. It holds everything, which is what lets every other
 edition be a subset of something rather than a fragment of nothing. The one
@@ -168,6 +172,14 @@ record around them.
 registers no copy overrides at all, so it looks like the canonical site and
 carries a subset of it. That is the correct relationship: it is the front door
 to the main sequence, not a different building.
+
+**Cast:** none, and it cannot have one. This domain carries **no character
+page at all** — characters are matched by id or tag and never by season the way
+chapters are, so narrowing by thread drops all 74 of them, the `/characters/`
+index is empty here and every character page is a placeholder. The homepage
+falls back to the static hero image, correctly and silently. Measured
+2026-08-21; the fix is a decision about what this domain should carry, not a
+cast, and it is open.
 
 **Never** let this be the domain that fixes a missing general-tier thread by
 accident. `THREADS` cannot express "everything except", so every future
@@ -205,6 +217,13 @@ that is when it earns `archive` or something new, and not before.
 seconds of drift, eleven years unexplained… that's not a rounding error, it's a
 warning."* Sound: sci-fi ambient.
 
+**Cast** (its own since 2026-08-21): Larsen, Albercombe, Voss, Calloway, Jeeves
+— a jurisdiction seen top to bottom, which is what the procedural is actually
+about. Larsen leads because the task force is the show; Jeeves is last because
+the joke lands better once the hierarchy has been established. These five are
+also the entire pool this domain carries with a portrait, which is luck rather
+than design, and it is the right five regardless.
+
 **Never** let the palette write cheques the tone rule will not honour. Neon and
 procedural pace can slide toward threat; unsettling, never horror, holds here
 exactly as elsewhere.
@@ -240,9 +259,11 @@ checked. Now rust `#a34726` at 4.66:1 or better everywhere, with a darker
 hover. It reads slightly deeper than the old coral and still warm.
 
 **Voice** the standard tagline, unmodified — the edition's own face is its
-name, its brand and its cast. The **only** edition that recasts the hero
-slideshow: Barsik, Bubochka, the Eden warden, Nessa, Rasa Oyelaran. Sound:
-playful ukulele.
+name, its brand and its cast. **Cast:** Barsik, Bubochka, the Eden warden,
+Nessa, Rasa Oyelaran — unchanged on 2026-08-21 when every other edition got one,
+because this was the only edition that had ever had a cast of its own and it is
+already right: three animals, the habitat's AI, and the one adult who outranks
+everybody. Sound: playful ukulele.
 
 **Never** file a child-facing page that depends on an adult block to make
 sense. A child reading only the pet POVs must be able to follow what happened —
@@ -279,6 +300,15 @@ shared with church-space and sepia: the reading-for-its-own-sake face.
 named them Rangers, an older order kept vigil at boundaries like this one"* —
 and the only one that recasts the corps as inheritors rather than protagonists.
 Sound: orchestral fantasy.
+
+**Cast:** Asteria and Brother Fintan — two portraits, the calmest crossfade on
+the site. Both are Rangers who finished a career and traded it for a
+contemplative one, from two different orders, which states the tier's whole
+theme without a caption. They are also the only two characters this domain
+carries with a portrait. Asteria alone would be the identity-purist choice, she
+being the Fellowship's own Sage where Fintan keeps a Communion house; this entry
+is "the order entire" and carries the contemplative thread whole, so it holds
+both.
 
 **Never** narrow this domain. It ranks for its family, and the invariant is
 that a ranking domain must include every page its siblings include, or a
@@ -319,6 +349,11 @@ be credited with them, each valid for the hand that wrote it and none of it the
 last word. That sentence is the Codex's own canon status said in front-of-house
 language, which is what makes this edition honest.
 
+**Cast:** Asteria, alone and still. One slide is not a degraded slideshow here —
+`main.css`'s `:first-child` rule renders it as a plain portrait — and a file of
+documents does not need a parade. She is also the only character this filter
+carries with an image.
+
 **Never** let it carry a page the central site does not. A codex site is a
 filtered view of the central codex; the moment it has an entry of its own, this
 is per-domain canon by another route, which is exactly the failure
@@ -355,6 +390,13 @@ one clause: *a High Captain and a Cadet sit in the same station chapel on the
 same footing, because its only qualification for belonging is showing up.*
 Sound: the Rotational Hum — the one m4a among five wav files, and the model for
 new audio.
+
+**Cast:** Brother Fintan, alone and still — the Communion's own keeper, and the
+most this front page should say. He is also the only character this domain
+carries with a portrait; the two facts agreeing is luck, but the answer would be
+the same with a larger pool. Worth knowing before anyone reuses it: his image is
+a designed title card rather than a photographic portrait, so this hero reads
+more like a codex card than the others do.
 
 **Never** let the overlay become load-bearing. Its chapters carry no
 `canon_facts`, establish nothing, and the main story must never come to depend
@@ -423,9 +465,16 @@ Added to `open-questions.md` in the same pass.
 - **`starquest` has no mode of its own**, on the argument above that a tier is
   not a posture. Worth revisiting if the Five-O material grows an index-like
   reading behaviour.
-- **Five of seven editions ship the default hero cast.** `pets` is the only one
-  that recasts it. For the two contemplative editions in particular, a cast that
-  answers "whose story is this here?" is available and unused.
+- ~~**Five of seven editions ship the default hero cast.**~~ **Cast per edition,
+  21 August 2026** — and the measurement that came with it was worse than the
+  question implied. The default cast is filtered out on every narrowed domain, so
+  **five of seven editions were rendering no slideshow at all**, falling back to
+  the static hero image. Six of seven now show a real one, and
+  `validate-content.js` fails the build on a cast an edition cannot render.
+  What remains is the one that could not be fixed with a cast: **sciencefiction
+  carries no character page at all**, so the general tier fronts the main story
+  with none of its people. That is a decision about what the domain should
+  carry — see `open-questions.md`.
 - **`solarized` fails the contrast floor on eleven pairs** and is exempt as a
   faithful reproduction. It stays safe only while no edition ships it; that is a
   standing condition, not a one-off.

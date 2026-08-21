@@ -483,10 +483,27 @@ canon; the first is the only one that would add a reader-facing feature.
   their hands, and the difference between them is register and block length.
   Worth revisiting if the Five-O material ever grows an index-like reading
   behaviour of its own.
-- **Five of the seven editions ship the default hero cast.** `pets` is the only
-  one that recasts it. The two contemplative editions in particular have a
-  legitimate answer available to "whose story is this, here?" and are not using
-  it.
+- ~~**Five of the seven editions ship the default hero cast.**~~ — **cast per
+  edition, 21 August 2026**, at Dermot's direction. The measurement that came
+  with it was worse than the question: the default cast is filtered out on every
+  narrowed domain, so five of seven editions were rendering **no slideshow at
+  all** and falling back to the static hero image, silently and for as long as
+  the narrowing has existed. Six of seven now show a real one, and
+  `validate-content.js` fails the build on a cast an edition cannot render.
+- **Should sciencefiction.site carry the story's characters?** — **open, raised
+  21 August 2026**, and the one edition a cast could not fix. It carries **no
+  character page at all**: characters are matched by id or tag and never by
+  season the way chapters are, so `threads: ["founding-era", "tissadelle-arc"]`
+  drops all 74 of them. The `/characters/` index on the general-tier domain is
+  empty and every character page there is a placeholder. Two ways to fix it, and
+  the choice is Dermot's because both widen what a live domain publishes: a
+  `characters: [...]` list on the edition (registry-only, and it also pulls in
+  the lore and timeline entries those bios link to), or tagging character pages
+  with their thread ids (a content sweep, and it would fix the same gap on every
+  future thread-narrowed domain at once). Doing nothing is also a real option —
+  a general-tier domain that is chapters and lore, with people met inside the
+  prose rather than in an index. `heroCharacterIds: []` records the current
+  state explicitly in the meantime.
 - **`solarized` fails the 4.5:1 contrast floor on eleven pairs** and is exempt
   in `scripts/check-contrast.js` as a faithful reproduction of a published
   palette. Safe only while no edition ships it — a standing condition rather
