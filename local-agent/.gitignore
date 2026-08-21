@@ -1,0 +1,3 @@
+# Local, per-machine config — may name internal endpoints; never committed.
+agent.config.json
+__pycache__/
