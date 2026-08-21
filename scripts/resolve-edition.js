@@ -83,6 +83,12 @@ if (!isRegistered || !resolved) {
   out.push(`RESOLVED_SITE_TITLE=${shellQuote(resolved.siteTitle || "")}`);
   out.push(`RESOLVED_RANKS_AT=${shellQuote(resolved.ranksAt || "")}`);
   out.push(`RESOLVED_GISCUS_PROFILE=${shellQuote(resolved.giscusProfile || "")}`);
+  // NOT emitted: `presentation` (lib/editions.js PRESENTATION_MODES). It has no
+  // deploy.conf key to fill in, because it needs no deploy plumbing - EDITION is
+  // already exported into the Eleventy build, which resolves the record itself
+  // and writes the mode onto <html> from base.njk. THEME is here only because
+  // the deploy COPIES a stylesheet over main.css. --format json still shows it,
+  // which is the right place to look when asking what a domain resolves to.
   out.push(`RESOLVED_COMMENTS_ENABLED=${shellQuote(resolved.commentsEnabled === false ? "false" : "true")}`);
 }
 console.log(out.join("\n"));
