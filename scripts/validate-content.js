@@ -346,6 +346,114 @@ function checkFrontMatterImageUrlResolves(data, relativePath, index) {
   ];
 }
 
+// Every edition's hero cast has to be able to RENDER on that edition. Three
+// ways it silently cannot, all of them found live on 2026-08-21:
+//
+//   1. The id names no character page at all.
+//   2. The page exists but has no `image:`. src/index.md drops it (the
+//      withImages filter), and before that filter existed it emitted an <img>
+//      pointing at the characters directory. Elvira was in the DEFAULT cast.
+//   3. The page exists and has a portrait, but this edition's own filter
+//      excludes it - so the slide is not there on the domain that asked for it.
+//
+// (3) is the one that had eaten the site. Four of the seven editions listed a
+// cast made entirely of characters their own CHARACTERS/TOPICS/THREADS filtered
+// out, so heroCharacters resolved empty and the homepage quietly fell back to
+// the static hero image. Five of seven domains had no slideshow and nothing
+// anywhere said so: the fallback is deliberate, correct, and indistinguishable
+// from a design decision.
+//
+// Nothing else can catch this. lib/editions.js knows the cast but not the
+// corpus; validate-content.js knows the corpus but had no reason to look at the
+// registry; the build renders a perfectly valid page either way. It is exactly
+// the shape of failure this file exists for, so it lives here rather than in a
+// local tool - a cast that cannot render should fail CI.
+//
+// A WARNING, not an error, for an edition whose whole pool is empty: that is a
+// statement about what the domain carries rather than a mistake in the cast,
+// and the fix is a decision about the domain (widen it, or accept the static
+// hero) rather than an edit to this list.
+function checkEditionHeroCasts(characterPages) {
+  const { DEFAULT_EDITION, allEditions, editionFor } = require("../lib/editions");
+  const { getContentFilter, isCharacterIncluded } = require("../lib/content-filter");
+
+  const byId = new Map();
+  for (const { data, relativePath } of characterPages) {
+    if (!isBlank(data.id)) byId.set(String(data.id).toLowerCase(), { data, relativePath });
+  }
+
+  // getContentFilter() reads the three env vars and caches nothing, so setting
+  // them around the call is the honest way to ask "what would this edition's
+  // build see?" without duplicating the filter's own union logic here - which
+  // would then be a second copy to keep in step with lib/content-filter.js.
+  function filterFor(edition) {
+    const saved = {
+      CHARACTERS: process.env.CHARACTERS,
+      TOPICS: process.env.TOPICS,
+      THREADS: process.env.THREADS
+    };
+    try {
+      process.env.CHARACTERS = (edition.characters || []).join(",");
+      process.env.TOPICS = (edition.topics || []).join(",");
+      process.env.THREADS = (edition.threads || []).join(",");
+      return getContentFilter();
+    } finally {
+      for (const [key, value] of Object.entries(saved)) {
+        if (value === undefined) delete process.env[key];
+        else process.env[key] = value;
+      }
+    }
+  }
+
+  const problems = [];
+  for (const entry of [DEFAULT_EDITION, ...allEditions()]) {
+    const edition = editionFor(entry.id);
+    const filter = filterFor(edition);
+    const ids = edition.heroCharacterIds || [];
+    const renderable = [];
+
+    for (const rawId of ids) {
+      const id = String(rawId).toLowerCase();
+      const page = byId.get(id);
+      if (!page) {
+        problems.push(`edition "${edition.id}" casts "${rawId}", which is not a character id`);
+        continue;
+      }
+      if (isBlank(page.data.image)) {
+        problems.push(
+          `edition "${edition.id}" casts "${rawId}", whose page has no image: - the slideshow drops it`
+        );
+        continue;
+      }
+      if (!isCharacterIncluded(page.data, filter)) {
+        problems.push(
+          `edition "${edition.id}" casts "${rawId}", which its own filter excludes - the slide never renders on that domain`
+        );
+        continue;
+      }
+      renderable.push(id);
+    }
+
+    // An edition with a pool of zero cannot be fixed from this list, so say so
+    // once and do not fail: the static hero is a legitimate front page.
+    if (!renderable.length && ids.length) {
+      const pool = [...byId.values()].filter(
+        (p) => !isBlank(p.data.image) && isCharacterIncluded(p.data, filter)
+      ).length;
+      console.warn(
+        `WARN: edition "${edition.id}" renders no hero slideshow - ` +
+        (pool
+          ? `none of its cast survives its own filter (${pool} character(s) with a portrait do).`
+          : "it carries no character page with a portrait at all, so the homepage uses the static hero image.")
+      );
+    }
+  }
+
+  return problems.length
+    ? [{ relativePath: "lib/editions.js", label: "hero casts", problems }]
+    : [];
+}
+
 // An image no page references is either a leftover from a deleted entry or a
 // file whose reference was renamed - both silent, both worth knowing about.
 function checkOrphanImages(index, corpus) {
@@ -488,6 +596,8 @@ function main() {
   const chainCurrent = new Map();
   const imageFiles = findImageFiles(IMAGES_DIR);
   const imageIndex = indexImages(imageFiles);
+  // Collected on the way past, for the hero-cast check below.
+  const characterPages = [];
 
   for (const filePath of files) {
     const relativePath = path.relative(process.cwd(), filePath);
@@ -504,7 +614,10 @@ function main() {
 
     const problems = checkAgainstSchema(data, schema);
     if (isChapter) problems.push(...checkChapterConsistency(filePath, data, relativePath));
-    if (schema === CONTENT_TYPES.character) problems.push(...checkKnownCodex(data, codexSlugs));
+    if (schema === CONTENT_TYPES.character) {
+      problems.push(...checkKnownCodex(data, codexSlugs));
+      characterPages.push({ data, relativePath });
+    }
     problems.push(...checkVersionChain(data, urlSet));
     if (!isBlank(data.version_of) && isBlank(data.superseded_by)) {
       const base = String(data.version_of);
@@ -567,6 +680,7 @@ function main() {
   fileProblems.push(...checkOrphanImages(imageIndex, corpus));
   fileProblems.push(...checkDuplicateImages(imageFiles));
   fileProblems.push(...checkStoryBibleImageRefs(imageIndex));
+  fileProblems.push(...checkEditionHeroCasts(characterPages));
 
   if (fileProblems.length === 0) {
     console.log(`Content validation passed (${files.length} files, ${imageIndex.byRelPath.size} images checked).`);
