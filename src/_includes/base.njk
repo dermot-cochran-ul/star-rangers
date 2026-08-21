@@ -1,5 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ site.language | default('en') }}">
+{#- data-presentation is the PRESENTATION MODE this edition asked for
+    (lib/editions.js PRESENTATION_MODES, implemented in src/css/main.css).
+    On <html> rather than <body> so the mode can move :root custom properties -
+    including the root font-size, which a body-level attribute could not reach.
+    Always emitted, since every edition record resolves a mode: "story" is a
+    real value with no rules of its own rather than an absent one. -#}
+<html lang="{{ site.language | default('en') }}" data-presentation="{{ edition.presentation }}">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
