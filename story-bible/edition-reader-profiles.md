@@ -409,14 +409,17 @@ for Dermot rather than merges.
 
 Added to `open-questions.md` in the same pass.
 
-- **A reader-side presentation switcher.** The mode is a build-time property of
-  the edition; a reader who wants `contemplative` leading on the general-tier
-  domain cannot ask for it. The site's own constraints permit an answer — the
-  attribute is on `<html>`, so a switcher would be a few lines of JS and a
-  `localStorage` key, client-local, degrading to the edition's own mode with
-  nothing switched on. Not built: it is a reader-facing feature and therefore a
-  proposal, and it would want a considered place in the chrome rather than a
-  control bolted to the footer.
+- ~~**A reader-side presentation switcher.**~~ **Built 21 August 2026.** The
+  header carries a "Reading" control offering this domain's own setting plus the
+  other three modes; the choice is one `localStorage` key, client-local and
+  per-origin, and it is gone entirely without JS. What it changed here: the modes
+  now carry **two names each** — an engine name that says what a mode is *for*
+  (`primer`, and it is for the children's tier) and a reader-facing label that
+  says only what it *does* (**Large print**). A reader is choosing a type size,
+  not declaring an allegiance to another edition, and offering them
+  "Contemplative" on the general-tier domain would have asked them to do the
+  second in order to get the first. Reader labels: Standard, Large print,
+  Compact, Spacious.
 - **`starquest` has no mode of its own**, on the argument above that a tier is
   not a posture. Worth revisiting if the Five-O material grows an index-like
   reading behaviour.
