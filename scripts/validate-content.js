@@ -298,6 +298,54 @@ function checkFrontMatterImageExists(data, relativePath, index) {
   return [`image "${data.image}" does not exist under src/images/`];
 }
 
+// The check above proves the FILE exists somewhere under src/images/. This one
+// proves the URL the layout emits actually resolves, which is not the same
+// question and is the one a reader experiences.
+//
+// Found 2026-08-21 by a broken image on a live page. src/lore/planets/drithane.md
+// carried `image: "drithane.jpg"` and the file was the only one in the corpus
+// sitting in src/images/lore/planets/ rather than flat in src/images/lore/ with
+// every other planet's. lore-entry.njk hardcodes /images/lore/ and appends the
+// front-matter value, so the page requested /images/lore/drithane.jpg and got a
+// 404 - while the check above passed, because it falls back to matching the
+// BASENAME anywhere under src/images/ and found the file one directory over.
+//
+// That fallback is not a bug and is deliberately left alone: front matter
+// legitimately carries a partial path ("universes/si-gaoithe.jpg") that the
+// layout completes, so the basename match is what lets one check serve every
+// content type. What was missing is the stricter question underneath it, asked
+// per type: layout directory + front-matter value, exactly as the template
+// builds it.
+//
+// The map mirrors the five layouts that hardcode a category directory
+// (character.njk, codex.njk, lore-entry.njk, glossary-entry.njk, chapter.njk).
+// Two of them - glossary and chapters - have no page carrying an `image:`
+// today, so those rows are dormant rather than dead: they cost nothing and the
+// first such page gets checked instead of quietly 404ing.
+const IMAGE_DIR_BY_SECTION = {
+  characters: "characters",
+  codex: "codex",
+  lore: "lore",
+  glossary: "glossary",
+  seasons: "chapters"
+};
+
+function checkFrontMatterImageUrlResolves(data, relativePath, index) {
+  if (isBlank(data.image)) return [];
+  const section = relativePath.split(/[/\\]/)[1]; // "src/lore/planets/x.md" -> "lore"
+  const dir = IMAGE_DIR_BY_SECTION[section];
+  if (!dir) return [];
+  const value = String(data.image).replace(/^\/+/, "");
+  const rel = `${dir}/${value}`;
+  if (index.byRelPath.has(rel)) return [];
+  const elsewhere = index.byBasename.get(path.basename(value).replace(/\.[^.]+$/, "")) || [];
+  return [
+    `image "${data.image}" resolves to /star-rangers/images/${rel}, which does not exist` +
+    (elsewhere.length ? ` - the file is at src/images/${elsewhere.join(", src/images/")}` : "") +
+    ". The layout supplies the directory, so the front-matter value is the path BELOW it."
+  ];
+}
+
 // An image no page references is either a leftover from a deleted entry or a
 // file whose reference was renamed - both silent, both worth knowing about.
 function checkOrphanImages(index, corpus) {
@@ -463,6 +511,7 @@ function main() {
       chainCurrent.set(base, (chainCurrent.get(base) || []).concat(relativePath));
     }
     problems.push(...checkFrontMatterImageExists(data, relativePath, imageIndex));
+    problems.push(...checkFrontMatterImageUrlResolves(data, relativePath, imageIndex));
     for (const { threadId, signatureTag } of checkPrivateThreadSignatureTags(data)) {
       problems.push(
         `tagged "${signatureTag}" (a "${threadId}" signature tag - see lib/storyline-threads.js) but missing ` +
