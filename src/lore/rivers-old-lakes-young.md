@@ -4,6 +4,8 @@ title: "Rivers Old, Lakes Young"
 category: "Physics"
 tags: [rivers, lakes, freshwater, hydrology, tir-na-nog, wetlands, wells, physics, planets]
 description: "Rivers and lakes on Tír na nÓg and other habitable worlds: a river is the oldest unbuilt infrastructure a world has, a lake is recent news, and a well is a settlement's handshake with the water it cannot see."
+image: "young-lake-margin.jpg"
+image_alt: "Still lowland water risen over its own bank: bare-branched trees standing in the shallows, a gorse bush in yellow flower half-drowned at the margin, and soft rose and green light lying across the whole surface."
 ---
 
 A survey team can age a landscape from orbit before anyone lands, and the quickest instrument is a count of its lakes.
