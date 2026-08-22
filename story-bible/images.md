@@ -2516,6 +2516,15 @@ provenance without needing EXIF: it records a sensor-dust blemish on one of
 them as *"the known main-body Tamron artifact"*, which is his own lens, and
 notes that the highland set doubles as Órla Shepherd's home landscape.
 
+**Added to the third language, 2026-08-22: `lore/young-lake-margin.jpg`**
+(Rivers Old, Lakes Young) — Dermot's own D3100 frame, February 2025: a flooded
+Irish lakeshore, bare trees standing in the shallows, gorse in flower on the
+drowned bank. Routed here after failing the portfolio's bar (soft throughout —
+f/22 diffraction at ISO 4000 — with a car and fence on the far shore); the top
+strip carrying both was cropped away before the 1600px resize, so the frame
+holds nothing man-made. The softness stands: at page size it reads as
+atmosphere, the same licence the record already extends to `moorhen-wetland`.
+
 **Method, stated so a later audit knows what to trust:** six images were
 opened and read. The 66-page cohort is *inferred from caption style* and is
 not individually confirmed. Confirming it is its own pass — and per this
