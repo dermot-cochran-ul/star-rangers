@@ -6,6 +6,24 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [1.23.0] — 2026-08-22
+
+A release with a survey at its centre. The planetary-physics set — a dozen
+entries, from weather and tides to soils and night skies, with *Coasts, and
+Other Edges* as its capstone — walks the same physics across every kind of
+ground the habitable worlds have, and six of those pages now carry Dermot's
+own photographs, re-filed from the portfolio. Beside it, the constitutional
+thread arrived whole: the Enrolled Text, the Amendment Atlas, and Ilsabet
+Corren, who wrote it.
+
+The other half of the release is the editions growing into readers: a reader
+profile and style guide per edition, a hero cast per edition, presentation
+modes a reader can override for themselves, and a domain strategy that names
+which site carries which signal — each arriving with the check (contrast,
+hero casts, the URL a layout actually emits) that keeps it from failing
+silently. The portrait backlog closed too: `PORTRAIT PENDING` is gone from
+the cast.
+
 ### Added
 
 - **[Tides Without Shores](src/lore/tides-without-shores.md) gets its image — Dermot's own photograph** (2026-08-22). `lore/shoreless-sea.jpg`: the portfolio's *Sunset at Sea* as a radical left crop losing the ship's deck entirely — open water to a pink horizon with two distant vessels hull-down, kept because on a shoreless ocean the only witnesses are afloat. *Where the Water Was* judged unusable for the soils page on a second look (litter across the best texture); reason and upgrade path recorded in `story-bible/images.md`.
