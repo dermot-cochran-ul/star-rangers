@@ -47,4 +47,5 @@ One proposal to read the register as something more than law is currently laid o
 - [The Seat Allocation Protocol](/star-rangers/codex/the-seat-allocation-protocol/) — re-derivability as civic trust, in an electoral uniform
 - [Three Disciplines of the Record](/star-rangers/codex/three-disciplines-of-the-record/) — the argument that these are one discipline
 - [The Amendment Atlas](/star-rangers/codex/the-amendment-atlas/) — the proposal to read the register as data
+- [Enrolled Text](/star-rangers/glossary/enrolled-text/) and [Difference Form](/star-rangers/glossary/difference-form/) — the glossary's short forms of this entry's two terms
 - [The Orbital Habitats Compact](/star-rangers/lore/orbital-habitats-compact/) — the convention at habitat scale
