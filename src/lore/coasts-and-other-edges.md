@@ -4,6 +4,8 @@ title: "Coasts, and Other Edges"
 category: "Physics"
 tags: [coasts, coastlines, littoral, physics, planets, boundary, harbours, erosion]
 description: "Coasts and coastlines on habitable worlds: the fastest landform in the record, the address every settlement wants, and the everyday rehearsal for the edges the record actually exists to watch."
+image: "cloud-sea.jpg"
+image_alt: "A sea of cloud seen from a high slope, flat and white to the horizon under a clear sky, with two distant dark ridges standing out of it like islands and a forested ridgeline running down into the cloud."
 ---
 
 The Survey Corps does not record the length of any world's coastline, and the refusal is arithmetic rather than modesty. A coastline's measured length depends on the ruler: survey it by headland and you get one figure, by cove and you get a longer one, by boulder and longer again, without convergence. So the record stamps every coastal figure with the scale it was taken at and treats the question *how long is the coast* the way it treats every question of the wrong shape — by declining to pretend it has one answer.

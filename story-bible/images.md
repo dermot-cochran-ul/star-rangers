@@ -2525,6 +2525,37 @@ strip carrying both was cropped away before the 1600px resize, so the frame
 holds nothing man-made. The softness stands: at page size it reads as
 atmosphere, the same licence the record already extends to `moorhen-wetland`.
 
+**Four more, 2026-08-22, same session — the portfolio survey.** All 158
+photos published on dermotcochran.com were cross-matched against the
+image-less lore pages (Dermot picked these four from a shortlist of seven);
+each is his own frame, re-filed from the portfolio's 1600px site file:
+
+- **`lore/volcanic-strata.jpg`** (Stone, Fire, and Ice) — the portfolio's
+  *Volcanic Strata*, cropped to the strata alone (1300×695): the crop removes
+  a guardrail, a marker pole and a chain fence, and with the sky gone the
+  scale goes unreadable, which is the point. Under the ~1600px convention
+  because the source is the 1600px site file; a full-spec recrop from the
+  original on `F:` is the upgrade path if ever wanted.
+- **`lore/cloud-sea.jpg`** (Coasts, and Other Edges) — *Above the Clouds*,
+  unmodified: a cloud sea with distant ridges standing out of it, carrying
+  the entry's "shoreline between atmospheres" line. Nothing man-made in frame.
+- **`lore/grassland-storm-tree.jpg`** (The Ledger and the Truce) —
+  *Before the Storm*, unmodified: one flat-crowned tree in dry grassland
+  under a near-black storm sky — the truce with its enforcer arriving.
+- **`lore/drowned-forest.jpg`** (The Forest Is Waiting) — *The Drowned
+  Forest*, unmodified: a forest's century-bet lost, standing in the water
+  that called it. The faint pale structures along the far shore were judged
+  acceptable in-world (settled worlds have buildings; they read as haze at
+  page size).
+
+Not carried over from the shortlist, recorded so the survey isn't redone:
+*Where the Water Was* (soils — needs the dam furniture cropped and has
+litter fragments on the mud), *Sunset at Sea* (Tides Without Shores — only
+viable as a radical left-half crop losing the cruise deck), and *Garachico
+Rock* (The Cost of the Crossing — a summit cross survives every crop). The
+portfolio holds nothing for The Honest Dark (no night skies), Where the
+Weather Stops (no caves), or Quern's storm belt.
+
 **Method, stated so a later audit knows what to trust:** six images were
 opened and read. The 66-page cohort is *inferred from caption style* and is
 not individually confirmed. Confirming it is its own pass — and per this
