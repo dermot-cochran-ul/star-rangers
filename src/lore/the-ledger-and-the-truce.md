@@ -6,7 +6,7 @@ tags: [deserts, grasslands, biomes, physics, planets, climate, steppe, aridity]
 description: "Deserts and grasslands on habitable worlds: a desert is a line in a water ledger — not a temperature — and a grassland is a truce between desert and forest that something has to enforce."
 ---
 
-The driest surface in the settled record is also one of its coldest. [Fliade's](/star-rangers/lore/planets/fliade/) open ground is thin, dry, and mineral-sharp, swept by wind that smells of ice and deep stone — and it is a desert by the only definition the survey uses, which mentions no temperature at all. A desert is a line in a ledger: more water leaving the ground than arriving on it. Heat is one way to run that deficit. It is not the only way, and it is not even the most thorough.
+Among the driest surfaces in the settled record is one of its coldest. [Fliade's](/star-rangers/lore/planets/fliade/) open ground is thin, dry, and mineral-sharp, swept by wind that smells of ice and deep stone — and it is a desert by the only definition the survey uses, which mentions no temperature at all. A desert is a line in a ledger: more water leaving the ground than arriving on it. Heat is one way to run that deficit. It is not the only way, and it is not even the most thorough.
 
 ## A Desert Is a Signature
 
