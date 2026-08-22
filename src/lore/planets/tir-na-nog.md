@@ -47,6 +47,8 @@ Bare-branched treelines ring most of the planet's lowland waterways for a good t
 
 Smaller shorebirds work the tidal flats and standing water alongside the wading species, unbothered by the larger birds hunting nearby.
 
+The tides that work those flats have a raiser: a single large moon, which the founding cooperatives declined to rename for the same reason they kept the four-season calendar — the register lists it as **An Ghealach**, *the moon*, which is what Irish already called the one at home.
+
 ![A small pale shorebird standing on a rock at the water's edge](/star-rangers/images/lore/gull-on-rock.jpg)
 
 ## Coasts and Seasons

@@ -19,6 +19,8 @@ Ask a Union diplomat which charter world is hardest to get a straight answer fro
 
 The ark that reached Bruane carried five founding cooperatives that had never fully merged during transit — old disagreements over land tenure and grazing-rights custom, carried out of Earth's own crofting disputes and never resolved before departure. Survey data showed no single site generous enough to hold all five comfortably, and rather than force a shared settlement, the founding council let each cooperative claim its own valley or ridge system and govern it on its own terms.
 
+The glens the clans divided were cut by ice, long before anyone arrived to argue over them: Aethelrock carried glaciers once, in a colder age of its own, and the ice that ground its valleys out of the granite is entirely gone — an old world even in this, that its ice is finished. What the glaciers left is the land the whole polity is drawn on.
+
 The five founding claims hardened into the clans Aethelrock still keeps: **Clan Dubhghlas**, holding the southern lowland glens and most of the world's arable ground; **Clan Aonghas**, holding the eastern granite highlands and the bulk of the mining claims; **Clan Ó Ceallaigh**, holding the coastal fjord country and the fishing fleets; **Clan Ceridwen**, holding the central plateau and the world's only major fold-relay station; and **Clan Bryneth**, holding the northern high country, thinly populated and fiercely defended out of proportion to its size.
 
 ## Government Without a Government
