@@ -54,5 +54,6 @@ The founding name remains correct in historical citation, and documents carrying
 
 - [The Imperium](/star-rangers/lore/the-imperium/), [Military Space Command](/star-rangers/lore/military-space-command/), [United Space Consortium](/star-rangers/lore/united-space-consortium/) — the governments the compact outlasted
 - [The AI Safety Kernel](/star-rangers/lore/ai-safety-kernel/) — the Concord's most consequential single standard
+- [The Enrolled Text](/star-rangers/lore/the-enrolled-text/) — how the compact is actually kept: a founding enrolment, amendments in difference form, and a current text anyone may re-derive
 - [Concordant](/star-rangers/glossary/concordant/) — the cosmological zone the compact was named for, and the word the restyling gave back
 - [Formation of the Star Rangers](/star-rangers/lore/formation-of-star-rangers/)
