@@ -4,6 +4,8 @@ title: "Stone, Fire, and Ice"
 category: "Physics"
 tags: [mountains, volcanoes, glaciers, geology, physics, planets, terrain, erosion]
 description: "Mountains, volcanoes and glaciers on habitable worlds: a mountain is a rate, a volcano is the interior still speaking, and a glacier is the one archive no institution kept."
+image: "volcanic-strata.jpg"
+image_alt: "Tilted volcanic strata filling the whole frame: bands of dark tephra, rust, ochre and pale pumice running diagonally, each layer a separate eruption laid down and buried by the next."
 ---
 
 The survey vocabulary treats terrain as a noun, and the survey doctrine treats it as three verbs caught mid-sentence. A mountain is rising or wearing down; a volcano is a planet's interior still speaking; a glacier is weather that acquired momentum. Nothing about a habitable world's high country is finished, and reading it correctly means reading the tense.

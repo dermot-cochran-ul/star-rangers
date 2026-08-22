@@ -4,6 +4,8 @@ title: "The Forest Is Waiting"
 category: "Physics"
 tags: [forests, woodlands, trees, biomes, physics, planets, canopy, succession]
 description: "Forests and woodlands on habitable worlds: the default cover of watered land, a century-long bet on the climate keeping its word, and the living half of the archive the glaciers keep frozen."
+image: "drowned-forest.jpg"
+image_alt: "Bleached dead tree trunks standing bare out of open lake water, rafts of green weed drifting at their feet and a hazy blue hill on the far shore behind them."
 ---
 
 Twice in Winterbourne's parish records, a stretch of downland lost its flock — and went to scrub within a decade and toward woodland inside a century, both times, until the sheep came back. Nothing planted it. Nothing needed to. On every watered world in the record, the forest is not one possible outcome among several; it is what the land does when everyone else stops.
