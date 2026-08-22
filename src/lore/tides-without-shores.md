@@ -4,6 +4,8 @@ title: "Tides Without Shores"
 category: "Physics"
 tags: [tides, ocean-currents, water-worlds, saltmere, thalassa, physics, oceanography, moorings]
 description: "Ocean currents and tides on water worlds like Saltmere and Thalassa: what circulation becomes when there is no land to stop it, and what a tide is on a world where nobody has ever watched one come in."
+image: "shoreless-sea.jpg"
+image_alt: "Open ocean at dusk with no land anywhere in sight: violet water running out to a band of pink light on the horizon, and two distant vessels hull-down on the line between them."
 ---
 
 The Saltmere survey notes its submerged seamounts as *too deep to break the surface at any tide* — five words of boilerplate that quietly carry the whole subject. A shoreless world still has tides. What it does not have is anywhere to watch them from.
