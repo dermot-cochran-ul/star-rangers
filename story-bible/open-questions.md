@@ -415,6 +415,23 @@ not evaporate between sessions.
   thread; and every Communion and Cnoc na mBeach page is private-thread
   material, so that side of the tier can never produce a codex site.
 - **[The Enrolled Text](../src/lore/the-enrolled-text.md) and [The Amendment Atlas](../src/codex/the-amendment-atlas.md)**, drafted 22 August 2026 from his direction (a constitution kept like a versioned record: the founding compact as the original enrolment, amendments as reviewed differences, and a discussion of reading the amendment record as data for charting how rights move over centuries). **Approved and merged 22 August 2026 (#526).** One thing still deliberately open, a story hook rather than a gap: whether anyone ever *draws* the Atlas (Corren's four sheets are proposed, not built — sheet one's "is the personhood line monotone?" is a question a future season could answer either way). The other two closed the same day at Dermot's direction: glossary mirrors for *enrolled text* / *difference form* were **ruled yes and merged (#528)**, on the `commissioned-standing` pattern under the glossary's `Records` category; and **Ilsabet Corren's character page was drafted and approved-and-merged the same day (#529)** (`src/characters/ilsabet-corren.md`). What the page commits beyond her paper: an origin story for her method (she once exercised Schedule C's C-9 verification clause as an elector, arrived at different seats, and found the error on the third pass in her own arithmetic — the count was right, the exercise measured her), and nothing about her world of origin, family or age, all left as marked absences.
+- **The first "Noted" fan-work reference**, drafted 22 August 2026 and not
+  merged — it points the official site at a third party's work, so it is
+  draft-and-stop. The fork `tissadelleshepherd/star-rangers` (single commit,
+  17 August 2026) adds two files to a stale snapshot of this repo: an empty
+  `src/images/fan/Readme.md` and an uncaptioned AI-generated image (Botify AI
+  watermark) of a red-haired, blue-eyed woman on a beach — by the account's
+  name and the likeness, evidently Tissadelle off duty. The draft adds a
+  "Noted" paragraph to the About page's fan-works section under the standing
+  *referenced, not endorsed* formula (settled 2026-07-26; register word
+  *Noted* per `CONTENT-LICENSE.md`). Things only Dermot can call: whether the
+  site references this fork at all (the fork carries no "unofficial" labelling
+  of its own, and the image is watermarked output of a companion-chatbot app,
+  which may not be the first fan work he wants the site pointing at); whether
+  the reader-facing line should name the character or stay silent on the
+  identification; and, if more arrive, whether "Noted" stays a paragraph or
+  becomes a list. Referencing it does not make it chartered — the axes are
+  independent.
 - **The Fold Transit Safety branch origin story**, **#430**. Boundary Safety
   and AI Safety each got a history on 16 August; Fold Transit is named and
   unexplained. Most of the raw material already exists in
