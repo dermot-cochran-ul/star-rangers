@@ -2548,13 +2548,27 @@ each is his own frame, re-filed from the portfolio's 1600px site file:
   acceptable in-world (settled worlds have buildings; they read as haze at
   page size).
 
+**A sixth, same day: `lore/shoreless-sea.jpg`** (Tides Without Shores) —
+the portfolio's *Sunset at Sea*, as the radical left crop (1150×900 from the
+1920px site file): the cruise deck, railing and lifeboat all fall outside
+it, leaving open water to a pink horizon band with **two distant vessels
+hull-down on the line** — kept deliberately, because on a shoreless ocean
+the only witnesses are afloat, which is the entry's own point. Under the
+~1600px convention like the strata crop; the original on `F:` is the
+upgrade path.
+
 Not carried over from the shortlist, recorded so the survey isn't redone:
-*Where the Water Was* (soils — needs the dam furniture cropped and has
-litter fragments on the mud), *Sunset at Sea* (Tides Without Shores — only
-viable as a radical left-half crop losing the cruise deck), and *Garachico
-Rock* (The Cost of the Crossing — a summit cross survives every crop). The
-portfolio holds nothing for The Honest Dark (no night skies), Where the
-Weather Stops (no caves), or Quern's storm belt.
+*Where the Water Was* (soils — **judged unusable from the site file,
+2026-08-22, second look**: a dozen-plus white litter fragments lie across
+the right-hand slope, exactly where the best terrace patterns are; the only
+clean crop is a weak 780×810 of the left water-and-spit. Cleaning it means
+spot-heal on Dermot's photograph, which this file reserves for his hands —
+so the soils page waits for a healed master, or for the 111BOHER originals
+STYLE.md names on `F:`, the cracked mud `DSC_2860` or the eroded spit
+`DSC_2895`), and *Garachico Rock* (The Cost of the Crossing — a summit
+cross survives every crop). The portfolio holds nothing for The Honest Dark
+(no night skies), Where the Weather Stops (no caves), or Quern's storm
+belt.
 
 **Method, stated so a later audit knows what to trust:** six images were
 opened and read. The 66-page cohort is *inferred from caption style* and is
