@@ -8,6 +8,8 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Added
 
+- **[The Better Side of Intervention](src/codex/the-better-side-of-intervention.md) — codex correspondence** (2026-08-23). An unattributed devotional response to Kade's Limitation working paper: restraint as eternal discretion rather than structural constant, toleration distinguished from underwriting, the purpose claimed but never specified. Affirms the Unfounded's unfoundedness outright; Archivist's note keeps the record's position plain. No title card yet.
+- **The Kieme glossary's Names section states that every name is a title** (2026-08-23). None personal, none could be — the tier has never spoken and admits no address — and registers **The First Principle** as the philosophical schools' filing, annotated: *first* names the namer's horizon, not the structure. Count corrected to four names in current use. Open questions recorded in `story-bible/open-questions.md`.
 - **[Creative Rather Than Imperative](src/journal/creative-rather-than-imperative.md) — journal entry** (2026-08-23). A week spent specifying a coding agent, read through the Cascade's published phrase for creation, with a closing section on hand-fixing generated code as the Kiemic intervention dilemma; craft reflection only, no canon change.
 - **[The Cost of the Crossing](src/lore/the-cost-of-the-crossing.md) gets its image — Dermot's own photograph** (2026-08-23). `lore/island-watchtower.jpg`: the portfolio's *Dalkey Island*, unmodified — a low green island across cold water, a round stone watchtower and a gabled stone ruin on the ridge. The structures ruled in as the Four Islands' own furniture, where Garachico Rock's summit cross was ruled out. Provenance in `story-bible/images.md`.
 

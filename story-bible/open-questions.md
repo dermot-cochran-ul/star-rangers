@@ -103,6 +103,39 @@ beholding reaches what has not yet been chosen. Nothing published depends on
 any of it and none carries a `canon_fact`, so the status quo is safe. Check
 the conflict register at the foot before answering any of them.
 
+## Kieme's restraint — raised 23 August 2026
+
+Raised in the session that drafted the *Creative Rather Than Imperative*
+journal entry, the Kieme glossary Names addition, and *The Better Side of
+Intervention* codex correspondence (all one PR). All three artifacts
+deliberately leave these open; the codex letter and its Archivist's note are
+built to hold the question, not to answer it.
+
+- **Constitutive or discretionary.** Is Kieme's non-intervention part of what
+  the tier *is* (the Archive's reading, and the flavour of
+  `cascade-structure-and-limits.md`'s "the limit is constitutive" — though
+  that settlement covers specification-incompleteness, not restraint), or an
+  eternal discretion held without lapse (the devotional reading)? The codex
+  letter's live observation: from inside time the two produce identical
+  records, so invariant-only inference cannot decide it. Deliberately open —
+  and probably *permanently* open, which if so should one day be said in this
+  file's "Deliberately open" section rather than here.
+- **Underwrite vs tolerate, for the Unfounded.** The Limitation as filed
+  ("whatever end justified the Cascade tolerating it at all") already implies
+  toleration-for-a-purpose; the Unfounded glossary holds nothing underwrites
+  them. The seam that keeps both: a purpose that schedules an ending is not
+  an origin condition. If any future page names *what* the purpose is, it has
+  crossed Sen's line — the purpose may be claimed, never specified.
+- **Title, not name — does anyone hold the office?** The glossary now states
+  all Kieme's names are titles and none personal. The open half: whether a
+  person stands behind the office is the same question as
+  constitutive-vs-discretionary, restated. Watch that no page quietly answers
+  it by grammar — "Kieme decided" in Archive voice would settle by accident
+  what the record refuses to settle by method.
+- **The Arilon–Kieme relation** (queued 2 August, still open) now has one more
+  constraint to respect: whatever is said there must not resolve the
+  chooser question as a side effect.
+
 ## Character and backstory — `intake-2026-07-28.md`
 
 Tracked as a thin pointer in **#444**; the substance is here because that file
