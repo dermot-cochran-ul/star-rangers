@@ -58,20 +58,18 @@ a name for the shape of the trap.
 
 [Kieme](/star-rangers/glossary/kieme/) is the tier that influences everything
 and touches nothing: it *"establishes origin constraints that all downstream
-tiers must satisfy"*, is defined *"by constraint rather than decision"*, and
-admits *"no selective intervention that would identify it."* A hand-fix is a
-selective intervention at the Material layer, and it inherits every part of
-the canonical dilemma. It identifies the intervener — the edit is
-distinguishable from what the laws produce, and provenance blurs. It teaches
-the system nothing — the constraint channel is unchanged, so the next
-generation reproduces the flaw, which means the intervener has quietly
-committed to intervening forever. And it creates the explanation problem:
-[the record's own telling](/star-rangers/lore/kieme-visible-hand/) has the
-Archive tolerating its one exception *"uneasily, forever trying to rephrase"*
-a deliberate act as a structural invariant — which is exactly what an
-engineering team does after enough hand-fixes, when the public account becomes
-*our process produces this quality* while the commit log quietly records the
-curation. *The door held, and everyone afterward explained the door.*
+tiers must satisfy"*, is defined by *"constraint rather than decision"*, and
+*"permits no selective intervention that would identify it"* — inferable only
+through invariants that hold everywhere. A hand-fix is a selective
+intervention at the Material layer, and it inherits every part of that
+dilemma. It identifies the intervener — the edit is distinguishable from what
+the laws produce, and provenance blurs. It teaches the system nothing — the
+constraint channel is unchanged, so the next generation reproduces the flaw,
+which means the intervener has quietly committed to intervening forever. And
+it creates an explanation problem: after enough hand-fixes, the team's public
+account becomes *our process produces this quality*, while the commit log
+quietly records the curation — a deliberate act everyone downstream is now
+motivated to re-describe as if it had been a structural invariant all along.
 
 The part I find genuinely satisfying is that this repository already held the
 discipline before I saw it in the cosmology. Edit a generated theme file by
