@@ -29,7 +29,7 @@ Kieme is the term of record and the one this glossary uses. It is not the only n
 
 Nothing here has ever spoken. The tier admits no dialogue with time-bound entities, permits no selective intervention that would identify it, and is inferable only through invariants holding across every Concordant. **No tradition was ever told what to call it.** So each named it from what it could see from where it stood, and the record files the results side by side rather than adjudicating between them. A tier with exactly one settled name would be a tier somebody had been told about.
 
-Three human names are in current use, in three registers.
+Four human names are in current use, each in its own register.
 
 **The Silent Origin** is the living devotional name, and the direct counterpart to Conseleme's Everlasting Ground. It takes the constraint for the name: the tier does not speak and never has, and the traditions called it after what they met rather than after what they wanted.
 
@@ -37,7 +37,11 @@ Three human names are in current use, in three registers.
 
 **The First Condition** is what the Archive says when it declines both: the first origin condition, setting the nonlocal constraints every downstream tier must satisfy. Cool, exact, and deliberately undevotional.
 
+**The First Principle** is the philosophical schools' filing — the Archive's exactness wanted without the Archive's restraint. It reads Kieme as the first principle that reasoning arrives at, and the record keeps it with one annotation: *first* names the namer's horizon, not the structure. Inference from inside a Concordant reaches Kieme's invariants before anything else and stops there; the [Hyperomnium](/star-rangers/glossary/hyperomnium/) stands above, beyond the method the name was coined by — so the name records where thinking runs out, which is itself a finding. The Archive's preference for *condition* over *principle* is the same annotation made quietly: a principle is something one reasons *from*, a condition something one is bound *by*, and only the second is attested.
+
 *Holy Triumvirate* remains synonymous in all current canon and pre-retirement filings carry it correctly, read as written. Its weakness is the one that made it legacy: a triumvirate is three men ruling, which is both a count and a committee, and this tier is neither.
+
+One thing is true of every entry above, and it is worth stating once rather than leaving implied: **all of these are titles, and none is a personal name — not because a personal name went unrecorded, but because there could not be one.** A personal name is given by its bearer or used to its bearer's face, and this tier has never spoken and admits no address. Every name it carries is a role-description assigned from below — what the namer could see of the function, from where the namer stood. What the record holds, four ways over, is the office. Whether anyone holds the office is exactly the question the naming cannot settle, and the traditions and the Archive divide over it in precisely the way they divide over everything else here.
 
 ### Other species name it too
 
