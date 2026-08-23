@@ -8,6 +8,7 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Added
 
+- **[The Ilveth (Warm-Eyed)](src/lore/ilveth.md) — new species entry** (2026-08-23). A cold-bodied people of a new world, Sardain, who see warmth as light: thermal night vision grounded in the self-glow constraint (cheap for the cold, impossible for the warm), dry mirror-pit eyes, heat-costed signalling, geothermal industry. Extends the energy-bottleneck set to four answers. Approved by Dermot 2026-08-23; remaining open ends recorded in `story-bible/open-questions.md`. No title card yet.
 - **[The Working-Out of Justice](src/journal/the-working-out-of-justice.md) — journal entry** (2026-08-23). Two detective traditions — the brilliant individual as special pleading, the inevitable working-out as the Limitation in genre form — with the finding that the Unfounded countermeasures are the investigative method item for item; kill the lie, leave the person standing. Season 4 application recorded in `story-bible/ideas.md`.
 - **[Special Pleading](src/journal/special-pleading.md) — journal entry** (2026-08-23). The cosmology read back as a confession: prayer and magic rejected as special pleading, faith in ultimate goodness kept — good founded, evil not; providence structural, never local; the chooser question left open on both sides of the page.
 
