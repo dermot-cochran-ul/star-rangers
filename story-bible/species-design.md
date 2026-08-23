@@ -256,3 +256,20 @@ page at all; the Verdani have one that never says what a Verdani looks like.
 
 Currently blocked on prose, with placeholder cards standing: **Sethka Ru**
 (Serephine), **Qiren Tal** (Veyr), **Isren Farrowkin** (Verdani).
+
+---
+
+**Status correction, 23 August 2026** — the paragraph above and "four of the
+five have no page at all" are stale: `src/lore/serephine-dunekin.md`,
+`src/lore/pelagene-littoral.md`, `src/lore/chthonari.md` and
+`src/lore/verdani.md` all exist alongside the Veyr page, and Sethka Ru's
+portrait is live. Verified against the repo per the standing rule; the lines
+are left in place as history of what this file was for.
+
+**And a sixth species now exists in draft** — the Ilveth of Sardain
+(`src/lore/ilveth.md`, drafted 23 August 2026 from the "aliens with thermal
+night vision" direction, not merged). Designed by this file's method: the
+world is cold and dim, so the body is cold, so thermal imaging is affordable
+(a warm eye drowns in its own glow — the reason nobody warm has the sense),
+and the culture follows from heat being the only wealth. Open ends are in
+`open-questions.md` under "Decisions awaiting Dermot".
