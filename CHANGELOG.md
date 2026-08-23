@@ -8,6 +8,7 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Added
 
+- **[Creative Rather Than Imperative](src/journal/creative-rather-than-imperative.md) — journal entry** (2026-08-23). A week spent specifying a coding agent, read through the Cascade's published phrase for creation; craft reflection only, no canon change.
 - **[The Cost of the Crossing](src/lore/the-cost-of-the-crossing.md) gets its image — Dermot's own photograph** (2026-08-23). `lore/island-watchtower.jpg`: the portfolio's *Dalkey Island*, unmodified — a low green island across cold water, a round stone watchtower and a gabled stone ruin on the ridge. The structures ruled in as the Four Islands' own furniture, where Garachico Rock's summit cross was ruled out. Provenance in `story-bible/images.md`.
 
 ## [1.23.0] — 2026-08-22
