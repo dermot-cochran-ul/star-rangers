@@ -49,7 +49,47 @@ it and commands almost nothing inside that envelope; each discovers what it
 actually made by watching it run. A line I wrote for a cosmology two years
 before I built any of this turns out to describe a toolchain.
 
-One caution, and it matters more than the observation. The metaphor flows in
+## The Intervention Problem
+
+There is a second rhyme, and it is sharper than the first. When generated code
+is wrong, the tempting fix is by hand — reach past the specification and edit
+the artifact directly. It works, and it is a trap, and the setting already has
+a name for the shape of the trap.
+
+[Kieme](/star-rangers/glossary/kieme/) is the tier that influences everything
+and touches nothing: it *"establishes origin constraints that all downstream
+tiers must satisfy"*, is defined *"by constraint rather than decision"*, and
+admits *"no selective intervention that would identify it."* A hand-fix is a
+selective intervention at the Material layer, and it inherits every part of
+the canonical dilemma. It identifies the intervener — the edit is
+distinguishable from what the laws produce, and provenance blurs. It teaches
+the system nothing — the constraint channel is unchanged, so the next
+generation reproduces the flaw, which means the intervener has quietly
+committed to intervening forever. And it creates the explanation problem:
+[the record's own telling](/star-rangers/lore/kieme-visible-hand/) has the
+Archive tolerating its one exception *"uneasily, forever trying to rephrase"*
+a deliberate act as a structural invariant — which is exactly what an
+engineering team does after enough hand-fixes, when the public account becomes
+*our process produces this quality* while the commit log quietly records the
+curation. *The door held, and everyone afterward explained the door.*
+
+The part I find genuinely satisfying is that this repository already held the
+discipline before I saw it in the cosmology. Edit a generated theme file by
+hand and the next `generate-themes` run overwrites you — the generated layer
+reasserts its laws and the intervention dissolves. The build rules were
+Kiemic before I knew to call them that.
+
+One honest limit, so the metaphor doesn't over-claim. For Kieme,
+non-intervention is constitutive — not a policy the tier holds but part of
+what the tier is. For an engineer it is a discipline, freely violable and
+sometimes right to violate; the dilemma only bites for *regenerable*
+artifacts, the ones the pipeline will produce again. The working rule that
+falls out is short: fix the constraint, not the artifact — and when you fix
+the artifact anyway, say so in the ledger, because two accounts where one is
+honest about being incomplete is survivable, and it is the confident second
+account that costs.
+
+One caution, and it matters more than either observation. The metaphor flows in
 one direction only — the same direction as the Cascade, as it happens. The
 fiction is welcome to illuminate the engineering; the engineering must never
 leak back into the fiction. The Cascade is not an allegory of software and
