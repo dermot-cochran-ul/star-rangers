@@ -266,10 +266,12 @@ five have no page at all" are stale: `src/lore/serephine-dunekin.md`,
 portrait is live. Verified against the repo per the standing rule; the lines
 are left in place as history of what this file was for.
 
-**And a sixth species now exists in draft** — the Ilveth of Sardain
+**And a sixth species now exists** — the Ilveth of Sardain
 (`src/lore/ilveth.md`, drafted 23 August 2026 from the "aliens with thermal
-night vision" direction, not merged). Designed by this file's method: the
-world is cold and dim, so the body is cold, so thermal imaging is affordable
-(a warm eye drowns in its own glow — the reason nobody warm has the sense),
-and the culture follows from heat being the only wealth. Open ends are in
+night vision" direction, **approved by Dermot and merged the same day**).
+Designed by this file's method: the world is cold and dim, so the body is
+cold, so thermal imaging is affordable (a warm eye drowns in its own glow —
+the reason nobody warm has the sense), and the culture follows from heat
+being the only wealth. The remaining open ends (Sardain's location, the
+star's name, a named individual, a pronoun paradigm) are in
 `open-questions.md` under "Decisions awaiting Dermot".
