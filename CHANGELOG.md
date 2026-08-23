@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Added
+
+- **[The Cost of the Crossing](src/lore/the-cost-of-the-crossing.md) gets its image — Dermot's own photograph** (2026-08-23). `lore/island-watchtower.jpg`: the portfolio's *Dalkey Island*, unmodified — a low green island across cold water, a round stone watchtower and a gabled stone ruin on the ridge. The structures ruled in as the Four Islands' own furniture, where Garachico Rock's summit cross was ruled out. Provenance in `story-bible/images.md`.
+
 ## [1.23.0] — 2026-08-22
 
 A release with a survey at its centre. The planetary-physics set — a dozen

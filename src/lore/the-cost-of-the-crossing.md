@@ -4,6 +4,8 @@ title: "The Cost of the Crossing"
 category: "Physics"
 tags: [islands, archipelagos, isolation, physics, planets, seamounts, endemism, habitats]
 description: "Islands and archipelagos on habitable worlds: what makes an island is not the water but the crossing, an archipelago is a mountain range that lost an argument, and the record's most important island is a planet."
+image: "island-watchtower.jpg"
+image_alt: "A low green island across dark open water under a heavy shelf of cloud: bare rock at the tideline, grass above it, a round stone watchtower on the summit and the gabled ruin of a small stone house standing further along the ridge."
 ---
 
 What makes an island is not the water. It is the crossing — and the survey measures insularity in crossing-cost, not kilometres, because the same strait can be a suburb's ferry ride on one world and a season's gamble on another. On the [Four Islands'](/star-rangers/lore/planets/kingdom-of-the-four-islands/) storm ocean, distance is nearly the least of what stands between any two shores, and the Kingdom's whole shape follows from what the water charges to cross it.

@@ -2557,6 +2557,17 @@ the only witnesses are afloat, which is the entry's own point. Under the
 ~1600px convention like the strata crop; the original on `F:` is the
 upgrade path.
 
+**A seventh, 2026-08-23: `lore/island-watchtower.jpg`** (The Cost of the
+Crossing) — the portfolio's *Dalkey Island*, unmodified from the 1600px site
+file: a low green island across dark water, a round stone watchtower on the
+summit and the gable of a small stone ruin along the ridge. The structures
+were the question — Garachico Rock fell below to a summit cross — and Dermot
+ruled these in (2026-08-23): a watchtower and a stone gable are the Kingdom
+of the Four Islands' own furniture (Old Houses, an order standing tideward),
+where a cross is a specific Earth confession the record does not carry. The
+island is identifiable to a local eye as a named Irish island; judged
+acceptable — a real place, unnamed, his own work.
+
 Not carried over from the shortlist, recorded so the survey isn't redone:
 *Where the Water Was* (soils — **judged unusable from the site file,
 2026-08-22, second look**: a dozen-plus white litter fragments lie across
