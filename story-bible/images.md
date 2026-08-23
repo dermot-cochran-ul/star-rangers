@@ -950,6 +950,36 @@ they are tall and a portrait crop fights them.
   jargon a model cannot draw.
   > Cinematic photographic image of a Serephine Dunekin scout at dusk on a high stony ridge under a thin pale sky. THIS IS NOT A HUMANOID: no head on a neck, no torso, no two arms, no two legs, no face, no bipedal stance, nothing shaped like a person. The body is a low, broad, sealed carapace about the size of a large dog, mineral-hard and matte pale bone-grey, held clear of the ground on six slender jointed limbs of unequal length placed radially rather than in pairs. It has no front. Rising and unfurling from the upper surface are several enormous thin translucent respiratory vanes, fanning open like wet paper lifted into the light, veined and faintly iridescent, twice the span of the body they grow from - the animal is opening for the evening margin and is caught halfway. Set around the rim of the carapace are many small dark eye-spots, each glazed with a pale opaque membrane drawn part-way across it, catching the low sun with a faint prismatic sheen. Cold clear high-altitude light, long shadows, thin dry air, muted sand and bone palette, photographic and grounded and biological rather than stylised or mechanical. Absolutely no weapons, no armour, no helmet, no clothing, no face, no humanoid or bipedal form of any kind, and no grey-alien features. No readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
 
+- **`suvra-kel.jpg`** — Ilveth search-and-rescue specialist; the first Ilveth
+  portrait, briefed 23 August 2026 from `src/lore/ilveth.md` and
+  `src/characters/suvra-kel.md` (both merged that day), so the sethka-ru rule
+  is satisfied: the body plan comes from the record, not the JPG. **Must read
+  as cold.** The body runs at ground temperature, so the frame's one warm
+  thing is deliberately the ground and never her — and since heat is invisible
+  to a camera, the picture stays honest: the warmth shows only as the one
+  frost-free patch of bare rock, **no glow anywhere**. The mirror-pits are
+  described by what they look like rather than named, per the sheen rule
+  ("mirror optics" is jargon a model cannot draw, and the word *mirror* would
+  put glass in the frame). Setting is her biography: the boundary watch of a
+  geothermal province on Sardain, at night, utterly still — stillness is the
+  portrait's whole posture, a watch-keeper priced in duration. **One axis is
+  proposed here and is not canon: size.** The lore says long, low, several
+  paired limbs, mass near the ground, and never says how big; the brief
+  proposes roughly two people lying end to end and knee height, plausible for
+  a body that pulls casualties out of collapsed structure. **Dermot confirms
+  or resets that before generation** — otherwise the JPG becomes the most
+  specific statement of Ilveth size in the repo, which is backwards.
+  > Cinematic photographic image of an Ilveth watch-keeper at night on a frost-covered stony plain, beside a low outcrop of bare dark rock. THIS IS NOT A HUMANOID: no head on a neck, no torso, no two arms, no two legs, no face, no upright bipedal stance, nothing shaped like a person. The body is long, low and segmented, roughly the length of two people lying end to end and never higher than a standing person's knee, carried close to the ground on several pairs of short sturdy limbs, its surface smooth, matte and slate-grey, drawn compact against the cold. The forward third rises into a hooded crest, and set into the crest are several wide, shallow, bowl-shaped hollows, dry, dark and polished smooth, each holding a faint dim reflection of the sky - nothing like animal eyes, no pupils, no whites, no lenses. Below the crest runs an even ring of very small dark bead-like eyes. Along the flanks lie broad thin folded vanes like furled sails, matte, veined, held flat against the body. The animal is utterly still, facing out across the plain. The outcrop beside it is the one patch of ground free of frost - bare dark stone, dry and free of ice, the only warm thing in the frame. Deep dusk light from a small dim sun low on the horizon, long blue shadows, a handful of faint stars in a clear dark sky, frost and stone in slate, bone-grey and deep blue. Photographic, biological and grounded rather than stylised or mechanical. Absolutely no weapons, no armour, no clothing, no equipment, no glow, no bioluminescence, no steam, no mist, no humanoid or bipedal form of any kind, no grey-alien features, no insectoid mandibles, no reptilian scales. No readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
+
+  Proposed alt text for `suvra-kel.md` when the image lands (alt text is the
+  prompt of record, so it is drafted with the brief): *"Suvra Kel keeping a
+  night watch on Sardain: a long, low, segmented slate-grey body on several
+  pairs of short limbs, resting beside the one frost-free outcrop of bare dark
+  warm stone on a frozen plain. The forward crest carries wide dry bowl-shaped
+  hollows holding faint reflections of a dim sky, a ring of small bead-like
+  eyes beneath them, and broad folded vanes lying flat along the flanks. A
+  small dim sun sits low on the horizon under a handful of stars."*
+
 **AIs & non-corporeal — abstract emblem, no face**
 
 - **`jeeves.jpg`** — domestic-companion AI, Eden; kitchen-and-gossip competence.
