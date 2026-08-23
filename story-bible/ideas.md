@@ -2,6 +2,40 @@
 
 **Open items from this file are indexed in [`open-questions.md`](open-questions.md).**
 
+## Detective Doctrine: Inevitability, Not Brilliance (settled 2026-08-23)
+
+Dermot's direction, arrived at reading the genre against the cosmology; the
+public half is the journal entry *The Working-Out of Justice*, and this note
+carries the application the journal deliberately doesn't spell out.
+
+- Two traditions: the brilliant individual (Holmes, Poirot — structurally
+  *special pleading*: genius as the local exception justice requires) and the
+  inevitable working-out (Maigret, Porfiry, Columbo — the detective as
+  instrument, not source). **This setting writes the second, always.**
+- The mechanism is already canon: a lie is a locally Unfounded pattern —
+  counterfeit, underwritten by nothing, needing continuous maintenance —
+  losing a war of attrition against a truth that upholds itself. The
+  Unfounded countermeasures *are* the investigative method: asymmetry
+  detection (the flawed alibi), the clear question insisted upon (the
+  interrogation), naming and closure (the denouement). The false-empathy
+  tell (performance that fails to update) is how liars are caught.
+- The ending doctrine: no pure evil means the criminal is never Unfounded —
+  only the cover story is. **Kill the lie, leave the person standing**;
+  every investigation ends with the possibility of repentance on the table,
+  taken or not.
+- **Application: Season 4, the orbital-five-o thread.** Its investigator
+  chapters follow this doctrine when written. Investigator virtues are
+  patience, honesty, attention — never genius; no deduction should arrive
+  that a careful reader couldn't have made; the reader may know the truth
+  early (the Columbo shape is allowed and encouraged); resolution timing
+  echoes the Limitation — certain, not scheduled. Multi-POV structure
+  serves this naturally: one POV can carry the truth while another carries
+  the investigation, making inevitability visible rather than told.
+- Guard: this is a doctrine for *investigation stories*, not a claim that
+  in-world justice always succeeds — the record keeps unsolved files, and a
+  working-out whose schedule is unknowable can outrun any season. What the
+  doctrine forbids is the rescue-by-genius, not the unresolved case.
+
 ## Wisdom Versus Intelligence
 - Intelligence solves problems.
 - Wisdom chooses which problems are worth solving.
