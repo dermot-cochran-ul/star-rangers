@@ -6,6 +6,8 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [1.24.0] — 2026-08-23
+
 ### Added
 
 - **[The Better Side of Intervention](src/codex/the-better-side-of-intervention.md) — codex correspondence** (2026-08-23). An unattributed devotional response to Kade's Limitation working paper: restraint as eternal discretion rather than structural constant, toleration distinguished from underwriting, the purpose claimed but never specified. Affirms the Unfounded's unfoundedness outright; Archivist's note keeps the record's position plain. No title card yet.
