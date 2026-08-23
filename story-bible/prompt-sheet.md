@@ -256,6 +256,19 @@ The track and its card both pass. What it lacks is an answer to *what is this* �
 site furniture or an in-universe recording with a named author. Nothing to
 generate; a decision to make.
 
+### 2.4 `suvra-kel.jpg` — portrait
+
+The first Ilveth portrait. The brief and the proposed alt text live in
+`images.md` (Non-humanoid species section). **Ready to paste — the size axis
+was confirmed by Dermot, 23 August 2026.** Landscape; file at 1200×675 per
+the character-portrait convention.
+
+> Cinematic photographic image of an Ilveth watch-keeper at night on a frost-covered stony plain, beside a low outcrop of bare dark rock. THIS IS NOT A HUMANOID: no head on a neck, no torso, no two arms, no two legs, no face, no upright bipedal stance, nothing shaped like a person. The body is long, low and segmented, roughly the length of two people lying end to end and never higher than a standing person's knee, carried close to the ground on several pairs of short sturdy limbs, its surface smooth, matte and slate-grey, drawn compact against the cold. The forward third rises into a hooded crest, and set into the crest are several wide, shallow, bowl-shaped hollows, dry, dark and polished smooth, each holding a faint dim reflection of the sky - nothing like animal eyes, no pupils, no whites, no lenses. Below the crest runs an even ring of very small dark bead-like eyes. Along the flanks lie broad thin folded vanes like furled sails, matte, veined, held flat against the body. The animal is utterly still, facing out across the plain. The outcrop beside it is the one patch of ground free of frost - bare dark stone, dry and free of ice, the only warm thing in the frame. Deep dusk light from a small dim sun low on the horizon, long blue shadows, a handful of faint stars in a clear dark sky, frost and stone in slate, bone-grey and deep blue. Photographic, biological and grounded rather than stylised or mechanical. Absolutely no weapons, no armour, no clothing, no equipment, no glow, no bioluminescence, no steam, no mist, no humanoid or bipedal form of any kind, no grey-alien features, no insectoid mandibles, no reptilian scales. No readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
+
+**Negative:** humanoid, bipedal, head on a neck, face, grey alien, weapons,
+armour, clothing, equipment, glow, bioluminescence, steam, mist, text,
+lettering, watermark.
+
 ### Conditional
 
 - **A Church Space theme.** Only if the fall-through to Celtic ambient is judged
