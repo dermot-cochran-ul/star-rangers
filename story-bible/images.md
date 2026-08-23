@@ -2568,6 +2568,18 @@ where a cross is a specific Earth confession the record does not carry. The
 island is identifiable to a local eye as a named Irish island; judged
 acceptable — a real place, unnamed, his own work.
 
+**The identifiability question is settled in general, not just for that
+frame** (Dermot's ruling, 2026-08-23): *"A movie filmed on location would
+also include places that local fans would recognise. I am ok with that."*
+So a candidate from his portfolio is never rejected merely because a local
+reader could name the place — the record is filmed on location. What still
+disqualifies is unchanged: structures the setting cannot absorb (the
+Garachico summit cross), anachronisms, recognisable people, and anything
+that *names* the place in frame (signage, lettering). The distinction from
+the `formation-of-star-rangers` rejection holds: that was a skyline whose
+meaning travels with it worldwide; a local landmark carries no meaning a
+non-local reader can import.
+
 Not carried over from the shortlist, recorded so the survey isn't redone:
 *Where the Water Was* (soils — **judged unusable from the site file,
 2026-08-22, second look**: a dozen-plus white litter fragments lie across
