@@ -329,8 +329,13 @@ be found without reading 1,300 lines.
   portrait (blue-haired woman, night forest), reassigned in-session from
   "Asteria the Sage" to "a headmate of Tissadelle", destination "codex art".
   Parked at `story-bible/reference-art/tissadelle-headmate-2026-08-24.jpg`.
-  Open: (1) the headmate's name and identity — new canon, only Tobble is named
-  today; (2) whether depicting any of Tissadelle's members breaches the
+  Open: (1) the headmate's name and identity — **part-answered 2026-08-24:
+  Dermot ruled the headmate "is also called Asteria the Sage"**, the same
+  appellation Asteria Wessex's chapter uses for her; what remains open is
+  whether it is a name, honorific or taken title, and what (if anything)
+  connects the two bearers — recorded in `images.md`'s addendum with the
+  instruction not to invent the connection; (2) whether depicting any of
+  Tissadelle's members breaches the
   *hint, don't show* interiority guardrail that protects the S6–7 endgame;
   (3) the Codex-art route's own two open decisions, plus the codex entry (with
   in-universe author) the artwork would need to live on; (4) mechanically, the

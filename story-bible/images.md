@@ -2880,6 +2880,24 @@ some named artist's *idea* of the member behind the registration — which
 asserts nothing binding and would be the pool's first test case. Open items
 indexed in `open-questions.md` under Images.
 
+**Addendum, same day — the headmate is also called "Asteria the Sage"**
+(Dermot's ruling, 2026-08-24, verbatim: *"headmate is also called Asteria the
+Sage"*). So the image's original caption was not a mislabel: the appellation
+was right, the bearer was not the one on record. Two consequences, one open
+question:
+
+- The name decision (open item 1 below) is **part-answered**: the headmate
+  carries the appellation *Asteria the Sage*. Whether that is her name, an
+  honorific, or a taken title is not yet stated.
+- It **collides deliberately with Asteria Wessex**, whose chapter calls her
+  Asteria the Sage — an honorific her page says is *"the chapter's word and
+  not hers"*. Two bearers of one appellation, one a retired Star Captain and
+  one an unregistered member of Tissadelle's system, is a resonance the
+  record has not explained. **Do not invent the connection** — homage,
+  coincidence, in-world naming custom, or something the S6–7 material makes
+  load-bearing are all open, and per the standing rule the epistemology may
+  be explained but the fact may not be invented.
+
 ---
 
 ## History (2026-07-24)
