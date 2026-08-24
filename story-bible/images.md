@@ -2841,6 +2841,45 @@ the moment a prompt moves up it has been decided.
   Worth either fixing or amending the table; the table currently reads as
   though it were enforced.
 
+### Intake 2026-08-24 — first candidate for the Codex-art pool: a headmate of Tissadelle
+
+Dermot supplied one generated image in session (Botify AI; no prompt kept),
+first captioned **"Asteria the Sage, codex art"** and reassigned by him in the
+same session, after the Asteria canon mismatch was raised, as **"a headmate of
+Tissadelle"**. Parked at
+`story-bible/reference-art/tissadelle-headmate-2026-08-24.jpg` — nothing ships.
+
+**What it shows:** a woman appearing in her thirties, pale, loose blue hair,
+pale blue eyes, in a black hooded cloak with silver botanical embroidery over
+dark layered clothing with a belt, standing among bare branches at night;
+three-quarter turn, level gaze past the camera. Register is still and watchful
+rather than horror — inside the tone rule as it stands.
+
+**Technical state:** 768×1152 (below the 1200px portrait floor and the 1600px
+codex-card square), 232 KB, **"Botify AI" watermark bottom-left** — a
+generation artefact, which the 18 August quality bar names as a disqualifying
+flaw until cropped out.
+
+**Why it is parked rather than filed, in order:**
+
+1. **It depicts a canon entity that does not exist yet.** Tobble is the only
+   named member of Tissadelle's system; canon says only that there are more
+   members than the forms have boxes for. A named, depicted headmate is new
+   canon — Dermot's to declare, not bookkeeping's.
+2. **The interiority guardrail** (this file, Tissadelle prompt notes): her
+   inner life is *hint, don't show*, and it is load-bearing for the S6–7
+   endgame. Whether a published depiction of any headmate breaches that is his
+   call and is not obviously no.
+3. **The Codex-art route itself is unsettled** — the 18 August ruling left open
+   whether it overrides the codex title-card convention, and a codex artefact
+   needs an entry with a named in-universe author to live on; none exists.
+4. **The watermark and size**, above — mechanical, fixable last.
+
+If it goes forward as Codex art, the natural shape is an in-universe artwork —
+some named artist's *idea* of the member behind the registration — which
+asserts nothing binding and would be the pool's first test case. Open items
+indexed in `open-questions.md` under Images.
+
 ---
 
 ## History (2026-07-24)
