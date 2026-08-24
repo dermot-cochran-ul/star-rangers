@@ -6,7 +6,7 @@
   "scripts": {
     "build": "eleventy && pagefind --site _site",
     "start": "eleventy --serve",
-    "test": "node --test \"test/*.test.js\" && node scripts/check-changelog.js && node scripts/validate-content.js && node scripts/sync-version.js --check && eleventy --dryrun",
+    "test": "node --test \"test/*.test.js\" && node scripts/check-changelog.js && node scripts/validate-content.js && node scripts/check-internal-links.js && node scripts/check-related-terms.js && node scripts/sync-version.js --check && eleventy --dryrun",
     "version": "node scripts/sync-version.js",
     "new": "node scripts/new-content.js",
     "generate-themes": "node scripts/generate-themes.js",
