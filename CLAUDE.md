@@ -49,7 +49,7 @@ And in every tier: **say what you did.** A session that drafts narrative, change
 npm install          # install dependencies (Node 20, see .nvmrc)
 npm run start         # eleventy --serve, local dev server with live reload
 npm run build          # eleventy && pagefind --site _site (full production build incl. search index)
-npm test               # node --test "test/*.test.js" + check-changelog.js + validate-content.js + sync-version.js --check + eleventy --dryrun
+npm test               # node --test test/*.test.js + check-changelog.js + validate-content.js + sync-version.js --check + eleventy --dryrun
 npm run new             # scaffold a new content file (prompts for type, or `-- character`/`-- chapter`/etc.)
 npm run generate-themes  # regenerate every src/css/theme-*.css from src/css/main.css
 npm run fetch-giscus-ids  # fetch/patch giscus repo+category IDs (see TECHNICAL-README.md's giscus section)
