@@ -8,6 +8,8 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Added
 
+- **`TestingStrategy.md`** (2026-08-24). The test layers, what each gate catches, where each runs (npm test vs CI) and why, the extension rules, and the open items — mechanics only; the authority boundary stays in `CLAUDE.md`.
+
 - **The link and related-term checkers joined `npm test`; contrast and shared-script drift became CI gates** (2026-08-24). `check-internal-links.js` and `check-related-terms.js` now run on every test run; CI additionally runs `generate-themes` + `check-contrast.js` + a git-diff check that no `theme-*.css` was hand-edited, and a shared-scripts job diffing the four shared deploy scripts against `dermot-cochran-photography`'s `main` (which found `cpanel-autopull.sh` already drifted — the 15 August gap-alert default had never landed there; synced in that repo the same day).
 
 - **Unit tests for the content filter and page classifier** (2026-08-24). `npm test` now opens with `node --test test`: `test/content-filter.test.js` pins `lib/content-filter.js`'s narrowing and private-thread opt-in truth tables (including that church-space stays hidden on unfiltered and narrowed builds alike), and `test/classify-content.test.js` pins `classifyContentPath`/`isContentIncluded` with regression tests for the layout-vs-inputPath hazard and the journal fallthrough. Those three functions moved verbatim from `.eleventy.js` into `lib/classify-content.js` to be testable; no behaviour change. Built-in `node:test`, no new dependencies.
