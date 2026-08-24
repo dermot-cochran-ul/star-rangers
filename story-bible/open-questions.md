@@ -324,6 +324,18 @@ be found without reading 1,300 lines.
 - **Two competing abstract-emblem prompts** for an investigative intelligence
   (`images.md:709` and `:723`) differ only in their closing clause and neither
   is marked chosen.
+- **A headmate of Tissadelle — image parked, four decisions open** (intake
+  2026-08-24, detail in `images.md`'s Open work). Dermot supplied a generated
+  portrait (blue-haired woman, night forest), reassigned in-session from
+  "Asteria the Sage" to "a headmate of Tissadelle", destination "codex art".
+  Parked at `story-bible/reference-art/tissadelle-headmate-2026-08-24.jpg`.
+  Open: (1) the headmate's name and identity — new canon, only Tobble is named
+  today; (2) whether depicting any of Tissadelle's members breaches the
+  *hint, don't show* interiority guardrail that protects the S6–7 endgame;
+  (3) the Codex-art route's own two open decisions, plus the codex entry (with
+  in-universe author) the artwork would need to live on; (4) mechanically, the
+  Botify AI watermark and 768px width. This would be the **first entry in the
+  Codex-art pool**, which was empty when the 18 August rule was recorded.
 
 ## Audio and music — `music-prompts.md`
 
