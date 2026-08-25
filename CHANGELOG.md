@@ -27,6 +27,7 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Changed
 
+- **[The Cosmic Cascade](src/lore/cosmic-cascade.md)'s no-moral-cosmology invariant clarified** (2026-08-25, Dermot's direction: the limitation does not imply the Cascade is immoral or amoral). The bullet now states its own scope — morality as mechanism ruled out, moral character not adjudicated: no tier administers virtue or sin, the design tiers are agents whose abstention is a choice, the record's asymmetry (founded things by design, the Unfounded by nothing, the one moral law bounding evil alone) stands, and operational silence is the cost of an open future, not indifference. A clarification under the canon-stability rule: says better what the corpus already held.
 - **[Sir Galahad Thorne](src/characters/galahad-thorne.md)'s territorial honour given a kind** (2026-08-25). One clause on the character page: an old Earth-descended grant of the Expansion's leaving — kind only, territory and date still unnamed. Heads off the reader inference that the "Sir" is a Kingdom of the Four Islands knighthood, which the contact timeline and the Old Houses' hereditary peerage cannot support.
 
 ### Fixed
