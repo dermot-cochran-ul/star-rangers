@@ -88,7 +88,17 @@ and not tracked publicly. They are not dropped; this file is where they live.
   it answers this. Decide the two together — answering them apart risks two
   incompatible answers. The beings themselves *are* canon (Class III
   non-sapient, meta-dimensional, and they do physically enter material space);
-  it is their home membrane that is open.
+  it is their home membrane that is open. **A reconciliation cost if the answer
+  is Sí Gaoithe** (noted 25 August 2026): the record already documents a Sí
+  Gaoithe crosser population with a very different behavioural profile — no
+  confirmed feeding signature across every incident, mischief that resists the
+  Class II/III sort altogether (`si-gaoithe.md`, "Who Crosses") — while the
+  incursives are predatory, entropic and physically disruptive at boundary
+  collapse. Ruling that both live in Sí Gaoithe means one membrane produces
+  both the tricksters and the predators, and the ruling would have to say
+  whether they are two populations of one universe or the crossers' open
+  one-population-or-several question resolves the other way. A realm of their
+  own carries no such cost.
 - **A feminine Spirit-of-Wisdom name** for the Holy Spirit analogue. Watch the
   Gnostic baggage on *Sophia* against the standing no-Gnosticism rule.
 - **Bible references** — stay in the church-space overlay, or move to Codex.
