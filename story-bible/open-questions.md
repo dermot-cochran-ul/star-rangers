@@ -93,20 +93,15 @@ and not tracked publicly. They are not dropped; this file is where they live.
   door,"* so *"which realm do they come from"* is *"a question with the wrong
   shape, asked of entities that do not have a from."* The far-side membrane at
   L5 is deliberately unidentified, as standard for every flexure on the books.
-  **What is genuinely open now, and is Dermot's to rule** (raised 25 August
-  2026, in session): his direction that the alternative be *"a membrane or
-  several membranes of their own"* reads as a reopening, and it contradicts
-  the merged entry's no-from passage. Either the direction stands — a canon
-  change to `umbral-moon.md`, restoring a home (single or several) to beings
-  the record says have none — or the published dissolution stands and the
-  direction falls away. Not decided; nothing in `src/` moves until he rules.
-  If it ever reopens, one costing from the same session survives as relevant:
-  **Sí Gaoithe as the home** would put the predatory incursives and the
-  documented Sí Gaoithe crossers (no feeding signature ever logged, mischief
-  that resists the Class II/III sort — `si-gaoithe.md`, "Who Crosses") in one
-  membrane, and the ruling would have to say whether that is two populations
-  of one universe; a membrane or several membranes of their own carry no such
-  cost, at the price of one or several new neighbours to name.
+  ~~What is genuinely open now~~ — **ruled by Dermot, 25 August 2026, same
+  day it was raised: the published dissolution stands and the
+  membrane-or-several direction is dropped.** His in-session direction that
+  the alternative be *"a membrane or several membranes of their own"* had
+  read as a reopening contradicting the merged entry's no-from passage; put
+  to him, he ruled for the entry as published. No canon change; the
+  incursives keep not having a from, and nothing here is open. (A Sí Gaoithe
+  costing drafted the same day, contingent on reopening, is moot with it —
+  see this file's history at #560 if the question is ever raised again.)
 - **A feminine Spirit-of-Wisdom name** for the Holy Spirit analogue. Watch the
   Gnostic baggage on *Sophia* against the standing no-Gnosticism rule.
 - **Bible references** — stay in the church-space overlay, or move to Codex.
