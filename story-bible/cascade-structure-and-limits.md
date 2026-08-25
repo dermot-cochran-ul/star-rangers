@@ -5,7 +5,10 @@ into `src/lore/` or `src/glossary/` until it is settled and rewritten in
 in-universe terms — see "Keeping the scaffolding out of the setting" at the
 bottom, which is the constraint that matters most in this file.
 
-Fifteen things are settled, plus a teaching analogy recorded with its limits, and a conflict register at the foot records what they disturb. The rest are open questions with the consequences
+Fifteen things were settled in the 2026-07-30 pass, joined on 2026-08-25 by a
+second resolution policy (formcluster divergence, beside the Codex-entry one),
+plus a teaching analogy recorded with its limits, and a conflict register at
+the foot records what they disturb. The rest are open questions with the consequences
 worked out, so they can be decided rather than drifted into.
 
 **Those open questions are indexed in [`open-questions.md`](open-questions.md)**
@@ -734,6 +737,51 @@ Candidates already identified in this file:
 Each stays non-canonical by construction: `author` is required on every codex
 entry, none carry `canon_facts`, and nothing in lore has to be softened to make
 room for them.
+
+## Policy: a genuine divergence may be realized across formclusters (Dermot, 2026-08-25)
+
+The sibling of the Codex-entry policy above, for a different case. That policy
+handles a reading the record rejects: the alternative survives as some named
+source's *belief*. This one handles a divergence where both horns deserve to be
+**true** — a genuine dilemma, in the sense of the canon-stability direction in
+`CLAUDE.md` (2026-08-25, same day): canon commitments that cannot all stand *in
+one record*.
+
+**The cosmology already supplies the mechanism, and it costs nothing new.** Two
+formclusters share no arena (`src/glossary/formcluster.md`): different
+manifolds, possibly different mathematics, no measured separation between them,
+and the record holds no confirmed case of anything crossing between manifolds
+(`src/lore/post-eleven-dimensional-manifold.md`). So a divergence realized one
+way in this formcluster and another way in a differently-seated one produces no
+contradiction anywhere — there is no shared arena for the two realizations to
+contradict each other *in*.
+
+**The epistemology constraint, which is what keeps it canon-safe.** The record's
+reach ends at its own cluster's edge — *"Common" records how far the Corps can
+see* — so the home record states its own realization plainly, as settled lore,
+while the other realization stays **structure, never observation**: the
+cosmology permits it, and no page may claim the Archive has seen it. This is
+"explain the epistemology, never invent the fact" applied at the largest
+available scale. A page that narrated the other cluster's realization would
+have crossed from marking the possibility into inventing the observation.
+
+**Two bounds, confirmed by Dermot in session (2026-08-25):**
+
+1. **Genuine dilemmas only.** This is a resolution device, not a worldbuilding
+   licence — reaching for it requires the same demonstration the canon-stability
+   direction requires: name the canon commitments that cannot all stand.
+2. **In-world structure, not per-domain variance.** A different axis entirely
+   from the editions rule that canon is centralised and variants non-canonical.
+   Every domain still shows one record; that record may itself say *here it is
+   thus; a differently-seated cluster could realize it otherwise*.
+
+**How the three devices now divide the territory.** A contested *reading* goes
+to the Codex (a named source holds it). A gap in the record's *knowledge* stays
+a marked absence (Sen's doctrine). A genuine *dilemma* — where the work needs
+both horns true — may be split across formclusters, each cluster's record
+internally consistent and neither able to refute the other. No worked example
+exists yet; the first use is a canon change and goes through draft-and-stop
+like any other.
 
 ---
 
