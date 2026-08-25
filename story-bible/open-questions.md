@@ -81,34 +81,32 @@ and not tracked publicly. They are not dropped; this file is where they live.
   this line. Note the constraint either way: `kieme.md` holds that Kieme stands
   above the concept of number, so a relation stated in relational terms has to
   survive that.
-- **Where shadow beings live** — Sí Gaoithe, or a membrane (or several
-  membranes) of their own. **Now
-  tracked publicly as #462**, because the 18 August boundary-zone ruling made it
-  load-bearing: the Umbral Moon block's *"Shadow Universe"* is not canon, so
-  that block cannot be written until the neighbour membrane is named, and naming
-  it answers this. Decide the two together — answering them apart risks two
-  incompatible answers. The beings themselves *are* canon (Class III
-  non-sapient, meta-dimensional, and they do physically enter material space);
-  it is their home membrane that is open. **The option space was widened by
-  Dermot, 25 August 2026**: the alternative to Sí Gaoithe is *a membrane or
-  several membranes of their own* — the earlier "a realm of their own"
-  phrasing understated it, and *several* is now a live answer. Several homes
-  would drop the assumption that the incursives are one population with one
-  origin at all, and would loosen this question's coupling to the Umbral Moon
-  naming: naming that one neighbour membrane would then answer only where
-  *those* incursives come from, not all of them. **A reconciliation cost if
-  the answer is Sí Gaoithe** (noted the same day): the record already
-  documents a Sí
-  Gaoithe crosser population with a very different behavioural profile — no
-  confirmed feeding signature across every incident, mischief that resists the
-  Class II/III sort altogether (`si-gaoithe.md`, "Who Crosses") — while the
-  incursives are predatory, entropic and physically disruptive at boundary
-  collapse. Ruling that both live in Sí Gaoithe means one membrane produces
-  both the tricksters and the predators, and the ruling would have to say
-  whether they are two populations of one universe or the crossers' open
-  one-population-or-several question resolves the other way. A membrane of
-  their own carries no such cost; several membranes of their own dissolve it
-  entirely, at the price of several neighbours to name.
+- ~~**Where shadow beings live** — Sí Gaoithe, or a realm of their own~~ —
+  **dissolved by published canon on 18 August 2026, and this index failed to
+  record it** (found 25 August, after two notes had been drafted against the
+  stale framing — the failure mode this file warns about, live again). **#462
+  closed that evening via #469**, which drafted
+  [The Umbral Moon](../src/lore/umbral-moon.md); its Crossings section answers
+  the home question by refusing its shape: the incursives *"are not the
+  natives of anywhere on the far side"* — a meta-dimensional being *"extends
+  across higher spatial dimensions rather than living in a universe next
+  door,"* so *"which realm do they come from"* is *"a question with the wrong
+  shape, asked of entities that do not have a from."* The far-side membrane at
+  L5 is deliberately unidentified, as standard for every flexure on the books.
+  **What is genuinely open now, and is Dermot's to rule** (raised 25 August
+  2026, in session): his direction that the alternative be *"a membrane or
+  several membranes of their own"* reads as a reopening, and it contradicts
+  the merged entry's no-from passage. Either the direction stands — a canon
+  change to `umbral-moon.md`, restoring a home (single or several) to beings
+  the record says have none — or the published dissolution stands and the
+  direction falls away. Not decided; nothing in `src/` moves until he rules.
+  If it ever reopens, one costing from the same session survives as relevant:
+  **Sí Gaoithe as the home** would put the predatory incursives and the
+  documented Sí Gaoithe crossers (no feeding signature ever logged, mischief
+  that resists the Class II/III sort — `si-gaoithe.md`, "Who Crosses") in one
+  membrane, and the ruling would have to say whether that is two populations
+  of one universe; a membrane or several membranes of their own carry no such
+  cost, at the price of one or several new neighbours to name.
 - **A feminine Spirit-of-Wisdom name** for the Holy Spirit analogue. Watch the
   Gnostic baggage on *Sophia* against the standing no-Gnosticism rule.
 - **Bible references** — stay in the church-space overlay, or move to Codex.
@@ -524,14 +522,19 @@ not evaporate between sessions.
 ## Unwritten and live — from 26 July
 
 ~~Fliade~~ **written and merged 16 August 2026** — `src/lore/planets/fliade.md`.
-Still live: **Umbral Moon** and **Kalypsis Dawn**.
+~~Umbral Moon~~ **written and merged 18 August 2026** — `src/lore/umbral-moon.md`,
+via #469, which closed #462 the same evening (this index carried it as open
+until 25 August; corrected then). Still live: **Kalypsis Dawn**.
 
 They were subjects rather than questions, and so not tracked as issues. **That
 changed on 18 August 2026 for two of the intake's worlds**, both because the
 boundary-zone ruling found their blocks contradict published canon:
 
-- **Umbral Moon — #462.** Three conflicts, one of them a design decision: what
-  holds a moon, if not a gravity tunnel canon defines as lasting seconds.
+- ~~**Umbral Moon — #462.** Three conflicts, one of them a design decision: what
+  holds a moon, if not a gravity tunnel canon defines as lasting seconds.~~ —
+  **resolved and published 18 August 2026** (`src/lore/umbral-moon.md`, #469):
+  an L5 Trojan held by ordinary celestial mechanics, a flexure not a fold, and
+  the far-side membrane deliberately unidentified. #462 closed.
 - **The renamed Meridian system — #463.** Seven corrections where the block's
   heading advertises one. The two found last are the worst: the Sentinel's
   distress signal is a **refused psi trope** rather than a stretch of one, and
