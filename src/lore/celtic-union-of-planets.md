@@ -36,6 +36,10 @@ The Union is deliberately weak at the centre. There is no Union-wide executive. 
 
 Union members describe this as a feature learned the hard way, watching the Solar System's own governance history from a distance: the USC dissolved from too much required consensus, and the Imperium that followed made the opposite mistake. The Celtic Union's founders read both failures as arguments for a centre too weak to concentrate power, rather than one merely too weak to act.
 
+### Titles and honours
+
+The charter's weak centre extends to prestige as well as power. The Union confers no titles of nobility or honour — not as a reform it enacted but as a capacity it declined to write in, on the founders' reasoning that an institution which cannot decorate anyone cannot build a court around itself. Toward the old titles that crossed with the Fleet or turned up among the diaspora since — chiefly names, territorial honours, the occasional grant a family carried out of Earth's records and kept — Union law takes a position its founders knew by heart, inherited from the old Irish republic's constitution: neither abolition nor endorsement. Nothing is conferred, nothing is recognised, nothing is taken away. A title appears on no Union document, carries no precedence at any Union table, and is disputed by no Union office, because adjudicating a claim of descent would require the one thing the policy exists to withhold — treating the claim as the Union's business. What survives, survives as a social fact among people who choose to observe it, which is, the founders would have said, all a title ever honestly was. The result can resemble [New London's](/star-rangers/lore/new-london-space-habitat/) unadjudicated peerage, but by the opposite road again: New London cannot act, and the Union will not.
+
 ## Reconnection with the Solar System
 
 The Celtic Union worlds remained functionally unknown to Solar System authorities until first contact was re-established within the last generation, when Star Rangers survey operations mapping fold-route branches beyond the Eden Passage located an inhabited system that matched no colonisation record on file.
