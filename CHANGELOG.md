@@ -8,6 +8,7 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Added
 
+- **[The Celtic Union](src/lore/celtic-union-of-planets.md) gains a Titles and honours section** (2026-08-25). The charter confers no titles and its law neither abolishes nor endorses the old ones — nothing conferred, recognised, or taken away — a policy inherited from the old Irish republic's constitution. Completes a three-road taxonomy with the Four Islands (reform by decision) and New London (vacancy by incapacity), and supplies the standing model for how an Expansion-era territorial honour persists unextinguished.
 - **`TestingStrategy.md`** (2026-08-24). The test layers, what each gate catches, where each runs (npm test vs CI) and why, the extension rules, and the open items — mechanics only; the authority boundary stays in `CLAUDE.md`.
 
 - **The link and related-term checkers joined `npm test`; contrast and shared-script drift became CI gates** (2026-08-24). `check-internal-links.js` and `check-related-terms.js` now run on every test run; CI additionally runs `generate-themes` + `check-contrast.js` + a git-diff check that no `theme-*.css` was hand-edited, and a shared-scripts job diffing the four shared deploy scripts against `dermot-cochran-photography`'s `main` (which found `cpanel-autopull.sh` already drifted — the 15 August gap-alert default had never landed there; synced in that repo the same day).
