@@ -21,6 +21,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 - **[The Working-Out of Justice](src/journal/the-working-out-of-justice.md) — journal entry** (2026-08-23). Two detective traditions — the brilliant individual as special pleading, the inevitable working-out as the Limitation in genre form — with the finding that the Unfounded countermeasures are the investigative method item for item; kill the lie, leave the person standing. Season 4 application recorded in `story-bible/ideas.md`.
 - **[Special Pleading](src/journal/special-pleading.md) — journal entry** (2026-08-23). The cosmology read back as a confession: prayer and magic rejected as special pleading, faith in ultimate goodness kept — good founded, evil not; providence structural, never local; the chooser question left open on both sides of the page.
 
+### Changed
+
+- **[Sir Galahad Thorne](src/characters/galahad-thorne.md)'s territorial honour given a kind** (2026-08-25). One clause on the character page: an old Earth-descended grant of the Expansion's leaving — kind only, territory and date still unnamed. Heads off the reader inference that the "Sir" is a Kingdom of the Four Islands knighthood, which the contact timeline and the Old Houses' hereditary peerage cannot support.
+
 ## [1.24.0] — 2026-08-23
 
 ### Added
