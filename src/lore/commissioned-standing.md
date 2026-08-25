@@ -1,6 +1,6 @@
 ---
 layout: lore-entry.njk
-title: "Commissioned Standing"
+title: "Commissioned Standing: What the Gate Grants"
 category: "Institutions"
 tags: [ai, commissioning, commissioned-standing, governance, society, institutions, kernel-compliant, classic-design]
 description: "What the commissioning gate grants and commerce cannot take away: a system commissioned as a mind is not personal property, cannot be sold or scrapped, and continues in lawful service however long ago its design was discontinued."

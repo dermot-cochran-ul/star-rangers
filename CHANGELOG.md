@@ -26,6 +26,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 - **[Sir Galahad Thorne](src/characters/galahad-thorne.md)'s territorial honour given a kind** (2026-08-25). One clause on the character page: an old Earth-descended grant of the Expansion's leaving — kind only, territory and date still unnamed. Heads off the reader inference that the "Sir" is a Kingdom of the Four Islands knighthood, which the contact timeline and the Old Houses' hereditary peerage cannot support.
 
+### Fixed
+
+- **The Commissioned Standing lore entry retitled "Commissioned Standing: What the Gate Grants"** (2026-08-25), clearing the duplicate-title warning against the glossary entry per the FTL Mechanics pattern (glossary keeps the bare term, lore gets the subtitle). Title only; no `related:` list named it and inline links are URL-based, so no sweep needed.
+
 ## [1.24.0] — 2026-08-23
 
 ### Added
