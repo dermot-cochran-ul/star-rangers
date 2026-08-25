@@ -81,15 +81,24 @@ and not tracked publicly. They are not dropped; this file is where they live.
   this line. Note the constraint either way: `kieme.md` holds that Kieme stands
   above the concept of number, so a relation stated in relational terms has to
   survive that.
-- **Where shadow beings live** — Sí Gaoithe, or a realm of their own. **Now
+- **Where shadow beings live** — Sí Gaoithe, or a membrane (or several
+  membranes) of their own. **Now
   tracked publicly as #462**, because the 18 August boundary-zone ruling made it
   load-bearing: the Umbral Moon block's *"Shadow Universe"* is not canon, so
   that block cannot be written until the neighbour membrane is named, and naming
   it answers this. Decide the two together — answering them apart risks two
   incompatible answers. The beings themselves *are* canon (Class III
   non-sapient, meta-dimensional, and they do physically enter material space);
-  it is their home membrane that is open. **A reconciliation cost if the answer
-  is Sí Gaoithe** (noted 25 August 2026): the record already documents a Sí
+  it is their home membrane that is open. **The option space was widened by
+  Dermot, 25 August 2026**: the alternative to Sí Gaoithe is *a membrane or
+  several membranes of their own* — the earlier "a realm of their own"
+  phrasing understated it, and *several* is now a live answer. Several homes
+  would drop the assumption that the incursives are one population with one
+  origin at all, and would loosen this question's coupling to the Umbral Moon
+  naming: naming that one neighbour membrane would then answer only where
+  *those* incursives come from, not all of them. **A reconciliation cost if
+  the answer is Sí Gaoithe** (noted the same day): the record already
+  documents a Sí
   Gaoithe crosser population with a very different behavioural profile — no
   confirmed feeding signature across every incident, mischief that resists the
   Class II/III sort altogether (`si-gaoithe.md`, "Who Crosses") — while the
@@ -97,8 +106,9 @@ and not tracked publicly. They are not dropped; this file is where they live.
   collapse. Ruling that both live in Sí Gaoithe means one membrane produces
   both the tricksters and the predators, and the ruling would have to say
   whether they are two populations of one universe or the crossers' open
-  one-population-or-several question resolves the other way. A realm of their
-  own carries no such cost.
+  one-population-or-several question resolves the other way. A membrane of
+  their own carries no such cost; several membranes of their own dissolve it
+  entirely, at the price of several neighbours to name.
 - **A feminine Spirit-of-Wisdom name** for the Holy Spirit analogue. Watch the
   Gnostic baggage on *Sophia* against the standing no-Gnosticism rule.
 - **Bible references** — stay in the church-space overlay, or move to Codex.
