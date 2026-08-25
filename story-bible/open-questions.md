@@ -46,6 +46,16 @@ listed first so nobody tidies them away.
   stronger never adjudicating it — a child's coinage that reads both ways
   forever beats either answer. Read the note before touching it.
 
+## Considered and rejected — do not re-propose
+
+- **Evennia (Python MUD/multiplayer text-game framework) — rejected by Dermot,
+  25 August 2026**, as overreach. It is a persistent server with accounts,
+  sessions and per-player state, all of which the static-site ruling of
+  2026-08-04 puts out of scope by design. A playable multiplayer Fian
+  Ilchruinne would be a separate service and a chartered-works-shaped decision,
+  never a site feature; further interactivity belongs in the static model's
+  headroom (scene/POV pages, threads, reading modes, codex structure).
+
 ## Cosmology and terminology — queued 2 August 2026
 
 All six are naming or structural decisions with no plot content. **#442 was
