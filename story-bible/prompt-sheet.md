@@ -194,8 +194,8 @@ lights, crowd, slow motion, text, lettering.
 
 ## Part 2 — Fresh, and genuinely needed
 
-Only three things are actually missing from the site. Everything else on this
-page is a replacement.
+The genuinely missing pieces queue here — the count grows as entries ship
+without cards. Everything else on this page is a replacement.
 
 **One thing I cannot do for any of these: transcribe the words.** I have never
 heard a note of these tracks — everything above comes from spectrograms and
@@ -289,6 +289,27 @@ Proposed alt text: *"Designed cover for The Courtesy That Was Withdrawn: a
 blue ruled-lines emblem in a ringed seal, on a dark background, in the style
 of the site's other codex title cards."* — correct it to what the card
 actually shows before committing.
+
+### 2.6 `neither-author-nor-warden.jpg` — codex title card
+
+For [Neither Author Nor Warden](../src/codex/neither-author-nor-warden.md)
+(merged 2026-08-25, shipped without a card) — Kade's companion working paper
+to the Cosmic Limitation on Evil. **No generator step**, same as 2.5: pure
+lettering work, Windows only. Paste-ready:
+
+```powershell
+.\scripts\make-codex-cover.ps1 -TitleLines "NEITHER AUTHOR","NOR WARDEN" -Category "DOCTRINAL RECORD" -Subtitle "Working paper on the design tiers and suffering" -Institution "Survey Archive - Doctrinal Division" -Author "Theorist Emrys Kade" -Stamp "FILED AS DOCTRINE" -Motif rules -Out src\images\codex\neither-author-nor-warden.jpg
+```
+
+Two notes. The stamp is deliberately not `CONTESTED` — that is the sibling
+filing's status, and this paper's whole point is that it passed its revision
+cycles unargued-with; if the long stamp crowds the seal, `FILED` alone is
+right. And the same one-commit rule as 2.5: land the card and the entry's
+`image:`/`image_alt:` together, or `validate-content.js` fails the orphan
+file. Proposed alt text: *"Designed cover for Neither Author Nor Warden: a
+blue ruled-lines emblem on a dark navy background, with a FILED AS DOCTRINE
+stamp, in the style of the site's other codex title cards."* — correct it to
+what the card actually shows before committing.
 
 ### Conditional
 
