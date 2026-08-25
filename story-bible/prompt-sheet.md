@@ -269,6 +269,27 @@ the character-portrait convention.
 armour, clothing, equipment, glow, bioluminescence, steam, mist, text,
 lettering, watermark.
 
+### 2.5 `the-courtesy-that-was-withdrawn.jpg` — codex title card
+
+For [The Courtesy That Was Withdrawn](../src/codex/the-courtesy-that-was-withdrawn.md)
+(merged 2026-08-25, shipped without a card). **No generator step** — codex
+entries use designed cards, and this one is pure lettering work. Windows only
+(`make-codex-cover.ps1` is GDI+). Paste-ready:
+
+```powershell
+.\scripts\make-codex-cover.ps1 -TitleLines "THE COURTESY","THAT WAS WITHDRAWN" -Category "OFFICIAL DOCUMENTS" -Subtitle "Minuted reply of the Keeper of the Rolls" -Institution "Registry of Rolls and Holdings, Tír na nÓg" -Author "Aoibheann Ní Mheara" -Stamp "FILED AS RECEIVED" -Motif rules -Out src\images\codex\the-courtesy-that-was-withdrawn.jpg
+```
+
+Two notes. Check the fadas survive the type pass — if GDI+ or the typeface
+mangles *Tír na nÓg* or *Ní Mheara*, prefer fixing the font fallback over
+stripping the accents. And land the card and the front matter in the same
+change: `validate-content.js` fails an image file no page references, so the
+entry's `image:`/`image_alt:` must be added in the commit that adds the file.
+Proposed alt text: *"Designed cover for The Courtesy That Was Withdrawn: a
+blue ruled-lines emblem in a ringed seal, on a dark background, in the style
+of the site's other codex title cards."* — correct it to what the card
+actually shows before committing.
+
 ### Conditional
 
 - **A Church Space theme.** Only if the fall-through to Celtic ambient is judged
@@ -286,12 +307,13 @@ lettering, watermark.
 The step every card above ends with, and the one no generator can do.
 
 `scripts/make-codex-cover.ps1` already draws the house lettering — tracked caps,
-correct spelling, a real typeface — onto a generated canvas. It builds that
-canvas from a gradient; **giving it an `-Underlay <path>` parameter that draws a
-photograph first, scrims it, and then runs the existing text pass would turn it
-into the card compositor for all of these.** Small change, and it retires the
-whole defect class rather than one card at a time.
+correct spelling, a real typeface — onto a generated canvas, and **since
+20 August 2026 it takes `-Underlay <path>`**, which draws a photograph first,
+scrims it heaviest where the type sits, and then runs the existing text pass.
+It *is* the card compositor for all of these — generate the picture wordless,
+set the words there. (This paragraph previously said the parameter still needed
+adding; corrected 2026-08-25.)
 
-Until then, any image editor will do: generate wordless, set the type yourself,
-export at 1600 px. The rule is not which tool — it is that the words are typed,
-never generated.
+Away from a Windows machine, any image editor will do: generate wordless, set
+the type yourself, export at 1600 px. The rule is not which tool — it is that
+the words are typed, never generated.
