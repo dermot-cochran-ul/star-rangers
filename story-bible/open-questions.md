@@ -87,8 +87,9 @@ Two later directions the same day (both in `intake-2026-08-26.md`):
   confirmed"): the codex reader-test governs the overlay, and **no
   `canon_facts` entry may assert a prayer was answered** — the experience is
   the fact. The rule is now a content authoring convention in CLAUDE.md.
-  **Nothing from this direction remains open**; the Levrils "Who Notices"
-  draft is the one artifact still awaiting his approval on the branch.
+  **Nothing from this direction remains open**; ~~the Levrils "Who Notices"
+  draft is the one artifact still awaiting his approval on the branch~~ —
+  **approved by Dermot, 26 August 2026.** The whole intake is closed.
 
 ## Deliberately open — do not "fix" these
 
