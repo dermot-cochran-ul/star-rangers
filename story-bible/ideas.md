@@ -36,6 +36,69 @@ carries the application the journal deliberately doesn't spell out.
   working-out whose schedule is unknowable can outrun any season. What the
   doctrine forbids is the rescue-by-genius, not the unresolved case.
 
+## The Burnt-Out Leader, Not the Corrupt Politician — Dermot's direction, 26 August 2026
+
+Dermot's direction, as given: **rejecting the trope of the corrupt politician
+but I can identify with the burnt out leader.** Captured verbatim with canon
+check and flagged readings in `intake-2026-08-26.md`; readings await his
+confirmation, the survey below stands either way.
+
+The trope rejected is corruption as the *default explanation* of political
+failure — the venal office-holder as the plot's free energy source, badness
+doing the causal work that thought should do. It is the political register of
+the same refusal the detective doctrine above makes: no pure evil means the
+criminal is never Unfounded, and it equally means the failed policy never gets
+to be explained by a bribe when exhaustion, narrowed judgement, and an office
+that costs more than it returns are truer and harder. What the setting writes
+instead is **leadership as depletion**: the leader still administratively
+capable, still making correct decisions, and running out of the energy that
+correct decisions cost — Finite Energy at the scale of an office, duty at its
+liability point.
+
+**Where the corpus already holds this**, so new work builds on it rather than
+restating it:
+
+- **The Imperium's final Administrator-Supreme**
+  (../src/lore/the-imperium.md) is the worked case, placed exactly where the
+  trope would be cheapest: the setting's one authoritarian regime ends not on
+  a venal apex but on an office-holder "administratively capable but
+  politically exhausted," and the High Council exists to "spread the
+  *appearance* of responsibility at exactly the point where the reality of it
+  had become unbearable to hold alone." The regime's end is written as
+  burnout with a structure around it.
+- **Thorne in *The Harmonic Price*** (`s01e02c05`) carries it at scene scale:
+  "the specific exhaustion of a man who had made exactly one correct decision
+  under time pressure that morning and had not yet decided whether he trusted
+  himself to make a second one calmly" — and the chapter's answer is a rule,
+  written so that a depleted officer doesn't have to be fresh to be safe.
+- **The `s01e03c01` administrator** — "defensiveness worn thin by exhaustion"
+  — a minor official defending a failed protocol, tired rather than venal.
+- **Albercombe** (via ../src/characters/jeeves.md): Eden's welfare program
+  finds a household intelligence "cheaper than the paperwork for a burnout" —
+  the condition as a real institutional category, budgeted against.
+- **Isren Farrowkin** (../src/characters/isren-farrowkin.md) is the refusal's
+  positive print: the corpus's one career politician is eleven years of
+  principled persistence, losing an argument by a narrower margin each time,
+  with no venality anywhere on the page.
+- **The Mnemari relinquishing custom** (../src/lore/mnemari.md) is the
+  adjacent constructive structure: turnover "chosen rather than imposed" —
+  the setting's existing model of laying an office down well.
+
+**What the survey found thin.** The corpus shows the condition at crisis
+(Thorne, the administrator) or at historical distance (the
+Administrator-Supreme); nobody yet carries burnout as a *lived arc* — the
+noticing, the delegation, the recovery or the laying-down. That arc is where
+"I can identify with" points, and it connects to Mentorship and The Older Hero
+above: the interesting story is not the leader failing but the leader
+noticing the depletion and deciding what to do about it, with laying an
+office down well available as a form of heroism rather than a defeat.
+
+**Guard.** Rejecting the trope is not a claim that dishonesty cannot exist in
+the world — the record keeps unsolved files, and the Cairn Trust is sincerely
+aggrieved rather than saintly. What is forbidden is corruption as the lazy
+default, exactly as the detective doctrine forbids rescue-by-genius, not the
+existence of crime.
+
 ## Wisdom Versus Intelligence
 - Intelligence solves problems.
 - Wisdom chooses which problems are worth solving.

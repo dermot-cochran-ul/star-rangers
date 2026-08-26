@@ -35,6 +35,23 @@ reason. Verify against the repo before acting on any line here.
 
 ---
 
+## The burnt-out leader direction — raised 26 August 2026
+
+`intake-2026-08-26.md` records the direction verbatim (rejecting the
+corrupt-politician trope; the burnt-out leader claimed as ground Dermot
+identifies with) with a canon survey showing the corpus already holds it. The
+theme section is in `ideas.md`; a distilled line proposed into
+`life-lessons.md`. Three readings await his confirmation:
+
+- **"can identity with"** read as a typo for *can identify with*.
+- **The rejection's scope** read as a *trope* rejection (corruption never the
+  lazy default explanation of political failure), not an absolute ban on
+  dishonest office-holders existing in the world. Confirm which is meant.
+- **"I can identify with"** read as licensing interiority — burnt-out
+  leadership writable from inside as a POV position, generalised per
+  `life-lessons.md`'s rule (the structure enters the work, the circumstances
+  don't).
+
 ## Deliberately open — do not "fix" these
 
 Some things are open because leaving them open is the better answer. They are
