@@ -44,9 +44,14 @@ theme section is in `ideas.md`; a distilled line proposed into
 `life-lessons.md`. Three readings await his confirmation:
 
 - **"can identity with"** read as a typo for *can identify with*.
-- **The rejection's scope** read as a *trope* rejection (corruption never the
-  lazy default explanation of political failure), not an absolute ban on
-  dishonest office-holders existing in the world. Confirm which is meant.
+- ~~**The rejection's scope** read as a *trope* rejection (corruption never
+  the lazy default explanation of political failure), not an absolute ban on
+  dishonest office-holders existing in the world~~ — **ruled by Dermot,
+  26 August 2026: "Cannot rule out minor corruption in minor or supporting
+  characters."** The trope reading stands, refined: corruption never the
+  engine of a leader or major figure; minor corruption in minor or supporting
+  characters permitted as texture. Both qualifiers load-bearing; recorded in
+  full in `intake-2026-08-26.md`.
 - **"I can identify with"** read as licensing interiority — burnt-out
   leadership writable from inside as a POV position, generalised per
   `life-lessons.md`'s rule (the structure enters the work, the circumstances
@@ -59,7 +64,9 @@ Two later directions the same day (both in `intake-2026-08-26.md`):
   the **complicit leader**, integrity spent under pressure rather than sold —
   distinct from both the rejected trope and the identified-with burnt-out
   leader, and compatible with the no-pure-evil doctrine. Read as *in scope*;
-  confirm.
+  confirm. *(The 26 August minor-corruption ruling does not decide this — it
+  covers petty venality at the margins, a different axis from integrity spent
+  at major scale.)*
 - **Prayer, magic, and Levril perception.** Three of the four assertions are
   already canon (the record never asserts an answered prayer; magic never a
   narration-level claim; Levril work already read as providence by the

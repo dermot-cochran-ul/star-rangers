@@ -93,11 +93,19 @@ above: the interesting story is not the leader failing but the leader
 noticing the depletion and deciding what to do about it, with laying an
 office down well available as a form of heroism rather than a defeat.
 
-**Guard.** Rejecting the trope is not a claim that dishonesty cannot exist in
-the world — the record keeps unsolved files, and the Cairn Trust is sincerely
-aggrieved rather than saintly. What is forbidden is corruption as the lazy
-default, exactly as the detective doctrine forbids rescue-by-genius, not the
-existence of crime.
+**Guard — scope ruled by Dermot, 26 August 2026: "Cannot rule out minor
+corruption in minor or supporting characters."** Rejecting the trope is not a
+claim that dishonesty cannot exist in the world — the record keeps unsolved
+files, and the Cairn Trust is sincerely aggrieved rather than saintly. The
+ruling draws the line exactly: corruption is never the engine of a leader or
+major figure, and **minor corruption in minor or supporting characters is
+permitted** — texture the record carries the way it carries petty crime, a
+dock official skimming a manifest, a clerk whose queue moves faster for
+friends. Both qualifiers are load-bearing: neither grand corruption anywhere
+nor petty corruption in a protagonist is licensed, and "cannot rule out" is
+permission for the world to contain it, not an instruction to write it in.
+What is forbidden remains corruption as the lazy default, exactly as the
+detective doctrine forbids rescue-by-genius, not the existence of crime.
 
 **Comparandum: John Smith (*The Man in the High Castle*, the Amazon series —
 he is the show's invention, not Dick's).** Dermot's instruction, 26 August
