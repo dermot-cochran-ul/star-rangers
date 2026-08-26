@@ -82,12 +82,13 @@ Two later directions the same day (both in `intake-2026-08-26.md`):
   may consider the possibility of answered prayer and spiritual voices** —
   three non-Archive homes now (codex as attributed account, POV as
   experience, overlay as considered possibility), the Archive's own refusal
-  unmoved. One reading flagged: the codex reader-test taken to govern the
-  overlay too (canon no less settled after reading — the possibility held
-  open, never closed in either direction); confirm it transfers. Still open:
-  (2) the POV-experience clause's operational rule — **no `canon_facts`
-  entry may assert a prayer was answered**, the experience is the fact —
-  proposed, not yet ruled; lands in chapter conventions once confirmed.
+  unmoved. ~~Two readings/rules pending~~ — **both confirmed by Dermot,
+  26 August 2026** ("The reader test transfers and the canon_facts rule is
+  confirmed"): the codex reader-test governs the overlay, and **no
+  `canon_facts` entry may assert a prayer was answered** — the experience is
+  the fact. The rule is now a content authoring convention in CLAUDE.md.
+  **Nothing from this direction remains open**; the Levrils "Who Notices"
+  draft is the one artifact still awaiting his approval on the branch.
 
 ## Deliberately open — do not "fix" these
 
