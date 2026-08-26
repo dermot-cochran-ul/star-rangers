@@ -70,17 +70,16 @@ Two later directions the same day (both in `intake-2026-08-26.md`):
 - **Prayer, magic, and Levril perception.** Three of the four assertions are
   already canon (the record never asserts an answered prayer; magic never a
   narration-level claim; Levril work already read as providence by the
-  church-space telling). Awaiting confirmation: (1) **the differential
-  perception of Levrils** ("more likely to be perceived by sensitive or
-  deeply spiritual individuals") read as *rendering, not reception* —
-  trained attention supplying a form for a low-salience presence, per the
-  perceiver-supplies-the-form canon — rather than a perceptual capacity,
-  which would need a specified lawful mechanism before entering lore; the
-  Dock Seven all-witnesses precedent bounds it either way. (2) The
-  POV-experience clause's operational rule: **no `canon_facts` entry may
-  assert a prayer was answered** — the experience is the fact. A "who
-  notices" extension to `src/lore/levrils.md` is the natural landing spot
-  once (1) is confirmed; nothing drafted yet.
+  church-space telling). ~~Awaiting confirmation: (1) **the differential
+  perception of Levrils** read as *rendering, not reception*~~ — **confirmed
+  by Dermot, 26 August 2026: "The rendering reading is correct."** A **"Who
+  Notices" section is now drafted into `src/lore/levrils.md`** (rendering
+  practice, no perceptive elect, the answered-prayer pattern as selection
+  effect, plus a Common Misinterpretations bullet) — lore, so
+  **draft-and-stop: awaiting Dermot's approval on the branch.** Still open:
+  (2) the POV-experience clause's operational rule — **no `canon_facts`
+  entry may assert a prayer was answered**, the experience is the fact —
+  proposed, not yet ruled; lands in chapter conventions once confirmed.
 
 ## Deliberately open — do not "fix" these
 

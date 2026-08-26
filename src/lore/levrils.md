@@ -37,6 +37,14 @@ Two consequences follow, and both cut against the obvious reading.
 
 **Nobody is being deceived.** The projection is not a disguise and carries no intent to mislead — it is the ordinary consequence of a higher-dimensional presence being met by a mind that has to render it into something. The witness sees their own kind because that is what their perception had to hand, which is also why a Levril encounter tells a careful reader considerably more about the witness than about the Levril.
 
+## Who Notices
+
+At the salience of an enforcement action the question does not arise: at [Dock Seven](/star-rangers/lore/hyperfold-yield-combine/) every material witness present recorded what answered the intrusion as dragons, because nothing about a perimeter of that kind waits on the witness. Below that threshold a presence is quieter, and the record has long observed that whether a low-salience Levril presence is noticed at all varies from witness to witness — and varies in a pattern.
+
+The pattern is not a sense. A Levril has no form a time-bound observer could receive, so noticing one was never a matter of reception — the perceiver supplies the form, as above — and supplying a form for a faint presence is work, which some minds are practised at. Reports of low-salience encounters cluster among the contemplative, the devout, and the deeply attentive: witnesses whose disciplines train exactly what rendering requires — [attention that does not grasp](/star-rangers/codex/what-prayer-is-for/), and a stocked vocabulary to render with, the same equipment that decides [what a dreaming mind makes of membrane bleed](/star-rangers/lore/dreams-across-the-interval/). A distracted witness in the same room registers an instrument anomaly, a draught, or nothing, and nothing about their senses differed; what differed is what each mind could do with what arrived. The record files the correlation as a fact about rendering practice, not about a faculty. This setting keeps no perceptive elect.
+
+One consequence an archivist should expect rather than resist: the witnesses likeliest to notice a Levril are, by the same disciplines, the witnesses likeliest to have a devotional frame ready for what they noticed. That is why the file on Levril interventions is thick with accounts their own witnesses set down as answered prayer — a selection effect, not an endorsement. The record treats those accounts as it treats every such reading: the experience is filed as the witness's, the interpretation stays the witness's, and [what devotional traditions make of lawful maintenance is theirs to argue](/star-rangers/lore/what-the-record-refuses/) — in the Codex, attributed, never as the record's own voice.
+
 ## What a Levril Can Do, and What It Cannot
 
 The two halves are worth reading together, because the whole of this entry turns
@@ -110,6 +118,7 @@ It is not restated here.
 - "All higher-dimensional beings are Levrils." (False: monsters and incursives are also meta-dimensional but lack Cascade standing.)
 - "A Levril appearing in Material space is a miracle." (False: it is dimensional translation with measurable field effects.)
 - "The witness saw what it really looks like." (False — see *What a Levril Looks Like* above, which is the whole of the answer.)
+- "Levrils choose to appear to the faithful." (False: below enforcement salience, noticing is rendering work done by the witness, and the clustering of reports among the contemplative is practice, not election — see *Who Notices* above.)
 
 ## See Also
 
