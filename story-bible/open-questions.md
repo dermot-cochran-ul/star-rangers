@@ -35,6 +35,62 @@ reason. Verify against the repo before acting on any line here.
 
 ---
 
+## The burnt-out leader direction — raised 26 August 2026
+
+`intake-2026-08-26.md` records the direction verbatim (rejecting the
+corrupt-politician trope; the burnt-out leader claimed as ground Dermot
+identifies with) with a canon survey showing the corpus already holds it. The
+theme section is in `ideas.md`; a distilled line proposed into
+`life-lessons.md`. Three readings await his confirmation:
+
+- **"can identity with"** read as a typo for *can identify with*.
+- ~~**The rejection's scope** read as a *trope* rejection (corruption never
+  the lazy default explanation of political failure), not an absolute ban on
+  dishonest office-holders existing in the world~~ — **ruled by Dermot,
+  26 August 2026: "Cannot rule out minor corruption in minor or supporting
+  characters."** The trope reading stands, refined: corruption never the
+  engine of a leader or major figure; minor corruption in minor or supporting
+  characters permitted as texture. Both qualifiers load-bearing; recorded in
+  full in `intake-2026-08-26.md`.
+- **"I can identify with"** read as licensing interiority — burnt-out
+  leadership writable from inside as a POV position, generalised per
+  `life-lessons.md`'s rule (the structure enters the work, the circumstances
+  don't).
+
+Two later directions the same day (both in `intake-2026-08-26.md`):
+
+- ~~**The John Smith comparandum** (*The Man in the High Castle*)... Read as
+  *in scope*; confirm.~~ — **ruled by Dermot, 26 August 2026: "A major
+  character could be a complicit leader who repents."** In scope at
+  major-character scale, the repentance part of the licence — the corpus's
+  answer to Smith, whose ending forecloses the taking. Recorded in full in
+  `intake-2026-08-26.md` and `ideas.md`. One residue, deliberately unforced:
+  the ruling licenses the *repenting* version; an unrepentant complicit
+  leader at major scale is undecided, not licensed — no reason to raise it
+  until a story needs it.
+- **Prayer, magic, and Levril perception.** Three of the four assertions are
+  already canon (the record never asserts an answered prayer; magic never a
+  narration-level claim; Levril work already read as providence by the
+  church-space telling). ~~Awaiting confirmation: (1) **the differential
+  perception of Levrils** read as *rendering, not reception*~~ — **confirmed
+  by Dermot, 26 August 2026: "The rendering reading is correct."** A **"Who
+  Notices" section is now drafted into `src/lore/levrils.md`** (rendering
+  practice, no perceptive elect, the answered-prayer pattern as selection
+  effect, plus a Common Misinterpretations bullet) — lore, so
+  **draft-and-stop: awaiting Dermot's approval on the branch.** A fourth
+  direction the same day completed the structure: **the Church Space overlay
+  may consider the possibility of answered prayer and spiritual voices** —
+  three non-Archive homes now (codex as attributed account, POV as
+  experience, overlay as considered possibility), the Archive's own refusal
+  unmoved. ~~Two readings/rules pending~~ — **both confirmed by Dermot,
+  26 August 2026** ("The reader test transfers and the canon_facts rule is
+  confirmed"): the codex reader-test governs the overlay, and **no
+  `canon_facts` entry may assert a prayer was answered** — the experience is
+  the fact. The rule is now a content authoring convention in CLAUDE.md.
+  **Nothing from this direction remains open**; ~~the Levrils "Who Notices"
+  draft is the one artifact still awaiting his approval on the branch~~ —
+  **approved by Dermot, 26 August 2026.** The whole intake is closed.
+
 ## Deliberately open — do not "fix" these
 
 Some things are open because leaving them open is the better answer. They are
