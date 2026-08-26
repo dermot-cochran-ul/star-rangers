@@ -59,14 +59,15 @@ theme section is in `ideas.md`; a distilled line proposed into
 
 Two later directions the same day (both in `intake-2026-08-26.md`):
 
-- **The John Smith comparandum** (*The Man in the High Castle*) is worked
-  into `ideas.md` and sharpens the scope question: Smith is a third figure —
-  the **complicit leader**, integrity spent under pressure rather than sold —
-  distinct from both the rejected trope and the identified-with burnt-out
-  leader, and compatible with the no-pure-evil doctrine. Read as *in scope*;
-  confirm. *(The 26 August minor-corruption ruling does not decide this — it
-  covers petty venality at the margins, a different axis from integrity spent
-  at major scale.)*
+- ~~**The John Smith comparandum** (*The Man in the High Castle*)... Read as
+  *in scope*; confirm.~~ — **ruled by Dermot, 26 August 2026: "A major
+  character could be a complicit leader who repents."** In scope at
+  major-character scale, the repentance part of the licence — the corpus's
+  answer to Smith, whose ending forecloses the taking. Recorded in full in
+  `intake-2026-08-26.md` and `ideas.md`. One residue, deliberately unforced:
+  the ruling licenses the *repenting* version; an unrepentant complicit
+  leader at major scale is undecided, not licensed — no reason to raise it
+  until a story needs it.
 - **Prayer, magic, and Levril perception.** Three of the four assertions are
   already canon (the record never asserts an answered prayer; magic never a
   narration-level claim; Levril work already read as providence by the

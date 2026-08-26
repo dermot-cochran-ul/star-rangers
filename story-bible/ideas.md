@@ -147,10 +147,31 @@ instructive:
   but both at historical or codex distance. Nobody in the corpus carries the
   complicit-leader arc from inside, which is a finding, not yet a plan.
 
-The scope question this sharpens is indexed in `open-questions.md`: rejecting
-the corrupt-politician trope presumably does not foreclose the complicit
-leader — Smith proves the figure is compatible with no-pure-evil — but that
-is a reading awaiting Dermot's confirmation.
+**Ruled by Dermot, 26 August 2026: "A major character could be a complicit
+leader who repents."** The figure is in scope at major-character scale, and
+the repentance is part of the licence — which makes the ruled figure the
+corpus's *answer* to Smith rather than a copy: the same arc with the ending
+Smith's story forecloses actually reached. What the arc requires, read
+against the doctrines already on the books:
+
+- **The lie-maintenance mechanics run the middle.** The complicit self is a
+  locally Unfounded pattern needing continuous upkeep; the story's engine is
+  the war of attrition against a truth that upholds itself, not a downfall
+  by exposure. The reader may know the truth early — the Columbo shape works
+  here too.
+- **The repentance must be *taken*, on the page, and must cost.** Kill the
+  lie, leave the person standing — but standing is not restored: the
+  detective doctrine's ending applied to a protagonist means living past the
+  working-out, which Smith could not. Mentorship's line already names the
+  destination: *modeling recovery from mistakes* — the repented complicit
+  leader is that theme at its hardest setting.
+- **The tone rule governs the complicity.** Unsettling, never horror: hint
+  at the dark fact rather than depicting it — what the character enabled is
+  written the way the corpus writes every dark fact.
+- **Not licensed by this ruling**: the unrepentant version at major scale
+  (undecided, not refused — see `open-questions.md`), and nothing here
+  commits any particular character or season; "could be" is permission, not
+  a plan.
 
 ## Wisdom Versus Intelligence
 - Intelligence solves problems.
