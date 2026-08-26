@@ -77,7 +77,14 @@ Two later directions the same day (both in `intake-2026-08-26.md`):
   Notices" section is now drafted into `src/lore/levrils.md`** (rendering
   practice, no perceptive elect, the answered-prayer pattern as selection
   effect, plus a Common Misinterpretations bullet) — lore, so
-  **draft-and-stop: awaiting Dermot's approval on the branch.** Still open:
+  **draft-and-stop: awaiting Dermot's approval on the branch.** A fourth
+  direction the same day completed the structure: **the Church Space overlay
+  may consider the possibility of answered prayer and spiritual voices** —
+  three non-Archive homes now (codex as attributed account, POV as
+  experience, overlay as considered possibility), the Archive's own refusal
+  unmoved. One reading flagged: the codex reader-test taken to govern the
+  overlay too (canon no less settled after reading — the possibility held
+  open, never closed in either direction); confirm it transfers. Still open:
   (2) the POV-experience clause's operational rule — **no `canon_facts`
   entry may assert a prayer was answered**, the experience is the fact —
   proposed, not yet ruled; lands in chapter conventions once confirmed.
