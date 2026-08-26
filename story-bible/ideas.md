@@ -99,6 +99,51 @@ aggrieved rather than saintly. What is forbidden is corruption as the lazy
 default, exactly as the detective doctrine forbids rescue-by-genius, not the
 existence of crime.
 
+**Comparandum: John Smith (*The Man in the High Castle*, the Amazon series —
+he is the show's invention, not Dick's).** Dermot's instruction, 26 August
+2026: compare with Smith as antihero. The comparison earns its place because
+Smith is **neither pole of the direction**, and the gap he occupies is
+instructive:
+
+- **Not the corrupt politician.** Venality is never his engine — Smith is
+  not on the take, and the show refuses the cartoon at every turn. His rise
+  runs on competence and family loyalty, which is exactly what makes him
+  worse than a bribed man and more honest to write.
+- **Not the burnt-out leader either.** By the end he has every texture of
+  burnout — the deadened competence, the office costing more than it returns
+  — but the diagnosis differs. What depleted him was not responsibility
+  honestly held; it was **maintaining a counterfeit self** for twenty years.
+  His exhaustion is a symptom of complicity, not of duty.
+- So he is a **third figure: the complicit leader** — integrity spent under
+  pressure, choice by defensible choice ("I did it to protect my family"),
+  rather than sold. The regime's own law devouring his son is the cost
+  arriving through the door his loyalty held open.
+- **The corpus already owns the mechanics that explain him.** Read against
+  the detective doctrine above, Smith's public self is a locally Unfounded
+  pattern — counterfeit, underwritten by nothing, needing continuous
+  maintenance, losing a war of attrition against a truth that upholds
+  itself. The alt-world where he stayed decent and his son lives is the
+  asymmetry detection made visible — proof the man was never rotten, only
+  the choices — and his end is the church-space warning executed exactly:
+  *the builder is standing on the structure when the review completes.* The
+  show's shape and this setting's cosmology agree to a degree that is worth
+  having noticed.
+- **Where the doctrine would push a Smith-figure differently:** kill the
+  lie, leave the person standing — every working-out ends with repentance
+  on the table, taken or not. Smith's ending forecloses the taking; a
+  corpus version must keep the other ending genuinely reachable, which is
+  harder to write and the reason to try.
+- **Nearest existing figures**: Maren Solveig Krast, whose Jehu comparandum
+  (the captain who ended a rotten house and kept its older idol) is the
+  complicity question filed in codex form, and the Imperium officer corps —
+  but both at historical or codex distance. Nobody in the corpus carries the
+  complicit-leader arc from inside, which is a finding, not yet a plan.
+
+The scope question this sharpens is indexed in `open-questions.md`: rejecting
+the corrupt-politician trope presumably does not foreclose the complicit
+leader — Smith proves the figure is compatible with no-pure-evil — but that
+is a reading awaiting Dermot's confirmation.
+
 ## Wisdom Versus Intelligence
 - Intelligence solves problems.
 - Wisdom chooses which problems are worth solving.
