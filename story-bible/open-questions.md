@@ -269,8 +269,21 @@ named inappropriate case, beside the Dock Seven lawful one.
 ~~**Still open from this direction:** only the section's approval.~~ —
 **approved by Dermot, 27 August 2026** ("Approved", given against the two
 drafts then pending: this section and the Two in the One Currach codex
-entry). Nothing from this direction remains open — the whole direction is
-closed.
+entry). ~~Nothing from this direction remains open — the whole direction
+is closed.~~
+
+**Second follow-up, same day (after the merge):** the rule's two founding
+reasons, given verbatim — both a reaction against Krast's MSC leadership
+style: to avoid micromanagement and to prevent the Star Rangers becoming
+a military dictatorship (Dermot corrected "micromagement" himself in the
+same message). Canon check in `intake-2026-08-27.md`: Krast, the 2719
+hearing and the 2723 charter already carry the chronology; the MSC's
+overcentralisation is the micromanagement; the "MSC wearing a different
+crest" fear is the dictatorship half. One reading lightly held: the
+rationale as **founding-era** (the framers' reaction between hearing and
+charter). Realized into the lore section's MSC paragraph — **approved by
+Dermot, 27 August 2026** ("Approved"). Nothing from this direction
+remains open — the whole direction, both follow-ups included, is closed.
 
 ## Deliberately open — do not "fix" these
 
