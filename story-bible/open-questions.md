@@ -136,10 +136,23 @@ worked through in `intake-2026-08-27.md`'s second direction: the preserver's
 idiom filters what is preserved — an archival substrate carries enacted
 things only as their own record, which is what "downgraded" means
 mechanically, and why the published S6 interior already reads as pastoral
-memory rather than fantasy. One residue, deliberately unwritten: *how the
+memory rather than fantasy. ~~One residue, deliberately unwritten: *how the
 downgrade is shown and who grieves it* (her half, and Tobble's — the
 archivist who saved too little) is S7 material, decided when its chapters
-are.
+are.~~ — **Tobble's half answered by a third direction, same day** (verbatim
+in `intake-2026-08-27.md`): he considered a new tulpa to represent the lost
+world, judged it "a museum or ghost of the original", and instead made a
+**redacted book — an internal codex**, some scenes glossed over for modesty.
+~~Two readings await confirmation~~ — **both confirmed by Dermot,
+27 August 2026** ("Both readings are confirmed"): **the modesty's sense**
+carries both propriety (intimate material glossed, per the standing decorum
+rules practised in-world) and Tobble's self-effacement, applied to different
+scenes; and **the refusal's scope** is Tobble's own judgement, canon as his
+reasoning — not a general doctrine against memorial tulpas. Still open,
+deliberately: her half (does she read
+it; does she ask what the glosses cover), whether the book has a title, and
+what a glossed page looks like in prose — S7 material, decided when its
+chapters are.
 
 ## Deliberately open — do not "fix" these
 
