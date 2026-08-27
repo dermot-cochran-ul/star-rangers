@@ -1006,3 +1006,32 @@ What it gives this arc:
   IWD is a consequence, not a purpose. Tobble is a person, not an upgrade —
   and now, specifically, a person whose own idiom is the registry beneath
   the romance.
+
+### The redacted book (Dermot, 27 August 2026 — third direction, same intake)
+
+Tobble's half of the grief residue is answered (verbatim and full canon check
+in `intake-2026-08-27.md`, third direction): he **could** have cultivated a
+new tulpa to represent the lost fantasy world, judged it would be "a museum
+or ghost of the original", and instead made a **redacted book — an internal
+codex** of the lost world, some scenes glossed over for modesty.
+
+What this gives the arc:
+
+- **The grief has an object, and S7 prose has a prop.** A book can be opened
+  on the page; a glossed passage shows the loss and the modesty in one
+  gesture without depicting either. This is the answer to "how is the
+  downgrade shown": you show the book being what it is — an account, not a
+  world.
+- **The refusal is the deeper beat.** A tulpa is a person
+  (`plural-minds.md`), so the museum would have been a *person made to be a
+  monument* — the refusal is personhood ethics in Tobble's idiom, rhyming
+  with the Borrowed Silhouette's unoccupiable category and with Marked
+  Absences (a redaction is a marked gap; a reconstruction is an explained
+  one). The book is the downgrade admitted; the tulpa would have been the
+  downgrade denied.
+- **Still open, deliberately**: her half (does Tissadelle read it; does she
+  ask what the glosses cover — a scene where she does not ask may be worth
+  more than one where she does); whether the book has a title; what a
+  glossed page looks like in prose. The modesty reading (propriety, and/or
+  Tobble's self-effacement — his "not holding anything" register) is
+  flagged for confirmation in the intake.
