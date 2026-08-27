@@ -205,21 +205,26 @@ intelligent constructive criticism, especially but not exclusively directed
 at the Star Rangers. Realized same day as a "What it is for" section in
 `src/lore/the-institute.md` (extension plus clarification under the
 canon-stability rule) — draft-and-stop: on the branch, awaiting Dermot's
-approval. Four readings await confirmation:
+approval. ~~Four readings await confirmation~~ — **all four confirmed by
+Dermot, 27 August 2026** ("All four readings are confirmed"):
 
-- **"The Institute"** read as the existing lore body, not a new institution.
-- **"Designed to"** read as standing remit, not founding intent aimed at the
-  Corps — the entry's four-centuries line puts the Institute some three
+- ~~**"The Institute"** read as the existing lore body, not a new
+  institution.~~ — confirmed.
+- ~~**"Designed to"** read as standing remit, not founding intent aimed at
+  the Corps — the entry's four-centuries line puts the Institute some three
   centuries before the 2723 charter, so the Rangers are the design's chief
   subject because they became the largest boundary operator, not its
-  founding target.
-- **"Nonpolitical"** read in the charter's own constitutional sense
+  founding target.~~ — confirmed.
+- ~~**"Nonpolitical"** read in the charter's own constitutional sense
   (non-political, so spelled corpus-wide): no side taken, no faction
   endorsed, no governing power — a clarification of what the entry already
-  implied.
-- **"Constructive"** read as criticism built to be used by the criticised —
+  implied.~~ — confirmed.
+- ~~**"Constructive"** read as criticism built to be used by the criticised —
   the published behaviour promoted to design; "intelligent" as a quality bar
-  shown, not asserted.
+  shown, not asserted.~~ — confirmed.
+
+Nothing else from this direction remains open; the lore section is the one
+artifact awaiting Dermot's approval on the branch.
 
 ## Deliberately open — do not "fix" these
 
