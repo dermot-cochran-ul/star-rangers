@@ -182,11 +182,19 @@ glosses cover; Tobble's consent to the founding is shown truly held and
 then given; the other members' farewells are marked, not transcribed (so
 names and count stay undecided even on the page); and what follows the
 closing line is his answered threshold greeting, with his grief given one
-line, entered in the book, and glossed. Still open after the approval: the
-members' names and count, the external coda (Wender, the channel closing),
-and where the scene slots — the last being the decision that would turn the
-draft into a chapter (`npm run new -- chapter`, fresh `comment_id`, canon
-binding on merge).
+line, entered in the book, and glossed. ~~Still open after the approval:
+the external coda~~ — **drafted 27 August 2026 at Dermot's direction**
+(scene 2, Wender POV, in the same file; awaiting his approval). Its own
+by-proposal commitments, his to keep or reverse: Wender kept the watch
+herself; the final phrasing constitutes Shepherd's last order — close the
+file — and Wender executes it (cause of closure: *founding*, not
+casualty); the levril departs, watch complete; and under the phrasing a
+cadence Wender recognises as *Ballad of the Stars* and keeps out of the
+record, so the recording stays neither confirmed nor denied in public.
+Still open after both scenes: the members' names and count, and where the
+scene slots — the latter being the decision that would turn the draft into
+a chapter (`npm run new -- chapter`, fresh `comment_id`, canon binding on
+merge).
 
 ## Deliberately open — do not "fix" these
 

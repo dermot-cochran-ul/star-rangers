@@ -36,10 +36,33 @@ ruled); `s05e02c03` and `s07e01c03` (whose lines it deliberately echoes);
 - The preserved interior — the holding, the made figures, the book —
   passing to Tobble with the founding: furnishings of the new universe.
 
-**What it deliberately does not fix:** the members' names and count; the
-external coda (Wender, the channel closing, what the station records — left
-for the chapter, if the chapter wants it); any instrument-side mechanism;
-the interval's length; the season/episode slot.
+**The external coda (scene 2, Wender POV — drafted 27 August 2026 at
+Dermot's direction) additionally commits, if published:**
+
+- Wender kept the watch herself across the unfixed interval — the file
+  never handed off, the check-in never unset.
+- The terminus from outside: the iterating signal delivers one final
+  phrasing — complete, unrepeated — constituting Shepherd's last order,
+  which is to close the file; Wender executes it, so the file nobody was
+  permitted to close is closed at last on the only authority the arc
+  allows.
+- The station logs a founding signature (the textbook profile nobody at
+  Threshold had seen outside the textbook), and the record files the
+  ending as a founding, not a casualty — the form, once again, having no
+  box for her.
+- The levril departs at completion, its watch finished — permitted, at
+  last, to leave.
+- Under the final phrasing, a cadence Rook-7 logs as structured and
+  non-informational, which Wender recognises as *Ballad of the Stars* —
+  and keeps out of the record, so the recording stays neither confirmed
+  nor denied in public, and what Wender privately knows goes on never
+  quite reconciling, per the published canon fact.
+- Wender's grief shown in the survivors' register: paid without complaint,
+  one crack of warmth permitted.
+
+**What it deliberately does not fix:** the members' names and count; any
+instrument-side mechanism beyond the founding signature's existence; the
+interval's length; the season/episode slot.
 
 ---
 
@@ -164,6 +187,88 @@ declined to establish which.
 Later, in his own hand, he entered the day. The entry is one line long.
 
 Then he glossed it.
+
+:::
+
+:::::
+
+::::: scene 2
+
+::: pov wender
+
+The watch had never been handed off. There were officers who could have
+stood it — Sen had offered, in the manner of an archivist offering, which
+is a filing proposal with kindness in it — and Wender had declined them
+all, on the grounds she gave nobody, which were that the last order on the
+file was hers, and that the order had been *let her tell us what she
+wants*, and that an order is not discharged by delegating the listening.
+
+So it came to her, as it was always going to, at four in the station's
+morning: Rook-7's arrays, then Sen's confirmation, then her own eyes on
+the raw phrasing before anyone had dressed it in an interpretation. Six
+years of iteration — sustained, warm, patient as weather — and now one
+final phrasing, complete, closed at every margin, and not repeated. She
+read it twice, once for content, once for what it was for, because a dead
+woman had taught her that and the woman had declined, for six years, to be
+dead.
+
+The content was short. The account, returned — unaltered, which from
+Shepherd was a signature more binding than ink: *checked, found true,
+nothing to correct*. The finding, completed at last in the flat voice the
+whole Corps had learned to trust precisely because it never reached past
+its evidence: *the marker states. It resolves.* And then the one sentence
+that was an order, addressed to the station, to the Council, to the file,
+and — she did not pretend otherwise — to her: *enough is enough. Close it.*
+
+Under all of it, beneath the data where only a non-standard array would
+think to listen, Rook-7 had logged a cadence. Structured, it said.
+Non-informational, it said. Rook-7 was a fine analyst and wrong twice in
+one line, and Wender, who had stood at the back of exactly one muster with
+her collar loosened and heard the cohorts sing the fast one, recognised
+the slow one — the companion piece, the one that circulates quietly and is
+not sung, the one that was neither confirmed nor denied as hers in public
+and now never would be, because the only person entitled to confirm it had
+just spent it, privately, on a High Captain standing alone in a signals
+room at four in the morning. It was not in the content. It was in the
+phrasing. It was how the sentence was *carried*, and no line of it would
+ever appear in any record Wender kept, which was, she understood, exactly
+the point. Some things a person keeps without inventing the reason.
+
+Then the warm edge went from warm to finished.
+
+Not cold. Finished. The arrays caught the difference before she could have
+said it aloud: a signature out of the manuals' back pages, the founding
+profile, the one every boundary officer memorises and no one at Threshold
+had ever seen outside the textbook — jurisdiction Telearch, standing
+referred, classification not casualty. Somewhere past the edge of
+everything the station could measure, something one second old had a
+morning in it. The log wanted a word for the opposite of a death and the
+log did not have one, because the forms had never had a box for her. They
+were not going to start now.
+
+The levril did not linger. She had grown used to it the way you grow used
+to a lighthouse — present at every distance, asking nothing — and she
+perceived its going the only way anyone perceives anything about them: as
+a shape her own mind supplied, which this morning was an officer stepping
+back from a door, watch complete, permitted at last to leave, and leaving
+the way the good ones leave, without being thanked.
+
+She closed the file herself. It took four minutes. The last sentence of
+the accurate account was hers to write and she wrote it the way the whole
+account had been written, exactly as long as the truth required and not
+one clause longer: *Line Captain Tissadelle Shepherd, at her own order,
+file closed complete — cause of closure: founding.* The Council would
+misread it. The Codex would improve it. What she privately knew would go
+on never quite reconciling with either, and she found she had stopped
+minding, because the woman the three accounts disagreed about had signed
+off on the disagreement herself.
+
+"Goodnight, Captain," Wender said, to a signals room, at four in the
+morning — one crack in a career of not doing that, entered into no record,
+paid without complaint.
+
+Then she filed it. Records don't need telling. They only need keeping, and
+she meant to keep this one a very long time.
 
 :::
 
