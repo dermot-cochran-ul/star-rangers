@@ -81,6 +81,14 @@ The same principle accounts for the shape of her service record. Her rotation ac
 
 None of which is instability. **Hers is a harmonious, well-integrated system** — the members work together, the handovers are unremarkable to everyone involved, and the arrangement has never once produced the incoherence a reviewer looking for it expects to find. The interest of the arrangement, if there is any, is administrative: the forms were built for one person per body and have been quietly wrong about that for a century.
 
+### The inner world
+
+What the record can say of an interior it cannot inspect, it says on the system's own account — the only authority there has ever been on the subject. The account is this: the inner world Shepherd and Tobble share is **structured like a high-fantasy role-playing game**. Not dressed as one — there is scenery, and she has never itemised it for anyone — but *structured* as one: named places with rules, roles held the way a party holds them, work parcelled into quests that are taken up, carried, and not set down before they are finished, advancement earned rather than assumed. An imagination that keeps its own rulebook is, on the evidence of everything else on this page, the most Shepherd-like fact the record holds about her.
+
+The architecture is load-bearing, not decorative. That different members front in different roles is the outside view of it; from inside, it is only the party fielding whoever's class fits the encounter — which is how one system carries a service record wider than most careers without ever experiencing the width as strain, and why the rotations that read as restlessness from the outside never were.
+
+**Tobble's own subsystem sits deeper than the questing layer, and runs on a different discipline entirely: far more ordered, far more scientific** — kept records, checked procedure, arithmetic done twice because once is an opinion. Deeper describes structure, not standing; there is no hierarchy in it, and neither architecture is the truer one. They are two idioms of one working interior, and the officer the Corps sees is the collaboration showing — the romance kept where only the system can see it, and beneath the romance a registry. Which is why the Ranger who will not claim past her evidence has never once run short of somewhere to put what she cannot yet claim.
+
 ## The Sentinel Signal
 
 Season 3, working a backlog of archived Hegemony telemetry from [the Sentinel](/star-rangers/lore/planets/sentinel/) under a routine Survey Corps data-exchange, newly made Principal, Shepherd did what pattern-recognition software had not been built to do: she stopped reading the world's unclassifiable EM pulse as data and ran it as audio. What generations of automated classifiers had filed as noise because it matched no known protocol, she flagged within one listen as something with phrasing, repetition, and variation — considerably harder to file, and considerably harder to ignore.

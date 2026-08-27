@@ -946,3 +946,47 @@ has any authority to stop either one.
    option and nothing above requires it.
 3. **Whether Órla knows** the expulsion followed from being helped, and whether
    Tissadelle would ever let her find out.
+
+---
+
+## The inner world's architecture (Dermot, 27 August 2026 — direction, all readings confirmed)
+
+Direction verbatim and canon survey in `intake-2026-08-27.md`: Tissadelle's
+inner world is structured like a high fantasy RPG; Tobble's deeper internal
+subsystem is much more disciplined and scientific. All four readings confirmed
+the same day (the typo; the in-life inner world, not the S6 interior;
+architecture, not scenery; depth, not rank). Realized as "The inner world" on
+the character page — spoiler-guarded there (no IWD, no noögenics, no Dock
+Seven); this section carries the arc-side half.
+
+What it gives this arc:
+
+- **It explains the preserver.** The protouniverse-centred-on-Tobble direction
+  (28 July, above) always needed Tobble to be the member "with structure to
+  spend" at the moment of collapse. The disciplined, scientific subsystem is
+  that structure, named: preservation onto the lost vessel's archival stores
+  is his own idiom — kept records, checked procedure — doing under fire what
+  it had always done quietly. `s05e02c03`'s *"Do the arithmetic again"* and
+  *"Hold still"* are the subsystem speaking, and the chapter wrote it before
+  the direction named it.
+- **It sharpens the partial preservation.** What Shepherd wakes into — the
+  holding, the made Órla, the made Wender — is pastoral, and it is canonically
+  a *fragment* ("only part of it was preserved", `s06e01c01`). The direction
+  confirms the fragment is not representative of the whole: the interior the
+  system held in life was RPG-structured, and the saved part is the part that
+  reads as memory rather than architecture. The cognitive-horror premise
+  stays "not fantasy content" per the standing note above — nothing here
+  licenses redecorating the S6 chapters.
+- **The fate of the RPG-structured layer at Dock Seven is deliberately open**
+  (indexed in `open-questions.md`): lost with the unpreserved remainder,
+  partially preserved, or held in Tobble's own deep structure. The published
+  chapters show only the holding; nothing yet forces the answer, and the
+  answer is a real S7 resource either way — a lost architecture is grief
+  material, a held one is a card Tobble has not played.
+- **IWD, grounded.** The RPG structure is what "self-model multiplicity" and
+  "layered intention" (`inner-world-depth-iwd.md`) look like from inside for
+  this system — a concrete reason this mind in particular carried the
+  noöseed viability the arc turns on. The standing rule is untouched: high
+  IWD is a consequence, not a purpose. Tobble is a person, not an upgrade —
+  and now, specifically, a person whose own idiom is the registry beneath
+  the romance.
