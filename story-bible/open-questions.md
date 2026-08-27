@@ -91,6 +91,29 @@ Two later directions the same day (both in `intake-2026-08-26.md`):
   draft is the one artifact still awaiting his approval on the branch~~ —
   **approved by Dermot, 26 August 2026.** The whole intake is closed.
 
+## The RPG-structured inner world — raised 27 August 2026
+
+`intake-2026-08-27.md` records the direction verbatim (Tissadelle's inner
+world structured like a high fantasy RPG; Tobble's deeper internal subsystem
+much more disciplined and scientific) with a canon survey finding the division
+of labour already on the page at Dock Seven, unnamed. Story-bible-only
+capture; no canon touched. Four readings await confirmation:
+
+- **"disciplinec"** read as a typo for *disciplined*.
+- **"Inner world"** read as the living system's interior in life — not the
+  Season 6 stalled-seed interior, which is canonically a *partial*
+  preservation (`s06e01c01`) and published as pastoral, not fantasy.
+- **"Structured like a high fantasy RPG"** read as architecture (roles, a
+  party, layered quests — the shape IWD already specifies abstractly), not
+  scenery — the reading that leaves the published S6 interior untouched.
+- **"Tobble's deeper internal subsystem"** read as depth, not rank — two
+  architectures in one system, no hierarchy of members ("Tobble is a person,
+  not an upgrade" stands).
+
+Realization once confirmed: an extension of
+`src/characters/tissadelle-shepherd.md`'s Tobble section (draft-and-stop),
+with `tissadelle-arc-s6-7.md` updated to match.
+
 ## Deliberately open — do not "fix" these
 
 Some things are open because leaving them open is the better answer. They are
