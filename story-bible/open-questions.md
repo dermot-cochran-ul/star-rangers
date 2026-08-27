@@ -204,9 +204,10 @@ Institute is an independent nonpolitical academic body designed to provide
 intelligent constructive criticism, especially but not exclusively directed
 at the Star Rangers. Realized same day as a "What it is for" section in
 `src/lore/the-institute.md` (extension plus clarification under the
-canon-stability rule) — draft-and-stop: on the branch, awaiting Dermot's
-approval. ~~Four readings await confirmation~~ — **all four confirmed by
-Dermot, 27 August 2026** ("All four readings are confirmed"):
+canon-stability rule) — ~~draft-and-stop: on the branch, awaiting Dermot's
+approval~~ **approved by Dermot, 27 August 2026** ("The What it is for
+section is approved"). ~~Four readings await confirmation~~ — **all four
+confirmed by Dermot, 27 August 2026** ("All four readings are confirmed"):
 
 - ~~**"The Institute"** read as the existing lore body, not a new
   institution.~~ — confirmed.
@@ -223,8 +224,8 @@ Dermot, 27 August 2026** ("All four readings are confirmed"):
   the published behaviour promoted to design; "intelligent" as a quality bar
   shown, not asserted.~~ — confirmed.
 
-Nothing else from this direction remains open; the lore section is the one
-artifact awaiting Dermot's approval on the branch.
+Nothing from this direction remains open — readings confirmed and the lore
+section approved, both 27 August 2026. The whole direction is closed.
 
 ## Deliberately open — do not "fix" these
 
