@@ -266,9 +266,11 @@ instrumentation alone — cadet mentoring is the Principal's remit by the
 ladder's own wording. Realized into the lore section as the doctrine's
 named inappropriate case, beside the Dock Seven lawful one.
 
-**Still open from this direction:** only the section's approval — the
-draft stands under the confirmed readings and the follow-up example, and
-waits for Dermot on the branch.
+~~**Still open from this direction:** only the section's approval.~~ —
+**approved by Dermot, 27 August 2026** ("Approved", given against the two
+drafts then pending: this section and the Two in the One Currach codex
+entry). Nothing from this direction remains open — the whole direction is
+closed.
 
 ## Deliberately open — do not "fix" these
 
