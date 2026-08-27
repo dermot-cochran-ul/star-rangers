@@ -227,6 +227,35 @@ confirmed by Dermot, 27 August 2026** ("All four readings are confirmed"):
 Nothing from this direction remains open — readings confirmed and the lore
 section approved, both 27 August 2026. The whole direction is closed.
 
+## The command detail rule — raised 27 August 2026
+
+`intake-2026-08-27.md` (seventh direction) records the direction verbatim:
+Line Captains, Starwardens and Archwardens are not allowed to give overly
+detailed technical instructions to Chief Officers, Section Leads or
+Principals. Realized same day as a "Where an Order Has to Stop" section in
+`src/lore/star-rangers-command-hierarchy.md` (extension of the Guild
+Leadership section's what/how line, under the canon-stability rule) —
+draft-and-stop: on the branch, awaiting Dermot's approval. **Five readings
+await confirmation:**
+
+- **"Prinipicals"** read as a typo for *Principals* (the ladder holds no
+  other candidate). **Confirm.**
+- **"Chief Officers"** read as officers holding the Chief rank, across its
+  duty titles (Chief Ranger, Chief Pilot, Chief Provost, Chief Science
+  Officer, senior chief warden officer) — the direction's protected three
+  read in exact descending ladder order, and no rank "Chief Officer"
+  exists. **Confirm.**
+- **"Overly detailed"** read as the load-bearing qualifier — a rule about
+  depth of detail, not subject matter: constraints, parameters and
+  priorities stay command's to state. **Confirm.**
+- **The bound tier** read as the named three ranks (the post-holding
+  command tier below flag); whether Star Captains, High Captains and the
+  Triumvirate are formally bound too is left open. **Confirm — or rule the
+  wider set.**
+- **The floor at Principal** read as deliberate — below the certification
+  tier, detailed instruction is what supervision and training are.
+  **Confirm.**
+
 ## Deliberately open — do not "fix" these
 
 Some things are open because leaving them open is the better answer. They are
