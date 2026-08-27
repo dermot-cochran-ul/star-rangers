@@ -235,26 +235,31 @@ detailed technical instructions to Chief Officers, Section Leads or
 Principals. Realized same day as a "Where an Order Has to Stop" section in
 `src/lore/star-rangers-command-hierarchy.md` (extension of the Guild
 Leadership section's what/how line, under the canon-stability rule) —
-draft-and-stop: on the branch, awaiting Dermot's approval. **Five readings
-await confirmation:**
+draft-and-stop: on the branch, awaiting Dermot's approval. ~~Five readings
+await confirmation~~ — **all five confirmed by Dermot, 27 August 2026**
+("All five readings are confirmed, Star Captains and High Captains are
+bound in the same way but would normally delegate via Line Captains,
+Archwardens and Starwardens"):
 
-- **"Prinipicals"** read as a typo for *Principals* (the ladder holds no
-  other candidate). **Confirm.**
-- **"Chief Officers"** read as officers holding the Chief rank, across its
-  duty titles (Chief Ranger, Chief Pilot, Chief Provost, Chief Science
-  Officer, senior chief warden officer) — the direction's protected three
-  read in exact descending ladder order, and no rank "Chief Officer"
-  exists. **Confirm.**
-- **"Overly detailed"** read as the load-bearing qualifier — a rule about
-  depth of detail, not subject matter: constraints, parameters and
-  priorities stay command's to state. **Confirm.**
-- **The bound tier** read as the named three ranks (the post-holding
-  command tier below flag); whether Star Captains, High Captains and the
-  Triumvirate are formally bound too is left open. **Confirm — or rule the
-  wider set.**
-- **The floor at Principal** read as deliberate — below the certification
-  tier, detailed instruction is what supervision and training are.
-  **Confirm.**
+- ~~**"Prinipicals"** read as a typo for *Principals*.~~ — confirmed.
+- ~~**"Chief Officers"** read as officers holding the Chief rank, across
+  its duty titles — the direction's protected three read in exact
+  descending ladder order, and no rank "Chief Officer" exists.~~ —
+  confirmed.
+- ~~**"Overly detailed"** read as the load-bearing qualifier — a rule about
+  depth of detail, not subject matter.~~ — confirmed.
+- ~~**The bound tier** read as the named three ranks; flag ranks left
+  open.~~ — **ruled wider:** Star Captains and High Captains bound in the
+  same way, normally delegating via the post-holding tier; the lore
+  section extended accordingly the same day. (The Triumvirate's seats are
+  held by serving High Captains, bound as officers; its Corps-wide
+  directives are policy, not technical instruction — no separate ruling
+  needed.)
+- ~~**The floor at Principal** read as deliberate.~~ — confirmed.
+
+**Still open from this direction:** only the section's approval — the
+draft stands under the confirmed readings and waits for Dermot on the
+branch.
 
 ## Deliberately open — do not "fix" these
 
