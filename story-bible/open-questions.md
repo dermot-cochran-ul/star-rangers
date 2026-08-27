@@ -257,9 +257,18 @@ Archwardens and Starwardens"):
   needed.)
 - ~~**The floor at Principal** read as deliberate.~~ — confirmed.
 
+**Follow-up, same day:** a worked inappropriate example given verbatim
+("Each a Starwarden telling a Principal how to manage cadet would be
+inappropriate" — "Each" read as *E.g.*, with *Even* the other plausible
+expansion, converging; "manage cadet" read as *manage a cadet*). Commits
+that "technical" means the craft of the rank's own work, not
+instrumentation alone — cadet mentoring is the Principal's remit by the
+ladder's own wording. Realized into the lore section as the doctrine's
+named inappropriate case, beside the Dock Seven lawful one.
+
 **Still open from this direction:** only the section's approval — the
-draft stands under the confirmed readings and waits for Dermot on the
-branch.
+draft stands under the confirmed readings and the follow-up example, and
+waits for Dermot on the branch.
 
 ## Deliberately open — do not "fix" these
 
