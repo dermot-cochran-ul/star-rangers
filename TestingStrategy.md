@@ -42,10 +42,34 @@ Run all: `node --test test/*.test.js` · one suite: `node --test test/content-fi
   including the two regression tests above and the proof that `relatedUrls` is
   not a backdoor around the private veto.
 
-These tests deliberately use the **real** `lib/storyline-threads.js` registry,
-not fixtures: church-space being the only private thread is itself a documented
-decision, and a registry change that breaks these expectations should be
-noticed, not absorbed.
+- **`test/markdown-containers.test.js`** (added 2026-08-27) pins the
+  scene/POV rendering, above all the **fence-length rule**: a 5-colon
+  `::::: scene` wrapper must not be closed early by a nested 3-colon
+  `::: pov` block's closing fence. That behaviour lives in
+  markdown-it-container, not in this repo's code, so a dependency bump that
+  changed it would silently corrupt scene splitting for every chapter —
+  `src/_data/scenePovPages.js` parses the same token stream. Also pinned:
+  the emitted `data-scene`/`data-pov`/`aria-label` attributes,
+  HTML-escaping of the info strings, standalone pov blocks (the implicit
+  single scene), and that an invalid info string renders as plain text.
+- **`test/storyline-threads.test.js`** (added 2026-08-27) pins
+  `threadForSeason` (every registered season to its thread, the
+  `UNSORTED_THREAD` fallback for unclaimed seasons, numeric matching for
+  string input) and the registry invariants the privacy machinery assumes:
+  no season claimed by two threads, unique thread ids, and every private
+  thread naming a `homeDomain` distinct from the default reference domain.
+- **`test/image-size.test.js`** (added 2026-08-27) pins the JPEG/PNG header
+  parser's "null rather than guess" contract with hand-built buffers:
+  dimensions read from a PNG IHDR and from a JPEG SOF behind a skipped
+  APP0 segment, and null for truncated files, malformed segment lengths,
+  missing SOF markers, zero dimensions, non-images, unreadable paths —
+  plus the by-path memoisation.
+
+The filter tests deliberately use the **real** `lib/storyline-threads.js`
+registry, not fixtures: church-space being the only private thread is itself a
+documented decision, and a registry change that breaks these expectations
+should be noticed, not absorbed (the registry-invariant suite above makes the
+same point structurally).
 
 ## Layer 2 — structural gates (`npm test`)
 
