@@ -281,8 +281,9 @@ hearing and the 2723 charter already carry the chronology; the MSC's
 overcentralisation is the micromanagement; the "MSC wearing a different
 crest" fear is the dictatorship half. One reading lightly held: the
 rationale as **founding-era** (the framers' reaction between hearing and
-charter). Realized into the lore section's MSC paragraph — draft on the
-branch, new PR, awaiting Dermot's approval.
+charter). Realized into the lore section's MSC paragraph — **approved by
+Dermot, 27 August 2026** ("Approved"). Nothing from this direction
+remains open — the whole direction, both follow-ups included, is closed.
 
 ## Deliberately open — do not "fix" these
 
