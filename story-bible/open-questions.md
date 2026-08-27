@@ -91,6 +91,56 @@ Two later directions the same day (both in `intake-2026-08-26.md`):
   draft is the one artifact still awaiting his approval on the branch~~ —
   **approved by Dermot, 26 August 2026.** The whole intake is closed.
 
+## The RPG-structured inner world — raised 27 August 2026
+
+`intake-2026-08-27.md` records the direction verbatim (Tissadelle's inner
+world structured like a high fantasy RPG; Tobble's deeper internal subsystem
+much more disciplined and scientific) with a canon survey finding the division
+of labour already on the page at Dock Seven, unnamed. ~~Four readings await
+confirmation~~ — **all four confirmed by Dermot, 27 August 2026** ("All four
+readings are confirmed"):
+
+- ~~**"disciplinec"** read as a typo for *disciplined*.~~ — confirmed.
+- ~~**"Inner world"** read as the living system's interior in life — not the
+  Season 6 stalled-seed interior, which is canonically a *partial*
+  preservation (`s06e01c01`) and published as pastoral, not fantasy.~~ —
+  confirmed.
+- ~~**"Structured like a high fantasy RPG"** read as architecture (roles, a
+  party, layered quests — the shape IWD already specifies abstractly), not
+  scenery — the reading that leaves the published S6 interior untouched.~~ —
+  confirmed.
+- ~~**"Tobble's deeper internal subsystem"** read as depth, not rank — two
+  architectures in one system, no hierarchy of members ("Tobble is a person,
+  not an upgrade" stands).~~ — confirmed.
+
+**Realized same day:** "The inner world" drafted into
+`src/characters/tissadelle-shepherd.md`'s Tobble section — spoiler-guarded
+(no IWD, no noögenics, no Dock Seven on the public page) — ~~draft-and-stop:
+on the branch, awaiting Dermot's approval~~ **approved by Dermot,
+27 August 2026**; the arc-side half (the
+disciplined subsystem as the structure that made the Dock Seven preservation
+possible; the pastoral interior as fragment, not whole) added to
+`tissadelle-arc-s6-7.md`.
+
+~~**One craft question the realization deliberately leaves open:** the fate
+of the RPG-structured layer at Dock Seven — lost with the unpreserved
+remainder, partially preserved, or held in Tobble's own deep structure.~~ —
+**ruled by Dermot, 27 August 2026, verbatim: "my dilemma and grief is that a
+pure fantasy world system would not survive the transition, most of the
+magical fantasy elenents would be either lost or downgraded"** ("elenents"
+read as *elements*). Answered: **lost or downgraded, not held** — the
+held-intact option is off the table; most of the magical fantasy elements
+lost, the remainder crossing in downgraded form. The mechanism and the grief
+register (his word, read as licence to write the loss from inside) are
+worked through in `intake-2026-08-27.md`'s second direction: the preserver's
+idiom filters what is preserved — an archival substrate carries enacted
+things only as their own record, which is what "downgraded" means
+mechanically, and why the published S6 interior already reads as pastoral
+memory rather than fantasy. One residue, deliberately unwritten: *how the
+downgrade is shown and who grieves it* (her half, and Tobble's — the
+archivist who saved too little) is S7 material, decided when its chapters
+are.
+
 ## Deliberately open — do not "fix" these
 
 Some things are open because leaving them open is the better answer. They are

@@ -946,3 +946,63 @@ has any authority to stop either one.
    option and nothing above requires it.
 3. **Whether Órla knows** the expulsion followed from being helped, and whether
    Tissadelle would ever let her find out.
+
+---
+
+## The inner world's architecture (Dermot, 27 August 2026 — direction, all readings confirmed)
+
+Direction verbatim and canon survey in `intake-2026-08-27.md`: Tissadelle's
+inner world is structured like a high fantasy RPG; Tobble's deeper internal
+subsystem is much more disciplined and scientific. All four readings confirmed
+the same day (the typo; the in-life inner world, not the S6 interior;
+architecture, not scenery; depth, not rank). Realized as "The inner world" on
+the character page — spoiler-guarded there (no IWD, no noögenics, no Dock
+Seven); this section carries the arc-side half.
+
+What it gives this arc:
+
+- **It explains the preserver.** The protouniverse-centred-on-Tobble direction
+  (28 July, above) always needed Tobble to be the member "with structure to
+  spend" at the moment of collapse. The disciplined, scientific subsystem is
+  that structure, named: preservation onto the lost vessel's archival stores
+  is his own idiom — kept records, checked procedure — doing under fire what
+  it had always done quietly. `s05e02c03`'s *"Do the arithmetic again"* and
+  *"Hold still"* are the subsystem speaking, and the chapter wrote it before
+  the direction named it.
+- **It sharpens the partial preservation.** What Shepherd wakes into — the
+  holding, the made Órla, the made Wender — is pastoral, and it is canonically
+  a *fragment* ("only part of it was preserved", `s06e01c01`). The direction
+  confirms the fragment is not representative of the whole: the interior the
+  system held in life was RPG-structured, and the saved part is the part that
+  reads as memory rather than architecture. The cognitive-horror premise
+  stays "not fantasy content" per the standing note above — nothing here
+  licenses redecorating the S6 chapters.
+- ~~**The fate of the RPG-structured layer at Dock Seven is deliberately
+  open**~~ — **ruled by Dermot, 27 August 2026: a pure fantasy world-system
+  would not survive the transition; most of the magical fantasy elements
+  lost or downgraded** (verbatim and full reading in `intake-2026-08-27.md`,
+  second direction). So: **lost or downgraded, not held** — the card-not-
+  played option is off the table, and the grief reading is the ruled one.
+  The mechanism comes free from what the chapters already bind: the
+  transference went through Tobble's disciplined subsystem onto *archival*
+  stores, and an archive carries enacted things — magic done, quests lived,
+  rules that hold because they are played — only as their own record: the
+  map, not the territory; the rulebook, not the game; a named thing that no
+  longer does anything. That is "downgraded", mechanically, and it is why
+  the preserved interior reads as pastoral memory: the S6 chapters were
+  showing the downgrade before it was named. "Pure" is load-bearing in the
+  ruling — a *pure* fantasy system would have crossed not at all, because
+  nothing in it could have done the preserving; the disciplined subsystem
+  made the rescue possible at the price of carrying only what its idiom can
+  hold. The rescue and the loss have the same cause. **For S7: grief
+  material with its mechanism settled** — hers, and Tobble's (the archivist
+  who saved too little; his "not holding anything" material in `s05e02c03`
+  is the seed). How the downgrade is shown on the page is deliberately
+  unwritten until its chapters.
+- **IWD, grounded.** The RPG structure is what "self-model multiplicity" and
+  "layered intention" (`inner-world-depth-iwd.md`) look like from inside for
+  this system — a concrete reason this mind in particular carried the
+  noöseed viability the arc turns on. The standing rule is untouched: high
+  IWD is a consequence, not a purpose. Tobble is a person, not an upgrade —
+  and now, specifically, a person whose own idiom is the registry beneath
+  the romance.
