@@ -1069,3 +1069,19 @@ What it settles and opens for the terminus chapters:
 - **"Headmates" keeps the persons/constructs boundary**: the farewell is
   addressed to members, not to the made Órla and made Wender — whatever
   else the scene does with memory's figures.
+
+**The closing line is authored (Dermot, 27 August 2026 — fifth direction,
+same intake), verbatim and not to be paraphrased:**
+
+> *"Happy New Universe, Tobble dear."*
+
+Tissadelle, inward, to Tobble, in her final moments — the terminus scene's
+capstone and, on the natural reading, her last words. It fixes the terminus
+against the protouniverse's founding (her ending and his beginning as one
+moment, named from the celebratory side), realizes the almost-no-grief
+ruling in a single sentence — a greeting, not a goodbye: she addresses the
+one who stays and puts herself on the other side of the doorway without
+comment — and answers the system's own oldest habit: Tobble's first words
+in the preserved interior were *"Good morning"*, said to nobody who could
+hear it yet. Thresholds get greetings in this system. Build the scene to
+earn this line; do not build the line.
