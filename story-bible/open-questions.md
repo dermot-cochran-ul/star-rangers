@@ -115,8 +115,9 @@ readings are confirmed"):
 
 **Realized same day:** "The inner world" drafted into
 `src/characters/tissadelle-shepherd.md`'s Tobble section — spoiler-guarded
-(no IWD, no noögenics, no Dock Seven on the public page) — **draft-and-stop:
-on the branch, awaiting Dermot's approval**; the arc-side half (the
+(no IWD, no noögenics, no Dock Seven on the public page) — ~~draft-and-stop:
+on the branch, awaiting Dermot's approval~~ **approved by Dermot,
+27 August 2026**; the arc-side half (the
 disciplined subsystem as the structure that made the Dock Seven preservation
 possible; the pastoral interior as fragment, not whole) added to
 `tissadelle-arc-s6-7.md`.
