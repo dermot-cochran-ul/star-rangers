@@ -227,6 +227,51 @@ confirmed by Dermot, 27 August 2026** ("All four readings are confirmed"):
 Nothing from this direction remains open — readings confirmed and the lore
 section approved, both 27 August 2026. The whole direction is closed.
 
+## The command detail rule — raised 27 August 2026
+
+`intake-2026-08-27.md` (seventh direction) records the direction verbatim:
+Line Captains, Starwardens and Archwardens are not allowed to give overly
+detailed technical instructions to Chief Officers, Section Leads or
+Principals. Realized same day as a "Where an Order Has to Stop" section in
+`src/lore/star-rangers-command-hierarchy.md` (extension of the Guild
+Leadership section's what/how line, under the canon-stability rule) —
+draft-and-stop: on the branch, awaiting Dermot's approval. ~~Five readings
+await confirmation~~ — **all five confirmed by Dermot, 27 August 2026**
+("All five readings are confirmed, Star Captains and High Captains are
+bound in the same way but would normally delegate via Line Captains,
+Archwardens and Starwardens"):
+
+- ~~**"Prinipicals"** read as a typo for *Principals*.~~ — confirmed.
+- ~~**"Chief Officers"** read as officers holding the Chief rank, across
+  its duty titles — the direction's protected three read in exact
+  descending ladder order, and no rank "Chief Officer" exists.~~ —
+  confirmed.
+- ~~**"Overly detailed"** read as the load-bearing qualifier — a rule about
+  depth of detail, not subject matter.~~ — confirmed.
+- ~~**The bound tier** read as the named three ranks; flag ranks left
+  open.~~ — **ruled wider:** Star Captains and High Captains bound in the
+  same way, normally delegating via the post-holding tier; the lore
+  section extended accordingly the same day. (The Triumvirate's seats are
+  held by serving High Captains, bound as officers; its Corps-wide
+  directives are policy, not technical instruction — no separate ruling
+  needed.)
+- ~~**The floor at Principal** read as deliberate.~~ — confirmed.
+
+**Follow-up, same day:** a worked inappropriate example given verbatim
+("Each a Starwarden telling a Principal how to manage cadet would be
+inappropriate" — "Each" read as *E.g.*, with *Even* the other plausible
+expansion, converging; "manage cadet" read as *manage a cadet*). Commits
+that "technical" means the craft of the rank's own work, not
+instrumentation alone — cadet mentoring is the Principal's remit by the
+ladder's own wording. Realized into the lore section as the doctrine's
+named inappropriate case, beside the Dock Seven lawful one.
+
+~~**Still open from this direction:** only the section's approval.~~ —
+**approved by Dermot, 27 August 2026** ("Approved", given against the two
+drafts then pending: this section and the Two in the One Currach codex
+entry). Nothing from this direction remains open — the whole direction is
+closed.
+
 ## Deliberately open — do not "fix" these
 
 Some things are open because leaving them open is the better answer. They are
