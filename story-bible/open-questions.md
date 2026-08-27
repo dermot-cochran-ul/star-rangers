@@ -158,14 +158,15 @@ in her final moments, only fond farewell to Tobble and the other surviving
 headmates."* The terminus register is ruled (fond farewell, "almost"
 load-bearing); the grief stays distributed — the author's, Tobble's book,
 the survivors', the reader's — and none of it is hers to carry out the
-door. Three readings await confirmation: **"final moments"** read as the
-arc's unwritten terminus, after the published chapters (nothing in
-`src/seasons/` moves); **"surviving"** read as implying members who did
-*not* survive — the transition being the natural antecedent, which would
-extend "lost or downgraded" to persons — with surviving-*her* a compatible
-second sense (confirm which, or both); and **"almost no grief"** read as
-her register in the moment, never a retroactive claim the loss cost
-nothing. Newly open behind them: who the other surviving headmates are
+door. ~~Three readings await confirmation~~ — **all three confirmed by
+Dermot, 27 August 2026** ("All three readings are confirmed"): **"final
+moments"** is the arc's unwritten terminus, after the published chapters
+(nothing in `src/seasons/` moves); **"surviving"** carries the loss sense —
+members who did *not* survive the transition, extending "lost or
+downgraded" to persons — with surviving-*her* compatible alongside; and
+**"almost no grief"** is her register in the moment, never a retroactive
+claim the loss cost nothing. Open behind the rulings, now live canon
+questions for S7: who the other surviving headmates are
 (how many, names, where seated — the character page's "more people than
 the form has boxes for" now has participants attached), and, if the loss
 reading holds, who did not survive.
