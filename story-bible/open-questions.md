@@ -171,6 +171,23 @@ questions for S7: who the other surviving headmates are
 the form has boxes for" now has participants attached), and, if the loss
 reading holds, who did not survive.
 
+**The terminus scene is drafted** (`scene-draft-terminus-farewell.md`,
+27 August 2026, at Dermot's direction — unpublished, per the scene-draft
+precedent; interval and slot deliberately unfixed) — **and approved by
+Dermot, 27 August 2026** ("The scene is approved"). The approval covers the
+draft as it stands; it remains story-bible material until a chapter slot is
+chosen. The four items it had answered **by proposal** are therefore
+settled as drafted: she does not ask what the
+glosses cover; Tobble's consent to the founding is shown truly held and
+then given; the other members' farewells are marked, not transcribed (so
+names and count stay undecided even on the page); and what follows the
+closing line is his answered threshold greeting, with his grief given one
+line, entered in the book, and glossed. Still open after the approval: the
+members' names and count, the external coda (Wender, the channel closing),
+and where the scene slots — the last being the decision that would turn the
+draft into a chapter (`npm run new -- chapter`, fresh `comment_id`, canon
+binding on merge).
+
 ## Deliberately open — do not "fix" these
 
 Some things are open because leaving them open is the better answer. They are
