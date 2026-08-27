@@ -143,12 +143,13 @@ are.~~ — **Tobble's half answered by a third direction, same day** (verbatim
 in `intake-2026-08-27.md`): he considered a new tulpa to represent the lost
 world, judged it "a museum or ghost of the original", and instead made a
 **redacted book — an internal codex**, some scenes glossed over for modesty.
-Two readings await confirmation: **the modesty's sense** (read as carrying
-both propriety — intimate material glossed, per the standing decorum rules
-practised in-world — and Tobble's self-effacement, applied to different
-scenes; if one sense is exclusive, which); and **the refusal's scope** (read
-as Tobble's own judgement, canon as his reasoning — not a general doctrine
-against memorial tulpas). Still open, deliberately: her half (does she read
+~~Two readings await confirmation~~ — **both confirmed by Dermot,
+27 August 2026** ("Both readings are confirmed"): **the modesty's sense**
+carries both propriety (intimate material glossed, per the standing decorum
+rules practised in-world) and Tobble's self-effacement, applied to different
+scenes; and **the refusal's scope** is Tobble's own judgement, canon as his
+reasoning — not a general doctrine against memorial tulpas. Still open,
+deliberately: her half (does she read
 it; does she ask what the glosses cover), whether the book has a title, and
 what a glossed page looks like in prose — S7 material, decided when its
 chapters are.
