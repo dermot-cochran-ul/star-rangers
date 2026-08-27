@@ -197,6 +197,30 @@ scene slots — the latter being the decision that would turn the draft into
 a chapter (`npm run new -- chapter`, fresh `comment_id`, canon binding on
 merge).
 
+## The Institute's design — raised 27 August 2026
+
+`intake-2026-08-27.md` (sixth direction) records the direction verbatim: the
+Institute is an independent nonpolitical academic body designed to provide
+intelligent constructive criticism, especially but not exclusively directed
+at the Star Rangers. Realized same day as a "What it is for" section in
+`src/lore/the-institute.md` (extension plus clarification under the
+canon-stability rule) — draft-and-stop: on the branch, awaiting Dermot's
+approval. Four readings await confirmation:
+
+- **"The Institute"** read as the existing lore body, not a new institution.
+- **"Designed to"** read as standing remit, not founding intent aimed at the
+  Corps — the entry's four-centuries line puts the Institute some three
+  centuries before the 2723 charter, so the Rangers are the design's chief
+  subject because they became the largest boundary operator, not its
+  founding target.
+- **"Nonpolitical"** read in the charter's own constitutional sense
+  (non-political, so spelled corpus-wide): no side taken, no faction
+  endorsed, no governing power — a clarification of what the entry already
+  implied.
+- **"Constructive"** read as criticism built to be used by the criticised —
+  the published behaviour promoted to design; "intelligent" as a quality bar
+  shown, not asserted.
+
 ## Deliberately open — do not "fix" these
 
 Some things are open because leaving them open is the better answer. They are
