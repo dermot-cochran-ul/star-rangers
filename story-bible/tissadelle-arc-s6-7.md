@@ -977,12 +977,28 @@ What it gives this arc:
   reads as memory rather than architecture. The cognitive-horror premise
   stays "not fantasy content" per the standing note above — nothing here
   licenses redecorating the S6 chapters.
-- **The fate of the RPG-structured layer at Dock Seven is deliberately open**
-  (indexed in `open-questions.md`): lost with the unpreserved remainder,
-  partially preserved, or held in Tobble's own deep structure. The published
-  chapters show only the holding; nothing yet forces the answer, and the
-  answer is a real S7 resource either way — a lost architecture is grief
-  material, a held one is a card Tobble has not played.
+- ~~**The fate of the RPG-structured layer at Dock Seven is deliberately
+  open**~~ — **ruled by Dermot, 27 August 2026: a pure fantasy world-system
+  would not survive the transition; most of the magical fantasy elements
+  lost or downgraded** (verbatim and full reading in `intake-2026-08-27.md`,
+  second direction). So: **lost or downgraded, not held** — the card-not-
+  played option is off the table, and the grief reading is the ruled one.
+  The mechanism comes free from what the chapters already bind: the
+  transference went through Tobble's disciplined subsystem onto *archival*
+  stores, and an archive carries enacted things — magic done, quests lived,
+  rules that hold because they are played — only as their own record: the
+  map, not the territory; the rulebook, not the game; a named thing that no
+  longer does anything. That is "downgraded", mechanically, and it is why
+  the preserved interior reads as pastoral memory: the S6 chapters were
+  showing the downgrade before it was named. "Pure" is load-bearing in the
+  ruling — a *pure* fantasy system would have crossed not at all, because
+  nothing in it could have done the preserving; the disciplined subsystem
+  made the rescue possible at the price of carrying only what its idiom can
+  hold. The rescue and the loss have the same cause. **For S7: grief
+  material with its mechanism settled** — hers, and Tobble's (the archivist
+  who saved too little; his "not holding anything" material in `s05e02c03`
+  is the seed). How the downgrade is shown on the page is deliberately
+  unwritten until its chapters.
 - **IWD, grounded.** The RPG structure is what "self-model multiplicity" and
   "layered intention" (`inner-world-depth-iwd.md`) look like from inside for
   this system — a concrete reason this mind in particular carried the

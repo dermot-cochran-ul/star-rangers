@@ -14,3 +14,4 @@ and leave the circumstances behind.
 - Discernment comes from experience, not advice.
 - Humility can be confidence that needs no external validation, and distrusts flattery.
 - Leadership fails by depletion more often than by corruption.
+- Most of what was magical does not survive a hard transition; it is lost, or arrives downgraded.

@@ -121,13 +121,24 @@ disciplined subsystem as the structure that made the Dock Seven preservation
 possible; the pastoral interior as fragment, not whole) added to
 `tissadelle-arc-s6-7.md`.
 
-**One craft question the realization deliberately leaves open:** the fate of
-the RPG-structured layer at Dock Seven — lost with the unpreserved remainder,
-partially preserved, or held in Tobble's own deep structure. The published
-chapters show only the holding, and nothing yet forces the answer; either
-answer is an S7 resource (a lost architecture is grief material, a held one
-is a card Tobble has not played). Decide it when a chapter needs it, not
-before.
+~~**One craft question the realization deliberately leaves open:** the fate
+of the RPG-structured layer at Dock Seven — lost with the unpreserved
+remainder, partially preserved, or held in Tobble's own deep structure.~~ —
+**ruled by Dermot, 27 August 2026, verbatim: "my dilemma and grief is that a
+pure fantasy world system would not survive the transition, most of the
+magical fantasy elenents would be either lost or downgraded"** ("elenents"
+read as *elements*). Answered: **lost or downgraded, not held** — the
+held-intact option is off the table; most of the magical fantasy elements
+lost, the remainder crossing in downgraded form. The mechanism and the grief
+register (his word, read as licence to write the loss from inside) are
+worked through in `intake-2026-08-27.md`'s second direction: the preserver's
+idiom filters what is preserved — an archival substrate carries enacted
+things only as their own record, which is what "downgraded" means
+mechanically, and why the published S6 interior already reads as pastoral
+memory rather than fantasy. One residue, deliberately unwritten: *how the
+downgrade is shown and who grieves it* (her half, and Tobble's — the
+archivist who saved too little) is S7 material, decided when its chapters
+are.
 
 ## Deliberately open — do not "fix" these
 
