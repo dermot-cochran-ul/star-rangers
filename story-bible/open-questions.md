@@ -184,8 +184,9 @@ names and count stay undecided even on the page); and what follows the
 closing line is his answered threshold greeting, with his grief given one
 line, entered in the book, and glossed. ~~Still open after the approval:
 the external coda~~ — **drafted 27 August 2026 at Dermot's direction**
-(scene 2, Wender POV, in the same file; awaiting his approval). Its own
-by-proposal commitments, his to keep or reverse: Wender kept the watch
+(scene 2, Wender POV, in the same file) — **and approved by Dermot,
+27 August 2026** ("The coda is approved"). Its by-proposal commitments are
+therefore settled as drafted: Wender kept the watch
 herself; the final phrasing constitutes Shepherd's last order — close the
 file — and Wender executes it (cause of closure: *founding*, not
 casualty); the levril departs, watch complete; and under the phrasing a
