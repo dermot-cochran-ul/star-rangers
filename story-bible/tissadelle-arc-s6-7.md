@@ -1035,3 +1035,53 @@ What this gives the arc:
   glossed page looks like in prose. The modesty reading (propriety, and/or
   Tobble's self-effacement — his "not holding anything" register) is
   flagged for confirmation in the intake.
+
+### The terminus register (Dermot, 27 August 2026 — fourth direction, same intake)
+
+Direction verbatim and full canon check in `intake-2026-08-27.md`: **her final
+moments carry almost no grief — only fond farewell to Tobble and the other
+surviving headmates.** The published chapters stop short of the terminus
+(`s07e01c03` ends on "a woman still becoming"), so this rules unwritten
+ground, and it rules the *register*, not the mechanism — death, dissolution
+and completed Phase 7 transference all remain compatible with "final moments
+as herself", and the treatment's Tobble-centred protouniverse answer stands.
+
+What it settles and opens for the terminus chapters:
+
+- **The farewell scene has its emotional key**: fondness, "almost" doing
+  real work (not zero grief, and not the closing note). It is the
+  counter-doctrine's "enough is enough" and the Mnemari relinquishment
+  custom at the scale of a life — a true ending taken cleanly, which is the
+  *opposite* of the false-homecoming mercy `s07e01c02` disciplines her
+  against, not an instance of it.
+- **The grief distribution is complete, and none of it is hers**: the
+  author's (second direction), Tobble's book (third), the survivors', the
+  reader's. She does not spend her last moments on it — the same economy
+  she has run all her life.
+- **The system's other members step on-page**: "the other surviving
+  headmates", plural, present at the farewell — the character page's "more
+  people in it than the form has boxes for" promoted from implication to
+  participants. Unnamed still; how many, who, and where seated is newly
+  open, as is the grave question "surviving" implies: whether members were
+  lost — and whether the lost were seated in the fantasy layer, which would
+  extend "lost or downgraded" to persons. Flagged for confirmation in the
+  intake before anything builds on it.
+- **"Headmates" keeps the persons/constructs boundary**: the farewell is
+  addressed to members, not to the made Órla and made Wender — whatever
+  else the scene does with memory's figures.
+
+**The closing line is authored (Dermot, 27 August 2026 — fifth direction,
+same intake), verbatim and not to be paraphrased:**
+
+> *"Happy New Universe, Tobble dear."*
+
+Tissadelle, inward, to Tobble, in her final moments — the terminus scene's
+capstone and, on the natural reading, her last words. It fixes the terminus
+against the protouniverse's founding (her ending and his beginning as one
+moment, named from the celebratory side), realizes the almost-no-grief
+ruling in a single sentence — a greeting, not a goodbye: she addresses the
+one who stays and puts herself on the other side of the doorway without
+comment — and answers the system's own oldest habit: Tobble's first words
+in the preserved interior were *"Good morning"*, said to nobody who could
+hear it yet. Thresholds get greetings in this system. Build the scene to
+earn this line; do not build the line.

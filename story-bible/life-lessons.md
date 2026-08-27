@@ -16,3 +16,4 @@ and leave the circumstances behind.
 - Leadership fails by depletion more often than by corruption.
 - Most of what was magical does not survive a hard transition; it is lost, or arrives downgraded.
 - Better an honest record with gaps than a reconstruction pretending to be the thing.
+- A life laid down well ends in farewell; the grief belongs to those who stay.
