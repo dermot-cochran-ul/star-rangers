@@ -3,12 +3,12 @@ layout: lore-entry.njk
 title: "The Common Manifold (Post-11 Dimensional Manifold)"
 category: "Cosmology"
 tags: [cosmology, dimensional-topology, spacelike, timelike, cascade, common-manifold, compact-dimensions, interval]
-description: "The higher-order spacelike and timelike structure shared by every universe in the Cascade, regardless of its own dimensional floor — and why Survey Corps still calls it the post-11 manifold."
+description: "The higher-order spacelike and timelike structure shared by every universe the record has ever reached, regardless of its own dimensional floor — and why Survey Corps still calls it the post-11 manifold."
 ---
 
 When the local dimensions explain the injury but not why the clocks keep disagreeing, Survey Corps analysts look higher. That suspicion points into the Common Manifold.
 
-The **Common Manifold** is the higher-order spacelike and timelike structure that lies beyond any single universe's own dimensional floor, governing cross-[Concordant](/star-rangers/glossary/concordant/) coherence, causality buffering, and fold survivability. Every universe in the [Grand Ensemble](/star-rangers/lore/ensemble-multiverse/) is seated in it. It is the one piece of architecture they demonstrably share.
+The **Common Manifold** is the higher-order spacelike and timelike structure that lies beyond any single universe's own dimensional floor, governing cross-[membrane](/star-rangers/lore/concordant-membranes/) coherence, causality buffering, and fold survivability. Every universe in the [Grand Ensemble](/star-rangers/lore/ensemble-multiverse/) is seated in it. It is the one piece of architecture they demonstrably share.
 
 Within it, each **coherent universe** occupies its own bounded [cosmic membrane](/star-rangers/lore/concordant-membranes/) — whatever its origin, coherence rather than authorship being the criterion — separated from its neighbours by the [Interval](/star-rangers/glossary/interval/) — manifold separation, measured across the Common Manifold rather than through either universe's own space. Concordant Zones are regions *inside* a membrane, not membranes themselves.
 
