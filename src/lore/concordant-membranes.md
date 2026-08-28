@@ -3,7 +3,7 @@ layout: lore-entry.njk
 title: "Concordant Membranes and Intermembrane Bleed"
 category: "Cosmology"
 tags: [intermembrane-bleed, membrane-resonance, etheric, post-11-manifold, common-manifold, interval, compact-dimensions, concordant, boundary-zone, threshold-station]
-description: "The cosmic-membrane model underlying inter-universe Etheric effects: each primary universe as a bounded membrane in the Common Manifold, the Interval that separates them, and what happens when two draw close enough to interfere."
+description: "The cosmic-membrane model underlying inter-universe Etheric effects: each coherent universe as a bounded membrane in the Common Manifold, the Interval that separates them, and what happens when two draw close enough to interfere."
 image: "concordant-membranes.jpg"
 image_alt: "A deep-space scene in blue and violet: one small brilliant white point of light near the centre, ringed by a faint halo, with luminous filaments streaming past it and heavy purple cloud filling the lower half of the frame."
 ---
@@ -12,7 +12,7 @@ Survey Corps analysts spent decades calling it "Etheric interference" and filing
 
 ## The Membrane Model
 
-The [Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/) — the post-11 manifold, in Survey Corps shorthand — describes higher-order spacelike and timelike regimes beyond any universe's own dimensional floor: structure that governs cross-[Concordant](/star-rangers/glossary/concordant/) coherence, causality buffering, and fold survivability.
+The [Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/) — the post-11 manifold, in Survey Corps shorthand — describes higher-order spacelike and timelike regimes beyond any universe's own dimensional floor: structure that governs cross-membrane coherence, causality buffering, and fold survivability.
 
 Within that manifold, each **coherent universe** occupies its own bounded **cosmic membrane** (**membrane** for short — the word "brane" in older Survey Corps literature is the same term, since shortened out of use for being too easily misheard as "brain" over a comm channel): the whole vessel, with its physics-plus-Etheric envelope.
 
