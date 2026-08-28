@@ -6,6 +6,16 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [1.25.0] — 2026-08-28
+
+A release carried by the 27 August direction set: the Tissadelle/Tobble
+terminus — register, authored closing line, both scene drafts approved —
+alongside the command detail rule, the Institute's purpose, and the
+inner-world rulings. Around it: the Common Manifold reconciled with the
+surveyed-universes canon, the Ilveth join the species roster, and the
+engine gains unit tests for its last untested `lib/` modules plus
+`TestingStrategy.md`. MINOR: all additive, backward-compatible.
+
 ### Added
 
 - **The command detail rule's two founding reasons recorded** (2026-08-27, follow-up to the seventh direction; approved by Dermot the same day). Dermot's direction that the rule is a reaction against General Krast's MSC leadership style, existing to avoid micromanagement and to prevent the Star Rangers becoming a military dictatorship; realized into the "Where an Order Has to Stop" section's MSC paragraph (founding-era rationale, Krast named, the certification tier as the joint an unbroken will would need). Verbatim capture and canon check in `story-bible/intake-2026-08-27.md`, indexed in `story-bible/open-questions.md`.
