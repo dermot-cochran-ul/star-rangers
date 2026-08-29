@@ -275,3 +275,21 @@ the reason nobody warm has the sense), and the culture follows from heat
 being the only wealth. The remaining open ends (Sardain's location, the
 star's name, a named individual, a pronoun paradigm) are in
 `open-questions.md` under "Decisions awaiting Dermot".
+
+**And a seventh is drafted, not yet approved** — the Ovruhn of Thavren
+(`src/lore/ovruhn.md`, drafted 29 August 2026 from the hybrid-species
+direction after Dermot ruled the convergent-alien reading; draft-and-stop,
+on the branch). Designed by this file's method, and a direct continuation
+of the 13 August dexterity question above: the world is deep-aired and
+permanently hazed, so sight is short and sound is the far sense, so the
+body is a sounding instrument — hydrostat tendrils for the manipulation
+half, mass and resonant chambers for the infrasonic under-song, chorus-kept
+memory in place of writing. The bottleneck is deliberately *not* energy
+(dense air burns willingly) but externalization: knowledge scaling at the
+speed of teaching, which is what the direction's "humans dominate
+technological scaling" becomes without a ladder. Differentiation handled in
+the entry: not Mnemari (memory as mortal practice and pool, loss central),
+not Chthonari (airborne acoustics, not substrate vibration in vacuum), not
+Ilveth (their involuntary channel is *addressed to everyone*, so their
+contact failure was answering it — the opposite courtesy). Open ends
+indexed in `open-questions.md` under the 29 August section.
