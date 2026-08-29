@@ -3,6 +3,7 @@ const { DateTime } = require("luxon");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const { createMarkdownRenderer } = require("./lib/markdown-containers");
 const { imageSize } = require("./lib/image-size");
+const { isPlaceholderImage } = require("./lib/placeholder-marker");
 const {
   getContentFilter,
   isCharacterIncluded,
@@ -379,8 +380,17 @@ module.exports = function(eleventyConfig) {
   // on the one page every reader lands on first. Silent, because a hero slide
   // is aria-hidden and decorative: nothing announces it and the crossfade
   // simply showed a gap where a portrait should be.
+  //
+  // Since 2026-08-29 a PLACEHOLDER-stamped portrait (a designed PORTRAIT
+  // PENDING card - see scripts/mark-placeholder.js) is dropped the same way:
+  // the front page shows finished portraits or nothing, on every domain. The
+  // characters/ path here is the same one the slideshow template hardcodes
+  // in src/index.md, which is the only caller of this filter.
   eleventyConfig.addFilter("withImages", (pages) =>
-    (pages || []).filter((p) => p && p.data && !isBlankValue(p.data.image))
+    (pages || []).filter((p) =>
+      p && p.data && !isBlankValue(p.data.image) &&
+      !isPlaceholderImage(path.join(__dirname, "src", "images", "characters", String(p.data.image)))
+    )
   );
 
   // Same resolve-by-id pattern as charactersByIds, but codex entries have no

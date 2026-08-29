@@ -12,6 +12,7 @@ const crypto = require("crypto");
 const matter = require("gray-matter");
 const { CONTENT_TYPES, TIMELINE_TYPE, CHAPTER_ID_PATTERN, isTimelineEntry, chapterIdFor } = require("../lib/content-schema");
 const { privateThreadForPage, checkPrivateThreadSignatureTags } = require("../lib/content-filter");
+const { isPlaceholderImage } = require("../lib/placeholder-marker");
 
 const SRC_DIR = path.join(__dirname, "..", "src");
 
@@ -346,8 +347,8 @@ function checkFrontMatterImageUrlResolves(data, relativePath, index) {
   ];
 }
 
-// Every edition's hero cast has to be able to RENDER on that edition. Three
-// ways it silently cannot, all of them found live on 2026-08-21:
+// Every edition's hero cast has to be able to RENDER on that edition. Four
+// ways it silently cannot, the first three found live on 2026-08-21:
 //
 //   1. The id names no character page at all.
 //   2. The page exists but has no `image:`. src/index.md drops it (the
@@ -355,6 +356,10 @@ function checkFrontMatterImageUrlResolves(data, relativePath, index) {
 //      pointing at the characters directory. Elvira was in the DEFAULT cast.
 //   3. The page exists and has a portrait, but this edition's own filter
 //      excludes it - so the slide is not there on the domain that asked for it.
+//   4. The portrait file is a PLACEHOLDER-stamped PENDING card (added
+//      2026-08-29, when the withImages filter started dropping those so the
+//      slideshow only ever shows finished portraits). The page validates, the
+//      file exists, and the slide silently vanishes on every domain casting it.
 //
 // (3) is the one that had eaten the site. Four of the seven editions listed a
 // cast made entirely of characters their own CHARACTERS/TOPICS/THREADS filtered
@@ -425,6 +430,14 @@ function checkEditionHeroCasts(characterPages) {
         );
         continue;
       }
+      if (isPlaceholderImage(path.join(SRC_DIR, "images", "characters", String(page.data.image)))) {
+        problems.push(
+          `edition "${edition.id}" casts "${rawId}", whose portrait is a PLACEHOLDER-stamped pending card - ` +
+          "the slideshow only shows finished portraits, so the slide never renders; " +
+          "replace the card with a real portrait or recast the edition"
+        );
+        continue;
+      }
       if (!isCharacterIncluded(page.data, filter)) {
         problems.push(
           `edition "${edition.id}" casts "${rawId}", which its own filter excludes - the slide never renders on that domain`
@@ -438,7 +451,9 @@ function checkEditionHeroCasts(characterPages) {
     // once and do not fail: the static hero is a legitimate front page.
     if (!renderable.length && ids.length) {
       const pool = [...byId.values()].filter(
-        (p) => !isBlank(p.data.image) && isCharacterIncluded(p.data, filter)
+        (p) => !isBlank(p.data.image) &&
+          !isPlaceholderImage(path.join(SRC_DIR, "images", "characters", String(p.data.image))) &&
+          isCharacterIncluded(p.data, filter)
       ).length;
       console.warn(
         `WARN: edition "${edition.id}" renders no hero slideshow - ` +
