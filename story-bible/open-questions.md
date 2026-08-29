@@ -134,6 +134,16 @@ filing note holding the reader-test. Full commitments-by-proposal list in
   `species-design.md`'s settled answer; the compatible species-scale fact
   realized instead).
 
+A **third direction the same day** (verbatim in `intake-2026-08-29.md`):
+each sapient species has a distinct form of AI, if they use it at all —
+the LLM sentence read as illustration, not new in-world tech. Realized
+same day as a new lore entry, [The Maker's Shape](../src/lore/the-makers-shape.md)
+(the complement of the made-minds convergence page: safety shapes
+converge, the minds themselves never do; the Krenyi null case as the
+standing "if at all"; contact doctrine — an unfamiliar machine is
+untranslated, not wrong). Draft-and-stop, in PR #580. Readings flagged in
+the intake; nothing else opened.
+
 A **second direction the same day** (verbatim in `intake-2026-08-29.md`):
 Tissadelle has worked with colleagues from almost every sentient species
 known to the Star Rangers. Realized same day as one paragraph on
