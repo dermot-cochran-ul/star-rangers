@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Added
+
+- **The hybrid-species contact frame — direction recorded** (2026-08-29). Dermot's two-message direction: a species combining dolphin + ape + elephant peak cognitive traits — a differently-optimized peer intelligence — and the mutual-misperception contact frame (humans see a scientific marvel; the species sees "unpredictable, emotionally noisy primates"; three named tensions). Verbatim capture, canon survey (the peer-intelligence thesis is already the published ladder refusal; the interbreeding refusal avoided by reading; the source analysis's hands-ceiling claim contradicted by `story-bible/species-design.md`'s settled answer and not adopted) and flagged readings — chief among them the convergent-alien vs terrestrial-engineered fork — in `story-bible/intake-2026-08-29.md`, indexed in `story-bible/open-questions.md`. No canon touched; nothing drafted pending the fork.
+
 ## [1.25.0] — 2026-08-28
 
 A release carried by the 27 August direction set: the Tissadelle/Tobble

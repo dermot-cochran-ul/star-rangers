@@ -91,6 +91,39 @@ Two later directions the same day (both in `intake-2026-08-26.md`):
   draft is the one artifact still awaiting his approval on the branch~~ —
   **approved by Dermot, 26 August 2026.** The whole intake is closed.
 
+## The hybrid-species contact frame — raised 29 August 2026
+
+`intake-2026-08-29.md` records both messages verbatim (a species combining
+dolphin + ape + elephant peak cognitive traits — a "differently-optimized
+peer intelligence" — and the mutual-misperception contact frame: humans see a
+scientific marvel; the species sees "unpredictable, emotionally noisy
+primates with impressive symbolic systems"; three named tensions). It
+continues `species-design.md`'s 13 August dexterity thread. The canon check
+found the peer-intelligence thesis already published as the ladder refusal,
+and one source claim contradicted by settled ground and not adopted (the
+hands-ceiling — `species-design.md`'s "dexterity yes, hands no" answer
+stands). Nothing drafted; the direction blocks on its first fork. Open:
+
+- **Convergent alien or terrestrial engineered composite** — the load-bearing
+  reading of "hybrid". The intake proceeds on the convergent reading (the
+  animal names as human survey comparanda, per the Pandoid naming doctrine)
+  because it extends canon rather than amending it; the engineered reading
+  would be canon's first made sapient species and raises the personhood
+  machinery, not the contact machinery. Dermot's call, and everything
+  downstream differs by it.
+- **The species itself, once ruled** — world, body, sensorium, bottleneck,
+  per `species-design.md`; plus differentiation debts against the Krenyi
+  (misreading-humans mechanism), Mnemari (memory niche) and Chthonari
+  (infrasonic sensing), all listed in the intake.
+- **Where the mutual accounts live** — their account of humans reads as a
+  codex entry (named in-universe author needed); the human posture's home
+  undecided.
+- **Relation to the Federation contact history** — member, later contact, or
+  reserved pre-contact material.
+- **Whether the hands-ceiling is ruled as a species fact** (they did not
+  industrialise alone — available without touching settled ground) or left
+  entirely unadopted.
+
 ## The RPG-structured inner world — raised 27 August 2026
 
 `intake-2026-08-27.md` records the direction verbatim (Tissadelle's inner
