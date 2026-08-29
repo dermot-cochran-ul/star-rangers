@@ -118,7 +118,9 @@ the honest infrasonic under-song, hydrostat tendrils, chorus-kept memory,
 filing note holding the reader-test. Full commitments-by-proposal list in
 `intake-2026-08-29.md`. Still open after the drafts:
 
-- **The two approvals** — lore and codex entries both draft-and-stop.
+- ~~**The two approvals** — lore and codex entries both draft-and-stop.~~ —
+  **both approved by Dermot, 29 August 2026** ("Approved, create the PR");
+  PR opened the same day, merge his call.
 - **The Ovruhn pronoun paradigm** — the entries stay in the record's
   translation register, avoiding singular pronouns for individuals; coining
   a paradigm is a per-species vocabulary decision needing a glossary
