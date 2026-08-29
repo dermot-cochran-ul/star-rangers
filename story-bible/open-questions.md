@@ -142,9 +142,10 @@ that the Safety Archetype itself is retired or renamed, was considered and
 **not taken — confirm if intended**). Realized same day as a grounding
 section in The Maker's Shape ("Why There Is Nothing Else to Be") and a
 clarification on the published `made-minds-and-the-ai-safety-archetype.md`
-page at the exact spot its title invites the misfiling. Both in PR #580,
-draft-and-stop; the published-page clarification in particular awaits
-approval.
+page at the exact spot its title invites the misfiling. Both in PR #580 —
+**approved by Dermot, 29 August 2026** ("Approved"); the approval of the
+clarification as drafted settles the tier reading, so the stronger
+not-taken reading is moot.
 
 A **third direction the same day** (verbatim in `intake-2026-08-29.md`):
 each sapient species has a distinct form of AI, if they use it at all —
@@ -153,8 +154,9 @@ same day as a new lore entry, [The Maker's Shape](../src/lore/the-makers-shape.m
 (the complement of the made-minds convergence page: safety shapes
 converge, the minds themselves never do; the Krenyi null case as the
 standing "if at all"; contact doctrine — an unfamiliar machine is
-untranslated, not wrong). Draft-and-stop, in PR #580. Readings flagged in
-the intake; nothing else opened.
+untranslated, not wrong). In PR #580 — **approved by Dermot,
+29 August 2026** ("Approved"). Readings flagged in the intake; nothing
+else opened.
 
 A **second direction the same day** (verbatim in `intake-2026-08-29.md`):
 Tissadelle has worked with colleagues from almost every sentient species
@@ -162,9 +164,8 @@ known to the Star Rangers. Realized same day as one paragraph on
 `src/characters/tissadelle-shepherd.md` (extension of the
 generalist-rotations theme; exceptions kept structural and unenumerated —
 "almost every" load-bearing — no species-by-species ledger, so no timeline
-debts against late arrivals like the Ilveth). Draft-and-stop: **on the
-branch and now inside PR #580 alongside the approved entries — awaiting
-Dermot's approval before that PR merges.** Readings flagged: "Tisaddele"
+debts against late arrivals like the Ilveth). **On the branch, in
+PR #580 — approved by Dermot, 29 August 2026** ("Approved"). Readings flagged: "Tisaddele"
 as a typo for Tissadelle; "worked with colleagues" as service, not
 encounters; "known to the Star Rangers" as the Corps' own roster.
 
