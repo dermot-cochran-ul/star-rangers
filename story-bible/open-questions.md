@@ -134,6 +134,18 @@ filing note holding the reader-test. Full commitments-by-proposal list in
   `species-design.md`'s settled answer; the compatible species-scale fact
   realized instead).
 
+A **fourth direction the same day** (verbatim in `intake-2026-08-29.md`):
+there is no defined Archetype for artificial intelligence as distinct from
+sapience in general. Read at the Archetype tier — disturbing neither the
+made-minds formtype nor the AI *Safety* Archetype (the stronger reading,
+that the Safety Archetype itself is retired or renamed, was considered and
+**not taken — confirm if intended**). Realized same day as a grounding
+section in The Maker's Shape ("Why There Is Nothing Else to Be") and a
+clarification on the published `made-minds-and-the-ai-safety-archetype.md`
+page at the exact spot its title invites the misfiling. Both in PR #580,
+draft-and-stop; the published-page clarification in particular awaits
+approval.
+
 A **third direction the same day** (verbatim in `intake-2026-08-29.md`):
 each sapient species has a distinct form of AI, if they use it at all —
 the LLM sentence read as illustration, not new in-world tech. Realized
