@@ -128,8 +128,13 @@ filing note holding the reader-test. Full commitments-by-proposal list in
   as a rendering note on the lore entry (draft-and-stop, second 29 August
   PR). A coined paradigm stays available later as a separate vocabulary
   decision; nothing waits on one.
-- **Federation membership and contact date** — the draft commits only that
-  the Federation reached Thavren.
+- ~~**Federation membership and contact date**~~ — **membership ruled by
+  Dermot, 29 August 2026: "The Ovruhn are members of the Federation of
+  Sentient Beings."** Realized as extensions on both pages (the Ovruhn
+  entry and the Federation roster; the joint-disaster-response
+  contribution committed by proposal). **Contact date still open**,
+  offered back as choices: leave undated as a marked absence, fix to the
+  ~2750s–2780s contact era, or a later era.
 - **Any named Ovruhn individual beyond Vhen**, and any Corps character.
 - **Images** — the lore entry joins those awaiting cards; the codex entry
   needs a `make-codex-cover.ps1` title card, like every codex entry.
