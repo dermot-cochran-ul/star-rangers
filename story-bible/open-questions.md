@@ -134,6 +134,18 @@ filing note holding the reader-test. Full commitments-by-proposal list in
   `species-design.md`'s settled answer; the compatible species-scale fact
   realized instead).
 
+A **second direction the same day** (verbatim in `intake-2026-08-29.md`):
+Tissadelle has worked with colleagues from almost every sentient species
+known to the Star Rangers. Realized same day as one paragraph on
+`src/characters/tissadelle-shepherd.md` (extension of the
+generalist-rotations theme; exceptions kept structural and unenumerated —
+"almost every" load-bearing — no species-by-species ledger, so no timeline
+debts against late arrivals like the Ilveth). Draft-and-stop: **on the
+branch and now inside PR #580 alongside the approved entries — awaiting
+Dermot's approval before that PR merges.** Readings flagged: "Tisaddele"
+as a typo for Tissadelle; "worked with colleagues" as service, not
+encounters; "known to the Star Rangers" as the Corps' own roster.
+
 ## The RPG-structured inner world — raised 27 August 2026
 
 `intake-2026-08-27.md` records the direction verbatim (Tissadelle's inner
