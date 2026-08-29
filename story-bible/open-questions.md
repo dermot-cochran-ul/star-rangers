@@ -132,9 +132,11 @@ filing note holding the reader-test. Full commitments-by-proposal list in
   Dermot, 29 August 2026: "The Ovruhn are members of the Federation of
   Sentient Beings."** Realized as extensions on both pages (the Ovruhn
   entry and the Federation roster; the joint-disaster-response
-  contribution committed by proposal). **Contact date still open**,
-  offered back as choices: leave undated as a marked absence, fix to the
-  ~2750s–2780s contact era, or a later era.
+  contribution committed by proposal). ~~Contact date still open~~ —
+  **ruled by Dermot, 29 August 2026, from presented choices: leave
+  undated**, a deliberate marked absence on the entry's own register
+  (the membership interval already reads "unhurried"). Fixed later only
+  if a story needs it. Nothing from the Federation item remains open.
 - **Any named Ovruhn individual beyond Vhen**, and any Corps character.
 - **Images** — the lore entry joins those awaiting cards; the codex entry
   needs a `make-codex-cover.ps1` title card, like every codex entry.
