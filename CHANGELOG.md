@@ -6,6 +6,17 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [1.26.0] — 2026-08-29
+
+A release carried by the 29 August direction set: the hybrid-species
+contact frame realized — the Ovruhn of Thavren, their codex account of
+humans, and their Federation membership — alongside the sapience doctrine
+pages (not a sight, not a checklist, not a human measure), the Simian
+glossary entry, the Maker's Shape, the Concord's chosen outsideness, and
+the diaspora in the Currach Fleet. On the engine side, the homepage
+slideshow now structurally excludes placeholder cards. MINOR: all
+additive, backward-compatible.
+
 ### Added
 
 - **[Celtic Union of Planets](src/lore/celtic-union-of-planets.md) — the diaspora in the Currach Fleet; fifteenth 29 August direction recorded** (2026-08-29). Dermot's direction that many Celtic Union settlers were Americans or Canadians of Irish descent; realized as an extension paragraph on the founders: the double emigration on the Fleet's rolls (Ireland to America, Earth to the stations, the stations into the dark), the revivalist reading of the founders' custodial intensity, and the Union's no-registry position on homeland versus diaspora lines. Verbatim capture and canon check in `story-bible/intake-2026-08-29.md`.
