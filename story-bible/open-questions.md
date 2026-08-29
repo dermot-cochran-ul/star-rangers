@@ -104,25 +104,33 @@ and one source claim contradicted by settled ground and not adopted (the
 hands-ceiling — `species-design.md`'s "dexterity yes, hands no" answer
 stands). Nothing drafted; the direction blocks on its first fork. Open:
 
-- **Convergent alien or terrestrial engineered composite** — the load-bearing
-  reading of "hybrid". The intake proceeds on the convergent reading (the
-  animal names as human survey comparanda, per the Pandoid naming doctrine)
-  because it extends canon rather than amending it; the engineered reading
-  would be canon's first made sapient species and raises the personhood
-  machinery, not the contact machinery. Dermot's call, and everything
-  downstream differs by it.
-- **The species itself, once ruled** — world, body, sensorium, bottleneck,
-  per `species-design.md`; plus differentiation debts against the Krenyi
-  (misreading-humans mechanism), Mnemari (memory niche) and Chthonari
-  (infrasonic sensing), all listed in the intake.
-- **Where the mutual accounts live** — their account of humans reads as a
-  codex entry (named in-universe author needed); the human posture's home
-  undecided.
-- **Relation to the Federation contact history** — member, later contact, or
-  reserved pre-contact material.
-- **Whether the hands-ceiling is ruled as a species fact** (they did not
-  industrialise alone — available without touching settled ground) or left
-  entirely unadopted.
+~~- **Convergent alien or terrestrial engineered composite**~~ — **ruled by
+Dermot, 29 August 2026: "Yes"** (a bare yes against the session summary,
+read — lightly held, reading recorded in the intake — as confirming the
+flagged readings as proposed: convergent alien). **Realized same day,
+draft-and-stop, both on the branch awaiting approval:**
+[The Ovruhn (Deep-Sung)](../src/lore/ovruhn.md) — the species, from a
+deep-haze world (Thavren) where sound is the far sense: sounding-sight,
+the honest infrasonic under-song, hydrostat tendrils, chorus-kept memory,
+"the hybrid people" as a refused press coinage — and
+[The Two Songs of the Loud People](../src/codex/the-two-songs-of-the-loud-people.md)
+— the keeper Vhen's chorus-held account of humans, with the Archivist's
+filing note holding the reader-test. Full commitments-by-proposal list in
+`intake-2026-08-29.md`. Still open after the drafts:
+
+- **The two approvals** — lore and codex entries both draft-and-stop.
+- **The Ovruhn pronoun paradigm** — the entries stay in the record's
+  translation register, avoiding singular pronouns for individuals; coining
+  a paradigm is a per-species vocabulary decision needing a glossary
+  registration (same live state as the Ilveth's).
+- **Federation membership and contact date** — the draft commits only that
+  the Federation reached Thavren.
+- **Any named Ovruhn individual beyond Vhen**, and any Corps character.
+- **Images** — the lore entry joins those awaiting cards; the codex entry
+  needs a `make-codex-cover.ps1` title card, like every codex entry.
+- **The hands-ceiling** — unadopted, unchanged (contradicted by
+  `species-design.md`'s settled answer; the compatible species-scale fact
+  realized instead).
 
 ## The RPG-structured inner world — raised 27 August 2026
 
