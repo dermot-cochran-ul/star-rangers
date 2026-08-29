@@ -226,6 +226,13 @@ distinct histories, rather than five body plans with the same story attached.
   *fluid-boundary anomalies*, a phrase that means almost nothing on a
   single-ocean world. Now a standing refusal on
   `src/lore/what-the-record-refuses.md`.
+- **The allegory.** A species designed as a metaphor for a human subgroup
+  or country — the Star Trek pattern, rejected by Dermot outright
+  (29 August 2026, verbatim in `intake-2026-08-29.md`; theme note in
+  `ideas.md`). The test: if the page summarises as "they're basically X"
+  for any human group, start over from the world. This file's method is
+  the antidote — a people derived from gravity, cold, or dense air has no
+  room to be a cipher, because the world got there first.
 - **The planet of hats.** One environment, one temperament, one job, no internal
   disagreement. The cast principles forbid it for humans and the same reasoning
   applies here. The Krenyi page is the standard to match — a whole practice, a
