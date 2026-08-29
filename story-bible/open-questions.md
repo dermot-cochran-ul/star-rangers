@@ -91,6 +91,94 @@ Two later directions the same day (both in `intake-2026-08-26.md`):
   draft is the one artifact still awaiting his approval on the branch~~ —
   **approved by Dermot, 26 August 2026.** The whole intake is closed.
 
+## The hybrid-species contact frame — raised 29 August 2026
+
+`intake-2026-08-29.md` records both messages verbatim (a species combining
+dolphin + ape + elephant peak cognitive traits — a "differently-optimized
+peer intelligence" — and the mutual-misperception contact frame: humans see a
+scientific marvel; the species sees "unpredictable, emotionally noisy
+primates with impressive symbolic systems"; three named tensions). It
+continues `species-design.md`'s 13 August dexterity thread. The canon check
+found the peer-intelligence thesis already published as the ladder refusal,
+and one source claim contradicted by settled ground and not adopted (the
+hands-ceiling — `species-design.md`'s "dexterity yes, hands no" answer
+stands). Nothing drafted; the direction blocks on its first fork. Open:
+
+~~- **Convergent alien or terrestrial engineered composite**~~ — **ruled by
+Dermot, 29 August 2026: "Yes"** (a bare yes against the session summary,
+read — lightly held, reading recorded in the intake — as confirming the
+flagged readings as proposed: convergent alien). **Realized same day,
+draft-and-stop, both on the branch awaiting approval:**
+[The Ovruhn (Deep-Sung)](../src/lore/ovruhn.md) — the species, from a
+deep-haze world (Thavren) where sound is the far sense: sounding-sight,
+the honest infrasonic under-song, hydrostat tendrils, chorus-kept memory,
+"the hybrid people" as a refused press coinage — and
+[The Two Songs of the Loud People](../src/codex/the-two-songs-of-the-loud-people.md)
+— the keeper Vhen's chorus-held account of humans, with the Archivist's
+filing note holding the reader-test. Full commitments-by-proposal list in
+`intake-2026-08-29.md`. Still open after the drafts:
+
+- ~~**The two approvals** — lore and codex entries both draft-and-stop.~~ —
+  **both approved by Dermot, 29 August 2026** ("Approved, create the PR");
+  PR opened the same day, merge his call.
+- ~~**The Ovruhn pronoun paradigm**~~ — **ruled by Dermot, 29 August 2026:
+  "The Ovruhn use they/them pronouns for individuals in the record's
+  translation register."** The Qiren Tal pattern — a translation-register
+  rendering, not a coined paradigm, so no glossary registration; realized
+  as a rendering note on the lore entry (draft-and-stop, second 29 August
+  PR). A coined paradigm stays available later as a separate vocabulary
+  decision; nothing waits on one.
+- ~~**Federation membership and contact date**~~ — **membership ruled by
+  Dermot, 29 August 2026: "The Ovruhn are members of the Federation of
+  Sentient Beings."** Realized as extensions on both pages (the Ovruhn
+  entry and the Federation roster; the joint-disaster-response
+  contribution committed by proposal). ~~Contact date still open~~ —
+  **ruled by Dermot, 29 August 2026, from presented choices: leave
+  undated**, a deliberate marked absence on the entry's own register
+  (the membership interval already reads "unhurried"). Fixed later only
+  if a story needs it. Nothing from the Federation item remains open.
+- **Any named Ovruhn individual beyond Vhen**, and any Corps character.
+- **Images** — the lore entry joins those awaiting cards; the codex entry
+  needs a `make-codex-cover.ps1` title card, like every codex entry.
+- **The hands-ceiling** — unadopted, unchanged (contradicted by
+  `species-design.md`'s settled answer; the compatible species-scale fact
+  realized instead).
+
+A **fourth direction the same day** (verbatim in `intake-2026-08-29.md`):
+there is no defined Archetype for artificial intelligence as distinct from
+sapience in general. Read at the Archetype tier — disturbing neither the
+made-minds formtype nor the AI *Safety* Archetype (the stronger reading,
+that the Safety Archetype itself is retired or renamed, was considered and
+**not taken — confirm if intended**). Realized same day as a grounding
+section in The Maker's Shape ("Why There Is Nothing Else to Be") and a
+clarification on the published `made-minds-and-the-ai-safety-archetype.md`
+page at the exact spot its title invites the misfiling. Both in PR #580 —
+**approved by Dermot, 29 August 2026** ("Approved"); the approval of the
+clarification as drafted settles the tier reading, so the stronger
+not-taken reading is moot.
+
+A **third direction the same day** (verbatim in `intake-2026-08-29.md`):
+each sapient species has a distinct form of AI, if they use it at all —
+the LLM sentence read as illustration, not new in-world tech. Realized
+same day as a new lore entry, [The Maker's Shape](../src/lore/the-makers-shape.md)
+(the complement of the made-minds convergence page: safety shapes
+converge, the minds themselves never do; the Krenyi null case as the
+standing "if at all"; contact doctrine — an unfamiliar machine is
+untranslated, not wrong). In PR #580 — **approved by Dermot,
+29 August 2026** ("Approved"). Readings flagged in the intake; nothing
+else opened.
+
+A **second direction the same day** (verbatim in `intake-2026-08-29.md`):
+Tissadelle has worked with colleagues from almost every sentient species
+known to the Star Rangers. Realized same day as one paragraph on
+`src/characters/tissadelle-shepherd.md` (extension of the
+generalist-rotations theme; exceptions kept structural and unenumerated —
+"almost every" load-bearing — no species-by-species ledger, so no timeline
+debts against late arrivals like the Ilveth). **On the branch, in
+PR #580 — approved by Dermot, 29 August 2026** ("Approved"). Readings flagged: "Tisaddele"
+as a typo for Tissadelle; "worked with colleagues" as service, not
+encounters; "known to the Star Rangers" as the Corps' own roster.
+
 ## The RPG-structured inner world — raised 27 August 2026
 
 `intake-2026-08-27.md` records the direction verbatim (Tissadelle's inner
