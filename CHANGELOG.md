@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Changed
+
+- **The homepage slideshow only shows finished portraits** (2026-08-29, Dermot's direction). The `withImages` filter now also drops PLACEHOLDER-stamped pending cards, on every edition; `validate-content.js`'s hero-cast check fails on a cast slide whose portrait is a stamped card. Marker detection extracted to `lib/placeholder-marker.js` (shared with `scripts/mark-placeholder.js`), pinned by `test/placeholder-marker.test.js`.
+
 ## [1.25.0] — 2026-08-28
 
 A release carried by the 27 August direction set: the Tissadelle/Tobble
