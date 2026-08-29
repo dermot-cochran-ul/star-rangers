@@ -121,10 +121,13 @@ filing note holding the reader-test. Full commitments-by-proposal list in
 - ~~**The two approvals** — lore and codex entries both draft-and-stop.~~ —
   **both approved by Dermot, 29 August 2026** ("Approved, create the PR");
   PR opened the same day, merge his call.
-- **The Ovruhn pronoun paradigm** — the entries stay in the record's
-  translation register, avoiding singular pronouns for individuals; coining
-  a paradigm is a per-species vocabulary decision needing a glossary
-  registration (same live state as the Ilveth's).
+- ~~**The Ovruhn pronoun paradigm**~~ — **ruled by Dermot, 29 August 2026:
+  "The Ovruhn use they/them pronouns for individuals in the record's
+  translation register."** The Qiren Tal pattern — a translation-register
+  rendering, not a coined paradigm, so no glossary registration; realized
+  as a rendering note on the lore entry (draft-and-stop, second 29 August
+  PR). A coined paradigm stays available later as a separate vocabulary
+  decision; nothing waits on one.
 - **Federation membership and contact date** — the draft commits only that
   the Federation reached Thavren.
 - **Any named Ovruhn individual beyond Vhen**, and any Corps character.
