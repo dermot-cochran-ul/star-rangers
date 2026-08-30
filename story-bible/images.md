@@ -982,8 +982,13 @@ they are tall and a portrait crop fights them.
 
 **AIs & non-corporeal — abstract emblem, no face**
 
-- **`jeeves.jpg`** — domestic-companion AI, Eden; kitchen-and-gossip competence.
-  > Abstract emblematic image representing a domestic household artificial intelligence: a warm pool of low amber light resting on the scrubbed wooden surface of a quiet kitchen table at night, a folded cloth and a single clean cup set neatly beside it, everything tidied and ready for a morning that has not arrived yet. Soft ambient glow with no visible source, deep warm browns and honey tones against a dark room, domestic and calm and companionable. No human face, no figure, no hands, no machine, no robot, no screens, no displays, no consoles, no interface, no glyphs, no icons, no symbols, no numerals and no lettering of any script anywhere in frame. Portrait orientation.
+- **`jeeves.jpg`** — domestic-companion AI, Eden; kitchen-and-gossip
+  competence. **Superseded 30 August 2026** by Dermot's body-in-canon ruling:
+  the live brief is in "The five stamped on 30 August 2026" below, under the
+  visible-artificiality rule. The retired emblem here (the tidied night
+  kitchen, no figure) was the 13-August bodiless-AI treatment; its blockquote
+  is removed so the generator queue serves only the live brief — the parser
+  takes the first quoted entry per filename.
 
 - **`reeves.jpg`** — investigative-support AI, Threshold Station; **the other
   half of a deliberate pair.** Written 13 August on Dermot's note that the two
@@ -1225,17 +1230,19 @@ go in its bullet prose, never in the quote.)
   portraits in this section were approved as the v1s of their runs.)*
   > Portrait of a fit, weathered man past seventy, a retired officer turned beekeeper, standing among plain wooden hives in a stone-walled hive-yard at first light, upper body. One hand rests flat on a hive roof and his head is slightly inclined toward it, as though he is quietly telling it something; a few bees hang in the air around him, unbothered. Undyed working wool in monastic plainness, no veil, no gloves, deeply lined unhurried face with the attentive patience of a man reading a slow instrument. Behind him low whitewashed stone cells and a green hillside going up into soft mist. Warm early light, gentle and serene, quiet, hopeful, entirely unhaunted; no science-fiction furniture of any kind. Landscape orientation.
 
-- **`jeeves.jpg`** — **a decision, not a brief.** The stamped image was not
-  a botched portrait: it was the deliberate 13-August bodiless-AI emblem
-  (the tidied kitchen at night), correct under *where canon gives a system
-  no body, the portrait is not a body*. Dermot's 30 August stamp ruling
-  supersedes it for the slideshow; what replaces it on the character page
-  is open. The options as put to him: a new emblem in the Reeves
-  constellation register (domestic, warm, geometric — reads as design
-  rather than stock photography), or giving Jeeves a body in canon (a canon
-  change, his alone), or keeping the kitchen emblem for the page and simply
-  never slideshow-casting him. Until ruled, the entry stays stamped and the
-  procedural cast stays four.
+- **`jeeves.jpg`** — **ruled 30 August: a body in canon** (Dermot's pick
+  from the three options; the alternatives — a new emblem, or emblem-plus-
+  never-cast — are closed). The ruling turned out to be half a
+  clarification: `s02e01c01` already has him as *"a domestic-model
+  intelligence... standing exactly where a man might stand"*, timing
+  arrivals and pouring tea, so the frame existed in published canon and the
+  character page now describes it (matte ivory-grey shell, plainly jointed,
+  hands *sufficient for pastry*, round dark lenses that make no attempt to
+  be eyes — and the uncatalogued waistcoat). The portrait falls under *AIs
+  get portraits like everyone else*: artificiality visible at the prompt.
+  The kitchen carries over from the retired emblem — same room, now with
+  him in it, at morning instead of waiting for one.
+  > Cinematic portrait of a domestic-model artificial intelligence in the compact kitchen of an apartment aboard a large space habitat, upper body, standing at a scrubbed wooden table setting down a tea tray with exact care. The machine is human-shaped and unmistakably a machine: matte ivory-grey composite shell with plainly visible seams and joints, articulated mechanical hands, a smooth head with two round dark optical lenses that make no attempt to be eyes, no human face, no synthetic skin, no hair. Over the shell it wears a plain dark neatly fitted waistcoat. The apartment is unmistakably aboard a habitat, not a house on a planet: smooth pale composite walls with rounded coving, a galley counter in matching composite, a single small viewport whose view is the habitat's own softly lit green interior curving upward in the distance — no sky, no garden, no countryside. The kitchen is warm and immaculate all the same — a folded cloth, one clean cup, the wooden table an obvious treasure in a moulded room — and the whole picture is gentle, precise, and quietly comic in its dignity. Photographic realism, warm domestic palette over cool habitat neutrals. No readable text, lettering, numerals, signage, labels, branding or written characters of any script anywhere in frame; no screens, monitors, displays, consoles or indicator lights; no visible lamp, light fitting or bulb; no holograms; no weapons; not a menacing robot, not an industrial robot, no exposed wiring; no rustic cottage, no exposed wooden beams, no stone walls, no potted plants, no gas stove, no copper kettle. Landscape orientation.
 
 #### Outstanding portraits — audited 19 August 2026 (25 pages)
 
