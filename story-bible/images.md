@@ -1151,6 +1151,69 @@ staff**, which the generator added unprompted both times.
   contact for the Survey Corps delegation.
   > Cinematic portrait of an abbess in her sixties in a coastal stone abbey, upper body, heavy plain working habit of a contemplative order, belted, with a clear shoulder line and no draping or billowing fabric, upright bearing and entirely still, cold sea light flooding in through an open doorway behind her with the sea beyond it bright and out of focus, the stone interior dark and close around her, pre-industrial island setting, grey stone and dark wool against a luminous doorway, an administrator who happens to be in orders, no serenity of expression, no benevolence, no wisdom pose, no hands folded in blessing, professional, no readable text, signage, lettering or written characters anywhere in frame. Portrait orientation.
 
+#### The five stamped on 30 August 2026 — hero-cast cards
+
+Dermot's full-images-only rule for the homepage slideshow (29–30 August)
+surfaced five hero-cast images that were never portraits: four designed
+title cards (Iona, Galahad, Syra, Fintan) and Jeeves's kitchen emblem. All
+five are now PLACEHOLDER-stamped and out of every cast until real portraits
+land — the `lib/editions.js` cast comments say who returns where. The four
+below are the portrait briefs; Jeeves is a decision, not a brief, and is
+indexed in `open-questions.md`.
+
+All are **16:9 landscape**, all carry the **standing negative** from the
+19 August set below, and the atmosphere is added around each page's own
+`role` and `description` — no fact here is invented. **None is generated.
+All are proposals.**
+
+- **`dr-iona-vale.jpg`** — Transit Safety Officer, Harmonic Operations,
+  Threshold Station; the authority to say the jump does not happen. Her page
+  is exact about what she is not: not against teleportation, against the
+  pretence that the cost disappears. So the portrait is not a guard at a
+  gate — it is a clinician standing where the cost is paid, unhurried and
+  immovable. No displays (the standing rule: never light a scene with one);
+  the bay behind her is hardware, not readouts.
+  > Cinematic portrait of a woman in early middle age, a transit safety officer standing at the observation position of a teleportation bay aboard a science-fiction boundary station, upper body, turned to face the viewer. Practical dark clinical-professional uniform with no markings, hair pinned back for work, one hand resting beside a heavy physical hold lever she has not pulled. Calm, level, immovable expression — the person who decides whether the jump happens, unhurried and not unkind. The bay behind her is quiet metal architecture in soft shadow: coil housings, conduit, an empty transit platform, no glow and no active machinery. Cool muted palette with one warm pool of practical light on her position, cinematic haze, professional, no glamour styling. Landscape orientation.
+
+- **`galahad-thorne.jpg`** — Survey Team Lead, twelve years at boundary
+  postings; describes accurately rather than reaching for the nearest
+  category. Field surveyor, not office lead, so he is outdoors at an
+  instrument. The Ranger block applies, adapted for field dress. The Marsh
+  Causeway register — standing water, mist, first light — carries the
+  boundary without depicting anything across it, per the hint-don't-show
+  line.
+  > Cinematic portrait of a weathered man in his forties, a survey team lead at work on a misted marsh boundary at first light, upper body, standing beside a mounted optical survey instrument on a heavy tripod, one hand steadying it, looking toward the viewer with a patient, level, precise expression — a man who describes exactly what he sees and nothing more. Plain well-kept field service dress in muted grey-green with a small plain geometric collar tab, shapes and a single colour insert only, practical field kit, no weapons. Behind him flat standing water and low mist going pale at the horizon, a single line of old marker posts receding into the haze, nothing visible beyond them. Soft dawn light, cool serene palette, quiet and slightly haunting, hopeful rather than bleak. Landscape orientation.
+
+- **`syra.jpg`** — Krenyi boundary analyst, the Quiet-Built. The hardest
+  brief of the four, because the species canon forbids the easy move: there
+  is no organ to point at, so there is nothing to exaggerate, and the record
+  says the Quiet-Built look almost human and decline to say what they are.
+  What the portrait can hold is what the lore page opens on — posture
+  steady, gaze direct, no wasted gesture — plus low light (which costs her
+  nothing) and an age that will not resolve. The stillness is the alien.
+  Trope guard written in: no elf, no grey, nothing glowing.
+  > Cinematic portrait of a Krenyi woman, a humanoid who at first glance reads as an entirely ordinary human and gives the eye nothing to point to — ordinary ears, ordinary eyes, ordinary skin, no prosthetics and no alien features of any kind. What is not human is the composure: she sits perfectly still in a dim survey analysis room, hands at rest, posture exactly balanced, gaze direct into the viewer, an adult whose age is impossible to place, quietly beautiful without any glamour styling, pale, dark hair drawn plainly back, plain professional analyst's clothing with no markings. The room around her is almost dark — one soft warm pool of practical light, instrument cases and a worktable in deep shadow — and she is visibly comfortable in it. Serene, enigmatic, slightly uncanny in stillness only; not a pointed-eared elf, not a grey alien, no glowing eyes, no unusual skin colour. Landscape orientation.
+
+- **`brother-fintan.jpg`** — retired Chief on the boundary-safety track,
+  now the beekeeper of Cnoc na mBeach. The one non-SF frame of the four,
+  same licence as `brother-daire`. The picture is his page's own image of
+  him: the same watch at a smaller scale — and the telling-the-bees custom
+  gives the pose, hinted rather than staged. Contemplative-tier domains
+  front him, so serenity leads.
+  > Portrait of a fit, weathered man past seventy, a retired officer turned beekeeper, standing among plain wooden hives in a stone-walled hive-yard at first light, upper body. One hand rests flat on a hive roof and his head is slightly inclined toward it, as though he is quietly telling it something; a few bees hang in the air around him, unbothered. Undyed working wool in monastic plainness, no veil, no gloves, deeply lined unhurried face with the attentive patience of a man reading a slow instrument. Behind him low whitewashed stone cells and a green hillside going up into soft mist. Warm early light, gentle and serene, quiet, hopeful, entirely unhaunted; no science-fiction furniture of any kind. Landscape orientation.
+
+- **`jeeves.jpg`** — **a decision, not a brief.** The stamped image was not
+  a botched portrait: it was the deliberate 13-August bodiless-AI emblem
+  (the tidied kitchen at night), correct under *where canon gives a system
+  no body, the portrait is not a body*. Dermot's 30 August stamp ruling
+  supersedes it for the slideshow; what replaces it on the character page
+  is open. The options as put to him: a new emblem in the Reeves
+  constellation register (domestic, warm, geometric — reads as design
+  rather than stock photography), or giving Jeeves a body in canon (a canon
+  change, his alone), or keeping the kitchen emblem for the page and simply
+  never slideshow-casting him. Until ruled, the entry stays stamped and the
+  procedural cast stays four.
+
 #### Outstanding portraits — audited 19 August 2026 (25 pages)
 
 The pages that carry no `image:` today. This is a **list, not a prompt set** —
