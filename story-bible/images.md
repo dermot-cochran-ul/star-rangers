@@ -1161,10 +1161,18 @@ land — the `lib/editions.js` cast comments say who returns where. The four
 below are the portrait briefs; Jeeves is a decision, not a brief, and is
 indexed in `open-questions.md`.
 
-All are **16:9 landscape**, all carry the **standing negative** from the
-19 August set below, and the atmosphere is added around each page's own
-`role` and `description` — no fact here is invented. **None is generated.
-All are proposals.**
+All are **16:9 landscape**, and the atmosphere is added around each page's
+own `role` and `description` — no fact here is invented.
+
+**The negative lives inside each blockquote, and that is a lesson, not a
+style choice** (30 August, first run): `image-prompts.js --generate` sends
+only the blockquote, so a "carry the standing negative" instruction beside
+it is invisible to the generator. The first run went out bare and returned
+readable signage, branded real-world survey kit, active screens and visible
+lamp fittings across three of the four. Any future entry written for the
+generator carries its negatives in the quoted text itself. (The parser also
+joins every consecutive `>` line into the prompt, so notes about an entry
+go in its bullet prose, never in the quote.)
 
 - **`dr-iona-vale.jpg`** — Transit Safety Officer, Harmonic Operations,
   Threshold Station; the authority to say the jump does not happen. Her page
@@ -1173,7 +1181,10 @@ All are proposals.**
   gate — it is a clinician standing where the cost is paid, unhurried and
   immovable. No displays (the standing rule: never light a scene with one);
   the bay behind her is hardware, not readouts.
-  > Cinematic portrait of a woman in early middle age, a transit safety officer standing at the observation position of a teleportation bay aboard a science-fiction boundary station, upper body, turned to face the viewer. Practical dark clinical-professional uniform with no markings, hair pinned back for work, one hand resting beside a heavy physical hold lever she has not pulled. Calm, level, immovable expression — the person who decides whether the jump happens, unhurried and not unkind. The bay behind her is quiet metal architecture in soft shadow: coil housings, conduit, an empty transit platform, no glow and no active machinery. Cool muted palette with one warm pool of practical light on her position, cinematic haze, professional, no glamour styling. Landscape orientation.
+  *(Revised 30 August after the first run: readable "PLATFORM 4" signage, a
+  lettered console, active screens and a caged lamp fitting — the negative now
+  travels inside the prompt.)*
+  > Cinematic portrait of a woman in early middle age, a transit safety officer standing at the observation position of a teleportation bay aboard a science-fiction boundary station, upper body, turned to face the viewer. Practical dark clinical-professional uniform with no markings, hair pinned back for work, one hand resting beside a heavy plain metal hold lever she has not pulled, the lever's mount unlabelled bare metal. Calm, level, immovable expression — the person who decides whether the jump happens, unhurried and not unkind. The bay behind her is quiet metal architecture in soft shadow: coil housings, conduit, an empty transit platform, every surface plain unmarked metal, no glow and no active machinery. Cool muted palette, lit by one soft warm pool of light falling on her position from a concealed source above, no lamp or light fitting visible in frame, cinematic haze, professional, no glamour styling. No readable text, lettering, numerals, signage, labels, stencilled markings, branding or written characters of any script anywhere in frame; no screens, monitors, displays, consoles, gauges, dials or indicator lights; no holograms or projected light; no wristwatch; no weapons; no flat studio backdrop and no corporate headshot posing. Landscape orientation.
 
 - **`galahad-thorne.jpg`** — Survey Team Lead, twelve years at boundary
   postings; describes accurately rather than reaching for the nearest
@@ -1182,7 +1193,11 @@ All are proposals.**
   Causeway register — standing water, mist, first light — carries the
   boundary without depicting anything across it, per the hint-don't-show
   line.
-  > Cinematic portrait of a weathered man in his forties, a survey team lead at work on a misted marsh boundary at first light, upper body, standing beside a mounted optical survey instrument on a heavy tripod, one hand steadying it, looking toward the viewer with a patient, level, precise expression — a man who describes exactly what he sees and nothing more. Plain well-kept field service dress in muted grey-green with a small plain geometric collar tab, shapes and a single colour insert only, practical field kit, no weapons. Behind him flat standing water and low mist going pale at the horizon, a single line of old marker posts receding into the haze, nothing visible beyond them. Soft dawn light, cool serene palette, quiet and slightly haunting, hopeful rather than bleak. Landscape orientation.
+  *(Revised 30 August after the first run: a branded present-day total
+  station with keypad and display, sleeve chevrons, a handwritten notebook, a
+  cap — the instrument is now described as unfamiliar and unmarked, and the
+  negative travels inside the prompt.)*
+  > Cinematic portrait of a weathered man in his forties, bare-headed, a survey team lead at work on a misted marsh boundary at first light, upper body, standing beside a surveying instrument of unfamiliar future design mounted on a heavy tripod — a plain matte grey-green housing around a single large optical lens, smooth unmarked casing with no keypad, no display, no branding and no manufacturer's markings, clearly an optical instrument and clearly not any present-day surveyor's model. One hand steadies it as he looks toward the viewer with a patient, level, precise expression — a man who describes exactly what he sees and nothing more. Plain well-kept field service dress in muted grey-green, its only insignia one small plain geometric tab at the collar, shapes and a single colour insert; no sleeve patches, no chevrons, no badges anywhere else on the clothing; practical field kit, empty hands otherwise. Behind him flat standing water and low mist going pale at the horizon, a single line of old bare wooden marker posts receding into the haze, nothing visible beyond them. Soft dawn light, cool serene palette, quiet and slightly haunting, hopeful rather than bleak. No readable text, lettering, numerals, signage, labels, branding or written characters of any script anywhere in frame; no screens, displays or keypads; no notebook and no handwriting; no wristwatch; no cap or hat; no weapons. Landscape orientation.
 
 - **`syra.jpg`** — Krenyi boundary analyst, the Quiet-Built. The hardest
   brief of the four, because the species canon forbids the easy move: there
@@ -1192,7 +1207,11 @@ All are proposals.**
   steady, gaze direct, no wasted gesture — plus low light (which costs her
   nothing) and an age that will not resolve. The stillness is the alien.
   Trope guard written in: no elf, no grey, nothing glowing.
-  > Cinematic portrait of a Krenyi woman, a humanoid who at first glance reads as an entirely ordinary human and gives the eye nothing to point to — ordinary ears, ordinary eyes, ordinary skin, no prosthetics and no alien features of any kind. What is not human is the composure: she sits perfectly still in a dim survey analysis room, hands at rest, posture exactly balanced, gaze direct into the viewer, an adult whose age is impossible to place, quietly beautiful without any glamour styling, pale, dark hair drawn plainly back, plain professional analyst's clothing with no markings. The room around her is almost dark — one soft warm pool of practical light, instrument cases and a worktable in deep shadow — and she is visibly comfortable in it. Serene, enigmatic, slightly uncanny in stillness only; not a pointed-eared elf, not a grey alien, no glowing eyes, no unusual skin colour. Landscape orientation.
+  *(Revised 30 August after the first run: both variants nailed the
+  stillness and the unplaceable age, and both leaked monitors, lamps and
+  cabling into the room — the room is now described as closed and inert, and
+  the negative travels inside the prompt.)*
+  > Cinematic portrait of a Krenyi woman, a humanoid who at first glance reads as an entirely ordinary human and gives the eye nothing to point to — ordinary ears, ordinary eyes, ordinary skin, no prosthetics and no alien features of any kind. What is not human is the composure: she sits perfectly still in a dim survey analysis room, hands at rest on the table, posture exactly balanced, gaze direct into the viewer, an adult whose age is impossible to place, quietly beautiful without any glamour styling, pale, dark hair drawn plainly back, plain professional analyst's clothing with no markings. The room around her is almost dark and everything in it is closed and inert — closed instrument cases, a bare worktable, deep shadow — lit by one soft warm pool of light from a concealed source above, no lamp or light fitting visible in frame, and she is visibly comfortable in the dark. Serene, enigmatic, slightly uncanny in stillness only; not a pointed-eared elf, not a grey alien, no glowing eyes, no unusual skin colour. No readable text, lettering, numerals, signage, labels, branding or written characters of any script anywhere in frame; no screens, monitors, displays, tablets, consoles or indicator lights of any kind, powered or dark; no cables; no holograms or projected light; no wristwatch or jewellery; no weapons; no corporate headshot posing. Landscape orientation.
 
 - **`brother-fintan.jpg`** — retired Chief on the boundary-safety track,
   now the beekeeper of Cnoc na mBeach. The one non-SF frame of the four,
@@ -1200,6 +1219,9 @@ All are proposals.**
   him: the same watch at a smaller scale — and the telling-the-bees custom
   gives the pose, hinted rather than staged. Contemplative-tier domains
   front him, so serenity leads.
+  *(First run, 30 August: both variants clean — variant 1 the stronger on
+  the telling-the-bees pose and free of modern tells; variant 2 carries a
+  wristwatch. Awaiting Dermot's pick.)*
   > Portrait of a fit, weathered man past seventy, a retired officer turned beekeeper, standing among plain wooden hives in a stone-walled hive-yard at first light, upper body. One hand rests flat on a hive roof and his head is slightly inclined toward it, as though he is quietly telling it something; a few bees hang in the air around him, unbothered. Undyed working wool in monastic plainness, no veil, no gloves, deeply lined unhurried face with the attentive patience of a man reading a slow instrument. Behind him low whitewashed stone cells and a green hillside going up into soft mist. Warm early light, gentle and serene, quiet, hopeful, entirely unhaunted; no science-fiction furniture of any kind. Landscape orientation.
 
 - **`jeeves.jpg`** — **a decision, not a brief.** The stamped image was not
