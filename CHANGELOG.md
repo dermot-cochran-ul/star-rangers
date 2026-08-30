@@ -8,6 +8,8 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Added
 
+- **Jeeves embodied** (2026-08-30, Dermot's ruling from the presented options: a body in canon). Half a clarification — `s02e01c01` already had him standing and pouring tea as "a domestic-model intelligence" — realized as [Jeeves](src/characters/jeeves.md)'s "The Frame" section (matte jointed catalogue frame, hands *sufficient for pastry*, lens eyes, the uncatalogued waistcoat) and a portrait under the visible-artificiality rule, set in a habitat apartment aboard Eden (v2 approved by Dermot). Restored to the procedural edition's cast, last for the joke; the open question is struck as ruled.
+
 - **Real portraits for the four stamped hero-cast characters** (2026-08-30, generated from the runbook briefs, v1 of each run approved by Dermot). `dr-iona-vale.jpg`, `galahad-thorne.jpg`, `syra.jpg` and `brother-fintan.jpg` replace their stamped title cards; `image_alt` rewritten to what each file shows; all four restored to their hero casts in `lib/editions.js`, so every domain's slideshow is whole again with full images only. Prompt record and the negatives-inside-the-blockquote lesson in `story-bible/images.md`.
 
 ### Changed
