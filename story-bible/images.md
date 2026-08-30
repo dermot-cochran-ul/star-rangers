@@ -1221,7 +1221,8 @@ go in its bullet prose, never in the quote.)
   front him, so serenity leads.
   *(First run, 30 August: both variants clean — variant 1 the stronger on
   the telling-the-bees pose and free of modern tells; variant 2 carries a
-  wristwatch. Awaiting Dermot's pick.)*
+  wristwatch. Variant 1 filed and approved by Dermot the same day; all four
+  portraits in this section were approved as the v1s of their runs.)*
   > Portrait of a fit, weathered man past seventy, a retired officer turned beekeeper, standing among plain wooden hives in a stone-walled hive-yard at first light, upper body. One hand rests flat on a hive roof and his head is slightly inclined toward it, as though he is quietly telling it something; a few bees hang in the air around him, unbothered. Undyed working wool in monastic plainness, no veil, no gloves, deeply lined unhurried face with the attentive patience of a man reading a slow instrument. Behind him low whitewashed stone cells and a green hillside going up into soft mist. Warm early light, gentle and serene, quiet, hopeful, entirely unhaunted; no science-fiction furniture of any kind. Landscape orientation.
 
 - **`jeeves.jpg`** — **a decision, not a brief.** The stamped image was not
