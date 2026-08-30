@@ -8,7 +8,7 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Changed
 
-- **Four hero-cast title cards stamped as placeholders and their casts thinned** (2026-08-30, Dermot's direction — the slideshow still showed title cards after 1.26.0 because those four were never stamped). `dr-iona-vale.jpg`, `galahad-thorne.jpg`, `syra.jpg` and `brother-fintan.jpg` are designed name cards, now PLACEHOLDER-stamped; the default, sciencefiction, fellowship and communion editions' `heroCharacterIds` drop them until real portraits land (the communion edition falls back to the static hero).
+- **Four hero-cast title cards stamped as placeholders and their casts thinned** (2026-08-30, Dermot's direction — the slideshow still showed title cards after 1.26.0 because those four were never stamped). `dr-iona-vale.jpg`, `galahad-thorne.jpg`, `syra.jpg` and `brother-fintan.jpg` are designed name cards, now PLACEHOLDER-stamped; the default, sciencefiction, fellowship and communion editions' `heroCharacterIds` drop them until real portraits land (the communion edition falls back to the static hero). Same day, Dermot ruled on the two borderline non-portrait images: `eden-warden.jpg` (habitat interior) stays as a portrait-by-absence; `jeeves.jpg` (mug on a table) stamped and dropped from the procedural edition's cast.
 
 ## [1.26.0] — 2026-08-29
 
