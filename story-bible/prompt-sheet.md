@@ -323,6 +323,36 @@ what the card actually shows before committing.
 
 ---
 
+## Part 3 — The four hero-cast portraits (queued 30 August 2026)
+
+The full-images-only sweep stamped four title cards; these are their portrait
+briefs, reasoning in `images.md` § "The five stamped on 30 August 2026"
+(Jeeves is a decision, not a brief — see `open-questions.md`). All four are
+**16:9 landscape** — set the dropdown, the prose cannot. Paste the standing
+negative after each prompt:
+
+> readable text, lettering, numerals, signage, labels, branding or written
+> characters of any script anywhere in frame; holograms, projected light,
+> glowing displays, screens, monitors, consoles; visible lamp, light fitting
+> or bulb; flat studio backdrop, gradient background, glamour lighting,
+> corporate headshot, posed smiling to camera; weapons.
+
+### 3.1 `dr-iona-vale.jpg`
+
+> Cinematic portrait of a woman in early middle age, a transit safety officer standing at the observation position of a teleportation bay aboard a science-fiction boundary station, upper body, turned to face the viewer. Practical dark clinical-professional uniform with no markings, hair pinned back for work, one hand resting beside a heavy physical hold lever she has not pulled. Calm, level, immovable expression — the person who decides whether the jump happens, unhurried and not unkind. The bay behind her is quiet metal architecture in soft shadow: coil housings, conduit, an empty transit platform, no glow and no active machinery. Cool muted palette with one warm pool of practical light on her position, cinematic haze, professional, no glamour styling. Landscape orientation.
+
+### 3.2 `galahad-thorne.jpg`
+
+> Cinematic portrait of a weathered man in his forties, a survey team lead at work on a misted marsh boundary at first light, upper body, standing beside a mounted optical survey instrument on a heavy tripod, one hand steadying it, looking toward the viewer with a patient, level, precise expression — a man who describes exactly what he sees and nothing more. Plain well-kept field service dress in muted grey-green with a small plain geometric collar tab, shapes and a single colour insert only, practical field kit, no weapons. Behind him flat standing water and low mist going pale at the horizon, a single line of old marker posts receding into the haze, nothing visible beyond them. Soft dawn light, cool serene palette, quiet and slightly haunting, hopeful rather than bleak. Landscape orientation.
+
+### 3.3 `syra.jpg`
+
+> Cinematic portrait of a Krenyi woman, a humanoid who at first glance reads as an entirely ordinary human and gives the eye nothing to point to — ordinary ears, ordinary eyes, ordinary skin, no prosthetics and no alien features of any kind. What is not human is the composure: she sits perfectly still in a dim survey analysis room, hands at rest, posture exactly balanced, gaze direct into the viewer, an adult whose age is impossible to place, quietly beautiful without any glamour styling, pale, dark hair drawn plainly back, plain professional analyst's clothing with no markings. The room around her is almost dark — one soft warm pool of practical light, instrument cases and a worktable in deep shadow — and she is visibly comfortable in it. Serene, enigmatic, slightly uncanny in stillness only; not a pointed-eared elf, not a grey alien, no glowing eyes, no unusual skin colour. Landscape orientation.
+
+### 3.4 `brother-fintan.jpg`
+
+> Portrait of a fit, weathered man past seventy, a retired officer turned beekeeper, standing among plain wooden hives in a stone-walled hive-yard at first light, upper body. One hand rests flat on a hive roof and his head is slightly inclined toward it, as though he is quietly telling it something; a few bees hang in the air around him, unbothered. Undyed working wool in monastic plainness, no veil, no gloves, deeply lined unhurried face with the attentive patience of a man reading a slow instrument. Behind him low whitewashed stone cells and a green hillside going up into soft mist. Warm early light, gentle and serene, quiet, hopeful, entirely unhaunted; no science-fiction furniture of any kind. Landscape orientation.
+
 ## Compositing the titles
 
 The step every card above ends with, and the one no generator can do.

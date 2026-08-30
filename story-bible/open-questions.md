@@ -35,6 +35,25 @@ reason. Verify against the repo before acting on any line here.
 
 ---
 
+## Jeeves's portrait after the stamp ruling — raised 30 August 2026
+
+The 30 August full-images-only sweep stamped `jeeves.jpg` at Dermot's ruling
+("keep Eden Warden, stamp Jeeves"). But the stamped image was not a failed
+portrait — it was the deliberate 13-August bodiless-AI emblem, correct under
+*where canon gives a system no body, the portrait is not a body* (`images.md`).
+What replaces it is undecided, and the options differ in kind:
+
+- **A new emblem** in the Reeves constellation register — domestic, warm,
+  geometric; reads as design rather than stock photography. No canon touched.
+- **A body for Jeeves** — a canon change, Dermot's alone; would bring him
+  under the visible-artificiality rule like Rook-7.
+- **Keep the kitchen emblem for his page** and simply never slideshow-cast
+  him — the stamp would then be unmade and the slideshow exclusion carried by
+  the cast list alone.
+
+Until ruled: entry stays stamped, procedural cast stays four. Full context in
+`images.md` § "The five stamped on 30 August 2026".
+
 ## The burnt-out leader direction — raised 26 August 2026
 
 `intake-2026-08-26.md` records the direction verbatim (rejecting the
