@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Added
+
+- **Real portraits for the four stamped hero-cast characters** (2026-08-30, generated from the runbook briefs, v1 of each run approved by Dermot). `dr-iona-vale.jpg`, `galahad-thorne.jpg`, `syra.jpg` and `brother-fintan.jpg` replace their stamped title cards; `image_alt` rewritten to what each file shows; all four restored to their hero casts in `lib/editions.js`, so every domain's slideshow is whole again with full images only. Prompt record and the negatives-inside-the-blockquote lesson in `story-bible/images.md`.
+
 ### Changed
 
 - **Four hero-cast title cards stamped as placeholders and their casts thinned** (2026-08-30, Dermot's direction — the slideshow still showed title cards after 1.26.0 because those four were never stamped). `dr-iona-vale.jpg`, `galahad-thorne.jpg`, `syra.jpg` and `brother-fintan.jpg` are designed name cards, now PLACEHOLDER-stamped; the default, sciencefiction, fellowship and communion editions' `heroCharacterIds` drop them until real portraits land (the communion edition falls back to the static hero). Same day, Dermot ruled on the two borderline non-portrait images: `eden-warden.jpg` (habitat interior) stays as a portrait-by-absence; `jeeves.jpg` (mug on a table) stamped and dropped from the procedural edition's cast.
