@@ -7,6 +7,8 @@ role: "Novice, Fellowship of Light"
 status: Active
 aliases: []
 tags: [human, fellowship-of-light, novice, contemplative]
+image: "peran-slade.jpg"
+image_alt: "Peran Slade at dusk in the open stone doorway of the chapter house, a small lit oil lamp cupped in their hands as the only warm light, gazing out toward green hills going dark — plain undyed novice's tunic, short practical hair, caught between staying and going."
 description: "A novice of the Fellowship of Light at the chapter house on the green hill — certain of the vocation and not yet of its shape. The order's one calling has two expressions, and nobody at the house will say which is theirs, which turns out to be the teaching."
 ---
 
