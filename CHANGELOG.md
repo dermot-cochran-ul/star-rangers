@@ -8,6 +8,8 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Added
 
+- **Threshold Station siting question filed** (2026-08-31, Dermot's pick from presented options, closing the Season 1 sweep). `story-bible/open-questions.md` records the split — `s01e01c01`'s two "orbital" strays against the ground-anchored rest of Season 1 and Season 5's spaceward register — with candidate rulings as choices, a rider on the 47-to-900 crew growth, and a hold on altitude and travel-time arithmetic until ruled.
+
 - **[Duty Season](src/glossary/duty-season.md) glossary entry** (2026-08-31, Dermot's pick from presented options during the Season 5 sweep). Coins the Rangers' career clock — one UCSD year of postings, boards and rosters, called simply "a season" in service speech — which grounds the existing usages in `s05e02c02`, `s05e02c03` and Tissadelle's character page ("a season before the timeline usually allows") that read as calendar quarters without it.
 
 - **Drithane crossing-cadence question filed** (2026-08-31, from the Season 2 consistency sweep; Dermot's pick from presented options — story-bible note, no canon touched). `story-bible/open-questions.md` records the three-way tension (the lore's twice-per-orbit line, Season 2's crossing timestamps, Sorcha's forty-crossings count) with candidate rulings as choices; until ruled, new Drithane prose avoids crossing arithmetic.
