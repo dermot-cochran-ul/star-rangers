@@ -6,6 +6,17 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [1.27.0] — 2026-08-31
+
+The consistency-sweep release: season-by-season sweeps closed with
+Dermot's rulings realized — Threshold Station sited ground/coastal and
+the corpus aligned, the Compact habitat Meridian renamed Halcyon, the
+Duty Season coined to ground the career clock, and two open questions
+filed rather than guessed. Alongside the sweeps, the cast grows: Peran
+Slade drafted and approved, Jeeves embodied, and real portraits replace
+the four stamped hero-cast title cards so every domain's slideshow is
+whole again. MINOR: all additive, backward-compatible.
+
 ### Added
 
 - **The Voss naming question marked on [Petra Voss](src/characters/petra-voss.md)'s page** (2026-08-31, Dermot's pick from presented options, closing the Season 0 sweep). The Season 0 sweep found Commodore Rutger Voss and Delegate Petra Solano's names recombining, unacknowledged, in the Governor who presides a century later over the self-governance their Charter argument created. Marked Daire-style — kinship and naming neither claimed nor denied, the shared-name-is-not-shared-identity habit cited — as a second paragraph on the page's existing naming note.
