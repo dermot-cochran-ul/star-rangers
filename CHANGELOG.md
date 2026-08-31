@@ -28,6 +28,8 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Fixed
 
+- **`s08e01c01`'s timestamp capitalised to "Late Autumn"** (2026-08-31, closing the Season 8 sweep) — the one lowercase season name in the corpus, brought into line with every other chapter's style.
+
 - **"A lifetime and one rank ago" becomes "a lifetime and a rank ago" in `s05e02c02`** (2026-08-31, found during the Season 6 sweep via the echo in `s06e01c03`). The Sentinel finding sat five ranks below Line Captain on the published ladder, not one; the indefinite article makes the phrase the idiom the Season 6 echo already uses — "at a different rank" there, "back when she held a rank" here — and the two instances now match verbatim.
 
 - **Threshold's discrepancy is sixteen years old in `s05e02c03`, not eleven** (2026-08-31, from the Season 5 sweep). The chapter sits in 2831; canon anchors eleven years to 2826 everywhere and Season 6 states the sixteen-year figure outright, so this was the elapsed-time slip CLAUDE.md's arithmetic warning describes, still standing in Tobble's inventory of the ship's records.
