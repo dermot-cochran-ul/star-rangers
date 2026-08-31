@@ -35,6 +35,68 @@ reason. Verify against the repo before acting on any line here.
 
 ---
 
+## Threshold Station's siting — raised 31 August 2026
+
+The Season 1 sweep's headline finding (same session as the Drithane entry
+below). The corpus holds two incompatible pictures of where Threshold
+Station is, and the split runs through a single chapter. Nothing in the
+toolchain can catch it, no one sentence proves either side, and a ruling
+re-sites the flagship location across five seasons.
+
+**The orbital pile — `s01e01c01` only.** The location field reads
+"Threshold Station, Orbital Dock Seven", and Syra's approach data says
+"mid-grade orbital station, boundary-proximate, crew complement
+forty-seven". A grep of the whole corpus finds "orbital" near Threshold
+nowhere else. Both strays sit in the first-published chapter.
+
+**The ground/coastal pile — everything else in Season 1.** Elvira watches
+"the station lights on the horizon" from the causeway (`s01e02c01`); Rook
+logs the grove "approximately 1.3 kilometres from Threshold Station's
+boundary-side hull section" (`s01e02c02`); "the sky over Dock Seven had
+gone from black to the colour of old steel" at dawn (`s01e02c03`); Galahad
+walks out to the causeway carrying the survey archive (`s01e03c02`); and
+the prequel's geography — Dún Rí, the Boyne, Carraig Bán, the marsh — is
+one sailing-reachable coastline, with `boundary-zones.md` placing both
+documented sites "within the Solar System" as places that "could be stood
+on".
+
+**Season 5 reads spaceward again, with a coastal tell.** "Open space
+eleven hours from anything", a four-hundred-kilometre standoff at which
+Shepherd sees the tapers without instruments, shuttles and contracted
+couriers (`s05e02c03`) — though eleven hours is almost exactly what
+400 km costs by sea, "the thin water off Dock Seven" reads literally
+under a coastal model, and the one unambiguous space-scale figure (Combine
+hulls losing signature "within nine hundred thousand kilometres") concerns
+the enforcement's reach, not the site, and survives either ruling.
+Seeing anything at 400 km along a planetary surface does not survive the
+coastal ruling unaided — boundary optics, or an edit, would have to carry
+it.
+
+**Rider note.** Syra's 2826 approach data says "crew complement
+forty-seven"; `s05e02c03` calls Threshold "a station with nine hundred
+people on it" in 2831. A nineteen-fold growth in five years is possible —
+the boundary became a live case — but no line anywhere remarks on it.
+
+Candidate rulings:
+
+1. **Ground/coastal (recommended — the weight of the published text).**
+   Threshold is a coastal boundary station on the same shore as the Marsh
+   Causeway. The fixes are small and named: the two `s01e01c01` strays
+   ("Orbital Dock Seven" → a non-orbital dock styling; "orbital station"
+   in Syra's data), plus an audit of `s05e02c03`'s "open space" phrasing
+   and the 400-km sightline. "The thin water", the eleven hours, and the
+   viewport galleries all read cleanly.
+2. **Orbital.** Requires rewriting the sky, the horizon lights, the
+   1.3 km figure, and the walkable causeway across `s01e02`–`e03` —
+   against the overwhelming weight of the text. Not recommended.
+3. **A both-sites structure** (an orbital station plus a ground
+   sub-station at the causeway, with the prose read as slipping between
+   them) — the "Sub-station Outpost" location line gives it a hook, but
+   the dawn sky over Dock Seven itself still blocks it without an edit.
+
+Until ruled: new prose avoids fixing the station's altitude, and avoids
+travel-time or sightline arithmetic between Threshold and anywhere else.
+
 ## Drithane's crossing cadence — raised 31 August 2026
 
 Raised during the Season 2 consistency sweep (the session that fixed
