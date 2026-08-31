@@ -8,6 +8,8 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Added
 
+- **Drithane crossing-cadence question filed** (2026-08-31, from the Season 2 consistency sweep; Dermot's pick from presented options — story-bible note, no canon touched). `story-bible/open-questions.md` records the three-way tension (the lore's twice-per-orbit line, Season 2's crossing timestamps, Sorcha's forty-crossings count) with candidate rulings as choices; until ruled, new Drithane prose avoids crossing arithmetic.
+
 - **[Peran Slade](src/characters/peran-slade.md) — Fellowship of Light novice, drafted and approved** (2026-08-30, from Dermot's seed "a Fellowship of Light novice, seeking their vocation"; page and portrait v2 approved same day). The seeking grounded in the order's one-vocation-two-expressions structure and the Called register's never-compels rule; placed at Asteria's chapter house; the Novice/novice double meaning kept as the entry's margin-book line. Portrait: the doorway at dusk, lamp in hand. Joins the fellowship edition's hero cast as a third slide at Dermot's direction — beginning, kept middle, and ended path in one crossfade.
 
 - **Jeeves embodied** (2026-08-30, Dermot's ruling from the presented options: a body in canon). Half a clarification — `s02e01c01` already had him standing and pouring tea as "a domestic-model intelligence" — realized as [Jeeves](src/characters/jeeves.md)'s "The Frame" section (matte jointed catalogue frame, hands *sufficient for pastry*, lens eyes, the uncatalogued waistcoat) and a portrait under the visible-artificiality rule, set in a habitat apartment aboard Eden (v2 approved by Dermot). Restored to the procedural edition's cast, last for the joke; the open question is struck as ruled.

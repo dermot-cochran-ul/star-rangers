@@ -35,6 +35,45 @@ reason. Verify against the repo before acting on any line here.
 
 ---
 
+## Drithane's crossing cadence — raised 31 August 2026
+
+Raised during the Season 2 consistency sweep (the session that fixed
+`s02e01c01`'s tea and motivated `s02e01c02`'s printouts). Three parts of the
+corpus lean on different intuitions about how often a crossing happens, and
+nothing yet pins it:
+
+- `src/lore/planets/drithane.md`: the planet crosses the band **"twice in
+  every orbit"**; nothing fixes the orbit's length against UCSD, and the
+  page's front matter carries a `drithle-season` tag.
+- The Season 2 timestamps (Eden reckoning) place successive crossings one to
+  three months apart: Deep Winter 2826 (`s02e03c01`), Early Spring 2827
+  (`s02e03c03`, "the morning after a crossing"), Spring 2827 (`s02e04c01`).
+- Sorcha's counts read roughly annual: "forty crossings" at the lane turn,
+  rhyming with her "forty years" in the trade, and "her twentieth crossing"
+  as a mid-life moment (`s02e03c01`).
+
+No provable contradiction — the record never converts Drithane's calendar to
+UCSD — but the next Drithane prose could accidentally pin the wrong reading.
+Candidate rulings:
+
+1. **A crossing is a multi-night period (recommended).** Each nodal passage
+   through the broad band lasts days to weeks and contains several crossing
+   *nights*; "a crossing week", the boy's calendar with plural "crossing
+   hours marked in red", and the `drithle-season` tag already lean this way.
+   Sorcha's "forty crossings" then counts passages — roughly annual if
+   Drithane's orbit runs near two Eden years with both nodes falling in one
+   drithle season — and the three Season 2 timestamps are crossing nights
+   within one season. Costs nothing already published.
+2. **A short Drithane year** — roughly four to five Eden months, two evenly
+   spaced crossings per orbit. Fits the timestamps directly, but forces
+   "forty crossings" to mean about seven years at the lane turn, and reads
+   "her twentieth crossing" oddly for a lifelong resident.
+3. **Leave wholly open**, and keep future prose off crossing arithmetic
+   entirely — viable, but the trap stays armed.
+
+Until ruled: new Drithane prose avoids committing to any interval between
+crossings, and avoids counting crossings against a character's age.
+
 ## Jeeves's portrait after the stamp ruling — raised 30 August 2026, RULED same day
 
 **Ruled by Dermot, 30 August 2026: a body in canon** ("body in canon for
