@@ -32,6 +32,8 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Fixed
 
+- **Threshold Station's siting ruled ground/coastal and the corpus aligned** (2026-08-31, Dermot's ruling on the filed open question). `s01e01c01` loses its two "orbital" strays (the location field reads "Dock Seven" plain; Syra's approach data now says "shore station"); `s05e02c03`'s "open space" becomes "open water" twice and its standoffs scale to sea distances (forty and twenty kilometres), which the sightline and the eleven-hours figure both survive; `boundary-zones.md` gains a sentence anchoring the shared shore. The open-questions entry is marked RULED with the dossier kept; the crew-growth rider stays open.
+
 - **`s08e01c01`'s timestamp capitalised to "Late Autumn"** (2026-08-31, closing the Season 8 sweep) — the one lowercase season name in the corpus, brought into line with every other chapter's style.
 
 - **"A lifetime and one rank ago" becomes "a lifetime and a rank ago" in `s05e02c02`** (2026-08-31, found during the Season 6 sweep via the echo in `s06e01c03`). The Sentinel finding sat five ranks below Line Captain on the published ladder, not one; the indefinite article makes the phrase the idiom the Season 6 echo already uses — "at a different rank" there, "back when she held a rank" here — and the two instances now match verbatim.
