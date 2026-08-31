@@ -18,6 +18,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 - **Four hero-cast title cards stamped as placeholders and their casts thinned** (2026-08-30, Dermot's direction — the slideshow still showed title cards after 1.26.0 because those four were never stamped). `dr-iona-vale.jpg`, `galahad-thorne.jpg`, `syra.jpg` and `brother-fintan.jpg` are designed name cards, now PLACEHOLDER-stamped; the default, sciencefiction, fellowship and communion editions' `heroCharacterIds` drop them until real portraits land (the communion edition falls back to the static hero). Same day, Dermot ruled on the two borderline non-portrait images: `eden-warden.jpg` (habitat interior) stays as a portrait-by-absence; `jeeves.jpg` (mug on a table) stamped and dropped from the procedural edition's cast.
 
+### Fixed
+
+- **`s02e01c01` no longer reads as if Jeeves drinks the tea** (2026-08-31, Dermot's report). Albercombe's handover line now says Jeeves is tetchy when he's had "nothing to pour anybody" (was "nobody's fed him anything"), and a pouring beat lands the thermos joke — Jeeves reclaims it and serves Larsen — so the closing "a stranger's unreasonably good tea" is earned. Clarification: [Jeeves](src/characters/jeeves.md) serves tea and does not consume it, as the character page already held.
+
 ## [1.26.0] — 2026-08-29
 
 A release carried by the 29 August direction set: the hybrid-species
