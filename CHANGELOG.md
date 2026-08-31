@@ -20,6 +20,8 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Fixed
 
+- **`s02e01c02`'s hard-copy printouts are now motivated in-story** (2026-08-31, Dermot's report that the paper read as unexplained). Two insertions: Larsen prints the routing code because a record that can be told to stop displaying a digit can be told again, and paper can't; Calloway hands the Threnody folder over on paper for the same reason, keeping the transfer illegible to whoever holds manifest-level access. Ties the props to Jeeves's c01 line about the manifest software; no new facts asserted.
+
 - **`s02e01c01` no longer reads as if Jeeves drinks the tea** (2026-08-31, Dermot's report). Albercombe's handover line now says Jeeves is tetchy when he's had "nothing to pour anybody" (was "nobody's fed him anything"), and a pouring beat lands the thermos joke — Jeeves reclaims it and serves Larsen — so the closing "a stranger's unreasonably good tea" is earned. Clarification: [Jeeves](src/characters/jeeves.md) serves tea and does not consume it, as the character page already held.
 
 ## [1.26.0] — 2026-08-29
