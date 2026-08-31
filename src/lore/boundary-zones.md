@@ -59,7 +59,7 @@ Rapid discontinuity growth with high instrumentation disagreement.
 
 ## Threshold Station and Marsh Causeway
 
-Threshold Station and Marsh Causeway are linked by the same kind of edge behavior: both sit where a flexure brings this membrane close to a neighbour, and their anomalies are lawful expressions of that proximity rather than supernatural exceptions.
+Threshold Station and Marsh Causeway are linked by the same kind of edge behavior: both sit where a flexure brings this membrane close to a neighbour, and their anomalies are lawful expressions of that proximity rather than supernatural exceptions. They also share a shore. Threshold is a coastal station, its docks facing the thin water where the flexure narrows, and the causeway lies a short walk down the same boundary-proximate coast — which is why the station's working vocabulary has always been a harbour's: hulls, cutters, docks, and the water off Dock Seven meant literally.
 
 Both documented sites lie within the Solar System, which reads as an improbable concentration until the selection effect is named. The Survey Archive's standing annotation is that this says nothing about where boundary zones are and a great deal about where instruments are: Threshold's forty-second chronometer discrepancy was found because it was compared against several centuries of continuously maintained Solar System timekeeping, and a comparable narrowing over unwatched space would produce the same physics and no record of it whatsoever. The two sites on the books are not the two that exist. They are the two that could be stood on.
 

@@ -35,7 +35,21 @@ reason. Verify against the repo before acting on any line here.
 
 ---
 
-## Threshold Station's siting — raised 31 August 2026
+## Threshold Station's siting — raised 31 August 2026, RULED same day
+
+**Ruled by Dermot, 31 August 2026: ground/coastal** ("Rule ground/coastal
+for the Threshold siting question"). Realized the same day as the named
+fixes from the dossier below: `s01e01c01`'s two strays corrected ("Dock
+Seven" plain; Syra's data reads "mid-grade shore station"), `s05e02c03`'s
+"open space" made "open water" twice and its standoffs scaled to sea
+distances (forty and twenty kilometres, which the sightline and the
+eleven-hours figure both survive), and a sentence added to
+`boundary-zones.md`'s Threshold/Causeway section anchoring the shared
+shore so the ruling cannot drift. The rider on crew growth (forty-seven
+in 2826, nine hundred people by 2831) remains open — a plausible boom,
+still unremarked anywhere in canon.
+
+The dossier as filed, kept for the record:
 
 The Season 1 sweep's headline finding (same session as the Drithane entry
 below). The corpus holds two incompatible pictures of where Threshold
