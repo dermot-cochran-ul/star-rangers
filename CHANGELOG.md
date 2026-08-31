@@ -18,6 +18,8 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Changed
 
+- **Compact habitat "Meridian" renamed Halcyon** (2026-08-31, Dermot's pick from presented options after the Season 3 sweep found two places sharing the name; the Halyx System world keeps it). A pure rename — Duarte's Commissioner post, the Season 2 itinerary and every fact stand unaltered. Sweep across `s02e01c03`, `s02e02c01` and the episode 2 index; migration row added to the canonical glossary.
+
 - **Four hero-cast title cards stamped as placeholders and their casts thinned** (2026-08-30, Dermot's direction — the slideshow still showed title cards after 1.26.0 because those four were never stamped). `dr-iona-vale.jpg`, `galahad-thorne.jpg`, `syra.jpg` and `brother-fintan.jpg` are designed name cards, now PLACEHOLDER-stamped; the default, sciencefiction, fellowship and communion editions' `heroCharacterIds` drop them until real portraits land (the communion edition falls back to the static hero). Same day, Dermot ruled on the two borderline non-portrait images: `eden-warden.jpg` (habitat interior) stays as a portrait-by-absence; `jeeves.jpg` (mug on a table) stamped and dropped from the procedural edition's cast.
 
 ### Fixed
