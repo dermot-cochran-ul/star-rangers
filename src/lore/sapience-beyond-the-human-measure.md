@@ -5,6 +5,8 @@ category: "Institutions"
 tags: [sapience, survey-corps, contact, personhood, taxonomy, plural-minds, made-minds, doctrine]
 description: "The record's one doctrine page on what it means by sapience: a checklist deliberately refused, a recognition made per lineage through communication — and the list of human markers that have each, at least once, been mistaken for the thing itself."
 plain: "The record does not keep a test for whether beings are people, because every test anyone writes secretly measures how much the beings resemble the test's writers. Instead it keeps a list of things that do NOT settle the question — language like ours, tools, one self per body, a familiar body or brain, a familiar speed of living — and one method that does: patient communication, taken as long as it takes, judged for each kind of being on its own terms. The record still firmly tells people from animals. It just refuses to do it with a ruler shaped like a human."
+image: "sapience-beyond-the-human-measure.jpg"
+image_alt: "Designed cover for Sapience Beyond the Human Measure: three nested arcs in pale green inside a soft glow on a dark starfield, above the title, the epithet The Checklist Refused, and the line 'Recognition, per lineage, through communication'."
 ---
 
 The record recognises minds. It declines to define them, and the two facts are stated together because the second is what keeps the first honest.

@@ -530,3 +530,34 @@ near the camera is subject to the same failure.
   a matched pair where both are at the same stage would say nothing.
 - **Lettering check passed on both.** Zero glyphs, which was the entire object of
   the re-brief.
+
+---
+
+## 2026-08-31 — four designed cards from the cross-platform port
+
+No generator prompts: all four are deterministic designed cards, drawn by
+`scripts/make-cards.js` (added the same day — a Node/sharp port of
+`make-emblem-card.ps1` and `make-codex-cover.ps1`'s designed mode, for
+sessions without Windows; needs `npm install --no-save sharp`; Liberation
+Serif/Mono substitute for Georgia/Consolas, layouts matched, letterforms
+not). Parameters of record, mirrored in the script's CARDS table:
+
+- `lore/ovruhn.jpg` — emblem; device **rings** (read as sound), tint
+  `#0E1E24`, accent `#8FC0B8`; epithet "The Deep-Sung"; qualifier
+  "Who hear the way other peoples see".
+- `lore/the-makers-shape.jpg` — emblem; device **fold** (maker and mind,
+  one path), tint `#241A30`, accent `#BFA8D6`; epithet "No Mind From
+  Nowhere"; qualifier "Every built mind is a portrait of its makers".
+- `lore/sapience-beyond-the-human-measure.jpg` — emblem; device **triad**,
+  tint `#12211A`, accent `#9CC6AB`; epithet "The Checklist Refused";
+  qualifier "Recognition, per lineage, through communication".
+- `codex/the-two-songs-of-the-loud-people.jpg` — codex designed card;
+  title lines "THE TWO SONGS" / "OF THE LOUD PEOPLE"; category "XENOLOGY
+  RECORD"; subtitle "A Keeper's Account of Humanity"; institution
+  "Rendered from Chorus-Keeping · Archive Translation Desk"; author
+  "KEEPER VHEN OF THAVREN"; stamp "RENDERED"; motif **dissolution**.
+
+Regenerating any of them on Dermot's machine with the `.ps1` originals is
+welcome and expected to supersede these — same parameters, Georgia and
+Consolas letterforms. Epithets and qualifiers above are authored, per the
+emblem generator's own rule.

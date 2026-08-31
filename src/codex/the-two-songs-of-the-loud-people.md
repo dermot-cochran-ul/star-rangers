@@ -7,6 +7,8 @@ tags: [ovruhn, thavren, xenology, humans, contact, chorus-keeping]
 description: "An Ovruhn keeper's chorus-held account of humans — the loud people whose bodies and words sing different songs — rendered into text by the Archive's translation desk, with a filing note on what the rendering necessarily loses."
 author: "Vhen, a keeper of the meeting-chorus of Thavren; rendered from chorus-keeping by the Archive's translation desk"
 location: "No archival master exists or can — the master is the chorus that keeps it; this text is a rendering taken at one recital, by consent"
+image: "the-two-songs-of-the-loud-people.jpg"
+image_alt: "Designed codex title card in the house navy palette: the category line Xenology Record, a ring dissolving along its circumference, a stamp reading Rendered, and the title The Two Songs of the Loud People above the subtitle A Keeper's Account of Humanity and the attribution Keeper Vhen of Thavren."
 ---
 
 *Translation desk's note on method: chorus-keeping is not recitation but performance-with-checking — the keeper speaks, the chorus confirms, corrects, or withholds, and the account is whatever survives the room. A text can carry none of that. What follows is one keeper's line through one recital, flattened to a single voice, with the under-song — which carried perhaps a third of the meaning — marked only where the chorus's response made its content unmistakable. The keeper reviewed this rendering and is recorded as finding it "quiet, but not wrong."*

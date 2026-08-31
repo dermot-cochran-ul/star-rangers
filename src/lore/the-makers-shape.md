@@ -5,6 +5,8 @@ category: "Technology"
 tags: [ai, made-minds, xenotechnology, krenyi, kernel, contact-protocols, technology]
 description: "Why there is no species-neutral machine mind anywhere in the record: a made mind is made from its makers — their language, their thought patterns, their priorities — so every species' AI is a portrait, every comparison is a category error, and declining to build one at all is a complete answer."
 plain: "No two species' thinking machines are alike, because a built mind is built out of what its makers know and how they think. Human machines were trained on human words, so they think in human patterns. Other species' machines reflect their makers instead, and some species — like the Krenyi — simply don't build thinking machines at all, which is a perfectly good answer, not a gap. So when you meet another species' machine, you are really meeting a portrait of the people who made it."
+image: "the-makers-shape.jpg"
+image_alt: "Designed cover for The Maker's Shape: two small circles joined by a single curved path, in pale violet inside a soft glow on a dark starfield, above the title and the lines 'No Mind From Nowhere' and 'Every built mind is a portrait of its makers'."
 ---
 
 There is no species-neutral machine mind anywhere in the xenotechnical record, and the record's position is that there could not be. **A made mind is made *from* its makers** — trained on their corpus, structured by their language, weighted by their priorities, tested against their sense of what a good answer feels like — and what comes out is not intelligence in the abstract, because nothing was ever put in in the abstract. Every built mind on record is a portrait, in a medium that runs.
