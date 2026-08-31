@@ -28,6 +28,8 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Fixed
 
+- **"A lifetime and one rank ago" becomes "a lifetime and a rank ago" in `s05e02c02`** (2026-08-31, found during the Season 6 sweep via the echo in `s06e01c03`). The Sentinel finding sat five ranks below Line Captain on the published ladder, not one; the indefinite article makes the phrase the idiom the Season 6 echo already uses — "at a different rank" there, "back when she held a rank" here — and the two instances now match verbatim.
+
 - **Threshold's discrepancy is sixteen years old in `s05e02c03`, not eleven** (2026-08-31, from the Season 5 sweep). The chapter sits in 2831; canon anchors eleven years to 2826 everywhere and Season 6 states the sixteen-year figure outright, so this was the elapsed-time slip CLAUDE.md's arithmetic warning describes, still standing in Tobble's inventory of the ship's records.
 
 - **Wender's "third year as a Senior" corrected to "season as a Senior" in `s05e02c02`** (2026-08-31, same sweep). Shepherd held Senior for about a year on the published rank ladder — Officer in Early Winter 2826, Principal eleven days before Late Winter 2828 — so a third year was impossible; the new Duty Season entry carries the reading.
