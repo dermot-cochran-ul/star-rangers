@@ -8,6 +8,8 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Added
 
+- **[Duty Season](src/glossary/duty-season.md) glossary entry** (2026-08-31, Dermot's pick from presented options during the Season 5 sweep). Coins the Rangers' career clock — one UCSD year of postings, boards and rosters, called simply "a season" in service speech — which grounds the existing usages in `s05e02c02`, `s05e02c03` and Tissadelle's character page ("a season before the timeline usually allows") that read as calendar quarters without it.
+
 - **Drithane crossing-cadence question filed** (2026-08-31, from the Season 2 consistency sweep; Dermot's pick from presented options — story-bible note, no canon touched). `story-bible/open-questions.md` records the three-way tension (the lore's twice-per-orbit line, Season 2's crossing timestamps, Sorcha's forty-crossings count) with candidate rulings as choices; until ruled, new Drithane prose avoids crossing arithmetic.
 
 - **[Peran Slade](src/characters/peran-slade.md) — Fellowship of Light novice, drafted and approved** (2026-08-30, from Dermot's seed "a Fellowship of Light novice, seeking their vocation"; page and portrait v2 approved same day). The seeking grounded in the order's one-vocation-two-expressions structure and the Called register's never-compels rule; placed at Asteria's chapter house; the Novice/novice double meaning kept as the entry's margin-book line. Portrait: the doorway at dusk, lamp in hand. Joins the fellowship edition's hero cast as a third slide at Dermot's direction — beginning, kept middle, and ended path in one crossfade.
@@ -25,6 +27,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 - **Four hero-cast title cards stamped as placeholders and their casts thinned** (2026-08-30, Dermot's direction — the slideshow still showed title cards after 1.26.0 because those four were never stamped). `dr-iona-vale.jpg`, `galahad-thorne.jpg`, `syra.jpg` and `brother-fintan.jpg` are designed name cards, now PLACEHOLDER-stamped; the default, sciencefiction, fellowship and communion editions' `heroCharacterIds` drop them until real portraits land (the communion edition falls back to the static hero). Same day, Dermot ruled on the two borderline non-portrait images: `eden-warden.jpg` (habitat interior) stays as a portrait-by-absence; `jeeves.jpg` (mug on a table) stamped and dropped from the procedural edition's cast.
 
 ### Fixed
+
+- **Threshold's discrepancy is sixteen years old in `s05e02c03`, not eleven** (2026-08-31, from the Season 5 sweep). The chapter sits in 2831; canon anchors eleven years to 2826 everywhere and Season 6 states the sixteen-year figure outright, so this was the elapsed-time slip CLAUDE.md's arithmetic warning describes, still standing in Tobble's inventory of the ship's records.
+
+- **Wender's "third year as a Senior" corrected to "season as a Senior" in `s05e02c02`** (2026-08-31, same sweep). Shepherd held Senior for about a year on the published rank ladder — Officer in Early Winter 2826, Principal eleven days before Late Winter 2828 — so a third year was impossible; the new Duty Season entry carries the reading.
 
 - **`s02e01c02`'s hard-copy printouts are now motivated in-story** (2026-08-31, Dermot's report that the paper read as unexplained). Two insertions: Larsen prints the routing code because a record that can be told to stop displaying a digit can be told again, and paper can't; Calloway hands the Threnody folder over on paper for the same reason, keeping the transfer illegible to whoever holds manifest-level access. Ties the props to Jeeves's c01 line about the manifest software; no new facts asserted.
 
