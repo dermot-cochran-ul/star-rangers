@@ -15,9 +15,9 @@ permalink: /seasons/s02/e02/
 
 <h1 class="page-title">Season 2 · Episode 2</h1>
 <p class="page-intro">
-  While Five-O follows the crates to Halcyon, Eden's quieter anomaly goes up two chains at once: a corridor
-  that won't agree with itself about its own length, a door the deck plans are maintained not to hold, and a
-  Safety Corps rotation officer whose remit stops one noun short of the thing she can't resist doing.
+  While Five-O follows the crates to Halcyon, something odd on Eden goes up two chains of command at once. A
+  corridor that is not the length the plans say it is. A door the deck plans are carefully kept from showing.
+  And a Safety Corps officer whose job stops one word short of the thing she cannot help doing.
 </p>
 
 {% set seasonNumber = "2" %}

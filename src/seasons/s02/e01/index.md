@@ -15,7 +15,7 @@ permalink: /seasons/s02/e01/
 
 <h1 class="page-title">Season 2 · Episode 1</h1>
 <p class="page-intro">
-  A compliance-framework referral that should have stayed at Eden's own detective bureau turns out to touch a supply line no single habitat's jurisdiction can trace — the exact shape of case Orbital Five-O was chartered to close.
+  A case comes in that should have stayed with Eden's own detectives. Instead it leads to a supply line that runs between habitats, where no one habitat is in charge. That is exactly the kind of case Orbital Five-O was set up to solve.
 </p>
 
 {% set seasonNumber = "2" %}

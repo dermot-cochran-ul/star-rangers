@@ -278,9 +278,10 @@ at 14.4. So this edition is also the first to carry a **`readingPlan`** in
 on `/start/`, reading at grade 5.3, opening on S02E01C01, and listing only the
 shelves this build carries (no lore, no atlas). Sen's note stays everywhere
 else: its register is irony, which is the one thing a developing reader
-cannot parse. The season and thread intros were left as they are — they are
-content pages shown on every domain, and the season intro's second paragraph
-is deliberately addressed to the adult in the room. **Cast:** Barsik, Bubochka, the Eden warden,
+cannot parse. The season, episode and thread intros followed the same day at
+Dermot's direction (grade 5.8–7.6, every fact and link kept) — they are content
+pages shown on every domain, and the main site reads them too; the season
+intro's aside to the adult in the room stays, in plainer words. **Cast:** Barsik, Bubochka, the Eden warden,
 Nessa, Rasa Oyelaran — unchanged on 2026-08-21 when every other edition got one,
 because this was the only edition that had ever had a cast of its own and it is
 already right: three animals, the habitat's AI, and the one adult who outranks

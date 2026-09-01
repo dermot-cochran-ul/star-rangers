@@ -14,10 +14,10 @@ permalink: /seasons/s02/
 
 <h1 class="page-title">Season 2</h1>
 <p class="page-intro">
-  Away from Threshold Station and the Marsh Causeway, Eden Space Habitat runs on paperwork — and the Undercover Pets Detective Agency reads it first. Season 2 follows Agent Barsik, trainee Bubochka, and the small warm things the record cannot classify, from Eden's service tunnels to Drithane's dark-down.
+  Eden Space Habitat runs on paperwork, and the Undercover Pets Detective Agency reads it first. Season 2 follows Agent Barsik, a cat, and Bubochka, a trainee rabbit, from the service tunnels of Eden to a crossing night on Drithane. There, a whole valley turns its lights down to watch the sky. Along the way they meet small warm creatures that nobody has a name for yet.
 </p>
 <p class="page-intro">
-  This season stands alone and runs gentler in register than the main line: mascot-comedy on the surface, patient observation underneath, and nothing on the page a young reader shouldn't meet. Its shortest viewpoint blocks are written for exactly that reader — the same events, kept simple, never simplified. Adults are advised the cat has already read their file.
+  This season stands on its own. You do not need to read anything else first. It is funny on the surface and careful underneath, and there is nothing in it a young reader should not meet. The shortest parts of each chapter are written for exactly that reader: the same events, told simply. Grown-ups reading along should know that the cat has already read their file.
 </p>
 <p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (2 | threadForSeason).id }}/">{{ (2 | threadForSeason).name }}</a></p>
 
