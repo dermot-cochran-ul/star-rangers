@@ -263,8 +263,24 @@ on the domain where legibility matters most and the last one anyone would have
 checked. Now rust `#a34726` at 4.66:1 or better everywhere, with a darker
 hover. It reads slightly deeper than the old coral and still warm.
 
-**Voice** the standard tagline, unmodified — the edition's own face is its
-name, its brand and its cast. **Cast:** Barsik, Bubochka, the Eden warden,
+**Voice** its own since 2026-09-01, and measured. Until then this domain
+fronted a lightly reworded copy of the adult tagline (this note said
+"unmodified"; `lib/editions.js` disagreed, and both were adult register
+either way) — the station clock, the Five Layers, "multiple Concordants", at
+Flesch-Kincaid grade 14 with thirty-word sentences, naming no animal, and its
+only link going to a glossary page this edition's filter excludes. The tier's
+own prose, Season 2's pet-POV blocks, measures at **grade 7.2** and sixteen
+words a sentence; the new tagline reads at grade 6.3. The same measurement
+found every other door harder than the room: the Reading Plan at 9.9 (and
+opening on "Start with the spine"), the season intro at 12.1, the thread page
+at 14.4. So this edition is also the first to carry a **`readingPlan`** in
+`lib/editions.js` — a plain-register "Where to Start" that replaces Sen's note
+on `/start/`, reading at grade 5.3, opening on S02E01C01, and listing only the
+shelves this build carries (no lore, no atlas). Sen's note stays everywhere
+else: its register is irony, which is the one thing a developing reader
+cannot parse. The season and thread intros were left as they are — they are
+content pages shown on every domain, and the season intro's second paragraph
+is deliberately addressed to the adult in the room. **Cast:** Barsik, Bubochka, the Eden warden,
 Nessa, Rasa Oyelaran — unchanged on 2026-08-21 when every other edition got one,
 because this was the only edition that had ever had a cast of its own and it is
 already right: three animals, the habitat's AI, and the one adult who outranks

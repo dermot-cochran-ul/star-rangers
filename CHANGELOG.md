@@ -6,7 +6,17 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Added
+
+- **A plain-register Reading Plan for the children's edition** (2026-09-01). `lib/editions.js` gains an optional `readingPlan` field, and the pets edition (undercover-pets.com) is the first to carry one: `src/start/index.md` now branches on it, rendering a short "Where to Start" page — begin here, how a chapter works, where to look things up, more stories — in place of Sen's archivist's note, which stays the site-wide plan everywhere else. The registry supplies the sentences; the template supplies the headings, the first chapter of the plan's `startThreadId` resolved against the build's own filtered chapters, and only the reference shelves this build actually carries. `validateEditions` refuses a plan whose start thread is unregistered or not in the edition's own `threads`, and `test/editions.test.js` pins that contract. Measured against the prose it fronts: Season 2's pet-POV blocks read at Flesch-Kincaid grade 7.2; the old plan a child reached from "Begin Reading" read at grade 9.9 with a 56-word sentence and opened on "Start with the spine"; the new one reads at grade 5.3.
+
 ### Changed
+
+- **The undercover-pets.com homepage tagline is written for its reader** (2026-09-01). The pets edition's `heroSubtitle` was a reworded copy of the adult tagline — the station clock, the Five Layers, "multiple Concordants" — at grade 14, naming no animal, and its only link went to `/glossary/concordant/`, which that domain's own filter renders as a "Not included in this edition" placeholder. Rewritten at grade 6.3 around the agency and its cast, linking only `/glossary/smart-pet/`, which the edition carries. `story-bible/edition-reader-profiles.md`'s pets entry, which described the voice as "the standard tagline, unmodified", is corrected.
+
+### Fixed
+
+- **Front-of-house pages no longer recommend sections a narrowed edition has emptied** (2026-09-01). The homepage's Timeline, Lore, Glossary and Codex cards render only when the filtered collection behind them is non-empty — undercover-pets.com was offering "Map the layers of reality…" over a Lore page reading "No lore articles published yet", and an Atlas with no locations. Sen's Reading Plan applies the same test to its shelf list in step 3 and to the Timeline, Codex and Marked Absences references in step 5; on undercover-pets.com the Marked Absences link landed on an excluded placeholder. `check-internal-links.js` cannot catch either case, because a placeholder is a real page.
 
 - **The light on the Threshold shore is the Sceir Light, not the Trá Mhór Light** (2026-09-01, Dermot's pick from presented options). Renamed across all three occurrences in [The Character of the Light](src/seasons/s01/e01/s01e01c03.md) — the `location` field, the canon fact naming the Lights Board register, and Rook-7's closing block. *Sceir* is a skerry, a low offshore rock, which is the thing a light gets built on; the placeholder it replaces named a strand instead, and was flagged as functional rather than chosen when the chapter was drafted. The name appeared nowhere else in the corpus, so the rename needed no sweep and the canonical glossary's migration map is not involved. The `[1.29.0]` entry below still reads Trá Mhór and is deliberately left alone: released sections are immutable, and it is an accurate record of what shipped in that release.
 
