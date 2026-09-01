@@ -6,8 +6,21 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [1.28.0] — 2026-09-01
+
+A small release finishing what 1.26.0 started. The four lore and codex
+entries that arrived in the 29 August direction set without title cards now
+have them, and the tool that drew them — `scripts/make-cards.js`, a
+cross-platform port of the two PowerShell card generators — means a card can
+be made from a session that is not on Dermot's Windows machine. Alongside
+that, one direction of Dermot's: Tissadelle Shepherd is always formally
+dressed, and the page now says why that is the opposite of a performance.
+MINOR: all additive, backward-compatible.
+
 ### Added
 
+- **`scripts/make-cards.js` — a cross-platform port of the card generators** (2026-09-01). Draws the landscape emblem cards of `make-emblem-card.ps1` and the designed-card mode of `make-codex-cover.ps1` in Node with `sharp`, so a title card can be made from a session that is not on Windows. A local authoring tool like its two predecessors: not in the build, not in `npm test`, not in CI, and not a package.json dependency — `sharp` is installed on demand with `npm install --no-save sharp`. Two deliberate fidelity gaps are stated in the file header rather than left to be discovered: Georgia and Consolas are unavailable on Linux, so the port sets Liberation Serif and Liberation Mono and matches the layouts rather than the letterforms; and the star fields are seeded by a plain LCG rather than `System.Random`, so the dots are deterministic but sit elsewhere. A card that has to match a GDI+ card exactly still comes from the `.ps1` on Dermot's machine.
+- **Title cards for the four 29 August entries that shipped without one** (2026-09-01): [The Ovruhn](src/lore/ovruhn.md), [Sapience Beyond the Human Measure](src/lore/sapience-beyond-the-human-measure.md), [The Maker's Shape](src/lore/the-makers-shape.md) and [The Two Songs of the Loud People](src/codex/the-two-songs-of-the-loud-people.md). Designed cards in the house palettes, drawn by `make-cards.js`; prompts of record in `story-bible/image-prompts.md` per the standing convention. The three lore entries take landscape emblem cards and the codex entry takes the square navy title card, as the split between the two generators requires.
 - **Tissadelle Shepherd is always formally dressed, and never more so than on duty** (2026-09-01, Dermot's direction). Her character page carried the uniform as a present fact — "what she notices on her own family's hillside once the uniform is off", the Gardaí training as "nearly a different uniform" — without ever ruling how she dresses. A paragraph in Character Notes fills the gap and reads the formality as the opposite of the performance she withholds: she treats the title as a job description, and the uniform is that description worn where anybody can check it, claiming nothing that is not already on the record. What "formally dressed" amounts to off duty, and whether the Corps requires it or she does, are deliberately left open.
 
 ## [1.27.0] — 2026-08-31
