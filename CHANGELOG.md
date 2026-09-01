@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Added
+
+- **Tissadelle Shepherd is always formally dressed, and never more so than on duty** (2026-09-01, Dermot's direction). Her character page carried the uniform as a present fact — "what she notices on her own family's hillside once the uniform is off", the Gardaí training as "nearly a different uniform" — without ever ruling how she dresses. A paragraph in Character Notes fills the gap and reads the formality as the opposite of the performance she withholds: she treats the title as a job description, and the uniform is that description worn where anybody can check it, claiming nothing that is not already on the record. What "formally dressed" amounts to off duty, and whether the Corps requires it or she does, are deliberately left open.
+
 ## [1.27.0] — 2026-08-31
 
 The consistency-sweep release: season-by-season sweeps closed with
