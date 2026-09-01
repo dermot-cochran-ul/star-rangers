@@ -78,6 +78,7 @@ In order after the unit suite:
 | Gate | Catches |
 | --- | --- |
 | `scripts/check-changelog.js` | released sections missing/rewritten (two release records were destroyed this way once) |
+| `scripts/check-changelog-coverage.js` | **warns only, never fails** — content pages the changelog never mentions by path, slug or title. The mirror image of the gate above: that one catches history being destroyed, this one catches history never being written. Deliberately not a gate — see below |
 | `scripts/validate-content.js` | front-matter schema violations, id/filename mismatches, duplicate `comment_id`s, the image bookkeeping (missing targets, unreferenced files, byte-identical duplicates, layout-emitted URLs), each edition's hero cast |
 | `scripts/check-internal-links.js` | a cross-link to a page renamed or never written — schema and dry run both pass on those |
 | `scripts/check-related-terms.js` | a `related:` term that silently falls back to `/glossary/`; warns (without failing) on duplicated page titles |
@@ -86,6 +87,32 @@ In order after the unit suite:
 
 The gates don't subdivide — `validate-content.js` always scans everything. To
 iterate on one content file, use `npm run start` and visit the page.
+
+### Why changelog coverage warns instead of failing
+
+Added 2026-09-01, after an audit of all 674 first-parent commits on `main`
+found **24 content pages that had shipped without ever being mentioned in the
+changelog** — eight glossary entries, eight timeline entries, four codex, three
+lore, one journal. `scripts/`, `lib/` and `test/` were fully covered, which
+says something about the shape of the failure: engine work is usually the point
+of its PR, while a supporting glossary or timeline entry rides along with
+whatever the PR was really about, and it is the passenger that gets forgotten.
+
+It could have been a gate, and deliberately isn't. **Whether a change deserves
+a changelog line is a judgement**, and the authority boundary in `CLAUDE.md`
+keeps judgement out of what a gate may decide — the toolchain can prove a page
+is well-formed, not that it is worth a reader's attention. And the obvious gate
+— *a PR touching `src/` must touch `CHANGELOG.md`* — is **satisfiable by a junk
+line**, which would manufacture the appearance of coverage without the
+substance. That is the same failure this project already names in
+`check-changelog.js`'s own header: a check that passes for the wrong reason is
+worse than no check.
+
+**The condition for keeping it: the count normally reads zero.** The backlog was
+filed as a changelog entry *before* the script was wired into `npm test`,
+because a warning that never reaches zero is noise people learn to skip past. If
+it is ever allowed to sit at a permanent nonzero number, retire it rather than
+tolerating it — the same rule `sync-version.js` states about its own anchor.
 
 ## Layer 3 — CI-only gates (`.github/workflows/ci.yml`)
 
