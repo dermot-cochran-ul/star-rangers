@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Changed
+
+- **The light on the Threshold shore is the Sceir Light, not the Trá Mhór Light** (2026-09-01, Dermot's pick from presented options). Renamed across all three occurrences in [The Character of the Light](src/seasons/s01/e01/s01e01c03.md) — the `location` field, the canon fact naming the Lights Board register, and Rook-7's closing block. *Sceir* is a skerry, a low offshore rock, which is the thing a light gets built on; the placeholder it replaces named a strand instead, and was flagged as functional rather than chosen when the chapter was drafted. The name appeared nowhere else in the corpus, so the rename needed no sweep and the canonical glossary's migration map is not involved. The `[1.29.0]` entry below still reads Trá Mhór and is deliberately left alone: released sections are immutable, and it is an accurate record of what shipped in that release.
+
 ## [1.29.0] — 2026-09-01
 
 The release that unblocked itself. Three content additions land together,
