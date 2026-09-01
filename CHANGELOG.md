@@ -12,6 +12,8 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Changed
 
+- **The Season 2, episode and Undercover Pets thread intros are written for the tier that reads them** (2026-09-01, Dermot's direction after the Reading Plan work). `src/seasons/s02/index.md`, its five episode index pages and `src/threads/undercover-pets/index.md` carried intros at Flesch-Kincaid grade 12–14 with thirty-word sentences ("a compliance-framework referral", "a remit that stops one noun short", "a form's *absence* implies"), on the one storyline whose own prose runs at grade 7.2. Rewritten in plain register — grade 5.8 to 7.6 across the seven pages — keeping every fact and link the old intros carried; the season intro's aside to the grown-up in the room stays, in plainer words. These are content pages shown identically on every domain, so the main site reads them too, which suits a season the intro already described as gentler than the main line. Left as-is: `lib/storyline-threads.js`'s one-line thread description, shown on `/threads/` and in Sen's Reading Plan.
+
 - **The undercover-pets.com homepage tagline is written for its reader** (2026-09-01). The pets edition's `heroSubtitle` was a reworded copy of the adult tagline — the station clock, the Five Layers, "multiple Concordants" — at grade 14, naming no animal, and its only link went to `/glossary/concordant/`, which that domain's own filter renders as a "Not included in this edition" placeholder. Rewritten at grade 6.3 around the agency and its cast, linking only `/glossary/smart-pet/`, which the edition carries. `story-bible/edition-reader-profiles.md`'s pets entry, which described the voice as "the standard tagline, unmodified", is corrected.
 
 ### Fixed

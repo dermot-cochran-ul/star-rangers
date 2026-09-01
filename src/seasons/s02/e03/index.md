@@ -15,10 +15,9 @@ permalink: /seasons/s02/e03/
 
 <h1 class="page-title">Season 2 · Episode 3</h1>
 <p class="page-intro">
-  A Survey Corps follow-up team accepts Drithane's hospitality for a crossing night, and the delegation's
-  manifest carries one courtesy animal — a trainee whose first off-station exercise is to learn how a world
-  watches its own sky, and who finds that a cover which works by being ignored works differently on a planet
-  where everyone looks twice.
+  A Survey Corps team spends a crossing night on Drithane, and their manifest lists one courtesy animal. It is
+  Bubochka's first exercise away from the station. Her job is to learn how a whole world watches its own sky.
+  A cover that works by being ignored turns out to work differently on a planet where everyone looks twice.
 </p>
 
 {% set seasonNumber = "2" %}

@@ -15,9 +15,9 @@ permalink: /seasons/s02/e04/
 
 <h1 class="page-title">Season 2 · Episode 4</h1>
 <p class="page-intro">
-  The Survey Corps goes back to Drithane to instrument the crossing itself, and the engineer assigned to the
-  job packs the one instrument Eden never had a form for — because everyone on that world watches the drithle,
-  and nobody has ever once listened to it.
+  The Survey Corps goes back to Drithane to measure the crossing itself. The engineer sent to do it packs the
+  one instrument Eden never had a form for. Everyone on that world watches the drithle. Nobody has ever once
+  listened to it.
 </p>
 
 {% set seasonNumber = "2" %}
