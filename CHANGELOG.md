@@ -6,6 +6,13 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Added
+
+- Tissadelle Shepherd is always formally dressed, and never more so than
+  on duty — a paragraph in Character Notes reading the formality as the
+  opposite of a performance, since the uniform claims nothing that is not
+  already on the record.
+
 ## [1.25.0] — 2026-08-28
 
 A release carried by the 27 August direction set: the Tissadelle/Tobble
