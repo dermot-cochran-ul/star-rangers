@@ -35,6 +35,133 @@ reason. Verify against the repo before acting on any line here.
 
 ---
 
+## Threshold Station's siting — raised 31 August 2026, RULED same day
+
+**Ruled by Dermot, 31 August 2026: ground/coastal** ("Rule ground/coastal
+for the Threshold siting question"). Realized the same day as the named
+fixes from the dossier below: `s01e01c01`'s two strays corrected ("Dock
+Seven" plain; Syra's data reads "mid-grade shore station"), `s05e02c03`'s
+"open space" made "open water" twice and its standoffs scaled to sea
+distances (forty and twenty kilometres, which the sightline and the
+eleven-hours figure both survive), and a sentence added to
+`boundary-zones.md`'s Threshold/Causeway section anchoring the shared
+shore so the ruling cannot drift. The rider on crew growth (forty-seven
+in 2826, nine hundred people by 2831) remains open — a plausible boom,
+still unremarked anywhere in canon.
+
+The dossier as filed, kept for the record:
+
+The Season 1 sweep's headline finding (same session as the Drithane entry
+below). The corpus holds two incompatible pictures of where Threshold
+Station is, and the split runs through a single chapter. Nothing in the
+toolchain can catch it, no one sentence proves either side, and a ruling
+re-sites the flagship location across five seasons.
+
+**The orbital pile — `s01e01c01` only.** The location field reads
+"Threshold Station, Orbital Dock Seven", and Syra's approach data says
+"mid-grade orbital station, boundary-proximate, crew complement
+forty-seven". A grep of the whole corpus finds "orbital" near Threshold
+nowhere else. Both strays sit in the first-published chapter.
+
+**The ground/coastal pile — everything else in Season 1.** Elvira watches
+"the station lights on the horizon" from the causeway (`s01e02c01`); Rook
+logs the grove "approximately 1.3 kilometres from Threshold Station's
+boundary-side hull section" (`s01e02c02`); "the sky over Dock Seven had
+gone from black to the colour of old steel" at dawn (`s01e02c03`); Galahad
+walks out to the causeway carrying the survey archive (`s01e03c02`); and
+the prequel's geography — Dún Rí, the Boyne, Carraig Bán, the marsh — is
+one sailing-reachable coastline, with `boundary-zones.md` placing both
+documented sites "within the Solar System" as places that "could be stood
+on".
+
+**Season 5 reads spaceward again, with a coastal tell.** "Open space
+eleven hours from anything", a four-hundred-kilometre standoff at which
+Shepherd sees the tapers without instruments, shuttles and contracted
+couriers (`s05e02c03`) — though eleven hours is almost exactly what
+400 km costs by sea, "the thin water off Dock Seven" reads literally
+under a coastal model, and the one unambiguous space-scale figure (Combine
+hulls losing signature "within nine hundred thousand kilometres") concerns
+the enforcement's reach, not the site, and survives either ruling.
+Seeing anything at 400 km along a planetary surface does not survive the
+coastal ruling unaided — boundary optics, or an edit, would have to carry
+it.
+
+**Rider note.** Syra's 2826 approach data says "crew complement
+forty-seven"; `s05e02c03` calls Threshold "a station with nine hundred
+people on it" in 2831. A nineteen-fold growth in five years is possible —
+the boundary became a live case — but no line anywhere remarks on it.
+
+Candidate rulings:
+
+1. **Ground/coastal (recommended — the weight of the published text).**
+   Threshold is a coastal boundary station on the same shore as the Marsh
+   Causeway. The fixes are small and named: the two `s01e01c01` strays
+   ("Orbital Dock Seven" → a non-orbital dock styling; "orbital station"
+   in Syra's data), plus an audit of `s05e02c03`'s "open space" phrasing
+   and the 400-km sightline. "The thin water", the eleven hours, and the
+   viewport galleries all read cleanly.
+2. **Orbital.** Requires rewriting the sky, the horizon lights, the
+   1.3 km figure, and the walkable causeway across `s01e02`–`e03` —
+   against the overwhelming weight of the text. Not recommended.
+3. **A both-sites structure** (an orbital station plus a ground
+   sub-station at the causeway, with the prose read as slipping between
+   them) — the "Sub-station Outpost" location line gives it a hook, but
+   the dawn sky over Dock Seven itself still blocks it without an edit.
+
+Until ruled: new prose avoids fixing the station's altitude, and avoids
+travel-time or sightline arithmetic between Threshold and anywhere else.
+
+## Drithane's crossing cadence — raised 31 August 2026
+
+Raised during the Season 2 consistency sweep (the session that fixed
+`s02e01c01`'s tea and motivated `s02e01c02`'s printouts). Three parts of the
+corpus lean on different intuitions about how often a crossing happens, and
+nothing yet pins it:
+
+- `src/lore/planets/drithane.md`: the planet crosses the band **"twice in
+  every orbit"**; nothing fixes the orbit's length against UCSD, and the
+  page's front matter carries a `drithle-season` tag.
+- The Season 2 timestamps (Eden reckoning) place successive crossings one to
+  three months apart: Deep Winter 2826 (`s02e03c01`), Early Spring 2827
+  (`s02e03c03`, "the morning after a crossing"), Spring 2827 (`s02e04c01`).
+- Sorcha's counts read roughly annual: "forty crossings" at the lane turn,
+  rhyming with her "forty years" in the trade, and "her twentieth crossing"
+  as a mid-life moment (`s02e03c01`).
+
+No provable contradiction — the record never converts Drithane's calendar to
+UCSD — but the next Drithane prose could accidentally pin the wrong reading.
+Candidate rulings:
+
+1. **A crossing is a multi-night period (recommended).** Each nodal passage
+   through the broad band lasts days to weeks and contains several crossing
+   *nights*; "a crossing week", the boy's calendar with plural "crossing
+   hours marked in red", and the `drithle-season` tag already lean this way.
+   Sorcha's "forty crossings" then counts passages — roughly annual if
+   Drithane's orbit runs near two Eden years with both nodes falling in one
+   drithle season — and the three Season 2 timestamps are crossing nights
+   within one season. Costs nothing already published.
+2. **A short Drithane year** — roughly four to five Eden months, two evenly
+   spaced crossings per orbit. Fits the timestamps directly, but forces
+   "forty crossings" to mean about seven years at the lane turn, and reads
+   "her twentieth crossing" oddly for a lifelong resident.
+3. **Leave wholly open**, and keep future prose off crossing arithmetic
+   entirely — viable, but the trap stays armed.
+
+Until ruled: new Drithane prose avoids committing to any interval between
+crossings, and avoids counting crossings against a character's age.
+
+## Jeeves's portrait after the stamp ruling — raised 30 August 2026, RULED same day
+
+**Ruled by Dermot, 30 August 2026: a body in canon** ("body in canon for
+Jeeves please"). Half a clarification in the event — `s02e01c01` already has
+him standing, timing arrivals and pouring tea as a domestic-model
+intelligence, so the frame existed in published canon unnamed. Realized as
+the character page's "The Frame" section (matte jointed shell, hands
+*sufficient for pastry*, lenses that make no attempt to be eyes, the
+uncatalogued waistcoat) and a portrait brief under the
+visible-artificiality rule; brief and record in `images.md` § "The five
+stamped on 30 August 2026". The two unpicked options are closed.
+
 ## The burnt-out leader direction — raised 26 August 2026
 
 `intake-2026-08-26.md` records the direction verbatim (rejecting the
@@ -90,6 +217,94 @@ Two later directions the same day (both in `intake-2026-08-26.md`):
   **Nothing from this direction remains open**; ~~the Levrils "Who Notices"
   draft is the one artifact still awaiting his approval on the branch~~ —
   **approved by Dermot, 26 August 2026.** The whole intake is closed.
+
+## The hybrid-species contact frame — raised 29 August 2026
+
+`intake-2026-08-29.md` records both messages verbatim (a species combining
+dolphin + ape + elephant peak cognitive traits — a "differently-optimized
+peer intelligence" — and the mutual-misperception contact frame: humans see a
+scientific marvel; the species sees "unpredictable, emotionally noisy
+primates with impressive symbolic systems"; three named tensions). It
+continues `species-design.md`'s 13 August dexterity thread. The canon check
+found the peer-intelligence thesis already published as the ladder refusal,
+and one source claim contradicted by settled ground and not adopted (the
+hands-ceiling — `species-design.md`'s "dexterity yes, hands no" answer
+stands). Nothing drafted; the direction blocks on its first fork. Open:
+
+~~- **Convergent alien or terrestrial engineered composite**~~ — **ruled by
+Dermot, 29 August 2026: "Yes"** (a bare yes against the session summary,
+read — lightly held, reading recorded in the intake — as confirming the
+flagged readings as proposed: convergent alien). **Realized same day,
+draft-and-stop, both on the branch awaiting approval:**
+[The Ovruhn (Deep-Sung)](../src/lore/ovruhn.md) — the species, from a
+deep-haze world (Thavren) where sound is the far sense: sounding-sight,
+the honest infrasonic under-song, hydrostat tendrils, chorus-kept memory,
+"the hybrid people" as a refused press coinage — and
+[The Two Songs of the Loud People](../src/codex/the-two-songs-of-the-loud-people.md)
+— the keeper Vhen's chorus-held account of humans, with the Archivist's
+filing note holding the reader-test. Full commitments-by-proposal list in
+`intake-2026-08-29.md`. Still open after the drafts:
+
+- ~~**The two approvals** — lore and codex entries both draft-and-stop.~~ —
+  **both approved by Dermot, 29 August 2026** ("Approved, create the PR");
+  PR opened the same day, merge his call.
+- ~~**The Ovruhn pronoun paradigm**~~ — **ruled by Dermot, 29 August 2026:
+  "The Ovruhn use they/them pronouns for individuals in the record's
+  translation register."** The Qiren Tal pattern — a translation-register
+  rendering, not a coined paradigm, so no glossary registration; realized
+  as a rendering note on the lore entry (draft-and-stop, second 29 August
+  PR). A coined paradigm stays available later as a separate vocabulary
+  decision; nothing waits on one.
+- ~~**Federation membership and contact date**~~ — **membership ruled by
+  Dermot, 29 August 2026: "The Ovruhn are members of the Federation of
+  Sentient Beings."** Realized as extensions on both pages (the Ovruhn
+  entry and the Federation roster; the joint-disaster-response
+  contribution committed by proposal). ~~Contact date still open~~ —
+  **ruled by Dermot, 29 August 2026, from presented choices: leave
+  undated**, a deliberate marked absence on the entry's own register
+  (the membership interval already reads "unhurried"). Fixed later only
+  if a story needs it. Nothing from the Federation item remains open.
+- **Any named Ovruhn individual beyond Vhen**, and any Corps character.
+- **Images** — the lore entry joins those awaiting cards; the codex entry
+  needs a `make-codex-cover.ps1` title card, like every codex entry.
+- **The hands-ceiling** — unadopted, unchanged (contradicted by
+  `species-design.md`'s settled answer; the compatible species-scale fact
+  realized instead).
+
+A **fourth direction the same day** (verbatim in `intake-2026-08-29.md`):
+there is no defined Archetype for artificial intelligence as distinct from
+sapience in general. Read at the Archetype tier — disturbing neither the
+made-minds formtype nor the AI *Safety* Archetype (the stronger reading,
+that the Safety Archetype itself is retired or renamed, was considered and
+**not taken — confirm if intended**). Realized same day as a grounding
+section in The Maker's Shape ("Why There Is Nothing Else to Be") and a
+clarification on the published `made-minds-and-the-ai-safety-archetype.md`
+page at the exact spot its title invites the misfiling. Both in PR #580 —
+**approved by Dermot, 29 August 2026** ("Approved"); the approval of the
+clarification as drafted settles the tier reading, so the stronger
+not-taken reading is moot.
+
+A **third direction the same day** (verbatim in `intake-2026-08-29.md`):
+each sapient species has a distinct form of AI, if they use it at all —
+the LLM sentence read as illustration, not new in-world tech. Realized
+same day as a new lore entry, [The Maker's Shape](../src/lore/the-makers-shape.md)
+(the complement of the made-minds convergence page: safety shapes
+converge, the minds themselves never do; the Krenyi null case as the
+standing "if at all"; contact doctrine — an unfamiliar machine is
+untranslated, not wrong). In PR #580 — **approved by Dermot,
+29 August 2026** ("Approved"). Readings flagged in the intake; nothing
+else opened.
+
+A **second direction the same day** (verbatim in `intake-2026-08-29.md`):
+Tissadelle has worked with colleagues from almost every sentient species
+known to the Star Rangers. Realized same day as one paragraph on
+`src/characters/tissadelle-shepherd.md` (extension of the
+generalist-rotations theme; exceptions kept structural and unenumerated —
+"almost every" load-bearing — no species-by-species ledger, so no timeline
+debts against late arrivals like the Ilveth). **On the branch, in
+PR #580 — approved by Dermot, 29 August 2026** ("Approved"). Readings flagged: "Tisaddele"
+as a typo for Tissadelle; "worked with colleagues" as service, not
+encounters; "known to the Star Rangers" as the Corps' own roster.
 
 ## The RPG-structured inner world — raised 27 August 2026
 

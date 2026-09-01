@@ -173,6 +173,44 @@ against the doctrines already on the books:
   commits any particular character or season; "could be" is permission, not
   a plan.
 
+## Aliens Are Not Allegories — Dermot's direction, 29 August 2026
+
+Verbatim: *"I reject the popular science fiction trope (for example Star
+Trek) in which alien civilizations are taken as metaphors of subgroups or
+countries within human society."*
+
+The rejection names the principle the species roster already runs on
+rather than imposing a new one. Every people in the record is derived
+from a world and a body — the Veyr from gravity, the Ilveth from cold,
+the Ovruhn from dense air, the Krenyi's politics from their bounded
+emotional range — and none is a cipher: there is no Klingon-Soviet, no
+Ferengi-capitalist, no species standing in for an Earth nation, faith,
+or class. The method that produces this is `species-design.md`'s (world
+first, body from world, politics from body), and the trope it forecloses
+is that method's inverse: starting from a human subgroup and dressing it
+in a species.
+
+What the rejection does *not* forbid, worth stating because the line is
+easy to overdraw:
+
+- **Human cultures in the setting are not metaphors of themselves.** The
+  Celtic Union is Irish-descended humans being Irish-descended humans —
+  a subgroup of humanity present as itself, which is the opposite of the
+  trope.
+- **Themes still resonate.** `life-lessons.md`'s rule already governs
+  this: generalise, then fictionalise — the structure enters the work,
+  the circumstances don't. A Krenyi story may illuminate honesty and a
+  Mnemari story grief, without either species *being* anyone.
+- **Readers will map anyway.** That is a fact about readers, not a
+  licence for the text. The test is authorial: if a species' page could
+  be summarised "they're basically X", where X is a human group, the
+  design has failed the test — which is the planet-of-hats trap
+  (`species-design.md`) at the scale of meaning rather than temperament.
+
+Filed story-bible-only at Dermot's pick from presented choices (over a
+public journal entry or a What the Record Refuses row); the paired trap
+entry is in `species-design.md`.
+
 ## Wisdom Versus Intelligence
 - Intelligence solves problems.
 - Wisdom chooses which problems are worth solving.

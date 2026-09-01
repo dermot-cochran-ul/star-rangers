@@ -226,6 +226,13 @@ distinct histories, rather than five body plans with the same story attached.
   *fluid-boundary anomalies*, a phrase that means almost nothing on a
   single-ocean world. Now a standing refusal on
   `src/lore/what-the-record-refuses.md`.
+- **The allegory.** A species designed as a metaphor for a human subgroup
+  or country — the Star Trek pattern, rejected by Dermot outright
+  (29 August 2026, verbatim in `intake-2026-08-29.md`; theme note in
+  `ideas.md`). The test: if the page summarises as "they're basically X"
+  for any human group, start over from the world. This file's method is
+  the antidote — a people derived from gravity, cold, or dense air has no
+  room to be a cipher, because the world got there first.
 - **The planet of hats.** One environment, one temperament, one job, no internal
   disagreement. The cast principles forbid it for humans and the same reasoning
   applies here. The Krenyi page is the standard to match — a whole practice, a
@@ -275,3 +282,21 @@ the reason nobody warm has the sense), and the culture follows from heat
 being the only wealth. The remaining open ends (Sardain's location, the
 star's name, a named individual, a pronoun paradigm) are in
 `open-questions.md` under "Decisions awaiting Dermot".
+
+**And a seventh is drafted, not yet approved** — the Ovruhn of Thavren
+(`src/lore/ovruhn.md`, drafted 29 August 2026 from the hybrid-species
+direction after Dermot ruled the convergent-alien reading; draft-and-stop,
+on the branch). Designed by this file's method, and a direct continuation
+of the 13 August dexterity question above: the world is deep-aired and
+permanently hazed, so sight is short and sound is the far sense, so the
+body is a sounding instrument — hydrostat tendrils for the manipulation
+half, mass and resonant chambers for the infrasonic under-song, chorus-kept
+memory in place of writing. The bottleneck is deliberately *not* energy
+(dense air burns willingly) but externalization: knowledge scaling at the
+speed of teaching, which is what the direction's "humans dominate
+technological scaling" becomes without a ladder. Differentiation handled in
+the entry: not Mnemari (memory as mortal practice and pool, loss central),
+not Chthonari (airborne acoustics, not substrate vibration in vacuum), not
+Ilveth (their involuntary channel is *addressed to everyone*, so their
+contact failure was answering it — the opposite courtesy). Open ends
+indexed in `open-questions.md` under the 29 August section.

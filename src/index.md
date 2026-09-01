@@ -18,7 +18,11 @@ description: "Fian Ilchruinne — an interactive science-fantasy novel grounded 
       more than tidiness: a hero character with no `image:` used to render an
       empty <img> requesting the characters DIRECTORY, and it counted toward
       --nN all the same, so the crossfade timed a slot for a slide that was
-      never going to appear. Filtering before the count fixes both at once. -#}
+      never going to appear. Filtering before the count fixes both at once.
+
+      Since 2026-08-29 the same filter also drops PLACEHOLDER-stamped
+      portraits (the designed PORTRAIT PENDING cards), so the slideshow only
+      ever shows finished images - on every domain. -#}
   {%- if heroCharacters.length %}
   <div class="home-hero__slideshow home-hero__slideshow--n{{ heroCharacters.length }}" aria-hidden="true">{% for character in heroCharacters %}
     <img class="home-hero__slide" src="/star-rangers/images/characters/{{ character.data.image }}" alt="" />{% endfor %}

@@ -869,7 +869,16 @@ below were ready to paste; `image`/`image_alt` were added after generating.
   **Also fixed:** the last two returns had no robes at all, which lost the
   chapter house entirely and left her reading as a countrywoman outside a barn.
   The robes are named first this time.
-  > Cinematic portrait of a woman of one hundred and five who reads unmistakably as a senior officer, upper body, standing outside a modest stone chapter house on a quiet rural world. She wears the plain working robes of a contemplative order over ordinary clothes - heavy, well-worn, functional cloth with a clear shoulder line, belted at the waist, not draping or billowing and not ceremonial; the robes are the first thing to get right and must be present. Genuinely old and entirely capable at the same time: deeply lined weathered face, thin white hair cut short and practical, hands and neck showing real age - and upright military bearing, square shoulders, weight evenly set, chin level, hands still and unclasped at her sides. Physically strong and undiminished, a person who still does the work. Level and unsmiling, assessing whoever she is looking at, faintly impatient. No stoop, no cane, no walking stick, no staff, no trembling, no frailty, no papery delicacy, no shrunken frame, no beatific warmth, no serenity, no benevolence, no wisdom pose, no hands folded in blessing. Soft overcast daylight, science-fiction pastoral setting, muted natural palette, a commander who happens to be wearing robes rather than a sage who happens to have been a commander, no uniform, no insignia, no rank marks, no readable text, signage, insignia lettering or written characters anywhere in frame. Portrait orientation.
+
+  *(Re-run 30 August at Dermot's report that the filed image reads about 55 —
+  half her age. The filed file matched the pre-correction returns, so the
+  harder brief below had never actually been run to success. First re-run
+  overshot into frailty — both variants gaunt and diminished, which Dermot
+  rejected: the age landed and the strength did not. The brief now welds the
+  creased skin onto a plainly powerful frame, bans the gaunt vocabulary, and
+  keeps the craft in the background from reading as a flying saucer. Stale
+  portrait-orientation tail fixed to landscape.)*
+  > Cinematic portrait of a woman of one hundred and five who reads unmistakably as a senior officer, upper body, standing outside a modest stone chapter house on a quiet rural world. She wears the plain working robes of a contemplative order over ordinary clothes - heavy, well-worn, functional cloth with a clear shoulder line, belted at the waist, not draping or billowing and not ceremonial; the robes are the first thing to get right and must be present. Genuinely old and physically powerful at the same time, and both must be unmistakable: her face is deeply creased and weathered everywhere, skin spotted with genuine great age, thin white hair cut short and practical - and her body is broad-framed and solid, full square shoulders, a strong neck, sleeves pushed back over thick weathered forearms, large capable hands with prominent knuckles, standing at parade rest with her weight set forward like a woman who hauled feed sacks this morning and will again tomorrow. Old like an ancient oak, not old like a dry reed. Level and unsmiling, looking straight at the viewer, assessing, faintly impatient. No stoop, no cane, no walking stick, no staff, no trembling, no frailty, no gauntness, no thinness, no sunken cheeks, no hollow eyes, no shrunken or withered frame, no papery delicacy, no beatific warmth, no serenity, no wisdom pose; no middle-aged smoothness, no soft focus, no airbrushed skin. Soft overcast daylight, pastoral setting on a settled colony world - dry-stone walls, green hills, and no aircraft, no spacecraft and no flying saucer anywhere in frame. Muted natural palette, a commander who happens to be wearing robes rather than a sage who happens to have been a commander, no uniform, no insignia, no rank marks, no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
 
 - **`galen.jpg`** — Star Rangers liaison officer at a Celtic Union shuttle gate;
   minor character, correct and quietly decent.
@@ -982,8 +991,13 @@ they are tall and a portrait crop fights them.
 
 **AIs & non-corporeal — abstract emblem, no face**
 
-- **`jeeves.jpg`** — domestic-companion AI, Eden; kitchen-and-gossip competence.
-  > Abstract emblematic image representing a domestic household artificial intelligence: a warm pool of low amber light resting on the scrubbed wooden surface of a quiet kitchen table at night, a folded cloth and a single clean cup set neatly beside it, everything tidied and ready for a morning that has not arrived yet. Soft ambient glow with no visible source, deep warm browns and honey tones against a dark room, domestic and calm and companionable. No human face, no figure, no hands, no machine, no robot, no screens, no displays, no consoles, no interface, no glyphs, no icons, no symbols, no numerals and no lettering of any script anywhere in frame. Portrait orientation.
+- **`jeeves.jpg`** — domestic-companion AI, Eden; kitchen-and-gossip
+  competence. **Superseded 30 August 2026** by Dermot's body-in-canon ruling:
+  the live brief is in "The five stamped on 30 August 2026" below, under the
+  visible-artificiality rule. The retired emblem here (the tidied night
+  kitchen, no figure) was the 13-August bodiless-AI treatment; its blockquote
+  is removed so the generator queue serves only the live brief — the parser
+  takes the first quoted entry per filename.
 
 - **`reeves.jpg`** — investigative-support AI, Threshold Station; **the other
   half of a deliberate pair.** Written 13 August on Dermot's note that the two
@@ -1150,6 +1164,106 @@ staff**, which the generator added unprompted both times.
   Long Accounting, and the Kingdom of the Four Islands' de facto first point of
   contact for the Survey Corps delegation.
   > Cinematic portrait of an abbess in her sixties in a coastal stone abbey, upper body, heavy plain working habit of a contemplative order, belted, with a clear shoulder line and no draping or billowing fabric, upright bearing and entirely still, cold sea light flooding in through an open doorway behind her with the sea beyond it bright and out of focus, the stone interior dark and close around her, pre-industrial island setting, grey stone and dark wool against a luminous doorway, an administrator who happens to be in orders, no serenity of expression, no benevolence, no wisdom pose, no hands folded in blessing, professional, no readable text, signage, lettering or written characters anywhere in frame. Portrait orientation.
+
+#### The five stamped on 30 August 2026 — hero-cast cards
+
+Dermot's full-images-only rule for the homepage slideshow (29–30 August)
+surfaced five hero-cast images that were never portraits: four designed
+title cards (Iona, Galahad, Syra, Fintan) and Jeeves's kitchen emblem. All
+five are now PLACEHOLDER-stamped and out of every cast until real portraits
+land — the `lib/editions.js` cast comments say who returns where. The four
+below are the portrait briefs; Jeeves is a decision, not a brief, and is
+indexed in `open-questions.md`.
+
+All are **16:9 landscape**, and the atmosphere is added around each page's
+own `role` and `description` — no fact here is invented.
+
+**The negative lives inside each blockquote, and that is a lesson, not a
+style choice** (30 August, first run): `image-prompts.js --generate` sends
+only the blockquote, so a "carry the standing negative" instruction beside
+it is invisible to the generator. The first run went out bare and returned
+readable signage, branded real-world survey kit, active screens and visible
+lamp fittings across three of the four. Any future entry written for the
+generator carries its negatives in the quoted text itself. (The parser also
+joins every consecutive `>` line into the prompt, so notes about an entry
+go in its bullet prose, never in the quote.)
+
+- **`dr-iona-vale.jpg`** — Transit Safety Officer, Harmonic Operations,
+  Threshold Station; the authority to say the jump does not happen. Her page
+  is exact about what she is not: not against teleportation, against the
+  pretence that the cost disappears. So the portrait is not a guard at a
+  gate — it is a clinician standing where the cost is paid, unhurried and
+  immovable. No displays (the standing rule: never light a scene with one);
+  the bay behind her is hardware, not readouts.
+  *(Revised 30 August after the first run: readable "PLATFORM 4" signage, a
+  lettered console, active screens and a caged lamp fitting — the negative now
+  travels inside the prompt.)*
+  > Cinematic portrait of a woman in early middle age, a transit safety officer standing at the observation position of a teleportation bay aboard a science-fiction boundary station, upper body, turned to face the viewer. Practical dark clinical-professional uniform with no markings, hair pinned back for work, one hand resting beside a heavy plain metal hold lever she has not pulled, the lever's mount unlabelled bare metal. Calm, level, immovable expression — the person who decides whether the jump happens, unhurried and not unkind. The bay behind her is quiet metal architecture in soft shadow: coil housings, conduit, an empty transit platform, every surface plain unmarked metal, no glow and no active machinery. Cool muted palette, lit by one soft warm pool of light falling on her position from a concealed source above, no lamp or light fitting visible in frame, cinematic haze, professional, no glamour styling. No readable text, lettering, numerals, signage, labels, stencilled markings, branding or written characters of any script anywhere in frame; no screens, monitors, displays, consoles, gauges, dials or indicator lights; no holograms or projected light; no wristwatch; no weapons; no flat studio backdrop and no corporate headshot posing. Landscape orientation.
+
+- **`galahad-thorne.jpg`** — Survey Team Lead, twelve years at boundary
+  postings; describes accurately rather than reaching for the nearest
+  category. Field surveyor, not office lead, so he is outdoors at an
+  instrument. The Ranger block applies, adapted for field dress. The Marsh
+  Causeway register — standing water, mist, first light — carries the
+  boundary without depicting anything across it, per the hint-don't-show
+  line.
+  *(Revised 30 August after the first run: a branded present-day total
+  station with keypad and display, sleeve chevrons, a handwritten notebook, a
+  cap — the instrument is now described as unfamiliar and unmarked, and the
+  negative travels inside the prompt.)*
+  > Cinematic portrait of a weathered man in his forties, bare-headed, a survey team lead at work on a misted marsh boundary at first light, upper body, standing beside a surveying instrument of unfamiliar future design mounted on a heavy tripod — a plain matte grey-green housing around a single large optical lens, smooth unmarked casing with no keypad, no display, no branding and no manufacturer's markings, clearly an optical instrument and clearly not any present-day surveyor's model. One hand steadies it as he looks toward the viewer with a patient, level, precise expression — a man who describes exactly what he sees and nothing more. Plain well-kept field service dress in muted grey-green, its only insignia one small plain geometric tab at the collar, shapes and a single colour insert; no sleeve patches, no chevrons, no badges anywhere else on the clothing; practical field kit, empty hands otherwise. Behind him flat standing water and low mist going pale at the horizon, a single line of old bare wooden marker posts receding into the haze, nothing visible beyond them. Soft dawn light, cool serene palette, quiet and slightly haunting, hopeful rather than bleak. No readable text, lettering, numerals, signage, labels, branding or written characters of any script anywhere in frame; no screens, displays or keypads; no notebook and no handwriting; no wristwatch; no cap or hat; no weapons. Landscape orientation.
+
+- **`syra.jpg`** — Krenyi boundary analyst, the Quiet-Built. The hardest
+  brief of the four, because the species canon forbids the easy move: there
+  is no organ to point at, so there is nothing to exaggerate, and the record
+  says the Quiet-Built look almost human and decline to say what they are.
+  What the portrait can hold is what the lore page opens on — posture
+  steady, gaze direct, no wasted gesture — plus low light (which costs her
+  nothing) and an age that will not resolve. The stillness is the alien.
+  Trope guard written in: no elf, no grey, nothing glowing.
+  *(Revised 30 August after the first run: both variants nailed the
+  stillness and the unplaceable age, and both leaked monitors, lamps and
+  cabling into the room — the room is now described as closed and inert, and
+  the negative travels inside the prompt.)*
+  > Cinematic portrait of a Krenyi woman, a humanoid who at first glance reads as an entirely ordinary human and gives the eye nothing to point to — ordinary ears, ordinary eyes, ordinary skin, no prosthetics and no alien features of any kind. What is not human is the composure: she sits perfectly still in a dim survey analysis room, hands at rest on the table, posture exactly balanced, gaze direct into the viewer, an adult whose age is impossible to place, quietly beautiful without any glamour styling, pale, dark hair drawn plainly back, plain professional analyst's clothing with no markings. The room around her is almost dark and everything in it is closed and inert — closed instrument cases, a bare worktable, deep shadow — lit by one soft warm pool of light from a concealed source above, no lamp or light fitting visible in frame, and she is visibly comfortable in the dark. Serene, enigmatic, slightly uncanny in stillness only; not a pointed-eared elf, not a grey alien, no glowing eyes, no unusual skin colour. No readable text, lettering, numerals, signage, labels, branding or written characters of any script anywhere in frame; no screens, monitors, displays, tablets, consoles or indicator lights of any kind, powered or dark; no cables; no holograms or projected light; no wristwatch or jewellery; no weapons; no corporate headshot posing. Landscape orientation.
+
+- **`brother-fintan.jpg`** — retired Chief on the boundary-safety track,
+  now the beekeeper of Cnoc na mBeach. The one non-SF frame of the four,
+  same licence as `brother-daire`. The picture is his page's own image of
+  him: the same watch at a smaller scale — and the telling-the-bees custom
+  gives the pose, hinted rather than staged. Contemplative-tier domains
+  front him, so serenity leads.
+  *(First run, 30 August: both variants clean — variant 1 the stronger on
+  the telling-the-bees pose and free of modern tells; variant 2 carries a
+  wristwatch. Variant 1 filed and approved by Dermot the same day; all four
+  portraits in this section were approved as the v1s of their runs.)*
+  > Portrait of a fit, weathered man past seventy, a retired officer turned beekeeper, standing among plain wooden hives in a stone-walled hive-yard at first light, upper body. One hand rests flat on a hive roof and his head is slightly inclined toward it, as though he is quietly telling it something; a few bees hang in the air around him, unbothered. Undyed working wool in monastic plainness, no veil, no gloves, deeply lined unhurried face with the attentive patience of a man reading a slow instrument. Behind him low whitewashed stone cells and a green hillside going up into soft mist. Warm early light, gentle and serene, quiet, hopeful, entirely unhaunted; no science-fiction furniture of any kind. Landscape orientation.
+
+- **`jeeves.jpg`** — **ruled 30 August: a body in canon** (Dermot's pick
+  from the three options; the alternatives — a new emblem, or emblem-plus-
+  never-cast — are closed). The ruling turned out to be half a
+  clarification: `s02e01c01` already has him as *"a domestic-model
+  intelligence... standing exactly where a man might stand"*, timing
+  arrivals and pouring tea, so the frame existed in published canon and the
+  character page now describes it (matte ivory-grey shell, plainly jointed,
+  hands *sufficient for pastry*, round dark lenses that make no attempt to
+  be eyes — and the uncatalogued waistcoat). The portrait falls under *AIs
+  get portraits like everyone else*: artificiality visible at the prompt.
+  The kitchen carries over from the retired emblem — same room, now with
+  him in it, at morning instead of waiting for one.
+  > Cinematic portrait of a domestic-model artificial intelligence in the compact kitchen of an apartment aboard a large space habitat, upper body, standing at a scrubbed wooden table setting down a tea tray with exact care. The machine is human-shaped and unmistakably a machine: matte ivory-grey composite shell with plainly visible seams and joints, articulated mechanical hands, a smooth head with two round dark optical lenses that make no attempt to be eyes, no human face, no synthetic skin, no hair. Over the shell it wears a plain dark neatly fitted waistcoat. The apartment is unmistakably aboard a habitat, not a house on a planet: smooth pale composite walls with rounded coving, a galley counter in matching composite, a single small viewport whose view is the habitat's own softly lit green interior curving upward in the distance — no sky, no garden, no countryside. The kitchen is warm and immaculate all the same — a folded cloth, one clean cup, the wooden table an obvious treasure in a moulded room — and the whole picture is gentle, precise, and quietly comic in its dignity. Photographic realism, warm domestic palette over cool habitat neutrals. No readable text, lettering, numerals, signage, labels, branding or written characters of any script anywhere in frame; no screens, monitors, displays, consoles or indicator lights; no visible lamp, light fitting or bulb; no holograms; no weapons; not a menacing robot, not an industrial robot, no exposed wiring; no rustic cottage, no exposed wooden beams, no stone walls, no potted plants, no gas stove, no copper kettle. Landscape orientation.
+
+#### Peran Slade — added 30 August 2026
+
+- **`peran-slade.jpg`** — Fellowship of Light novice at Asteria's chapter
+  house, seeking which expression of the one vocation is theirs (page
+  approved by Dermot 30 August). The pose is the page's own material: the
+  kept lamp custom and the door the margin-book line is about, so the
+  portrait puts them in the doorway at dusk with the lamp — staying and
+  going in one frame, nothing depicted beyond the threshold but hills. The
+  flame hand-lamp is a deliberate, scoped exception to the no-visible-lamp
+  negative: it is the subject's own instrument, not a light fitting.
+  > Cinematic portrait of a young person of about twenty-two, androgynous, a novice of a contemplative order, standing in the open stone doorway of a chapter house at dusk, upper body, seen from just inside the threshold. They hold a small lit hand-lamp with a live flame, the picture's only warm light; through the doorway behind them, green hills going dark under a pale evening sky, nothing else out there. Plain undyed novice's working clothes with a belted overtunic, short practical hair, an alert open expression caught mid-thought between staying and going — attentive, earnest, questioning, not sad. Warm lamplight against cool dusk, quiet, serene, hopeful, slightly enigmatic. No readable text, lettering, numerals, signage, labels, branding or written characters of any script anywhere in frame; no screens, monitors, displays or consoles; no electric light fittings or bulbs anywhere, the hand-lamp's flame is the only light source; no candle arrays, no incense, no religious symbols or iconography; no weapons; no glamour styling, no corporate headshot posing. Landscape orientation.
 
 #### Outstanding portraits — audited 19 August 2026 (25 pages)
 
