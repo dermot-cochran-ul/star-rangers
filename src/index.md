@@ -39,6 +39,13 @@ description: "Fian Ilchruinne — an interactive science-fantasy novel grounded 
 </section>
 
 <section aria-label="Site sections">
+  {#- A card is a promise that the section behind it has something on it. On
+      a narrowed edition that is not guaranteed: undercover-pets.com carries
+      no lore at all and one glossary entry, and until 2026-09-01 its homepage
+      offered "Map the layers of reality..." over a page that said "No lore
+      articles published yet." Reference cards are shown only when the
+      filtered collection behind them is non-empty; Seasons and Characters
+      always are, since every edition fronts chapters and a cast. -#}
   <div class="home-sections">
     <a class="home-card" href="/star-rangers/seasons/">
       <span class="home-card__icon" aria-hidden="true">📖</span>
@@ -50,26 +57,34 @@ description: "Fian Ilchruinne — an interactive science-fantasy novel grounded 
       <h2 class="home-card__title">Characters</h2>
       <p class="home-card__desc">Meet the officers, constructs, and beings—human and otherwise—whose loyalties keep the frontier intact—or break it.</p>
     </a>
+    {% if collections.timelineEvents.length %}
     <a class="home-card" href="/star-rangers/timeline/">
       <span class="home-card__icon" aria-hidden="true">🕰</span>
       <h2 class="home-card__title">Timeline</h2>
       <p class="home-card__desc">Read the fixed sequence of events first. Then trace how later testimony argues over what those events mean.</p>
     </a>
+    {% endif %}
+    {% if collections.lore.length %}
     <a class="home-card" href="/star-rangers/lore/">
       <span class="home-card__icon" aria-hidden="true">🌌</span>
       <h2 class="home-card__title">Lore</h2>
       <p class="home-card__desc">{% if latestLore %}{{ latestLore.excerpt }}{% else %}Map the layers of reality, from history and factions to species, technology, and the cosmology behind them all.{% endif %}</p>
     </a>
+    {% endif %}
+    {% if collections.glossary.length %}
     <a class="home-card" href="/star-rangers/glossary/">
       <span class="home-card__icon" aria-hidden="true">📚</span>
       <h2 class="home-card__title">Glossary</h2>
       <p class="home-card__desc">Fix the terms before the arguments begin: institutions, phenomena, titles, and names from across the record.</p>
     </a>
+    {% endif %}
+    {% if collections.codex.length %}
     <a class="home-card" href="/star-rangers/codex/">
       <span class="home-card__icon" aria-hidden="true">🗂</span>
       <h2 class="home-card__title">Codex</h2>
       <p class="home-card__desc">Open the raw paperwork—logs, directives, and archive notes—where memory and authority collide line by line.</p>
     </a>
+    {% endif %}
   </div>
 </section>
 
