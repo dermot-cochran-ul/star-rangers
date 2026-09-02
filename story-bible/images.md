@@ -1291,6 +1291,38 @@ go in its bullet prose, never in the quote.)
   negative: it is the subject's own instrument, not a light fitting.
   > Cinematic portrait of a young person of about twenty-two, androgynous, a novice of a contemplative order, standing in the open stone doorway of a chapter house at dusk, upper body, seen from just inside the threshold. They hold a small lit hand-lamp with a live flame, the picture's only warm light; through the doorway behind them, green hills going dark under a pale evening sky, nothing else out there. Plain undyed novice's working clothes with a belted overtunic, short practical hair, an alert open expression caught mid-thought between staying and going — attentive, earnest, questioning, not sad. Warm lamplight against cool dusk, quiet, serene, hopeful, slightly enigmatic. No readable text, lettering, numerals, signage, labels, branding or written characters of any script anywhere in frame; no screens, monitors, displays or consoles; no electric light fittings or bulbs anywhere, the hand-lamp's flame is the only light source; no candle arrays, no incense, no religious symbols or iconography; no weapons; no glamour styling, no corporate headshot posing. Landscape orientation.
 
+#### Marisol Achebe — added 2 September 2026
+
+- **`marisol-achebe.jpg`** — junior detective, Eden's civil bureau; her first
+  case of her own was eleven days of missing flour, closed with a one-page
+  report, no charges, and a rabbit (page approved by Dermot 2 September). The
+  pose is the page's own material: *sit still, say nothing, and let the other
+  party talk themselves into a decision* — so she is sitting on a sack of the
+  flour that kept not being stolen, waiting, with [Knopka](../src/characters/knopka.md)
+  settled against the warm patch beside her, both of them looking at the same
+  blank wall. She is the first **junior** bureau officer to be drawn, so she is
+  the first frame that **takes the uniform** per
+  [The Eden Bureau Uniform](../src/lore/eden-bureau-uniform.md): the plain
+  single-breasted work jacket with the rank mark at the collar — a Detective is
+  **one short black stroke on a bone-white tab**, no letters, no numerals, and
+  no number anywhere on the jacket, since whether it carries one is deliberately
+  unsettled in the entry. *Undercover Pets* thread, so warm and ordinary rather
+  than haunted, and the register is the same comic dignity as Knopka's own frame.
+  **Heritage is stated in the prompt on the Oyelaran precedent** (13 August: a
+  brief that never carried the heritage her surname states came back white in
+  both variants). Achebe is an Igbo name; the page asserts nothing about her
+  appearance, so *the prompt is where this gets decided*, and it is Dermot's to
+  change before generating. Age is the chapter's one word, *young*, read as
+  mid-twenties for the same reason.
+  > Cinematic wide portrait of a young Black woman of West African heritage in her mid-twenties, a junior police detective, sitting on a stacked sack of flour in the tidy, well-kept dry-stores room of a space habitat's galley, upper body and knees, hands loosely clasped, entirely still and patient, watching a blank wall panel to one side with the composure of someone prepared to wait all afternoon. Beside her on the floor an ordinary domestic rabbit sits upright against the foot of the same wall, looking at the same panel; no harness, collar or device on the animal. She wears a plain grey single-breasted work jacket over ordinary clothes, the jacket's only mark a small bone-white tab at the collar bearing a single short black stroke. Shelves of unmarked sacks and plain tins, a warm patch of light low on the wall from an unseen source, the rest of the room in soft even light. Warm, ordinary, quietly funny — two investigators waiting for a wall to confess. Warm flour-white and grey against a low amber glow. No readable text, lettering, numerals, signage, labels, branding or written characters of any script anywhere in frame, including on sacks, tins or the jacket; no holograms, screens, monitors or consoles; no visible lamp, light fitting or bulb; no flat studio backdrop, glamour lighting, corporate headshot or posed smile to camera; no weapons; no cigarette. 16:9 landscape.
+  - **The wall is the joke and must stay blank.** The panel she is watching hides
+    a pantry the register forgot; nothing about it should look like a door, a
+    hatch or a hiding place. If the batch keeps drawing a visible seam or a
+    handle, tighten the crop on the two of them and let the wall be a wall.
+  - **Extra negative:** hatch, door, handle, seam in the wall, plainmark bands
+    (this is a stores room, not a hatch frame), clipboard, slate, notebook, pen,
+    writing, cage, hutch, carrier with lettering.
+
 #### Outstanding portraits — audited 19 August 2026 (25 pages)
 
 The pages that carry no `image:` today. This is a **list, not a prompt set** —
