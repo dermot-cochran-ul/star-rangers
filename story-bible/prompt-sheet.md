@@ -323,6 +323,18 @@ what the card actually shows before committing.
 
 ---
 
+### 2.5 `marisol-achebe.jpg` — portrait (queued 2 September 2026)
+
+The junior detective from *The Warm Patch*, and the first bureau frame that
+takes the uniform (one collar stroke, no number). Brief, reasoning and the
+standing negative live in [`images.md`](images.md) under *Marisol Achebe — added
+2 September 2026*; heritage and age are stated there and are Dermot's to change
+before generating.
+
+> Cinematic wide portrait of a young Black woman of West African heritage in her mid-twenties, a junior police detective, sitting on a stacked sack of flour in the tidy, well-kept dry-stores room of a space habitat's galley, upper body and knees, hands loosely clasped, entirely still and patient, watching a blank wall panel to one side with the composure of someone prepared to wait all afternoon. Beside her on the floor an ordinary domestic rabbit sits upright against the foot of the same wall, looking at the same panel; no harness, collar or device on the animal. She wears a plain grey single-breasted work jacket over ordinary clothes, the jacket's only mark a small bone-white tab at the collar bearing a single short black stroke. Shelves of unmarked sacks and plain tins, a warm patch of light low on the wall from an unseen source, the rest of the room in soft even light. Warm, ordinary, quietly funny — two investigators waiting for a wall to confess. Warm flour-white and grey against a low amber glow. No readable text, lettering, numerals, signage, labels, branding or written characters of any script anywhere in frame, including on sacks, tins or the jacket; no holograms, screens, monitors or consoles; no visible lamp, light fitting or bulb; no flat studio backdrop, glamour lighting, corporate headshot or posed smile to camera; no weapons; no cigarette. 16:9 landscape.
+
+Extra negative: hatch, door, handle, seam in the wall, plainmark bands, clipboard, slate, notebook, pen, writing, cage, hutch, carrier with lettering.
+
 ## Part 3 — The four hero-cast portraits (queued 30 August 2026)
 
 The full-images-only sweep stamped four title cards; these are their portrait
