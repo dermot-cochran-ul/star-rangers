@@ -159,6 +159,13 @@ module.exports = function(eleventyConfig) {
     heroDir: path.join(__dirname, "src", "images", "hero")
   });
   eleventyConfig.addGlobalData("edition", getEdition());
+  // The <title> of a placeholder page follows the edition's own notice when
+  // it carries one (src/_includes/excluded.njk renders the same string as
+  // its heading), so the tab and the page agree on a plain-register domain.
+  const excludedTitle = () => {
+    const notice = getEdition().excludedNotice;
+    return notice ? notice.title : "Not included in this edition";
+  };
 
   // The presentation-mode registry, for the reader-side switcher in base.njk.
   // Exposed as data rather than hardcoded in the template so the control and
@@ -545,7 +552,7 @@ module.exports = function(eleventyConfig) {
   // a no-op whenever contentFilter.active is false.
   eleventyConfig.addGlobalData("eleventyComputed", {
     layout: (data) => (isContentIncluded(data, contentFilter) ? data.layout : "excluded.njk"),
-    title: (data) => (isContentIncluded(data, contentFilter) ? data.title : "Not included in this edition"),
+    title: (data) => (isContentIncluded(data, contentFilter) ? data.title : excludedTitle()),
     // Falls back to `undefined` (not a placeholder string) so base.njk's
     // `{{ description | default(site.description) }}` renders the same
     // generic site description an ordinary description-less page already
