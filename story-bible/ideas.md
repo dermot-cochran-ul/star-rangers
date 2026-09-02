@@ -211,6 +211,99 @@ Filed story-bible-only at Dermot's pick from presented choices (over a
 public journal entry or a What the Record Refuses row); the paired trap
 entry is in `species-design.md`.
 
+## Bounded Creativity — Dermot's naming, 2 September 2026
+
+Verbatim: *"Bounded or Structured Creativity seems to be a major theme of my
+philosophy and work with General Krast as the anti-pattern."*
+
+A name for a rule the corpus was already running on, not a new one. Where
+it is already on the page:
+
+- **Cosmology.** Creation is by specification, not by sight
+  (`cascade-structure-and-limits.md`); a Concordant is a bounded region of
+  internally consistent law; a boundary zone is "lawful disagreement, not
+  law failure"; Levrils are "bounded but powerful". Deepest of all, *the
+  limit is constitutive, not designed* — no tier installed it, and it is
+  what makes a specification a specification. The bound is not laid on the
+  thing; it is what makes the thing a thing.
+- **The physics rule.** The register may be mythic, the mechanism may not:
+  every licensed deviation is "specified, bounded and instrumented"
+  (`CLAUDE.md`). Fantasy furniture, specified physics underneath.
+- **Institutions.** The [AI safety kernel](../src/lore/ai-safety-kernel.md)
+  — reason freely, act only when safe, truthful and proportionate. The
+  Charter — self-funded so nobody can buy leverage, answerable to an
+  Oversight Council and nothing else. The
+  [command hierarchy](../src/lore/star-rangers-command-hierarchy.md) —
+  *what* is a command decision, *how* never is; the no-overly-detailed-
+  technical-instruction rule, which Dermot framed on 27 August as a
+  reaction against Krast's MSC; "seniority decides, and nobody chooses".
+  [Ask and It Will Be Reviewed](../src/lore/ask-and-it-will-be-reviewed.md)
+  — prayer and magic as a permissions office, the joke kept because it is
+  load-bearing.
+- **Craft.** The detective doctrine above (the investigator as instrument,
+  never source; no deduction a careful reader could not have made). The
+  trope default (reject unless canon needs one). Aliens are not allegories
+  (world first, body from world). The Benevolent Critic (the cheapest
+  repair that works; add, never rewrite). `life-lessons.md`'s own rule
+  (generalise, then fictionalise).
+- **Outside the fiction.** Saturday Shutters — one entry, strictly from that
+  Saturday's outing, no outing no entry. The withholding photographic voice
+  — cut the explanatory third and let the crop do the work. Same instinct:
+  the constraint is what produces the result.
+
+**The anti-pattern, read precisely.** Krast is not "too much structure".
+The MSC's six-week response time and its micromanagement are symptoms. The
+Jehu comparandum
+([Jehu Among the Comparanda](../src/codex/jehu-among-the-comparanda.md),
+[The Captain Who Drove Furiously](../src/codex/the-captain-who-drove-furiously.md))
+locates the flaw: she kept the older idol, "the distrust of ever being
+answerable to the people she governed". Her bounds were real and sincerely
+held, and bounded only by themselves. So the theme's working rule is
+sharper than *creativity within limits*:
+
+> **The bound has to come from outside the thing it bounds.**
+
+Self-restraint alone decays one of two ways — into Krast's rigidity, or
+into the captured democracy her outer-station critics said actually caused
+the Wars (the counter-argument she never answered). The Charter answers
+both halves at once: the what/how split against rigidity; the Oversight
+Council, the funding rule and seniority-decides against capture. The
+cosmology agrees at its own scale — the constitutive limit is external to
+every tier, which is why no tier can lift it.
+
+What the theme does *not* say, worth stating because the line is easy to
+overdraw in either direction:
+
+- **Bounded does not mean small or cautious.** Levrils are bounded *and*
+  powerful; the Charter's framers were doing the boldest thing in the
+  setting's political history. The bound is what makes the boldness
+  survivable, not what shrinks it.
+- **Structure is not the villain.** Structure is the medium. The failure
+  is structure that answers to nobody — and the absence of structure is
+  not freedom either; captured democracy is the other face of the same
+  coin.
+- **Self-certification does not count.** A body that writes its own rule
+  and reviews its own compliance is in Krast's shape whatever the rule
+  says. The test is: *who outside it can say no?*
+- **The authorial test that follows.** When a new rule, institution or
+  power enters canon, ask what bounds it and whether the bound sits outside
+  it. If the honest answer is "its own good judgement", that is Krast, and
+  the page should know it.
+
+**The gap.** The anti-pattern has a face: a portrait, a hearing, a quotable
+line, two codex entries and a chapter
+([The Volunteered Word](../src/seasons/s00/e02/s00e02c02.md)). The positive
+pattern has no face carried from inside. Tissadelle embodies it in practice
+(empathy carries her command; the officer at work, not a figurehead), the
+framers embody it as an institution, and Sister Ione hands it to a cadet as
+teaching — "you have to keep the second yourself, quietly". Nobody in the
+corpus *arrives* at it as a discovery. The 26 August ruling above (a major
+character could be a complicit leader who repents) is the ready vehicle:
+that arc, read against this theme, is the journey from Krast's shape to
+learning where the bound has to come from. Whether to tie the two is
+Dermot's call — filed under *Decisions awaiting Dermot* in
+`open-questions.md`, not a plan.
+
 ## Wisdom Versus Intelligence
 - Intelligence solves problems.
 - Wisdom chooses which problems are worth solving.

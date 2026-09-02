@@ -8,6 +8,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Added
 
+- **Bounded creativity named as the organising theme; Krast as its anti-pattern** (2026-09-02, from Dermot's own observation; story-bible only, no canon touched). A *Bounded Creativity* section in `story-bible/ideas.md` records the naming verbatim, maps where the corpus already runs on it (creation-by-specification, the bounded-and-instrumented physics rule, the AI safety kernel, the what/how command split, Saturday Shutters), and reads Krast precisely: not too much structure but structure bounded only by itself — the working rule being that *the bound has to come from outside the thing it bounds*. Notes the gap that the anti-pattern has a face and the positive pattern does not, and files whether the 26 August repentant-complicit-leader ruling is that face under *Decisions awaiting Dermot* in `open-questions.md`. One line added to `life-lessons.md`.
+
+### Added
+
 - **A plain-register Reading Plan for the children's edition** (2026-09-01). `lib/editions.js` gains an optional `readingPlan` field, and the pets edition (undercover-pets.com) is the first to carry one: `src/start/index.md` now branches on it, rendering a short "Where to Start" page — begin here, how a chapter works, where to look things up, more stories — in place of Sen's archivist's note, which stays the site-wide plan everywhere else. The registry supplies the sentences; the template supplies the headings, the first chapter of the plan's `startThreadId` resolved against the build's own filtered chapters, and only the reference shelves this build actually carries. `validateEditions` refuses a plan whose start thread is unregistered or not in the edition's own `threads`, and `test/editions.test.js` pins that contract. Measured against the prose it fronts: Season 2's pet-POV blocks read at Flesch-Kincaid grade 7.2; the old plan a child reached from "Begin Reading" read at grade 9.9 with a 56-word sentence and opened on "Start with the spine"; the new one reads at grade 5.3.
 
 ### Changed

@@ -919,6 +919,16 @@ but larger, because nothing in the toolchain looks at `src/video/` at all.
 Not questions about the world — choices only he can make. Kept here so they do
 not evaporate between sessions.
 
+- **Whether the repentant complicit leader is where bounded creativity gets
+  its face** (2 September 2026; `ideas.md`, *Bounded Creativity*). Dermot
+  named bounded/structured creativity as the organising theme of his work
+  and Krast as its anti-pattern. The anti-pattern has a face on the page;
+  the positive pattern has none carried from inside — Tissadelle lives it,
+  the framers institutionalised it, nobody discovers it. The 26 August
+  ruling already licenses a complicit leader who repents; tying that arc to
+  this theme (the journey from Krast's shape to learning the bound must
+  come from outside) is his call. Not a plan; no character or season
+  committed.
 - **Re-filing `clematis-seedheads`.** The photography Macro/Nature boundary was
   written down on 15 August with a measurable test, and applying it would move
   this entry from Nature to Macro. **Explicitly recorded as not decided**, in

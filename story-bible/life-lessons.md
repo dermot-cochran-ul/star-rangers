@@ -17,3 +17,4 @@ and leave the circumstances behind.
 - Most of what was magical does not survive a hard transition; it is lost, or arrives downgraded.
 - Better an honest record with gaps than a reconstruction pretending to be the thing.
 - A life laid down well ends in farewell; the grief belongs to those who stay.
+- A bound worth having comes from outside the thing it bounds; self-restraint alone hardens or is captured.
