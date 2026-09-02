@@ -155,7 +155,8 @@ module.exports = function(eleventyConfig) {
   // rather than by check-internal-links.js.
   validateEditions({
     audioDir: path.join(__dirname, "src", "audio"),
-    cssDir: path.join(__dirname, "src", "css")
+    cssDir: path.join(__dirname, "src", "css"),
+    heroDir: path.join(__dirname, "src", "images", "hero")
   });
   eleventyConfig.addGlobalData("edition", getEdition());
 
