@@ -281,7 +281,10 @@ else: its register is irony, which is the one thing a developing reader
 cannot parse. The season, episode and thread intros followed the same day at
 Dermot's direction (grade 5.8–7.6, every fact and link kept) — they are content
 pages shown on every domain, and the main site reads them too; the season
-intro's aside to the adult in the room stays, in plainer words. **Cast:** Barsik, Bubochka, the Eden warden,
+intro's aside to the adult in the room stays, in plainer words. The
+Characters page hero is Dermot's own *Rock Hyrax on the Coffee Machine* via
+`sectionHeroes` (same day) — the only domain with one; the rest still show the
+pending card. **Cast:** Barsik, Bubochka, the Eden warden,
 Nessa, Rasa Oyelaran — unchanged on 2026-08-21 when every other edition got one,
 because this was the only edition that had ever had a cast of its own and it is
 already right: three animals, the habitat's AI, and the one adult who outranks

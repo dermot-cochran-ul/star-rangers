@@ -9,9 +9,16 @@ const test = require("node:test");
 const assert = require("node:assert/strict");
 const path = require("path");
 
-const { DEFAULT_EDITION, allEditions, validateEditions, validateReadingPlan } = require("../lib/editions");
+const {
+  DEFAULT_EDITION,
+  allEditions,
+  validateEditions,
+  validateReadingPlan,
+  validateSectionHeroes
+} = require("../lib/editions");
 
 const REPO = path.join(__dirname, "..");
+const HERO_DIR = path.join(REPO, "src", "images", "hero");
 
 const goodPlan = () => ({
   startThreadId: "undercover-pets",
@@ -24,8 +31,8 @@ const goodPlan = () => ({
 
 const edition = (overrides) => ({ ...DEFAULT_EDITION, id: "test", ...overrides });
 
-test("the live registry validates, including every readingPlan it carries", () => {
-  validateEditions({ audioDir: path.join(REPO, "src", "audio"), cssDir: path.join(REPO, "src", "css") });
+test("the live registry validates, including every readingPlan and sectionHeroes it carries", () => {
+  validateEditions({ audioDir: path.join(REPO, "src", "audio"), cssDir: path.join(REPO, "src", "css"), heroDir: HERO_DIR });
 });
 
 test("the default edition carries no readingPlan - Sen's note is the site-wide plan", () => {
@@ -92,4 +99,47 @@ test("the pets edition is the one that carries a plan today, and it starts on it
   assert.ok(pets && pets.readingPlan, "pets edition has a readingPlan");
   assert.equal(pets.readingPlan.startThreadId, "undercover-pets");
   assert.ok(pets.threads.includes("undercover-pets"));
+});
+
+// ---- sectionHeroes -------------------------------------------------------
+
+test("a null or absent sectionHeroes is fine", () => {
+  validateSectionHeroes(edition({ sectionHeroes: null }), HERO_DIR);
+  validateSectionHeroes(edition({}), HERO_DIR);
+});
+
+test("a section hero needs a known section, a bare filename and an alt", () => {
+  const good = { characters: { image: "characters-hyrax.jpg", alt: "A hyrax on a machine." } };
+  validateSectionHeroes(edition({ sectionHeroes: good }), HERO_DIR);
+  assert.throws(
+    () => validateSectionHeroes(edition({ sectionHeroes: { lore: good.characters } }), HERO_DIR),
+    /unknown section "lore"/
+  );
+  assert.throws(
+    () => validateSectionHeroes(edition({ sectionHeroes: { characters: { image: "hero/x.jpg", alt: "x" } } })),
+    /bare filename/
+  );
+  assert.throws(
+    () => validateSectionHeroes(edition({ sectionHeroes: { characters: { image: "characters-hyrax.jpg", alt: " " } } })),
+    /alt must be a non-empty/
+  );
+});
+
+test("a section hero must exist on disk and must not be the pending card", () => {
+  assert.throws(
+    () => validateSectionHeroes(edition({ sectionHeroes: { characters: { image: "no-such-file.jpg", alt: "x" } } }), HERO_DIR),
+    /is not in/
+  );
+  // characters-concourse.jpg is the PLACEHOLDER-stamped card the field exists
+  // to get past; naming it as an override is refused.
+  assert.throws(
+    () => validateSectionHeroes(edition({ sectionHeroes: { characters: { image: "characters-concourse.jpg", alt: "x" } } }), HERO_DIR),
+    /PLACEHOLDER-stamped/
+  );
+});
+
+test("the pets edition names a real, unstamped Characters hero", () => {
+  const pets = allEditions().find((e) => e.id === "pets");
+  assert.ok(pets.sectionHeroes && pets.sectionHeroes.characters);
+  validateSectionHeroes({ ...DEFAULT_EDITION, ...pets }, HERO_DIR);
 });
