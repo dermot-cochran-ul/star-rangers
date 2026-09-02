@@ -6,7 +6,7 @@ species: Cyber-Enhanced Cat (Smart Pet, Detective Agency)
 role: Field Observer, Detective Agency Unit
 status: Active
 aliases: []
-tags: [detective-agency, cat, cyber-enhanced, boundary, causeway, season-1, pets]
+tags: [detective-agency, cat, cyber-enhanced, boundary, causeway, season-1, pets, undercover-pets.com]
 description: "A cyber-enhanced cat and detective agency field unit. Highly attuned to asymmetry, consent erosion, and obligation loops."
 image: aldera.jpg
 image_alt: "Aldera, an alert tabby cat with a fine silver implant tracing one ear and a faint lens glint in one eye, sitting upright on a weathered causeway rail above a misty marsh at dawn."

@@ -133,6 +133,8 @@ This repo deploys to **several independently-branded production domains** (cPane
 - `.eleventy.js`'s `eleventyComputed` override drives inclusion — it classifies a page by `inputPath` (`classifyContentPath`), **not** by `data.layout`, because `layout` is itself one of the fields being overridden and its resolution order isn't guaranteed relative to other computed fields (see the long comment at the top of `.eleventy.js` — this bit was a real, subtle bug).
 - `lib/storyline-threads.js` (`STORYLINE_THREADS`) is the single registry of storyline threads and which season numbers belong to each; `threadForSeason()` is the canonical season→thread lookup, exposed as an Eleventy filter and consumed by both the `/threads/` site section and the deploy-time filter.
 
+- A **scene-POV page follows its character, not its chapter** (`isCharacterPovIncluded`, since 2026-09-02): it is real content when the witness is named in `CHARACTERS` or their own character page is included by the build's tags — never merely because the chapter is. Until then only `CHARACTERS` could grant one, and undercover-pets.com (which narrows by topic and thread and names no characters) shipped every one of its 57 "View from" pages as a placeholder.
+
 If you add a new content-bearing field or page type, check whether it needs to participate in `isCharacterIncluded`/`isChapterIncluded`/`isTopicPageIncluded`/`isThreadIncluded` (`lib/content-filter.js`) and `classifyContentPath` (`.eleventy.js`) — otherwise it'll silently always/never be included under a narrowed deploy.
 
 ### Giscus comments

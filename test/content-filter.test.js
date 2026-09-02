@@ -192,11 +192,33 @@ test("isSeasonInIncludedThread: THREADS only, via the season's registered thread
   assert.equal(isSeasonInIncludedThread({ season: 2 }, filterFor({ characters: "barsik" })), false);
 });
 
-test("isCharacterPovIncluded: only CHARACTERS grants a single character's POV page, TOPICS cannot", () => {
-  assert.equal(isCharacterPovIncluded("tissadelle", filterFor({ characters: "tissadelle" })), true);
-  assert.equal(isCharacterPovIncluded("aldera", filterFor({ characters: "tissadelle" })), false);
-  assert.equal(isCharacterPovIncluded("tissadelle", filterFor({ topics: "tissadelle" })), false);
-  assert.equal(isCharacterPovIncluded("anyone", filterFor({})), true);
+// The POV page follows the CHARACTER, not the chapter. `characterData` is
+// passed explicitly here so the truth table does not depend on what the
+// live corpus happens to tag; `null` means "no character page at all".
+test("isCharacterPovIncluded: CHARACTERS grants a POV page outright", () => {
+  assert.equal(isCharacterPovIncluded("tissadelle", filterFor({ characters: "tissadelle" }), undefined, null), true);
+  assert.equal(isCharacterPovIncluded("aldera", filterFor({ characters: "tissadelle" }), undefined, null), false);
+  assert.equal(isCharacterPovIncluded("anyone", filterFor({}), undefined, null), true);
+});
+
+test("isCharacterPovIncluded: a TOPICS/THREADS build grants a POV page when the character's OWN page is included", () => {
+  const pets = filterFor({ topics: "undercover-pets.com", threads: "undercover-pets" });
+  const barsik = { id: "barsik", tags: ["cat", "undercover-pets.com"] };
+  const larsen = { id: "larsen", tags: ["human", "orbital-five-o"] };
+  assert.equal(isCharacterPovIncluded("barsik", pets, undefined, barsik), true);
+  assert.equal(isCharacterPovIncluded("larsen", pets, undefined, larsen), false);
+  // The chapter's tags never stand in for the witness's: no character page,
+  // no POV page, however the chapter itself is included.
+  assert.equal(isCharacterPovIncluded("tissadelle", filterFor({ topics: "tissadelle" }), undefined, null), false);
+});
+
+test("isCharacterPovIncluded looks the character up by id when no data is passed (Aldera regression)", () => {
+  // Aldera's page was tagged `pets` rather than `undercover-pets.com` until
+  // 2026-09-02, so her Season 1 chapters shipped on the children's domain
+  // while her page and every "View from Aldera" button dead-ended.
+  const pets = filterFor({ topics: "undercover-pets.com", threads: "undercover-pets" });
+  assert.equal(isCharacterPovIncluded("aldera", pets), true);
+  assert.equal(isCharacterPovIncluded("no-such-character", pets), false);
 });
 
 test("isCharacterPovIncluded applies the private veto through the chapter's data", () => {
