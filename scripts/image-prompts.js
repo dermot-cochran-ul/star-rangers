@@ -56,6 +56,20 @@
 //   node scripts/image-prompts.js --all           # print every prompt, change nothing
 //   node scripts/image-prompts.js --reset [name]  # un-serve one, or all
 //
+//   REFERENCE IMAGES. An entry may carry a `References:` line among its prose,
+//   before the blockquote, naming image files in backticks:
+//
+//     References: `story-bible/reference-art/tissadelle-headmate-2026-08-24.jpg`
+//
+//   Paths are repo-relative or absolute (Dermot's own frames on F:\ qualify -
+//   standing permission of 11 August 2026, recorded in images.md). --generate
+//   sends them as image parts after the prompt; --next and --only print them
+//   so the clipboard loop can attach them by hand. A named file that does not
+//   exist fails that entry loudly rather than generating without it, because a
+//   reference silently dropped changes the picture. The manifest records which
+//   files were sent, and images.md's provenance rule still applies: say which
+//   plates were used.
+//
 //   --variations N   images per prompt when generating (default 2, max 4)
 //   --model ID       default gemini-3.1-flash-image (Nano Banana 2)
 //   --size 1K|2K|4K  default 2K - import-image.ps1 resizes to 1200/1600 on the
@@ -179,10 +193,13 @@ function parseEntries(markdown) {
     const file = m[1];
 
     let prompt = null;
+    const references = [];
     for (let j = i + 1; j < lines.length; j++) {
       const l = lines[j];
       if (/^\s*[-*]\s+\*\*`/.test(l)) break;
       if (/^#{2,}\s/.test(l)) break;
+      const refLine = l.match(/^\s*(?:\*\*)?References?(?:\*\*)?:\s*(.+)$/i);
+      if (refLine) { references.push(...parseReferenceList(refLine[1])); continue; }
       const q = l.match(/^\s*>\s?(.+)$/);
       if (q) {
         const parts = [q[1].trim()];
@@ -209,13 +226,46 @@ function parseEntries(markdown) {
       file, rel,
       base: path.posix.basename(rel),
       key: `${currentDir}-${rel}`.replace(/[/\\]/g, '-'),
-      dir: currentDir, prompt, orientation,
+      dir: currentDir, prompt, orientation, references,
       target: path.join(IMAGES_DIR, currentDir, file),
       targetRel: `src/images/${currentDir}/${file}`.replace(/\\/g, '/'),
       maxEdge: currentDir === 'characters' ? 1200 : 1600,
     });
   }
   return entries;
+}
+
+// A `References:` line names files in backticks, or as a bare comma-separated
+// list when there are no backticks. Repo-relative paths resolve against the
+// repo root; absolute paths (a JPEG in one of the F:\ camera folders, say)
+// are kept as written. Nothing is checked for existence here - that happens at
+// the moment of sending, where a missing file is an error worth stopping for.
+function parseReferenceList(text) {
+  const ticked = [...String(text).matchAll(/`([^`]+)`/g)].map((m) => m[1].trim());
+  const raw = ticked.length ? ticked : String(text).split(',').map((t) => t.trim());
+  return raw.filter(Boolean).map((r) => (path.isAbsolute(r) ? r : path.resolve(REPO_ROOT, r)));
+}
+
+const REFERENCE_MIME = { '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png', '.webp': 'image/webp' };
+
+// Gemini 3.1 Flash Image accepts up to 14 reference images in one request
+// (checked against ai.google.dev/gemini-api/docs/image-generation, 2 Sept
+// 2026); other models take fewer. The API enforces its own cap, so this only
+// turns a cryptic 400 into a sentence.
+const MAX_REFERENCES = 14;
+
+function loadReferences(entry) {
+  const refs = entry.references || [];
+  if (!refs.length) return [];
+  if (refs.length > MAX_REFERENCES) {
+    throw new Error(`${refs.length} reference images; the model accepts at most ${MAX_REFERENCES}`);
+  }
+  return refs.map((file) => {
+    const mime = REFERENCE_MIME[path.extname(file).toLowerCase()];
+    if (!mime) throw new Error(`reference ${file}: not a JPEG, PNG or WebP`);
+    if (!fs.existsSync(file)) throw new Error(`reference ${file}: file not found`);
+    return { type: 'image', mime_type: mime, data: fs.readFileSync(file).toString('base64') };
+  });
 }
 
 // ---------------------------------------------------------------------------
@@ -425,13 +475,15 @@ function loadApiKey() {
   return key;
 }
 
-async function generateOne(key, opts, entry) {
+async function generateOne(key, opts, entry, referenceParts) {
   const res = await fetch(GEMINI_URL, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key },
     body: JSON.stringify({
       model: opts.model,
-      input: [{ type: 'text', text: entry.prompt }],
+      // Text first, then the reference images - the order the documented
+      // image-editing examples use.
+      input: [{ type: 'text', text: entry.prompt }, ...(referenceParts || [])],
       response_format: {
         type: 'image',
         mime_type: 'image/jpeg',
@@ -495,13 +547,17 @@ async function runGenerate(entries, opts) {
   for (const entry of entries) {
     const dir = path.join(OUT_DIR, entry.key);
     fs.mkdirSync(dir, { recursive: true });
-    process.stdout.write(`${entry.targetRel}  [${ASPECT[entry.orientation]}] … `);
+    const refNote = entry.references.length ? ` +${entry.references.length} ref` : '';
+    process.stdout.write(`${entry.targetRel}  [${ASPECT[entry.orientation]}${refNote}] … `);
 
     const saved = [];
     let lastRaw = null;
     try {
+      // Read once per entry, not once per variation - a 4K reference is a
+      // few megabytes of base64 and the variations share it.
+      const referenceParts = loadReferences(entry);
       for (let v = 0; v < opts.variations; v++) {
-        const { images, raw } = await generateOne(key, opts, entry);
+        const { images, raw } = await generateOne(key, opts, entry, referenceParts);
         lastRaw = raw;
         images.forEach((img, idx) => {
           const n = saved.length + 1;
@@ -515,7 +571,9 @@ async function runGenerate(entries, opts) {
       byKey.set(entry.key, {
         key: entry.key, file: entry.file, target: entry.targetRel,
         maxEdge: entry.maxEdge, aspect: ASPECT[entry.orientation],
-        model: opts.model, size: opts.size, prompt: entry.prompt, outputs: saved,
+        model: opts.model, size: opts.size, prompt: entry.prompt,
+        references: entry.references.map((r) => path.relative(REPO_ROOT, r).replace(/\\/g, '/')),
+        outputs: saved,
       });
     } catch (err) {
       failures++;
@@ -539,7 +597,12 @@ function serve(entry, opts, progress) {
     console.log('                (16:9 even though the prompt says "Portrait orientation" —');
     console.log('                 .character-portrait crops to 16:9, so a tall frame loses its edges)');
   }
-  console.log(`  Filed at:     ${entry.maxEdge}px long edge — generate large, this resizes on the way in\n`);
+  console.log(`  Filed at:     ${entry.maxEdge}px long edge — generate large, this resizes on the way in`);
+  if (entry.references.length) {
+    console.log(`  References:   attach these in the app before generating (${entry.references.length}):`);
+    for (const r of entry.references) console.log(`                ${r}${fs.existsSync(r) ? '' : '   <-- NOT FOUND'}`);
+  }
+  console.log('');
   console.log(entry.prompt);
   console.log('');
 
@@ -640,7 +703,10 @@ async function main() {
   }
 
   if (opts.mode === 'all') {
-    for (const e of entries) console.log(`\n### ${e.targetRel}  [${e.maxEdge}px]\n\n${e.prompt}`);
+    for (const e of entries) {
+      const refs = e.references.length ? `\nReferences: ${e.references.join(', ')}\n` : '';
+      console.log(`\n### ${e.targetRel}  [${e.maxEdge}px]\n${refs}\n${e.prompt}`);
+    }
     console.log(`\n${entries.length} prompt(s). Nothing changed.`);
     return;
   }
@@ -690,7 +756,11 @@ async function main() {
   else if (counts.generated || counts.served) console.log('Next: .\\scripts\\image-file.ps1 -WhatIf');
 }
 
-main().catch((err) => {
-  console.error(`\nimage-prompts: ${err.message}`);
-  process.exit(1);
-});
+module.exports = { parseEntries, parseReferenceList, loadReferences, MAX_REFERENCES };
+
+if (require.main === module) {
+  main().catch((err) => {
+    console.error(`\nimage-prompts: ${err.message}`);
+    process.exit(1);
+  });
+}

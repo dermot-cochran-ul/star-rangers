@@ -182,8 +182,34 @@ spells correctly and image models do not. Motifs: `rules`, `dissolution`, `none`
   only costs more.
 - **Reference images** are the only lever for making a *set* look like a set —
   worth reaching for on the character portraits, where twelve separately
-  generated faces otherwise share no house style. The scripts do not send them
-  yet; an app takes up to six.
+  generated faces otherwise share no house style. **The script sends them
+  (2 September 2026).** Give an entry a `References:` line among its prose,
+  before the blockquote, naming the files in backticks — repo-relative
+  (`story-bible/reference-art/…`) or absolute (a frame in one of the `F:\`
+  camera folders):
+
+  > References: `story-bible/reference-art/tissadelle-headmate-2026-08-24.jpg`
+
+  `--generate` sends them as image parts after the prompt; `--next` and
+  `--only` print them so the clipboard loop can attach them by hand. A named
+  file that is missing fails that entry rather than generating without it — a
+  reference silently dropped is a different picture. Gemini 3.1 Flash Image
+  takes up to fourteen in one request; the manifest records which were sent,
+  and the provenance rule below still applies: name the plates in
+  `image-prompts.md`.
+- **Photo first, generation last** (Dermot, 2 September 2026: *"AI enhancements
+  of or superpositions into original photographs are often more pleasing than
+  purely AI generated images entirely from a text prompt."*). The order for any
+  new image is therefore: his own photograph as it stands or cropped; his
+  photograph as the plate with a generated element composited in or the frame
+  extended; generation with his photographs as references; and a pure
+  text-to-image result only when nothing of his fits. Run `--catalogue` before
+  `--generate` for that reason. He asked the same day whether his photographs
+  could act as fine-tuning: not on Gemini, which offers no user fine-tuning —
+  references are the lever it has. A LoRA on an open model trained on a few
+  dozen of his frames would learn the look, and he has parked that as probably
+  too ambitious for now, while noting a separate repo could be opened for it if
+  it is ever wanted.
 - **Dermot's own photographs may be used as references.** Standing permission,
   11 August 2026: *"any of my existing photos may be used as references for
   image generation, in future, if relevant or needed."* This is the sharpest
