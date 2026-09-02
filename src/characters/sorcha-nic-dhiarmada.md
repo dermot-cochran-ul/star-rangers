@@ -6,7 +6,7 @@ species: Human
 role: Valley Warden, Gleann na gCaorach, Drithane
 status: Active
 aliases: []
-tags: [drithane, celtic-union, valley-warden, crossing-night, shepherd]
+tags: [drithane, celtic-union, valley-warden, crossing-night, shepherd, undercover-pets.com]
 description: "Warden of the Gleann na gCaorach valley chain on Drithane — a shepherd who reads animals for a living, walks the crossing-night dark-down because a kept custom should be seen to be kept, and has never yet met the refusal she couldn't deliver courteously in four seconds."
 known_codex: []
 ---

@@ -284,7 +284,13 @@ pages shown on every domain, and the main site reads them too; the season
 intro's aside to the adult in the room stays, in plainer words. The
 Characters page hero is Dermot's own *Rock Hyrax on the Coffee Machine* via
 `sectionHeroes` (same day) — the only domain with one; the rest still show the
-pending card. **Cast:** Barsik, Bubochka, the Eden warden,
+pending card. Its "Not included" placeholder is plain register with no link to
+the adult site (`excludedNotice`, 2 September) — a child cannot judge that
+link, so the page says it is not here and points back to the story. Same day,
+the scene-POV rule was fixed so an animal's "View from" page is real here (all
+57 had been placeholders), and Aldera and Sorcha joined the domain's cast by
+tag; the Season 1 companions and the Five-O cast stay out by Dermot's choice.
+**Cast:** Barsik, Bubochka, the Eden warden,
 Nessa, Rasa Oyelaran — unchanged on 2026-08-21 when every other edition got one,
 because this was the only edition that had ever had a cast of its own and it is
 already right: three animals, the habitat's AI, and the one adult who outranks

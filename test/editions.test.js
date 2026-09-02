@@ -143,3 +143,34 @@ test("the pets edition names a real, unstamped Characters hero", () => {
   assert.ok(pets.sectionHeroes && pets.sectionHeroes.characters);
   validateSectionHeroes({ ...DEFAULT_EDITION, ...pets }, HERO_DIR);
 });
+
+// ---- excludedNotice ------------------------------------------------------
+
+const { validateExcludedNotice } = require("../lib/editions");
+
+test("a null or absent excludedNotice is fine", () => {
+  validateExcludedNotice(edition({ excludedNotice: null }));
+  validateExcludedNotice(edition({}));
+});
+
+test("an excludedNotice needs title, intro and back, and nothing else", () => {
+  const good = { title: "Not on this site", intro: "It isn't here.", back: "Back" };
+  validateExcludedNotice(edition({ excludedNotice: good }));
+  for (const field of ["title", "intro", "back"]) {
+    assert.throws(
+      () => validateExcludedNotice(edition({ excludedNotice: { ...good, [field]: " " } })),
+      new RegExp(`excludedNotice\\.${field} must be a non-empty string`),
+      field
+    );
+  }
+  assert.throws(
+    () => validateExcludedNotice(edition({ excludedNotice: { ...good, link: "https://x" } })),
+    /unknown field "link"/
+  );
+});
+
+test("the pets edition carries a plain-register notice", () => {
+  const pets = allEditions().find((e) => e.id === "pets");
+  assert.ok(pets.excludedNotice);
+  validateExcludedNotice({ ...DEFAULT_EDITION, ...pets });
+});
