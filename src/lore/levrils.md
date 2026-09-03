@@ -80,6 +80,8 @@ between them is entirely one of permitted function and not of power. Neither
 could do the other's work; neither is the senior version of the other in any
 sense that would let it try.
 
+**The difference is also one of scale of attention.** A Higher Levril's work is cross-Concordant, and its attention moves the way its work does: across systems and across Concordant boundaries, resting on a person where a Champion is being taught and on a place almost never. The record holds no Higher Levril whose presence is inferred at one world alone; the Turquoise Dove's is read from field logs at boundary stations across at least two Concordants, which is what a Higher Levril's trail looks like. A Levril that stays with one planet, one station or one clearing for as long as a duty takes is doing a Dragon's work, which is frontier work and is local by design. A witness who believes a senior Levril has taken an interest in their world should expect to be wrong in one of two ways: it is a Dragon, or the interest is in someone, not somewhere.
+
 **Demons, Beautiful Monsters, and Threnes** are also meta-dimensional beings ranked below Celestials, but they are **not** Levrils and hold **no Cascade standing** — they are Class II Sapient Monsters, alongside Court-Fae and Gilded Saints. See [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/).
 
 ## Two Occasions, One Constraint

@@ -1292,3 +1292,12 @@ into a feline humanoid using magic. Drafted as
 blocks, slot unfixed. **Approved 3 September 2026.** Open: only the slot — a Season 1 chapter
 before *The Right Question*, a gated block, or the story bible where it
 sits; unfixed until Dermot names one.
+
+## The scale of Celestials and Higher Levrils — `intake-2026-09-03.md`, sixteenth direction
+
+Dermot, 3 September 2026: Celestials operate at galactic level or wider; a
+Higher Levril rarely focuses on one planet. Drafted onto `cosmic-cascade.md`,
+`levrils.md` and `celestials.md`, draft-and-stop. Open: whether the galactic
+floor is a fact about Celestial attention only (drafted) or about a
+Concordant's size; whether "rare" becomes "almost never, and otherwise a
+Dragon"; one authored line to strike if it overreaches.
