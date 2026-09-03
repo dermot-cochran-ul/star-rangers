@@ -8,6 +8,8 @@ status: Active
 aliases: []
 tags: [human, star-rangers, field-officer, general-operations, boundary-watch, mentor]
 description: "A career Field Officer on the boundary watch — the rank most civilians mean when they say a Star Ranger came, held on purpose and at length, and the officer the Corps quietly hands its rawest Deputies to first."
+image: "zoe-smith.jpg"
+image_alt: "Zoe Smith, a woman in her fifties with short grey hair, in plain grey-brown Star Rangers service dress with a small tab at the collar, standing in a worn, evenly lit residential corridor of a space habitat, half-turned toward someone at a doorway on the right and listening, hands loosely together. The hatches around her are plain and unmarked."
 ---
 
 When somebody on a habitat deck says *a Star Ranger came*, the person they are remembering almost never held a captain's rank. They are remembering someone at [Field Officer](/star-rangers/lore/star-rangers-command-hierarchy/) — the first rank that can be posted independently, the last one most civilians ever stand in a corridor with, and the rung the collective word actually describes before it describes anything above it. Zoe Smith has held it for most of a long career, and holds it still.
