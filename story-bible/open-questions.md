@@ -809,10 +809,14 @@ be found without reading 1,300 lines.
   never committed (one content version each for `cerebraun`, `aldera`, `rook-7`,
   `nessa`, `orla-shepherd`; only `qiren-tal` has two), so the rule is effectively
   **prospective** and the retroactivity question is much smaller than it looked.
-  Two things still to decide: whether it overrides the codex title-card
-  convention, and whether it is retroactive at all.
-  `CLAUDE.md`'s image conventions are deliberately **not** updated yet, since
-  stating an unsettled convention there is worse than stating none.
+  ~~Two things still to decide: whether it overrides the codex title-card
+  convention, and whether it is retroactive at all.~~ **Both RULED 3 September
+  2026** (`images.md`, *Two things decided*): the title-card convention
+  stands and the artwork goes in the entry body with a caption naming its
+  in-world maker; and the rule is prospective only — the sole recoverable
+  candidate, Qiren Tal v1, was opened and fails the quality bar on trope and
+  tone. Nothing on this item is open except its first test case, the headmate
+  image below.
 - **The emblem-card recipe is lost.** `images.md:1292` — *"Still open after
   this: the emblem-card recipe."* Nothing on record recovers how the existing
   emblem cards were made, so a new one cannot currently be produced to match.
@@ -837,8 +841,9 @@ be found without reading 1,300 lines.
   instruction not to invent the connection; (2) whether depicting any of
   Tissadelle's members breaches the
   *hint, don't show* interiority guardrail that protects the S6–7 endgame;
-  (3) the Codex-art route's own two open decisions, plus the codex entry (with
-  in-universe author) the artwork would need to live on; (4) mechanically, the
+  (3) ~~the Codex-art route's own two open decisions~~ (ruled 3 September
+  2026 — card in the header, artwork in the body, prospective only), plus the
+  codex entry (with in-universe author) the artwork would need to live on; (4) mechanically, the
   Botify AI watermark and 768px width. This would be the **first entry in the
   Codex-art pool**, which was empty when the 18 August rule was recorded.
 
