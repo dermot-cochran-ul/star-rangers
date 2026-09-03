@@ -3078,6 +3078,61 @@ the moment a prompt moves up it has been decided.
   Worth either fixing or amending the table; the table currently reads as
   though it were enforced.
 
+#### Batch 2 closed — every lore image opened, 3 September 2026
+
+The "roughly 45 judged from alt text and never opened" remainder of the
+12 August audit. All 123 files under `src/images/lore/` were laid out on
+fresh contact sheets with filename, size and alt text, and every one was
+looked at; twelve were pulled to full size. Judged against the seven
+questions in `F:\CLAUDE\Star Rangers Image Review\REVIEW-DECISIONS.md` and
+the 18 August exclusions.
+
+**Replaced with designed emblem cards (`make-emblem-card.ps1`), seven** — all
+stock photographs of contemporary objects on concept or institution pages,
+which fails the anachronism exclusion outright and needs no Codex offer. The
+epithet and qualifier lines are lifted from each page's own `description`
+(derived, not authored); the device follows the tool's vocabulary.
+
+| File | What it was | Device |
+| --- | --- | --- |
+| `galactic-stardate.jpg` | Sepia antique clock face over a paper calendar — the twin of the French dial deleted 15 August | sundial |
+| `year-zero.jpg` | A steampunk relief of cogs, a hot-air balloon, raised letters and the digits 1870 | sundial |
+| `post-teleport-ascension-stress-disorder.jpg` | A stock render of a present-day operating theatre: C-arm scanner, surgical robot, monitors | fold |
+| `knarr-line.jpg` | A real ISS cupola window with a Soyuz outside, labelled hardware in frame | chevron |
+| `federation-of-sentient-beings.jpg` | A real Earth-observation satellite over cloud, portrait-oriented into a landscape slot | rings |
+| `star-rangers-command-hierarchy.jpg` | A delegate's voting console in a real parliament chamber — Tier 2's own named example | chevron |
+| `united-space-consortium.jpg` | The same chamber, the same console, a different crop | rings |
+
+**Cropped, two** — Dermot's own Tenerife frames on Kernowek Reach carried a
+yellow road sign at the bottom edge: `highland-rock-spires.jpg` (1600×1168 →
+1600×1080) and `highland-sentinel-lizard.jpg` (1168×880 → 1168×816). A crop
+is within the darkroom test; nothing else touched.
+
+**Looked at and kept, with the reason recorded:**
+
+- `island-watchtower.jpg` — Dermot's Dalkey Island frame on *The Cost of the
+  Crossing*: a round stone tower and a ruined stone house on a green island.
+  Locally recognisable, not iconic; a stone tower can stand as a ruin in any
+  century, and the alt names nothing. Kept. Dermot's call if he reads it as a
+  real place.
+- `noogenic-seeding-system.jpg` — the JWST Carina "cosmic cliffs" (NASA/ESA/CSA,
+  public domain) with a small composited circuit motif. A nebula is not of a
+  century; kept as tier 4, alt accurate.
+- `the-fusion-ceiling.jpg` — generated; two workers, faces small and turned,
+  no lettering. Kept.
+- `the-imperium.jpg` — real skyscraper, already the recorded precedent for
+  *art is illustrative*. Left as the conventions say.
+- `canonical-glossary-and-migration-guide.jpg` — a stock open book at 1920px.
+  Claims nothing, dates nothing; a card would suit a reference page better.
+  Left for an opportunistic swap, not a project.
+- Everything else: designed cards, abstract or astronomical stock (tier 4),
+  generated scenes with no legible face, and Dermot's own frames. Nothing
+  else fails a question.
+
+**Still open from the same look, unchanged:** the twelve `prismere-*` /
+`prismeri-*` files at 768px (the regenerate-or-upscale decision) and the size
+breaches under *Convention breaches* above.
+
 ### Intake 2026-08-24 — first candidate for the Codex-art pool: a headmate of Tissadelle
 
 Dermot supplied one generated image in session (Botify AI; no prompt kept),
