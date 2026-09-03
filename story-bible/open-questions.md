@@ -1249,8 +1249,8 @@ parked in `story-bible/reference-art/`. Open:
   drafted onto `prismeri.md`, draft-and-stop): wings as forelimbs with three
   free fingers, prehensile hind feet, quadrupedal on the ground, hanging at
   rest, a ridge-band that reads the overhead light, a mineral-feeder's mouth,
-  lenses where other peoples had fire. Six readings flagged in
-  `intake-2026-09-03.md`, eleventh direction. Prompts follow once confirmed.
+  lenses where other peoples had fire. **All six readings confirmed and merged,
+  3 September 2026.** Prompts rewritten to the body the same evening.
 - ~~**"The four-islands-quest."**~~ **Answered 3 September 2026: it is its own
   repository** — `dermot-r-cochran/four-islands-quest`, a one-file browser
   quest engine with the Kingdom of the Four Sounds aboard, not a thread of
