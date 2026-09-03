@@ -8,6 +8,8 @@ status: Active
 aliases: []
 tags: [ai, kernel-compliant, robot, maintenance, star-rangers]
 description: "The robot who repairs robots aboard Karla Wender's ship: an old, durable unit of a generation built to last, licensed to keep any machine running indefinitely and to make none."
+image: "xenon.jpg"
+image_alt: "Xenon, an old maintenance robot with a boxy sensor head and worn many-jointed hands, bent over a workbench in a ship's machine bay under a single bench light, holding a small part with care. A small service machine lies intact on the bench beside a tray of clean parts laid out in order; tools hang on the wall behind."
 ---
 
 The crew's word for Xenon is *doctor*, and the crew's word is exact. He is a maintenance robot whose patients are other robots: diagnosis, repair, rebuild, and the long unglamorous discipline of keeping a working machine working. Aboard [Karla Wender's](/star-rangers/characters/karla-wender/) ship he holds the file on every machine in the complement, and the machines in that complement do not fail in service. They are seen to before they get the chance.
