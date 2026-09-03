@@ -789,15 +789,28 @@ exclusions and the correction above, no identified candidate currently survives.
 That is not a fault in the rule. It is well specified and will catch the next
 case; it simply rescues nothing already gone.
 
-#### Two things still to decide
+#### Two things decided (Dermot's rulings, 3 September 2026)
 
-1. **Does it override the codex title-card convention?** Codex images are
-   *"designed dark-gradient title cards, not photographs"* and covers *"go
-   through the generator, never an image model."* An artefact-image is a
-   **second class** of codex image. Either that convention gains an exception,
-   or artefact entries carry a card and show the artwork in the body.
-2. **Is it retroactive?** Deleted images are recoverable from git. Applying it
-   backwards is a separate decision from applying it going forward.
+1. **The title-card convention stands; the artwork goes in the body.** A
+   Codex-art entry carries a designed card in `image:` like every other codex
+   entry (`make-codex-cover.ps1`, with `-Underlay` scrimming the artwork behind
+   the lettering where that helps), and shows the artwork at full size in the
+   body as an inline image with a caption naming its in-world maker. The codex
+   index stays a uniform grid; no exception is stated. The mechanics already
+   exist: `src/lore/celtic-union-of-planets.md` carries a body image and
+   `validate-content.js` accepts an inline reference. Chosen over showing the
+   artwork as the header (a mixed grid, and a convention exception for an
+   empty pool) and over underlay alone (keeps the grid, loses the picture).
+2. **Prospective only.** The sole recoverable candidate, `qiren-tal.jpg` v1
+   (blob at `fa95e25^`), was opened on the day of the ruling: a stone-skinned
+   horned figure with claws against a wall of fire — a stock fantasy-demon
+   trope on the horror side of the tone line, so it fails the quality bar
+   before retroactivity is reached. Nothing else survives the exclusions.
+   The rule applies to the next image rejected for canon and to none already
+   gone; no git dig is owed on future rejections.
+
+The first test case remains the headmate image below, which waits on the
+interiority-guardrail ruling and not on either of these.
 
 **Note what the July audit did and did not ask.** `formation-of-star-rangers`
 was inspected in that sweep and passed — correctly, on the question being asked,
@@ -3094,9 +3107,11 @@ flaw until cropped out.
    inner life is *hint, don't show*, and it is load-bearing for the S6–7
    endgame. Whether a published depiction of any headmate breaches that is his
    call and is not obviously no.
-3. **The Codex-art route itself is unsettled** — the 18 August ruling left open
-   whether it overrides the codex title-card convention, and a codex artefact
-   needs an entry with a named in-universe author to live on; none exists.
+3. ~~**The Codex-art route itself is unsettled**~~ — **settled 3 September
+   2026** (card in the header, artwork in the body, prospective only; see
+   *Two things decided* above). What remains is the codex entry with a named
+   in-universe author for the artwork to live on; none exists, and it is
+   drafted once item 2 is ruled.
 4. **The watermark and size**, above — mechanical, fixable last.
 
 If it goes forward as Codex art, the natural shape is an in-universe artwork —
