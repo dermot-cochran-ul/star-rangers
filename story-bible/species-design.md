@@ -300,3 +300,58 @@ not Chthonari (airborne acoustics, not substrate vibration in vacuum), not
 Ilveth (their involuntary channel is *addressed to everyone*, so their
 contact failure was answering it — the opposite courtesy). Open ends
 indexed in `open-questions.md` under the 29 August section.
+
+---
+
+## Prismeri — Prismere (derived 3 September 2026, Dermot's direction: *"derive the prismere body form based on their planetary ecology please"*)
+
+Drafted into `src/lore/prismeri.md` as three sections (*A Body for Thin Ground
+and Thick Air*, *What They Are Structurally Bad At*, *The Thing Outsiders Get
+Wrong*) on the Krenyi pattern; draft-and-stop. The seven questions, answered
+from `src/lore/planets/prismere.md` and what the Prismeri page already held:
+
+1. **What the world does to a body.** Low gravity, dense particulate air, a
+   biosphere that lights itself from below, a silent apex glider that hunts
+   from above at dusk. So: flight is cheap and honest; a light, long, level-
+   spined frame; wings as forelimbs, not as an addition to arms; an upward-
+   looking threat sense; a curfew written into the body.
+2. **How it senses.** Two forward eyes low on the head for a flier's depth of
+   field; a crystalline facet band along the skull ridge that images nothing
+   and reads change in the overhead light (the ray-shadow sense); in Full
+   Wings, the canon tendrils from the same ridge, reading corridor geometry
+   directly. The Lattice is a thing the world shows; the tendrils are the
+   organ that reads it without the haze.
+3. **Limbs and what they are for.** Four. Wing-forelimbs with three free
+   clawed fingers at the leading edge (the hands); prehensile long-toed hind
+   feet (the hold). Quadrupedal on the ground, knuckle-walking on folded
+   wings, four-point launch — the umbral ray's own method, so the world
+   already has it. Manipulation finer than the manipulator comes from the
+   division: feet hold, fingers work, which needs the body to hang.
+4. **Symmetry.** Bilateral; flight favours it and nothing here needs
+   otherwise.
+5. **Life cycle.** Already canon: two adult forms, an irreversible moult in a
+   self-secreted mineral shell, not universal, no hierarchy. The derivation
+   adds only that the forms are one body at two hardnesses and that the
+   weight of Full Wings is what divides the work — forest flight versus haze
+   flight — so neither would trade.
+6. **What a Ranger station costs them.** Gravity: cannot fly, cannot hang,
+   spends the posting on four knuckles with nothing overhead. Plus the
+   spectrum and corridor-geometry accommodations already in canon. Plus the
+   drone startle: a shape crossing overhead is the one thing the body cannot
+   be talked out of noticing.
+7. **What the biology made them good at, and the job that followed.** Sky-
+   reading, hence the astrogation guilds (canon). And the materials
+   bottleneck: no fire on a glass world, so light-concentration instead —
+   the lens foliage taught them to fuse silica with focused sun; no
+   metallurgy of their own; the Federation's alloy is Aspenar's, and
+   Prismere's contribution is expertise "because expertise is what the world
+   made cheap" (the planet page already says the contribution is expertise;
+   this gives it a reason).
+
+**Traps avoided.** No human frame: the spine is level, the wings are the
+forelimbs, rest is hanging, ground travel is quadrupedal. No insectoid head
+on a biped (the Qiren Tal failure). No planet of hats: the two forms do
+different work for a physical reason, and the outsiders-get-wrong section is
+about posture, which is the Krenyi standard applied.
+
+**Readings flagged in `intake-2026-09-03.md`, eleventh direction.**
