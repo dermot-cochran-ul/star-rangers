@@ -13,6 +13,7 @@ const matter = require("gray-matter");
 const { CONTENT_TYPES, TIMELINE_TYPE, CHAPTER_ID_PATTERN, isTimelineEntry, chapterIdFor } = require("../lib/content-schema");
 const { privateThreadForPage, checkPrivateThreadSignatureTags } = require("../lib/content-filter");
 const { isPlaceholderImage } = require("../lib/placeholder-marker");
+const { TIER_ORDER } = require("../lib/editions");
 
 const SRC_DIR = path.join(__dirname, "..", "src");
 
@@ -99,6 +100,13 @@ function checkChapterConsistency(inputPath, data, relativePath) {
     data.povs.forEach((pov, index) => {
       if (!pov || isBlank(pov.id) || isBlank(pov.label)) {
         problems.push(`povs[${index}] needs both an "id" and a "label"`);
+      }
+      // A tier-gated block (`::: pov <id> tier=<tier>` in the body) is
+      // mirrored here so the "View from" buttons can be gated the same way.
+      // An unknown tier would render the block everywhere while hiding its
+      // button nowhere, silently - so it fails here instead.
+      if (pov && pov.tier !== undefined && !TIER_ORDER.includes(String(pov.tier))) {
+        problems.push(`povs[${index}] names tier "${pov.tier}", which is not one of ${TIER_ORDER.join(", ")}`);
       }
     });
 

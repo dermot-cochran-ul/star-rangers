@@ -549,7 +549,9 @@ editions are the only complete view, and that is intended.
 
 **The overlay rule.** A contemplative-tier POV scene may be added to any
 chapter of any thread and renders only on contemplative builds — an overlay
-the tiers below never see (mechanism in the PR after the ladder). The
+the tiers below never see (`::: pov <id> tier=contemplative`, gated by the
+build's edition tier in `lib/markdown-containers.js`, mirrored by `tier:` on
+the `povs:` entry so the buttons follow). The
 children's self-containment rule climbs the ladder with it: every tier's
 reading of a chapter must be complete without the blocks the tier above adds.
 

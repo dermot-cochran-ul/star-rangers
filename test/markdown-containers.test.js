@@ -71,3 +71,66 @@ test("an info string that fails validation renders as plain text, not a containe
   const scene = md.render("::::: scene\nBody.\n:::::\n");
   assert.ok(!scene.includes('class="scene"'));
 });
+
+// TIER-GATED POV BLOCKS (2026-09-03): `::: pov <id> tier=contemplative`
+// renders only on a build at that tier or above, and is dropped from the
+// token stream everywhere else. These pin the gate on both sides, the
+// default build tier, the attribute, and that an ungated block is untouched.
+const { parsePovInfo, povTierVisible } = require("../lib/markdown-containers");
+
+const gated = [
+  "::::: scene 1",
+  "::: pov aldera",
+  "Seen by all.",
+  ":::",
+  "::: pov brother-fintan tier=contemplative",
+  "Seen only in the night office.",
+  ":::",
+  ":::::",
+  ""
+].join("\n");
+
+test("a contemplative block is absent on a general build, and on the children's and young-adult builds", () => {
+  for (const buildTier of ["general", "young-adult", "children"]) {
+    const html = createMarkdownRenderer({ buildTier }).render(gated);
+    assert.equal(count(html, 'class="pov-block"'), 1, buildTier);
+    assert.ok(html.includes("Seen by all."));
+    assert.ok(!html.includes("Seen only in the night office."), buildTier);
+    assert.ok(!html.includes("brother-fintan"), buildTier);
+    // the scene wrapper still closes cleanly around what remains
+    assert.ok(html.trimEnd().endsWith("</section>\n</section>"));
+  }
+});
+
+test("a contemplative block renders on a contemplative build, carrying its tier", () => {
+  const html = createMarkdownRenderer({ buildTier: "contemplative" }).render(gated);
+  assert.equal(count(html, 'class="pov-block"'), 2);
+  assert.ok(html.includes("Seen only in the night office."));
+  assert.ok(html.includes('data-pov="brother-fintan" data-tier="contemplative"'));
+});
+
+test("a build with no tier is the general tier, so it does not show a contemplative block", () => {
+  const html = createMarkdownRenderer().render(gated);
+  assert.equal(count(html, 'class="pov-block"'), 1);
+});
+
+test("an ungated block never carries data-tier and is visible at every tier", () => {
+  for (const buildTier of ["children", "young-adult", "general", "contemplative"]) {
+    const html = createMarkdownRenderer({ buildTier }).render("::: pov aldera\nHer view.\n:::\n");
+    assert.ok(html.includes('data-pov="aldera" aria-label'));
+    assert.ok(!html.includes("data-tier"));
+  }
+});
+
+test("parsePovInfo and povTierVisible are the shared predicate", () => {
+  assert.deepEqual(parsePovInfo("pov aldera"), { id: "aldera", tier: null });
+  assert.deepEqual(parsePovInfo("pov aldera tier=contemplative"), { id: "aldera", tier: "contemplative" });
+  assert.equal(parsePovInfo("pov"), null);
+  assert.equal(povTierVisible(null, "children"), true);
+  assert.equal(povTierVisible("contemplative", "general"), false);
+  assert.equal(povTierVisible("contemplative", "contemplative"), true);
+  assert.equal(povTierVisible("children", "young-adult"), true);
+  // an unknown build tier reads as general
+  assert.equal(povTierVisible("contemplative", undefined), false);
+  assert.equal(povTierVisible("general", undefined), true);
+});
