@@ -1295,6 +1295,8 @@ sits; unfixed until Dermot names one.
 
 ## The scale of Celestials and Higher Levrils — `intake-2026-09-03.md`, sixteenth direction
 
+**RULED 3 September 2026 — all four readings confirmed, merged. Nothing open.**
+
 Dermot, 3 September 2026: Celestials operate at galactic level or wider; a
 Higher Levril rarely focuses on one planet. Drafted onto `cosmic-cascade.md`,
 `levrils.md` and `celestials.md`, draft-and-stop. Open: whether the galactic
