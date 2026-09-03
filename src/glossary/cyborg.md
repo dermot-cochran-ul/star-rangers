@@ -13,7 +13,7 @@ tags: [cyborg, augmentation, regulation, technology, imperium, military-space-co
 
 **Cyborg** designates a living being — human or animal — carrying physical cybernetic modification to the body itself: replaced or augmented limbs, sensory hardware, neural interfacing wired directly into biological tissue. It is a distinct category from [Smart Pet](/star-rangers/glossary/smart-pet/), which covers an AI cognitive subsystem running *alongside* an unmodified biological body. An individual can hold either status, both, or neither, and the two are certified — and regulated — separately.
 
-[Aldera](/star-rangers/characters/aldera/) is both: Smart Pet certified and cyber-enhanced, two separate designations layered on the same cat rather than one implying the other.
+[Aldera](/star-rangers/characters/aldera/) is both: Smart Pet certified and cyber-enhanced, two separate designations layered on the same cat rather than one implying the other. Her modification is a communications channel rather than a sense — the uplink and the record that let a cat file a log — and it was cleared as the least invasive means to an end the agency could reach no other way; her page carries the reasoning.
 
 ## History
 
