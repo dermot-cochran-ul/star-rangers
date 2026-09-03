@@ -4,6 +4,9 @@ title: "Episode 2"
 eleventyComputed:
   description: "Chapters in Season 8, Episode 2 of {{ site.name }}."
 permalink: /seasons/s08/e02/
+# Season 8 is the private church-space thread; index pages have no season front
+# matter of their own, so they carry the thread id explicitly (see e01).
+threadId: church-space
 ---
 <nav class="chapter-breadcrumb" aria-label="Episode location">
   <ol class="breadcrumb" role="list">
