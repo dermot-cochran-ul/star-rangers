@@ -1257,3 +1257,27 @@ parked in `story-bible/reference-art/`. Open:
   Three readings put to Dermot: a quest thread or season set in the Kingdom
   not yet registered; the Kingdom's own devotional art, winged figures as
   Codex art with an in-world maker; or a quest in Tissadelle's inner world.
+## Climate repair and terraforming — `intake-2026-09-03.md`, ninth direction — RULED 3 September 2026
+
+**All readings, and the tenth direction's, confirmed the same day; entry merged
+with cross-links from the Crisis Centuries, FTP and Mars pages. Nothing open.**
+
+Dermot, 3 September 2026: terraforming technology developed as a response to
+global warming and climate change. Drafted as
+`src/lore/climate-repair-and-terraforming.md` (History), draft-and-stop.
+Open, all in the intake:
+
+- **Earth as the first terraformed world**, the word arriving backwards from
+  Mars — confirm.
+- **Hurried failures on Earth**, unnamed, as the FTP root cause's ancestor —
+  drafted as one sentence; confirm or choose silence.
+- **Restoration is not transformation** — new doctrine on the charter's
+  living-world clause, drafted as the in-story explanation of the gap;
+  confirm, or leave the tension as a marked absence, or narrow the clause
+  to frontier worlds.
+- **Planetary engineering as a career discipline** (tenth direction, same
+  day): drafted as a section of the same entry — new when the crisis made it,
+  civil not Corps, Demelza Trevithick the living example; confirm the two
+  readings, strike the temperament line if it overreaches.
+- **Cross-links** to the Crisis Centuries, FTP, Mars and Venice pages wait on
+  the entry merging.
