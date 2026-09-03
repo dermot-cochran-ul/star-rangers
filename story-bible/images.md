@@ -1323,12 +1323,19 @@ go in its bullet prose, never in the quote.)
     (this is a stores room, not a hatch frame), clipboard, slate, notebook, pen,
     writing, cage, hutch, carrier with lettering.
 
-#### Outstanding portraits — audited 19 August 2026 (25 pages)
+#### Outstanding portraits — audited 19 August 2026 (25 pages); **retired 3 September 2026**
 
-The pages that carry no `image:` today. This is a **list, not a prompt set** —
-only Anne's prompt is written, because that is what was asked for. The other 24
-are named so the next session starts from a true count rather than re-deriving
-one.
+**All twenty-five have images as of PRs #630 and #631** (3 September 2026, the
+28 August generation run reviewed and filed). Re-derived from the pages after
+the merge, the only character pages without an `image:` are `ilsabet-corren`,
+`marisol-achebe` (prompt queued, #628) and `the-kept-line`. The list below is
+kept as the record of what the 19 August audit found; the command after it is
+still the way to get a true count.
+
+The pages that carried no `image:` on 19 August. This was a **list, not a prompt
+set** — only Anne's prompt was written, because that is what was asked for. The
+other 24 were named so the next session started from a true count rather than
+re-deriving one.
 
 ```
 alala · andrew-falkorian · anne-de-courtney · anne-wender · dagny-voss
