@@ -776,6 +776,18 @@ Still live:
 this section indexes only what is **undecided or awaiting a look**, so it can
 be found without reading 1,300 lines.
 
+- ~~**The AI-image exemption's boundary.**~~ **RULED 3 September 2026.** The
+  portfolio's own-work-only rule stops at this repository, and the exemption
+  now has a written shape under *Conventions* in `images.md`: a generator may
+  make only what no camera can; anything a camera can photograph comes from
+  Dermot's frames or takes a card; the membrane runs one way, nothing the
+  pipeline touches returns to the portfolio or a competition; the About page
+  discloses it once. Chosen over two alternatives, a declared-temporary
+  "generation as debt" model and the unwritten status quo. **It also settles
+  the Tier 2 stock-landscape policy** (`images.md`, *Images that should not
+  stay*): replace from the archive when a frame fits, card otherwise,
+  opportunistically. The Codex-art refiling questions below are unaffected.
+
 - **Refiling contradicting images as Codex art — three decisions open.**
   Dermot's direction of 18 August 2026: an image that contradicts canon but
   remains aesthetic may move into the Codex as in-universe artwork rather than
