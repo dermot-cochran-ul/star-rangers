@@ -10,6 +10,8 @@ aliases:
   - "Wender"
 tags: [human, wender, frontier, cairn-trust, sheriff, frontier-corps, caretaker-clause, eden, season-1, prequel]
 description: "The eldest survivor of the wreck of 2788, and later the first sheriff a frontier world ever swore in — on a settlement that took her name without asking her."
+image: "anne-wender.jpg"
+image_alt: "Anne Wender, a woman in her early fifties with dark hair greying at the temples and tied back, in a canvas work coat, standing in the gravel yard of a young frontier settlement among timber buildings, stacked lumber and grey equipment units. She is turned three-quarters away, pointing across the site as she takes a count; two workers and early mist lie beyond."
 ---
 
 Anne Wender did not name the settlement, and could not have refused it.

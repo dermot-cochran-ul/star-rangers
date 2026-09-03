@@ -10,6 +10,8 @@ aliases:
 tags: [human, star-rangers, survey-corps, xenolinguistics, four-islands, vellamar, principal-officer, first-contact, standing-delegation]
 description: "Senior xenolinguist of the Four Islands delegation — the officer whose confidently filed mistranslation stood in the Survey Archive for nine months, and who now teaches the correction rather than the recovery from it."
 known_codex: [what-prayer-is-for]
+image: "ernesto-strozzi.jpg"
+image_alt: "Ernesto Strozzi, a grey-bearded man in his sixties in a khaki shirt, standing at the head of a bare wooden table in a whitewashed room, one hand open as he lays something out. Two listeners are seen from behind in the foreground; warm light falls in bars through wooden shutters."
 ---
 
 Ernesto Strozzi is the Xenolinguistics Branch's most-cited practitioner for a piece of work he got wrong, and has never once agreed to have the citation changed to something he got right.
