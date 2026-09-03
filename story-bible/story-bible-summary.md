@@ -525,7 +525,10 @@ Notes that keep the tiers honest:
   thread gains a raw Deputy or trainee inside the task force as the reader's
   proxy, added by new chapters, nothing published recast. The tier's band and
   register are unchanged; the device is the same one the pet POVs are — a
-  body the reader's size in the room.
+  body the reader's size in the room. Same day: **the younger Shepherd or the
+  younger Wender may guest in Five-O if the chronology lines up** — Shepherd
+  does (2826, her Season 1 year, on Eden); Wender only in a chapter set
+  around 2800–2810, which the thread has not claimed.
 - **A tier is not a posture (21 August 2026).** Each edition now also carries a
   *presentation mode* — `story`, `primer`, `archive` or `contemplative` — and
   it deliberately does not map one-to-one onto the tiers above. The tiers are
