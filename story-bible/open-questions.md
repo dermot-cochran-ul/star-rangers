@@ -1119,9 +1119,10 @@ credits Levrilic intervention. Four readings ~~flagged~~ **confirmed 3 September
 reading never the record's; the counsel a POV experience with the figure
 unnamed; hill children, not a space rescue; she takes no action). Open:
 
-- **The slot.** Three shapes offered, the general-tier chapter with the first
-  tier-gated contemplative block recommended if a general-tier home can be
-  found, else a Season 8 chapter; a story-bible draft is the no-cost third.
+- ~~**The slot.**~~ — **ruled 3 September 2026: the gated chapter**, filed as
+  `s08e02c01` (Season 8, Episode 2), because at a hundred and thirty she stands
+  near 2850, past every general-tier season. The gated-block marker stays on
+  her block against a later move.
 - **The planet.** Her page leaves it unnamed; the scene need not name it.
 - **Whether the searchers get a voice.** The three-way reading is strongest
   when the physical account has a speaker on the page.
@@ -1152,10 +1153,10 @@ lines up exactly (Season 1 has her Cadet → Deputy → Officer on Eden in 2826,
 the task force's year); Wender does not in the thread's published years (a
 Chief Pilot by then), and would need a Five-O chapter set around 2800–2810.
 
-- **Was Shepherd one of Zoe Smith's Deputies?** Zoe's page has the Corps
-  hand her its rawest Deputies first; Season 1 has Shepherd pass through
-  Deputy in 2826. If yes, the young-viewpoint ruling and this direction meet
-  in one chapter. A small extension of both pages; not assumed.
+- ~~**Was Shepherd one of Zoe Smith's Deputies?**~~ — **ruled 3 September
+  2026: yes** ("Shepherd rotated through a lot of roles so could have Zoe's
+  Deputy"). Her 2826 Deputy stint may be served under Zoe; the first Young
+  Star Rangers chapter may open on her, with the thread's own Deputy beside.
 - **A pre-2810 Five-O chapter for a young Wender** — whether the thread ever
   claims an earlier era at all.
 
