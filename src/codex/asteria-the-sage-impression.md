@@ -26,7 +26,7 @@ The subject, on the note's own word, is a member of the system registered to [Ti
 
 ## What the note calls her
 
-The note calls her Asteria the Sage. *Asteria* is the name the note gives her, and *the Sage* is an honorific of the [Fellowship of Light](/star-rangers/lore/fellowship-of-light/). The record knows one other Asteria who bears it: [Asteria Wessex](/star-rangers/characters/asteria-the-sage/), a retired Star Captain, who is called it by the chapter she leads. Whether the member bears the honorific in her own right or the note borrows the Fellowship's word for her, and what if anything joins two Asterias who are both called the Sage, is not established, and the Archive has not been asked to establish it. The absence is marked here so that a reader who meets the name twice knows the record has noticed.
+The note calls her Asteria the Sage. *Asteria* is the name the note gives her, and *the Sage* is an honorific of the [Fellowship of Light](/star-rangers/lore/fellowship-of-light/). The record knows one other Asteria who bears it: [Asteria Wessex](/star-rangers/characters/asteria-the-sage/), a retired Star Captain, who is called it by the chapter she leads. Shepherd's system has no standing in the Fellowship, so the honorific is not the member's to hold: the note borrows the Fellowship's word for her, and the Archive records the borrowing as the maker's. What, if anything, joins two Asterias who are both called the Sage is not established, and the Archive has not been asked to establish it. The absence is marked here so that a reader who meets the name twice knows the record has noticed.
 
 ## What it does not say
 
