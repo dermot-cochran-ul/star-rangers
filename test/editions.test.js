@@ -174,3 +174,55 @@ test("the pets edition carries a plain-register notice", () => {
   assert.ok(pets.excludedNotice);
   validateExcludedNotice({ ...DEFAULT_EDITION, ...pets });
 });
+
+// THE TIER LADDER (2026-09-03): children ⊂ young adult ⊂ general ⊂
+// contemplative. The registry defines each tier once and spreads it; these pin
+// that the chain nests, that every reading edition carries its tier whole, and
+// what the ladder's predicate refuses.
+const { TIER_ORDER, TIERS, editionFor } = require("../lib/editions");
+
+const unionOf = (x) => new Set([...(x.threads || []), ...(x.characters || []), ...(x.topics || [])]);
+
+test("the four tiers are in ascending order and each contains the one below", () => {
+  assert.deepEqual(TIER_ORDER, ["children", "young-adult", "general", "contemplative"]);
+  for (let i = 1; i < TIER_ORDER.length; i++) {
+    const lower = unionOf(TIERS[TIER_ORDER[i - 1]]);
+    const upper = unionOf(TIERS[TIER_ORDER[i]]);
+    for (const v of lower) assert.ok(upper.has(v), `${TIER_ORDER[i]} lacks ${v}`);
+    assert.ok(upper.size > lower.size, `${TIER_ORDER[i]} adds nothing over ${TIER_ORDER[i - 1]}`);
+  }
+});
+
+test("the reading editions sit on their tiers and carry them whole", () => {
+  const expect = { pets: "children", starquest: "young-adult", sciencefiction: "general", fellowship: "contemplative", "church-space": "contemplative" };
+  for (const [id, tier] of Object.entries(expect)) {
+    const e = editionFor(id);
+    assert.equal(e.tier, tier, id);
+    const own = unionOf(e);
+    for (const v of unionOf(TIERS[tier])) assert.ok(own.has(v), `${id} lacks ${v}`);
+  }
+  assert.ok(editionFor("starquest").threads.includes("undercover-pets"));
+  assert.ok(["undercover-pets", "orbital-five-o"].every((t) => editionFor("sciencefiction").threads.includes(t)));
+  assert.ok(
+    ["undercover-pets", "orbital-five-o", "founding-era", "tissadelle-arc", "church-space"].every((t) =>
+      editionFor("fellowship").threads.includes(t)
+    )
+  );
+});
+
+test("the canonical site is unfiltered and at the general tier; the codex site stands outside the ladder", () => {
+  assert.equal(DEFAULT_EDITION.tier, "general");
+  assert.equal(unionOf(DEFAULT_EDITION).size, 0);
+  const archive = editionFor("fellowship-archive");
+  assert.equal(archive.tier, "contemplative");
+  assert.equal(archive.codexSite, true);
+  assert.deepEqual(archive.threads, []);
+});
+
+test("an edition that narrows below its tier is what the ladder predicate refuses", () => {
+  // validateEditions checks the live registry (which passes above); the rule
+  // it applies is pinned here on a deliberately broken copy of an entry.
+  const broken = { ...editionFor("starquest"), threads: ["orbital-five-o"] };
+  const missing = [...unionOf(TIERS[broken.tier])].filter((v) => !unionOf(broken).has(v));
+  assert.deepEqual(missing, ["undercover-pets"]);
+});

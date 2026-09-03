@@ -507,6 +507,17 @@ Notes that keep the tiers honest:
   One maintenance duty falls out: THREADS can't express "everything
   except", so each future general-tier thread must be added to the
   sciencefiction edition's list when registered, or it won't ship there.
+- **The tiers nest (3 September 2026, Dermot's direction, all readings
+  confirmed the same day — `intake-2026-09-03.md`).** The children's tier is
+  visible from the young-adult tier, both from the general tier, and all from
+  the contemplative edition, which may add POV scenes to any chapter. Realized
+  as a tier ladder defined once in `lib/editions.js` and spread into the
+  entries, with `validateEditions` asserting the chain — so the maintenance
+  duty above now lives on `GENERAL_TIER`, once, and the tiers above inherit
+  it. The canonical site stays unfiltered at the general tier. A
+  contemplative-tier POV scene is an overlay the tiers below never see, and
+  the self-containment rule climbs with it: every tier's reading of a chapter
+  is complete without the blocks the tier above adds.
 - **A tier is not a posture (21 August 2026).** Each edition now also carries a
   *presentation mode* — `story`, `primer`, `archive` or `contemplative` — and
   it deliberately does not map one-to-one onto the tiers above. The tiers are

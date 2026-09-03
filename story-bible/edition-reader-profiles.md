@@ -188,8 +188,11 @@ own seasons use: **114 shown pages → 244**, 0 character pages → 16.
 
 **Never** let this be the domain that fixes a missing general-tier thread by
 accident. `THREADS` cannot express "everything except", so every future
-general-tier thread has to be added to this entry by hand when it is registered,
-or it silently will not ship here.
+general-tier thread has to be added by hand when it is registered, or it
+silently will not ship here. *Since 3 September 2026 the place to add it is
+`GENERAL_TIER` in `lib/editions.js`, once — this entry and both contemplative
+families inherit it by construction (see "The tier ladder" at the end of this
+file).*
 
 ---
 
@@ -514,3 +517,43 @@ Added to `open-questions.md` in the same pass.
 - **No edition sets a `light`, `sepia` or `high-contrast` palette**, so those
   three exist only for someone hosting independently. Whether a reader should be
   able to reach them is the same question as the switcher above.
+
+---
+
+## The tier ladder — 3 September 2026
+
+Dermot's direction, verbatim: *"the child reader tier is visible from the young
+adult tier, both are visible from the general reader tier and all are visible
+from the contemplative edition which may have additional POV scenes for any
+chapter."* All four readings in `intake-2026-09-03.md` confirmed the same day,
+and the canonical site placed at the general tier.
+
+**The tiers nest.** Each reading edition carries everything the tier below it
+carries, plus its own material: children ⊂ young adult ⊂ general ⊂
+contemplative. `lib/editions.js` defines each tier once (`CHILDREN_TIER`,
+`YOUNG_ADULT_TIER`, `GENERAL_TIER`, `CONTEMPLATIVE_TIER`) and spreads it into
+the entries; `validateEditions` asserts the chain and refuses an entry that
+narrows below its tier. So the page counts in the profile headers above are
+history: measured on the day, content pages the filter includes (before the
+relatedUrls fallback and index pages) went **pets 47 (unchanged) · starquest
+16 → 53 · sciencefiction 64 → 102 · fellowship 27 → 126 · church-space 12 →
+114**. The archive codex site is a shelf, not a reading edition, and stands
+outside the ladder by design at its own 15.
+
+**What it changes for each profile.** The young-adult reader now also has the
+pet story on their site; the general reader has all four public threads and
+the pet and Five-O casts; the two contemplative readers have the whole main
+sequence and Season 8. The canonical site is unfiltered and at the general
+tier: it hides the private church-space thread by design, so the contemplative
+editions are the only complete view, and that is intended.
+
+**The overlay rule.** A contemplative-tier POV scene may be added to any
+chapter of any thread and renders only on contemplative builds — an overlay
+the tiers below never see (mechanism in the PR after the ladder). The
+children's self-containment rule climbs the ladder with it: every tier's
+reading of a chapter must be complete without the blocks the tier above adds.
+
+**Still open** (indexed in `open-questions.md`): re-hanging the doors — hero
+casts and the pets `readingPlan` were chosen against narrow page sets, and the
+widened editions may want different ones. Framing, and Dermot's taste each
+time.

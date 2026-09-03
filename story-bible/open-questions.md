@@ -1101,11 +1101,10 @@ Queued 3 September 2026 from Dermot's direction that the reading tiers nest
 edition may add POV scenes to any chapter. Four readings flagged for
 confirmation in the intake; two things it leaves open:
 
-- **Where the canonical site stands on the ladder.** `fianilchruinne.com`
-  holds everything public and hides the private `church-space` thread by
-  design, so under the ladder the contemplative editions become the only
-  complete view. Canonical = general tier, or should it opt in and stand at the
-  top?
+- ~~**Where the canonical site stands on the ladder.**~~ — **ruled 3 September
+  2026: at the general tier**, unfiltered, holding everything public and still
+  hiding the private `church-space` thread by design; the contemplative
+  editions are the only complete view, as intended.
 - **Re-hanging the doors on the widened editions.** Hero casts and the pets
   `readingPlan` were chosen against narrow page sets; a young-adult site that
   now carries the pet chapters and a contemplative site carrying the whole main
