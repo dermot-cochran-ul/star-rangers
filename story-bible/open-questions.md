@@ -1144,3 +1144,18 @@ reader's proxy, added by new chapters, nothing published recast.
   and whether their first chapter is a new Season 4 episode or a later season
   of the Five-O thread. A character page is draft-and-stop.
 
+## Guest appearances in Five-O — `intake-2026-09-03.md`, fourth direction
+
+Dermot, 3 September 2026: the younger Tissadelle Shepherd or younger Karla
+Wender may guest in Five-O if the chronology lines up. Measured: Shepherd
+lines up exactly (Season 1 has her Cadet → Deputy → Officer on Eden in 2826,
+the task force's year); Wender does not in the thread's published years (a
+Chief Pilot by then), and would need a Five-O chapter set around 2800–2810.
+
+- **Was Shepherd one of Zoe Smith's Deputies?** Zoe's page has the Corps
+  hand her its rawest Deputies first; Season 1 has Shepherd pass through
+  Deputy in 2826. If yes, the young-viewpoint ruling and this direction meet
+  in one chapter. A small extension of both pages; not assumed.
+- **A pre-2810 Five-O chapter for a young Wender** — whether the thread ever
+  claims an earlier era at all.
+
