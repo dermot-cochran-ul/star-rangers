@@ -836,8 +836,11 @@ be found without reading 1,300 lines.
   Parked at `story-bible/reference-art/tissadelle-headmate-2026-08-24.jpg`.
   Open: (1) the headmate's name and identity — **part-answered 2026-08-24:
   Dermot ruled the headmate "is also called Asteria the Sage"**, the same
-  appellation Asteria Wessex's chapter uses for her; what remains open is
-  whether it is a name, honorific or taken title, and what (if anything)
+  appellation Asteria Wessex's chapter uses for her; ~~what remains open is
+  whether it is a name, honorific or taken title~~ — **ruled 3 September
+  2026: an honorific title within the Fellowship of Light** (three readings
+  flagged in `intake-2026-09-03.md`, seventh direction); what remains open is
+  what (if anything)
   connects the two bearers — recorded in `images.md`'s addendum with the
   instruction not to invent the connection; (2) ~~whether depicting any of
   Tissadelle's members breaches the
@@ -851,8 +854,10 @@ be found without reading 1,300 lines.
   reference, 3 September 2026. **Drafted the same day** as
   `src/codex/asteria-the-sage-impression.md` with card and artwork, unattributed
   author by choice (a named in-world painter is Dermot's to add). **Still
-  open: (1) only** — name, honorific or taken title, and what if anything joins
-  the two bearers; the entry marks the absence and invents nothing. This would be the **first entry in the
+  open: (1) only, narrowed** — the appellation is ruled a Fellowship honorific;
+  whether the member bears it or the note borrows it, and how the honorific is
+  registered, wait on the seventh direction's readings. The entry marks the
+  absence and invents nothing. This would be the **first entry in the
   Codex-art pool**, which was empty when the 18 August rule was recorded.
 
 ## Audio and music — `music-prompts.md`

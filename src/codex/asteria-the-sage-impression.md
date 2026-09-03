@@ -26,7 +26,7 @@ The subject, on the note's own word, is a member of the system registered to [Ti
 
 ## What the note calls her
 
-The note calls her Asteria the Sage, and the Archive records that it does. The same appellation is used, by her chapter, of [Asteria Wessex](/star-rangers/characters/asteria-the-sage/), a retired Star Captain, of whom the honorific is the chapter's word and not hers. Whether the note borrows the chapter's usage, whether the name is the member's own, or whether the two bearers are joined by anything other than the word is not established, and the Archive has not been asked to establish it. The absence is marked here so that a reader who meets the appellation twice knows the record has noticed.
+The note calls her Asteria the Sage. That is an honorific of the [Fellowship of Light](/star-rangers/lore/fellowship-of-light/), and the record knows one bearer of it: [Asteria Wessex](/star-rangers/characters/asteria-the-sage/), a retired Star Captain, who is called it by the chapter she leads. Whether the note borrows the Fellowship's word for a member who has no chapter, or the member bears it in her own right, and what if anything joins the two bearers beyond the honorific, is not established, and the Archive has not been asked to establish it. The absence is marked here so that a reader who meets the honorific twice knows the record has noticed.
 
 ## What it does not say
 

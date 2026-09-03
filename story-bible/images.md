@@ -3131,8 +3131,10 @@ was right, the bearer was not the one on record. Two consequences, one open
 question:
 
 - The name decision (open item 1 below) is **part-answered**: the headmate
-  carries the appellation *Asteria the Sage*. Whether that is her name, an
-  honorific, or a taken title is not yet stated.
+  carries the appellation *Asteria the Sage*. ~~Whether that is her name, an
+  honorific, or a taken title is not yet stated.~~ **Ruled 3 September 2026:
+  an honorific title within the Fellowship of Light** — readings in
+  `intake-2026-09-03.md`, seventh direction.
 - It **collides deliberately with Asteria Wessex**, whose chapter calls her
   Asteria the Sage — an honorific her page says is *"the chapter's word and
   not hers"*. Two bearers of one appellation, one a retired Star Captain and
