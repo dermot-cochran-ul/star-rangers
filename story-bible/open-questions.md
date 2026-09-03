@@ -1283,3 +1283,12 @@ Open, all in the intake:
   readings, strike the temperament line if it overreaches.
 - **Cross-links** to the Crisis Centuries, FTP, Mars and Venice pages wait on
   the entry merging.
+
+## Elvira's dream — `intake-2026-09-03.md`, thirteenth direction
+
+Dermot, 3 September 2026: Elvira had a dream in which she transformed Aldera
+into a feline humanoid using magic. Drafted as
+`story-bible/scene-draft-elviras-dream.md` (*A Working That Worked*), two
+blocks, slot unfixed. **Approved 3 September 2026.** Open: only the slot — a Season 1 chapter
+before *The Right Question*, a gated block, or the story bible where it
+sits; unfixed until Dermot names one.
