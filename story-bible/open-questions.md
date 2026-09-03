@@ -859,8 +859,13 @@ be found without reading 1,300 lines.
   ~~whether the member bears it or the note borrows it~~ (ruled 3 September:
   Tissadelle's system is not inside the Fellowship, so the note borrows it),
   and ~~how the honorific is registered~~ (ruled 3 September: a paragraph on
-  the Fellowship of Light lore page, no glossary entry). **Nothing on this
-  item is open.** What joins the two Asterias is a marked absence by design. The entry marks the
+  the Fellowship of Light lore page, no glossary entry). What joins the two Asterias was a marked
+  absence until the **eighth direction, same day**: the member is Shepherd's
+  image of Asteria Wessex as a younger woman, formed from Karla Wender's
+  telling, never met — drafted as an *Asteria* subsection on
+  `tissadelle-shepherd.md` in #647, two readings flagged in the intake
+  (never met / Wender; placement on the page). Nothing else on this item is
+  open. The entry marks the
   absence and invents nothing. This would be the **first entry in the
   Codex-art pool**, which was empty when the 18 August rule was recorded.
 
