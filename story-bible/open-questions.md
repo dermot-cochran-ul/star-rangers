@@ -1289,6 +1289,6 @@ Open, all in the intake:
 Dermot, 3 September 2026: Elvira had a dream in which she transformed Aldera
 into a feline humanoid using magic. Drafted as
 `story-bible/scene-draft-elviras-dream.md` (*A Working That Worked*), two
-blocks, slot unfixed. Open: the five readings in the intake, chiefly the slot
-(a Season 1 chapter, a gated block, or the story bible only) and whether the
-"pleased" beat overreaches.
+blocks, slot unfixed. **Approved 3 September 2026.** Open: only the slot — a Season 1 chapter
+before *The Right Question*, a gated block, or the story bible where it
+sits; unfixed until Dermot names one.

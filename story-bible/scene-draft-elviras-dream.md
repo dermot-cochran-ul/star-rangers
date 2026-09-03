@@ -1,7 +1,7 @@
 # Scene draft — Elvira's dream
 
-**Status: drafted 3 September 2026 at Dermot's direction, slot deliberately
-unfixed.** Draft-and-stop. Direction, verbatim: *"Elvira had a dream in which
+**Status: drafted 3 September 2026 at Dermot's direction and approved the same
+day; slot deliberately unfixed.** Direction, verbatim: *"Elvira had a dream in which
 she transformed Aldera into a feline humanoid using magic."*
 
 **Shape.** One scene, two blocks. Elvira's is the dream and the taking-apart of
