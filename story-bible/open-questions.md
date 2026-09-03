@@ -1114,7 +1114,8 @@ confirmation in the intake; two things it leaves open:
 
 Queued 3 September 2026: Asteria spends a night in dream-state counsel over
 lost children who come home against the odds; nothing visible happens, and she
-credits Levrilic intervention. Four readings flagged in the intake (her
+credits Levrilic intervention. Four readings ~~flagged~~ **confirmed 3 September
+2026**; drafted the same day as `scene-draft-asterias-night.md` (her
 reading never the record's; the counsel a POV experience with the figure
 unnamed; hill children, not a space rescue; she takes no action). Open:
 
