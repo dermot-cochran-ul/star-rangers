@@ -561,3 +561,42 @@ Regenerating any of them on Dermot's machine with the `.ps1` originals is
 welcome and expected to supersede these — same parameters, Georgia and
 Consolas letterforms. Epithets and qualifiers above are authored, per the
 emblem generator's own rule.
+
+---
+
+## 2026-09-03 — the first Codex-art image
+
+### asteria-the-sage-impression-artwork.jpg and asteria-the-sage-impression.jpg — 3 Sep 2026
+
+- **Type:** generation with a reference image (the artwork), then a designed
+  card with the artwork as underlay (the header)
+- **Date:** 3 September 2026; drafted for Dermot's review
+- **Entry:** `src/codex/asteria-the-sage-impression.md`
+- **Ruling it realizes:** Dermot, 3 September 2026 — *in-world artist's
+  impression, no watermarks or overlaid text* — on the headmate image parked
+  since Intake 2026-08-24. The Codex-art rulings of the same day apply: card in
+  the header, artwork in the body, prospective only.
+
+**Reference:** `story-bible/reference-art/tissadelle-headmate-2026-08-24.jpg`,
+the Botify AI image Dermot supplied on 24 August (768×1152, watermarked). Sent
+as an image part with the prompt; the manifest records it.
+
+**Why a painting.** The entry presents the picture as an impression made from a
+description and not a sitting, and a painterly surface says that without a
+caption. It also keeps the image visibly apart from the character-portrait
+house style, which is the point of the Codex frame: this is a picture somebody
+in the world made of a person they were told about, not a portrait of a
+character.
+
+**Prompt, `asteria-the-sage-impression-artwork.jpg`** (Gemini 3.1 Flash Image,
+2K, 16:9, two variations; the second chosen for its heavier brushwork, the
+first kept in `image-out/` until the PR merges):
+> A painted portrait in the manner of an artist's impression made from a description rather than a sitting: a woman who appears in her thirties, pale, with loose blue hair and pale blue eyes, in a black hooded cloak worked with fine silver botanical embroidery over dark layered clothing with a belt, standing among bare winter branches at night, three-quarter turn, level gaze past the viewer, still and watchful. Visible brushwork and a limited palette of night blue, black and silver; the branches thin and dissolve into the dark at the edges of the picture as if the painter stopped where the description ran out. Quiet, composed, a little hopeful rather than grim. No readable text, lettering, numerals, signature, monogram, watermark, logo, signage, labels, branding or written characters of any script anywhere in frame; no holograms, projected light, glowing displays, screens, monitors or consoles; no visible lamp, light fitting or bulb; no flat studio backdrop, gradient background, glamour lighting, corporate headshot or posed smiling to camera; no weapons; no drawn frame or border around the picture. 16:9 landscape.
+
+- **Lettering check passed on both variants.** No glyphs, no signature, no
+  watermark — the reference's watermark did not carry across.
+- **Card, `asteria-the-sage-impression.jpg`:** `make-codex-cover.ps1` with
+  `-TitleLines "ASTERIA","THE SAGE" -Category "ARTIST'S IMPRESSION" -Subtitle
+  "A member behind a registration" -Institution "Circulating; no archival
+  master" -Author "Unattributed" -Motif none -Underlay <the artwork>`, default
+  scrim.

@@ -828,23 +828,45 @@ be found without reading 1,300 lines.
 - **Two competing abstract-emblem prompts** for an investigative intelligence
   (`images.md:709` and `:723`) differ only in their closing clause and neither
   is marked chosen.
-- **A headmate of Tissadelle — image parked, four decisions open** (intake
+- **A headmate of Tissadelle — RULED 3 September 2026, drafted, one thing
+  still open** (intake
   2026-08-24, detail in `images.md`'s Open work). Dermot supplied a generated
   portrait (blue-haired woman, night forest), reassigned in-session from
   "Asteria the Sage" to "a headmate of Tissadelle", destination "codex art".
   Parked at `story-bible/reference-art/tissadelle-headmate-2026-08-24.jpg`.
   Open: (1) the headmate's name and identity — **part-answered 2026-08-24:
   Dermot ruled the headmate "is also called Asteria the Sage"**, the same
-  appellation Asteria Wessex's chapter uses for her; what remains open is
-  whether it is a name, honorific or taken title, and what (if anything)
+  appellation Asteria Wessex's chapter uses for her; ~~what remains open is
+  whether it is a name, honorific or taken title~~ — **ruled 3 September
+  2026: *the Sage* is an honorific title within the Fellowship of Light and
+  *Asteria* is the member's name** — a second Asteria (readings in
+  `intake-2026-09-03.md`, seventh direction; the scope reading ruled the same
+  day); what remains open is what (if anything)
   connects the two bearers — recorded in `images.md`'s addendum with the
-  instruction not to invent the connection; (2) whether depicting any of
+  instruction not to invent the connection; (2) ~~whether depicting any of
   Tissadelle's members breaches the
-  *hint, don't show* interiority guardrail that protects the S6–7 endgame;
+  *hint, don't show* interiority guardrail that protects the S6–7 endgame~~ —
+  **ruled 3 September 2026: publish as an in-world artist's impression, no
+  watermarks or overlaid text**, which asserts nothing and so does not show;
   (3) ~~the Codex-art route's own two open decisions~~ (ruled 3 September
   2026 — card in the header, artwork in the body, prospective only), plus the
-  codex entry (with in-universe author) the artwork would need to live on; (4) mechanically, the
-  Botify AI watermark and 768px width. This would be the **first entry in the
+  codex entry (with in-universe author) the artwork would need to live on; (4) ~~mechanically, the
+  Botify AI watermark and 768px width~~ — re-made clean at 1600px from the
+  reference, 3 September 2026. **Drafted the same day** as
+  `src/codex/asteria-the-sage-impression.md` with card and artwork, unattributed
+  author by choice (a named in-world painter is Dermot's to add). **Still
+  open: (1) only, narrowed** — the appellation is ruled a Fellowship honorific;
+  ~~whether the member bears it or the note borrows it~~ (ruled 3 September:
+  Tissadelle's system is not inside the Fellowship, so the note borrows it),
+  and ~~how the honorific is registered~~ (ruled 3 September: a paragraph on
+  the Fellowship of Light lore page, no glossary entry). What joins the two Asterias was a marked
+  absence until the **eighth direction, same day**: the member is Shepherd's
+  image of Asteria Wessex as a younger woman, formed from Karla Wender's
+  telling, never met — drafted as an *Asteria* subsection on
+  `tissadelle-shepherd.md` in #647, two readings flagged in the intake
+  (never met / Wender; placement on the page). Nothing else on this item is
+  open. The entry marks the
+  absence and invents nothing. This would be the **first entry in the
   Codex-art pool**, which was empty when the 18 August rule was recorded.
 
 ## Audio and music — `music-prompts.md`

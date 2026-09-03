@@ -3085,6 +3085,11 @@ first captioned **"Asteria the Sage, codex art"** and reassigned by him in the
 same session, after the Asteria canon mismatch was raised, as **"a headmate of
 Tissadelle"**. Parked at
 `story-bible/reference-art/tissadelle-headmate-2026-08-24.jpg` — nothing ships.
+**Unparked 3 September 2026:** Dermot ruled *in-world artist's impression, no
+watermarks or overlaid text*; re-made clean at size from the reference and
+drafted as `src/codex/asteria-the-sage-impression.md` (see *7. Codex art* below
+and `image-prompts.md`). The name question below stays open and the entry
+marks it as an absence rather than answering it.
 
 **What it shows:** a woman appearing in her thirties, pale, loose blue hair,
 pale blue eyes, in a black hooded cloak with silver botanical embroidery over
@@ -3126,8 +3131,10 @@ was right, the bearer was not the one on record. Two consequences, one open
 question:
 
 - The name decision (open item 1 below) is **part-answered**: the headmate
-  carries the appellation *Asteria the Sage*. Whether that is her name, an
-  honorific, or a taken title is not yet stated.
+  carries the appellation *Asteria the Sage*. ~~Whether that is her name, an
+  honorific, or a taken title is not yet stated.~~ **Ruled 3 September 2026:
+  an honorific title within the Fellowship of Light** — readings in
+  `intake-2026-09-03.md`, seventh direction.
 - It **collides deliberately with Asteria Wessex**, whose chapter calls her
   Asteria the Sage — an honorific her page says is *"the chapter's word and
   not hers"*. Two bearers of one appellation, one a retired Star Captain and
@@ -3138,6 +3145,30 @@ question:
   be explained but the fact may not be invented.
 
 ---
+
+### 7. Codex art — in-world artists' impressions
+
+The pool the 18 August rule created, first filled 3 September 2026. Entries
+here are **body images** for codex entries: the entry's `image:` stays a
+designed card (`make-codex-cover.ps1`, usually with the artwork as
+`-Underlay`), and the artwork itself is shown inline in the body with a caption
+naming its in-world maker or provenance. `scripts/image-prompts.js` files these
+under `src/images/codex/`. Dermot's ruling of 3 September on the first case:
+*in-world artist's impression, no watermarks or overlaid text.*
+
+- **`asteria-the-sage-impression-artwork.jpg`** — the parked headmate image
+  (Intake 2026-08-24 above), re-made clean at size. Dermot's own supplied
+  picture is the reference; the prompt asks for a *painting* rather than a
+  photograph, because the entry presents it as an artist's impression made from
+  a description and not from a sitting, and a painterly surface says that
+  without a caption. It also puts distance between this image and the
+  character-portrait house style, which is the point: this is not a portrait
+  of a character, it is a picture somebody in the world made of a person they
+  were told about. Register still and watchful, hope in it, no grimness. The
+  standing negative is inside the blockquote, with signatures, monograms and
+  watermarks added to it, since the reference carries one.
+  References: `story-bible/reference-art/tissadelle-headmate-2026-08-24.jpg`
+  > A painted portrait in the manner of an artist's impression made from a description rather than a sitting: a woman who appears in her thirties, pale, with loose blue hair and pale blue eyes, in a black hooded cloak worked with fine silver botanical embroidery over dark layered clothing with a belt, standing among bare winter branches at night, three-quarter turn, level gaze past the viewer, still and watchful. Visible brushwork and a limited palette of night blue, black and silver; the branches thin and dissolve into the dark at the edges of the picture as if the painter stopped where the description ran out. Quiet, composed, a little hopeful rather than grim. No readable text, lettering, numerals, signature, monogram, watermark, logo, signage, labels, branding or written characters of any script anywhere in frame; no holograms, projected light, glowing displays, screens, monitors or consoles; no visible lamp, light fitting or bulb; no flat studio backdrop, gradient background, glamour lighting, corporate headshot or posed smiling to camera; no weapons; no drawn frame or border around the picture. 16:9 landscape.
 
 ## History (2026-07-24)
 
