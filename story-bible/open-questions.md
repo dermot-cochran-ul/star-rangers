@@ -1244,13 +1244,13 @@ beings still too humanoid? If so then recycle them as images for the
 four-islands-quest."* They were, and the three were withdrawn from #649 and
 parked in `story-bible/reference-art/`. Open:
 
-- **What a Prismeri actually is, in the body.** The page commits to a
-  silicate-carbon physiology, two adult forms, gossamer then load-bearing
-  wings, a soft then chitin exoskeleton, and sensory tendrils from a skull
-  ridge — and never to a frame. By `species-design.md`'s method the frame
-  should follow from Prismere (low light, crystal forests, a sky that is read
-  rather than seen, sustained high-altitude flight) rather than from a human
-  silhouette with wings. Dermot's to write; the prompts follow the prose.
+- ~~**What a Prismeri actually is, in the body.**~~ **Derived at Dermot's
+  direction, 3 September 2026** (`species-design.md`, Prismeri section;
+  drafted onto `prismeri.md`, draft-and-stop): wings as forelimbs with three
+  free fingers, prehensile hind feet, quadrupedal on the ground, hanging at
+  rest, a ridge-band that reads the overhead light, a mineral-feeder's mouth,
+  lenses where other peoples had fire. **All six readings confirmed and merged,
+  3 September 2026.** Prompts rewritten to the body the same evening.
 - ~~**"The four-islands-quest."**~~ **Answered 3 September 2026: it is its own
   repository** — `dermot-r-cochran/four-islands-quest`, a one-file browser
   quest engine with the Kingdom of the Four Sounds aboard, not a thread of
