@@ -518,6 +518,14 @@ Notes that keep the tiers honest:
   contemplative-tier POV scene is an overlay the tiers below never see, and
   the self-containment rule climbs with it: every tier's reading of a chapter
   is complete without the blocks the tier above adds.
+- **The young-adult tier gets a young viewpoint (3 September 2026, Dermot's
+  ruling — `intake-2026-09-03.md`, third direction).** Asked whether the
+  young-adult tier should focus on younger adults as protagonists the way the
+  children's tier focuses on pets, he approved the middle option: the Five-O
+  thread gains a raw Deputy or trainee inside the task force as the reader's
+  proxy, added by new chapters, nothing published recast. The tier's band and
+  register are unchanged; the device is the same one the pet POVs are — a
+  body the reader's size in the room.
 - **A tier is not a posture (21 August 2026).** Each edition now also carries a
   *presentation mode* — `story`, `primer`, `archive` or `contemplative` — and
   it deliberately does not map one-to-one onto the tiers above. The tiers are

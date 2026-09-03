@@ -230,7 +230,11 @@ warning."* Sound: sci-fi ambient.
 about. Larsen leads because the task force is the show; Jeeves is last because
 the joke lands better once the hierarchy has been established. These five are
 also the entire pool this domain carries with a portrait, which is luck rather
-than design, and it is the right five regardless.
+than design, and it is the right five regardless. *Since 3 September 2026 the
+thread is to gain a young viewpoint — a raw Deputy or trainee inside the task
+force, the reader's proxy (Dermot's ruling, `intake-2026-09-03.md`); when that
+character exists and has a portrait, they belong in this cast, probably
+second, between the commander and the hierarchy.*
 
 **Never** let the palette write cheques the tone rule will not honour. Neon and
 procedural pace can slide toward threat; unsettling, never horror, holds here
