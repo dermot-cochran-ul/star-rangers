@@ -222,6 +222,9 @@ Operational enforcement tier below the Telearchs and Mediarchs. Frenar is a lega
 ### Mechanism
 Celestials execute rule-integrity actions at boundary and overlap interfaces.
 
+### Scale
+A Celestial's attention is never smaller than a galaxy and is usually wider. The tier exists to keep a Concordant's boundaries whole, and a Concordant's boundaries are not drawn around worlds; an enforcement action reaches exactly as far as the unlawful operation it addresses, and operations that reach a Celestial's threshold are the kind whose edges run through systems, not settlements. A single planet enters a Celestial's scope only as part of a process that crosses it, and is left untouched the moment the process ends. Material-layer witnesses who report a Celestial attending *to them* have, without exception, been standing inside something much larger.
+
 ### Constraints
 - Cannot revise hierarchy order.
 - Cannot nullify Telearch directives.
