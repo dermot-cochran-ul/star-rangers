@@ -91,6 +91,15 @@ builds and eleven aliases**.
 They coincide wherever a tier has one brand. The contemplative tier holds two
 institutions, so it has two families.
 
+**The tiers nest (3 September 2026, Dermot's direction — `intake-2026-09-03.md`).**
+Each reading tier's edition carries everything the tier below it carries:
+children ⊂ young adult ⊂ general ⊂ contemplative, defined once in
+`lib/editions.js` and asserted by `validateEditions`. The family test still
+passes — each tier's page set is a strict superset of the one below, so no two
+families serve the same pages — and the two contemplative families go on
+serving identical page sets as they already did, with `ranksAt` doing its job
+there. The canonical site is at the general tier, unfiltered.
+
 | Family | Tier | Builds | Aliases | Ranks at |
 |---|---|---|---|---|
 | children | children | undercover-pets.com | — | itself |
