@@ -1812,7 +1812,7 @@ where each goes:
 |---|---|---|
 | ~~`characters/agent-barsik.jpg`~~ | ~~512×1024~~ | **regenerated 3 September 2026** at 1200×670, prompt revised (the "terminals" line was drawing monitors) — drafted for review |
 | `characters/aldera/field-photo-03.jpg`, `-04.jpg` | 512×1120 — **PNG data under a .jpg extension** | re-crop from Dermot's own originals — see the Aldera note below; his hands, stays here |
-| ~~`lore/prismere-*` / `prismeri-*` — 11 files~~ | ~~768×1152~~ | **regenerated 3 September 2026** as one batch at 1600×893, two variants each; the eight `prismere-*` approved and merged, the three `prismeri-*` rejected as still humanoid and parked in `reference-art/`, the Prismeri page carded |
+| ~~`lore/prismere-*` / `prismeri-*` — 11 files~~ | ~~768×1152~~ | **regenerated 3 September 2026** as one batch at 1600×893, two variants each; the eight `prismere-*` approved and merged, the three `prismeri-*` rejected as still humanoid, then **regenerated the same evening to the derived body** and drafted for review |
 | ~~`lore/prismere-root-mat-network.jpg`~~ | ~~773×1152~~ | **regenerated with the set, 3 September 2026** |
 
 The old all-or-none rule carries over to replacement: the Prismere set
