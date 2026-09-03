@@ -1153,10 +1153,10 @@ lines up exactly (Season 1 has her Cadet → Deputy → Officer on Eden in 2826,
 the task force's year); Wender does not in the thread's published years (a
 Chief Pilot by then), and would need a Five-O chapter set around 2800–2810.
 
-- **Was Shepherd one of Zoe Smith's Deputies?** Zoe's page has the Corps
-  hand her its rawest Deputies first; Season 1 has Shepherd pass through
-  Deputy in 2826. If yes, the young-viewpoint ruling and this direction meet
-  in one chapter. A small extension of both pages; not assumed.
+- ~~**Was Shepherd one of Zoe Smith's Deputies?**~~ — **ruled 3 September
+  2026: yes** ("Shepherd rotated through a lot of roles so could have Zoe's
+  Deputy"). Her 2826 Deputy stint may be served under Zoe; the first Young
+  Star Rangers chapter may open on her, with the thread's own Deputy beside.
 - **A pre-2810 Five-O chapter for a young Wender** — whether the thread ever
   claims an earlier era at all.
 
@@ -1186,11 +1186,15 @@ free being 9; the third direction's young Deputy as its natural protagonist
 and Shepherd's 2826 as its guest window; its face a separate question; band
 and register unchanged). Open:
 
-- **Its face.** Three shapes — both threads on starquest.site under a widened
-  brand; a second young-adult edition on a subdomain branded Young Star
-  Rangers (recommended, and the closing note allows the subdomain); or hold
-  the thread on the canonical site until it has chapters. Draft-and-stop
-  either way.
-- **The thread's registration** — id, season 9, and its first chapter written
-  to the gap — waits on the readings being confirmed.
+- ~~**Its face.**~~ — **ruled 3 September 2026: a second young-adult edition
+  on a subdomain**, registered as `young-star-rangers` on
+  `young.fianilchruinne.com` (starquest palette for now; a palette of its own
+  is open). The cPanel side — subdomain, clone, two-key `deploy.conf` — is
+  still to do.
+- ~~**The thread's registration**~~ — **done the same day**: `young-star-rangers`,
+  Season 9, index pages only. **Its first chapter** is still to be written to
+  the gap, and waits on the Deputy's identity (above).
+- **A palette of its own.** The edition reuses `starquest`; a Young Star
+  Rangers face means a new `theme-*.css` through `generate-themes` and the
+  contrast gate. Design work, when the first chapter exists.
 

@@ -194,7 +194,7 @@ test("the four tiers are in ascending order and each contains the one below", ()
 });
 
 test("the reading editions sit on their tiers and carry them whole", () => {
-  const expect = { pets: "children", starquest: "young-adult", sciencefiction: "general", fellowship: "contemplative", "church-space": "contemplative" };
+  const expect = { pets: "children", starquest: "young-adult", "young-star-rangers": "young-adult", sciencefiction: "general", fellowship: "contemplative", "church-space": "contemplative" };
   for (const [id, tier] of Object.entries(expect)) {
     const e = editionFor(id);
     assert.equal(e.tier, tier, id);
@@ -226,3 +226,14 @@ test("an edition that narrows below its tier is what the ladder predicate refuse
   const missing = [...unionOf(TIERS[broken.tier])].filter((v) => !unionOf(broken).has(v));
   assert.deepEqual(missing, ["undercover-pets"]);
 });
+
+test("a tier constant is a floor: young-star-rangers extends the young-adult tier and the general tier carries the extension", () => {
+  const ysr = editionFor("young-star-rangers");
+  const sq = editionFor("starquest");
+  assert.ok(ysr.threads.includes("young-star-rangers"));
+  assert.ok(!sq.threads.includes("young-star-rangers"), "starquest.site keeps the procedural's own page set");
+  for (const t of sq.threads) assert.ok(ysr.threads.includes(t), `young-star-rangers lacks ${t}`);
+  assert.ok(TIERS.general.threads.includes("young-star-rangers"), "the general tier must carry what any young-adult edition shows");
+  assert.deepEqual(ysr.domains, ["young.fianilchruinne.com"]);
+});
+

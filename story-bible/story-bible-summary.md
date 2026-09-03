@@ -552,8 +552,12 @@ Notes that keep the tiers honest:
   thread with its own season (the next free is 9), joining the young-adult
   tier's filters and inherited upward. The young Deputy of the third
   direction is its natural protagonist and Shepherd's 2826 its guest window.
-  Whether it gets its own face — a second young-adult edition on a subdomain
-  is the recommended shape — is a separate question, indexed.
+  Realized the same day, readings confirmed and the subdomain approved: thread
+  `young-star-rangers` (Season 9, no chapter yet), edition
+  `young-star-rangers` on `young.fianilchruinne.com` carrying the young-adult
+  floor plus the thread, Zoe Smith cast. The thread is listed on
+  `GENERAL_TIER`, not the young-adult floor, so starquest.site keeps the
+  procedural's own page set and the tiers above carry the thread anyway.
 - **A tier is not a posture (21 August 2026).** Each edition now also carries a
   *presentation mode* — `story`, `primer`, `archive` or `contemplative` — and
   it deliberately does not map one-to-one onto the tiers above. The tiers are

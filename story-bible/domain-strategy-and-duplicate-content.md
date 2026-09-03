@@ -104,6 +104,7 @@ there. The canonical site is at the general tier, unfiltered.
 |---|---|---|---|---|
 | children | children | undercover-pets.com | — | itself |
 | young adult | young adult | starquest.site | starquest.online | itself |
+| **Young Star Rangers** | young adult | young.fianilchruinne.com (registered 3 Sept 2026; cPanel side pending) | — | itself |
 | general | general | sciencefiction.site | — | itself |
 | **Fellowship of Light** | contemplative | fellowshipoflight.org, fellowshipoflight.site | .online, .space | **fellowshipoflight.org** |
 | **Communion of the Called** | contemplative | church-space.site | church-space.online | itself |
