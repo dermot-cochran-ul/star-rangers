@@ -643,9 +643,9 @@ should not stay*.
 | `prismere-driftjellies` | 1 | the ecosystem, not one animal |
 | `prismere-umbral-ray` | 2 | dimmer, the unpleasant beat the brief asked for |
 | `prismere-twilight-lattice` | 2 | geometry, not aurora; variant 1 leaned on a Milky Way |
-| `prismeri-first-wings` | 1 | one figure, full length; variant 2 was a three-panel layout |
-| `prismeri-full-wings` | re-roll 1 | single figure, head raised, tendrils out |
-| `prismeri-lattice-gathering` | 2 | equals, subtler sky geometry; variant 1 floated real-world sacred-geometry symbols |
+| ~~`prismeri-first-wings`~~ | 1 | **rejected by Dermot, same day: still too humanoid.** Parked in `reference-art/` |
+| ~~`prismeri-full-wings`~~ | re-roll 1 | **rejected, same reason.** Parked |
+| ~~`prismeri-lattice-gathering`~~ | 2 | **rejected, same reason.** Parked |
 | `prismere-root-mat-network` | 1 | the network is the subject, towers secondary |
 | `agent-barsik` | re-roll 1 | no screens; variant 2 had a telephone |
 

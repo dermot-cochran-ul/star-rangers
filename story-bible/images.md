@@ -1812,7 +1812,7 @@ where each goes:
 |---|---|---|
 | ~~`characters/agent-barsik.jpg`~~ | ~~512×1024~~ | **regenerated 3 September 2026** at 1200×670, prompt revised (the "terminals" line was drawing monitors) — drafted for review |
 | `characters/aldera/field-photo-03.jpg`, `-04.jpg` | 512×1120 — **PNG data under a .jpg extension** | re-crop from Dermot's own originals — see the Aldera note below; his hands, stays here |
-| ~~`lore/prismere-*` / `prismeri-*` — 11 files~~ | ~~768×1152~~ | **regenerated 3 September 2026** as one batch at 1600×893, two variants each, picks drafted for review |
+| ~~`lore/prismere-*` / `prismeri-*` — 11 files~~ | ~~768×1152~~ | **regenerated 3 September 2026** as one batch at 1600×893, two variants each; the eight `prismere-*` approved and merged, the three `prismeri-*` rejected as still humanoid and parked in `reference-art/`, the Prismeri page carded |
 | ~~`lore/prismere-root-mat-network.jpg`~~ | ~~773×1152~~ | **regenerated with the set, 3 September 2026** |
 
 The old all-or-none rule carries over to replacement: the Prismere set
@@ -2422,6 +2422,18 @@ locations.
   curtains and ribbons, add *"technical diagram, ruled lines, geometric
   construction, protractor angles"* and push harder. Portrait 3:4, 1600px tall.
   > Silicate-carbon biosphere: living tissue built from glass and crystal rather than wood and chitin. Painterly science-fiction concept art, high detail, naturalistic rather than decorative. Night sky above a crystalline landscape, dominated by the sky itself: faint, mathematically precise geometric figures traced across the whole visible hemisphere — straight lines, clean arcs, closed polygons, at exact angles, like a drafted diagram rendered in pale light. This is geometry, not aurora: no curtains, no billowing, no organic drift. The figures are thin, exact, and unmistakably constructed. The dark landscape below is a low silhouette, present only to give the sky something to sit above. No text, no lettering, no human figures, no cartoon, no watermark, no oversaturated neon, no generic sci-fi cityscape. Portrait orientation.
+
+- **The three Prismeri entries below are withdrawn, 3 September 2026** —
+  regenerated with the set and rejected by Dermot on the day: *"Are the winged
+  prismere beings still too humanoid?"* They were. Each prompt asks for a
+  *winged humanoid*, which is the trap `species-design.md` names — the human
+  frame with features applied — and the 13 August ruling makes the Krenyi the
+  only other people on that frame. The Prismeri page now carries a
+  placeholder card and no body images; the three generated files are parked
+  in `story-bible/reference-art/` (`prismeri-*-2026-09-03.jpg`) for reuse at
+  Dermot's direction. **A re-brief needs prose first**: the page never says
+  what a Prismeri's frame is, only wings, exoskeleton and tendrils, so the
+  body plan is Dermot's to write before any prompt can be.
 
 - **`prismeri-first-wings.jpg`** — the first life stage: an adult, not a child.
   Lore image, not a character portrait — the 16:9 portrait rule does not apply.
