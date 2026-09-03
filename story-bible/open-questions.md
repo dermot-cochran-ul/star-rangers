@@ -1126,3 +1126,22 @@ unnamed; hill children, not a space rescue; she takes no action). Open:
 - **The planet.** Her page leaves it unnamed; the scene need not name it.
 - **Whether the searchers get a voice.** The three-way reading is strongest
   when the physical account has a speaker on the page.
+
+## The young-adult tier's protagonists — `intake-2026-09-03.md`, third direction
+
+Dermot's question, 3 September 2026, verbatim: *"should the young adult reader
+tier focus on younger adults as protagonists in the same way as the child
+reader tier has a focus on pets and small animals?"* Until then the tier was
+defined by register, pace and block length only, and its cast (Larsen,
+Albercombe, Voss, Calloway, Jeeves) is a jurisdiction top to bottom, none of
+them young. Three options put to him: keep the tier as register only; give the
+Five-O thread a young viewpoint; reserve the focus for a second young-adult
+thread later. **Ruled the same day, verbatim: "Option 2 approved"** — the
+Five-O thread gets a raw Deputy or trainee inside the task force as the
+reader's proxy, added by new chapters, nothing published recast.
+
+- **Who the young Deputy is** (follows the ruling): name, age, species, and
+  whose Deputy — Zoe Smith's, per her page, or Larsen's inside the task force;
+  and whether their first chapter is a new Season 4 episode or a later season
+  of the Five-O thread. A character page is draft-and-stop.
+
