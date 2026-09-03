@@ -646,6 +646,16 @@ should not stay*.
 | ~~`prismeri-first-wings`~~ | 1 | **rejected by Dermot, same day: still too humanoid.** Parked in `reference-art/` |
 | ~~`prismeri-full-wings`~~ | re-roll 1 | **rejected, same reason.** Parked |
 | ~~`prismeri-lattice-gathering`~~ | 2 | **rejected, same reason.** Parked |
+
+**The three Prismeri, regenerated the same evening to the body derived from Prismere and confirmed by Dermot** (`species-design.md`, Prismeri section; prompts rewritten in place in `images.md` with a revision note; no reference images, the point being to leave the human frame behind):
+
+| File | Pick | Why |
+| --- | --- | --- |
+| `prismeri-first-wings` | 1 | hanging inverted, wing-hands working a piece of glass, the spire glowing around it — the workshop posture the page describes |
+| `prismeri-full-wings` | 1 | in flight with the Lattice's lines visible and the tendrils streaming, figure in the frame's middle band for the hero crop; variant 2 lost the sky to mist |
+| `prismeri-lattice-gathering` | 2 | heads level, one hanging and one perched, Lattice above and forest below; variant 1's spire read as a cathedral |
+
+Lettering check passed on all three. **One thing for Dermot's eye:** a level-spined membrane-winged flier with a long head inevitably shares a silhouette with the wyvern of fantasy art; the derivation produced the shape from Prismere's physics rather than from the trope, and the facet band, the free fingers and the hanging posture are what keep it its own — but it is the trope-adjacent result the body plan implies, and worth a look at full size.
 | `prismere-root-mat-network` | 1 | the network is the subject, towers secondary |
 | `agent-barsik` | re-roll 1 | no screens; variant 2 had a telephone |
 
