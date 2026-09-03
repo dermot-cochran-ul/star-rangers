@@ -31,6 +31,12 @@ Aldera experiences the boundary zone as texture. A particular wrongness in the a
 
 She knows this because she was trained to know it. And because she is a cat. Cats have always been better at detecting predators than their companions tend to believe.
 
+## What the Hardware Is For
+
+Not for sensing. Her sensitivity to boundary phenomena is natural, predates any augmentation, and is the trait the agency selected her for; the wild cat Nessa reads the same signal with nothing fitted at all. The enhancement is the channel. A cat cannot file a log, and Aldera's entire method is filed logs: the fine implant tracing one ear is the uplink to the agency's distributed network, and the lens in one eye is the record, so that what she logs is what she saw and not a handler's account of it. Nothing about it makes her a better observer. It makes her observations reach the file.
+
+That is also why it was approved. The cyborg regime's default answer is no, and the certification process exists to define the exceptions; the exception argued for Aldera was the least invasive means to an end the agency could not reach otherwise. A collar-borne recorder is exactly what a boundary-proximate posting strips from an animal, and exactly what a stranger would notice, and a boundary observer who cannot report is no observer. The welfare review that cleared it was long, and the record of it is the reason the same clearance has almost never been given since: it was a case, not a precedent, and every later applicant has had to make its own.
+
 ## Character Notes
 
 Aldera communicates through filed logs. She does not volunteer information that has not been requested. This is protocol, not caution. The agency's doctrine holds that information offered before the question is asked tends to be dismissed. Information asked for tends to be used.
