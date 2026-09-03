@@ -1110,3 +1110,17 @@ confirmation in the intake; two things it leaves open:
   now carries the pet chapters and a contemplative site carrying the whole main
   sequence may want different ones. Framing, and Dermot's taste each time.
 
+## Asteria's night — `intake-2026-09-03.md`, second direction
+
+Queued 3 September 2026: Asteria spends a night in dream-state counsel over
+lost children who come home against the odds; nothing visible happens, and she
+credits Levrilic intervention. Four readings flagged in the intake (her
+reading never the record's; the counsel a POV experience with the figure
+unnamed; hill children, not a space rescue; she takes no action). Open:
+
+- **The slot.** Three shapes offered, the general-tier chapter with the first
+  tier-gated contemplative block recommended if a general-tier home can be
+  found, else a Season 8 chapter; a story-bible draft is the no-cost third.
+- **The planet.** Her page leaves it unnamed; the scene need not name it.
+- **Whether the searchers get a voice.** The three-way reading is strongest
+  when the physical account has a speaker on the page.
