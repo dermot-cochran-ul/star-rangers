@@ -311,6 +311,32 @@ blue ruled-lines emblem on a dark navy background, with a FILED AS DOCTRINE
 stamp, in the style of the site's other codex title cards."* — correct it to
 what the card actually shows before committing.
 
+### 2.7 `tissadelle-shepherd.jpg` — uniform-correct regeneration (queued 3 September 2026)
+
+A Tissadelle frame that gets the Ranger uniform right, composed from the
+human-Ranger prompt block in [`uniforms-and-insignia.md`](uniforms-and-insignia.md)
+and the register of her prompt-of-record in [`image-prompts.md`](image-prompts.md).
+Queued after three AI frames of her in costume uniforms were checked against
+`src/lore/rank-insignia-and-uniform.md` and failed on every point the entry
+exists to fix (a solid crest, one mark repeated for three, a luminous tab,
+tailored ornament). The rank is her Season 5 Line Captain tab: three
+concentric rings, and no coloured insert because the command ladder carries
+none above Chief. No corps badge is named because general operations is not
+one of the eight corps. **Where the result goes is Dermot's call**: as
+reference it files under `reference-art/`; as a replacement for the published
+portrait it is a new character image, draft-and-stop, with the prompt
+recorded in `image-prompts.md` alongside.
+
+> Documentary photograph, available light, candid. A woman in her early thirties with long red hair tied back for work and blue-green eyes, aboard a working space station, mid-task with her attention on an instrument off to one side of the frame, not posing. Upright, self-possessed bearing; alert and attentive expression rather than blank or steely. She wears the standard field uniform of an interstellar rescue and survey service: a modular matte shell in dark slate-grey over a close-fitting thermal liner, sealed seams, utilitarian and unornamented, sized to her rather than tailored. No braid, no epaulettes, no belts, no buckles, no piping, no cape, no armour plates, no national flags, no crests or emblems of any kind. Rank is shown by one small hard-edged metal tab seated proud of the chest, plain-finished and matte, marked with three concentric rings and nothing else, no coloured insert. A separate small fabric certification patch sits beside it, a plain geometric shape, and a single row of low-key service ribbons below. Nothing on the uniform glows. No name tape, no name badge, no printed words, no letters and no numerals on her clothing of any kind. Equipment, hard surfaces and functional light around her; soft diffuse recessed lighting from a concealed source, no lamp or light fitting visible. Unglamorous lighting; visible skin texture; no beauty retouching, no styled hair, no makeup emphasis. Nothing in the image invites the viewer; she is at work and has been for hours. Muted realistic palette, professional, no glamour styling. No screens, no monitors, no glowing displays, no holograms and no projected light anywhere in frame. No readable text, numerals, signage, insignia lettering or written characters of any script anywhere in frame. 16:9 landscape.
+
+**Negative:** crest, emblem, arrowhead, chevron badge, glowing insignia,
+belt, buckle, piping, cape, armour plate, epaulette, braid, tailored jacket,
+skirt, gaze to camera, beauty lighting, text, lettering, watermark.
+
+**Season 1 variant:** replace "three concentric rings and nothing else, no
+coloured insert" with "a single plain horizontal bar, with a narrow
+slate-blue insert" and "early thirties" with "early twenties".
+
 ### Conditional
 
 - **A Church Space theme.** Only if the fall-through to Celtic ambient is judged
