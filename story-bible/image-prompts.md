@@ -619,3 +619,44 @@ should not stay*.
 | federation-of-sentient-beings | rings | #1A2426 | #A8CDB9 | A Multi-Species Cooperative of Worlds | Mutual aid rather than central authority |
 | star-rangers-command-hierarchy | chevron | #141A26 | #9FB6CE | The Rank Ladder, Novice to Triumvirate | Two career tracks fused into one chain |
 | united-space-consortium | rings | #26201A | #D4B48C | The First Attempt at Interplanetary Governance | And why it did not survive its own contradictions |
+
+---
+
+## 2026-09-03 — the Prismere set regenerated, and Agent Barsik
+
+- **Type:** generation, Gemini 3.1 Flash Image, 2K, 16:9, two variants per
+  entry, no reference images (the point was to leave the old motif behind)
+- **Ruling it acts on:** Dermot, 11 August 2026 — replace, not upscale; all
+  twelve together or none. Prompts of record are the twelve entries under
+  *5a* in `images.md`; none is repeated here.
+- **Drafted for review**, since every one depicts a place or a species.
+
+**Picks** (variant numbers refer to the `image-out/` run of this date):
+
+| File | Pick | Why |
+| --- | --- | --- |
+| `prismere-orbital-vista` | re-roll 1 | night as briefed, the grazer small at the ridge edge, the sky doing the work |
+| `prismere-glasswood-grove` | 1 | the leaves read as lenses, refractions on the ground |
+| `prismere-flowering-glasswood` | 2 | fewer foragers, the blossoms carry it |
+| `prismere-luminous-towers` | 1 | lit from the base, roots visible, inhabited without a jellyfish |
+| `prismere-glass-spires` | 2 | truly unlit; variant 1 had a glowing river |
+| `prismere-driftjellies` | 1 | the ecosystem, not one animal |
+| `prismere-umbral-ray` | 2 | dimmer, the unpleasant beat the brief asked for |
+| `prismere-twilight-lattice` | 2 | geometry, not aurora; variant 1 leaned on a Milky Way |
+| `prismeri-first-wings` | 1 | one figure, full length; variant 2 was a three-panel layout |
+| `prismeri-full-wings` | re-roll 1 | single figure, head raised, tendrils out |
+| `prismeri-lattice-gathering` | 2 | equals, subtler sky geometry; variant 1 floated real-world sacred-geometry symbols |
+| `prismere-root-mat-network` | 1 | the network is the subject, towers secondary |
+| `agent-barsik` | re-roll 1 | no screens; variant 2 had a telephone |
+
+**Three prompts revised on the day, recorded in place in `images.md`:**
+`prismeri-full-wings` (one variant came back as a labelled PRE/POST
+comparison sheet, the other as two figures — now insists on a single
+individual and bans the diagram layout); `agent-barsik` (asked for
+"terminals" and got wall-to-wall monitors — the scene changed, per the
+lettering-ban-cannot-beat-the-scene rule); and `prismere-orbital-vista` was
+briefly given a no-animals negative in error, then restored, because the
+prompt asks for the grazer as a scale figure and the re-roll honoured it.
+
+**Lettering check:** passed on every filed image. The old motif check
+passed too: no jellyfish-and-spire repeat across the eight locations.
