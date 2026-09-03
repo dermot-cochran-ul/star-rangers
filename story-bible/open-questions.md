@@ -1093,3 +1093,21 @@ canon; the first is the only one that would add a reader-facing feature.
   three exist only for an independent host. Whether a reader here should be able
   to reach them is the same question as the switcher above, and probably has the
   same answer.
+
+## The tier ladder — `intake-2026-09-03.md`
+
+Queued 3 September 2026 from Dermot's direction that the reading tiers nest
+(children ⊂ young adult ⊂ general ⊂ contemplative) and that the contemplative
+edition may add POV scenes to any chapter. Four readings flagged for
+confirmation in the intake; two things it leaves open:
+
+- **Where the canonical site stands on the ladder.** `fianilchruinne.com`
+  holds everything public and hides the private `church-space` thread by
+  design, so under the ladder the contemplative editions become the only
+  complete view. Canonical = general tier, or should it opt in and stand at the
+  top?
+- **Re-hanging the doors on the widened editions.** Hero casts and the pets
+  `readingPlan` were chosen against narrow page sets; a young-adult site that
+  now carries the pet chapters and a contemplative site carrying the whole main
+  sequence may want different ones. Framing, and Dermot's taste each time.
+
