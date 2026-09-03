@@ -1175,3 +1175,21 @@ makes them the right age at the right time. Four readings flagged. Open:
 - **Later-years chapters.** Asteria has one. Whether any other established
   character is due one in the contemplative tier, and who first.
 
+## Young Star Rangers — `intake-2026-09-03.md`, sixth direction
+
+Dermot, 3 September 2026: the young-adult tier "probably needs a Young Star
+Rangers themed addition as well as Orbital Five-O" — a second young-adult
+thread, cadets and Deputies inside the Corps, beside the procedural. Four
+readings flagged in the intake (a new thread with its own season, the next
+free being 9; the third direction's young Deputy as its natural protagonist
+and Shepherd's 2826 as its guest window; its face a separate question; band
+and register unchanged). Open:
+
+- **Its face.** Three shapes — both threads on starquest.site under a widened
+  brand; a second young-adult edition on a subdomain branded Young Star
+  Rangers (recommended, and the closing note allows the subdomain); or hold
+  the thread on the canonical site until it has chapters. Draft-and-stop
+  either way.
+- **The thread's registration** — id, season 9, and its first chapter written
+  to the gap — waits on the readings being confirmed.
+

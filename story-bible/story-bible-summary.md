@@ -543,7 +543,17 @@ Notes that keep the tiers honest:
   appear.
   Same day, the standing shape: **four tiers are expected to be enough for
   most kinds of reader, and editions are open-ended** — added within a tier
-  as a face, a page set or an institution warrants one.
+  as a face, a page set or an institution warrants one, on a subdomain of an
+  existing domain when the existing domains are not enough.
+- **The young-adult tier gets a second thread, Young Star Rangers (3
+  September 2026, Dermot's direction, readings flagged —
+  `intake-2026-09-03.md`, sixth direction).** Cadets and Deputies inside the
+  Corps, beside Orbital Five-O rather than instead of it: a new storyline
+  thread with its own season (the next free is 9), joining the young-adult
+  tier's filters and inherited upward. The young Deputy of the third
+  direction is its natural protagonist and Shepherd's 2826 its guest window.
+  Whether it gets its own face — a second young-adult edition on a subdomain
+  is the recommended shape — is a separate question, indexed.
 - **A tier is not a posture (21 August 2026).** Each edition now also carries a
   *presentation mode* — `story`, `primer`, `archive` or `contemplative` — and
   it deliberately does not map one-to-one onto the tiers above. The tiers are
