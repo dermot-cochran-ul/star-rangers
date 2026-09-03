@@ -1237,3 +1237,23 @@ and register unchanged). Open:
   Rangers face means a new `theme-*.css` through `generate-themes` and the
   contrast gate. Design work, when the first chapter exists.
 
+## The Prismeri body plan — raised 3 September 2026
+
+Dermot, on reviewing the regenerated Prismere set: *"Are the winged prismere
+beings still too humanoid? If so then recycle them as images for the
+four-islands-quest."* They were, and the three were withdrawn from #649 and
+parked in `story-bible/reference-art/`. Open:
+
+- **What a Prismeri actually is, in the body.** The page commits to a
+  silicate-carbon physiology, two adult forms, gossamer then load-bearing
+  wings, a soft then chitin exoskeleton, and sensory tendrils from a skull
+  ridge — and never to a frame. By `species-design.md`'s method the frame
+  should follow from Prismere (low light, crystal forests, a sky that is read
+  rather than seen, sustained high-altitude flight) rather than from a human
+  silhouette with wings. Dermot's to write; the prompts follow the prose.
+- **"The four-islands-quest."** Nothing by that name exists in the repo. The
+  Kingdom of the Four Islands is a lore page with a Survey delegation and a
+  devotional codex entry; no thread, season or chapter is registered for it.
+  Three readings put to Dermot: a quest thread or season set in the Kingdom
+  not yet registered; the Kingdom's own devotional art, winged figures as
+  Codex art with an in-world maker; or a quest in Tissadelle's inner world.

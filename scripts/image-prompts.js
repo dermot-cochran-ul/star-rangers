@@ -121,7 +121,10 @@ const ASPECT = { Portrait: '16:9', Landscape: '16:9' };
 
 const SECTION_TARGETS = [
   { match: /^###\s*\d+\.\s*Missing portraits/i, dir: 'characters' },
-  { match: /^###\s*\d+\.\s*Missing lore illustrations/i, dir: 'lore' },
+  // `\d+[a-z]?` because images.md numbers sub-sections 5a/5b, and the twelve
+  // Prismere prompts under 5a were invisible to a bare-number match (found
+  // 3 September 2026 when the set was finally regenerated).
+  { match: /^###\s*\d+[a-z]?\.\s*Missing lore illustrations/i, dir: 'lore' },
   // Codex art (Dermot's rulings of 18 August and 3 September 2026): an
   // in-world artist's impression that lives in a codex entry's body, the
   // entry's own header staying a designed card. Filed under src/images/codex/

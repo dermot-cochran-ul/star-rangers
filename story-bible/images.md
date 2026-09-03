@@ -1123,7 +1123,8 @@ the entry, per the standing pipeline rule.
   pose and wrong on the lettering ban (readable binder spines, papers, and
   collar tag); the ban is written into the prompt below. The rejected 28 July attempt is recorded in
   `image-prompts.md` § 3.
-  > A black cat seated squarely on an untidy stack of printed paperwork on an office desk, wearing a small worn plain metal disc on his collar. Institutional station office behind him — filing, terminals, fluorescent light. He is looking directly at the viewer with complete composure, entirely unbothered, as though he has been interrupted rather than caught. Photographic, warm practical lighting, no whimsy and no costume beyond the badge. No text, no labels, no writing on any surface; binder spines and paperwork blank; the collar tag plain and unengraved; no readable text, signage, insignia lettering or written characters anywhere in frame. Landscape orientation.
+  > A black cat seated squarely on an untidy stack of printed paperwork on an office desk, wearing a small worn plain metal disc on his collar. Institutional station office behind him — plain filing cabinets, shelves of blank binders, no screens, monitors, terminals or consoles anywhere in frame, even overhead light from an unseen source. He is looking directly at the viewer with complete composure, entirely unbothered, as though he has been interrupted rather than caught. Photographic, warm practical lighting, no whimsy and no costume beyond the badge. No text, no labels, no writing on any surface; binder spines and paperwork blank; the collar tag plain and unengraved; no readable text, signage, insignia lettering or written characters anywhere in frame; no holograms, screens, monitors or consoles; no visible lamp, light fitting or bulb. Landscape orientation.
+  *(Revised 3 September 2026: the prompt asked for "terminals" and both variants of the first run were wall-to-wall monitors — the lettering ban cannot beat the scene, so the scene changed.)*
 
 #### The seventeen replaced on 12 August 2026
 
@@ -1809,10 +1810,10 @@ where each goes:
 
 | File | Current | Route |
 |---|---|---|
-| `characters/agent-barsik.jpg` | 512×1024 | regenerate — prompt now in Open work 1 |
+| ~~`characters/agent-barsik.jpg`~~ | ~~512×1024~~ | **regenerated 3 September 2026** at 1200×670, prompt revised (the "terminals" line was drawing monitors) — drafted for review |
 | `characters/aldera/field-photo-03.jpg`, `-04.jpg` | 512×1120 — **PNG data under a .jpg extension** | re-crop from Dermot's own originals — see the Aldera note below; his hands, stays here |
-| `lore/prismere-*` / `prismeri-*` — 11 files | 768×1152 | regenerate — prompts now in Open work 5 |
-| `lore/prismere-root-mat-network.jpg` | 773×1152 | regenerate with the set — Open work 5 |
+| ~~`lore/prismere-*` / `prismeri-*` — 11 files~~ | ~~768×1152~~ | **regenerated 3 September 2026** as one batch at 1600×893, two variants each; the eight `prismere-*` approved and merged, the three `prismeri-*` rejected as still humanoid and parked in `reference-art/`, the Prismeri page carded |
+| ~~`lore/prismere-root-mat-network.jpg`~~ | ~~773×1152~~ | **regenerated with the set, 3 September 2026** |
 
 The old all-or-none rule carries over to replacement: the Prismere set
 regenerates as one batch or not at all, so the series stays internally
@@ -2380,7 +2381,7 @@ doesn't re-derive them.
 
 Twelve entries, migrated from `firefly-prompts.md` §§ A–B on 2026-08-11 — the
 file has since been retired, so **this is the only copy**, each entry carrying
-its divergence note in its description. See Open work 2 for the ruling. Dormant while the old files exist; the set regenerates **all together
+its divergence note in its description. See Open work 2 for the ruling. **Regenerated as one batch on 3 September 2026** (two variants each, all twelve, picks in `image-prompts.md`; the parser needed a fix first, since the `5a.` heading was invisible to it). Was dormant while the old files existed; the set regenerates **all together
 or not at all** (the all-or-none rule carried over from the upscale plan), and
 each prompt varies the *light source* rather than the adjective — that
 divergence is the whole point of replacing instead of upscaling, since the old
@@ -2422,6 +2423,18 @@ locations.
   construction, protractor angles"* and push harder. Portrait 3:4, 1600px tall.
   > Silicate-carbon biosphere: living tissue built from glass and crystal rather than wood and chitin. Painterly science-fiction concept art, high detail, naturalistic rather than decorative. Night sky above a crystalline landscape, dominated by the sky itself: faint, mathematically precise geometric figures traced across the whole visible hemisphere — straight lines, clean arcs, closed polygons, at exact angles, like a drafted diagram rendered in pale light. This is geometry, not aurora: no curtains, no billowing, no organic drift. The figures are thin, exact, and unmistakably constructed. The dark landscape below is a low silhouette, present only to give the sky something to sit above. No text, no lettering, no human figures, no cartoon, no watermark, no oversaturated neon, no generic sci-fi cityscape. Portrait orientation.
 
+- **The three Prismeri entries below are withdrawn, 3 September 2026** —
+  regenerated with the set and rejected by Dermot on the day: *"Are the winged
+  prismere beings still too humanoid?"* They were. Each prompt asks for a
+  *winged humanoid*, which is the trap `species-design.md` names — the human
+  frame with features applied — and the 13 August ruling makes the Krenyi the
+  only other people on that frame. The Prismeri page now carries a
+  placeholder card and no body images; the three generated files are parked
+  in `story-bible/reference-art/` (`prismeri-*-2026-09-03.jpg`) for reuse at
+  Dermot's direction. **A re-brief needs prose first**: the page never says
+  what a Prismeri's frame is, only wings, exoskeleton and tendrils, so the
+  body plan is Dermot's to write before any prompt can be.
+
 - **`prismeri-first-wings.jpg`** — the first life stage: an adult, not a child.
   Lore image, not a character portrait — the 16:9 portrait rule does not apply.
   Portrait 3:4, 1600px tall.
@@ -2431,7 +2444,8 @@ locations.
   the character. Also the hero of `src/lore/prismeri.md`, so keep the subject
   clear of the top and bottom thirds for the hero crop. Portrait 3:4, 1600px
   tall.
-  > Sapient alien people, silicate-carbon physiology, winged humanoid but clearly not human — proportions, joint structure and head shape all wrong for human in specific ways. Dignified, intelligent bearing. Concept-art character study, full or three-quarter figure, in an environment. The same species after an irreversible metamorphosis: hardened gold-and-blue chitin plating in place of soft exoskeleton, heavier and broader through the shoulders, with strong load-bearing wings built for sustained high-altitude flight. Long motile sensory tendrils grow from the skull ridge, dense with visible crystalline structures. Standing among crystalline flora beneath a banded planet, head slightly raised, tendrils extended — reading something in the sky that is not visible in the frame. No text, no lettering, no cartoon, no watermark, no oversaturated neon. Portrait orientation.
+  > Sapient alien people, silicate-carbon physiology, winged humanoid but clearly not human — proportions, joint structure and head shape all wrong for human in specific ways. Dignified, intelligent bearing. Concept-art character study, full or three-quarter figure, in an environment. The same species after an irreversible metamorphosis: hardened gold-and-blue chitin plating in place of soft exoskeleton, heavier and broader through the shoulders, with strong load-bearing wings built for sustained high-altitude flight. Long motile sensory tendrils grow from the skull ridge, dense with visible crystalline structures. Standing among crystalline flora beneath a banded planet, head slightly raised, tendrils extended — reading something in the sky that is not visible in the frame. No text, no lettering, no cartoon, no watermark, no oversaturated neon. A single individual only: no second figure, no earlier life stage beside it, no comparison panels, split frames, labels, captions or diagram layout. No readable text, lettering or written characters anywhere in frame. 16:9 landscape.
+  *(Revised 3 September 2026: one variant came back as a labelled PRE/POST-METAMORPHOSIS comparison sheet and the other as two figures; the prompt now insists on one individual and bans the diagram layout.)*
 
 - **`prismeri-lattice-gathering.jpg`** — two forms, one people, no hierarchy;
   the hardest image in the set. Equals — no looking-up-at, no deference.

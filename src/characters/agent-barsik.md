@@ -10,7 +10,7 @@ tags: [detective-agency, cat, eden, undercover-pets.com]
 description: "A detective agency field agent embedded at Eden Space Habitat, working undercover among its civilian research staff."
 known_codex: [filing-of-the-galley-door-specimen, deck-rounds-and-first-tunnel-survey]
 image: agent-barsik.jpg
-image_alt: "Agent Barsik, a black cat wearing an agency badge, seated on paperwork at Eden Space Habitat"
+image_alt: "Agent Barsik, a black cat seated squarely on an untidy stack of paperwork on a wooden office desk, a plain metal disc on his collar, looking directly at the viewer with complete composure; filing cabinets and shelves of blank binders behind him."
 ---
 
 Eden Space Habitat runs on paperwork. Compliance framework, monitoring officer sign-offs, twelve requirements and counting since the *Constant Margin* transit — every fold-adjacent anomaly gets a form, and every form gets filed somewhere a committee will eventually read it, months late. Agent Barsik has read most of them first.
