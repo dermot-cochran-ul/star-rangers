@@ -529,6 +529,21 @@ Notes that keep the tiers honest:
   younger Wender may guest in Five-O if the chronology lines up** — Shepherd
   does (2826, her Season 1 year, on Eden); Wender only in a chapter set
   around 2800–2810, which the thread has not claimed.
+- **The tiers are a ladder of life stages (3 September 2026, Dermot's
+  direction, readings flagged — `intake-2026-09-03.md`, fifth direction).**
+  Each tier has a body its reader's size in the room: pets and small animals
+  for the child; a raw Deputy, and the younger Shepherd or Wender as guests,
+  for the young adult; the middle-aged and the aliens (perhaps in a specific
+  edition) for the general reader; the oldest, and the existing cast in their
+  later years, for the contemplative reader. A character's weight in a tier
+  follows their age in that tier's years — older characters support in the
+  lower tiers and may lead in the upper two — unless the chronology makes the
+  same person the right age at the right time, in which case they may carry
+  any tier. A default for where new viewpoints go, not a filter on who may
+  appear.
+  Same day, the standing shape: **four tiers are expected to be enough for
+  most kinds of reader, and editions are open-ended** — added within a tier
+  as a face, a page set or an institution warrants one.
 - **A tier is not a posture (21 August 2026).** Each edition now also carries a
   *presentation mode* — `story`, `primer`, `archive` or `contemplative` — and
   it deliberately does not map one-to-one onto the tiers above. The tiers are
