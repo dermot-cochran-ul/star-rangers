@@ -8,6 +8,8 @@ description: "The safety doctrine governing when — and whether — a frontier 
 
 Every terraforming disaster the record actually documents shares one root cause: someone in a hurry had the authority to start, and nobody in the chain had the authority to make them wait.
 
+The toolkit those disasters misused was built on Earth, for Earth, during the Crisis Centuries; [Climate Repair and the Origin of Terraforming](/star-rangers/lore/climate-repair-and-terraforming/) records where it came from and what its first use taught.
+
 **Frontier Transformation Protocols** are the family of safety doctrines — no two polities' versions identical, all converging on the same shape — that govern whether, how much, and how fast a frontier world's biosphere or atmosphere may be deliberately transformed. No world qualifies for full-conversion authorisation quickly, and after the record the Kernel Accords' own drafters inherited, no institution has seriously proposed making that faster.
 
 ## What the Protocols Actually Guard Against

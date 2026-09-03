@@ -1257,7 +1257,10 @@ parked in `story-bible/reference-art/`. Open:
   Three readings put to Dermot: a quest thread or season set in the Kingdom
   not yet registered; the Kingdom's own devotional art, winged figures as
   Codex art with an in-world maker; or a quest in Tissadelle's inner world.
-## Climate repair and terraforming — `intake-2026-09-03.md`, ninth direction
+## Climate repair and terraforming — `intake-2026-09-03.md`, ninth direction — RULED 3 September 2026
+
+**All readings, and the tenth direction's, confirmed the same day; entry merged
+with cross-links from the Crisis Centuries, FTP and Mars pages. Nothing open.**
 
 Dermot, 3 September 2026: terraforming technology developed as a response to
 global warming and climate change. Drafted as
