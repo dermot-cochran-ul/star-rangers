@@ -5,7 +5,7 @@ category: "Medicine"
 tags: [teleportation, ptasd, medical-corps, safety-corps, boundary-zone, etheric, cosmic-cascade, psychology]
 description: "A Medical Corps-recognised clinical condition distinct from ordinary post-jump fatigue: personnel who teleport through boundary-proximate or fold-adjacent zones report a disorientation grief clinicians can't explain as fear, and can't fully explain at all."
 image: "post-teleport-ascension-stress-disorder.jpg"
-image_alt: "An empty operating theatre in white and pale blue: two large domed surgical lights on ceiling booms above a bare operating table, a multi-armed robotic surgical system mounted at its head, a mobile C-arm imaging scanner to one side and monitors displaying scans on the other."
+image_alt: "Designed cover for Post-Teleport Ascension Stress Disorder: a fold device, two small points joined by a folded curve, in a pale blue-grey glow on a dark slate field, the category MEDICINE above and the title beneath, with the lines A Medical Corps-Recognised Condition and Distinct from ordinary post-jump fatigue."
 ---
 
 Ordinary jump fatigue has a known shape: anxiety, a flattened mood, a day or two of cognitive fog. Medical Corps clinicians can chart it, medicate around it, and clear a Ranger back to duty on a schedule. Post-Teleport Ascension Stress Disorder does not have that shape, and nobody currently signing off on fitness-for-duty forms claims to fully understand why.

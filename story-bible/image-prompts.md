@@ -600,3 +600,22 @@ first kept in `image-out/` until the PR merges):
   "A member behind a registration" -Institution "Circulating; no archival
   master" -Author "Unattributed" -Motif none -Underlay <the artwork>`, default
   scrim.
+
+---
+
+## 2026-09-03 — seven emblem cards from the Batch 2 lore audit
+
+All `scripts/make-emblem-card.ps1`, title and category from each page's front
+matter, epithet and qualifier lifted from the page's `description`. Replacing
+stock anachronisms; the audit record is in `images.md` under *Images that
+should not stay*.
+
+| Page | Device | Tint | Accent | Epithet | Qualifier |
+| --- | --- | --- | --- | --- | --- |
+| galactic-stardate | sundial | #1C1810 | #D9C08A | Measured by Galactic Rotation | Cycles, not planetary years |
+| year-zero | sundial | #1A1712 | #D2B98A | Year Zero | The events of 2826 UCSD |
+| post-teleport-ascension-stress-disorder | fold | #16202A | #A9C4C9 | A Medical Corps-Recognised Condition | Distinct from ordinary post-jump fatigue |
+| knarr-line | chevron | #1B2230 | #B8C7D6 | Belt Shipping and Ice-Mining Cooperative | Old enough to have helped write the first navigation treaty |
+| federation-of-sentient-beings | rings | #1A2426 | #A8CDB9 | A Multi-Species Cooperative of Worlds | Mutual aid rather than central authority |
+| star-rangers-command-hierarchy | chevron | #141A26 | #9FB6CE | The Rank Ladder, Novice to Triumvirate | Two career tracks fused into one chain |
+| united-space-consortium | rings | #26201A | #D4B48C | The First Attempt at Interplanetary Governance | And why it did not survive its own contradictions |
