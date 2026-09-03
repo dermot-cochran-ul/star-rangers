@@ -39,6 +39,10 @@ permitted); `dreams-across-the-interval.md`; `fellowship-of-light.md`
   names it afterwards. The figure has the form of a dead colleague, which is
   what `levrils.md` says a human gets.
 - Asteria taking no action, and the reasons being sound.
+- **Asteria at a hundred and thirty** — approved by Dermot, 3 September 2026,
+  on the reasoning that life expectancy will have increased slightly. Her page
+  has her retiring at about a hundred, so this puts thirty years at the house
+  behind the scene; the draft's own arithmetic was corrected to match.
 - Peran Slade present at the chapter house and the one she speaks to in the
   morning. Peran's own view is not given — that block, if ever wanted, is a
   third shape's worth of work and a different question.
@@ -117,7 +121,7 @@ They went through them. She had gone through them already, alone, in ten minutes
 
 Somewhere in the third hour — she did not have a clock, and would not have looked at it — she said, *If I were you. If I were the kind of thing that could.* And he said, *Could what?* And she found she could not say it, because it did not have a shape she could stand over, and he waited, as he had always waited, and then said, gently, *Then don't. Say what you know.*
 
-What she knew was the hill. She had walked every yard of it in twenty years; she knew the drowned ground the way she had once known a boundary zone, as a thing you learned by the places where the instruments stopped agreeing. She knew that a child who went low would go into it, and that once in it there was a way through, one, that the settlement had walled off because knowing it was not the same as finding it, and that the finding was a matter of standing still at the right moments and not the wrong ones, which no child could do and no adult either, in the dark, without a light.
+What she knew was the hill. She had walked every yard of it in thirty years; she knew the drowned ground the way she had once known a boundary zone, as a thing you learned by the places where the instruments stopped agreeing. She knew that a child who went low would go into it, and that once in it there was a way through, one, that the settlement had walled off because knowing it was not the same as finding it, and that the finding was a matter of standing still at the right moments and not the wrong ones, which no child could do and no adult either, in the dark, without a light.
 
 *Say that, then,* he said. *All of it. Slowly.* And she did, and he listened, and it was the longest she had spoken without interruption in some years, and when she had finished the room was grey and he was not in it.
 
