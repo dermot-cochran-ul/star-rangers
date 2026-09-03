@@ -1,7 +1,7 @@
 const path = require("path");
 const { DateTime } = require("luxon");
 const pluginNavigation = require("@11ty/eleventy-navigation");
-const { createMarkdownRenderer } = require("./lib/markdown-containers");
+const { createMarkdownRenderer, povTierVisible } = require("./lib/markdown-containers");
 const { imageSize } = require("./lib/image-size");
 const { isPlaceholderImage } = require("./lib/placeholder-marker");
 const {
@@ -220,7 +220,18 @@ module.exports = function(eleventyConfig) {
   // Wires up the :::pov / :::::scene custom containers used in chapter
   // content (see lib/markdown-containers.js) - without this, markdown-it
   // has no idea what those fences mean and renders them as literal text.
-  eleventyConfig.setLibrary("md", createMarkdownRenderer());
+  // The renderer also gates tier-marked POV blocks (`::: pov <id>
+  // tier=contemplative`) by this build's edition tier - see the TIER-GATED
+  // section of lib/markdown-containers.js. scenePovPages.js builds its own
+  // instance with the same option, so both views of a chapter agree.
+  eleventyConfig.setLibrary("md", createMarkdownRenderer({ buildTier: getEdition().tier }));
+
+  // The chapter layout's "View from" buttons come from `povs:` front matter,
+  // not from the rendered body, so they need the same gate: an entry carrying
+  // `tier:` above this build's tier names a block the body no longer has.
+  eleventyConfig.addFilter("povsForTier", (povs) =>
+    (povs || []).filter((p) => povTierVisible(p && p.tier, getEdition().tier))
+  );
 
   eleventyConfig.addPlugin(pluginNavigation);
 

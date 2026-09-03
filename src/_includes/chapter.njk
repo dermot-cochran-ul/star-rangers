@@ -54,7 +54,8 @@ commentsCategory: episodes
     {% endif %}
   </header>
 
-  {% if povs and povs.length %}
+  {%- set visiblePovs = povs | povsForTier -%}
+  {% if visiblePovs and visiblePovs.length %}
   <div class="pov-controls" role="group" aria-label="Point of view selector">
     <p class="pov-controls__label">View from:</p>
     <div class="pov-controls__buttons">
@@ -64,7 +65,7 @@ commentsCategory: episodes
         aria-pressed="true"
         type="button"
       >All POVs</button>
-      {% for pov in povs %}
+      {% for pov in visiblePovs %}
       <button
         class="pov-btn"
         data-pov="{{ pov.id }}"
