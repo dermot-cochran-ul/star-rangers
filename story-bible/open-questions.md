@@ -1119,9 +1119,22 @@ credits Levrilic intervention. Four readings ~~flagged~~ **confirmed 3 September
 reading never the record's; the counsel a POV experience with the figure
 unnamed; hill children, not a space rescue; she takes no action). Open:
 
-- **The slot.** Three shapes offered, the general-tier chapter with the first
-  tier-gated contemplative block recommended if a general-tier home can be
-  found, else a Season 8 chapter; a story-bible draft is the no-cost third.
+- ~~**The slot.**~~ — **ruled 3 September 2026: the gated chapter**, filed as
+  `s08e02c01` (Season 8, Episode 2), because at a hundred and thirty she stands
+  near 2850, past every general-tier season. The gated-block marker stays on
+  her block against a later move.
 - **The planet.** Her page leaves it unnamed; the scene need not name it.
 - **Whether the searchers get a voice.** The three-way reading is strongest
   when the physical account has a speaker on the page.
+
+## The young-adult tier's protagonists — raised 3 September 2026
+
+Dermot's question, verbatim: *"should the young adult reader tier focus on
+younger adults as protagonists in the same way as the child reader tier has a
+focus on pets and small animals?"* Today the tier is defined by register, pace
+and block length only; its cast (Larsen, Albercombe, Voss, Calloway, Jeeves) is
+a jurisdiction top to bottom, none of them young. Options put to him: keep the
+tier as register only; give the Five-O thread a young viewpoint — a raw Deputy
+or trainee inside the task force, the reader's proxy, without recasting what is
+published; or reserve the young-protagonist focus for a second young-adult
+thread later. Undecided.
