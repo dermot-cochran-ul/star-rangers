@@ -8,6 +8,8 @@ status: Active
 aliases: []
 tags: [alien, ilveth, sardain, cold-world, thermal-vision, search-and-rescue, night-survey]
 description: "An Ilveth search-and-rescue specialist who finds the living by their warmth — cold-bodied, unhurried, and never off watch."
+image: "suvra-kel.jpg"
+image_alt: "Suvra Kel keeping a night watch on a frozen plain: a long, low, segmented slate-grey body on several pairs of short limbs, broad vanes folded flat along the flanks, resting beside a dark frost-free outcrop. The forward crest carries wide round hollows holding faint reflections of the sky. A small dim sun sits low on the horizon under a handful of stars."
 ---
 
 Suvra Kel kept the boundary watch of a geothermal province on Sardain before the survey came: three-day vigils over warm ground under a sky that drinks heat, counting what moved in the dark by its glow. She was among the first [Ilveth](/star-rangers/lore/ilveth/) to take Corps service, and the record's phrase for humans — *lanterns that cannot be put out* — is hers, offered without malice in her first season among them and impossible to improve.

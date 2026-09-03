@@ -7,6 +7,8 @@ role: "Starwarden, boundary-proximate post, outward frontier (2824 UCSD – )"
 status: Active
 tags: [star-rangers, starwarden, boundary, safety-corps, neutrality, frontier, human]
 description: "A Starwarden who answers for a boundary-proximate post whose distance from the boundary is not a quantity that exists — a certified boundary analyst holding the record his own classification finding will be made from, and unable to establish that he holds it evenly."
+image: "luke-valerius.jpg"
+image_alt: "Starwarden Luke Valerius, a man in his forties with dark hair going grey, in a grey jacket, standing beside a wide dark viewport onto an ordinary starfield and looking off to one side. Behind him on a plain bench stand two matched unmarked metal cylinders."
 ---
 
 Starwarden Luke Valerius answers for a boundary-proximate post whose distance from the boundary is not a quantity that exists.

@@ -10,6 +10,8 @@ aliases:
   - "Aoife of the Thorn Well"
 tags: [saint-aoife, celtic-union, hagiography, levril, culture, human]
 description: "The thirteenth-century Irish holy woman whose vision at the thorn well founded a devotion the Celtic Union carried off Earth — and who, by her own account, was never fully certain what she had seen."
+image: "saint-aoife.jpg"
+image_alt: "Aoife, a woman in an undyed woollen dress and shawl with long dark red hair, standing at a low stone-kerbed spring in a blackthorn thicket at night, her face turned down toward the water and lost in shadow. Moorland and a plain sky of small stars lie behind."
 ---
 
 Aoife never claimed to know what she'd met at the thorn well. That refusal is the one thing about her every later reader — devout, sceptical, or reading from a cosmology she couldn't have imagined — has taken at face value.
