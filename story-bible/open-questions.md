@@ -1185,11 +1185,15 @@ free being 9; the third direction's young Deputy as its natural protagonist
 and Shepherd's 2826 as its guest window; its face a separate question; band
 and register unchanged). Open:
 
-- **Its face.** Three shapes — both threads on starquest.site under a widened
-  brand; a second young-adult edition on a subdomain branded Young Star
-  Rangers (recommended, and the closing note allows the subdomain); or hold
-  the thread on the canonical site until it has chapters. Draft-and-stop
-  either way.
-- **The thread's registration** — id, season 9, and its first chapter written
-  to the gap — waits on the readings being confirmed.
+- ~~**Its face.**~~ — **ruled 3 September 2026: a second young-adult edition
+  on a subdomain**, registered as `young-star-rangers` on
+  `young.fianilchruinne.com` (starquest palette for now; a palette of its own
+  is open). The cPanel side — subdomain, clone, two-key `deploy.conf` — is
+  still to do.
+- ~~**The thread's registration**~~ — **done the same day**: `young-star-rangers`,
+  Season 9, index pages only. **Its first chapter** is still to be written to
+  the gap, and waits on the Deputy's identity (above).
+- **A palette of its own.** The edition reuses `starquest`; a Young Star
+  Rangers face means a new `theme-*.css` through `generate-themes` and the
+  contrast gate. Design work, when the first chapter exists.
 

@@ -242,6 +242,43 @@ exactly as elsewhere.
 
 ---
 
+## `young-star-rangers` — young.fianilchruinne.com
+
+**Registered 3 September 2026; no chapter yet, cPanel side pending. Theme
+`starquest` for now. Posture `story`. Threads: the young-adult floor
+(undercover-pets, orbital-five-o) plus young-star-rangers. Brand: Young Star
+Rangers.**
+
+**Arrives** wanting to be a Star Ranger, or to read about someone their own
+age becoming one. The young-adult tier's second reader: not the procedural's,
+but the Corps'.
+
+**Wants** the first posting — a kit list, a corridor, a Field Officer who has
+seen it all before, and a year in which the rank starts to mean what people
+think it means. Pace as Five-O's; the difference is that the reader is inside
+the service.
+
+**Loses them** the same way Five-O does — by slowing down to explain — and one
+more way: by making the Deputy a chosen one. The Corps hands its rawest
+Deputies to Zoe Smith because they are raw, not because they are special, and
+the reader's proxy has to stay one of fourteen.
+
+**Posture** `story`, shared with starquest for the reason given there.
+
+**Palette** borrowed from starquest until the first chapter exists; a face of
+its own is design work behind the contrast gate.
+
+**Cast** Zoe Smith, alone, until the Deputy exists — and then the Deputy
+first, because this site is theirs. Cadet Shepherd may guest (2826 lines up)
+but is not cast: her page carries her whole arc.
+
+**Never** put the thread on starquest.site: that domain is a procedural's
+brand, and a Corps story under it would read as a spin-off of the wrong show.
+The general tier carries both by construction, which is where a reader who
+wants both goes.
+
+---
+
 ## `pets` — undercover-pets.com
 
 **109 pages. Theme `pets` (cream `#fdf6ec`, rust `#a34726`). Posture `primer`.
