@@ -35,6 +35,16 @@ description: "About Dermot R. Cochran, creator of Fian Ilchruinne."
   <a href="/star-rangers/journal/two-copies-forty-seconds-apart/">Journal</a>.
 </p>
 
+<h2>How this site is illustrated</h2>
+<p>
+  The pictures are illustrations, not the work. Most are generated, some are made from the
+  author's own photographs, and a few are those photographs as they stand; every one of them is
+  recorded with what made it. Where a picture and an entry disagree, the entry is right. The
+  author's photography has a home of its own at
+  <a href="https://dermotcochran.com/">dermotcochran.com</a>, and nothing made for this site
+  goes there.
+</p>
+
 <h2>The engineering behind the record</h2>
 <p>
   Three of the author's public engineering projects ask, in code, the questions this story asks in

@@ -29,6 +29,33 @@ line there when something here becomes a decision rather than a task.
 | Codex entries | designed dark-gradient **title cards**, not photographs |
 | `image_alt` | must describe what the file *actually shows* |
 
+**The exemption, stated** (Dermot's ruling, 3 September 2026). The portfolio
+site takes only his own single-frame photographs; this repository is exempt
+from that rule, and the exemption has a shape:
+
+- **A generator may make what no camera can**: a non-human body, a habitat, an
+  artificial mind, an artefact, or a portrait of someone who does not exist.
+- **Anything a camera can photograph is photographed**: landscape, weather,
+  sky, flora, fauna, texture. Where no frame of his fits, the page takes a card
+  or nothing, not a prompt. This makes the Tier 3 advice under *Images that
+  should not stay* a rule, and settles Tier 2 by it: a stock landscape is
+  replaced from his archive when a frame fits and carded when none does,
+  opportunistically rather than as a project.
+- **A concept is never pictured; it is carded.** Unchanged, restated here so
+  the three cases sit together.
+- **The membrane runs one way.** Every image the pipeline touches, whether
+  generated, extended, or composited onto one of his plates, is recorded in the
+  register (`image-prompts.md`) and is this repository's image only. It never
+  returns to the portfolio, the Gallery folders, or any competition. His own
+  composites in the portfolio's Creative category are his work, not the
+  pipeline's, and the rule does not reach them.
+- **The site says so once**, on the About page: illustrations are generated,
+  or made from the author's photographs, and the prose is the work. The
+  register is not rendered, so that sentence is the reader's only notice.
+
+The photo-first order below is how the exemption is exercised; this is the
+boundary it is exercised inside.
+
 **Audio has its own runbook now.** This file stays about images;
 [`music-prompts.md`](music-prompts.md) carries the house sonic signature, the
 per-edition theme briefs and the in-universe recording briefs, written 20 August
@@ -2844,6 +2871,10 @@ implying endorsement, and these publish on owned domains under
 institutions. Should go.** An empty Earth parliament chamber as the Star
 Rangers command hierarchy; a Mediterranean archway as Cill Aoife. Wrong in a
 way a reader can point at. **Roughly 10–15.**
+**Policy settled 3 September 2026** by the exemption statement under
+*Conventions*: a stock landscape is replaced from Dermot's archive when a frame
+fits and carded when none does, opportunistically, never regenerated from a
+prompt. No wholesale pass; the tier closes as each page is next touched.
 
 **Tier 3 — Dermot's own photography. Keep it, and lean on it much harder.**
 A real Irish upland standing in for an alien world claims nothing false
