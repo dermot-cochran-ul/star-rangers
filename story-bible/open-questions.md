@@ -1251,12 +1251,13 @@ parked in `story-bible/reference-art/`. Open:
   should follow from Prismere (low light, crystal forests, a sky that is read
   rather than seen, sustained high-altitude flight) rather than from a human
   silhouette with wings. Dermot's to write; the prompts follow the prose.
-- **"The four-islands-quest."** Nothing by that name exists in the repo. The
-  Kingdom of the Four Islands is a lore page with a Survey delegation and a
-  devotional codex entry; no thread, season or chapter is registered for it.
-  Three readings put to Dermot: a quest thread or season set in the Kingdom
-  not yet registered; the Kingdom's own devotional art, winged figures as
-  Codex art with an in-world maker; or a quest in Tissadelle's inner world.
+- ~~**"The four-islands-quest."**~~ **Answered 3 September 2026: it is its own
+  repository** — `dermot-r-cochran/four-islands-quest`, a one-file browser
+  quest engine with the Kingdom of the Four Sounds aboard, not a thread of
+  this record. The three parked images were filed there as reference art the
+  record may name (`reference/`, its PR #1), story placement being Dermot's
+  pen under that repo's own WORLD.md. The parked copies in
+  `story-bible/reference-art/` stay as provenance.
 ## Climate repair and terraforming — `intake-2026-09-03.md`, ninth direction — RULED 3 September 2026
 
 **All readings, and the tenth direction's, confirmed the same day; entry merged
