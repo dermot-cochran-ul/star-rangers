@@ -858,8 +858,9 @@ be found without reading 1,300 lines.
   open: (1) only, narrowed** — the appellation is ruled a Fellowship honorific;
   ~~whether the member bears it or the note borrows it~~ (ruled 3 September:
   Tissadelle's system is not inside the Fellowship, so the note borrows it),
-  and how the honorific is registered, which waits on the seventh direction's
-  last reading. What joins the two Asterias is a marked absence. The entry marks the
+  and ~~how the honorific is registered~~ (ruled 3 September: a paragraph on
+  the Fellowship of Light lore page, no glossary entry). **Nothing on this
+  item is open.** What joins the two Asterias is a marked absence by design. The entry marks the
   absence and invents nothing. This would be the **first entry in the
   Codex-art pool**, which was empty when the 18 August rule was recorded.
 
