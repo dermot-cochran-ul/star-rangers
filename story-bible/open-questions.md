@@ -838,9 +838,10 @@ be found without reading 1,300 lines.
   Dermot ruled the headmate "is also called Asteria the Sage"**, the same
   appellation Asteria Wessex's chapter uses for her; ~~what remains open is
   whether it is a name, honorific or taken title~~ — **ruled 3 September
-  2026: an honorific title within the Fellowship of Light** (three readings
-  flagged in `intake-2026-09-03.md`, seventh direction); what remains open is
-  what (if anything)
+  2026: *the Sage* is an honorific title within the Fellowship of Light and
+  *Asteria* is the member's name** — a second Asteria (readings in
+  `intake-2026-09-03.md`, seventh direction; the scope reading ruled the same
+  day); what remains open is what (if anything)
   connects the two bearers — recorded in `images.md`'s addendum with the
   instruction not to invent the connection; (2) ~~whether depicting any of
   Tissadelle's members breaches the
