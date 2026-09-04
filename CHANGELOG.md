@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Added
+
+- **Five character pages for Season 10 — [Iklix Varn](src/characters/iklix-varn.md), [Tikket](src/characters/tikket.md), [Kattik](src/characters/kattik.md), [Tekka](src/characters/tekka.md), [Tsikk](src/characters/tsikk.md)** (2026-09-04, drafted at Dermot's ask — *draft the five characters please* — and held for his review as new canon; four readings flagged in `story-bible/intake-2026-09-04.md`, twenty-first message). Every fact is drawn from the two published chapters, the treatment, the mind-design note and the species page: Varn as Zoe Smith's Deputy on Eden's fold-approach watch, early twenties, no number; the four Chthonari as a contractor crew on a first off-Belt posting, each page carrying the crew, what a Chthonari cannot do on Thrum's precedent, and the one axis the chapters gave that member. Each stands behind a PORTRAIT PENDING card, and five prompts are queued in `story-bible/images.md` under *Orbital Five-O, Season 10*, Varn's held until Dermot says what the Deputy looks like.
+
 ## [1.32.0] — 2026-09-04
 
 The evening of the same day, and the release in which Orbital Five-O gets

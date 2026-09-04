@@ -251,8 +251,8 @@ does not join Five-O, and Five-O does not learn to hear.
   suits — it does, struck rather than spoken** (intake, sixteenth message):
   a name is a signature of strikes on structure, rendered by a human ear as
   unvoiced clicks. **Taken the same evening ("Sounds good"): Tikket, Kattik,
-  Tekka, Tsikk**, on the species page. Character pages are draft-and-stop
-  and still to come. **Season 10 is registered and its first two chapters
+  Tekka, Tsikk**, on the species page. Character pages drafted 4 September
+  at his ask, held for review, behind PORTRAIT PENDING cards. **Season 10 is registered and its first two chapters
   drafted, held for review:** S10E01C01 *Sent for the Log* (Iklix Varn, Zoe
   Smith) and S10E01C02 *Sound, as Certified* (Tikket, Kattik, three weeks
   earlier). Four is the register's ceiling and gives the strand

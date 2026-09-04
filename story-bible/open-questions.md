@@ -1361,9 +1361,15 @@ Lean recorded for the second or third. Open:
   ~~Still open: their names~~ — **taken 4 September 2026 ("Sounds good"):
   Tikket, Kattik, Tekka, Tsikk**, high-click names struck on structure and
   rendered by a human ear; the convention is on the species page. Still
-  open: **character pages for the four and for Iklix Varn** (draft-and-stop;
-  placeholder cards until portraits), and **Iklix Varn's age**. Season 10's
-  first two chapters are drafted and held for his review.
+  open: ~~**character pages for the four and for Iklix Varn**~~ — **drafted
+  4 September 2026 at his ask, held for review** (intake, twenty-first
+  message; four readings flagged: Varn tagged to Five-O not YSR; *cutter* as
+  the role word; the burrow as a sealed module clamped to the understructure;
+  no service suffix on Varn yet). Portraits stand as PORTRAIT PENDING cards
+  with five prompts queued in `images.md`; **Varn's prompt is held** until he
+  says what Varn looks like, and whether the four Chthonari portraits are
+  generated once the pages are approved is his call. ~~**Iklix Varn's
+  age**~~ — ruled the same day. Season 10's first two chapters are canon.
 - ~~**The convergence** (two readings of one structure recommended; the
   jurisdiction meeting; both in order)~~ — **ruled 4 September 2026: two
   readings of one structure.** ~~Still open: the case behind it~~ — **ruled

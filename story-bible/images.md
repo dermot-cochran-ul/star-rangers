@@ -1507,6 +1507,35 @@ exception — see its entry.
     in advance and in writing; the band has to read as official and cannot carry
     a number, so it is plain metal and the *manner* does the work.
 
+**Orbital Five-O, Season 10 (5)** — drafted 4 September 2026 with the five
+character pages; each stands behind a PORTRAIT PENDING card until Dermot has
+seen the page, because what a character looks like is his. The four Chthonari
+share one body from `src/lore/chthonari.md` and `species-design.md` — small
+(forearm-to-torso length), six-limbed, exoskeletal, low and dense, vibration
+organs along each limb and the lower carapace, no face a human reads — and the
+prompts differ only in posture and in what each one is doing on the deck. The
+tone rule governs the silhouette: Thrum is the precedent, a small creature
+stated plainly and never made a thing to flinch at; no mandibles, no dripping,
+no swarm. Colour is an illustration decision, not canon: dull slate carapace
+with a bronze cast, the Undersong's nickel-iron in it.
+
+- **`iklix-varn.jpg`** — *one step further from the desk than they need to be.*
+  **Held:** a human face is the one thing on this list the prompt must not
+  decide for him; run only after he has said what Varn looks like.
+  > Cinematic wide portrait of a young Star Rangers Deputy in their early twenties, in plain grey-brown service dress with a small plain tab at the collar and no other marking, standing in a narrow instrument compartment on a space habitat's ring, six identical monitoring units racked along one wall with no readable displays, a closed hatch behind. The Deputy holds two printed documents, one longer than the other, and is reading the longer one standing up, not yet having been told to sit. Evenly lit, no lamp visible, the compartment worn and clean. Calm, attentive, unremarkable. 16:9 landscape. Absolutely no readable text, lettering, numerals, badges with words, name tapes, logos or written characters anywhere; no screens or glowing displays; no weapons; no dramatic lighting.
+
+- **`tikket.jpg`** — *the first to hear it.*
+  > Cinematic wide view of a small six-limbed exoskeletal being, forearm-to-torso length, built low and dense, standing on bare structural plating in the understructure beneath a space habitat's dock ring, all six limbs in contact with a heavy mounting bracket bolted through the deck, the body pressed close to it as if listening through it. Dull slate carapace with a bronze cast, matte, no gloss; fine sensory ridges along each limb; a smooth head with no face a human would read, no mandibles, no visible mouth. Dim, even working light from an unseen source, girders and conduit receding into shadow, nothing else on the deck. Quiet, still, attentive, faintly uncanny and entirely unthreatening. 16:9 landscape. Absolutely no readable text, lettering, numerals, signage or logos; no screens; no swarm, no second creature, no gore, no dripping, no threat posture; no anthropomorphic face.
+
+- **`kattik.jpg`** — *the log is Kattik's, which is why the line went in.*
+  > Cinematic wide view of a small six-limbed exoskeletal being, forearm-to-torso length, built low and dense, on bare structural plating beneath a space habitat's dock ring, four limbs gripping the deck and the two forelimbs resting on a flat slate-grey tablet laid on the plating, a plain unmarked slab with no screen, in the posture of one making a record. Dull slate carapace with a bronze cast, matte; fine sensory ridges along each limb; a smooth head with no face a human would read, no mandibles, no visible mouth. Behind, out of focus, a second identical being stands on a mounting bracket with all six limbs in contact. Dim, even working light, girders and conduit in shadow. Deliberate, patient, unhurried. 16:9 landscape. Absolutely no readable text, lettering, numerals or logos on the tablet or anywhere; no screens or glowing displays; no swarm, no gore, no threat posture; no anthropomorphic face.
+
+- **`tekka.jpg`** — *that settled it.*
+  > Cinematic wide view of a small six-limbed exoskeletal being, forearm-to-torso length, built low and dense, moving along a structural member beneath a space habitat's dock ring with the sure, course-reading gait of a practised tunnel runner, limbs placed exactly, body level, mid-stride between two brackets. Dull slate carapace with a bronze cast, matte; fine sensory ridges along each limb; a smooth head with no face a human would read, no mandibles, no visible mouth. Dim, even working light, the member receding into shadow in both directions. Confident, quick, competent. 16:9 landscape. Absolutely no readable text, lettering, numerals, signage or logos; no screens; no swarm, no second creature, no gore, no threat posture; no anthropomorphic face.
+
+- **`tsikk.jpg`** — *from the deck, as part of the work, without waiting to be introduced.*
+  > Cinematic wide view of a small six-limbed exoskeletal being, forearm-to-torso length, built low and dense, standing alone at the centre of a wide expanse of bare structural plating beneath a space habitat's dock ring, all six limbs planted, the body raised slightly at the front as if addressing the whole structure around it rather than any one part of it. Dull slate carapace with a bronze cast, matte; fine sensory ridges along each limb; a smooth head with no face a human would read, no mandibles, no visible mouth. The habitat's structure fills the frame around it: girders, conduit, the curve of the ring overhead, lights coming up along a distant walkway as if the structure had noticed. Dim, even working light otherwise. Still, direct, unafraid. 16:9 landscape. Absolutely no readable text, lettering, numerals, signage or logos; no screens or glowing displays; no figure or face for the habitat's mind; no swarm, no gore, no threat posture; no anthropomorphic face.
+
 ---
 
 **Undercover Pets — cute, cool and clever (5)**
