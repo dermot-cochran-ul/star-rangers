@@ -6,6 +6,21 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [1.31.0] — 2026-09-04
+
+The afternoon after 1.30.0, and the release in which the comments follow the
+same shape as the pages. The board is picked per page rather than per build,
+so a shared chapter carries one conversation on every tier that shows it and
+the Communion keeps its own room; the children's tier renders no widget,
+because its reader cannot hold the account posting needs; and on every other
+domain the discussion is collapsed until asked for, said to be moderated, and
+watched from Dermot's inbox. The Reading Tiers page ships: four readerships
+that nest, and what threads, tiers, editions and strands are to each other.
+Two rules of working land beside them: a PR merges on green unless a decision
+that is his is still open, and a decision is checked against what was already
+decided before it is recorded. One tooling fix: the contrast check reads
+`main.css` the same way on Windows as in CI.
+
 ### Changed
 
 - **Merge unless a decision is open, and a decision-making note** (2026-09-04, Dermot's two directions of the afternoon — `story-bible/intake-2026-09-04.md`, tenth and eleventh messages). `CLAUDE.md`'s authority section gains a merge policy: a PR merges when CI is green in either of the first two tiers unless it carries a decision that is his and not yet made, in which case it stops and names it; the second tier's "draft it and stop" default is superseded, its boundary unchanged. `story-bible/decision-making.md` is new, the third working-methods note beside the Benevolent Critic and the PR review: the six steps a direction goes through, which decisions are his, the merge rule, and the direction check — before a ruling is recorded, compare it with what was already decided and name a reversal, re-grounding, clarification or extension as such. It carries this day as its worked table.
