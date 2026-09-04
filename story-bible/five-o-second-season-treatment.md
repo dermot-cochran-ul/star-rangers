@@ -61,14 +61,54 @@ Two crews read the same structure and cannot see each other's reading — a
 task force that reads ledgers, and an ensemble that hears the thing itself —
 until a raw Deputy carries one account into the other room.
 
-## Strand A — the task force (human)
+## Strand A — the Deputy at the wall (human)
 
-**Viewpoint:** the young Deputy of the third direction, on their first Five-O
-case, with Larsen, Alala and Calloway as the people who have seen it before.
-The Deputy is the young-adult reader's body in the room, the way the pets are
-the child's; the strand is theirs to be new in. Who they are — name, age,
-species, whose Deputy (Zoe Smith's on secondment, or Larsen's inside the task
-force) — is still open (3 September) and a character page is draft-and-stop.
+**RULED 4 September 2026 — "a Five-O deputy if allowed, otherwise Zoe's":
+Zoe's.** Measured first, as the condition asked. *A Corps Deputy inside
+Five-O is not allowed.* Rangers "have no authority inside self-governing
+habitats"; the Compact's civil chain "has nothing to do with, and does not
+overlap, the Star Rangers' charter-limited authority"; Larsen had to resign
+his Survey Corps commission to lead the task force at all. A serving Deputy
+seconded to Five-O would cross the wall the thread exists to describe. *A
+civil junior on Five-O's own establishment* would be allowed — the task
+force has an establishment, and the Hawaii echo makes "deputy" sound natural
+— but the word is a Corps rank ("Deputy — also styled Deputy Officer")
+already carried by the young-adult tier's other thread, and terminology is
+law: a Five-O "deputy" who is not a Deputy would need another title, a
+coinage he did not ask for. So, by the condition: **the Deputy is Zoe
+Smith's**, a Corps Deputy on their first field posting under her supervision.
+
+**How Zoe's Deputy reaches the case, by a route canon allows.** Eden is two
+things at once: a Compact member for civil administration and policing, and
+"a Class I Fold-Proximate Research Platform under joint Star Rangers Survey
+Corps and Solar System Defence Command oversight for anything touching the
+fold route." Zoe's postings are "watch rotations at monitored fold
+approaches, boundary-proximate installations small enough that everyone
+stands a shift." So the watch is on Eden's fold-approach side, and the
+Deputy is the rawest person on it. The Chthonari crew is contracted on the
+one structure both jurisdictions touch — Eden's own fabric where the
+fold-route oversight meets the habitat — and the Deputy is sent, for the
+Rangers' own paperwork, to fetch the contractor's log. Five-O is working the
+same structure's discrepancy from the Compact side. **Three parties, none of
+whom can report to the others:** the Deputy has no standing on the Compact
+side, Five-O has none on the fold side, the crew has none anywhere. The
+reader's proxy is the one who has no authority here, which is the thread's
+founding subject carried in a person.
+
+**Viewpoint:** the Deputy's, with Zoe as the officer who has seen it before
+and Larsen, Alala and Calloway as the institution across the wall — met in
+the Deputy's blocks, not narrating their own strand. The Deputy is the
+young-adult reader's body in the room, the way the pets are the child's; the
+strand is theirs to be new in. Name, age and species are his; a character
+page is draft-and-stop.
+
+**Direction check:** a **re-grounding** of the 3 September third direction,
+which said "a raw Deputy or trainee inside the Governor's Investigative Task
+Force." Canon does not allow the literal, and the intake of that day had
+already flagged "whose Deputy" as open; the ruling closes it on the Corps'
+side of the wall. The thread still gains its young viewpoint, added by new
+chapters, nothing recast — and the viewpoint stands where the wall is
+visible, which the inside of the task force is not.
 
 **The case:** his to author. What the treatment can say is its shape, which
 *Docked Twice* set — a discrepancy that every ledger gets right and something
@@ -207,7 +247,9 @@ does not join Five-O, and Five-O does not learn to hear.
 - **The crew:** how many, their names, which of them carries which block.
   Character pages are draft-and-stop; the young-adult register wants no more
   than three or four voices.
-- **The Deputy** (3 September, still open): who, and whose.
+- ~~**The Deputy** (3 September, still open): who, and whose.~~ — **whose,
+  ruled 4 September 2026: Zoe Smith's** (a Corps Deputy inside Five-O is
+  not allowed; see Strand A). Still open: name, age, species.
 - ~~**The convergence shape**~~ — **ruled 4 September 2026: two readings of
   one structure.** Still open: the case behind it — what the habitat is
   doing that its ledgers say it is not.
