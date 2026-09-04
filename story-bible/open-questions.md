@@ -1180,8 +1180,8 @@ Five-O thread gets a raw Deputy or trainee inside the task force as the
 reader's proxy, added by new chapters, nothing published recast.
 
 - **Who the young Deputy is** (follows the ruling): ~~name~~ — **named 4
-  September 2026: Iklix Varn** (read as the Deputy's name; confirm) — age,
-  species.
+  September 2026: Iklix Varn** (reading confirmed the same day: "Yes") —
+  species human by the default he did not overturn; age still open.
   ~~Whose Deputy — Zoe Smith's, per her page, or Larsen's inside the task
   force~~ — **ruled 4 September 2026: Zoe Smith's**, because a Corps Deputy
   inside Five-O is not allowed (Rangers have no authority inside the
