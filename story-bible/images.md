@@ -1510,8 +1510,9 @@ exception — see its entry.
 **Orbital Five-O, Season 10 (5)** — drafted 4 September 2026 with the five
 character pages. The four Chthonari were generated and filed the same evening
 at Dermot's direction, picks approved by him (run and picks in
-`image-prompts.md`); Iklix Varn stands behind a PORTRAIT PENDING card and the
-prompt is held, because what a human character looks like is his. The four Chthonari
+`image-prompts.md`); Iklix Varn followed later the same evening once Dermot
+had said what Varn looks like — lean build, dark hair, quiet bearing — and
+approved the pick. All five are filed. The four Chthonari
 share one body from `src/lore/chthonari.md` and `species-design.md` — small
 (forearm-to-torso length), six-limbed, exoskeletal, low and dense, vibration
 organs along each limb and the lower carapace, no face a human reads — and the
@@ -1522,9 +1523,8 @@ no swarm. Colour is an illustration decision, not canon: dull slate carapace
 with a bronze cast, the Undersong's nickel-iron in it.
 
 - **`iklix-varn.jpg`** — *one step further from the desk than they need to be.*
-  **Held:** a human face is the one thing on this list the prompt must not
-  decide for him; run only after he has said what Varn looks like.
-  > Cinematic wide portrait of a young Star Rangers Deputy in their early twenties, in plain grey-brown service dress with a small plain tab at the collar and no other marking, standing in a narrow instrument compartment on a space habitat's ring, six identical monitoring units racked along one wall with no readable displays, a closed hatch behind. The Deputy holds two printed documents, one longer than the other, and is reading the longer one standing up, not yet having been told to sit. Evenly lit, no lamp visible, the compartment worn and clean. Calm, attentive, unremarkable. 16:9 landscape. Absolutely no readable text, lettering, numerals, badges with words, name tapes, logos or written characters anywhere; no screens or glowing displays; no weapons; no dramatic lighting.
+  *(Held until 4 September 2026, when Dermot said what Varn looks like — "lean build, dark hair, quiet bearing" — and those three things went into the prompt verbatim in sense. Nothing else about the face is decided by the record; the picked image will decide it, which is why the choice is his.)*
+  > Cinematic wide portrait of a young Star Rangers Deputy in their early twenties, lean in build, with short dark hair and a quiet, contained bearing, in plain grey-brown service dress with a small plain tab at the collar and no other marking, standing in a narrow instrument compartment on a space habitat's ring, six identical monitoring units racked along one wall with no readable displays, a closed hatch behind. The Deputy holds two printed documents, one longer than the other, and is reading the longer one standing up, not yet having been told to sit; the face is down toward the page, attentive and still, not posed to camera. Evenly lit, no lamp visible, the compartment worn and clean. Calm, attentive, unremarkable. 16:9 landscape. Absolutely no readable text, lettering, numerals, badges with words, name tapes, logos or written characters anywhere on the clothing, the documents, the units or the walls; no screens or glowing displays; no weapons; no dramatic lighting; no glamour styling, no cosmetics, no heroic pose.
 
 - **`tikket.jpg`** — *the first to hear it.*
   > Cinematic wide view of a small six-limbed exoskeletal being, forearm-to-torso length, built low and dense, standing on bare structural plating in the understructure beneath a space habitat's dock ring, all six limbs in contact with a heavy mounting bracket bolted through the deck, the body pressed close to it as if listening through it. Dull slate carapace with a bronze cast, matte, no gloss; fine sensory ridges along each limb; a smooth head with no face a human would read, no mandibles, no visible mouth. Dim, even working light from an unseen source, girders and conduit receding into shadow, nothing else on the deck. Quiet, still, attentive, faintly uncanny and entirely unthreatening. 16:9 landscape. Absolutely no readable text, lettering, numerals, signage or logos; no screens; no swarm, no second creature, no gore, no dripping, no threat posture; no anthropomorphic face.

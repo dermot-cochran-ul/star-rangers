@@ -9,12 +9,12 @@ aliases: []
 tags: [human, star-rangers, deputy, boundary-watch, eden, orbital-five-o, orbital-habitats-compact, season-10]
 description: "A Deputy on a first posting to a watch that does not watch anything, sent across Eden's ring to fetch a contractor's log — and back with the one line in it that belongs to nobody."
 image: "iklix-varn.jpg"
-image_alt: "Designed placeholder card for Iklix Varn: the name set in pale serif type over a dark blue-black gradient, headed PORTRAIT PENDING. No portrait for this character exists yet."
+image_alt: "Iklix Varn, a lean young person with short dark hair, in plain grey-brown Star Rangers service dress with a small tab at the collar, standing in a narrow, worn instrument compartment on a space habitat's ring reading a printed document held in both hands, eyes down on the page. A rack of six identical monitoring units fills the wall to the right, and a closed hatch with a wheel stands behind."
 ---
 
 Iklix Varn holds the rank most Deputies hold for exactly as long as it takes to stop being new at it, and is, in the spring of 2828 UCSD, still new at it. Their first field posting is the fold-approach watch on [Eden Space Habitat](/star-rangers/lore/eden-space-habitat/) — a compartment on the fold-approach side of the ring, behind a hatch the habitat's residents walk past without seeing, where six cross-correlated instruments file their agreement with each other every ninety seconds and the nearest qualified officer stands a shift in case the event comes. It has not come in [Zoe Smith](/star-rangers/characters/zoe-smith/)'s tenure. She said so on Varn's first day, as a fact about the posting and not as a comfort, and Varn understood that it was neither.
 
-Varn is young, in the way the [rank](/star-rangers/lore/star-rangers-command-hierarchy/) implies and the record does not further fix: old enough to have finished a Cadet year and been trusted with a posting under an officer the Corps hands its rawest Deputies to first; young enough to be standing, most days, one step further from the desk than they need to be. The record declines to attach a number to it.
+Varn is young, in the way the [rank](/star-rangers/lore/star-rangers-command-hierarchy/) implies and the record does not further fix: old enough to have finished a Cadet year and been trusted with a posting under an officer the Corps hands its rawest Deputies to first; young enough to be standing, most days, one step further from the desk than they need to be. The record declines to attach a number to it. What it does carry is three words, which is more than it carries for most Deputies: lean in build, dark-haired, and of a quiet bearing — the last being the quality Smith's assessments will eventually have to find a longer word for.
 
 ## The Posting
 

@@ -1368,8 +1368,11 @@ Lean recorded for the second or third. Open:
   to the understructure; no service suffix on Varn yet). ~~Portraits stand as PORTRAIT PENDING cards
   with five prompts queued in `images.md`~~ — **the four Chthonari portraits
   generated and filed 4 September 2026 at his direction, picks approved by
-  him** (run recorded in `image-prompts.md`). **Varn's prompt is held** until
-  he says what Varn looks like; the card stands. ~~**Iklix Varn's
+  him** (run recorded in `image-prompts.md`). ~~**Varn's prompt is held** until
+  he says what Varn looks like; the card stands.~~ — **he said it the same
+  evening ("lean build, dark hair, quiet bearing"); variant 1 filed on his
+  "Approved", read as approving the stated lean — confirm.** All five Season
+  10 portraits filed. ~~**Iklix Varn's
   age**~~ — ruled the same day. Season 10's first two chapters are canon.
 - ~~**The convergence** (two readings of one structure recommended; the
   jurisdiction meeting; both in order)~~ — **ruled 4 September 2026: two
