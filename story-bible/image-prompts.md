@@ -740,3 +740,25 @@ of one kind on all four, no torso, no arms, no upright posture.
 - **What this fixes.** The picked image is now the record's only account of
   Varn's face; the page carries his three words and the alt text describes
   the picture, and neither says more than that.
+- **Re-rolled the same evening on his reservation** — *"Variant 1 approved
+  with one reservation. Does the technology look too old fashioned?"* Yes:
+  the six units were twentieth-century test gear, meters, toggles and tube
+  screens in a rack, and the compartment a mid-century submarine; Barsik's
+  filing cabinets again. The approved image was copied to
+  `story-bible/reference-art/iklix-varn-approved-2026-09-04.jpg` and used
+  as `References:` so the person would hold, and the prompt revised to
+  sealed matte housings with a single indicator each, plain composite
+  panels, a flush hatch handle, nothing that would look at home in a
+  submarine. Both re-rolls kept the face and the stance exactly. **Pick:
+  re-roll 1** — indicator lights, flush handle, grating underfoot, the
+  compartment lit as before; re-roll 2 was plainer and a shade closer to a
+  locker room. Filed on his "Agreed", read as covering the lean stated for
+  the re-roll as well as the insignia leans of the same message; flagged in
+  the intake. Run 1 kept as `image-out/characters-iklix-varn-run1/` (both
+  variants and the 1200-px filed copy), run 2 as `characters-iklix-varn-run2/`.
+- **Insignia check, same evening.** He asked what a Deputy's rank insignia
+  is. Canon fixes a plain-finished, magnetically seated tab keyed to track;
+  the bar count and track colours were proposals in `uniforms-and-insignia.md`
+  until he agreed to adopt them the same evening, and the portrait's bare
+  grey tab was left as it is — what canon specifies, at a scale where three
+  bars would be a few pixels. Zoe Smith's portrait carries the same bare tab.

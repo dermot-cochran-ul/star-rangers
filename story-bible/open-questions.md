@@ -1371,8 +1371,10 @@ Lean recorded for the second or third. Open:
   him** (run recorded in `image-prompts.md`). ~~**Varn's prompt is held** until
   he says what Varn looks like; the card stands.~~ — **he said it the same
   evening ("lean build, dark hair, quiet bearing"); variant 1 filed on his
-  "Approved", read as approving the stated lean — confirm.** All five Season
-  10 portraits filed. ~~**Iklix Varn's
+  "Approved" — confirmed by his next message, with a reservation that the
+  instruments looked old-fashioned; re-rolled against the approved face and
+  re-roll 1 filed on his "Agreed", read as covering that lean too —
+  confirm.** All five Season 10 portraits filed. ~~**Iklix Varn's
   age**~~ — ruled the same day. Season 10's first two chapters are canon.
 - ~~**The convergence** (two readings of one structure recommended; the
   jurisdiction meeting; both in order)~~ — **ruled 4 September 2026: two
@@ -1477,3 +1479,12 @@ corruption at the margins only). Four readings, all confirmed:
 
 - **Where on the ladder of causes the season's later chapters stop** —
   authorship.
+
+## Rank insignia — `intake-2026-09-04.md`, twenty-fifth message — RULED 4 September 2026
+
+**RULED the same evening ("Agreed"): the bar count and the six track colours are canon, on the rank page as *Reading Rank at a Glance*; portraits keep their plain tabs. Nothing open.**
+
+Dermot asked what a Deputy's rank insignia is. Canon fixed only a plain
+magnetically seated tab keyed to track; the uniforms note's bar count and
+track colours were proposals. Three shapes put; he took the leans — leave
+the portrait's tab, adopt the system on the page.

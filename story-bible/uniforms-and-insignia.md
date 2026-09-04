@@ -74,6 +74,14 @@ austere.** No braid, no epaulettes, no ribbon-bar clutter, nothing gold.
 
 ## Reading rank at a glance
 
+**Canon since 4 September 2026** — Dermot's "Agreed" on the three shapes put
+to him after asking about a Deputy's insignia (`intake-2026-09-04.md`,
+twenty-fourth message). The table below and the track colours further down
+are now on `src/lore/star-rangers-command-hierarchy.md` as *Reading Rank at a
+Glance*, with the bar count made explicit (Novice one, Deputy three, Field
+Officer four, Section Lead seven). Portraits are left as they are: a plain
+tab is what canon specifies at portrait scale.
+
 | Tier | Mark |
 |---|---|
 | Novice → Section Lead | plain **bar count**, one more bar per tier |
@@ -126,9 +134,11 @@ Muted and industrial, so a hangar full of Rangers reads as one service:
 - **Frontier Corps** — dust brown
 - **Engineering Corps** — graphite with copper seam-piping
 
-## Proposed — track colours (the tab insert)
+## ~~Proposed~~ Canon since 4 September 2026 — track colours (the tab insert)
 
-Canon says tab colour is keyed to track but never names the colours. The lore
+*(The six colours below were adopted as canon with the bar count, same day,
+and now appear on the rank page verbatim.)* Canon said tab colour is keyed to
+track but until then never named the colours. The lore
 entry's own cover art is *"a blue chevron insignia emblem in a ringed seal"*, so
 blue is already associated with the Rangers generally. Suggested:
 
