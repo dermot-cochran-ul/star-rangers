@@ -16,10 +16,11 @@ the judgement calls.
 
 Two corollaries shape what gets tested first:
 
-- **Privacy is the highest-stakes logic in the repo.** A regression in
-  `lib/content-filter.js` doesn't break a build — it ships a private thread's
-  pages (church-space) on every public domain, or silently empties a production
-  edition. That module gets the densest regression coverage.
+- **The tier gate is the highest-stakes logic in the repo.** A regression in
+  `lib/content-filter.js` doesn't break a build — it ships a contemplative
+  thread's pages (church-space) on every general-tier domain, the canonical
+  site included, or silently empties a production edition. That module gets
+  the densest regression coverage.
 - **Every documented real bug becomes a test.** The layout-vs-inputPath hazard
   and the journal fallthrough were both real incidents; both are now pinned in
   `test/classify-content.test.js` so they cannot recur unnoticed.
@@ -28,19 +29,21 @@ Two corollaries shape what gets tested first:
 
 Run all: `node --test test/*.test.js` · one suite: `node --test test/content-filter.test.js`
 
-- **`test/content-filter.test.js`** pins the narrowing/private-thread truth
-  tables as executable statements of the asymmetry: *ordinary content is
-  included unless a filter narrows it out; private content is excluded unless a
-  build names it in.* It covers the no-filter build, narrowed builds that do
-  and don't name church-space, opt-in via each of CHARACTERS/TOPICS/THREADS,
-  season-membership exclusion, the signature-tag tripwire, and the
+- **`test/content-filter.test.js`** pins the narrowing/tier-gate truth
+  tables as executable statements of the two rules: *ordinary content is
+  included unless a filter narrows it out; a tier-gated thread is excluded on
+  every build below its tier whatever the filter says, and is ordinary content
+  at or above it.* It covers the no-filter build at each tier (selected through
+  the real `EDITION` resolution), narrowed builds that do and don't name
+  church-space, the proof that naming it no longer opens the gate below its
+  tier, season-membership exclusion, the signature-tag tripwire, and the
   `relatedUrls` bio-link walk (run against the real `src/characters` corpus).
 - **`test/classify-content.test.js`** pins `classifyContentPath`,
   `isRelatedTopicPageIncluded` and `isContentIncluded`
   (`lib/classify-content.js`, extracted verbatim from `.eleventy.js` on
   2026-08-24 precisely so they could be tested without booting Eleventy),
   including the two regression tests above and the proof that `relatedUrls` is
-  not a backdoor around the private veto.
+  not a backdoor around the tier gate.
 
 - **`test/markdown-containers.test.js`** (added 2026-08-27) pins the
   scene/POV rendering, above all the **fence-length rule**: a 5-colon
@@ -55,9 +58,10 @@ Run all: `node --test test/*.test.js` · one suite: `node --test test/content-fi
 - **`test/storyline-threads.test.js`** (added 2026-08-27) pins
   `threadForSeason` (every registered season to its thread, the
   `UNSORTED_THREAD` fallback for unclaimed seasons, numeric matching for
-  string input) and the registry invariants the privacy machinery assumes:
-  no season claimed by two threads, unique thread ids, and every private
-  thread naming a `homeDomain` distinct from the default reference domain.
+  string input) and the registry invariants the tier gate assumes:
+  no season claimed by two threads, unique thread ids, no thread carrying the
+  retired `private` flag, and every tier-gated thread naming a tier on the
+  ladder and a `homeDomain` distinct from the default reference domain.
 - **`test/image-size.test.js`** (added 2026-08-27) pins the JPEG/PNG header
   parser's "null rather than guess" contract with hand-built buffers:
   dimensions read from a PNG IHDR and from a JPEG SOF behind a skipped
@@ -66,7 +70,7 @@ Run all: `node --test test/*.test.js` · one suite: `node --test test/content-fi
   plus the by-path memoisation.
 
 The filter tests deliberately use the **real** `lib/storyline-threads.js`
-registry, not fixtures: church-space being the only private thread is itself a
+registry, not fixtures: church-space being the only tier-gated thread is itself a
 documented decision, and a registry change that breaks these expectations
 should be noticed, not absorbed (the registry-invariant suite above makes the
 same point structurally).

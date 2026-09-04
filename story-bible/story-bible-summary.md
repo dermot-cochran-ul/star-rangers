@@ -317,14 +317,14 @@ The second cluster of engine terms that gets confused, for the same reason as th
 |---|---|
 | **Included by default** | The baseline. A build that sets no `CHARACTERS`/`TOPICS`/`THREADS` at all ships every page. Inclusion is not something ordinary content has to earn. |
 | **Narrowed build** | A clone whose `deploy.conf` sets one or more of those keys, trimming an otherwise-full site down to a subset. Subtractive, per-clone, and it can only ever remove. |
-| **Private** | **Opt-in inclusion — the inverse.** Private content is *excluded unless a build names it in*, including on the unfiltered full-site build. The distinguishing case is the no-filter build: with nothing set, an ordinary page ships and a private page still does not. That asymmetry is why privacy cannot be expressed in `deploy.conf`, which can only say "narrow this build", never "off by default everywhere". |
-| **Private thread vs. private page** | Privacy is *declared* only on a thread (`private: true`, `lib/storyline-threads.js`). A **page** acquires it by membership — a chapter via its season, a character/lore/codex/glossary/timeline page via its tags or category, a landing page via an explicit `threadId`. So "private page" is a fair description and never a declaration; there is no per-page `private` front-matter field. |
+| **Tier-gated** | **Absent below a reading tier, ordinary at or above it.** A thread that names a `tier` (`lib/storyline-threads.js`) is *excluded on every build whose edition sits below that tier*, the unfiltered full-site build included, whatever the filter says; on a build at or above the tier it is ordinary content, included unless narrowed out. The build's tier is its edition's (`lib/editions.js`), resolved by domain, which is why the gate cannot be expressed in `deploy.conf` and no clone can open it by naming the thread. Replaced **Private** — opt-in inclusion, *excluded unless a build names it in* — on 4 September 2026 at Dermot's ruling; same page set on every domain, one concept instead of two. |
+| **Gated thread vs. gated page** | The gate is *declared* only on a thread. A **page** acquires it by membership — a chapter via its season, a character/lore/codex/glossary/timeline page via its tags or category, a landing page or Season 8 index via an explicit `threadId`. So "gated page" is a fair description and never a declaration; there is no per-page whole-page tier field (a chapter's `povs:` entries carry a `tier` for individual blocks, which is the same ladder applied one level down). |
 | **Excluded page** | What both mechanisms actually produce. Not a missing page: it still builds at its normal URL as an `excluded.njk` placeholder, so no internal link ever 404s. |
-| **Reference domain / `homeDomain`** | Where a placeholder sends the reader. Ordinary excluded pages point at `DEFAULT_REFERENCE_DOMAIN` (the full-site superset). A private thread overrides that with its own `homeDomain`, because the default domain excludes it too — without the override the placeholder would point at a site that also doesn't have the page. |
+| **Reference domain / `homeDomain`** | Where a placeholder sends the reader. Ordinary excluded pages point at `DEFAULT_REFERENCE_DOMAIN` (the full-site superset, a general-tier build). A gated thread overrides that with its own `homeDomain`, a domain at its tier, because the default domain excludes it too — without the override the placeholder would point at a site that also doesn't have the page. |
 
-`church-space` is the only private thread and is intended to stay the only one: it exists because that material belongs to one pair of domains, not because privacy is a general per-deploy feature. Every other per-domain difference is narrowing. A second `private: true` thread is a design decision, not configuration.
+`church-space` is the only gated thread and is intended to stay the only one: it exists because that material belongs to the contemplative readership, not because gating is a general per-deploy feature. Every other per-domain difference is narrowing or the tier ladder. Gating a second thread is a design decision, not configuration.
 
-**Why the church-space fit is awkward, and why it's kept anyway** (noted 2026-07-25). It sits in a registry of *storyline threads* while not being a storyline. It has no chapters and `seasons: []`; what exists is lore, codex entries, characters, and an author's FAQ. It is an **overlay** — see the canon-status table below — and the registry entry is a housing of convenience, because the two things an overlay actually needs are exactly what a private thread provides: membership by tag rather than by season, and opt-in-per-domain visibility. The mismatch is in the *vocabulary*, not the behaviour, and the cost of the mismatch is that `threadForSeason` and the `/threads/` grouping describe it in storyline terms it doesn't earn.
+**Why the church-space fit is awkward, and why it's kept anyway** (noted 2026-07-25). It sits in a registry of *storyline threads* while not being a storyline. It has no chapters and `seasons: []`; what exists is lore, codex entries, characters, and an author's FAQ. It is an **overlay** — see the canon-status table below — and the registry entry is a housing of convenience, because the two things an overlay actually needs are exactly what a gated thread provides: membership by tag rather than by season, and visibility bounded to one readership (per-domain opt-in until 4 September 2026, the contemplative tier since). The mismatch is in the *vocabulary*, not the behaviour, and the cost of the mismatch is that `threadForSeason` and the `/threads/` grouping describe it in storyline terms it doesn't earn.
 
 Worth revisiting only if the overlay ever grows chapters of its own. At that point it becomes genuinely two things — an overlay *and* a storyline — and the honest fix is a separate `OVERLAYS` registry with its own tag-membership and privacy handling, leaving `STORYLINE_THREADS` to mean seasons only. Until then, one registry with a corrected description is less machinery than the problem deserves.
 
@@ -483,7 +483,7 @@ Notes that keep the tiers honest:
   are devotional narrative kept beside the shared record, never
   load-bearing, and carry no `canon_facts` (empty list), the same
   establishes-nothing posture as the Codex. Season membership is what
-  hides them (season → thread → private), so no per-chapter tagging is
+  hides them (season → thread → tier gate), so no per-chapter tagging is
   needed; the s08 index pages carry `threadId` instead, having no season
   front matter of their own.
 - **Domains front tiers (settled 2026-08-05, Dermot's direction).** Each
@@ -500,8 +500,8 @@ Notes that keep the tiers honest:
   arc, in its own edition entry since 2026-08-05 — a *narrowed* domain
   now, not a second full site); and **fianilchruinne.com** (with GitHub
   Pages) holds everything — the full record, which still excludes the
-  church-space overlay, since a private thread is opt-in on every build
-  including the canonical one. Dermot has also said the precise domain
+  church-space overlay, since that thread is gated to the contemplative
+  tier and the canonical site sits at the general one. Dermot has also said the precise domain
   *names* matter less than the focus — the association is by thread id,
   never by domain string, so a rebrand or re-pointing moves nothing here.
   One maintenance duty falls out: THREADS can't express "everything

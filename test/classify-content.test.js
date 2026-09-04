@@ -14,11 +14,13 @@ const {
 } = require("../lib/classify-content");
 const { getContentFilter } = require("../lib/content-filter");
 
-const FILTER_VARS = ["CHARACTERS", "TOPICS", "THREADS"];
+const FILTER_VARS = ["CHARACTERS", "TOPICS", "THREADS", "EDITION"];
 
 // Same env-roundtrip helper as content-filter.test.js, plus the relatedUrls
 // set .eleventy.js attaches after getContentFilter (see its config function).
-function filterFor({ characters, topics, threads, relatedUrls } = {}) {
+// `edition` selects the build's reading tier through the real EDITION path;
+// unset is the default edition, the general tier.
+function filterFor({ characters, topics, threads, relatedUrls, edition } = {}) {
   const saved = FILTER_VARS.map((k) => [k, process.env[k]]);
   try {
     if (characters === undefined) delete process.env.CHARACTERS;
@@ -27,6 +29,8 @@ function filterFor({ characters, topics, threads, relatedUrls } = {}) {
     else process.env.TOPICS = topics;
     if (threads === undefined) delete process.env.THREADS;
     else process.env.THREADS = threads;
+    if (edition === undefined) delete process.env.EDITION;
+    else process.env.EDITION = edition;
     const filter = getContentFilter();
     filter.relatedUrls = new Set(relatedUrls || []);
     return filter;
@@ -77,24 +81,33 @@ test("isContentIncluded: journal entries filter like codex (the fallthrough regr
   assert.equal(isContentIncluded(entry, filterFor({ topics: "craft" })), true);
 });
 
-test("isContentIncluded: a private thread's own landing page obeys threadId opt-in", () => {
+test("isContentIncluded: a tier-gated thread's own landing page obeys the build's tier, not the filter", () => {
   const landing = page("./src/threads/church-space/index.md", "/threads/church-space/", {
     threadId: "church-space"
   });
+  // General tier: placeholder, and naming the thread no longer opens it.
   assert.equal(isContentIncluded(landing, filterFor({})), false);
-  assert.equal(isContentIncluded(landing, filterFor({ threads: "church-space" })), true);
+  assert.equal(isContentIncluded(landing, filterFor({ threads: "church-space" })), false);
+  // Contemplative tier: real page, filtered or not.
+  assert.equal(isContentIncluded(landing, filterFor({ edition: "fellowship" })), true);
+  assert.equal(isContentIncluded(landing, filterFor({ edition: "church-space", threads: "church-space" })), true);
   // An ordinary thread's landing page shows everywhere.
   const ordinary = page("./src/threads/founding-era/index.md", "/threads/founding-era/", {
     threadId: "founding-era"
   });
   assert.equal(isContentIncluded(ordinary, filterFor({})), true);
+  assert.equal(isContentIncluded(ordinary, filterFor({ edition: "pets" })), true);
 });
 
-test("isContentIncluded: private pages placeholder on the UNFILTERED build too - no !active shortcut", () => {
+test("isContentIncluded: gated pages placeholder on the UNFILTERED general-tier build too - no !active shortcut", () => {
   const filter = filterFor({});
   assert.equal(filter.active, false);
+  assert.equal(filter.tier, "general");
   assert.equal(isContentIncluded(page("./src/seasons/s08/e01/s08e01c01.md", "/x/", { season: 8 }), filter), false);
   assert.equal(isContentIncluded(page("./src/lore/hermitage.md", "/x/", { tags: ["church-space"] }), filter), false);
+  // And ship on an unfiltered build at the thread's tier.
+  const contemplative = filterFor({ edition: "fellowship" });
+  assert.equal(isContentIncluded(page("./src/seasons/s08/e01/s08e01c01.md", "/x/", { season: 8 }), contemplative), true);
 });
 
 test("isRelatedTopicPageIncluded: relatedUrls pulls in an untagged background page", () => {
@@ -106,12 +119,15 @@ test("isRelatedTopicPageIncluded: relatedUrls pulls in an untagged background pa
   assert.equal(isContentIncluded(data, withRelated), true);
 });
 
-test("isRelatedTopicPageIncluded: relatedUrls is not a backdoor around the private veto", () => {
+test("isRelatedTopicPageIncluded: relatedUrls is not a backdoor around the tier gate", () => {
   const url = "/lore/hermitage/";
   const data = page("./src/lore/hermitage.md", url, { tags: ["church-space"] });
   const filter = filterFor({ characters: "tissadelle", relatedUrls: [url] });
   assert.equal(isRelatedTopicPageIncluded(data, filter, url), false);
   assert.equal(isContentIncluded(data, filter), false);
+  // At the thread's tier the same bio link pulls the page in like any other.
+  const contemplative = filterFor({ edition: "fellowship", characters: "tissadelle", relatedUrls: [url] });
+  assert.equal(isRelatedTopicPageIncluded(data, contemplative, url), true);
 });
 
 test("isContentIncluded: characters and chapters route to their own predicates", () => {

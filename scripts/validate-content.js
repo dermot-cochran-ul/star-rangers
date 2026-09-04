@@ -11,7 +11,7 @@ const path = require("path");
 const crypto = require("crypto");
 const matter = require("gray-matter");
 const { CONTENT_TYPES, TIMELINE_TYPE, CHAPTER_ID_PATTERN, isTimelineEntry, chapterIdFor } = require("../lib/content-schema");
-const { privateThreadForPage, checkPrivateThreadSignatureTags } = require("../lib/content-filter");
+const { checkGatedThreadSignatureTags } = require("../lib/content-filter");
 const { isPlaceholderImage } = require("../lib/placeholder-marker");
 const { TIER_ORDER } = require("../lib/editions");
 
@@ -182,53 +182,13 @@ function urlForContentFile(filePath, data) {
   return rel;
 }
 
-// Enforces the one-way visibility boundary between public and private
-// storyline threads. A private thread (lib/storyline-threads.js `private:
-// true`) is hidden on every build that doesn't opt into it - including the
-// full site - so a PUBLIC page that hardcodes a link INTO a private-thread
-// page produces a dead end there: the target renders the "not included in
-// this edition" placeholder (src/_includes/excluded.njk) rather than the
-// real page. The reverse direction is fine - a private page is only ever
-// seen on a clone that opted its thread in, where the public pages it links
-// to exist too - so this flags only public -> private links, letting a
-// private page link out to public ones freely. Returns grouped problems in
-// the same shape as the schema checks below.
-function checkPrivateThreadLinkBoundary(files) {
-  const pages = files.map((filePath) => {
-    const { data, content } = matter(fs.readFileSync(filePath, "utf8"));
-    return {
-      filePath,
-      content,
-      isPrivate: Boolean(privateThreadForPage(data)),
-      urlPath: urlForContentFile(filePath, data).replace(/\/$/, "")
-    };
-  });
-
-  const privatePaths = pages.filter((p) => p.isPrivate).map((p) => p.urlPath);
-  const results = [];
-  if (!privatePaths.length) return results;
-
-  for (const page of pages) {
-    if (page.isPrivate) continue;
-    const problems = [];
-    for (const priv of privatePaths) {
-      // A link target of the private page's URL, with or without this
-      // project's own /star-rangers Pages prefix, anchored on the trailing
-      // slash so /lore/foo/ can't spuriously match /lore/foo-bar/.
-      const escaped = priv.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-      if (new RegExp(`(?:/star-rangers)?${escaped}/`).test(page.content)) {
-        problems.push(
-          `links into private-thread page ${priv}/ - a public page must not link into a private thread ` +
-          `(private threads may link out to public pages, not the reverse; see lib/storyline-threads.js)`
-        );
-      }
-    }
-    if (problems.length) {
-      results.push({ relativePath: path.relative(process.cwd(), page.filePath), label: "private-thread link boundary", problems });
-    }
-  }
-  return results;
-}
+// The public -> private link boundary that used to live here was retired on
+// 2026-09-04 with `private: true` itself (lib/storyline-threads.js, HISTORY).
+// A general-tier page that links into a thread gated to the contemplative
+// tier now gets what any narrowed link gets: the excluded.njk placeholder,
+// pointing at the thread's homeDomain. That is the ordinary contract of this
+// site ("no link ever 404s"), and a reader-facing page that describes the
+// tier ladder has every reason to point at the tier above it.
 
 // ---------------------------------------------------------------------------
 // Image bookkeeping
@@ -409,7 +369,13 @@ function checkEditionHeroCasts(characterPages) {
       process.env.CHARACTERS = (edition.characters || []).join(",");
       process.env.TOPICS = (edition.topics || []).join(",");
       process.env.THREADS = (edition.threads || []).join(",");
-      return getContentFilter();
+      const filter = getContentFilter();
+      // The build's tier is the edition's own (lib/editions.js), not the
+      // tier of whatever EDITION this validation happens to run under -
+      // without this, Brother Fintan (church-space) fails the fellowship
+      // cast on a general-tier run, which is not what that domain sees.
+      filter.tier = edition.tier;
+      return filter;
     } finally {
       for (const [key, value] of Object.entries(saved)) {
         if (value === undefined) delete process.env[key];
@@ -648,10 +614,10 @@ function main() {
     }
     problems.push(...checkFrontMatterImageExists(data, relativePath, imageIndex));
     problems.push(...checkFrontMatterImageUrlResolves(data, relativePath, imageIndex));
-    for (const { threadId, signatureTag } of checkPrivateThreadSignatureTags(data)) {
+    for (const { threadId, signatureTag } of checkGatedThreadSignatureTags(data)) {
       problems.push(
         `tagged "${signatureTag}" (a "${threadId}" signature tag - see lib/storyline-threads.js) but missing ` +
-        `the "${threadId}" tag itself - likely meant to be private-thread content that's about to leak onto every public domain`
+        `the "${threadId}" tag itself - likely meant for that tier-gated thread, and about to ship on every domain below its tier`
       );
     }
 
@@ -668,8 +634,6 @@ function main() {
       fileProblems.push({ relativePath, label: schema.label, problems });
     }
   }
-
-  fileProblems.push(...checkPrivateThreadLinkBoundary(files));
 
   for (const [base, pages] of chainCurrent) {
     if (pages.length > 1) {
