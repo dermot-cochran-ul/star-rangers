@@ -246,8 +246,13 @@ does not join Five-O, and Five-O does not learn to hear.
   of their own~~ — **ruled the same day: translate as *they*; the species
   page says why in one sentence** (`mind-design.md`, Pronouns).
 - ~~**The crew:** how many~~ — **ruled 4 September 2026: four voices.** Still
-  open: their names, and which of them carries which block. Character pages
-  are draft-and-stop. Four is the register's ceiling and gives the strand
+  open: their names, and which of them carries which block. **The naming
+  way, his direction the same day: high-click phonetic names, if the biology
+  suits — it does, struck rather than spoken** (intake, sixteenth message):
+  a name is a signature of strikes on structure, rendered by a human ear as
+  unvoiced clicks. Four candidates offered — Tikket, Kattik, Tekka, Tsikk —
+  to take, change or refuse. Character pages are draft-and-stop. Four is
+  the register's ceiling and gives the strand
   what four allows and three does not: one who has begun to listen, two who
   still memorise and disagree about it, and one who addresses the habitat's
   mind before anyone has introduced it — the mind note's axes, one each.

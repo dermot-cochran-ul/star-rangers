@@ -1355,8 +1355,12 @@ Lean recorded for the second or third. Open:
   coin.~~ — **ruled 4 September 2026: translate as *they*, with the sentence
   on `src/lore/chthonari.md`. Nothing open.**
 - **The crew:** ~~how many~~ — **ruled 4 September 2026: four voices.**
-  Still open: their names, who carries which block. Character pages are
-  draft-and-stop.
+  Still open: their names — the way ruled the same day (sixteenth message):
+  high-click names, struck on structure not spoken, rendered by a human ear
+  as unvoiced clicks; four candidates put (Tikket, Kattik, Tekka, Tsikk),
+  his to take, change or refuse — and who carries which block. Character
+  pages are draft-and-stop; the naming convention goes on the species page
+  in one sentence once he takes it.
 - ~~**The convergence** (two readings of one structure recommended; the
   jurisdiction meeting; both in order)~~ — **ruled 4 September 2026: two
   readings of one structure.** ~~Still open: the case behind it~~ — **ruled
