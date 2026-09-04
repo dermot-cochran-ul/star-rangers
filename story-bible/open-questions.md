@@ -1342,15 +1342,17 @@ Lean recorded for the second or third. Open:
   `species-design.md` for how each species thinks, so an ensemble does not
   fall into the stock shapes the trope default refuses.
 
-## Comments on the children's tier — `intake-2026-09-04.md`, sixth message
+## Comments on the children's tier — `intake-2026-09-04.md`, sixth message — RULED 4 September 2026
+
+**RULED the same day: off. `commentsEnabled: false` on the `pets` entry. Nothing open.**
 
 Dermot, 4 September 2026, as a question: should giscus comments be allowed
-on the child reader tier? Measured: they already are — the `pets` entry
-inherits `commentsEnabled: true` and the default board, so undercover-pets.com
-shares the adult pool and a pet chapter's discussion is the same thread on
+on the child reader tier? Measured: they already were — the `pets` entry
+inherited `commentsEnabled: true` and the default board, so undercover-pets.com
+shared the adult pool and a pet chapter's discussion was the same thread on
 every general-tier domain. Three shapes put — off on the children's tier
 (recommended: posting needs a GitHub account, which a child cannot hold, so
 the box only shows a child an adult discussion); a children's board of its
-own; leave it. An edition entry is draft-and-stop.
+own; leave it.
 
-- **Which shape.**
+- ~~**Which shape.**~~ — **ruled: off.**
