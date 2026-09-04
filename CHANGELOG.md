@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Changed
+
+- **Comments off on the children's tier** (2026-09-04, Dermot's ruling on the three shapes put to him the same day — `story-bible/intake-2026-09-04.md`, sixth message). The `pets` entry in `lib/editions.js` now sets `commentsEnabled: false`, so undercover-pets.com stops rendering the giscus widget. Until now the entry said nothing and inherited the default's `true` and the default board, so a pet chapter's discussion on the children's domain was the adult domains' own thread; posting needs a GitHub account a child cannot hold, so the box offered a child only adult talk to read. The chapters keep their discussions on every other domain. The pets clone's own `deploy.conf` must not set `COMMENTS_ENABLED` explicitly, since a server-side value still wins over the registry.
+
 ## [1.30.0] — 2026-09-04
 
 The release in which the reading tiers became the site's one visibility
