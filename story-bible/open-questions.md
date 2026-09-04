@@ -1343,8 +1343,10 @@ Lean recorded for the second or third. Open:
   decision, two shapes in `mind-design.md`, no forms proposed.
 - **The crew:** how many, their names, who carries which block. Character
   pages are draft-and-stop.
-- **The convergence** (two readings of one structure recommended; the
-  jurisdiction meeting; both in order) and the case behind it.
+- ~~**The convergence** (two readings of one structure recommended; the
+  jurisdiction meeting; both in order)~~ — **ruled 4 September 2026: two
+  readings of one structure.** Still open: the case behind it — what the
+  habitat is doing that its ledgers say it is not.
 - **The year** — after 2827 Autumn; it fixes the Deputy's age and the crew's,
   and closes the Shepherd-guest window for this season.
 - **Whether the alien edition follows** — unchanged; the prose this season
