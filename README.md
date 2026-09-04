@@ -40,7 +40,7 @@ Grouped by storyline thread — see [Site sections](#site-sections) and [`lib/st
 
 ## Release notes
 
-Current version: **1.31.0**. See [`CHANGELOG.md`](./CHANGELOG.md) for the full version history — lore/canon changes, deployment features, and fixes are all tracked there under [Semantic Versioning](https://semver.org/). The release process is documented in [`TECHNICAL-README.md`](./TECHNICAL-README.md#cutting-a-release). (The "Current version" line stays in this file: `scripts/sync-version.js` anchors on it here and fails `npm test` if it moves.)
+Current version: **1.32.0**. See [`CHANGELOG.md`](./CHANGELOG.md) for the full version history — lore/canon changes, deployment features, and fixes are all tracked there under [Semantic Versioning](https://semver.org/). The release process is documented in [`TECHNICAL-README.md`](./TECHNICAL-README.md#cutting-a-release). (The "Current version" line stays in this file: `scripts/sync-version.js` anchors on it here and fails `npm test` if it moves.)
 
 ## License
 

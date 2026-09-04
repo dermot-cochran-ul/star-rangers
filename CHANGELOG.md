@@ -6,6 +6,23 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [1.32.0] — 2026-09-04
+
+The evening of the same day, and the release in which Orbital Five-O gets
+its second season and the record its first alien ensemble. One direction —
+*at least one thread or strand featuring a set of alien protagonists* — was
+carried through a day of rulings to two published chapters: an alien strand
+in the next Five-O season; the Chthonari to carry it; a convergence on two
+readings of one structure; Zoe Smith's Deputy, Iklix Varn, because a Corps
+Deputy inside Five-O is not allowed; four voices with struck names; the year
+2828; pronouns translated because the biology gives nothing else; and a
+mechanism of accidental damage left unfound by a hollowed regime and by
+inaction, catastrophic in potential. *Sent for the Log* and *Sound, as
+Certified* open Season 10 with no shared scene. Beside them, a mind-design
+note for how a Chthonari thinks, a naming convention on the species page,
+and *Please, and Thank You* on the Kernel page, where a lawful machine's
+courtesy follows from the invariants.
+
 ### Added
 
 - **[Sent for the Log](src/seasons/s10/e01/s10e01c01.md) and [Sound, as Certified](src/seasons/s10/e01/s10e01c02.md)** — S10E01C01 and S10E01C02, the first two chapters of Orbital Five-O's second season and the first of the alien strand (2026-09-04, drafted at Dermot's go-ahead after the day's rulings and approved by him the same evening). Strand A, Iklix Varn and Zoe Smith on Eden's fold-approach watch, 2828: a countersignature needs two documents, the Deputy fetches the contractor's log from the Compact side and finds the one line the certification struck as *n/a*, and Smith declines to countersign and declines to refer. Strand B, Tikket and Kattik under the dock ring three weeks earlier: the third approach mount rings under more than it was left to carry, and the one who keeps the log writes the line without believing it, because the crew's log is the one record that is theirs to leave. No shared scene. Season 10 index pages added on the Season 4 pattern.
