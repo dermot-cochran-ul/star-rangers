@@ -1330,17 +1330,27 @@ general-tier thread (Season 10, one species); an alien strand inside the next
 season of an existing thread; strand first, thread when it fills a season.
 Lean recorded for the second or third. Open:
 
-- **The level** — thread or strand — and, if a strand, which season and
-  which human strand it converges with; if a thread, Season 10.
-- **The species**, and whether the set is one species or several. Best
-  settled today: Krenyi, Prismeri, Pandoids.
-- **The tier**, if not general.
-- **Who the protagonists are.** Character pages are draft-and-stop.
-- **Whether the alien edition follows** the thread; the edition question
-  under *The tiers as life stages* is unchanged by this.
+- ~~**The level** — thread or strand — and, if a strand, which season and
+  which human strand it converges with; if a thread, Season 10.~~ — **ruled
+  4 September 2026: an alien strand in the next Five-O season** (Season 10
+  when registered), beside the young Deputy's strand. Treatment:
+  `five-o-second-season-treatment.md`.
+- ~~**The tier**, if not general.~~ — young-adult, by the ruling; the
+  ensemble is young in its own species' terms.
+- **The species** (Chthonari recommended; Mnemari second; Prismeri listed
+  not offered), and if Chthonari, whether they carry a pronoun system of
+  their own — a once-only vocabulary decision.
+- **The crew:** how many, their names, who carries which block. Character
+  pages are draft-and-stop.
+- **The convergence** (two readings of one structure recommended; the
+  jurisdiction meeting; both in order) and the case behind it.
+- **The year** — after 2827 Autumn; it fixes the Deputy's age and the crew's,
+  and closes the Shepherd-guest window for this season.
+- **Whether the alien edition follows** — unchanged; the prose this season
+  produces is what its "wait" was waiting for.
 - **Whether a mind-design note is wanted first** — the sibling of
-  `species-design.md` for how each species thinks, so an ensemble does not
-  fall into the stock shapes the trope default refuses.
+  `species-design.md` for how a Chthonari crew thinks, so the ensemble does
+  not fall into the stock shapes the trope default refuses.
 
 ## Comments on the children's tier — `intake-2026-09-04.md`, sixth message — RULED 4 September 2026
 

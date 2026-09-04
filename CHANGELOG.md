@@ -6,6 +6,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Changed
+
+- **Treatment: Orbital Five-O's second season, with an alien strand** (2026-09-04, Dermot's ruling on the three shapes put to him — *an alien strand in the next Five-O season*; story-bible only, nothing published changes). `story-bible/five-o-second-season-treatment.md`: what canon already fixes (Season 10 when its first chapter exists, a year after 2827 Autumn, the Compact setting, the young-adult band, the five strand rules), the two strands — the young Deputy's task-force case and an alien ensemble — and three shapes each for the species (Chthonari recommended: already in the Solar System's working spaces, body committed by the vessik, substrate hearing as an independent line of evidence) and the convergence (two readings of one structure recommended). The direction check records it as an extension of the 3 September alien and young-Deputy directions and notes the season's year closes the Shepherd-guest window. Species, crew, Deputy, convergence, year and a mind-design note stay his, indexed in `open-questions.md`.
+
 ## [1.31.0] — 2026-09-04
 
 The afternoon after 1.30.0, and the release in which the comments follow the
