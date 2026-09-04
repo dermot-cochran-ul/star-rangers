@@ -1356,3 +1356,18 @@ the box only shows a child an adult discussion); a children's board of its
 own; leave it.
 
 - ~~**Which shape.**~~ — **ruled: off.**
+
+## The contemplative tier and the shared comments pool — `intake-2026-09-04.md`, seventh message
+
+Dermot, 4 September 2026, as a question: should the contemplative tier be
+able to view comments from the other shared pool? Measured: a board is chosen
+per build and a page shows one discussion, so since the ladder gave the
+contemplative editions the main sequence, a shared chapter there shows the
+Communion board's thread, separate from the pool's thread for the same
+chapter. Three shapes put — pick the board per page (church-space pages keep
+the Communion's board, everything else on a contemplative edition uses the
+shared pool; recommended, engine work); keep one board per edition; one pool
+for everything (not offered).
+
+- **Which shape.** If the first: check the Communion board for any thread
+  already opened on a main-sequence chapter before switching.
