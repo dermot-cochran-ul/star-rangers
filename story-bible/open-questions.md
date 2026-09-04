@@ -1362,10 +1362,10 @@ Lean recorded for the second or third. Open:
   Tikket, Kattik, Tekka, Tsikk**, high-click names struck on structure and
   rendered by a human ear; the convention is on the species page. Still
   open: ~~**character pages for the four and for Iklix Varn**~~ — **drafted
-  4 September 2026 at his ask, held for review** (intake, twenty-first
-  message; four readings flagged: Varn tagged to Five-O not YSR; *cutter* as
-  the role word; the burrow as a sealed module clamped to the understructure;
-  no service suffix on Varn yet). Portraits stand as PORTRAIT PENDING cards
+  4 September 2026 at his ask and approved the same evening, all four
+  readings confirmed** (intake, twenty-first message: Varn tagged to Five-O
+  not YSR; *cutter* as the role word; the burrow as a sealed module clamped
+  to the understructure; no service suffix on Varn yet). Portraits stand as PORTRAIT PENDING cards
   with five prompts queued in `images.md`; **Varn's prompt is held** until he
   says what Varn looks like, and whether the four Chthonari portraits are
   generated once the pages are approved is his call. ~~**Iklix Varn's
