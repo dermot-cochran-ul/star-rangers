@@ -255,9 +255,9 @@ does not join Five-O, and Five-O does not learn to hear.
   ruled 4 September 2026: Zoe Smith's** (a Corps Deputy inside Five-O is
   not allowed; see Strand A). **Named the same day: Iklix Varn** — his two
   words, verbatim, read as the Deputy's name because the Deputy's was the
-  first name open; if it was meant for the crew, say so and it moves.
-  Unused anywhere in the corpus (checked). Still open: age and species — the
-  name does not settle the species, and the record's default is human.
+  first name open — **reading confirmed the same day.** Unused anywhere in
+  the corpus (checked). Species: human, the record's default for a Corps
+  Deputy, which he was offered and did not overturn. Still open: age.
 - ~~**The convergence shape**~~ — **ruled 4 September 2026: two readings of
   one structure.** Still open: the case behind it — what the habitat is
   doing that its ledgers say it is not.
