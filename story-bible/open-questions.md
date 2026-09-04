@@ -1365,10 +1365,11 @@ Lean recorded for the second or third. Open:
   4 September 2026 at his ask and approved the same evening, all four
   readings confirmed** (intake, twenty-first message: Varn tagged to Five-O
   not YSR; *cutter* as the role word; the burrow as a sealed module clamped
-  to the understructure; no service suffix on Varn yet). Portraits stand as PORTRAIT PENDING cards
-  with five prompts queued in `images.md`; **Varn's prompt is held** until he
-  says what Varn looks like, and whether the four Chthonari portraits are
-  generated once the pages are approved is his call. ~~**Iklix Varn's
+  to the understructure; no service suffix on Varn yet). ~~Portraits stand as PORTRAIT PENDING cards
+  with five prompts queued in `images.md`~~ — **the four Chthonari portraits
+  generated and filed 4 September 2026 at his direction, picks approved by
+  him** (run recorded in `image-prompts.md`). **Varn's prompt is held** until
+  he says what Varn looks like; the card stands. ~~**Iklix Varn's
   age**~~ — ruled the same day. Season 10's first two chapters are canon.
 - ~~**The convergence** (two readings of one structure recommended; the
   jurisdiction meeting; both in order)~~ — **ruled 4 September 2026: two
