@@ -1,16 +1,25 @@
 // Unit tests for lib/content-filter.js - the CHARACTERS/TOPICS/THREADS
-// narrowing predicates and the private-thread opt-in veto. This is the one
-// module where a logic regression has a privacy consequence (a private
-// thread's pages shipping on every public domain), so the governing
-// asymmetry gets pinned here as executable truth tables:
+// narrowing predicates and the tier gate on storyline threads. This is the
+// one module where a logic regression ships content to the wrong readership
+// (church-space, gated to the contemplative tier, appearing on every
+// general-tier domain, the canonical site included), so the governing rules
+// get pinned here as executable truth tables:
 //
 //   ordinary content is INCLUDED unless a filter narrows it out;
-//   private content is EXCLUDED unless a build names it in.
+//   a tier-gated thread is EXCLUDED on every build below its tier, whatever
+//   the filter says, and is ordinary content on a build at or above it.
+//
+// Until 2026-09-04 the second line read "private content is excluded unless
+// a build names it in" - `private: true`, opt-in by naming. Dermot ruled that
+// day that tier gating replace it (story-bible/intake-2026-09-04.md), and the
+// tests below pin the replacement: the same domains see the same pages, and
+// the "excluded unless named in" case is gone.
 //
 // The tests run against the real lib/storyline-threads.js registry rather
-// than a fixture one, deliberately: church-space being the only private
-// thread is itself a documented decision (CLAUDE.md), and a registry change
-// that broke these expectations should be noticed, not absorbed.
+// than a fixture one, deliberately: church-space being the only gated thread
+// is itself a documented decision (CLAUDE.md), and a registry change that
+// broke these expectations should be noticed, not absorbed. The build's tier
+// comes from the real lib/editions.js registry too, selected by EDITION.
 const test = require("node:test");
 const assert = require("node:assert/strict");
 
@@ -21,22 +30,33 @@ const {
   hasMatchingPov,
   isSeasonInIncludedThread,
   isThreadIncluded,
-  privateThreadForPage,
-  isPrivatelyExcluded,
+  gatedThreadForPage,
+  isTierExcluded,
   isCharacterIncluded,
   isChapterIncluded,
   isTopicPageIncluded,
   isCharacterPovIncluded,
-  checkPrivateThreadSignatureTags,
+  checkGatedThreadSignatureTags,
   getRelatedContentUrls
 } = require("../lib/content-filter");
 
-const FILTER_VARS = ["CHARACTERS", "TOPICS", "THREADS"];
+const FILTER_VARS = ["CHARACTERS", "TOPICS", "THREADS", "EDITION"];
+
+// One registered edition per tier, so a test can ask for a build tier by
+// name and get it through the real EDITION resolution path. The default
+// edition (EDITION unset) is the general tier - the canonical site, GitHub
+// Pages, local dev and every third-party fork.
+const EDITION_AT = {
+  children: "pets",
+  "young-adult": "starquest",
+  general: undefined,
+  contemplative: "fellowship"
+};
 
 // Builds a filter through the real env-var parse path, then restores the
 // environment, so tests exercise getContentFilter itself rather than a
 // hand-built object that could drift from the production shape.
-function filterFor({ characters, topics, threads } = {}) {
+function filterFor({ characters, topics, threads, tier } = {}) {
   const saved = FILTER_VARS.map((k) => [k, process.env[k]]);
   try {
     if (characters === undefined) delete process.env.CHARACTERS;
@@ -45,6 +65,9 @@ function filterFor({ characters, topics, threads } = {}) {
     else process.env.TOPICS = topics;
     if (threads === undefined) delete process.env.THREADS;
     else process.env.THREADS = threads;
+    const edition = tier === undefined ? undefined : EDITION_AT[tier];
+    if (edition === undefined) delete process.env.EDITION;
+    else process.env.EDITION = edition;
     return getContentFilter();
   } finally {
     for (const [k, v] of saved) {
@@ -64,10 +87,11 @@ test("parseFilterList: trims, lowercases and drops empty segments", () => {
   assert.deepEqual(parseFilterList(" Tissadelle, ALDERA ,rook-7,"), ["tissadelle", "aldera", "rook-7"]);
 });
 
-test("getContentFilter: no env vars means an inactive filter", () => {
+test("getContentFilter: no env vars means an inactive filter at the general tier", () => {
   const filter = filterFor({});
   assert.equal(filter.active, false);
   assert.equal(filter.tagMatches.size, 0);
+  assert.equal(filter.tier, "general");
 });
 
 test("getContentFilter: any of the three vars activates the filter and all three feed tagMatches", () => {
@@ -78,8 +102,14 @@ test("getContentFilter: any of the three vars activates the filter and all three
   }
 });
 
+test("getContentFilter: the build's tier is its edition's tier, and EDITION_AT covers every rung", () => {
+  for (const tier of ["children", "young-adult", "general", "contemplative"]) {
+    assert.equal(filterFor({ tier }).tier, tier);
+  }
+});
+
 // ---------------------------------------------------------------------------
-// The asymmetry, half one: ordinary content on the unfiltered full-site build.
+// Rule one: ordinary content on the unfiltered full-site build.
 // ---------------------------------------------------------------------------
 
 test("no filter: an ordinary character, chapter and topic page all ship", () => {
@@ -90,61 +120,90 @@ test("no filter: an ordinary character, chapter and topic page all ship", () => 
 });
 
 // ---------------------------------------------------------------------------
-// The asymmetry, half two: private content is excluded until named in.
-// church-space is the registry's one private thread (season 8).
+// Rule two: the tier gate. church-space is the registry's one gated thread
+// (season 8, contemplative).
 // ---------------------------------------------------------------------------
 
-test("no filter: a church-space-tagged page is still excluded", () => {
+test("general tier, no filter: a church-space-tagged page is excluded - the canonical site and every fork", () => {
   const filter = filterFor({});
   assert.equal(isTopicPageIncluded({ tags: ["church-space", "lore"] }, filter), false);
   assert.equal(isCharacterIncluded({ id: "brother-daire", tags: ["church-space"] }, filter), false);
+  assert.equal(isThreadIncluded("church-space", filter), false);
 });
 
-test("no filter: a season-8 chapter is excluded by season membership alone, no tag needed", () => {
-  const filter = filterFor({});
-  assert.equal(isChapterIncluded({ season: 8 }, filter), false);
+test("general tier, no filter: a season-8 chapter is excluded by season membership alone, no tag needed", () => {
+  assert.equal(isChapterIncluded({ season: 8 }, filterFor({})), false);
 });
 
-test("THREADS=church-space opts the private thread in: tag, season and landing page all ship", () => {
-  const filter = filterFor({ threads: "church-space" });
-  assert.equal(isTopicPageIncluded({ tags: ["church-space"] }, filter), true);
-  assert.equal(isChapterIncluded({ season: 8 }, filter), true);
-  assert.equal(isThreadIncluded("church-space", filter), true);
+test("the gate holds on every tier below the thread's, and opens at and above it", () => {
+  for (const tier of ["children", "young-adult", "general"]) {
+    const filter = filterFor({ tier });
+    assert.equal(isTierExcluded({ season: 8 }, filter), true, tier);
+    assert.equal(isThreadIncluded("church-space", filter), false, tier);
+  }
+  const contemplative = filterFor({ tier: "contemplative" });
+  assert.equal(isTierExcluded({ season: 8 }, contemplative), false);
+  assert.equal(isThreadIncluded("church-space", contemplative), true);
 });
 
-test("naming church-space in CHARACTERS or TOPICS opts it in too (all three fold into tagMatches)", () => {
-  for (const key of ["characters", "topics"]) {
+test("naming church-space in a filter does NOT open the gate below its tier - there is no opt-in any more", () => {
+  for (const key of ["characters", "topics", "threads"]) {
     const filter = filterFor({ [key]: "church-space" });
-    assert.equal(isPrivatelyExcluded({ tags: ["church-space"] }, filter), false, `via ${key}`);
+    assert.equal(isTierExcluded({ tags: ["church-space"] }, filter), true, `via ${key} at the general tier`);
+    assert.equal(isChapterIncluded({ season: 8 }, filter), false, `via ${key} at the general tier`);
   }
 });
 
-test("a narrowed build that never names church-space keeps it hidden - narrowing is not opting in", () => {
+test("at the contemplative tier the thread is ordinary content: an unfiltered build ships it", () => {
+  const filter = filterFor({ tier: "contemplative" });
+  assert.equal(isTopicPageIncluded({ tags: ["church-space"] }, filter), true);
+  assert.equal(isChapterIncluded({ season: 8 }, filter), true);
+  assert.equal(isCharacterIncluded({ id: "brother-daire", tags: ["church-space"] }, filter), true);
+});
+
+test("at the contemplative tier the thread is ordinary content: a filter that names it narrows TO it, one that doesn't narrows it OUT", () => {
+  const named = filterFor({ tier: "contemplative", threads: "church-space" });
+  assert.equal(isChapterIncluded({ season: 8 }, named), true);
+  assert.equal(isTopicPageIncluded({ tags: ["church-space"] }, named), true);
+  assert.equal(isThreadIncluded("church-space", named), true);
+
+  // The archive codex site's shape: contemplative tier, narrowed by topics
+  // that are not the thread's - the thread's pages fall out like any other
+  // narrowed page, not because of any gate.
+  const elsewhere = filterFor({ tier: "contemplative", topics: "fellowship-of-light" });
+  assert.equal(isChapterIncluded({ season: 8 }, elsewhere), false);
+  assert.equal(isTopicPageIncluded({ tags: ["church-space"] }, elsewhere), false);
+  assert.equal(isTopicPageIncluded({ tags: ["church-space", "fellowship-of-light"] }, elsewhere), true);
+});
+
+test("a narrowed general-tier build that never names church-space keeps it hidden", () => {
   const filter = filterFor({ characters: "tissadelle", topics: "eden" });
   assert.equal(isTopicPageIncluded({ tags: ["church-space", "eden"] }, filter), false);
   assert.equal(isChapterIncluded({ season: 8, povs: [{ id: "tissadelle" }] }, filter), false);
 });
 
-test("isThreadIncluded: a non-private thread is included on every build, named or not", () => {
+test("isThreadIncluded: an ungated thread is included on every build and every tier, named or not", () => {
   assert.equal(isThreadIncluded("founding-era", filterFor({})), true);
   assert.equal(isThreadIncluded("founding-era", filterFor({ threads: "tissadelle-arc" })), true);
-  // An unknown thread id is not private, so it passes through too.
+  assert.equal(isThreadIncluded("founding-era", filterFor({ tier: "children" })), true);
+  // An unknown thread id is not gated, so it passes through too.
   assert.equal(isThreadIncluded("no-such-thread", filterFor({})), true);
 });
 
-test("privateThreadForPage: resolves by season, tag, category and threadId; null for ordinary pages", () => {
-  assert.equal(privateThreadForPage({ season: 8 }).id, "church-space");
-  assert.equal(privateThreadForPage({ tags: ["Church-Space"] }).id, "church-space");
-  assert.equal(privateThreadForPage({ category: "church-space" }).id, "church-space");
-  assert.equal(privateThreadForPage({ threadId: "church-space" }).id, "church-space");
-  assert.equal(privateThreadForPage({ season: 1, tags: ["star-rangers"] }), null);
-  assert.equal(privateThreadForPage({}), null);
+test("gatedThreadForPage: resolves by season, tag, category and threadId; null for ordinary pages", () => {
+  assert.equal(gatedThreadForPage({ season: 8 }).id, "church-space");
+  assert.equal(gatedThreadForPage({ tags: ["Church-Space"] }).id, "church-space");
+  assert.equal(gatedThreadForPage({ category: "church-space" }).id, "church-space");
+  assert.equal(gatedThreadForPage({ threadId: "church-space" }).id, "church-space");
+  assert.equal(gatedThreadForPage({ season: 1, tags: ["star-rangers"] }), null);
+  assert.equal(gatedThreadForPage({}), null);
 });
 
-test("privateThreadForPage is filter-independent: it answers which thread, not whether to hide", () => {
-  // Even a build that opted in still resolves the thread (excluded.njk uses
+test("gatedThreadForPage is filter-independent: it answers which thread, not whether to hide", () => {
+  // Even a build at the thread's tier still resolves it (excluded.njk uses
   // this to point at the thread's homeDomain).
-  assert.equal(privateThreadForPage({ season: 8 }).homeDomain, "church-space.site");
+  assert.equal(gatedThreadForPage({ season: 8 }).homeDomain, "church-space.site");
+  assert.equal(gatedThreadForPage({ season: 8 }).tier, "contemplative");
 });
 
 // ---------------------------------------------------------------------------
@@ -221,25 +280,27 @@ test("isCharacterPovIncluded looks the character up by id when no data is passed
   assert.equal(isCharacterPovIncluded("no-such-character", pets), false);
 });
 
-test("isCharacterPovIncluded applies the private veto through the chapter's data", () => {
+test("isCharacterPovIncluded applies the tier gate through the chapter's data", () => {
   const filter = filterFor({ characters: "tissadelle" });
   assert.equal(isCharacterPovIncluded("tissadelle", filter, { season: 8 }), false);
+  const contemplative = filterFor({ tier: "contemplative", characters: "tissadelle" });
+  assert.equal(isCharacterPovIncluded("tissadelle", contemplative, { season: 8 }), true);
 });
 
 // ---------------------------------------------------------------------------
 // The signature-tag tripwire and the related-content walk.
 // ---------------------------------------------------------------------------
 
-test("checkPrivateThreadSignatureTags flags a signature tag missing its thread tag", () => {
-  const problems = checkPrivateThreadSignatureTags({ tags: ["cnoc-na-mbeach", "lore"] });
+test("checkGatedThreadSignatureTags flags a signature tag missing its thread tag", () => {
+  const problems = checkGatedThreadSignatureTags({ tags: ["cnoc-na-mbeach", "lore"] });
   assert.equal(problems.length, 1);
   assert.deepEqual(problems[0], { threadId: "church-space", signatureTag: "cnoc-na-mbeach" });
 });
 
-test("checkPrivateThreadSignatureTags stays quiet when the thread tag is present, or there are no tags", () => {
-  assert.deepEqual(checkPrivateThreadSignatureTags({ tags: ["cnoc-na-mbeach", "church-space"] }), []);
-  assert.deepEqual(checkPrivateThreadSignatureTags({ tags: [] }), []);
-  assert.deepEqual(checkPrivateThreadSignatureTags({}), []);
+test("checkGatedThreadSignatureTags stays quiet when the thread tag is present, or there are no tags", () => {
+  assert.deepEqual(checkGatedThreadSignatureTags({ tags: ["cnoc-na-mbeach", "church-space"] }), []);
+  assert.deepEqual(checkGatedThreadSignatureTags({ tags: [] }), []);
+  assert.deepEqual(checkGatedThreadSignatureTags({}), []);
 });
 
 test("getRelatedContentUrls: empty without an active CHARACTERS filter", () => {

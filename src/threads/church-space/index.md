@@ -22,8 +22,9 @@ threadId: church-space
 <p class="page-intro">
   It is not canon: nothing here binds the main published story, and the main story never depends on it. Nor is it
   Codex, whose entries are each one named in-universe source's account. This is a layer laid over the whole record
-  rather than a document inside it, and it is opt-in by domain — private, in this site's own sense of the word:
-  excluded everywhere unless a build names it in. See TECHNICAL-README.md's cPanel deployment section for how a clone opts in.
+  rather than a document inside it, and it belongs to the contemplative reading tier: present on the editions
+  built at that tier, absent — not hidden behind a link, simply not there — on every edition below it.
+  See TECHNICAL-README.md's cPanel deployment section for how a clone's tier is resolved.
 </p>
 <p class="page-intro">
   See also: <a href="/star-rangers/threads/church-space/faq/">Questions I Ask Myself</a>, an

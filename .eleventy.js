@@ -9,7 +9,7 @@ const {
   isCharacterIncluded,
   isChapterIncluded,
   isTopicPageIncluded,
-  privateThreadForPage,
+  gatedThreadForPage,
   getRelatedContentUrls
 } = require("./lib/content-filter");
 const {
@@ -119,14 +119,15 @@ function glossaryAlphaKey(title) {
 // domain the "Not included in this edition" placeholder (excluded.njk)
 // links a reader to for a page THIS build excludes. Defaults to the
 // full-site reference domain, which is a superset of every page ordinary
-// CHARACTERS/TOPICS/THREADS narrowing excludes. A private thread is the
-// exception - the reference domain excludes it too (it's opt-in on every
-// build), so pointing there would just loop back to another placeholder;
-// its pages point at the thread's own homeDomain instead, the one clone
-// that actually opts it in. Computed for every page but only ever read by
-// excluded.njk, so its value on an included page is harmless.
+// CHARACTERS/TOPICS/THREADS narrowing excludes. A tier-gated thread is the
+// exception - the reference domain sits at the general tier and excludes a
+// contemplative thread too, so pointing there would just loop back to
+// another placeholder; its pages point at the thread's own homeDomain
+// instead, a domain at the thread's tier that actually carries it. Computed
+// for every page but only ever read by excluded.njk, so its value on an
+// included page is harmless.
 function computeReferenceDomain(data) {
-  const thread = privateThreadForPage(data);
+  const thread = gatedThreadForPage(data);
   return (thread && thread.homeDomain) || DEFAULT_REFERENCE_DOMAIN;
 }
 
@@ -468,7 +469,7 @@ module.exports = function(eleventyConfig) {
   );
 
   // Every chapter, UNFILTERED - the one chapter collection that ignores
-  // CHARACTERS/TOPICS/THREADS and private threads alike. Feeds the permanent
+  // CHARACTERS/TOPICS/THREADS and the tier gate alike. Feeds the permanent
   // citation aliases in src/chapter-aliases.njk and nothing else.
   //
   // It has to be unfiltered so an external citation of /c/<comment_id>/ never
@@ -577,7 +578,7 @@ module.exports = function(eleventyConfig) {
       computeOgImageSize(computeOgImage(data, isContentIncluded(data, contentFilter))),
     ogType: (data) => computeOgType(data),
     // Only read by excluded.njk (see computeReferenceDomain) - the domain a
-    // reader is sent to for a page this build hides. A private thread's
+    // reader is sent to for a page this build hides. A tier-gated thread's
     // excluded page points at its own homeDomain instead of the default
     // reference domain, so it never loops back to another placeholder.
     referenceDomain: (data) => computeReferenceDomain(data),

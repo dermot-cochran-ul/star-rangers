@@ -1304,20 +1304,23 @@ floor is a fact about Celestial attention only (drafted) or about a
 Concordant's size; whether "rare" becomes "almost never, and otherwise a
 Dragon"; one authored line to strike if it overreaches.
 
-## Church Space's privacy — `intake-2026-09-04.md`, third message
+## Church Space's privacy — `intake-2026-09-04.md`, third message — RULED 4 September 2026
+
+**RULED the same day: tier gating. Realized and merged. Nothing open.**
 
 Dermot, 4 September 2026, as a question: does church-space still need to be
 private now it is clearly its own edition? Assessed in chat, three shapes put:
 keep `private: true` as it is; replace it with tier gating (the thread carries
 `tier: "contemplative"` and the filter hides any thread above the build's
 tier, the mechanism the gated POV blocks already use — same visible outcome
-today, retires `private`, `homeDomain`, the signature-tag check and the
-public→private link boundary); or make it an ordinary thread, which would put
-Season 8 on the canonical site and reverse the general-tier ruling. Second is
-the shape the ladder implies; nothing changed.
+today); or make it an ordinary thread, which would put Season 8 on the
+canonical site and reverse the general-tier ruling. He chose the second.
 
-- **Which shape**, and if the second, whether the excluded placeholder points
-  at the tier's ranking host.
+- ~~**Which shape**, and if the second, whether the excluded placeholder points
+  at the tier's ranking host.~~ — **ruled: tier gating; `homeDomain` kept**
+  rather than derived from a ranking host, because the contemplative tier has
+  two families and the Communion's thread should send a reader to the
+  Communion's door.
 
 ## An alien thread or strand — `intake-2026-09-04.md`, fourth message
 
@@ -1338,3 +1341,16 @@ Lean recorded for the second or third. Open:
 - **Whether a mind-design note is wanted first** — the sibling of
   `species-design.md` for how each species thinks, so an ensemble does not
   fall into the stock shapes the trope default refuses.
+
+## Comments on the children's tier — `intake-2026-09-04.md`, sixth message
+
+Dermot, 4 September 2026, as a question: should giscus comments be allowed
+on the child reader tier? Measured: they already are — the `pets` entry
+inherits `commentsEnabled: true` and the default board, so undercover-pets.com
+shares the adult pool and a pet chapter's discussion is the same thread on
+every general-tier domain. Three shapes put — off on the children's tier
+(recommended: posting needs a GitHub account, which a child cannot hold, so
+the box only shows a child an adult discussion); a children's board of its
+own; leave it. An edition entry is draft-and-stop.
+
+- **Which shape.**

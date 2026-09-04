@@ -141,9 +141,9 @@ Sound: Celtic ambient.
 
 **Never** narrow it. It holds everything, which is what lets every other
 edition be a subset of something rather than a fragment of nothing. The one
-standing exception is the private thread, which is opt-in on every build
-including this one — the twenty placeholders above are that, working as
-designed.
+standing exception is the church-space thread, gated to the contemplative
+tier while this edition sits at the general one — the twenty placeholders
+above are that, working as designed.
 
 ---
 
@@ -349,7 +349,7 @@ which is also just "each POV withholds what the others supply" doing its job.
 ## `fellowship` — fellowshipoflight.org
 
 **77 pages. Theme `fellowship` (parchment, Palatino, gold `#7a5a0c`). Posture
-`contemplative`. Thread: church-space (private, opted in). Topics:
+`contemplative`. Thread: church-space (contemplative-tier, carried). Topics:
 fellowship-of-light, arilon. Ranks for its family. Brand: Fellowship of Light.**
 
 **Arrives** having been told this is the quiet one, or by the order's name.
@@ -439,12 +439,12 @@ is per-domain canon by another route, which is exactly the failure
 ## `church-space` — church-space.site
 
 **63 pages. Theme `church-space` (candlelit stone, deep red `#7a1f2b`,
-Palatino). Posture `contemplative`. Thread: church-space (private). Topics:
+Palatino). Posture `contemplative`. Thread: church-space (contemplative-tier). Topics:
 communion-of-the-called, cnoc-na-mbeach. Brand: The Communion of the Called.**
 
 **Arrives** knowing this is the devotional layer, and usually having been given
-the address rather than having found it. The private thread means this domain
-is opted into by name; nobody arrives by accident.
+the address rather than having found it. The tier gate means this thread
+exists only on the contemplative editions; nobody arrives by accident.
 
 **Wants** the overlay read as an overlay — a declared reading of the same
 events, not a competing record.
@@ -585,7 +585,7 @@ outside the ladder by design at its own 15.
 pet story on their site; the general reader has all four public threads and
 the pet and Five-O casts; the two contemplative readers have the whole main
 sequence and Season 8. The canonical site is unfiltered and at the general
-tier: it hides the private church-space thread by design, so the contemplative
+tier: its tier is what hides the church-space thread, so the contemplative
 editions are the only complete view, and that is intended.
 
 **The overlay rule.** A contemplative-tier POV scene may be added to any
