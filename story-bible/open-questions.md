@@ -1428,7 +1428,9 @@ scope by the no-accounts rule.
 - ~~**Which shape**, and whether the page note is wanted.~~ — **ruled: one
   and two, note included.**
 
-## Please and thank you, for machines — `intake-2026-09-04.md`, eighteenth message
+## Please and thank you, for machines — `intake-2026-09-04.md`, eighteenth message — RULED 4 September 2026
+
+**All four readings confirmed and the section approved the same day; merged. Nothing open.**
 
 Dermot, 4 September 2026: robots use please and thank you to humans and to
 any alien culture that expects it; between robots the words are not needed
