@@ -279,11 +279,19 @@ does not join Five-O, and Five-O does not learn to hear.
   the record and the thing; the crew hears it because a fold approach is a
   gradient under stress and reading one is their trade; and the meeting
   point is the certification record itself, which the Deputy fetches on the
-  Rangers' fold-oversight paperwork and Five-O holds on the Compact's. The
+  Rangers' fold-oversight paperwork and Five-O holds on the Compact's. ~~The
   particular mechanism — what was certified, by whom, and what the structure
-  is doing instead — is his to author in the chapters; the treatment fixes
-  only that it is a record-versus-structure discrepancy and not a crime of
-  gain, which keeps the crew's error-first guess half right.
+  is doing instead — is his to author in the chapters~~ — **mechanism RULED
+  4 September 2026 (intake, twentieth message): accidental damage, unfound
+  because of negligent maintenance, cost cutting or unrealistic schedules,
+  political inaction or corruption, with the potential for catastrophic
+  damage.** Nobody meant it; everybody could have stopped it. The crew's
+  error-first guess stays right about the structure, Five-O's intent-first
+  guess about the record — both half right, as the convergence was built
+  for. Held inside the 26 August ruling: no corrupt politician as engine,
+  any corruption minor and marginal, the burnt-out leader the figure the
+  record knows. The catastrophe is potential, hinted and not shown; what it
+  would mean is for the season's later chapters.
 - ~~**The mind-design note:** whether it is wanted before drafting, as
   `species-design.md` was before the Prismeri body.~~ — drafted the same day
   as `mind-design.md`, to keep or drop; two physical costs in it are open.

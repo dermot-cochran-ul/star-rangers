@@ -1446,3 +1446,22 @@ derived from the invariants, held for review. Four readings flagged:
   Federation machines and Chthonari monitors stand outside it.
 - **A human's *please* carries no priority meaning to a machine.**
 - **The courtesy is learned, not listed.**
+
+## The mechanism of the Five-O case — `intake-2026-09-04.md`, twentieth message
+
+Dermot, 4 September 2026: accidental damage due to negligent maintenance,
+cost cutting or unrealistic schedules, political inaction or corruption,
+with potential for catastrophic damage. Recorded on the treatment; held
+inside the 26 August ruling (no corrupt politician as engine, minor
+corruption at the margins only). Four readings flagged:
+
+- **The damage is prior and physical**, not a flaw in the crew's cut.
+- **The maintenance failure is the Compact's**, and the certification was
+  honest as far as it went — nobody lied; somebody did not look.
+- **The catastrophe is a fold-approach one**, its meaning left to later
+  chapters.
+- **Cost cutting and schedules have names attached; inaction has none** —
+  no villain needed.
+
+- **Where on the ladder of causes the season's later chapters stop** —
+  authorship.
