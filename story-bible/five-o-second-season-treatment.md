@@ -85,9 +85,15 @@ follows only the task force gets a whole case.
 
 ## Strand B — the ensemble (alien)
 
-Three shapes for the species, each measured against the setting.
+**RULED 4 September 2026 — "option 1": a Chthonari crew.** The three shapes
+are kept below as the record of the choice. How the crew thinks — what the
+canon already forces about a Chthonari mind, what a young one has not yet
+got, the traps the tone and trope rules close — is in `mind-design.md`,
+drafted the same day so the crew arrives with a way of thinking before the
+first block. Still his: the crew's size and names, whether the species
+carries a pronoun system of its own, the convergence, the year.
 
-### 1. A Chthonari crew — recommended
+### 1. A Chthonari crew — recommended, and ruled
 
 **Why they fit.** The Chthonari are the one Federation people the record
 already places in the Solar System's working spaces: disproportionately in
@@ -182,15 +188,17 @@ does not join Five-O, and Five-O does not learn to hear.
 
 ## What stays open — his
 
-- **The species** (Chthonari recommended), and if Chthonari, whether they
-  carry a pronoun system of their own.
+- ~~**The species** (Chthonari recommended)~~ — **ruled 4 September 2026:
+  the Chthonari.** Still open from it: whether they carry a pronoun system of
+  their own (shapes in `mind-design.md`).
 - **The crew:** how many, their names, which of them carries which block.
   Character pages are draft-and-stop; the young-adult register wants no more
   than three or four voices.
 - **The Deputy** (3 September, still open): who, and whose.
 - **The convergence shape**, and the case behind it.
-- **The mind-design note:** whether it is wanted before drafting, as
-  `species-design.md` was before the Prismeri body.
+- ~~**The mind-design note:** whether it is wanted before drafting, as
+  `species-design.md` was before the Prismeri body.~~ — drafted the same day
+  as `mind-design.md`, to keep or drop; two physical costs in it are open.
 - **The year:** any time after 2827 Autumn; the Deputy's age and the crew's
   are fixed by it.
 
