@@ -1303,3 +1303,38 @@ Higher Levril rarely focuses on one planet. Drafted onto `cosmic-cascade.md`,
 floor is a fact about Celestial attention only (drafted) or about a
 Concordant's size; whether "rare" becomes "almost never, and otherwise a
 Dragon"; one authored line to strike if it overreaches.
+
+## Church Space's privacy — `intake-2026-09-04.md`, third message
+
+Dermot, 4 September 2026, as a question: does church-space still need to be
+private now it is clearly its own edition? Assessed in chat, three shapes put:
+keep `private: true` as it is; replace it with tier gating (the thread carries
+`tier: "contemplative"` and the filter hides any thread above the build's
+tier, the mechanism the gated POV blocks already use — same visible outcome
+today, retires `private`, `homeDomain`, the signature-tag check and the
+public→private link boundary); or make it an ordinary thread, which would put
+Season 8 on the canonical site and reverse the general-tier ruling. Second is
+the shape the ladder implies; nothing changed.
+
+- **Which shape**, and if the second, whether the excluded placeholder points
+  at the tier's ranking host.
+
+## An alien thread or strand — `intake-2026-09-04.md`, fourth message
+
+Dermot, 4 September 2026: at least one thread or strand featuring a set of
+alien protagonists. Five readings flagged; three shapes put — a new
+general-tier thread (Season 10, one species); an alien strand inside the next
+season of an existing thread; strand first, thread when it fills a season.
+Lean recorded for the second or third. Open:
+
+- **The level** — thread or strand — and, if a strand, which season and
+  which human strand it converges with; if a thread, Season 10.
+- **The species**, and whether the set is one species or several. Best
+  settled today: Krenyi, Prismeri, Pandoids.
+- **The tier**, if not general.
+- **Who the protagonists are.** Character pages are draft-and-stop.
+- **Whether the alien edition follows** the thread; the edition question
+  under *The tiers as life stages* is unchanged by this.
+- **Whether a mind-design note is wanted first** — the sibling of
+  `species-design.md` for how each species thinks, so an ensemble does not
+  fall into the stock shapes the trope default refuses.
