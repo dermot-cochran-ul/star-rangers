@@ -1337,9 +1337,10 @@ Lean recorded for the second or third. Open:
   `five-o-second-season-treatment.md`.
 - ~~**The tier**, if not general.~~ — young-adult, by the ruling; the
   ensemble is young in its own species' terms.
-- **The species** (Chthonari recommended; Mnemari second; Prismeri listed
-  not offered), and if Chthonari, whether they carry a pronoun system of
-  their own — a once-only vocabulary decision.
+- ~~**The species** (Chthonari recommended; Mnemari second; Prismeri listed
+  not offered)~~ — **ruled 4 September 2026: the Chthonari.** Still open:
+  whether they carry a pronoun system of their own — a once-only vocabulary
+  decision, two shapes in `mind-design.md`, no forms proposed.
 - **The crew:** how many, their names, who carries which block. Character
   pages are draft-and-stop.
 - **The convergence** (two readings of one structure recommended; the
@@ -1348,9 +1349,11 @@ Lean recorded for the second or third. Open:
   and closes the Shepherd-guest window for this season.
 - **Whether the alien edition follows** — unchanged; the prose this season
   produces is what its "wait" was waiting for.
-- **Whether a mind-design note is wanted first** — the sibling of
-  `species-design.md` for how a Chthonari crew thinks, so the ensemble does
-  not fall into the stock shapes the trope default refuses.
+- ~~**Whether a mind-design note is wanted first**~~ — drafted unasked the
+  same day as `mind-design.md`, to keep or drop. Two physical costs in it
+  are open where the record is silent: whether standard gravity is heavy
+  going for a Chthonari body, and what a crew's sealed burrow is on a
+  habitat and what it is tuned to.
 
 ## Comments on the children's tier — `intake-2026-09-04.md`, sixth message — RULED 4 September 2026
 
