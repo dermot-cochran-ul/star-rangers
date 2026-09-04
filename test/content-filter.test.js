@@ -199,6 +199,20 @@ test("gatedThreadForPage: resolves by season, tag, category and threadId; null f
   assert.equal(gatedThreadForPage({}), null);
 });
 
+test("threadForPage: one membership walk behind both per-thread properties (tier, comments board)", () => {
+  const { threadForPage } = require("../lib/content-filter");
+  const byBoard = (t) => Boolean(t.giscusProfile);
+  // The church-space thread carries both properties, so the same pages
+  // resolve to it whichever one is asked about - by season, tag, threadId.
+  assert.equal(threadForPage({ season: 8 }, byBoard).id, "church-space");
+  assert.equal(threadForPage({ tags: ["church-space"] }, byBoard).giscusProfile, "church-space");
+  assert.equal(threadForPage({ threadId: "church-space" }, byBoard).id, "church-space");
+  // A main-sequence chapter belongs to a thread with no board of its own.
+  assert.equal(threadForPage({ season: 1 }, byBoard), null);
+  assert.equal(threadForPage({ season: 1 }, () => true).id, "tissadelle-arc");
+  assert.equal(threadForPage({}, () => true), null);
+});
+
 test("gatedThreadForPage is filter-independent: it answers which thread, not whether to hide", () => {
   // Even a build at the thread's tier still resolves it (excluded.njk uses
   // this to point at the thread's homeDomain).

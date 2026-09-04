@@ -10,6 +10,7 @@ const {
   isChapterIncluded,
   isTopicPageIncluded,
   gatedThreadForPage,
+  threadForPage,
   getRelatedContentUrls
 } = require("./lib/content-filter");
 const {
@@ -129,6 +130,26 @@ function glossaryAlphaKey(title) {
 function computeReferenceDomain(data) {
   const thread = gatedThreadForPage(data);
   return (thread && thread.homeDomain) || DEFAULT_REFERENCE_DOMAIN;
+}
+
+// Drives the eleventyComputed "giscusBoard" override below: the comments
+// board THIS page's widget posts to. A page in a thread that names a
+// `giscusProfile` (lib/storyline-threads.js - church-space, the Communion's
+// board) uses that thread's board on whatever domain renders it; every other
+// page uses the build's board (src/_data/giscus.js). Dermot's ruling,
+// 2026-09-04: pick the board per page, so a shared chapter carries one
+// conversation across every tier that shows it and the overlay keeps its
+// own room. Membership comes from the same walk the tier gate uses. A
+// scene-POV page carries its season on the pagination item rather than on
+// its own front matter, so the probe reads either. On a fork the data file
+// returns no thread boards at all and this is the build's board throughout.
+function computeGiscusBoard(data) {
+  const giscus = data.giscus;
+  if (!giscus || !giscus.boards) return giscus;
+  const season = data.season !== undefined ? data.season : data.item && data.item.season;
+  const probe = { season, tags: data.tags, category: data.category, threadId: data.threadId };
+  const thread = threadForPage(probe, (t) => Boolean(t.giscusProfile));
+  return (thread && giscus.boards[thread.id]) || giscus;
 }
 
 module.exports = function(eleventyConfig) {
@@ -582,6 +603,9 @@ module.exports = function(eleventyConfig) {
     // excluded page points at its own homeDomain instead of the default
     // reference domain, so it never loops back to another placeholder.
     referenceDomain: (data) => computeReferenceDomain(data),
+    // The comments board this page posts to - see computeGiscusBoard. Read by
+    // base.njk in place of the build-wide `giscus` global.
+    giscusBoard: (data) => computeGiscusBoard(data),
     // A hidden page still returns HTTP 200 with a real placeholder body -
     // that IS the design, so no cross-link ever 404s - which means without
     // this a narrowed clone publishes up to a few hundred indexable "Not

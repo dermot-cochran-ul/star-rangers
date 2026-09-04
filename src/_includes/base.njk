@@ -225,12 +225,17 @@
     {{ content | safe }}
 
     {% if comments and commentsEnabled %}
-    {% set commentsCategoryConfig = giscus.categories[commentsCategory] %}
+    {#- The board is the PAGE's, not the build's: .eleventy.js's giscusBoard
+        picks a thread's own board (church-space -> the Communion's) on any
+        domain, and the build's board otherwise. Falls back to the global for
+        a template that reaches here without the computed field. -#}
+    {% set board = giscusBoard or giscus %}
+    {% set commentsCategoryConfig = board.categories[commentsCategory] %}
     <section class="site-comments" aria-label="Comments" data-pagefind-ignore>
       <h2 class="site-comments__heading">Discussion</h2>
       <script src="https://giscus.app/client.js"
-        data-repo="{{ giscus.repo }}"
-        data-repo-id="{{ giscus.repoId }}"
+        data-repo="{{ board.repo }}"
+        data-repo-id="{{ board.repoId }}"
         data-category="{{ commentsCategoryConfig.name }}"
         data-category-id="{{ commentsCategoryConfig.id }}"
         {% if comment_id %}
