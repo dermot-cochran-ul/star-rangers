@@ -265,7 +265,9 @@ does not join Five-O, and Five-O does not learn to hear.
   words, verbatim, read as the Deputy's name because the Deputy's was the
   first name open — **reading confirmed the same day.** Unused anywhere in
   the corpus (checked). Species: human, the record's default for a Corps
-  Deputy, which he was offered and did not overturn. Still open: age.
+  Deputy, which he was offered and did not overturn. ~~Still open: age.~~ —
+  **age ruled the same day: "young mature capable age"**, read as early
+  twenties, no number fixed. The Deputy is complete.
 - ~~**The convergence shape**~~ — **ruled 4 September 2026: two readings of
   one structure.** ~~Still open: the case behind it~~ — **ruled 4 September
   2026: the *Docked Twice* pattern, one level down.** Eden's structure

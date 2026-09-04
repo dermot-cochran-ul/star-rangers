@@ -1181,7 +1181,10 @@ reader's proxy, added by new chapters, nothing published recast.
 
 - **Who the young Deputy is** (follows the ruling): ~~name~~ — **named 4
   September 2026: Iklix Varn** (reading confirmed the same day: "Yes") —
-  species human by the default he did not overturn; age still open.
+  species human by the default he did not overturn; ~~age still open~~ —
+  **age ruled the same day: "young mature capable age", read as early
+  twenties, no number fixed.** The Deputy is complete for drafting; only the
+  character page (draft-and-stop) remains.
   ~~Whose Deputy — Zoe Smith's, per her page, or Larsen's inside the task
   force~~ — **ruled 4 September 2026: Zoe Smith's**, because a Corps Deputy
   inside Five-O is not allowed (Rangers have no authority inside the
