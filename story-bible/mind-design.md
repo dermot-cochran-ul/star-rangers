@@ -233,15 +233,15 @@ Both are once-only decisions under the 7 August rule (a species' pronoun
 system is declared in its lore entry and registered in the glossary, never
 improvised), and both are authorship.
 
-- **Pronouns.** The species page uses none the record has declared for an
-  individual Chthonari. Two shapes: **translate** — render Chthonari persons
-  in the reader's pronouns, the record's default, which makes no statement;
-  or **declare a system of their own** — a statement that they, like the
-  Krenyi with their calendar, keep something untranslated. If the second, the
-  paradigm is his to coin and the note does not propose forms. A lean only:
-  a people whose thought runs on relationships might carry a pronoun that
-  says *how* a person stands to the speaker rather than *what* they are —
-  but that is a coinage, and coinages are not derived.
+- **Pronouns — RULED 4 September 2026: translate.** His rule was *translate,
+  or derive from biology*; the derivation found no sex in the record and
+  one person-marking distinction the sensorium makes, contact (felt or
+  unfelt). A Chthonari person is rendered *they*, and the species page now
+  says so in one sentence: the Undersong marks a person by contact, not sex,
+  "a distinction the translation lets go, since a reader on a page is in
+  contact with no one." The felt-or-unfelt fact lives in the prose — the
+  Deputy is never felt — and not in the grammar. A declared contact system
+  (two forms, his coinage) was the other shape and is not taken.
 - **Names.** Nothing in the record says what a Chthonari name is. The
   Undersong suggests a name might be a signature rather than a sound, which
   is a way of thinking about it, not a naming scheme.
