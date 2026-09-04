@@ -163,6 +163,19 @@ mean designing a people to fit a plot.
 
 ## The convergence
 
+**RULED 4 September 2026 — "option 1": two readings of one structure.** The
+task force's ledgers and the crew's ears describe the same habitat and
+disagree; the strands meet when the Deputy lays one account beside the other
+and names what the two have in common. Fixed before drafting, per the rule.
+What the ruling commits the season to: the discrepancy is in the
+**structure** of a habitat, not its paperwork; the crew is on the habitat as
+contractors with no standing to report what they hear; the Deputy is the
+junior sent to fetch the contractor's log; the crew's first guess is error
+and the task force's is intent, and both are half right; the meeting merges
+the two accounts, not the two crews. The jurisdiction question (shape 2)
+may still be *raised* by the meeting, but the season does not turn on it.
+The three shapes are kept below as the record of the choice.
+
 Decided before either strand is drafted, by the rule. Three shapes:
 
 1. **Two readings of one structure.** The task force's ledgers and the crew's
@@ -195,7 +208,9 @@ does not join Five-O, and Five-O does not learn to hear.
   Character pages are draft-and-stop; the young-adult register wants no more
   than three or four voices.
 - **The Deputy** (3 September, still open): who, and whose.
-- **The convergence shape**, and the case behind it.
+- ~~**The convergence shape**~~ — **ruled 4 September 2026: two readings of
+  one structure.** Still open: the case behind it — what the habitat is
+  doing that its ledgers say it is not.
 - ~~**The mind-design note:** whether it is wanted before drafting, as
   `species-design.md` was before the Prismeri body.~~ — drafted the same day
   as `mind-design.md`, to keep or drop; two physical costs in it are open.
