@@ -233,6 +233,25 @@
     {% set commentsCategoryConfig = board.categories[commentsCategory] %}
     <section class="site-comments" aria-label="Comments" data-pagefind-ignore>
       <h2 class="site-comments__heading">Discussion</h2>
+      {#- COLLAPSED BY DEFAULT, AND SAID TO BE MODERATED (Dermot's ruling,
+          2026-09-04, story-bible/intake-2026-09-04.md, ninth message). giscus
+          renders GitHub Discussions live and has no approval queue, so what
+          this stack can honestly offer is (a) after-the-fact moderation from
+          the comments repos, which the note below states and the repo watch
+          delivers to his inbox, and (b) nothing on the page until a reader
+          asks: the widget sits inside a closed <details>, so a reader who
+          arrived by accident meets no comment they did not open. Hidden
+          until OPENED, not until approved - the note does not claim more.
+          data-loading="lazy" keeps the iframe from loading until the
+          disclosure is near the viewport, which for a closed one is never
+          until it is opened. The heading stays outside so the section is
+          still announced and findable. -#}
+      <details class="site-comments__toggle">
+        <summary class="site-comments__summary">Show discussion</summary>
+        <p class="site-comments__note">
+          Comments are read after they are posted and anything unsuitable is removed.
+          Posting needs a GitHub account; reading needs nothing.
+        </p>
       <script src="https://giscus.app/client.js"
         data-repo="{{ board.repo }}"
         data-repo-id="{{ board.repoId }}"
@@ -258,9 +277,11 @@
         data-input-position="bottom"
         data-theme="dark"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
       </script>
+      </details>
     </section>
     {% endif %}
   </main>

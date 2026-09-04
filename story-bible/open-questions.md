@@ -1372,7 +1372,9 @@ chapter. Three shapes put; he chose the first.
   already opened on a main-sequence chapter before switching.~~ — **ruled;
   the Communion board held zero discussions at the switch.**
 
-## Moderation of comments a child might find — `intake-2026-09-04.md`, ninth message
+## Moderation of comments a child might find — `intake-2026-09-04.md`, ninth message — RULED 4 September 2026
+
+**RULED the same day: shapes one and two together — watch both repos for all activity, a moderation note on the page, and the discussion collapsed by default. Realized. Nothing open.**
 
 Dermot, 4 September 2026: comments should be moderated or hidden until
 approved if their suitability for a child who finds the site by accident
@@ -1386,4 +1388,5 @@ approved; composes with the first); interaction limits on the repos (blunt,
 expires). A real approval queue means server-held reader state and is out of
 scope by the no-accounts rule.
 
-- **Which shape**, and whether the page note is wanted.
+- ~~**Which shape**, and whether the page note is wanted.~~ — **ruled: one
+  and two, note included.**
