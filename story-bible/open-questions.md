@@ -1344,7 +1344,12 @@ Lean recorded for the second or third. Open:
 - ~~**The species** (Chthonari recommended; Mnemari second; Prismeri listed
   not offered)~~ — **ruled 4 September 2026: the Chthonari.** Still open:
   whether they carry a pronoun system of their own — a once-only vocabulary
-  decision, two shapes in `mind-design.md`, no forms proposed.
+  decision. His rule the same day (twelfth message): *translate, or derive
+  from biology.* Derived: the biology records no sex, so no sex-based system
+  stands; the one distinction the sensorium makes between persons is
+  contact, felt or unfelt. Two shapes — translate as *they*, with an optional
+  lore sentence saying the Undersong marks persons by contact not sex
+  (recommended); or a declared two-way contact system, forms his to coin.
 - **The crew:** how many, their names, who carries which block. Character
   pages are draft-and-stop.
 - ~~**The convergence** (two readings of one structure recommended; the
