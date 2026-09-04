@@ -259,8 +259,21 @@ does not join Five-O, and Five-O does not learn to hear.
   the corpus (checked). Species: human, the record's default for a Corps
   Deputy, which he was offered and did not overturn. Still open: age.
 - ~~**The convergence shape**~~ — **ruled 4 September 2026: two readings of
-  one structure.** Still open: the case behind it — what the habitat is
-  doing that its ledgers say it is not.
+  one structure.** ~~Still open: the case behind it~~ — **ruled 4 September
+  2026: the *Docked Twice* pattern, one level down.** Eden's structure
+  carries a fold-approach resonance that the habitat's monitoring reads as
+  normal, because what the ledger checks is the certification record and
+  not the structure — the drone that berthed twice, moved from a hull to a
+  habitat. What that commits the season to: Five-O's ledger is *right*, the
+  way every ledger in *Docked Twice* was right; the discrepancy is between
+  the record and the thing; the crew hears it because a fold approach is a
+  gradient under stress and reading one is their trade; and the meeting
+  point is the certification record itself, which the Deputy fetches on the
+  Rangers' fold-oversight paperwork and Five-O holds on the Compact's. The
+  particular mechanism — what was certified, by whom, and what the structure
+  is doing instead — is his to author in the chapters; the treatment fixes
+  only that it is a record-versus-structure discrepancy and not a crime of
+  gain, which keeps the crew's error-first guess half right.
 - ~~**The mind-design note:** whether it is wanted before drafting, as
   `species-design.md` was before the Prismeri body.~~ — drafted the same day
   as `mind-design.md`, to keep or drop; two physical costs in it are open.

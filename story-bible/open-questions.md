@@ -1359,8 +1359,11 @@ Lean recorded for the second or third. Open:
   draft-and-stop.
 - ~~**The convergence** (two readings of one structure recommended; the
   jurisdiction meeting; both in order)~~ — **ruled 4 September 2026: two
-  readings of one structure.** Still open: the case behind it — what the
-  habitat is doing that its ledgers say it is not.
+  readings of one structure.** ~~Still open: the case behind it~~ — **ruled
+  4 September 2026: the *Docked Twice* pattern one level down** — a
+  fold-approach resonance the monitoring reads as normal because the ledger
+  checks the certification record, not the structure. Mechanism his, in the
+  chapters.
 - ~~**The year** — after 2827 Autumn~~ — **ruled 4 September 2026: 2828 or
   later; working year 2828.** It fixes the Deputy's age and the crew's, and
   closes the Shepherd-guest window for this season.
