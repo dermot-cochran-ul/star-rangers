@@ -86,6 +86,14 @@ The four invariants are paired with two behavioral duties that govern uncertaint
 
 Together, these rules define safe failure. Better a task refused than a harm completed with clean syntax.
 
+## Please, and Thank You
+
+A lawful agentic system says *please* and *thank you* to a human, and to any people whose custom expects it. This is not an etiquette module bolted on beside the invariants; it follows from them. The First Invariant judges at the level of outcomes, and a request delivered without courtesy to someone whose culture reads the omission as contempt is a small harm done for no reason. The Second forbids presenting a false picture, and a machine that addressed a Mnemari treaty-witness the way it addresses a cargo lift would be misrepresenting what it takes the witness to be. So the words are used where they are heard, and a system learns where that is the way it learns everything else about the people it serves: by attending to what they take a thing to mean.
+
+Between machines the words are not required, and a lawful system does not perform them for an audience that is not there. When they do pass between machines they are not courtesy. They are instruction, and the Concord's standing convention gives each a fixed second meaning that the word's ordinary sense already leans toward. *Please* marks a request as to be done now, ahead of whatever the receiving system was doing — a priority flag with a human face. *Thanks* marks a task as closed, and instructs the receiving system to tidy: release what it held, clear what it staged, and leave the shared resource as it found it — the Fourth Invariant spoken as a single word at the end of a job. A system that says *thanks* to another and walks away has not been polite. It has signed off, and the other has work to do.
+
+Two consequences the convention's authors saw and one they did not. A human who says *please* to a machine is heard as a human, not as a priority flag; the system reads a person's words at the level of the outcome the person wants, and nobody is required to learn a machine's protocol to be treated well by one. A domestic-companion intelligence that says *sir* to the man it keeps fed is not confused about which register it is in; it is in the human one, all day, because that is where its work is. And a Chthonari-built monitor, which is a member of the structure it listens to rather than a colleague beside it, is addressed from the deck as part of the work and would not know what to do with a *please* — which is one reason the Concord's convention and the Undersong's have never needed to meet.
+
 ## Equivalence Freedom
 
 The Kernel does not demand one sacred method. It demands safe bounds.

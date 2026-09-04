@@ -1427,3 +1427,19 @@ scope by the no-accounts rule.
 
 - ~~**Which shape**, and whether the page note is wanted.~~ — **ruled: one
   and two, note included.**
+
+## Please and thank you, for machines — `intake-2026-09-04.md`, eighteenth message — RULED 4 September 2026
+
+**All four readings confirmed and the section approved the same day; merged. Nothing open.**
+
+Dermot, 4 September 2026: robots use please and thank you to humans and to
+any alien culture that expects it; between robots the words are not needed
+unless they carry a second meaning — *please* as "do it now", *thanks* as
+"tidy and clean up". Drafted as a section on `src/lore/ai-safety-kernel.md`,
+derived from the invariants, held for review. Four readings flagged:
+
+- **"Robots" = every Kernel-compliant agentic system**, embodied or not.
+- **The second meanings are the Concord's convention**, not universal;
+  Federation machines and Chthonari monitors stand outside it.
+- **A human's *please* carries no priority meaning to a machine.**
+- **The courtesy is learned, not listed.**
