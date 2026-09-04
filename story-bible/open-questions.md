@@ -1179,10 +1179,14 @@ thread later. **Ruled the same day, verbatim: "Option 2 approved"** — the
 Five-O thread gets a raw Deputy or trainee inside the task force as the
 reader's proxy, added by new chapters, nothing published recast.
 
-- **Who the young Deputy is** (follows the ruling): name, age, species, and
-  whose Deputy — Zoe Smith's, per her page, or Larsen's inside the task force;
-  and whether their first chapter is a new Season 4 episode or a later season
-  of the Five-O thread. A character page is draft-and-stop.
+- **Who the young Deputy is** (follows the ruling): name, age, species.
+  ~~Whose Deputy — Zoe Smith's, per her page, or Larsen's inside the task
+  force~~ — **ruled 4 September 2026: Zoe Smith's**, because a Corps Deputy
+  inside Five-O is not allowed (Rangers have no authority inside the
+  habitats; Larsen resigned to lead it) — `five-o-second-season-treatment.md`,
+  Strand A. ~~Whether their first chapter is a new Season 4 episode or a
+  later season~~ — **a later season: Season 10, the next Five-O season, by
+  the same day's strand ruling.** A character page is draft-and-stop.
 
 ## Guest appearances in Five-O — `intake-2026-09-03.md`, fourth direction
 
