@@ -717,3 +717,26 @@ seam; nothing to flinch at, on Thrum's precedent. **Body check:** six legs
 of one kind on all four, no torso, no arms, no upright posture.
 
 **Alt text** on each page describes the picked image, not the prompt.
+
+### iklix-varn.jpg — 4 Sep 2026, the held prompt released
+
+- **Date:** 4 September 2026, later the same evening, when Dermot said what
+  Varn looks like — *"lean build, dark hair, quiet bearing"* — and the prompt
+  went out with those three things in it and nothing else about the face
+  decided. Two variants, Gemini, 16:9, filed with `import-image.ps1 -MaxEdge
+  1200`.
+- **The pair, and the choice.** Both lean, dark-haired, quiet, both reading
+  the longer document standing up in the compartment with the six units
+  and the hatch. They differed in the one thing the record had never fixed:
+  the face, and with it the person — variant 1 wider, the whole compartment
+  in frame, the Deputy reading as young and contained; variant 2 closer, a
+  different face. Put to him as a pair with the lean stated for variant 1.
+  **His word was "Approved"** — read as approving the lean, variant 1, and
+  the reading is flagged in the intake in case the word was meant for the
+  other.
+- **Pick:** variant 1. **Lettering check:** the print on the pages and the
+  small labels on the units are illegible; nothing readable. **Tone:** no
+  glamour, no pose to camera; the tab at the collar is plain.
+- **What this fixes.** The picked image is now the record's only account of
+  Varn's face; the page carries his three words and the alt text describes
+  the picture, and neither says more than that.

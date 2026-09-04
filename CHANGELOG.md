@@ -13,6 +13,7 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 ### Changed
 
 - **Portraits for the Chthonari crew** — `tikket.jpg`, `kattik.jpg`, `tekka.jpg`, `tsikk.jpg` (2026-09-04, generated at Dermot's direction and the picks approved by him the same evening; run recorded in `story-bible/image-prompts.md`). Twelve images in two runs: Tikket and Tsikk came back on the crew's body first time; Kattik and Tekka drifted into a crouching humanoid, one on a present-day tablet and one with a mouth full of teeth, and were re-rolled against the Tsikk image as a reference with the prompts revised in place in `images.md`. Filed at 1200×670 over the PORTRAIT PENDING cards, alt text rewritten to describe each picked image. Three of the four share one ring setting, the reference having carried it, which was said before he chose. Iklix Varn's card stands and the prompt stays held.
+- **Portrait for Iklix Varn** — `iklix-varn.jpg` (2026-09-04, later the same evening, once Dermot said what the Deputy looks like — *lean build, dark hair, quiet bearing* — and approved the pick; run recorded in `story-bible/image-prompts.md`). Two variants, both on his three words, differing in the face; variant 1 filed at 1200×670 over the card, the wider frame with the whole compartment, the six units and the hatch, the Deputy reading the longer document standing up. The page now carries his three words as the one physical description the record holds, and the alt text describes the picture. All five Season 10 portraits are filed.
 
 ## [1.32.0] — 2026-09-04
 
