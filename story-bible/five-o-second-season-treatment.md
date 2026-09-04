@@ -242,8 +242,9 @@ does not join Five-O, and Five-O does not learn to hear.
 ## What stays open — his
 
 - ~~**The species** (Chthonari recommended)~~ — **ruled 4 September 2026:
-  the Chthonari.** Still open from it: whether they carry a pronoun system of
-  their own (shapes in `mind-design.md`).
+  the Chthonari.** ~~Still open from it: whether they carry a pronoun system
+  of their own~~ — **ruled the same day: translate as *they*; the species
+  page says why in one sentence** (`mind-design.md`, Pronouns).
 - **The crew:** how many, their names, which of them carries which block.
   Character pages are draft-and-stop; the young-adult register wants no more
   than three or four voices.
