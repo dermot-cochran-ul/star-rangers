@@ -9,7 +9,7 @@ aliases: []
 tags: [alien, chthonari, undersong-belt, federation-of-sentient-beings, eden, orbital-five-o, engineering, season-10]
 description: "The sharpest strike of a Chthonari crew of four, and the one who addresses Eden's mind from the deck, as part of the work, without waiting to be introduced — because to a people who listen to structures, a structure that can listen back is a completion."
 image: "tsikk.jpg"
-image_alt: "Designed placeholder card for Tsikk: the name set in pale serif type over a dark blue-black gradient, headed PORTRAIT PENDING. No portrait for this character exists yet."
+image_alt: "Tsikk, a small six-legged Chthonari with a low, segmented slate-grey carapace and a smooth featureless head, standing alone at the centre of a wide expanse of bare deck plating beneath a habitat's dock ring, all six legs planted and the body raised slightly at the front. The ring's understructure curves overhead, and a long line of walkway lights is coming on around it in the distance, as if the structure had noticed."
 ---
 
 Tsikk is one of four [Chthonari](/star-rangers/lore/chthonari/) on a Federation contractor crew under [Eden Space Habitat](/star-rangers/lore/eden-space-habitat/)'s dock ring in the spring of 2828 UCSD, and the one who went and asked the habitat. The name is a struck signature, a scrape into a strike and the sharpest of the four, spelled the way a human ear renders it.

@@ -10,6 +10,10 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 - **Five character pages for Season 10 — [Iklix Varn](src/characters/iklix-varn.md), [Tikket](src/characters/tikket.md), [Kattik](src/characters/kattik.md), [Tekka](src/characters/tekka.md), [Tsikk](src/characters/tsikk.md)** (2026-09-04, drafted at Dermot's ask — *draft the five characters please* — and approved by him the same evening with all four readings confirmed; `story-bible/intake-2026-09-04.md`, twenty-first message). Every fact is drawn from the two published chapters, the treatment, the mind-design note and the species page: Varn as Zoe Smith's Deputy on Eden's fold-approach watch, early twenties, no number; the four Chthonari as a contractor crew on a first off-Belt posting, each page carrying the crew, what a Chthonari cannot do on Thrum's precedent, and the one axis the chapters gave that member. Each stands behind a PORTRAIT PENDING card, and five prompts are queued in `story-bible/images.md` under *Orbital Five-O, Season 10*, Varn's held until Dermot says what the Deputy looks like.
 
+### Changed
+
+- **Portraits for the Chthonari crew** — `tikket.jpg`, `kattik.jpg`, `tekka.jpg`, `tsikk.jpg` (2026-09-04, generated at Dermot's direction and the picks approved by him the same evening; run recorded in `story-bible/image-prompts.md`). Twelve images in two runs: Tikket and Tsikk came back on the crew's body first time; Kattik and Tekka drifted into a crouching humanoid, one on a present-day tablet and one with a mouth full of teeth, and were re-rolled against the Tsikk image as a reference with the prompts revised in place in `images.md`. Filed at 1200×670 over the PORTRAIT PENDING cards, alt text rewritten to describe each picked image. Three of the four share one ring setting, the reference having carried it, which was said before he chose. Iklix Varn's card stands and the prompt stays held.
+
 ## [1.32.0] — 2026-09-04
 
 The evening of the same day, and the release in which Orbital Five-O gets

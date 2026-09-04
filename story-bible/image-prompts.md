@@ -670,3 +670,50 @@ prompt asks for the grazer as a scale figure and the re-roll honoured it.
 
 **Lettering check:** passed on every filed image. The old motif check
 passed too: no jellyfish-and-spire repeat across the eight locations.
+
+## 2026-09-04 — the Chthonari crew, Season 10's first portraits
+
+- **Date:** 4 September 2026, the evening the five character pages were
+  approved; generated at Dermot's direction (*"generate the four Chthonari
+  portraits"*), picks approved by him the same evening (*"All picks
+  approved"*). Iklix Varn's prompt stays held; the card stands.
+- **Tool:** `image-prompts.js --generate --only <key>`, Gemini, two variants
+  each, 16:9, filed with `import-image.ps1 -MaxEdge 1200` (1200×670) over the
+  PORTRAIT PENDING cards, which clears the marker.
+- **Prompts of record:** `images.md`, *Orbital Five-O, Season 10 (5)*, with
+  the two revisions recorded in place.
+
+**Run 1 (eight images).** Tikket and Tsikk came back on the crew's body as the
+record describes it — low, beetle-like, six legs of one kind, a featureless
+dome — and Kattik and Tekka did not. Both Kattik variants and Tekka 1 drifted
+into a crouching humanoid with shoulders and arms; Kattik 1 rested its hands
+on a present-day tablet, ports and all; Tekka 2 had the right body and the
+right gait on a beam before a planet-filled window nobody asked for, and a
+mouth full of teeth, which the tone rule forbids outright. Kept aside as
+`image-out/characters-kattik-run1/` and `characters-tekka-run1/`.
+
+**Revisions and run 2 (four images).** Kattik and Tekka re-rolled with
+`References: image-out/characters-tsikk/tsikk-1.jpg`, the body pinned to
+the reference in words ("no torso, no shoulders, no upright posture, no
+humanoid arms"), the slab described as a slab with no device edge, the mouth
+negative made blunt, the window taken away. All four came back on the right
+body with no mouth. One visible consequence: the reference carried its
+setting with it, so Kattik and Tekka now share Tsikk's ring — three
+portraits from one deck, read as the crew on its one job rather than a
+fault, and said to Dermot before he chose.
+
+**Picks** (variant numbers refer to the run each came from):
+
+| File | Pick | Why |
+| --- | --- | --- |
+| `tikket` | run 1, variant 2 | close to the bracket, every limb in contact, the deck otherwise bare — what the chapter shows; variant 1 sat in a larger hall |
+| `kattik` | run 2, variant 2 | forelegs on the slab, a second crew member on a bracket behind, the ring's lights coming up; variant 1 had the slab beside rather than under the forelegs |
+| `tekka` | run 2, variant 1 | mid-stride along the beam, the course-reading gait; variant 2 stood square and static |
+| `tsikk` | run 1, variant 1 | centred on the open deck, six legs planted, the walkway lights coming on around the ring as if the structure had noticed — the strongest of the twelve and the reference for the re-roll |
+
+**Lettering check:** passed on all four; nothing readable anywhere. **Tone
+check:** no mouth on any filed image; small dome heads with at most a faint
+seam; nothing to flinch at, on Thrum's precedent. **Body check:** six legs
+of one kind on all four, no torso, no arms, no upright posture.
+
+**Alt text** on each page describes the picked image, not the prompt.
