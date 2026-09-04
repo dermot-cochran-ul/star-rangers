@@ -45,6 +45,19 @@ From entry to apex, in order of seniority:
 - **Council of High Captains** — every serving High Captain, sitting together. The Council sets Corps-wide operational policy: how the charter's constraints get applied in practice, where deployment priorities sit when boundary events compete for the same limited response capacity, how doctrine changes when a Safety Corps finding demands it.
 - **Triumvirate** — three seats, drawn from and seated by the Council of High Captains, standing at its head. The Triumvirate chairs the Council, issues Corps-wide directives between full Council sessions, and is the single point of contact the Oversight Council holds accountable for the Corps' conduct under the charter.
 
+## Reading Rank at a Glance
+
+Rank is worn as a single mark: a small, hard-edged tab or plate, plain-finished, magnetically seated proud of the surface and visibly removable, never sewn on. The charter's neutrality clause bars anything more — no crest, no world-of-origin flag, no emblem that would let one side of a dispute read the Rangers as the other's. The same tab is worn on a human collar, seated on a Krenyi or Serephine shell at the corresponding point, and bolted to a robotic chassis such as Rook-7's hull, so that a rank is read the same way on every body the Corps fields.
+
+What the tab carries is read in three tiers, and the three are not conflated:
+
+- **Novice to Section Lead** — a plain bar count, one bar more per rung. A Novice wears one; a Cadet two; a Deputy three; a Field Officer four; a Senior five; a Principal six; a Section Lead seven. At arm's length a Deputy's three bars say what a Deputy is: trusted to work, under supervision, and not yet to act alone.
+- **Chief**, the hinge rank — a bar and a ring together, the last mark on the ladder to carry a track insert.
+- **Starwarden to High Captain** — rings only, one more per rung, and no track insert at all. Above Chief the mark says what post an officer holds, not what track they climbed to reach it.
+- **The Council of High Captains and the Triumvirate** wear a seal rather than a tab: a seated body, not a rank.
+
+The tab's colour is keyed to **service track**, never to corps, because the framers wanted a mark that told a stranger *what kind of authority this person holds*, not *which department they answer to*: general operations in slate blue, survey in pale grey-green, boundary safety in amber, piloting and navigation in deep indigo, security and provost in oxblood, engineering in copper — all muted, so the tab reads as information rather than decoration. The garment's colour carries the corps, and the two systems are kept on separate carriers on purpose, so that nobody can assume the second from the first. Beside the rank tab a Ranger may wear a certification mark — the significant one being *certified boundary analyst*, issued only by the Safety Corps — and below it any decorations; the three say, in order, what a Ranger is trusted to command, what they are trusted to be right about, and what they have done.
+
 ## Guild Leadership: The Corps Aren't Commanded
 
 The rank ladder above governs seniority and who answers for what. It does not govern who sets standards within a specialization, because the charter's framers did not want the same chain of command holding both kinds of authority over the same person.
