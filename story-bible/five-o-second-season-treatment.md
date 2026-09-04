@@ -250,9 +250,12 @@ does not join Five-O, and Five-O does not learn to hear.
   way, his direction the same day: high-click phonetic names, if the biology
   suits — it does, struck rather than spoken** (intake, sixteenth message):
   a name is a signature of strikes on structure, rendered by a human ear as
-  unvoiced clicks. Four candidates offered — Tikket, Kattik, Tekka, Tsikk —
-  to take, change or refuse. Character pages are draft-and-stop. Four is
-  the register's ceiling and gives the strand
+  unvoiced clicks. **Taken the same evening ("Sounds good"): Tikket, Kattik,
+  Tekka, Tsikk**, on the species page. Character pages are draft-and-stop
+  and still to come. **Season 10 is registered and its first two chapters
+  drafted, held for review:** S10E01C01 *Sent for the Log* (Iklix Varn, Zoe
+  Smith) and S10E01C02 *Sound, as Certified* (Tikket, Kattik, three weeks
+  earlier). Four is the register's ceiling and gives the strand
   what four allows and three does not: one who has begun to listen, two who
   still memorise and disagree about it, and one who addresses the habitat's
   mind before anyone has introduced it — the mind note's axes, one each.

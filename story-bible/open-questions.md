@@ -1355,12 +1355,12 @@ Lean recorded for the second or third. Open:
   coin.~~ — **ruled 4 September 2026: translate as *they*, with the sentence
   on `src/lore/chthonari.md`. Nothing open.**
 - **The crew:** ~~how many~~ — **ruled 4 September 2026: four voices.**
-  Still open: their names — the way ruled the same day (sixteenth message):
-  high-click names, struck on structure not spoken, rendered by a human ear
-  as unvoiced clicks; four candidates put (Tikket, Kattik, Tekka, Tsikk),
-  his to take, change or refuse — and who carries which block. Character
-  pages are draft-and-stop; the naming convention goes on the species page
-  in one sentence once he takes it.
+  ~~Still open: their names~~ — **taken 4 September 2026 ("Sounds good"):
+  Tikket, Kattik, Tekka, Tsikk**, high-click names struck on structure and
+  rendered by a human ear; the convention is on the species page. Still
+  open: **character pages for the four and for Iklix Varn** (draft-and-stop;
+  placeholder cards until portraits), and **Iklix Varn's age**. Season 10's
+  first two chapters are drafted and held for his review.
 - ~~**The convergence** (two readings of one structure recommended; the
   jurisdiction meeting; both in order)~~ — **ruled 4 September 2026: two
   readings of one structure.** ~~Still open: the case behind it~~ — **ruled
