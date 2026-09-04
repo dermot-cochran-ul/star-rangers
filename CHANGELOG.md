@@ -6,6 +6,21 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [1.30.0] — 2026-09-04
+
+The release in which the reading tiers became the site's one visibility
+model. The 3 September ladder said which readership each edition serves; this
+release makes that ladder decide everything a domain shows, retiring
+`private: true` in favour of a `tier` on the church-space thread and one
+shared predicate for threads and POV blocks alike. No domain gains or loses
+a page. Around it, a day of directions on record: the church-space ruling
+itself, the alien thread or strand, the Reading Tiers page held for review,
+and the question of comments on the children's tier put as choices. Content
+follows the 3 September rulings: the Prismeri given a body derived from
+Prismere and their images regenerated to it, terraforming's origin in climate
+repair, Aldera's channel, the Smart Pet collar, Elvira's dream, the scale of
+Celestials, and the stock lore images replaced with designed cards.
+
 ### Changed
 
 - **Tier gating replaces `private: true`** (2026-09-04, Dermot's ruling on the three shapes put to him the same morning — `story-bible/intake-2026-09-04.md`). The church-space thread now carries `tier: "contemplative"` in `lib/storyline-threads.js` instead of the private flag, and `lib/content-filter.js` hides a thread on every build whose edition sits below the thread's tier — `isTierExcluded` and `gatedThreadForPage` replace `isPrivatelyExcluded` and `privateThreadForPage` — using `tierVisible`, a new export of `lib/editions.js` that the tier-marked POV blocks in `lib/markdown-containers.js` now share, so a block and a thread cannot disagree about the ladder. The build's tier is its edition's, read into the content filter; no `deploy.conf` value can open a gated thread, and naming church-space in `CHARACTERS`/`TOPICS`/`THREADS` no longer opts it in. Every domain keeps exactly the page set it had: the contemplative editions already name the thread and the default edition sits at the general tier. Retired: the "excluded unless named in" case and the validator's public → private link boundary (a general-tier page linking into the thread gets the ordinary excluded placeholder). Kept, re-purposed: `homeDomain` for the placeholder and `signatureTags` for the missing-tag tripwire, now guarding a tier leak. `test/content-filter.test.js` rewritten to select a build tier through the real `EDITION` path; `test/storyline-threads.test.js` pins that no thread carries `private` and that a gated thread names a tier on the ladder. The church-space landing page and FAQ, `CLAUDE.md`, `TECHNICAL-README.md`, `TestingStrategy.md`, `sample-deploy.conf` and the story bible's visibility terminology describe the gate instead of the flag.
