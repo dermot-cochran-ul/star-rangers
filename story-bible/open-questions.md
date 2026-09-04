@@ -1357,17 +1357,33 @@ own; leave it.
 
 - ~~**Which shape.**~~ — **ruled: off.**
 
-## The contemplative tier and the shared comments pool — `intake-2026-09-04.md`, seventh message
+## The contemplative tier and the shared comments pool — `intake-2026-09-04.md`, seventh message — RULED 4 September 2026
+
+**RULED the same day: pick the board per page. Realized and merged. Nothing open.**
 
 Dermot, 4 September 2026, as a question: should the contemplative tier be
 able to view comments from the other shared pool? Measured: a board is chosen
 per build and a page shows one discussion, so since the ladder gave the
 contemplative editions the main sequence, a shared chapter there shows the
 Communion board's thread, separate from the pool's thread for the same
-chapter. Three shapes put — pick the board per page (church-space pages keep
-the Communion's board, everything else on a contemplative edition uses the
-shared pool; recommended, engine work); keep one board per edition; one pool
-for everything (not offered).
+chapter. Three shapes put; he chose the first.
 
-- **Which shape.** If the first: check the Communion board for any thread
-  already opened on a main-sequence chapter before switching.
+- ~~**Which shape.** If the first: check the Communion board for any thread
+  already opened on a main-sequence chapter before switching.~~ — **ruled;
+  the Communion board held zero discussions at the switch.**
+
+## Moderation of comments a child might find — `intake-2026-09-04.md`, ninth message
+
+Dermot, 4 September 2026: comments should be moderated or hidden until
+approved if their suitability for a child who finds the site by accident
+cannot be guaranteed; the GitHub login requirement should help. Measured:
+giscus has no pre-approval — a comment is live when posted, moderation is
+after the fact from the comments repo; the children's tier already renders no
+widget. Three shapes put — watch both repos for all activity plus a
+moderation note on the page (recommended floor); collapse the discussion
+behind a "Show discussion" toggle by default (hidden until opened, not
+approved; composes with the first); interaction limits on the repos (blunt,
+expires). A real approval queue means server-held reader state and is out of
+scope by the no-accounts rule.
+
+- **Which shape**, and whether the page note is wanted.
