@@ -1179,7 +1179,9 @@ thread later. **Ruled the same day, verbatim: "Option 2 approved"** — the
 Five-O thread gets a raw Deputy or trainee inside the task force as the
 reader's proxy, added by new chapters, nothing published recast.
 
-- **Who the young Deputy is** (follows the ruling): name, age, species.
+- **Who the young Deputy is** (follows the ruling): ~~name~~ — **named 4
+  September 2026: Iklix Varn** (read as the Deputy's name; confirm) — age,
+  species.
   ~~Whose Deputy — Zoe Smith's, per her page, or Larsen's inside the task
   force~~ — **ruled 4 September 2026: Zoe Smith's**, because a Corps Deputy
   inside Five-O is not allowed (Rangers have no authority inside the
@@ -1352,14 +1354,16 @@ Lean recorded for the second or third. Open:
   sex (recommended); or a declared two-way contact system, forms his to
   coin.~~ — **ruled 4 September 2026: translate as *they*, with the sentence
   on `src/lore/chthonari.md`. Nothing open.**
-- **The crew:** how many, their names, who carries which block. Character
-  pages are draft-and-stop.
+- **The crew:** ~~how many~~ — **ruled 4 September 2026: four voices.**
+  Still open: their names, who carries which block. Character pages are
+  draft-and-stop.
 - ~~**The convergence** (two readings of one structure recommended; the
   jurisdiction meeting; both in order)~~ — **ruled 4 September 2026: two
   readings of one structure.** Still open: the case behind it — what the
   habitat is doing that its ledgers say it is not.
-- **The year** — after 2827 Autumn; it fixes the Deputy's age and the crew's,
-  and closes the Shepherd-guest window for this season.
+- ~~**The year** — after 2827 Autumn~~ — **ruled 4 September 2026: 2828 or
+  later; working year 2828.** It fixes the Deputy's age and the crew's, and
+  closes the Shepherd-guest window for this season.
 - **Whether the alien edition follows** — unchanged; the prose this season
   produces is what its "wait" was waiting for.
 - ~~**Whether a mind-design note is wanted first**~~ — drafted unasked the

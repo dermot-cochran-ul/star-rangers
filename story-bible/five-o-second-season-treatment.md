@@ -245,20 +245,30 @@ does not join Five-O, and Five-O does not learn to hear.
   the Chthonari.** ~~Still open from it: whether they carry a pronoun system
   of their own~~ — **ruled the same day: translate as *they*; the species
   page says why in one sentence** (`mind-design.md`, Pronouns).
-- **The crew:** how many, their names, which of them carries which block.
-  Character pages are draft-and-stop; the young-adult register wants no more
-  than three or four voices.
+- ~~**The crew:** how many~~ — **ruled 4 September 2026: four voices.** Still
+  open: their names, and which of them carries which block. Character pages
+  are draft-and-stop. Four is the register's ceiling and gives the strand
+  what four allows and three does not: one who has begun to listen, two who
+  still memorise and disagree about it, and one who addresses the habitat's
+  mind before anyone has introduced it — the mind note's axes, one each.
 - ~~**The Deputy** (3 September, still open): who, and whose.~~ — **whose,
   ruled 4 September 2026: Zoe Smith's** (a Corps Deputy inside Five-O is
-  not allowed; see Strand A). Still open: name, age, species.
+  not allowed; see Strand A). **Named the same day: Iklix Varn** — his two
+  words, verbatim, read as the Deputy's name because the Deputy's was the
+  first name open; if it was meant for the crew, say so and it moves.
+  Unused anywhere in the corpus (checked). Still open: age and species — the
+  name does not settle the species, and the record's default is human.
 - ~~**The convergence shape**~~ — **ruled 4 September 2026: two readings of
   one structure.** Still open: the case behind it — what the habitat is
   doing that its ledgers say it is not.
 - ~~**The mind-design note:** whether it is wanted before drafting, as
   `species-design.md` was before the Prismeri body.~~ — drafted the same day
   as `mind-design.md`, to keep or drop; two physical costs in it are open.
-- **The year:** any time after 2827 Autumn; the Deputy's age and the crew's
-  are fixed by it.
+- ~~**The year:** any time after 2827 Autumn~~ — **ruled 4 September 2026:
+  "2828 or later."** Working year **2828**, the season after *Docked Twice*,
+  since nothing in the record asks for later and the Deputy's age and the
+  crew's hang off it; a later year needs only a reason. The `timestamp` is
+  free text and can carry a season of 2828 once the case wants one.
 
 ## What happens when these are ruled
 
