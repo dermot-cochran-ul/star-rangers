@@ -92,7 +92,18 @@ function contrast(a, b) {
   return (Math.max(l1, l2) + 0.05) / (Math.min(l1, l2) + 0.05);
 }
 
-function paletteOf(css) {
+function paletteOf(raw) {
+  // Line endings normalised on the way in, for the same reason and in the
+  // same way as generate-themes.js. This repo has no .gitattributes, so a
+  // Windows checkout under core.autocrlf=true hands us main.css as CRLF,
+  // while the theme files - written by generate-themes.js with "\n" - are LF.
+  // The status-badge pattern below needs a bare "\n" after the brace, so on
+  // 2026-09-04 the local run failed the default palette with "missing
+  // --status-active" for a rule plainly present in main.css, while CI on
+  // Linux, running the same two commands on the same commit, was green. A
+  // check that fails only on the machine where main.css is edited is a check
+  // people learn to ignore. test/check-contrast.test.js pins this.
+  const css = raw.replace(/\r\n/g, "\n");
   const root = css.match(/:root \{[\s\S]*?\n\}/);
   if (!root) return null;
   const palette = {};
@@ -104,52 +115,62 @@ function paletteOf(css) {
   return palette;
 }
 
-const files = fs
-  .readdirSync(CSS_DIR)
-  .filter((f) => f.endsWith(".css") && !SKIP_FILES.has(f))
-  .sort((a, b) => (a === "main.css" ? -1 : b === "main.css" ? 1 : a.localeCompare(b)));
+function main() {
+  const files = fs
+    .readdirSync(CSS_DIR)
+    .filter((f) => f.endsWith(".css") && !SKIP_FILES.has(f))
+    .sort((a, b) => (a === "main.css" ? -1 : b === "main.css" ? 1 : a.localeCompare(b)));
 
-let failures = 0;
-let exempted = 0;
+  let failures = 0;
+  let exempted = 0;
 
-for (const file of files) {
-  const name = file === "main.css" ? "default" : file.replace(/^theme-|\.css$/g, "");
-  const palette = paletteOf(fs.readFileSync(path.join(CSS_DIR, file), "utf8"));
-  if (!palette) {
-    console.error(`FAIL ${file}: no :root block - not a palette?`);
-    failures++;
-    continue;
-  }
-
-  const checks = [...PAIRS, ["status badge", "--status-active", "--color-surface-2"]];
-  const bad = [];
-  for (const [label, fg, bg] of checks) {
-    if (!palette[fg] || !palette[bg]) {
-      bad.push(`${label}: missing ${!palette[fg] ? fg : bg}`);
+  for (const file of files) {
+    const name = file === "main.css" ? "default" : file.replace(/^theme-|\.css$/g, "");
+    const palette = paletteOf(fs.readFileSync(path.join(CSS_DIR, file), "utf8"));
+    if (!palette) {
+      console.error(`FAIL ${file}: no :root block - not a palette?`);
+      failures++;
       continue;
     }
-    const ratio = contrast(palette[fg], palette[bg]);
-    if (ratio < FLOOR) {
-      bad.push(`${label}: ${palette[fg]} on ${palette[bg]} = ${ratio.toFixed(2)}:1 (floor ${FLOOR})`);
+
+    const checks = [...PAIRS, ["status badge", "--status-active", "--color-surface-2"]];
+    const bad = [];
+    for (const [label, fg, bg] of checks) {
+      if (!palette[fg] || !palette[bg]) {
+        bad.push(`${label}: missing ${!palette[fg] ? fg : bg}`);
+        continue;
+      }
+      const ratio = contrast(palette[fg], palette[bg]);
+      if (ratio < FLOOR) {
+        bad.push(`${label}: ${palette[fg]} on ${palette[bg]} = ${ratio.toFixed(2)}:1 (floor ${FLOOR})`);
+      }
     }
+
+    if (!bad.length) {
+      console.log(`ok   ${name}`);
+      continue;
+    }
+    if (EXEMPT[name]) {
+      console.log(`skip ${name}: ${bad.length} below floor - exempt (${EXEMPT[name]})`);
+      exempted++;
+      continue;
+    }
+    console.error(`FAIL ${name}`);
+    for (const line of bad) console.error(`       ${line}`);
+    failures += bad.length;
   }
 
-  if (!bad.length) {
-    console.log(`ok   ${name}`);
-    continue;
-  }
-  if (EXEMPT[name]) {
-    console.log(`skip ${name}: ${bad.length} below floor - exempt (${EXEMPT[name]})`);
-    exempted++;
-    continue;
-  }
-  console.error(`FAIL ${name}`);
-  for (const line of bad) console.error(`       ${line}`);
-  failures += bad.length;
+  console.log(
+    `\n${files.length} palettes checked, ${failures} failure(s), ${exempted} exempt.` +
+      (failures ? "\nPalettes live in scripts/generate-themes.js; re-run `npm run generate-themes` after editing one." : "")
+  );
+  process.exit(failures ? 1 : 0);
 }
 
-console.log(
-  `\n${files.length} palettes checked, ${failures} failure(s), ${exempted} exempt.` +
-    (failures ? "\nPalettes live in scripts/generate-themes.js; re-run `npm run generate-themes` after editing one." : "")
-);
-process.exit(failures ? 1 : 0);
+// Exported for test/check-contrast.test.js; the check itself only runs when
+// invoked directly, so requiring this file never exits the process.
+module.exports = { paletteOf, contrast, PAIRS, FLOOR };
+
+if (require.main === module) {
+  main();
+}
