@@ -62,7 +62,17 @@ commentsCategory: characters
     <h2 class="character-gallery__title">Gallery</h2>
     <div class="character-gallery__grid">
       {% for item in gallery %}
+      {# An item may carry a `caption` (e.g. "Season 5 — Line Captain"), added
+         2026-09-05 when a principal character's page gained one portrait per
+         season she holds rank in. Uncaptioned items render exactly as before. #}
+      {% if item.caption %}
+      <figure class="character-gallery__figure">
+        <img class="character-gallery__item" src="/star-rangers/images/characters/{{ id }}/{{ item.image }}" alt="{{ item.image_alt | default(title) }}" loading="lazy" />
+        <figcaption class="character-gallery__caption">{{ item.caption }}</figcaption>
+      </figure>
+      {% else %}
       <img class="character-gallery__item" src="/star-rangers/images/characters/{{ id }}/{{ item.image }}" alt="{{ item.image_alt | default(title) }}" loading="lazy" />
+      {% endif %}
       {% endfor %}
     </div>
   </section>

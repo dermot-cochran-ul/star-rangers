@@ -839,3 +839,35 @@ Prompt of record for run 2, with `src/images/characters/tissadelle-shepherd.jpg`
 sent as the one reference image:
 
 > Documentary photograph, available light, candid, one person only in frame. A woman in her early thirties with long red hair tied back for work and blue-green eyes, the same face as the reference image, standing in a plain working compartment of a space habitat eight centuries from now, mid-task with her attention on a sealed instrument housing off to one side of the frame, not posing. Upright, self-possessed bearing; alert and attentive expression rather than blank or steely. She wears the standard field uniform of an interstellar rescue and survey service: a modular matte shell in dark slate-grey over a close-fitting thermal liner, sealed seams, a plain stand collar, utilitarian and unornamented, sized to her rather than tailored. The chest carries exactly three things and nothing else: one small square hard-edged metal tab, plain matte finish, seated proud of the chest, engraved only with three thin concentric circles like a target with no centre dot; beside it one small plain fabric patch that is a single flat geometric shape with nothing drawn on it; and below them a single short row of small dull-coloured service ribbons. Absolutely no chevrons, no stripes, no wings, no stars, no eagles, no arrowheads, no crests, no emblems, no badges of any other kind, no name tape, no name badge, no printed words, no letters and no numerals anywhere on her clothing. No braid, no epaulettes, no belts, no buckles, no piping, no cape, no armour plates, no flags, no zip pulls on show. Nothing on the uniform glows. The compartment is quiet and clean: flat matte wall panels, sealed plain housings with flat fronts and honest seams, at most one small unlit indicator on any of them; soft diffuse light from concealed recessed sources, no lamp, tube or light fitting visible. Unglamorous lighting; visible skin texture; no beauty retouching, no styled hair, no makeup emphasis. Nothing in the image invites the viewer; she is at work and has been for hours. Muted realistic palette. This is not a present-day space station: no screens, monitors, displays, tablets, laptops, keyboards, cables, hoses, racks, dials, gauges, meters, knobs, toggle switches, tube screens or filing cabinets anywhere in frame, and no other people. No readable text, numerals, signage, insignia lettering or written characters of any script anywhere in frame. Use the reference image only for her face, hair colour and eye colour; do not copy its clothing, insignia, setting or lighting. Negative: chevron, stripes, wings, star, eagle, crest, emblem, arrowhead, badge, glowing insignia, name tape, belt, buckle, piping, cape, armour plate, epaulette, braid, tailored jacket, coveralls, boiler suit, zip, skirt, second person, gaze to camera, beauty lighting, screen, monitor, cable, text, lettering, watermark. 16:9 landscape.
+
+### tissadelle — Season 1 cadet frame, and the gallery (later the same evening)
+
+Dermot's direction on being told the uniform frame was reference art only:
+*Tissadelle can have two or more portraits for each season* — and, asked for
+a shape, *Tissadelle is one of the principal major characters*. So not a
+swap: an addition. `story-bible/intake-2026-09-05.md`, last section.
+
+- **Tool:** the same one-off script as the run above, the published portrait
+  as the one reference, two variants a run, 16:9, 2K.
+- **Prompt of record:** the run-2 prompt above with the prompt-sheet 2.7
+  *Season 1 variant* applied (single plain horizontal bar with a narrow
+  slate-blue insert; early twenties; *her first posting*), then for run 2 the
+  ribbon row removed (*nothing below them, no ribbons and no decorations of
+  any kind, because she is newly qualified*) and *a plain wall beside her with
+  nothing mounted on it* added. Both variants of both runs kept in
+  `image-out/characters-tissadelle-shepherd-uniform/round3-s1/` (run 1) and
+  the folder root (run 2), prompts beside them.
+
+**Run 1:** variant 1 a double bar, labelled panels and a screen-like window;
+variant 2 the single bar right, but a ribbon row a cadet would not have and
+an indicator panel. **Run 2:** variant 1 a winged chevron patch, rejected;
+**variant 2 clean** — single bar with the insert, plain diamond patch, stand
+collar, nothing else on the chest, a sealed housing beside her.
+
+**Filed** with `import-image.ps1 -MaxEdge 1200` into
+`src/images/characters/tissadelle/` as `season-1-cadet.jpg` (run 2 variant 2)
+and `season-5-line-captain.jpg` (the uniform run's round 2 variant 2, the same
+image as the reference-art copy), and listed under `gallery:` on her page
+with season captions. `character.njk` gained an optional `caption` per
+gallery item, rendered as a figure at 16:9; uncaptioned galleries (Aldera)
+render exactly as before. The header portrait is unchanged.

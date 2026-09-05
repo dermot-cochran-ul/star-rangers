@@ -1591,6 +1591,20 @@ a:focus {
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   gap: var(--spacing-md);
 }
+.character-gallery__figure {
+  margin: 0;
+}
+.character-gallery__figure .character-gallery__item {
+  /* A captioned item is a portrait, not a field snapshot: keep the 16:9
+     frame the portraits are filed at rather than cropping it square. */
+  aspect-ratio: 16 / 9;
+}
+.character-gallery__caption {
+  margin-top: var(--spacing-xs);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  text-align: center;
+}
 .character-gallery__item {
   display: block;
   width: 100%;
