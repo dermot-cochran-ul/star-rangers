@@ -7,6 +7,8 @@ author: "Aoibheann Ní Mheara, Keeper of the Rolls, Tír na nÓg — minuted rep
 institution: "Registry of Rolls and Holdings, Tír na nÓg — Celtic Union of Planets"
 location: "Diplomatic exchange series; filed as received, beside the Union charter materials"
 tags: [celtic-union, tir-na-nog, titles, governance, registry, diaspora, official-documents]
+image: "the-courtesy-that-was-withdrawn.jpg"
+image_alt: "Designed cover for The Courtesy That Was Withdrawn: pale serif title over faint ruled lines on a dark navy background, headed OFFICIAL DOCUMENTS, with a FILED AS RECEIVED stamp at the top right and the Registry of Rolls and Holdings, Tír na nÓg, named beneath the subtitle."
 description: "The Keeper of the Rolls' standing reply to the petition for courtesy recognition of ancestral titles — declined, as it is declined every tenure, on the strength of one piece of history the founders carried with the constitution: the old republic tried courtesy once, and what it certified turned out to be written backwards."
 ---
 
