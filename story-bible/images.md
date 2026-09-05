@@ -3256,6 +3256,41 @@ question:
   load-bearing are all open, and per the standing rule the epistemology may
   be explained but the fact may not be invented.
 
+### Intake 2026-09-05 — the shadow's two costumes, parked
+
+Dermot supplied two generated stills and a 25-second clip (Grok; no prompt
+kept) with the direction in `intake-2026-09-05.md` — a shadow wearing
+Tissadelle's appearance at the edge of Tobble's universe. Parked, nothing
+ships: `story-bible/reference-art/tissadelle-shadow-1-2026-09-05.jpg`,
+`tissadelle-shadow-2-2026-09-05.jpg` (1152×1728), and the clip as a
+five-frame strip, `tissadelle-shadow-video-frames-2026-09-05.jpg` — the
+14 MB source file was **not** committed, on the ground that reference
+material does not need to ride into every production clone; Dermot holds
+the original.
+
+**What they show:** the stills — a red-haired woman, hair worn long and
+loose and dressed with metal, in knotwork and jewellery and a dress cut to
+be looked at, against a glowing Celtic knot and circuitry. The clip — the
+same woman in a navy high-collared coat with gold stars and leaf-work on the
+cloth, cut short over bare legs and boots, walking a candlelit chamber for
+the camera.
+
+**How the draft reads them:** as the *shadow's* costumes and not as hers.
+The character page has her always formally dressed and never dressed to be
+looked at; the hair on her portrait is tied back; and *Reading Rank at a
+Glance* (4 September) puts rank on a plain tab and never on the garment. So
+each image is a tell — surface got right by something that cannot tell what
+the surface is for — and `scene-draft-youre-up-early.md` uses them that way
+without describing either garment beyond the finding.
+
+**Why parked rather than filed:** they depict a thing whose nature is
+undecided (three shapes in the intake); the tone rule and the no-sexualised-
+content rule make a published image of the shadow not obviously yes; and
+the scene they belong to sits behind an unpublished terminus. If one ever
+ships, the honest shape is the same as the headmate's — an in-world
+artist's impression, prospective only — and it would need a clean re-make
+at size, since neither still is the portrait floor and the clip is 768 px.
+
 ---
 
 ### 7. Codex art — in-world artists' impressions

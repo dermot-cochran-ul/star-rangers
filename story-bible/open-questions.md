@@ -1488,3 +1488,48 @@ Dermot asked what a Deputy's rank insignia is. Canon fixed only a plain
 magnetically seated tab keyed to track; the uniforms note's bar count and
 track colours were proposals. Three shapes put; he took the leans — leave
 the portrait's tab, adopt the system on the page.
+
+## The shadow at the edge — `intake-2026-09-05.md`
+
+Dermot, 5 September 2026: a lingering shadow tries to invade Tobble's
+noögenic universe by assuming Tissadelle's appearance and form, but behaves
+in a way the real Tissadelle never would have; two stills and a clip
+attached. Drafted as `story-bible/scene-draft-youre-up-early.md` (*You're
+Up Early*), two scenes, Tobble and Wender POVs, slot unfixed — it sits
+after the terminus and cannot publish before it. Open, put as shapes in the
+intake: **what the shadow is** — a nonviable shadow-seed of the Dock Seven
+compression (recommended; the record's own term, and the draft's
+presumptive filing), an Unfounded pattern that found the founding, or the
+unpreserved remainder arriving in her shape — the draft is written so any
+of the three is true; **whether it ever leaves** — dims out, or stays at the
+edge as a marked absence; **whether the Wender coda stays** (recommended:
+keep); and **the slot**, which waits on the terminus's. The attachments
+are parked in `reference-art/` and nothing ships; whether any image of the
+shadow is ever published is his, and the tone rule makes it not obviously
+yes.
+
+**Second and third directions, same day.** *Noögenic universes are more
+vulnerable in their formation stages, almost resembling a medieval fantasy
+world* — realized as a *Formation* section in
+`src/glossary/noogenic-protouniverse.md` (roles before law; a claim of
+title as a structural act; parent jurisdiction and the founder as what
+keeps it from being fatal); the two readings built on — structure from the
+seed's interior, the resemblance inherited and temporary — are his to
+object to before it merges. *It fails partly because the shadow claims to
+be Empress, which has a different connotation in Tissadelle's private inner
+world* — ~~the draft revised on the empty-seat reading; three shapes
+put~~ — **ruled the same day, fourth direction: "Titles were inverted in
+Tissadelle's secret world."** The draft rewritten: the grandest names on
+the smallest jobs, the top office too plain to want, *Empress* the bottom
+rung; the shadow's claim is a claim to be the least thing there, and the
+founder answers in that grammar. ~~Three readings flagged in the intake~~
+— **all three confirmed by Dermot, 5 September 2026** ("All three readings
+are confirmed"): a full reversal of the ladder rather than one swapped
+pair; the top office's name left as a marked absence; the reason for the
+inversion as Tobble's unfiled suspicion. ~~Still open: whether the meaning
+is stated on the page or only marked~~ — **the scene approved by Dermot,
+5 September 2026** ("The scene is approved"), both scenes as drafted, so
+the meaning is stated on the page, the Wender coda stays, and the shadow
+is still at the edge at the end; what the shadow is stays open (the draft
+holds all three shapes). Still open: the slot, which waits on the
+terminus's, and the members' names and count.

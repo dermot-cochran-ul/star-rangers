@@ -1085,3 +1085,87 @@ comment — and answers the system's own oldest habit: Tobble's first words
 in the preserved interior were *"Good morning"*, said to nobody who could
 hear it yet. Thresholds get greetings in this system. Build the scene to
 earn this line; do not build the line.
+
+---
+
+## The shadow at the edge (Dermot, 5 September 2026 — direction, drafted same day)
+
+Direction verbatim and canon check in `intake-2026-09-05.md`: *a lingering
+shadow tries to invade Tobble's noögenic universe by assuming Tissadelle's
+appearance and form, but behaves in a way the real Tissadelle never would
+have.* Drafted the same session as `scene-draft-youre-up-early.md` (Tobble
+and Wender POVs, unpublished, slot unfixed — it sits after the terminus and
+cannot publish before it).
+
+What it gives this arc, and what it does not touch:
+
+- **The record already had the shadow.** The Noögenic Seeding System's third
+  operational constraint — *failed compression events may produce nonviable
+  shadow-seeds* — has been on the page since the system was written, and
+  Dock Seven was the one compression in the corpus that produced something
+  viable only in part. The draft files the thing as consistent with a
+  shadow-seed of that event and claims no more; the three readings of what
+  it is (shadow-seed; an Unfounded pattern that found the founding; the
+  unpreserved remainder arriving in her shape) stay open in the intake.
+- **It is the museum-or-ghost, arriving from outside.** Tobble declined to
+  make a tulpa of the lost world because it would be a person made to be a
+  monument. What comes to the edge is what that refusal foresaw, and it is
+  not a person at all — which is the point the draft lets the reader find:
+  the counterfeit of a lost thing is still a counterfeit, and the book was
+  the honest choice for the reason it was made.
+- **The counter is the arc's own, one last time.** Shown-not-healed against
+  the false homecoming (*I came home*); the debt named in full so nothing
+  can feed on it (he says he wanted her back, plainly, as the discharge);
+  enough is enough; and, on the station side, the file staying closed
+  because the woman never once asked anyone for anything. The ethic that
+  nobody decides what her story meant is tested against something claiming
+  to be her and telling him what it meant — *you did all this for me* — and
+  holds.
+- **Her page supplies every tell.** The draft's shadow speaks the negative
+  of the character page's declining, line by line, and the intake lists the
+  pairs. The costume tells rest on two rulings: the dress is under a gloss
+  (27 August, propriety), and rank never goes on the garment (4 September,
+  *Reading Rank at a Glance*).
+- **The members.** The other surviving headmates are present and marked,
+  not named — they kept indoors, having read the edge before he had — so
+  the names-and-count question stays as open as the terminus left it. The
+  made Órla does not come out for the shadow; the draft notes beside it
+  that memory is not a witness.
+- **Guardrails carried over.** Not a fight: nothing to fight, nobody home.
+  Not the joke: *there's my cat* is a tell, not a gag, and the deadpan
+  holds. Tone: the record does not describe either costume beyond the
+  finding, and the thing at the edge is unsettling by being fluent and off
+  by one, never by menace.
+
+**The scene was approved by Dermot the same day** ("The scene is
+approved"), both scenes on the inverted-titles rewrite, so the coda stays
+and the *Empress* meaning is stated on the page. Open, in
+`open-questions.md`: what the shadow is (the draft holds all three
+shapes); whether it ever leaves; and the slot, which waits on the
+terminus.
+
+### The formation stage, and the Empress (Dermot, 5 September 2026 — second and third directions, same intake)
+
+Verbatim and canon checks in `intake-2026-09-05.md`. The first is general
+and went to the glossary (`noogenic-protouniverse.md`, *Formation*):
+protouniverses are most vulnerable while forming, and the forming stage
+resembles a medieval fantasy world because a universe built from an
+interior is ordered by roles before law — a court before a code — and a
+title there is a claim to a seat. For this arc it is a rhyme with a cost:
+the questing layer was lost or downgraded, and the young ground past the
+holding looks like it anyway, in shape and not in magic. The draft has
+Tobble file the resemblance under structure and find it hard to look at.
+
+The second is hers: the shadow claims to be *Empress*, and the word means
+something else in her private inner world. ~~Drafted on the empty-seat
+reading; two other shapes in the intake.~~ **Ruled the same day (fourth
+direction): titles were inverted in her secret world.** The grandest names
+went to the smallest jobs and the top office had the plainest name, so
+*Empress* was the bottom rung — the errand rank, held by everyone once on
+arrival and wanted by nobody. The shadow claims the top of every court the
+young ground resembles and the bottom of the one it was made from, in one
+word; Tobble answers in the world's own grammar — *then you would be the
+least of us* — and the ground stops leaning. The top office's name is a
+marked absence; why she ran the titles backwards is his suspicion,
+unfiled. The beat is added to the draft's tells, not substituted for them:
+"partly" is honoured.
