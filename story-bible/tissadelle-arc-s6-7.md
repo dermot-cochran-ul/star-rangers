@@ -1153,10 +1153,15 @@ holding looks like it anyway, in shape and not in magic. The draft has
 Tobble file the resemblance under structure and find it hard to look at.
 
 The second is hers: the shadow claims to be *Empress*, and the word means
-something else in her private inner world. Drafted on the empty-seat
-reading — the party answered to nobody, and the throne was kept empty by a
-rule without a reason, the Hollow's rule inside — so the claim proves the
-claimant was never inside, and a founder can decline it on the world's own
-terms. Two other shapes (the maker; the adversary) are in the intake and
-open. The beat is added to the draft's tells, not substituted for them:
+something else in her private inner world. ~~Drafted on the empty-seat
+reading; two other shapes in the intake.~~ **Ruled the same day (fourth
+direction): titles were inverted in her secret world.** The grandest names
+went to the smallest jobs and the top office had the plainest name, so
+*Empress* was the bottom rung — the errand rank, held by everyone once on
+arrival and wanted by nobody. The shadow claims the top of every court the
+young ground resembles and the bottom of the one it was made from, in one
+word; Tobble answers in the world's own grammar — *then you would be the
+least of us* — and the ground stops leaning. The top office's name is a
+marked absence; why she ran the titles backwards is his suspicion,
+unfiled. The beat is added to the draft's tells, not substituted for them:
 "partly" is honoured.

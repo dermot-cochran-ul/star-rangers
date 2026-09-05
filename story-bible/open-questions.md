@@ -1517,10 +1517,13 @@ keeps it from being fatal); the two readings built on — structure from the
 seed's interior, the resemblance inherited and temporary — are his to
 object to before it merges. *It fails partly because the shadow claims to
 be Empress, which has a different connotation in Tissadelle's private inner
-world* — the draft revised on the **empty-seat** reading (the throne at
-the top of her world kept empty by a rule without a reason; claiming it
-proves the claimant was never inside). Open, put as shapes: **what the
-word meant** — the empty seat (recommended; drafted), the maker (the
-tarot sense: generation, which a nonviable seed cannot do), or the
-adversary of the questing layer; and **whether the meaning is stated on
-the page** or only marked.
+world* — ~~the draft revised on the empty-seat reading; three shapes
+put~~ — **ruled the same day, fourth direction: "Titles were inverted in
+Tissadelle's secret world."** The draft rewritten: the grandest names on
+the smallest jobs, the top office too plain to want, *Empress* the bottom
+rung; the shadow's claim is a claim to be the least thing there, and the
+founder answers in that grammar. Three readings flagged in the intake:
+a full reversal of the ladder rather than one swapped pair; the top
+office's name left as a marked absence; the reason for the inversion as
+Tobble's unfiled suspicion. Still open: **whether the meaning is stated
+on the page** or only marked.

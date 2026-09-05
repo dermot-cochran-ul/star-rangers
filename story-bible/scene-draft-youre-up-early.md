@@ -61,15 +61,18 @@ on the garment) for why the second costume is wrong.
   law, a court before a code, and looks like the lost questing layer in
   shape and not in magic. Tobble files the resemblance under structure,
   not grief.
-- **It fails partly on the word *Empress*** (third direction): in a world
+- **It fails partly on the word *Empress*** (third direction, ruled by the
+  fourth: *titles were inverted in Tissadelle's secret world*): in a world
   made of roles a title is a claim to a seat, and the young ground leans
-  toward the claim; but in the world Tissadelle kept, *Empress* was the
-  name of the seat nobody sat in — the party answered to nobody, and the
-  throne was kept empty by a rule without a reason. Claiming the seat
-  proves the claimant was never inside. Tobble declines as founder — *the
-  seat is empty; that is what the seat is for* — and the ground stops
-  leaning. This realizes one of three shapes for what the word meant; the
-  others are in the intake.
+  toward the claim; but in the world Tissadelle kept the titles ran the
+  wrong way — the grandest words on the smallest jobs, the top office
+  called something plain the record declines to repeat — so *Empress* was
+  the bottom rung, the errand rank, the word for whoever had just arrived
+  and held nothing. The shadow claims the top of every court it resembles
+  and the bottom of the one it was made from in one word. Tobble answers
+  in the world's own grammar — *then you would be the least of us* — and
+  the ground stops leaning. What the top office was called stays a marked
+  absence; why she inverted them is his suspicion, unfiled.
 - The made Órla does not come out to it. Memory is not a witness; he notes
   it anyway.
 - The other surviving headmates are present and marked, not named: they
@@ -228,32 +231,42 @@ Except that it had not been built to resemble every court. It had been
 built from one, and in that one the word meant something else.
 
 In the world she kept — the one with the party and the quests and the
-named places, the one under the glosses now — there had been an Empress.
-There had always been an Empress. There had never been anyone in the
-seat. That was the rule: the party answered to nobody, took its quests
-from nobody, held its roles the way it held them because it had chosen
-to, and the throne at the top of all of it was kept empty, on purpose,
-without a reason anyone had ever written down. It was the oldest rule in
-her world and the one the party had kept the way the holding kept the
-Hollow. *Empress* was not a rank in there. It was the name of the seat
-nobody sat in. It was the word for the fact that nobody commanded them.
+named places, the one under the glosses now — the titles ran the wrong
+way. He had never asked why and she had never said. The grandest words
+went to the smallest jobs: the one who fetched, the one who carried, the
+one who held the horses and nothing else, was styled with everything the
+court had, and the higher a role stood the plainer its name got, until
+the office at the top of all of it was called something so ordinary that
+the record declines to repeat it, because said aloud out here it would
+sound like a joke and in there it never once was. *Empress* was the
+bottom. It was the first rung, the errand rank, the word for whoever had
+just arrived and held nothing yet. Every one of them had been Empress
+once. Nobody had wanted to stay one.
 
 So the thing at the edge, reaching for the one title it had read off the
-surface of a lost world, had claimed to be the seat's occupant, in the
-only world where the seat's whole meaning was that it had none — and had
+surface of a lost world, had announced itself — in the only grammar that
+world had ever spoken, to the only person left who spoke it — as the
+least thing there. It had claimed the top of every court it resembled
+and the bottom of the one it was made from, in a single word, and had
 thereby said, as plainly as if it had filed it, that it had never once
 been inside.
 
-*The seat is empty,* Tobble said. *It has always been empty. That is what
-the seat is for.*
+*Then you would be the least of us,* Tobble said. *In there, that is
+what it means. You would fetch and carry and hold nothing. Nobody who
+had been inside would ask for it.*
 
-The ground stopped leaning. He had wondered whether it would; he had it on
-the record now that it did — that a claim the founder declines has nothing
-to seat itself in, and that a rule kept without a reason holds in a place
-that has no law yet precisely *because* it asks the place for nothing.
-He found he had, at last, a reason for the rule. He declined to file it.
-A rule with a reason is a rule that can be argued with, and she had never
-once let him argue with that one.
+The ground stopped leaning. He had wondered whether it would; he had it
+on the record now that it did — that a claim the founder answers in the
+world's own grammar has nothing to seat itself in, because the young
+ground, listening, had heard a thing ask for the top and been told, by
+the one voice it was built to acknowledge, what the word was for. He
+suspected, for the first time in thirty-eight years, why she had run the
+titles backwards: a party that fields whoever fits the encounter cannot
+afford a seat worth fighting over, so she had put all the gold on the
+rung nobody minded holding and left the top too plain to want. He
+declined to file the suspicion. She had kept the rule without a reason,
+and a rule with a reason is a rule that can be argued with, and she had
+never once let him argue with that one.
 
 *You did all this for me.* She had never once in her life told anyone what
 a thing they had done meant. Not a Ranger, not a room, not him. She had
@@ -302,7 +315,8 @@ for anyone who had to carry it. She did not ask what was under a gloss.
 She tied her hair back. She did the arithmetic twice. She said *good
 morning* to a threshold and *happy new universe* to a door, and she had
 never once, on either side of an edge, asked anybody to let her in. And
-the seat at the top of her world was empty, and she had kept it so.
+in her world the grand names went to the small jobs, and she had kept
+it so.
 
 And then he said what stood at the edge was not her, and that he had it on
 record, and that enough was enough.
