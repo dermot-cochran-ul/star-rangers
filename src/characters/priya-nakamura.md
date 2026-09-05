@@ -8,6 +8,8 @@ status: Active
 aliases: []
 tags: [human, eden, detective, orbital-habitats-compact, undercover-pets.com]
 description: "One of the three junior detectives on Eden's bureau roster, and the one who does not laugh at a joke she has not checked. Her first experiment of her own was six days of hiding small objects from a rabbit, and it closed as control compromised."
+image: "priya-nakamura.jpg"
+image_alt: "A young Japanese woman in a plain grey work jacket with a small white tab bearing one black stroke at the collar stands writing in a spiral notebook, looking down at the open lid of a lost-property container in front of her, where six clear bags are laid out in a row, each holding one small object and a blank paper slip: a stylus, a clip, a spoon, a reel of tape, a pair of glasses, a rubber stamp. Behind her a records room of the far future, seamless pale panels curving into the ceiling, a recessed line of soft light, and a low sealed unit with no handles."
 ---
 
 Priya Nakamura is one of the three junior detectives on Superintendent [Rasa Oyelaran](/star-rangers/characters/rasa-oyelaran/)'s roster at Eden Space Habitat, all recently posted, all reporting through Detective Senior Sergeant Halvard Osei rather than to Oyelaran directly. The roster note beside the three names says that none has a case worth remembering yet. Nakamura has not had one either. She has had an experiment, which is a different thing, and the bureau keeps no column for it.

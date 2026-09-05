@@ -311,7 +311,7 @@ blue ruled-lines emblem on a dark navy background, with a FILED AS DOCTRINE
 stamp, in the style of the site's other codex title cards."* — correct it to
 what the card actually shows before committing.
 
-### 2.7 `tissadelle-shepherd.jpg` — uniform-correct regeneration (queued 3 September 2026)
+### 2.7 `tissadelle-shepherd.jpg` — uniform-correct regeneration (queued 3 September 2026) — **generated 5 September 2026, filed as reference art; the swap is Dermot's call**
 
 A Tissadelle frame that gets the Ranger uniform right, composed from the
 human-Ranger prompt block in [`uniforms-and-insignia.md`](uniforms-and-insignia.md)
@@ -349,7 +349,7 @@ slate-blue insert" and "early thirties" with "early twenties".
 
 ---
 
-### 2.5 `marisol-achebe.jpg` — portrait (queued 2 September 2026)
+### 2.5 `marisol-achebe.jpg` — portrait (queued 2 September 2026) — **done, filed 5 September 2026**
 
 The junior detective from *The Warm Patch*, and the first bureau frame that
 takes the uniform (one collar stroke, no number). Brief, reasoning and the

@@ -10,7 +10,7 @@ aliases:
 tags: [cat, eden, pet, undercover-pets.com]
 description: "A young grey-and-white cat who, for three weeks in the spring of 2827, was the only cat on Eden's books without being on them — and did all the stealing while the station mascot took the blame."
 image: "zhulik.jpg"
-image_alt: "A designed PORTRAIT PENDING card, not a photograph: the words PORTRAIT PENDING letter-spaced above a short rule, the name Zhulik in a large pale serif, a sub-line giving his role, and a small STAR RANGERS footer, on a dark blue-black gradient inside a hairline border."
+image_alt: "A young grey-and-white cat sits upright on top of a plain two-door cabinet in a bare, softly lit room of seamless pale panels, one forepaw resting on a wooden-handled rubber stamp, looking straight at the viewer. Laid out beside him on the cabinet top are a stylus, a wooden reel of thread, a spoon and a pair of glasses. No collar; nothing on the walls but a single recessed line of warm light near the ceiling."
 ---
 
 Eden Space Habitat's small-livestock register carries two cats. For three weeks in the late spring of 2827 UCSD it carried one, and the second did all the work.
