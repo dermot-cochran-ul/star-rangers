@@ -1488,3 +1488,22 @@ Dermot asked what a Deputy's rank insignia is. Canon fixed only a plain
 magnetically seated tab keyed to track; the uniforms note's bar count and
 track colours were proposals. Three shapes put; he took the leans — leave
 the portrait's tab, adopt the system on the page.
+
+## The shadow at the edge — `intake-2026-09-05.md`
+
+Dermot, 5 September 2026: a lingering shadow tries to invade Tobble's
+noögenic universe by assuming Tissadelle's appearance and form, but behaves
+in a way the real Tissadelle never would have; two stills and a clip
+attached. Drafted as `story-bible/scene-draft-youre-up-early.md` (*You're
+Up Early*), two scenes, Tobble and Wender POVs, slot unfixed — it sits
+after the terminus and cannot publish before it. Open, put as shapes in the
+intake: **what the shadow is** — a nonviable shadow-seed of the Dock Seven
+compression (recommended; the record's own term, and the draft's
+presumptive filing), an Unfounded pattern that found the founding, or the
+unpreserved remainder arriving in her shape — the draft is written so any
+of the three is true; **whether it ever leaves** — dims out, or stays at the
+edge as a marked absence; **whether the Wender coda stays** (recommended:
+keep); and **the slot**, which waits on the terminus's. The attachments
+are parked in `reference-art/` and nothing ships; whether any image of the
+shadow is ever published is his, and the tone rule makes it not obviously
+yes.
