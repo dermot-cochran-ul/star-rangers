@@ -94,6 +94,22 @@ variation.
 **House style for people:** role-appropriate, slightly cinematic, in-world
 setting, professional wardrobe. Not contemporary glamour or lifestyle shoots.
 
+**A principal character may carry a captioned gallery of season portraits**
+(Dermot's direction, 5 September 2026: *Tissadelle can have two or more
+portraits for each season*, grounded the same evening — *Tissadelle is one of
+the principal major characters*; `intake-2026-09-05.md`, last section). An
+**extension** of the one-header-portrait rule, not a change to it: every page
+keeps its single `image:`/`image_alt:` header, and a principal character's
+page may add `gallery:` items with a `caption` naming the season and standing
+(*Season 1 — Cadet*, *Season 5 — Line Captain*), filed under
+`src/images/characters/<id>/` at the portrait size. `character.njk` renders a
+captioned item as a 16:9 figure; an uncaptioned gallery (Aldera's field photos)
+renders as the square grid it always did. Minor pages keep one header portrait.
+Each gallery frame is a generated portrait like any other: registered in
+`image-prompts.md`, alt text written from the file. Tissadelle is the first
+and, so far, the only page with one; the header swap and surfacing season
+portraits on season pages were put as shapes and remain his.
+
 **AIs get portraits like everyone else** (12 August 2026, superseding the older
 rule that they got an abstract emblem or interface instead of a face — that rule
 produced Reeves as *"A laptop displaying a face-recognition hologram"* and the

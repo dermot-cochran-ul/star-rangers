@@ -311,7 +311,7 @@ blue ruled-lines emblem on a dark navy background, with a FILED AS DOCTRINE
 stamp, in the style of the site's other codex title cards."* — correct it to
 what the card actually shows before committing.
 
-### 2.7 `tissadelle-shepherd.jpg` — uniform-correct regeneration (queued 3 September 2026) — **generated 5 September 2026, filed as reference art; the swap is Dermot's call**
+### 2.7 `tissadelle-shepherd.jpg` — uniform-correct regeneration (queued 3 September 2026) — **done 5 September 2026: not a swap but an addition — the Season 5 frame and a Season 1 cadet frame now sit in a captioned gallery on her page, header unchanged**
 
 A Tissadelle frame that gets the Ranger uniform right, composed from the
 human-Ranger prompt block in [`uniforms-and-insignia.md`](uniforms-and-insignia.md)
