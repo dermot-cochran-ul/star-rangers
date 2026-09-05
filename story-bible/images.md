@@ -1343,6 +1343,29 @@ go in its bullet prose, never in the quote.)
   negative: it is the subject's own instrument, not a light fitting.
   > Cinematic portrait of a young person of about twenty-two, androgynous, a novice of a contemplative order, standing in the open stone doorway of a chapter house at dusk, upper body, seen from just inside the threshold. They hold a small lit hand-lamp with a live flame, the picture's only warm light; through the doorway behind them, green hills going dark under a pale evening sky, nothing else out there. Plain undyed novice's working clothes with a belted overtunic, short practical hair, an alert open expression caught mid-thought between staying and going — attentive, earnest, questioning, not sad. Warm lamplight against cool dusk, quiet, serene, hopeful, slightly enigmatic. No readable text, lettering, numerals, signage, labels, branding or written characters of any script anywhere in frame; no screens, monitors, displays or consoles; no electric light fittings or bulbs anywhere, the hand-lamp's flame is the only light source; no candle arrays, no incense, no religious symbols or iconography; no weapons; no glamour styling, no corporate headshot posing. Landscape orientation.
 
+#### Priya Nakamura — added 5 September 2026
+
+- **`priya-nakamura.jpg`** — junior detective, Eden's civil bureau; her first
+  experiment of her own was six days of hiding small objects from a rabbit,
+  closed as *control compromised* (S02E08C01, drafted 5 September; the page
+  has no image and, like Achebe's, waits on this prompt). The pose is the
+  page's own material: the sixth morning in the records room, the lost-property
+  bin open in front of her, six small bagged objects laid out on its lid, each
+  with a plain unmarked slip, her notebook open in one hand — a good
+  detective's face at the moment a hypothesis dies of natural causes, which is
+  nothing, and then a small honest exhale. The station cat is **not** in the
+  frame; she has just set him on the floor, and the joke works better unseen.
+  Takes the uniform per [The Eden Bureau Uniform](../src/lore/eden-bureau-uniform.md):
+  plain grey single-breasted work jacket, a Detective's one short black stroke
+  on a bone-white tab, no number. **Heritage is stated in the prompt on the
+  Oyelaran precedent**: Nakamura is a Japanese surname and the page asserts
+  nothing about her appearance, so the prompt is where this gets decided, and
+  it is Dermot's to change before generating. Age read as mid-twenties, as for
+  Achebe. *Undercover Pets* thread: warm, dry, comic dignity.
+  > Cinematic wide portrait of a young woman of Japanese heritage in her mid-twenties, a junior police detective, standing at a plain steel lost-property bin in the small records room of a space habitat, upper body, the bin's lid open and six small everyday objects laid out on it in clear bags — a stylus, a clip, a spoon, a reel of tape, a pair of reading glasses, a small stamp — each bag with a blank unmarked slip. She holds an open notebook in one hand and is looking down at the objects with the still, level, faintly rueful expression of someone whose hypothesis has just been answered by the room. She wears a plain grey single-breasted work jacket over ordinary clothes, the jacket's only mark a small bone-white tab at the collar bearing a single short black stroke. Plain sealed steel cabinets with flat matte doors behind her, no drawers, no binders, no shelving of files; soft even light from an unseen source. Warm, dry, quietly funny. Grey, bone-white and steel against a low warm glow. No readable text, lettering, numerals, signage, labels, branding or written characters of any script anywhere in frame, including on the slips, the bags, the notebook page or the jacket; no screens, monitors or consoles; no visible lamp, light fitting or bulb; no cat or other animal in frame; no flat studio backdrop, glamour lighting, corporate headshot or posed smile to camera; no weapons. 16:9 landscape.
+  - **The slips and the notebook page stay blank.** Every form on Eden is a
+    lettering invitation; the negative names them one by one.
+
 #### Marisol Achebe — added 2 September 2026
 
 - **`marisol-achebe.jpg`** — junior detective, Eden's civil bureau; her first
