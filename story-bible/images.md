@@ -589,6 +589,8 @@ recorded in that commit — see the qualification added to that rule under
 Conventions. The flag was wrong about the decision and right about the file:
 nothing in `images.md` said so until now.)*
 
+**One added at creation rather than by replacement, 5 September 2026:** `characters/zhulik.jpg`, the PORTRAIT PENDING card behind the new Zhulik page (the second cat in *The Unacceptable Cat*). A cat is a thing a camera can photograph, so under the Conventions above the page takes a frame of Dermot's or a card and never a prompt, and `own-photography.json` holds no cat. Drawn on a Linux session by a Pillow port of `make-placeholder-card.ps1`'s `New-Card` to the same geometry and palette, DejaVu Serif standing in for Georgia, and stamped with `mark-placeholder.js`; the page is in the script's card table so a Windows re-run redraws it in the house font. The real image is a photograph of a young grey-and-white cat, when one of Dermot's frames fits.
+
 **This is the head of the queue.** Every image below was removed and replaced
 with a designed PORTRAIT PENDING / ILLUSTRATION PENDING card, so no page is
 broken and nothing is claiming to be what it is not — but each one now needs a
