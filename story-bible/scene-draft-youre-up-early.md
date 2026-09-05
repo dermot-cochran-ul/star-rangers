@@ -1,8 +1,10 @@
 # Scene draft — You're Up Early
 
-**Status: draft, unpublished, story-bible only.** Not a chapter file, no front
-matter, no `comment_id`. It stays out of `src/` until Dermot decides where —
-and whether — it belongs. Drafted 5 September 2026 at his direction
+**Status: approved by Dermot, 5 September 2026 ("The scene is approved");
+unpublished, story-bible only.** The approval covers the draft as it stands,
+both scenes, on the inverted-titles rewrite. Not a chapter file, no front
+matter, no `comment_id`. It stays out of `src/` until a slot is chosen — and
+it cannot take one before the terminus does. Drafted 5 September 2026 at his direction
 (`intake-2026-09-05.md`): *a lingering shadow tries to invade Tobble's
 noögenic universe by assuming Tissadelle's appearance and form, but behaves
 in a way the real Tissadelle never would have.*
@@ -88,9 +90,14 @@ on the garment) for why the second costume is wrong.
   scope*. The file stays closed.
 
 **What it deliberately does not fix:** what the thing is (the three readings
-in the intake stay open; the draft is written so any of them is true); the
-interval since the founding; the members' names and count; whether the
-thing ever leaves; the season/episode slot.
+in the intake stay open; the draft is written so any of them is true, and
+the approval settles the draft, not the reading); the interval since the
+founding; the members' names and count; whether the thing ever leaves; the
+season/episode slot.
+
+**Settled by the approval, as drafted:** the *Empress* meaning is stated on
+the page in Tobble's block rather than only marked; the Wender coda stays;
+the shadow is still at the edge when the scene ends.
 
 ---
 

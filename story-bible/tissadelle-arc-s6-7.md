@@ -1137,8 +1137,12 @@ What it gives this arc, and what it does not touch:
   finding, and the thing at the edge is unsettling by being fluent and off
   by one, never by menace.
 
-Open, in `open-questions.md`: what the shadow is; whether it ever leaves;
-whether the Wender coda stays; and the slot, which waits on the terminus.
+**The scene was approved by Dermot the same day** ("The scene is
+approved"), both scenes on the inverted-titles rewrite, so the coda stays
+and the *Empress* meaning is stated on the page. Open, in
+`open-questions.md`: what the shadow is (the draft holds all three
+shapes); whether it ever leaves; and the slot, which waits on the
+terminus.
 
 ### The formation stage, and the Empress (Dermot, 5 September 2026 — second and third directions, same intake)
 

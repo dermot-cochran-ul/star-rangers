@@ -1526,6 +1526,10 @@ founder answers in that grammar. ~~Three readings flagged in the intake~~
 — **all three confirmed by Dermot, 5 September 2026** ("All three readings
 are confirmed"): a full reversal of the ladder rather than one swapped
 pair; the top office's name left as a marked absence; the reason for the
-inversion as Tobble's unfiled suspicion. Still open: **whether the meaning
-is stated on the page** or only marked, and the slot, which waits on the
-terminus's.
+inversion as Tobble's unfiled suspicion. ~~Still open: whether the meaning
+is stated on the page or only marked~~ — **the scene approved by Dermot,
+5 September 2026** ("The scene is approved"), both scenes as drafted, so
+the meaning is stated on the page, the Wender coda stays, and the shadow
+is still at the edge at the end; what the shadow is stays open (the draft
+holds all three shapes). Still open: the slot, which waits on the
+terminus's, and the members' names and count.
