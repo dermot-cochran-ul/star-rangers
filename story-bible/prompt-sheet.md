@@ -256,7 +256,7 @@ The track and its card both pass. What it lacks is an answer to *what is this* �
 site furniture or an in-universe recording with a named author. Nothing to
 generate; a decision to make.
 
-### 2.4 `suvra-kel.jpg` — portrait
+### 2.4 `suvra-kel.jpg` — portrait — **done, filed 3 September 2026**
 
 The first Ilveth portrait. The brief and the proposed alt text live in
 `images.md` (Non-humanoid species section). **Ready to paste — the size axis
@@ -269,7 +269,7 @@ the character-portrait convention.
 armour, clothing, equipment, glow, bioluminescence, steam, mist, text,
 lettering, watermark.
 
-### 2.5 `the-courtesy-that-was-withdrawn.jpg` — codex title card
+### 2.5 `the-courtesy-that-was-withdrawn.jpg` — codex title card — **done 5 September 2026**
 
 For [The Courtesy That Was Withdrawn](../src/codex/the-courtesy-that-was-withdrawn.md)
 (merged 2026-08-25, shipped without a card). **No generator step** — codex
@@ -290,7 +290,7 @@ blue ruled-lines emblem in a ringed seal, on a dark background, in the style
 of the site's other codex title cards."* — correct it to what the card
 actually shows before committing.
 
-### 2.6 `neither-author-nor-warden.jpg` — codex title card
+### 2.6 `neither-author-nor-warden.jpg` — codex title card — **done 5 September 2026**
 
 For [Neither Author Nor Warden](../src/codex/neither-author-nor-warden.md)
 (merged 2026-08-25, shipped without a card) — Kade's companion working paper
@@ -361,7 +361,7 @@ before generating.
 
 Extra negative: hatch, door, handle, seam in the wall, plainmark bands, clipboard, slate, notebook, pen, writing, cage, hutch, carrier with lettering.
 
-## Part 3 — The four hero-cast portraits (queued 30 August 2026)
+## Part 3 — The four hero-cast portraits (queued 30 August 2026) — **all four done, filed 3 September 2026 (#630, #631)**
 
 The full-images-only sweep stamped four title cards; these are their portrait
 briefs, reasoning in `images.md` § "The five stamped on 30 August 2026"

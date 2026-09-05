@@ -7,6 +7,8 @@ author: "Theorist Emrys Kade, Doctrinal Division"
 institution: "Survey Archive — Doctrinal Division"
 location: "Survey Archive, Threshold Station — doctrinal working-paper series; filed 2823 UCSD"
 tags: [cosmology, formtype, archetype, suffering, cascade, kieme, upper-structure, archive-doctrine]
+image: "neither-author-nor-warden.jpg"
+image_alt: "Designed cover for Neither Author Nor Warden: pale serif title over faint ruled lines on a dark navy background, headed DOCTRINAL RECORD, with a FILED AS DOCTRINE stamp at the top right and the Survey Archive's Doctrinal Division named beneath the subtitle."
 description: "A Survey Archive doctrinal working paper answering the petition the Doctrinal Division receives more often than any other: why the template that permits biological life neither prevents pain and suffering nor establishes them — and why the tier that could not have prevented suffering is not the tier the record credits with answering it."
 ---
 
