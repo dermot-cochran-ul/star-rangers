@@ -1522,8 +1522,10 @@ put~~ — **ruled the same day, fourth direction: "Titles were inverted in
 Tissadelle's secret world."** The draft rewritten: the grandest names on
 the smallest jobs, the top office too plain to want, *Empress* the bottom
 rung; the shadow's claim is a claim to be the least thing there, and the
-founder answers in that grammar. Three readings flagged in the intake:
-a full reversal of the ladder rather than one swapped pair; the top
-office's name left as a marked absence; the reason for the inversion as
-Tobble's unfiled suspicion. Still open: **whether the meaning is stated
-on the page** or only marked.
+founder answers in that grammar. ~~Three readings flagged in the intake~~
+— **all three confirmed by Dermot, 5 September 2026** ("All three readings
+are confirmed"): a full reversal of the ladder rather than one swapped
+pair; the top office's name left as a marked absence; the reason for the
+inversion as Tobble's unfiled suspicion. Still open: **whether the meaning
+is stated on the page** or only marked, and the slot, which waits on the
+terminus's.
