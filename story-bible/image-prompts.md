@@ -762,3 +762,80 @@ of one kind on all four, no torso, no arms, no upright posture.
   until he agreed to adopt them the same evening, and the portrait's bare
   grey tab was left as it is — what canon specifies, at a scale where three
   bars would be a few pixels. Zoe Smith's portrait carries the same bare tab.
+
+## 2026-09-05 — the two junior detectives, Zhulik, and Tissadelle in the right uniform
+
+Four runs on one evening, at Dermot's ask (*image generation runs needed for
+star-rangers repo*), all picked by him on the stated lean (*Approved*, once
+for the first three pairs and once for the re-rolled Priya and Zhulik).
+
+- **Tool:** `image-prompts.js --generate --only <key>`, Gemini
+  (`gemini-3.1-flash-image`), two variants a run, 16:9, 2K; the three
+  portraits filed with `image-file.ps1` (`import-image.ps1 -MaxEdge 1200`,
+  1200×670), Zhulik's over his PORTRAIT PENDING card. Tissadelle's run was a
+  one-off script with the same Interactions call, because her file already
+  exists and the pipeline reads existence as done.
+- **Prompts of record:** `images.md` — *Marisol Achebe — added 2 September
+  2026* (unchanged), *Priya Nakamura — added 5 September 2026* and the
+  `zhulik.jpg` entry under *Undercover Pets* (both revised in place, below).
+  Tissadelle's prompt is not in `images.md`; it is recorded in full at the
+  end of this section.
+
+### marisol-achebe.jpg — one run, variant 1
+
+Both variants clean of lettering at zoom (the sack labels carry faint grey
+marks that do not resolve into characters at any size). Variant 1: warm room,
+locs, the tab on the lapel rather than at the collar, the wall a framed pale
+panel. Variant 2: cooler, cropped hair, the tab correctly at the collar, the
+wall visibly panelled with seams — the extra negative. Lean 1 for the register
+the page asks for; the tab position was said. Filed as `marisol-achebe.jpg`.
+
+### priya-nakamura.jpg — three runs, filed from run 3 variant 1
+
+Run 1: variant 1 carried LOST & FOUND engraved on the bin and printed slips,
+rejected; variant 2 clean. Run 2 (a replacement for the rejected one):
+variant 1 wore a wristwatch and a ring, rejected; variant 2 clean. Dermot's
+note on the two clean ones: **needs a more futuristic background** — the steel
+lockers and the riveted bin were the present-day tell. The setting sentences
+were rewritten in `images.md` for a room built eight centuries on, and run 1
+variant 2 was passed as `References:`
+(`story-bible/reference-art/priya-nakamura-lean-2026-09-05.jpg`) so she
+held. Run 3: both clean; variant 1 filed (curved panels, a sealed archive unit
+with nothing on it; variant 2 had a low cabinet run with faint tags). Earlier
+runs kept aside as `image-out/characters-priya-nakamura/round1/` and
+`round2/`.
+
+### zhulik.jpg — two runs, filed from run 2 variant 2
+
+Run 1: both on the brief and clean; the old prompt's *run of pipework* bought
+a boiler room. Same note from Dermot. Pipework struck from the prompt in
+`images.md`, the bulkhead rewritten as seamless composite with one recessed
+light line, run 1 variant 1 passed as `References:`
+(`story-bible/reference-art/zhulik-lean-2026-09-05.jpg`). Run 2: variant 1
+the cleaner room but the stamp became a grey tile; variant 2 keeps the wooden
+stamp and a plain two-door cabinet, filed. Run 1 kept as
+`image-out/characters-zhulik/round1/`.
+
+### tissadelle-shepherd — uniform-correct regeneration, filed as reference art
+
+Queued in `prompt-sheet.md` 2.7 on 3 September after three costume-uniform
+frames failed the rank-insignia entry. Run 1 used the prompt-sheet text with
+the published portrait as a reference: the face held, but the reference
+carried its idiom — a chevron badge and a triangle patch in one variant, a
+winged crest with lettering, navy coveralls and an ISS-style rack room in the
+other. Kept aside as `image-out/characters-tissadelle-shepherd-uniform/round1/`.
+Run 2 tightened the prompt (below): the tab described as three engraved
+concentric circles, every badge idiom named and negated, the compartment
+described as sealed plain housings, no other people. Variant 1 came back with
+three rings in a row on a rectangular tab — the *one mark repeated for three*
+failure — and variant 2 with the concentric rings on a square tab, a plain
+diamond patch, a ribbon row and a stand collar; the housing she works at has a
+small dark window that could be read as a screen. **Variant 2 filed as
+`story-bible/reference-art/tissadelle-shepherd-uniform-2026-09-05.jpg`.**
+Whether it replaces the published portrait is Dermot's call and was not made
+tonight; the published file is untouched.
+
+Prompt of record for run 2, with `src/images/characters/tissadelle-shepherd.jpg`
+sent as the one reference image:
+
+> Documentary photograph, available light, candid, one person only in frame. A woman in her early thirties with long red hair tied back for work and blue-green eyes, the same face as the reference image, standing in a plain working compartment of a space habitat eight centuries from now, mid-task with her attention on a sealed instrument housing off to one side of the frame, not posing. Upright, self-possessed bearing; alert and attentive expression rather than blank or steely. She wears the standard field uniform of an interstellar rescue and survey service: a modular matte shell in dark slate-grey over a close-fitting thermal liner, sealed seams, a plain stand collar, utilitarian and unornamented, sized to her rather than tailored. The chest carries exactly three things and nothing else: one small square hard-edged metal tab, plain matte finish, seated proud of the chest, engraved only with three thin concentric circles like a target with no centre dot; beside it one small plain fabric patch that is a single flat geometric shape with nothing drawn on it; and below them a single short row of small dull-coloured service ribbons. Absolutely no chevrons, no stripes, no wings, no stars, no eagles, no arrowheads, no crests, no emblems, no badges of any other kind, no name tape, no name badge, no printed words, no letters and no numerals anywhere on her clothing. No braid, no epaulettes, no belts, no buckles, no piping, no cape, no armour plates, no flags, no zip pulls on show. Nothing on the uniform glows. The compartment is quiet and clean: flat matte wall panels, sealed plain housings with flat fronts and honest seams, at most one small unlit indicator on any of them; soft diffuse light from concealed recessed sources, no lamp, tube or light fitting visible. Unglamorous lighting; visible skin texture; no beauty retouching, no styled hair, no makeup emphasis. Nothing in the image invites the viewer; she is at work and has been for hours. Muted realistic palette. This is not a present-day space station: no screens, monitors, displays, tablets, laptops, keyboards, cables, hoses, racks, dials, gauges, meters, knobs, toggle switches, tube screens or filing cabinets anywhere in frame, and no other people. No readable text, numerals, signage, insignia lettering or written characters of any script anywhere in frame. Use the reference image only for her face, hair colour and eye colour; do not copy its clothing, insignia, setting or lighting. Negative: chevron, stripes, wings, star, eagle, crest, emblem, arrowhead, badge, glowing insignia, name tape, belt, buckle, piping, cape, armour plate, epaulette, braid, tailored jacket, coveralls, boiler suit, zip, skirt, second person, gaze to camera, beauty lighting, screen, monitor, cable, text, lettering, watermark. 16:9 landscape.
