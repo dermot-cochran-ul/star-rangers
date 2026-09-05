@@ -871,3 +871,9 @@ image as the reference-art copy), and listed under `gallery:` on her page
 with season captions. `character.njk` gained an optional `caption` per
 gallery item, rendered as a figure at 16:9; uncaptioned galleries (Aldera)
 render exactly as before. The header portrait is unchanged.
+
+**Header swap, ruled the same evening** (*1 Yes*): `season-5-line-captain.jpg`
+became `src/images/characters/tissadelle-shepherd.jpg` and left the gallery;
+the coverall portrait it replaced is kept as
+`story-bible/reference-art/tissadelle-shepherd-header-retired-2026-09-05.jpg`,
+still the face reference for future runs alongside the new header.

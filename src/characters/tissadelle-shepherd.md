@@ -11,15 +11,12 @@ aliases:
 tags: [human, star-rangers, cadet, line-captain, celtic-union, tir-na-nog, sentinel, meridian, halyx-system, season-1, season-5, plural-mind, tobble]
 description: "Star Ranger cadet at the start of Season 1; earns the rank of Line Captain by Season 5 — by way of rotations through almost every branch of every specialist corps, a generalist's route that ends, deliberately, on the command path."
 image: tissadelle-shepherd.jpg
-image_alt: "Tissadelle Shepherd early in her career, a young woman with red hair tied back and blue-green eyes, in a worn blue coverall, working at an instrument panel in a cramped equipment bay aboard a station; her hand is on a control and her attention is on something outside the frame, with another crew member at work behind her"
+image_alt: "Tissadelle Shepherd in her early thirties, red hair tied back and blue-green eyes, in the dark slate-grey Ranger field uniform with a stand collar, a small square metal rank tab marked with three concentric rings on her chest, a plain diamond patch and a short row of service ribbons beside it, working at a sealed wall unit with a small window in a pale panelled compartment, her attention on the unit and not the viewer"
 known_codex: [star-rangers-anthem, ballad-of-the-stars]
 gallery:
   - image: season-1-cadet.jpg
     caption: "Season 1 — Cadet"
     image_alt: "Tissadelle Shepherd in her early twenties, red hair tied back, in the dark slate-grey field uniform with a stand collar, a single small rectangular rank tab with a slate-blue bar on her chest and a plain diamond patch beside it, nothing else on the uniform, standing in a pale sealed compartment with one hand on a smooth housing to her right."
-  - image: season-5-line-captain.jpg
-    caption: "Season 5 — Line Captain"
-    image_alt: "Tissadelle Shepherd in her early thirties, red hair tied back, in the same dark slate-grey field uniform, a small square metal rank tab marked with three concentric rings on her chest, a plain diamond patch and a short row of service ribbons beside it, working at a sealed wall unit with a small window in a pale panelled compartment."
 ---
 
 Cadet is the entry rank. It is where formal training meets first operational exposure, and where the qualities that will become most useful later are not yet rewarded in proportion.
