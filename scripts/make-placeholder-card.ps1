@@ -87,7 +87,9 @@ $Cards = @(
   # Carded at creation, 5 September 2026: a cat is photographable, so no prompt
   # (images.md, Conventions), and no frame in own-photography.json is a cat.
   # First drawn by a Pillow port of New-Card on a Linux session; re-running
-  # this script over it redraws it in Georgia.
+  # this script over it redraws it in Georgia. A prompt is queued for it since
+  # the same evening (Dermot: a fictional character may be generated whatever
+  # its species); drop this row when the portrait is filed over the card.
   'src\characters\zhulik.md'
 )
 

@@ -35,6 +35,14 @@ from that rule, and the exemption has a shape:
 
 - **A generator may make what no camera can**: a non-human body, a habitat, an
   artificial mind, an artefact, or a portrait of someone who does not exist.
+  *Clarified 5 September 2026, when Zhulik's page went up behind a card because
+  a cat is photographable — Dermot: "Although I could photograph a cat for you;
+  this one is a fictional character on a futuristic space habitat, so I think an
+  AI generated portrait would be acceptable."* So **a fictional character is
+  "someone who does not exist" whatever species they are**: the clause is about
+  the subject being invented, not about whether a camera could in principle
+  photograph its kind. The next bullet governs the world's furniture — a
+  landscape, a sky, a real animal standing for itself — not a named character.
 - **Anything a camera can photograph is photographed**: landscape, weather,
   sky, flora, fauna, texture. Where no frame of his fits, the page takes a card
   or nothing, not a prompt. This makes the Tier 3 advice under *Images that
@@ -589,7 +597,7 @@ recorded in that commit — see the qualification added to that rule under
 Conventions. The flag was wrong about the decision and right about the file:
 nothing in `images.md` said so until now.)*
 
-**One added at creation rather than by replacement, 5 September 2026:** `characters/zhulik.jpg`, the PORTRAIT PENDING card behind the new Zhulik page (the second cat in *The Unacceptable Cat*). A cat is a thing a camera can photograph, so under the Conventions above the page takes a frame of Dermot's or a card and never a prompt, and `own-photography.json` holds no cat. Drawn on a Linux session by a Pillow port of `make-placeholder-card.ps1`'s `New-Card` to the same geometry and palette, DejaVu Serif standing in for Georgia, and stamped with `mark-placeholder.js`; the page is in the script's card table so a Windows re-run redraws it in the house font. The real image is a photograph of a young grey-and-white cat, when one of Dermot's frames fits.
+**One added at creation rather than by replacement, 5 September 2026:** `characters/zhulik.jpg`, the PORTRAIT PENDING card behind the new Zhulik page (the second cat in *The Unacceptable Cat*). A cat is a thing a camera can photograph, so under the Conventions above the page takes a frame of Dermot's or a card and never a prompt, and `own-photography.json` holds no cat. Drawn on a Linux session by a Pillow port of `make-placeholder-card.ps1`'s `New-Card` to the same geometry and palette, DejaVu Serif standing in for Georgia, and stamped with `mark-placeholder.js`; the page is in the script's card table so a Windows re-run redraws it in the house font. *Superseded the same evening:* Dermot ruled a generated portrait acceptable for a fictional character (the clarification under Conventions), so the prompt is now queued under *Undercover Pets* in section 1 and the card reports `[placeholder]` to `image-prompts.js` until the portrait is filed over it.
 
 **This is the head of the queue.** Every image below was removed and replaced
 with a designed PORTRAIT PENDING / ILLUSTRATION PENDING card, so no page is
@@ -1550,7 +1558,7 @@ with a bronze cast, the Undersong's nickel-iron in it.
 
 ---
 
-**Undercover Pets — cute, cool and clever (5)**
+**Undercover Pets — cute, cool and clever (6)**
 
 - **`kate-ukrainka.jpg`** — writes Smart Pet books that *get the animal exactly
   right and the machinery cheerfully, deliberately wrong.*
@@ -1566,6 +1574,10 @@ with a bronze cast, the Undersong's nickel-iron in it.
   > Cinematic wide view of an ordinary domestic rabbit sitting upright and entirely still on the floor of a tidy habitat apartment, close and low to the ground, facing the camera and looking at nothing in particular with complete composure. Soft dense fur, ears up, one carrot-top on the floor a little way off and ignored. No harness, no collar, no fitting, no device of any kind on the animal anywhere. Warm domestic light, plain floor, a chair leg and a bag by the door. Comic dignity. 16:9 landscape.
   - **Absolutely no harness or subsystem**, which is the entire joke: nothing was
     ever fitted, and failing left her exactly as the programme found her.
+
+- **`zhulik.jpg`** — *on a habitat with one cat, every cat is that cat.*
+  *(Queued 5 September 2026 on Dermot's ruling that a fictional character may be generated whatever its species; the page currently stands behind a stamped PORTRAIT PENDING card. He is the second cat in S02E06C01: young, grey and white, unaugmented, a boy's pet, and the collection on the cabinet top is his. No collar, so the frame cannot be mistaken for Barsik's; no binders or drawers, per the Barsik-cabinets failure — the records cabinet is a plain sealed steel unit.)*
+  > Cinematic wide view of a young grey-and-white domestic cat, short-haired, slight and alert, sitting on top of a tall plain sealed steel cabinet with flat matte doors and no drawers, handles or labels, in the corner of a quiet habitat office. Beside him on the cabinet top a small, tidy hoard of little objects he has collected: a stylus, a reel of tape, a spoon, a pair of reading glasses, one small rubber stamp under his forepaw. He is looking down at the viewer with the unrepentant, faintly pleased expression of a cat who has just been noticed and does not mind. No collar, no tag, no harness, no device of any kind on the animal. Behind him only the matte panelled bulkhead of a space habitat with a run of pipework along it; even light from an unseen source; no shelving, no ring binders, no filing drawers, no screens, monitors or consoles anywhere in frame. Photographic, warm practical lighting, comic dignity, no whimsy and no costume. 16:9 landscape. Absolutely no readable text, lettering, numerals, signage, logos or written characters anywhere on the objects, the stamp, the cabinet or the walls.
 
 - **`muffin.jpg`** — **and this one should probably not be a portrait at all.**
   Eleven statements returned a cat, a rabbit, a very young dog and *you know —
