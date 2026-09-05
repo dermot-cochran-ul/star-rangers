@@ -12,7 +12,7 @@ The old list was organised as *the Tissadelle arc, plus some reserved slots*. Th
 
 | It said | Disk says |
 |---|---|
-| **Season 2** — "intentionally unwritten… not a gap to fill by default" | **Nine chapters**, five episodes. The second-most-written thread in the book. |
+| **Season 2** — "intentionally unwritten… not a gap to fill by default" | **Ten chapters**, six episodes. The second-most-written thread in the book. |
 | **Season 4** — "intentionally unwritten, same as Season 2" | **One chapter** — *Docked Twice*. |
 | *(Season 8 not mentioned at all)* | **Exists** — *The Night Office*, its own thread. |
 
