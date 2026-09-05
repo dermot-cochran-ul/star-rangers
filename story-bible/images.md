@@ -107,8 +107,13 @@ captioned item as a 16:9 figure; an uncaptioned gallery (Aldera's field photos)
 renders as the square grid it always did. Minor pages keep one header portrait.
 Each gallery frame is a generated portrait like any other: registered in
 `image-prompts.md`, alt text written from the file. Tissadelle is the first
-and, so far, the only page with one; the header swap and surfacing season
-portraits on season pages were put as shapes and remain his.
+and, so far, the only page with one. **The header follows the page's latest
+standing** — ruled the same evening (*1 Yes*): her header is now the Season 5
+Line Captain frame, the old coverall portrait retired to `reference-art/`, and
+the gallery holds the seasons the header does not show. A frame is never in
+both places, since the validator fails byte-identical duplicates. Surfacing
+season portraits on season pages (*2 Maybe*) and her look in Seasons 6–7
+(*3 Unknown*) are in `open-questions.md`.
 
 **AIs get portraits like everyone else** (12 August 2026, superseding the older
 rule that they got an abstract emblem or interface instead of a face — that rule

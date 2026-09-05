@@ -1533,3 +1533,27 @@ the meaning is stated on the page, the Wender coda stays, and the shadow
 is still at the edge at the end; what the shadow is stays open (the draft
 holds all three shapes). Still open: the slot, which waits on the
 terminus's, and the members' names and count.
+
+## Tissadelle's portraits — `intake-2026-09-05.md`, late evening — PARTLY RULED 5 September 2026
+
+Three shapes put after the direction *Tissadelle can have two or more
+portraits for each season* (grounded: *one of the principal major
+characters*). His answer, verbatim: **"1 Yes 2 Maybe 3 Unknown"**.
+
+- ~~**1. The header becomes the Season 5 frame**~~ — **ruled Yes**, realized
+  the same evening: header swapped, the coverall portrait retired to
+  `reference-art/tissadelle-shepherd-header-retired-2026-09-05.jpg`, the
+  gallery keeping *Season 1 — Cadet*.
+- **2. Season portraits surfaced on the season pages too** — *Maybe*. Open.
+  A larger engine change (a season-keyed image on the character, read by the
+  season and chapter layouts); nothing on the site asks for it yet. Don't
+  build it on a maybe; raise it again when a season page would actually show
+  one.
+- **3. What she looks like in Seasons 6–7** — *Unknown*, his word. Open, and
+  his: no brief exists for her later years, and the terminus register
+  (`intake-2026-08-27.md`) is the only ground. **Do not generate a Season 6–7
+  frame until he describes her**; the direction says *can have*, not *must*.
+
+Also open from the same direction: a second frame for Season 1 and for
+Season 5, so each season has the *two or more* the direction allows. No
+brief needed — same prompts, different moment — but not run until asked.
