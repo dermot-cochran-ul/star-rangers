@@ -1139,3 +1139,24 @@ What it gives this arc, and what it does not touch:
 
 Open, in `open-questions.md`: what the shadow is; whether it ever leaves;
 whether the Wender coda stays; and the slot, which waits on the terminus.
+
+### The formation stage, and the Empress (Dermot, 5 September 2026 — second and third directions, same intake)
+
+Verbatim and canon checks in `intake-2026-09-05.md`. The first is general
+and went to the glossary (`noogenic-protouniverse.md`, *Formation*):
+protouniverses are most vulnerable while forming, and the forming stage
+resembles a medieval fantasy world because a universe built from an
+interior is ordered by roles before law — a court before a code — and a
+title there is a claim to a seat. For this arc it is a rhyme with a cost:
+the questing layer was lost or downgraded, and the young ground past the
+holding looks like it anyway, in shape and not in magic. The draft has
+Tobble file the resemblance under structure and find it hard to look at.
+
+The second is hers: the shadow claims to be *Empress*, and the word means
+something else in her private inner world. Drafted on the empty-seat
+reading — the party answered to nobody, and the throne was kept empty by a
+rule without a reason, the Hollow's rule inside — so the claim proves the
+claimant was never inside, and a founder can decline it on the world's own
+terms. Two other shapes (the maker; the adversary) are in the intake and
+open. The beat is added to the draft's tells, not substituted for them:
+"partly" is honoured.

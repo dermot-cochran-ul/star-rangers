@@ -1507,3 +1507,20 @@ keep); and **the slot**, which waits on the terminus's. The attachments
 are parked in `reference-art/` and nothing ships; whether any image of the
 shadow is ever published is his, and the tone rule makes it not obviously
 yes.
+
+**Second and third directions, same day.** *Noögenic universes are more
+vulnerable in their formation stages, almost resembling a medieval fantasy
+world* — realized as a *Formation* section in
+`src/glossary/noogenic-protouniverse.md` (roles before law; a claim of
+title as a structural act; parent jurisdiction and the founder as what
+keeps it from being fatal); the two readings built on — structure from the
+seed's interior, the resemblance inherited and temporary — are his to
+object to before it merges. *It fails partly because the shadow claims to
+be Empress, which has a different connotation in Tissadelle's private inner
+world* — the draft revised on the **empty-seat** reading (the throne at
+the top of her world kept empty by a rule without a reason; claiming it
+proves the claimant was never inside). Open, put as shapes: **what the
+word meant** — the empty seat (recommended; drafted), the maker (the
+tarot sense: generation, which a nonviable seed cannot do), or the
+adversary of the questing layer; and **whether the meaning is stated on
+the page** or only marked.

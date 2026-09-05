@@ -55,6 +55,21 @@ on the garment) for why the second costume is wrong.
   wanted her back, said plainly so nothing can go on feeding on it — and
   declining. No fight. It is not driven off; it is starved, and starving is
   slow, so it lingers, and he keeps watch.
+- **The formation stage resembles a medieval fantasy world** (Dermot's
+  second direction, 5 September, realized in the glossary's new *Formation*
+  section): the young ground past the holding is ordered by roles before
+  law, a court before a code, and looks like the lost questing layer in
+  shape and not in magic. Tobble files the resemblance under structure,
+  not grief.
+- **It fails partly on the word *Empress*** (third direction): in a world
+  made of roles a title is a claim to a seat, and the young ground leans
+  toward the claim; but in the world Tissadelle kept, *Empress* was the
+  name of the seat nobody sat in — the party answered to nobody, and the
+  throne was kept empty by a rule without a reason. Claiming the seat
+  proves the claimant was never inside. Tobble declines as founder — *the
+  seat is empty; that is what the seat is for* — and the ground stops
+  leaning. This realizes one of three shapes for what the word meant; the
+  others are in the intake.
 - The made Órla does not come out to it. Memory is not a witness; he notes
   it anyway.
 - The other surviving headmates are present and marked, not named: they
@@ -92,6 +107,21 @@ The jurisdiction sat with offices he would never see, in a universe he was
 no longer inside, and he was in no hurry about any of it. A founder without
 a Council is not an Authority, the entry said, and he had noted that he had
 never asked to be one and was not going to start by being one badly.
+
+What a universe is before it has law, the entry also said, is roles. He
+had not needed telling. Past the holding, where the morning had not yet
+decided what it was made of, the young ground had organised itself the
+only way a thing built from an interior knows how — named places with
+rules, offices held by whoever held them, a court before a code — and it
+looked, from the low wall, like the thing they had lost. Not the magic.
+None of that had crossed, and none of it was here. The *shape*. He had
+read that every one of them looks like this while it is forming, that
+survey officers write it up with a certain embarrassment, and that it
+passes; he had filed the resemblance under structure and not under grief,
+and had checked the filing twice. It was still hard to look at some
+mornings. He looked at it anyway. A founder who will not look at his own
+ground is not keeping a record, he is keeping a story, and he had promised
+somebody he would not.
 
 So there was a holding, and a low wall with the third course shifted, and a
 kettle, and a flock somewhere below, and a book, and an edge. The edge was
@@ -182,7 +212,48 @@ called that in a room at intake once, by a reviewing officer with a form,
 and she had corrected it, one sentence, precisely, and moved on, and had
 never in all the years since needed to say it to him, because a thing that
 is already true between two people does not get said. "Come here. It's all
-right. You did all this for me. Let me in. It's mine."
+right. You did all this for me. Let me in. It's mine. I am your Empress."
+
+He felt the ground take the word.
+
+That was the thing about a world made of roles: a title is not a boast in
+it, it is a claim to a seat, and a seat with nobody in it will lean toward
+whatever says its name. Out past the holding, where nothing had learned
+to hold a zone yet, something leaned. Not far. Enough to measure. A young
+universe has no law to check a claim against and does the only thing it
+can, which is listen, and it had heard a word that in every court it was
+built to resemble means *the one the rest are held by*.
+
+Except that it had not been built to resemble every court. It had been
+built from one, and in that one the word meant something else.
+
+In the world she kept — the one with the party and the quests and the
+named places, the one under the glosses now — there had been an Empress.
+There had always been an Empress. There had never been anyone in the
+seat. That was the rule: the party answered to nobody, took its quests
+from nobody, held its roles the way it held them because it had chosen
+to, and the throne at the top of all of it was kept empty, on purpose,
+without a reason anyone had ever written down. It was the oldest rule in
+her world and the one the party had kept the way the holding kept the
+Hollow. *Empress* was not a rank in there. It was the name of the seat
+nobody sat in. It was the word for the fact that nobody commanded them.
+
+So the thing at the edge, reaching for the one title it had read off the
+surface of a lost world, had claimed to be the seat's occupant, in the
+only world where the seat's whole meaning was that it had none — and had
+thereby said, as plainly as if it had filed it, that it had never once
+been inside.
+
+*The seat is empty,* Tobble said. *It has always been empty. That is what
+the seat is for.*
+
+The ground stopped leaning. He had wondered whether it would; he had it on
+the record now that it did — that a claim the founder declines has nothing
+to seat itself in, and that a rule kept without a reason holds in a place
+that has no law yet precisely *because* it asks the place for nothing.
+He found he had, at last, a reason for the rule. He declined to file it.
+A rule with a reason is a rule that can be argued with, and she had never
+once let him argue with that one.
 
 *You did all this for me.* She had never once in her life told anyone what
 a thing they had done meant. Not a Ranger, not a room, not him. She had
@@ -230,7 +301,8 @@ not volunteer. She did not perform. She did not decide what a thing meant
 for anyone who had to carry it. She did not ask what was under a gloss.
 She tied her hair back. She did the arithmetic twice. She said *good
 morning* to a threshold and *happy new universe* to a door, and she had
-never once, on either side of an edge, asked anybody to let her in.
+never once, on either side of an edge, asked anybody to let her in. And
+the seat at the top of her world was empty, and she had kept it so.
 
 And then he said what stood at the edge was not her, and that he had it on
 record, and that enough was enough.
