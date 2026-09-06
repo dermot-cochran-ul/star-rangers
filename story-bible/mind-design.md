@@ -341,8 +341,8 @@ they go up unannounced.
 
 ### Open, and his
 
-~~The endonym and the naming system~~ — **supplied by S11E01C02, held for
-his approval**: the people are *the Told* (one is of the people by having
+~~The endonym and the naming system~~ — **supplied by S11E01C02 and approved
+the same evening**: the people are *the Told* (one is of the people by having
 been told the tellings), and a person is named by the first true thing said
 of them that others went on repeating, the youngest becoming
 *Carried-It-Sleeping*; both rendered in translation, no phonetics invented,

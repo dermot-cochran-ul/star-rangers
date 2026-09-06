@@ -801,16 +801,17 @@ put as choices in the intake:
   (recommended), undercover-pets.com by one line, or wait for chapters.
 - **The thread's name** — *Below the Roof* is a working title; the endonym
   would be the only name that is not the observers'.
-- **The endonym and naming system** — **supplied by the second chapter,
-  held for his approval** (`intake-2026-09-06.md`, twelfth section). The
+- ~~**The endonym and naming system**~~ — **settled by the second chapter,
+  approved 6 September** (`intake-2026-09-06.md`, twelfth section). The
   people are *the Told* — one is of the people by having been told the
   tellings — and a person is named by the first true thing said of them that
   others went on repeating, the youngest becoming *Carried-It-Sleeping*; both
   in translation, no phonetics, registered at `src/glossary/the-told.md` and
   in the canonical guide. Put as choices in the intake with the alternatives
-  (a phonetic form; *the people* itself as the endonym). Still his after
-  approval: whether a name can change when a truer thing is said, and whether
-  the people's word is one word or a phrase.
+  (a phonetic form; *the people* itself as the endonym); (a) approved.
+- **Still his on names:** whether a name can change when a truer thing is
+  said of a person later, and whether the people's word for themselves is one
+  word or a phrase.
 - ~~**Pronouns**~~ — **settled by the approved chapter**: the record's
   default *they*, used sparingly; no pronoun system registered.
 - ~~**A Pandoid section in `mind-design.md`**~~ — **written 6 September**,
@@ -825,8 +826,8 @@ put as choices in the intake:
   choice (a) of the eleventh section: the sentence is about what the Archive
   holds, and the chapters carry an interior it does not. The in-story route
   by which a telling reaches the survey is still the thread's later job.
-- ~~**What the relay was, for chapter two**~~ — **taken by the second
-  chapter, choice (c)**, held for his approval: a stone moved first, done
+- ~~**What the relay was, for chapter two**~~ — **settled by the second
+  chapter, choice (c), approved 6 September**: a stone moved first, done
   with the up-people's own stone because it is the only ground they listen
   to, at the line where their feet once stopped; Egede's and Nakagawa's
   readings each half of it.
