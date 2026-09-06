@@ -558,6 +558,19 @@ Notes that keep the tiers honest:
   floor plus the thread, Zoe Smith cast. The thread is listed on
   `GENERAL_TIER`, not the young-adult floor, so starquest.site keeps the
   procedural's own page set and the tiers above carry the thread anyway.
+- **The children's tier gets a second thread, Below the Roof (6 September
+  2026, Dermot's ruling — `intake-2026-09-06.md`, third section: *Pandoid
+  thread in child reader tier*).** The Pandoids of Fliade from inside, the
+  record's first storyline carried by a non-human ensemble, with its own season
+  (the next free is 11). Realized the same day as a registry entry, a season
+  index and a landing page, no chapter: thread `below-the-roof` (a working
+  title from the Fliade entry, his to replace before the first chapter, since
+  *Pandoid* is the survey's word), listed on `GENERAL_TIER` like
+  young-star-rangers so no narrowed face gains it by accident. Still his
+  before a line is drafted: the endonym, a Pandoid section in
+  `mind-design.md`, Pandoid young, and which edition shows it to a child — a
+  new one on a subdomain, or undercover-pets.com by one line on
+  `CHILDREN_TIER`.
 - **A tier is not a posture (21 August 2026).** Each edition now also carries a
   *presentation mode* — `story`, `primer`, `archive` or `contemplative` — and
   it deliberately does not map one-to-one onto the tiers above. The tiers are

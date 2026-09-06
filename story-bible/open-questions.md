@@ -782,15 +782,38 @@ Pandoid, soft and warm, but never weak or foolish*). Drafted the same session as
   The Fliade entry's *they were arrived at* still holds; whether Dermot wants
   it to be half of the situation rather than the whole is his. **The PR stops
   on this.**
-- **Where the character lives** — the survey record as drafted, the
-  alien-protagonists strand (4 September, itself open), or the children's
-  tier. Three shapes in the intake, (a) recommended.
+- ~~**Where the character lives**~~ — **answered by Dermot the same day**:
+  *Pandoid thread in child reader tier* (third section of the intake). The
+  page stays the survey's side; whether Teddy is the thread's protagonist is
+  open below.
 - **The page title** — *Teddy* as drafted, or *Individual Four* with *Teddy*
   as alias. No endonym exists to use.
 - **Size** — smaller-than-adult with age unfixed as drafted, a cub, or a small
   adult. (b) commits the record to Pandoid young and is the expensive one.
 - **The face.** Canon describes none. The image prompt queued in `images.md`
   describes a body and stops; generating it needs his description first.
+
+## Below the Roof — the Pandoid thread, registered 6 September 2026
+
+Dermot's ruling (`intake-2026-09-06.md`, third section): *Pandoid thread in
+child reader tier*. Realized as thread `below-the-roof`, Season 11, no chapter,
+listed on `GENERAL_TIER` so no narrowed face gains it by accident. Open, all
+put as choices in the intake:
+
+- **Which edition shows it to a child** — a new subdomain edition
+  (recommended), undercover-pets.com by one line, or wait for chapters.
+- **The thread's name** — *Below the Roof* is a working title; the endonym
+  would be the only name that is not the observers'.
+- **The endonym and naming system**, and **pronouns** — his, before a line is
+  drafted; registered like the Chthonari's.
+- **A Pandoid section in `mind-design.md`**, including whether their memory
+  works as ours, which a thread from inside cannot leave open.
+- **Pandoid young**, and whether Teddy is the protagonist, a new Pandoid is,
+  or an ensemble with Teddy in it.
+- **One strand or two** — a survey-side strand would give the relay its second
+  telling; convergence fixed first.
+- **The Fliade entry's observational sentence** dates when the first chapter
+  lands; the in-story explanation is the thread's first job.
 
 ## Images — awaiting review or triage
 
