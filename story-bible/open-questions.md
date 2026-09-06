@@ -770,6 +770,28 @@ Still live:
   is a survey coinage and not a name they gave. That is the naming doctrine
   applied to itself, and it is also a hook left deliberately loose.
 
+## Teddy — the first individual Pandoid, drafted 6 September 2026
+
+Raised in `intake-2026-09-06.md` (Dermot: *A dangerous Teddy Bear, actually a
+Pandoid, soft and warm, but never weak or foolish*). Drafted the same session as
+`src/characters/teddy.md`, observational register, no chapter. Open:
+
+- **Commitment 3 of the intake** — a Pandoid has moved a survey relay to the
+  party's own furthest mark. Two readings filed on the page, neither chosen,
+  and it is the one act that answers Fliade's asymmetry from the other side.
+  The Fliade entry's *they were arrived at* still holds; whether Dermot wants
+  it to be half of the situation rather than the whole is his. **The PR stops
+  on this.**
+- **Where the character lives** — the survey record as drafted, the
+  alien-protagonists strand (4 September, itself open), or the children's
+  tier. Three shapes in the intake, (a) recommended.
+- **The page title** — *Teddy* as drafted, or *Individual Four* with *Teddy*
+  as alias. No endonym exists to use.
+- **Size** — smaller-than-adult with age unfixed as drafted, a cub, or a small
+  adult. (b) commits the record to Pandoid young and is the expensive one.
+- **The face.** Canon describes none. The image prompt queued in `images.md`
+  describes a body and stops; generating it needs his description first.
+
 ## Images — awaiting review or triage
 
 `images.md` stays the runbook and the single place image *work* is tracked;
