@@ -835,7 +835,7 @@ put as choices in the intake:
   to, at the line where their feet once stopped; Egede's and Nakagawa's
   readings each half of it.
 - **What the up-people do next** — still his, and the third chapter
-  (*Someone to Ask*, S11E01C03, drafted 6 September, held for his approval)
+  (*Someone to Ask*, S11E01C03, drafted and approved 6 September, PR #729)
   deliberately does not take it: the up-people are shown asking each other
   constantly, and one of them speaking to the dark with a rising sound at
   the end of each working time, which the record leaves unread; the people's
@@ -849,7 +849,7 @@ put as choices in the intake:
   from inside cannot name them. The survey side would most naturally make
   it Egede, whose codex note ends *unasked, which is worse* — his to
   confirm before any survey-side page says so.
-- **Went-Round** — a third named adult, drafted 6 September with a page;
+- **Went-Round** — a third named adult, approved 6 September with a page;
   whether the ensemble grows further, and whether the argument the chapter
   gives to nobody is ever settled among the Told, his.
 
