@@ -1511,6 +1511,22 @@ a:focus {
 .character-badge--status-unknown {
   color: var(--color-text-muted);
 }
+/* Historical and Retired are the two other statuses the corpus uses more than
+   once (six pages and one, at 2026-09-06). Both take tokens the contrast
+   checker already measures against --color-surface-2 in every palette, so
+   they need no per-theme literal of their own: Historical borrows the canon
+   colour, since a historical figure is the record's own past, and Retired
+   keeps the muted text but draws its outline in that colour, dashed, so it
+   reads as out of service rather than unclassified. */
+.character-badge--status-historical {
+  color: var(--color-canon);
+  border-color: var(--color-canon);
+}
+.character-badge--status-retired {
+  color: var(--color-text-muted);
+  border-color: var(--color-text-muted);
+  border-style: dashed;
+}
 /* Every character portrait in the corpus is generated to 1200x675 to match the
    ratio below — see story-bible/images.md. Changing this aspect-ratio silently
    re-crops all of them, and a taller source delivered into a wider slot loses

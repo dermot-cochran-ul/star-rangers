@@ -33,6 +33,8 @@ The format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Fixed
 
+- **Status badges for Historical and Retired characters now carry their own colour** (2026-09-06, at Dermot's ask, the follow-up to the header fix). Only Active and Unknown had a dedicated badge style, so the six Historical pages and the one Retired page fell back to the plain muted pill and read the same as an unclassified status. `src/css/main.css` gains two rules: Historical takes the canon colour, since a historical figure is the record's own past, and Retired keeps the muted text but draws its outline dashed in that colour, so it reads as out of service. Both use tokens the contrast checker already measures against the badge background in every palette, so no per-theme literal was added to `generate-themes.js` and every palette passes at 4.5:1 as before. Theme files regenerated.
+
 - **Character-page header no longer collapses between 641px and about 880px** (2026-09-06, Dermot's pick of the two shapes put to him). The header is a two-column flex row whose 420px portrait cannot shrink, but it only stacked at the site-wide 640px breakpoint, so on tablet-width viewports the text column beside the portrait fell to about 100px: the role badge rendered as a six-line pill with its text clipped, the character's name broke mid-word, and every tag took its own line. `src/css/main.css` now stacks the character header in its own 900px media query, leaving the two-column layout only where the text column keeps a real measure; the site-wide 640px query is unchanged for everything else, and the theme files were regenerated. Verified by rendering `tissadelle-shepherd` at 641, 800, 901 and 1280px.
 
 ## [1.32.0] — 2026-09-04
