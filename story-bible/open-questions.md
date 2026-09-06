@@ -812,6 +812,16 @@ put as choices in the intake:
 - **The Fliade entry's observational sentence** dates when the first chapter
   lands; the in-story explanation is the thread's first job.
 
+**First chapter drafted 6 September 2026 at Dermot's ask** — *Nobody Looked
+Up* (S11E01C01), with a page for Stone-First and a Pandoid section in
+`mind-design.md` written first (`intake-2026-09-06.md`, eleventh section).
+The PR stops on the readings it took: names rendered in translation and the
+youngest unnamed (the naming system still his); pronoun *they*; Teddy as the
+youngest, in an ensemble; memory ordinary and unasserted; the Fliade sentence
+left as it stands (chapters are narrative, not Archive holdings — put as a
+choice); the year 2832 UCSD as an assumption from the Anstolik codex; which
+reading of the relay chapter two takes, put as a choice.
+
 ## Images — awaiting review or triage
 
 `images.md` stays the runbook and the single place image *work* is tracked;

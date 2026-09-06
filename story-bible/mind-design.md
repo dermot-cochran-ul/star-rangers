@@ -246,6 +246,104 @@ improvised), and both are authorship.
   Undersong suggests a name might be a signature rather than a sound, which
   is a way of thinking about it, not a naming scheme.
 
+## The Pandoids, answered as far as the record goes
+
+Written 6 September 2026, the same session as the first *Below the Roof*
+chapter and ahead of it, because the 4 September trope rule says a mind is
+stated before it is drafted. Derived from `src/lore/planets/fliade.md`,
+`src/characters/teddy.md`, the four rulings of 16 August
+(`intake-2026-07-26.md`) and the naming doctrine; where the derivation runs
+out the line says **open** and the decision is Dermot's. The chapter took
+the working positions marked *draft* below and stops on them.
+
+### 1. Certain of warmth and stone; unable to know the roof
+
+The deep is "warmed by geothermal activity," lit by fungi "with no cycle to
+it," and held by a people with "an intimacy with vertical broken ground that
+no visiting instrument has matched." So a Pandoid is certain, without
+trying, of the shape of warmth in a place and the shape of stone under the
+body — the two things the survey's instruments log *about* them (a thermal
+profile; a boulder's shift). What they cannot know at all is the roof: a
+"lethal surface" a sealed warm interior "was never presented with." They
+cannot be charmed through it and they will misjudge it. *Draft:* a person
+leaving a warm place takes a piece of its shape with them, and one who has
+kept a place long enough feels the piece go.
+
+### 2. Thought is a telling; an argument is who was there
+
+"They keep their record by speaking it" — a record "that cannot be seized,
+cannot be edited by a later hand, and does not survive the loss of the
+people who carry it." So the medium of thought is the told account, and the
+question a Pandoid asks of a claim is not *is it written* but *who was
+there, and who has heard them say it.* **Whether their memory works as ours
+is open and stays open** (16 August: "if their recall is ordinary, say
+nothing"); the draft says nothing, and its rule that *a telling is not yours
+until somebody has heard it* is a practice of the record, not a property of
+the mind. *Draft:* time between events is measured in tellings — how long a
+known story takes — since there is no day to measure it in.
+
+### 3. First move: move a stone
+
+The survey's adults are "announced — when they are announced at all — by
+the shift of a boulder," and withdraw "by an interval the party has learned
+to measure." Read from inside, both are manners: you move a stone so the
+ground announces you before you are seen, and you leave a place to a
+stranger until the stranger asks. The first move on any problem is to be
+announced and to wait. *Draft:* both stated as the people's manners, the
+second as the whole of their rule for strangers, "short because it has never
+needed to be long."
+
+### 4. Never scarce: warmth, room, and being alone
+
+A "warm sealed interior" under a roof nobody crosses, holding a people who
+are "calm and reclusive by every account," has no folk memory of taking, of
+crowding, or of anyone arriving. So the motives that turn history elsewhere
+have to be learned, and the up-people's habit of *leaving things* — a relay
+set down and walked away from — is baffling rather than threatening. *Draft:*
+"Nobody had ever come before."
+
+### 5. A machine is a thing that sleeps
+
+The relay "slept at the junction," "woke once," and "went back to sleep in
+the arms of the thing it had just identified" — the record's own verbs. To a
+people with no machines, the survey's unit is a stone that hums and then
+stops. *Draft:* "the humming stone," left "asleep, the way they leave
+things."
+
+### 6. What every day costs: nothing yet, for the adults
+
+The asymmetry the Fliade entry names — "arrived at, by a party that could
+leave whenever it chose" — costs the people nothing they can feel, which is
+the point: they have kept their manners toward someone who does not know
+they are there. The cost is the thought that cannot be finished. *Draft:*
+Stone-First's kept question.
+
+### 7. Youth is having every story and none of your own
+
+The life-stage rule makes the protagonist young in the tier's years, and the
+record's shape supplies what a young one lacks: everything they know was
+told to them, and a person who has never been anywhere first has nothing
+that is theirs to tell. *Draft:* the youngest's whole motive, and the reason
+they go up unannounced.
+
+### What a Pandoid cannot do (from the record)
+
+- **Cross the roof.** Not spacefaring; the surface is lethal.
+- **Write.** The record is spoken; nothing here can be seized or edited.
+- **Be small enough for the squeeze, once grown.** The survey rates it
+  impassable for an adult's mass; only the youngest passes.
+- **Be heard by the up-people through the ground.** *Draft, as the
+  youngest's finding:* a moved stone announces a Pandoid to a Pandoid and to
+  nobody else in the upper levels.
+
+### Open, and his
+
+The endonym and the naming system (the draft renders every name in
+translation — *Stone-First* as a telling, the youngest as *the youngest* —
+and invents no phonetics); pronouns (the draft uses the record's *they*);
+whether keeping the margin is an office; whether memory is ordinary (the
+draft assumes it and says nothing).
+
 ## Where this goes
 
 When the species' crew is cast, each member's page can answer the seven
