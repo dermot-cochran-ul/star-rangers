@@ -1600,7 +1600,7 @@ Also open from the same direction: a second frame for Season 1 and for
 Season 5, so each season has the *two or more* the direction allows. No
 brief needed — same prompts, different moment — but not run until asked.
 
-## A spiritual edition with a governing rule — `intake-2026-09-06.md`, seventh section
+## A spiritual edition with a governing rule — `intake-2026-09-06.md`, seventh section — RULED 6 September 2026
 
 Dermot's direction, verbatim: *Similar to the hard science fiction treatment
 of physics, the contemplative tier should have a spiritual edition in which
@@ -1616,6 +1616,12 @@ intake. Three questions put as choices there:
   re-grounding), or both kept with one FAQ paragraph.
 - **3. Scope** — the whole overlay (recommended) or the Codex only.
 
-Offered and not started: an audit of the nine codex entries the edition
-carries against the rule, once question 1 is answered. Nothing built; no
-engine change is needed on any reading.
+**Ruled the same evening** — *Confirmed*, read as the five readings and the
+three recommendations: creedal consensus, two words with two jobs, the whole
+overlay. Recorded in `CLAUDE.md` and `src/codex/README.md`; the thread index
+untouched. Scope corrected on the way: the edition renders 62 codex entries
+and 139 lore pages by tier inheritance, so the rule binds the overlay's
+**own** pages, defined by tag — nine today. The audit of those nine ran the
+same evening: all pass; one line in *The Flight of Aldera* left as a choice
+(leave / one clarifying clause in the archivist's note, recommended / retag).
+**Still open: that one choice.**
