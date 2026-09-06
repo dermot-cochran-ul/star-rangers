@@ -1531,7 +1531,7 @@ magnetically seated tab keyed to track; the uniforms note's bar count and
 track colours were proposals. Three shapes put; he took the leans — leave
 the portrait's tab, adopt the system on the page.
 
-## The shadow at the edge — `intake-2026-09-05.md`
+## The shadow at the edge — `intake-2026-09-05.md` — what it is RULED 6 September 2026
 
 Dermot, 5 September 2026: a lingering shadow tries to invade Tobble's
 noögenic universe by assuming Tissadelle's appearance and form, but behaves
@@ -1572,9 +1572,12 @@ inversion as Tobble's unfiled suspicion. ~~Still open: whether the meaning
 is stated on the page or only marked~~ — **the scene approved by Dermot,
 5 September 2026** ("The scene is approved"), both scenes as drafted, so
 the meaning is stated on the page, the Wender coda stays, and the shadow
-is still at the edge at the end; what the shadow is stays open (the draft
-holds all three shapes). Still open: the slot, which waits on the
-terminus's, and the members' names and count.
+is still at the edge at the end. ~~What the shadow is stays open~~ —
+**ruled 6 September 2026 (*Tissadelle recommendations accepted*): a
+nonviable shadow-seed of the Dock Seven compression**, the recommended
+shape; the Unfounded-pattern and unpreserved-remainder shapes retired.
+Still open: whether it ever leaves (no recommendation was put), the slot,
+which waits on the terminus's, and the members' names and count.
 
 ## Tissadelle's portraits — `intake-2026-09-05.md`, late evening — PARTLY RULED 5 September 2026
 

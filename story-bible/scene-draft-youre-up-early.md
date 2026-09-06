@@ -39,7 +39,10 @@ on the garment) for why the second costume is wrong.
   protouniverse after the founding and seeks admission. The draft never
   names what it is. Tobble files it as *consistent with* a nonviable
   shadow-seed of the Dock Seven compression and claims no more; the Unfounded
-  tells are shown, not diagnosed.
+  tells are shown, not diagnosed. **Ruled 6 September 2026 (*Tissadelle
+  recommendations accepted*): it is a nonviable shadow-seed of the Dock
+  Seven compression.** The scene's *consistent with* stands, being what
+  Tobble can know; the planning ground holds the fact.
 - It has her surface and none of her declining: it announces itself,
   performs certainty, calls him her cat, tells him what the founding meant,
   asks what is under the glosses, will not do the arithmetic, and wants the
