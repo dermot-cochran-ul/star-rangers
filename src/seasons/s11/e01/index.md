@@ -18,6 +18,10 @@ permalink: /seasons/s11/e01/
   Below the roof the light never changes and nobody says morning. The youngest of the people has every story by
   heart and not one that is theirs, so they go up past the margin without moving a stone first, and stand at the
   edge of the up-people's light, and nobody looks up. Stone-First keeps the margin, and has a question about that.
+  Then the youngest has a question of their own — why do the up-people never ask? — and the answer is that nobody
+  has told them anything, and every telling begins with a stone. The youngest carries the up-people's own humming
+  stone down through the squeeze to the line where their feet once stopped, and it wakes on the way, and afterwards
+  the people have a name for the one who did it.
 </p>
 
 {% set seasonNumber = "11" %}

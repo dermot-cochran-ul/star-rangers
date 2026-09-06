@@ -509,6 +509,24 @@ of the two: 15 files against 6, with its own lore entry, its own glossary entry,
 a journal entry, and rows in this guide. Renaming the smaller surface is the
 cheaper change and the one less likely to strand a reader.
 
+### The Told (coined 2026-09-06, from inside)
+
+**Canonical:** *the Told* — the Pandoids' own name for themselves, rendered in
+the record's translation register, established by the *Below the Roof* thread
+(S11E01C02) and registered at
+[the glossary](/star-rangers/glossary/the-told/). Their personal names are
+tellings on the same pattern: the first true thing said of a person that others
+went on repeating (*Stone-First*, *Carried-It-Sleeping*), rendered in
+translation with hyphens.
+
+**Not retired:** *Pandoid*. The survey's coinage stays the name in every filing,
+because the survey has not been told otherwise; the two names belong to two
+sides of one encounter, and the record keeps both, marked. No phonetic form is
+held for either the people's name or any person's, and none should be
+invented: the thread is a telling rendered, not a transcription. The record's
+*they* for an individual Pandoid stays the translation default, not a claim
+about a pronoun system of their own.
+
 ---
 
 ## Terminology Migration Map (Legacy → Canonical)
