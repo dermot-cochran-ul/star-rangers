@@ -1599,3 +1599,23 @@ characters*). His answer, verbatim: **"1 Yes 2 Maybe 3 Unknown"**.
 Also open from the same direction: a second frame for Season 1 and for
 Season 5, so each season has the *two or more* the direction allows. No
 brief needed — same prompts, different moment — but not run until asked.
+
+## A spiritual edition with a governing rule — `intake-2026-09-06.md`, seventh section
+
+Dermot's direction, verbatim: *Similar to the hard science fiction treatment
+of physics, the contemplative tier should have a spiritual edition in which
+codex follows main stream Christian tradition except where superseded by
+canon lore.* Read as a rule for the existing `church-space.site` edition with
+the physics rule's shape; five readings flagged for confirmation in the
+intake. Three questions put as choices there:
+
+- **1. What "mainstream Christian tradition" means** — the creedal consensus
+  (recommended), a named confession, or left to each entry's named author.
+- **2. "Evangelical" on the thread index against "mainstream"** — two words
+  with two jobs (recommended, nothing changes), re-ground the index (his; a
+  re-grounding), or both kept with one FAQ paragraph.
+- **3. Scope** — the whole overlay (recommended) or the Codex only.
+
+Offered and not started: an audit of the nine codex entries the edition
+carries against the rule, once question 1 is answered. Nothing built; no
+engine change is needed on any reading.
