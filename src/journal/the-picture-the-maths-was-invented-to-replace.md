@@ -2,7 +2,7 @@
 layout: journal-entry.njk
 title: "The Picture the Maths Was Invented to Replace"
 date: "2026-09-06"
-description: "Why mathematical abstractions resist intuition, why popular science keeps handing back the image the formalism was built to escape, and the one rule that follows for writing a higher-dimensional being: give the reader the constraint and the instrument reading, not the picture. Then the two questions that followed: when intuition should not be trusted and when analysis costs too much, and whether machine learning is intuition by another name."
+description: "Why mathematical abstractions resist intuition, why popular science keeps handing back the image the formalism was built to escape, and the one rule that follows for writing a higher-dimensional being: give the reader the constraint and the instrument reading, not the picture. Then the two questions that followed: when intuition should not be trusted and when analysis costs too much, whether machine learning is intuition by another name, and what to do when the two agree or one has to override the other."
 tags: [craft, physics, cosmology, editorial, method]
 ---
 
@@ -58,3 +58,22 @@ The differences are worth naming so the analogy does not overrun. It is function
 Because the rule does carry over unchanged. The model is the intuition. The calculator, the prover, the test suite and the gate are the analysis. A reasoning model writing its steps out is a person doing the sum longhand on top of the same substrate. Use the one to generate and the checkable thing to verify, and spend the verification where errors would be silent. A system that skips that step has the exact failure profile of an overconfident expert in a wicked domain, only faster and at scale.
 
 Which brings it back round. A dragon in this setting is filed by its signature because the witness's picture is the intuitive completion of something outside the range intuition was built for. The record's answer is the instrument reading and the table of what the thing cannot do. That is not a stylistic preference. It is the same discipline as writing down when to stop trusting a gut, and the same one as putting a gate in front of a model: know where the compression was trained, and past that edge, trust only what can be checked.
+
+## Agreement, and the override
+
+One more question, because the previous section only says *when* to distrust each side and not what to do at the moment they meet. What happens when intuition and logic agree, and what happens when one has to override the other?
+
+Agreement is the comfortable case and the least informative one. Two sources agreeing is evidence only if they are independent, and they usually are not. Either the logic was built to justify the gut, which is motivated reasoning in a suit, or the intuition was itself formed by earlier analysis, which is what expert intuition *is*. In both cases the agreement counts once and not twice. And the two can agree and both be wrong, when both were trained on the same distribution: intuition and Newtonian mechanics agreed for two centuries, and Euclid's fifth postulate felt obvious to everyone who checked it. So agreement is when you act, and when you stop paying for more analysis. It is not confirmation of anything beyond the region both were trained in.
+
+Logic overriding intuition is the celebrated case — Monty Hall, the birthday problem, the relativity of simultaneity — and the rules for letting logic win are stricter than the folklore suggests.
+
+- **Check the premises before the intuition.** A valid argument from a wrong premise is where most counterintuitive results actually come from. Until the premises and the domain have been checked, a surprising conclusion is better evidence of a modelling error than of a broken gut, and the prior on *I set this up wrong* should be high.
+- **Then ask whether the intuition is in its trained domain.** If it is not — probability and scale being the usual offenders — logic wins by default and the intuition has no standing. If it is, and the expert is seasoned in a kind environment, the disagreement is a signal to re-examine the model, because the gut may be tracking a variable the model omitted. Klein's firefighter who cleared the building without knowing why was right, and the model that said the fire was small had the wrong fire.
+- **Weigh the asymmetry.** If logic says go and intuition says stop, and delay is cheap, stopping to look costs little and going costs a lot. The override should wait for the check.
+- **Do not override; update.** The right end state is not logic winning while the gut sulks. It is working the problem until the intuition catches up, which Monty Hall does the moment you play it with a hundred doors. A persistent gap between what you can prove and what you feel is a place where you will make the error again under time pressure, when only the intuition is fast enough to act.
+
+Intuition overriding logic is the omitted case, and it is legitimate more often than the folklore admits. In a kind domain with a seasoned expert, the residual feeling that something is wrong is data about a missing variable, and the honest response is to go and find it rather than to defer to the equations. The popular-science failure this entry opened with is exactly this override done without noticing: the picture wins over the formalism and nobody records that a contest happened.
+
+The same independence test governs the machine version. A person who has seen the model's output and then agrees with it is not a second source; the agreement counts once.
+
+And for the writing, this cuts cleanly. A character whose intuition and reasoning agree is at rest. The drama is in the override, and the honest character is the one who lets the logic win and then has to live with the gut still disagreeing — not the one whose feelings turn out to have been right all along.
