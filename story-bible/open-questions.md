@@ -1624,4 +1624,17 @@ and 139 lore pages by tier inheritance, so the rule binds the overlay's
 **own** pages, defined by tag — nine today. The audit of those nine ran the
 same evening: all pass; one line in *The Flight of Aldera* left as a choice
 (leave / one clarifying clause in the archivist's note, recommended / retag).
-**Still open: that one choice.**
+**Ruled later the same evening — option 2**, realized as two sentences in the
+archivist's note; nothing open from the audit.
+
+## *The Flight of Aldera* against the Episode 0 chapters — `intake-2026-09-06.md`, seventh section, timeline check
+
+At Dermot's ask (*check the timeline for Aldera please*). Canon's Aldera
+chronology is consistent across the timeline, the four Episode 0 chapters
+and the character pages (table in the intake). The recitation reproduces
+those chapters scene for scene with the same names, and its description
+says it was *collected long before* the Season 1 figures — the one line that
+asserts a chronology canon contradicts; the body dates nothing and the July
+disambiguation kept the mystery open on purpose. Three choices: leave it;
+clarify the description to fix no era (recommended); resolve the mystery
+(a canon change, not recommended now). Open.
