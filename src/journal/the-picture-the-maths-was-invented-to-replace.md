@@ -1,0 +1,79 @@
+---
+layout: journal-entry.njk
+title: "The Picture the Maths Was Invented to Replace"
+date: "2026-09-06"
+description: "Why mathematical abstractions resist intuition, why popular science keeps handing back the image the formalism was built to escape, and the one rule that follows for writing a higher-dimensional being: give the reader the constraint and the instrument reading, not the picture. Then the two questions that followed: when intuition should not be trusted and when analysis costs too much, whether machine learning is intuition by another name, and what to do when the two agree or one has to override the other."
+tags: [craft, physics, cosmology, editorial, method]
+---
+
+A conversation this morning started from a plain question — why are mathematical abstractions so unintuitive, and so often flatly misunderstood in popular scientific media? — and ended somewhere I had already been without noticing: at the rule this setting uses for its dragons.
+
+Start with the plain question. Intuition and mathematics are built for different jobs. Intuition runs on resemblance: a new thing is understood by its likeness to a familiar one. An abstraction is defined by its rules alone, and it usually exists precisely because no familiar thing behaves that way. A Hilbert space is not somewhere you could stand. A wavefunction is not a wave in anything. The formalism arrives at exactly the point where the mental image stops working, and its whole job is to carry you past that point by rule rather than by picture.
+
+Then the ideas reach a general readership, and several things happen at once.
+
+**The words are borrowed.** Mathematicians name things with ordinary words — group, field, ring, spin, colour, imaginary, real, observer, dimension — and every one of those words carries baggage the concept lacks. The reader keeps the baggage. "Imaginary" numbers sound less real than "real" ones, which is a fact about a seventeenth-century insult and not about the numbers. Quantum "observation" became consciousness in a thousand articles because the word already had a person in it.
+
+**An analogy keeps one property and drops the rest.** The rubber sheet keeps *mass curves geometry* and discards everything else, and then uses gravity to explain gravity. Readers keep the discarded properties because nobody tells them which ones to discard. A good analogy ships with an expiry date, and popular writing never prints it.
+
+**A statement about a structure becomes a statement about the world.** Gödel's theorem is about formal systems that contain arithmetic; the popular version is "nothing can be known." Chaos becomes "anything can happen." Relativity becomes "everything is relative." In each case the domain the theorem lives in has been dropped, and the domain was the whole content.
+
+**The picture is the thing the maths was invented to replace.** This is the one that matters most, and it is the one popular media gets most reliably backwards. Physicists reach for formalism at the point where images fail. The article then supplies an image again, handing the reader the exact failure mode the equations were built to escape. Curled-up dimensions become tiny hidden places. Schrödinger's cat, written as a reductio against a naive reading, is presented as the claim.
+
+**Meaning comes from prediction, not from "what it really is."** The formalism answers *what will the detector read*. It does not answer *what is the wavefunction really*, and the reader wants the second question answered. An article that says "the mathematics says this and no more" does not sell, so the hole gets filled with a picture.
+
+Underneath all of it is scope. Human intuition is calibrated for medium-sized, slow, three-dimensional, classical objects, and anything far from that scale — in size, speed, dimension or number — has to be reached by rule. That is what abstraction is for, and it is also why it can never feel natural. The strangeness is not a defect in the exposition. It is the signature of having left the region intuition was built for.
+
+## What this has to do with dragons
+
+Here is where I found I had already been. The [Levrils](/star-rangers/lore/levrils/) entry files a dragon by its signature and not its shape, and says why: a witness who meets a higher-dimensional presence has to render it into something, and renders it in whatever their own perception has to hand. *The signature is the invariant; the figure is the viewer's contribution.* The entry then spends its longest section on a table of what a Levril can do and what it cannot, and closes that table with the line that higher-dimensional extension buys a vantage and not a licence. That is the rubber-sheet lesson applied in advance. The lore gives the reader the constraint and the instrument reading — the anomalies, the survival statistics, the foreclosed column — and withholds the picture on purpose, because the picture is the part that was always going to be wrong.
+
+The same move sits under [Membrane Shadows](/star-rangers/lore/membrane-shadows/), which began as a reader's photograph of a sea stack that looked like a hooded figure. The temptation was to write the figure. What went in instead was the mechanism — gravitational bleed from a coherent mass on the far side of a narrowed Interval, imprinting a shape it never crosses over to cast — and the figure was left as the thing a witness sees. And it is the whole discipline of [The Scope of Physical Law](/star-rangers/lore/the-scope-of-physical-law/), which exists to stop the third failure above from happening inside the record: no fact stated wider than the ground it stands on. A theorem dropped from its domain is exactly a physics claim stated at the wrong level.
+
+So the rule, written down now that I can see it was already in use. **A higher-dimensional being shown through what it can and cannot do stays true. One shown as a place you could visit inherits every error the rubber sheet ever made.** Give the reader the constraint and the instrument reading. Let the register be mythic if it wants to be — dragons, fae, saints, all welcome — but keep the mechanism specified, bounded and instrumented, and let the witness supply the figure, since a witness always will. The reader who wants to know what a Levril *really* looks like is asking the wavefunction question, and the honest answer is the same in both cases: the record can tell you what the detector read, and it can tell you what the thing cannot do, and past that it would be handing you a picture that the whole apparatus was built to do without.
+
+That is the craft version of a lesson I keep relearning in different rooms: the thing that feels like a gap in the explanation is very often the explanation working.
+
+## The two questions that followed
+
+Having agreed all that, I asked the two questions it begs. When should I *not* trust intuition, and when is the cost of the mathematical analysis too high to pay? And does machine learning resemble intuition? They turn out to have one answer underneath, which is why they belong in the same entry.
+
+Intuition is compressed experience, and it is reliable exactly where that experience was gathered under conditions that let it compress well. So the first question is really *how was this intuition trained?*, and the places to distrust it follow from the answer.
+
+- **Outside the scale it was trained on.** Very large, very small, very fast, high-dimensional, or very many. Probability and compounding are the everyday cases: base rates, conditional probability, exponential growth and correlated tail risks all feel wrong when they are right. This is the first half of the entry again, from the other side.
+- **Where feedback was absent, delayed or noisy.** Kahneman and Klein settled this between them, from opposite starting positions. Chess, firefighting and clinical nursing give fast, clear feedback, so the experts there have real intuition. Stock picking, long-range forecasting and hiring give slow, ambiguous feedback, so confidence there tracks nothing at all.
+- **Where something is optimising against you.** Fraud, security, markets, negotiation. An adversary models your intuitions and plays them.
+- **Where the answer is a magnitude rather than a direction.** Intuition is decent at sign and poor at size. It will tell you a bridge needs to be strong and not how strong.
+- **Where the answer feels fluent.** Ease of recall, familiarity and narrative coherence all feel like truth, and none of them is evidence. This is the popular-science failure at the scale of one mind.
+- **Where the decision is one-shot and irreversible.** Intuition earns its keep through repetition and correction. A decision made once, with no undo, gives it neither.
+
+The analysis, in turn, costs too much when the error is cheap and reversible, so that trying it is cheaper than modelling it; when the answer would arrive after the decision, since a correct answer delivered late is worth nothing; when the inputs are worse than the intuition, because a formal model on guessed parameters gives false precision and is only as good as its least-known input; when the problem is not yet well-posed, because formalising forces a frame, and if you cannot say what the objective is then the frame you choose is itself an intuition, now hidden inside equations; and when the domain is kind and the expert is seasoned, because their intuition already *is* the analysis, compressed.
+
+The working rule I have settled on: let intuition generate and analysis verify, and spend the analysis where an error would be silent, expensive or repeated. Repeated decisions amortise the cost of building the model once. A Fermi estimate in the middle decides which regime you are in — when the back of the envelope agrees with the gut, stop; when they disagree, the disagreement is the signal that the full analysis is worth paying for.
+
+Then the second question, and the answer is yes, closely enough to be diagnostic rather than decorative. Machine learning and intuition are both learned pattern completion from experience. Both are fast, parallel, and produce an answer with confidence and no derivation attached. Both fail the same ways: out of distribution, on superficial features that happened to correlate with the answer in training, and by confabulating fluently when there is nothing to retrieve — a hallucination is a confabulation with the same shape. Both are trustworthy in kind environments with dense feedback, which is why vision and language went first, and unreliable in wicked ones, which is why long-horizon forecasting has not.
+
+The differences are worth naming so the analogy does not overrun. It is functional, not mechanistic; nobody has shown a brain doing gradient descent. A model has no stakes and no body. And it has no native *this feels unfamiliar* signal, which is the one thing a good expert does have. That last gap is, as it happens, what the other repositories I keep are mostly about — giving a model an epistemic-uncertainty reading it would otherwise lack, and putting gates around what it is allowed to turn into a belief — so it was a small surprise to find the same rule waiting there as in the dragon entry.
+
+Because the rule does carry over unchanged. The model is the intuition. The calculator, the prover, the test suite and the gate are the analysis. A reasoning model writing its steps out is a person doing the sum longhand on top of the same substrate. Use the one to generate and the checkable thing to verify, and spend the verification where errors would be silent. A system that skips that step has the exact failure profile of an overconfident expert in a wicked domain, only faster and at scale.
+
+Which brings it back round. A dragon in this setting is filed by its signature because the witness's picture is the intuitive completion of something outside the range intuition was built for. The record's answer is the instrument reading and the table of what the thing cannot do. That is not a stylistic preference. It is the same discipline as writing down when to stop trusting a gut, and the same one as putting a gate in front of a model: know where the compression was trained, and past that edge, trust only what can be checked.
+
+## Agreement, and the override
+
+One more question, because the previous section only says *when* to distrust each side and not what to do at the moment they meet. What happens when intuition and logic agree, and what happens when one has to override the other?
+
+Agreement is the comfortable case and the least informative one. Two sources agreeing is evidence only if they are independent, and they usually are not. Either the logic was built to justify the gut, which is motivated reasoning in a suit, or the intuition was itself formed by earlier analysis, which is what expert intuition *is*. In both cases the agreement counts once and not twice. And the two can agree and both be wrong, when both were trained on the same distribution: intuition and Newtonian mechanics agreed for two centuries, and Euclid's fifth postulate felt obvious to everyone who checked it. So agreement is when you act, and when you stop paying for more analysis. It is not confirmation of anything beyond the region both were trained in.
+
+Logic overriding intuition is the celebrated case — Monty Hall, the birthday problem, the relativity of simultaneity — and the rules for letting logic win are stricter than the folklore suggests.
+
+- **Check the premises before the intuition.** A valid argument from a wrong premise is where most counterintuitive results actually come from. Until the premises and the domain have been checked, a surprising conclusion is better evidence of a modelling error than of a broken gut, and the prior on *I set this up wrong* should be high.
+- **Then ask whether the intuition is in its trained domain.** If it is not — probability and scale being the usual offenders — logic wins by default and the intuition has no standing. If it is, and the expert is seasoned in a kind environment, the disagreement is a signal to re-examine the model, because the gut may be tracking a variable the model omitted. Klein's firefighter who cleared the building without knowing why was right, and the model that said the fire was small had the wrong fire.
+- **Weigh the asymmetry.** If logic says go and intuition says stop, and delay is cheap, stopping to look costs little and going costs a lot. The override should wait for the check.
+- **Do not override; update.** The right end state is not logic winning while the gut sulks. It is working the problem until the intuition catches up, which Monty Hall does the moment you play it with a hundred doors. A persistent gap between what you can prove and what you feel is a place where you will make the error again under time pressure, when only the intuition is fast enough to act.
+
+Intuition overriding logic is the omitted case, and it is legitimate more often than the folklore admits. In a kind domain with a seasoned expert, the residual feeling that something is wrong is data about a missing variable, and the honest response is to go and find it rather than to defer to the equations. The popular-science failure this entry opened with is exactly this override done without noticing: the picture wins over the formalism and nobody records that a contest happened.
+
+The same independence test governs the machine version. A person who has seen the model's output and then agrees with it is not a second source; the agreement counts once.
+
+And for the writing, this cuts cleanly. A character whose intuition and reasoning agree is at rest. The drama is in the override, and the honest character is the one who lets the logic win and then has to live with the gut still disagreeing — not the one whose feelings turn out to have been right all along.
