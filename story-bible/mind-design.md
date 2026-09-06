@@ -283,7 +283,10 @@ is open and stays open** (16 August: "if their recall is ordinary, say
 nothing"); the draft says nothing, and its rule that *a telling is not yours
 until somebody has heard it* is a practice of the record, not a property of
 the mind. *Draft:* time between events is measured in tellings — how long a
-known story takes — since there is no day to measure it in.
+known story takes — since there is no day to measure it in. *Third
+chapter:* the first argument among the Told is staged on exactly this —
+settled by who was there, and unsettled when Went-Round points out that
+nobody was there for the part that matters, and nobody can be.
 
 ### 3. First move: move a stone
 

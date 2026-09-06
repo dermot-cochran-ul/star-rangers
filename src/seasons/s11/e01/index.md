@@ -21,7 +21,9 @@ permalink: /seasons/s11/e01/
   Then the youngest has a question of their own — why do the up-people never ask? — and the answer is that nobody
   has told them anything, and every telling begins with a stone. The youngest carries the up-people's own humming
   stone down through the squeeze to the line where their feet once stopped, and it wakes on the way, and afterwards
-  the people have a name for the one who did it.
+  the people have a name for the one who did it. Then nothing happens, and the nothing is the trouble: the Told argue
+  the manners for the first time, the youngest goes up to learn how the up-people ask, and Stone-First finishes a thought
+  that was for keeping and goes to stand on the line.
 </p>
 
 {% set seasonNumber = "11" %}

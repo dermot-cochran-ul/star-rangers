@@ -86,7 +86,7 @@ description: "The four reading tiers of Fian Ilchruinne — children, young adul
     plain words. The bottom of the ladder, and complete in itself.
   </p>
   <p class="thread-section__description">
-    Registered for this rung, with its first two chapters: <a href="/star-rangers/threads/below-the-roof/">Below
+    Registered for this rung, with its first three chapters: <a href="/star-rangers/threads/below-the-roof/">Below
     the Roof</a>, Season 11 — the Pandoids of Fliade from inside their own deep networks, the
     record's first storyline carried by a non-human cast. It will have an address of its own
     when it has more chapters.
