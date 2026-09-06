@@ -8,6 +8,7 @@ status: Active
 aliases:
   - "the Teddy Bear"
   - "Individual Four (Fliade survey log)"
+  - "Carried-It-Sleeping (the Told)"
 tags: [alien, pandoid, fliade, survey-corps, first-contact, cavern-biosphere, star-rangers]
 description: "The one Pandoid the Fliade survey learned to tell from the others, named by the surface party for a child's toy and logged as Individual Four: smaller than the adults, soft and warm to every instrument that has measured them, the only one who comes up to where the survey works — never seen doing it, and never once mistaken for weak by anyone who has read the log."
 ---
@@ -32,9 +33,11 @@ It was standing upright, on its base, oriented the way the party orients them, a
 
 Two readings were filed, and the record keeps both. Instrument Specialist Egede's is that a dropped thing was returned: a courtesy, in a form a party that had never been addressed could not fail to understand. The survey lead's is that a line was drawn, with the party's own instrument, at the party's own furthest mark, by someone who had watched where the party stopped and thought about it. The two are not in conflict about what happened, only about what it was, and the Fliade doctrine — slow everything down — holds under either. The unit was lifted that day. No unit has since been placed past the line, and the party has not crossed it.
 
+From inside, [*Carried It Sleeping* (S11E01C02)](/star-rangers/seasons/s11/e01/s11e01c02/) supplies what neither reading could: it was a stone moved first — the people's manners for entering a place, done with the party's own instrument because it is the only ground the party listens to — set at the line where the party's feet had once come through the squeeze and stopped, which from the deep side is the edge of the up-people's place. Egede's courtesy and Nakagawa's furthest mark are each half of it. The survey has no way to hold the whole, and this page, which is the survey's side, records that the whole exists and where it is told.
+
 ## What the Record Does Not Carry
 
-**Their name.** *Pandoid* is a survey coinage; *Teddy* is a surface party's; *Individual Four* is a log's. None is a name they gave, and the absence is [marked rather than filled](/star-rangers/codex/marked-absences/).
+**Their name — as the survey holds it.** *Pandoid* is a survey coinage; *Teddy* is a surface party's; *Individual Four* is a log's. None is a name they gave the survey, and on the survey's side the absence is [marked rather than filled](/star-rangers/codex/marked-absences/). From inside, the people's name for them is rendered *Carried-It-Sleeping* — a telling, on the pattern by which [the Told](/star-rangers/glossary/the-told/) name everyone — for the same act the survey files as the relay's placement. The party named them for a soft thing a child holds; the people named them for holding the party's thing still while it slept. The two names meet at one object and do not know it.
 
 **Their age, and their sex.** The party's log says *he*. The party's word is the party's, and the record does not follow it; the *they* on this page is not a Pandoid pronoun either, only the record declining to claim one. Whether the Pandoids carry a system of their own is exactly the kind of fact a people states and an observer cannot.
 

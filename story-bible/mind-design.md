@@ -254,7 +254,10 @@ stated before it is drafted. Derived from `src/lore/planets/fliade.md`,
 `src/characters/teddy.md`, the four rulings of 16 August
 (`intake-2026-07-26.md`) and the naming doctrine; where the derivation runs
 out the line says **open** and the decision is Dermot's. The chapter took
-the working positions marked *draft* below and stops on them.
+the working positions marked *draft* below; Dermot approved it the same
+evening, and the second chapter (*Carried It Sleeping*, S11E01C02, at his
+ask *Endonym and naming*) supplied the endonym and the naming system from
+inside — see *Open, and his* below for what that leaves.
 
 ### 1. Certain of warmth and stone; unable to know the roof
 
@@ -338,11 +341,16 @@ they go up unannounced.
 
 ### Open, and his
 
-The endonym and the naming system (the draft renders every name in
-translation — *Stone-First* as a telling, the youngest as *the youngest* —
-and invents no phonetics); pronouns (the draft uses the record's *they*);
-whether keeping the margin is an office; whether memory is ordinary (the
-draft assumes it and says nothing).
+~~The endonym and the naming system~~ — **supplied by S11E01C02, held for
+his approval**: the people are *the Told* (one is of the people by having
+been told the tellings), and a person is named by the first true thing said
+of them that others went on repeating, the youngest becoming
+*Carried-It-Sleeping*; both rendered in translation, no phonetics invented,
+registered at `src/glossary/the-told.md`. Still his: whether a name can
+change when a truer thing is said, and whether the people's word is one word
+or a phrase. Pronouns settled at the record's *they* by the first chapter's
+approval. Still open: whether keeping the margin is an office; whether memory
+is ordinary (the drafts assume it and say nothing).
 
 ## Where this goes
 

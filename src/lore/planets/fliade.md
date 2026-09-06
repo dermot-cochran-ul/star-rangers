@@ -55,6 +55,6 @@ The record does not resolve this, and the standing doctrine has been to slow eve
 
 ## What the Record Does Not Carry
 
-**The Pandoids' own name for themselves.** *Pandoid* is a survey coinage, built the way survey coinages are built — quickly, from a resemblance, by people with nothing better to hand. It is the name in every filing, it will remain the name in every filing until somebody is in a position to be told otherwise, and it is not a name the Pandoids gave.
+**The Pandoids' own name for themselves.** *Pandoid* is a survey coinage, built the way survey coinages are built — quickly, from a resemblance, by people with nothing better to hand. It is the name in every filing, it will remain the name in every filing until somebody is in a position to be told otherwise, and it is not a name the Pandoids gave — to the survey. What the survey has not been told, the record's narrative now carries from the other side: the people call themselves, in the record's translation, [the Told](/star-rangers/glossary/the-told/), and are named individually by tellings on the same pattern. The two names belong to two sides of one encounter, and this entry keeps the survey's, because this entry is the survey's side.
 
 See also: [What the Record Refuses](/star-rangers/lore/what-the-record-refuses/), [Cross-Biosphere Taxonomy](/star-rangers/lore/cross-biosphere-taxonomy/), [Frontier Transformation Protocols](/star-rangers/lore/frontier-transformation-protocols/), [Trígrian](/star-rangers/lore/planets/trigrian/).

@@ -18,7 +18,7 @@ They keep the margin: the line where the upper levels, which the runners graze a
 
 Nothing, from the survey's side. The Fliade survey logs adults at the margin on the days the smaller one comes up and on the days they do not, announced when they are announced at all by the shift of a boulder, and has no way to tell one adult from another at that distance. Stone-First is one of those boulders. Which one, the survey does not know and this page does not say.
 
-From inside, [*Nobody Looked Up* (S11E01C01)](/star-rangers/seasons/s11/e01/s11e01c01/): the adult who let the youngest go up unannounced, felt the warm change when they went, waited to be told, and asked for the telling a second time with one thing left out.
+From inside, [*Nobody Looked Up* (S11E01C01)](/star-rangers/seasons/s11/e01/s11e01c01/): the adult who let the youngest go up unannounced, felt the warm change when they went, waited to be told, and asked for the telling a second time with one thing left out. And [*Carried It Sleeping* (S11E01C02)](/star-rangers/seasons/s11/e01/s11e01c02/): the adult who answered *why don't they ask* with *nobody has told them anything*, heard the telling of the humming stone standing up, said only *you held still — good*, and carried the telling down into the warm, leaving the reason out, which is how the youngest came to be named.
 
 ## The Question They Keep
 
@@ -26,7 +26,7 @@ The people's manners for a stranger in your place are short: leave it to them un
 
 ## What the Record Does Not Carry
 
-**Their name.** *Stone-First* is a translation of a telling; the people's word is not held.
+**Their name.** *Stone-First* is a translation of a telling, on the pattern by which [the Told](/star-rangers/glossary/the-told/) name everyone — the first true thing said of a person that others went on repeating; the people's word is not held.
 
 **Their age, and their sex.** The *they* on this page is the record's translation default, declining to claim a pronoun for a people who may keep a system of their own.
 
