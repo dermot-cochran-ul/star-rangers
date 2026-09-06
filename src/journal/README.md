@@ -6,4 +6,6 @@ Front matter: `title` and `date` required; `tags`, `description` optional. Scaff
 
 **What goes here versus the changelog** (agreed 2026-08-16, amended 2026-08-31): `CHANGELOG.md` answers *what changed*, complete and for retrieval; the Journal answers *what did I learn*, selective and for reading. Reasoning worth real prose belongs in an entry here, and the changelog line then says what changed and where without repeating it.
 
+**Register** (Dermot's direction, 2026-09-06): entries are written at the contemplative reading level, and being impossible to misunderstand outranks plain language. Define a term on first use rather than avoid it; check that every claim and attribution is exactly true, not loosely; keep to the tier's 800–1,200-word band, and split an entry that outgrows it along its section breaks into cross-linked entries. A register, not a gate — the section stays on every edition that carries it.
+
 **What may be published here** is derived from `story-bible/`, never mirrored from it: craft vocabulary and reasoning only. The test before publishing anything drawn from the story bible is not *is this interesting?* but *does this tell a reader something the story has not told them yet?* `story-bible/` itself is permanently unpublished.
