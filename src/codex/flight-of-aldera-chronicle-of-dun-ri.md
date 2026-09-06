@@ -3,7 +3,7 @@ layout: codex.njk
 title: "The Flight of Aldera: A Chronicle of Dún Rí"
 category: "Legend"
 tags: [elvira, aldera, dun-ri, castle-ravana, brother-daire, overfold, church-space, legend, culture]
-description: "A church-space chronicle of a princess named Elvira and her cat Aldera at Dún Rí, and of the cat's flight to sea and back — collected long before the Season 1 boundary practitioner and detective-agency cat who share their names, and never confirmed to be the same figures."
+description: "A church-space chronicle of a princess named Elvira and her cat Aldera at Dún Rí, and of the cat's flight to sea and back — recited in the Fellowship's chapters, its collection undated, and never confirmed to be the same figures as the Season 1 boundary practitioner and detective-agency cat who share their names."
 author: "Unattributed; transmitted through Fellowship of Light chapter recitation"
 institution: "Fellowship of Light, church-space oral archive"
 location: "No single manuscript master survives; compiled from multiple recorded oral variants, which disagree on incidental detail (see archivist's note)"

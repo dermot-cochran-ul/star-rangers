@@ -1627,7 +1627,7 @@ same evening: all pass; one line in *The Flight of Aldera* left as a choice
 **Ruled later the same evening — option 2**, realized as two sentences in the
 archivist's note; nothing open from the audit.
 
-## *The Flight of Aldera* against the Episode 0 chapters — `intake-2026-09-06.md`, seventh section, timeline check
+## *The Flight of Aldera* against the Episode 0 chapters — `intake-2026-09-06.md`, seventh section, timeline check — RULED 6 September 2026
 
 At Dermot's ask (*check the timeline for Aldera please*). Canon's Aldera
 chronology is consistent across the timeline, the four Episode 0 chapters
@@ -1637,4 +1637,6 @@ says it was *collected long before* the Season 1 figures — the one line that
 asserts a chronology canon contradicts; the body dates nothing and the July
 disambiguation kept the mystery open on purpose. Three choices: leave it;
 clarify the description to fix no era (recommended); resolve the mystery
-(a canon change, not recommended now). Open.
+(a canon change, not recommended now). **Ruled minutes later: option 2** —
+the description reworded to fix no era; the archivist's in-character *this
+era's* left; the mystery stays open as July left it.
