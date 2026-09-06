@@ -23,7 +23,7 @@ commentsCategory: characters
           <span class="character-badge character-badge--role">{{ role }}</span>
           {% endif %}
           {% if status %}
-          <span class="character-badge character-badge--status character-badge--status-{{ status | lower }}">{{ status }}</span>
+          <span class="character-badge character-badge--status character-badge--status-{{ status | slugify }}">{{ status }}</span>
           {% endif %}
         </div>
 
