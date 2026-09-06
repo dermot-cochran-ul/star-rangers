@@ -8,15 +8,15 @@ image: "star-rangers-safety-corps.jpg"
 image_alt: "Designed cover for the Star Rangers Safety Corps: a teal shield-and-checkmark certification emblem in a ringed seal, on a dark background."
 ---
 
-A testing standard printed in Chicago in 1894 still casts a shadow across fold gates and boundary stations. The Safety Corps remembers that origin as lineage, not trivia.
+A testing standard printed in Chicago in 1894 CE still casts a shadow across fold gates and boundary stations. The Safety Corps remembers that origin as lineage, not trivia.
 
-The Star Rangers Safety Corps is the oldest continuous institutional ancestor within the Star Rangers organisational family. Its operational culture predates the Star Rangers by more than six centuries. Its founding document is not the Consolidation Accords or the Star Rangers Charter; it is a product safety testing standard published in Chicago in 1894.
+The Star Rangers Safety Corps is the oldest continuous institutional ancestor within the Star Rangers organisational family. Its operational culture predates the Star Rangers by more than six centuries. Its founding document is not the Consolidation Accords or the Star Rangers Charter; it is a product safety testing standard published in Chicago in 1894 CE.
 
 Within the Safety Corps, that fact is not treated as irony. It is treated as doctrine.
 
 ## Underwriters Laboratories and the Standards Lineage
 
-Underwriters Laboratories was founded in 1894 to test electrical equipment for insurance underwriters who needed independent evidence about whether a product would burn down the building it entered. By the early twenty-first century, its successor organisation had widened that work into safety science, certification, testing, and standards development across industries its founders could not have imagined.
+Underwriters Laboratories was founded in 1894 CE to test electrical equipment for insurance underwriters who needed independent evidence about whether a product would burn down the building it entered. By the early twenty-first century, its successor organisation had widened that work into safety science, certification, testing, and standards development across industries its founders could not have imagined.
 
 The core method stayed intact: define failure, test for it, certify what does not fail that way, and preserve the standards that keep certification meaningful.
 
@@ -28,7 +28,7 @@ The work was not glamorous. It meant arguments over test protocols, disputes abo
 
 As the off-world population grew from hundreds to thousands, the safety question changed. It was no longer merely *will this device fail predictably* but *will this whole environment kill everyone inside it if the device fails predictably*.
 
-United Space Industry Standards — the successor organisation that emerged from the consolidation of the existing body with several European and Asian standards bodies in approximately 2089 — took on that larger mandate. Its jurisdiction covered all human-occupied off-world environments. Its certification expanded beyond hardware to procedures, habitat design, life-support integration, and, as the boundary-monitoring programme spread, instrumentation operating in anomalous physical environments.
+United Space Industry Standards — the successor organisation that emerged from the consolidation of the existing body with several European and Asian standards bodies in approximately 2089 CE — took on that larger mandate. Its jurisdiction covered all human-occupied off-world environments. Its certification expanded beyond hardware to procedures, habitat design, life-support integration, and, as the boundary-monitoring programme spread, instrumentation operating in anomalous physical environments.
 
 Boundary-proximate certification became the problem that defined its character. Standard safety testing assumes stable conditions. Boundary zones do not provide them. A perfectly calibrated instrument in a stable Concordant can become unreliable or fail entirely inside a Class II or Class III boundary zone. The defect is not always in the instrument. Sometimes it is in the certification framework.
 

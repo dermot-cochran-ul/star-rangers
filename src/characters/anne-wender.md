@@ -30,7 +30,7 @@ The course of the election itself — what the Trust argued, on what grounds, an
 
 ## Known History
 
-- Aboard a long-voyage vessel wrecked in deep transit in **2788 UCSD** (Year -38). Every adult aboard died. She was about fifteen and the oldest person left, and the compartment ran for nine days on three rules she made: everyone ate when she said, everyone slept when the lights dimmed on the cycle she kept by hand, and every question got a true answer or the true statement that she did not know.
+- Aboard a long-voyage vessel wrecked in deep transit in **2788 UCSD**. Every adult aboard died. She was about fifteen and the oldest person left, and the compartment ran for nine days on three rules she made: everyone ate when she said, everyone slept when the lights dimmed on the cycle she kept by hand, and every question got a true answer or the true statement that she did not know.
 - Recovered with the other children by [Lucene-9000](/star-rangers/characters/lucene-9000/), [Xenon](/star-rangers/characters/xenon/) and [Lumbarian](/star-rangers/characters/lumbarian/), and carried to [Eden Space Habitat](/star-rangers/lore/eden-space-habitat/) — see [*A Person's Name*](/star-rangers/seasons/s01/e00/s01e00c04/).
 - Gave her name at Eden's intake hall, and her sister's after it. When the form reached the line asking how they were to be housed, she answered *"Together"* before the question finished, and the officer wrote it down. That word is why [Karla Wender](/star-rangers/characters/karla-wender/) and [Andrew Falkorian](/star-rangers/characters/andrew-falkorian/) are her family and not three names on one manifest.
 - Raised at Eden alongside both, in the care of Lucene-9000, whose escorting never formally ended.

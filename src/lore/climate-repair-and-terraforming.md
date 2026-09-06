@@ -17,7 +17,7 @@ The sharpest phase of the crisis is well documented: the climate-driven coastal 
 
 Nobody called any of this terraforming. The word already existed, attached to Mars and to dreams of Mars, and it described making a dead world live. What Earth needed was a living world kept alive, and the working names were plainer: repair, remediation, recovery. The word came backwards to Earth later, when the same toolkit crossed to Mars and people noticed it was the same toolkit.
 
-The patchwork consolidated the way most Earth-side infrastructure of the period did. It was folded into the [United Space Consortium](/star-rangers/lore/united-space-consortium/)'s civil administration after 2337, carried forward with uneven attention under [the Imperium](/star-rangers/lore/the-imperium/), and it survives in its current form under Solar System Defence Command's environmental protocols, which still run the preserves and still hold the ocean chemistry where the repair left it.
+The patchwork consolidated the way most Earth-side infrastructure of the period did. It was folded into the [United Space Consortium](/star-rangers/lore/united-space-consortium/)'s civil administration after 2337 UCSD (2137 CE), carried forward with uneven attention under [the Imperium](/star-rangers/lore/the-imperium/), and it survives in its current form under Solar System Defence Command's environmental protocols, which still run the preserves and still hold the ocean chemistry where the repair left it.
 
 ## What the Repair Taught
 
