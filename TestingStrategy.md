@@ -68,6 +68,12 @@ Run all: `node --test test/*.test.js` · one suite: `node --test test/content-fi
   APP0 segment, and null for truncated files, malformed segment lengths,
   missing SOF markers, zero dimensions, non-images, unreadable paths —
   plus the by-path memoisation.
+- **`test/status-key.test.js`** (added 2026-09-06) pins `lib/status-key.js`,
+  the class-name key for a character's status badge: the head clause before
+  an em dash, colon, semicolon, comma or parenthesis, slugified. It holds the
+  invariant that the single-word statuses key exactly as the old lowercase
+  did (so no badge rule silently unmatches), that "At large" hyphenates, and
+  that a qualified status such as Ilse Korvain's keys as `contained`.
 
 The filter tests deliberately use the **real** `lib/storyline-threads.js`
 registry, not fixtures: church-space being the only tier-gated thread is itself a

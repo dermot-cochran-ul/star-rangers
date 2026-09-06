@@ -71,6 +71,10 @@ const PAIRS = [
   ["accent on surface, hovered", "--color-accent-hover", "--color-surface"],
   ["accent on badge/label", "--color-accent", "--color-surface-2"],
   ["canon-facts toggle", "--color-canon", "--color-surface-2"],
+  // The Contained status badge is filled: page-background text on the canon
+  // colour (.character-badge--status-contained). The only place that pair
+  // meets, and the tightest of the badge pairs on the light palettes.
+  ["contained badge", "--color-bg", "--color-canon"],
   ["skip link", "--color-skip-text", "--color-skip-bg"],
   ["active POV button", "--color-bg", "--color-pov-active"]
 ];

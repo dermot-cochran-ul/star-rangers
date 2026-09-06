@@ -1536,6 +1536,17 @@ a:focus {
   border-color: var(--color-canon);
   border-style: dashed;
 }
+/* Contained is At large's inversion: the same colour, filled instead of left
+   open. Page-background text on the canon colour clears the 4.5:1 floor on
+   every non-exempt palette (5.20:1 at the tightest, theme-light) and
+   check-contrast.js measures the pair. The class comes from the status's head
+   clause - "Contained — Survey Corps custody, ..." keys as `contained` - see
+   lib/status-key.js. */
+.character-badge--status-contained {
+  background: var(--color-canon);
+  color: var(--color-bg);
+  border-color: var(--color-canon);
+}
 /* Every character portrait in the corpus is generated to 1200x675 to match the
    ratio below — see story-bible/images.md. Changing this aspect-ratio silently
    re-crops all of them, and a taller source delivered into a wider slot loses
