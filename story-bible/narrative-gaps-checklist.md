@@ -32,7 +32,7 @@ Per `lib/storyline-threads.js`. Each is a self-contained narrative with its own 
 | **Tissadelle Shepherd's Arc** | 1, 3, 5, 6, 7 | 27 | The spine. Ends written; middle thin |
 | **Undercover Pets** | 2 | 9 | Substantial and unlisted until now |
 | **Orbital Five-O** | 4 | 1 | **A thread on one chapter** |
-| **Below the Roof** | 11 | 2 | **A thread on two chapters** — S11E01C01 drafted and approved 2026-09-06 (PR #725); S11E01C02 drafted the same evening at his ask *Endonym and naming*, supplying both from inside (the Told; names as tellings) and the relay's reason, approved the same evening (PR #727); what the up-people do next is his |
+| **Below the Roof** | 11 | 3 | **A thread on three chapters** — S11E01C01 drafted and approved 2026-09-06 (PR #725); S11E01C02 drafted the same evening at his ask *Endonym and naming*, supplying both from inside (the Told; names as tellings) and the relay's reason, approved the same evening (PR #727); S11E01C03 drafted the same evening at his ask — the manners argued, how the up-people ask, Stone-First on the line — held for his approval; the survey's answer is his |
 | **Church Space** | 8 | 1 | **A thread on one chapter** |
 
 ---

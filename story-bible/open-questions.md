@@ -809,9 +809,12 @@ put as choices in the intake:
   in translation, no phonetics, registered at `src/glossary/the-told.md` and
   in the canonical guide. Put as choices in the intake with the alternatives
   (a phonetic form; *the people* itself as the endonym); (a) approved.
-- **Still his on names:** whether a name can change when a truer thing is
-  said of a person later, and whether the people's word for themselves is one
-  word or a phrase.
+- ~~**Whether a name can change**~~ — **ruled 6 September** (`intake-2026-09-06.md`,
+  fourteenth section): names are extended, not replaced; a truer thing said
+  later is added, and the growth shows clarity and maturity. Realized in the
+  glossary entry. **Still his:** whether the people's word for themselves is
+  one word or a phrase; and what Stone-First's and Carried-It-Sleeping's
+  names grow into, which no chapter has said.
 - ~~**Pronouns**~~ — **settled by the approved chapter**: the record's
   default *they*, used sparingly; no pronoun system registered.
 - ~~**A Pandoid section in `mind-design.md`**~~ — **written 6 September**,
@@ -831,10 +834,24 @@ put as choices in the intake:
   with the up-people's own stone because it is the only ground they listen
   to, at the line where their feet once stopped; Egede's and Nakagawa's
   readings each half of it.
-- **What the up-people do next** — the second chapter ends with the stone
-  heard and the asking not yet made. Whether the survey ever asks, in what
-  form, and whether the thread gains a survey-side strand to carry it, is
-  the thread's next question and his.
+- **What the up-people do next** — still his, and the third chapter
+  (*Someone to Ask*, S11E01C03, drafted 6 September, held for his approval)
+  deliberately does not take it: the up-people are shown asking each other
+  constantly, and one of them speaking to the dark with a rising sound at
+  the end of each working time, which the record leaves unread; the people's
+  move is Stone-First standing on the line, in the open, to be someone to
+  ask. Whether the survey ever asks, in what form, and whether the thread
+  gains a survey-side strand to carry it, is the next chapter's question and
+  his — and the survey-side strand, if there is one, needs its convergence
+  fixed before it is drafted (the story-bible rule for strands).
+- **Who speaks to the dark.** The third chapter's up-person is *the
+  smallest of the three, the one who knelt to the humming stone*; the record
+  from inside cannot name them. The survey side would most naturally make
+  it Egede, whose codex note ends *unasked, which is worse* — his to
+  confirm before any survey-side page says so.
+- **Went-Round** — a third named adult, drafted 6 September with a page;
+  whether the ensemble grows further, and whether the argument the chapter
+  gives to nobody is ever settled among the Told, his.
 
 **First chapter drafted and approved 6 September 2026** — *Nobody Looked Up*
 (S11E01C01), drafted at Dermot's ask with a page for Stone-First and the

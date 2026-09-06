@@ -283,7 +283,10 @@ is open and stays open** (16 August: "if their recall is ordinary, say
 nothing"); the draft says nothing, and its rule that *a telling is not yours
 until somebody has heard it* is a practice of the record, not a property of
 the mind. *Draft:* time between events is measured in tellings — how long a
-known story takes — since there is no day to measure it in.
+known story takes — since there is no day to measure it in. *Third
+chapter:* the first argument among the Told is staged on exactly this —
+settled by who was there, and unsettled when Went-Round points out that
+nobody was there for the part that matters, and nobody can be.
 
 ### 3. First move: move a stone
 
@@ -346,9 +349,10 @@ the same evening**: the people are *the Told* (one is of the people by having
 been told the tellings), and a person is named by the first true thing said
 of them that others went on repeating, the youngest becoming
 *Carried-It-Sleeping*; both rendered in translation, no phonetics invented,
-registered at `src/glossary/the-told.md`. Still his: whether a name can
-change when a truer thing is said, and whether the people's word is one word
-or a phrase. Pronouns settled at the record's *they* by the first chapter's
+registered at `src/glossary/the-told.md`. Ruled the same evening: names are
+not replaced but **extended** — a truer thing said later is added, and the
+growth shows clarity and maturity (fourteenth section). Still his: whether
+the people's word is one word or a phrase. Pronouns settled at the record's *they* by the first chapter's
 approval. Still open: whether keeping the margin is an office; whether memory
 is ordinary (the drafts assume it and say nothing).
 
