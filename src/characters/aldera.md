@@ -21,7 +21,7 @@ gallery:
     image_alt: "Close-up portrait of a tabby-and-white kitten with blue eyes beside a blue flower."
 ---
 
-Aldera was at the Marsh Causeway before the outpost had a new occupant. She had been logging for months before Elvira began her own records. Elvira did not know this until she asked.
+Aldera was at the Marsh Causeway before the outpost had a new occupant. She had been logging since deep winter, before Elvira arrived in early spring and began her own records. Elvira did not know this until she asked.
 
 She is a cyber-enhanced cat, a field unit in the distributed detective agency network. [Smart pets](/star-rangers/glossary/smart-pet/) and cyber-enhanced animals are the agency's preferred observers in boundary-proximate zones — ordinary robots serve that same function for the police department instead, a different institution entirely. The reason is specific: their cognitive architecture does not layer rationalisation over raw signal. They register asymmetry before they reach for explanation.
 
