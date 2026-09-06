@@ -12,7 +12,7 @@ related:
 tags: [membrane-shadow, gravitational-bleed, boundary-zone, cosmology]
 ---
 
-A **Membrane Shadow** is the Physical-layer counterpart to [Intermembrane Bleed](/star-rangers/glossary/intermembrane-bleed/)'s Etheric one: at Class III inter-membrane proximity, a coherent mass in the neighbouring *universe*, on the far side of a narrowed Interval — usually a living being — leaks enough gravitational field structure across it to bend and dim ambient light, producing a full silhouette with no physical object on this side casting it.
+A **Membrane Shadow** is the Physical-layer counterpart to [Intermembrane Bleed](/star-rangers/glossary/intermembrane-bleed/)'s Etheric one: at Class III inter-membrane proximity, a coherent mass in the neighbouring *universe*, on the far side of a narrowed Interval — usually a living being — patterns the geometric strain between the two membranes with its own outline, and that strain — its shape the neighbour's, its strength the boundary's — bends and dims ambient light, producing a full silhouette with no physical object on this side casting it.
 
 Nothing crosses the gap. The mass responsible stays entirely within its own [Concordant](/star-rangers/glossary/concordant/). What is seen is the shadow of something real, cast from one universe into another it never touches — coincidence or convergent design if it happens to resemble someone the observer knows, never an alternate-timeline double, since neighbouring membranes share no common history to have diverged from.
 
