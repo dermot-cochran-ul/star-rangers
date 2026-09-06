@@ -35,14 +35,14 @@ description: "The four reading tiers of Fian Ilchruinne — children, young adul
 <ul>
   <li>
     <strong>A thread is a storyline.</strong> It is a set of whole seasons that read as one
-    story, and every season belongs to exactly one thread. Six are registered — the
+    story, and every season belongs to exactly one thread. Seven are registered — the
     Founding Era, Tissadelle Shepherd's Arc, Undercover Pets, Orbital Five-O, Young Star
-    Rangers and Church Space — and the <a href="/star-rangers/threads/">Threads</a> page
+    Rangers, Below the Roof and Church Space — and the <a href="/star-rangers/threads/">Threads</a> page
     lists the ones the address you are on can see.
   </li>
   <li>
     <strong>A tier is a readership,</strong> and it is defined by which threads it
-    carries. The children's tier carries one; each rung above carries everything below it
+    carries. The children's tier carries one with chapters and one registered for it; each rung above carries everything below it
     and adds its own. A tier is a floor, not a ceiling: an edition on it may show more
     than the tier's threads, never fewer.
   </li>
