@@ -43,7 +43,7 @@ Two further failure classes account for most of the remainder, and unlike the la
 - **Uncertified transit.** No aperture tolerance was established, so none was exceeded. The Safety Corps' own phrasing for this in loss adjustment is that the vessel was operating outside a standard rather than against one, which is not a distinction its underwriters have ever accepted.
 - **Certification against a weaker standard.** More common, far harder to prosecute, and the reason the Safety Corps spends more of its budget on comparative standards work than on inspection. A hull can be fully, honestly, verifiably certified — to a standard whose aperture-stability margin the Safety Corps rejected two centuries ago as an economy taken at the wrong end.
 
-The [Hyperfold Yield Combine](/star-rangers/lore/hyperfold-yield-combine/) is the case the Corps teaches from, and it teaches from it because nothing in it was illegal. A licence, a counsel's opinion, an audited product. Lawful is not a synonym for safe, and the Safety Corps' whole institutional memory — a testing standard printed in Chicago in 1894, written for insurers who wanted to know whether a thing would burn the building down — is organised around refusing to let the two words merge.
+The [Hyperfold Yield Combine](/star-rangers/lore/hyperfold-yield-combine/) is the case the Corps teaches from, and it teaches from it because nothing in it was illegal. A licence, a counsel's opinion, an audited product. Lawful is not a synonym for safe, and the Safety Corps' whole institutional memory — a testing standard printed in Chicago in 1894 CE, written for insurers who wanted to know whether a thing would burn the building down — is organised around refusing to let the two words merge.
 
 ## The Wrath of the Dragons
 

@@ -24,7 +24,7 @@ He is methodical without being rigid. He is cautious without being fearful. He h
 
 ## Known History
 
-- Joined the Survey Corps in Year -12 (pre-story).
+- Joined the Survey Corps in 2814 UCSD, twelve years before the Threshold posting.
 - Boundary posting experience: six prior stations, two of which recorded unexplained events.
 - Transferred to Threshold Station in 2826 UCSD as team lead for new survey group.
 - Has no documented contact with Court-Fae or Levrils prior to the Threshold posting.

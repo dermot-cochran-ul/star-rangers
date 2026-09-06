@@ -84,7 +84,7 @@ This is a hard continuity constraint, not a flavour note, and it is the one that
 - **Two distinct facts, and don't merge them.** The *ceiling* is about 125. The *healthy* span reaches into the hundreds. A character at 104 needs no explanation and no apology; a character at 124 is at the edge of the possible and should be written as remarkable.
 - **This is cultural as well as medical.** "A fitness health mentality" is a fact about how people in this setting live, not just what their clinics can do — which means it is unevenly distributed, and someone who has spent forty years on stations, on short rations, under boundary-proximate conditions, has not had the same access to it as someone who has not. That is available as texture and has not been used yet.
 
-This rule caused one relocation already: the rescue chapter (*A Person's Name*) was drafted into the Founding Era at 2717 and moved the same day to **Year -38 (2788 UCSD)**, Season 1's prequel episode, because the founding-era placement made Karla Wender a hundred-and-fourteen-year-old Chief Pilot. See `src/seasons/s01/e00/s01e00c04.md`, whose header comment carries the arithmetic.
+This rule caused one relocation already: the rescue chapter (*A Person's Name*) was drafted into the Founding Era at 2717 and moved the same day to **2788 UCSD**, thirty-eight years before the 2826 present, in Season 1's prequel episode, because the founding-era placement made Karla Wender a hundred-and-fourteen-year-old Chief Pilot. See `src/seasons/s01/e00/s01e00c04.md`, whose header comment carries the arithmetic.
 
 ### No interbreeding, no hybrids, no safe cross-species transfusion
 
