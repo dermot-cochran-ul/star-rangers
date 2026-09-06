@@ -1415,6 +1415,15 @@ a:focus {
   .site-search__input { width: 100%; }
   .site-search__results { width: 100%; max-width: 100%; }
   .reading-mode__panel { right: auto; left: 0; }
+}
+
+/* The character header stacks earlier than the rest of the site. The portrait
+   is a fixed 420px that cannot shrink, so between the 640px breakpoint and
+   about 880px the text column beside it collapsed to ~100px: the role badge
+   became a six-line pill, the name broke mid-word, and each tag took its own
+   line. Stacking at 900px keeps the two-column header only where the text
+   column still has a real measure. */
+@media (max-width: 900px) {
   .character-header__inner { flex-direction: column; }
   .character-header__text { width: 100%; }
   .character-portrait { max-width: 100%; }
