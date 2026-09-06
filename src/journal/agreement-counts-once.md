@@ -6,7 +6,7 @@ description: "What to do at the moment intuition and logic meet: why their agree
 tags: [craft, method, editorial]
 ---
 
-*The third of four entries from one conversation on 6 September 2026. It follows [Where the Compression Was Trained](/star-rangers/journal/where-the-compression-was-trained/), which says when to distrust each side; this one says what to do when they meet. The first was [The Picture the Maths Was Invented to Replace](/star-rangers/journal/the-picture-the-maths-was-invented-to-replace/), and the last is [The Parable and the Counterexample](/star-rangers/journal/the-parable-and-the-counterexample/).*
+*The third of four entries from one conversation on 6 September 2026. It follows [Where the Compression Was Trained](/star-rangers/journal/where-the-compression-was-trained/), which says when to distrust each side; this one says what to do when they meet. The first was [The Picture the Maths Was Invented to Replace](/star-rangers/journal/the-picture-the-maths-was-invented-to-replace/), and the last is [The Parable and the Counterexample](/star-rangers/journal/the-parable-and-the-counterexample/). A fifth, [The Children's Talk](/star-rangers/journal/the-childrens-talk/), followed later the same day.*
 
 The previous entry only says *when* to distrust intuition and when to distrust the analysis, and not what to do at the moment they meet. What happens when intuition and logic agree, and what happens when one has to override the other?
 
