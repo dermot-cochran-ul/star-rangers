@@ -6,7 +6,7 @@ description: "When intuition should not be trusted, when the cost of a mathemati
 tags: [craft, method, editorial]
 ---
 
-*The second of four entries from one conversation on 6 September 2026, following [The Picture the Maths Was Invented to Replace](/star-rangers/journal/the-picture-the-maths-was-invented-to-replace/). The next is [Agreement Counts Once](/star-rangers/journal/agreement-counts-once/), and the last is [The Parable and the Counterexample](/star-rangers/journal/the-parable-and-the-counterexample/).*
+*The second of four entries from one conversation on 6 September 2026, following [The Picture the Maths Was Invented to Replace](/star-rangers/journal/the-picture-the-maths-was-invented-to-replace/). The next is [Agreement Counts Once](/star-rangers/journal/agreement-counts-once/), and the last is [The Parable and the Counterexample](/star-rangers/journal/the-parable-and-the-counterexample/). A fifth, [The Children's Talk](/star-rangers/journal/the-childrens-talk/), followed later the same day.*
 
 Having agreed that a picture is the thing the maths was built to replace, I asked the two questions that begs. When should I *not* trust intuition, and when is the cost of a mathematical analysis too high to pay? And does machine learning resemble intuition? They turn out to have one answer underneath, which is why they belong together.
 

@@ -6,7 +6,7 @@ description: "Why mathematical abstractions resist intuition, why popular scienc
 tags: [craft, physics, cosmology, editorial]
 ---
 
-*The first of four entries from one conversation on 6 September 2026. The others are [Where the Compression Was Trained](/star-rangers/journal/where-the-compression-was-trained/), [Agreement Counts Once](/star-rangers/journal/agreement-counts-once/) and [The Parable and the Counterexample](/star-rangers/journal/the-parable-and-the-counterexample/). Each stands alone; together they are one argument.*
+*The first of four entries from one conversation on 6 September 2026. The others are [Where the Compression Was Trained](/star-rangers/journal/where-the-compression-was-trained/), [Agreement Counts Once](/star-rangers/journal/agreement-counts-once/) and [The Parable and the Counterexample](/star-rangers/journal/the-parable-and-the-counterexample/). Each stands alone; together they are one argument. A fifth, [The Children's Talk](/star-rangers/journal/the-childrens-talk/), followed later the same day.*
 
 A conversation this morning started from a plain question — why are mathematical abstractions so unintuitive, and so often flatly misunderstood in popular scientific media? — and ended somewhere I had already been without noticing: at the rule this setting uses for its dragons.
 

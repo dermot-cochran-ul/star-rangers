@@ -6,7 +6,7 @@ description: "Why pictures and intuition can hinder the teaching of mathematics,
 tags: [craft, method, editorial, theology]
 ---
 
-*The last of four entries from one conversation on 6 September 2026. The first, [The Picture the Maths Was Invented to Replace](/star-rangers/journal/the-picture-the-maths-was-invented-to-replace/), is the one this answers; the middle two are [Where the Compression Was Trained](/star-rangers/journal/where-the-compression-was-trained/) and [Agreement Counts Once](/star-rangers/journal/agreement-counts-once/).*
+*The last of four entries from one conversation on 6 September 2026. The first, [The Picture the Maths Was Invented to Replace](/star-rangers/journal/the-picture-the-maths-was-invented-to-replace/), is the one this answers; the middle two are [Where the Compression Was Trained](/star-rangers/journal/where-the-compression-was-trained/) and [Agreement Counts Once](/star-rangers/journal/agreement-counts-once/). A fifth, [The Children's Talk](/star-rangers/journal/the-childrens-talk/), followed later the same day.*
 
 The first entry argued that popular science hands the reader back the picture the formalism was built to replace. The obvious follow-up is that pictures are also how mathematics is *taught*, and that they sometimes hinder it. Why? And how does that compare with a discipline that has used pictures on purpose for two thousand years: the parable in theology?
 
