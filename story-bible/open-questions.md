@@ -1531,7 +1531,7 @@ magnetically seated tab keyed to track; the uniforms note's bar count and
 track colours were proposals. Three shapes put; he took the leans — leave
 the portrait's tab, adopt the system on the page.
 
-## The shadow at the edge — `intake-2026-09-05.md`
+## The shadow at the edge — `intake-2026-09-05.md` — what it is RULED 6 September 2026
 
 Dermot, 5 September 2026: a lingering shadow tries to invade Tobble's
 noögenic universe by assuming Tissadelle's appearance and form, but behaves
