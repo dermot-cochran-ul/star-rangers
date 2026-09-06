@@ -809,9 +809,12 @@ put as choices in the intake:
   in translation, no phonetics, registered at `src/glossary/the-told.md` and
   in the canonical guide. Put as choices in the intake with the alternatives
   (a phonetic form; *the people* itself as the endonym); (a) approved.
-- **Still his on names:** whether a name can change when a truer thing is
-  said of a person later, and whether the people's word for themselves is one
-  word or a phrase.
+- ~~**Whether a name can change**~~ — **ruled 6 September** (`intake-2026-09-06.md`,
+  fourteenth section): names are extended, not replaced; a truer thing said
+  later is added, and the growth shows clarity and maturity. Realized in the
+  glossary entry. **Still his:** whether the people's word for themselves is
+  one word or a phrase; and what Stone-First's and Carried-It-Sleeping's
+  names grow into, which no chapter has said.
 - ~~**Pronouns**~~ — **settled by the approved chapter**: the record's
   default *they*, used sparingly; no pronoun system registered.
 - ~~**A Pandoid section in `mind-design.md`**~~ — **written 6 September**,
