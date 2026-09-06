@@ -258,11 +258,16 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPlugin(pluginNavigation);
 
-  eleventyConfig.addPassthroughCopy({ "src/css": "css" });
-  eleventyConfig.addPassthroughCopy({ "src/js": "js" });
-  eleventyConfig.addPassthroughCopy({ "src/images": "images" });
-  eleventyConfig.addPassthroughCopy({ "src/audio": "audio" });
-  eleventyConfig.addPassthroughCopy({ "src/video": "video" });
+  // Each asset directory carries a README.md for people (2026-09-06).
+  // .eleventyignore keeps Eleventy from rendering them as pages, but
+  // passthrough copy is a file copy and ignores that file, so the copy
+  // itself has to leave them behind or every domain would serve /css/README.md.
+  const notReadme = (filePath) => path.basename(filePath) !== "README.md";
+  eleventyConfig.addPassthroughCopy({ "src/css": "css" }, { filter: notReadme });
+  eleventyConfig.addPassthroughCopy({ "src/js": "js" }, { filter: notReadme });
+  eleventyConfig.addPassthroughCopy({ "src/images": "images" }, { filter: notReadme });
+  eleventyConfig.addPassthroughCopy({ "src/audio": "audio" }, { filter: notReadme });
+  eleventyConfig.addPassthroughCopy({ "src/video": "video" }, { filter: notReadme });
   eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
   eleventyConfig.addPassthroughCopy({ "src/static/.htaccess": ".htaccess" });
   // /favicon.ico at the site root, in addition to the <link rel="icon"> tags in

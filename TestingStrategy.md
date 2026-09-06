@@ -161,6 +161,17 @@ tolerating it — the same rule `sync-version.js` states about its own anchor.
 - **A bug found in production or review** → its regression test lands in the
   same PR as the fix.
 
+### README files inside `src/`
+
+Every subdirectory carries a `README.md` for people (added 2026-09-06). They
+are not content and not pages: `.eleventyignore` excludes `src/**/README.md`
+from rendering, the five passthrough copies in `.eleventy.js` filter the file
+out so no domain serves `/css/README.md`, and each walker that treats `.md` as
+content (`validate-content.js`, `check-changelog-coverage.js`,
+`check-related-terms.js`, `list-canon-facts.js`, `src/_data/latestLore.js`)
+skips the name. A new walker over `src/` should do the same, or a README in
+`src/characters/` will fail schema validation as a character with no `id`.
+
 ## Known open items
 
 - "Commissioned Standing" is a duplicated page title (`src/glossary/` and
