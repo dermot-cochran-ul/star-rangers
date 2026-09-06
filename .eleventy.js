@@ -19,6 +19,7 @@ const {
   isContentIncluded
 } = require("./lib/classify-content");
 const { threadForSeason, DEFAULT_REFERENCE_DOMAIN } = require("./lib/storyline-threads");
+const { statusKey } = require("./lib/status-key");
 const { getEdition, validateEditions, PRESENTATION_MODES } = require("./lib/editions");
 
 // classifyContentPath / isRelatedTopicPageIncluded / isContentIncluded moved
@@ -311,6 +312,9 @@ module.exports = function(eleventyConfig) {
   // to the shared "Unsorted" placeholder), never null, so templates never
   // need their own default-handling for an unassigned season.
   eleventyConfig.addFilter("threadForSeason", (seasonNumber) => threadForSeason(seasonNumber));
+  // The class key for a character's status badge: head clause, slugified -
+  // see lib/status-key.js for why neither `lower` nor `slugify` was enough.
+  eleventyConfig.addFilter("statusKey", (status) => statusKey(status));
 
   // Distinct season numbers (sorted) that have at least one published
   // chapter in the given thread id. Templates use its length to decide
