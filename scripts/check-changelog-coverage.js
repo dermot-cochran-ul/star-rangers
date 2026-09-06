@@ -63,7 +63,7 @@ function walk(rel, out = []) {
   for (const entry of fs.readdirSync(abs, { withFileTypes: true })) {
     const next = `${rel}/${entry.name}`;
     if (entry.isDirectory()) walk(next, out);
-    else if (entry.name.endsWith(".md")) out.push(next);
+    else if (entry.name.endsWith(".md") && entry.name !== "README.md") out.push(next);
   }
   return out;
 }

@@ -35,7 +35,11 @@ function findMarkdownFiles(dir) {
     const fullPath = path.join(dir, entry.name);
     if (entry.isDirectory()) {
       results = results.concat(findMarkdownFiles(fullPath));
-    } else if (entry.name.endsWith(".md")) {
+    } else if (entry.name.endsWith(".md") && entry.name !== "README.md") {
+      // A README.md documents the directory for people (2026-09-06); it is
+      // not a content file, has no front matter, and .eleventyignore keeps
+      // Eleventy from rendering it. Every walker that treats .md as content
+      // skips it the same way.
       results.push(fullPath);
     }
   }

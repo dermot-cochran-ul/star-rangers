@@ -770,6 +770,48 @@ Still live:
   is a survey coinage and not a name they gave. That is the naming doctrine
   applied to itself, and it is also a hook left deliberately loose.
 
+## Teddy — the first individual Pandoid, drafted 6 September 2026
+
+Raised in `intake-2026-09-06.md` (Dermot: *A dangerous Teddy Bear, actually a
+Pandoid, soft and warm, but never weak or foolish*). Drafted the same session as
+`src/characters/teddy.md`, observational register, no chapter. Open:
+
+- ~~**Commitment 3 of the intake**~~ — **approved by Dermot the same day**
+  (*Approved*, fourth section): a Pandoid has moved a survey relay to the
+  party's own furthest mark, and the Fliade entry's *they were arrived at* is
+  now half of the situation. Canon.
+- ~~**Where the character lives**~~ — **answered by Dermot the same day**:
+  *Pandoid thread in child reader tier* (third section of the intake). The
+  page stays the survey's side; whether Teddy is the thread's protagonist is
+  open below.
+- ~~**The page title**~~ and ~~**size**~~ — **approved as drafted**: *Teddy*,
+  smaller than the adults, age unfixed. Whether the thread's protagonist is a
+  cub is the thread's question now, below.
+- **The face.** Canon describes none. The image prompt queued in `images.md`
+  describes a body and stops; generating it needs his description first.
+
+## Below the Roof — the Pandoid thread, registered 6 September 2026
+
+Dermot's ruling (`intake-2026-09-06.md`, third section): *Pandoid thread in
+child reader tier*. Realized as thread `below-the-roof`, Season 11, no chapter,
+listed on `GENERAL_TIER` so no narrowed face gains it by accident. Open, all
+put as choices in the intake:
+
+- **Which edition shows it to a child** — a new subdomain edition
+  (recommended), undercover-pets.com by one line, or wait for chapters.
+- **The thread's name** — *Below the Roof* is a working title; the endonym
+  would be the only name that is not the observers'.
+- **The endonym and naming system**, and **pronouns** — his, before a line is
+  drafted; registered like the Chthonari's.
+- **A Pandoid section in `mind-design.md`**, including whether their memory
+  works as ours, which a thread from inside cannot leave open.
+- **Pandoid young**, and whether Teddy is the protagonist, a new Pandoid is,
+  or an ensemble with Teddy in it.
+- **One strand or two** — a survey-side strand would give the relay its second
+  telling; convergence fixed first.
+- **The Fliade entry's observational sentence** dates when the first chapter
+  lands; the in-story explanation is the thread's first job.
+
 ## Images — awaiting review or triage
 
 `images.md` stays the runbook and the single place image *work* is tracked;

@@ -1,27 +1,27 @@
 ---
 layout: base.njk
-title: "Season 9"
+title: "Season 11"
 eleventyComputed:
-  description: "Episodes and chapters in Season 9 of {{ site.name }}."
-permalink: /seasons/s09/
+  description: "Episodes and chapters in Season 11 of {{ site.name }}."
+permalink: /seasons/s11/
 ---
 <nav class="chapter-breadcrumb" aria-label="Season location">
   <ol class="breadcrumb" role="list">
     <li><a href="/star-rangers/seasons/">Seasons</a></li>
-    <li aria-current="page">Season 9</li>
+    <li aria-current="page">Season 11</li>
   </ol>
 </nav>
 
-<h1 class="page-title">Season 9</h1>
+<h1 class="page-title">Season 11</h1>
 <p class="page-intro">
-  The Corps from the bottom rung. Season 9 is the Young Star Rangers thread: a raw Deputy's first field posting under a Field Officer who has supervised fourteen of them, on the boundary watch that most civilians mean when they say a Star Ranger came.
+  Below the roof. Season 11 is the first season of the Below the Roof thread: the Pandoids of <a href="/star-rangers/lore/planets/fliade/">Fliade</a> on their own ground, in the warm deep beneath a frozen surface, met from inside for the first time and written for the child reader.
 </p>
 <p class="page-intro">
-  A season that stands alone and shares its year with Season 1: no prior reading required, and readers of the main line may recognise a cadet passing through.
+  A season that stands alone: no prior reading required. Readers of the survey record will recognise the world and may recognise one of its people.
 </p>
-<p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (9 | threadForSeason).id }}/">{{ (9 | threadForSeason).name }}</a></p>
+<p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (11 | threadForSeason).id }}/">{{ (11 | threadForSeason).name }}</a></p>
 
-{% set seasonNumber = "9" %}
+{% set seasonNumber = "11" %}
 {% set hasSeasonChapters = false %}
 {% set currentEpisode = "" %}
 {% for chapter in collections.chapters %}
@@ -33,7 +33,7 @@ permalink: /seasons/s09/
       {% set currentEpisode = episodeValue %}
       <div class="season-block">
         <h2 class="season-block__title">
-          <a href="/star-rangers/seasons/s09/e{{ chapter.data.episode | zeroPad }}/">Episode {{ chapter.data.episode }}</a>
+          <a href="/star-rangers/seasons/s11/e{{ chapter.data.episode | zeroPad }}/">Episode {{ chapter.data.episode }}</a>
         </h2>
         <ul class="chapter-list" role="list">
     {% endif %}
