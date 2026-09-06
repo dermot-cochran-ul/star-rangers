@@ -776,20 +776,17 @@ Raised in `intake-2026-09-06.md` (Dermot: *A dangerous Teddy Bear, actually a
 Pandoid, soft and warm, but never weak or foolish*). Drafted the same session as
 `src/characters/teddy.md`, observational register, no chapter. Open:
 
-- **Commitment 3 of the intake** — a Pandoid has moved a survey relay to the
-  party's own furthest mark. Two readings filed on the page, neither chosen,
-  and it is the one act that answers Fliade's asymmetry from the other side.
-  The Fliade entry's *they were arrived at* still holds; whether Dermot wants
-  it to be half of the situation rather than the whole is his. **The PR stops
-  on this.**
+- ~~**Commitment 3 of the intake**~~ — **approved by Dermot the same day**
+  (*Approved*, fourth section): a Pandoid has moved a survey relay to the
+  party's own furthest mark, and the Fliade entry's *they were arrived at* is
+  now half of the situation. Canon.
 - ~~**Where the character lives**~~ — **answered by Dermot the same day**:
   *Pandoid thread in child reader tier* (third section of the intake). The
   page stays the survey's side; whether Teddy is the thread's protagonist is
   open below.
-- **The page title** — *Teddy* as drafted, or *Individual Four* with *Teddy*
-  as alias. No endonym exists to use.
-- **Size** — smaller-than-adult with age unfixed as drafted, a cub, or a small
-  adult. (b) commits the record to Pandoid young and is the expensive one.
+- ~~**The page title**~~ and ~~**size**~~ — **approved as drafted**: *Teddy*,
+  smaller than the adults, age unfixed. Whether the thread's protagonist is a
+  cub is the thread's question now, below.
 - **The face.** Canon describes none. The image prompt queued in `images.md`
   describes a body and stops; generating it needs his description first.
 
