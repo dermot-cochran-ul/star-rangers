@@ -2,8 +2,8 @@
 layout: journal-entry.njk
 title: "The Picture the Maths Was Invented to Replace"
 date: "2026-09-06"
-description: "Why mathematical abstractions resist intuition, why popular science keeps handing back the image the formalism was built to escape, and the one rule that follows for writing a higher-dimensional being: give the reader the constraint and the instrument reading, not the picture."
-tags: [craft, physics, cosmology, editorial]
+description: "Why mathematical abstractions resist intuition, why popular science keeps handing back the image the formalism was built to escape, and the one rule that follows for writing a higher-dimensional being: give the reader the constraint and the instrument reading, not the picture. Then the two questions that followed: when intuition should not be trusted and when analysis costs too much, and whether machine learning is intuition by another name."
+tags: [craft, physics, cosmology, editorial, method]
 ---
 
 A conversation this morning started from a plain question — why are mathematical abstractions so unintuitive, and so often flatly misunderstood in popular scientific media? — and ended somewhere I had already been without noticing: at the rule this setting uses for its dragons.
@@ -33,3 +33,28 @@ The same move sits under [Membrane Shadows](/star-rangers/lore/membrane-shadows/
 So the rule, written down now that I can see it was already in use. **A higher-dimensional being shown through what it can and cannot do stays true. One shown as a place you could visit inherits every error the rubber sheet ever made.** Give the reader the constraint and the instrument reading. Let the register be mythic if it wants to be — dragons, fae, saints, all welcome — but keep the mechanism specified, bounded and instrumented, and let the witness supply the figure, since a witness always will. The reader who wants to know what a Levril *really* looks like is asking the wavefunction question, and the honest answer is the same in both cases: the record can tell you what the detector read, and it can tell you what the thing cannot do, and past that it would be handing you a picture that the whole apparatus was built to do without.
 
 That is the craft version of a lesson I keep relearning in different rooms: the thing that feels like a gap in the explanation is very often the explanation working.
+
+## The two questions that followed
+
+Having agreed all that, I asked the two questions it begs. When should I *not* trust intuition, and when is the cost of the mathematical analysis too high to pay? And does machine learning resemble intuition? They turn out to have one answer underneath, which is why they belong in the same entry.
+
+Intuition is compressed experience, and it is reliable exactly where that experience was gathered under conditions that let it compress well. So the first question is really *how was this intuition trained?*, and the places to distrust it follow from the answer.
+
+- **Outside the scale it was trained on.** Very large, very small, very fast, high-dimensional, or very many. Probability and compounding are the everyday cases: base rates, conditional probability, exponential growth and correlated tail risks all feel wrong when they are right. This is the first half of the entry again, from the other side.
+- **Where feedback was absent, delayed or noisy.** Kahneman and Klein settled this between them, from opposite starting positions. Chess, firefighting and clinical nursing give fast, clear feedback, so the experts there have real intuition. Stock picking, long-range forecasting and hiring give slow, ambiguous feedback, so confidence there tracks nothing at all.
+- **Where something is optimising against you.** Fraud, security, markets, negotiation. An adversary models your intuitions and plays them.
+- **Where the answer is a magnitude rather than a direction.** Intuition is decent at sign and poor at size. It will tell you a bridge needs to be strong and not how strong.
+- **Where the answer feels fluent.** Ease of recall, familiarity and narrative coherence all feel like truth, and none of them is evidence. This is the popular-science failure at the scale of one mind.
+- **Where the decision is one-shot and irreversible.** Intuition earns its keep through repetition and correction. A decision made once, with no undo, gives it neither.
+
+The analysis, in turn, costs too much when the error is cheap and reversible, so that trying it is cheaper than modelling it; when the answer would arrive after the decision, since a correct answer delivered late is worth nothing; when the inputs are worse than the intuition, because a formal model on guessed parameters gives false precision and is only as good as its least-known input; when the problem is not yet well-posed, because formalising forces a frame, and if you cannot say what the objective is then the frame you choose is itself an intuition, now hidden inside equations; and when the domain is kind and the expert is seasoned, because their intuition already *is* the analysis, compressed.
+
+The working rule I have settled on: let intuition generate and analysis verify, and spend the analysis where an error would be silent, expensive or repeated. Repeated decisions amortise the cost of building the model once. A Fermi estimate in the middle decides which regime you are in — when the back of the envelope agrees with the gut, stop; when they disagree, the disagreement is the signal that the full analysis is worth paying for.
+
+Then the second question, and the answer is yes, closely enough to be diagnostic rather than decorative. Machine learning and intuition are both learned pattern completion from experience. Both are fast, parallel, and produce an answer with confidence and no derivation attached. Both fail the same ways: out of distribution, on superficial features that happened to correlate with the answer in training, and by confabulating fluently when there is nothing to retrieve — a hallucination is a confabulation with the same shape. Both are trustworthy in kind environments with dense feedback, which is why vision and language went first, and unreliable in wicked ones, which is why long-horizon forecasting has not.
+
+The differences are worth naming so the analogy does not overrun. It is functional, not mechanistic; nobody has shown a brain doing gradient descent. A model has no stakes and no body. And it has no native *this feels unfamiliar* signal, which is the one thing a good expert does have. That last gap is, as it happens, what the other repositories I keep are mostly about — giving a model an epistemic-uncertainty reading it would otherwise lack, and putting gates around what it is allowed to turn into a belief — so it was a small surprise to find the same rule waiting there as in the dragon entry.
+
+Because the rule does carry over unchanged. The model is the intuition. The calculator, the prover, the test suite and the gate are the analysis. A reasoning model writing its steps out is a person doing the sum longhand on top of the same substrate. Use the one to generate and the checkable thing to verify, and spend the verification where errors would be silent. A system that skips that step has the exact failure profile of an overconfident expert in a wicked domain, only faster and at scale.
+
+Which brings it back round. A dragon in this setting is filed by its signature because the witness's picture is the intuitive completion of something outside the range intuition was built for. The record's answer is the instrument reading and the table of what the thing cannot do. That is not a stylistic preference. It is the same discipline as writing down when to stop trusting a gut, and the same one as putting a gate in front of a model: know where the compression was trained, and past that edge, trust only what can be checked.
