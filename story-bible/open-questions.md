@@ -801,26 +801,36 @@ put as choices in the intake:
   (recommended), undercover-pets.com by one line, or wait for chapters.
 - **The thread's name** — *Below the Roof* is a working title; the endonym
   would be the only name that is not the observers'.
-- **The endonym and naming system**, and **pronouns** — his, before a line is
-  drafted; registered like the Chthonari's.
-- **A Pandoid section in `mind-design.md`**, including whether their memory
-  works as ours, which a thread from inside cannot leave open.
-- **Pandoid young**, and whether Teddy is the protagonist, a new Pandoid is,
-  or an ensemble with Teddy in it.
+- **The endonym and naming system** — still his. The first chapter renders
+  every name in translation (*Stone-First* as a telling, the youngest
+  unnamed) and takes no phonetic form; whether names are tellings as a rule,
+  and what the people call themselves, is the one item of this list no
+  chapter has decided.
+- ~~**Pronouns**~~ — **settled by the approved chapter**: the record's
+  default *they*, used sparingly; no pronoun system registered.
+- ~~**A Pandoid section in `mind-design.md`**~~ — **written 6 September**,
+  derived from the record with its open items marked; memory ordinary and
+  unasserted, a practice of the record rather than a property of recall.
+- ~~**Pandoid young**, and whether Teddy is the protagonist~~ — **settled by
+  the approved chapter**: Teddy is the youngest, in an ensemble with
+  Stone-First (choice 6(c) of the third section).
 - **One strand or two** — a survey-side strand would give the relay its second
-  telling; convergence fixed first.
-- **The Fliade entry's observational sentence** dates when the first chapter
-  lands; the in-story explanation is the thread's first job.
+  telling; convergence fixed first. Still open.
+- ~~**The Fliade entry's observational sentence**~~ — **left as it stands**,
+  choice (a) of the eleventh section: the sentence is about what the Archive
+  holds, and the chapters carry an interior it does not. The in-story route
+  by which a telling reaches the survey is still the thread's later job.
+- **What the relay was, for chapter two** — approving the chapter chose
+  nothing here; the three choices of the eleventh section stand, with (c),
+  the youngest's own reason, recommended. His, before chapter two is drafted.
 
-**First chapter drafted 6 September 2026 at Dermot's ask** — *Nobody Looked
-Up* (S11E01C01), with a page for Stone-First and a Pandoid section in
-`mind-design.md` written first (`intake-2026-09-06.md`, eleventh section).
-The PR stops on the readings it took: names rendered in translation and the
-youngest unnamed (the naming system still his); pronoun *they*; Teddy as the
-youngest, in an ensemble; memory ordinary and unasserted; the Fliade sentence
-left as it stands (chapters are narrative, not Archive holdings — put as a
-choice); the year 2832 UCSD as an assumption from the Anstolik codex; which
-reading of the relay chapter two takes, put as a choice.
+**First chapter drafted and approved 6 September 2026** — *Nobody Looked Up*
+(S11E01C01), drafted at Dermot's ask with a page for Stone-First and the
+Pandoid section of `mind-design.md` written first, held on the readings it
+took, and merged as PR #725 on his *Approved* the same evening
+(`intake-2026-09-06.md`, eleventh section, *Approved* subsection). Its six
+`canon_facts` bind. The year, 2832 UCSD, is an assumption from the Anstolik
+codex that the chapter has now published.
 
 ## Images — awaiting review or triage
 

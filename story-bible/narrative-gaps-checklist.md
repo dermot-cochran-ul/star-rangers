@@ -32,7 +32,7 @@ Per `lib/storyline-threads.js`. Each is a self-contained narrative with its own 
 | **Tissadelle Shepherd's Arc** | 1, 3, 5, 6, 7 | 27 | The spine. Ends written; middle thin |
 | **Undercover Pets** | 2 | 9 | Substantial and unlisted until now |
 | **Orbital Five-O** | 4 | 1 | **A thread on one chapter** |
-| **Below the Roof** | 11 | 1 | **A thread on one chapter** — S11E01C01 drafted 2026-09-06, PR stopped on its readings |
+| **Below the Roof** | 11 | 1 | **A thread on one chapter** — S11E01C01 drafted and approved 2026-09-06 (PR #725); the endonym and what the relay was still his |
 | **Church Space** | 8 | 1 | **A thread on one chapter** |
 
 ---
